@@ -1,10 +1,10 @@
 ---
 title: Welcome to EBT-Vue
-description: Wiki welcome page
-img: greg-rosenke-bJdK9v-VVw0-unsplash.png
+description: A web framework foundation for EBT-Sites
+img: pexels-sadaham-yathra-776291.png
 img-alt: A picture of building blocks
 link: https://github.com/ebt-site/ebt-vue
-order: 9999
+order: 1
 ---
 
 ## Overview

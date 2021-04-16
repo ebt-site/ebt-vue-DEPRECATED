@@ -15,16 +15,24 @@ import ro from './src/i18n/ro.ts'
 import si from './src/i18n/si.ts'
 import vi from './src/i18n/vi.ts'
 import routes from './nuxt-routes.json'
+import yaml from 'js-yaml';
+import fs from 'fs';
+const EBT_SITE_YAML = yaml.safeLoadAll(fs.readFileSync('./ebt-site.yaml'))[0] || {};
 
 const path = require('path');
 const { logger } = require('log-instance');
-let ebtRepo = require('./ebt-repo.json');
-let env = {
-    ebt_account: ebtRepo.account,
-    ebt_repository: ebtRepo.repository,
-}
+let {
+    account: ebt_account,
+    repository: ebt_repository,
+} = require('./ebt-repo.json');
+let {
+    ebt_lang=null,
+    ebt_site_image='amanda-flavell-9XSLoMlVhYU-unsplash.png',
+    ebt_site_title='EBT-Site',
+} = EBT_SITE_YAML;
+
 var { name } = require('./package.json');
-var appName = ebtRepo.repository || name.split('/').filter(n=>n.length).pop();
+var appName = ebt_repository || name.split('/').filter(n=>n.length).pop();
 var routerBase;
 var babelCompact;
 if (!routerBase) {
@@ -32,6 +40,13 @@ if (!routerBase) {
     routerBase = `/${appName}/`;
     babelCompact = BABEL_ENV === 'deploy' ? true : false;
 }
+let env = {
+    ebt_lang,
+    ebt_account,
+    ebt_repository,
+    ebt_site_image,
+    ebt_site_title,
+};
 logger.info(`nuxt.config.js`, {env, routerBase, babelCompact});
 
 export default {

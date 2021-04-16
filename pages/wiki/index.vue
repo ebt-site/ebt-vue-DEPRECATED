@@ -9,8 +9,8 @@
   export default {
     async asyncData({ $content, params }) {
       const items = await $content('wiki')
-        .only(['title', 'description', 'img', 'slug', 'author'])
-        .sortBy('title', 'asc')
+        .only(['title', 'order', 'description', 'img', 'slug', 'author'])
+        .sortBy('order', 'title', 'asc')
         .fetch()
 
       return {

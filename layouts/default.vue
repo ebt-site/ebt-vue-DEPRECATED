@@ -1,7 +1,16 @@
 <template>
   <v-app >
     <v-app-bar dark :clipped-left="clipped" fixed app hide-on-scroll >
-      <ebt-app-bar title="EBT-Vue" :imgUrl="siteImage">
+      <ebt-app-bar 
+        :title="ebtSiteTitle"
+        :imgUrl="ebtSiteImage"
+        :monolingual="ebtLang"
+        >
+        <v-btn icon class="ebt-icon-btn" 
+          title="Github"
+          :href="githubUrl" target="_blank">
+          <v-icon>{{ mdiGithub }}</v-icon>
+        </v-btn>
         <v-btn icon to="/components" class="ebt-icon-btn" >
           <v-icon class="ebt-settings-icon">{{mdiMenu}}</v-icon>
         </v-btn>
@@ -28,6 +37,7 @@ const JS = {
 }
 import {
   mdiMenu,
+  mdiGithub,
 } from "@mdi/js";
 let {
   EbtAppBar,
@@ -43,6 +53,7 @@ export default {
     return {
       clipped: false,
       mdiMenu,
+      mdiGithub,
     }
   },
   methods: {
@@ -54,8 +65,21 @@ export default {
     version() {
       return version;
     },
-    siteImage() {
-      return 'greg-rosenke-bJdK9v-VVw0-unsplash.png';
+    ebtLang() {
+        return this.$nuxt.context.env.ebt_lang;
+    },
+    ebtSiteImage() {
+        return this.$nuxt.context.env.ebt_site_image;
+    },
+    ebtSiteTitle() {
+        return this.$nuxt.context.env.ebt_site_title;
+    },
+    githubUrl() {
+        let {
+          ebt_repository,
+          ebt_account,
+        } = this.$nuxt.context.env;
+        return `https://github.com/${ebt_account}/${ebt_repository}`;
     },
   },
 }

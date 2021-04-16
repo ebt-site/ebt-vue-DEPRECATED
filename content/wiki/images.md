@@ -1,7 +1,7 @@
 ---
-title: images title
-description: images description
-img: candle.png
+title: EBT-Vue Images
+description: Image sources
+img: benjamin-balazs-xtiGzOiJe1Q-unsplash.png
 img-alt: Generic image for images 
 slugDir: images
 order: 9999
