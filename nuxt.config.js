@@ -17,7 +17,7 @@ import vi from './src/i18n/vi.ts'
 import routes from './nuxt-routes.json'
 import yaml from 'js-yaml';
 import fs from 'fs';
-const EBT_SITE_YAML = yaml.safeLoadAll(fs.readFileSync('./ebt-site.yaml'))[0] || {};
+const EBT_SITE_YAML = yaml.loadAll(fs.readFileSync('./ebt-site.yaml'))[0] || {};
 
 const path = require('path');
 const { logger } = require('log-instance');
