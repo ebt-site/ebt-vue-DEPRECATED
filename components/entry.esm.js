@@ -1,7 +1,7 @@
 
 // Import vue components
 //import * as components from '@/lib-components/index';
-import * as components from './index';
+import * as components from './vue-index';
 
 // install function executed by Vue.use()
 const install = function installEbtVue(Vue) {
@@ -15,4 +15,4 @@ export default install;
 
 // To allow individual component use, export components
 // each can be registered via Vue.component()
-export * from './index';
+export * from './vue-index';

@@ -12,7 +12,7 @@
 
 <script>
 import Vue from 'vue';
-import { EbtVue } from './index';
+import { EbtVue } from './vue-index';
 import EbtSearchField from './ebt-search-field';
 import EbtResults from './ebt-results';
 import EbtSettings from './ebt-settings';

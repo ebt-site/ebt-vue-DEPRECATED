@@ -5,7 +5,7 @@
     </ebt-article>
   </template>
   <script>
-    const { EbtArticle, EbtImageInfo } = require('@/components');
+    import { EbtArticle, EbtImageInfo } from '@/components/vue-index';
     export default {
       async asyncData({ $content, params }) {
         const article = await $content('images', params.slug).fetch()
