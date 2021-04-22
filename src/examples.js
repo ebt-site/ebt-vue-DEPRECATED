@@ -667,6 +667,8 @@
     "heart’s release by love",
     "heat is generated",
     "heed attention wholeheartedly",
+    "hell called",
+    "hell of",
     "herbs, millet",
     "honey tip",
     "hopefully that’ll happen",
