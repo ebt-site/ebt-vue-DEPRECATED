@@ -12,7 +12,7 @@ if [ -e $ED ]; then
   git pull
   popd > /dev/null
 else
-  echo -e "$SCRIPT: cloning $ED"
+  echo "$SCRIPT: cloning $ED"
   mkdir -p local
   git clone https://github.com/ebt-site/ebt-data $ED
 fi
@@ -22,6 +22,14 @@ rm -rf api/Seeker*
 $DIR/js/build.js
 
 if [ "$1" == "PUSH" ]; then
-  $DIR/git-commit-version PUSH &&\
-  $DIR/publish-npm
+  $DIR/git-commit-version PUSH; RC=$?
+  if [ "$RC" == "42" ]; then
+    echo "$SCRIPT: no changes to commit"
+  elif [ "$RC" == "0"; ]; then
+    echo "$SCRIPT: updating npm"
+    $DIR/publish-npm
+  else
+    echo "$SCRIPT: exiting with error code $RC"
+    exit $RC;
+  fi
 fi
