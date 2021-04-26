@@ -28,6 +28,7 @@
   },
   "scripts": {
     "build": "scripts/build",
+    "schedule-action":"scripts/build PUSH",
     "build:examples": "scripts/js/build.js",
     "build:routes": "scripts/nuxt-routes.js",
     "build:generate-dist": "export CI=; echo CI=$CI; nuxt generate",

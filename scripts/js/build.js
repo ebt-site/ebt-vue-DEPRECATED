@@ -40,17 +40,11 @@ ${json}
         repo: 'https://github.com/ebt-site/ebt-data.git',
         logger,
     });
-    let bilaraData = new BilaraData({
-        name: 'ebt-data',
-        branch: 'published',
-        execGit,
-    });
-    await bilaraData.initialize();
-
     let exampleFiles = (await fs.promises.readdir(EXAMPLES_DIR))
         .filter(f=>/examples-/.test(f));
     logger.info(`exampleFiles`, exampleFiles);
 
+    let bilaraData;
     let examples = {};
     let languages = [];
     for (exampleFile of exampleFiles) {
@@ -83,6 +77,14 @@ ${json}
         storeName,
         storePath,
     });
+    bilaraData = new BilaraData({
+        name: 'ebt-data',
+        branch: 'published',
+        execGit,
+        examples,
+    });
+    await bilaraData.initialize();
+
     let matchHighlight = '<span class="ebt-matched">$&</span>';
     let skr = await new Seeker({
         bilaraData,
