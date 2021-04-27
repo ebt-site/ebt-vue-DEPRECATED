@@ -4,7 +4,7 @@
         Settings,
     } = require("../src/index");
 
-    it("TESTTESTdefault ctor", async()=>{
+    it("default ctor", async()=>{
         var ebt = new Settings();
         should(ebt).properties({
             audio: Settings.AUDIO.OGG,
@@ -26,7 +26,7 @@
 
         });
     });
-    it("TESTTESTcustom ctor", async()=>{
+    it("custom ctor", async()=>{
         let maxHistory = 1000;
         let showId = true;
         let showPali = false;
@@ -53,7 +53,7 @@
             history,
         });
     });
-    it("TESTTESTstringify() fits a cookie", ()=>{
+    it("stringify() fits a cookie", ()=>{
         let maxHistory = 24;
         let history = [
             'one',

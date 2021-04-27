@@ -1,0 +1,86 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "hier auf der stelle kühl",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "hier auf der stelle kühl",
+    "method": "phrase",
+    "resultPattern": "\\bhier auf der stelle kühl",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an4/an4.195_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.195_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.195_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an4.195/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.195_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.195_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.195_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.195",
+        "lang": "de",
+        "segMap": {
+          "an4.195:10.9": {
+            "scid": "an4.195:10.9",
+            "pli": "‘kāyassa bhedā uddhaṁ jīvitapariyādānā idheva sabbavedayitāni anabhinanditāni sītī bhavissantī’ti pajānāti. ",
+            "de": "Er versteht: ‚Wenn mein Körper auseinanderbricht und mein Leben zu Ende gegangen ist, wird alles Gefühlte, da es nicht länger genossen wird, <span class=\"ebt-matched\">hier auf der Stelle kühl</span> werden.‘ ",
+            "en": "They understand: ‘When my body breaks up and my life has come to an end, everything that’s felt, being no longer relished, will become cool right here.’ ",
+            "matched": true
+          },
+          "an4.195:12.9": {
+            "scid": "an4.195:12.9",
+            "pli": "‘kāyassa bhedā uddhaṁ jīvitapariyādānā idheva sabbavedayitāni anabhinanditāni sītī bhavissantī’ti pajānāti”. ",
+            "de": "Er versteht: ‚Wenn mein Körper auseinanderbricht und mein Leben zu Ende gegangen ist, wird alles Gefühlte, da es nicht länger genossen wird, <span class=\"ebt-matched\">hier auf der Stelle kühl</span> werden.‘“ ",
+            "en": "They understand: ‘When my body breaks up and my life has come to an end, everything that’s felt, being no longer relished, will become cool right here.’” ",
+            "matched": true
+          }
+        },
+        "score": 2.022,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 4\n20. Das große Kapitel\n195. Mit Vappa",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 89,
+          "de": 88,
+          "en": 88
+        }
+      }
+    ]
+  }
+}

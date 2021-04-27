@@ -1,0 +1,79 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "so hat der buddha es erklärt",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "so hat der buddha es erklärt",
+    "method": "phrase",
+    "resultPattern": "\\bso hat der buddha es erklärt",
+    "segsMatched": 1,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an6/an6.44_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an6/an6.44_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an6/an6.44_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an6.44/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an6/an6.44_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an6/an6.44_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an6/an6.44_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an6.44",
+        "lang": "de",
+        "segMap": {
+          "an6.44:2.7": {
+            "scid": "an6.44:2.7",
+            "pli": "“Evaṁ kho panetaṁ, bhagini, bhagavatā byākatan”ti. ",
+            "de": "„Du hast recht, Schwester, aber <span class=\"ebt-matched\">so hat der Buddha es erklärt</span>.“ ",
+            "en": "“You’re right, sister, but that’s how the Buddha declared it.” ",
+            "matched": true
+          }
+        },
+        "score": 1.013,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 6\n5. Über Dhammika\n44. Mit Migasālā",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 77,
+          "de": 66,
+          "en": 76
+        }
+      }
+    ]
+  }
+}

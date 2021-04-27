@@ -1,8 +1,8 @@
 const {
     BilaraWeb,
-    Examples,
     Settings,
 } = require('../src/index');
+const examples = require('../api/examples.json');
 
 var bilaraWeb;
 
@@ -23,7 +23,7 @@ export const state = () => ({
     searchResults: {},
     settings: Object.assign({}, new Settings()),
     sutta: DEFAULT.sutta,
-    examples: Examples.examples,
+    examples,
     voices: [],
 })
 

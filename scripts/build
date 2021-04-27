@@ -19,6 +19,7 @@ fi
 
 npm install --save scv-bilara@latest
 rm -rf api/Seeker*
+rm -f local/examples.json
 $DIR/js/build.js
 
 if [ "$1" == "PUSH" ]; then
