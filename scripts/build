@@ -20,7 +20,8 @@ fi
 npm install --save scv-bilara@latest
 rm -rf api/Seeker*
 rm -f local/examples.json
-$DIR/js/build.js
+$DIR/js/examples.js
+$DIR/js/authors.js
 
 if [ "$1" == "PUSH" ]; then
   $DIR/git-commit-version PUSH; RC=$?
