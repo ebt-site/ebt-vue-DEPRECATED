@@ -2,6 +2,9 @@
   <div v-if="sutta && sutta.sutta_uid" class="ebt-sutta" >
     <header class="ebt-header-class">
       <ebt-history :js="js" />
+      <div class="ebt-author" v-if="author">
+        {{$t('translatedBy')}} {{author.name}}
+      </div>
     </header>
     <div class="ebt-text-container" @click="textClicked($event)">
       <div v-for="seg in segments" :key="seg.scid" 
@@ -93,7 +96,10 @@ export default {
     },
     lang() {
       return this.sutta.lang || 'en';
-    }
+    },
+    author() {
+      return this.bilaraWeb.authors[this.sutta.translator];
+    },
   },
 }
 </script>

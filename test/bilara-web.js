@@ -45,6 +45,15 @@
         should(bw.isExample('Wurzel des Leidens', 'de')).equal(true);
         should(bw.isExample('wurzel des leidens', 'de')).equal(true);
     });
+    it("TESTTESTauthors(...) => supported authors", async()=>{
+        let bw = new BilaraWeb({fetch});
+        let authors = bw.authors;
+        should.deepEqual(authors.sabbamitta, {
+            lang: 'de',
+            name: 'Anagarika Sabbamitta',
+            type: 'translator',
+        });
+    });
     it("exampleGuid(...) => en guid", async()=>{
         let bw = new BilaraWeb({fetch});
         let example = 'root of suffering';

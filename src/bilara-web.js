@@ -3,6 +3,7 @@
     const { MerkleJson } = require('merkle-json');
     const { examples } = require('./examples.js');
     const SUID_MAP = require('scv-bilara/src/auto/suidmap.json');
+    const AUTHORS = require('../api/authors.json');
     const SuttaCentralId = require('scv-bilara/src/sutta-central-id');
 
     class BilaraWeb {
@@ -23,6 +24,7 @@
             }, opts.endpoints);
             this.fetch = opts.fetch;
             this.host = opts.host || 'https://raw.githubusercontent.com';
+            this.authors = AUTHORS;
             this.includeUnpublished = opts.includeUnpublished === true;
             this.suttaCache = {};
             let matchHighlight = this.matchHighlight = opts.matchHighlight ||
