@@ -1,0 +1,79 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "allem leiden",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "allem leiden",
+    "method": "phrase",
+    "resultPattern": "\\ballem leiden",
+    "segsMatched": 1,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/kn/thig/thig10.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thig/thig10.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thig/thig10.1_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "thig10.1/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thig/thig10.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thig/thig10.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thig/thig10.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thig10.1",
+        "lang": "de",
+        "segMap": {
+          "thig10.1:2.4": {
+            "scid": "thig10.1:2.4",
+            "pli": "Sabbehipi dukkhehi pamucceyya.",
+            "de": "würdest du von <span class=\"ebt-matched\">allem Leiden</span> befreit. ",
+            "en": "you would be freed from all suffering.",
+            "matched": true
+          }
+        },
+        "score": 1.02,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Nonnen\nDas Elferbuch\n10.1. Kisāgotamī",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 50,
+          "de": 48,
+          "en": 48
+        }
+      }
+    ]
+  }
+}
