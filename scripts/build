@@ -27,7 +27,7 @@ if [ "$1" == "PUSH" ]; then
   $DIR/git-commit-version PUSH; RC=$?
   if [ "$RC" == "42" ]; then
     echo "$SCRIPT: no changes to commit"
-  elif [ "$RC" == "0"; ]; then
+  elif [ "$RC" == "0" ]; then
     echo "$SCRIPT: updating npm"
     $DIR/publish-npm
   else
