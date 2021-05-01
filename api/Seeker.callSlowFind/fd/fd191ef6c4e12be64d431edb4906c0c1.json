@@ -1,0 +1,79 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "von sprache",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "von sprache",
+    "method": "phrase",
+    "resultPattern": "\\bvon sprache",
+    "segsMatched": 1,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn15_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn15_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn15_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "dn15/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn15_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn15_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn15_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn15",
+        "lang": "de",
+        "segMap": {
+          "dn15:22.6": {
+            "scid": "dn15:22.6",
+            "pli": "Ettāvatā adhivacanapatho, ettāvatā niruttipatho, ettāvatā paññattipatho, ettāvatā paññāvacaraṁ, ettāvatā vaṭṭaṁ vattati itthattaṁ paññāpanāya yadidaṁ nāmarūpaṁ saha viññāṇena aññamaññapaccayatā pavattati. ",
+            "de": "Bis zu diesem Punkt erstreckt sich die Reichweite <span class=\"ebt-matched\">von Sprache</span>, Ausdrucksweise und Beschreibung; erstreckt sich der Bereich der Weisheit; setzt sich der Kreislauf der Wiedergeburten fort, so dass es diesen Daseinszustand gibt: nämlich, dass Name und Form und Bewusstsein in wechselseitiger Abhängigkeit stehen. ",
+            "en": "This is how far the scope of language, terminology, and description extends; how far the sphere of wisdom extends; how far the cycle of rebirths proceeds so that this state of existence is to be found; namely, name and form together with consciousness. ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 15\nDie große Lehrrede über das Kausalprinzip\n1. Abhängiges Entstehen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 277,
+          "de": 254,
+          "en": 276
+        }
+      }
+    ]
+  }
+}
