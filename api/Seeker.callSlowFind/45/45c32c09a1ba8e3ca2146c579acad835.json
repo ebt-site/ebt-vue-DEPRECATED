@@ -32,8 +32,11 @@
     "pattern": "nimm meinen fehler",
     "method": "phrase",
     "resultPattern": "\\bnimm meinen fehler",
-    "segsMatched": 3,
+    "segsMatched": 4,
     "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn140_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn140_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn140_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn25_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn25_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn25_translation-en-sujato.json",
@@ -45,6 +48,7 @@
       "translation/en/sujato/sutta/an/an3/an3.91_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "mn140/de/sabbamitta",
       "dn25/de/sabbamitta",
       "an4.159/de/sabbamitta",
       "an3.91/de/sabbamitta"
@@ -112,6 +116,38 @@
           "pli": 65,
           "de": 64,
           "en": 64
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn140_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn140_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn140_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn140",
+        "lang": "de",
+        "segMap": {
+          "mn140:33.4": {
+            "scid": "mn140:33.4",
+            "pli": "Tassa me, bhante, bhagavā accayaṁ accayato paṭiggaṇhātu āyatiṁ saṁvarāyā”ti. ",
+            "de": "Bitte, Herr, <span class=\"ebt-matched\">nimm meinen Fehler</span> als Fehler an, und ich will mich in Zukunft zügeln.“ ",
+            "en": "Please, sir, accept my mistake for what it is, so I will restrain myself in future.” ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 140\nDie Aufgliederung der Elemente",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 239,
+          "de": 229,
+          "en": 238
         }
       },
       {

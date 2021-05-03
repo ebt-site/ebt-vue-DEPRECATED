@@ -32,13 +32,17 @@
     "pattern": "so hat der buddha es erklärt",
     "method": "phrase",
     "resultPattern": "\\bso hat der buddha es erklärt",
-    "segsMatched": 1,
+    "segsMatched": 2,
     "bilaraPaths": [
+      "root/pli/ms/sutta/an/an6/an6.62_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an6/an6.62_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an6/an6.62_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an6/an6.44_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.44_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an6/an6.44_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "an6.62/de/sabbamitta",
       "an6.44/de/sabbamitta"
     ],
     "mlDocs": [
@@ -72,6 +76,38 @@
           "pli": 77,
           "de": 66,
           "en": 76
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an6/an6.62_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an6/an6.62_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an6/an6.62_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an6.62",
+        "lang": "de",
+        "segMap": {
+          "an6.62:2.6": {
+            "scid": "an6.62:2.6",
+            "pli": "Evaṁ kho panetaṁ, āvuso, bhagavatā byākatan”ti. ",
+            "de": "„Du hast recht, werter Freund, aber <span class=\"ebt-matched\">so hat der Buddha es erklärt</span>.“ ",
+            "en": "“You’re right, reverend, that’s how the Buddha declared it.” ",
+            "matched": true
+          }
+        },
+        "score": 1.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 6\n6. Das große Kapitel\n62. Menschenkenntnis",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 157,
+          "de": 118,
+          "en": 156
         }
       }
     ]

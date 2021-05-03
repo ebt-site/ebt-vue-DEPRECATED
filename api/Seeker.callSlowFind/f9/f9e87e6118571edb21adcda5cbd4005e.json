@@ -32,7 +32,7 @@
     "pattern": "gewissen und zurückhaltung",
     "method": "phrase",
     "resultPattern": "\\bgewissen und zurückhaltung",
-    "segsMatched": 29,
+    "segsMatched": 31,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an2/an2.180-229_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an2/an2.180-229_translation-de-sabbamitta.json",
@@ -57,7 +57,10 @@
       "translation/en/sujato/sutta/an/an2/an2.87-97_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an2/an2.230-279_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an2/an2.230-279_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an2/an2.230-279_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an2/an2.230-279_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.105_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.105_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.105_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an2.180-229/de/sabbamitta",
@@ -67,7 +70,8 @@
       "dn33/de/sabbamitta",
       "an6.45/de/sabbamitta",
       "an2.87-97/de/sabbamitta",
-      "an2.230-279/de/sabbamitta"
+      "an2.230-279/de/sabbamitta",
+      "an10.105/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -361,6 +365,45 @@
           "pli": 894,
           "de": 754,
           "en": 891
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.105_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.105_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.105_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.105",
+        "lang": "de",
+        "segMap": {
+          "an10.105:1.1": {
+            "scid": "an10.105:1.1",
+            "pli": "“Avijjā, bhikkhave, pubbaṅgamā akusalānaṁ dhammānaṁ samāpattiyā, anvadeva ahirikaṁ anottappaṁ. ",
+            "de": "„Mönche und Nonnen, Unwissenheit geht dem Erlangen untauglicher Eigenschaften voraus, und Gewissenlosigkeit und fehlende Zurückhaltung folgen. ",
+            "en": "“Mendicants, ignorance precedes the attainment of unskillful qualities, with lack of conscience and prudence following along. ",
+            "matched": true
+          },
+          "an10.105:2.1": {
+            "scid": "an10.105:2.1",
+            "pli": "Vijjā, bhikkhave, pubbaṅgamā kusalānaṁ dhammānaṁ samāpattiyā, anvadeva hirottappaṁ. ",
+            "de": "Wissen geht dem Erlangen tauglicher Eigenschaften voraus, und <span class=\"ebt-matched\">Gewissen und Zurückhaltung</span> folgen. ",
+            "en": "Knowledge precedes the attainment of skillful qualities, with conscience and prudence following along. ",
+            "matched": true
+          }
+        },
+        "score": 2.25,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10\n11. Wahrnehmungen für Asketen\n105. Wissen",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 8,
+          "de": 7,
+          "en": 7
         }
       },
       {

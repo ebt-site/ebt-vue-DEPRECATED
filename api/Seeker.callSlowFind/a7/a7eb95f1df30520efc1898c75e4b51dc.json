@@ -32,7 +32,7 @@
     "pattern": "gesund",
     "method": "phrase",
     "resultPattern": "\\bgesund",
-    "segsMatched": 40,
+    "segsMatched": 42,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
@@ -46,6 +46,9 @@
       "root/pli/ms/sutta/an/an5/an5.57_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.57_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.57_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thig/thig13.4_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thig/thig13.4_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thig/thig13.4_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn10_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn10_translation-en-sujato.json",
@@ -106,6 +109,7 @@
       "an3.39/de/sabbamitta",
       "an5.130/de/sabbamitta",
       "an5.57/de/sabbamitta",
+      "thig13.4/de/sabbamitta",
       "dn10/de/sabbamitta",
       "an5.228/de/sabbamitta",
       "an5.104/de/sabbamitta",
@@ -499,6 +503,45 @@
           "pli": 76,
           "de": 75,
           "en": 75
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thig/thig13.4_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thig/thig13.4_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thig/thig13.4_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thig13.4",
+        "lang": "de",
+        "segMap": {
+          "thig13.4:12.3": {
+            "scid": "thig13.4:12.3",
+            "pli": "Ārogyaṁ brāhmaṇiṁ vajja,",
+            "de": "Wünsche meiner Brahmanendame gute <span class=\"ebt-matched\">Gesund</span>heit und sage: ",
+            "en": "Bidding my brahmin lady good health, say:",
+            "matched": true
+          },
+          "thig13.4:13.3": {
+            "scid": "thig13.4:13.3",
+            "pli": "Ārogyaṁ brāhmaṇiṁvoca,",
+            "de": "wünschte der Brahmanendame gute <span class=\"ebt-matched\">Gesund</span>heit und sagte: ",
+            "en": "bade the brahmin lady good health, and said:",
+            "matched": true
+          }
+        },
+        "score": 2.017,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Nonnen\nDas Zwanzigerbuch\n13.4. Sundarī",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 119,
+          "de": 118,
+          "en": 118
         }
       },
       {

@@ -32,8 +32,11 @@
     "pattern": "sechs elemente",
     "method": "phrase",
     "resultPattern": "\\bsechs elemente",
-    "segsMatched": 10,
+    "segsMatched": 16,
     "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn140_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn140_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn140_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.61_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.61_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.61_translation-en-sujato.json",
@@ -48,12 +51,80 @@
       "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "mn140/de/sabbamitta",
       "an3.61/de/sabbamitta",
       "dn33/de/sabbamitta",
       "an6.13/de/sabbamitta",
       "dn34/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn140_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn140_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn140_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn140",
+        "lang": "de",
+        "segMap": {
+          "mn140:7.1": {
+            "scid": "mn140:7.1",
+            "pli": "“‘Cha dhāturo ayaṁ, bhikkhu, puriso cha phassāyatano aṭṭhārasa manopavicāro caturādhiṭṭhāno; ",
+            "de": "„‚Dieser Mensch besitzt <span class=\"ebt-matched\">sechs Elemente</span>, sechs Berührungsfelder und achtzehn Arten des Gedankenkreisens. ",
+            "en": "“‘This person has six elements, six fields of contact, and eighteen mental preoccupations. ",
+            "matched": true
+          },
+          "mn140:8.1": {
+            "scid": "mn140:8.1",
+            "pli": "‘Cha dhāturo ayaṁ, bhikkhu, puriso’ti—",
+            "de": "‚Dieser Mensch besitzt <span class=\"ebt-matched\">sechs Elemente</span>.‘ ",
+            "en": "‘This person has six elements.’ ",
+            "matched": true
+          },
+          "mn140:8.3": {
+            "scid": "mn140:8.3",
+            "pli": "Chayimā, bhikkhu, dhātuyo—",
+            "de": "Es gibt diese <span class=\"ebt-matched\">sechs Elemente</span>: ",
+            "en": "There are these six elements: ",
+            "matched": true
+          },
+          "mn140:8.5": {
+            "scid": "mn140:8.5",
+            "pli": "‘Cha dhāturo ayaṁ, bhikkhu, puriso’ti—",
+            "de": "‚Dieser Mensch besitzt <span class=\"ebt-matched\">sechs Elemente</span>.‘ ",
+            "en": "‘This person has six elements.’ ",
+            "matched": true
+          },
+          "mn140:13.2": {
+            "scid": "mn140:13.2",
+            "pli": "Chayimā, bhikkhu, dhātuyo—",
+            "de": "Es gibt diese <span class=\"ebt-matched\">sechs Elemente</span>: ",
+            "en": "There are these six elements: ",
+            "matched": true
+          },
+          "mn140:32.3": {
+            "scid": "mn140:32.3",
+            "pli": "Imaṁ kho me tvaṁ, bhikkhu, saṅkhittena chadhātuvibhaṅgaṁ dhārehī”ti. ",
+            "de": "Mönch, du solltest diese kurze Aufgliederung der <span class=\"ebt-matched\">sechs Elemente</span> in Erinnerung behalten.“ ",
+            "en": "Mendicant, you should remember this brief analysis of the six elements.” ",
+            "matched": true
+          }
+        },
+        "score": 6.025,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 140\nDie Aufgliederung der Elemente",
+        "segsMatched": 6,
+        "langSegs": {
+          "pli": 239,
+          "de": 229,
+          "en": 238
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/an/an3/an3.61_root-pli-ms.json",

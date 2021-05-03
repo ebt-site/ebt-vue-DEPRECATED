@@ -32,7 +32,7 @@
     "pattern": "loslassen aller bindungen",
     "method": "phrase",
     "resultPattern": "\\bloslassen aller bindungen",
-    "segsMatched": 7,
+    "segsMatched": 8,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an10/an10.60_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.60_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/sn/sn6/sn6.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn6/sn6.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn6/sn6.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn140_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn140_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn140_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn14_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json",
@@ -56,6 +59,7 @@
     "suttaRefs": [
       "an10.60/de/sabbamitta",
       "sn6.1/de/sabbamitta",
+      "mn140/de/sabbamitta",
       "dn14/de/sabbamitta",
       "an5.140/de/sabbamitta",
       "an4.114/de/sabbamitta",
@@ -227,6 +231,38 @@
           "pli": 59,
           "de": 50,
           "en": 57
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn140_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn140_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn140_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn140",
+        "lang": "de",
+        "segMap": {
+          "mn140:27.5": {
+            "scid": "mn140:27.5",
+            "pli": "sabbūpadhipaṭinissaggo. ",
+            "de": "das <span class=\"ebt-matched\">Loslassen aller Bindungen</span>. ",
+            "en": "letting go of all attachments. ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 140\nDie Aufgliederung der Elemente",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 239,
+          "de": 229,
+          "en": 238
         }
       },
       {

@@ -32,13 +32,17 @@
     "pattern": "ergreift man nichts in der welt",
     "method": "phrase",
     "resultPattern": "\\bergreift man nichts in der welt",
-    "segsMatched": 1,
+    "segsMatched": 2,
     "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn140_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn140_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn140_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn15_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn15_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn15_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "mn140/de/sabbamitta",
       "dn15/de/sabbamitta"
     ],
     "mlDocs": [
@@ -72,6 +76,38 @@
           "pli": 277,
           "de": 254,
           "en": 276
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn140_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn140_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn140_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn140",
+        "lang": "de",
+        "segMap": {
+          "mn140:22.11": {
+            "scid": "mn140:22.11",
+            "pli": "So anabhisaṅkharonto anabhisañcetayanto bhavāya vā vibhavāya vā na kiñci loke upādiyati, ",
+            "de": "Aus diesem Grund <span class=\"ebt-matched\">ergreift man nichts in der Welt</span>. ",
+            "en": "Because of this, they don’t grasp at anything in the world. ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 140\nDie Aufgliederung der Elemente",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 239,
+          "de": 229,
+          "en": 238
         }
       }
     ]

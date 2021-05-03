@@ -32,7 +32,7 @@
     "pattern": "schwer zu sehen",
     "method": "phrase",
     "resultPattern": "\\bschwer zu sehen",
-    "segsMatched": 12,
+    "segsMatched": 13,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn6/sn6.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn6/sn6.1_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn14_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thig/thig6.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thig/thig6.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thig/thig6.1_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thig/thig3.5_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thig/thig3.5_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thig/thig3.5_translation-en-sujato.json"
@@ -47,6 +50,7 @@
     "suttaRefs": [
       "sn6.1/de/sabbamitta",
       "dn14/de/sabbamitta",
+      "thig6.1/de/sabbamitta",
       "thig3.5/de/sabbamitta"
     ],
     "mlDocs": [
@@ -207,6 +211,38 @@
           "pli": 18,
           "de": 17,
           "en": 17
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thig/thig6.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thig/thig6.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thig/thig6.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thig6.1",
+        "lang": "de",
+        "segMap": {
+          "thig6.1:5.2": {
+            "scid": "thig6.1:5.2",
+            "pli": "duddasaṁ hadayassitaṁ;",
+            "de": "der <span class=\"ebt-matched\">schwer zu sehen</span> ist, versteckt im Herzen. ",
+            "en": "so hard to see, hidden in the heart.",
+            "matched": true
+          }
+        },
+        "score": 1.032,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Nonnen\nDas Sechserbuch\n6.1. Paṭācārā, die eine Gefolgschaft von fünfhundert hatte",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 31,
+          "de": 30,
+          "en": 30
         }
       }
     ]

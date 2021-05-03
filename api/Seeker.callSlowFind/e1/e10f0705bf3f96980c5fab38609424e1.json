@@ -32,7 +32,7 @@
     "pattern": "eindeutig",
     "method": "phrase",
     "resultPattern": "\\beindeutig",
-    "segsMatched": 14,
+    "segsMatched": 15,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an3/an3.21_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.21_translation-de-sabbamitta.json",
@@ -54,7 +54,10 @@
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn24_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn24_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn24_translation-en-sujato.json"
+      "translation/en/sujato/sutta/dn/dn24_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an6/an6.62_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an6/an6.62_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an6/an6.62_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an3.21/de/sabbamitta",
@@ -63,7 +66,8 @@
       "an4.42/de/sabbamitta",
       "an3.67/de/sabbamitta",
       "dn33/de/sabbamitta",
-      "dn24/de/sabbamitta"
+      "dn24/de/sabbamitta",
+      "an6.62/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -273,6 +277,38 @@
           "pli": 250,
           "de": 236,
           "en": 249
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an6/an6.62_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an6/an6.62_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an6/an6.62_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an6.62",
+        "lang": "de",
+        "segMap": {
+          "an6.62:4.2": {
+            "scid": "an6.62:4.2",
+            "pli": "Kathañhi nāma yaṁ mayā ekaṁsena byākataṁ tattha dvejjhaṁ āpajjissati. ",
+            "de": "Wie um alles in der Welt kann er etwas, das ich <span class=\"ebt-matched\">eindeutig</span> erklärt habe, für zweideutig halten? ",
+            "en": "How on earth can he take something that I have declared definitively to be ambiguous? ",
+            "matched": true
+          }
+        },
+        "score": 1.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 6\n6. Das große Kapitel\n62. Menschenkenntnis",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 157,
+          "de": 118,
+          "en": 156
         }
       },
       {

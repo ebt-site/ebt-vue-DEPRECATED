@@ -32,8 +32,11 @@
     "pattern": "kopfhaare, körperhaare",
     "method": "phrase",
     "resultPattern": "\\bkopfhaare, körperhaare",
-    "segsMatched": 5,
+    "segsMatched": 6,
     "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn140_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn140_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn140_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn10_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn10_translation-en-sujato.json",
@@ -51,6 +54,7 @@
       "translation/en/sujato/sutta/an/an10/an10.60_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "mn140/de/sabbamitta",
       "mn10/de/sabbamitta",
       "kp3/de/sabbamitta",
       "dn28/de/sabbamitta",
@@ -216,6 +220,38 @@
           "pli": 235,
           "de": 204,
           "en": 233
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn140_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn140_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn140_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn140",
+        "lang": "de",
+        "segMap": {
+          "mn140:14.5": {
+            "scid": "mn140:14.5",
+            "pli": "kesā lomā nakhā dantā taco maṁsaṁ nhāru aṭṭhi aṭṭhimiñjaṁ vakkaṁ hadayaṁ yakanaṁ kilomakaṁ pihakaṁ papphāsaṁ antaṁ antaguṇaṁ udariyaṁ karīsaṁ, yaṁ vā panaññampi kiñci ajjhattaṁ paccattaṁ kakkhaḷaṁ kharigataṁ upādinnaṁ—",
+            "de": "<span class=\"ebt-matched\">Kopfhaare, Körperhaare</span>, Nägel, Zähne, Haut, Fleisch, Sehnen, Knochen, Knochenmark, Nieren, Herz, Leber, Zwerchfell, Milz, Lungen, Därme, Gekröse, Speisebrei, Kot oder alles, was sonst hart und fest ist, was man sich zu eigen macht, was innerlich ist zu einer Person gehört. ",
+            "en": "head hair, body hair, nails, teeth, skin, flesh, sinews, bones, bone marrow, kidneys, heart, liver, diaphragm, spleen, lungs, intestines, mesentery, undigested food, feces, or anything else hard, solid, and appropriated that’s internal, pertaining to an individual. ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 140\nDie Aufgliederung der Elemente",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 239,
+          "de": 229,
+          "en": 238
         }
       }
     ]

@@ -32,17 +32,21 @@
     "pattern": "über das leiden hinaus",
     "method": "phrase",
     "resultPattern": "\\büber das leiden hinaus",
-    "segsMatched": 3,
+    "segsMatched": 4,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn14_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thig/thig13.4_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thig/thig13.4_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thig/thig13.4_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.74_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.74_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.74_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "dn14/de/sabbamitta",
+      "thig13.4/de/sabbamitta",
       "an3.74/de/sabbamitta"
     ],
     "mlDocs": [
@@ -115,6 +119,38 @@
           "pli": 28,
           "de": 27,
           "en": 27
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thig/thig13.4_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thig/thig13.4_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thig/thig13.4_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thig13.4",
+        "lang": "de",
+        "segMap": {
+          "thig13.4:9.4": {
+            "scid": "thig13.4:9.4",
+            "pli": "muni dukkhassa pāragū.",
+            "de": "der Weise, der <span class=\"ebt-matched\">über das Leiden hinaus</span>gegangen war: ",
+            "en": "the sage gone beyond suffering:",
+            "matched": true
+          }
+        },
+        "score": 1.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Nonnen\nDas Zwanzigerbuch\n13.4. Sundarī",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 119,
+          "de": 118,
+          "en": 118
         }
       }
     ]

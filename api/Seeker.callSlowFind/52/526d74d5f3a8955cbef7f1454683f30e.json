@@ -32,11 +32,14 @@
     "pattern": "holz",
     "method": "phrase",
     "resultPattern": "\\bholz",
-    "segsMatched": 24,
+    "segsMatched": 26,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn23_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn23_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an6/an6.62_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an6/an6.62_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an6/an6.62_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn47/sn47.7_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn47/sn47.7_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn47/sn47.7_translation-en-sujato.json",
@@ -64,6 +67,7 @@
     ],
     "suttaRefs": [
       "dn23/de/sabbamitta",
+      "an6.62/de/sabbamitta",
       "sn47.7/de/sabbamitta",
       "dn25/de/sabbamitta",
       "dn24/de/sabbamitta",
@@ -209,6 +213,45 @@
           "pli": 715,
           "de": 636,
           "en": 713
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an6/an6.62_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an6/an6.62_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an6/an6.62_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an6.62",
+        "lang": "de",
+        "segMap": {
+          "an6.62:11.7": {
+            "scid": "an6.62:11.7",
+            "pli": "Seyyathāpi, ānanda, aṅgārāni ādittāni sampajjalitāni sajotibhūtāni sukkhe tiṇapuñje vā kaṭṭhapuñje vā nikkhittāni. ",
+            "de": "Angenommen, da wären brennende, lodernde, glühende Kohlen, die auf einen Haufen Gras oder <span class=\"ebt-matched\">Holz</span> gelegt würden: ",
+            "en": "Suppose that there were some burning coals, blazing and glowing. They were placed on a pile of grass or timber. ",
+            "matched": true
+          },
+          "an6.62:12.5": {
+            "scid": "an6.62:12.5",
+            "pli": "Seyyathāpi, ānanda, aṅgārāni sītāni nibbutāni sukkhe tiṇapuñje vā kaṭṭhapuñje vā nikkhittāni. ",
+            "de": "Angenommen, da wären kalte, erloschene Kohlen, die auf einen Haufen Gras oder <span class=\"ebt-matched\">Holz</span> gelegt würden: ",
+            "en": "Suppose that there were some cool, extinguished coals. They were placed on a pile of grass or timber. ",
+            "matched": true
+          }
+        },
+        "score": 2.013,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 6\n6. Das große Kapitel\n62. Menschenkenntnis",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 157,
+          "de": 118,
+          "en": 156
         }
       },
       {

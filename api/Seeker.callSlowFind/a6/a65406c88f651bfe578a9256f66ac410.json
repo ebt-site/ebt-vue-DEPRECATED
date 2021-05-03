@@ -32,11 +32,14 @@
     "pattern": "glaube an eine persönlichkeit",
     "method": "phrase",
     "resultPattern": "\\bglaube an eine persönlichkeit",
-    "segsMatched": 4,
+    "segsMatched": 5,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thig/thig6.7_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thig/thig6.7_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thig/thig6.7_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/kp/kp6_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/kp/kp6_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/kp/kp6_translation-en-sujato.json",
@@ -46,6 +49,7 @@
     ],
     "suttaRefs": [
       "dn33/de/sabbamitta",
+      "thig6.7/de/sabbamitta",
       "kp6/de/sabbamitta",
       "an3.94/de/sabbamitta"
     ],
@@ -119,6 +123,38 @@
           "pli": 10,
           "de": 9,
           "en": 9
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thig/thig6.7_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thig/thig6.7_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thig/thig6.7_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thig6.7",
+        "lang": "de",
+        "segMap": {
+          "thig6.7:3.2": {
+            "scid": "thig6.7:3.2",
+            "pli": "sakkāyadiṭṭhimeva ca;",
+            "de": "<span class=\"ebt-matched\">Glaube an eine Persönlichkeit</span>, ",
+            "en": "and identity view;",
+            "matched": true
+          }
+        },
+        "score": 1.036,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Nonnen\nDas Sechserbuch\n6.7. Guttā",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 28,
+          "de": 27,
+          "en": 27
         }
       },
       {
