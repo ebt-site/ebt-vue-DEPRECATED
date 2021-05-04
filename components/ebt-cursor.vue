@@ -13,11 +13,17 @@
             class="ebt-icon-btn" >
             <v-icon >{{mdiSkipPrevious}}</v-icon>
         </v-btn>
-        <v-btn icon
+        <v-btn icon v-if="!audioStarted"
             @click="clickPlay()"
             :aria-label="$t('ariaPlay')"
             class="ebt-icon-btn" >
-            <v-icon >{{mdiPlay}}</v-icon>
+            <v-icon >{{mdiAccountVoice}}</v-icon>
+        </v-btn>
+        <v-btn icon v-if="audioStarted"
+            @click="clickPause()"
+            :aria-label="$t('ariaPause')"
+            class="ebt-icon-btn" >
+            <v-icon >{{mdiPause}}</v-icon>
         </v-btn>
         <v-btn icon disabled
             @click="clickPlayNext()"
@@ -45,11 +51,13 @@
 </template>
 
 <script>
+import Vue from "vue";
 import {
   mdiChevronLeft,
   mdiChevronRight,
   mdiChevronUp,
   mdiChevronDown,
+  mdiAccountVoice,
   mdiPlay,
   mdiPause,
   mdiSkipNext,
@@ -72,12 +80,14 @@ export default {
       mdiChevronRight,
       mdiChevronUp,
       mdiChevronDown,
+      mdiAccountVoice,
       mdiPlay,
       mdiPause,
       mdiSkipNext,
       mdiSkipPrevious,
-      audioContext: new AudioContext(),
+      audioSource: null,
       bilaraWeb: null,
+      audioStarted: null,
     };
   },
   async mounted() {
@@ -130,6 +140,12 @@ export default {
       audioSource.connect(audioContext.destination);
       return audioSource;
     },
+    clickPause() {
+      let { audioSource } = this;
+      if (audioSource) {
+        audioSource.stop();
+      }
+    },
     async clickPlay() {
       let {
         bell,
@@ -149,10 +165,17 @@ export default {
         vroot,
       });
 
+      let that = this;
       let audioSource = await this.fetchAudioSource(
         settings.showPali && audioUrls.pli,
         settings.showTrans && audioUrls[lang],
       );
+      Vue.set(that, "audioStarted", new Date());
+      Vue.set(that, "audioSource", audioSource);
+      audioSource.onended = evt => {
+        Vue.set(that, "audioStarted", null);
+        Vue.set(that, "audioSource", null);
+      };
       console.log(`ebt-cursor.clickPlay()`, {scid, lang, vroot, vtrans});
       audioSource.start();
     },

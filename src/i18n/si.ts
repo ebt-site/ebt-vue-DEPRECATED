@@ -169,6 +169,7 @@ export default {
     ariaOpensInNewTab: "A_SOURCE එක නව පටිත්තකින් විවෘත වේ",
     ariaPageBottom: "view page bottom",
     ariaPageTop: "view page top",
+    ariaPause: "Pause",
     ariaPlay: "වාදනය කරන්න",
     ariaPlayNext: "Play Next",
     ariaPlayPrevious: "Play Previous",

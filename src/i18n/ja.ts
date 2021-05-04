@@ -171,6 +171,7 @@ export default {
     ariaOpensInNewTab: "A_SOURCE を新しいタブで開く",
     ariaPageBottom: "view page bottom",
     ariaPageTop: "view page top",
+    ariaPause: "Pause",
     ariaPlaySutta: "A_SEARCH A_SUTTAID. A_DURATION",
     ariaPlay: "再生",
     ariaPlayNext: "Play Next",

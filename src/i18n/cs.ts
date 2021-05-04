@@ -169,6 +169,7 @@ export default {
     ariaOpensInNewTab: "A_SOURCE se otevře v nové záložce",
     ariaPageBottom: "view page bottom",
     ariaPageTop: "view page top",
+    ariaPause: "Pause",
     ariaPlay: "Hrát",
     ariaPlayNext: "Play Next",
     ariaPlayPrevious: "Play Previous",

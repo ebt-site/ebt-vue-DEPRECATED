@@ -170,6 +170,7 @@ export default {
     ariaOpensInNewTab: "A_SOURCE opnast í nýjum flipa",
     ariaPageBottom: "view page bottom",
     ariaPageTop: "view page top",
+    ariaPause: "Pause",
     ariaPlay: "Spila",
     ariaPlayNext: "Play Next",
     ariaPlayPrevious: "Play Previous",

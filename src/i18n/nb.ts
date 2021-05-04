@@ -170,6 +170,7 @@ export default {
     ariaOpensInNewTab: "A_SOURCE åpnes i ny fane",
     ariaPageBottom: "view page bottom",
     ariaPageTop: "view page top",
+    ariaPause: "Pause",
     ariaPlay: "Spill av",
     ariaPlayNext: "Play Next",
     ariaPlayPrevious: "Play Previous",

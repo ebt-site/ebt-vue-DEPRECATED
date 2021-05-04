@@ -172,6 +172,7 @@ export default {
     ariaPageBottom: "view page bottom",
     ariaPageTop: "view page top",
     ariaPlaySutta: "A_SEARCH A_SUTTAID. A_DURATION",
+    ariaPause: "Pause",
     ariaPlay: "Wiedergabe",
     ariaPlayNext: "Play Next",
     ariaPlayPrevious: "Play Previous",

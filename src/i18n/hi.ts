@@ -170,6 +170,7 @@ export default {
     ariaOpensInNewTab: "A_SOURCE नए टैब में खुलता है",
     ariaPageBottom: "view page bottom",
     ariaPageTop: "view page top",
+    ariaPause: "Pause",
     ariaPlay: "चलाए",
     ariaPlayNext: "Play Next",
     ariaPlayPrevious: "Play Previous",
