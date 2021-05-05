@@ -146,6 +146,31 @@ export default {
         audioSource.stop();
       }
     },
+    async createAudioSource({vtrans, vroot}) {
+      let {
+        bell,
+        bilaraWeb,
+        cursor,
+        settings,
+      } = this;
+      let { scid, lang, translator } = cursor;
+      let audioUrls = await bilaraWeb.segmentAudioUrls({
+        scid,
+        lang,
+        translator,
+        vtrans,
+        vroot,
+      });
+      let audioPali = settings.showPali && audioUrls.pli;
+      let audioTrans = settings.showTrans && audioUrls[lang];
+
+      try {
+        return await this.fetchAudioSource(audioPali, audioTrans);
+      } catch(e) {
+        console.log(`createAudioSource() unavailable:${vtrans} (trying amy)`);
+        return this.createAudioSource({vtrans: "amy", vroot});
+      }
+    },
     async clickPlay() {
       let {
         bell,
@@ -154,22 +179,13 @@ export default {
         settings,
       } = this;
       let { scid, lang, translator } = cursor;
-      console.log(`dbg clickPlay`, {cursor});
       let vtrans = settings.vnameTrans;
       let vroot = settings.vnameRoot;
-      let audioUrls = await bilaraWeb.segmentAudioUrls({
-        scid,
-        lang,
-        translator,
-        vtrans,
-        vroot,
-      });
-
+      console.log(`clickPlay()`,
+        `sutta:${scid}/${lang}/${translator}`,
+        `narrators:${vroot}/${vtrans}`);
+      let audioSource = await this.createAudioSource({ vtrans, vroot, });
       let that = this;
-      let audioSource = await this.fetchAudioSource(
-        settings.showPali && audioUrls.pli,
-        settings.showTrans && audioUrls[lang],
-      );
       Vue.set(that, "audioStarted", new Date());
       Vue.set(that, "audioSource", audioSource);
       audioSource.onended = evt => {

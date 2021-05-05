@@ -45,6 +45,7 @@ export default {
   methods:{
     clickSegment(seg) {
       let { $store } = this;
+      console.log(`clickSegment()`, seg.scid);
       $store.commit('ebt/cursorScid', seg.scid);
     },
     title(n) {

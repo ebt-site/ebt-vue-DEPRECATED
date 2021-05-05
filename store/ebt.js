@@ -38,7 +38,11 @@ export const mutations = {
             cursor.scid = value;
             cursor.lang = lang;
             cursor.translator = translator;
-            console.log(`$store.state.ebt.cursorScid:`, cursor);
+            console.log(`$store.state.ebt.cursorScid cursor:`, cursor);
+        } else {
+            console.warn(`$store.state.ebt.cursorScid mutation ignored.`,
+                `Cursor not found for scid:${value} history:`, 
+                history);
         }
     },
     sutta(state, sutta) {

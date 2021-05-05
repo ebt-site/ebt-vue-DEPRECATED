@@ -459,20 +459,23 @@
                 endpoints,
             } = this;
             let suid = scid.split(':')[0];
-            let url = [ endpoints.playSegment, 
-                suid, lang, translator, scid, vtrans, vroot, ].join('/');
-            let res = await fetch(url);
-            let json = await res.json();
-            let audio = json.segment.audio;
+            let url = [ 
+                endpoints.playSegment, suid, lang, translator, scid, vtrans, vroot, 
+            ].join('/');
+            var res = await fetch(url);
+            var json = await res.json();
+            var audio = json.segment.audio;
 
-            return Object.keys(audio).reduce((a,k)=>{
-                if (k === 'pli') {
-                    a[k] = [endpoints.audio, suid, k, 'ms', vroot, audio[k]].join('/')
-                } else {
-                    a[k] = [endpoints.audio, suid, k, translator, vtrans, audio[k]].join('/')
-                }
+            let result = Object.keys(audio).reduce((a,k)=>{
+                let prefix = [endpoints.audio, suid, k];
+                a[k] = [endpoints.audio, suid, k].concat(k === 'pli'
+                    ? ['ms', vroot, audio[k]]
+                    : [translator, vtrans, audio[k]]
+                ).join('/');
                 return a;
             }, {});
+            console.log(`segmentAudioUrls()`, result);
+            return result;
         }
     }
 

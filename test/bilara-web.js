@@ -45,7 +45,7 @@
         should(bw.isExample('Wurzel des Leidens', 'de')).equal(true);
         should(bw.isExample('wurzel des leidens', 'de')).equal(true);
     });
-    it("TESTTESTauthors(...) => supported authors", async()=>{
+    it("authors(...) => supported authors", async()=>{
         let bw = new BilaraWeb({fetch});
         let authors = bw.authors;
         should.deepEqual(authors.sabbamitta, {
