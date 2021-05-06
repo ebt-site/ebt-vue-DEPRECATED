@@ -3,18 +3,19 @@
   "volume": "Seeker.callSlowFind",
   "args": [
     {
-      "pattern": "the nun.* knows me",
+      "pattern": "kennt mich",
       "showMatchesOnly": true,
       "languages": [
         "pli",
-        "en"
+        "en",
+        "de"
       ],
       "maxResults": 1000,
-      "searchLang": "en",
+      "searchLang": "de",
       "maxDoc": 50,
-      "minLang": 2,
+      "minLang": 3,
       "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
-      "lang": "en",
+      "lang": "de",
       "types": [
         "root",
         "translation"
@@ -23,65 +24,77 @@
     }
   ],
   "value": {
-    "lang": "en",
-    "searchLang": "en",
-    "minLang": 2,
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
     "maxDoc": 50,
     "maxResults": 1000,
-    "pattern": "the nun.* knows me",
+    "pattern": "kennt mich",
     "method": "phrase",
-    "resultPattern": "\\bthe nun.* knows me",
+    "resultPattern": "\\bkennt mich",
     "segsMatched": 10,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn5/sn5.9_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn5/sn5.9_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn5/sn5.9_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn5/sn5.8_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn5/sn5.8_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn5/sn5.8_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn5/sn5.7_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn5/sn5.7_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn5/sn5.7_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn5/sn5.6_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn5/sn5.6_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn5/sn5.6_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn5/sn5.5_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn5/sn5.5_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn5/sn5.5_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn5/sn5.4_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn5/sn5.4_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn5/sn5.4_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn5/sn5.3_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn5/sn5.3_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn5/sn5.3_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn5/sn5.2_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn5/sn5.2_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn5/sn5.2_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn5/sn5.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn5/sn5.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn5/sn5.1_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn5/sn5.10_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn5/sn5.10_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn5/sn5.10_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "sn5.9/en/sujato",
-      "sn5.8/en/sujato",
-      "sn5.7/en/sujato",
-      "sn5.6/en/sujato",
-      "sn5.5/en/sujato",
-      "sn5.4/en/sujato",
-      "sn5.3/en/sujato",
-      "sn5.2/en/sujato",
-      "sn5.1/en/sujato",
-      "sn5.10/en/sujato"
+      "sn5.9/de/sabbamitta",
+      "sn5.8/de/sabbamitta",
+      "sn5.7/de/sabbamitta",
+      "sn5.6/de/sabbamitta",
+      "sn5.5/de/sabbamitta",
+      "sn5.4/de/sabbamitta",
+      "sn5.3/de/sabbamitta",
+      "sn5.2/de/sabbamitta",
+      "sn5.1/de/sabbamitta",
+      "sn5.10/de/sabbamitta"
     ],
     "mlDocs": [
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn5/sn5.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn5/sn5.1_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/sn/sn5/sn5.1_translation-en-sujato.json"
         ],
-        "author_uid": "sujato",
+        "author_uid": "sabbamitta",
         "type": "translation",
         "category": "sutta",
         "sutta_uid": "sn5.1",
-        "lang": "en",
+        "lang": "de",
         "segMap": {
           "sn5.1:6.1": {
             "scid": "sn5.1:6.1",
             "pli": "Atha kho māro pāpimā “jānāti maṁ āḷavikā bhikkhunī”ti dukkhī dummano tatthevantaradhāyīti. ",
-            "en": "Then Māra the Wicked, thinking, “<span class=\"ebt-matched\">The nun Āḷavikā knows me</span>!” miserable and sad, vanished right there.",
+            "de": "Da dachte Māra der Böse: „Die Nonne Āḷavikā <span class=\"ebt-matched\">kennt mich</span>!“ Elend und traurig verschwand er eben dort. ",
+            "en": "Then Māra the Wicked, thinking, “The nun Āḷavikā knows me!” miserable and sad, vanished right there.",
             "matched": true
           }
         },
@@ -89,28 +102,31 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Linked Discourses 5\n1. Nuns\n1. With Āḷavikā",
+        "title": "Verbundene Lehrreden 5\n1. Nonnen\n1. Mit Āḷavikā",
         "segsMatched": 1,
         "langSegs": {
           "pli": 26,
+          "de": 26,
           "en": 26
         }
       },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn5/sn5.2_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn5/sn5.2_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/sn/sn5/sn5.2_translation-en-sujato.json"
         ],
-        "author_uid": "sujato",
+        "author_uid": "sabbamitta",
         "type": "translation",
         "category": "sutta",
         "sutta_uid": "sn5.2",
-        "lang": "en",
+        "lang": "de",
         "segMap": {
           "sn5.2:6.1": {
             "scid": "sn5.2:6.1",
             "pli": "Atha kho māro pāpimā “jānāti maṁ somā bhikkhunī”ti dukkhī dummano tatthevantaradhāyīti. ",
-            "en": "Then Māra the Wicked, thinking, “<span class=\"ebt-matched\">The nun Somā knows me</span>!” miserable and sad, vanished right there.",
+            "de": "Da dachte Māra der Böse: „Die Nonne Somā <span class=\"ebt-matched\">kennt mich</span>!“ Elend und traurig verschwand er eben dort. ",
+            "en": "Then Māra the Wicked, thinking, “The nun Somā knows me!” miserable and sad, vanished right there.",
             "matched": true
           }
         },
@@ -118,28 +134,31 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Linked Discourses 5\n1. Nuns\n2. With Somā",
+        "title": "Verbundene Lehrreden 5\n1. Nonnen\n2. Mit Somā",
         "segsMatched": 1,
         "langSegs": {
           "pli": 26,
+          "de": 26,
           "en": 26
         }
       },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn5/sn5.3_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn5/sn5.3_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/sn/sn5/sn5.3_translation-en-sujato.json"
         ],
-        "author_uid": "sujato",
+        "author_uid": "sabbamitta",
         "type": "translation",
         "category": "sutta",
         "sutta_uid": "sn5.3",
-        "lang": "en",
+        "lang": "de",
         "segMap": {
           "sn5.3:7.1": {
             "scid": "sn5.3:7.1",
             "pli": "Atha kho māro pāpimā “jānāti maṁ kisāgotamī bhikkhunī”ti dukkhī dummano tatthevantaradhāyīti. ",
-            "en": "Then Māra the Wicked, thinking, “<span class=\"ebt-matched\">The nun Kisāgotamī knows me</span>!” miserable and sad, vanished right there.",
+            "de": "Da dachte Māra der Böse: „Die Nonne Kisāgotamī <span class=\"ebt-matched\">kennt mich</span>!“ Elend und traurig verschwand er eben dort. ",
+            "en": "Then Māra the Wicked, thinking, “The nun Kisāgotamī knows me!” miserable and sad, vanished right there.",
             "matched": true
           }
         },
@@ -147,28 +166,31 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Linked Discourses 5\n1. Nuns\n3. With Kisāgotamī",
+        "title": "Verbundene Lehrreden 5\n1. Nonnen\n3. Mit Kisāgotamī",
         "segsMatched": 1,
         "langSegs": {
           "pli": 26,
+          "de": 26,
           "en": 26
         }
       },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn5/sn5.6_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn5/sn5.6_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/sn/sn5/sn5.6_translation-en-sujato.json"
         ],
-        "author_uid": "sujato",
+        "author_uid": "sabbamitta",
         "type": "translation",
         "category": "sutta",
         "sutta_uid": "sn5.6",
-        "lang": "en",
+        "lang": "de",
         "segMap": {
           "sn5.6:6.1": {
             "scid": "sn5.6:6.1",
             "pli": "Atha kho māro pāpimā “jānāti maṁ cālā bhikkhunī”ti dukkhī dummano tatthevantaradhāyīti. ",
-            "en": "Then Māra the Wicked, thinking, “<span class=\"ebt-matched\">The nun Cālā knows me</span>!” miserable and sad, vanished right there.",
+            "de": "Da dachte Māra der Böse: „Die Nonne Cālā <span class=\"ebt-matched\">kennt mich</span>!“ Elend und traurig verschwand er eben dort. ",
+            "en": "Then Māra the Wicked, thinking, “The nun Cālā knows me!” miserable and sad, vanished right there.",
             "matched": true
           }
         },
@@ -176,28 +198,31 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Linked Discourses 5\n1. Nuns\n6. With Cālā",
+        "title": "Verbundene Lehrreden 5\n1. Nonnen\n6. Mit Cālā",
         "segsMatched": 1,
         "langSegs": {
           "pli": 26,
+          "de": 26,
           "en": 26
         }
       },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn5/sn5.8_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn5/sn5.8_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/sn/sn5/sn5.8_translation-en-sujato.json"
         ],
-        "author_uid": "sujato",
+        "author_uid": "sabbamitta",
         "type": "translation",
         "category": "sutta",
         "sutta_uid": "sn5.8",
-        "lang": "en",
+        "lang": "de",
         "segMap": {
           "sn5.8:6.1": {
             "scid": "sn5.8:6.1",
             "pli": "Atha kho māro pāpimā “jānāti maṁ sīsupacālā bhikkhunī”ti dukkhī dummano tatthevantaradhāyīti. ",
-            "en": "Then Māra the Wicked, thinking, “<span class=\"ebt-matched\">The nun Sīsupacālā knows me</span>!” miserable and sad, vanished right there.",
+            "de": "Da dachte Māra der Böse: „Die Nonne Sīsupacālā <span class=\"ebt-matched\">kennt mich</span>!“ Elend und traurig verschwand er eben dort. ",
+            "en": "Then Māra the Wicked, thinking, “The nun Sīsupacālā knows me!” miserable and sad, vanished right there.",
             "matched": true
           }
         },
@@ -205,28 +230,31 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Linked Discourses 5\n1. Nuns\n8. With Sīsupacālā",
+        "title": "Verbundene Lehrreden 5\n1. Nonnen\n8. Mit Sīsupacālā",
         "segsMatched": 1,
         "langSegs": {
           "pli": 28,
+          "de": 28,
           "en": 28
         }
       },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn5/sn5.4_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn5/sn5.4_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/sn/sn5/sn5.4_translation-en-sujato.json"
         ],
-        "author_uid": "sujato",
+        "author_uid": "sabbamitta",
         "type": "translation",
         "category": "sutta",
         "sutta_uid": "sn5.4",
-        "lang": "en",
+        "lang": "de",
         "segMap": {
           "sn5.4:7.1": {
             "scid": "sn5.4:7.1",
             "pli": "Atha kho māro pāpimā “jānāti maṁ vijayā bhikkhunī”ti dukkhī dummano tatthevantaradhāyīti. ",
-            "en": "Then Māra the Wicked, thinking, “<span class=\"ebt-matched\">The nun Vijayā knows me</span>!” miserable and sad, vanished right there.",
+            "de": "Da dachte Māra der Böse: „Die Nonne Vijayā <span class=\"ebt-matched\">kennt mich</span>!“ Elend und traurig verschwand er eben dort. ",
+            "en": "Then Māra the Wicked, thinking, “The nun Vijayā knows me!” miserable and sad, vanished right there.",
             "matched": true
           }
         },
@@ -234,28 +262,31 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Linked Discourses 5\n1. Nuns\n4. With Vijayā",
+        "title": "Verbundene Lehrreden 5\n1. Nonnen\n4. Mit Vijayā",
         "segsMatched": 1,
         "langSegs": {
           "pli": 29,
+          "de": 29,
           "en": 29
         }
       },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn5/sn5.5_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn5/sn5.5_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/sn/sn5/sn5.5_translation-en-sujato.json"
         ],
-        "author_uid": "sujato",
+        "author_uid": "sabbamitta",
         "type": "translation",
         "category": "sutta",
         "sutta_uid": "sn5.5",
-        "lang": "en",
+        "lang": "de",
         "segMap": {
           "sn5.5:7.1": {
             "scid": "sn5.5:7.1",
             "pli": "Atha kho māro pāpimā “jānāti maṁ uppalavaṇṇā bhikkhunī”ti dukkhī dummano tatthevantaradhāyīti. ",
-            "en": "Then Māra the Wicked, thinking, “<span class=\"ebt-matched\">The nun Uppalavaṇṇā knows me</span>!” miserable and sad, vanished right there.",
+            "de": "Da dachte Māra der Böse: „Die Nonne Uppalavaṇṇā <span class=\"ebt-matched\">kennt mich</span>!“ Elend und traurig verschwand er eben dort. ",
+            "en": "Then Māra the Wicked, thinking, “The nun Uppalavaṇṇā knows me!” miserable and sad, vanished right there.",
             "matched": true
           }
         },
@@ -263,28 +294,31 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Linked Discourses 5\n1. Nuns\n5. With Uppalavaṇṇā",
+        "title": "Verbundene Lehrreden 5\n1. Nonnen\n5. Mit Uppalavaṇṇā",
         "segsMatched": 1,
         "langSegs": {
           "pli": 29,
+          "de": 29,
           "en": 29
         }
       },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn5/sn5.7_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn5/sn5.7_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/sn/sn5/sn5.7_translation-en-sujato.json"
         ],
-        "author_uid": "sujato",
+        "author_uid": "sabbamitta",
         "type": "translation",
         "category": "sutta",
         "sutta_uid": "sn5.7",
-        "lang": "en",
+        "lang": "de",
         "segMap": {
           "sn5.7:6.1": {
             "scid": "sn5.7:6.1",
             "pli": "Atha kho māro pāpimā “jānāti maṁ upacālā bhikkhunī”ti dukkhī dummano tatthevantaradhāyīti. ",
-            "en": "Then Māra the Wicked, thinking, “<span class=\"ebt-matched\">The nun Upacālā knows me</span>!” miserable and sad, vanished right there.",
+            "de": "Da dachte Māra der Böse: „Die Nonne Upacālā <span class=\"ebt-matched\">kennt mich</span>!“ Elend und traurig verschwand er eben dort. ",
+            "en": "Then Māra the Wicked, thinking, “The nun Upacālā knows me!” miserable and sad, vanished right there.",
             "matched": true
           }
         },
@@ -292,28 +326,31 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Linked Discourses 5\n1. Nuns\n7. With Upacālā",
+        "title": "Verbundene Lehrreden 5\n1. Nonnen\n7. Mit Upacālā",
         "segsMatched": 1,
         "langSegs": {
           "pli": 30,
+          "de": 30,
           "en": 30
         }
       },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn5/sn5.9_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn5/sn5.9_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/sn/sn5/sn5.9_translation-en-sujato.json"
         ],
-        "author_uid": "sujato",
+        "author_uid": "sabbamitta",
         "type": "translation",
         "category": "sutta",
         "sutta_uid": "sn5.9",
-        "lang": "en",
+        "lang": "de",
         "segMap": {
           "sn5.9:7.1": {
             "scid": "sn5.9:7.1",
             "pli": "Atha kho māro pāpimā “jānāti maṁ selā bhikkhunī”ti dukkhī dummano tatthevantaradhāyīti. ",
-            "en": "Then Māra the Wicked, thinking, “<span class=\"ebt-matched\">The nun Selā knows me</span>!” miserable and sad, vanished right there.",
+            "de": "Da dachte Māra der Böse: „Die Nonne Selā <span class=\"ebt-matched\">kennt mich</span>!“ Elend und traurig verschwand er eben dort. ",
+            "en": "Then Māra the Wicked, thinking, “The nun Selā knows me!” miserable and sad, vanished right there.",
             "matched": true
           }
         },
@@ -321,28 +358,31 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Linked Discourses 5\n1. Nuns\n9. With Selā",
+        "title": "Verbundene Lehrreden 5\n1. Nonnen\n9. Mit Selā",
         "segsMatched": 1,
         "langSegs": {
           "pli": 30,
+          "de": 30,
           "en": 30
         }
       },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn5/sn5.10_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn5/sn5.10_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/sn/sn5/sn5.10_translation-en-sujato.json"
         ],
-        "author_uid": "sujato",
+        "author_uid": "sabbamitta",
         "type": "translation",
         "category": "sutta",
         "sutta_uid": "sn5.10",
-        "lang": "en",
+        "lang": "de",
         "segMap": {
           "sn5.10:7.1": {
             "scid": "sn5.10:7.1",
             "pli": "Atha kho māro pāpimā “jānāti maṁ vajirā bhikkhunī”ti dukkhī dummano tatthevantaradhāyīti. ",
-            "en": "Then Māra the Wicked, thinking, “<span class=\"ebt-matched\">The nun Vajirā knows me</span>!” miserable and sad, vanished right there. ",
+            "de": "Da dachte Māra der Böse: „Die Nonne Vajirā <span class=\"ebt-matched\">kennt mich</span>!“ Elend und traurig verschwand er eben dort. ",
+            "en": "Then Māra the Wicked, thinking, “The nun Vajirā knows me!” miserable and sad, vanished right there. ",
             "matched": true
           }
         },
@@ -350,10 +390,11 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Linked Discourses 5\n1. Nuns\n10. With Vajirā",
+        "title": "Verbundene Lehrreden 5\n1. Nonnen\n10. Mit Vajirā",
         "segsMatched": 1,
         "langSegs": {
           "pli": 38,
+          "de": 31,
           "en": 37
         }
       }
