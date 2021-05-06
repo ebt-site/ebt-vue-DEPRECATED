@@ -3,7 +3,7 @@
   "volume": "Seeker.callSlowFind",
   "args": [
     {
-      "pattern": "kreisen gedanken",
+      "pattern": "kreisen.* gedanken",
       "showMatchesOnly": true,
       "languages": [
         "pli",
@@ -29,29 +29,29 @@
     "minLang": 3,
     "maxDoc": 50,
     "maxResults": 1000,
-    "pattern": "kreisen gedanken",
-    "method": "keywords",
-    "resultPattern": "\\bkreisen|\\bgedanken",
+    "pattern": "kreisen.* gedanken",
+    "method": "phrase",
+    "resultPattern": "\\bkreisen.* gedanken",
     "segsMatched": 26,
     "bilaraPaths": [
-      "root/pli/ms/sutta/an/an6/an6.52_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an6/an6.52_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an6/an6.52_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an3/an3.61_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an3/an3.61_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an3/an3.61_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an6/an6.52_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an6/an6.52_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an6/an6.52_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn140_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn140_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/mn/mn140_translation-en-sujato.json"
+      "translation/en/sujato/sutta/mn/mn140_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.61_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an3/an3.61_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an3/an3.61_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "an6.52/de/sabbamitta",
       "dn33/de/sabbamitta",
-      "an3.61/de/sabbamitta",
-      "mn140/de/sabbamitta"
+      "an6.52/de/sabbamitta",
+      "mn140/de/sabbamitta",
+      "an3.61/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -69,91 +69,91 @@
           "an6.52:2.1": {
             "scid": "an6.52:2.1",
             "pli": "“Khattiyā, bho gotama, kiṁadhippāyā, kiṁupavicārā, kiṁadhiṭṭhānā, kiṁabhinivesā, kiṁpariyosānā”ti? ",
-            "de": "„Was, Meister Gotama, ist bei Adligen das Bestreben? Worum <span class=\"ebt-matched\">kreisen</span> ihre <span class=\"ebt-matched\">Gedanken</span>? Welcher Sache weihen sie sich? Woran halten sie fest? Was ist ihr äußerstes Ziel?“ ",
+            "de": "„Was, Meister Gotama, ist bei Adligen das Bestreben? Worum <span class=\"ebt-matched\">kreisen ihre Gedanken</span>? Welcher Sache weihen sie sich? Woran halten sie fest? Was ist ihr äußerstes Ziel?“ ",
             "en": "“Aristocrats, Master Gotama, have what as their ambition? What is their preoccupation? What are they dedicated to? What do they insist on? What is their ultimate goal?” ",
             "matched": true
           },
           "an6.52:2.2": {
             "scid": "an6.52:2.2",
             "pli": "“Khattiyā kho, brāhmaṇa, bhogādhippāyā paññūpavicārā balādhiṭṭhānā pathavībhinivesā issariyapariyosānā”ti. ",
-            "de": "„Brahmane, bei Adligen ist Reichtum das Bestreben. Ihre <span class=\"ebt-matched\">Gedanken</span> <span class=\"ebt-matched\">kreisen</span> um Weisheit. Sie weihen sich der Macht. Sie halten an ihrem Revier fest. Ihr äußerstes Ziel ist Herrschaft.“ ",
+            "de": "„Brahmane, bei Adligen ist Reichtum das Bestreben. Ihre Gedanken kreisen um Weisheit. Sie weihen sich der Macht. Sie halten an ihrem Revier fest. Ihr äußerstes Ziel ist Herrschaft.“ ",
             "en": "“Aristocrats, brahmin, have wealth as their ambition. They’re preoccupied with wisdom. They’re dedicated to power. They insist on territory. Their ultimate goal is authority.” ",
             "matched": true
           },
           "an6.52:3.1": {
             "scid": "an6.52:3.1",
             "pli": "“Brāhmaṇā pana, bho gotama, kiṁadhippāyā, kiṁupavicārā, kiṁadhiṭṭhānā, kiṁabhinivesā, kiṁpariyosānā”ti? ",
-            "de": "„Was, Meister Gotama, ist bei Brahmanen das Bestreben? Worum <span class=\"ebt-matched\">kreisen</span> ihre <span class=\"ebt-matched\">Gedanken</span>? Welcher Sache weihen sie sich? Woran halten sie fest? Was ist ihr äußerstes Ziel?“ ",
+            "de": "„Was, Meister Gotama, ist bei Brahmanen das Bestreben? Worum <span class=\"ebt-matched\">kreisen ihre Gedanken</span>? Welcher Sache weihen sie sich? Woran halten sie fest? Was ist ihr äußerstes Ziel?“ ",
             "en": "“Brahmins, Master Gotama, have what as their ambition? What is their preoccupation? What are they dedicated to? What do they insist on? What is their ultimate goal?” ",
             "matched": true
           },
           "an6.52:3.2": {
             "scid": "an6.52:3.2",
             "pli": "“Brāhmaṇā kho, brāhmaṇa, bhogādhippāyā paññūpavicārā mantādhiṭṭhānā yaññābhinivesā brahmalokapariyosānā”ti. ",
-            "de": "„Bei Brahmanen ist Reichtum das Bestreben. Ihre <span class=\"ebt-matched\">Gedanken</span> <span class=\"ebt-matched\">kreisen</span> um Weisheit. Sie weihen sich den Hymnen. Sie halten am Opfer fest. Ihr äußerstes Ziel ist die Brahmāwelt.“",
+            "de": "„Bei Brahmanen ist Reichtum das Bestreben. Ihre Gedanken kreisen um Weisheit. Sie weihen sich den Hymnen. Sie halten am Opfer fest. Ihr äußerstes Ziel ist die Brahmāwelt.“",
             "en": "“Brahmins have wealth as their ambition. They’re preoccupied with wisdom. They’re dedicated to the hymns. They insist on sacrifice. Their ultimate goal is the Brahmā realm.” ",
             "matched": true
           },
           "an6.52:4.1": {
             "scid": "an6.52:4.1",
             "pli": "“Gahapatikā pana, bho gotama, kiṁadhippāyā, kiṁupavicārā, kiṁadhiṭṭhānā, kiṁabhinivesā, kiṁpariyosānā”ti? ",
-            "de": "„Was, Meister Gotama, ist bei Hausbesitzern das Bestreben? Worum <span class=\"ebt-matched\">kreisen</span> ihre <span class=\"ebt-matched\">Gedanken</span>? Welcher Sache weihen sie sich? Woran halten sie fest? Was ist ihr äußerstes Ziel?“ ",
+            "de": "„Was, Meister Gotama, ist bei Hausbesitzern das Bestreben? Worum <span class=\"ebt-matched\">kreisen ihre Gedanken</span>? Welcher Sache weihen sie sich? Woran halten sie fest? Was ist ihr äußerstes Ziel?“ ",
             "en": "“Householders, Master Gotama, have what as their ambition? What is their preoccupation? What are they dedicated to? What do they insist on? What is their ultimate goal?” ",
             "matched": true
           },
           "an6.52:4.2": {
             "scid": "an6.52:4.2",
             "pli": "“Gahapatikā kho, brāhmaṇa, bhogādhippāyā paññūpavicārā sippādhiṭṭhānā kammantābhinivesā niṭṭhitakammantapariyosānā”ti. ",
-            "de": "„Bei Hausbesitzern ist Reichtum das Bestreben. Ihre <span class=\"ebt-matched\">Gedanken</span> <span class=\"ebt-matched\">kreisen</span> um Weisheit. Sie weihen sich ihrem Beruf. Sie halten an ihrer Arbeit fest. Ihr äußerstes Ziel ist es, ihre Arbeit fertigzustellen.“ ",
+            "de": "„Bei Hausbesitzern ist Reichtum das Bestreben. Ihre Gedanken kreisen um Weisheit. Sie weihen sich ihrem Beruf. Sie halten an ihrer Arbeit fest. Ihr äußerstes Ziel ist es, ihre Arbeit fertigzustellen.“ ",
             "en": "“Householders have wealth as their ambition. They’re preoccupied with wisdom. They’re dedicated to their profession. They insist on work. Their ultimate goal is to complete their work.” ",
             "matched": true
           },
           "an6.52:5.1": {
             "scid": "an6.52:5.1",
             "pli": "“Itthī pana, bho gotama, kiṁadhippāyā, kiṁupavicārā, kiṁadhiṭṭhānā, kiṁabhinivesā, kiṁpariyosānā”ti? ",
-            "de": "„Was, Meister Gotama, ist bei Frauen das Bestreben? Worum <span class=\"ebt-matched\">kreisen</span> ihre <span class=\"ebt-matched\">Gedanken</span>? Welcher Sache weihen sie sich? Woran halten sie fest? Was ist ihr äußerstes Ziel?“ ",
+            "de": "„Was, Meister Gotama, ist bei Frauen das Bestreben? Worum <span class=\"ebt-matched\">kreisen ihre Gedanken</span>? Welcher Sache weihen sie sich? Woran halten sie fest? Was ist ihr äußerstes Ziel?“ ",
             "en": "“Women, Master Gotama, have what as their ambition? What is their preoccupation? What are they dedicated to? What do they insist on? What is their ultimate goal?” ",
             "matched": true
           },
           "an6.52:5.2": {
             "scid": "an6.52:5.2",
             "pli": "“Itthī kho, brāhmaṇa, purisādhippāyā alaṅkārūpavicārā puttādhiṭṭhānā asapattībhinivesā issariyapariyosānā”ti. ",
-            "de": "„Bei Frauen ist ein Mann das Bestreben. Ihre <span class=\"ebt-matched\">Gedanken</span> <span class=\"ebt-matched\">kreisen</span> um Schmuck. Sie weihen sich ihren Kindern. Sie halten daran fest, keine Nebenfrau zu haben. Ihr äußerstes Ziel ist Herrschaft.“ ",
+            "de": "„Bei Frauen ist ein Mann das Bestreben. Ihre Gedanken kreisen um Schmuck. Sie weihen sich ihren Kindern. Sie halten daran fest, keine Nebenfrau zu haben. Ihr äußerstes Ziel ist Herrschaft.“ ",
             "en": "“Women have a man as their ambition. They’re preoccupied with adornments. They’re dedicated to their children. They insist on being without a co-wife. Their ultimate goal is authority.” ",
             "matched": true
           },
           "an6.52:6.1": {
             "scid": "an6.52:6.1",
             "pli": "“Corā pana, bho gotama, kiṁadhippāyā, kiṁupavicārā, kiṁadhiṭṭhānā, kiṁabhinivesā, kiṁpariyosānā”ti? ",
-            "de": "„Was, Meister Gotama, ist bei Räubern das Bestreben? Worum <span class=\"ebt-matched\">kreisen</span> ihre <span class=\"ebt-matched\">Gedanken</span>? Welcher Sache weihen sie sich? Woran halten sie fest? Was ist ihr äußerstes Ziel?“ ",
+            "de": "„Was, Meister Gotama, ist bei Räubern das Bestreben? Worum <span class=\"ebt-matched\">kreisen ihre Gedanken</span>? Welcher Sache weihen sie sich? Woran halten sie fest? Was ist ihr äußerstes Ziel?“ ",
             "en": "“Bandits, Master Gotama, have what as their ambition? What is their preoccupation? What are they dedicated to? What do they insist on? What is their ultimate goal?” ",
             "matched": true
           },
           "an6.52:6.2": {
             "scid": "an6.52:6.2",
             "pli": "“Corā kho, brāhmaṇa, ādānādhippāyā gahanūpavicārā satthādhiṭṭhānā andhakārābhinivesā adassanapariyosānā”ti. ",
-            "de": "„Bei Räubern ist Diebstahl das Bestreben. Ihre <span class=\"ebt-matched\">Gedanken</span> <span class=\"ebt-matched\">kreisen</span> um ein Versteck. Sie weihen sich ihrem Schwert. Sie halten an Dunkelheit fest. Ihr äußerstes Ziel ist es, unsichtbar zu sein.“ ",
+            "de": "„Bei Räubern ist Diebstahl das Bestreben. Ihre Gedanken kreisen um ein Versteck. Sie weihen sich ihrem Schwert. Sie halten an Dunkelheit fest. Ihr äußerstes Ziel ist es, unsichtbar zu sein.“ ",
             "en": "“Bandits have theft as their ambition. They’re preoccupied with a hiding place. They’re dedicated to their sword. They insist on darkness. Their ultimate goal is invisibility.” ",
             "matched": true
           },
           "an6.52:7.1": {
             "scid": "an6.52:7.1",
             "pli": "“Samaṇā pana, bho gotama, kiṁadhippāyā, kiṁupavicārā, kiṁadhiṭṭhānā, kiṁabhinivesā, kiṁpariyosānā”ti? ",
-            "de": "„Was, Meister Gotama, ist bei Asketen das Bestreben? Worum <span class=\"ebt-matched\">kreisen</span> ihre <span class=\"ebt-matched\">Gedanken</span>? Welcher Sache weihen sie sich? Woran halten sie fest? Was ist ihr äußerstes Ziel?“ ",
+            "de": "„Was, Meister Gotama, ist bei Asketen das Bestreben? Worum <span class=\"ebt-matched\">kreisen ihre Gedanken</span>? Welcher Sache weihen sie sich? Woran halten sie fest? Was ist ihr äußerstes Ziel?“ ",
             "en": "“Ascetics, Master Gotama, have what as their ambition? What is their preoccupation? What are they dedicated to? What do they insist on? What is their ultimate goal?” ",
             "matched": true
           },
           "an6.52:7.2": {
             "scid": "an6.52:7.2",
             "pli": "“Samaṇā kho, brāhmaṇa, khantisoraccādhippāyā paññūpavicārā sīlādhiṭṭhānā ākiñcaññābhinivesā nibbānapariyosānā”ti. ",
-            "de": "„Bei Asketen sind Geduld und Sanftmut das Bestreben. Ihre <span class=\"ebt-matched\">Gedanken</span> <span class=\"ebt-matched\">kreisen</span> um Weisheit. Sie weihen sich sittlichem Verhalten. Sie halten daran fest, nichts zu besitzen. Ihr äußerstes Ziel ist das Erlöschen.“ ",
+            "de": "„Bei Asketen sind Geduld und Sanftmut das Bestreben. Ihre Gedanken kreisen um Weisheit. Sie weihen sich sittlichem Verhalten. Sie halten daran fest, nichts zu besitzen. Ihr äußerstes Ziel ist das Erlöschen.“ ",
             "en": "“Ascetics have patience and gentleness as their ambition. They’re preoccupied with wisdom. They’re dedicated to ethical conduct. They insist on owning nothing. Their ultimate goal is extinguishment.” ",
             "matched": true
           },
           "an6.52:8.2": {
             "scid": "an6.52:8.2",
             "pli": "Khattiyānampi bhavaṁ gotamo jānāti adhippāyañca upavicārañca adhiṭṭhānañca abhinivesañca pariyosānañca. Brāhmaṇānampi bhavaṁ gotamo jānāti …pe… gahapatīnampi bhavaṁ gotamo jānāti … itthīnampi bhavaṁ gotamo jānāti … corānampi bhavaṁ gotamo jānāti … samaṇānampi bhavaṁ gotamo jānāti adhippāyañca upavicārañca adhiṭṭhānañca abhinivesañca pariyosānañca. ",
-            "de": "Meister Gotama weiß bei Adligen, Brahmanen, Hausbesitzern, Frauen, Räubern und Asketen, was ihr Bestreben ist, worum ihre <span class=\"ebt-matched\">Gedanken</span> <span class=\"ebt-matched\">kreisen</span>, welcher Sache sie sich weihen, woran sie festhalten und was ihr äußerstes Ziel ist. ",
+            "de": "Meister Gotama weiß bei Adligen, Brahmanen, Hausbesitzern, Frauen, Räubern und Asketen, was ihr Bestreben ist, worum ihre Gedanken kreisen, welcher Sache sie sich weihen, woran sie festhalten und was ihr äußerstes Ziel ist. ",
             "en": "Master Gotama knows the ambition, preoccupation, dedication, insistence, and ultimate goal of aristocrats, brahmins, householders, women, bandits, and ascetics. ",
             "matched": true
           }
@@ -185,63 +185,63 @@
           "dn33:2.2.24": {
             "scid": "dn33:2.2.24",
             "pli": "Cha somanassūpavicārā. ",
-            "de": " Sechs Arten, wie die <span class=\"ebt-matched\">Gedanken</span> um Glück <span class=\"ebt-matched\">kreisen</span>: ",
+            "de": " Sechs Arten, wie die Gedanken um Glück kreisen: ",
             "en": "Six preoccupations with happiness. ",
             "matched": true
           },
           "dn33:2.2.25": {
             "scid": "dn33:2.2.25",
             "pli": "Cakkhunā rūpaṁ disvā somanassaṭṭhāniyaṁ rūpaṁ upavicarati; ",
-            "de": "Wenn man mit dem Auge ein Bild sieht, <span class=\"ebt-matched\">kreisen</span> die <span class=\"ebt-matched\">Gedanken</span> um ein Bild, das eine Grundlage für Glück darstellt. ",
+            "de": "Wenn man mit dem Auge ein Bild sieht, <span class=\"ebt-matched\">kreisen die Gedanken</span> um ein Bild, das eine Grundlage für Glück darstellt. ",
             "en": "Seeing a sight with the eye, one is preoccupied with a sight that’s a basis for happiness. ",
             "matched": true
           },
           "dn33:2.2.30": {
             "scid": "dn33:2.2.30",
             "pli": "Manasā dhammaṁ viññāya somanassaṭṭhāniyaṁ dhammaṁ upavicarati. ",
-            "de": "Wenn man mit dem Geist einen <span class=\"ebt-matched\">Gedanken</span> erkennt, <span class=\"ebt-matched\">kreisen</span> die <span class=\"ebt-matched\">Gedanken</span> um einen <span class=\"ebt-matched\">Gedanken</span>, der eine Grundlage für Glück darstellt. ",
+            "de": "Wenn man mit dem Geist einen Gedanken erkennt, <span class=\"ebt-matched\">kreisen die Gedanken um einen Gedanken</span>, der eine Grundlage für Glück darstellt. ",
             "en": "Knowing a thought with the mind, one is preoccupied with a thought that’s a basis for happiness. ",
             "matched": true
           },
           "dn33:2.2.31": {
             "scid": "dn33:2.2.31",
             "pli": "Cha domanassūpavicārā. ",
-            "de": "Sechs Arten, wie die <span class=\"ebt-matched\">Gedanken</span> um Traurigkeit <span class=\"ebt-matched\">kreisen</span>: ",
+            "de": "Sechs Arten, wie die Gedanken um Traurigkeit kreisen: ",
             "en": "Six preoccupations with sadness. ",
             "matched": true
           },
           "dn33:2.2.32": {
             "scid": "dn33:2.2.32",
             "pli": "Cakkhunā rūpaṁ disvā domanassaṭṭhāniyaṁ rūpaṁ upavicarati …pe… ",
-            "de": "Wenn man mit dem Auge ein Bild sieht, <span class=\"ebt-matched\">kreisen</span> die <span class=\"ebt-matched\">Gedanken</span> um ein Bild, das eine Grundlage für Traurigkeit darstellt. … ",
+            "de": "Wenn man mit dem Auge ein Bild sieht, <span class=\"ebt-matched\">kreisen die Gedanken</span> um ein Bild, das eine Grundlage für Traurigkeit darstellt. … ",
             "en": "Seeing a sight with the eye, one is preoccupied with a sight that’s a basis for sadness. … ",
             "matched": true
           },
           "dn33:2.2.33": {
             "scid": "dn33:2.2.33",
             "pli": "manasā dhammaṁ viññāya domanassaṭṭhāniyaṁ dhammaṁ upavicarati. ",
-            "de": "Wenn man mit dem Geist einen <span class=\"ebt-matched\">Gedanken</span> erkennt, <span class=\"ebt-matched\">kreisen</span> die <span class=\"ebt-matched\">Gedanken</span> um einen <span class=\"ebt-matched\">Gedanken</span>, der eine Grundlage für Traurigkeit darstellt. ",
+            "de": "Wenn man mit dem Geist einen Gedanken erkennt, <span class=\"ebt-matched\">kreisen die Gedanken um einen Gedanken</span>, der eine Grundlage für Traurigkeit darstellt. ",
             "en": "Knowing a thought with the mind, one is preoccupied with a thought that’s a basis for sadness. ",
             "matched": true
           },
           "dn33:2.2.34": {
             "scid": "dn33:2.2.34",
             "pli": "Cha upekkhūpavicārā. ",
-            "de": "Sechs Arten, wie die <span class=\"ebt-matched\">Gedanken</span> um Gleichmut <span class=\"ebt-matched\">kreisen</span>: ",
+            "de": "Sechs Arten, wie die Gedanken um Gleichmut kreisen: ",
             "en": "Six preoccupations with equanimity. ",
             "matched": true
           },
           "dn33:2.2.35": {
             "scid": "dn33:2.2.35",
             "pli": "Cakkhunā rūpaṁ disvā upekkhāṭṭhāniyaṁ rūpaṁ upavicarati …pe… ",
-            "de": "Wenn man mit dem Auge ein Bild sieht, <span class=\"ebt-matched\">kreisen</span> die <span class=\"ebt-matched\">Gedanken</span> um ein Bild, das eine Grundlage für Gleichmut darstellt. … ",
+            "de": "Wenn man mit dem Auge ein Bild sieht, <span class=\"ebt-matched\">kreisen die Gedanken</span> um ein Bild, das eine Grundlage für Gleichmut darstellt. … ",
             "en": "Seeing a sight with the eye, one is preoccupied with a sight that’s a basis for equanimity. … ",
             "matched": true
           },
           "dn33:2.2.36": {
             "scid": "dn33:2.2.36",
             "pli": "manasā dhammaṁ viññāya upekkhāṭṭhāniyaṁ dhammaṁ upavicarati. ",
-            "de": "Wenn man mit dem Geist einen <span class=\"ebt-matched\">Gedanken</span> erkennt, <span class=\"ebt-matched\">kreisen</span> die <span class=\"ebt-matched\">Gedanken</span> um einen <span class=\"ebt-matched\">Gedanken</span>, der eine Grundlage für Gleichmut darstellt. ",
+            "de": "Wenn man mit dem Geist einen Gedanken erkennt, <span class=\"ebt-matched\">kreisen die Gedanken um einen Gedanken</span>, der eine Grundlage für Gleichmut darstellt. ",
             "en": "Knowing a thought with the mind, one is preoccupied with a thought that’s a basis for equanimity. ",
             "matched": true
           }
@@ -273,14 +273,14 @@
           "an3.61:12.4": {
             "scid": "an3.61:12.4",
             "pli": "Cakkhunā rūpaṁ disvā somanassaṭṭhāniyaṁ rūpaṁ upavicarati domanassaṭṭhāniyaṁ rūpaṁ upavicarati upekkhāṭṭhāniyaṁ rūpaṁ upavicarati, ",
-            "de": "Wenn man mit dem Auge ein Bild sieht, <span class=\"ebt-matched\">kreisen</span> die <span class=\"ebt-matched\">Gedanken</span> um ein Bild, das eine Grundlage für Fröhlichkeit oder Traurigkeit oder Gleichmut darstellt. ",
+            "de": "Wenn man mit dem Auge ein Bild sieht, <span class=\"ebt-matched\">kreisen die Gedanken</span> um ein Bild, das eine Grundlage für Fröhlichkeit oder Traurigkeit oder Gleichmut darstellt. ",
             "en": "Seeing a sight with the eye, one is preoccupied with a sight that’s a basis for happiness or sadness or equanimity. ",
             "matched": true
           },
           "an3.61:12.9": {
             "scid": "an3.61:12.9",
             "pli": "manasā dhammaṁ viññāya somanassaṭṭhāniyaṁ dhammaṁ upavicarati domanassaṭṭhāniyaṁ dhammaṁ upavicarati upekkhāṭṭhāniyaṁ dhammaṁ upavicarati. ",
-            "de": "Wenn man mit dem Geist einen <span class=\"ebt-matched\">Gedanken</span> erkennt, <span class=\"ebt-matched\">kreisen</span> die <span class=\"ebt-matched\">Gedanken</span> um einen <span class=\"ebt-matched\">Gedanken</span>, der eine Grundlage für Fröhlichkeit oder Traurigkeit oder Gleichmut darstellt. ",
+            "de": "Wenn man mit dem Geist einen Gedanken erkennt, <span class=\"ebt-matched\">kreisen die Gedanken um einen Gedanken</span>, der eine Grundlage für Fröhlichkeit oder Traurigkeit oder Gleichmut darstellt. ",
             "en": "Becoming conscious of a thought with the mind, one is preoccupied with a thought that’s a basis for happiness or sadness or equanimity. ",
             "matched": true
           }
@@ -312,14 +312,14 @@
           "mn140:10.3": {
             "scid": "mn140:10.3",
             "pli": "Cakkhunā rūpaṁ disvā somanassaṭṭhāniyaṁ rūpaṁ upavicarati, domanassaṭṭhāniyaṁ rūpaṁ upavicarati, upekkhāṭṭhāniyaṁ rūpaṁ upavicarati; ",
-            "de": "Wenn man mit dem Auge ein Bild sieht, <span class=\"ebt-matched\">kreisen</span> die <span class=\"ebt-matched\">Gedanken</span> um ein Bild, das eine Grundlage für Fröhlichkeit oder Traurigkeit oder Gleichmut darstellt. ",
+            "de": "Wenn man mit dem Auge ein Bild sieht, <span class=\"ebt-matched\">kreisen die Gedanken</span> um ein Bild, das eine Grundlage für Fröhlichkeit oder Traurigkeit oder Gleichmut darstellt. ",
             "en": "Seeing a sight with the eye, one is preoccupied with a sight that’s a basis for happiness or sadness or equanimity. ",
             "matched": true
           },
           "mn140:10.8": {
             "scid": "mn140:10.8",
             "pli": "manasā dhammaṁ viññāya somanassaṭṭhāniyaṁ dhammaṁ upavicarati, domanassaṭṭhāniyaṁ dhammaṁ upavicarati, upekkhāṭṭhāniyaṁ dhammaṁ upavicarati—",
-            "de": "Wenn man mit dem Geist einen <span class=\"ebt-matched\">Gedanken</span> erkennt, <span class=\"ebt-matched\">kreisen</span> die <span class=\"ebt-matched\">Gedanken</span> um einen <span class=\"ebt-matched\">Gedanken</span>, der eine Grundlage für Fröhlichkeit oder Traurigkeit oder Gleichmut darstellt. ",
+            "de": "Wenn man mit dem Geist einen Gedanken erkennt, <span class=\"ebt-matched\">kreisen die Gedanken um einen Gedanken</span>, der eine Grundlage für Fröhlichkeit oder Traurigkeit oder Gleichmut darstellt. ",
             "en": "Becoming conscious of a thought with the mind, one is preoccupied with a thought that’s a basis for happiness or sadness or equanimity. ",
             "matched": true
           }
