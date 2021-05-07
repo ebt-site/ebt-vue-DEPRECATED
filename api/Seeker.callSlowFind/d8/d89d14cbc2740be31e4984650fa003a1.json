@@ -1,0 +1,93 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "ergebnis des leidens",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "ergebnis des leidens",
+    "method": "phrase",
+    "resultPattern": "\\bergebnis des leidens",
+    "segsMatched": 3,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an6/an6.63_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an6/an6.63_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an6/an6.63_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an6.63/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an6/an6.63_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an6/an6.63_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an6/an6.63_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an6.63",
+        "lang": "de",
+        "segMap": {
+          "an6.63:42.1": {
+            "scid": "an6.63:42.1",
+            "pli": "Katamo ca, bhikkhave, dukkhassa vipāko? ",
+            "de": "Und was ist das <span class=\"ebt-matched\">Ergebnis des Leidens</span>? ",
+            "en": "And what is the result of suffering? ",
+            "matched": true
+          },
+          "an6.63:42.4": {
+            "scid": "an6.63:42.4",
+            "pli": "Sammohavepakkaṁ vāhaṁ, bhikkhave, dukkhaṁ vadāmi pariyeṭṭhivepakkaṁ vā. ",
+            "de": "Das <span class=\"ebt-matched\">Ergebnis des Leidens</span> ist entweder Verwirrung oder eine Suche, sage ich. ",
+            "en": "The result of suffering is either confusion or a search, I say. ",
+            "matched": true
+          },
+          "an6.63:42.5": {
+            "scid": "an6.63:42.5",
+            "pli": "Ayaṁ vuccati, bhikkhave, dukkhassa vipāko. ",
+            "de": "das nennt man das <span class=\"ebt-matched\">Ergebnis des Leidens</span>. ",
+            "en": "This is called the result of suffering. ",
+            "matched": true
+          }
+        },
+        "score": 3.021,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 6\n6. Das große Kapitel\n63. Durchdringend",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 142,
+          "de": 141,
+          "en": 141
+        }
+      }
+    ]
+  }
+}
