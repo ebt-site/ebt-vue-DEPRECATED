@@ -102,22 +102,28 @@ export default {
   methods:{
     async fetchAudioSource(...urls) {
       urls = urls.filter(url=>!!url);
-      let nUrls = urls.length;
       let audioContext = new AudioContext();
       let audioSource = audioContext.createBufferSource();
-      let urlResults = urls.map(url=>fetch(url));
       let urlBuffers = [];
       let urlAudio = [];
       let numberOfChannels = 2;
       let length = 0;
       let sampleRate = 48000;
-      for (let i = 0; i < nUrls; i++) {
-        urlBuffers.push((await urlResults[i]).arrayBuffer());
+      for (let i = 0; i < urls.length; i++) {
+        try {
+          let url = urls[i];
+          if (url) {
+              let res = await fetch(url);
+              urlBuffers.push(res.arrayBuffer());
+          }
+        } catch(e) {
+          console.log(`no audio for ${url}`);
+        }
       }
-      for (let i = 0; i < nUrls; i++) {
+      for (let i = 0; i < urlBuffers.length; i++) {
         urlAudio.push(audioContext.decodeAudioData(await urlBuffers[i]));
       }
-      for (let i = 0; i < nUrls; i++) {
+      for (let i = 0; i < urlAudio.length; i++) {
         let ua = urlAudio[i] = await urlAudio[i];
         numberOfChannels = Math.min(numberOfChannels, ua.numberOfChannels);
         length += ua.length;
@@ -128,7 +134,7 @@ export default {
       for (let channelNumber = 0; channelNumber < numberOfChannels; channelNumber++) {
         let offset = 0;
         let channelData = new Float32Array(length);
-        for (let i = 0; i < nUrls; i++) {
+        for (let i = 0; i < urlAudio.length; i++) {
           let ua = urlAudio[i];
           channelData.set(ua.getChannelData(channelNumber), offset);
           offset += ua.length;
@@ -154,21 +160,27 @@ export default {
         settings,
       } = this;
       let { scid, lang, translator } = cursor;
-      let audioUrls = await bilaraWeb.segmentAudioUrls({
-        scid,
-        lang,
-        translator,
-        vtrans,
-        vroot,
-      });
-      let audioPali = settings.showPali && audioUrls.pli;
-      let audioTrans = settings.showTrans && audioUrls[lang];
-
       try {
+        let audioUrls = await bilaraWeb.segmentAudioUrls({
+          scid,
+          lang,
+          translator,
+          vtrans,
+          vroot,
+        });
+        let audioPali = settings.showPali && audioUrls.pli;
+        let audioTrans = settings.showTrans && audioUrls[lang];
+
         return await this.fetchAudioSource(audioPali, audioTrans);
       } catch(e) {
-        console.log(`createAudioSource() unavailable:${vtrans} (trying amy)`);
-        return this.createAudioSource({vtrans: "amy", vroot});
+        if (vtrans.toLowerCase() !== 'amy' && vroot.toLowerCase() !== 'aditi') {
+            console.log(`createAudioSource() unavailable:${vtrans} (trying amy/aditi)`);
+            return this.createAudioSource({
+                vtrans: "amy", 
+                vroot:"aditi", 
+            });
+        }
+        return null;
       }
     },
     async clickPlay() {
@@ -177,23 +189,31 @@ export default {
         bilaraWeb,
         cursor,
         settings,
+        $store,
       } = this;
       let { scid, lang, translator } = cursor;
-      let vtrans = settings.vnameTrans;
+      let vtrans = lang === settings.lang
+        ? settings.vnameTrans
+        : bilaraWeb.langDefaultVoice(lang).name;
       let vroot = settings.vnameRoot;
       console.log(`clickPlay()`,
         `sutta:${scid}/${lang}/${translator}`,
         `narrators:${vroot}/${vtrans}`);
-      let audioSource = await this.createAudioSource({ vtrans, vroot, });
       let that = this;
-      Vue.set(that, "audioStarted", new Date());
-      Vue.set(that, "audioSource", audioSource);
-      audioSource.onended = evt => {
+      let audioSource = await this.createAudioSource({ vtrans, vroot, });
+      if (audioSource) {
+          Vue.set(that, "audioStarted", new Date());
+          Vue.set(that, "audioSource", audioSource);
+          audioSource.onended = evt => {
+            Vue.set(that, "audioStarted", null);
+            Vue.set(that, "audioSource", null);
+          };
+          console.log(`ebt-cursor.clickPlay()`, {scid, lang, vroot, vtrans});
+          audioSource.start();
+      } else {
         Vue.set(that, "audioStarted", null);
         Vue.set(that, "audioSource", null);
-      };
-      console.log(`ebt-cursor.clickPlay()`, {scid, lang, vroot, vtrans});
-      audioSource.start();
+      }
     },
     clickPageTop() {
         let elt = document.getElementById("ebt-search-field");

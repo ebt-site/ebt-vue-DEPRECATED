@@ -1,13 +1,14 @@
-(typeof describe === 'function') && describe("ebt-settings", function() {
+(typeof describe === 'function') && describe("settings", function() {
     const should = require("should");
     const {
         Settings,
     } = require("../src/index");
 
-    it("default ctor", async()=>{
+    it("TESTTESTdefault ctor", async()=>{
         var ebt = new Settings();
         should(ebt).properties({
             audio: Settings.AUDIO.OGG,
+            cursor: null,
             fullLine: false,
             history: [],
             ips: 6,
@@ -16,7 +17,6 @@
             maxHistory: 2000,  // half a cookie
             saveSettings: false,
             saveSettingsExamples: false,
-            scid: null,
             search: null,
             showId: false,
             showPali: true,

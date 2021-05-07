@@ -14,7 +14,6 @@
                 maxResults = 5,
                 saveSettingsExamples = false,
                 saveSettings = false,
-                scid = null,
                 search = null,
                 showId = false,
                 showPali = true,
@@ -40,7 +39,6 @@
             this.maxHistory = maxHistory,
             this.saveSettingsExamples = saveSettingsExamples;
             this.saveSettings = saveSettings;
-            this.scid = scid;
             this.search = search;
             this.showId = showId;
             this.showPali = showPali;

@@ -5,6 +5,7 @@
     const SUID_MAP = require('scv-bilara/src/auto/suidmap.json');
     const AUTHORS = require('../api/authors.json');
     const SuttaCentralId = require('scv-bilara/src/sutta-central-id');
+    const VOICES = require('./voices.json');
 
     class BilaraWeb {
         constructor(opts={}) {
@@ -326,6 +327,7 @@
             let bilaraPaths = this.suidPaths(sutta_uid) || {};
             let bpKey = Object.keys(bilaraPaths).find(key=>key.includes(`/${lang}/`));
             if (bpKey == null) {
+                this.info(`loadSuttaSegments(${sutta_uid},${lang}) => undefined`);
                 return undefined;
             }
             let bpSegs = bilaraPaths[bpKey];
@@ -370,10 +372,14 @@
                 a[scid] = {scid, pli:pli[scid]};
                 return a;
             },{});
+            let translation = await this.loadSuttaSegments({sutta_uid, lang});
+            if (translation == null) {
+                return undefined;
+            }
             let {
                 translator = 'notranslator',
                 segments:langSegs = [],
-            } = await this.loadSuttaSegments({sutta_uid, lang}) || {};
+            } = translation;
             Object.keys(langSegs).forEach(scid=>{
                 segMap[scid] = segMap[scid] || { scid };
                 segMap[scid][lang] = langSegs[scid];
@@ -403,6 +409,8 @@
         }}
 
         async voices() {
+            return VOICES;
+            /*
             let { fetch } = this;
             //let url = [
                 //'https://raw.githubusercontent.com',
@@ -420,6 +428,11 @@
                 let err = new Error(`${url} => ${e.message}`);
                 throw err;
             }
+            */
+        }
+
+        langDefaultVoice(lang='en') {
+            return VOICES.filter(v => v.langTrans === lang)[0];
         }
 
         parseSuttaRef(pattern, defaultLang=this.lang) {
@@ -462,9 +475,15 @@
             let url = [ 
                 endpoints.playSegment, suid, lang, translator, scid, vtrans, vroot, 
             ].join('/');
-            var res = await fetch(url);
-            var json = await res.json();
-            var audio = json.segment.audio;
+            
+            try {
+                var res = await fetch(url);
+                var json = await res.json();
+                var audio = json.segment.audio;
+            } catch(e) {
+                console.error(`HTTP${res.status} ${url}`, e.message);
+                throw(e);
+            }
 
             let result = Object.keys(audio).reduce((a,k)=>{
                 let prefix = [endpoints.audio, suid, k];

@@ -41,7 +41,7 @@ export const mutations = {
             console.log(`$store.state.ebt.cursorScid cursor:`, cursor);
         } else {
             console.warn(`$store.state.ebt.cursorScid mutation ignored.`,
-                `Cursor not found for scid:${value} history:`, 
+                `Cursor not found for scid:${value} lang:${lang} history:`, 
                 history);
         }
     },
@@ -124,12 +124,22 @@ export const actions = {
         context.commit('suttaRef', {sutta_uid, lang, updateHistory});
         bilaraWeb = bilaraWeb || new BilaraWeb({fetch});
         let sutta = await bilaraWeb.loadSutta({sutta_uid, lang});
+        if (sutta == null) {
+            console.log(`$store.state.ebt.loadSutta(${sutta_uid}/${lang})`,
+                `substituting ${sutta_uid}/en`);
+            lang = 'en';
+            sutta = await bilaraWeb.loadSutta({sutta_uid, lang});
+        }
+        if (sutta == null) {
+            console.error(`$store.state.ebt.loadSutta(${sutta_uid}/${lang})`,
+                `=> not found`);
+            return;
+        }
         let { search } = $nuxt.$route.query;
         let newSearch = `${sutta_uid}/${lang}`;
         if (search !== newSearch) {
             $nuxt.$router.replace({query: {search: `${sutta_uid}/${lang}`}});
         }
-        console.log(`dbg loadSutta`, sutta);
         context.commit('sutta', sutta);
     },
     async loadExample ({commit, state}, payload) {

@@ -40,8 +40,10 @@ export default {
     this.$nextTick(()=>Vue.set(this, 'displayable', true));
     this.bilaraWeb = new js.BilaraWeb({fetch});
     let { search } = this.$route.query;
+    console.log('DEBUG search', search);
     if (search) {
       let that = this;
+      this.$store.commit('ebt/search', search);
       this.$nextTick(()=>{
         that.onSearchInput(search);
       });

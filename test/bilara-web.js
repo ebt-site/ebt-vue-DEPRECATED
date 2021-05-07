@@ -185,7 +185,7 @@
             '128. Verdrießlich '
         ]);
     });
-    it("loadSutta(...) returns sutta fallback", async ()=>{
+    it("TESTTESTloadSutta(...) undefined", async ()=>{
         let bw = new BilaraWeb({fetch});
         //bw.logLevel = 'info';
 
@@ -193,38 +193,27 @@
         let sutta_uid = 'nosutta';
         let lang = 'en';
         let sutta = await bw.loadSutta({sutta_uid, lang});
-        should.deepEqual(sutta, {
-            sutta_uid,
-            lang,
-            titles:[],
-            segments:[],
-            translator: 'notranslator',
-        });
+        should(sutta).equal(undefined);
 
         // Pali sutta fallback
         sutta_uid = 'an9.2';
         lang = 'nolang';
         sutta = await bw.loadSutta({sutta_uid, lang});
-        should(sutta).properties({
-            sutta_uid,
-            lang,
-        });
-        should.deepEqual(sutta.titles, [
-            "Aṅguttara Nikāya 9 ",
-            "1. Sambodhivagga ",
-            "2. Nissayasutta ",
-        ]);
-        should.deepEqual(sutta.segments[4],{
-            scid: 'an9.2:1.2',
-            pli: '“‘nissayasampanno nissayasampanno’ti, bhante, vuccati. ',
-        });
+        should(sutta).equal(undefined);
     });
-    it("voices() returns voices", async()=>{
+    it("TESTTESTvoices() returns voices", async()=>{
         let bw = new BilaraWeb({fetch});
         let voices = await bw.voices();
         let enNames = voices.filter(v=>v.langTrans === 'en').map(v=>v.name);
         should.deepEqual(enNames, [
             'Amy', 'Raveena', 'Matthew', 'Brian', 'sujato_en']);
+    });
+    it("TESTTESTvoices() returns voices", async()=>{
+        let bw = new BilaraWeb({fetch});
+        should(bw.langDefaultVoice()).properties({name: 'Amy'});
+        should(bw.langDefaultVoice('de')).properties({name: 'Vicki'});
+        should(bw.langDefaultVoice('ja')).properties({name: 'Takumi'});
+        should(bw.langDefaultVoice('pt')).properties({name: 'Ricardo'});
     });
     it("loadSutta(...) returns MN10", async ()=>{
         let bw = new BilaraWeb({fetch});
@@ -252,6 +241,12 @@
             '32–41',
         ]);
         should(sutta.segments.length).equal(169);
+    });
+    it("TESTTESTloadSutta(...) mn1/de => undefined (no translation)", async ()=>{
+        let bw = new BilaraWeb({fetch});
+        let { sutta_uid, lang } = bw.parseSuttaRef('mn1/de');
+        let sutta = await bw.loadSutta({sutta_uid, lang});
+        should(sutta).equal(undefined);
     });
     it("parseSuttaRef() returns an2.32-41", ()=>{
         let bw = new BilaraWeb({fetch});

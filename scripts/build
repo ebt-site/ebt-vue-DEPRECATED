@@ -18,8 +18,10 @@ else
 fi
 
 npm install --save scv-bilara@latest
+npm install --save-dev scv-tts@latest
 rm -rf api/Seeker*
 rm -f local/examples.json
+cp -r node_modules/scv-tts/src/voice.json src/voices.json
 $DIR/js/examples.js
 $DIR/js/authors.js
 
