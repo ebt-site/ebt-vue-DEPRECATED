@@ -32,8 +32,9 @@ export const mutations = {
         let { settings, sutta } = state;
         let { history } = settings;
         let { sutta_uid, lang, translator, } = sutta;
-        let cursor = history.find(h=>h.sutta_uid===sutta_uid && h.lang===lang);
-        if (cursor) {
+        let suttas = history.filter(h=>h.sutta_uid===sutta_uid);
+        if (suttas.length) {
+            let cursor = suttas.find(h=>h.lang===lang) || suttas[0];
             settings.cursor = cursor;
             cursor.scid = value;
             cursor.lang = lang;
