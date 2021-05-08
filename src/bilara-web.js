@@ -321,8 +321,8 @@
             let {
                 fetch,
                 host,
+                includeUnpublished,
             } = this;
-            let includeUnpublished = lang === 'de' || this.includeUnpublished;
             let segments;
             let bilaraPaths = this.suidPaths(sutta_uid) || {};
             let bpKey = Object.keys(bilaraPaths).find(key=>key.includes(`/${lang}/`));
