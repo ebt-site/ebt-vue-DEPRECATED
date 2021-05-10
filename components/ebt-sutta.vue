@@ -99,7 +99,8 @@ export default {
       return this.sutta.lang || 'en';
     },
     author() {
-      return this.bilaraWeb.authors[this.sutta.translator];
+      let { bilaraWeb } = this;
+      return bilaraWeb?.authors[this.sutta.translator];
     },
   },
 }

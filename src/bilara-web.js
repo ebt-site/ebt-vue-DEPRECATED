@@ -486,14 +486,15 @@
             }
 
             let result = Object.keys(audio).reduce((a,k)=>{
-                let prefix = [endpoints.audio, suid, k];
-                a[k] = [endpoints.audio, suid, k].concat(k === 'pli'
-                    ? ['ms', vroot, audio[k]]
-                    : [translator, vtrans, audio[k]]
-                ).join('/');
+                if (k !== 'vnameTrans') {
+                    let prefix = [endpoints.audio, suid, k];
+                    a[k] = [endpoints.audio, suid, k].concat(k === 'pli'
+                        ? ['ms', vroot, audio[k]]
+                        : [translator, vtrans, audio[k]]
+                    ).join('/');
+                }
                 return a;
             }, {});
-            console.log(`segmentAudioUrls()`, result);
             return result;
         }
     }

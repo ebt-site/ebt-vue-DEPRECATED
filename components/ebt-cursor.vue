@@ -67,6 +67,12 @@ const {
   Settings,
   BilaraWeb,
 } = require('../src/index');
+class UrlError extends Error {
+  constructor(message, url) {
+    super(message);
+    this.url = url;
+  }
+}
 
 export default {
   components: {
@@ -110,14 +116,13 @@ export default {
       let length = 0;
       let sampleRate = 48000;
       for (let i = 0; i < urls.length; i++) {
-        try {
-          let url = urls[i];
-          if (url) {
-              let res = await fetch(url);
-              urlBuffers.push(res.arrayBuffer());
+        let url = urls[i];
+        if (url) {
+          let res = await fetch(url);
+          if (!res.ok) {
+            throw new UrlError(`fetchAudioSource() no audio:`, url);
           }
-        } catch(e) {
-          console.log(`no audio for ${url}`);
+          urlBuffers.push(res.arrayBuffer());
         }
       }
       for (let i = 0; i < urlBuffers.length; i++) {
@@ -161,24 +166,32 @@ export default {
       } = this;
       let { scid, lang, translator } = cursor;
       try {
-        let audioUrls = await bilaraWeb.segmentAudioUrls({
+        var audioUrls = await bilaraWeb.segmentAudioUrls({
           scid,
           lang,
           translator,
           vtrans,
           vroot,
         });
-        let audioPali = settings.showPali && audioUrls.pli;
-        let audioTrans = settings.showTrans && audioUrls[lang];
+        var urlPali = settings.showPali && audioUrls.pli;
+        var urlTrans = settings.showTrans && audioUrls[lang];
 
-        return await this.fetchAudioSource(audioPali, audioTrans);
+        return await this.fetchAudioSource(urlPali, urlTrans);
       } catch(e) {
-        if (vtrans.toLowerCase() !== 'amy' && vroot.toLowerCase() !== 'aditi') {
-            console.log(`createAudioSource() unavailable:${vtrans} (trying amy/aditi)`);
-            return this.createAudioSource({
-                vtrans: "amy", 
-                vroot:"aditi", 
-            });
+        if (e.url === urlPali && vroot.toLowerCase() !== 'aditi') {
+          let vrootAlt = 'aditi';
+          console.log(`createAudioSource() ${vroot} unavailable`,
+            `(trying ${vtrans}/${vrootAlt})`);
+          vroot = vrootAlt;
+          return this.createAudioSource({ vtrans, vroot, });
+        } else if (e.url === urlTrans && vtrans.toLowerCase() !== 'amy') {
+          let vtransAlt = 'amy';
+          console.log(`createAudioSource() ${vtrans} unavailable`,
+            `(trying ${vtransAlt}/${vroot})`);
+          vtrans = vtransAlt;
+          return this.createAudioSource({ vtrans, vroot, });
+        } else {
+          console.error(`createAudioSource() no audio`, audioUrls, e);
         }
         return null;
       }
