@@ -32,7 +32,7 @@
     "pattern": "einen gierigen geist",
     "method": "phrase",
     "resultPattern": "\\beinen gierigen geist",
-    "segsMatched": 6,
+    "segsMatched": 7,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn10_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/dn/dn10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn10_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn10_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an6/an6.70_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an6/an6.70_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an6/an6.70_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an6/an6.2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.2_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an6/an6.2_translation-en-sujato.json",
@@ -56,12 +59,45 @@
     "suttaRefs": [
       "mn10/de/sabbamitta",
       "dn10/de/sabbamitta",
+      "an6.70/de/sabbamitta",
       "an6.2/de/sabbamitta",
       "an5.28/de/sabbamitta",
       "an5.23/de/sabbamitta",
       "an3.101/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an6/an6.70_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an6/an6.70_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an6/an6.70_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an6.70",
+        "lang": "de",
+        "segMap": {
+          "an6.70:1.4": {
+            "scid": "an6.70:1.4",
+            "pli": "sarāgaṁ vā cittaṁ sarāgaṁ cittanti pajānissati …pe… ",
+            "de": "Dass sie <span class=\"ebt-matched\">einen gierigen Geist</span> als ‚gierigen Geist‘ … ",
+            "en": "understanding mind with greed as ‘mind with greed’ …",
+            "matched": true
+          }
+        },
+        "score": 1.05,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 6\n7. Eine Gottheit\n70. Versenkung",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 20,
+          "de": 17,
+          "en": 17
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/an/an6/an6.2_root-pli-ms.json",

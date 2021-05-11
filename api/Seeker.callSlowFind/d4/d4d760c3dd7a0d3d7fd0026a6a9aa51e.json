@@ -3,7 +3,7 @@
   "volume": "Seeker.callSlowFind",
   "args": [
     {
-      "pattern": "wesentliche bedingungen",
+      "pattern": "wesentliche.* bedingungen",
       "showMatchesOnly": true,
       "languages": [
         "pli",
@@ -29,17 +29,21 @@
     "minLang": 3,
     "maxDoc": 50,
     "maxResults": 1000,
-    "pattern": "wesentliche bedingungen",
+    "pattern": "wesentliche.* bedingungen",
     "method": "phrase",
-    "resultPattern": "\\bwesentliche bedingungen",
-    "segsMatched": 3,
+    "resultPattern": "\\bwesentliche.* bedingungen",
+    "segsMatched": 4,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn12/sn12.23_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.23_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn12/sn12.23_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn12/sn12.23_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn18_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn18_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn18_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "sn12.23/de/sabbamitta"
+      "sn12.23/de/sabbamitta",
+      "dn18/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -86,6 +90,38 @@
           "pli": 93,
           "de": 92,
           "en": 92
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn18_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn18_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn18_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn18",
+        "lang": "de",
+        "segMap": {
+          "dn18:27.7": {
+            "scid": "dn18:27.7",
+            "pli": "Yā kho, bho, imehi sattahaṅgehi cittassa ekaggatā parikkhatā, ayaṁ vuccati, bho, ariyo sammāsamādhi saupaniso itipi saparikkhāro itipi. ",
+            "de": "Einheit des Geistes, bei der diese sieben Faktoren als Voraussetzungen zugegen sind, nennt man edle rechte Versenkung ‚mit ihren <span class=\"ebt-matched\">wesentlichen Bedingungen</span>‘ und ‚mit ihren Voraussetzungen‘. ",
+            "en": "Unification of mind with these seven factors as prerequisites is called noble right immersion ‘with its vital conditions’ and ‘with its prerequisites’. ",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 18\nMit Janavasabha\n1. Bekanntgabe, wo Menschen aus Nādika und anderen Orten wiedergeboren wurden",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 299,
+          "de": 255,
+          "en": 298
         }
       }
     ]

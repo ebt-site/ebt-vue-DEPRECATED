@@ -32,8 +32,11 @@
     "pattern": "wiedergeburt im bereich",
     "method": "phrase",
     "resultPattern": "\\bwiedergeburt im bereich",
-    "segsMatched": 2,
+    "segsMatched": 4,
     "bilaraPaths": [
+      "root/pli/ms/sutta/an/an6/an6.67_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an6/an6.67_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an6/an6.67_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn47/sn47.95-104_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn47/sn47.95-104_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn47/sn47.95-104_translation-en-sujato.json",
@@ -42,10 +45,50 @@
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "an6.67/de/sabbamitta",
       "sn47.95-104/de/sabbamitta",
       "dn33/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an6/an6.67_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an6/an6.67_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an6/an6.67_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an6.67",
+        "lang": "de",
+        "segMap": {
+          "an6.67:1.4": {
+            "scid": "an6.67:1.4",
+            "pli": "‘Sīlāni aparipūretvā kāmarāgaṁ vā rūparāgaṁ vā arūparāgaṁ vā pajahissatī’ti netaṁ ṭhānaṁ vijjati. ",
+            "de": "Ohne die Ethik zu erfüllen, ist es unmöglich, das Verlangen nach <span class=\"ebt-matched\">Wiedergeburt im Bereich</span> der leuchtenden Form oder im formlosen Bereich aufzugeben. ",
+            "en": "Without fulfilling ethics, it’s impossible give up desire to be reborn in the realm of luminous form or in the formless realm. ",
+            "matched": true
+          },
+          "an6.67:2.4": {
+            "scid": "an6.67:2.4",
+            "pli": "‘Sīlāni paripūretvā kāmarāgaṁ vā rūparāgaṁ vā arūparāgaṁ vā pajahissatī’ti ṭhānametaṁ vijjatī”ti. ",
+            "de": "Wenn die Ethik erfüllt ist, ist es möglich, das Verlangen nach <span class=\"ebt-matched\">Wiedergeburt im Bereich</span> der leuchtenden Form oder im formlosen Bereich aufzugeben.“ ",
+            "en": "Having fulfilled ethics, it’s possible give up desire to be reborn in the realm of luminous form or in the formless realm.” ",
+            "matched": true
+          }
+        },
+        "score": 2.167,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 6\n7. Eine Gottheit\n67. Freundinnen und Freunde",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 12,
+          "de": 11,
+          "en": 11
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn47/sn47.95-104_root-pli-ms.json",

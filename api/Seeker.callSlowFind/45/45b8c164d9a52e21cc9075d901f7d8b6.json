@@ -32,7 +32,7 @@
     "pattern": "grausam",
     "method": "phrase",
     "resultPattern": "\\bgrausam",
-    "segsMatched": 40,
+    "segsMatched": 43,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
@@ -46,6 +46,9 @@
       "root/pli/ms/sutta/mn/mn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn33_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn33_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an6/an6.74_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an6/an6.74_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an6/an6.74_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.216_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.216_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.216_translation-en-sujato.json",
@@ -70,6 +73,9 @@
       "root/pli/ms/sutta/dn/dn17_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn17_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn17_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an6/an6.75_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an6/an6.75_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an6/an6.75_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an6/an6.58_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.58_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an6/an6.58_translation-en-sujato.json",
@@ -115,6 +121,7 @@
       "an4.184/de/sabbamitta",
       "an4.11/de/sabbamitta",
       "mn33/de/sabbamitta",
+      "an6.74/de/sabbamitta",
       "an5.216/de/sabbamitta",
       "an4.138/de/sabbamitta",
       "an3.124/de/sabbamitta",
@@ -123,6 +130,7 @@
       "dn34/de/sabbamitta",
       "dn32/de/sabbamitta",
       "dn17/de/sabbamitta",
+      "an6.75/de/sabbamitta",
       "an6.58/de/sabbamitta",
       "an6.57/de/sabbamitta",
       "an5.140/de/sabbamitta",
@@ -352,6 +360,45 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/an/an6/an6.74_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an6/an6.74_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an6/an6.74_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an6.74",
+        "lang": "de",
+        "segMap": {
+          "an6.74:1.3": {
+            "scid": "an6.74:1.3",
+            "pli": "Kāmavitakkaṁ, byāpādavitakkaṁ, vihiṁsāvitakkaṁ, kāmasaññaṁ, byāpādasaññaṁ, vihiṁsāsaññaṁ—",
+            "de": "Sinnliche, boshafte und <span class=\"ebt-matched\">grausam</span>e Gedanken und sinnliche, boshafte und <span class=\"ebt-matched\">grausam</span>e Wahrnehmungen. ",
+            "en": "Sensual, malicious, and cruel thoughts; and sensual, malicious, and cruel perceptions. ",
+            "matched": true
+          },
+          "an6.74:2.3": {
+            "scid": "an6.74:2.3",
+            "pli": "Kāmavitakkaṁ, byāpādavitakkaṁ, vihiṁsāvitakkaṁ, kāmasaññaṁ, byāpādasaññaṁ, vihiṁsāsaññaṁ—",
+            "de": "Sinnliche, boshafte und <span class=\"ebt-matched\">grausam</span>e Gedanken und sinnliche, boshafte und <span class=\"ebt-matched\">grausam</span>e Wahrnehmungen. ",
+            "en": "Sensual, malicious, and cruel thoughts; and sensual, malicious, and cruel perceptions. ",
+            "matched": true
+          }
+        },
+        "score": 2.111,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 6\n7. Eine Gottheit\n74. Die erste Vertiefung (2)",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 18,
+          "de": 11,
+          "en": 16
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an4/an4.138_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/an/an4/an4.138_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/an/an4/an4.138_translation-en-sujato.json"
@@ -492,6 +539,38 @@
         "maxWord": 30,
         "minWord": 5,
         "title": "Nummerierte Lehrreden 4\n26. Einsicht\n262. Wildnis",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 12,
+          "de": 11,
+          "en": 11
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an6/an6.75_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an6/an6.75_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an6/an6.75_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an6.75",
+        "lang": "de",
+        "segMap": {
+          "an6.75:1.3": {
+            "scid": "an6.75:1.3",
+            "pli": "Kāmavitakkena, byāpādavitakkena, vihiṁsāvitakkena, kāmasaññāya, byāpādasaññāya, vihiṁsāsaññāya—",
+            "de": "Sinnliche, boshafte und <span class=\"ebt-matched\">grausam</span>e Gedanken und sinnliche, boshafte und <span class=\"ebt-matched\">grausam</span>e Wahrnehmungen. ",
+            "en": "Sensual, malicious, and cruel thoughts; and sensual, malicious, and cruel perceptions. ",
+            "matched": true
+          }
+        },
+        "score": 1.083,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 6\n8. Vollendung\n75. Leiden",
         "segsMatched": 1,
         "langSegs": {
           "pli": 12,
