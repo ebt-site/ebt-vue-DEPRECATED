@@ -201,6 +201,7 @@ export default {
     MMSS: "A_MINUTESm A_SECONDSs",
     noBell: "Spila Suttu strax",
     noHTML5: "Vafrinn þinn styður ekki HTML5 hljóð. Prófaðu Chrome",
+    notFound: "\"A_PATTERN\" not found. Try SuttaCentral",
     point: "Punktur",
     publicDomain: "Í almenningi",
     reader: "Rödd",

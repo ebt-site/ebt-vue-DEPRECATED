@@ -21,6 +21,7 @@ const DEFAULT = {
 export const state = () => ({
     search: '',
     searchResults: {},
+    searchError: null,
     settings: Object.assign({}, new Settings()),
     sutta: DEFAULT.sutta,
     examples,
@@ -32,10 +33,15 @@ export const mutations = {
         let { settings, sutta } = state;
         let { history } = settings;
         let { sutta_uid, lang, translator, } = sutta;
-        let suttas = history.filter(h=>h.sutta_uid===sutta_uid);
-        if (suttas.length) {
-            let cursor = suttas.find(h=>h.lang===lang) || suttas[0];
-            settings.cursor = cursor;
+        let iCursor = history.findIndex(h=>h.sutta_uid===sutta_uid && h.lang===lang);
+        if (iCursor < 0) {
+            iCursor = history.findIndex(h=>h.sutta_uid===sutta_uid);
+            console.warn(`$store.state.ebt.cursorScid ${sutta_uid}/${lang} not found.`,
+                `Substituting iCursor:${iCursor}`, history[iCursor]);
+        }
+        if (iCursor >= 0) {
+            let cursor = history[iCursor];
+            settings.iCursor = iCursor;
             cursor.scid = value;
             cursor.lang = lang;
             cursor.translator = translator;
@@ -46,16 +52,21 @@ export const mutations = {
                 history);
         }
     },
+    searchError(state, error=null) {
+        state.searchError = error;
+        console.log(`$store.state.ebt.searchError:`, error);
+    },
     sutta(state, sutta) {
         let { settings } = state;
         let { history } = settings;
         let { sutta_uid, lang, updateHistory=true } = sutta;
-        let sh = history.find(h=>h.sutta_uid===sutta_uid && h.lang===lang);
-        if (sh && !sh.scid) {
-            sh.scid = sutta.segments[0].scid;
+        let iCursor = history.findIndex(h=>h.sutta_uid===sutta_uid && h.lang===lang);
+        let sh = history[iCursor];
+        if (sh) {
+            sh.scid = sh.scid || sutta.segments[0].scid;
             sh.translator = sutta.translator;
             sh.lang = lang;
-            settings.cursor = sh;
+            settings.iCursor = iCursor;
         }
         Object.assign(state.sutta, DEFAULT.sutta, sutta);
         console.log(`$store.state.ebt.sutta:`, sutta, sh);
@@ -66,23 +77,23 @@ export const mutations = {
         Object.assign(state.sutta, DEFAULT.sutta, {sutta_uid, lang});
         if (updateHistory) {
             let { history } = settings;
-            let sh = history.find(h=>h.sutta_uid===sutta_uid && h.lang===lang);
+            let iCursor = history.findIndex(h=>h.sutta_uid===sutta_uid && h.lang===lang);
+            let cursor = history[iCursor];
             let date = new Date();
-            if (sh) {
-                sh.date = date;
-                settings.cursor = sh;
+            if (cursor) {
+                cursor.date = date;
+                settings.iCursor = iCursor;
             } else {
                 let { scid } = state.sutta.segments[0];
                 let { translator } = state.sutta;
-                let historyNew = { sutta_uid, date, lang, translator, scid};
-                settings.cursor = historyNew;
-                console.log(`dbg suttaRef`, historyNew);
-                history.push(historyNew);
+                cursor = { sutta_uid, date, lang, translator, scid};
+                history.push(cursor);
+                settings.iCursor = history.length - 1;
             }
-            if (!settings.cursor.scid) {
-                settings.cursor.scid = state.sutta.segments[0].scid;
-                settings.cursor.lang = state.sutta.lang;
-                settings.cursor.translator = state.sutta.translator;
+            if (cursor && !cursor.scid) {
+                cursor.scid = state.sutta.segments[0].scid;
+                cursor.lang = state.sutta.lang;
+                cursor.translator = state.sutta.translator;
             }
             history.sort((a,b)=>a.date-b.date);
         }
@@ -90,13 +101,16 @@ export const mutations = {
     },
     search(state, value) {
         if (value !== state.search) {
-            console.log(`$store.state.ebt.search:`, value);
+            console.debug(`$store.state.ebt.search:`, value);
             state.search = value;
         }
     },
     searchResults(state, value) {
         state.searchResults = value;
-        value.mlDocs.forEach(mld=>(mld.showDetails = false));
+        let mlDocs = value?.mlDocs;
+        if (mlDocs instanceof Array) {
+            mlDocs.forEach(mld=>(mld.showDetails = false));
+        }
         console.log(`$store.state.ebt.searchResults:`, value);
     },
     settings(state, value) {
@@ -146,14 +160,18 @@ export const actions = {
     async loadExample ({commit, state}, payload) {
         let { pattern, lang=state.settings.lang } = payload;
         bilaraWeb = bilaraWeb || new BilaraWeb({fetch});
-        if (pattern) {
-            let value = await bilaraWeb.find({ pattern, lang, });
+        let value = pattern && await bilaraWeb.find({ pattern, lang, });
+        if (value) {
             value.mlDocs.forEach(mld=>{
                 mld.segments = Object.keys(mld.segMap).map(scid=>mld.segMap[scid]);
             });
             commit('searchResults', value);
             commit('search', pattern);
             $nuxt.$emit('ebt-load-example', payload);
+        } else if (pattern) {
+            let error = this.$t('notFound').replace('A_PATTERN', pattern);
+            commit('searchError', error);
+            commit('search', pattern);
         }
     },
     async loadVoices({state, commit}) {

@@ -200,6 +200,7 @@ export default {
     MMSS: "A_MINUTESm A_SECONDSs",
     noBell: "Ecouter un sutra immédiatement",
     noHTML5: "Votre moteur de recherche ne peut lire l'audio HTML5. Essayez Chrome",
+    notFound: "\"A_PATTERN\" not found. Try SuttaCentral",
     point: "Punkt",
     publicDomain: "Domaine publique",
     reader: "Locuteur",

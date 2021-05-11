@@ -17,11 +17,22 @@
         {{$t('inspireMe')}}
       </v-btn>
     </div>
+    <v-alert :value="!!searchError" color="deep-orange darken-4" 
+      type="info" :icon="mdiCancel">
+      <a :href="`https://suttacentral.net/search?query=${search}`" 
+        target="_blank"
+        >
+        {{searchError}}
+      </a>
+    </v-alert>
   </div>
 </template>
 
 <script>
 import Vue from 'vue';
+import {
+  mdiCancel,
+} from "@mdi/js";
 
 export default {
   components: {
@@ -33,6 +44,7 @@ export default {
     return {
       bilaraWeb: null,
       displayable: false,
+      mdiCancel,
     };
   },
   async mounted() {
@@ -43,7 +55,7 @@ export default {
     console.log('DEBUG search', search);
     if (search) {
       let that = this;
-      this.$store.commit('ebt/search', search);
+      this.search = search;
       this.$nextTick(()=>{
         that.onSearchInput(search);
       });
@@ -60,13 +72,16 @@ export default {
     async onSearchInput(pattern='') { try {
       let { bilaraWeb, lang } = this;
       let noValue = {mlDocs:[]};
-      pattern = pattern.toLowerCase().trim();
-      let parsed = bilaraWeb.parseSuttaRef(pattern, lang);
+      pattern = pattern && pattern.toLowerCase().trim();
+      let parsed = pattern && bilaraWeb.parseSuttaRef(pattern, lang);
+      this.$store.commit('ebt/searchError', null);
+      console.log(`onSearchInput(${pattern})`, {parsed});
       if (parsed) {
         this.$store.dispatch('ebt/loadSutta', parsed );
         return;
       }
-
+      this.$store.commit('ebt/searchResults', null);
+      this.$store.commit('ebt/search', pattern);
       this.$store.dispatch('ebt/loadExample', {pattern, lang});
     } catch(e) {
       console.error(`onSearchInput(${pattern})`, e.message);
@@ -113,6 +128,9 @@ export default {
         //"--seg-text-width": this.segTextWidth,
         //'--success-color': this.$vuetify.theme.success,
       }
+    },
+    searchError() {
+        return this.$store.state.ebt.searchError;
     },
     searchItems() {
       let { $vuetify, lang, locale, } = this;

@@ -65,8 +65,9 @@ export default {
   methods:{
     clickSutta(sutta_uid) {
       let { $store, settings, } = this;
-      let lang = this.settings.lang;
-      console.log(`clickSutta`, {sutta_uid, lang});
+      let { lang, history } = settings;
+      let iCursor = history.findIndex(h=>h.sutta_uid===sutta_uid && h.lang===lang);
+      console.log(`clickSutta`, {sutta_uid, lang, iCursor});
       $store.dispatch('ebt/loadSutta', {sutta_uid, lang, });
     },
   },

@@ -201,6 +201,7 @@ export default {
     MMSS: "A_MINUTESm A_SECONDSs",
     noBell: "Ouvir sutta imediatamente",
     noHTML5: "Seu browser não carrega áudio HTML5. Tente usar o Chrome",
+    notFound: "\"A_PATTERN\" not found. Try SuttaCentral",
     point: "Ponto",
     publicDomain: "Domínio público",
     reader: "Speaker",

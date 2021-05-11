@@ -63,9 +63,9 @@ export default {
       }
     },
     segmentClass(seg) {
-        let { cursor, fullLine } = this.$store.state.ebt.settings;
+        let { fullLine } = this.$store.state.ebt.settings;
         let { scid } = seg;
-        let { titles } = this;
+        let { titles, cursor } = this;
         let segClass = "ebt-segment";
         if (/:0.1$/.test(scid)) {
           segClass = `ebt-division`;
@@ -88,6 +88,10 @@ export default {
     segments() {
       //return this.sutta.segments.filter(seg=>!/:0/.test(seg.scid));
       return this.sutta.segments;
+    },
+    cursor() {
+      let { iCursor, history } = this.settings;
+      return history[iCursor];
     },
     settings() {
       return this.$store.state.ebt.settings;

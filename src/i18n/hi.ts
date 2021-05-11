@@ -201,6 +201,7 @@ export default {
     MMSS: "A_MINUTESमि A_SECONDSसे",
     noBell: "सुत्त तुरंत चलाए",
     noHTML5: "आपका ब्राउज़र HTML5 आवाज़ सपोर्ट नही करता। क्रोम के साथ कोशिश करे",
+    notFound: "\"A_PATTERN\" not found. Try SuttaCentral",
     point: "Punkt",
     publicDomain: "पब्लिक डोमेन",
     reader: "आवाज़",

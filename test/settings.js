@@ -8,7 +8,7 @@
         var ebt = new Settings();
         should(ebt).properties({
             audio: Settings.AUDIO.OGG,
-            cursor: null,
+            iCursor: 0,
             fullLine: false,
             history: [],
             ips: 6,

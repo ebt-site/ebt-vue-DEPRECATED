@@ -153,9 +153,7 @@ export default {
     },
     clickPause() {
       let { audioSource } = this;
-      if (audioSource) {
-        audioSource.stop();
-      }
+      audioSource?.stop();
     },
     async createAudioSource({vtrans, vroot}) {
       let {
@@ -214,9 +212,9 @@ export default {
         `narrators:${vroot}/${vtrans}`);
       let that = this;
       let audioSource = await this.createAudioSource({ vtrans, vroot, });
+      Vue.set(that, "audioSource", audioSource);
       if (audioSource) {
           Vue.set(that, "audioStarted", new Date());
-          Vue.set(that, "audioSource", audioSource);
           audioSource.onended = evt => {
             Vue.set(that, "audioStarted", null);
             Vue.set(that, "audioSource", null);
@@ -224,8 +222,8 @@ export default {
           console.log(`ebt-cursor.clickPlay()`, {scid, lang, vroot, vtrans});
           audioSource.start();
       } else {
+        console.log(`ebt-cursor.clickPlay() (no audio)`, {scid, lang, vroot, vtrans});
         Vue.set(that, "audioStarted", null);
-        Vue.set(that, "audioSource", null);
       }
     },
     clickPageTop() {
@@ -259,15 +257,12 @@ export default {
   },
   computed: {
     cursorLabel() {
-        let { cursor } = this;
-        if (!cursor) {
-            return "...";
-        }
-        let { scid, lang } = cursor;
+        let { scid='--', lang='--' } = this.cursor || {};
         return `${scid}/${lang}`;
     },
     cursor() {
-        return this.$store.state.ebt.settings.cursor;
+        let { iCursor, history } = this.settings;
+        return history?.[iCursor];
     },
     current() {
         let { history, sutta } = this;

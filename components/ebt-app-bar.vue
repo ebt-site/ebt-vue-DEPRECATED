@@ -120,7 +120,8 @@ export default {
         return `${scid}/${lang}`;
     },
     cursor() {
-        return this.$store.state.ebt.settings.cursor;
+      let { iCursor, history } = this.settings;
+        return history[iCursor];
     },
     current() {
         let { history, sutta } = this;
@@ -128,11 +129,14 @@ export default {
         let iCur = history.findIndex(h=>h.sutta_uid===sutta_uid && h.lang===lang);
         return history[iCur] || sutta;
     },
+    settings() {
+        return this.$store.state.ebt.settings;
+    },
     sutta() {
         return this.$store.state.ebt.sutta;
     },
     history() {
-      return this.$store.state.ebt.settings.history;
+      return this.settings.history;
     },
     js() { 
       return JS;

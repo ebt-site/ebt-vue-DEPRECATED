@@ -4,7 +4,7 @@
         constructor(opts={}) {
             let {
                 audio = EbtSettings.AUDIO.OGG,
-                cursor = null,
+                iCursor = 0,
                 fullLine = false,
                 history = [],
                 ips = 6,
@@ -25,7 +25,7 @@
             (opts.logger || logger).logInstance(this, opts);
 
             this.audio = audio;
-            this.cursor = cursor;
+            this.iCursor = iCursor;
             this.fullLine = fullLine;
             this.history = history.slice();
             this.ips = 6;
@@ -49,9 +49,10 @@
         }
 
         toJSON() {
-            let { maxHistory, history } = this;
+            let { maxHistory, history, iCursor } = this;
             let json = Object.assign({}, this);
             let trimHistory = history.slice();
+            iCursor = Math.min(trimHistory.length-1, iCursor);
             while (JSON.stringify(trimHistory).length > maxHistory) {
                 trimHistory.pop();
             }
