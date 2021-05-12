@@ -13,17 +13,12 @@
             class="ebt-icon-btn" >
             <v-icon >{{mdiSkipPrevious}}</v-icon>
         </v-btn>
-        <v-btn icon v-if="!audioStarted"
-            @click="clickPlay()"
+        <v-btn icon 
+            ref="ebt-play-pause"
+            @click="clickPlayPause()"
             :aria-label="$t('ariaPlay')"
             class="ebt-icon-btn" >
-            <v-icon >{{mdiAccountVoice}}</v-icon>
-        </v-btn>
-        <v-btn icon v-if="audioStarted"
-            @click="clickPause()"
-            :aria-label="$t('ariaPause')"
-            class="ebt-icon-btn" >
-            <v-icon >{{mdiPause}}</v-icon>
+            <v-icon>{{playPauseIcon}}</v-icon>
         </v-btn>
         <v-btn icon disabled
             @click="clickPlayNext()"
@@ -53,13 +48,13 @@
 <script>
 import Vue from "vue";
 import {
+  mdiAccountVoice,
+  mdiChevronDown,
   mdiChevronLeft,
   mdiChevronRight,
   mdiChevronUp,
-  mdiChevronDown,
-  mdiAccountVoice,
-  mdiPlay,
   mdiPause,
+  mdiPlay,
   mdiSkipNext,
   mdiSkipPrevious,
 } from '@mdi/js';
@@ -194,6 +189,16 @@ export default {
         return null;
       }
     },
+    async clickPlayPause() {
+      let { audioStarted, $refs } = this;
+      let playPause = $refs['ebt-play-pause'];
+      playPause && playPause.$el.focus && playPause.$el.focus();
+      if (audioStarted) {
+        this.clickPause();
+      } else {
+        this.clickPlay();
+      }
+    },
     async clickPlay() {
       let {
         bell,
@@ -218,12 +223,29 @@ export default {
           audioSource.onended = evt => {
             Vue.set(that, "audioStarted", null);
             Vue.set(that, "audioSource", null);
+            that.nextSegment();
           };
           console.log(`ebt-cursor.clickPlay()`, {scid, lang, vroot, vtrans});
           audioSource.start();
       } else {
         console.log(`ebt-cursor.clickPlay() (no audio)`, {scid, lang, vroot, vtrans});
         Vue.set(that, "audioStarted", null);
+      }
+    },
+    nextSegment() {
+      let { sutta, cursor, $store } = this;
+      let segments = sutta && sutta.segments || [];
+      let iSegment = segments.findIndex(s=>s.scid === cursor.scid);
+      if (iSegment >= 0) {
+        let nextSeg = segments[iSegment+1];
+        let nextScid = nextSeg && nextSeg.scid;
+        console.log(`nextScid`, nextScid);
+        nextScid && $store.commit('ebt/cursorScid', nextScid);
+        let elt = document.getElementById(nextScid);
+        elt && elt.scrollIntoView({
+          block: "center",
+          behavior: "smooth",
+        });
       }
     },
     clickPageTop() {
@@ -273,6 +295,10 @@ export default {
     sutta() {
         return this.$store.state.ebt.sutta;
     },
+    segments() {
+      let { sutta } = this;
+      return sutta && sutta.segments || [];
+    },
     history() {
       return this.$store.state.ebt.settings.history;
     },
@@ -282,6 +308,9 @@ export default {
     },
     ips() {
       return this.settings?.ips; 
+    },
+    playPauseIcon() {
+      return this.audioStarted ? mdiPause : mdiAccountVoice;
     },
     settings() {
       return this.$store.state.ebt.settings; 
