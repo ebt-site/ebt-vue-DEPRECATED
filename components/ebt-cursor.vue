@@ -153,7 +153,7 @@ export default {
     },
     clickPause() {
       let { audioSource } = this;
-      audioSource?.stop();
+      audioSource && audioSource.stop();
     },
     async createAudioSource({vtrans, vroot}) {
       let {
@@ -262,7 +262,7 @@ export default {
     },
     cursor() {
         let { iCursor, history } = this.settings;
-        return history?.[iCursor];
+        return history && history[iCursor];
     },
     current() {
         let { history, sutta } = this;

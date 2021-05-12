@@ -107,7 +107,7 @@ export const mutations = {
     },
     searchResults(state, value) {
         state.searchResults = value;
-        let mlDocs = value?.mlDocs;
+        let mlDocs = value && value.mlDocs;
         if (mlDocs instanceof Array) {
             mlDocs.forEach(mld=>(mld.showDetails = false));
         }

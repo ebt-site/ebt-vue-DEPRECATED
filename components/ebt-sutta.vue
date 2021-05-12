@@ -104,7 +104,8 @@ export default {
     },
     author() {
       let { bilaraWeb } = this;
-      return bilaraWeb?.authors[this.sutta.translator];
+      let authors = bilaraWeb && bilaraWeb.authors || [];
+      return authors[this.sutta.translator];
     },
   },
 }
