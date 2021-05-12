@@ -202,7 +202,7 @@ export default {
     MMSS: "A_HOURS h A_MINUTES m A_SECONDS s",
     noBell: "Sutta ohne Gong abspielen",
     noHTML5: "HTML5-Audio wird von Ihrem Browser nicht unterstützt. Versuchen Sie Chrome oder Firefox",
-    notFound: "\"A_PATTERN\" nicht gefunden. Versuchen Sie es auf SuttaCentral",
+    notFound: "„A_PATTERN“ nicht gefunden. Versuchen Sie es auf SuttaCentral",
     point: "punkt",
     publicDomain: "Public Domain",
     reader: "Lesestimmen",
