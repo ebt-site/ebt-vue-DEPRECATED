@@ -5,6 +5,7 @@
         :title="ebtSiteTitle"
         :imgUrl="ebtSiteImage"
         :monolingual="ebtLang"
+        home="/suttas"
         >
         <v-btn icon class="ebt-icon-btn" 
           title="Github"
@@ -17,13 +18,11 @@
       </ebt-app-bar>
     </v-app-bar>
     <div class="site-main">
+      <ebt-picker></ebt-picker>
       <v-container class="site-content">
         <nuxt />
       </v-container>
     </div>
-    <v-footer app dark >
-      <ebt-cursor :js="js"/>
-    </v-footer>
   </v-app>
 </template>
 
@@ -42,6 +41,7 @@ import {
 let {
   EbtAppBar,
   EbtCursor,
+  EbtPicker,
 } = EbtVue;
 
 export default {

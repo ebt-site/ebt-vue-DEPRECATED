@@ -133,7 +133,6 @@ export const mutations = {
 
 export const actions = {
     async loadSutta (context, payload) {
-        $nuxt.$emit('ebt-load-sutta', payload);
         let settings = context.state.settings;
         let { sutta_uid, lang=settings.lang, updateHistory } = payload;
         context.commit('suttaRef', {sutta_uid, lang, updateHistory});
@@ -156,6 +155,9 @@ export const actions = {
             $nuxt.$router.replace({query: {search: `${sutta_uid}/${lang}`}});
         }
         context.commit('sutta', sutta);
+        let cursor = settings.history[settings.iCursor];
+        let scid = payload.scid || cursor.sutta_uid===payload.sutta_uid && cursor.scid;
+        $nuxt.$emit('ebt-load-sutta', Object.assign({scid}, payload));
     },
     async loadExample ({commit, state}, payload) {
         let { pattern, lang=state.settings.lang } = payload;

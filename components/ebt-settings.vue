@@ -11,266 +11,266 @@
         <v-icon size="20px" class="ebt-settings-icon">{{mdiCog}}</v-icon>
     </v-btn>
     <v-sheet light>
-    <ul light class="ebt-more-menu" 
-      id = "more-menu"
-      ref="ref-more-menu"
-      aria-labelledby="more-menu-btn"
-      v-if="moreVisible"
-      @focusin="focusMore(true)"
-      :aria-hidden="!moreVisible">
-      <li class="" role="none" ><!-- General -->
-        <details role="menuitem" 
-          @click="clickDetails('general', $event)"
-          :open="showDetail('general')"
-        >
-          <summary class="ebt-summary">
-            <div class="ebt-settings-title">
-                <div>{{$t('general')}}</div>
-                <div class="body-2">
-                  {{version}}
-                  <span v-if="saveCookies && openDetail!=='general'">, cookies</span>
-                </div>
-            </div><!--ebt-settings-title-->
-          </summary>
-          <div class="ebt-settings-detail">
-            <ebt-checkbox v-model="saveSettingsExamples"
-              ref="saveSettingsExamples-focus"
-              :label="$t('storeSettingsHistory')"/>
-          </div>
-          <div class="ebt-settings-detail">
-            <ebt-checkbox v-model="saveSettings"
-              ref="saveSettings-focus"
-              :label="$t('storeSettingsInCookies')"/>
-          </div>
-        </details>
-      </li><!-- General -->
-      <li class="" role="none" v-if="!monolingual"><!-- Language -->
-        <details role="menuitem" 
-          @click="clickDetails('lang', $event)"
-          :open="showDetail('lang')"
-        >
-          <summary class="ebt-summary">
-            <div class="ebt-settings-title">
-                <div>{{$t('languages')}}</div>
-                <div v-if="openDetail!=='lang'" class="body-2">
-                  {{locale.toUpperCase()}} {{lang.toUpperCase()}}
-                </div>
-            </div><!--ebt-settings-title-->
-          </summary>
-          <div class="ebt-settings-detail">
-            <div class="ebt-select-container">
-              <select id="locale-select" 
-                ref="lang-focus"
-                class="ebt-select"
-                v-model="locale"
-                @click="stopPropagation($event)">
-                <option v-for="item in languages" :key="item.code" 
-                  :selected="item.code===locale"
-                  :value="item.code">{{item.label}}</option>
-              </select>
-              <label for="locale-select">{{$t('uiLanguage')}}</label>
-            </div>
-            <div class="ebt-select-container">
-              <select id="lang-select" 
-                class="ebt-select"
-                v-model="lang"
-                @click="stopPropagation($event)">
-                <option v-for="item in transLanguages" :key="item.code" 
-                  :selected="item.code===lang"
-                  :value="item.code">{{item.label}}</option>
-              </select>
-              <label for="lang-select">{{$t('transLanguage')}}</label>
-            </div>
-          </div>
-        </details>
-      </li><!-- Language -->
-      <li class="" role="none" ><!-- Translation -->
-        <details role="menuitem" 
-          @click="clickDetails('trans', $event)"
-          :open="showDetail('trans')"
-        >
-          <summary class="ebt-summary">
-            <div class="ebt-settings-title">
-                <div>{{$t('textLayout')}}</div>
-                <div >
-                  <span v-if="showId" class="body-2">#</span>
-                  <span v-if="showPali" class="body-2">Pali</span>
-                  <v-icon class="ebt-settings-icon"
-                    v-if="fullLine && showPali && showTrans">
-                    {{ mdiFormatAlignJustify}}
-                  </v-icon>
-                  <v-icon class="ebt-settings-icon"
-                    v-if="!fullLine && showPali && showTrans" >
-                    {{ mdiFormatColumns}}
-                  </v-icon>
-                  <span v-if="showTrans" class="body-2">
-                    {{lang.toUpperCase()}}</span>
-                </div>
-            </div><!--ebt-settings-title-->
-          </summary>
-          <div class="ebt-settings-detail">
-            <ebt-checkbox v-model="showPali" 
-              ref="trans-focus"
-              :aria-checked="showPali"
-              :label="$t('showPaliText')"
-              @click="stopPropagation($event)"
-              />
-            <ebt-checkbox v-model="showTrans" 
-              :aria-checked="showTrans"
-              :label="$t('showTransText')"
-              @click="stopPropagation($event)"
-              />
-            <ebt-checkbox v-model="fullLine" 
-              :aria-checked="fullLine"
-              :label="$t('showLineByLine')"
-              @click="stopPropagation($event)"
-              />
-            <ebt-checkbox v-model="showId" 
-              :aria-checked="showId"
-              :label="$t('showTextSegmentIds')"
-              @click="stopPropagation($event)"
-              />
-          </div>
-        </details>
-      </li><!-- Translation -->
-      <li class="" role="none" ><!-- reader -->
-        <details role="menuitem"
-          @click="clickDetails('reader', $event)"
-          :open="showDetail('reader')"
+      <ul light class="ebt-more-menu" 
+        id = "more-menu"
+        ref="ref-more-menu"
+        aria-labelledby="more-menu-btn"
+        v-if="moreVisible"
+        @focusin="focusMore(true)"
+        :aria-hidden="!moreVisible">
+        <li class="" role="none" ><!-- General -->
+          <details role="menuitem" 
+            @click="clickDetails('general', $event)"
+            :open="showDetail('general')"
           >
-          <summary class="ebt-summary">
-            <div class="ebt-settings-title">
-              <div>{{$t('reader')}}</div>
-              <div>
-                <span class="body-2" v-if="showPali && openDetail!=='reader'">
-                  {{vnameRoot}}</span>
-                <span class="body-2" v-if="showTrans && openDetail!=='reader'">
-                  {{vnameTrans}}</span>
+            <summary class="ebt-summary">
+              <div class="ebt-settings-title">
+                  <div>{{$t('general')}}</div>
+                  <div class="body-2">
+                    {{version}}
+                    <span v-if="saveCookies">, cookies</span>
+                  </div>
+              </div><!--ebt-settings-title-->
+            </summary>
+            <div class="ebt-settings-detail">
+              <ebt-checkbox v-model="saveSettingsExamples"
+                ref="saveSettingsExamples-focus"
+                :label="$t('storeSettingsHistory')"/>
+            </div>
+            <div class="ebt-settings-detail">
+              <ebt-checkbox v-model="saveSettings"
+                ref="saveSettings-focus"
+                :label="$t('storeSettingsInCookies')"/>
+            </div>
+          </details>
+        </li><!-- General -->
+        <li class="" role="none" v-if="!monolingual"><!-- Language -->
+          <details role="menuitem" 
+            @click="clickDetails('lang', $event)"
+            :open="showDetail('lang')"
+          >
+            <summary class="ebt-summary">
+              <div class="ebt-settings-title">
+                  <div>{{$t('languages')}}</div>
+                  <div v-if="openDetail!=='lang'" class="body-2">
+                    {{locale.toUpperCase()}} {{lang.toUpperCase()}}
+                  </div>
+              </div><!--ebt-settings-title-->
+            </summary>
+            <div class="ebt-settings-detail">
+              <div class="ebt-select-container">
+                <select id="locale-select" 
+                  ref="lang-focus"
+                  class="ebt-select"
+                  v-model="locale"
+                  @click="stopPropagation($event)">
+                  <option v-for="item in languages" :key="item.code" 
+                    :selected="item.code===locale"
+                    :value="item.code">{{item.label}}</option>
+                </select>
+                <label for="locale-select">{{$t('uiLanguage')}}</label>
               </div>
-            </div><!--ebt-settings-title-->
-          </summary>
-          <div class="ebt-settings-detail">
-            <div class="ebt-select-container">
-              <select id="reader-select-trans" 
-                class="ebt-select"
-                ref="reader-focus"
-                v-model="vnameTrans"
-                @click="stopPropagation($event)">
-                <option v-for="item in langVoices(lang, 'vnameTrans')" :key="item.code" 
-                  :selected="item.name===vnameTrans"
-                  :value="item.name">{{item.label}}</option>
-              </select>
-              <label for="reader-select-trans">{{lang.toUpperCase()}}</label>
+              <div class="ebt-select-container">
+                <select id="lang-select" 
+                  class="ebt-select"
+                  v-model="lang"
+                  @click="stopPropagation($event)">
+                  <option v-for="item in transLanguages" :key="item.code" 
+                    :selected="item.code===lang"
+                    :value="item.code">{{item.label}}</option>
+                </select>
+                <label for="lang-select">{{$t('transLanguage')}}</label>
+              </div>
             </div>
-            <div class="ebt-select-container">
-              <select id="reader-select-root" 
-                class="ebt-select"
-                v-model="vnameRoot"
-                @click="stopPropagation($event)">
-                <option v-for="item in langVoices('pli', 'vnameRoot')" :key="item.code" 
-                  :selected="item.name===vnameRoot"
-                  :value="item.name">{{item.label}}</option>
-              </select>
-              <label for="reader-select-root">Pali</label>
-            </div>
-          </div>
-        </details>
-      </li><!-- reader -->
-      <li class="" role="none" >
-        <details role="menuitem" 
-          @click="clickDetails('search', $event)"
-          :open="showDetail('search')"
+          </details>
+        </li><!-- Language -->
+        <li class="" role="none" ><!-- Translation -->
+          <details role="menuitem" 
+            @click="clickDetails('trans', $event)"
+            :open="showDetail('trans')"
           >
-          <summary class="ebt-summary">
-            <div class="ebt-settings-title">
-              <div>{{$t('searchResults')}}</div>
-              <div class="body-2" v-if="openDetail!=='search'">{{maxResults}}</div>
+            <summary class="ebt-summary">
+              <div class="ebt-settings-title">
+                  <div>{{$t('textLayout')}}</div>
+                  <div >
+                    <span v-if="showId" class="body-2">#</span>
+                    <span v-if="showPali" class="body-2">Pali</span>
+                    <v-icon class="ebt-settings-icon"
+                      v-if="fullLine && showPali && showTrans">
+                      {{ mdiFormatAlignJustify}}
+                    </v-icon>
+                    <v-icon class="ebt-settings-icon"
+                      v-if="!fullLine && showPali && showTrans" >
+                      {{ mdiFormatColumns}}
+                    </v-icon>
+                    <span v-if="showTrans" class="body-2">
+                      {{lang.toUpperCase()}}</span>
+                  </div>
+              </div><!--ebt-settings-title-->
+            </summary>
+            <div class="ebt-settings-detail">
+              <ebt-checkbox v-model="showPali" 
+                ref="trans-focus"
+                :aria-checked="showPali"
+                :label="$t('showPaliText')"
+                @click="stopPropagation($event)"
+                />
+              <ebt-checkbox v-model="showTrans" 
+                :aria-checked="showTrans"
+                :label="$t('showTransText')"
+                @click="stopPropagation($event)"
+                />
+              <ebt-checkbox v-model="fullLine" 
+                :aria-checked="fullLine"
+                :label="$t('showLineByLine')"
+                @click="stopPropagation($event)"
+                />
+              <ebt-checkbox v-model="showId" 
+                :aria-checked="showId"
+                :label="$t('showTextSegmentIds')"
+                @click="stopPropagation($event)"
+                />
             </div>
-          </summary>
-          <div class="ebt-settings-detail" >
-            <div class="ebt-select-container"
-              @click="stopPropagation($event)"
-              >
-              <select id="maxResults-select" 
-                ref="search-focus"
-                class="ebt-select"
-                v-model="maxResults"
-                >
-                <option v-for="n in [5,10,25,50]" :key="n" 
-                  :selected="maxResults === n"
-                  :value="n">{{n}} {{$t('searchResults')}}</option>
-              </select>
-            </div><!--ebt-select-container-->
-          </div>
-        </details>
-      </li>
-      <li class="" role="none" ><!-- Audio -->
-        <details role="menuitem" 
-          @click="clickDetails('audio', $event)"
-          :open="showDetail('audio')"
-          >
-          <summary class="ebt-summary">  
-            <div class="ebt-settings-title"> 
-              <div>{{$t('audio')}} </div>
-              <div class="body-2" v-if="openDetail!=='audio'">{{audio}}</div>
+          </details>
+        </li><!-- Translation -->
+        <li class="" role="none" ><!-- reader -->
+          <details role="menuitem"
+            @click="clickDetails('reader', $event)"
+            :open="showDetail('reader')"
+            >
+            <summary class="ebt-summary">
+              <div class="ebt-settings-title">
+                <div>{{$t('reader')}}</div>
+                <div>
+                  <span class="body-2" v-if="showPali && openDetail!=='reader'">
+                    {{vnameRoot}}</span>
+                  <span class="body-2" v-if="showTrans && openDetail!=='reader'">
+                    {{vnameTrans}}</span>
+                </div>
+              </div><!--ebt-settings-title-->
+            </summary>
+            <div class="ebt-settings-detail">
+              <div class="ebt-select-container">
+                <select id="reader-select-trans" 
+                  class="ebt-select"
+                  ref="reader-focus"
+                  v-model="vnameTrans"
+                  @click="stopPropagation($event)">
+                  <option v-for="item in langVoices(lang, 'vnameTrans')" :key="item.code" 
+                    :selected="item.name===vnameTrans"
+                    :value="item.name">{{item.label}}</option>
+                </select>
+                <label for="reader-select-trans">{{lang.toUpperCase()}}</label>
+              </div>
+              <div class="ebt-select-container">
+                <select id="reader-select-root" 
+                  class="ebt-select"
+                  v-model="vnameRoot"
+                  @click="stopPropagation($event)">
+                  <option v-for="item in langVoices('pli', 'vnameRoot')" :key="item.code" 
+                    :selected="item.name===vnameRoot"
+                    :value="item.name">{{item.label}}</option>
+                </select>
+                <label for="reader-select-root">Pali</label>
+              </div>
             </div>
-          </summary>
-          <div class="ebt-settings-detail">
-            <div class="ebt-select-container" @click="stopPropagation($event)" >
-              <select id="audio-select" 
-                ref="audio-focus"
-                class="ebt-select "
-                v-model="audio"
+          </details>
+        </li><!-- reader -->
+        <li class="" role="none" >
+          <details role="menuitem" 
+            @click="clickDetails('search', $event)"
+            :open="showDetail('search')"
+            >
+            <summary class="ebt-summary">
+              <div class="ebt-settings-title">
+                <div>{{$t('searchResults')}}</div>
+                <div class="body-2" v-if="openDetail!=='search'">{{maxResults}}</div>
+              </div>
+            </summary>
+            <div class="ebt-settings-detail" >
+              <div class="ebt-select-container"
+                @click="stopPropagation($event)"
                 >
-                <option :selected="audio==='opus'" value="opus">
-                  Opus {{$t('audio')}}</option>
-                <option :selected="audio==='ogg'" value="ogg">
-                  Ogg {{$t('audio')}}</option>
-                <option :selected="audio==='mp3'" value="mp3">
-                  MP3 {{$t('audio')}}</option>
-              </select>
-            </div><!--ebt-select-container-->
-            <div class="ebt-select-container" @click="stopPropagation($event)" >
-              <select id="ips-select" 
-                ref="sound-focus"
-                class="ebt-select caption"
-                v-model="ips"
-                >
-                <option v-for="item in ipsChoices" :key="item.value" 
-                  v-if="item.value !== 1"
-                  :selected="item.value===ips"
-                  :value="item.value">{{$t(item.i18n)}}</option>
-              </select>
-              <label for="ips-select" v-if="ips">
-                <v-btn icon 
-                  class="ebt-icon-btn"
-                  @click="playBell"
+                <select id="maxResults-select" 
+                  ref="search-focus"
+                  class="ebt-select"
+                  v-model="maxResults"
                   >
-                  <v-icon small>{{mdiVolumeHigh}}</v-icon>
-                </v-btn>
-              </label>
-              <audio v-for="bell in ipsChoices"
-                :ref="`refIps${bell.value}`" 
-                preload=auto v-if="bell.value" >
-                <source type="audio/ogg" :src="bell.url.substring(1)" />
-                <p>{{$t('noHTML5')}}</p>
-              </audio>
-            </div><!--ebt-select-container-->
-          </div>
-        </details>
-      </li><!-- Audio -->
-      <li class="text-center settings-close" role="none">
-        <v-btn id="btnSettings" 
-          small
-          class="ebt-text-btn"
-          :aria-label="$t('ariaClose')"
-          @click="focusMore(false,$event)"
-          >
-          {{$t('$vuetify.close')}}
-        </v-btn>
-      </li>
-    </ul> <!-- ebt-more-menu -->
-    </v-sheet>
+                  <option v-for="n in [5,10,25,50]" :key="n" 
+                    :selected="maxResults === n"
+                    :value="n">{{n}} {{$t('searchResults')}}</option>
+                </select>
+              </div><!--ebt-select-container-->
+            </div>
+          </details>
+        </li>
+        <li class="" role="none" ><!-- Audio -->
+          <details role="menuitem" 
+            @click="clickDetails('audio', $event)"
+            :open="showDetail('audio')"
+            >
+            <summary class="ebt-summary">  
+              <div class="ebt-settings-title"> 
+                <div>{{$t('audio')}} </div>
+                <div class="body-2" v-if="openDetail!=='audio'">{{audio}}</div>
+              </div>
+            </summary>
+            <div class="ebt-settings-detail">
+              <div class="ebt-select-container" @click="stopPropagation($event)" >
+                <select id="audio-select" 
+                  ref="audio-focus"
+                  class="ebt-select "
+                  v-model="audio"
+                  >
+                  <option :selected="audio==='opus'" value="opus">
+                    Opus {{$t('audio')}}</option>
+                  <option :selected="audio==='ogg'" value="ogg">
+                    Ogg {{$t('audio')}}</option>
+                  <option :selected="audio==='mp3'" value="mp3">
+                    MP3 {{$t('audio')}}</option>
+                </select>
+              </div><!--ebt-select-container-->
+              <div class="ebt-select-container" @click="stopPropagation($event)" >
+                <select id="ips-select" 
+                  ref="sound-focus"
+                  class="ebt-select caption"
+                  v-model="ips"
+                  >
+                  <option v-for="item in ipsChoices" :key="item.value" 
+                    v-if="item.value !== 1"
+                    :selected="item.value===ips"
+                    :value="item.value">{{$t(item.i18n)}}</option>
+                </select>
+                <label for="ips-select" v-if="ips">
+                  <v-btn icon 
+                    class="ebt-icon-btn"
+                    @click="playBell"
+                    >
+                    <v-icon small>{{mdiVolumeHigh}}</v-icon>
+                  </v-btn>
+                </label>
+                <audio v-for="bell in ipsChoices"
+                  :ref="`refIps${bell.value}`" 
+                  preload=auto v-if="bell.value" >
+                  <source type="audio/ogg" :src="bell.url.substring(1)" />
+                  <p>{{$t('noHTML5')}}</p>
+                </audio>
+              </div><!--ebt-select-container-->
+            </div>
+          </details>
+        </li><!-- Audio -->
+        <li class="text-center settings-close" role="none">
+          <v-btn id="btnSettings" 
+            small
+            class="ebt-text-btn"
+            :aria-label="$t('ariaClose')"
+            @click="focusMore(false,$event)"
+            >
+            {{$t('$vuetify.close')}}
+          </v-btn>
+        </li>
+      </ul> <!-- ebt-more-menu -->
+      </v-sheet>
   </v-sheet> <!-- ebt-more -->
 </template>
 

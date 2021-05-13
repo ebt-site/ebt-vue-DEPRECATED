@@ -8,7 +8,7 @@
     </header>
     <div class="ebt-text-container" @click="textClicked($event)">
       <div v-for="seg in segments" :key="seg.scid" 
-        :id="seg.scid"
+        :ref="seg.scid"
         @click="clickSegment(seg)"
         :class="segmentClass(seg)">
         <div v-if="settings.showId" class="ebt-scid">{{seg.scid}}</div>
@@ -41,8 +41,30 @@ export default {
   },
   async mounted() {
     this.bilaraWeb = new this.js.BilaraWeb({fetch});
+    let that = this;
+    this.$nuxt.$on('ebt-load-sutta', (cursor={})=>{
+        that.scrollToCursor(cursor)
+    });
+    console.log(`ebt-sutta.mounted()`);
+    that.scrollToCursor(this.cursor);
   },
   methods:{
+    scrollToCursor(cursor) {
+      let that = this;
+      let { $refs } = that;
+      that.$nextTick(()=>{
+        let { scid } = cursor;
+        console.log(`ebt-sutta.mounted.ebt-load-sutta `, 
+          $refs["mn3:1.3"], scid, $refs[scid], $refs);
+        if (scid) {
+          let elt = $refs[scid];
+          elt = elt instanceof Array ? elt[0] : elt;
+          elt = elt && elt.$el || elt;
+          console.log(`ebt-sutta.mounted.ebt-load-sutta scid:${scid} elt:`, elt);
+          elt && elt.scrollIntoView({block: "center"});
+        }
+      });
+    },
     clickSegment(seg) {
       let { $store } = this;
       console.log(`clickSegment()`, seg.scid);

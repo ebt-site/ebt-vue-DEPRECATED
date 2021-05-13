@@ -71,12 +71,17 @@ export default {
     };
   },
   async mounted() {
+    let { cursor, $store } = this;
+    if (cursor) {
+      console.log(`ebt-app-vue.mounted()`, cursor);
+      $store.dispatch('ebt/loadSutta', cursor);
+    }
   },
   methods:{
-    clickHome() {
+    async clickHome() {
       let { home } = this;
       try {
-        this.$route !== home && this.$router.replace(home);
+        this.$route !== home && await this.$router.replace(home);
       } catch(e) {
         console.log(`clickHome`, home, e.message);
       }

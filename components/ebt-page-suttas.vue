@@ -7,6 +7,9 @@
       <ebt-results :js="js"/>
     </div>
     <ebt-sutta :js="js" />
+    <v-footer app dark>
+      <ebt-cursor :js="js"/>
+    </v-footer>
   </v-sheet>
 </template>
 

@@ -8,6 +8,7 @@ export { default as EbtCheckbox } from './ebt-checkbox.vue';
 export { default as EbtCursor } from './ebt-cursor.vue';
 export { default as EbtHistory } from './ebt-history.vue';
 export { default as EbtPageSuttas } from './ebt-page-suttas.vue';
+export { default as EbtPicker } from './ebt-picker.vue';
 export { default as EbtResults } from './ebt-results.vue';
 export { default as EbtImageInfo } from './ebt-image-info.vue';
 export { default as EbtSearchField } from './ebt-search-field.vue';
