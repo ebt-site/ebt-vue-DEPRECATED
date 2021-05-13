@@ -1,0 +1,79 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "haarsträubend",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "haarsträubend",
+    "method": "phrase",
+    "resultPattern": "\\bhaarsträubend",
+    "segsMatched": 1,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/kn/thig/thig11.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thig/thig11.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thig/thig11.1_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "thig11.1/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thig/thig11.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thig/thig11.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thig/thig11.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thig11.1",
+        "lang": "de",
+        "segMap": {
+          "thig11.1:1.4": {
+            "scid": "thig11.1:1.4",
+            "pli": "abbhuto lomahaṁsano.",
+            "de": "das so erstaunlich und <span class=\"ebt-matched\">haarsträubend</span> war! ",
+            "en": "so astonishing and hair-raising!",
+            "matched": true
+          }
+        },
+        "score": 1.019,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Nonnen\nDas Zwölferbuch\n11.1. Uppalavaṇṇā",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 54,
+          "de": 52,
+          "en": 52
+        }
+      }
+    ]
+  }
+}
