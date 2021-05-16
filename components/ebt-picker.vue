@@ -63,7 +63,7 @@ export default {
     };
   },
   async mounted() {
-    console.log('ebtPicker.mounted');
+    console.debug('ebtPicker.mounted');
   },
   methods:{
     touchesElement(touch, elt) {
@@ -99,7 +99,7 @@ export default {
       evt.stopPropagation();
       let index = this.touchedIndex(evt);
       Vue.set(this, "iHover", index);
-      console.log(`onTouchStart`, {index});
+      console.debug(`onTouchStart`, {index});
     },
     onTouchMove(evt) {
       evt.stopPropagation();
@@ -109,7 +109,7 @@ export default {
     onTouchCancel(evt) {
       evt.stopPropagation();
       Vue.set(this, 'iHover', -1);
-      console.log(`onTouchCancel`, evt);
+      console.debug(`onTouchCancel`, evt);
     },
     onTouchEnd(evt) {
       evt.stopPropagation();
@@ -135,7 +135,7 @@ export default {
     onClick(evt) {
       let { iHover, items, iLabel, label } = this;
       if (iHover >= 0) {
-        console.log(`onClick`, iHover, label, evt);
+        console.debug(`onClick`, iHover, label, evt);
         this.$emit('ebt-pick-item', {index:iHover, label});
       }
       Vue.set(this, 'iHover', -1);
@@ -182,7 +182,6 @@ export default {
       let item = items[i];
       let label = item && item.label;
       if (!label) {
-        console.log(`label items`, {items, i});
         return "--";
       }
       return label;
