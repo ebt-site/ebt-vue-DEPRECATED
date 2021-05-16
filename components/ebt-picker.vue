@@ -1,6 +1,7 @@
 <template>
   <div :class="pickerClass"
     >
+    <v-icon v-if="labelIndex>=0" >{{mdiChevronRight}}</v-icon>
     <div v-for="(item,i) in items" :key="i"
       :data-index="i"
       :class="itemClass(i)"
@@ -12,16 +13,15 @@
       @touchcancel="onTouchCancel($event)"
       @click="onClick($event)"
     >{{i===iLabel ? label : bullet}}</div>
+    <v-icon v-if="labelIndex<0" >{{mdiChevronLeft}}</v-icon>
   </div>
 </template>
 
 <script>
 import Vue from "vue";
 import {
-  mdiSquareSmall,
   mdiChevronLeft,
   mdiChevronRight,
-  mdiArrowLeft,
 } from '@mdi/js';
 
 export default {
@@ -56,15 +56,14 @@ export default {
   },
   data: function(){
     return {
-      mdiSquareSmall,
       mdiChevronLeft,
       mdiChevronRight,
-      mdiArrowLeft,
       suttacentral: false,
       iHover: -1,
     };
   },
   async mounted() {
+    console.log('ebtPicker.mounted');
   },
   methods:{
     touchesElement(touch, elt) {
@@ -136,8 +135,10 @@ export default {
     onClick(evt) {
       let { iHover, items, iLabel, label } = this;
       if (iHover >= 0) {
-        console.log(`onClick`, iHover, iLabel, label, evt);
+        console.log(`onClick`, iHover, label, evt);
+        this.$emit('ebt-pick-item', {index:iHover, label});
       }
+      Vue.set(this, 'iHover', -1);
     },
     itemClass(i) {
       let { iHover, iLabel, items } = this;
@@ -167,18 +168,24 @@ export default {
         : items.length + labelIndex;
     },
     pickerClass() {
-      let { iLabel, iHover } = this;
+      let { iLabel, iHover, labelIndex } = this;
       let classes = ['ebt-picker'];
-      classes.push( iLabel === 0
-        ? "ebt-picker-left"
-        : "ebt-picker-right");
+      classes.push( labelIndex < 0
+        ? "ebt-picker-right"
+        : "ebt-picker-left");
       iHover >= 0 && classes.push('ebt-picker-hover');
       return classes.join(' ');
     },
     label() {
       let { iHover, iLabel, items } = this;
       let i = iHover >= 0 ? iHover : iLabel;
-      return items[i].label;
+      let item = items[i];
+      let label = item && item.label;
+      if (!label) {
+        console.log(`label items`, {items, i});
+        return "--";
+      }
+      return label;
     },
   },
 }

@@ -52,7 +52,7 @@ export default {
     scrollToCursor(cursor) {
       let that = this;
       let { $refs } = that;
-      that.$nextTick(()=>{
+      cursor && that.$nextTick(()=>{
         let { scid } = cursor;
         console.log(`ebt-sutta.mounted.ebt-load-sutta `, 
           $refs["mn3:1.3"], scid, $refs[scid], $refs);

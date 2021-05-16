@@ -1,11 +1,5 @@
 <template>
   <v-app >
-    <div class="test-main"> <!-- TEST -->
-      <ebt-picker :labelIndex="-1" ></ebt-picker>
-      SN12.23/en
-      <ebt-picker :labelIndex="0" ></ebt-picker>
-    </div> <!-- TEST -->
-  <!--
     <v-app-bar dark :clipped-left="clipped" fixed app hide-on-scroll >
       <ebt-app-bar 
         :title="ebtSiteTitle"
@@ -28,7 +22,6 @@
         <nuxt />
       </v-container>
     </div>
--->
   </v-app>
 </template>
 
@@ -47,14 +40,12 @@ import {
 let {
   EbtAppBar,
   EbtCursor,
-  EbtPicker,
 } = EbtVue;
 
 export default {
   components: {
     EbtCursor,
     EbtAppBar,
-    EbtPicker,
   },
   data () {
     return {
@@ -93,6 +84,7 @@ export default {
 </script>
 <style>
 .test-main {
+  margin-top: 5em;
   padding: 1em;
   display: flex;
   flex-flow: row nowrap;

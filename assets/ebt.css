@@ -25,6 +25,7 @@
   --ebt-color-dark: #FFFFFF;
   --ebt-color-light: #222;
   --ebt-cursor-border: 0.15em;
+  --ebt-nav-font-size: 0.85rem;
 }
 
 label {
@@ -130,7 +131,7 @@ label {
   text-decoration-color: var(--ebt-color-light);
 }
 .ebt-text-btn .v-btn__content {
-  font-size: 0.75rem;
+  font-size: var(--ebt-nav-font-size);
   text-transform: none;
   font-variant: small-caps;
   font-weight: 400;
@@ -396,7 +397,7 @@ summary:focus {
 .ebt-nav-sutta {
     display: flex;
     flex-flow: row noWrap;
-    align-items: baseline;
+    align-items: center;
     justify-content: space-between;
     width: 100%;
     margin-bottom: 1em;
@@ -604,11 +605,13 @@ div.site-content {
   align-items: center;
   width: 33%;
   overflow: hidden;
+  font-size: var(--ebt-nav-font-size);
 }
 .ebt-picker-hover {
-  color: var(--ebt-focus-color-light) !important;
+  color: var(--ebt-focus-color-light);
   text-decoration: underline;
-  font-weight: 700;
+  font-weight: var(--ebt-focus-font-weight);
+  background: var(--ebt-focus-background-color-light);
 }
 .ebt-picker-left {
   justify-content: flex-start;
@@ -620,6 +623,7 @@ div.site-content {
   cursor: pointer;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
+  font-variant: small-caps;
 }
 .ebt-picker-item0 {
   opacity: 1;
