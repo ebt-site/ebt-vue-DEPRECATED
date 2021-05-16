@@ -1,5 +1,11 @@
 <template>
   <v-app >
+    <div class="test-main"> <!-- TEST -->
+      <ebt-picker :labelIndex="-1" ></ebt-picker>
+      SN12.23/en
+      <ebt-picker :labelIndex="0" ></ebt-picker>
+    </div> <!-- TEST -->
+  <!--
     <v-app-bar dark :clipped-left="clipped" fixed app hide-on-scroll >
       <ebt-app-bar 
         :title="ebtSiteTitle"
@@ -18,11 +24,11 @@
       </ebt-app-bar>
     </v-app-bar>
     <div class="site-main">
-      <ebt-picker></ebt-picker>
       <v-container class="site-content">
         <nuxt />
       </v-container>
     </div>
+-->
   </v-app>
 </template>
 
@@ -48,6 +54,7 @@ export default {
   components: {
     EbtCursor,
     EbtAppBar,
+    EbtPicker,
   },
   data () {
     return {
@@ -85,6 +92,12 @@ export default {
 }
 </script>
 <style>
+.test-main {
+  padding: 1em;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
 .site-main {
 }
 .site-content {
