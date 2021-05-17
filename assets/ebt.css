@@ -598,51 +598,6 @@ div.site-content {
 .ebt-suttacentral a:hover {
   color: var(--ebt-focus-color-light);
 }
-.ebt-picker {
-  display: flex;
-  flex-flow: row nowrap;
-  align-items: center;
-  width: 33%;
-  overflow: hidden;
-  font-size: var(--ebt-nav-font-size);
-}
-.ebt-picker-hover {
-  color: var(--ebt-focus-color-light);
-  text-decoration: underline;
-  font-weight: var(--ebt-focus-font-weight);
-  background: var(--ebt-focus-background-color-light);
-}
-.ebt-picker-left {
-  justify-content: flex-start;
-}
-.ebt-picker-right {
-  justify-content: flex-end;
-}
-.ebt-picker > div {
-  cursor: pointer;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
-  font-variant: small-caps;
-}
-.ebt-picker-item0 {
-  opacity: 1;
-}
-.ebt-picker-item1 {
-  opacity: 0.6;
-}
-.ebt-picker-item2 {
-  opacity: 0.2;
-}
-.ebt-picker-itemN {
-  opacity: 0.1;
-}
-.ebt-picker-item-label {
-  padding-left: 0.3em;
-  padding-right: 0.3em;
-}
-.ebt-picker-item-inactive {
-  opacity: 0;
-}
 pre,
 blockquote {
   border-left: 3pt solid #ccc;

@@ -32,10 +32,6 @@ export default {
       type: Number,
       default: 0,
     },
-    bullet: {
-      type: String,
-      default: "\u2022",
-    },
     justify: {
       type: String,
       default: "center",
@@ -112,6 +108,7 @@ export default {
       console.debug(`onTouchCancel`, evt);
     },
     onTouchEnd(evt) {
+      evt.preventDefault();
       evt.stopPropagation();
       this.onClick(evt);
       Vue.set(this, 'iHover', -1);
@@ -136,9 +133,8 @@ export default {
       let { iHover, items, iLabel, label } = this;
       if (iHover >= 0) {
         console.debug(`onClick`, iHover, label, evt);
-        this.$emit('ebt-pick-item', {index:iHover, label});
+        this.$emit('ebt-pick-item', {index:iHover, label, evt});
       }
-      Vue.set(this, 'iHover', -1);
     },
     itemClass(i) {
       let { iHover, iLabel, items } = this;
@@ -168,12 +164,12 @@ export default {
         : items.length + labelIndex;
     },
     pickerClass() {
-      let { iLabel, iHover, labelIndex } = this;
+      let { items, iLabel, iHover, labelIndex } = this;
       let classes = ['ebt-picker'];
       classes.push( labelIndex < 0
         ? "ebt-picker-right"
         : "ebt-picker-left");
-      iHover >= 0 && classes.push('ebt-picker-hover');
+      items.length && iHover >= 0 && classes.push('ebt-picker-hover');
       return classes.join(' ');
     },
     label() {
@@ -182,12 +178,67 @@ export default {
       let item = items[i];
       let label = item && item.label;
       if (!label) {
+        Vue.set(this, "iHover", -1);
         return "--";
       }
       return label;
+    },
+    bullet() {
+      let { items } = this;
+      return items.length > 5 ? "\u2022" : "\u2043";
     },
   },
 }
 </script>
 <style>
+.ebt-picker {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  width: 40%;
+  overflow: hidden;
+  font-size: var(--ebt-nav-font-size);
+}
+.ebt-picker-hover {
+  color: var(--ebt-focus-color-light);
+  font-weight: var(--ebt-focus-font-weight);
+  background: var(--ebt-focus-background-color-light);
+}
+.ebt-picker-left {
+  justify-content: flex-start;
+}
+.ebt-picker-right {
+  justify-content: flex-end;
+}
+.ebt-picker > div {
+  cursor: pointer;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+  font-variant: small-caps;
+}
+.ebt-picker-item0 {
+  opacity: 1;
+}
+.ebt-picker-item1 {
+  opacity: 0.6;
+}
+.ebt-picker-item2 {
+  opacity: 0.2;
+}
+.ebt-picker-itemN {
+  opacity: 0.1;
+}
+.ebt-picker:hover .ebt-picker-item-label{
+  text-decoration: underline;
+}
+.ebt-picker-item-inactive {
+  opacity: 0;
+}
+@media(width < 600px) {
+  .ebt-picker {
+    width: 33%;
+  }
+}
 </style>
