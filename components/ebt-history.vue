@@ -5,14 +5,10 @@
       @ebt-pick-item="pickItem($event)"
     ></ebt-picker>
 
-    <div class="ebt-suttacentral"
-      @mouseover="suttacentral=true" @mouseleave="suttacentral=false">
-      <a v-if="suttacentral"
-        :href="`https://suttacentral.net/${current.sutta_uid}`"
-        target="_blank"> SuttaCentral </a>
-      <span v-else >
-        {{current.sutta_uid}}/{{current.lang}} </span>
-    </div>
+    <v-btn small text
+      class="ebt-text-btn ebt-nav-btn"
+      @click="clickCursor(cursor)"
+    >{{cursorLabel}}</v-btn>
 
     <ebt-picker :items="nextItems" 
       :labelIndex="0" 
@@ -42,14 +38,28 @@ export default {
     };
   },
   async mounted() {
-    let { $el } = this;
-    this.$nuxt.$on('ebt-load-sutta', payload=>{
-      $el && $el.scrollIntoView({
-        block: "center",
-      });
-    });
+    //this.$nuxt.$on('ebt-load-sutta', payload=>{
+      //let { $el } = this;
+      //$el && $el.scrollIntoView({
+        //block: "center",
+      //});
+    //});
   },
   methods:{
+    async clickCursor(cursor) {
+        let { sutta, history, $store } = this;
+        let { sutta_uid, lang } = cursor;
+        let updateHistory = false;
+        if (sutta_uid !== sutta.sutta_uid) {
+            await $store.dispatch('ebt/loadSutta', {sutta_uid, lang, updateHistory});
+        }
+        let elt = document.getElementById(cursor.scid);
+        if (elt) {
+          elt.scrollIntoView({block: "center"});
+        } else {
+          console.warn(`clickCursor() not found: ${cursor.scid}`);
+        }
+    },
     pickItem(evt) {
       let { label } = evt;
       console.log(`pickItem`, evt);
@@ -65,6 +75,10 @@ export default {
     },
   },
   computed: {
+    cursorLabel() {
+        let { scid='--', lang='--' } = this.cursor || {};
+        return `${scid}/${lang}`;
+    },
     nextItems() {
         let { history, sutta, iCursor } = this;
         let { sutta_uid, lang } = sutta;
@@ -104,11 +118,18 @@ export default {
     sutta() {
         return this.$store.state.ebt.sutta;
     },
+    settings() {
+      return this.$store.state.ebt.settings;
+    },
     iCursor() {
-      return this.$store.state.ebt.settings.iCursor;
+      return this.settings.iCursor;
+    },
+    cursor() {
+        let { iCursor, history } = this.settings;
+        return history && history[iCursor];
     },
     history() {
-      return this.$store.state.ebt.settings.history;
+      return this.settings.history;
     },
   },
 }

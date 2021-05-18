@@ -1,7 +1,11 @@
 <template>
   <div v-if="sutta && sutta.sutta_uid" class="ebt-sutta" >
     <header class="ebt-header-class">
-      <ebt-history :js="js" />
+      <div class="ebt-suttacentral">
+        <a :href="`https://suttacentral.net/${current.sutta_uid}`"
+          target="_blank"> SuttaCentral </a>
+        <div>{{current.sutta_uid}}/{{current.lang}}</div>
+      </div>
       <div class="ebt-author" v-if="author">
         {{$t('translatedBy')}} {{author.name}}
       </div>
@@ -9,6 +13,7 @@
     <div class="ebt-text-container" @click="textClicked($event)">
       <div v-for="seg in segments" :key="seg.scid" 
         :ref="seg.scid"
+        :id="seg.scid"
         @click="clickSegment(seg)"
         :class="segmentClass(seg)">
         <div v-if="settings.showId" class="ebt-scid">{{seg.scid}}</div>
@@ -129,8 +134,35 @@ export default {
       let authors = bilaraWeb && bilaraWeb.authors || [];
       return authors[this.sutta.translator];
     },
+    history() {
+      return this.$store.state.ebt.settings.history;
+    },
+    current() {
+        let { history, sutta } = this;
+        let { sutta_uid, lang } = sutta;
+        let iCur = history.findIndex(h=>
+          h.sutta_uid===sutta_uid && h.lang===lang);
+        return history[iCur] || sutta;
+    },
   },
 }
 </script>
 <style>
+.ebt-suttacentral {
+  font-variant: small-caps;
+  text-align: center;
+  background-color: transparent;
+  margin-bottom: 0.5em;
+}
+.ebt-suttacentral > div {
+  font-size: larger;
+}
+.v-application .ebt-suttacentral > a {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--ebt-color-light);
+}
+.ebt-suttacentral a:hover {
+  color: var(--ebt-focus-color-light);
+}
 </style>

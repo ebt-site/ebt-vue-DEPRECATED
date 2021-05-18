@@ -1,47 +1,34 @@
 <template>
   <div class="ebt-nav-cursor">
-    <v-btn small text
-        class="ebt-text-btn ebt-nav-btn"
-        @click="clickCursor(cursor)"
-    >{{cursorLabel}}</v-btn>
+    <div class="ebt-audio-bottom">
+      <v-btn icon 
+        ref="ebt-play-pause"
+        @click="clickPlayPause()"
+        :aria-label="$t('ariaPlay')"
+        class="ebt-icon-btn" >
+        <v-icon>{{playPauseIcon}}</v-icon>
+      </v-btn>
+    </div>
+
     <v-spacer/>
-    <div class="text-center"><!-- center -->
-      <div><!-- audio player-->
-        <v-btn icon disabled
-            @click="clickPlayPrevious()"
-            :aria-label="$t('ariaPlayPrevious')"
-            class="ebt-icon-btn" >
-            <v-icon >{{mdiSkipPrevious}}</v-icon>
-        </v-btn>
-        <v-btn icon 
-            ref="ebt-play-pause"
-            @click="clickPlayPause()"
-            :aria-label="$t('ariaPlay')"
-            class="ebt-icon-btn" >
-            <v-icon>{{playPauseIcon}}</v-icon>
-        </v-btn>
-        <v-btn icon disabled
-            @click="clickPlayNext()"
-            :aria-label="$t('ariaPlayNext')"
-            class="ebt-icon-btn" >
-            <v-icon >{{mdiSkipNext}}</v-icon>
-        </v-btn>
-      </div><!-- audio player-->
-    </div><!-- center -->
+    <ebt-history :js="js" >
+    </ebt-history>
     <v-spacer/>
 
-    <v-btn icon
-        @click="clickPageTop()"
-        :aria-label="$t('ariaPageTop')"
-        class="ebt-icon-btn" >
-        <v-icon >{{mdiChevronUp}}</v-icon>
-    </v-btn>
-    <v-btn icon
-        @click="clickPageBottom()"
-        :aria-label="$t('ariaPageBottom')"
-        class="ebt-icon-btn" >
-        <v-icon >{{mdiChevronDown}}</v-icon>
-    </v-btn>
+    <div class="ebt-page-bottom" >
+      <v-btn icon dark
+          @click="clickPageTop()"
+          :aria-label="$t('ariaPageTop')"
+          class="ebt-icon-btn" >
+          <v-icon >{{mdiChevronUp}}</v-icon>
+      </v-btn>
+      <v-btn icon dark
+          @click="clickPageBottom()"
+          :aria-label="$t('ariaPageBottom')"
+          class="ebt-icon-btn" >
+          <v-icon >{{mdiChevronDown}}</v-icon>
+      </v-btn>
+    </div>
   </div>
 </template>
 
@@ -272,16 +259,6 @@ export default {
             elt.scrollIntoView({block: "center"});
         });
     },
-    async clickCursor(cursor) {
-        let { sutta, history, $store } = this;
-        let { sutta_uid, lang } = cursor;
-        let updateHistory = false;
-        if (sutta_uid !== sutta.sutta_uid) {
-            await $store.dispatch('ebt/loadSutta', {sutta_uid, lang, updateHistory});
-        }
-        let elt = document.getElementById(cursor.scid);
-        elt && elt.scrollIntoView({block: "center"});
-    },
   },
   computed: {
     cursorLabel() {
@@ -325,4 +302,31 @@ export default {
 }
 </script>
 <style>
+.ebt-nav-cursor {
+  display: flex;
+  flex-flow: row noWrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.ebt-audio-bottom {
+  position: absolute;
+  let: 0;
+  bottom: calc(var(--ebt-bottom-navigation-height)*1);
+  background-color: var(--ebt-focus-background-color-dark) !important;
+  border-top-right-radius: 1em !important;
+  display: flex;
+  flex-flow: row;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.ebt-page-bottom {
+  position: absolute;
+  right: 0;
+  bottom: calc(var(--ebt-bottom-navigation-height)*1);
+  background-color: var(--ebt-focus-background-color-dark) !important;
+  border-top-left-radius: 1em !important;
+  display: flex;
+  flex-flow: row;
+}
 </style>

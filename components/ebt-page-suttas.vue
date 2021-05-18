@@ -7,9 +7,11 @@
       <ebt-results :js="js"/>
     </div>
     <ebt-sutta :js="js" />
-    <v-footer app dark>
+    <v-bottom-navigation app dark 
+      height="var(--ebt-bottom-navigation-height)"
+      >
       <ebt-cursor :js="js"/>
-    </v-footer>
+    </v-bottom-navigation>
   </v-sheet>
 </template>
 
@@ -32,6 +34,8 @@ export default {
     EbtResults,
     EbtSutta,
     EbtSettings,
+  },
+  props: {
   },
   data: function(){
     return {

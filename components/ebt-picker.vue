@@ -200,9 +200,8 @@ export default {
   font-size: var(--ebt-nav-font-size);
 }
 .ebt-picker-hover {
-  color: var(--ebt-focus-color-light);
+  color: var(--ebt-focus-color-dark);
   font-weight: var(--ebt-focus-font-weight);
-  background: var(--ebt-focus-background-color-light);
 }
 .ebt-picker-left {
   justify-content: flex-start;
@@ -230,11 +229,14 @@ export default {
 .ebt-picker-itemN {
   opacity: 0.1;
 }
-.ebt-picker:hover .ebt-picker-item-label{
+.ebt-picker-hover .ebt-picker-item-label{
   text-decoration: underline;
 }
 .ebt-picker-item-inactive {
   opacity: 0;
+}
+.ebt-picker:focus-within span.v-btn__content {
+  color: fuchsia;
 }
 @media(width < 600px) {
   .ebt-picker {
