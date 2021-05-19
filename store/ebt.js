@@ -42,10 +42,10 @@ export const mutations = {
         if (iCursor >= 0) {
             let cursor = history[iCursor];
             if (cursor.scid !== value) {
-                iCursor = history.length-1;
+                //iCursor = history.length-1;
+                //cursor.date = new Date();
+                //history.sort((a,b)=>a.date-b.date);
                 cursor.scid = value;
-                cursor.date = new Date();
-                history.sort((a,b)=>a.date-b.date);
             }
             cursor = history[iCursor];
             settings.iCursor = iCursor;
