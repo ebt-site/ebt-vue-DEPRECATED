@@ -1,7 +1,7 @@
 <template>
   <div :class="pickerClass"
     >
-    <v-icon v-if="labelIndex>=0" >{{mdiChevronRight}}</v-icon>
+    <v-icon v-if="labelIndex>=0 && items.length" >{{mdiChevronRight}}</v-icon>
     <div v-for="(item,i) in items" :key="i"
       :data-index="i"
       :class="itemClass(i)"
@@ -12,14 +12,18 @@
       @touchend="onTouchEnd($event)"
       @touchcancel="onTouchCancel($event)"
       @click="onClick($event)"
-    >{{i===iLabel ? label : bullet}}</div>
-    <v-icon v-if="labelIndex<0" >{{mdiChevronLeft}}</v-icon>
+    >
+      <div v-if="i===iLabel">{{label}}</div>
+      <v-icon v-else small>{{mdiFileDocumentOutline}}</v-icon>
+    </div>
+    <v-icon v-if="labelIndex<0 && items.length" >{{mdiChevronLeft}}</v-icon>
   </div>
 </template>
 
 <script>
 import Vue from "vue";
 import {
+  mdiFileDocumentOutline,
   mdiChevronLeft,
   mdiChevronRight,
 } from '@mdi/js';
@@ -52,6 +56,7 @@ export default {
   },
   data: function(){
     return {
+      mdiFileDocumentOutline,
       mdiChevronLeft,
       mdiChevronRight,
       suttacentral: false,
@@ -210,6 +215,8 @@ export default {
   justify-content: flex-end;
 }
 .ebt-picker > div {
+  display: flex;
+  flex-flow: row nowrap;
   cursor: pointer;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
@@ -235,8 +242,8 @@ export default {
 .ebt-picker-item-inactive {
   opacity: 0;
 }
-.ebt-picker:focus-within span.v-btn__content {
-  color: fuchsia;
+.ebt-picker-hover .theme--dark.v-icon {
+  color: var(--ebt-focus-color-dark);
 }
 @media(width < 600px) {
   .ebt-picker {
