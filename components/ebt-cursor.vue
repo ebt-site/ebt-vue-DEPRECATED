@@ -55,9 +55,11 @@ class UrlError extends Error {
     this.url = url;
   }
 }
+import EbtHistory from './ebt-history';
 
 export default {
   components: {
+    EbtHistory,
   },
   props: {
     js: Object,
