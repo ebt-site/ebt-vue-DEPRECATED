@@ -81,18 +81,6 @@ export default {
     };
   },
   async mounted() {
-    /*
-    let { $el, $refs, cursor } = this;
-    this.$nuxt.$on('ebt-load-sutta', (payload={})=>{
-      let { scid } = payload;
-      console.log(`ebt-cursor.mounted.ebt-load-sutta`, payload);
-      if (scid) {
-        let elt = document.getElementById(scid);
-        console.log(`ebt-cursor.mounted.ebt-load-sutta elt:`, elt);
-        elt && elt.scrollIntoView({block: "center"});
-      }
-    });
-    */
     this.bilaraWeb = new this.js.BilaraWeb({fetch});
   },
   methods:{

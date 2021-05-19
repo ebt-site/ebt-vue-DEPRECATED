@@ -3,6 +3,9 @@
     <header class="ebt-header-class">
       <div class="ebt-sutta-id">
         {{current.sutta_uid}}/{{current.lang}}
+        <v-icon v-if="isWorkingSutta" class="ebt-working-sutta">
+            {{mdiPin}}
+        </v-icon>
       </div>
       <div class="ebt-author" v-if="author">
         {{$t('translatedBy')}} {{author.name}}
@@ -26,8 +29,14 @@
 </template>
 
 <script>
+import {
+  mdiPin,
+} from '@mdi/js';
 import EbtHistory from './ebt-history'
 import EbtTipitaka from './ebt-tipitaka'
+
+const MS_MINUTE = 60*1000;
+const WORKING_MINUTES = 24*60;
 
 export default {
   components: {
@@ -39,6 +48,7 @@ export default {
   },
   data: function(){
     return {
+      mdiPin,
       bilaraWeb: null,
     };
   },
@@ -142,10 +152,22 @@ export default {
           h.sutta_uid===sutta_uid && h.lang===lang);
         return history[iCur] || sutta;
     },
+    isWorkingSutta() {
+        let { cursor } = this;
+        let minutes = (Date.now() - cursor.date)/MS_MINUTE;
+        return minutes < WORKING_MINUTES;
+    }
   },
 }
 </script>
 <style>
+.ebt-working-sutta {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
 .ebt-sutta-id {
   font-variant: small-caps;
   text-align: center;

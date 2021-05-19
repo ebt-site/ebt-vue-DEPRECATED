@@ -29,7 +29,7 @@ export const state = () => ({
 })
 
 const MS_MINUTE = 60 * 1000;
-const MIN_WORKING = 1;
+const WORKING_MINUTES = 24*60;
 
 export const mutations = {
     cursorScid(state, value) {
@@ -50,7 +50,7 @@ export const mutations = {
         }
         let cursor = history[iCursor];
         let minutes = (Date.now() - cursor.date)/MS_MINUTE;
-        let addToWorkingMemory = MIN_WORKING < minutes;
+        let addToWorkingMemory = WORKING_MINUTES < minutes;
         if (cursor.scid !== value) {
             cursor.scid = value;
             if (addToWorkingMemory) {
