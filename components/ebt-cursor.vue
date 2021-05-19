@@ -314,9 +314,10 @@ export default {
   let: 0;
   bottom: calc(var(--ebt-bottom-navigation-height)*1);
   background-color: var(--ebt-focus-background-color-dark) !important;
-  border-top-right-radius: 1em !important;
+  border-top-right-radius: 0.5em !important;
   display: flex;
   flex-flow: row;
+  padding: 2pt;
   padding-left: 1em;
   padding-right: 1em;
 }
@@ -325,8 +326,12 @@ export default {
   right: 0;
   bottom: calc(var(--ebt-bottom-navigation-height)*1);
   background-color: var(--ebt-focus-background-color-dark) !important;
-  border-top-left-radius: 1em !important;
+  border-top-left-radius: 0.5em !important;
   display: flex;
   flex-flow: row;
+  padding: 2pt;
+}
+.theme--dark.v-bottom-navigation {
+  background-color: var(--ebt-background-color-dark);
 }
 </style>

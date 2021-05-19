@@ -6,7 +6,7 @@
     ></ebt-picker>
 
     <v-btn small text
-      class="ebt-text-btn ebt-nav-btn"
+      class="ebt-text-btn ebt-nav-btn v-btn--active""
       @click="clickCursor(cursor)"
     >{{cursorLabel}}</v-btn>
 
