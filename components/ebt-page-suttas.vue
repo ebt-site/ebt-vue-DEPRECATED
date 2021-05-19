@@ -22,6 +22,7 @@ import EbtSearchField from './ebt-search-field';
 import EbtResults from './ebt-results';
 import EbtSettings from './ebt-settings';
 import EbtSutta from './ebt-sutta';
+import EbtCursor from './ebt-cursor';
 
 const JS = {
   BilaraWeb: require('../src/bilara-web'),
@@ -34,6 +35,7 @@ export default {
     EbtResults,
     EbtSutta,
     EbtSettings,
+    EbtCursor,
   },
   props: {
   },
