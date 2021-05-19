@@ -41,8 +41,14 @@ export const mutations = {
         }
         if (iCursor >= 0) {
             let cursor = history[iCursor];
+            if (cursor.scid !== value) {
+                iCursor = history.length-1;
+                cursor.scid = value;
+                cursor.date = new Date();
+                history.sort((a,b)=>a.date-b.date);
+            }
+            cursor = history[iCursor];
             settings.iCursor = iCursor;
-            cursor.scid = value;
             cursor.lang = lang;
             cursor.translator = translator;
             console.log(`$store.state.ebt.cursorScid cursor:`, cursor);
