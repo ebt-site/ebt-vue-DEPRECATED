@@ -201,7 +201,7 @@ export default {
     MMSS: "A_MINUTESm A_SECONDSs",
     noBell: "Spill av sutta umiddelbart",
     noHTML5: "Nettleseren din støtter ikke HTML5 lyd. Prøv Chrome",
-    notFound: "\"A_PATTERN\" not found. Try SuttaCentral",
+    notFound: "\"A_PATTERN\" not found. Try Voice.suttacentral.net",
     point: "Punkt",
     publicDomain: "Åpen lisens",
     reader: "Tale",

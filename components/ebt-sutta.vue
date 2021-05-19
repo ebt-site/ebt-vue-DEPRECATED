@@ -1,10 +1,8 @@
 <template>
   <div v-if="sutta && sutta.sutta_uid" class="ebt-sutta" >
     <header class="ebt-header-class">
-      <div class="ebt-suttacentral">
-        <a :href="`https://suttacentral.net/${current.sutta_uid}`"
-          target="_blank"> SuttaCentral </a>
-        <div>{{current.sutta_uid}}/{{current.lang}}</div>
+      <div class="ebt-sutta-id">
+        {{current.sutta_uid}}/{{current.lang}}
       </div>
       <div class="ebt-author" v-if="author">
         {{$t('translatedBy')}} {{author.name}}
@@ -148,21 +146,11 @@ export default {
 }
 </script>
 <style>
-.ebt-suttacentral {
+.ebt-sutta-id {
   font-variant: small-caps;
   text-align: center;
   background-color: transparent;
   margin-bottom: 0.5em;
-}
-.ebt-suttacentral > div {
   font-size: larger;
-}
-.v-application .ebt-suttacentral > a {
-  font-size: 0.8rem;
-  font-weight: 700;
-  color: var(--ebt-color-light);
-}
-.ebt-suttacentral a:hover {
-  color: var(--ebt-focus-color-light);
 }
 </style>

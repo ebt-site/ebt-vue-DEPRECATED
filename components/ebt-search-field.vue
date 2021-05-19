@@ -19,9 +19,7 @@
     </div>
     <v-alert :value="!!searchError" color="deep-orange darken-4" 
       type="info" :icon="mdiCancel">
-      <a :href="`https://suttacentral.net/search?query=${search}`" 
-        target="_blank"
-        >
+      <a :href="altSearchUrl" target="_blank" >
         {{searchError}}
       </a>
     </v-alert>
@@ -127,6 +125,15 @@ export default {
         //"--seg-text-width": this.segTextWidth,
         //'--success-color': this.$vuetify.theme.success,
       }
+    },
+    altSearchUrl() {
+      let { search } = this;
+      return [
+        `https://voice.suttacentral.net`,
+        `scv`,
+        `index.html?#`,
+        `sutta?search=${search}`,
+      ].join('/');
     },
     searchError() {
         return this.$store.state.ebt.searchError;

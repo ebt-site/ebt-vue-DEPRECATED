@@ -28,9 +28,12 @@ export const state = () => ({
     voices: [],
 })
 
+const MS_MINUTE = 60 * 1000;
+const MIN_WORKING = 1;
+
 export const mutations = {
     cursorScid(state, value) {
-        let { settings, sutta } = state;
+        let { sutta, settings } = state;
         let { history } = settings;
         let { sutta_uid, lang, translator, } = sutta;
         let iCursor = history.findIndex(h=>h.sutta_uid===sutta_uid && h.lang===lang);
@@ -39,24 +42,30 @@ export const mutations = {
             console.warn(`$store.state.ebt.cursorScid ${sutta_uid}/${lang} not found.`,
                 `Substituting iCursor:${iCursor}`, history[iCursor]);
         }
-        if (iCursor >= 0) {
-            let cursor = history[iCursor];
-            if (cursor.scid !== value) {
-                //iCursor = history.length-1;
-                //cursor.date = new Date();
-                //history.sort((a,b)=>a.date-b.date);
-                cursor.scid = value;
-            }
-            cursor = history[iCursor];
-            settings.iCursor = iCursor;
-            cursor.lang = lang;
-            cursor.translator = translator;
-            console.log(`$store.state.ebt.cursorScid cursor:`, cursor);
-        } else {
+        if (iCursor < 0) {
             console.warn(`$store.state.ebt.cursorScid mutation ignored.`,
                 `Cursor not found for scid:${value} lang:${lang} history:`, 
                 history);
+            return;
         }
+        let cursor = history[iCursor];
+        let minutes = (Date.now() - cursor.date)/MS_MINUTE;
+        let addToWorkingMemory = MIN_WORKING < minutes;
+        if (cursor.scid !== value) {
+            cursor.scid = value;
+            if (addToWorkingMemory) {
+                console.log(`$store.state.ebt.cursorScid() addToWorkingMemory`, 
+                    {value, minutes, cursor}); 
+                cursor.date = new Date();
+                history.sort((a,b)=>a.date-b.date);
+                iCursor = history.length-1;
+                cursor = history[iCursor];
+            }
+        }
+        settings.iCursor = iCursor;
+        cursor.lang = lang;
+        cursor.translator = translator;
+        console.log(`$store.state.ebt.cursorScid()`, {iCursor, cursor});
     },
     searchError(state, error=null) {
         state.searchError = error;
@@ -65,17 +74,17 @@ export const mutations = {
     sutta(state, sutta) {
         let { settings } = state;
         let { history } = settings;
-        let { sutta_uid, lang, updateHistory=true } = sutta;
+        let { sutta_uid, lang } = sutta;
         let iCursor = history.findIndex(h=>h.sutta_uid===sutta_uid && h.lang===lang);
-        let sh = history[iCursor];
-        if (sh) {
-            sh.scid = sh.scid || sutta.segments[0].scid;
-            sh.translator = sutta.translator;
-            sh.lang = lang;
+        let cursor = history[iCursor];
+        if (cursor) {
+            cursor.scid = cursor.scid || sutta.segments[0].scid;
+            cursor.translator = sutta.translator;
+            cursor.lang = lang;
             settings.iCursor = iCursor;
         }
         Object.assign(state.sutta, DEFAULT.sutta, sutta);
-        console.log(`$store.state.ebt.sutta:`, sutta, sh);
+        console.log(`$store.state.ebt.sutta:`, {sutta, settings});
     },
     suttaRef(state, value) {
         let { settings } = state;
@@ -85,11 +94,8 @@ export const mutations = {
             let { history } = settings;
             let iCursor = history.findIndex(h=>h.sutta_uid===sutta_uid && h.lang===lang);
             let cursor = history[iCursor];
-            let date = new Date();
-            if (cursor) {
-                cursor.date = date;
-                settings.iCursor = iCursor;
-            } else {
+            if (!cursor) {
+                let date = new Date();
                 let { scid } = state.sutta.segments[0];
                 let { translator } = state.sutta;
                 cursor = { sutta_uid, date, lang, translator, scid};
@@ -103,7 +109,7 @@ export const mutations = {
             }
             history.sort((a,b)=>a.date-b.date);
         }
-        console.log(`$store.state.ebt.suttaRef:`, value, settings); 
+        console.log(`$store.state.ebt.suttaRef:`, {value, settings}); 
     },
     search(state, value) {
         if (value !== state.search) {

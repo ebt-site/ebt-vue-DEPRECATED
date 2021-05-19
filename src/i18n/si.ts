@@ -200,7 +200,7 @@ export default {
     MMSS: "මිA_MINUTES තA_SECONDS",
     noBell: "වහා සූත්‍රය වාදනය කරන්න",
     noHTML5: "ඔබගේ බ්‍රව්සරය HTML5 audio හට සහාය නොදක්වයි. Chrome අත්හදා බලන්න",
-    notFound: "\"A_PATTERN\" not found. Try SuttaCentral",
+    notFound: "\"A_PATTERN\" not found. Try Voice.suttacentral.net",
     point: "Punkt",
     publicDomain: "Public Domain",
     reader: "විස්තර කරන්නා",

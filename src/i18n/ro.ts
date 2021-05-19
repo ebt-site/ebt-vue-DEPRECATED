@@ -201,7 +201,7 @@ export default {
     MMSS: "A_MINUTESm A_SECONDSs",
     noBell: "Redă sutta imediat",
     noHTML5: "Browserul nu are capacitatea de a reda audio folosind HTML5. Vă recomandăm să încercați Chrome",
-    notFound: "\"A_PATTERN\" not found. Try SuttaCentral",
+    notFound: "\"A_PATTERN\" not found. Try Voice.suttacentral.net",
     point: "Punct",
     publicDomain: "Domeniu Public",
     reader: "Voce",

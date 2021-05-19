@@ -200,7 +200,7 @@ export default {
     MMSS: "A_MINUTESm A_SECONDSs",
     noBell: "Přehrát rozpravu hned",
     noHTML5: "Váš prohlížeč nepodporuje HTML5 audio. Zkuste Chrome.",
-    notFound: "\"A_PATTERN\" not found. Try SuttaCentral",
+    notFound: "\"A_PATTERN\" not found. Try Voice.suttacentral.net",
     point: "Bod",
     publicDomain: "Volné Dílo",
     reader: "Vypravěč",

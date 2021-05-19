@@ -2,6 +2,7 @@
   <div class="ebt-nav-sutta" id="ebt-tipitaka" v-if="displayable" >
     <v-btn v-if="previous" small text
       class="ebt-text-btn ebt-nav-btn"
+      tabIndex="-1"
       @click="clickSutta(previous)"
       > 
       <div class="ebt-nav-text">
@@ -10,17 +11,16 @@
     </v-btn>
     <v-icon v-else class="ebt-nav-btn-disabled">{{mdiChevronLeft}}</v-icon>
 
-    <div class="ebt-suttacentral"
-      @mouseover="suttacentral=true" @mouseleave="suttacentral=false">
-      <a v-if="suttacentral"
-        :href="`https://suttacentral.net/${current.sutta_uid}`"
-        target="_blank"> SuttaCentral </a>
-      <span v-else >
-        {{current.sutta_uid}}/{{current.lang}} </span>
+    <div class="ebt-suttacentral">
+      <a :href="`https://suttacentral.net/${current.sutta_uid}`"
+        tabIndex="-1"
+        aria-visible=false
+        target="_blank">{{current.sutta_uid}}&rarr;SuttaCentral</a>
     </div>
 
     <v-btn v-if="next" small text
       class="ebt-text-btn ebt-nav-btn"
+      tabIndex="-1"
       @click="clickSutta(next)"
       > 
       <div class="ebt-nav-text">
@@ -49,7 +49,6 @@ export default {
       mdiChevronLeft,
       mdiChevronRight,
       tipitaka: null,
-      suttacentral: false,
     };
   },
   async mounted() {
@@ -113,5 +112,20 @@ export default {
 }
 .ebt-tipitaka-button {
   min-width: 5rem;
+}
+.ebt-suttacentral {
+  font-variant: small-caps;
+  text-align: center;
+  background-color: transparent;
+  margin-bottom: 0.5em;
+  font-size: larger;
+}
+.v-application .ebt-suttacentral > a {
+  font-size: 0.8rem;
+  color: var(--ebt-color-light);
+}
+.ebt-suttacentral a:hover {
+  font-weight: var(--ebt-focus-font-weight);
+  color: var(--ebt-focus-color-light);
 }
 </style>

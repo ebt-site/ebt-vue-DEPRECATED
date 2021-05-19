@@ -201,7 +201,7 @@ export default {
     MMSS: "A_MINUTESm A_SECONDSs",
     noBell: "Speel soetra direct af",
     noHTML5: "Uw browser ondersteunt geen HTML5-audio. Probeer Chrome",
-    notFound: "\"A_PATTERN\" not found. Try SuttaCentral",
+    notFound: "\"A_PATTERN\" not found. Try Voice.suttacentral.net",
     point: "Punt",
     publicDomain: "Publiek domein",
     reader: "Stem",

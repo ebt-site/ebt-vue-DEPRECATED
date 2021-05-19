@@ -1,5 +1,5 @@
 <template>
-  <div class="ebt-nav-sutta" v-if="sutta && sutta.sutta_uid">
+  <div class="ebt-history" v-if="sutta && sutta.sutta_uid">
     <ebt-picker :items="prevItems" 
       :labelIndex="-1" 
       @ebt-pick-item="pickItem($event)"
@@ -38,12 +38,14 @@ export default {
     };
   },
   async mounted() {
-    //this.$nuxt.$on('ebt-load-sutta', payload=>{
-      //let { $el } = this;
-      //$el && $el.scrollIntoView({
-        //block: "center",
-      //});
-    //});
+    let that = this;
+    setTimeout(()=>{
+      let { history, iCursor, cursor, $store } = that;
+      console.log(`ebt-history.mounted()`, cursor);
+      if (cursor) {
+        $store.dispatch('ebt/loadSutta', cursor);
+      }
+    }, 500);
   },
   methods:{
     async clickCursor(cursor) {
@@ -62,16 +64,15 @@ export default {
     },
     pickItem(evt) {
       let { label } = evt;
-      console.log(`pickItem`, evt);
+      let { history, $store } = this;
       let [ sutta_uid, lang=this.lang ] = label.split('/');
-      console.log(`pickItem`, {evt, sutta_uid, lang});
-      this.clickSutta({sutta_uid, lang});
-    },
-    clickSutta({sutta_uid, lang}) {
-        let { history, $store } = this;
-        let h = history.find(h=>h.sutta_uid===sutta_uid && h.lang===lang);
-        let updateHistory = false;
-        $store.dispatch('ebt/loadSutta', {sutta_uid, lang, updateHistory});
+      let h = history.find(h=>h.sutta_uid===sutta_uid && h.lang===lang);
+      if (h == null) {
+        console.warn(`ebt-history.pickItem() could not find:`, {sutta_uid,lang});
+        retrn;
+      } 
+      console.log(`ebt-history.pickItem()`, {sutta_uid, lang});
+      $store.dispatch('ebt/loadSutta', {sutta_uid, lang});
     },
   },
   computed: {
@@ -135,4 +136,11 @@ export default {
 }
 </script>
 <style>
+.ebt-history {
+  display: flex;
+  flex-flow: row noWrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
 </style>

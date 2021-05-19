@@ -201,7 +201,7 @@ export default {
     MMSS: "A_MINUTESm A_SECONDSs",
     noBell: "Đọc kinh ngay",
     noHTML5: "Trình duyệt không hỗ trợ âm thanh HTML5. Hãy dùng Chrome",
-    notFound: "\"A_PATTERN\" not found. Try SuttaCentral",
+    notFound: "\"A_PATTERN\" not found. Try Voice.suttacentral.net",
     point: "Punkt",
     publicDomain: "Phạm vi công cộng",
     reader: "Speaker",

@@ -201,7 +201,7 @@ export default {
     MMSS: "A_MINUTESm A_SECONDSs",
     noBell: "Odtwarzaj suttę bez dzwonka",
     noHTML5: "Brak obsługi HTML5 audio w twojej przeglądarce. Spróbuj w Chrome",
-    notFound: "\"A_PATTERN\" not found. Try SuttaCentral",
+    notFound: "\"A_PATTERN\" not found. Try Voice.suttacentral.net",
     point: "Punkt",
     publicDomain: "Domena Publiczna",
     reader: "Głos",

@@ -236,6 +236,12 @@ export default {
 .ebt-picker-itemN {
   opacity: 0.1;
 }
+.ebt-picker-item-label {
+  width: 6em;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
 .ebt-picker-hover .ebt-picker-item-label{
   text-decoration: underline;
 }

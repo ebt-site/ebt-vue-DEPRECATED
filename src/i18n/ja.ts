@@ -202,7 +202,7 @@ export default {
     MMSS: "A_MINUTESm A_SECONDSs",
     noBell: "すぐに経典を再生",
     noHTML5: "このブラウザはHTML5オーディオをサポートしていません。ChromeまたはFirefoxを試して下さい。",
-    notFound: "\"A_PATTERN\" not found. Try SuttaCentral",
+    notFound: "\"A_PATTERN\" not found. Try Voice.suttacentral.net",
     point: "Punkt",
     publicDomain: "パブリックドメイン",
     reader: "語り手",

@@ -310,6 +310,7 @@ export default {
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  background-color: var(--ebt-background-color-dark);
 }
 .ebt-audio-bottom {
   position: absolute;
@@ -332,8 +333,5 @@ export default {
   display: flex;
   flex-flow: row;
   padding: 2pt;
-}
-.theme--dark.v-bottom-navigation {
-  background-color: var(--ebt-background-color-dark);
 }
 </style>
