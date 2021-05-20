@@ -27,14 +27,15 @@
             this.audio = audio;
             this.iCursor = iCursor;
             this.fullLine = fullLine;
-            this.history = history.slice();
-            this.history.forEach(h=>{
-                if (h && h.date != null) {
-                    h.date = typeof h.date === 'string'
+            this.history = history.reduce((a,h)=>{
+                if (h != null) {
+                    let date = typeof h.date === 'string'
                         ? new Date(h.date)
                         : h.date;
+                    a.push(Object.assign({}, h, {date}));
                 }
-            });
+                return a;
+            }, []);
             this.ips = 6;
             this.lang = EbtSettings.TRANS_LANGUAGES.reduce((a,l)=>{
                 return l.code===lang ? lang : a;

@@ -129,10 +129,6 @@ export default {
       audioSource.connect(audioContext.destination);
       return audioSource;
     },
-    clickPause() {
-      let { audioSource } = this;
-      audioSource && audioSource.stop();
-    },
     async createAudioSource({vtrans, vroot}) {
       let {
         bell,
@@ -182,6 +178,13 @@ export default {
         this.clickPlay();
       }
     },
+    async clickPause() {
+      let { audioSource } = this;
+      if (audioSource) {
+        Vue.set(this, "audioStarted", null); // paused
+        audioSource.stop();
+      }
+    },
     async clickPlay() {
       let {
         bell,
@@ -202,12 +205,17 @@ export default {
       let audioSource = await this.createAudioSource({ vtrans, vroot, });
       Vue.set(that, "audioSource", audioSource);
       if (audioSource) {
-          Vue.set(that, "audioStarted", new Date());
           audioSource.onended = evt => {
+            let { audioStarted } = that;
+            if (audioStarted) { // normal end
+              that.nextSegment();
+            } else { // paused
+              console.log(`ebt-cursor.clickPlay().audioSource.onended() paused`);
+            }
             Vue.set(that, "audioStarted", null);
             Vue.set(that, "audioSource", null);
-            that.nextSegment();
           };
+          Vue.set(that, "audioStarted", new Date());
           console.log(`ebt-cursor.clickPlay()`, {scid, lang, vroot, vtrans});
           audioSource.start();
       } else {

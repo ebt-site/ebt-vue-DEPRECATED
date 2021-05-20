@@ -26,16 +26,16 @@
 
         });
     });
-    it("custom ctor", async()=>{
+    it("TESTTESTcustom ctor", async()=>{
+        let dates = [ 
+            new Date(2021, 1, 1),
+            new Date(2021, 2, 2),
+            new Date(2021, 3, 3),
+        ];
+        let history = dates.map(d=>({date:d}));
         let maxHistory = 1000;
         let showId = true;
         let showPali = false;
-        let history = [
-            'one',
-            'two',
-            'three',
-            'four',
-        ];
         var ebt = new Settings({
             history,
             maxHistory,
@@ -59,16 +59,19 @@
             new Date(2021, 2, 2),
             new Date(2021, 3, 3),
         ];
-        let history = dates.map(date => ({date}));
-        var ebt = new Settings({
-            history,
-        });
+        let history = dates.map(d=>({date:d}));
+        let json1 = JSON.parse(JSON.stringify({history}));
+
+        // ctor doesn't change options
+        should(typeof json1.history[0].date).equal('string');
+        var ebt = new Settings(json1);
+        should(typeof json1.history[0].date).equal('string');
 
         // toJSON() truncates history as needed
         let cookie = JSON.stringify(ebt);
         should(cookie.length).below(4000); 
-        let json = JSON.parse(cookie);
-        let settings2 = new Settings(json);
+        let json2 = JSON.parse(cookie);
+        let settings2 = new Settings(json2);
         should.deepEqual(settings2.history, history);
     });
     it("TRANS_LANGUAGES => translation languages", ()=>{
