@@ -53,24 +53,23 @@
             history,
         });
     });
-    it("stringify() fits a cookie", ()=>{
-        let maxHistory = 24;
-        let history = [
-            'one',
-            'two',
-            'three',
-            'four',
+    it("TESTTESTstringify() fits a cookie", ()=>{
+        let dates = [ 
+            new Date(2021, 1, 1),
+            new Date(2021, 2, 2),
+            new Date(2021, 3, 3),
         ];
+        let history = dates.map(date => ({date}));
         var ebt = new Settings({
             history,
-            maxHistory,
         });
 
         // toJSON() truncates history as needed
         let cookie = JSON.stringify(ebt);
         should(cookie.length).below(4000); 
         let json = JSON.parse(cookie);
-        should.deepEqual(json.history, history.slice(0,3));
+        let settings2 = new Settings(json);
+        should.deepEqual(settings2.history, history);
     });
     it("TRANS_LANGUAGES => translation languages", ()=>{
         should.deepEqual(Settings.TRANS_LANGUAGES.map(tl=>tl.code).sort(), [

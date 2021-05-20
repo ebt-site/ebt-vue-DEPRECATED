@@ -28,6 +28,13 @@
             this.iCursor = iCursor;
             this.fullLine = fullLine;
             this.history = history.slice();
+            this.history.forEach(h=>{
+                if (h && h.date != null) {
+                    h.date = typeof h.date === 'string'
+                        ? new Date(h.date)
+                        : h.date;
+                }
+            });
             this.ips = 6;
             this.lang = EbtSettings.TRANS_LANGUAGES.reduce((a,l)=>{
                 return l.code===lang ? lang : a;
