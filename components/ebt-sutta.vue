@@ -80,8 +80,12 @@ export default {
     },
     clickSegment(seg) {
       let { $store } = this;
-      console.log(`clickSegment()`, seg.scid);
       $store.commit('ebt/cursorScid', seg.scid);
+      let el = document.getElementById('ebt-play-pause');
+      if (el) {
+        el.focus && el.focus();
+      }
+      console.log(`clickSegment()`, seg.scid, el);
     },
     title(n) {
         return this.titles[n] || {};

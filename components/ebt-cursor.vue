@@ -2,6 +2,7 @@
   <div class="ebt-nav-cursor">
     <div class="ebt-audio-bottom">
       <v-btn icon 
+        id="ebt-play-pause"
         ref="ebt-play-pause"
         @click="clickPlayPause()"
         :aria-label="$t('ariaPlay')"
@@ -9,6 +10,9 @@
         <v-icon>{{playPauseIcon}}</v-icon>
       </v-btn>
     </div>
+    <v-icon class="mr3" v-if="audioStarted" small>{{mdiVolumeHigh}}</v-icon>
+    <v-icon v-if="audioStarted && playToEnd" small>{{mdiInfinity}}</v-icon>
+    <v-icon v-if="audioStarted && !playToEnd" small>{{mdiNumeric1}}</v-icon>
 
     <v-spacer/>
     <ebt-history :js="js" >
@@ -35,6 +39,10 @@
 <script>
 import Vue from "vue";
 import {
+  mdiNumeric1,
+  mdiVolumeHigh,
+  mdiVoicemail,
+  mdiInfinity,
   mdiAccountVoice,
   mdiChevronDown,
   mdiChevronLeft,
@@ -57,6 +65,9 @@ class UrlError extends Error {
 }
 import EbtHistory from './ebt-history';
 
+const RE_NOAUDIO = /ac87a767581710d97b8bf190fd5e109c/;
+const URL_NOAUDIO = "/audio/383542__alixgaus__turn-page.mp3"
+
 export default {
   components: {
     EbtHistory,
@@ -66,6 +77,10 @@ export default {
   },
   data: function(){
     return {
+      mdiNumeric1,
+      mdiVolumeHigh,
+      mdiVoicemail,
+      mdiInfinity,
       mdiChevronLeft,
       mdiChevronRight,
       mdiChevronUp,
@@ -78,6 +93,9 @@ export default {
       audioSource: null,
       bilaraWeb: null,
       audioStarted: null,
+      audioScid: null,
+      playPauseIcon: mdiAccountVoice,
+      playToEnd: false,
     };
   },
   async mounted() {
@@ -95,6 +113,9 @@ export default {
       let sampleRate = 48000;
       for (let i = 0; i < urls.length; i++) {
         let url = urls[i];
+        if (RE_NOAUDIO.test(url)) {
+          url = URL_NOAUDIO;
+        }
         if (url) {
           let res = await fetch(url);
           if (!res.ok) {
@@ -163,25 +184,36 @@ export default {
           vtrans = vtransAlt;
           return this.createAudioSource({ vtrans, vroot, });
         } else {
-          console.error(`createAudioSource() no audio`, audioUrls, e);
+          console.log(`createAudioSource() no audio`, scid);
+          let urlNoAudio = "/audio/383542__alixgaus__turn-page.mp3"
+          return this.fetchAudioSource(urlNoAudio);
         }
         return null;
       }
     },
     async clickPlayPause() {
-      let { audioStarted, $refs } = this;
+      let { audioStarted, playPauseIcon, $refs } = this;
       let playPause = $refs['ebt-play-pause'];
       playPause && playPause.$el.focus && playPause.$el.focus();
       if (audioStarted) {
-        this.clickPause();
+        if (playPauseIcon === mdiPause) {
+          Vue.set(this, "playToEnd", false);
+          this.clickPause();
+        } else {
+          Vue.set(this, "playToEnd", true);
+          console.log('clickPlayPause() playToEnd');
+        }
       } else {
+        Vue.set(this, "audioStarted", new Date());
+        Vue.set(this, "playToEnd", false);
         this.clickPlay();
       }
     },
     async clickPause() {
-      let { audioSource } = this;
+      let { audioSource, playToEnd } = this;
       if (audioSource) {
         Vue.set(this, "audioStarted", null); // paused
+        console.log(`clickPause() stop audio`);
         audioSource.stop();
       }
     },
@@ -206,37 +238,67 @@ export default {
       Vue.set(that, "audioSource", audioSource);
       if (audioSource) {
           audioSource.onended = evt => {
-            let { audioStarted } = that;
-            if (audioStarted) { // normal end
+            let { audioStarted, playToEnd } = that;
+            if (playToEnd) {
+              console.log(`ebt-cursor.clickPlay().audioSource.onended() playToEnd`);
+              if (!audioStarted) {
+                Vue.set(that, "playToEnd", false);
+              }
               that.nextSegment();
-            } else { // paused
+            } else if (!audioStarted) { // paused
               console.log(`ebt-cursor.clickPlay().audioSource.onended() paused`);
+              Vue.set(that, "playPauseIcon", mdiAccountVoice);
+              Vue.set(that, "audioSource", null);
+            } else { // normal end
+              console.log(`ebt-cursor.clickPlay().audioSource.onended() segment end`);
+              Vue.set(that, "audioStarted", null);
+              Vue.set(that, "playPauseIcon", mdiAccountVoice);
+              Vue.set(that, "audioSource", null);
+              that.nextSegment();
             }
-            Vue.set(that, "audioStarted", null);
-            Vue.set(that, "audioSource", null);
           };
-          Vue.set(that, "audioStarted", new Date());
           console.log(`ebt-cursor.clickPlay()`, {scid, lang, vroot, vtrans});
+          Vue.set(this, "audioScid", scid);
           audioSource.start();
+          this.updatePlayPauseIcon();
       } else {
         console.log(`ebt-cursor.clickPlay() (no audio)`, {scid, lang, vroot, vtrans});
         Vue.set(that, "audioStarted", null);
       }
     },
     nextSegment() {
-      let { sutta, cursor, $store } = this;
+      let { audioScid, sutta, cursor, $store, playToEnd } = this;
       let segments = sutta && sutta.segments || [];
-      let iSegment = segments.findIndex(s=>s.scid === cursor.scid);
-      if (iSegment >= 0) {
-        let nextSeg = segments[iSegment+1];
+      let iAudioSegment = segments.findIndex(s=>s.scid === audioScid);
+      let iCursorSegment = segments.findIndex(s=>s.scid === cursor.scid);
+      let stop = iCursorSegment < 0 || iAudioSegment < 0;
+      if (!stop) {
+        let iNextSeg = audioScid === cursor.scid
+          ? iAudioSegment + 1
+          : iCursorSegment;
+        let nextSeg = segments[iNextSeg];
         let nextScid = nextSeg && nextSeg.scid;
-        console.log(`nextScid`, nextScid);
-        nextScid && $store.commit('ebt/cursorScid', nextScid);
-        let elt = document.getElementById(nextScid);
-        elt && elt.scrollIntoView({
-          block: "center",
-          behavior: "smooth",
-        });
+        if (nextScid) {
+          console.log(`nextSegment() =>`, nextScid);
+          $store.commit('ebt/cursorScid', nextScid);
+          let elt = document.getElementById(nextScid);
+          elt && elt.scrollIntoView({
+            block: "center",
+            behavior: "smooth",
+          });
+          if (playToEnd) {
+            this.clickPlay();
+          }
+        } else {
+          stop = true;
+        }
+      } 
+      if (stop) {
+        Vue.set(this, "playToEnd", false);
+        Vue.set(this, "audioStarted", null);
+        Vue.set(this, "audioSource", null);
+        Vue.set(this, "playPauseIcon", mdiAccountVoice);
+        console.log("nextSegment() playback completed");
       }
     },
     clickPageTop() {
@@ -256,6 +318,28 @@ export default {
         elt && this.$nextTick(()=>{
             elt.scrollIntoView({block: "center"});
         });
+    },
+    updatePlayPauseIcon() {
+      let that = this;
+      let { playToEnd } = this;
+
+      if (playToEnd) {
+        console.log(`updatePlayPauseIcon() pause (playToEnd)`);
+        Vue.set(this, "playPauseIcon", mdiPause);
+      } else {
+        Vue.set(this, "playPauseIcon", mdiInfinity);
+        let MS_CONTINUOUS_PLAY = 1000;
+        setTimeout(()=>{
+          let { audioStarted } = this;
+          let playPauseIcon = audioStarted ? mdiPause : mdiAccountVoice;
+          if (playPauseIcon !== this.playPauseIcon) {
+            Vue.set(this, "playPauseIcon", playPauseIcon);
+            console.log(`updatePlayPauseIcon() pause (play segment)`);
+          } else {
+            console.log(`updatePlayPauseIcon() accountVoice`);
+          }
+        }, MS_CONTINUOUS_PLAY);
+      }
     },
   },
   computed: {
@@ -289,9 +373,6 @@ export default {
     },
     ips() {
       return this.settings?.ips; 
-    },
-    playPauseIcon() {
-      return this.audioStarted ? mdiPause : mdiAccountVoice;
     },
     settings() {
       return this.$store.state.ebt.settings; 

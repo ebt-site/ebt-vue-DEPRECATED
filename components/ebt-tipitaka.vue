@@ -1,32 +1,26 @@
 <template>
   <div class="ebt-nav-sutta" id="ebt-tipitaka" v-if="displayable" >
-    <v-btn v-if="previous" small text
-      class="ebt-text-btn ebt-nav-btn"
-      tabIndex="-1"
-      @click="clickSutta(previous)"
-      > 
-      <div class="ebt-nav-text">
-        <div>{{previous}}</div>
-      </div>
-    </v-btn>
+    <div v-if="previous" class="ebt-tipitaka-link">
+      <a @click="clickSutta(previous)"
+        tabIndex="-1"
+        aria-visible=false
+      >{{previous}}</a>
+    </div>
     <v-icon v-else class="ebt-nav-btn-disabled">{{mdiChevronLeft}}</v-icon>
 
-    <div class="ebt-suttacentral">
+    <div class="ebt-tipitaka-link">
       <a :href="`https://suttacentral.net/${current.sutta_uid}`"
         tabIndex="-1"
         aria-visible=false
         target="_blank">{{current.sutta_uid}}&rarr;SuttaCentral</a>
     </div>
 
-    <v-btn v-if="next" small text
-      class="ebt-text-btn ebt-nav-btn"
-      tabIndex="-1"
-      @click="clickSutta(next)"
-      > 
-      <div class="ebt-nav-text">
-        <div>{{next}}</div>
-      </div>
-    </v-btn>
+    <div v-if="next" class="ebt-tipitaka-link">
+      <a @click="clickSutta(next)"
+        tabIndex="-1"
+        aria-visible=false
+      >{{next}}</a>
+    </div>
     <v-icon v-else class="ebt-nav-btn-disabled">{{mdiChevronRight}}</v-icon>
   </div>
 </template>
@@ -113,18 +107,20 @@ export default {
 .ebt-tipitaka-button {
   min-width: 5rem;
 }
-.ebt-suttacentral {
+.ebt-tipitaka-link {
   font-variant: small-caps;
   text-align: center;
   background-color: transparent;
   margin-bottom: 0.5em;
   font-size: larger;
+  padding-left: 0.8em;
+  padding-right: 0.8em;
 }
-.v-application .ebt-suttacentral > a {
+.v-application .ebt-tipitaka-link > a {
   font-size: 0.8rem;
   color: var(--ebt-color-light);
 }
-.ebt-suttacentral a:hover {
+.ebt-tipitaka-link:hover a {
   font-weight: var(--ebt-focus-font-weight);
   color: var(--ebt-focus-color-light);
 }
