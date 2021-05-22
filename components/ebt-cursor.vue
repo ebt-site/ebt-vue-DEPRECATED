@@ -306,11 +306,8 @@ export default {
       let bell = Settings.IPS_CHOICES[ips];
       console.log(`playBell()`, ips, bell);
       if (bell && bell.url) {
-        let audioSource = await this.fetchAudioSource(bell.url);
+        let audioSource = await this.fetchAudioSource(bell.url.substring(1));
         audioSource.start();
-        //let refAudio = this.$refs[`refIps${bell.value}`];
-        //let audio = refAudio instanceof Array ? refAudio[0] : refAudio;
-        //audio && audio.play();
       }
     },
     clickPageTop() {
