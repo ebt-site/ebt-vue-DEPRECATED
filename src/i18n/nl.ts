@@ -181,7 +181,7 @@ export default {
     bellIndian: "Indiase bel (Flemur: Sampling Plus 1.0)",
     bellMeditation: "Pure meditatiebel (JetRye: CC0)",
     bellMidrange: "Midden-bereik klankschaal (Coemgenu: Publiek domein)",
-    bellNone: "Speel soetra direct af zonder inleidend geluid",
+    bellNone: "Speel geen bel",
     bellRainforest: "Oerwoud-sfeer (Glory Sunz: Publiek domein)",
     bellSimple: "Eenvoudige bel (Publiek domein)",
     bellSound: "Belgeluid",

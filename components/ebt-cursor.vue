@@ -152,7 +152,6 @@ export default {
     },
     async createAudioSource({vtrans, vroot}) {
       let {
-        bell,
         bilaraWeb,
         cursor,
         settings,
@@ -219,7 +218,6 @@ export default {
     },
     async clickPlay() {
       let {
-        bell,
         bilaraWeb,
         cursor,
         settings,
@@ -298,7 +296,21 @@ export default {
         Vue.set(this, "audioStarted", null);
         Vue.set(this, "audioSource", null);
         Vue.set(this, "playPauseIcon", mdiAccountVoice);
+        this.playBell();
         console.log("nextSegment() playback completed");
+      }
+    },
+    async playBell() {
+      let { settings } = this;
+      let { ips } = settings;
+      let bell = Settings.IPS_CHOICES[ips];
+      console.log(`playBell()`, ips, bell);
+      if (bell && bell.url) {
+        let audioSource = await this.fetchAudioSource(bell.url);
+        audioSource.start();
+        //let refAudio = this.$refs[`refIps${bell.value}`];
+        //let audio = refAudio instanceof Array ? refAudio[0] : refAudio;
+        //audio && audio.play();
       }
     },
     clickPageTop() {
@@ -366,13 +378,6 @@ export default {
     },
     history() {
       return this.$store.state.ebt.settings.history;
-    },
-    bell() {
-      let { ips } = this;
-      return ips && Settings.IPS_CHOICES[ips];
-    },
-    ips() {
-      return this.settings?.ips; 
     },
     settings() {
       return this.$store.state.ebt.settings; 

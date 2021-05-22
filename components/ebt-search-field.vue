@@ -57,7 +57,7 @@ export default {
         that.onSearchInput(search);
       });
     }
-    console.log('ebt-search-field.mounted() route', this.$route);
+    console.debug('ebt-search-field.mounted() route', this.$route);
     this.$nuxt.$on('ebt-load-example', payload => {
         let { $el:refSearchAuto } = $refs['refSearchAuto'] || {};
         refSearchAuto && refSearchAuto.scrollIntoView({

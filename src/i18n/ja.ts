@@ -182,7 +182,7 @@ export default {
     bellIndian: "インドのお鈴 (Flemur: Sampling Plus 1.0)",
     bellMeditation: "瞑想終了時のお鈴　改訂版 (JetRye: CC0)",
     bellMidrange: "中音域のお鈴 (Coemgenu: Public Domain)",
-    bellNone: "経典を最初の効果音なしで再生",
+    bellNone: "ベルを鳴らさないでください",
     bellRainforest: "雨林の雰囲気 (Glory Sunz: Public Domain)",
     bellSimple: "シンプルなお鈴 (Public Domain)",
     bellSound: "鈴の音",

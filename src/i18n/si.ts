@@ -180,7 +180,7 @@ export default {
     bellIndian: "ඉන්දියානු සීනුව (Flemur: Sampling Plus 1.0)",
     bellMeditation: "සීනු භාවනාව පිරිසිදු කර ඇත (JetRye: CC0)",
     bellMidrange: "මධ්‍යම පරාසයේ ගායන සීනු (Coemgenu: Public Domain)",
-    bellNone: "හඳුන්වාදීමේ ශබ්දය නොමැතිව වහාම සූත්‍රය වාදනය කරන්න",
+    bellNone: "සීනුව වාදනය නොකරන්න",
     bellRainforest: "වැසි වනාන්තර පරිසරය (Glory Sunz: Public Domain)",
     bellSimple: "සරල සීනුව (Public Domain)",
     bellSound: "සීනු ශබ්දය",

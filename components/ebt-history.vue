@@ -41,7 +41,7 @@ export default {
     let that = this;
     setTimeout(()=>{
       let { history, iCursor, cursor, $store } = that;
-      console.log(`ebt-history.mounted()`, cursor);
+      console.debug(`ebt-history.mounted()`, cursor);
       if (cursor) {
         $store.dispatch('ebt/loadSutta', cursor);
       }

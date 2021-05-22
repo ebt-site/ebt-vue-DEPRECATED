@@ -181,7 +181,7 @@ export default {
     bellIndian: "Indversk bjalla (Flemur: Sampling Plus 1.0)",
     bellMeditation: "Bjölluhugleiðsla hreinsuð (JetRye: CC0)",
     bellMidrange: "Miðstigs söngklukka (Coemgenu: Public Domain)",
-    bellNone: "Spila Suttu strax án inngangshljóms",
+    bellNone: "Ekki spila bjöllu",
     bellRainforest: "Andrúmsloft regnskóga (Glory Sunz: Public Domain)",
     bellSimple: "Einföld bjalla (Public Domain)",
     bellSound: "Bjölluhljóð",

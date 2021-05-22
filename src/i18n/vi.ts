@@ -181,7 +181,7 @@ export default {
     bellIndian: "Indian Bell (Flemur: Sampling Plus 1.0)",
     bellMeditation: "Bell Meditation Cleaned (JetRye: CC0)",
     bellMidrange: "Mid-range Singing Bell (Coemgenu: Public Domain)",
-    bellNone: "Đọc kinh không nhạc dạo đầu",
+    bellNone: "hông chơi chuông",
     bellRainforest: "Rainforest Ambience (Glory Sunz: Public Domain)",
     bellSimple: "Simple Bell (Public Domain)",
     bellSound: "Bell Sound",

@@ -180,7 +180,7 @@ export default {
     bellIndian: "Cloche indienne (Flemur: Sampling Plus 1.0)",
     bellMeditation: "Cloche de méditation claire (JetRye: CC0)",
     bellMidrange: "Cloche de chant milieu de gamme (Coemgenu: Domaine publique)",
-    bellNone: "Ecouter sans son d'introduction",
+    bellNone: "Ne jouez pas de la cloche",
     bellRainforest: "Ambiance de pluie de forêt (Glory Sunz: Domaine publique)",
     bellSimple: "Simple cloche(Domaine publique)",
     bellSound: "Son de cloche",

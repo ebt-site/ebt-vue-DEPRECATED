@@ -181,7 +181,7 @@ export default {
     bellIndian: "Indyjski dzwonek (Flemur: Sampling Plus 1.0)",
     bellMeditation: "Czysty dzwonek medytacyjny (JetRye: CC0)",
     bellMidrange: "Średniotonowy dzwonek medytacyjny (Coemgenu: Public Domain)",
-    bellNone: "Włącz suttę bez dźwięku rozpoczynającego",
+    bellNone: "Nie graj w dzwonek",
     bellRainforest: "Odgłosy lasu deszczowego (Glory Sunz: Publiczna Domena)",
     bellSimple: "Prosty dzwonek (Domena Publiczna)",
     bellSound: "Dźwięk dzwonka",

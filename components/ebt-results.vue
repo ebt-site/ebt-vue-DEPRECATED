@@ -21,7 +21,7 @@
       </summary>
       <v-card flat>
         <v-card-text>
-          <vue-details v-for="(mld,i) in results.mlDocs" :key="mld.sutta_uid+i" 
+          <vue-details v-for="(mld,i) in mlDocs" :key="mld.sutta_uid+i" 
             class="ebt-result-details"
             v-model="mld.showDetails"
             role="heading" aria-level="2"
@@ -87,7 +87,7 @@
             -->
             <!--
             <details role="heading" aria-level="2"
-                v-for="(result,i) in (searchResults && searchResults.results||[])"
+                v-for="(result,i) in (results||[])"
                 :key="`${result.uid}_${i}`"
                 class="ebt-search-result" :style="cssVars">
                 <div v-if="gebt.showId" class="ebt-search-result-scid ebt-scid">
@@ -287,12 +287,14 @@ export default {
         .replace(/A_RESULTCOUNT/,resultCount)
         .replace("A_SEARCH", this.$store.state.ebt.search);
     },
-    mlDocs() {
-      return this.results.mlDocs;
+    settings() {
+        return this.$store.state.ebt.settings;
     },
-    searchResults() { // DEPRECATED
-      let { results } = this;
-      return { results }
+    mlDocs() {
+      let { settings, results } = this;
+      let { maxResults } = settings;
+      let { mlDocs } = results;
+      return mlDocs && mlDocs.slice(0,maxResults);
     },
     results() {
       return this.$store.state.ebt.searchResults || {};

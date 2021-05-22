@@ -23,9 +23,9 @@ export default (context, inject) => {
         }
       return $vuetify && $vuetify.lang.t(key) || `$vuetify.lang.t(${key})`;
     }
-    console.log(`ebt-client: injecting $t`);
+    console.debug(`ebt-client: injecting $t`);
     inject('t', $t);
-    console.log(`ebt-client: injecting $cookie`);
+    console.debug(`ebt-client: injecting $cookie`);
     inject('cookie', VueCookie);
 
     let cookieJson = VueCookie.get(COOKIE_NAME);

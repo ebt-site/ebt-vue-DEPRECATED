@@ -180,7 +180,7 @@ export default {
     bellIndian: "Indický Zvon (Flemur: Sampling Plus 1.0)",
     bellMeditation: "Zvon Meditace Vyčištěn (JetRye: CC0)",
     bellMidrange: "Zpěvný Zvon Středního Dosahu (Coemgenu: Public Domain)",
-    bellNone: "Přehrát rozpravu hned bez úvodního zvuku",
+    bellNone: "Nehraj na zvonek",
     bellRainforest: "Prostředí Deštného Pralesa (Glory Sunz: Public Domain)",
     bellSimple: "Jednoduchý Zvon (Public Domain)",
     bellSound: "Zvuk Zvonu",

@@ -180,7 +180,7 @@ export default {
     bellIndian: "Indisk Klokke (Flemur: Sampling Plus 1.0)",
     bellMeditation: "Ren Meditationsklokke (JetRye: CC0)",
     bellMidrange: "Mellemklasse Sangklokke (Coemgenu: Public Domain)",
-    bellNone: "Afspil sutta straks, uden introduktionslyd",
+    bellNone: "Spil ikke klokke",
     bellRainforest: "Regnskovsstemning (Glory Sunz: Public Domain)",
     bellSimple: "Enkel Klokke (Public Domain)",
     bellSound: "Klokke Lyd",

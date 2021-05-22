@@ -181,7 +181,7 @@ export default {
     bellIndian: "भारतीय घंटी (Flemur: Sampling Plus 1.0)",
     bellMeditation: "ध्यान की घंटी हटाई गई (JetRye: CC0)",
     bellMidrange: "मध्यम-रेंज की गाती घंटी (Coemgenu: Public Domain)",
-    bellNone: "आरंभिक आवाज़ के बिना सुत्त तुरंत चलाए",
+    bellNone: "घंटी मत बजाओ",
     bellRainforest: "वर्षावन वातावरण (Glory Sunz: Public Domain)",
     bellSimple: "साधारण घंटी (Public Domain)",
     bellSound: "घंटी की आवाज़",

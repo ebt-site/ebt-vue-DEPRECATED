@@ -181,7 +181,7 @@ export default {
     bellIndian: "Clopot Indian (Flemur: Sampling Plus 1.0)",
     bellMeditation: "Clopot Simplu Meditare (JetRye: CC0)",
     bellMidrange: "Clopot Muzical Mediu (Coemgenu: Public Domain)",
-    bellNone: "Redă sutta imediat, fără sunet introductiv",
+    bellNone: "Nu juca clopot",
     bellRainforest: "Sunet Ambiental Pădure Tropicală (Glory Sunz: Public Domain)",
     bellSimple: "Clopot Simplu (Public Domain)",
     bellSound: "Sunet Clopot",

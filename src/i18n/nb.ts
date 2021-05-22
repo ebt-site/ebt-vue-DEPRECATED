@@ -181,7 +181,7 @@ export default {
     bellIndian: "Indisk bjelle (Flemur: Sampling Plus 1.0)",
     bellMeditation: "Ren meditasjonsbjelle (JetRye: CC0)",
     bellMidrange: "Mellomtone syngende bjelle (Coemgenu: Åpen lisens)",
-    bellNone: "Spill sutta umiddelbart uten introduksjonslyd",
+    bellNone: "Ikke spill bjelle",
     bellRainforest: "Regnskogslyder (Glory Sunz: Åpen lisens)",
     bellSimple: "Enkel bjelle (Åpen lisens)",
     bellSound: "Bjellelyd",

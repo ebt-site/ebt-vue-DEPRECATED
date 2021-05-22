@@ -181,7 +181,7 @@ export default {
     bellIndian: "Sino Indiano (Flemur: Sampling Plus 1.0)",
     bellMeditation: "Sino de Meditação  (JetRye: CC0)",
     bellMidrange: "Sino musical mediano (Coemgenu: Public Domain)",
-    bellNone: "Ouvir sutta imediatamente sem som introdutório",
+    bellNone: "Não toque sino",
     bellRainforest: "Ambiente de floresta tropical (Glory Sunz: Public Domain)",
     bellSimple: "Sino simples (Public Domain)",
     bellSound: "Sino",
