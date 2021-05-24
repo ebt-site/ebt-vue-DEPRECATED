@@ -29,13 +29,11 @@ async function onClickPlay() {
     sampleRate = Math.max(sampleRate, urlAudio.sampleRate);
 
     msg = [
-      `new AudioBuffer`,
-      JSON.stringify({length, numberOfChannels, sampleRate}),
-      typeof AudioBuffer,
-      AudioBuffer == null ? "null" : "OK",
+      `audioContext.createBuffer`,
+      JSON.stringify({numberOfChannels, length, sampleRate}),
     ].join(' ');
     alert(msg);
-    let audioBuffer = new AudioBuffer({length, numberOfChannels, sampleRate})
+    let audioBuffer = audioContext.createBuffer(numberOfChannels, length, sampleRate);
     alert(`AudioBuffer created`);
     for (let channelNumber = 0; channelNumber < numberOfChannels; channelNumber++) {
       let offset = 0;
@@ -43,7 +41,6 @@ async function onClickPlay() {
         `new Float32Array`,
         typeof Float32Array,
         typeof window.Float32Array,
-        typeof window.webkitFloat32Array,
         Float32Array == null ? "null" : "OK",
       ].join(' ');
       alert(msg);
