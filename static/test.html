@@ -12,6 +12,8 @@ async function onClickPlay() {
        throw new Error(`TEST: onClickPlay() ${e.message}`);
     }
     let urlBuf = await res.arrayBuffer();
+    let AudioContext = window.AudioContext 
+      || window.webkitAudioContext;
     let audioContext = new AudioContext();
     let audioSource = audioContext.createBufferSource();
     let urlAudio = await audioContext.decodeAudioData(urlBuf);
