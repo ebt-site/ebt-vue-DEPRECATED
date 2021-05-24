@@ -1,0 +1,56 @@
+<html>
+<script>
+async function onClickPlay() {
+  console.log("TEST: onClickPlay()");
+  let url = "https://voice.suttacentral.net/scv/audio/dn34/en/sujato/Amy/ec017f3bba333bd764e6dbf9c50da229"
+  try {
+    let length = 0;
+    let numberOfChannels = 2;
+    let sampleRate = 48000;
+    let res = await fetch(url);
+    if (!res.ok) {
+       throw new Error(`TEST: onClickPlay() ${e.message}`);
+    }
+    let urlBuf = await res.arrayBuffer();
+    let audioContext = new AudioContext();
+    let audioSource = audioContext.createBufferSource();
+    let urlAudio = await audioContext.decodeAudioData(urlBuf);
+    numberOfChannels = Math.min(numberOfChannels, urlAudio.numberOfChannels);
+    length += urlAudio.length;
+    sampleRate = Math.max(sampleRate, urlAudio.sampleRate);
+
+    let audioBuffer = new AudioBuffer({length, numberOfChannels, sampleRate})
+    for (let channelNumber = 0; channelNumber < numberOfChannels; channelNumber++) {
+      let offset = 0;
+      let channelData = new Float32Array(length);
+      channelData.set(urlAudio.getChannelData(channelNumber), offset);
+      offset += urlAudio.length;
+      audioBuffer.copyToChannel(channelData, channelNumber);
+      audioSource.start();
+    }
+
+    audioSource.buffer = audioBuffer;
+    audioSource.connect(audioContext.destination);
+    return audioSource;
+  } catch(e) {
+      console.error(`TEST: failed ${e.message}`, e);
+  }
+}
+</script>
+<body>
+  <h1>TEST AUDIO</h1>
+  <div style="display: flex; flex-flow: column; align-items: center;">
+    <div>
+      <a href="https://voice.suttacentral.net/scv/audio/dn34/en/sujato/Amy/ec017f3bba333bd764e6dbf9c50da229" target="_blank">
+      https://voice.suttacentral.net/scv/audio/dn34/en/sujato/Amy/ec017f3bba333bd764e6dbf9c50da229
+      </a>
+    </div>
+    <audio controls 
+      src="https://voice.suttacentral.net/scv/audio/dn34/en/sujato/Amy/ec017f3bba333bd764e6dbf9c50da229">
+    </audio>
+    <button onclick="onClickPlay()">
+      Play
+    </button>
+  </div>
+</body>
+</html>
