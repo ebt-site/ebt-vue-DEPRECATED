@@ -19,7 +19,9 @@ async function onClickPlay() {
     alert('createBufferSource');
     let audioSource = audioContext.createBufferSource();
     alert('decodeAudioData');
-    let urlAudio = await audioContext.decodeAudioData(urlBuf);
+    let urlAudio = await new Promise((resolve, reject)=>{
+      audioContext.decodeAudioData(urlBuf, resolve, reject);
+    });
     numberOfChannels = Math.min(numberOfChannels, urlAudio.numberOfChannels);
     length += urlAudio.length;
     sampleRate = Math.max(sampleRate, urlAudio.sampleRate);
