@@ -26,14 +26,15 @@ async function onClickPlay() {
       channelData.set(urlAudio.getChannelData(channelNumber), offset);
       offset += urlAudio.length;
       audioBuffer.copyToChannel(channelData, channelNumber);
-      audioSource.start();
     }
 
     audioSource.buffer = audioBuffer;
     audioSource.connect(audioContext.destination);
-    return audioSource;
+    audioSource.start();
+    alert('play done');
   } catch(e) {
       console.error(`TEST: failed ${e.message}`, e);
+      alert(e.message);
   }
 }
 </script>
@@ -45,8 +46,9 @@ async function onClickPlay() {
       https://voice.suttacentral.net/scv/audio/dn34/en/sujato/Amy/ec017f3bba333bd764e6dbf9c50da229
       </a>
     </div>
-    <audio controls 
-      src="https://voice.suttacentral.net/scv/audio/dn34/en/sujato/Amy/ec017f3bba333bd764e6dbf9c50da229">
+    <audio controls>
+      <source type="audio/mp3"
+        src="https://voice.suttacentral.net/scv/audio/dn34/en/sujato/Amy/ec017f3bba333bd764e6dbf9c50da229"></source>
     </audio>
     <button onclick="onClickPlay()">
       Play
