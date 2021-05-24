@@ -14,13 +14,18 @@ async function onClickPlay() {
     let urlBuf = await res.arrayBuffer();
     let AudioContext = window.AudioContext 
       || window.webkitAudioContext;
+    alert('new AudioContext');
     let audioContext = new AudioContext();
+    alert('createBufferSource');
     let audioSource = audioContext.createBufferSource();
+    alert('decodeAudioData');
     let urlAudio = await audioContext.decodeAudioData(urlBuf);
     numberOfChannels = Math.min(numberOfChannels, urlAudio.numberOfChannels);
     length += urlAudio.length;
     sampleRate = Math.max(sampleRate, urlAudio.sampleRate);
 
+    msg = `new AudioBuffer ${JSON.stringify({length, numberOfChannels, sampleRate})}`;
+    alert(msg);
     let audioBuffer = new AudioBuffer({length, numberOfChannels, sampleRate})
     for (let channelNumber = 0; channelNumber < numberOfChannels; channelNumber++) {
       let offset = 0;
@@ -31,7 +36,9 @@ async function onClickPlay() {
     }
 
     audioSource.buffer = audioBuffer;
+    alert('connect');
     audioSource.connect(audioContext.destination);
+    alert('start');
     audioSource.start();
     alert('play done');
   } catch(e) {
