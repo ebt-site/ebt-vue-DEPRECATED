@@ -38,7 +38,14 @@ async function onClickPlay() {
     let audioBuffer = new AudioBuffer({length, numberOfChannels, sampleRate})
     for (let channelNumber = 0; channelNumber < numberOfChannels; channelNumber++) {
       let offset = 0;
-      console.log('new Float32Array');
+      msg = [
+        `new Float32Array`,
+        typeof Float32Array,
+        typeof window.Float32Array,
+        typeof window.webkitFloat32Array,
+        Float32Array == null ? "null" : "OK",
+      ].join(' ');
+      alert(msg);
       let channelData = new Float32Array(length);
       channelData.set(urlAudio.getChannelData(channelNumber), offset);
       offset += urlAudio.length;
