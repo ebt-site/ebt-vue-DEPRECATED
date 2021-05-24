@@ -36,6 +36,7 @@ async function onClickPlay() {
     ].join(' ');
     alert(msg);
     let audioBuffer = new AudioBuffer({length, numberOfChannels, sampleRate})
+    alert(`AudioBuffer created`);
     for (let channelNumber = 0; channelNumber < numberOfChannels; channelNumber++) {
       let offset = 0;
       msg = [
