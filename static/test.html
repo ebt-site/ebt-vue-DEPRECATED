@@ -28,7 +28,12 @@ async function onClickPlay() {
     length += urlAudio.length;
     sampleRate = Math.max(sampleRate, urlAudio.sampleRate);
 
-    msg = `new AudioBuffer ${JSON.stringify({length, numberOfChannels, sampleRate})}`;
+    msg = [
+      `new AudioBuffer`,
+      JSON.stringify({length, numberOfChannels, sampleRate}),
+      typeof AudioBuffer,
+      AudioBuffer == null ? "null" : "OK",
+    ].join(' ');
     alert(msg);
     let audioBuffer = new AudioBuffer({length, numberOfChannels, sampleRate})
     for (let channelNumber = 0; channelNumber < numberOfChannels; channelNumber++) {
