@@ -32,11 +32,14 @@
     "pattern": "kraft der weisheit",
     "method": "phrase",
     "resultPattern": "\\bkraft der weisheit",
-    "segsMatched": 20,
+    "segsMatched": 23,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an1/an1.394-574_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an1/an1.394-574_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an1/an1.394-574_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an7/an7.4_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an7/an7.4_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an7/an7.4_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.2_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.2_translation-en-sujato.json",
@@ -61,6 +64,7 @@
     ],
     "suttaRefs": [
       "an1.394-574/de/sabbamitta",
+      "an7.4/de/sabbamitta",
       "an5.2/de/sabbamitta",
       "an5.16/de/sabbamitta",
       "an5.14/de/sabbamitta",
@@ -252,6 +256,52 @@
           "pli": 27,
           "de": 26,
           "en": 26
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an7/an7.4_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an7/an7.4_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an7/an7.4_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an7.4",
+        "lang": "de",
+        "segMap": {
+          "an7.4:1.3": {
+            "scid": "an7.4:1.3",
+            "pli": "Saddhābalaṁ, vīriyabalaṁ, hirībalaṁ, ottappabalaṁ, satibalaṁ, samādhibalaṁ, paññābalaṁ. ",
+            "de": "Die Kraft des Vertrauens, der Energie, des Gewissens, der Zurückhaltung, der Achtsamkeit, der Versenkung und der Weisheit. ",
+            "en": "The powers of faith, energy, conscience, prudence, mindfulness, immersion, and wisdom. ",
+            "matched": true
+          },
+          "an7.4:8.1": {
+            "scid": "an7.4:8.1",
+            "pli": "Katamañca, bhikkhave, paññābalaṁ? ",
+            "de": "Und was ist die <span class=\"ebt-matched\">Kraft der Weisheit</span>? ",
+            "en": "And what is the power of wisdom? ",
+            "matched": true
+          },
+          "an7.4:8.3": {
+            "scid": "an7.4:8.3",
+            "pli": "Idaṁ vuccati, bhikkhave, paññābalaṁ. ",
+            "de": "Das nennt man die <span class=\"ebt-matched\">Kraft der Weisheit</span>. ",
+            "en": "This is called the power of wisdom. ",
+            "matched": true
+          }
+        },
+        "score": 3.071,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 7\n1. Reichtum\n4. Die Kräfte, ausführlich",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 42,
+          "de": 40,
+          "en": 41
         }
       },
       {

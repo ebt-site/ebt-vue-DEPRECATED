@@ -32,7 +32,7 @@
     "pattern": "vom entstehen und vergehen",
     "method": "phrase",
     "resultPattern": "\\bvom entstehen und vergehen",
-    "segsMatched": 14,
+    "segsMatched": 16,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
@@ -49,6 +49,12 @@
       "root/pli/ms/sutta/an/an9/an9.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an9/an9.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an9/an9.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an7/an7.6_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an7/an7.6_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an7/an7.6_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an7/an7.4_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an7/an7.4_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an7/an7.4_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.53_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.53_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.53_translation-en-sujato.json",
@@ -71,6 +77,8 @@
       "an5.136/de/sabbamitta",
       "an5.135/de/sabbamitta",
       "an9.1/de/sabbamitta",
+      "an7.6/de/sabbamitta",
+      "an7.4/de/sabbamitta",
       "an5.53/de/sabbamitta",
       "an5.47/de/sabbamitta",
       "an5.2/de/sabbamitta",
@@ -424,6 +432,70 @@
           "pli": 37,
           "de": 36,
           "en": 36
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an7/an7.4_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an7/an7.4_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an7/an7.4_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an7.4",
+        "lang": "de",
+        "segMap": {
+          "an7.4:8.2": {
+            "scid": "an7.4:8.2",
+            "pli": "Idha, bhikkhave, ariyasāvako paññavā hoti udayatthagāminiyā paññāya samannāgato ariyāya nibbedhikāya sammā dukkhakkhayagāminiyā. ",
+            "de": "Da ist ein edler Schüler weise. Er besitzt das Wissen <span class=\"ebt-matched\">vom Entstehen und Vergehen</span>, das edel und durchdringend ist und zum völligen Beenden des Leidens führt. ",
+            "en": "It’s when a noble disciple is wise. They have the wisdom of arising and passing away which is noble, penetrative, and leads to the complete ending of suffering. ",
+            "matched": true
+          }
+        },
+        "score": 1.024,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 7\n1. Reichtum\n4. Die Kräfte, ausführlich",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 42,
+          "de": 40,
+          "en": 41
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an7/an7.6_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an7/an7.6_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an7/an7.6_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an7.6",
+        "lang": "de",
+        "segMap": {
+          "an7.6:8.2": {
+            "scid": "an7.6:8.2",
+            "pli": "Idha, bhikkhave, ariyasāvako paññavā hoti …pe… sammā dukkhakkhayagāminiyā. ",
+            "de": "Da ist eine edle Schülerin weise. Sie besitzt das Wissen <span class=\"ebt-matched\">vom Entstehen und Vergehen</span>, das edel und durchdringend ist und zum völligen Beenden des Leidens führt. ",
+            "en": "It’s when a noble disciple is wise. They have the wisdom of arising and passing away which is noble, penetrative, and leads to the complete ending of suffering. ",
+            "matched": true
+          }
+        },
+        "score": 1.024,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 7\n1. Reichtum\n6. Reichtum, ausführlich",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 42,
+          "de": 40,
+          "en": 41
         }
       }
     ]
