@@ -67,6 +67,8 @@ import EbtHistory from './ebt-history';
 
 const RE_NOAUDIO = /ac87a767581710d97b8bf190fd5e109c/;
 const URL_NOAUDIO = "/audio/383542__alixgaus__turn-page.mp3"
+// TODO: Apple doesn't support AudioContext symbol
+const AudioContext = window.AudioContext || window.webkitAudioContext;
 
 export default {
   components: {
@@ -102,9 +104,11 @@ export default {
     this.bilaraWeb = new this.js.BilaraWeb({fetch});
   },
   methods:{
-    async fetchAudioSource(...urls) {
+    async fetchAudioSource(...urls) { var emsg = 'fetchAudioSource'; try {
       urls = urls.filter(url=>!!url);
+      emsg = `fetchAudioSource new AudioContext`;
       let audioContext = new AudioContext();
+      emsg = `fetchAudioSource createBufferSource`;
       let audioSource = audioContext.createBufferSource();
       let urlBuffers = [];
       let urlAudio = [];
@@ -125,7 +129,14 @@ export default {
         }
       }
       for (let i = 0; i < urlBuffers.length; i++) {
-        urlAudio.push(audioContext.decodeAudioData(await urlBuffers[i]));
+        emsg = `fetchAudioSource decodeAudioData`;
+        let ub = await urlBuffers[i];
+        let ua = await new Promise((resolve, reject)=>{
+          audioContext.decodeAudioData(ub, resolve, reject);
+        });
+        // TODO: Apple doesn't support promise interface
+        //urlAudio.push(audioContext.decodeAudioData(await urlBuffers[i]));
+        urlAudio.push(ua);
       }
       for (let i = 0; i < urlAudio.length; i++) {
         let ua = urlAudio[i] = await urlAudio[i];
@@ -134,7 +145,10 @@ export default {
         sampleRate = Math.max(sampleRate, ua.sampleRate);
       }
 
-      let audioBuffer = new AudioBuffer({length, numberOfChannels, sampleRate})
+      // TODO: Apple doesn't support promise interface
+      //let audioBuffer = new AudioBuffer({length, numberOfChannels, sampleRate})
+      emsg = `fetchAudioSource createBuffer ${numberOfChannels} ${length} ${sampleRate}`;
+      let audioBuffer = audioContext.createBuffer(numberOfChannels, length, sampleRate);
       for (let channelNumber = 0; channelNumber < numberOfChannels; channelNumber++) {
         let offset = 0;
         let channelData = new Float32Array(length);
@@ -143,13 +157,19 @@ export default {
           channelData.set(ua.getChannelData(channelNumber), offset);
           offset += ua.length;
         }
-        audioBuffer.copyToChannel(channelData, channelNumber);
+        // TODO: Apple doesn't support copyToChannel
+        //audioBuffer.copyToChannel(channelData, channelNumber);
+        emsg = `fetchAudioSource set(channelData) ${channelNumber}`;
+        audioBuffer.getChannelData(channelNumber).set(channelData);
       }
 
       audioSource.buffer = audioBuffer;
       audioSource.connect(audioContext.destination);
+      emsg = `fetchAudioSource audioSource`;
       return audioSource;
-    },
+    } catch(e) {
+      alert(`${emsg} ${e.message}`);
+    }},
     async createAudioSource({vtrans, vroot}) {
       let {
         bilaraWeb,
