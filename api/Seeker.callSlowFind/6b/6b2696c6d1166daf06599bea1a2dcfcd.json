@@ -32,7 +32,7 @@
     "pattern": "kennzeichen",
     "method": "phrase",
     "resultPattern": "\\bkennzeichen",
-    "segsMatched": 81,
+    "segsMatched": 82,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn30_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn30_translation-de-sabbamitta.json",
@@ -52,6 +52,9 @@
       "root/pli/ms/sutta/sn/sn22/sn22.59_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.59_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.59_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thig/thig14.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thig/thig14.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thig/thig14.1_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.192_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.192_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.192_translation-en-sujato.json",
@@ -72,6 +75,7 @@
       "dn14/de/sabbamitta",
       "an3.3/de/sabbamitta",
       "sn22.59/de/sabbamitta",
+      "thig14.1/de/sabbamitta",
       "an5.192/de/sabbamitta",
       "an3.59/de/sabbamitta",
       "an3.58/de/sabbamitta",
@@ -893,6 +897,38 @@
           "pli": 120,
           "de": 98,
           "en": 119
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thig/thig14.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thig/thig14.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thig/thig14.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thig14.1",
+        "lang": "de",
+        "segMap": {
+          "thig14.1:34.3": {
+            "scid": "thig14.1:34.3",
+            "pli": "Passiya varapuññalakkhaṇaṁ,",
+            "de": "Als sie ihn sah, mit den vortrefflichen <span class=\"ebt-matched\">Kennzeichen</span> von Verdienst, ",
+            "en": "Seeing the one with excellent marks of merit,",
+            "matched": true
+          }
+        },
+        "score": 1.007,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Nonnen\nDas Dreißigerbuch\n14.1. Subhā von Jīvakas Mangowäldchen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 142,
+          "de": 140,
+          "en": 140
         }
       }
     ]
