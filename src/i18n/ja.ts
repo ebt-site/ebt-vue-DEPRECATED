@@ -234,6 +234,8 @@ export default {
     showLineByLine: "ライン毎に表示",
     playSection: " A_SECTION セクションを再生",
     textLayout: "Text Layout",
+    viewDocument: "View document",
+    pinned: "Pinned A_DATE",
 
   }
 }

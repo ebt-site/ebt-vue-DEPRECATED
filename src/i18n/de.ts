@@ -234,6 +234,8 @@ export default {
     showLineByLine: "Zeile für Zeile darstellen",
     playSection: "Abschnitt A_SECTION wiedergeben",
     textLayout: "Textgestaltung",
+    viewDocument: "View document",
+    pinned: "Pinned A_DATE",
 
   },
 }

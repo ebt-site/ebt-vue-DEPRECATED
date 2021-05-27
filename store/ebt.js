@@ -32,6 +32,16 @@ const MS_MINUTE = 60 * 1000;
 const WORKING_MINUTES = 24*60;
 
 export const mutations = {
+    pinSutta(state, value=new Date()) {
+        let { sutta, settings={} } = state;
+        let { iCursor, history } = settings;
+        if (iCursor != null) {
+            let cursor = settings.history[iCursor];
+            cursor.date = value;
+            history.sort((a,b)=>a.date-b.date);
+            console.log(`$store.state.ebt.pinSutta()`, value);
+        }
+    },
     cursorScid(state, value) {
         let { sutta, settings } = state;
         let { history } = settings;

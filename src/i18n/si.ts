@@ -232,6 +232,8 @@ export default {
     showLineByLine: "පේළියෙන් පේළිය පෙන්වන්න",
     playSection: "A_SECTION කොටස වාදනය කරන්න",
     textLayout: "පෙළ පිරිසැලසුම",
+    viewDocument: "View document",
 
+    pinned: "Pinned A_DATE",
   }
 }

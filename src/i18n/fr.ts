@@ -232,6 +232,7 @@ export default {
     showLineByLine: "Show line by line",
     playSection: "Play Section A_SECTION",
     textLayout: "Text Layout",
+    pinned: "Pinned A_DATE",
 
   }
 }

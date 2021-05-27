@@ -10,7 +10,8 @@
         <v-icon>{{playPauseIcon}}</v-icon>
       </v-btn>
     </div>
-    <v-icon class="mr3" v-if="audioStarted" small>{{mdiVolumeHigh}}</v-icon>
+    <div class="ebt-play-time">{{playTime}}</div>
+    <v-icon class="mr-1" v-if="audioStarted" small>{{mdiVolumeHigh}}</v-icon>
     <v-icon v-if="audioStarted && playToEnd" small>{{mdiInfinity}}</v-icon>
     <v-icon v-if="audioStarted && !playToEnd" small>{{mdiNumeric1}}</v-icon>
 
@@ -98,10 +99,26 @@ export default {
       audioScid: null,
       playPauseIcon: mdiAccountVoice,
       playToEnd: false,
+      playTime: null,
+      clock: null,
     };
   },
   async mounted() {
     this.bilaraWeb = new this.js.BilaraWeb({fetch});
+    let that = this;
+    this.clock = this.clock || setInterval(()=>{
+      let { audioStarted } = that;
+      if (audioStarted == null) {
+        return;
+      }
+
+      let elapsed = Date.now() - audioStarted;
+      let totalSeconds = Math.round(elapsed / 1000);
+      let seconds = totalSeconds % 60;
+      let minutes = (totalSeconds - seconds) / 60;
+      let s = `0${seconds}`;
+      Vue.set(that, 'playTime',  `${minutes}:${s.substring(s.length-2)}`);
+    }, 1000);
   },
   methods:{
     async fetchAudioSource(...urls) { var emsg = 'fetchAudioSource'; try {
@@ -232,6 +249,7 @@ export default {
       let { audioSource, playToEnd } = this;
       if (audioSource) {
         Vue.set(this, "audioStarted", null); // paused
+        Vue.set(this, "playTime", null);
         console.log(`clickPause() stop audio`);
         audioSource.stop();
       }
@@ -242,6 +260,7 @@ export default {
         cursor,
         settings,
         $store,
+        clock,
       } = this;
       let { scid, lang, translator } = cursor;
       let vtrans = lang === settings.lang
@@ -284,12 +303,10 @@ export default {
         Vue.set(that, "audioStarted", null);
       }
     },
-    nextSegment() {
+    async nextSegment() {
       let { audioScid, sutta, cursor, $store, playToEnd } = this;
       let segments = sutta && sutta.segments || [];
       let iAudioSegment = segments.findIndex(s=>s.scid === audioScid);
-      let iCursorSegment = segments.findIndex(s=>s.scid === cursor.scid);
-      let stop = iCursorSegment < 0 || iAudioSegment < 0;
       if (!stop) {
         let iNextSeg = audioScid === cursor.scid
           ? iAudioSegment + 1
@@ -305,7 +322,8 @@ export default {
             behavior: "smooth",
           });
           if (playToEnd) {
-            this.clickPlay();
+            // Hang on to this for Apple 
+            await this.clickPlay(); 
           }
         } else {
           stop = true;
@@ -422,6 +440,11 @@ export default {
   padding: 2pt;
   padding-left: 1em;
   padding-right: 1em;
+}
+.ebt-play-time {
+  font-size: smaller;
+  margin-left: 0.2em;
+  margin-right: 0.2em;
 }
 .ebt-page-bottom {
   position: absolute;

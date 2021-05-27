@@ -36,6 +36,7 @@
     "build:routes": "scripts/nuxt-routes.js",
     "build:generate-dist": "export CI=; echo CI=$CI; nuxt generate",
     "build:nuxt": "nuxt build",
+    "build:serve": "export CI=; echo CI=$CI; nuxt generate; scripts/serve",
     "git:commit-version": "scripts/git-commit-version",
     "test": "npm run test:verbose",
     "test:action": "scripts/test-action",

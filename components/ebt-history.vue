@@ -87,6 +87,7 @@ export default {
           h.sutta_uid===sutta_uid && h.lang===lang);
         return (history.slice(iCursor+1) || []).map(h=>({
           label: `${h.sutta_uid}/${h.lang}`,
+          date: h.date,
         }));
     },
     prevItems() {
@@ -96,6 +97,7 @@ export default {
           h.sutta_uid===sutta_uid && h.lang===lang);
         return (history.slice(0, iCursor) || []).map(h=>({
           label: `${h.sutta_uid}/${h.lang}`,
+          date: h.date,
         }));
     },
     previous() {

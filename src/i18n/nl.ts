@@ -233,6 +233,8 @@ export default {
     showLineByLine: "Show line by line",
     playSection: "Play Section A_SECTION",
     textLayout: "Text Layout",
+    viewDocument: "View document",
+    pinned: "Pinned A_DATE",
 
   }
 }

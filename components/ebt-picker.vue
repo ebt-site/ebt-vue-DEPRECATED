@@ -4,6 +4,7 @@
     <v-icon v-if="labelIndex>=0 && items.length" >{{mdiChevronRight}}</v-icon>
     <div v-for="(item,i) in items" :key="i"
       :data-index="i"
+      :title="itemTitle(item)"
       :class="itemClass(i)"
       @mouseenter="onMouseEnter($event)"
       @mouseleave="onMouseLeave($event)"
@@ -140,6 +141,13 @@ export default {
         console.debug(`onClick`, iHover, label, evt);
         this.$emit('ebt-pick-item', {index:iHover, label, evt});
       }
+    },
+    itemTitle(item={}) {
+        let { label, date=null } = item;
+        if (typeof date == 'string') {
+            date = (new Date()).toLocaleString();
+        }
+        return `${label} ${date}`;
     },
     itemClass(i) {
       let { iHover, iLabel, items } = this;

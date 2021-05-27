@@ -28,8 +28,9 @@
           >
             <summary >
               <div class="ebt-result-summary" >
-                <div v-html="resultTitle(mld)" 
+                <div v-html="resultTitle(mld,i)" 
                   class="ebt-result-title"
+                  :title="`${i+1}/${results.mlDocs.length}`"
                 />
                 <!--div class="caption" >{{mld.score}}</div-->
                 <div class="caption text-right" 
@@ -49,6 +50,7 @@
               <div class="ebt-result-icons">
                 <v-btn icon small fab 
                   @click="clickResult(mld)"
+                  :title="$t('viewDocument')"
                   class="ebt-icon-btn" >
                   <v-icon>{{mdiLaunch}}</v-icon>
                 </v-btn>
@@ -206,11 +208,11 @@ export default {
         return sutta_uid.toUpperCase();
       }
     },
-    resultTitle(mld) {
+    resultTitle(mld,i) {
       let suid = this.suttaId(mld);
       let parts = mld.title.split('\n');
       switch (parts.length) {
-        case 0: return suid;
+        case 0: return `suid`;
         case 1: return `${suid}: ${parts[0]}`;
         default: return `${suid}: ${parts[1]}`;
       }
@@ -282,9 +284,11 @@ export default {
       },
     },
     foundSuttas() {
-      let { resultCount, } = this;
+      let { resultCount, results } = this;
+      let n = results.mlDocs && results.mlDocs.length || 0;
+
       return this.$t && this.$t('foundSuttas')
-        .replace(/A_RESULTCOUNT/,resultCount)
+        .replace(/A_RESULTCOUNT/,`${resultCount}/${n}`)
         .replace("A_SEARCH", this.$store.state.ebt.search);
     },
     settings() {

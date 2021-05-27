@@ -3,9 +3,21 @@
     <header class="ebt-header-class">
       <div class="ebt-sutta-id">
         {{current.sutta_uid}}/{{current.lang}}
-        <v-icon v-if="isWorkingSutta" class="ebt-working-sutta">
-            {{mdiPin}}
+        <v-icon v-if="isPinnedSutta" 
+          @click="onPin()"
+          :title="pinDate"
+          :class="pinClass"
+        >{{mdiPin}}</v-icon>
+        <v-icon v-if="!isPinnedSutta"
+            :title="pinDate"
+            @click="onPin()"
+            class="ebt-unpinned-sutta">
+            {{mdiPinOutline}}
         </v-icon>
+        <v-icon :class="linkClass"
+          :title="linkUrl"
+          @click="onLink()"
+        >{{mdiLink}}</v-icon>
       </div>
       <div class="ebt-author" v-if="author">
         {{$t('translatedBy')}} {{author.name}}
@@ -30,13 +42,17 @@
 
 <script>
 import {
+  mdiLink,
+  mdiGhost,
   mdiPin,
+  mdiPinOutline,
 } from '@mdi/js';
 import EbtHistory from './ebt-history'
 import EbtTipitaka from './ebt-tipitaka'
+import Vue from 'vue'
 
 const MS_MINUTE = 60*1000;
-const WORKING_MINUTES = 24*60;
+const PINNED_MINUTES = 24*60;
 
 export default {
   components: {
@@ -48,8 +64,13 @@ export default {
   },
   data: function(){
     return {
+      mdiGhost,
+      mdiLink,
       mdiPin,
+      mdiPinOutline,
       bilaraWeb: null,
+      pinClass: "ebt-pinned-sutta",
+      linkClass: "ebt-link-sutta",
     };
   },
   async mounted() {
@@ -62,6 +83,26 @@ export default {
     that.scrollToCursor(this.cursor);
   },
   methods:{
+    onPin() {
+      let { $store } = this;
+      $store.commit('ebt/pinSutta');
+      let that = this;
+      Vue.set(that, "pinClass", "ebt-pinned-sutta ebt-bounce1");
+      console.log(`onPin`, that.pinClass);
+      setTimeout(()=>{
+        Vue.set(that, "pinClass", "ebt-pinned-sutta");
+      }, 500);
+    },
+    onLink() {
+      let { linkUrl } = this;
+      let that = this;
+      Vue.set(that, "linkClass", "ebt-link-sutta ebt-bounce1");
+      setTimeout(()=>{
+        Vue.set(that, "linkClass", "ebt-link-sutta");
+      }, 500);
+      navigator.clipboard.writeText(linkUrl);
+      console.log(`onLink()`, linkUrl);
+    },
     scrollToCursor(cursor) {
       let that = this;
       let { $refs } = that;
@@ -121,6 +162,14 @@ export default {
     },
   },
   computed: {
+    linkUrl() {
+      let { sutta } = this;
+      let { location } = window;
+      let { origin, pathname } = location;
+      let pathParts = pathname.split('/');
+      let url = `${origin}/${pathParts[1]}/suttas?search=${sutta.sutta_uid}`;
+      return url;
+    },
     titles() {
       return this.sutta.segments.filter(seg=>/:0/.test(seg.scid));
     },
@@ -156,16 +205,42 @@ export default {
           h.sutta_uid===sutta_uid && h.lang===lang);
         return history[iCur] || sutta;
     },
-    isWorkingSutta() {
+    pinDate() {
+        let { cursor, $t } = this;
+        if (cursor == null) {
+            return '(no date)';
+        }
+        let { date } = cursor;
+        if (typeof date === 'string') {
+            date = new Date(date);
+        }
+
+        let d = date.toLocaleDateString();
+        let t = date.toLocaleTimeString();
+        let tmplt = $t('pinned') || "A_DATE";
+
+        return tmplt.replace(/A_DATE/, `${d} ${t}`);
+    },
+    isPinnedSutta() {
         let { cursor } = this;
-        let minutes = (Date.now() - cursor.date)/MS_MINUTE;
-        return minutes < WORKING_MINUTES;
+        let { date } = cursor;
+        if (typeof date === 'string') {
+          date = new Date(date);
+        }
+        let minutes = (Date.now() - date)/MS_MINUTE;
+        return minutes < PINNED_MINUTES;
     }
   },
 }
 </script>
 <style>
-.ebt-working-sutta {
+.ebt-link-sutta {
+    cursor: pointer;
+}
+.ebt-unpinned-sutta {
+    cursor: pointer;
+}
+.ebt-pinned-sutta {
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
@@ -178,5 +253,19 @@ export default {
   background-color: transparent;
   margin-bottom: 0.5em;
   font-size: larger;
+}
+.ebt-bounce1 {
+  animation: ebt-bounce 2s;
+}
+@keyframes ebt-bounce {
+  0% {
+    transform: scale(0.1);
+  }
+  60% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 </style>
