@@ -7,6 +7,7 @@
 
     <v-btn small text
       class="ebt-text-btn ebt-nav-btn v-btn--active""
+      :title="itemTitle"
       @click="clickCursor(cursor)"
     >{{cursorLabel}}</v-btn>
 
@@ -133,6 +134,14 @@ export default {
     },
     history() {
       return this.settings.history;
+    },
+    itemTitle() {
+        let { iCursor, history } = this.settings;
+        let cursor = history[iCursor];
+        let n = history.length;
+        let order = n-iCursor;
+
+        return `${cursor.sutta_uid} \u2b29 ${order}/${n}`;
     },
   },
 }

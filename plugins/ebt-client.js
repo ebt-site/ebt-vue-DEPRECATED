@@ -30,12 +30,10 @@ export default (context, inject) => {
 
     let cookieJson = VueCookie.get(COOKIE_NAME);
     if (cookieJson) {
-        let settings = JSON.parse(cookieJson);
-        console.log(`ebt-client: loaded settings`, settings);
-        setTimeout(()=>{
-            store.commit('ebt/settings', settings);
-            $vuetify.lang.current = settings.locale;
-        },500);
+        let cookie = JSON.parse(cookieJson);
+        console.log(`ebt-client: `, {cookie});
+        store.commit('ebt/settings', cookie);
+        $vuetify.lang.current = cookie.locale;
     }
 
     store.subscribe((mutation,state) => {

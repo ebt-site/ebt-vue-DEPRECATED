@@ -195,7 +195,8 @@ export default {
     exploreBuddhasTeaching: "Utforsk Buddhas lære",
     foundSuttas: "Fant A_RESULTCOUNT sutta-er",
     general: "Generelt",
-    HHMM: "A_HOURSh A_MINUTESm A_SECONDSs",
+    HHMMSS: "A_HOURSh A_MINUTESm A_SECONDSs",
+    HHMM: "A_HOURSh A_MINUTESm",
     inspireMe: "Inspirer meg!",
     languages: "Språk",
     MMSS: "A_MINUTESm A_SECONDSs",
@@ -235,6 +236,8 @@ export default {
     textLayout: "Text Layout",
     viewDocument: "View document",
     pinned: "Pinned A_DATE",
+    days: "A_DAYS days",
+    weeks: "A_WEEKS weeks",
 
   }
 }

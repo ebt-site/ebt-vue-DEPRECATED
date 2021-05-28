@@ -194,7 +194,8 @@ export default {
     exploreBuddhasTeaching: "බුද්ධ දේශනාව ගවේෂණයට",
     foundSuttas: "සූත්‍ර A_RESULTCOUNT ක් සම්බ වුනි",
     general: "පොදු",
-    HHMM: "පැA_HOURS මිA_MINUTES තA_SECONDS",
+    HHMMSS: "A_HOURSh A_MINUTESm A_SECONDSs",
+    HHMM: "A_HOURSh A_MINUTESm",
     inspireMe: "සොයන්න!",
     languages: "භාෂා",
     MMSS: "මිA_MINUTES තA_SECONDS",
@@ -235,5 +236,7 @@ export default {
     viewDocument: "View document",
 
     pinned: "Pinned A_DATE",
+    days: "A_DAYS days",
+    weeks: "A_WEEKS weeks",
   }
 }

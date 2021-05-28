@@ -39,7 +39,8 @@ export const mutations = {
             let cursor = settings.history[iCursor];
             cursor.date = value;
             history.sort((a,b)=>a.date-b.date);
-            console.log(`$store.state.ebt.pinSutta()`, value);
+            settings.iCursor = history.length - 1;
+            console.log(`$store.state.ebt.pinSutta()`, history);
         }
     },
     cursorScid(state, value) {
@@ -79,7 +80,7 @@ export const mutations = {
     },
     searchError(state, error=null) {
         state.searchError = error;
-        console.log(`$store.state.ebt.searchError:`, error);
+        console.debug(`$store.state.ebt.searchError:`, error);
     },
     sutta(state, sutta) {
         let { settings } = state;
@@ -94,7 +95,7 @@ export const mutations = {
             settings.iCursor = iCursor;
         }
         Object.assign(state.sutta, DEFAULT.sutta, sutta);
-        console.log(`$store.state.ebt.sutta:`, {sutta, settings});
+        console.debug(`$store.state.ebt.sutta:`, {sutta, settings});
     },
     suttaRef(state, value) {
         let { settings } = state;
@@ -119,7 +120,7 @@ export const mutations = {
             }
             history.sort((a,b)=>a.date-b.date);
         }
-        console.log(`$store.state.ebt.suttaRef:`, {value, settings}); 
+        console.debug(`$store.state.ebt.suttaRef:`, {value, settings}); 
     },
     search(state, value) {
         if (value !== state.search) {
@@ -136,20 +137,21 @@ export const mutations = {
         console.log(`$store.state.ebt.searchResults:`, value);
     },
     settings(state, value) {
-        Object.assign(state.settings, value);
+        let settings = new Settings(value);
+        Object.assign(state.settings, settings);
         value.showTrans === false && (state.settings.showPali = true);
         value.showPali === false && (state.settings.showTrans = true);
         value.saveSettings && (state.settings.saveSettingsExamples = false);
         value.saveSettingsExamples && (state.settings.saveSettings = false);
-        console.log(`$store.state.ebt.settings:`, value);
+        console.log(`$store.state.ebt.settings:`, state.settings);
     },
     voices(state, value) {
         Object.assign(state.voices, value);
-        console.log(`$store.state.ebt.voices:`, value);
+        console.debug(`$store.state.ebt.voices:`, value);
     },
     examples(state, value) {
         Object.assign(state.examples, value);
-        console.log(`$store.state.ebt.examples:`, value);
+        console.debug(`$store.state.ebt.examples:`, value);
     },
 }
 

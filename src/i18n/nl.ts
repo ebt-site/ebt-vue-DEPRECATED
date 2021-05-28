@@ -195,7 +195,8 @@ export default {
     exploreBuddhasTeaching: "Ontdek de Boeddha's leer",
     foundSuttas: "A_RESULTCOUNT soetras gevonden",
     general: "Algemeen",
-    HHMM: "A_HOURSh A_MINUTESm A_SECONDSs",
+    HHMMSS: "A_HOURSh A_MINUTESm A_SECONDSs",
+    HHMM: "A_HOURSh A_MINUTESm",
     inspireMe: "Inspireer mij!",
     languages: "Talen",
     MMSS: "A_MINUTESm A_SECONDSs",
@@ -235,6 +236,8 @@ export default {
     textLayout: "Text Layout",
     viewDocument: "View document",
     pinned: "Pinned A_DATE",
+    days: "A_DAYS days",
+    weeks: "A_WEEKS weeks",
 
   }
 }

@@ -143,11 +143,16 @@ export default {
       }
     },
     itemTitle(item={}) {
-        let { label, date=null } = item;
-        if (typeof date == 'string') {
-            date = (new Date()).toLocaleString();
+        let { $t, history } = this;
+        let { label, date } = item;
+        let index = history.findIndex(it => it.date === date);
+        if (index < 0) {
+            return label;
         }
-        return `${label} ${date}`;
+
+        let n = history.length;
+        let order = n - index;
+        return `${label} \u2b29 ${order}/${n}`
     },
     itemClass(i) {
       let { iHover, iLabel, items } = this;
@@ -175,6 +180,9 @@ export default {
       return labelIndex >= 0
         ? labelIndex
         : items.length + labelIndex;
+    },
+    history() {
+        return this.$store.state.ebt.settings.history;
     },
     pickerClass() {
       let { items, iLabel, iHover, labelIndex } = this;

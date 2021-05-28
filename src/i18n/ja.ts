@@ -196,7 +196,8 @@ export default {
     exploreBuddhasTeaching: "ブッダの教えを探求する",
     foundSuttas: "A_RESULTCOUNT 経典が見つかりました",
     general: "一般",
-    HHMM: "A_HOURSh A_MINUTESm A_SECONDSs",
+    HHMMSS: "A_HOURSh A_MINUTESm A_SECONDSs",
+    HHMM: "A_HOURSh A_MINUTESm",
     inspireMe: "心に響く経典を！",
     languages: "言語",
     MMSS: "A_MINUTESm A_SECONDSs",
@@ -236,6 +237,8 @@ export default {
     textLayout: "Text Layout",
     viewDocument: "View document",
     pinned: "Pinned A_DATE",
+    days: "A_DAYS days",
+    weeks: "A_WEEKS weeks",
 
   }
 }

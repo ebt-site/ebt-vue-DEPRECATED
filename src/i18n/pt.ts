@@ -195,7 +195,8 @@ export default {
     exploreBuddhasTeaching: "Explore os Ensinamentos do Buda",
     foundSuttas: "Foram encontrados A_RESULTCOUNT suttas",
     general: "Geral",
-    HHMM: "A_HOURSh A_MINUTESm A_SECONDSs",
+    HHMMSS: "A_HOURSh A_MINUTESm A_SECONDSs",
+    HHMM: "A_HOURSh A_MINUTESm",
     inspireMe: "Inspire-me!",
     languages: "Idiomas",
     MMSS: "A_MINUTESm A_SECONDSs",
@@ -235,6 +236,8 @@ export default {
     textLayout: "Text Layout",
     viewDocument: "View document",
     pinned: "Pinned A_DATE",
+    days: "A_DAYS days",
+    weeks: "A_WEEKS weeks",
 
   }
 }

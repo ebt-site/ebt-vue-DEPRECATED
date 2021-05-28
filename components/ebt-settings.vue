@@ -323,9 +323,9 @@ export default {
     if (monolingual) {
       this.locale = monolingual;
       this.lang = monolingual;
-      console.log(`ebt-settings mounted monolingual:${monolingual}`);
+      console.debug(`ebt-settings mounted monolingual:${monolingual}`);
     } else {
-      console.log(`ebt-settings mounted`, this);
+      console.debug(`ebt-settings mounted`, this);
     }
   },
   methods:{

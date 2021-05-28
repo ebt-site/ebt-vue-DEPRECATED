@@ -194,7 +194,8 @@ export default {
     exploreBuddhasTeaching: "Prozkoumat Učení Buddhy",
     foundSuttas: "Nalezeno A_RESULTCOUNT rozprav",
     general: "Všeobecný",
-    HHMM: "A_HOURSh A_MINUTESm A_SECONDSs",
+    HHMMSS: "A_HOURSh A_MINUTESm A_SECONDSs",
+    HHMM: "A_HOURSh A_MINUTESm",
     inspireMe: "Inspiruj Mě!",
     languages: "Jazyky",
     MMSS: "A_MINUTESm A_SECONDSs",
@@ -234,6 +235,8 @@ export default {
     textLayout: "Text Layout",
     viewDocument: "View document",
     pinned: "Pinned A_DATE",
+    days: "A_DAYS days",
+    weeks: "A_WEEKS weeks",
 
   }
 }

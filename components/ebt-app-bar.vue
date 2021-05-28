@@ -73,7 +73,7 @@ export default {
   async mounted() {
     let { cursor, $store } = this;
     if (cursor) {
-      console.log(`ebt-app-vue.mounted()`, cursor);
+      console.debug(`ebt-app-bar.mounted()`, cursor);
       $store.dispatch('ebt/loadSutta', cursor);
     }
   },

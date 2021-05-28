@@ -36,6 +36,7 @@
                 }
                 return a;
             }, []);
+            this.history.sort((a,b)=>a.date - b.date);
             this.ips = 6;
             this.lang = EbtSettings.TRANS_LANGUAGES.reduce((a,l)=>{
                 return l.code===lang ? lang : a;

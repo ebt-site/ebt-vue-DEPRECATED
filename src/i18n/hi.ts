@@ -195,7 +195,8 @@ export default {
     exploreBuddhasTeaching: "बुद्ध की शिक्षा खोजे",
     foundSuttas: "A_RESULTCOUNT सुत्त मिले",
     general: "साधारण",
-    HHMM: "A_HOURSघं A_MINUTESमि A_SECONDSसे",
+    HHMMSS: "A_HOURSh A_MINUTESm A_SECONDSs",
+    HHMM: "A_HOURSh A_MINUTESm",
     inspireMe: "मुझे प्रेरित करे!",
     languages: "भाषाएँ",
     MMSS: "A_MINUTESमि A_SECONDSसे",
@@ -235,6 +236,8 @@ export default {
     textLayout: "Text Layout",
     viewDocument: "View document",
     pinned: "Pinned A_DATE",
+    days: "A_DAYS days",
+    weeks: "A_WEEKS weeks",
 
   }
 }

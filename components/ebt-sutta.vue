@@ -222,10 +222,10 @@ export default {
         return tmplt.replace(/A_DATE/, `${d} ${t}`);
     },
     isPinnedSutta() {
-        let { cursor } = this;
+        let { cursor={} } = this;
         let { date } = cursor;
-        if (typeof date === 'string') {
-          date = new Date(date);
+        if (date == null) {
+            return false;
         }
         let minutes = (Date.now() - date)/MS_MINUTE;
         return minutes < PINNED_MINUTES;
