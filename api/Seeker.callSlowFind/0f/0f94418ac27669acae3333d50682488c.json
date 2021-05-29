@@ -32,11 +32,14 @@
     "pattern": "verantwortung",
     "method": "phrase",
     "resultPattern": "\\bverantwortung",
-    "segsMatched": 10,
+    "segsMatched": 12,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an3/an3.20_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.20_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.20_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an7/an7.28_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an7/an7.28_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an7/an7.28_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.258_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.258_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.258_translation-en-sujato.json",
@@ -46,6 +49,7 @@
     ],
     "suttaRefs": [
       "an3.20/de/sabbamitta",
+      "an7.28/de/sabbamitta",
       "an4.258/de/sabbamitta",
       "sn47.9/de/sabbamitta"
     ],
@@ -161,6 +165,45 @@
           "pli": 12,
           "de": 11,
           "en": 11
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an7/an7.28_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an7/an7.28_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an7/an7.28_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an7.28",
+        "lang": "de",
+        "segMap": {
+          "an7.28:1.7": {
+            "scid": "an7.28:1.7",
+            "pli": "‘santi kho pana saṅghe therā rattaññū cirapabbajitā bhāravāhino, te tena paññāyissantī’ti attanā tesu yogaṁ āpajjati. ",
+            "de": "‚Da sind langjährige Ordensälteste im Saṅgha, die schon lange fortgezogen sind, die <span class=\"ebt-matched\">Verantwortung</span> tragen. Sie wird man dafür kennen, dass sie sich darum kümmern.‘ Und er versucht, es selbst zu tun. ",
+            "en": "‘There are senior mendicants in the Saṅgha of long standing, long gone forth, responsible. They’ll be known for taking care of this.’ So they try to do it themselves. ",
+            "matched": true
+          },
+          "an7.28:2.4": {
+            "scid": "an7.28:2.4",
+            "pli": "‘santi kho pana saṅghe therā rattaññū cirapabbajitā bhāravāhino, te tena paññāyissantī’ti attanā na tesu yogaṁ āpajjati. ",
+            "de": "‚Da sind langjährige Ordensälteste im Saṅgha, die schon lange fortgezogen sind, die <span class=\"ebt-matched\">Verantwortung</span> tragen. Sie wird man dafür kennen, dass sie sich darum kümmern.‘ Und er versucht nicht, es selbst zu tun. ",
+            "en": "‘There are senior mendicants in the Saṅgha of long standing, long gone forth, responsible. They’ll be known for taking care of this.’ So they don’t try to do it themselves. ",
+            "matched": true
+          }
+        },
+        "score": 2.118,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 7\n3. Die Sieben der Vajjier\n28. Gedeihen eines übenden Mönchs",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 17,
+          "de": 16,
+          "en": 16
         }
       },
       {
