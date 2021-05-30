@@ -137,8 +137,7 @@ export const mutations = {
         console.log(`$store.state.ebt.searchResults:`, value);
     },
     settings(state, value) {
-        let settings = new Settings(value);
-        Object.assign(state.settings, settings);
+        Object.assign(state.settings, value);
         value.showTrans === false && (state.settings.showPali = true);
         value.showPali === false && (state.settings.showTrans = true);
         value.saveSettings && (state.settings.saveSettingsExamples = false);

@@ -138,9 +138,11 @@ export default {
     itemTitle() {
         let { iCursor, history } = this.settings;
         let cursor = history[iCursor];
+        if (cursor == null) {
+            return `(no cursor)`;
+        }
         let n = history.length;
         let order = n-iCursor;
-
         return `${cursor.sutta_uid} \u2b29 ${order}/${n}`;
     },
   },

@@ -4,9 +4,8 @@ var AudioContext = window.AudioContext
   || window.webkitAudioContext;
 var audioContext = new AudioContext();
 
-async function playOne(n) {
+async function playOne(url, n) {
   console.log("TEST: playOne()");
-  let url = "https://voice.suttacentral.net/scv/audio/dn34/en/sujato/Amy/ec017f3bba333bd764e6dbf9c50da229"
   try {
     let length = 0;
     let numberOfChannels = 2;
@@ -27,6 +26,7 @@ async function playOne(n) {
     numberOfChannels = Math.min(numberOfChannels, urlAudio.numberOfChannels);
     length += urlAudio.length;
     sampleRate = Math.max(sampleRate, urlAudio.sampleRate);
+    console.log(`${n}playOne()`, {sampleRate, length, numberOfChannels});
 
     msg = [
       `audioContext.createBuffer`,
@@ -59,8 +59,9 @@ async function playOne(n) {
         emsg.innerHTML = n+'onended OK';
         resolve();
       };
-      emsg.innerHTML = n+'start';
+      emsg.innerHTML = n+'start()';
       audioSource.start();
+      console.log(`TEST: started`);
     } catch(e) {
       alert(`TEST: onended ${e.message}`);
     }});
@@ -74,8 +75,11 @@ async function playOne(n) {
 
 async function onClickPlay() {
   console.log("TEST: onClickPlay()");
-  await this.playOne(1);
-  await this.playOne(2);
+  let url = "https://voice.suttacentral.net/scv/audio/dn34/en/sujato/Amy/ec017f3bba333bd764e6dbf9c50da229";
+  let url2 = "https://voice.suttacentral.net/scv/audio/mn1/en/sujato/Amy/b627aa0151c721837225614412434a77";
+  await this.playOne(url, 1);
+  await this.playOne(url2, 2);
+  await this.playOne(url, 3);
 }
 </script>
 <body>
