@@ -17,7 +17,7 @@
             }
         }
     }
-    this.timeout(5*1000);
+    this.timeout(10*1000);
 
     it("default ctor", ()=>{
         should.throws(()=>new BilaraWeb());

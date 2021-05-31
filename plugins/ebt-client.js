@@ -43,15 +43,15 @@ export default (context, inject) => {
             $vuetify.lang.current = settings.locale;
             if (settings.saveSettingsExamples) {
                 let ebtCookie = new Settings(settings); // may trim history
-                console.log(`ebt-client: saving settings and examples`, ebtCookie);
+                console.debug(`ebt-client: saving settings and examples`, ebtCookie);
                 VueCookie.set(COOKIE_NAME, JSON.stringify(ebtCookie), COOKIE_SETTINGS);
             } else if (settings.saveSettings) {
                 let ebtCookie = new Settings(settings); // clear history
                 ebtCookie.history = [];
-                console.log(`ebt-client: saving settings`, ebtCookie);
+                console.debug(`ebt-client: saving settings`, ebtCookie);
                 VueCookie.set(COOKIE_NAME, JSON.stringify(ebtCookie), COOKIE_SETTINGS);
             } else {
-                console.log(`ebt-client: clearing cookie`, settings);
+                console.debug(`ebt-client: clearing cookie`, settings);
                 VueCookie.delete(COOKIE_NAME);
             }
         }

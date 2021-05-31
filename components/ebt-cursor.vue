@@ -122,87 +122,93 @@ export default {
     }, 1000);
   },
   methods:{
-    async playUrl(url) { try {
-      let { audioContext } = this;
-      let length = 0;
-      let numberOfChannels = 2;
-      let sampleRate = 48000;
+    async playUrl(url) { 
+      try {
+        let { audioContext } = this;
+        let length = 0;
+        let numberOfChannels = 2;
+        let sampleRate = 48000;
 
-      if (RE_NOAUDIO.test(url)) {
-        url = URL_NOAUDIO;
-      }
-      let res = await fetch(url);
-      if (!res.ok) {
-         throw new Error(`playUrl(${url}) ERROR => ${e.message}`);
-      }
-      let urlBuf = await res.arrayBuffer();
-      let audioSource = audioContext.createBufferSource();
-      Vue.set(this, "audioSource", audioSource);
-      let urlAudio = await new Promise((resolve, reject)=>{
-        audioContext.decodeAudioData(urlBuf, resolve, reject);
-      });
-      numberOfChannels = Math.min(numberOfChannels, urlAudio.numberOfChannels);
-      length += urlAudio.length;
-      sampleRate = Math.max(sampleRate, urlAudio.sampleRate);
-      console.debug(`playUrl(${url})`, {sampleRate, length, numberOfChannels});
+        if (RE_NOAUDIO.test(url)) {
+          url = URL_NOAUDIO;
+        }
+        let res = await fetch(url);
+        if (!res.ok) {
+           let e = new Error(`playUrl(${url}) ERROR => HTTP${res.status}`);
+           e.url = url;
+           throw e;
+        }
+        let urlBuf = await res.arrayBuffer();
+        let audioSource = audioContext.createBufferSource();
+        Vue.set(this, "audioSource", audioSource);
+        let urlAudio = await new Promise((resolve, reject)=>{
+          audioContext.decodeAudioData(urlBuf, resolve, reject);
+        });
+        numberOfChannels = Math.min(numberOfChannels, urlAudio.numberOfChannels);
+        length += urlAudio.length;
+        sampleRate = Math.max(sampleRate, urlAudio.sampleRate);
+        console.debug(`playUrl(${url})`, {sampleRate, length, numberOfChannels});
 
-      let msg = [
-        `audioContext.createBuffer`,
-        JSON.stringify({numberOfChannels, length, sampleRate}),
-      ].join(' ');
-      let audioBuffer = audioContext.createBuffer(numberOfChannels, length, sampleRate);
-      for (let channelNumber = 0; channelNumber < numberOfChannels; channelNumber++) {
-        let offset = 0;
-        msg = [
-          `new Float32Array`,
-          typeof Float32Array,
-          typeof window.Float32Array,
-          Float32Array == null ? "null" : "OK",
+        let msg = [
+          `audioContext.createBuffer`,
+          JSON.stringify({numberOfChannels, length, sampleRate}),
         ].join(' ');
-        let channelData = new Float32Array(length);
-        channelData.set(urlAudio.getChannelData(channelNumber), offset);
-        offset += urlAudio.length;
-        audioBuffer.getChannelData(channelNumber).set(channelData);
-      }
+        let audioBuffer = audioContext.createBuffer(numberOfChannels, length, sampleRate);
+        for (let channelNumber = 0; channelNumber < numberOfChannels; channelNumber++) {
+          let offset = 0;
+          msg = [
+            `new Float32Array`,
+            typeof Float32Array,
+            typeof window.Float32Array,
+            Float32Array == null ? "null" : "OK",
+          ].join(' ');
+          let channelData = new Float32Array(length);
+          channelData.set(urlAudio.getChannelData(channelNumber), offset);
+          offset += urlAudio.length;
+          audioBuffer.getChannelData(channelNumber).set(channelData);
+        }
 
-      audioSource.buffer = audioBuffer;
-      audioSource.connect(audioContext.destination);
-      return new Promise((resolve, reject) => { try {
-        audioSource.onended = evt => {
-          console.log(`playUrl(${url}) => OK`);
-          resolve();
-        };
-        audioSource.start();
+        audioSource.buffer = audioBuffer;
+        audioSource.connect(audioContext.destination);
+        return new Promise((resolve, reject) => { try {
+          audioSource.onended = evt => {
+            console.log(`playUrl(${url}) => OK`);
+            resolve();
+          };
+          audioSource.start();
+        } catch(e) {
+          let msg = `playUrl(ERROR) ${url} could not start() => ${e.message}`;
+          console.error(msg);
+          alert(msg);
+          reject(e);
+        }}); // Promise
       } catch(e) {
-        let msg = `playUrl(ERROR) ${url} could not start() => ${e.message}`;
-        console.error(msg);
-        alert(msg);
-        reject(e);
-      }}); // Promise
-    } catch(e) {
-      let msg = `playURL(ERROR) ${url} => ${e.message}`;
-      console.error(msg);
-      alert(msg);
-      throw e;
-    }}, // playUrl()
-    async playCursor({vtrans, vroot}) {
+        let msg = `playURL(ERROR) ${url} => ${e.message}`;
+        console.debug(msg);
+        throw e;
+      }
+    }, // playUrl()
+    async playCursor(context) {
+      let { vtrans, vroot } = context;
       let { bilaraWeb, cursor, settings, } = this;
       let { scid, lang, translator } = cursor;
       try {
         var audioUrls = await bilaraWeb.segmentAudioUrls({
           scid, lang, translator, vtrans, vroot });
         var urlPali = settings.showPali && audioUrls.pli;
-        urlPali && await this.playUrl(urlPali);
+        var urlTrans = settings.showTrans && audioUrls[lang];
 
-        if (!this.audioStarted) {
-          console.log(`ebt-cursor.playCursor (paused)`);
-          return false; 
+        if (urlPali) {
+          await this.playUrl(urlPali);
+          if (!this.audioStarted) {
+            console.log(`ebt-cursor.playCursor (paused)`);
+            return false; 
+          }
         }
 
-        var urlTrans = settings.showTrans && audioUrls[lang];
-        urlTrans && await this.playUrl(urlTrans);
-
-        if (!urlPali && !urlTrans) {
+        if (urlTrans) {
+          await this.playUrl(urlTrans);
+        } else if (!urlPali) {
           // empty segment
           this.playUrl(URL_NOAUDIO); 
         }
@@ -211,7 +217,7 @@ export default {
         let { audioStarted, playToEnd } = that;
         let advanceSegment = true;
         if (playToEnd) {
-          console.log(`ebt-cursor.playCursor playToEnd`);
+          console.debug(`ebt-cursor.playCursor playToEnd`);
           if (!audioStarted) {
             Vue.set(that, "playToEnd", false);
           }
@@ -230,35 +236,30 @@ export default {
           console.log(`ebt-cursor.playCursor advanceSegment:${advanceSegment}`);
           return false;
         }
-        let advanced = await that.nextSegment2();
+        let advanced = await that.nextSegment();
         if (!advanced) {
-          console.log(`ebt-cursor.playCursor advanced:${advanced}`);
+          console.debug(`ebt-cursor.playCursor advanced:${advanced}`);
           return false;
         }
-        console.log(`ebt-cursor.playCursor playToEnd:${this.playToEnd}`);
+        console.debug(`ebt-cursor.playCursor playToEnd:${this.playToEnd}`);
         return this.playToEnd;
       } catch(e) {
-        throw e;
-        /*
         if (e.url === urlPali && vroot.toLowerCase() !== 'aditi') {
           let vrootAlt = 'aditi';
-          console.log(`createAudioSource() ${vroot} unavailable`,
+          console.log(`ebt-cursor.playCursor ${vroot} unavailable`,
             `(trying ${vtrans}/${vrootAlt})`);
-          vroot = vrootAlt;
-          return this.createAudioSource({ vtrans, vroot, });
+          context.vroot = vrootAlt;
+          return await this.playCursor(context);
         } else if (e.url === urlTrans && vtrans.toLowerCase() !== 'amy') {
           let vtransAlt = 'amy';
-          console.log(`createAudioSource() ${vtrans} unavailable`,
+          console.log(`ebt-cursor.playCursor ${vtrans} unavailable`,
             `(trying ${vtransAlt}/${vroot})`);
-          vtrans = vtransAlt;
-          return this.createAudioSource({ vtrans, vroot, });
-        } else {
-          console.log(`createAudioSource() no audio`, scid);
-          let urlNoAudio = "/audio/383542__alixgaus__turn-page.mp3"
-          return this.fetchAudioSource(urlNoAudio);
-        }
-        return null;
-        */
+          context.vtrans = vtransAlt;
+          return await this.playCursor(context);
+        } 
+        console.log(`ebt-cursor.playCursor no audio`, scid);
+        await this.playUrl(URL_NOAUDIO);
+        return false;
       }
     },
     async clickPlayPause() {
@@ -277,8 +278,8 @@ export default {
       } else {
         Vue.set(this, "audioStarted", new Date());
         Vue.set(this, "playToEnd", false);
-        console.log(`ebt-cursor.clickPlayPause clickPlay2`);
-        this.clickPlay2();
+        console.log(`ebt-cursor.clickPlayPause clickPlay`);
+        this.clickPlay();
       }
     },
     clickPause() {
@@ -292,7 +293,7 @@ export default {
         console.error(`ebt-cursor.clickPause => no audioSource`);
       }
     },
-    async clickPlay2() {
+    async clickPlay() {
       let {
         bilaraWeb,
         cursor,
@@ -302,14 +303,23 @@ export default {
         ? settings.vnameTrans
         : bilaraWeb.langDefaultVoice(lang).name;
       let vroot = settings.vnameRoot;
+      let opts = {vtrans, vroot};
 
       let ok = true;
       do {
         let { scid, lang, translator } = cursor;
-        console.log(`ebt-cursor.clickPlay2 ... `,{scid, lang, translator, vroot, vtrans});
+        if (/:0/.test(scid)) {
+          // For smoother listening, human voices normally fail over 
+          // to robot voices for the entire sutta since there is no point
+          // in failing over repeatedly for each succeeding segment 
+          // if the sutta has no human recording.
+          // However, human voices don't normally voice metadata segments,
+          // so we need to bypass that failover for the metadata segments
+          opts = {vtrans, vroot};
+        }
+        console.debug(`ebt-cursor.clickPlay ... `, {scid, lang, translator, opts});
         Vue.set(this, "audioScid", scid);
         this.updatePlayPauseIcon();
-        let opts = {vtrans, vroot};
         ok = await this.playCursor(opts);
       } while(ok && this.playToEnd);
 
@@ -318,15 +328,15 @@ export default {
       Vue.set(this, "audioStarted", null);
       Vue.set(this, "audioSource", null);
       Vue.set(this, "playPauseIcon", mdiAccountVoice);
-      console.log(`ebt-cursor.clickPlay2 => done`);
+      console.log(`ebt-cursor.clickPlay => done`);
     },
-    async nextSegment2() {
+    async nextSegment() {
       let { audioScid, sutta, cursor, $store, playToEnd } = this;
       let segments = sutta && sutta.segments || [];
       let iAudioSegment = segments.findIndex(s=>s.scid === audioScid);
       let iCursorSegment = segments.findIndex(s=>s.scid === cursor.scid);
       if (iCursorSegment < 0 || iAudioSegment < 0) {
-          console.log(`ebt-cursor.nextSegment2 => false`, 
+          console.log(`ebt-cursor.nextSegment => false`, 
             {iAudioSegment, iCursorSegment});
       }
       let iNextSeg = audioScid === cursor.scid
@@ -335,7 +345,7 @@ export default {
       let nextSeg = segments[iNextSeg];
       let nextScid = nextSeg && nextSeg.scid;
       if (nextScid) {
-        console.log(`ebt-cursor.nextSegment2 =>`, nextScid);
+        console.debug(`ebt-cursor.nextSegment =>`, nextScid);
         $store.commit('ebt/cursorScid', nextScid);
         let elt = document.getElementById(nextScid);
         elt && elt.scrollIntoView({
@@ -343,7 +353,7 @@ export default {
           behavior: "smooth",
         });
       } 
-      console.log(`ebt-cursor.nextSegment2 nextScid:${nextScid}`);
+      console.debug(`ebt-cursor.nextSegment nextScid:${nextScid}`);
       return nextScid;
     },
     async playBell() {
