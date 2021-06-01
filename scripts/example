@@ -1,0 +1,60 @@
+#!/usr/bin/env node
+
+const fs = require('fs');
+const path = require('path');
+const Axios = require('axios');
+const { logger } = require('log-instance');
+const { Memoizer } = require('memo-again');
+const {
+    BilaraData,
+    Seeker,
+    ExecGit,
+} = require('scv-bilara');
+const APP_DIR = path.join(__dirname, '..' );
+const API_DIR = path.join(APP_DIR, 'api');
+const SRC_DIR = path.join(APP_DIR, 'src');
+const SRC_EXAMPLES = path.join(SRC_DIR, 'examples.js');
+const API_EXAMPLES = path.join(API_DIR, 'examples.json');
+const EBT_DATA_DIR = path.join(APP_DIR, 'local', 'ebt-data');
+const EXAMPLES_DIR = path.join(EBT_DATA_DIR, 'examples');
+
+logger.logLevel = 'warn';
+
+let argv = process.argv;
+
+(async function(){ try {
+    let execGit = new ExecGit({
+        repo: 'https://github.com/ebt-site/ebt-data.git',
+        logger,
+    });
+    let pattern = argv[2];
+    if (pattern == null) {
+        throw new Error(`expected a pattern`);
+    } 
+    logger.info('pattern:', pattern);
+
+    let bilaraData = new BilaraData({
+        name: 'ebt-data',
+        branch: 'published',
+        execGit,
+    });
+    await bilaraData.initialize();
+
+    let skr = await new Seeker({
+        bilaraData,
+        root: EBT_DATA_DIR,
+    }).initialize();
+    let matchHighlight = false;
+    let lang = 'en';
+    var res = await skr.find({
+        pattern,
+        lang,
+        matchHighlight,
+    });
+    //console.log(`res`, JSON.stringify(res));
+    let mlDocs = res.mlDocs.map(mld=>`${mld.sutta_uid}/${mld.lang}`);
+    let results = Object.assign({}, res, {mlDocs});
+    console.log(JSON.stringify(results, null, 2));
+} catch(e) {
+    logger.warn(e);
+}})();
