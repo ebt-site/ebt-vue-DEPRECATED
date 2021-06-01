@@ -4,6 +4,7 @@
 //JSONSTART
 {
   "de": [
+    "aber meine Dame",
     "aber nicht zum eigenen",
     "Abfälle",
     "abnehmend",
@@ -97,6 +98,7 @@
     "drei Monate in Klausur",
     "drei Übungen",
     "drei Vorführungen",
+    "drei Vorgänge",
     "du lieber Himmel",
     "Dunkelheit.* und Licht",
     "Dunklen auf dem Weg zum Licht",
@@ -275,6 +277,7 @@
     "müssen erzeugt werden",
     "muss man erkennen",
     "nachdem eine sehr lange Zeitspanne",
+    "Nachfolger durch Vertrauen",
     "nackt, wahrt den Anstand nicht",
     "Nahrung für Unwissenheit",
     "Neigung zur Einbildung",
@@ -543,6 +546,7 @@
     "breathing in heavily they know",
     "brutal",
     "burst out in tears",
+    "but ma'am",
     "but not themselves",
     "by ear",
     "by the middle way",
@@ -613,6 +617,7 @@
     "dreadful racket",
     "earth, water, fire, and air",
     "eats blameless things",
+    "eats meat",
     "eight kinds of people",
     "eight things should be developed",
     "eight worldly conditions",
