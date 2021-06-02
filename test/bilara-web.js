@@ -31,19 +31,20 @@
         should(bw.examples).equal(examples);
         should(bw.fetch).equal(fetch);
     });
-    it("isExample", async()=>{
+    it("TESTTESTisExample", async()=>{
         var bw = new BilaraWeb({
             fetch,
             lang: 'en', // English default
         });
         should(bw.isExample('root of suffering')).equal(true);
         should(bw.isExample('ROOT OF SUFFERING')).equal(true);
-        should(bw.isExample('\\bROOT OF SUFFERING')).equal(true);
-        should(bw.isExample('\\bROOT OF SUFFERING\\b')).equal(true);
         should(bw.isExample('root suffering')).equal(false);
-        should(bw.isExample('Wurzel des Leidens')).equal(false);
+        should(bw.isExample('Wurzel des Leidens')).equal(true);
         should(bw.isExample('Wurzel des Leidens', 'de')).equal(true);
         should(bw.isExample('wurzel des leidens', 'de')).equal(true);
+
+        should(bw.isExample('\\bROOT OF SUFFERING')).equal(false);
+        should(bw.isExample('\\bROOT OF SUFFERING\\b')).equal(false);
     });
     it("authors(...) => supported authors", async()=>{
         let bw = new BilaraWeb({fetch});
@@ -87,7 +88,41 @@
         ]);
         should(res.bilaraPaths.length).equal(14);
     });
-    it("highlightExamples(...) adds HTML links for examples", ()=>{
+    it("TESTTESTfind(...) finds example with quote", async()=>{
+        let examples = {
+            'en': [
+                "but ma'am",
+                "but not themselves",
+            ],
+        };
+        var bw = new BilaraWeb({fetch, examples});
+        bw.logLevel = 'info';
+
+        let text = "But ma’am, how does identity view come about?";
+        should(/\bhow does/i.test(text)).equal(true);
+        should(/\bbut ma’am/i.test(text)).equal(true); // right single quote
+        should(/\bbut ma'am/i.test(text)).equal(false);
+        should(/\bbut ma.am/i.test(text)).equal(true);
+        should(bw.isExample(examples.en[0])).equal(true);
+
+        var pattern = "but ma'am"; 
+        var res = await bw.find({
+            pattern,
+        });
+        console.log(`res`, res);
+        should.deepEqual(res.suttaRefs, [
+            'sn42.11/en/sujato',
+            'mn105/en/sujato',
+            'mn1/en/sujato',
+            'sn56.21/en/sujato',
+            'mn66/en/sujato',
+            'mn116/en/sujato',
+            'dn16/en/sujato',
+            //'pli-tv-kd6/en/brahmali',
+        ]);
+        should(res.bilaraPaths.length).equal(14);
+    });
+    it("TESTTESThighlightExamples(...) adds HTML links for examples", ()=>{
         let examples = {
             en: [
                 'is.*\\bfeeling',
@@ -95,7 +130,6 @@
             ],
         };
         var bw = new BilaraWeb({fetch, examples});
-        should(bw.isExample('perception')).equal(true);
         let segments = [
             {scid: 'sn12.23:1.5', pli: 'iti vedanā …pe…', en: 'Such is feeling …',},
             {scid: 'sn12.23:1.6', pli: 'iti saññā …', en: 'Such is perception …',},
@@ -185,7 +219,7 @@
             '128. Verdrießlich '
         ]);
     });
-    it("TESTTESTloadSutta(...) undefined", async ()=>{
+    it("loadSutta(...) undefined", async ()=>{
         let bw = new BilaraWeb({fetch});
         //bw.logLevel = 'info';
 
@@ -201,14 +235,14 @@
         sutta = await bw.loadSutta({sutta_uid, lang});
         should(sutta).equal(undefined);
     });
-    it("TESTTESTvoices() returns voices", async()=>{
+    it("voices() returns voices", async()=>{
         let bw = new BilaraWeb({fetch});
         let voices = await bw.voices();
         let enNames = voices.filter(v=>v.langTrans === 'en').map(v=>v.name);
         should.deepEqual(enNames, [
             'Amy', 'Raveena', 'Matthew', 'Brian', 'sujato_en']);
     });
-    it("TESTTESTvoices() returns voices", async()=>{
+    it("voices() returns voices", async()=>{
         let bw = new BilaraWeb({fetch});
         should(bw.langDefaultVoice()).properties({name: 'Amy'});
         should(bw.langDefaultVoice('de')).properties({name: 'Vicki'});
@@ -242,7 +276,7 @@
         ]);
         should(sutta.segments.length).equal(169);
     });
-    it("TESTTESTloadSutta(...) mn1/de => undefined (no translation)", async ()=>{
+    it("loadSutta(...) mn1/de => undefined (no translation)", async ()=>{
         let bw = new BilaraWeb({fetch});
         let { sutta_uid, lang } = bw.parseSuttaRef('mn1/de');
         let sutta = await bw.loadSutta({sutta_uid, lang});

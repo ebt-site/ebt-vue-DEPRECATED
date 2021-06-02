@@ -3,6 +3,7 @@
     const { MerkleJson } = require('merkle-json');
     const { examples } = require('./examples.js');
     const SUID_MAP = require('scv-bilara/src/auto/suidmap.json');
+    const IS_EXAMPLE = require('scv-bilara/src/is-example.json');
     const AUTHORS = require('../api/authors.json');
     const SuttaCentralId = require('scv-bilara/src/sutta-central-id');
     const VOICES = require('./voices.json');
@@ -66,6 +67,7 @@
         get reExample() {
             var reExample = this._reExample;
             if (!reExample) {
+                console.log(`reExample created`);
                 let examples = this.examples;
                 reExample = Object.keys(examples).reduce((a,lang)=>{
                     let pat = examples[lang].join('|\\b');
@@ -77,23 +79,8 @@
             return reExample;
         }
 
-        get reIsExample() {
-            var reIsExample = this._reIsExample;
-            if (!reIsExample) {
-                let examples = this.examples;
-                reIsExample = Object.keys(examples).reduce((a,lang)=>{
-                    let pat = examples[lang].join('|');
-                    a[lang] = new RegExp(`(\\b)?\(${pat}\)(\\b)?`, "iu");
-                    return a;
-                },{});
-                Object.defineProperty(this, "_reIsExample", reIsExample);
-            }
-            return reIsExample;
-        }
-
         isExample(pattern, lang=this.lang) {
-            let reEx = this.reIsExample[lang];
-            return reEx && reEx.test(pattern);
+            return !!IS_EXAMPLE[pattern.toLowerCase()];
         }
 
         exampleOfMatch(match, lang='en') {
