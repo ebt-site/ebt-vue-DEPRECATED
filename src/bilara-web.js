@@ -43,7 +43,7 @@
             var excess = pattern.length - MAX_PATTERN;
             if (excess > 0) {
                 throw new Error(
-                    `Search text too long by ${excess} characters.`);
+                    `Search text too long by ${excess} characters: ${pattern}`);
             }
             // replace quotes (code injection on grep argument)
             pattern = pattern.replace(/["']/g,'.'); 
@@ -67,10 +67,10 @@
         get reExample() {
             var reExample = this._reExample;
             if (!reExample) {
-                console.log(`reExample created`);
                 let examples = this.examples;
                 reExample = Object.keys(examples).reduce((a,lang)=>{
-                    let pat = examples[lang].join('|\\b');
+                    let egLang = examples[lang].map(e=>BilaraWeb.sanitizePattern(e));
+                    let pat = egLang.join('|\\b');
                     a[lang] = new RegExp(`\\b${pat}`, "gimu");
                     return a;
                 },{});

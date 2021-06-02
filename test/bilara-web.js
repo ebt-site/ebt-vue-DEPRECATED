@@ -31,7 +31,7 @@
         should(bw.examples).equal(examples);
         should(bw.fetch).equal(fetch);
     });
-    it("TESTTESTisExample", async()=>{
+    it("isExample", async()=>{
         var bw = new BilaraWeb({
             fetch,
             lang: 'en', // English default
@@ -88,7 +88,7 @@
         ]);
         should(res.bilaraPaths.length).equal(14);
     });
-    it("TESTTESTfind(...) finds example with quote", async()=>{
+    it("find(...) finds example with quote", async()=>{
         let examples = {
             'en': [
                 "but ma'am",
@@ -109,13 +109,12 @@
         var res = await bw.find({
             pattern,
         });
-        console.log(`res`, res);
         should.deepEqual(res.suttaRefs, [
             'mn44/en/sujato',
         ]);
         should(res.bilaraPaths.length).equal(2);
     });
-    it("TESTTESThighlightExamples(...) adds HTML links for examples", ()=>{
+    it("highlightExamples(...) adds HTML links for examples", ()=>{
         let examples = {
             en: [
                 'is.*\\bfeeling',
@@ -138,6 +137,29 @@
             scid: 'sn12.23:1.5', 
             pli: 'iti vedanā …pe…', 
             en: 'Such <span class="ebt-matched">is feeling</span> …',
+        });
+        
+    });
+    it("ThighlightExamples(...) handles quotes", ()=>{
+        let examples = {
+            en: [
+                "but ma'am",
+            ],
+        };
+        var bw = new BilaraWeb({fetch, examples});
+        let segments = [
+            {scid: 'mn44:9.1', en: `“But ma’am, what is the noble eightfold path?”`},
+        ];
+        let lang = 'en';
+        let text = `“But ma’am, what is the noble eightfold path?”`;
+        should(bw.reExample[lang].test(text)).equal(true);
+        let re = bw.reExample[lang];
+        should(text.replace(re,'ASDF')).equal(`“ASDF, what is the noble eightfold path?”`);
+
+        let segments2 = bw.highlightExamples({segments,lang});
+        should.deepEqual(segments2[0], {
+            scid: 'mn44:9.1', 
+            en: `“<span class="ebt-matched">But ma’am</span>, what is the noble eightfold path?”`,
         });
         
     });
