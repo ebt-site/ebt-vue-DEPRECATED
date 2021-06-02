@@ -111,16 +111,9 @@
         });
         console.log(`res`, res);
         should.deepEqual(res.suttaRefs, [
-            'sn42.11/en/sujato',
-            'mn105/en/sujato',
-            'mn1/en/sujato',
-            'sn56.21/en/sujato',
-            'mn66/en/sujato',
-            'mn116/en/sujato',
-            'dn16/en/sujato',
-            //'pli-tv-kd6/en/brahmali',
+            'mn44/en/sujato',
         ]);
-        should(res.bilaraPaths.length).equal(14);
+        should(res.bilaraPaths.length).equal(1);
     });
     it("TESTTESThighlightExamples(...) adds HTML links for examples", ()=>{
         let examples = {
