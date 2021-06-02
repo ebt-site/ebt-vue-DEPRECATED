@@ -113,7 +113,7 @@
         should.deepEqual(res.suttaRefs, [
             'mn44/en/sujato',
         ]);
-        should(res.bilaraPaths.length).equal(1);
+        should(res.bilaraPaths.length).equal(2);
     });
     it("TESTTESThighlightExamples(...) adds HTML links for examples", ()=>{
         let examples = {
