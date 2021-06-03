@@ -108,14 +108,14 @@ export default {
       let { $refs } = that;
       cursor && that.$nextTick(()=>{
         let { scid } = cursor;
-        console.debug(`ebt-sutta.mounted.ebt-load-sutta `, 
-          $refs["mn3:1.3"], scid, $refs[scid], $refs);
         if (scid) {
           let elt = $refs[scid];
           elt = elt instanceof Array ? elt[0] : elt;
           elt = elt && elt.$el || elt;
-          console.debug(`ebt-sutta.mounted.ebt-load-sutta scid:${scid} elt:`, elt);
+          console.debug(`ebt-sutta.scrollToCursor scid:${scid} elt:`, elt); 
           elt && elt.scrollIntoView({block: "center"});
+        } else {
+          console.debug(`ebt-sutta.scrollToCursor scid:${scid} (ignored)`);
         }
       });
     },

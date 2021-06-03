@@ -181,7 +181,7 @@ export const actions = {
                     search: `${sutta_uid}/${lang}`,
                 },
             });
-            console.log(`$store.state.ebt.store.loadSutta`, window.location);
+            console.debug(`$store.state.ebt.store.loadSutta`, window.location);
         }
         context.commit('sutta', sutta);
         let cursor = settings.history[settings.iCursor];

@@ -301,7 +301,7 @@ export default {
       } = this;
       let vtrans = cursor.lang === settings.lang
         ? settings.vnameTrans
-        : bilaraWeb.langDefaultVoice(lang).name;
+        : bilaraWeb.langDefaultVoice(cursor.lang).name;
       let vroot = settings.vnameRoot;
       let opts = {vtrans, vroot};
 
