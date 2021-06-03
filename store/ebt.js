@@ -175,7 +175,13 @@ export const actions = {
         let { search } = $nuxt.$route.query;
         let newSearch = `${sutta_uid}/${lang}`;
         if (search !== newSearch) {
-            $nuxt.$router.replace({query: {search: `${sutta_uid}/${lang}`}});
+            $nuxt.$router.push({
+                path: 'suttas',
+                query: {
+                    search: `${sutta_uid}/${lang}`,
+                },
+            });
+            console.log(`$store.state.ebt.store.loadSutta`, window.location);
         }
         context.commit('sutta', sutta);
         let cursor = settings.history[settings.iCursor];
