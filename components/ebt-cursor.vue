@@ -66,7 +66,8 @@ class UrlError extends Error {
 }
 import EbtHistory from './ebt-history';
 
-const RE_NOAUDIO = /ac87a767581710d97b8bf190fd5e109c/;
+const PAT_NOAUDIO = ['ac87a767581710d97b8bf190fd5e109c']; // Amy
+const LENGTH_NOAUDIO = 5000; // actually 3761
 const URL_NOAUDIO = "audio/383542__alixgaus__turn-page.mp3"
 // TODO: Apple doesn't support AudioContext symbol
 const AudioContext = window.AudioContext || window.webkitAudioContext;
@@ -102,6 +103,8 @@ export default {
       playTime: null,
       clock: null,
       audioContext: new AudioContext(),
+      patNoAudio: PAT_NOAUDIO,
+      reNoAudio: new RegExp(PAT_NOAUDIO.join('|')),
     };
   },
   async mounted() {
@@ -124,12 +127,12 @@ export default {
   methods:{
     async playUrl(url) { 
       try {
-        let { audioContext } = this;
+        let { patNoAudio, reNoAudio, audioContext } = this;
         let length = 0;
         let numberOfChannels = 2;
         let sampleRate = 48000;
 
-        if (RE_NOAUDIO.test(url)) {
+        if (reNoAudio.test(url)) {
           url = URL_NOAUDIO;
         }
         let res = await fetch(url);
@@ -148,6 +151,13 @@ export default {
         length += urlAudio.length;
         sampleRate = Math.max(sampleRate, urlAudio.sampleRate);
         console.debug(`playUrl(${url})`, {sampleRate, length, numberOfChannels});
+        if (length < LENGTH_NOAUDIO) {
+          let guid = url.split('/').pop();
+          patNoAudio.push(guid);
+          console.log(`ebt-cursor.playUrl() patNoAudio => `, patNoAudio);
+          Vue.set(this, "reNoAudio", new RegExp(patNoAudio.join('|')));
+          return await this.playUrl(URL_NOAUDIO);
+        }
 
         let msg = [
           `audioContext.createBuffer`,
