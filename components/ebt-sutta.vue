@@ -28,10 +28,17 @@
         :ref="seg.scid"
         :id="seg.scid"
         @click="clickSegment(seg)"
+        @copy="clickCopy(seg)"
         :class="segmentClass(seg)">
         <div v-if="settings.showId" class="ebt-scid">{{seg.scid}}</div>
         <div v-if="settings.showPali" v-html="seg.pli" class="ebt-text-root"/>
         <div v-if="settings.showTrans" v-html="seg[sutta.lang]" class="ebt-text-trans"/>
+        <v-btn v-if="seg.scid === cursor.scid"
+          icon class=""
+          @click="clickCopy(seg)"
+        >
+          <v-icon >{{mdiContentCopy}}</v-icon>
+        </v-btn>
       </div>
     </div><!-- ebt-text-container -->
     <footer class="ebt-footer">
@@ -46,6 +53,7 @@ import {
   mdiGhost,
   mdiPin,
   mdiPinOutline,
+  mdiContentCopy,
 } from '@mdi/js';
 import EbtHistory from './ebt-history'
 import EbtTipitaka from './ebt-tipitaka'
@@ -68,6 +76,7 @@ export default {
       mdiLink,
       mdiPin,
       mdiPinOutline,
+      mdiContentCopy,
       bilaraWeb: null,
       pinClass: "ebt-pinned-sutta",
       linkClass: "ebt-link-sutta",
@@ -118,6 +127,36 @@ export default {
           console.debug(`ebt-sutta.scrollToCursor scid:${scid} (ignored)`);
         }
       });
+    },
+    clickCopy(seg) {
+      let { sutta, settings } = this;
+      let { showId, showPali, showTrans } = settings;
+      let scid = seg.scid.toUpperCase();
+      let url = `https://suttacentral.net/${sutta.sutta_uid}`;
+      let MARKDOWN_EOL = "\n  ";
+      let text = '';
+      let multiline = showTrans && showPali;
+      if (showId) {
+        text += `[${scid}](${url}) `;
+        if (multiline) {
+          text += MARKDOWN_EOL; // separator
+        }
+      }
+      if (showPali) {
+        if (multiline) {
+          text += seg.pli;
+          text += MARKDOWN_EOL; // separator
+        } else {
+          text += seg.pli;
+        }
+      }
+      if (showTrans) {
+        text += seg[sutta.lang];
+      }
+      text += MARKDOWN_EOL;
+      navigator.clipboard.writeText(text);
+      console.log(`copied`, text);
+      alert(text);
     },
     clickSegment(seg) {
       let { $store } = this;
