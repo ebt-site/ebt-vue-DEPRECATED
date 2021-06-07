@@ -221,6 +221,7 @@
     "jemand anderen vom Geben abhält",
     "jetzt, alt",
     "Kassapa der Prinz",
+    "keine Angst, Gutes zu tun",
     "keine Wahrnehmung",
     "kennt mich",
     "Kennzeichen",
