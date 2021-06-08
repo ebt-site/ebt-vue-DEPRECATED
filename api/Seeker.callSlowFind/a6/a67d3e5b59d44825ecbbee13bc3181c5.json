@@ -32,7 +32,7 @@
     "pattern": "rad-drehend.* herrscher",
     "method": "phrase",
     "resultPattern": "\\brad-drehend.* herrscher",
-    "segsMatched": 57,
+    "segsMatched": 59,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn30_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn30_translation-de-sabbamitta.json",
@@ -64,6 +64,9 @@
       "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn14_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an7/an7.62_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an7/an7.62_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an7/an7.62_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/kp/kp8_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/kp/kp8_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/kp/kp8_translation-en-sujato.json",
@@ -88,6 +91,7 @@
       "an5.132/de/sabbamitta",
       "an5.131/de/sabbamitta",
       "dn14/de/sabbamitta",
+      "an7.62/de/sabbamitta",
       "kp8/de/sabbamitta",
       "an7.66/de/sabbamitta",
       "an6.53/de/sabbamitta",
@@ -674,6 +678,45 @@
           "pli": 26,
           "de": 25,
           "en": 25
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an7/an7.62_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an7/an7.62_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an7/an7.62_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an7.62",
+        "lang": "de",
+        "segMap": {
+          "an7.62:2.3": {
+            "scid": "an7.62:2.3",
+            "pli": "anekasatakkhattuṁ rājā ahosiṁ cakkavattī dhammiko dhammarājā cāturanto vijitāvī janapadatthāvariyappatto sattaratanasamannāgato. ",
+            "de": "Viele hundert Male war ich ein König, ein <span class=\"ebt-matched\">Rad-drehender Herrscher</span>, ein gerechter König, der sich an Grundsätze hält. Mein Herrschaftsgebiet erstreckte sich nach allen vier Seiten bis zum Ende, ich machte das Land sicher und ich besaß die sieben Juwelen. ",
+            "en": "Many hundreds of times I was a king, a wheel-turning monarch, a just and principled king. My dominion extended to all four sides, I achieved stability in the country, and I possessed the seven treasures. ",
+            "matched": true
+          },
+          "an7.62:6.1": {
+            "scid": "an7.62:6.1",
+            "pli": "Cakkavattī ahuṁ rājā, ",
+            "de": "Dann war ich König, ein <span class=\"ebt-matched\">Rad-drehender Herrscher</span>, ",
+            "en": "Then I was king, a wheel-turning monarch, ",
+            "matched": true
+          }
+        },
+        "score": 2.033,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 7\n6. Die nicht erklärten Punkte\n62. Keine Angst, Gutes zu tun",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 60,
+          "de": 59,
+          "en": 59
         }
       },
       {

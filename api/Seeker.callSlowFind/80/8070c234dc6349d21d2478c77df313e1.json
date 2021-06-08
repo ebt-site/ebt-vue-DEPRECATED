@@ -32,7 +32,7 @@
     "pattern": "liebevolle.* herz",
     "method": "phrase",
     "resultPattern": "\\bliebevolle.* herz",
-    "segsMatched": 15,
+    "segsMatched": 18,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an5/an5.167_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.167_translation-de-sabbamitta.json",
@@ -40,12 +40,18 @@
       "root/pli/ms/sutta/an/an1/an1.51-60_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an1/an1.51-60_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an1/an1.51-60_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an7/an7.62_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an7/an7.62_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an7/an7.62_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.67_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.67_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.67_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an7/an7.66_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an7/an7.66_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an7/an7.66_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.198_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.198_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.198_translation-en-sujato.json"
@@ -53,8 +59,10 @@
     "suttaRefs": [
       "an5.167/de/sabbamitta",
       "an1.51-60/de/sabbamitta",
+      "an7.62/de/sabbamitta",
       "an4.67/de/sabbamitta",
       "dn33/de/sabbamitta",
+      "an7.66/de/sabbamitta",
       "an5.198/de/sabbamitta"
     ],
     "mlDocs": [
@@ -226,6 +234,45 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/an/an7/an7.62_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an7/an7.62_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an7/an7.62_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an7.62",
+        "lang": "de",
+        "segMap": {
+          "an7.62:1.4": {
+            "scid": "an7.62:1.4",
+            "pli": "Satta vassāni mettacittaṁ bhāvesiṁ. ",
+            "de": "Ich entwickelte sieben Jahre lang ein <span class=\"ebt-matched\">liebevolles Herz</span>. ",
+            "en": "I developed a mind of love for seven years. ",
+            "matched": true
+          },
+          "an7.62:3.3": {
+            "scid": "an7.62:3.3",
+            "pli": "Mettaṁ cittaṁ vibhāvetvā, ",
+            "de": "Ein <span class=\"ebt-matched\">liebevolles Herz</span> ",
+            "en": "I developed a mind of love ",
+            "matched": true
+          }
+        },
+        "score": 2.033,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 7\n6. Die nicht erklärten Punkte\n62. Keine Angst, Gutes zu tun",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 60,
+          "de": 59,
+          "en": 59
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an5/an5.198_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/an/an5/an5.198_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/an/an5/an5.198_translation-en-sujato.json"
@@ -254,6 +301,38 @@
           "pli": 8,
           "de": 7,
           "en": 7
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an7/an7.66_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an7/an7.66_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an7/an7.66_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an7.66",
+        "lang": "de",
+        "segMap": {
+          "an7.66:13.1": {
+            "scid": "an7.66:13.1",
+            "pli": "Atha kho, bhikkhave, sunetto satthā satta vassāni mettaṁ cittaṁ bhāvesi. ",
+            "de": "Und Sunetta entwickelte sieben Jahre lang ein <span class=\"ebt-matched\">liebevolles Herz</span>. ",
+            "en": "Then Sunetta developed love for seven years. ",
+            "matched": true
+          }
+        },
+        "score": 1.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 7\n7. Das große Kapitel\n66. Die sieben Sonnen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 95,
+          "de": 89,
+          "en": 94
         }
       },
       {

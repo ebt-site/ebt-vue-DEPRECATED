@@ -32,8 +32,11 @@
     "pattern": "zu meinem langanhaltenden nutzen",
     "method": "phrase",
     "resultPattern": "\\bzu meinem langanhaltenden nutzen",
-    "segsMatched": 2,
+    "segsMatched": 4,
     "bilaraPaths": [
+      "root/pli/ms/sutta/an/an7/an7.47_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an7/an7.47_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an7/an7.47_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn30_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn30_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn30_translation-en-sujato.json",
@@ -42,10 +45,50 @@
       "translation/en/sujato/sutta/dn/dn23_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "an7.47/de/sabbamitta",
       "dn30/de/sabbamitta",
       "dn23/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an7/an7.47_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an7/an7.47_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an7/an7.47_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an7.47",
+        "lang": "de",
+        "segMap": {
+          "an7.47:3.7": {
+            "scid": "an7.47:3.7",
+            "pli": "Anusāsatu maṁ, bhante, bhagavā yaṁ mama assa dīgharattaṁ hitāya sukhāyā’”ti. ",
+            "de": "und anleite. Das wird <span class=\"ebt-matched\">zu meinem langanhaltenden Nutzen</span> und Glück sein.‘“ ",
+            "en": "and instruct me. It will be for my lasting welfare and happiness.’” ",
+            "matched": true
+          },
+          "an7.47:4.4": {
+            "scid": "an7.47:4.4",
+            "pli": "Anusāsatu maṁ bhavaṁ gotamo yaṁ mama assa dīgharattaṁ hitāya sukhāyā”ti. ",
+            "de": "und anleite. Das wird <span class=\"ebt-matched\">zu meinem langanhaltenden Nutzen</span> und Glück sein.“ ",
+            "en": "and instruct me. It will be for my lasting welfare and happiness.” ",
+            "matched": true
+          }
+        },
+        "score": 2.026,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 7\n5. Ein großes Opfer\n47. Feuer (2)",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 77,
+          "de": 75,
+          "en": 76
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",

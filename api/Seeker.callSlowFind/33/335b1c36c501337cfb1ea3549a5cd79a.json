@@ -32,11 +32,14 @@
     "pattern": "bei tag und nacht, bei nacht und tag",
     "method": "phrase",
     "resultPattern": "\\bbei tag und nacht, bei nacht und tag",
-    "segsMatched": 3,
+    "segsMatched": 4,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an7/an7.61_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an7/an7.61_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an7/an7.61_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an6/an6.29_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.29_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an6/an6.29_translation-en-sujato.json",
@@ -46,6 +49,7 @@
     ],
     "suttaRefs": [
       "dn33/de/sabbamitta",
+      "an7.61/de/sabbamitta",
       "an6.29/de/sabbamitta",
       "an4.41/de/sabbamitta"
     ],
@@ -112,6 +116,38 @@
           "pli": 52,
           "de": 49,
           "en": 51
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an7/an7.61_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an7/an7.61_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an7/an7.61_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an7.61",
+        "lang": "de",
+        "segMap": {
+          "an7.61:7.2": {
+            "scid": "an7.61:7.2",
+            "pli": "yathā divā tathā rattiṁ yathā rattiṁ tathā divā. ",
+            "de": "<span class=\"ebt-matched\">bei Tag und Nacht, bei Nacht und Tag</span>. ",
+            "en": "regardless of whether it’s night or day. ",
+            "matched": true
+          }
+        },
+        "score": 1.016,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 7\n6. Die nicht erklärten Punkte\n61. Einnicken",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 61,
+          "de": 59,
+          "en": 60
         }
       },
       {

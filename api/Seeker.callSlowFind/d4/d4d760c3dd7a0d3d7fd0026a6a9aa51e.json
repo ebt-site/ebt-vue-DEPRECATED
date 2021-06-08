@@ -32,18 +32,22 @@
     "pattern": "wesentliche.* bedingungen",
     "method": "phrase",
     "resultPattern": "\\bwesentliche.* bedingungen",
-    "segsMatched": 4,
+    "segsMatched": 5,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn12/sn12.23_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.23_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn12/sn12.23_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn18_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn18_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn18_translation-en-sujato.json"
+      "translation/en/sujato/sutta/dn/dn18_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an7/an7.45_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an7/an7.45_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an7/an7.45_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "sn12.23/de/sabbamitta",
-      "dn18/de/sabbamitta"
+      "dn18/de/sabbamitta",
+      "an7.45/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -90,6 +94,38 @@
           "pli": 93,
           "de": 92,
           "en": 92
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an7/an7.45_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an7/an7.45_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an7/an7.45_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an7.45",
+        "lang": "de",
+        "segMap": {
+          "an7.45:1.4": {
+            "scid": "an7.45:1.4",
+            "pli": "Yā kho, bhikkhave, imehi sattahaṅgehi cittassekaggatā parikkhatā, ayaṁ vuccati, bhikkhave, ariyo sammāsamādhi saupaniso itipi saparikkhāro itipī”ti. ",
+            "de": "Einheit des Geistes, bei der diese sieben Faktoren als Voraussetzungen zugegen sind, nennt man edle rechte Versenkung ‚mit ihren <span class=\"ebt-matched\">wesentlichen Bedingungen</span>‘ und ‚mit ihren Voraussetzungen‘.“ ",
+            "en": "Unification of mind with these seven factors as prerequisites is called noble right immersion ‘with its vital conditions’ and ‘with its prerequisites’.” ",
+            "matched": true
+          }
+        },
+        "score": 1.125,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 7\n5. Ein großes Opfer\n45. Voraussetzungen für die Versenkung",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 8,
+          "de": 7,
+          "en": 7
         }
       },
       {
