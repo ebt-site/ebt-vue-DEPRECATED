@@ -1,0 +1,86 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "schmuck und ein bestandteil",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "schmuck und ein bestandteil",
+    "method": "phrase",
+    "resultPattern": "\\bschmuck und ein bestandteil",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an7/an7.52_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an7/an7.52_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an7/an7.52_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an7.52/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an7/an7.52_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an7/an7.52_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an7/an7.52_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an7.52",
+        "lang": "de",
+        "segMap": {
+          "an7.52:11.2": {
+            "scid": "an7.52:11.2",
+            "pli": "api ca kho cittālaṅkāracittaparikkhāraṁ dānaṁ deti. ",
+            "de": "Aber er gibt eine Gabe in dem Gedanken: ‚Das ist ein <span class=\"ebt-matched\">Schmuck und ein Bestandteil</span> für den Geist.‘ ",
+            "en": "But they give a gift thinking, ‘This is an adornment and requisite for the mind.’ ",
+            "matched": true
+          },
+          "an7.52:12.11": {
+            "scid": "an7.52:12.11",
+            "pli": "api ca kho cittālaṅkāracittaparikkhāraṁ dānaṁ deti. ",
+            "de": "sondern in dem Gedanken: ‚Das ist ein <span class=\"ebt-matched\">Schmuck und ein Bestandteil</span> für den Geist‘, ",
+            "en": "but thinking, ‘This is an adornment and requisite for the mind’, ",
+            "matched": true
+          }
+        },
+        "score": 2.034,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 7\n5. Ein großes Opfer\n52. Eine sehr fruchtbare Gabe",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 58,
+          "de": 42,
+          "en": 57
+        }
+      }
+    ]
+  }
+}
