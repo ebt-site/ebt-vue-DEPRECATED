@@ -1,0 +1,106 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "astute, competent, clever, learned",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en"
+      ],
+      "maxResults": 1000,
+      "searchLang": "en",
+      "maxDoc": 50,
+      "minLang": 2,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "en",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "astute, competent, clever, learned",
+    "method": "phrase",
+    "resultPattern": "\\bastute, competent, clever, learned",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn44/sn44.1_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn44/sn44.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn84_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn84_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn44.1/en/sujato",
+      "mn84/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn44/sn44.1_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn44/sn44.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn44.1",
+        "lang": "en",
+        "segMap": {
+          "sn44.1:3.4": {
+            "scid": "sn44.1:3.4",
+            "pli": "‘paṇḍitā, viyattā medhāvinī bahussutā cittakathā kalyāṇapaṭibhānā’ti. ",
+            "en": "<span class=\"ebt-matched\">astute, competent, clever, learned</span>, a brilliant speaker, and eloquent. ",
+            "matched": true
+          }
+        },
+        "score": 1.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 44\n1. The Undeclared Points\n1. With Khemā",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 120,
+          "en": 119
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn84_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn84_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn84",
+        "lang": "en",
+        "segMap": {
+          "mn84:2.4": {
+            "scid": "mn84:2.4",
+            "pli": "‘paṇḍito viyatto medhāvī bahussuto cittakathī kalyāṇapaṭibhāno vuddho ceva arahā ca’. ",
+            "en": "‘He is <span class=\"ebt-matched\">astute, competent, clever, learned</span>, a brilliant speaker, eloquent, mature, a perfected one.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Middle Discourses 84\nAt Madhurā",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 171,
+          "en": 170
+        }
+      }
+    ]
+  }
+}
