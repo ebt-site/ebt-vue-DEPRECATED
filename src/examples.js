@@ -699,6 +699,7 @@
     "gains wisdom by wanting",
     "gain unification of mind",
     "galaxy",
+    "gather all the mendicants",
     "giant",
     "give the best",
     "give up stealing",
