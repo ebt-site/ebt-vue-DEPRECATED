@@ -1,0 +1,86 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "keine angst, gutes zu tun",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "keine angst, gutes zu tun",
+    "method": "phrase",
+    "resultPattern": "\\bkeine angst, gutes zu tun",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an7/an7.62_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an7/an7.62_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an7/an7.62_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an7.62/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an7/an7.62_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an7/an7.62_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an7/an7.62_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an7.62",
+        "lang": "de",
+        "segMap": {
+          "an7.62:0.3": {
+            "scid": "an7.62:0.3",
+            "pli": "62. Mettasutta ",
+            "de": "62. <span class=\"ebt-matched\">Keine Angst, Gutes zu tun</span> ",
+            "en": "62. Don’t Fear Good Deeds ",
+            "matched": true
+          },
+          "an7.62:1.1": {
+            "scid": "an7.62:1.1",
+            "pli": "“Mā, bhikkhave, puññānaṁ bhāyittha. ",
+            "de": "„Mönche und Nonnen, habt <span class=\"ebt-matched\">keine Angst, Gutes zu tun</span>. ",
+            "en": "“Mendicants, don’t fear good deeds. ",
+            "matched": true
+          }
+        },
+        "score": 2.033,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 7\n6. Die nicht erklärten Punkte\n62. Keine Angst, Gutes zu tun",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 60,
+          "de": 59,
+          "en": 59
+        }
+      }
+    ]
+  }
+}

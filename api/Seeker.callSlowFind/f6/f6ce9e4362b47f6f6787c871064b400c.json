@@ -32,7 +32,7 @@
     "pattern": "auf beiden seiten",
     "method": "phrase",
     "resultPattern": "\\bauf beiden seiten",
-    "segsMatched": 21,
+    "segsMatched": 23,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
@@ -43,6 +43,9 @@
       "root/pli/ms/sutta/dn/dn28_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn28_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn28_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an7/an7.56_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an7/an7.56_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an7/an7.56_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.51_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.51_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.51_translation-en-sujato.json",
@@ -75,6 +78,7 @@
       "dn34/de/sabbamitta",
       "dn33/de/sabbamitta",
       "dn28/de/sabbamitta",
+      "an7.56/de/sabbamitta",
       "an5.51/de/sabbamitta",
       "an2.52-63/de/sabbamitta",
       "dn17/de/sabbamitta",
@@ -268,6 +272,45 @@
           "pli": 88,
           "de": 87,
           "en": 87
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an7/an7.56_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an7/an7.56_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an7/an7.56_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an7.56",
+        "lang": "de",
+        "segMap": {
+          "an7.56:7.1": {
+            "scid": "an7.56:7.1",
+            "pli": "Idha, mārisa moggallāna, bhikkhu ubhatobhāgavimutto hoti. ",
+            "de": "Da ist eine Nonne <span class=\"ebt-matched\">auf beiden Seiten</span> befreit. ",
+            "en": "Take a mendicant who is freed both ways. ",
+            "matched": true
+          },
+          "an7.56:7.3": {
+            "scid": "an7.56:7.3",
+            "pli": "‘ayaṁ kho āyasmā ubhatobhāgavimutto. ",
+            "de": "‚Diese Ehrwürdige ist <span class=\"ebt-matched\">auf beiden Seiten</span> befreit. ",
+            "en": "‘This venerable is freed both ways. ",
+            "matched": true
+          }
+        },
+        "score": 2.021,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 7\n6. Die nicht erklärten Punkte\n56. Mit dem Brahmā Tissa",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 97,
+          "de": 78,
+          "en": 96
         }
       },
       {

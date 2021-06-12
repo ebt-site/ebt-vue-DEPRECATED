@@ -32,14 +32,18 @@
     "pattern": "frucht des gebens",
     "method": "phrase",
     "resultPattern": "\\bfrucht des gebens",
-    "segsMatched": 6,
+    "segsMatched": 7,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an5/an5.34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.34_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an5/an5.34_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an5/an5.34_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an7/an7.57_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an7/an7.57_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an7/an7.57_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "an5.34/de/sabbamitta"
+      "an5.34/de/sabbamitta",
+      "an7.57/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -107,6 +111,38 @@
           "pli": 43,
           "de": 42,
           "en": 42
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an7/an7.57_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an7/an7.57_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an7/an7.57_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an7.57",
+        "lang": "de",
+        "segMap": {
+          "an7.57:1.4": {
+            "scid": "an7.57:1.4",
+            "pli": "“sakkā nu kho, bhante, sandiṭṭhikaṁ dānaphalaṁ paññāpetun”ti? ",
+            "de": "„Herr, kannst du eine <span class=\"ebt-matched\">Frucht des Gebens</span> aufzeigen, die in diesem Leben sichtbar ist?“ ",
+            "en": "“Sir, can you point out a fruit of giving that’s apparent in the present life?” ",
+            "matched": true
+          }
+        },
+        "score": 1.018,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 7\n6. Die nicht erklärten Punkte\n57. Mit dem General Sīha",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 56,
+          "de": 44,
+          "en": 55
         }
       }
     ]
