@@ -239,7 +239,7 @@ export default {
     pinned: "Gepinnt A_DATE",
     days: "A_DAYS Tage",
     weeks: "A_WEEKS Wochen",
-    viewEditGithub: "View/Edit page on Github",
+    viewEditGithub: "Seite auf Github ansehen/bearbeiten",
 
   },
 }
