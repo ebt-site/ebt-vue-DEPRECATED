@@ -18,7 +18,7 @@
           {{ title }} 
           <v-btn 
             :href="sourceUrl" target="_blank" 
-            title="View/Edit wiki page on Github" 
+            :title="$t('viewEditGithub')"
             icon class="ml-5"
             >
             <v-icon>{{ mdiFileEditOutline }}</v-icon>

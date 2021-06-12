@@ -236,6 +236,7 @@ export default {
     pinned: "Pinned A_DATE",
     days: "A_DAYS days",
     weeks: "A_WEEKS weeks",
+    viewEditGithub: "View/Edit page on Github",
 
   }
 }
