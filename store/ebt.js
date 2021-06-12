@@ -172,23 +172,27 @@ export const actions = {
                 `=> not found`);
             return;
         }
-        let { search } = $nuxt.$route.query;
-        let newSearch = `${sutta_uid}/${lang}`;
-        if (search !== newSearch) {
-            let { $router } = $nuxt;
-            let location = {
-                path: '/suttas',
-                query: {
-                    search: `${sutta_uid}/${lang}`,
-                },
-            } 
-            $router.push(location);
-            console.debug(`$store.state.ebt.store.loadSutta`, {location});
+        console.log(`$nuxt.$route`, $nuxt.$route);
+        let { query, path } = $nuxt.$route;
+        if (path.startsWith('/sutta')) {
+            let { search } = query;
+            let newSearch = `${sutta_uid}/${lang}`;
+            if (search !== newSearch) {
+                let { $router } = $nuxt;
+                let location = {
+                    path: '/suttas',
+                    query: {
+                        search: `${sutta_uid}/${lang}`,
+                    },
+                } 
+                $router.push(location);
+                console.debug(`$store.state.ebt.store.loadSutta`, {location});
+            }
+            context.commit('sutta', sutta);
+            let cursor = settings.history[settings.iCursor];
+            let scid = payload.scid || cursor.sutta_uid===payload.sutta_uid && cursor.scid;
+            $nuxt.$emit('ebt-load-sutta', Object.assign({scid}, payload));
         }
-        context.commit('sutta', sutta);
-        let cursor = settings.history[settings.iCursor];
-        let scid = payload.scid || cursor.sutta_uid===payload.sutta_uid && cursor.scid;
-        $nuxt.$emit('ebt-load-sutta', Object.assign({scid}, payload));
     },
     async loadExample ({commit, state}, payload) {
         let { pattern, lang=state.settings.lang } = payload;

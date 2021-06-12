@@ -5,6 +5,8 @@
         id="ebt-play-pause"
         ref="ebt-play-pause"
         @click="clickPlayPause()"
+        @touchstart="clickTouchStart()"
+        @touchend="clickTouchEnd()"
         :aria-label="$t('ariaPlay')"
         class="ebt-icon-btn" >
         <v-icon>{{playPauseIcon}}</v-icon>
@@ -125,6 +127,18 @@ export default {
     }, 1000);
   },
   methods:{
+    async clickTouchStart() {
+      let { audioContext } = this;
+      if (audioContext.state === 'suspended') {
+        console.log(`ebt-cursor.clickTouchStart() suspended => resume()`);
+        audioContext.resume();
+      } else {
+        console.log(`ebt-cursor.clickTouchStart() ${audioContext.state}`);
+      }
+    },
+    clickTouchEnd() {
+      console.log(`ebt-cursor.clickTouchEnd() ${audioContext.state}`);
+    },
     async playUrl(url) { 
       try {
         let { patNoAudio, reNoAudio, audioContext } = this;
@@ -135,7 +149,9 @@ export default {
         if (reNoAudio.test(url)) {
           url = URL_NOAUDIO;
         }
-        let res = await fetch(url);
+        let headers = new Headers();
+        headers.append('Accept',  'audio/mpeg');
+        let res = await fetch(url, { headers });
         if (!res.ok) {
            let e = new Error(`playUrl(${url}) ERROR => HTTP${res.status}`);
            e.url = url;

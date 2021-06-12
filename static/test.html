@@ -2,27 +2,48 @@
 <script>
 var AudioContext = window.AudioContext 
   || window.webkitAudioContext;
+const BR = '<br>';
 var audioContext = new AudioContext();
 
-async function playOne(url, n) {
+function unlockAudioContext(audioContext, elt=document.body) {
+  let emsg = document.getElementById("emsg");
+  console.log(`unlockAudioContext state:${audioContext.state}`);
+  if (audioContext.state !== 'suspended') {
+    emsg.innerHTML += `unlockAudioContext state:${audioContext.state} OK`+BR;
+    return;
+  } 
+  emsg.innerHTML += `unlockAudioContext state:${audioContext.state} => resume()`+BR;
+  const events = ['touchstart','touchend', 'mousedown','keydown'];
+  events.forEach(e => elt.addEventListener(e, unlock, false));
+  function unlock() { audioContext.resume().then(clean); }
+  function clean() { events.forEach(e => elt.removeEventListener(e, unlock)); }
+}
+function onClickClear() {
+  let emsg = document.getElementById("emsg");
+  emsg.innerHTML = new Date() + BR;
+}
+async function playOne(audioContext, url, n) {
   console.log("TEST: playOne()");
   try {
     let length = 0;
     let numberOfChannels = 2;
     let sampleRate = 48000;
-    let res = await fetch(url);
+    let headers = new Headers();
+    headers.append('Accept', 'audio/mp3');
+    let res = await fetch(url, { headers });
     if (!res.ok) {
        throw new Error(`TEST: playOne() ${e.message}`);
     }
     let urlBuf = await res.arrayBuffer();
     let emsg = document.getElementById("emsg");
-    emsg.innerHTML = n+"new AudioContext";
-    emsg.innerHTML = n+"createBufferSource";
+    emsg.innerHTML += n+`audioContext.state:${audioContext.state}`+BR;
+    emsg.innerHTML += n+"createBufferSource<br>";
     let audioSource = audioContext.createBufferSource();
-    emsg.innerHTML = n+"decodeAudioData";
     let urlAudio = await new Promise((resolve, reject)=>{
-      audioContext.decodeAudioData(urlBuf, resolve, reject);
+      emsg.innerHTML += n+"decodeAudioData<br>";
+      let res = audioContext.decodeAudioData(urlBuf, resolve, reject);
     });
+    emsg.innerHTML += n+`decodeAudioData => ${urlAudio}<br>`;
     numberOfChannels = Math.min(numberOfChannels, urlAudio.numberOfChannels);
     length += urlAudio.length;
     sampleRate = Math.max(sampleRate, urlAudio.sampleRate);
@@ -32,9 +53,9 @@ async function playOne(url, n) {
       `audioContext.createBuffer`,
       JSON.stringify({numberOfChannels, length, sampleRate}),
     ].join(' ');
-    emsg.innerHTML = n+msg;
+    emsg.innerHTML += n+msg+'<br>';
     let audioBuffer = audioContext.createBuffer(numberOfChannels, length, sampleRate);
-    emsg.innerHTML = n+'audioBuffer created';
+    emsg.innerHTML += n+'audioBuffer created<br>';
     for (let channelNumber = 0; channelNumber < numberOfChannels; channelNumber++) {
       let offset = 0;
       msg = [
@@ -43,29 +64,34 @@ async function playOne(url, n) {
         typeof window.Float32Array,
         Float32Array == null ? "null" : "OK",
       ].join(' ');
-      emsg.innerHTML = n+msg;
+      emsg.innerHTML += n+msg+'<br>';
       let channelData = new Float32Array(length);
       channelData.set(urlAudio.getChannelData(channelNumber), offset);
-      offset += urlAudio.length;
       audioBuffer.getChannelData(channelNumber).set(channelData);
+      offset += urlAudio.length;
     }
 
     audioSource.buffer = audioBuffer;
-    emsg.innerHTML = n+'connect';
+    emsg.innerHTML += n+`connect ${audioContext.destination}`+BR;
     audioSource.connect(audioContext.destination);
     return new Promise((resolve, reject) => { try {
+      audioSource.onerror = evt => {
+        console.log(`TEST: ERROR`, evt);
+        emsg.innerHTML += n+'onerror ${evt}<br>';
+        reject();
+      };
       audioSource.onended = evt => {
         console.log(`TEST: onended OK`);
-        emsg.innerHTML = n+'onended OK';
+        emsg.innerHTML += n+'onended OK<br>';
         resolve();
       };
-      emsg.innerHTML = n+'start()';
-      audioSource.start();
-      console.log(`TEST: started`);
+      emsg.innerHTML += n+'start()<br>';
+      let res = audioSource.start();
+      console.log(`TEST: started`, res);
     } catch(e) {
-      alert(`TEST: onended ${e.message}`);
+      alert(`TEST: audioSource caught exception ${e.message}`);
     }});
-    emsg.innerHTML = 'playOne => OK';
+    emsg.innerHTML += 'playOne => OK<br>';
   } catch(e) {
       console.error(`TEST: failed ${e.message}`, e);
       alert(e.message);
@@ -73,14 +99,42 @@ async function playOne(url, n) {
   }
 }
 
+async function onTouchStart(event) {
+  let buttons = document.getElementById("buttons");
+  let emsg = document.getElementById("emsg");
+  let { state } = audioContext;
+  if (state === 'suspended') {
+    emsg.innerHTML += `onTouchStart ${state} ${JSON.stringify(event)} => resume()` + BR;
+    audioContext.resume();
+  } else {
+    emsg.innerHTML += `onTouchStart ${state} ${JSON.stringify(event)}` + BR;
+  }
+}
+
+function onTouchEnd(event) {
+  let emsg = document.getElementById("emsg");
+  emsg.innerHTML += `onTouchEnd ${event}` + BR;
+}
+
 async function onClickPlay() {
   console.log("TEST: onClickPlay()");
   let url = "https://voice.suttacentral.net/scv/audio/dn34/en/sujato/Amy/ec017f3bba333bd764e6dbf9c50da229";
   let url2 = "https://voice.suttacentral.net/scv/audio/mn1/en/sujato/Amy/b627aa0151c721837225614412434a77";
-  await this.playOne(url, 1);
-  await this.playOne(url2, 2);
-  await this.playOne(url, 3);
+  let emsg = document.getElementById("emsg");
+  audioContext.onstatechange = evt => {
+    console.log(`TEST: audioContext.onstatechange`, evt);
+    emsg.innerHTML += `onstatechange ${audioContext.state}<br>`;
+  };
+  console.log(`AudioContext`, audioContext);
+  await this.playOne(audioContext, url, 1);
+  await this.playOne(audioContext, url2, 2);
+  await this.playOne(audioContext, url, 3);
+  emsg.innerHTML += `END audioContext.state:${audioContext.state}`+BR;
 }
+
+async function onClickBell() {
+}
+
 </script>
 <body>
   <h1>TEST AUDIO</h1>
@@ -90,14 +144,28 @@ async function onClickPlay() {
       https://voice.suttacentral.net/scv/audio/dn34/en/sujato/Amy/ec017f3bba333bd764e6dbf9c50da229
       </a>
     </div>
-    <div id="emsg">EMSG</div>
     <audio controls>
       <source type="audio/mp3"
         src="https://voice.suttacentral.net/scv/audio/dn34/en/sujato/Amy/ec017f3bba333bd764e6dbf9c50da229"></source>
     </audio>
-    <button onclick="onClickPlay()">
-      Play
-    </button>
+    <div id="buttons" style="width:100%; display:flex; justify-content: space-between">
+      <button onclick="unlockAudioContext(audioContext)">
+        Unlock
+      </button>
+      <button onclick="onClickClear()">
+        Clear
+      </button>
+      <button onclick="onClickPlay()"
+        ontouchstart="onTouchStart(event)"
+        ontouchend="onTouchEnd(event)"
+      >
+        Play
+      </button>
+      <button onclick="onClickBell()">
+        Bell
+      </button>
+      </div>
+    <div id="emsg">EMSG<br></div>
   </div>
 </body>
 </html>
