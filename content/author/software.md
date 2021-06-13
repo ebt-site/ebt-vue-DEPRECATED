@@ -49,7 +49,9 @@ to update the minor version:
 npm version minor
 ```
 
-EBT-Vue changes published to NPM will be automatically
+When the EBT-Vue scheduled Github Action detects
+a version number change, it will automatically publish
+the changes to NPM. EBT-Vue changes published to NPM will be automatically
 propagated throughout EBT-Sites by Github Actions.
 Changes made without a corresponding version number change
 will be ignored by EBT-Sites until the EBT-Vue version number changes
