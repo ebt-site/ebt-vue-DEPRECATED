@@ -6,13 +6,6 @@ cd $DIR/..
 
 NPMVER=`npm show ebt-vue version`
 PKGVER=`grep -e '"version":' package.json | sed s/[^0-9.]//g`
-echo TEST NPMVER:$NPMVER:
-echo TEST PKGVER:$PKGVER:
-if [ "$NPMVER" == "$PKGVER" ]; then
-  echo "npm ebt-vue $NPMVER (OK)"
-else
-  echo "npm ebt-vue $PKGVER != $NPMVER (PUBLISHING...)"
-fi
 exit # TODO
 
 $DIR/install-ripgrep
@@ -40,6 +33,12 @@ if [ "$1" == "PUSH" ]; then
   $DIR/git-commit-version PUSH; RC=$?
   if [ "$RC" == "42" ]; then
     echo "$SCRIPT: no changes to commit"
+    if [ "$NPMVER" == "$PKGVER" ]; then
+      echo "$SCRIPT: npm ebt-vue $NPMVER (OK)"
+    else
+      echo "$SCRIPT: npm ebt-vue $PKGVER != $NPMVER (updating npm...)"
+      $DIR/publish-npm
+    fi
   elif [ "$RC" == "0" ]; then
     echo "$SCRIPT: updating npm"
     $DIR/publish-npm
