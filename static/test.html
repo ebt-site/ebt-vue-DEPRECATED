@@ -18,9 +18,17 @@ function unlockAudioContext(audioContext, elt=document.body) {
   function unlock() { audioContext.resume().then(clean); }
   function clean() { events.forEach(e => elt.removeEventListener(e, unlock)); }
 }
+function eMsg(msg) {
+  let emsg = document.getElementById("emsg");
+  if (msg) {
+    emsg.innerHTML += msg + BR;
+  } else {
+    emsg.innerHTML = new Date() + BR;
+  }
+}
 function onClickClear() {
   let emsg = document.getElementById("emsg");
-  emsg.innerHTML = new Date() + BR;
+  eMsg();
 }
 async function playOne(audioContext, url, n) {
   console.log("TEST: playOne()");
@@ -99,21 +107,29 @@ async function playOne(audioContext, url, n) {
   }
 }
 
-async function onTouchStart(event) {
-  let buttons = document.getElementById("buttons");
-  let emsg = document.getElementById("emsg");
+async function onTouchStart(event={}) {
   let { state } = audioContext;
+  let { type } = event;
+
   if (state === 'suspended') {
-    emsg.innerHTML += `onTouchStart ${state} ${JSON.stringify(event)} => resume()` + BR;
-    audioContext.resume();
+    eMsg(`onTouchStart ${state} ${JSON.stringify({type})} => resume()`);
+    //audioContext.resume();
   } else {
-    emsg.innerHTML += `onTouchStart ${state} ${JSON.stringify(event)}` + BR;
+    eMsg(`onTouchStart ${state} ${JSON.stringify({type})}`);
   }
 }
 
 function onTouchEnd(event) {
-  let emsg = document.getElementById("emsg");
-  emsg.innerHTML += `onTouchEnd ${event}` + BR;
+  let { state } = audioContext;
+  let { type } = event;
+
+  if (state === 'suspended') {
+    audioContext.resume();
+    eMsg(`onTouchEnd ${state} => ${audioContext.state}`);
+
+  } else {
+    eMsg(`onTouchEnd ${state} ${JSON.stringify({type})}`);
+  }
 }
 
 async function onClickPlay() {
@@ -123,19 +139,32 @@ async function onClickPlay() {
   let emsg = document.getElementById("emsg");
   audioContext.onstatechange = evt => {
     console.log(`TEST: audioContext.onstatechange`, evt);
-    emsg.innerHTML += `onstatechange ${audioContext.state}<br>`;
+    eMsg(`onstatechange ${audioContext.state}`);
   };
   console.log(`AudioContext`, audioContext);
   await this.playOne(audioContext, url, 1);
   await this.playOne(audioContext, url2, 2);
   await this.playOne(audioContext, url, 3);
-  emsg.innerHTML += `END audioContext.state:${audioContext.state}`+BR;
+  eMsg(`END audioContext.state:${audioContext.state}`);
 }
 
 async function onClickBell() {
 }
 
 </script>
+<style>
+.buttons {
+  font-size: larger;
+  width:20em;
+  display:flex; 
+  justify-content: space-between;
+  background: red;
+  padding: 1em;
+}
+audio {
+  border: 1pt solid red;
+}
+</style>
 <body>
   <h1>TEST AUDIO</h1>
   <div style="display: flex; flex-flow: column; align-items: center;">
@@ -143,21 +172,24 @@ async function onClickBell() {
       <a href="https://voice.suttacentral.net/scv/audio/dn34/en/sujato/Amy/ec017f3bba333bd764e6dbf9c50da229" target="_blank">
       https://voice.suttacentral.net/scv/audio/dn34/en/sujato/Amy/ec017f3bba333bd764e6dbf9c50da229
       </a>
+      <br>
+      <a href="/ebt-vue/suttas?search=mn1">mn1</a>
     </div>
     <audio controls>
       <source type="audio/mp3"
         src="https://voice.suttacentral.net/scv/audio/dn34/en/sujato/Amy/ec017f3bba333bd764e6dbf9c50da229"></source>
     </audio>
-    <div id="buttons" style="width:100%; display:flex; justify-content: space-between">
-      <button onclick="unlockAudioContext(audioContext)">
+    <div id="buttons" class="buttons">
+      <button 
+        ontouchstart="onTouchStart(event)"
+        ontouchend="onTouchEnd(event)"
+      >
         Unlock
       </button>
       <button onclick="onClickClear()">
         Clear
       </button>
       <button onclick="onClickPlay()"
-        ontouchstart="onTouchStart(event)"
-        ontouchend="onTouchEnd(event)"
       >
         Play
       </button>

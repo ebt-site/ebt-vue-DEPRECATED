@@ -11,11 +11,15 @@
     ></v-autocomplete>
     <div class="ebt-inspire-row">
       <v-btn @click="clickInspireMe()"
+        @touchstart="onTouchStart()"
         role="button"
         :aria-label="$t('inspireMe')"
         class="ebt-text-btn " :style="cssVars" small>
         {{$t('inspireMe')}}
       </v-btn>
+      <audio id="inspireAudio" preload=auto>
+        <source type="audio/mp3" :src="inspireAudio"/>
+      </audio>
     </div>
     <v-alert :value="!!searchError" color="deep-orange darken-4" 
       type="info" :icon="mdiCancel">
@@ -66,6 +70,11 @@ export default {
     });
   },
   methods:{
+    onTouchStart() {
+      let audio = document.getElementById("inspireAudio");
+      console.log(`ebt-search-field.onTouchStart()`, audio);
+      audio && audio.play();
+    },
     async onSearchInput(pattern='') { try {
       let { bilaraWeb, lang } = this;
       let noValue = {mlDocs:[]};
@@ -148,6 +157,9 @@ export default {
       return !search || examples.includes(this.search) 
         ? [ ...examples ]
         : [`${this.search}`, ...examples];
+    },
+    inspireAudio() {
+      return "audio/383542__alixgaus__turn-page.mp3";
     },
   },
 }
