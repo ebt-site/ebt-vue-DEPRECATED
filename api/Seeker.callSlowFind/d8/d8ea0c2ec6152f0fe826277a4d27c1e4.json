@@ -30,54 +30,158 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "ob bei tag oder bei nacht",
-    "method": "keywords",
-    "resultPattern": "\\bob|\\bbei|\\btag|\\boder|\\bbei|\\bnacht",
-    "segsMatched": 0,
+    "method": "phrase",
+    "resultPattern": "\\bob bei tag oder bei nacht",
+    "segsMatched": 4,
     "bilaraPaths": [
-      "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/dn/dn14_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an3/an3.90_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an3/an3.90_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an3/an3.90_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/dn/dn23_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn23_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn25_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/dn/dn25_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn25_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an2/an2.32-41_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an2/an2.32-41_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an2/an2.32-41_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an4/an4.198_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an4/an4.198_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an4/an4.198_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an6/an6.29_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an6/an6.29_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an6/an6.29_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an7/an7.61_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an7/an7.61_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an7/an7.61_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn10_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/dn/dn10_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn10_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn12_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/dn/dn12_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn12_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn17_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/dn/dn17_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn17_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn19_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/dn/dn19_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn19_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn31_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/dn/dn31_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn31_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json"
+      "root/pli/ms/sutta/an/an6/an6.29_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an6/an6.29_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an6/an6.29_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.41_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.41_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.41_translation-en-sujato.json"
     ],
-    "suttaRefs": [],
-    "mlDocs": []
+    "suttaRefs": [
+      "dn33/de/sabbamitta",
+      "an7.61/de/sabbamitta",
+      "an6.29/de/sabbamitta",
+      "an4.41/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.41_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.41_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.41_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.41",
+        "lang": "de",
+        "segMap": {
+          "an4.41:3.3": {
+            "scid": "an4.41:3.3",
+            "pli": "yathā divā tathā rattiṁ, yathā rattiṁ tathā divā. ",
+            "de": "<span class=\"ebt-matched\">ob bei Tag oder bei Nacht</span>. ",
+            "en": "regardless of whether it’s night or day. ",
+            "matched": true
+          }
+        },
+        "score": 1.028,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 4\n5. Mit Rohitassa\n41. Wie man Versenkung weiterentwickelt",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 36,
+          "de": 35,
+          "en": 35
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an6/an6.29_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an6/an6.29_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an6/an6.29_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an6.29",
+        "lang": "de",
+        "segMap": {
+          "an6.29:5.1": {
+            "scid": "an6.29:5.1",
+            "pli": "“Puna caparaṁ, bhante, bhikkhu ālokasaññaṁ manasi karoti, divā saññaṁ adhiṭṭhāti, yathā divā tathā rattiṁ, yathā rattiṁ tathā divā; ",
+            "de": "Dann wendet sich da eine Nonne der Wahrnehmung von Licht zu, konzentriert sich auf die Wahrnehmung des Tages, <span class=\"ebt-matched\">ob bei Tag oder bei Nacht</span>. ",
+            "en": "Furthermore, a mendicant focuses on the perception of light, concentrating on the perception of day regardless of whether it is night or day. ",
+            "matched": true
+          }
+        },
+        "score": 1.019,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 6\n3. Unübertrefflich\n29. Mit Udāyī",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 52,
+          "de": 49,
+          "en": 51
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an7/an7.61_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an7/an7.61_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an7/an7.61_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an7.61",
+        "lang": "de",
+        "segMap": {
+          "an7.61:7.2": {
+            "scid": "an7.61:7.2",
+            "pli": "yathā divā tathā rattiṁ yathā rattiṁ tathā divā. ",
+            "de": "<span class=\"ebt-matched\">ob bei Tag oder bei Nacht</span>. ",
+            "en": "regardless of whether it’s night or day. ",
+            "matched": true
+          }
+        },
+        "score": 1.016,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 7\n6. Die nicht erklärten Punkte\n61. Einnicken",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 61,
+          "de": 59,
+          "en": 60
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn33",
+        "lang": "de",
+        "segMap": {
+          "dn33:1.11.35": {
+            "scid": "dn33:1.11.35",
+            "pli": "Idhāvuso, bhikkhu ālokasaññaṁ manasi karoti, divāsaññaṁ adhiṭṭhāti yathā divā tathā rattiṁ, yathā rattiṁ tathā divā. ",
+            "de": "Ein Mönch wendet sich der Wahrnehmung von Licht zu, konzentriert sich auf die Wahrnehmung des Tages, <span class=\"ebt-matched\">ob bei Tag oder bei Nacht</span>. ",
+            "en": "A mendicant focuses on the perception of light, concentrating on the perception of day regardless of whether it is night or day. ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 33\nIm Chor aufsagen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 1167,
+          "de": 1166,
+          "en": 1166
+        }
+      }
+    ]
   }
 }

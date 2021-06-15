@@ -32,18 +32,22 @@
     "pattern": "opferpfahl",
     "method": "phrase",
     "resultPattern": "\\bopferpfahl",
-    "segsMatched": 16,
+    "segsMatched": 17,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an7/an7.47_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an7/an7.47_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an7/an7.47_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.195_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.195_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an4/an4.195_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an4/an4.195_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag2.22_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag2.22_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag2.22_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an7.47/de/sabbamitta",
-      "an4.195/de/sabbamitta"
+      "an4.195/de/sabbamitta",
+      "thag2.22/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -206,6 +210,38 @@
           "pli": 89,
           "de": 88,
           "en": 88
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag2.22_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag2.22_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag2.22_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag2.22",
+        "lang": "de",
+        "segMap": {
+          "thag2.22:1.2": {
+            "scid": "thag2.22:1.2",
+            "pli": "yassa yūpo suvaṇṇayo;",
+            "de": "der hatte einen <span class=\"ebt-matched\">Opferpfahl</span>, der ganz von Gold war. ",
+            "en": "who had a sacrificial post all golden.",
+            "matched": true
+          }
+        },
+        "score": 1.077,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche\nDas Zweierbuch\nDrittes Kapitel\n2.22. Bhaddaji",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 13,
+          "de": 12,
+          "en": 12
         }
       }
     ]
