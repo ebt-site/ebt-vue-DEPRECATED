@@ -329,6 +329,7 @@
     "sag.* die Wahrheit",
     "Sanfteste der Sanften",
     "schädlichen Irrglauben",
+    "Schilfbündel",
     "Schlange Skorpion Tausendfüßler",
     "schmerzhafte erfreuliche Entscheidungen",
     "Schmuckstück aus Beryll von natürlicher",
