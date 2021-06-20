@@ -71,11 +71,6 @@ export default {
     };
   },
   async mounted() {
-    let { cursor, $store } = this;
-    if (cursor) {
-      console.debug(`ebt-app-bar.mounted()`, cursor);
-      $store.dispatch('ebt/loadSutta', cursor);
-    }
   },
   methods:{
     async clickHome() {
@@ -89,40 +84,50 @@ export default {
     clickPageTop() {
         let elt = document.getElementById("ebt-search-field");
         if (elt) {
-            let refSearchAuto = elt.__vue__.$refs.refSearchAuto;
-            let input = refSearchAuto.$refs.input;
-            this.$nextTick(()=>{
-                elt.scrollIntoView({block: "center"});
-                input.focus();
-            });
+          let refSearchAuto = elt.__vue__.$refs.refSearchAuto;
+          let input = refSearchAuto.$refs.input;
+          this.$nextTick(()=>{
+            console.log(`ebt-app-bar.clickPageTop() scrollIntoView`, elt);
+            elt.scrollIntoView({block: "center"});
+            input.focus();
+          });
         }
     },
     clickPageBottom() {
-        let elt = document.getElementById("ebt-tipitaka");
-        console.log('clickPageBottom', {elt});
-        elt && this.$nextTick(()=>{
-            elt.scrollIntoView({block: "center"});
+      let elt = document.getElementById("ebt-tipitaka");
+      if (elt) {
+        console.log(`ebt-app-bar.clickPageBottom() scrollIntoView`, elt);
+        this.$nextTick(()=>{
+          elt.scrollIntoView({block: "center"});
         });
+      } else {
+        console.log('ebt-app-bar.clickPageBottom() (ignored)');
+      }
     },
     async clickCursor(cursor) {
-        let { sutta, history, $store } = this;
-        let { sutta_uid, lang } = cursor;
-        let updateHistory = false;
-        if (sutta_uid !== sutta.sutta_uid) {
-            await $store.dispatch('ebt/loadSutta', {sutta_uid, lang, updateHistory});
-        }
-        let elt = document.getElementById(cursor.scid);
-        elt && elt.scrollIntoView({block: "center"});
+      let { sutta, history, $store } = this;
+      let { sutta_uid, lang } = cursor;
+      let updateHistory = false;
+      if (sutta_uid !== sutta.sutta_uid) {
+          await $store.dispatch('ebt/loadSutta', {sutta_uid, lang, updateHistory});
+      }
+      let elt = document.getElementById(cursor.scid);
+      if (elt) {
+        console.log(`ebt-app-bar.clickCursor() scrollIntoView`, elt);
+        elt.scrollIntoView({block: "center"});
+      } else {
+        console.log(`ebt-app-bar.clickCursor() scrollIntoView (elt?)`);
+      }
     },
   },
   computed: {
     cursorLabel() {
-        let { cursor } = this;
-        if (!cursor) {
-            return "...";
-        }
-        let { scid, lang } = cursor;
-        return `${scid}/${lang}`;
+      let { cursor } = this;
+      if (!cursor) {
+          return "...";
+      }
+      let { scid, lang } = cursor;
+      return `${scid}/${lang}`;
     },
     cursor() {
       let { iCursor, history } = this.settings;

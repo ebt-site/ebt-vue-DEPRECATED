@@ -424,11 +424,13 @@
 
         parseSuttaRef(pattern, defaultLang=this.lang) {
             let { suids } = this;
+            let patLower = pattern.toLowerCase();
+            let [ suttaRef, segnum ] = patLower.split(':');
             let [ 
                 sutta_uid, 
                 lang=defaultLang, 
                 author,
-            ] = pattern.toLowerCase().replace(/ /ug,'').split('/');
+            ] = suttaRef.replace(/ /ug,'').split('/');
             let { compareLow, compareHigh } = SuttaCentralId;
             let keys = suids.filter(k=>{
                 return compareLow(k, sutta_uid)<=0 && compareHigh(sutta_uid, k)<=0;
@@ -438,6 +440,7 @@
                     sutta_uid: keys[0], 
                     lang,
                     author,
+                    segnum,
                 };
             }
             return null;

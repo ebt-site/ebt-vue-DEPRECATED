@@ -297,7 +297,7 @@
         let sutta = await bw.loadSutta({sutta_uid, lang});
         should(sutta).equal(undefined);
     });
-    it("parseSuttaRef() returns an2.32-41", ()=>{
+    it("TESTTESTparseSuttaRef() an2.32-41", ()=>{
         let bw = new BilaraWeb({fetch});
         let pattern = 'an 2.41/de';
         let lang = 'de';
@@ -305,6 +305,17 @@
             sutta_uid: 'an2.32-41',
             lang,
             author: undefined,
+            segnum: undefined,
+        });
+    });
+    it("TESTTESTparseSuttaRef() an2.32-41:1.2", ()=>{
+        let bw = new BilaraWeb({fetch});
+        let pattern = 'an 2.41/en/sujato:1.2';
+        should.deepEqual(bw.parseSuttaRef(pattern), {
+            sutta_uid: 'an2.32-41',
+            lang: 'en',
+            author: 'sujato',
+            segnum: '1.2',
         });
     });
     it("suidPaths(suid) => path map", ()=>{

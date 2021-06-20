@@ -3,17 +3,19 @@ const {
     Settings,
 } = require('../src/index');
 const examples = require('../api/examples.json');
+import Vue from "vue";
 
 var bilaraWeb;
+const WAITING = '\u231B...';
 
 const DEFAULT = {
     get sutta() { return {
-        titles: ['...'],
+        titles: [WAITING],
         lang: 'en',
-        translator: '...',
+        translator: WAITING,
         sutta_uid: null,
         segments: [
-            {scid: null, pli: '...', en: '...'}
+            {scid: null, pli: WAITING, en: WAITING}
         ],
     }}
 }
@@ -43,40 +45,54 @@ export const mutations = {
             console.log(`$store.state.ebt.pinSutta()`, history);
         }
     },
-    cursorScid(state, value) {
+    selectSegment(state, value) {
+        let scid = value;
+        if (scid == null) {
+            console.warn(`$store.state.ebt.selectSegment scid:${scid}`);
+            return;
+        }
         let { sutta, settings } = state;
         let { history } = settings;
         let { sutta_uid, lang, translator, } = sutta;
         let iCursor = history.findIndex(h=>h.sutta_uid===sutta_uid && h.lang===lang);
         if (iCursor < 0) {
             iCursor = history.findIndex(h=>h.sutta_uid===sutta_uid);
-            console.warn(`$store.state.ebt.cursorScid ${sutta_uid}/${lang} not found.`,
+            settings.iCursor = iCursor;
+            console.warn(`$store.state.ebt.selectSegment ${sutta_uid}/${lang} not found.`,
                 `Substituting iCursor:${iCursor}`, history[iCursor]);
         }
         if (iCursor < 0) {
-            console.warn(`$store.state.ebt.cursorScid mutation ignored.`,
-                `Cursor not found for scid:${value} lang:${lang} history:`, 
+            console.warn(`$store.state.ebt.selectSegment mutation ignored.`,
+                `Cursor not found for scid:${scid} lang:${lang} history:`, 
                 history);
             return;
         }
         let cursor = history[iCursor];
-        let minutes = (Date.now() - cursor.date)/MS_MINUTE;
-        let addToWorkingMemory = WORKING_MINUTES < minutes;
-        if (cursor.scid !== value) {
-            cursor.scid = value;
-            if (addToWorkingMemory) {
-                console.log(`$store.state.ebt.cursorScid() addToWorkingMemory`, 
-                    {value, minutes, cursor}); 
-                cursor.date = new Date();
-                history.sort((a,b)=>a.date-b.date);
-                iCursor = history.length-1;
-                cursor = history[iCursor];
-            }
-        }
-        settings.iCursor = iCursor;
         cursor.lang = lang;
         cursor.translator = translator;
-        console.log(`$store.state.ebt.cursorScid()`, {iCursor, cursor});
+
+        let minutes = (Date.now() - cursor.date)/MS_MINUTE;
+        let inWorkingMemory = minutes <= WORKING_MINUTES;
+        cursor.scid = scid;
+        if (inWorkingMemory) {
+            console.log(`$store.state.ebt.selectSegment scid =>`,  scid);
+        } else {
+            console.log(`$store.state.ebt.selectSegment add to working memory`, 
+                {scid, minutes, cursor}); 
+            cursor.date = new Date();
+            history.sort((a,b)=>a.date-b.date);
+            iCursor = history.length-1;
+            cursor = history[iCursor];
+            settings.iCursor = iCursor;
+        }
+
+        let segnum = scid.split(':').pop();
+        window.location.hash = `#${sutta_uid}/${lang}/${translator}:${segnum}`;
+        Vue.nextTick(()=>{
+            console.debug(`$store.state.ebt.selectSegment`,
+                `=> ebt-segment-selected({${scid}})` );
+            $nuxt.$emit('ebt-segment-selected', {scid}); 
+        });
     },
     searchError(state, error=null) {
         state.searchError = error;
@@ -134,7 +150,7 @@ export const mutations = {
         if (mlDocs instanceof Array) {
             mlDocs.forEach(mld=>(mld.showDetails = false));
         }
-        console.log(`$store.state.ebt.searchResults:`, value);
+        console.debug(`$store.state.ebt.searchResults:`, value);
     },
     settings(state, value) {
         Object.assign(state.settings, value);
@@ -158,7 +174,7 @@ export const actions = {
     async loadSutta (context, payload) {
         let settings = context.state.settings;
         let { sutta_uid, lang=settings.lang, updateHistory } = payload;
-        context.commit('suttaRef', {sutta_uid, lang, updateHistory});
+        await context.commit('suttaRef', {sutta_uid, lang, updateHistory});
         bilaraWeb = bilaraWeb || new BilaraWeb({fetch});
         let sutta = await bilaraWeb.loadSutta({sutta_uid, lang});
         if (sutta == null) {
@@ -172,26 +188,22 @@ export const actions = {
                 `=> not found`);
             return;
         }
-        console.log(`$nuxt.$route`, $nuxt.$route);
-        let { query, path } = $nuxt.$route;
+        let { hash, query, path } = $nuxt.$route;
         if (path.startsWith('/sutta')) {
             let { search } = query;
-            let newSearch = `${sutta_uid}/${lang}`;
-            if (search !== newSearch) {
-                let { $router } = $nuxt;
-                let location = {
-                    path: '/suttas',
-                    query: {
-                        search: `${sutta_uid}/${lang}`,
-                    },
-                } 
-                $router.push(location);
-                console.debug(`$store.state.ebt.store.loadSutta`, {location});
-            }
+            let translator = sutta.translator;
             context.commit('sutta', sutta);
             let cursor = settings.history[settings.iCursor];
-            let scid = payload.scid || cursor.sutta_uid===payload.sutta_uid && cursor.scid;
-            $nuxt.$emit('ebt-load-sutta', Object.assign({scid}, payload));
+            let scid = payload.scid || 
+                cursor.sutta_uid===payload.sutta_uid && cursor.scid;
+            let segnum = scid.split(':').pop();
+            context.commit('selectSegment', scid);
+            console.log(`$store.state.ebt.loadSutta()`, payload);
+            Vue.nextTick(()=>{
+                $nuxt.$emit('ebt-load-sutta', Object.assign({}, payload, {scid}));
+            });
+        } else {
+            console.error(`$store.state.ebt.loadSutta UNEXPECTED path:${path}`);
         }
     },
     async loadExample ({commit, state}, payload) {

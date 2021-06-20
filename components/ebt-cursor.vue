@@ -104,7 +104,7 @@ export default {
       playToEnd: false,
       playTime: null,
       clock: null,
-      audioContext: new AudioContext(),
+      _audioContext: null,
       patNoAudio: PAT_NOAUDIO,
       reNoAudio: new RegExp(PAT_NOAUDIO.join('|')),
     };
@@ -129,6 +129,7 @@ export default {
   methods:{
     async clickTouchStart() {
       let { audioContext } = this;
+      
       if (audioContext.state === 'suspended') {
         console.log(`ebt-cursor.clickTouchStart() suspended => resume()`);
         audioContext.resume();
@@ -371,15 +372,18 @@ export default {
       let nextSeg = segments[iNextSeg];
       let nextScid = nextSeg && nextSeg.scid;
       if (nextScid) {
-        console.debug(`ebt-cursor.nextSegment =>`, nextScid);
-        $store.commit('ebt/cursorScid', nextScid);
+        $store.commit('ebt/selectSegment', nextScid);
         let elt = document.getElementById(nextScid);
-        elt && elt.scrollIntoView({
-          block: "center",
-          behavior: "smooth",
-        });
+        if (elt) {
+          console.debug(`ebt-cursor.nextSegment() scrollIntoView`,
+            `nextScid:${nextScid}`, elt);
+          elt.scrollIntoView({ block: "center", behavior: "smooth",});
+        } else {
+          console.debug(`ebt-cursor.nextSegment nextScid:${nextScid}`);
+        }
+      } else {
+        console.debug(`ebt-cursor.nextSegment nextScid:${nextScid}`);
       } 
-      console.debug(`ebt-cursor.nextSegment nextScid:${nextScid}`);
       return nextScid;
     },
     async playBell() {
@@ -397,6 +401,7 @@ export default {
         let refSearchAuto = elt.__vue__.$refs.refSearchAuto;
         let input = refSearchAuto.$refs.input;
         this.$nextTick(()=>{
+          console.log('ebt-cursor.clickPageTop() scrollIntoView', {elt});
           elt.scrollIntoView({block: "center"});
           input.focus();
         });
@@ -404,8 +409,8 @@ export default {
     },
     clickPageBottom() {
       let elt = document.getElementById("ebt-tipitaka");
-      console.log('clickPageBottom', {elt});
       elt && this.$nextTick(()=>{
+        console.log('ebt-cursor.clickPageBottom() scrollIntoView', {elt});
         elt.scrollIntoView({block: "center"});
       });
     },
@@ -433,6 +438,14 @@ export default {
     },
   },
   computed: {
+    audioContext() {
+      let ac = this._audioContext;
+      if (ac == null) {
+        ac = new AudioContext();
+        Vue.set(this, "_audioContext", ac);
+      }
+      return ac;
+    },
     cursorLabel() {
       let { scid='--', lang='--' } = this.cursor || {};
       return `${scid}/${lang}`;

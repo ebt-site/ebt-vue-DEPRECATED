@@ -38,7 +38,7 @@ export default (context, inject) => {
 
     store.subscribe((mutation,state) => {
         let { type } = mutation;
-        if (type==='ebt/settings' || type==='ebt/suttaRef' || type==='ebt/cursorScid') {
+        if (type==='ebt/settings' || type==='ebt/suttaRef' || type==='ebt/selectSegment') {
             let settings = state.ebt.settings;
             $vuetify.lang.current = settings.locale;
             if (settings.saveSettingsExamples) {

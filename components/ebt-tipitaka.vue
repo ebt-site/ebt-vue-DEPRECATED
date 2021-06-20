@@ -50,9 +50,10 @@ export default {
     let tipitaka = new js.Tipitaka();
     Vue.set(this, 'tipitaka', tipitaka);
     this.$nuxt.$on('ebt-load-sutta', payload=>{
-      typeof $el.scrollIntoView === 'function' && $el.scrollIntoView({
-        block: "center",
-      });
+      if (typeof $el.scrollIntoView === 'function') {
+        console.log(`ebt-tipitaka.mounted@ebt-load-sutta() scrollntoView`, $el);
+        $el.scrollIntoView({ block: "center", });
+      }
     });
   },
   methods:{

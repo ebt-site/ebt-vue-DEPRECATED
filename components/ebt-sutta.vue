@@ -27,7 +27,8 @@
       <div v-for="seg in segments" :key="seg.scid" 
         :ref="seg.scid"
         :id="seg.scid"
-        @click="clickSegment(seg)"
+        :title="seg.scid"
+        @click="clickSegment(seg.scid)"
         @copy="clickCopy(seg)"
         :class="segmentClass(seg)">
         <div v-if="settings.showId" class="ebt-scid">{{seg.scid}}</div>
@@ -85,11 +86,32 @@ export default {
   async mounted() {
     this.bilaraWeb = new this.js.BilaraWeb({fetch});
     let that = this;
-    this.$nuxt.$on('ebt-load-sutta', (cursor={})=>{
-        that.scrollToCursor(cursor)
+    this.$nuxt.$on('ebt-segment-selected', (cursor={})=>{
+        setTimeout(()=>{
+            that.$nextTick(()=>that.scrollToCursor(cursor));
+        }, 500); // HACK: without this, scrolling may not happen
     });
-    console.log(`ebt-sutta.mounted()`);
-    that.scrollToCursor(this.cursor);
+    let { $route, cursor, $store } = this;
+    let hc = $route.hash.substring(1).split(':');
+    let [ sutta_uid, lang, translator ] = hc[0].split('/') || hc;
+    let segnum = hc[1];
+
+    if (segnum) {
+      let scid = `${sutta_uid}:${segnum}`;
+      let hashCursor = {sutta_uid, lang, translator, scid};
+      let that = this;
+      console.log('ebt-sutta.mounted() hash cursor:', hashCursor);
+      this.$nextTick(()=>{
+        $store.dispatch('ebt/loadSutta', hashCursor);
+        that.clickSegment(scid);
+      });
+    } else if (cursor) {
+      console.log(`ebt-sutta.mounted() history cursor:`, cursor);
+      $store.dispatch('ebt/loadSutta', cursor);
+    } else if (sutta_uid) {
+      console.log(`ebt-sutta.mounted() sutta_uid:`, sutta_uid);
+      $store.dispatch('ebt/loadSutta', {sutta_uid, lang, translator});
+    }
   },
   methods:{
     onPin() {
@@ -113,16 +135,26 @@ export default {
       console.log(`onLink()`, linkUrl);
     },
     scrollToCursor(cursor) {
-      let that = this;
-      let { $refs } = that;
-      cursor && that.$nextTick(()=>{
+      if (!cursor) { return; }
+
+      let { $refs } = this;
+      this.$nextTick(()=>{
         let { scid } = cursor;
         if (scid) {
           let elt = $refs[scid];
           elt = elt instanceof Array ? elt[0] : elt;
           elt = elt && elt.$el || elt;
-          console.debug(`ebt-sutta.scrollToCursor scid:${scid} elt:`, elt); 
-          elt && elt.scrollIntoView({block: "center"});
+          if (elt) {
+            console.debug(`ebt-sutta.scrollToCursor scid:${scid} elt:`, elt); 
+            elt.scrollIntoView({
+                block: "center",
+                behavior: "smooth",
+            });
+          } else {
+            console.debug(`ebt-sutta.scrollToCursor scid:${scid} elt?`, elt); 
+          }
+          let ePlay = document.getElementById('ebt-play-pause');
+          ePlay && ePlay.focus && ePlay.focus();
         } else {
           console.debug(`ebt-sutta.scrollToCursor scid:${scid} (ignored)`);
         }
@@ -158,14 +190,9 @@ export default {
       console.log(`copied`, text);
       alert(text);
     },
-    clickSegment(seg) {
+    clickSegment(scid) {
       let { $store } = this;
-      $store.commit('ebt/cursorScid', seg.scid);
-      let el = document.getElementById('ebt-play-pause');
-      if (el) {
-        el.focus && el.focus();
-      }
-      console.log(`clickSegment()`, seg.scid, el);
+      $store.commit('ebt/selectSegment', scid);
     },
     title(n) {
         return this.titles[n] || {};

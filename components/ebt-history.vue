@@ -39,14 +39,6 @@ export default {
     };
   },
   async mounted() {
-    let that = this;
-    setTimeout(()=>{
-      let { history, iCursor, cursor, $store } = that;
-      console.debug(`ebt-history.mounted()`, cursor);
-      if (cursor) {
-        $store.dispatch('ebt/loadSutta', cursor);
-      }
-    }, 500);
   },
   methods:{
     async clickCursor(cursor) {
@@ -55,12 +47,6 @@ export default {
         let updateHistory = false;
         if (sutta_uid !== sutta.sutta_uid) {
             await $store.dispatch('ebt/loadSutta', {sutta_uid, lang, updateHistory});
-        }
-        let elt = document.getElementById(cursor.scid);
-        if (elt) {
-          elt.scrollIntoView({block: "center"});
-        } else {
-          console.warn(`clickCursor() not found: ${cursor.scid}`);
         }
     },
     pickItem(evt) {
