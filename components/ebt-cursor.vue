@@ -104,7 +104,7 @@ export default {
       playToEnd: false,
       playTime: null,
       clock: null,
-      _audioContext: null,
+      theAudioContext: null,
       patNoAudio: PAT_NOAUDIO,
       reNoAudio: new RegExp(PAT_NOAUDIO.join('|')),
     };
@@ -290,7 +290,7 @@ export default {
       }
     },
     async clickPlayPause() {
-      let { audioStarted, playPauseIcon, $refs } = this;
+      let { audioStarted, playPauseIcon, $refs, audioContext } = this;
       let playPause = $refs['ebt-play-pause'];
       playPause && playPause.$el.focus && playPause.$el.focus();
       if (audioStarted) {
@@ -439,10 +439,10 @@ export default {
   },
   computed: {
     audioContext() {
-      let ac = this._audioContext;
+      let ac = this.theAudioContext;
       if (ac == null) {
         ac = new AudioContext();
-        Vue.set(this, "_audioContext", ac);
+        Vue.set(this, "theAudioContext", ac);
       }
       return ac;
     },

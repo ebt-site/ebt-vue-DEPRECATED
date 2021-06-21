@@ -21,11 +21,12 @@ const DEFAULT = {
 }
 
 export const state = () => ({
+    processing: null,
     search: '',
     searchResults: {},
     searchError: null,
     settings: Object.assign({}, new Settings()),
-    sutta: DEFAULT.sutta,
+    sutta: null,
     examples,
     voices: [],
 })
@@ -45,8 +46,7 @@ export const mutations = {
             console.log(`$store.state.ebt.pinSutta()`, history);
         }
     },
-    selectSegment(state, value) {
-        let scid = value;
+    selectSegment(state, scid) {
         if (scid == null) {
             console.warn(`$store.state.ebt.selectSegment scid:${scid}`);
             return;
@@ -110,13 +110,26 @@ export const mutations = {
             cursor.lang = lang;
             settings.iCursor = iCursor;
         }
-        Object.assign(state.sutta, DEFAULT.sutta, sutta);
+        state.sutta = sutta;
         console.debug(`$store.state.ebt.sutta:`, {sutta, settings});
+    },
+    processing(state, value) {
+        if (value) {
+            state.processing = {
+                value,
+                started: new Date(),
+            };
+            console.log(`$store.state.ebt.processing`, state.processing);
+        } else {
+            let elapsed = state.processing && state.processing.value || 0;
+            console.log(`$store.state.ebt.processing elapsed:${elapsed}`);
+            state.processing = null;
+        }
     },
     suttaRef(state, value) {
         let { settings } = state;
         let { sutta_uid, lang, updateHistory=true } = value;
-        Object.assign(state.sutta, DEFAULT.sutta, {sutta_uid, lang});
+        Object.assign(state.sutta, {sutta_uid, lang});
         if (updateHistory) {
             let { history } = settings;
             let iCursor = history.findIndex(h=>h.sutta_uid===sutta_uid && h.lang===lang);
@@ -174,9 +187,12 @@ export const actions = {
     async loadSutta (context, payload) {
         let settings = context.state.settings;
         let { sutta_uid, lang=settings.lang, updateHistory } = payload;
-        await context.commit('suttaRef', {sutta_uid, lang, updateHistory});
+        let msg = this.$t('loadingSutta')
+            .replace(/A_SUTTA/, `${sutta_uid}/${lang}`);
+        context.commit('processing', msg);
         bilaraWeb = bilaraWeb || new BilaraWeb({fetch});
         let sutta = await bilaraWeb.loadSutta({sutta_uid, lang});
+        context.commit('processing', null);
         if (sutta == null) {
             console.log(`$store.state.ebt.loadSutta(${sutta_uid}/${lang})`,
                 `substituting ${sutta_uid}/en`);
@@ -192,15 +208,16 @@ export const actions = {
         if (path.startsWith('/sutta')) {
             let { search } = query;
             let translator = sutta.translator;
-            context.commit('sutta', sutta);
+            await context.commit('sutta', sutta);
+            await context.commit('suttaRef', {sutta_uid, lang, updateHistory});
             let cursor = settings.history[settings.iCursor];
             let scid = payload.scid || 
                 cursor.sutta_uid===payload.sutta_uid && cursor.scid;
             let segnum = scid.split(':').pop();
-            context.commit('selectSegment', scid);
-            console.log(`$store.state.ebt.loadSutta()`, payload);
             Vue.nextTick(()=>{
+                console.log(`$store.state.ebt.loadSutta()`, payload);
                 $nuxt.$emit('ebt-load-sutta', Object.assign({}, payload, {scid}));
+                context.commit('selectSegment', scid);
             });
         } else {
             console.error(`$store.state.ebt.loadSutta UNEXPECTED path:${path}`);

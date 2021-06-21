@@ -21,7 +21,7 @@ export default (context, inject) => {
         } else {
             key = `$vuetify.ebt.${key}`;
         }
-      return $vuetify && $vuetify.lang.t(key) || `$vuetify.lang.t(${key})`;
+        return $vuetify && $vuetify.lang.t(key) || `$vuetify.lang.t(${key})`;
     }
     console.debug(`ebt-client: injecting $t`);
     inject('t', $t);

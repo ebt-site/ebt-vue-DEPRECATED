@@ -45,9 +45,8 @@ export default {
         let { sutta, history, $store } = this;
         let { sutta_uid, lang } = cursor;
         let updateHistory = false;
-        if (sutta_uid !== sutta.sutta_uid) {
-            await $store.dispatch('ebt/loadSutta', {sutta_uid, lang, updateHistory});
-        }
+        console.log(`ebt-history.clickCursor cursor:`, cursor);
+        await $store.dispatch('ebt/loadSutta', cursor);
     },
     pickItem(evt) {
       let { label } = evt;

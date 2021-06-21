@@ -1,50 +1,51 @@
 <template>
-  <div v-if="sutta && sutta.sutta_uid" class="ebt-sutta" >
-    <header class="ebt-header-class">
-      <div class="ebt-sutta-id">
-        {{current.sutta_uid}}/{{current.lang}}
-        <v-icon v-if="isPinnedSutta" 
-          @click="onPin()"
-          :title="pinDate"
-          :class="pinClass"
-        >{{mdiPin}}</v-icon>
-        <v-icon v-if="!isPinnedSutta"
-            :title="pinDate"
+  <div>
+    <div v-if="sutta && sutta.sutta_uid" class="ebt-sutta" >
+      <header class="ebt-header-class">
+        <div class="ebt-sutta-id">
+          {{current.sutta_uid}}/{{current.lang}}
+          <v-icon v-if="isPinnedSutta" 
             @click="onPin()"
-            class="ebt-unpinned-sutta">
-            {{mdiPinOutline}}
-        </v-icon>
-        <v-icon :class="linkClass"
-          :title="linkUrl"
-          @click="onLink()"
-        >{{mdiLink}}</v-icon>
-      </div>
-      <div class="ebt-author" v-if="author">
-        {{$t('translatedBy')}} {{author.name}}
-      </div>
-    </header>
-    <div class="ebt-text-container" @click="textClicked($event)">
-      <div v-for="seg in segments" :key="seg.scid" 
-        :ref="seg.scid"
-        :id="seg.scid"
-        :title="seg.scid"
-        @click="clickSegment(seg.scid)"
-        @copy="clickCopy(seg)"
-        :class="segmentClass(seg)">
-        <div v-if="settings.showId" class="ebt-scid">{{seg.scid}}</div>
-        <div v-if="settings.showPali" v-html="seg.pli" class="ebt-text-root"/>
-        <div v-if="settings.showTrans" v-html="seg[sutta.lang]" class="ebt-text-trans"/>
-        <v-btn v-if="seg.scid === cursor.scid"
-          icon class=""
-          @click="clickCopy(seg)"
-        >
-          <v-icon >{{mdiContentCopy}}</v-icon>
-        </v-btn>
-      </div>
-    </div><!-- ebt-text-container -->
-    <footer class="ebt-footer">
-        <ebt-tipitaka :js="js" />
-    </footer>
+            :title="pinDate"
+            :class="pinClass"
+          >{{mdiPin}}</v-icon>
+          <v-icon v-if="!isPinnedSutta"
+              :title="pinDate"
+              @click="onPin()"
+              class="ebt-unpinned-sutta">
+              {{mdiPinOutline}}
+          </v-icon>
+          <v-icon :class="linkClass"
+            :title="linkUrl"
+            @click="onLink()"
+          >{{mdiLink}}</v-icon>
+        </div>
+        <div class="ebt-author" v-if="author">
+          {{$t('translatedBy')}} {{author.name}}
+        </div>
+      </header>
+      <div class="ebt-text-container" @click="textClicked($event)">
+        <div v-for="seg in segments" :key="seg.scid" v-if="seg"
+          :id="seg.scid"
+          :title="seg.scid"
+          @click="clickSegment(seg.scid)"
+          @copy="clickCopy(seg)"
+          :class="segmentClass(seg)">
+          <div v-if="settings.showId" class="ebt-scid">{{seg.scid}}</div>
+          <div v-if="settings.showPali" v-html="seg.pli" class="ebt-text-root"/>
+          <div v-if="settings.showTrans" v-html="seg[sutta.lang]" class="ebt-text-trans"/>
+          <v-btn v-if="cursor && cursor.scid === seg.scid"
+            icon class=""
+            @click="clickCopy(seg)"
+          >
+            <v-icon >{{mdiContentCopy}}</v-icon>
+          </v-btn>
+        </div>
+      </div><!-- ebt-text-container -->
+      <footer class="ebt-footer">
+          <ebt-tipitaka :js="js" />
+      </footer>
+    </div>
   </div>
 </template>
 
@@ -87,9 +88,7 @@ export default {
     this.bilaraWeb = new this.js.BilaraWeb({fetch});
     let that = this;
     this.$nuxt.$on('ebt-segment-selected', (cursor={})=>{
-        setTimeout(()=>{
-            that.$nextTick(()=>that.scrollToCursor(cursor));
-        }, 500); // HACK: without this, scrolling may not happen
+      that.$nextTick(()=>that.scrollToCursor(cursor));
     });
     let { $route, cursor, $store } = this;
     let hc = $route.hash.substring(1).split(':');
@@ -103,7 +102,6 @@ export default {
       console.log('ebt-sutta.mounted() hash cursor:', hashCursor);
       this.$nextTick(()=>{
         $store.dispatch('ebt/loadSutta', hashCursor);
-        that.clickSegment(scid);
       });
     } else if (cursor) {
       console.log(`ebt-sutta.mounted() history cursor:`, cursor);
@@ -136,14 +134,14 @@ export default {
     },
     scrollToCursor(cursor) {
       if (!cursor) { return; }
+      let that = this;
 
-      let { $refs } = this;
-      this.$nextTick(()=>{
+      setTimeout(()=>{ that.$nextTick(()=>{
         let { scid } = cursor;
         if (scid) {
-          let elt = $refs[scid];
-          elt = elt instanceof Array ? elt[0] : elt;
-          elt = elt && elt.$el || elt;
+          let ePlay = document.getElementById('ebt-play-pause');
+          ePlay && ePlay.focus && ePlay.focus();
+          let elt = document.getElementById(scid);
           if (elt) {
             console.debug(`ebt-sutta.scrollToCursor scid:${scid} elt:`, elt); 
             elt.scrollIntoView({
@@ -151,20 +149,21 @@ export default {
                 behavior: "smooth",
             });
           } else {
-            console.debug(`ebt-sutta.scrollToCursor scid:${scid} elt?`, elt); 
+            console.debug(`ebt-sutta.scrollToCursor scid:${scid} elt?`); 
           }
-          let ePlay = document.getElementById('ebt-play-pause');
-          ePlay && ePlay.focus && ePlay.focus();
         } else {
           console.debug(`ebt-sutta.scrollToCursor scid:${scid} (ignored)`);
         }
-      });
+      })}, 250);
     },
     clickCopy(seg) {
       let { sutta, settings } = this;
       let { showId, showPali, showTrans } = settings;
+      let { sutta_uid, lang, translator } = sutta;
       let scid = seg.scid.toUpperCase();
-      let url = `https://suttacentral.net/${sutta.sutta_uid}`;
+      let urlSC = `https://suttacentral.net/`+
+        `${sutta_uid}/${lang}/${translator}#${seg.scid}`;
+      let url = window.location.href; // prefer EBT-site for segment highlighting
       let MARKDOWN_EOL = "\n  ";
       let text = '';
       let multiline = showTrans && showPali;
@@ -187,8 +186,8 @@ export default {
       }
       text += MARKDOWN_EOL;
       navigator.clipboard.writeText(text);
-      console.log(`copied`, text);
-      alert(text);
+      console.debug(`copied`, text);
+      this.$nextTick(()=>alert(text));
     },
     clickSegment(scid) {
       let { $store } = this;

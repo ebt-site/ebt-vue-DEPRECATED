@@ -20,6 +20,9 @@
     <div class="site-main">
       <v-container class="site-content">
         <nuxt />
+        <v-alert color="deep-orange darken-4" dark v-if="processing" >
+            <v-icon>{{mdiFileClock}}</v-icon> {{processing.value}}
+        </v-alert>
       </v-container>
     </div>
   </v-app>
@@ -36,6 +39,7 @@ const JS = {
 import {
   mdiMenu,
   mdiGithub,
+  mdiFileClock,
 } from "@mdi/js";
 let {
   EbtAppBar,
@@ -52,6 +56,7 @@ export default {
       clipped: false,
       mdiMenu,
       mdiGithub,
+      mdiFileClock,
     }
   },
   methods: {
@@ -62,6 +67,10 @@ export default {
     },
     version() {
       return version;
+    },
+    processing() {
+        let { $store } = this;
+        return $store && $store.state.ebt.processing;
     },
     ebtLang() {
         return this.$nuxt.context.env.ebt_lang;
