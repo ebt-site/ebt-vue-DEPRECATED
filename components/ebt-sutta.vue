@@ -154,7 +154,7 @@ export default {
         } else {
           console.debug(`ebt-sutta.scrollToCursor scid:${scid} (ignored)`);
         }
-      })}, 250);
+      })}, 500);
     },
     clickCopy(seg) {
       let { sutta, settings } = this;
