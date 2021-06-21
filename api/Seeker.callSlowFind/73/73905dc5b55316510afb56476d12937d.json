@@ -32,7 +32,7 @@
     "pattern": "vor langer zeit getan oder gesagt",
     "method": "phrase",
     "resultPattern": "\\bvor langer zeit getan oder gesagt",
-    "segsMatched": 6,
+    "segsMatched": 7,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an7/an7.67_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an7/an7.67_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an7/an7.67_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an7/an7.4_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an7/an7.4_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an7/an7.4_translation-en-sujato.json",
@@ -53,6 +56,7 @@
     "suttaRefs": [
       "dn34/de/sabbamitta",
       "dn33/de/sabbamitta",
+      "an7.67/de/sabbamitta",
       "an7.4/de/sabbamitta",
       "an5.14/de/sabbamitta",
       "an4.35/de/sabbamitta"
@@ -191,6 +195,38 @@
           "pli": 55,
           "de": 54,
           "en": 54
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an7/an7.67_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an7/an7.67_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an7/an7.67_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an7.67",
+        "lang": "de",
+        "segMap": {
+          "an7.67:19.2": {
+            "scid": "an7.67:19.2",
+            "pli": "Evamevaṁ kho, bhikkhave, ariyasāvako satimā hoti paramena satinepakkena samannāgato cirakatampi cirabhāsitampi saritā anussaritā. ",
+            "de": "ebenso ist eine edle Schülerin achtsam. Sie besitzt äußerste Achtsamkeit und Wachheit, und an Dinge, die <span class=\"ebt-matched\">vor langer Zeit getan oder gesagt</span> wurden, kann sie sich erinnern und sie sich ins Gedächtnis rufen. ",
+            "en": "in the same way a noble disciple is mindful. They have utmost mindfulness and alertness, and can remember and recall what was said and done long ago. ",
+            "matched": true
+          }
+        },
+        "score": 1.01,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 7\n7. Das große Kapitel\n67. Das Gleichnis von der Festungsstadt",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 97,
+          "de": 95,
+          "en": 96
         }
       },
       {

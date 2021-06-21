@@ -32,7 +32,7 @@
     "pattern": "vom entstehen und vergehen",
     "method": "phrase",
     "resultPattern": "\\bvom entstehen und vergehen",
-    "segsMatched": 16,
+    "segsMatched": 17,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
@@ -52,6 +52,9 @@
       "root/pli/ms/sutta/an/an7/an7.6_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an7/an7.6_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an7/an7.6_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an7/an7.67_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an7/an7.67_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an7/an7.67_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an7/an7.4_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an7/an7.4_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an7/an7.4_translation-en-sujato.json",
@@ -78,6 +81,7 @@
       "an5.135/de/sabbamitta",
       "an9.1/de/sabbamitta",
       "an7.6/de/sabbamitta",
+      "an7.67/de/sabbamitta",
       "an7.4/de/sabbamitta",
       "an5.53/de/sabbamitta",
       "an5.47/de/sabbamitta",
@@ -496,6 +500,38 @@
           "pli": 42,
           "de": 40,
           "en": 41
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an7/an7.67_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an7/an7.67_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an7/an7.67_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an7.67",
+        "lang": "de",
+        "segMap": {
+          "an7.67:20.2": {
+            "scid": "an7.67:20.2",
+            "pli": "Evamevaṁ kho, bhikkhave, ariyasāvako paññavā hoti udayatthagāminiyā paññāya samannāgato ariyāya nibbedhikāya sammā dukkhakkhayagāminiyā. ",
+            "de": "ebenso ist eine edle Schülerin weise. Sie besitzt das Wissen <span class=\"ebt-matched\">vom Entstehen und Vergehen</span>, das edel und durchdringend ist und zum völligen Beenden des Leidens führt. ",
+            "en": "in the same way a noble disciple is wise. They have the wisdom of arising and passing away which is noble, penetrative, and leads to the complete ending of suffering. ",
+            "matched": true
+          }
+        },
+        "score": 1.01,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 7\n7. Das große Kapitel\n67. Das Gleichnis von der Festungsstadt",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 97,
+          "de": 95,
+          "en": 96
         }
       }
     ]

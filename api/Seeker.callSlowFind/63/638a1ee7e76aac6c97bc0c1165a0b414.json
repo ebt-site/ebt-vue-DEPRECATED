@@ -32,7 +32,7 @@
     "pattern": "von all diesen dingen befreit",
     "method": "phrase",
     "resultPattern": "\\bvon all diesen dingen befreit",
-    "segsMatched": 6,
+    "segsMatched": 8,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an10/an10.109_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.109_translation-de-sabbamitta.json",
@@ -42,12 +42,20 @@
       "translation/en/sujato/sutta/an/an10/an10.108_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.107_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.107_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an10/an10.107_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an10/an10.107_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn45/sn45.3_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn45/sn45.3_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn45/sn45.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn45/sn45.2_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn45/sn45.2_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn45/sn45.2_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an10.109/de/sabbamitta",
       "an10.108/de/sabbamitta",
-      "an10.107/de/sabbamitta"
+      "an10.107/de/sabbamitta",
+      "sn45.3/de/sabbamitta",
+      "sn45.2/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -165,6 +173,70 @@
           "pli": 28,
           "de": 27,
           "en": 27
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn45/sn45.3_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn45/sn45.3_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn45/sn45.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn45.3",
+        "lang": "de",
+        "segMap": {
+          "sn45.3:4.2": {
+            "scid": "sn45.3:4.2",
+            "pli": "Mamañhi, sāriputta, kalyāṇamittaṁ āgamma jātidhammā sattā jātiyā parimuccanti; jarādhammā sattā jarāya parimuccanti; maraṇadhammā sattā maraṇena parimuccanti; sokaparidevadukkhadomanassupāyāsadhammā sattā sokaparidevadukkhadomanassupāyāsehi parimuccanti. ",
+            "de": "Denn indem sie sich auf mich als guten Freund stützen, werden Lebewesen, die wiedergeboren werden, alt werden und sterben müssen, die Kummer, Klage, Schmerz, Traurigkeit und Bedrängnis erfahren müssen, <span class=\"ebt-matched\">von all diesen Dingen befreit</span>. ",
+            "en": "For, by relying on me as a good friend, sentient beings who are liable to rebirth, old age, and death, to sorrow, lamentation, pain, sadness, and distress are freed from all these things. ",
+            "matched": true
+          }
+        },
+        "score": 1.063,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 45\n1. Unwissenheit\n3. Sāriputta",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 16,
+          "de": 15,
+          "en": 15
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn45/sn45.2_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn45/sn45.2_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn45/sn45.2_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn45.2",
+        "lang": "de",
+        "segMap": {
+          "sn45.2:4.2": {
+            "scid": "sn45.2:4.2",
+            "pli": "Mamañhi, ānanda, kalyāṇamittaṁ āgamma jātidhammā sattā jātiyā parimuccanti; jarādhammā sattā jarāya parimuccanti; maraṇadhammā sattā maraṇena parimuccanti; sokaparidevadukkhadomanassupāyāsadhammā sattā sokaparidevadukkhadomanassupāyāsehi parimuccanti. ",
+            "de": "Denn indem sie sich auf mich als guten Freund stützen, werden Lebewesen, die wiedergeboren werden, alt werden und sterben müssen, die Kummer, Klage, Schmerz, Traurigkeit und Bedrängnis erfahren müssen, <span class=\"ebt-matched\">von all diesen Dingen befreit</span>. ",
+            "en": "For, by relying on me as a good friend, sentient beings who are liable to rebirth, old age, and death, to sorrow, lamentation, pain, sadness, and distress are freed from all these things. ",
+            "matched": true
+          }
+        },
+        "score": 1.042,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 45\n1. Unwissenheit\n2. Das halbe geistliche Leben",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 24,
+          "de": 23,
+          "en": 23
         }
       }
     ]
