@@ -3,7 +3,7 @@
   "volume": "Seeker.callSlowFind",
   "args": [
     {
-      "pattern": "sweat of the brow",
+      "pattern": "sweat of the.* brow",
       "showMatchesOnly": true,
       "languages": [
         "pli",
@@ -28,10 +28,10 @@
     "minLang": 2,
     "maxDoc": 50,
     "maxResults": 1000,
-    "pattern": "sweat of the brow",
+    "pattern": "sweat of the.* brow",
     "method": "phrase",
-    "resultPattern": "\\bsweat of the brow",
-    "segsMatched": 8,
+    "resultPattern": "\\bsweat of the.* brow",
+    "segsMatched": 9,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an4/an4.61_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an4/an4.61_translation-en-sujato.json",
@@ -41,6 +41,8 @@
       "translation/en/sujato/sutta/an/an8/an8.55_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.54_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an8/an8.54_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an7/an7.64_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an7/an7.64_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.58_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an5/an5.58_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.41_root-pli-ms.json",
@@ -53,6 +55,7 @@
       "an8.76/en/sujato",
       "an8.55/en/sujato",
       "an8.54/en/sujato",
+      "an7.64/en/sujato",
       "an5.58/en/sujato",
       "an5.41/en/sujato",
       "an4.62/en/sujato"
@@ -265,6 +268,35 @@
         "langSegs": {
           "pli": 82,
           "en": 81
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an7/an7.64_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an7/an7.64_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an7.64",
+        "lang": "en",
+        "segMap": {
+          "an7.64:4.5": {
+            "scid": "an7.64:4.5",
+            "pli": "Kodhanassa, bhikkhave, purisapuggalassa kodhābhibhūtassa kodhaparetassa, yepissa te honti bhogā uṭṭhānavīriyādhigatā bāhābalaparicitā sedāvakkhittā dhammikā dhammaladdhā, tepi rājāno rājakosaṁ pavesenti kodhābhibhūtassa. ",
+            "en": "When a person is irritable, overcome and overwhelmed by anger, the rulers seize the legitimate wealth they’ve earned by their efforts, built up with their own hands, gathered by the <span class=\"ebt-matched\">sweat of their brow</span>. ",
+            "matched": true
+          }
+        },
+        "score": 1.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 7\n6. The Undeclared Points\n64. Irritable",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 128,
+          "en": 126
         }
       }
     ]
