@@ -995,6 +995,7 @@
     "suffering is dependently originated",
     "suffering of many",
     "support meditation",
+    "supreme penalty",
     "sustained by",
     "strive so that",
     "sweat of the.* brow",
