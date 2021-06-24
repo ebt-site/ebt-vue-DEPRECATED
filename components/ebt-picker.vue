@@ -233,12 +233,14 @@ export default {
 .ebt-picker > div {
   display: flex;
   flex-flow: row nowrap;
+  align-items: center;
   cursor: pointer;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
+  xpadding-top: 0.5em;
+  xpadding-bottom: 0.2em;
   padding-left: 0.2em;
   padding-right: 0.2em;
   font-variant: small-caps;
+  line-height: 1em;
 }
 .ebt-picker-item0 {
   opacity: 1;

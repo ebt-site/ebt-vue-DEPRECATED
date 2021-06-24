@@ -186,7 +186,13 @@ export const mutations = {
 export const actions = {
     async loadSutta (context, payload) {
         let settings = context.state.settings;
-        let { sutta_uid, lang=settings.lang, updateHistory } = payload;
+        let { 
+            sutta_uid, 
+            lang=settings.lang, 
+            updateHistory,
+        } = payload;
+        let { hash, query, path } = $nuxt.$route;
+
         let msg = this.$t('loadingSutta')
             .replace(/A_SUTTA/, `${sutta_uid}/${lang}`);
         context.commit('processing', msg);
@@ -204,7 +210,6 @@ export const actions = {
                 `=> not found`);
             return;
         }
-        let { hash, query, path } = $nuxt.$route;
         if (path.startsWith('/sutta')) {
             let { search } = query;
             let translator = sutta.translator;

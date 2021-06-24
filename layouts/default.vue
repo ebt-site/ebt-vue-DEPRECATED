@@ -20,11 +20,9 @@
     <div class="site-main">
       <v-container class="site-content">
         <nuxt />
-        <v-alert color="deep-orange darken-4" dark v-if="processing" >
-            <v-icon>{{mdiFileClock}}</v-icon> {{processing.value}}
-        </v-alert>
       </v-container>
     </div>
+    <ebt-processing />
   </v-app>
 </template>
 
@@ -42,12 +40,14 @@ import {
   mdiFileClock,
 } from "@mdi/js";
 let {
+  EbtProcessing,
   EbtAppBar,
   EbtCursor,
 } = EbtVue;
 
 export default {
   components: {
+    EbtProcessing,
     EbtCursor,
     EbtAppBar,
   },
@@ -92,6 +92,20 @@ export default {
 }
 </script>
 <style>
+.ebt-processing {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(0,0,0,0.1);
+  backdrop-filter: blur(1px);
+}
+.ebt-processing .v-alert {
+  max-width: 90%;
+}
 .test-main {
   margin-top: 5em;
   padding: 1em;
