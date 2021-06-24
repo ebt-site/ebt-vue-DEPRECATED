@@ -35,6 +35,7 @@ import Vue from 'vue';
 import {
   mdiCancel,
 } from "@mdi/js";
+const BilaraWeb = require('../src/bilara-web');
 
 export default {
   components: {
@@ -50,10 +51,16 @@ export default {
     };
   },
   async mounted() {
-    let { $vuetify, $store, $refs, js } = this;
+    let { $route, $vuetify, $store, $refs, js } = this;
+    let { 
+        sutta_uid, 
+        lang, 
+        translator, 
+        segnum, 
+        search = $route.query.search,
+    } = BilaraWeb.decodeHash(window.location.hash);
     this.$nextTick(()=>Vue.set(this, 'displayable', true));
     this.bilaraWeb = new js.BilaraWeb({fetch});
-    let { search } = this.$route.query;
     if (search) {
       let that = this;
       this.search = search;
@@ -62,11 +69,17 @@ export default {
       });
     }
     console.debug('ebt-search-field.mounted() route', this.$route);
+    let that = this;
     this.$nuxt.$on('ebt-load-example', payload => {
-        let { $el:refSearchAuto } = $refs['refSearchAuto'] || {};
-        refSearchAuto && refSearchAuto.scrollIntoView({
-            block: "center",
-        });
+        setTimeout(()=>{ that.$nextTick(()=>{
+            let { $el:refSearchAuto } = $refs['refSearchAuto'] || {};
+            if (refSearchAuto) {
+                console.log('ebt-search-field.mounted@ebt-load-example', refSearchAuto);
+                refSearchAuto.scrollIntoView({ block: "center", });
+            } else {
+                console.log('ebt-search-field.mounted@ebt-load-example (no element)');
+            }
+        })}, 500);
     });
   },
   methods:{

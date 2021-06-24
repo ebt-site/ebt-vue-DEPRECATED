@@ -28,7 +28,7 @@
         <div v-for="seg in segments" :key="seg.scid" v-if="seg"
           :id="seg.scid"
           :title="seg.scid"
-          @click="clickSegment(seg.scid)"
+          @click="clickSegment(seg.scid, $event)"
           @copy="clickCopy(seg)"
           :class="segmentClass(seg)">
           <div v-if="settings.showId" class="ebt-scid">{{seg.scid}}</div>
@@ -60,6 +60,7 @@ import {
 import EbtHistory from './ebt-history'
 import EbtTipitaka from './ebt-tipitaka'
 import Vue from 'vue'
+const BilaraWeb = require('../src/bilara-web');
 
 const MS_MINUTE = 60*1000;
 const PINNED_MINUTES = 24*60;
@@ -91,9 +92,9 @@ export default {
       that.$nextTick(()=>that.scrollToCursor(cursor));
     });
     let { $route, cursor, $store } = this;
-    let hc = $route.hash.substring(1).split(':');
-    let [ sutta_uid, lang, translator ] = hc[0].split('/') || hc;
-    let segnum = hc[1];
+    let { 
+      sutta_uid, lang, translator, segnum, search 
+    } = BilaraWeb.decodeHash($route.hash);
 
     if (segnum) {
       let scid = `${sutta_uid}:${segnum}`;
@@ -105,7 +106,8 @@ export default {
       });
     } else if (cursor) {
       console.log(`ebt-sutta.mounted() history cursor:`, cursor);
-      $store.dispatch('ebt/loadSutta', cursor);
+      let payload = Object.assign({selectSegment: true}, cursor);
+      $store.dispatch('ebt/loadSutta', payload);
     } else if (sutta_uid) {
       console.log(`ebt-sutta.mounted() sutta_uid:`, sutta_uid);
       $store.dispatch('ebt/loadSutta', {sutta_uid, lang, translator});
@@ -189,9 +191,10 @@ export default {
       console.debug(`copied`, text);
       this.$nextTick(()=>alert(text));
     },
-    clickSegment(scid) {
+    clickSegment(scid, event) {
       let { $store } = this;
-      $store.commit('ebt/selectSegment', scid);
+      let selectSegment = event.target.className !== 'ebt-matched';
+      selectSegment && $store.commit('ebt/selectSegment', scid);
     },
     title(n) {
         return this.titles[n] || {};

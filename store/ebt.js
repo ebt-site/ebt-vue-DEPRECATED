@@ -87,7 +87,14 @@ export const mutations = {
         }
 
         let segnum = scid.split(':').pop();
-        window.location.hash = `#${sutta_uid}/${lang}/${translator}:${segnum}`;
+        let { search } = BilaraWeb.decodeHash(window.location.hash);;
+        window.location.hash = BilaraWeb.encodeHash({
+            sutta_uid,
+            lang,
+            translator,
+            segnum,
+            search,
+        });
         Vue.nextTick(()=>{
             console.debug(`$store.state.ebt.selectSegment`,
                 `=> ebt-segment-selected({${scid}})` );
@@ -156,6 +163,16 @@ export const mutations = {
             console.debug(`$store.state.ebt.search:`, value);
             state.search = value;
         }
+        let { 
+            sutta_uid, lang, translator, segnum, search 
+        } = BilaraWeb.decodeHash(window.location.hash);
+        if (search !== value) {
+            search = value;
+            window.location.hash = BilaraWeb.encodeHash({
+                sutta_uid, lang, translator, segnum, search, 
+            });
+            $nuxt.$emit('ebt-search', search);
+        }
     },
     searchResults(state, value) {
         state.searchResults = value;
@@ -186,12 +203,13 @@ export const mutations = {
 export const actions = {
     async loadSutta (context, payload) {
         let settings = context.state.settings;
+        let { hash, query, path } = $nuxt.$route;
         let { 
             sutta_uid, 
             lang=settings.lang, 
             updateHistory,
+            selectSegment=hash && hash.length>1,
         } = payload;
-        let { hash, query, path } = $nuxt.$route;
 
         let msg = this.$t('loadingSutta')
             .replace(/A_SUTTA/, `${sutta_uid}/${lang}`);
@@ -211,7 +229,6 @@ export const actions = {
             return;
         }
         if (path.startsWith('/sutta')) {
-            let { search } = query;
             let translator = sutta.translator;
             await context.commit('sutta', sutta);
             await context.commit('suttaRef', {sutta_uid, lang, updateHistory});
@@ -222,7 +239,7 @@ export const actions = {
             Vue.nextTick(()=>{
                 console.log(`$store.state.ebt.loadSutta()`, payload);
                 $nuxt.$emit('ebt-load-sutta', Object.assign({}, payload, {scid}));
-                context.commit('selectSegment', scid);
+                selectSegment && context.commit('selectSegment', scid);
             });
         } else {
             console.error(`$store.state.ebt.loadSutta UNEXPECTED path:${path}`);
@@ -230,6 +247,7 @@ export const actions = {
     },
     async loadExample ({commit, state}, payload) {
         let { pattern, lang=state.settings.lang } = payload;
+        window.location.hash = '';
         bilaraWeb = bilaraWeb || new BilaraWeb({fetch});
         let value = pattern && await bilaraWeb.find({ pattern, lang, });
         if (value) {

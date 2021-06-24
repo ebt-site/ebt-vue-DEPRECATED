@@ -31,6 +31,63 @@
         should(bw.examples).equal(examples);
         should(bw.fetch).equal(fetch);
     });
+    it("TESTTESTdecodeHash() => hash object", ()=>{
+        should.deepEqual(BilaraWeb.decodeHash(
+            '#mn1/en/sujato:1.2?search=root%20of%20suffering'), {
+            sutta_uid: 'mn1',
+            lang: 'en',
+            translator: 'sujato',
+            segnum: '1.2',
+            search: 'root of suffering',
+        });
+        should.deepEqual(BilaraWeb.decodeHash(
+            '#?search=root%20of%20suffering'), {
+            search: 'root of suffering',
+        });
+        should.deepEqual(BilaraWeb.decodeHash('#mn1/en/sujato:1.2'), {
+            sutta_uid: 'mn1',
+            lang: 'en',
+            translator: 'sujato',
+            segnum: '1.2',
+        });
+        should.deepEqual(BilaraWeb.decodeHash('#mn1/en/sujato'), {
+            sutta_uid: 'mn1',
+            lang: 'en',
+            translator: 'sujato',
+        });
+        should.deepEqual(BilaraWeb.decodeHash('#mn1/en:1.2'), {
+            sutta_uid: 'mn1',
+            lang: 'en',
+            segnum: '1.2',
+        });
+        should.deepEqual(BilaraWeb.decodeHash('#mn1/en'), {
+            sutta_uid: 'mn1',
+            lang: 'en',
+        });
+        should.deepEqual(BilaraWeb.decodeHash('#mn1:1.2'), {
+            sutta_uid: 'mn1',
+            segnum: '1.2',
+        });
+        should.deepEqual(BilaraWeb.decodeHash('#mn1'), {
+            sutta_uid: 'mn1',
+        });
+        should.deepEqual(BilaraWeb.decodeHash(), {});
+    });
+    it("TESTTESTencodeHash(...) => URL hash", ()=>{
+        let sutta_uid = 'mn1';
+        let lang = 'de';
+        let translator = 'sabbamitta';
+        let segnum = '1.2';
+        let search = 'root of suffering';
+        should(BilaraWeb.encodeHash({sutta_uid, lang, translator, segnum, search}))
+            .equal('#mn1/de/sabbamitta:1.2?search=root+of+suffering');
+        should(BilaraWeb.encodeHash({search}))    // only search
+            .equal('#?search=root+of+suffering'); // only full sutta segment reference
+        should(BilaraWeb.encodeHash({sutta_uid, lang, translator, segnum}))
+            .equal('#mn1/de/sabbamitta:1.2');     // only short sutta segment reference
+        should(BilaraWeb.encodeHash({sutta_uid, segnum}))
+            .equal('#mn1:1.2');
+    });
     it("isExample", async()=>{
         var bw = new BilaraWeb({
             fetch,

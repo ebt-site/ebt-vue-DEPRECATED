@@ -92,20 +92,6 @@ export default {
 }
 </script>
 <style>
-.ebt-processing {
-  position: fixed;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
-  background: rgb(0,0,0,0.1);
-  backdrop-filter: blur(1px);
-}
-.ebt-processing .v-alert {
-  max-width: 90%;
-}
 .test-main {
   margin-top: 5em;
   padding: 1em;

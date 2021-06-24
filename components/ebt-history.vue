@@ -46,7 +46,8 @@ export default {
         let { sutta_uid, lang } = cursor;
         let updateHistory = false;
         console.log(`ebt-history.clickCursor cursor:`, cursor);
-        await $store.dispatch('ebt/loadSutta', cursor);
+        let payload = Object.assign({selectSegment:true}, cursor);
+        await $store.dispatch('ebt/loadSutta', payload);
     },
     pickItem(evt) {
       let { label } = evt;
@@ -58,7 +59,7 @@ export default {
         retrn;
       } 
       console.log(`ebt-history.pickItem()`, {sutta_uid, lang});
-      $store.dispatch('ebt/loadSutta', {sutta_uid, lang});
+      $store.dispatch('ebt/loadSutta', {sutta_uid, lang, selectSegment:true});
     },
   },
   computed: {

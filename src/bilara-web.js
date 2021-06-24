@@ -35,6 +35,37 @@
                 matchHighlight.replace('$&', match)||match);
         }
 
+        static decodeHash(hash='') {
+            let hq = hash.substring(1).split('?');
+            let hqParms = hq[1] && new URLSearchParams(`?${hq[1]}`);
+            let search = hqParms && hqParms.get('search');
+            let hc = hq[0].split(':');
+            let [ sutta_uid, lang, translator ] = hc[0].split('/') || hc;
+            let segnum = hc[1];
+            let result = {};
+            sutta_uid && (result.sutta_uid = sutta_uid);
+            lang && (result.lang = lang);
+            translator && (result.translator = translator);
+            segnum && (result.segnum = segnum);
+            search && (result.search = search);
+
+            return result; 
+        }
+
+        static encodeHash({sutta_uid, lang, translator, segnum, search}) {
+            let hash = '#';
+            sutta_uid && (hash += sutta_uid);
+            lang && (hash += `/${lang}`);
+            translator && (hash += `/${translator}`);
+            segnum && (hash += `:${segnum}`);
+            if (search) {
+                let parms = new URLSearchParams();
+                parms.set('search', search);
+                hash += `?${parms.toString()}`;
+            }
+            return hash;
+        }
+
         static sanitizePattern(pattern) {
             if (!pattern) {
                 throw new Error("search pattern is required");
