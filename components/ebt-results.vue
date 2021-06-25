@@ -41,6 +41,9 @@
             </summary>
             <div class="ebt-result-text">
               <div v-for="seg in mld.segments.slice(0,displayMatches(mld))" 
+                class="ebt-result-item"
+                :title="seg.scid"
+                @click="clickResult(seg.scid, $event)"
                 :key="seg.scid" >
                 <div v-if="results.searchLang === 'pli'"
                   v-html="seg.pli" class="ebt-text-root"/>
@@ -49,7 +52,7 @@
               </div>
               <div class="ebt-result-icons">
                 <v-btn icon small fab 
-                  @click="clickResult(mld)"
+                  @click="clickResultSutta(mld)"
                   :title="$t('viewDocument')"
                   class="ebt-icon-btn" >
                   <v-icon>{{mdiLaunch}}</v-icon>
@@ -159,6 +162,7 @@ import {
 } from '@mdi/js'
 const {
   SuttaDuration,
+  BilaraWeb,
 } = require('../src/index');
 
 export default {
@@ -268,7 +272,14 @@ export default {
         ? this.durationDisplay(sd.duration(mld.sutta_uid))
         : 0;
     },
-    clickResult(mld) {
+    async clickResult(scid, event) {
+      let { sutta_uid, lang, translator } = BilaraWeb.decodeHash(`#${scid}`);
+      let selectSegment = true;
+      let payload = { sutta_uid, lang, translator, scid, selectSegment };
+      console.log(`ebt-results.clickResult`, payload);
+      this.$store.dispatch('ebt/loadSutta', payload);
+    },
+    clickResultSutta(mld) {
       let { sutta_uid, lang } = mld;
       this.$store.dispatch('ebt/loadSutta', {sutta_uid, lang});
     },
@@ -331,4 +342,11 @@ export default {
 }
 </script>
 <style>
+.ebt-result-item {
+  cursor: pointer;
+}
+.ebt-result-item:hover {
+  text-decoration: underline;
+  color: var(--ebt-focus-color-light);
+}
 </style>
