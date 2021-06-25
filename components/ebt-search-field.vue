@@ -22,6 +22,7 @@
       </audio>
     </div>
     <v-alert :value="!!searchError" color="deep-orange darken-4" 
+      dismissible
       type="info" :icon="mdiCancel">
       <a :href="altSearchUrl" target="_blank" >
         {{searchError}}

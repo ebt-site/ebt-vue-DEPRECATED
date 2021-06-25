@@ -256,6 +256,7 @@ export const actions = {
             });
             commit('searchResults', value);
             commit('search', pattern);
+            commit('searchError', null);
             $nuxt.$emit('ebt-load-example', payload);
         } else if (pattern) {
             let error = this.$t('notFound').replace('A_PATTERN', pattern);
