@@ -9,7 +9,7 @@
     <v-icon v-else class="ebt-nav-btn-disabled">{{mdiChevronLeft}}</v-icon>
 
     <div class="ebt-tipitaka-link">
-      <a :href="`https://suttacentral.net/${current.sutta_uid}`"
+      <a :href="suttaCentralUrl"
         tabIndex="-1"
         aria-visible=false
         target="_blank">{{current.sutta_uid}}&rarr;SuttaCentral</a>
@@ -31,6 +31,7 @@ import {
   mdiChevronLeft,
   mdiChevronRight,
 } from '@mdi/js';
+const BilaraWeb = require('../src/bilara-web');
 
 export default {
   components: {
@@ -43,12 +44,14 @@ export default {
       mdiChevronLeft,
       mdiChevronRight,
       tipitaka: null,
+      bilaraWeb: null,
     };
   },
   async mounted() {
     let { $el={}, js } = this;
     let tipitaka = new js.Tipitaka();
     Vue.set(this, 'tipitaka', tipitaka);
+    this.bilaraWeb = new BilaraWeb({fetch});
     this.$nuxt.$on('ebt-load-sutta', payload=>{
       if (typeof $el.scrollIntoView === 'function') {
         console.log(`ebt-tipitaka.mounted@ebt-load-sutta() scrollntoView`, $el);
@@ -76,18 +79,27 @@ export default {
         return tipitaka.previousSuid(sutta_uid);
     },
     current() {
-        return this.sutta;
+      return this.sutta;
     },
     settings() {
       return this.$store.state.ebt.settings;
     },
     next() {
-        let { tipitaka, sutta } = this;
-        let { sutta_uid, lang } = sutta;
-        return tipitaka.nextSuid(sutta_uid);
+      let { tipitaka, sutta } = this;
+      let { sutta_uid, lang } = sutta;
+      return tipitaka.nextSuid(sutta_uid);
     },
     sutta() {
-        return this.$store.state.ebt.sutta;
+      return this.$store.state.ebt.sutta;
+    },
+    suttaCentralUrl() {
+      let { sutta, bilaraWeb } = this;
+      let {
+        sutta_uid,
+        lang=sutta.lang||'en',
+        translator='sujato',
+      } = bilaraWeb.parseSuttaRef(sutta.sutta_uid);
+      return `https://suttacentral.net/${sutta_uid}/${lang}/${translator}`;
     },
   },
 }
