@@ -32,6 +32,14 @@
         should(bw.fetch).equal(fetch);
     });
     it("TESTTESTdecodeHash() => hash object", ()=>{
+        // vagga test: an2.31 is part of an2.27-31
+        should.deepEqual(BilaraWeb.decodeHash('#an2.31/en/sujato:1.2'), {
+            sutta_uid: 'an2.31',
+            lang: 'en',
+            translator: 'sujato',
+            segnum: '1.2',
+        });
+
         should.deepEqual(BilaraWeb.decodeHash(
             '#mn1/en/sujato:1.2?search=root%20of%20suffering'), {
             sutta_uid: 'mn1',
@@ -73,7 +81,7 @@
         });
         should.deepEqual(BilaraWeb.decodeHash(), {});
     });
-    it("TESTTESTencodeHash(...) => URL hash", ()=>{
+    it("encodeHash(...) => URL hash", ()=>{
         let sutta_uid = 'mn1';
         let lang = 'de';
         let translator = 'sabbamitta';
@@ -267,7 +275,7 @@
         let nosuid = await bw.loadSuttaSegments({lang:'nosuid'});
         should(nosuid).equal(undefined);
     });
-    it("loadSutta(...) returns sutta", async ()=>{
+    it("loadSutta(...) returns asn3.128", async ()=>{
         let bw = new BilaraWeb({fetch});
         let sutta_uid = 'an3.128';
         let lang = 'de';
@@ -290,6 +298,22 @@
             '13. Kusināra ',
             '128. Verdrießlich '
         ]);
+    });
+    it("TESTTESTloadSutta(...) returns an1.31:1.2 => an2.21-31", async ()=>{
+        let bw = new BilaraWeb({fetch});
+        let scid = 'an2.31/de/sabbamitta:1.8';
+        let parsed = bw.parseSuttaRef(scid);
+        let { sutta_uid, lang, translator } = parsed;
+        let sutta = await bw.loadSutta({sutta_uid, lang, translator});
+        should(sutta.sutta_uid).equal(sutta_uid);
+        should(sutta.lang).equal('de');
+        should(sutta.translator).equal('sabbamitta');
+        let segments = sutta.segments;
+        should.deepEqual(segments[59],{
+            scid: 'an2.31:1.2',
+            pli: 'Katame dve? ',
+            de: 'Welche beiden? ',
+        });
     });
     it("loadSutta(...) undefined", async ()=>{
         let bw = new BilaraWeb({fetch});
@@ -354,7 +378,7 @@
         let sutta = await bw.loadSutta({sutta_uid, lang});
         should(sutta).equal(undefined);
     });
-    it("TESTTESTparseSuttaRef() an2.32-41", ()=>{
+    it("parseSuttaRef() an2.32-41", ()=>{
         let bw = new BilaraWeb({fetch});
         let pattern = 'an 2.41/de';
         let lang = 'de';
@@ -365,7 +389,7 @@
             segnum: undefined,
         });
     });
-    it("TESTTESTparseSuttaRef() an2.32-41:1.2", ()=>{
+    it("parseSuttaRef() an2.32-41:1.2", ()=>{
         let bw = new BilaraWeb({fetch});
         let pattern = 'an 2.41/en/sujato:1.2';
         should.deepEqual(bw.parseSuttaRef(pattern), {

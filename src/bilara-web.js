@@ -372,7 +372,6 @@
         async loadSutta({sutta_uid, lang=this.lang}) { try {
             var url = '';
             let {
-                host,
                 suttaCache,
             } = this;
             let key = [sutta_uid, lang].join('/');

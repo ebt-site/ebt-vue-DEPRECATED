@@ -207,6 +207,7 @@ export const actions = {
         let { 
             sutta_uid, 
             lang=settings.lang, 
+            translator,
             updateHistory,
             selectSegment=hash && hash.length>1,
         } = payload;
@@ -215,7 +216,8 @@ export const actions = {
             .replace(/A_SUTTA/, `${sutta_uid}/${lang}`);
         context.commit('processing', msg);
         bilaraWeb = bilaraWeb || new BilaraWeb({fetch});
-        let sutta = await bilaraWeb.loadSutta({sutta_uid, lang});
+        let parsed = bilaraWeb.parseSuttaRef(sutta_uid, lang, translator);
+        let sutta = await bilaraWeb.loadSutta({sutta_uid:parsed.sutta_uid, lang});
         context.commit('processing', null);
         if (sutta == null) {
             console.log(`$store.state.ebt.loadSutta(${sutta_uid}/${lang})`,
