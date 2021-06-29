@@ -1,0 +1,79 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "fortziehen nicht vergeblich",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "fortziehen nicht vergeblich",
+    "method": "phrase",
+    "resultPattern": "\\bfortziehen nicht vergeblich",
+    "segsMatched": 1,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn12/sn12.22_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn12/sn12.22_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.22_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn12.22/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn12/sn12.22_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn12/sn12.22_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn12/sn12.22_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn12.22",
+        "lang": "de",
+        "segMap": {
+          "sn12.22:3.7": {
+            "scid": "sn12.22:3.7",
+            "pli": "‘Evaṁ no ayaṁ amhākaṁ pabbajjā avañjhā bhavissati saphalā saudrayā. ",
+            "de": "‚So wird unser <span class=\"ebt-matched\">Fortziehen nicht vergeblich</span> sein, sondern reich und fruchtbar. ",
+            "en": "‘In this way our going forth will not be wasted, but will be fruitful and fertile. ",
+            "matched": true
+          }
+        },
+        "score": 1.029,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 12\n3. Die zehn Kräfte\n22. Die zehn Kräfte (2)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 34,
+          "de": 33,
+          "en": 33
+        }
+      }
+    ]
+  }
+}
