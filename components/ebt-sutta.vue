@@ -235,7 +235,7 @@ export default {
       let { location } = window;
       let { origin, pathname } = location;
       let pathParts = pathname.split('/');
-      let url = `${origin}/${pathParts[1]}/suttas?search=${sutta.sutta_uid}`;
+      let url = `${origin}/${pathParts[1]}/suttas#${sutta.sutta_uid}`;
       return url;
     },
     titles() {
