@@ -32,7 +32,7 @@
     "pattern": "den besinnungstag ein",
     "method": "phrase",
     "resultPattern": "\\bden besinnungstag ein",
-    "segsMatched": 31,
+    "segsMatched": 32,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an3/an3.70_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.70_translation-de-sabbamitta.json",
@@ -48,14 +48,18 @@
       "translation/en/sujato/sutta/an/an3/an3.38_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn17_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn17_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn17_translation-en-sujato.json"
+      "translation/en/sujato/sutta/dn/dn17_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an7/an7.74_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an7/an7.74_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an7/an7.74_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an3.70/de/sabbamitta",
       "dn30/de/sabbamitta",
       "an3.37/de/sabbamitta",
       "an3.38/de/sabbamitta",
-      "dn17/de/sabbamitta"
+      "dn17/de/sabbamitta",
+      "an7.74/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -366,6 +370,38 @@
           "pli": 23,
           "de": 22,
           "en": 22
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an7/an7.74_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an7/an7.74_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an7/an7.74_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an7.74",
+        "lang": "de",
+        "segMap": {
+          "an7.74:11.1": {
+            "scid": "an7.74:11.1",
+            "pli": "Tatrime bhattantarāyā kapimiddhopi bhattaṁ na bhuñjati, dukkhitopi bhattaṁ na bhuñjati, byādhitopi bhattaṁ na bhuñjati, uposathikopi bhattaṁ na bhuñjati, alābhakenapi bhattaṁ na bhuñjati. ",
+            "de": "So wird eine Mahlzeit verhindert: Wenn man zornig ist, wenn man Schmerzen hat, wenn man krank ist, wenn man <span class=\"ebt-matched\">den Besinnungstag ein</span>hält oder wenn man nichts zu essen bekommt, isst man nichts. ",
+            "en": "Things that prevent you from eating include anger, pain, sickness, sabbath, or being unable to get food. ",
+            "matched": true
+          }
+        },
+        "score": 1.019,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 7\n7. Das große Kapitel\n74. Über Araka",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 54,
+          "de": 43,
+          "en": 52
         }
       },
       {

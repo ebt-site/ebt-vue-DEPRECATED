@@ -32,7 +32,7 @@
     "pattern": "leere.* hütten",
     "method": "phrase",
     "resultPattern": "\\bleere.* hütten",
-    "segsMatched": 6,
+    "segsMatched": 7,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn25_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn25_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/sn/sn47/sn47.10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn47/sn47.10_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn47/sn47.10_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an7/an7.74_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an7/an7.74_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an7/an7.74_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.74_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.74_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.74_translation-en-sujato.json",
@@ -53,6 +56,7 @@
     "suttaRefs": [
       "dn25/de/sabbamitta",
       "sn47.10/de/sabbamitta",
+      "an7.74/de/sabbamitta",
       "an5.74/de/sabbamitta",
       "an5.73/de/sabbamitta",
       "an10.48/de/sabbamitta"
@@ -191,6 +195,38 @@
           "pli": 27,
           "de": 26,
           "en": 26
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an7/an7.74_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an7/an7.74_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an7/an7.74_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an7.74",
+        "lang": "de",
+        "segMap": {
+          "an7.74:11.4": {
+            "scid": "an7.74:11.4",
+            "pli": "kataṁ vo taṁ mayā etāni, bhikkhave, rukkhamūlāni etāni suññāgārāni. Jhāyatha, bhikkhave, mā pamādattha; mā pacchā vippaṭisārino ahuvattha. Ayaṁ vo amhākaṁ anusāsanī”ti. ",
+            "de": "Hier sind Plätze am Fuß von Bäumen, und hier sind <span class=\"ebt-matched\">leere Hütten</span>. Übt die Vertiefungen, Mönche und Nonnen! Seid nicht nachlässig! Nicht, dass ihr es später bereut! Das ist meine Anweisung für euch.“ ",
+            "en": "Here are these roots of trees, and here are these empty huts. Practice absorption, mendicants! Don’t be negligent! Don’t regret it later! This is my instruction to you.” ",
+            "matched": true
+          }
+        },
+        "score": 1.019,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 7\n7. Das große Kapitel\n74. Über Araka",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 54,
+          "de": 43,
+          "en": 52
         }
       },
       {
