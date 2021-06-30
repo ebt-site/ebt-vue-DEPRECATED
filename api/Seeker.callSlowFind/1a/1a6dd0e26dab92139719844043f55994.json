@@ -1,0 +1,115 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "ordenssatzungen",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "ordenssatzungen",
+    "method": "phrase",
+    "resultPattern": "\\bordenssatzungen",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an7/an7.80_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an7/an7.80_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an7/an7.80_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an7/an7.76_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an7/an7.76_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an7/an7.76_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an7.80/de/sabbamitta",
+      "an7.76/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an7/an7.76_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an7/an7.76_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an7/an7.76_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an7.76",
+        "lang": "de",
+        "segMap": {
+          "an7.76:1.7": {
+            "scid": "an7.76:1.7",
+            "pli": "ubhayāni kho panassa pātimokkhāni vitthārena svāgatāni honti suvibhattāni suppavattīni suvinicchitāni suttaso anubyañjanaso, ",
+            "de": "Beide <span class=\"ebt-matched\">Ordenssatzungen</span> wurden ihr im Einzelnen weitergegeben, gut aufgegliedert, gut gemeistert, gut bewertet, sowohl was die Regeln als auch den begleitenden Text betrifft. ",
+            "en": "Both monastic codes have been passed down to them in detail, well analyzed, well mastered, well judged in both the rules and accompanying material. ",
+            "matched": true
+          }
+        },
+        "score": 1.071,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 7\n8. Die Ordenssatzung\n76. Eine Kennerin der Ordenssatzung (2)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 14,
+          "de": 13,
+          "en": 13
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an7/an7.80_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an7/an7.80_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an7/an7.80_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an7.80",
+        "lang": "de",
+        "segMap": {
+          "an7.80:1.7": {
+            "scid": "an7.80:1.7",
+            "pli": "ubhayāni kho panassa pātimokkhāni vitthārena svāgatāni honti suvibhattāni suppavattīni suvinicchitāni suttaso anubyañjanaso, ",
+            "de": "Beide <span class=\"ebt-matched\">Ordenssatzungen</span> wurden ihr im Einzelnen weitergegeben, gut aufgegliedert, gut gemeistert, gut bewertet, sowohl was die Regeln als auch den begleitenden Text betrifft. ",
+            "en": "Both monastic codes have been passed down to them in detail, well analyzed, well mastered, well judged in both the rules and accompanying material. ",
+            "matched": true
+          }
+        },
+        "score": 1.071,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 7\n8. Die Ordenssatzung\n80. Das Leuchten einer Kennerin der Ordenssatzung (2)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 14,
+          "de": 13,
+          "en": 13
+        }
+      }
+    ]
+  }
+}
