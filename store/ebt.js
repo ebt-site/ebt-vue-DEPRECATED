@@ -75,9 +75,9 @@ export const mutations = {
         let inWorkingMemory = minutes <= WORKING_MINUTES;
         cursor.scid = scid;
         if (inWorkingMemory) {
-            console.log(`$store.state.ebt.selectSegment scid =>`,  scid);
+            console.debug(`$store.state.ebt.selectSegment scid =>`,  scid);
         } else {
-            console.log(`$store.state.ebt.selectSegment add to working memory`, 
+            console.debug(`$store.state.ebt.selectSegment add to working memory`, 
                 {scid, minutes, cursor}); 
             cursor.date = new Date();
             history.sort((a,b)=>a.date-b.date);

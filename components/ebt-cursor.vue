@@ -4,6 +4,7 @@
       <v-btn icon 
         id="ebt-play-pause"
         ref="ebt-play-pause"
+        @keyup="keyup($event)"
         @click="clickPlayPause()"
         @touchstart="clickTouchStart()"
         @touchend="clickTouchEnd()"
@@ -127,6 +128,21 @@ export default {
     }, 1000);
   },
   methods:{
+    keyup(event) {
+      let { cursor, sutta } = this;
+      let segments = sutta && sutta.segments || [];
+      let iCursorSegment = segments.findIndex(s=>s.scid === cursor.scid);
+      if (event.code === 'ArrowDown') {
+        console.debug(`ebt-cursor.keyup() ArrowDown`, iCursorSegment);
+        iCursorSegment >= 0 && this.setSegment(iCursorSegment + 1);
+      } else if (event.code === 'ArrowUp') {
+        console.debug(`ebt-cursor.keyup() ArrowUp`);
+        iCursorSegment > 0 && this.setSegment(iCursorSegment - 1);
+      } else if (event.code === 'Enter') {
+        console.debug(`ebt-cursor.keyup() Enter`);
+        Vue.set(this, "playToEnd", true);
+      }
+    },
     async clickTouchStart() {
       let { audioContext } = this;
       
@@ -357,6 +373,26 @@ export default {
       Vue.set(this, "playPauseIcon", mdiAccountVoice);
       console.log(`ebt-cursor.clickPlay => done`);
     },
+    async setSegment(iSeg) {
+      let { sutta, cursor, $store, playToEnd } = this;
+      let segments = sutta && sutta.segments || [];
+      let newSeg = segments[iSeg];
+      let newScid = newSeg && newSeg.scid;
+      if (newScid) {
+        $store.commit('ebt/selectSegment', newScid);
+        let elt = document.getElementById(newScid);
+        if (elt) {
+          console.debug(`ebt-cursor.setSegment() scrollIntoView`,
+            `newScid:${newScid}`, elt);
+          elt.scrollIntoView({ block: "center", behavior: "smooth",});
+        } else {
+          console.debug(`ebt-cursor.setSegment newScid:${newScid}`);
+        }
+      } else {
+        console.debug(`ebt-cursor.setSegment newScid:${newScid}`);
+      } 
+      return newScid;
+    },
     async nextSegment() {
       let { audioScid, sutta, cursor, $store, playToEnd } = this;
       let segments = sutta && sutta.segments || [];
@@ -364,27 +400,12 @@ export default {
       let iCursorSegment = segments.findIndex(s=>s.scid === cursor.scid);
       if (iCursorSegment < 0 || iAudioSegment < 0) {
           console.log(`ebt-cursor.nextSegment => false`, 
-            {iAudioSegment, iCursorSegment});
+            {audioScid, iAudioSegment, iCursorSegment});
       }
       let iNextSeg = audioScid === cursor.scid
         ? iAudioSegment + 1
         : iCursorSegment;
-      let nextSeg = segments[iNextSeg];
-      let nextScid = nextSeg && nextSeg.scid;
-      if (nextScid) {
-        $store.commit('ebt/selectSegment', nextScid);
-        let elt = document.getElementById(nextScid);
-        if (elt) {
-          console.debug(`ebt-cursor.nextSegment() scrollIntoView`,
-            `nextScid:${nextScid}`, elt);
-          elt.scrollIntoView({ block: "center", behavior: "smooth",});
-        } else {
-          console.debug(`ebt-cursor.nextSegment nextScid:${nextScid}`);
-        }
-      } else {
-        console.debug(`ebt-cursor.nextSegment nextScid:${nextScid}`);
-      } 
-      return nextScid;
+      return this.setSegment(iNextSeg);
     },
     async playBell() {
       let { settings } = this;
