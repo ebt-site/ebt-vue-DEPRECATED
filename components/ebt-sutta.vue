@@ -33,8 +33,14 @@
           :class="segmentClass(seg)">
           <div v-if="settings.showId" class="ebt-scid">{{seg.scid}}</div>
           <div v-if="settings.showPali" v-html="seg.pli" class="ebt-text-root"/>
-          <div v-if="settings.showEnglish" v-html="seg.en" class="ebt-text-trans"/>
-          <div v-if="settings.showTrans" v-html="seg[sutta.lang]" class="ebt-text-trans"/>
+          <div v-if="!fullLine && settings.showTrans" 
+            v-html="seg[sutta.lang]" class="ebt-text-trans"/><!-- primary column -->
+          <div v-if="!fullLine && settings.showEnglish" 
+            v-html="seg.en" class="ebt-text-english"/>
+          <div v-if="fullLine && settings.showEnglish" 
+            v-html="seg.en" class="ebt-text-english"/>
+          <div v-if="fullLine && settings.showTrans" 
+            v-html="seg[sutta.lang]" class="ebt-text-trans"/><!-- primary line -->
           <v-btn v-if="cursor && cursor.scid === seg.scid"
             icon class=""
             @click="clickCopy(seg)"
@@ -87,7 +93,9 @@ export default {
     };
   },
   async mounted() {
-    this.bilaraWeb = new this.js.BilaraWeb({fetch});
+    let { settings } = this;
+    let { showEnglish } = settings;
+    this.bilaraWeb = new this.js.BilaraWeb({fetch, showEnglish});
     let that = this;
     this.$nuxt.$on('ebt-segment-selected', (cursor={})=>{
       that.$nextTick(()=>that.scrollToCursor(cursor));
@@ -231,6 +239,10 @@ export default {
     },
   },
   computed: {
+    fullLine() {
+      let { settings } = this;
+      return settings.fullLine;
+    },
     linkUrl() {
       let { sutta } = this;
       let { location } = window;

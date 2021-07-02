@@ -369,11 +369,9 @@
             };
         }
 
-        async loadSutta({sutta_uid, lang=this.lang}) { try {
+        async loadSutta({sutta_uid, lang=this.lang, showEnglish}) { try {
+            let { suttaCache, } = this;
             var url = '';
-            let {
-                suttaCache,
-            } = this;
             let key = [sutta_uid, lang].join('/');
             let sutta = suttaCache[key];
             if (sutta) {
@@ -392,6 +390,14 @@
             let translation = await this.loadSuttaSegments({sutta_uid, lang});
             if (translation == null) {
                 return undefined;
+            }
+            if (showEnglish) {
+                let english = await this.loadSuttaSegments({sutta_uid, lang:'en'});
+                let { segments:enSegs = [] } = english;
+                Object.keys(enSegs).forEach(scid=>{
+                    segMap[scid] = segMap[scid] || { scid };
+                    segMap[scid].en = enSegs[scid];
+                });
             }
             let {
                 translator = 'notranslator',
