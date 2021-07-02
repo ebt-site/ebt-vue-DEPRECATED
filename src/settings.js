@@ -18,6 +18,7 @@
                 showId = false,
                 showPali = true,
                 showTrans = true,
+                showEnglish = false,
                 vnameRoot = 'Aditi',
                 vnameTrans = 'Amy',
 
@@ -50,6 +51,7 @@
             this.saveSettings = saveSettings;
             this.search = search;
             this.showId = showId;
+            this.showEnglish = showEnglish;
             this.showPali = showPali;
             this.showTrans = showTrans;
             this.vnameRoot = vnameRoot;

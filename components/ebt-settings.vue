@@ -95,13 +95,10 @@
                   <div >
                     <span v-if="showId" class="body-2">#</span>
                     <span v-if="showPali" class="body-2">Pali</span>
+                    <span v-if="showEnglish" class="body-2">EN</span>
                     <v-icon class="ebt-settings-icon"
-                      v-if="fullLine && showPali && showTrans">
-                      {{ mdiFormatAlignJustify}}
-                    </v-icon>
-                    <v-icon class="ebt-settings-icon"
-                      v-if="!fullLine && showPali && showTrans" >
-                      {{ mdiFormatColumns}}
+                      v-if="showFormat"
+                      {{ showFormat }}
                     </v-icon>
                     <span v-if="showTrans" class="body-2">
                       {{lang.toUpperCase()}}</span>
@@ -113,6 +110,13 @@
                 ref="trans-focus"
                 :aria-checked="showPali"
                 :label="$t('showPaliText')"
+                @click="stopPropagation($event)"
+                />
+              <ebt-checkbox v-model="showEnglish" 
+                ref="trans-focus"
+                v-if="lang !== 'en'"
+                :aria-checked="showEnglish"
+                :label="$t('showEnglish')"
                 @click="stopPropagation($event)"
                 />
               <ebt-checkbox v-model="showTrans" 
@@ -407,6 +411,10 @@ export default {
       get: function() { return this.$store.state.ebt.settings.showTrans; },
       set: function(value) { this.$store.commit("ebt/settings", {showTrans:value}); },
     },
+    showEnglish: {
+      get: function() { return this.$store.state.ebt.settings.showEnglish; },
+      set: function(value) { this.$store.commit("ebt/settings", {showEnglish:value}); },
+    },
     showPali: {
       get: function() { return this.$store.state.ebt.settings.showPali; },
       set: function(value) { this.$store.commit("ebt/settings", {showPali:value}); },
@@ -460,6 +468,20 @@ export default {
       set: function(value) { 
         this.$store.commit("ebt/settings", {vnameTrans:value}); 
       },
+    },
+    showFormat() {
+      let { fullLine, mdiFormatAlignJustify, mdiFormatColumns } = this;
+      let nText = 0;
+      showPali && nText++;
+      showTrans && nText++;
+      showEnglish && nText++;
+      if (fullLine && nText > 1) {
+        return mdiFormatAlignJustify;
+      }
+      if (!fullLine && nText > 1) {
+        return mdiFormatColumns;
+      }
+      return null;
     },
     settings() {
       return this.$store.state.ebt.settings;

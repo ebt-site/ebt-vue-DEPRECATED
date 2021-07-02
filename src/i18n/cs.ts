@@ -238,7 +238,8 @@ export default {
     days: "A_DAYS days",
     weeks: "A_WEEKS weeks",
     viewEditGithub: "View/Edit page on Github",
-    loadingSutta: "Loading A_SUTTA..."
+    loadingSutta: "Loading A_SUTTA...",
+    showEnglish: "Show English",
 
   }
 }

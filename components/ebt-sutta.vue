@@ -33,6 +33,7 @@
           :class="segmentClass(seg)">
           <div v-if="settings.showId" class="ebt-scid">{{seg.scid}}</div>
           <div v-if="settings.showPali" v-html="seg.pli" class="ebt-text-root"/>
+          <div v-if="settings.showEnglish" v-html="seg.en" class="ebt-text-trans"/>
           <div v-if="settings.showTrans" v-html="seg[sutta.lang]" class="ebt-text-trans"/>
           <v-btn v-if="cursor && cursor.scid === seg.scid"
             icon class=""
@@ -160,7 +161,7 @@ export default {
     },
     clickCopy(seg) {
       let { sutta, settings } = this;
-      let { showId, showPali, showTrans } = settings;
+      let { showId, showEnglish, showPali, showTrans } = settings;
       let { sutta_uid, lang, translator } = sutta;
       let scid = seg.scid.toUpperCase();
       let urlSC = `https://suttacentral.net/`+

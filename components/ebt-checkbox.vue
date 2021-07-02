@@ -8,6 +8,7 @@
       :checked="value"
       ref="input"
       @input="checkboxChanged($event)"
+      :disabled="disabled"
       role="checkbox"
       :aria-checked="localValue"
       :label="label"
@@ -28,6 +29,10 @@ export default {
       default: 'ebt-checkbox',
     },
     value: {
+      type: Boolean,
+      default: false,
+    },
+    disabled: {
       type: Boolean,
       default: false,
     },
