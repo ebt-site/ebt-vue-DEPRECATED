@@ -51,7 +51,7 @@
             this.saveSettings = saveSettings;
             this.search = search;
             this.showId = showId;
-            this.showEnglish = showEnglish;
+            this.showEnglish = lang === 'en' ? false : showEnglish;
             this.showPali = showPali;
             this.showTrans = showTrans;
             this.vnameRoot = vnameRoot;
