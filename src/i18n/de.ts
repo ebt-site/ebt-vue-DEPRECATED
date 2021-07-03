@@ -219,7 +219,7 @@ export default {
     showPaliText: "Zeige Palitext",
     showPaliTransText: "Zeige Palitext und Übersetzung",
     showTextSegmentIds: "SuttaCentral-Textsegmentkennungen zeigen",
-    showTransText: "Zeige Übersetzung",
+    showTransText: "Zeige lokale Übersetzung",
     speakSearchText: "Suchtext vorlesen",
     storeSettingsInCookies: "Einstellungen mittels Webbrowser-Cookies speichern",
     storeSettingsHistory: "Einstellungen und Chronik mittels Webbrowser-Cookies speichern",
@@ -240,7 +240,7 @@ export default {
     days: "A_DAYS Tage",
     weeks: "A_WEEKS Wochen",
     viewEditGithub: "Seite auf Github ansehen/bearbeiten",
-    showEnglish: "Show English",
+    showEnglish: "Zeige Englisch",
     loadingSutta: "A_SUTTA wird geladen...",
 
   },
