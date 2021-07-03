@@ -217,7 +217,7 @@ export default {
     showPaliText: "Show Pali text",
     showPaliTransText: "Show Pali and translation text",
     showTextSegmentIds: "Show SuttaCentral segment ids",
-    showTransText: "Show translation text",
+    showTransText: "Show local translation text",
     speakSearchText: "Speak search text",
     storeSettingsInCookies: "Store settings in web browser cookies",
     storeSettingsHistory: "Store settings and history in web browser cookies",
