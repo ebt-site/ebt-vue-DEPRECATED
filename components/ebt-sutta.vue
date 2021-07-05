@@ -102,10 +102,10 @@ export default {
     });
     let { $route, cursor, $store } = this;
     let { 
-      sutta_uid, lang, translator, segnum, search 
+      sutta_uid, lang, translator, segnum="1.1", search 
     } = BilaraWeb.decodeHash($route.hash);
 
-    if (segnum) {
+    if (sutta_uid) {
       let scid = `${sutta_uid}:${segnum}`;
       let hashCursor = {sutta_uid, lang, translator, scid};
       let that = this;
