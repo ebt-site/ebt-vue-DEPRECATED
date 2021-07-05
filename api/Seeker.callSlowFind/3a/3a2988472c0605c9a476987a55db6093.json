@@ -32,7 +32,7 @@
     "pattern": "devadatta",
     "method": "phrase",
     "resultPattern": "\\b(d|ḍ)ev(a|ā)(d|ḍ)(a|ā)(t|ṭ)(t|ṭ)(a|ā)",
-    "segsMatched": 16,
+    "segsMatched": 18,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an4/an4.68_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.68_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/an/an6/an6.62_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.62_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an6/an6.62_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an8/an8.7_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an8/an8.7_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an8/an8.7_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.100_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.100_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.100_translation-en-sujato.json"
@@ -47,6 +50,7 @@
     "suttaRefs": [
       "an4.68/pli/ms",
       "an6.62/pli/ms",
+      "an8.7/pli/ms",
       "an5.100/pli/ms"
     ],
     "mlDocs": [
@@ -196,6 +200,45 @@
           "pli": 157,
           "de": 118,
           "en": 156
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.7_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an8/an8.7_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an8/an8.7_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an8.7",
+        "lang": "de",
+        "segMap": {
+          "an8.7:0.3": {
+            "scid": "an8.7:0.3",
+            "pli": "7. <span class=\"ebt-matched\">Devadatta</span>vipattisutta ",
+            "de": "7. <span class=\"ebt-matched\">Devadatta</span>s Fehltritt ",
+            "en": "7. <span class=\"ebt-matched\">Devadatta</span>’s Failure ",
+            "matched": true
+          },
+          "an8.7:1.2": {
+            "scid": "an8.7:1.2",
+            "pli": "Tatra bhagavā <span class=\"ebt-matched\">devadatta</span>ṁ ārabbha bhikkhū āmantesi: ",
+            "de": "Da sprach der Buddha zu den Mönchen und Nonnen über <span class=\"ebt-matched\">Devadatta</span>: ",
+            "en": "There the Buddha spoke to the mendicants about <span class=\"ebt-matched\">Devadatta</span>: ",
+            "matched": true
+          }
+        },
+        "score": 2.032,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 8\n1. Liebe\n7. Devadattas Fehltritt",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 63,
+          "de": 41,
+          "en": 62
         }
       },
       {

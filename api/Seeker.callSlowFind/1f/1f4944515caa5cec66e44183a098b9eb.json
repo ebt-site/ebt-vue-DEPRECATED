@@ -32,14 +32,18 @@
     "pattern": "fortziehen nicht vergeblich",
     "method": "phrase",
     "resultPattern": "\\bfortziehen nicht vergeblich",
-    "segsMatched": 1,
+    "segsMatched": 2,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn12/sn12.22_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.22_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn12/sn12.22_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn12/sn12.22_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an7/an7.72_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an7/an7.72_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an7/an7.72_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "sn12.22/de/sabbamitta"
+      "sn12.22/de/sabbamitta",
+      "an7.72/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -72,6 +76,38 @@
           "pli": 34,
           "de": 33,
           "en": 33
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an7/an7.72_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an7/an7.72_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an7/an7.72_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an7.72",
+        "lang": "de",
+        "segMap": {
+          "an7.72:17.2": {
+            "scid": "an7.72:17.2",
+            "pli": "‘yesañca mayaṁ paribhuñjāma cīvarapiṇḍapātasenāsanagilānappaccayabhesajjaparikkhāraṁ tesaṁ te kārā mahapphalā bhavissanti mahānisaṁsā, amhākañcevāyaṁ pabbajjā avañjhā bhavissati saphalā saudrayā’ti. ",
+            "de": "‚Wenn wir Roben, Almosen, Unterkunft sowie Arznei und Krankenversorgung benutzen, soll das für die Spender reiche Frucht und vorteilhafte Folgen haben. So wird unser <span class=\"ebt-matched\">Fortziehen nicht vergeblich</span> sein, sondern reich und fruchtbar.‘ ",
+            "en": "‘Our use of robes, alms-food, lodgings, and medicines and supplies for the sick shall be of great fruit and benefit for those who offered them. And our going forth will not be wasted, but will be fruitful and fertile.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.014,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 7\n7. Das große Kapitel\n72. Das Gleichnis vom großen Feuer",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 72,
+          "de": 71,
+          "en": 71
         }
       }
     ]

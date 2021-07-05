@@ -32,7 +32,7 @@
     "pattern": "benommenheit",
     "method": "phrase",
     "resultPattern": "\\bbenommenheit",
-    "segsMatched": 46,
+    "segsMatched": 50,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an7/an7.61_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an7/an7.61_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/sn/sn46/sn46.55_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn46/sn46.55_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn46/sn46.55_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn46/sn46.51_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn46/sn46.51_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn46/sn46.51_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.193_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.193_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.193_translation-en-sujato.json",
@@ -110,6 +113,7 @@
     "suttaRefs": [
       "an7.61/de/sabbamitta",
       "sn46.55/de/sabbamitta",
+      "sn46.51/de/sabbamitta",
       "an5.193/de/sabbamitta",
       "an1.11-20/de/sabbamitta",
       "dn33/de/sabbamitta",
@@ -359,12 +363,65 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Nummerierte Lehrreden 4\n6. Diskutieren\n55. Mit Saṅgārava",
+        "title": "Verbundene Lehrreden 46\n6. Diskutieren\n55. Mit Saṅgārava",
         "segsMatched": 4,
         "langSegs": {
           "pli": 58,
           "de": 57,
           "en": 57
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn46/sn46.51_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn46/sn46.51_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn46/sn46.51_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn46.51",
+        "lang": "de",
+        "segMap": {
+          "sn46.51:3.1": {
+            "scid": "sn46.51:3.1",
+            "pli": "Ko ca, bhikkhave, āhāro anuppannassa vā thinamiddhassa uppādāya, uppannassa vā thinamiddhassa bhiyyobhāvāya vepullāya? ",
+            "de": "Und was nährt das Entstehen von Dumpfheit und <span class=\"ebt-matched\">Benommenheit</span> oder lässt sie, wenn sie entstanden sind, wachsen und zunehmen? ",
+            "en": "And what fuels the arising of dullness and drowsiness, or, when they have arisen, makes them increase and grow? ",
+            "matched": true
+          },
+          "sn46.51:3.4": {
+            "scid": "sn46.51:3.4",
+            "pli": "ayamāhāro anuppannassa vā thinamiddhassa uppādāya, uppannassa vā thinamiddhassa bhiyyobhāvāya vepullāya. ",
+            "de": "nährt das Entstehen von Dumpfheit und <span class=\"ebt-matched\">Benommenheit</span> oder lässt sie, wenn sie entstanden sind, wachsen und zunehmen. ",
+            "en": "fuels the arising of dullness and drowsiness, or, when they have arisen, makes them increase and grow. ",
+            "matched": true
+          },
+          "sn46.51:15.1": {
+            "scid": "sn46.51:15.1",
+            "pli": "Ko ca, bhikkhave, anāhāro anuppannassa vā thinamiddhassa uppādāya, uppannassa vā thinamiddhassa bhiyyobhāvāya vepullāya? ",
+            "de": "Und was hungert das Entstehen von Dumpfheit und <span class=\"ebt-matched\">Benommenheit</span> aus oder, wenn sie entstanden sind, ihr Wachsen und Zunehmen? ",
+            "en": "And what starves the arising of dullness and drowsiness, or, when they have arisen, starves their increase and growth? ",
+            "matched": true
+          },
+          "sn46.51:15.4": {
+            "scid": "sn46.51:15.4",
+            "pli": "ayamanāhāro anuppannassa vā thinamiddhassa uppādāya, uppannassa vā thinamiddhassa bhiyyobhāvāya vepullāya. ",
+            "de": "hungert das Entstehen von Dumpfheit und <span class=\"ebt-matched\">Benommenheit</span> aus oder, wenn sie entstanden sind, ihr Wachsen und Zunehmen. ",
+            "en": "starves the arising of dullness and drowsiness, or, when they have arisen, starves their increase and growth. ",
+            "matched": true
+          }
+        },
+        "score": 4.039,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 46\n6. Diskutieren\n51. Nahrung",
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 103,
+          "de": 102,
+          "en": 102
         }
       },
       {

@@ -32,14 +32,18 @@
     "pattern": "disziplinarische angelegenheit beizulegen",
     "method": "phrase",
     "resultPattern": "\\bdisziplinarische angelegenheit beizulegen",
-    "segsMatched": 2,
+    "segsMatched": 3,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an7/an7.84_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an7/an7.84_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an7/an7.84_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an7/an7.84_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "an7.84/de/sabbamitta"
+      "an7.84/de/sabbamitta",
+      "dn33/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -79,6 +83,38 @@
           "pli": 14,
           "de": 7,
           "en": 12
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn33",
+        "lang": "de",
+        "segMap": {
+          "dn33:2.3.49": {
+            "scid": "dn33:2.3.49",
+            "pli": "Satta adhikaraṇasamathā—",
+            "de": "Sieben Richtlinien, um jede <span class=\"ebt-matched\">disziplinarische Angelegenheit beizulegen</span>, die aufkommen könnte: ",
+            "en": "Seven principles for the settlement of any disciplinary issues that might arise. ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 33\nIm Chor aufsagen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 1167,
+          "de": 1166,
+          "en": 1166
         }
       }
     ]
