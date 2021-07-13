@@ -527,7 +527,7 @@
     "zu Spänen",
     "zu straff gespannt",
     "zu studieren",
-    "zu töten",
+    "zum Töten",
     "zu zieren und auszurüsten",
     "zwei Arten von Menschen",
     "zwei Dinge.* entwickelt werden",

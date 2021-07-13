@@ -1,0 +1,115 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "zum töten",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "zum töten",
+    "method": "phrase",
+    "resultPattern": "\\bzum töten",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn25_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn25_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn25_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an8/an8.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an8/an8.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an8/an8.1_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "dn25/de/sabbamitta",
+      "an8.1/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an8/an8.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an8/an8.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an8.1",
+        "lang": "de",
+        "segMap": {
+          "an8.1:7.1": {
+            "scid": "an8.1:7.1",
+            "pli": "Yo na hanti na ghāteti, ",
+            "de": "Töte nicht und stifte nicht andere <span class=\"ebt-matched\">zum Töten</span> an, ",
+            "en": "Don’t kill or cause others to kill,",
+            "matched": true
+          }
+        },
+        "score": 1.029,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 8\n1. Liebe\n1. Die vorteilhaften Folgen der Liebe",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 34,
+          "de": 33,
+          "en": 33
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn25_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn25_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn25_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn25",
+        "lang": "de",
+        "segMap": {
+          "dn25:16.5": {
+            "scid": "dn25:16.5",
+            "pli": "Idha, nigrodha, tapassī na pāṇaṁ atipāteti, na pāṇaṁ atipātayati, na pāṇamatipātayato samanuñño hoti. ",
+            "de": "Es ist, wenn ein Büßender keine lebenden Geschöpfe tötet, andere nicht <span class=\"ebt-matched\">zum Töten</span> anstiftet und das Töten nicht gutheißt. ",
+            "en": "It’s when a mortifier doesn’t kill living creatures, doesn’t get others to kill, and doesn’t approve of killing. ",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 25\nDas Löwengebrüll in Udumbarikās Kloster\n1. Vom Wanderer Nigrodha",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 383,
+          "de": 347,
+          "en": 382
+        }
+      }
+    ]
+  }
+}
