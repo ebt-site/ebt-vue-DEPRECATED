@@ -32,7 +32,7 @@
     "pattern": "überquer",
     "method": "phrase",
     "resultPattern": "\\büberquer",
-    "segsMatched": 20,
+    "segsMatched": 21,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an4/an4.196_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.196_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/sn/sn1/sn1.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn1/sn1.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga3/ud3.2_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/ud/vagga3/ud3.2_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/ud/vagga3/ud3.2_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thig/thig1.10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thig/thig1.10_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thig/thig1.10_translation-en-sujato.json",
@@ -59,6 +62,7 @@
     "suttaRefs": [
       "an4.196/de/sabbamitta",
       "sn1.1/de/sabbamitta",
+      "ud3.2/de/sabbamitta",
       "thig1.10/de/sabbamitta",
       "dn21/de/sabbamitta",
       "dn20/de/sabbamitta",
@@ -315,6 +319,38 @@
           "pli": 36,
           "de": 35,
           "en": 35
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga3/ud3.2_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/ud/vagga3/ud3.2_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/ud/vagga3/ud3.2_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud3.2",
+        "lang": "de",
+        "segMap": {
+          "ud3.2:18.1": {
+            "scid": "ud3.2:18.1",
+            "pli": "“Yassa nittiṇṇo paṅko,",
+            "de": "„Dieser Mönch, der den Sumpf <span class=\"ebt-matched\">überquer</span>t hat, ",
+            "en": "“The mendicant who has crossed over the bog,",
+            "matched": true
+          }
+        },
+        "score": 1.014,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Tief empfundene Sprüche\n3.2. Mit Nanda",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 74,
+          "de": 59,
+          "en": 59
         }
       },
       {

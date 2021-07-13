@@ -32,7 +32,7 @@
     "pattern": "ist es wirklich wahr",
     "method": "phrase",
     "resultPattern": "\\bist es wirklich wahr",
-    "segsMatched": 12,
+    "segsMatched": 14,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn24_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn24_translation-de-sabbamitta.json",
@@ -43,6 +43,9 @@
       "root/pli/ms/sutta/sn/sn12/sn12.32_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.32_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn12/sn12.32_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga3/ud3.2_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/ud/vagga3/ud3.2_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/ud/vagga3/ud3.2_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn25_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn25_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn25_translation-en-sujato.json",
@@ -52,6 +55,9 @@
       "root/pli/ms/sutta/dn/dn12_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn12_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn12_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an8/an8.8_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an8/an8.8_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an8/an8.8_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.64_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.64_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.64_translation-en-sujato.json"
@@ -60,9 +66,11 @@
       "dn24/de/sabbamitta",
       "an3.61/de/sabbamitta",
       "sn12.32/de/sabbamitta",
+      "ud3.2/de/sabbamitta",
       "dn25/de/sabbamitta",
       "dn23/de/sabbamitta",
       "dn12/de/sabbamitta",
+      "an8.8/de/sabbamitta",
       "an3.64/de/sabbamitta"
     ],
     "mlDocs": [
@@ -195,6 +203,70 @@
           "pli": 61,
           "de": 60,
           "en": 60
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga3/ud3.2_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/ud/vagga3/ud3.2_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/ud/vagga3/ud3.2_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud3.2",
+        "lang": "de",
+        "segMap": {
+          "ud3.2:5.1": {
+            "scid": "ud3.2:5.1",
+            "pli": "“Saccaṁ kira tvaṁ, nanda, sambahulānaṁ bhikkhūnaṁ evamārocesi:",
+            "de": "„<span class=\"ebt-matched\">Ist es wirklich wahr</span>, Nanda, dass du mehrere Mönche darüber unterrichtet hast, ",
+            "en": "“Is it really true, Nanda, that you informed several mendicants that ",
+            "matched": true
+          }
+        },
+        "score": 1.014,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Tief empfundene Sprüche\n3.2. Mit Nanda",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 74,
+          "de": 59,
+          "en": 59
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.8_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an8/an8.8_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an8/an8.8_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an8.8",
+        "lang": "de",
+        "segMap": {
+          "an8.8:5.1": {
+            "scid": "an8.8:5.1",
+            "pli": "“Saccaṁ kira, bhante, āyasmā uttaro bhikkhūnaṁ evaṁ dhammaṁ desesi: ",
+            "de": "„<span class=\"ebt-matched\">Ist es wirklich wahr</span>, Herr, dass du den Mönchen und Nonnen diese Unterweisung gibst: ",
+            "en": "“Is it really true, sir, that you teach the mendicants in this way: ",
+            "matched": true
+          }
+        },
+        "score": 1.009,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 8\n1. Liebe\n8. Uttara über Fehltritte",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 113,
+          "de": 86,
+          "en": 112
         }
       },
       {

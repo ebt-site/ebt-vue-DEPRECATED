@@ -30,11 +30,185 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "das ist die lehre, das ist die schulung",
-    "method": "keywords",
-    "resultPattern": "\\bdas|\\bist|\\bdie|\\blehre,|\\bdas|\\bist|\\bdie|\\bschulung",
-    "segsMatched": 0,
-    "bilaraPaths": [],
-    "suttaRefs": [],
-    "mlDocs": []
+    "method": "phrase",
+    "resultPattern": "\\bdas ist die lehre, das ist die schulung",
+    "segsMatched": 12,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an4/an4.180_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.180_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.180_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an8/an8.53_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an8/an8.53_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an8/an8.53_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an7/an7.83_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an7/an7.83_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an7/an7.83_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an4.180/de/sabbamitta",
+      "an8.53/de/sabbamitta",
+      "an7.83/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.180_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.180_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.180_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.180",
+        "lang": "de",
+        "segMap": {
+          "an4.180:2.4": {
+            "scid": "an4.180:2.4",
+            "pli": "ayaṁ dhammo, ayaṁ vinayo, idaṁ satthusāsanan’ti. ",
+            "de": "<span class=\"ebt-matched\">Das ist die Lehre, das ist die Schulung</span>, das ist die Anleitung des Lehrers.‘ ",
+            "en": "this is the teaching, this is the training, this is the Teacher’s instruction.’ ",
+            "matched": true
+          },
+          "an4.180:3.3": {
+            "scid": "an4.180:3.3",
+            "pli": "ayaṁ dhammo, ayaṁ vinayo, idaṁ satthusāsanan’ti. ",
+            "de": "<span class=\"ebt-matched\">Das ist die Lehre, das ist die Schulung</span>, das ist die Anleitung des Lehrers.‘ ",
+            "en": "this is the teaching, this is the training, this is the Teacher’s instruction.’ ",
+            "matched": true
+          },
+          "an4.180:4.4": {
+            "scid": "an4.180:4.4",
+            "pli": "ayaṁ dhammo, ayaṁ vinayo, idaṁ satthusāsanan’ti. ",
+            "de": "<span class=\"ebt-matched\">Das ist die Lehre, das ist die Schulung</span>, das ist die Anleitung des Lehrers.‘ ",
+            "en": "this is the teaching, this is the training, this is the Teacher’s instruction.’ ",
+            "matched": true
+          },
+          "an4.180:5.4": {
+            "scid": "an4.180:5.4",
+            "pli": "ayaṁ dhammo, ayaṁ vinayo, idaṁ satthusāsanan’ti. ",
+            "de": "<span class=\"ebt-matched\">Das ist die Lehre, das ist die Schulung</span>, das ist die Anleitung des Lehrers.‘ ",
+            "en": "this is the teaching, this is the training, this is the Teacher’s instruction.’ ",
+            "matched": true
+          },
+          "an4.180:6.4": {
+            "scid": "an4.180:6.4",
+            "pli": "ayaṁ dhammo, ayaṁ vinayo, idaṁ satthusāsanan’ti. ",
+            "de": "<span class=\"ebt-matched\">Das ist die Lehre, das ist die Schulung</span>, das ist die Anleitung des Lehrers.‘ ",
+            "en": "this is the teaching, this is the training, this is the Teacher’s instruction.’ ",
+            "matched": true
+          },
+          "an4.180:7.4": {
+            "scid": "an4.180:7.4",
+            "pli": "ayaṁ dhammo, ayaṁ vinayo, idaṁ satthusāsanan’ti. ",
+            "de": "<span class=\"ebt-matched\">Das ist die Lehre, das ist die Schulung</span>, das ist die Anleitung des Lehrers.‘ ",
+            "en": "this is the teaching, this is the training, this is the Teacher’s instruction.’ ",
+            "matched": true
+          },
+          "an4.180:8.4": {
+            "scid": "an4.180:8.4",
+            "pli": "ayaṁ dhammo, ayaṁ vinayo, idaṁ satthusāsanan’ti. ",
+            "de": "<span class=\"ebt-matched\">Das ist die Lehre, das ist die Schulung</span>, das ist die Anleitung des Lehrers.‘ ",
+            "en": "this is the teaching, this is the training, this is the Teacher’s instruction.’ ",
+            "matched": true
+          },
+          "an4.180:9.4": {
+            "scid": "an4.180:9.4",
+            "pli": "ayaṁ dhammo, ayaṁ vinayo, idaṁ satthusāsanan’ti. ",
+            "de": "<span class=\"ebt-matched\">Das ist die Lehre, das ist die Schulung</span>, das ist die Anleitung des Lehrers.‘ ",
+            "en": "this is the teaching, this is the training, this is the Teacher’s instruction.’ ",
+            "matched": true
+          }
+        },
+        "score": 8.081,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 4\n18. Absicht\n180. Die vier großen Bezugspunkte",
+        "segsMatched": 8,
+        "langSegs": {
+          "pli": 99,
+          "de": 97,
+          "en": 97
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an7/an7.83_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an7/an7.83_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an7/an7.83_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an7.83",
+        "lang": "de",
+        "segMap": {
+          "an7.83:2.5": {
+            "scid": "an7.83:2.5",
+            "pli": "‘neso dhammo neso vinayo netaṁ satthusāsanan’ti. ",
+            "de": "‚Das ist nicht die Lehre, das ist nicht die Schulung, das ist nicht die Anleitung des Lehrers.‘ ",
+            "en": "not the teaching, not the training, and not the Teacher’s instructions. ",
+            "matched": true
+          },
+          "an7.83:2.9": {
+            "scid": "an7.83:2.9",
+            "pli": "‘eso dhammo eso vinayo etaṁ satthusāsanan’”ti. ",
+            "de": "‚<span class=\"ebt-matched\">Das ist die Lehre, das ist die Schulung</span>, das ist die Anleitung des Lehrers.‘“ ",
+            "en": "the teaching, the training, and the Teacher’s instructions.” ",
+            "matched": true
+          }
+        },
+        "score": 2.143,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 7\n8. Das Ordensrecht\n83. Die Anleitung des Lehrers",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 14,
+          "de": 13,
+          "en": 13
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.53_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an8/an8.53_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an8/an8.53_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an8.53",
+        "lang": "de",
+        "segMap": {
+          "an8.53:2.12": {
+            "scid": "an8.53:2.12",
+            "pli": "‘neso dhammo, neso vinayo, netaṁ satthusāsanan’ti. ",
+            "de": "‚Das ist nicht die Lehre, das ist nicht die Schulung, das ist nicht die Anleitung des Lehrers.‘ ",
+            "en": "not the teaching, not the training, and not the Teacher’s instructions. ",
+            "matched": true
+          },
+          "an8.53:3.11": {
+            "scid": "an8.53:3.11",
+            "pli": "‘eso dhammo, eso vinayo, etaṁ satthusāsanan’”ti. ",
+            "de": "‚<span class=\"ebt-matched\">Das ist die Lehre, das ist die Schulung</span>, das ist die Anleitung des Lehrers.‘“ ",
+            "en": "the teaching, the training, and the Teacher’s instructions.” ",
+            "matched": true
+          }
+        },
+        "score": 2.069,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 8\n6. Gotamī\n53. Kurzer Rat für Gotamī",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 29,
+          "de": 28,
+          "en": 28
+        }
+      }
+    ]
   }
 }
