@@ -179,6 +179,25 @@
         ]);
         should(res.bilaraPaths.length).equal(2);
     });
+    it("TESTTESTfind(...) finds Devadatta", async()=>{
+        var bw = new BilaraWeb({fetch});
+
+        var pattern = "devadatta"; 
+        var res = await bw.find({
+            pattern,
+        });
+        should.deepEqual(res.suttaRefs, [
+            'sn42.11/en/sujato',
+            'mn105/en/sujato',
+            'mn1/en/sujato',
+            'sn56.21/en/sujato',
+            'mn66/en/sujato',
+            'mn116/en/sujato',
+            'dn16/en/sujato',
+            //'pli-tv-kd6/en/brahmali',
+        ]);
+        should(res.bilaraPaths.length).equal(14);
+    });
     it("highlightExamples(...) adds HTML links for examples", ()=>{
         let examples = {
             en: [
