@@ -3,7 +3,7 @@
   "volume": "Seeker.callSlowFind",
   "args": [
     {
-      "pattern": "ärger, hass.* unmut",
+      "pattern": "ärger, hass und unmut",
       "showMatchesOnly": true,
       "languages": [
         "pli",
@@ -29,53 +29,49 @@
     "minLang": 3,
     "maxDoc": 50,
     "maxResults": 1000,
-    "pattern": "ärger, hass.* unmut",
+    "pattern": "ärger, hass und unmut",
     "method": "phrase",
-    "resultPattern": "\\bärger, hass.* unmut",
-    "segsMatched": 21,
+    "resultPattern": "\\bärger, hass und unmut",
+    "segsMatched": 20,
     "bilaraPaths": [
-      "root/pli/ms/sutta/an/an5/an5.157_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an5/an5.157_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an5/an5.157_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an4/an4.197_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an4/an4.197_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an4/an4.197_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.64_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.64_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.64_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn24_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn24_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn24_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an3/an3.67_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an3/an3.67_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an3/an3.67_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.157_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an5/an5.157_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an5/an5.157_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.197_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.197_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.197_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.27_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.27_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.27_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.25_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.25_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.25_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn30_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/dn/dn30_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn30_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.14_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.14_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an8/an8.14_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.10_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an8/an8.10_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an8/an8.10_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.67_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an3/an3.67_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an3/an3.67_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "an5.157/de/sabbamitta",
-      "an4.197/de/sabbamitta",
       "an3.64/de/sabbamitta",
       "dn24/de/sabbamitta",
-      "an3.67/de/sabbamitta",
+      "an5.157/de/sabbamitta",
+      "an4.197/de/sabbamitta",
       "an3.27/de/sabbamitta",
       "an3.25/de/sabbamitta",
-      "dn30/de/sabbamitta",
       "an8.14/de/sabbamitta",
-      "an8.10/de/sabbamitta"
+      "an8.10/de/sabbamitta",
+      "an3.67/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -107,14 +103,14 @@
           "an5.157:8.2": {
             "scid": "an5.157:8.2",
             "pli": "Saddho, bhikkhave, saddhākathāya kacchamānāya nābhisajjati na kuppati na byāpajjati na patitthīyati na kopañca dosañca appaccayañca pātukaroti. ",
-            "de": "Wenn man zu einem vertrauensvollen Menschen über Vertrauen spricht, verliert er nicht die Beherrschung, wird nicht ärgerlich, feindselig oder hartherzig und zeigt keinen <span class=\"ebt-matched\">Ärger, Hass oder Unmut</span>. ",
+            "de": "Wenn man zu einem vertrauensvollen Menschen über Vertrauen spricht, verliert er nicht die Beherrschung, wird nicht ärgerlich, feindselig oder hartherzig und zeigt keinen Ärger, Hass oder Unmut. ",
             "en": "When a faithful person is spoken to about faith they don’t lose their temper, they don’t get annoyed, hostile, and hard-hearted, or display annoyance, hate, and bitterness. ",
             "matched": true
           },
           "an5.157:12.2": {
             "scid": "an5.157:12.2",
             "pli": "Paññavā, bhikkhave, paññākathāya kacchamānāya nābhisajjati na kuppati na byāpajjati na patitthīyati na kopañca dosañca appaccayañca pātukaroti. ",
-            "de": "Wenn man zu einem weisen Menschen über Weisheit spricht, verliert er nicht die Beherrschung, wird nicht ärgerlich, feindselig oder hartherzig und zeigt keinen <span class=\"ebt-matched\">Ärger, Hass oder Unmut</span>. ",
+            "de": "Wenn man zu einem weisen Menschen über Weisheit spricht, verliert er nicht die Beherrschung, wird nicht ärgerlich, feindselig oder hartherzig und zeigt keinen Ärger, Hass oder Unmut. ",
             "en": "When a wise person is spoken to about wisdom they don’t lose their temper, they don’t get annoyed, hostile, and hard-hearted, or display annoyance, hate, and bitterness. ",
             "matched": true
           }
@@ -206,7 +202,7 @@
           "an4.197:13.4": {
             "scid": "an4.197:13.4",
             "pli": "bahumpi vuttā samānā nābhisajjissāmi na kuppissāmi na byāpajjissāmi na patitthīyissāmi, kopañca dosañca appaccayañca na pātukarissāmi; ",
-            "de": "Selbst wenn ich heftig kritisiert werde, will ich nicht die Beherrschung verlieren, will nicht ärgerlich, feindselig und hartherzig werden und keinen <span class=\"ebt-matched\">Ärger, Hass oder Unmut</span> zeigen. ",
+            "de": "Selbst wenn ich heftig kritisiert werde, will ich nicht die Beherrschung verlieren, will nicht ärgerlich, feindselig und hartherzig werden und keinen Ärger, Hass oder Unmut zeigen. ",
             "en": "Even when heavily criticized I won’t lose my temper, become annoyed, hostile, and hard-hearted, or display annoyance, hate, and bitterness. ",
             "matched": true
           }
@@ -323,7 +319,7 @@
           "an3.67:4.3": {
             "scid": "an3.67:4.3",
             "pli": "Sace panāyaṁ, bhikkhave, puggalo pañhaṁ puṭṭho samāno na aññenaññaṁ paṭicarati na bahiddhā kathaṁ apanāmeti, na kopañca dosañca appaccayañca pātukaroti, evaṁ santāyaṁ, bhikkhave, puggalo kaccho hoti. ",
-            "de": "Wenn jemand etwas gefragt wird und dem Problem nicht ausweicht, das Gespräch nicht auf Nebensächlichkeiten lenkt und keinen <span class=\"ebt-matched\">Ärger, Hass oder Unmut</span> zeigt, dann ist diese Person zum Diskutieren fähig. ",
+            "de": "Wenn jemand etwas gefragt wird und dem Problem nicht ausweicht, das Gespräch nicht auf Nebensächlichkeiten lenkt und keinen Ärger, Hass oder Unmut zeigt, dann ist diese Person zum Diskutieren fähig. ",
             "en": "When a person is asked a question, if they don’t dodge the issue; distract the discussion with irrelevant points; or display annoyance, hate, and bitterness, then that person is competent to hold a discussion. ",
             "matched": true
           }
@@ -441,38 +437,6 @@
           "pli": 90,
           "de": 81,
           "en": 89
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/dn/dn30_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/dn/dn30_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/dn/dn30_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "dn30",
-        "lang": "de",
-        "segMap": {
-          "dn30:1.28.3": {
-            "scid": "dn30:1.28.3",
-            "pli": "bahumpi vutto samāno nābhisajji na kuppi na byāpajji na patitthīyi, na kopañca dosañca appaccayañca pātvākāsi. ",
-            "de": "Selbst wenn er heftig kritisiert wurde, verlor er nicht die Beherrschung, wurde nicht ärgerlich, feindselig und hartherzig und zeigte keinen <span class=\"ebt-matched\">Ärger, Hass oder Unmut</span>. ",
-            "en": "Even when heavily criticized he didn’t lose his temper, become annoyed, hostile, and hard-hearted, or display annoyance, hate, and bitterness. ",
-            "matched": true
-          }
-        },
-        "score": 1.001,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Lange Lehrreden 30\nKennzeichen eines großen Mannes",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 721,
-          "de": 716,
-          "en": 720
         }
       }
     ]

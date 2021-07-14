@@ -1,0 +1,93 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "einen einzigen geschmack",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "einen einzigen geschmack",
+    "method": "phrase",
+    "resultPattern": "\\beinen einzigen geschmack",
+    "segsMatched": 3,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an8/an8.19_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an8/an8.19_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an8/an8.19_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an8.19/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.19_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an8/an8.19_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an8/an8.19_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an8.19",
+        "lang": "de",
+        "segMap": {
+          "an8.19:7.1": {
+            "scid": "an8.19:7.1",
+            "pli": "Puna caparaṁ, bhante, mahāsamuddo ekaraso loṇaraso. ",
+            "de": "Weiter hat das Meer <span class=\"ebt-matched\">einen einzigen Geschmack</span>: den Salzgeschmack. ",
+            "en": "Furthermore, the ocean has just one taste, the taste of salt. ",
+            "matched": true
+          },
+          "an8.19:16.1": {
+            "scid": "an8.19:16.1",
+            "pli": "Seyyathāpi, pahārāda, mahāsamuddo ekaraso loṇaraso; ",
+            "de": "So wie das Meer <span class=\"ebt-matched\">einen einzigen Geschmack</span> hat: den Salzgeschmack, ",
+            "en": "The ocean has just one taste, the taste of salt. ",
+            "matched": true
+          },
+          "an8.19:16.2": {
+            "scid": "an8.19:16.2",
+            "pli": "evamevaṁ kho, pahārāda, ayaṁ dhammavinayo ekaraso, vimuttiraso. ",
+            "de": "ebenso hat diese Lehre und Schulung <span class=\"ebt-matched\">einen einzigen Geschmack</span>: den Geschmack der Freiheit. ",
+            "en": "In the same way, this teaching and training has one taste, the taste of freedom. ",
+            "matched": true
+          }
+        },
+        "score": 3.039,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 8\n2. Das große Kapitel\n19. Mit Pahārāda",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 76,
+          "de": 59,
+          "en": 75
+        }
+      }
+    ]
+  }
+}

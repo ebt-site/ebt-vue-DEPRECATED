@@ -3,7 +3,7 @@
   "volume": "Seeker.callSlowFind",
   "args": [
     {
-      "pattern": "verlasse.* darauf",
+      "pattern": "verlasse mich darauf",
       "showMatchesOnly": true,
       "languages": [
         "pli",
@@ -29,14 +29,11 @@
     "minLang": 3,
     "maxDoc": 50,
     "maxResults": 1000,
-    "pattern": "verlasse.* darauf",
+    "pattern": "verlasse mich darauf",
     "method": "phrase",
-    "resultPattern": "\\bverlasse.* darauf",
-    "segsMatched": 8,
+    "resultPattern": "\\bverlasse mich darauf",
+    "segsMatched": 6,
     "bilaraPaths": [
-      "root/pli/ms/sutta/an/an8/an8.8_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an8/an8.8_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an8/an8.8_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn28_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn28_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn28_translation-en-sujato.json",
@@ -57,7 +54,6 @@
       "translation/en/sujato/sutta/an/an3/an3.57_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "an8.8/de/sabbamitta",
       "dn28/de/sabbamitta",
       "dn23/de/sabbamitta",
       "an8.12/de/sabbamitta",
@@ -66,45 +62,6 @@
       "an3.57/de/sabbamitta"
     ],
     "mlDocs": [
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/an/an8/an8.8_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/an/an8/an8.8_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/an/an8/an8.8_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "an8.8",
-        "lang": "de",
-        "segMap": {
-          "an8.8:6.8": {
-            "scid": "an8.8:6.8",
-            "pli": "Tato upādāyupādāya mayaṁ caññe ca bhaṇāmā”ti. ",
-            "de": "Sowohl ich als auch andere <span class=\"ebt-matched\">verlassen uns vollständig darauf</span>, wenn wir sprechen.“ ",
-            "en": "Both myself and others rely completely on that when we speak.” ",
-            "matched": true
-          },
-          "an8.8:7.4": {
-            "scid": "an8.8:7.4",
-            "pli": "Tato upādāyupādāya mayañcaññe ca bhaṇāmā’ti. ",
-            "de": "Sowohl ich als auch andere <span class=\"ebt-matched\">verlassen uns vollständig darauf</span>, wenn wir sprechen.‘ ",
-            "en": "Both myself and others rely completely on that when we speak.’ ",
-            "matched": true
-          }
-        },
-        "score": 2.018,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Nummerierte Lehrreden 8\n1. Liebe\n8. Uttara über Fehltritte",
-        "segsMatched": 2,
-        "langSegs": {
-          "pli": 113,
-          "de": 86,
-          "en": 112
-        }
-      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/an/an5/an5.44_root-pli-ms.json",
