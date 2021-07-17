@@ -3,7 +3,7 @@
   "volume": "Seeker.callSlowFind",
   "args": [
     {
-      "pattern": "favoritism, hostility, stupidity",
+      "pattern": "favoritism hostility stupidity",
       "showMatchesOnly": true,
       "languages": [
         "pli",
@@ -28,46 +28,49 @@
     "minLang": 2,
     "maxDoc": 50,
     "maxResults": 1000,
-    "pattern": "favoritism, hostility, stupidity",
-    "method": "phrase",
-    "resultPattern": "\\bfavoritism, hostility, stupidity",
-    "segsMatched": 23,
+    "pattern": "favoritism hostility stupidity",
+    "method": "keywords",
+    "resultPattern": "\\bfavoritism|\\bhostility|\\bstupidity",
+    "segsMatched": 24,
     "bilaraPaths": [
-      "root/pli/ms/sutta/an/an5/an5.272_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an5/an5.272_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn31_root-pli-ms.json",
-      "translation/en/sujato/sutta/dn/dn31_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an4/an4.20_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an4/an4.20_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.19_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an4/an4.19_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn31_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn31_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.272_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an5/an5.272_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an2/an2.42-51_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an2/an2.42-51_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
-      "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn29_root-pli-ms.json",
-      "translation/en/sujato/sutta/dn/dn29_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an9/an9.7_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an9/an9.7_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an5/an5.273-285_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an5/an5.273-285_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.17_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an4/an4.17_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.18_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an4/an4.18_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an4/an4.17_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an4/an4.17_translation-en-sujato.json"
+      "root/pli/ms/sutta/an/an4/an4.20_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an4/an4.20_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.273-285_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an5/an5.273-285_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an8/an8.33_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an8/an8.33_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an9/an9.7_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an9/an9.7_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn29_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn29_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "an5.272/en/sujato",
-      "dn31/en/sujato",
-      "an4.20/en/sujato",
       "an4.19/en/sujato",
+      "dn31/en/sujato",
+      "an5.272/en/sujato",
       "an2.42-51/en/sujato",
-      "dn33/en/sujato",
-      "dn29/en/sujato",
-      "an9.7/en/sujato",
-      "an5.273-285/en/sujato",
+      "an4.17/en/sujato",
       "an4.18/en/sujato",
-      "an4.17/en/sujato"
+      "an4.20/en/sujato",
+      "an5.273-285/en/sujato",
+      "an8.33/en/sujato",
+      "an9.7/en/sujato",
+      "dn29/en/sujato",
+      "dn33/en/sujato"
     ],
     "mlDocs": [
       {
@@ -84,25 +87,25 @@
           "an4.19:1.3": {
             "scid": "an4.19:1.3",
             "pli": "Chandāgatiṁ gacchati, dosāgatiṁ gacchati, mohāgatiṁ gacchati, bhayāgatiṁ gacchati—",
-            "en": "Making decisions prejudiced by <span class=\"ebt-matched\">favoritism, hostility, stupidity</span>, and cowardice. ",
+            "en": "Making decisions prejudiced by <span class=\"ebt-matched\">favoritism</span>, <span class=\"ebt-matched\">hostility</span>, <span class=\"ebt-matched\">stupidity</span>, and cowardice. ",
             "matched": true
           },
           "an4.19:2.3": {
             "scid": "an4.19:2.3",
             "pli": "Na chandāgatiṁ gacchati, na dosāgatiṁ gacchati, na mohāgatiṁ gacchati, na bhayāgatiṁ gacchati—",
-            "en": "Making decisions unprejudiced by <span class=\"ebt-matched\">favoritism, hostility, stupidity</span>, and cowardice. ",
+            "en": "Making decisions unprejudiced by <span class=\"ebt-matched\">favoritism</span>, <span class=\"ebt-matched\">hostility</span>, <span class=\"ebt-matched\">stupidity</span>, and cowardice. ",
             "matched": true
           },
           "an4.19:3.2": {
             "scid": "an4.19:3.2",
             "pli": "yo dhammaṁ ativattati; ",
-            "en": "out of favoritism, hostility, cowardice, or stupidity, ",
+            "en": "out of <span class=\"ebt-matched\">favoritism</span>, <span class=\"ebt-matched\">hostility</span>, cowardice, or <span class=\"ebt-matched\">stupidity</span>, ",
             "matched": true
           },
           "an4.19:4.2": {
             "scid": "an4.19:4.2",
             "pli": "yo dhammaṁ nātivattati; ",
-            "en": "out of favoritism, hostility, cowardice, and stupidity, ",
+            "en": "out of <span class=\"ebt-matched\">favoritism</span>, <span class=\"ebt-matched\">hostility</span>, cowardice, and <span class=\"ebt-matched\">stupidity</span>, ",
             "matched": true
           }
         },
@@ -131,25 +134,25 @@
           "dn31:5.2": {
             "scid": "dn31:5.2",
             "pli": "Chandāgatiṁ gacchanto pāpakammaṁ karoti, dosāgatiṁ gacchanto pāpakammaṁ karoti, mohāgatiṁ gacchanto pāpakammaṁ karoti, bhayāgatiṁ gacchanto pāpakammaṁ karoti. ",
-            "en": "One does bad deeds prejudiced by <span class=\"ebt-matched\">favoritism, hostility, stupidity</span>, and cowardice. ",
+            "en": "One does bad deeds prejudiced by <span class=\"ebt-matched\">favoritism</span>, <span class=\"ebt-matched\">hostility</span>, <span class=\"ebt-matched\">stupidity</span>, and cowardice. ",
             "matched": true
           },
           "dn31:5.3": {
             "scid": "dn31:5.3",
             "pli": "Yato kho, gahapatiputta, ariyasāvako neva chandāgatiṁ gacchati, na dosāgatiṁ gacchati, na mohāgatiṁ gacchati, na bhayāgatiṁ gacchati; ",
-            "en": "When a noble disciple is not prejudiced by <span class=\"ebt-matched\">favoritism, hostility, stupidity</span>, and cowardice, ",
+            "en": "When a noble disciple is not prejudiced by <span class=\"ebt-matched\">favoritism</span>, <span class=\"ebt-matched\">hostility</span>, <span class=\"ebt-matched\">stupidity</span>, and cowardice, ",
             "matched": true
           },
           "dn31:6.2": {
             "scid": "dn31:6.2",
             "pli": "yo dhammaṁ ativattati; ",
-            "en": "out of favoritism, hostility, cowardice, or stupidity, ",
+            "en": "out of <span class=\"ebt-matched\">favoritism</span>, <span class=\"ebt-matched\">hostility</span>, cowardice, or <span class=\"ebt-matched\">stupidity</span>, ",
             "matched": true
           },
           "dn31:6.6": {
             "scid": "dn31:6.6",
             "pli": "yo dhammaṁ nātivattati; ",
-            "en": "out of favoritism, hostility, cowardice, and stupidity, ",
+            "en": "out of <span class=\"ebt-matched\">favoritism</span>, <span class=\"ebt-matched\">hostility</span>, cowardice, and <span class=\"ebt-matched\">stupidity</span>, ",
             "matched": true
           }
         },
@@ -178,19 +181,19 @@
           "an5.272:1.3": {
             "scid": "an5.272:1.3",
             "pli": "Chandāgatiṁ gacchati, dosāgatiṁ gacchati, mohāgatiṁ gacchati, bhayāgatiṁ gacchati, uddiṭṭhānuddiṭṭhaṁ na jānāti. ",
-            "en": "They make decisions prejudiced by <span class=\"ebt-matched\">favoritism, hostility, stupidity</span>, and cowardice. And they don’t know if a meal has been assigned or not. ",
+            "en": "They make decisions prejudiced by <span class=\"ebt-matched\">favoritism</span>, <span class=\"ebt-matched\">hostility</span>, <span class=\"ebt-matched\">stupidity</span>, and cowardice. And they don’t know if a meal has been assigned or not. ",
             "matched": true
           },
           "an5.272:2.3": {
             "scid": "an5.272:2.3",
             "pli": "Na chandāgatiṁ gacchati, na dosāgatiṁ gacchati, na mohāgatiṁ gacchati, na bhayāgatiṁ gacchati, uddiṭṭhānuddiṭṭhaṁ jānāti. ",
-            "en": "They don’t make decisions prejudiced by <span class=\"ebt-matched\">favoritism, hostility, stupidity</span>, and cowardice. And they know if a meal has been assigned or not. ",
+            "en": "They don’t make decisions prejudiced by <span class=\"ebt-matched\">favoritism</span>, <span class=\"ebt-matched\">hostility</span>, <span class=\"ebt-matched\">stupidity</span>, and cowardice. And they know if a meal has been assigned or not. ",
             "matched": true
           },
           "an5.272:3.3": {
             "scid": "an5.272:3.3",
             "pli": "Na chandāgatiṁ gacchati, na dosāgatiṁ gacchati, na mohāgatiṁ gacchati, na bhayāgatiṁ gacchati, uddiṭṭhānuddiṭṭhaṁ jānāti. ",
-            "en": "They don’t make decisions prejudiced by <span class=\"ebt-matched\">favoritism, hostility, stupidity</span>, and cowardice. And they know if a meal has been assigned or not. ",
+            "en": "They don’t make decisions prejudiced by <span class=\"ebt-matched\">favoritism</span>, <span class=\"ebt-matched\">hostility</span>, <span class=\"ebt-matched\">stupidity</span>, and cowardice. And they know if a meal has been assigned or not. ",
             "matched": true
           }
         },
@@ -219,13 +222,13 @@
           "an4.17:1.3": {
             "scid": "an4.17:1.3",
             "pli": "Chandāgatiṁ gacchati, dosāgatiṁ gacchati, mohāgatiṁ gacchati, bhayāgatiṁ gacchati—",
-            "en": "Making decisions prejudiced by <span class=\"ebt-matched\">favoritism, hostility, stupidity</span>, and cowardice. ",
+            "en": "Making decisions prejudiced by <span class=\"ebt-matched\">favoritism</span>, <span class=\"ebt-matched\">hostility</span>, <span class=\"ebt-matched\">stupidity</span>, and cowardice. ",
             "matched": true
           },
           "an4.17:2.2": {
             "scid": "an4.17:2.2",
             "pli": "yo dhammaṁ ativattati; ",
-            "en": "out of favoritism, hostility, cowardice, or stupidity, ",
+            "en": "out of <span class=\"ebt-matched\">favoritism</span>, <span class=\"ebt-matched\">hostility</span>, cowardice, or <span class=\"ebt-matched\">stupidity</span>, ",
             "matched": true
           }
         },
@@ -254,13 +257,13 @@
           "an4.18:1.3": {
             "scid": "an4.18:1.3",
             "pli": "Na chandāgatiṁ gacchati, na dosāgatiṁ gacchati, na mohāgatiṁ gacchati, na bhayāgatiṁ gacchati—",
-            "en": "Making decisions unprejudiced by <span class=\"ebt-matched\">favoritism, hostility, stupidity</span>, and cowardice. ",
+            "en": "Making decisions unprejudiced by <span class=\"ebt-matched\">favoritism</span>, <span class=\"ebt-matched\">hostility</span>, <span class=\"ebt-matched\">stupidity</span>, and cowardice. ",
             "matched": true
           },
           "an4.18:2.2": {
             "scid": "an4.18:2.2",
             "pli": "yo dhammaṁ nātivattati; ",
-            "en": "out of favoritism, hostility, cowardice, and stupidity, ",
+            "en": "out of <span class=\"ebt-matched\">favoritism</span>, <span class=\"ebt-matched\">hostility</span>, cowardice, and <span class=\"ebt-matched\">stupidity</span>, ",
             "matched": true
           }
         },
@@ -289,13 +292,13 @@
           "an4.20:1.3": {
             "scid": "an4.20:1.3",
             "pli": "Chandāgatiṁ gacchati, dosāgatiṁ gacchati, mohāgatiṁ gacchati, bhayāgatiṁ gacchati—",
-            "en": "They make decisions prejudiced by <span class=\"ebt-matched\">favoritism, hostility, stupidity</span>, and cowardice. ",
+            "en": "They make decisions prejudiced by <span class=\"ebt-matched\">favoritism</span>, <span class=\"ebt-matched\">hostility</span>, <span class=\"ebt-matched\">stupidity</span>, and cowardice. ",
             "matched": true
           },
           "an4.20:2.3": {
             "scid": "an4.20:2.3",
             "pli": "Na chandāgatiṁ gacchati, na dosāgatiṁ gacchati, na mohāgatiṁ gacchati, na bhayāgatiṁ gacchati—",
-            "en": "They make decisions unprejudiced by <span class=\"ebt-matched\">favoritism, hostility, stupidity</span>, and cowardice. ",
+            "en": "They make decisions unprejudiced by <span class=\"ebt-matched\">favoritism</span>, <span class=\"ebt-matched\">hostility</span>, <span class=\"ebt-matched\">stupidity</span>, and cowardice. ",
             "matched": true
           }
         },
@@ -324,13 +327,13 @@
           "an2.46:1.5": {
             "scid": "an2.46:1.5",
             "pli": "Idha, bhikkhave, yassaṁ parisāyaṁ bhikkhū chandāgatiṁ gacchanti, dosāgatiṁ gacchanti, mohāgatiṁ gacchanti, bhayāgatiṁ gacchanti. ",
-            "en": "An assembly where the mendicants make decisions prejudiced by <span class=\"ebt-matched\">favoritism, hostility, stupidity</span>, and cowardice. ",
+            "en": "An assembly where the mendicants make decisions prejudiced by <span class=\"ebt-matched\">favoritism</span>, <span class=\"ebt-matched\">hostility</span>, <span class=\"ebt-matched\">stupidity</span>, and cowardice. ",
             "matched": true
           },
           "an2.46:2.2": {
             "scid": "an2.46:2.2",
             "pli": "Idha, bhikkhave, yassaṁ parisāyaṁ bhikkhū na chandāgatiṁ gacchanti, na dosāgatiṁ gacchanti, na mohāgatiṁ gacchanti, na bhayāgatiṁ gacchanti. ",
-            "en": "An assembly where the mendicants make decisions unprejudiced by <span class=\"ebt-matched\">favoritism, hostility, stupidity</span>, and cowardice. ",
+            "en": "An assembly where the mendicants make decisions unprejudiced by <span class=\"ebt-matched\">favoritism</span>, <span class=\"ebt-matched\">hostility</span>, <span class=\"ebt-matched\">stupidity</span>, and cowardice. ",
             "matched": true
           }
         },
@@ -347,6 +350,35 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.33_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an8/an8.33_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an8.33",
+        "lang": "en",
+        "segMap": {
+          "an8.33:1.3": {
+            "scid": "an8.33:1.3",
+            "pli": "Chandā dānaṁ deti, dosā dānaṁ deti, mohā dānaṁ deti, bhayā dānaṁ deti, ‘dinnapubbaṁ katapubbaṁ pitupitāmahehi, nārahāmi porāṇaṁ kulavaṁsaṁ hāpetun’ti dānaṁ deti, ‘imāhaṁ dānaṁ datvā kāyassa bhedā paraṁ maraṇā sugatiṁ saggaṁ lokaṁ upapajjissāmī’ti dānaṁ deti, ‘imaṁ me dānaṁ dadato cittaṁ pasīdati, attamanatā somanassaṁ upajāyatī’ti dānaṁ deti, cittālaṅkāracittaparikkhāratthaṁ dānaṁ deti. ",
+            "en": "A person might give a gift out of <span class=\"ebt-matched\">favoritism</span> or <span class=\"ebt-matched\">hostility</span> or <span class=\"ebt-matched\">stupidity</span> or cowardice. Or they give thinking, ‘Giving was practiced by my father and my father’s father. It would not be right for me to abandon this family tradition.’ Or they give thinking, ‘After I’ve given this gift, when my body breaks up, after death, I’ll be reborn in a good place, a heavenly realm.’ Or they give thinking, ‘When giving this gift my mind becomes clear, and I become happy and joyful.’ Or they give a gift thinking, ‘This is an adornment and requisite for the mind.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.125,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 8\n4. Giving\n33. Reasons to Give",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 8,
+          "en": 7
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an9/an9.7_root-pli-ms.json",
           "translation/en/sujato/sutta/an/an9/an9.7_translation-en-sujato.json"
         ],
@@ -359,7 +391,7 @@
           "an9.7:3.4": {
             "scid": "an9.7:3.4",
             "pli": "abhabbo khīṇāsavo bhikkhu sañcicca pāṇaṁ jīvitā voropetuṁ, abhabbo khīṇāsavo bhikkhu adinnaṁ theyyasaṅkhātaṁ ādātuṁ, abhabbo khīṇāsavo bhikkhu methunaṁ dhammaṁ paṭisevituṁ, abhabbo khīṇāsavo bhikkhu sampajānamusā bhāsituṁ, abhabbo khīṇāsavo bhikkhu sannidhikārakaṁ kāme paribhuñjituṁ seyyathāpi pubbe agāriyabhūto, abhabbo khīṇāsavo bhikkhu chandāgatiṁ gantuṁ, abhabbo khīṇāsavo bhikkhu dosāgatiṁ gantuṁ, abhabbo khīṇāsavo bhikkhu mohāgatiṁ gantuṁ, abhabbo khīṇāsavo bhikkhu bhayāgatiṁ gantuṁ’. ",
-            "en": "A mendicant with defilements ended can’t deliberately take the life of a living creature, take something with the intention to steal, have sex, tell a deliberate lie, or store up goods for their own enjoyment like they did as a lay person. And they can’t make decisions prejudiced by <span class=\"ebt-matched\">favoritism, hostility, stupidity</span>, or cowardice.’ ",
+            "en": "A mendicant with defilements ended can’t deliberately take the life of a living creature, take something with the intention to steal, have sex, tell a deliberate lie, or store up goods for their own enjoyment like they did as a lay person. And they can’t make decisions prejudiced by <span class=\"ebt-matched\">favoritism</span>, <span class=\"ebt-matched\">hostility</span>, <span class=\"ebt-matched\">stupidity</span>, or cowardice.’ ",
             "matched": true
           }
         },
@@ -388,7 +420,7 @@
           "an5.273-285:14.3": {
             "scid": "an5.273-285:14.3",
             "pli": "Na chandāgatiṁ gacchati, na dosāgatiṁ gacchati, na mohāgatiṁ gacchati, na bhayāgatiṁ gacchati, pesitāpesitaṁ jānāti. ",
-            "en": "They don’t make decisions prejudiced by <span class=\"ebt-matched\">favoritism, hostility, stupidity</span>, and cowardice. And they know if a novice has been supervised or not. ",
+            "en": "They don’t make decisions prejudiced by <span class=\"ebt-matched\">favoritism</span>, <span class=\"ebt-matched\">hostility</span>, <span class=\"ebt-matched\">stupidity</span>, and cowardice. And they know if a novice has been supervised or not. ",
             "matched": true
           }
         },
@@ -417,7 +449,7 @@
           "dn29:26.8": {
             "scid": "dn29:26.8",
             "pli": "Abhabbo, āvuso, khīṇāsavo bhikkhu sañcicca pāṇaṁ jīvitā voropetuṁ; abhabbo khīṇāsavo bhikkhu adinnaṁ theyyasaṅkhātaṁ ādiyituṁ; abhabbo khīṇāsavo bhikkhu methunaṁ dhammaṁ paṭisevituṁ; abhabbo khīṇāsavo bhikkhu sampajānamusā bhāsituṁ; abhabbo khīṇāsavo bhikkhu sannidhikārakaṁ kāme paribhuñjituṁ, seyyathāpi pubbe āgārikabhūto; abhabbo khīṇāsavo bhikkhu chandāgatiṁ gantuṁ; abhabbo khīṇāsavo bhikkhu dosāgatiṁ gantuṁ; abhabbo khīṇāsavo bhikkhu mohāgatiṁ gantuṁ; abhabbo khīṇāsavo bhikkhu bhayāgatiṁ gantuṁ. ",
-            "en": "A mendicant with defilements ended can’t deliberately take the life of a living creature, take something with the intention to steal, have sex, tell a deliberate lie, or store up goods for their own enjoyment like they did as a lay person. And they can’t make decisions prejudiced by <span class=\"ebt-matched\">favoritism, hostility, stupidity</span>, or cowardice. ",
+            "en": "A mendicant with defilements ended can’t deliberately take the life of a living creature, take something with the intention to steal, have sex, tell a deliberate lie, or store up goods for their own enjoyment like they did as a lay person. And they can’t make decisions prejudiced by <span class=\"ebt-matched\">favoritism</span>, <span class=\"ebt-matched\">hostility</span>, <span class=\"ebt-matched\">stupidity</span>, or cowardice. ",
             "matched": true
           }
         },
@@ -446,7 +478,7 @@
           "dn33:1.11.128": {
             "scid": "dn33:1.11.128",
             "pli": "chandāgatiṁ gacchati, dosāgatiṁ gacchati, mohāgatiṁ gacchati, bhayāgatiṁ gacchati. ",
-            "en": "making decisions prejudiced by <span class=\"ebt-matched\">favoritism, hostility, stupidity</span>, and cowardice. ",
+            "en": "making decisions prejudiced by <span class=\"ebt-matched\">favoritism</span>, <span class=\"ebt-matched\">hostility</span>, <span class=\"ebt-matched\">stupidity</span>, and cowardice. ",
             "matched": true
           }
         },
