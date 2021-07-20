@@ -32,7 +32,7 @@
     "pattern": "vom entstehen und vergehen",
     "method": "phrase",
     "resultPattern": "\\bvom entstehen und vergehen",
-    "segsMatched": 17,
+    "segsMatched": 18,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
@@ -49,6 +49,9 @@
       "root/pli/ms/sutta/an/an9/an9.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an9/an9.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an9/an9.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an8/an8.30_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an8/an8.30_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an8/an8.30_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an7/an7.6_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an7/an7.6_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an7/an7.6_translation-en-sujato.json",
@@ -80,6 +83,7 @@
       "an5.136/de/sabbamitta",
       "an5.135/de/sabbamitta",
       "an9.1/de/sabbamitta",
+      "an8.30/de/sabbamitta",
       "an7.6/de/sabbamitta",
       "an7.67/de/sabbamitta",
       "an7.4/de/sabbamitta",
@@ -532,6 +536,38 @@
           "pli": 97,
           "de": 95,
           "en": 96
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.30_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an8/an8.30_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an8/an8.30_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an8.30",
+        "lang": "de",
+        "segMap": {
+          "an8.30:20.3": {
+            "scid": "an8.30:20.3",
+            "pli": "Idha, bhikkhave, bhikkhu paññavā hoti udayatthagāminiyā paññāya samannāgato ariyāya nibbedhikāya sammā dukkhakkhayagāminiyā. ",
+            "de": "Sie ist für eine Nonne, die weise ist, die das Wissen <span class=\"ebt-matched\">vom Entstehen und Vergehen</span> besitzt, das edel und durchdringend ist und zum völligen Beenden des Leidens führt. ",
+            "en": "It’s for a mendicant who’s wise. They have the wisdom of arising and passing away which is noble, penetrative, and leads to the complete ending of suffering. ",
+            "matched": true
+          }
+        },
+        "score": 1.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 8\n3. Hausbesitzer\n30. Anuruddha und die großen Gedanken",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 119,
+          "de": 112,
+          "en": 117
         }
       }
     ]

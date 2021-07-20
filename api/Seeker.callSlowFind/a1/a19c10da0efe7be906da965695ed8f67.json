@@ -32,18 +32,22 @@
     "pattern": "auflösen der bindungen",
     "method": "phrase",
     "resultPattern": "\\bauflösen der bindungen",
-    "segsMatched": 7,
+    "segsMatched": 8,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an6/an6.56_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.56_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an6/an6.56_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn5/sn5.8_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn5/sn5.8_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn5/sn5.8_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn5/sn5.8_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an8/an8.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an8/an8.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an8/an8.1_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an6.56/de/sabbamitta",
-      "sn5.8/de/sabbamitta"
+      "sn5.8/de/sabbamitta",
+      "an8.1/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -143,6 +147,38 @@
           "pli": 28,
           "de": 28,
           "en": 28
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an8/an8.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an8/an8.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an8.1",
+        "lang": "de",
+        "segMap": {
+          "an8.1:3.4": {
+            "scid": "an8.1:3.4",
+            "pli": "passato upadhikkhayaṁ. ",
+            "de": "und sieht das <span class=\"ebt-matched\">Auflösen der Bindungen</span>. ",
+            "en": "seeing the ending of attachments. ",
+            "matched": true
+          }
+        },
+        "score": 1.029,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 8\n1. Liebe\n1. Die vorteilhaften Folgen der Liebe",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 34,
+          "de": 33,
+          "en": 33
         }
       }
     ]

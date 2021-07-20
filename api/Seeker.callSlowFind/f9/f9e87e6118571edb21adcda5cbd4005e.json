@@ -32,7 +32,7 @@
     "pattern": "gewissen und zurückhaltung",
     "method": "phrase",
     "resultPattern": "\\bgewissen und zurückhaltung",
-    "segsMatched": 52,
+    "segsMatched": 55,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an7/an7.65_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an7/an7.65_translation-de-sabbamitta.json",
@@ -79,6 +79,9 @@
       "root/pli/ms/sutta/an/an6/an6.33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.33_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an6/an6.33_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.202_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.202_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.202_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an2/an2.87-97_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an2/an2.87-97_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an2/an2.87-97_translation-en-sujato.json",
@@ -105,6 +108,7 @@
       "an7.33/de/sabbamitta",
       "an6.45/de/sabbamitta",
       "an6.33/de/sabbamitta",
+      "an4.202/de/sabbamitta",
       "an2.87-97/de/sabbamitta",
       "an2.230-279/de/sabbamitta",
       "an10.105/de/sabbamitta"
@@ -380,6 +384,52 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.202_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.202_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.202_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.202",
+        "lang": "de",
+        "segMap": {
+          "an4.202:2.2": {
+            "scid": "an4.202:2.2",
+            "pli": "Idha, bhikkhave, ekacco assaddho hoti, ahiriko hoti, anottappī hoti, appassuto hoti, kusīto hoti, muṭṭhassati hoti, duppañño hoti. ",
+            "de": "Da ist jemand ohne Vertrauen, gewissenlos, ohne Zurückhaltung, ungebildet, faul, unachtsam und geistlos. ",
+            "en": "It’s someone who is faithless, shameless, imprudent, with little learning, lazy, unmindful, and witless. ",
+            "matched": true
+          },
+          "an4.202:3.2": {
+            "scid": "an4.202:3.2",
+            "pli": "Idha, bhikkhave, ekacco attanā ca assaddho hoti, parañca assaddhiye samādapeti; ",
+            "de": "Da ist jemand ohne Vertrauen, gewissenlos, ohne Zurückhaltung, ungebildet, faul, unachtsam und geistlos. Und er stiftet andere zu ebendiesen Eigenschaften an. ",
+            "en": "It’s someone who is faithless, shameless, imprudent, with little learning, lazy, confused, and witless. And they encourage others in these same qualities. ",
+            "matched": true
+          },
+          "an4.202:5.2": {
+            "scid": "an4.202:5.2",
+            "pli": "Idha, bhikkhave, ekacco attanā ca saddhāsampanno hoti, parañca saddhāsampadāya samādapeti; ",
+            "de": "Da hat jemand selbst Vertrauen, <span class=\"ebt-matched\">Gewissen und Zurückhaltung</span>, Gelehrsamkeit, Energie, Achtsamkeit und Weisheit erfüllt. Und er bestärkt andere in ebendiesen Eigenschaften. ",
+            "en": "It’s someone who is personally accomplished in faith, conscience, prudence, learning, energy, mindfulness, and wisdom. And they encourage others in these same qualities. ",
+            "matched": true
+          }
+        },
+        "score": 3.1,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 4\n21. Ein guter Mensch\n202. Ohne Vertrauen",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 30,
+          "de": 29,
+          "en": 29
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an8/an8.2_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/an/an8/an8.2_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/an/an8/an8.2_translation-en-sujato.json"
@@ -393,21 +443,21 @@
           "an8.2:1.3": {
             "scid": "an8.2:1.3",
             "pli": "Idha, bhikkhave, bhikkhu satthāraṁ upanissāya viharati aññataraṁ vā garuṭṭhāniyaṁ sabrahmacāriṁ, yatthassa tibbaṁ hirottappaṁ paccupaṭṭhitaṁ hoti pemañca gāravo ca. ",
-            "de": "Da lebt ein Mönch, indem er sich auf den Lehrer oder einen geistlichen Gefährten in der Lehrerrolle stützt. Und er entwickelt ihnen gegenüber einen ausgeprägten Sinn für <span class=\"ebt-matched\">Gewissen und Zurückhaltung</span> mit Zuneigung und Respekt. ",
+            "de": "Da lebt ein Mönch, indem er sich auf den Lehrer oder einen geistlichen Gefährten in der Lehrerrolle stützt. Und er entwickelt ihnen gegenüber einen ausgeprägten Sinn für <span class=\"ebt-matched\">Gewissen und Zurückhaltung</span> mit Herzlichkeit und Respekt. ",
             "en": "It’s when a mendicant lives relying on the Teacher or a spiritual companion in a teacher’s role. And they set up a keen sense of conscience and prudence for them, with warmth and respect. ",
             "matched": true
           },
           "an8.2:2.1": {
             "scid": "an8.2:2.1",
             "pli": "So taṁ satthāraṁ upanissāya viharanto aññataraṁ vā garuṭṭhāniyaṁ sabrahmacāriṁ, yatthassa tibbaṁ hirottappaṁ paccupaṭṭhitaṁ hoti pemañca gāravo ca, te kālena kālaṁ upasaṅkamitvā paripucchati paripañhati: ",
-            "de": "Wenn ein Mönch so mit dem Lehrer oder einem geistlichen Gefährten in der Lehrerrolle lebt – mit einem ausgeprägten Sinn für <span class=\"ebt-matched\">Gewissen und Zurückhaltung</span> mit Zuneigung und Respekt –, geht er von Zeit zu Zeit hin und stellt Fragen: ",
+            "de": "Wenn ein Mönch so mit dem Lehrer oder einem geistlichen Gefährten in der Lehrerrolle lebt – mit einem ausgeprägten Sinn für <span class=\"ebt-matched\">Gewissen und Zurückhaltung</span> mit Herzlichkeit und Respekt –, geht er von Zeit zu Zeit hin und stellt Fragen: ",
             "en": "When a mendicant lives relying on the Teacher or a spiritual companion in a teacher’s role—with a keen sense of conscience and prudence for them, with warmth and respect—from time to time they go and ask them questions: ",
             "matched": true
           },
           "an8.2:9.2": {
             "scid": "an8.2:9.2",
             "pli": "‘ayaṁ kho āyasmā satthāraṁ upanissāya viharati aññataraṁ vā garuṭṭhāniyaṁ sabrahmacāriṁ, yatthassa tibbaṁ hirottappaṁ paccupaṭṭhitaṁ hoti pemañca gāravo ca. ",
-            "de": "‚Dieser Ehrwürdige lebt, indem er sich auf den Lehrer oder einen geistlichen Gefährten in der Lehrerrolle stützt. Und er entwickelt ihnen gegenüber einen ausgeprägten Sinn für <span class=\"ebt-matched\">Gewissen und Zurückhaltung</span> mit Zuneigung und Respekt. ",
+            "de": "‚Dieser Ehrwürdige lebt, indem er sich auf den Lehrer oder einen geistlichen Gefährten in der Lehrerrolle stützt. Und er entwickelt ihnen gegenüber einen ausgeprägten Sinn für <span class=\"ebt-matched\">Gewissen und Zurückhaltung</span> mit Herzlichkeit und Respekt. ",
             "en": "‘This venerable lives relying on the Teacher or a spiritual companion in a teacher’s role. They set up a keen sense of conscience and prudence for them, with warmth and respect. ",
             "matched": true
           }

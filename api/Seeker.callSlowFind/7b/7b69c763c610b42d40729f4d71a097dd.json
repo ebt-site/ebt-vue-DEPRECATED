@@ -32,20 +32,126 @@
     "pattern": "verpasste gelegenheit",
     "method": "phrase",
     "resultPattern": "\\bverpasste gelegenheit",
-    "segsMatched": 19,
+    "segsMatched": 30,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an8/an8.29_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an8/an8.29_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an8/an8.29_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "dn33/de/sabbamitta",
+      "an8.29/de/sabbamitta",
       "dn34/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.29_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an8/an8.29_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an8/an8.29_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an8.29",
+        "lang": "de",
+        "segMap": {
+          "an8.29:0.3": {
+            "scid": "an8.29:0.3",
+            "pli": "29. Akkhaṇasutta ",
+            "de": "29. <span class=\"ebt-matched\">Verpasste Gelegenheit</span>en ",
+            "en": "29. Lost Opportunities ",
+            "matched": true
+          },
+          "an8.29:1.2": {
+            "scid": "an8.29:1.2",
+            "pli": "Aṭṭhime, bhikkhave, akkhaṇā asamayā brahmacariyavāsāya. ",
+            "de": "Mönche und Nonnen, es gibt acht <span class=\"ebt-matched\">verpasste Gelegenheit</span>en für die geistliche Übung. ",
+            "en": "Mendicants, there are eight lost opportunities for spiritual practice. ",
+            "matched": true
+          },
+          "an8.29:1.6": {
+            "scid": "an8.29:1.6",
+            "pli": "Ayaṁ, bhikkhave, paṭhamo akkhaṇo asamayo brahmacariyavāsāya. ",
+            "de": "Das ist die erste <span class=\"ebt-matched\">verpasste Gelegenheit</span> für die geistliche Übung. ",
+            "en": "This is the first lost opportunity for spiritual practice. ",
+            "matched": true
+          },
+          "an8.29:2.2": {
+            "scid": "an8.29:2.2",
+            "pli": "ayañca puggalo tiracchānayoniṁ upapanno hoti …pe…. ",
+            "de": "Aber man wurde im Tierreich wiedergeboren. Das ist die zweite <span class=\"ebt-matched\">verpasste Gelegenheit</span>. ",
+            "en": "But a person has been reborn in the animal realm. This is the second lost opportunity. ",
+            "matched": true
+          },
+          "an8.29:3.2": {
+            "scid": "an8.29:3.2",
+            "pli": "ayañca puggalo pettivisayaṁ upapanno hoti …pe…. ",
+            "de": "Aber man wurde im Gespensterreich wiedergeboren. Das ist die dritte <span class=\"ebt-matched\">verpasste Gelegenheit</span>. ",
+            "en": "But a person has been reborn in the ghost realm. This is the third lost opportunity. ",
+            "matched": true
+          },
+          "an8.29:4.2": {
+            "scid": "an8.29:4.2",
+            "pli": "ayañca puggalo aññataraṁ dīghāyukaṁ devanikāyaṁ upapanno hoti …pe…. ",
+            "de": "Aber man wurde in einer der Klassen langlebiger Götter wiedergeboren. Das ist die vierte <span class=\"ebt-matched\">verpasste Gelegenheit</span>. ",
+            "en": "But a person has been reborn in one of the long-lived orders of gods. This is the fourth lost opportunity. ",
+            "matched": true
+          },
+          "an8.29:5.2": {
+            "scid": "an8.29:5.2",
+            "pli": "ayañca puggalo paccantimesu janapadesu paccājāto hoti, so ca hoti aviññātāresu milakkhesu, yattha natthi gati bhikkhūnaṁ bhikkhunīnaṁ upāsakānaṁ upāsikānaṁ …pe…. ",
+            "de": "Aber man wurde in den Grenzgebieten wiedergeboren, unter fremden wilden Stämmen, da, wo Mönche, Nonnen, Laienmänner und Laienfrauen nicht hingehen. Das ist die fünfte <span class=\"ebt-matched\">verpasste Gelegenheit</span>. ",
+            "en": "But a person has been reborn in the borderlands, among strange barbarian tribes, where monks, nuns, laymen, and laywomen do not go. This is the fifth lost opportunity … ",
+            "matched": true
+          },
+          "an8.29:6.2": {
+            "scid": "an8.29:6.2",
+            "pli": "‘natthi dinnaṁ, natthi yiṭṭhaṁ, natthi hutaṁ, natthi sukatadukkaṭānaṁ kammānaṁ phalaṁ vipāko, natthi ayaṁ loko, natthi paro loko, natthi mātā, natthi pitā, natthi sattā opapātikā, natthi loke samaṇabrāhmaṇā sammaggatā sammā paṭipannā ye imañca lokaṁ parañca lokaṁ sayaṁ abhiññā sacchikatvā pavedentī’ti …pe…. ",
+            "de": "‚Geben, Opfer oder Spenden haben keine Bedeutung. Es gibt keine Frucht und kein Ergebnis von guten und schlechten Taten. Es gibt kein Leben nach dem Tod. Es gibt keine Verpflichtung gegenüber Mutter und Vater. Es gibt keine Wesen, die durch unmittelbares Erscheinen wiedergeboren werden. Und es gibt keine Asketen oder Brahmanen, die richtig angekommen sind, richtig geübt haben, die das Leben nach dem Tod durch eigene Einsicht erkannt haben und es erklären.‘ Das ist die sechste <span class=\"ebt-matched\">verpasste Gelegenheit</span>. ",
+            "en": "‘There’s no meaning in giving, sacrifice, or offerings. There’s no fruit or result of good and bad deeds. There’s no afterlife. There’s no obligation to mother and father. No beings are reborn spontaneously. And there’s no ascetic or brahmin who is well attained and practiced, and who describes the afterlife after realizing it with their own insight.’ This is the sixth lost opportunity … ",
+            "matched": true
+          },
+          "an8.29:7.3": {
+            "scid": "an8.29:7.3",
+            "pli": "Ayaṁ, bhikkhave, sattamo akkhaṇo asamayo brahmacariyavāsāya. ",
+            "de": "Das ist die siebte <span class=\"ebt-matched\">verpasste Gelegenheit</span>. ",
+            "en": "This is the seventh lost opportunity … ",
+            "matched": true
+          },
+          "an8.29:8.3": {
+            "scid": "an8.29:8.3",
+            "pli": "Ayaṁ, bhikkhave, aṭṭhamo akkhaṇo asamayo brahmacariyavāsāya. ",
+            "de": "Das ist die achte <span class=\"ebt-matched\">verpasste Gelegenheit</span> für die geistliche Übung. ",
+            "en": "This is the eighth lost opportunity … ",
+            "matched": true
+          },
+          "an8.29:9.1": {
+            "scid": "an8.29:9.1",
+            "pli": "Ime kho, bhikkhave, aṭṭha akkhaṇā asamayā brahmacariyavāsāya. ",
+            "de": "Das sind die acht verpassten Gelegenheiten für die geistliche Übung. ",
+            "en": "There are these eight lost opportunities for spiritual practice. ",
+            "matched": true
+          }
+        },
+        "score": 11.149,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 8\n3. Hausbesitzer\n29. Verpasste Gelegenheiten",
+        "segsMatched": 11,
+        "langSegs": {
+          "pli": 74,
+          "de": 73,
+          "en": 73
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
@@ -61,70 +167,70 @@
           "dn33:3.2.43": {
             "scid": "dn33:3.2.43",
             "pli": "Nava akkhaṇā asamayā brahmacariyavāsāya. ",
-            "de": "Neun <span class=\"ebt-matched\">verpasste Gelegenheit</span>en zur geistlichen Übung: ",
+            "de": "Neun <span class=\"ebt-matched\">verpasste Gelegenheit</span>en für die geistliche Übung: ",
             "en": "Nine lost opportunities for spiritual practice. ",
             "matched": true
           },
           "dn33:3.2.46": {
             "scid": "dn33:3.2.46",
             "pli": "Ayaṁ paṭhamo akkhaṇo asamayo brahmacariyavāsāya. ",
-            "de": "Das ist die erste <span class=\"ebt-matched\">verpasste Gelegenheit</span> zur geistlichen Übung. ",
+            "de": "Das ist die erste <span class=\"ebt-matched\">verpasste Gelegenheit</span> für die geistliche Übung. ",
             "en": "This is the first lost opportunity for spiritual practice. ",
             "matched": true
           },
           "dn33:3.2.49": {
             "scid": "dn33:3.2.49",
             "pli": "Ayaṁ dutiyo akkhaṇo asamayo brahmacariyavāsāya. ",
-            "de": "Das ist die zweite <span class=\"ebt-matched\">verpasste Gelegenheit</span> zur geistlichen Übung. ",
+            "de": "Das ist die zweite <span class=\"ebt-matched\">verpasste Gelegenheit</span> für die geistliche Übung. ",
             "en": "This is the second lost opportunity for spiritual practice. ",
             "matched": true
           },
           "dn33:3.2.52": {
             "scid": "dn33:3.2.52",
             "pli": "Ayaṁ tatiyo akkhaṇo asamayo brahmacariyavāsāya. ",
-            "de": "Das ist die dritte <span class=\"ebt-matched\">verpasste Gelegenheit</span> zur geistlichen Übung. ",
+            "de": "Das ist die dritte <span class=\"ebt-matched\">verpasste Gelegenheit</span> für die geistliche Übung. ",
             "en": "This is the third lost opportunity for spiritual practice. ",
             "matched": true
           },
           "dn33:3.2.55": {
             "scid": "dn33:3.2.55",
             "pli": "Ayaṁ catuttho akkhaṇo asamayo brahmacariyavāsāya. ",
-            "de": "Das ist die vierte <span class=\"ebt-matched\">verpasste Gelegenheit</span> zur geistlichen Übung. ",
+            "de": "Das ist die vierte <span class=\"ebt-matched\">verpasste Gelegenheit</span> für die geistliche Übung. ",
             "en": "This is the fourth lost opportunity for spiritual practice. ",
             "matched": true
           },
           "dn33:3.2.58": {
             "scid": "dn33:3.2.58",
             "pli": "Ayaṁ pañcamo akkhaṇo asamayo brahmacariyavāsāya. ",
-            "de": "Das ist die fünfte <span class=\"ebt-matched\">verpasste Gelegenheit</span> zur geistlichen Übung. ",
+            "de": "Das ist die fünfte <span class=\"ebt-matched\">verpasste Gelegenheit</span> für die geistliche Übung. ",
             "en": "This is the fifth lost opportunity for spiritual practice. ",
             "matched": true
           },
           "dn33:3.2.61": {
             "scid": "dn33:3.2.61",
             "pli": "Ayaṁ chaṭṭho akkhaṇo asamayo brahmacariyavāsāya. ",
-            "de": "Das ist die sechste <span class=\"ebt-matched\">verpasste Gelegenheit</span> zur geistlichen Übung. ",
+            "de": "Das ist die sechste <span class=\"ebt-matched\">verpasste Gelegenheit</span> für die geistliche Übung. ",
             "en": "This is the sixth lost opportunity for spiritual practice. ",
             "matched": true
           },
           "dn33:3.2.65": {
             "scid": "dn33:3.2.65",
             "pli": "Ayaṁ sattamo akkhaṇo asamayo brahmacariyavāsāya. ",
-            "de": "Das ist die siebte <span class=\"ebt-matched\">verpasste Gelegenheit</span> zur geistlichen Übung. ",
+            "de": "Das ist die siebte <span class=\"ebt-matched\">verpasste Gelegenheit</span> für die geistliche Übung. ",
             "en": "This is the seventh lost opportunity for spiritual practice. ",
             "matched": true
           },
           "dn33:3.2.68": {
             "scid": "dn33:3.2.68",
             "pli": "Ayaṁ aṭṭhamo akkhaṇo asamayo brahmacariyavāsāya. ",
-            "de": "Das ist die achte <span class=\"ebt-matched\">verpasste Gelegenheit</span> zur geistlichen Übung. ",
+            "de": "Das ist die achte <span class=\"ebt-matched\">verpasste Gelegenheit</span> für die geistliche Übung. ",
             "en": "This is the eighth lost opportunity for spiritual practice. ",
             "matched": true
           },
           "dn33:3.2.71": {
             "scid": "dn33:3.2.71",
             "pli": "Ayaṁ navamo akkhaṇo asamayo brahmacariyavāsāya. ",
-            "de": "Das ist die neunte <span class=\"ebt-matched\">verpasste Gelegenheit</span> zur geistlichen Übung. ",
+            "de": "Das ist die neunte <span class=\"ebt-matched\">verpasste Gelegenheit</span> für die geistliche Übung. ",
             "en": "This is the ninth lost opportunity for spiritual practice. ",
             "matched": true
           }
@@ -156,63 +262,63 @@
           "dn34:2.1.122": {
             "scid": "dn34:2.1.122",
             "pli": "Aṭṭha akkhaṇā asamayā brahmacariyavāsāya. ",
-            "de": "Acht <span class=\"ebt-matched\">verpasste Gelegenheit</span>en zur geistlichen Übung: ",
+            "de": "Acht <span class=\"ebt-matched\">verpasste Gelegenheit</span>en für die geistliche Übung: ",
             "en": "Eight lost opportunities for spiritual practice. ",
             "matched": true
           },
           "dn34:2.1.125": {
             "scid": "dn34:2.1.125",
             "pli": "Ayaṁ paṭhamo akkhaṇo asamayo brahmacariyavāsāya.  ",
-            "de": "Das ist die erste <span class=\"ebt-matched\">verpasste Gelegenheit</span> zur geistlichen Übung. ",
+            "de": "Das ist die erste <span class=\"ebt-matched\">verpasste Gelegenheit</span> für die geistliche Übung. ",
             "en": "This is the first lost opportunity for spiritual practice. ",
             "matched": true
           },
           "dn34:2.1.128": {
             "scid": "dn34:2.1.128",
             "pli": "Ayaṁ dutiyo akkhaṇo asamayo brahmacariyavāsāya.  ",
-            "de": "Das ist die zweite <span class=\"ebt-matched\">verpasste Gelegenheit</span> zur geistlichen Übung. ",
+            "de": "Das ist die zweite <span class=\"ebt-matched\">verpasste Gelegenheit</span> für die geistliche Übung. ",
             "en": "This is the second lost opportunity for spiritual practice. ",
             "matched": true
           },
           "dn34:2.1.131": {
             "scid": "dn34:2.1.131",
             "pli": "Ayaṁ tatiyo akkhaṇo asamayo brahmacariyavāsāya.  ",
-            "de": "Das ist die dritte <span class=\"ebt-matched\">verpasste Gelegenheit</span> zur geistlichen Übung. ",
+            "de": "Das ist die dritte <span class=\"ebt-matched\">verpasste Gelegenheit</span> für die geistliche Übung. ",
             "en": "This is the third lost opportunity for spiritual practice. ",
             "matched": true
           },
           "dn34:2.1.134": {
             "scid": "dn34:2.1.134",
             "pli": "Ayaṁ catuttho akkhaṇo asamayo brahmacariyavāsāya.  ",
-            "de": "Das ist die vierte <span class=\"ebt-matched\">verpasste Gelegenheit</span> zur geistlichen Übung. ",
+            "de": "Das ist die vierte <span class=\"ebt-matched\">verpasste Gelegenheit</span> für die geistliche Übung. ",
             "en": "This is the fourth lost opportunity for spiritual practice. ",
             "matched": true
           },
           "dn34:2.1.137": {
             "scid": "dn34:2.1.137",
             "pli": "Ayaṁ pañcamo akkhaṇo asamayo brahmacariyavāsāya.  ",
-            "de": "Das ist die fünfte <span class=\"ebt-matched\">verpasste Gelegenheit</span> zur geistlichen Übung. ",
+            "de": "Das ist die fünfte <span class=\"ebt-matched\">verpasste Gelegenheit</span> für die geistliche Übung. ",
             "en": "This is the fifth lost opportunity for spiritual practice. ",
             "matched": true
           },
           "dn34:2.1.141": {
             "scid": "dn34:2.1.141",
             "pli": "Ayaṁ chaṭṭho akkhaṇo asamayo brahmacariyavāsāya.  ",
-            "de": "Das ist die sechste <span class=\"ebt-matched\">verpasste Gelegenheit</span> zur geistlichen Übung. ",
+            "de": "Das ist die sechste <span class=\"ebt-matched\">verpasste Gelegenheit</span> für die geistliche Übung. ",
             "en": "This is the sixth lost opportunity for spiritual practice. ",
             "matched": true
           },
           "dn34:2.1.144": {
             "scid": "dn34:2.1.144",
             "pli": "Ayaṁ sattamo akkhaṇo asamayo brahmacariyavāsāya.  ",
-            "de": "Das ist die siebte <span class=\"ebt-matched\">verpasste Gelegenheit</span> zur geistlichen Übung. ",
+            "de": "Das ist die siebte <span class=\"ebt-matched\">verpasste Gelegenheit</span> für die geistliche Übung. ",
             "en": "This is the seventh lost opportunity for spiritual practice. ",
             "matched": true
           },
           "dn34:2.1.147": {
             "scid": "dn34:2.1.147",
             "pli": "Ayaṁ aṭṭhamo akkhaṇo asamayo brahmacariyavāsāya. ",
-            "de": "Das ist die achte <span class=\"ebt-matched\">verpasste Gelegenheit</span> zur geistlichen Übung. ",
+            "de": "Das ist die achte <span class=\"ebt-matched\">verpasste Gelegenheit</span> für die geistliche Übung. ",
             "en": "This is the eighth lost opportunity for spiritual practice. ",
             "matched": true
           }

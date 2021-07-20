@@ -32,20 +32,60 @@
     "pattern": "zum töten",
     "method": "phrase",
     "resultPattern": "\\bzum töten",
-    "segsMatched": 2,
+    "segsMatched": 4,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn25_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn25_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn25_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.1_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an8/an8.1_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an8/an8.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.264_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.264_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.264_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.163-182_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an3/an3.163-182_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an3/an3.163-182_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "dn25/de/sabbamitta",
-      "an8.1/de/sabbamitta"
+      "an8.1/de/sabbamitta",
+      "an4.264/de/sabbamitta",
+      "an3.163-182/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.264_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.264_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.264_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.264",
+        "lang": "de",
+        "segMap": {
+          "an4.264:1.3": {
+            "scid": "an4.264:1.3",
+            "pli": "Attanā ca pāṇātipātī hoti, parañca pāṇātipāte samādapeti, pāṇātipāte ca samanuñño hoti, pāṇātipātassa ca vaṇṇaṁ bhāsati—",
+            "de": "Man tötet selbst lebende Geschöpfe; man stiftet andere <span class=\"ebt-matched\">zum Töten</span> lebender Geschöpfe an; man heißt das Töten lebender Geschöpfe gut; und man lobt das Töten lebender Geschöpfe. ",
+            "en": "They themselves kill living creatures; they encourage others to kill living creatures; they approve of killing living creatures; and they praise killing living creatures. ",
+            "matched": true
+          }
+        },
+        "score": 1.083,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 4\n27. Wie man Taten begeht\n264. Lebende Geschöpfe töten",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 12,
+          "de": 11,
+          "en": 11
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/an/an8/an8.1_root-pli-ms.json",
@@ -76,6 +116,38 @@
           "pli": 34,
           "de": 33,
           "en": 33
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an3/an3.163-182_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an3/an3.163-182_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an3/an3.163-182_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an3.163-182",
+        "lang": "de",
+        "segMap": {
+          "an3.163:1.3": {
+            "scid": "an3.163:1.3",
+            "pli": "Attanā ca pāṇātipātī hoti, parañca pāṇātipāte samādapeti, pāṇātipāte ca samanuñño hoti. ",
+            "de": "Man tötet selbst lebende Geschöpfe; man stiftet andere <span class=\"ebt-matched\">zum Töten</span> lebender Geschöpfe an; und man heißt das Töten lebender Geschöpfe gut. ",
+            "en": "They themselves kill living creatures. They encourage others to kill living creatures. And they approve of killing living creatures. ",
+            "matched": true
+          }
+        },
+        "score": 1.027,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 3\n17. Wie man Taten begeht\n163–182",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 37,
+          "de": 35,
+          "en": 35
         }
       },
       {
