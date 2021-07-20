@@ -31,7 +31,7 @@
         should(bw.examples).equal(examples);
         should(bw.fetch).equal(fetch);
     });
-    it("TESTTESTdecodeHash() => hash object", ()=>{
+    it("decodeHash() => hash object", ()=>{
         // vagga test: an2.31 is part of an2.27-31
         should.deepEqual(BilaraWeb.decodeHash('#an2.31/en/sujato:1.2'), {
             sutta_uid: 'an2.31',
@@ -134,7 +134,7 @@
         let guid = '6887db39e3f45d06e4e87ebf004a0334';
         should(bw.exampleGuid(example, lang)).equal(guid);
     });
-    it("find(...) finds example", async()=>{
+    it("TESTTESTfind(...) finds example", async()=>{
         var bw = new BilaraWeb({fetch});
 
         var pattern = "root of suffering"; 
@@ -178,25 +178,6 @@
             'mn44/en/sujato',
         ]);
         should(res.bilaraPaths.length).equal(2);
-    });
-    it("TESTTESTfind(...) finds Devadatta", async()=>{
-        var bw = new BilaraWeb({fetch});
-
-        var pattern = "devadatta"; 
-        var res = await bw.find({
-            pattern,
-        });
-        should.deepEqual(res.suttaRefs, [
-            'sn42.11/en/sujato',
-            'mn105/en/sujato',
-            'mn1/en/sujato',
-            'sn56.21/en/sujato',
-            'mn66/en/sujato',
-            'mn116/en/sujato',
-            'dn16/en/sujato',
-            //'pli-tv-kd6/en/brahmali',
-        ]);
-        should(res.bilaraPaths.length).equal(14);
     });
     it("highlightExamples(...) adds HTML links for examples", ()=>{
         let examples = {
@@ -318,7 +299,7 @@
             '128. Verdrießlich '
         ]);
     });
-    it("TESTTESTloadSutta(...) returns an1.31:1.2 => an2.21-31", async ()=>{
+    it("loadSutta(...) returns an1.31:1.2 => an2.21-31", async ()=>{
         let bw = new BilaraWeb({fetch});
         let scid = 'an2.31/de/sabbamitta:1.8';
         let parsed = bw.parseSuttaRef(scid);

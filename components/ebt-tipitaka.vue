@@ -96,10 +96,8 @@ export default {
       let { sutta, bilaraWeb } = this;
       let {
         sutta_uid,
-        lang=sutta.lang||'en',
-        translator='sujato',
       } = bilaraWeb.parseSuttaRef(sutta.sutta_uid);
-      return `https://suttacentral.net/${sutta_uid}/${lang}/${translator}`;
+      return `https://suttacentral.net/${sutta_uid}`;
     },
   },
 }
