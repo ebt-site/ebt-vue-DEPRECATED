@@ -150,6 +150,7 @@
     "Erkenntnis der sechs Sinnesfelder",
     "erkläre mir das Leiden",
     "Erkrankungen zu beseitigen",
+    "erlöschen, bevor ich nicht Nonnenschülerinnen",
     "Erlöschen durch Nicht-Ergreifen",
     "Erlösung des Herzens durch Liebe",
     "erster Anfang",
