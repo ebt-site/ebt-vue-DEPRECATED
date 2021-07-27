@@ -30,11 +30,50 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "erlöschen, bevor ich nicht nonnenschülerinnen",
-    "method": "keywords",
-    "resultPattern": "\\berlöschen,|\\bbevor|\\bich|\\bnicht|\\bnonnenschülerinnen",
-    "segsMatched": 0,
-    "bilaraPaths": [],
-    "suttaRefs": [],
-    "mlDocs": []
+    "method": "phrase",
+    "resultPattern": "\\berlöschen, bevor ich nicht nonnenschülerinnen",
+    "segsMatched": 1,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn51/sn51.10_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn51/sn51.10_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn51/sn51.10_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn51.10/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn51/sn51.10_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn51/sn51.10_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn51/sn51.10_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn51.10",
+        "lang": "de",
+        "segMap": {
+          "sn51.10:11.2": {
+            "scid": "sn51.10:11.2",
+            "pli": "‘na tāvāhaṁ, pāpima, parinibbāyissāmi yāva me bhikkhuniyo na sāvikā bhavissanti viyattā vinītā visāradā bahussutā dhammadharā dhammānudhammappaṭipannā sāmīcippaṭipannā anudhammacāriniyo, sakaṁ ācariyakaṁ uggahetvā ācikkhissanti desessanti paññapessanti paṭṭhapessanti vivarissanti vibhajissanti uttānīkarissanti, uppannaṁ parappavādaṁ sahadhammena suniggahitaṁ niggahetvā sappāṭihāriyaṁ dhammaṁ desessantī’ti. ",
+            "de": "‚Böser, ich werde nicht vollkommen <span class=\"ebt-matched\">erlöschen, bevor ich nicht Nonnenschülerinnen</span> habe, die fähig sind, gebildet, selbstbewusst, gelehrt …‘ … ",
+            "en": "‘Wicked One, I will not become fully extinguished until I have nun disciples who are competent, educated, assured, learned …’ … ",
+            "matched": true
+          }
+        },
+        "score": 1.015,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 51\n1. Beim Cāpāla-Heiligtum\n10. Beim Cāpāla-Heiligtum",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 68,
+          "de": 61,
+          "en": 66
+        }
+      }
+    ]
   }
 }

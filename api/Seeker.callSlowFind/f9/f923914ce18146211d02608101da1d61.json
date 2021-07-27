@@ -32,13 +32,17 @@
     "pattern": "haarsträubend",
     "method": "phrase",
     "resultPattern": "\\bhaarsträubend",
-    "segsMatched": 1,
+    "segsMatched": 2,
     "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn51/sn51.10_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn51/sn51.10_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn51/sn51.10_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thig/thig11.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thig/thig11.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thig/thig11.1_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "sn51.10/de/sabbamitta",
       "thig11.1/de/sabbamitta"
     ],
     "mlDocs": [
@@ -72,6 +76,38 @@
           "pli": 54,
           "de": 52,
           "en": 52
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn51/sn51.10_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn51/sn51.10_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn51/sn51.10_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn51.10",
+        "lang": "de",
+        "segMap": {
+          "sn51.10:17.2": {
+            "scid": "sn51.10:17.2",
+            "pli": "Ossaṭṭhe ca bhagavatā āyusaṅkhāre mahābhūmicālo ahosi bhiṁsanako lomahaṁso, devadundubhiyo ca phaliṁsu. ",
+            "de": "Als er das tat, gab es ein großes Erdbeben, furchterregend und <span class=\"ebt-matched\">haarsträubend</span>, und Donner ließ den Himmel bersten. ",
+            "en": "When he did so there was a great earthquake, awe-inspiring and hair-raising, and thunder cracked the sky. ",
+            "matched": true
+          }
+        },
+        "score": 1.015,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 51\n1. Beim Cāpāla-Heiligtum\n10. Beim Cāpāla-Heiligtum",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 68,
+          "de": 61,
+          "en": 66
         }
       }
     ]

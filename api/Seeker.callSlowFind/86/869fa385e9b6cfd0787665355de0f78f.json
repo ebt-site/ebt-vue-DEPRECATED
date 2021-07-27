@@ -1,0 +1,115 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "wie eine große regenwolke",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "wie eine große regenwolke",
+    "method": "phrase",
+    "resultPattern": "\\bwie eine große regenwolke",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an8/an8.38_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an8/an8.38_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an8/an8.38_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.42_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an5/an5.42_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an5/an5.42_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an8.38/de/sabbamitta",
+      "an5.42/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.38_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an8/an8.38_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an8/an8.38_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an8.38",
+        "lang": "de",
+        "segMap": {
+          "an8.38:2.1": {
+            "scid": "an8.38:2.1",
+            "pli": "Seyyathāpi, bhikkhave, mahāmegho sabbasassāni sampādento bahuno janassa atthāya hitāya sukhāya hoti; ",
+            "de": "<span class=\"ebt-matched\">Wie eine große Regenwolke</span>, die alle Feldfrucht nährt: Das ist zum Vorteil, Nutzen und Glück vieler Menschen. ",
+            "en": "It’s like a great rain cloud, which nourishes all the crops for the benefit, welfare, and happiness of the people. ",
+            "matched": true
+          }
+        },
+        "score": 1.04,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 8\n4. Geben\n38. Ein guter Mensch",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 25,
+          "de": 23,
+          "en": 24
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an5/an5.42_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an5/an5.42_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an5/an5.42_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an5.42",
+        "lang": "de",
+        "segMap": {
+          "an5.42:2.1": {
+            "scid": "an5.42:2.1",
+            "pli": "Seyyathāpi, bhikkhave, mahāmegho sabbasassāni sampādento bahuno janassa atthāya hitāya sukhāya hoti; ",
+            "de": "<span class=\"ebt-matched\">Wie eine große Regenwolke</span>, die alle Feldfrucht nährt: Das ist zum Vorteil, Nutzen und Glück vieler Menschen. ",
+            "en": "It’s like a great rain cloud, which nourishes all the crops for the benefit, welfare, and happiness of the people. ",
+            "matched": true
+          }
+        },
+        "score": 1.037,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 5\n5. Mit König Muṇḍa\n42. Ein guter Mensch",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 27,
+          "de": 26,
+          "en": 26
+        }
+      }
+    ]
+  }
+}
