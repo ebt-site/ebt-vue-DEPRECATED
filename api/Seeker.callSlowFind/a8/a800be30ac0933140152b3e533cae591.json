@@ -31,7 +31,7 @@
     "pattern": "miss your moment",
     "method": "phrase",
     "resultPattern": "\\bmiss your moment",
-    "segsMatched": 4,
+    "segsMatched": 5,
     "bilaraPaths": [
       "root/pli/ms/sutta/kn/thig/thig1.5_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thig/thig1.5_translation-en-sujato.json",
@@ -39,6 +39,8 @@
       "translation/en/sujato/sutta/kn/thag/thag6.5_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag17.2_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thag/thag17.2_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/dhp/dhp306-319_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp306-319_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.29_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an8/an8.29_translation-en-sujato.json"
     ],
@@ -46,6 +48,7 @@
       "thig1.5/en/sujato",
       "thag6.5/en/sujato",
       "thag17.2/en/sujato",
+      "dhp306-319/en/sujato",
       "an8.29/en/sujato"
     ],
     "mlDocs": [
@@ -134,6 +137,35 @@
         "langSegs": {
           "pli": 74,
           "en": 73
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/dhp/dhp306-319_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/dhp/dhp306-319_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dhp306-319",
+        "lang": "en",
+        "segMap": {
+          "dhp315:5": {
+            "scid": "dhp315:5",
+            "pli": "Khaṇātītā hi socanti,",
+            "en": "For if you <span class=\"ebt-matched\">miss your moment</span>",
+            "matched": true
+          }
+        },
+        "score": 1.014,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Minor Collection\nSayings of the Dhamma\n22. Hell\nSundarīparibbājikāvatthu",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 71,
+          "en": 61
         }
       },
       {

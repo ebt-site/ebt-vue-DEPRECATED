@@ -31,7 +31,7 @@
     "pattern": "cross.* the flood",
     "method": "phrase",
     "resultPattern": "\\bcross.* the flood",
-    "segsMatched": 26,
+    "segsMatched": 27,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an4/an4.196_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an4/an4.196_translation-en-sujato.json",
@@ -61,6 +61,8 @@
       "translation/en/sujato/sutta/kn/thag/thag1.15_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/iti/vagga11/iti107_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/iti/vagga11/iti107_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/dhp/dhp360-382_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp360-382_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn21_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn21_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn20_root-pli-ms.json",
@@ -81,6 +83,7 @@
       "thag13.1/en/sujato",
       "thag1.15/en/sujato",
       "iti107/en/sujato",
+      "dhp360-382/en/sujato",
       "dn21/en/sujato",
       "dn20/en/sujato"
     ],
@@ -520,6 +523,35 @@
         "langSegs": {
           "pli": 68,
           "en": 60
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/dhp/dhp360-382_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/dhp/dhp360-382_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dhp360-382",
+        "lang": "en",
+        "segMap": {
+          "dhp370:4": {
+            "scid": "dhp370:4",
+            "pli": "“oghatiṇṇo”ti vuccati.",
+            "en": "is said to have <span class=\"ebt-matched\">crossed the flood</span>.",
+            "matched": true
+          }
+        },
+        "score": 1.009,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Minor Collection\nSayings of the Dhamma\n25. Mendicants\nPañcabhikkhuvatthu",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 113,
+          "en": 100
         }
       },
       {

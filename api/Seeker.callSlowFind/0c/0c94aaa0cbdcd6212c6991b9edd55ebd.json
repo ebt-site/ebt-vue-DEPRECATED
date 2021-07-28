@@ -31,7 +31,7 @@
     "pattern": "grueling",
     "method": "phrase",
     "resultPattern": "\\bgrueling",
-    "segsMatched": 12,
+    "segsMatched": 13,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn4/sn4.1_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn4/sn4.1_translation-en-sujato.json",
@@ -51,6 +51,8 @@
       "translation/en/sujato/sutta/mn/mn101_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn100_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn100_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/dhp/dhp383-423_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp383-423_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.56_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an8/an8.56_translation-en-sujato.json"
     ],
@@ -64,6 +66,7 @@
       "mn12/en/sujato",
       "mn101/en/sujato",
       "mn100/en/sujato",
+      "dhp383-423/en/sujato",
       "an8.56/en/sujato"
     ],
     "mlDocs": [
@@ -193,6 +196,35 @@
         "langSegs": {
           "pli": 144,
           "en": 143
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/dhp/dhp383-423_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/dhp/dhp383-423_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dhp383-423",
+        "lang": "en",
+        "segMap": {
+          "dhp414:1": {
+            "scid": "dhp414:1",
+            "pli": "Yomaṁ palipathaṁ duggaṁ,",
+            "en": "They’ve got past this <span class=\"ebt-matched\">grueling</span> swamp ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Minor Collection\nSayings of the Dhamma\n26. Brahmins\nPasādabahulabrāhmaṇavatthu",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 270,
+          "en": 181
         }
       },
       {

@@ -31,7 +31,7 @@
     "pattern": "bag of bones",
     "method": "phrase",
     "resultPattern": "\\bbag of bones",
-    "segsMatched": 15,
+    "segsMatched": 16,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn6/sn6.15_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn6/sn6.15_translation-en-sujato.json",
@@ -61,6 +61,8 @@
       "translation/en/sujato/sutta/kn/thag/thag2.2_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag1.83_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thag/thag1.83_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/dhp/dhp334-359_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp334-359_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json"
     ],
@@ -79,6 +81,7 @@
       "thag5.5/en/sujato",
       "thag2.2/en/sujato",
       "thag1.83/en/sujato",
+      "dhp334-359/en/sujato",
       "dn16/en/sujato"
     ],
     "mlDocs": [
@@ -486,6 +489,35 @@
         "langSegs": {
           "pli": 80,
           "en": 79
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/dhp/dhp334-359_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/dhp/dhp334-359_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dhp334-359",
+        "lang": "en",
+        "segMap": {
+          "dhp351:4": {
+            "scid": "dhp351:4",
+            "pli": "antimoyaṁ samussayo.",
+            "en": "this <span class=\"ebt-matched\">bag of bones</span> is their last.",
+            "matched": true
+          }
+        },
+        "score": 1.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Minor Collection\nSayings of the Dhamma\n24. Craving\nKapilamacchavatthu",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 124,
+          "en": 111
         }
       },
       {
