@@ -1,0 +1,143 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "art von lehrer",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "art von lehrer",
+    "method": "phrase",
+    "resultPattern": "\\bart von lehrer",
+    "segsMatched": 6,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn12_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn12_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn12_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.32_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an5/an5.32_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an5/an5.32_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "dn12/de/sabbamitta",
+      "an5.32/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn12_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn12_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn12_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn12",
+        "lang": "de",
+        "segMap": {
+          "dn12:16.1": {
+            "scid": "dn12:16.1",
+            "pli": "Tayo khome, lohicca, satthāro, ye loke codanārahā; ",
+            "de": "Lohicca, es gibt drei Arten von Lehrern in der Welt, die verdienen, dass man sie zurechtweist. ",
+            "en": "Lohicca, there are three kinds of teachers in the world who deserve to be reprimanded. ",
+            "matched": true
+          },
+          "dn12:16.15": {
+            "scid": "dn12:16.15",
+            "pli": "Ayaṁ kho, lohicca, paṭhamo satthā, yo loke codanāraho; ",
+            "de": "Das ist die erste <span class=\"ebt-matched\">Art von Lehrer</span>n, die verdienen, dass man sie zurechtweist. ",
+            "en": "This is the first kind of teacher who deserves to be reprimanded. ",
+            "matched": true
+          },
+          "dn12:17.10": {
+            "scid": "dn12:17.10",
+            "pli": "Ayaṁ kho, lohicca, dutiyo satthā, yo, loke codanāraho; ",
+            "de": "Das ist die zweite <span class=\"ebt-matched\">Art von Lehrer</span>n, die verdienen, dass man sie zurechtweist. ",
+            "en": "This is the second kind of teacher who deserves to be reprimanded. ",
+            "matched": true
+          },
+          "dn12:18.12": {
+            "scid": "dn12:18.12",
+            "pli": "Ayaṁ kho, lohicca, tatiyo satthā, yo loke codanāraho; ",
+            "de": "Das ist die dritte <span class=\"ebt-matched\">Art von Lehrer</span>n, die verdienen, dass man sie zurechtweist. ",
+            "en": "This is the third kind of teacher who deserves to be reprimanded. ",
+            "matched": true
+          },
+          "dn12:18.14": {
+            "scid": "dn12:18.14",
+            "pli": "Ime kho, lohicca, tayo satthāro, ye loke codanārahā, ",
+            "de": "Das sind die drei Arten von Lehrern in der Welt, die verdienen, dass man sie zurechtweist. ",
+            "en": "These are the three kinds of teachers in the world who deserve to be reprimanded. ",
+            "matched": true
+          }
+        },
+        "score": 5.026,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 12\nMit Lohicca",
+        "segsMatched": 5,
+        "langSegs": {
+          "pli": 189,
+          "de": 144,
+          "en": 188
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an5/an5.32_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an5/an5.32_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an5/an5.32_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an5.32",
+        "lang": "de",
+        "segMap": {
+          "an5.32:2.4": {
+            "scid": "an5.32:2.4",
+            "pli": "‘kathaṁrūpe kho, bhante, satthari pasanno kāyassa bhedā paraṁ maraṇā sugatiṁyeva upapajjati, no duggatiṁ? ",
+            "de": "Herr, zu welcher <span class=\"ebt-matched\">Art von Lehrer</span> sollte man Zuversicht haben, damit man, wenn der Körper auseinanderbricht, nach dem Tod, an einem guten Ort wiedergeboren wird, nicht an einem schlechten Ort? ",
+            "en": "Sir, what kind of teacher should you have confidence in so as to be reborn in a good place, not a bad place, when the body breaks up, after death? ",
+            "matched": true
+          }
+        },
+        "score": 1.022,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 5\n4. Mit Sumanā\n32. Mit Cundī",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 46,
+          "de": 45,
+          "en": 45
+        }
+      }
+    ]
+  }
+}
