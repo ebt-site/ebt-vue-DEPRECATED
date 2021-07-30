@@ -3,22 +3,11 @@ const {
     Settings,
 } = require('../src/index');
 const examples = require('../api/examples.json');
+const { PaliHyphenator } = require('js-ebt');
 import Vue from "vue";
 
 var bilaraWeb;
 const WAITING = '\u231B...';
-
-const DEFAULT = {
-    get sutta() { return {
-        titles: [WAITING],
-        lang: 'en',
-        translator: WAITING,
-        sutta_uid: null,
-        segments: [
-            {scid: null, pli: WAITING, en: WAITING}
-        ],
-    }}
-}
 
 export const state = () => ({
     processing: null,
@@ -29,6 +18,10 @@ export const state = () => ({
     sutta: null,
     examples,
     voices: [],
+    hyphenator: new PaliHyphenator({
+      minWord: 5,
+      maxWord: 20,
+    }),
 })
 
 const MS_MINUTE = 60 * 1000;
@@ -106,7 +99,7 @@ export const mutations = {
         console.debug(`$store.state.ebt.searchError:`, error);
     },
     sutta(state, sutta) {
-        let { settings } = state;
+        let { settings, hyphenator } = state;
         let { history } = settings;
         let { sutta_uid, lang } = sutta;
         let iCursor = history.findIndex(h=>h.sutta_uid===sutta_uid && h.lang===lang);
@@ -118,6 +111,14 @@ export const mutations = {
             settings.iCursor = iCursor;
         }
         state.sutta = sutta;
+        sutta.segments.forEach(seg=>{
+          let pli = seg.pli;
+          if (pli) {
+            let words = pli.split(' ').map(word=>hyphenator.hyphenate(word));
+            seg.pli = words.join(' ');
+          }
+        });
+        console.log(`dbg sutta`, sutta.segments.length);
         console.debug(`$store.state.ebt.sutta:`, {sutta, settings});
     },
     processing(state, value) {
