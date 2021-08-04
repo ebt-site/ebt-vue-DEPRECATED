@@ -1,0 +1,129 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "gute freunde, genossen und gefährt",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "gute freunde, genossen und gefährt",
+    "method": "phrase",
+    "resultPattern": "\\bgute freunde, genossen und gefährt",
+    "segsMatched": 4,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an8/an8.55_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an8/an8.55_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an8/an8.55_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an8/an8.54_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an8/an8.54_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an8/an8.54_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an8.55/de/sabbamitta",
+      "an8.54/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.55_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an8/an8.55_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an8/an8.55_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an8.55",
+        "lang": "de",
+        "segMap": {
+          "an8.55:8.2": {
+            "scid": "an8.55:8.2",
+            "pli": "na itthidhutto, na surādhutto, na akkhadhutto, kalyāṇamitto kalyāṇasahāyo kalyāṇasampavaṅko. ",
+            "de": "Keine Frauengeschichten, nicht Trinken, nicht Spielen und <span class=\"ebt-matched\">gute Freunde, Genossen und Gefährt</span>en. ",
+            "en": "Not womanizing, drinking, or gambling, and having good friends, companions, and associates. ",
+            "matched": true
+          },
+          "an8.55:8.5": {
+            "scid": "an8.55:8.5",
+            "pli": "na itthidhutto …pe… kalyāṇasampavaṅko. ",
+            "de": "Keine Frauengeschichten, nicht Trinken, nicht Spielen und <span class=\"ebt-matched\">gute Freunde, Genossen und Gefährt</span>en. ",
+            "en": "Not womanizing, drinking, or gambling, and having good friends, companions, and associates. ",
+            "matched": true
+          }
+        },
+        "score": 2.026,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 8\n6. Gotamī\n55. Mit Ujjaya",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 76,
+          "de": 75,
+          "en": 75
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.54_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an8/an8.54_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an8/an8.54_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an8.54",
+        "lang": "de",
+        "segMap": {
+          "an8.54:7.2": {
+            "scid": "an8.54:7.2",
+            "pli": "na itthidhutto, na surādhutto, na akkhadhutto, kalyāṇamitto kalyāṇasahāyo kalyāṇasampavaṅko. ",
+            "de": "Keine Frauengeschichten, nicht Trinken, nicht Spielen und <span class=\"ebt-matched\">gute Freunde, Genossen und Gefährt</span>en. ",
+            "en": "Not womanizing, drinking, or gambling, and having good friends, companions, and associates. ",
+            "matched": true
+          },
+          "an8.54:7.8": {
+            "scid": "an8.54:7.8",
+            "pli": "na itthidhutto, na surādhutto, na akkhadhutto, kalyāṇamitto kalyāṇasahāyo kalyāṇasampavaṅko. ",
+            "de": "Keine Frauengeschichten, nicht Trinken, nicht Spielen und <span class=\"ebt-matched\">gute Freunde, Genossen und Gefährt</span>en. ",
+            "en": "Not womanizing, drinking, or gambling, and having good friends, companions, and associates. ",
+            "matched": true
+          }
+        },
+        "score": 2.024,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 8\n6. Gotamī\n54. Mit Dīghajāṇu",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 82,
+          "de": 81,
+          "en": 81
+        }
+      }
+    ]
+  }
+}
