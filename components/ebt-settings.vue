@@ -21,7 +21,7 @@
         <li class="" role="none" ><!-- General -->
           <details role="menuitem" 
             @click="clickDetails('general', $event)"
-            :open="showDetail('general')"
+            :open="!saveCookies || showDetail('general')"
           >
             <summary class="ebt-summary">
               <div class="ebt-settings-title">
@@ -44,7 +44,7 @@
             </div>
           </details>
         </li><!-- General -->
-        <li class="" role="none" v-if="!monolingual"><!-- Language -->
+        <li class="" role="none" v-if="saveCookies && !monolingual"><!-- Language -->
           <details role="menuitem" 
             @click="clickDetails('lang', $event)"
             :open="showDetail('lang')"
@@ -84,7 +84,7 @@
             </div>
           </details>
         </li><!-- Language -->
-        <li class="" role="none" ><!-- Translation -->
+        <li class="" role="none" v-if="saveCookies"><!-- Translation -->
           <details role="menuitem" 
             @click="clickDetails('trans', $event)"
             :open="showDetail('trans')"
@@ -137,7 +137,7 @@
             </div>
           </details>
         </li><!-- Translation -->
-        <li class="" role="none" ><!-- reader -->
+        <li class="" role="none" v-if="saveCookies"><!-- reader -->
           <details role="menuitem"
             @click="clickDetails('reader', $event)"
             :open="showDetail('reader')"
@@ -180,7 +180,7 @@
             </div>
           </details>
         </li><!-- reader -->
-        <li class="" role="none" >
+        <li class="" role="none" v-if="saveCookies">
           <details role="menuitem" 
             @click="clickDetails('search', $event)"
             :open="showDetail('search')"
@@ -208,7 +208,7 @@
             </div>
           </details>
         </li>
-        <li class="" role="none" ><!-- Audio -->
+        <li class="" role="none" v-if="saveCookies"><!-- Audio -->
           <details role="menuitem" 
             @click="clickDetails('audio', $event)"
             :open="showDetail('audio')"

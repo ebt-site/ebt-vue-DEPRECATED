@@ -79,7 +79,11 @@ export const mutations = {
             settings.iCursor = iCursor;
         }
 
-        let segnum = scid.split(':').pop();
+        let [sid, segnum] = scid.split(':');
+        console.log({scid, sutta_uid});
+        if (sid !== sutta_uid) {
+          sutta_uid = sid;
+        }
         let { search } = BilaraWeb.decodeHash(window.location.hash);;
         window.location.hash = BilaraWeb.encodeHash({
             sutta_uid,

@@ -21,7 +21,7 @@
         should(actual).below(expected+e);
     }
 
-    it("duration(...) measures seconds", async()=>{
+    it("TESTTESTduration(...) measures seconds", async()=>{
         let sd = await suttaDuration.initialize();
 
         // verify with actual durations

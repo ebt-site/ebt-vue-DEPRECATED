@@ -81,7 +81,16 @@
         });
         should.deepEqual(BilaraWeb.decodeHash(), {});
     });
-    it("TESTTESTencodeHash(...) => URL hash", ()=>{
+    it("TESTTESTencodeHash(...) => URL hash dhp174:1", ()=>{
+        let sutta_uid = 'dhp174';
+        let segnum = '1';
+        let search = 'like a bird';
+        should(BilaraWeb.encodeHash({sutta_uid, segnum, search}))
+            .equal('#dhp174:1?search=like+a+bird');
+        should(BilaraWeb.encodeHash({sutta_uid, segnum}))
+            .equal('#dhp174:1');
+    });
+    it("encodeHash(...) => URL hash", ()=>{
         let sutta_uid = 'mn1';
         let lang = 'de';
         let translator = 'sabbamitta';
