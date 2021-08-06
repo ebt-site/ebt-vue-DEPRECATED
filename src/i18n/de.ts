@@ -222,7 +222,7 @@ export default {
     showTransText: "Zeige lokale Übersetzung",
     speakSearchText: "Suchtext vorlesen",
     storeSettingsInCookies: "Einstellungen erlauben (werden in Webbrowser-Cookies gespeichert)",
-    storeSettingsHistory: "Einstellungen und Chronik mittels Webbrowser-Cookies speichern",
+    storeSettingsHistory: "Einstellungen und Chronik erlauben (werden in Webbrowser-Cookies gespeichert)",
     trackOfSection: "A_TRACK von A_TRACKS",
     translation: "Übersetzung",
     transLanguage: "Übersetzungssprache",
