@@ -81,7 +81,7 @@
         });
         should.deepEqual(BilaraWeb.decodeHash(), {});
     });
-    it("encodeHash(...) => URL hash", ()=>{
+    it("TESTTESTencodeHash(...) => URL hash", ()=>{
         let sutta_uid = 'mn1';
         let lang = 'de';
         let translator = 'sabbamitta';
