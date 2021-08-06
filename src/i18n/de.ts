@@ -221,7 +221,7 @@ export default {
     showTextSegmentIds: "SuttaCentral-Textsegmentkennungen zeigen",
     showTransText: "Zeige lokale Übersetzung",
     speakSearchText: "Suchtext vorlesen",
-    storeSettingsInCookies: "Einstellungen mittels Webbrowser-Cookies speichern",
+    storeSettingsInCookies: "Einstellungen erlauben (werden in Webbrowser-Cookies gespeichert)",
     storeSettingsHistory: "Einstellungen und Chronik mittels Webbrowser-Cookies speichern",
     trackOfSection: "A_TRACK von A_TRACKS",
     translation: "Übersetzung",
