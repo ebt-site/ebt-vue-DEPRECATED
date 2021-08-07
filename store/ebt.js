@@ -65,7 +65,7 @@ export const mutations = {
         cursor.translator = translator;
 
         let minutes = (Date.now() - cursor.date)/MS_MINUTE;
-        let inWorkingMemory = minutes <= WORKING_MINUTES;
+        let inWorkingMemory = true; // minutes <= WORKING_MINUTES;
         cursor.scid = scid;
         if (inWorkingMemory) {
             console.debug(`$store.state.ebt.selectSegment scid =>`,  scid);
