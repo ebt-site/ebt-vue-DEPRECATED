@@ -122,7 +122,7 @@
             });
         }
 
-        exampleGuid(example, lang='en') {
+        exampleGuid(example, lang='en', verbose=false) {
             const fbody = [
                 `(args)=>{`,
                 `                return that.slowFind.call(that, args);`,
@@ -151,6 +151,7 @@
                   tipitakaCategories: undefined, // These are not serialized
               }],
             };
+            verbose && console.log(`exampleGuid(${example}, ${lang})`, JSON.stringify(key, null, 2));
             return this.mj.hash(key);
         }
 
@@ -181,6 +182,7 @@
                 tipitakaCategories,
                 types,
                 includeUnpublished=this.includeUnpublished,
+                verbose,
             } = opts;
             if (rawPattern == null) {
                 throw new Error(`pattern is required`);
@@ -258,6 +260,7 @@
                 lang,
                 types,
                 includeUnpublished,
+                verbose,
             }
         }
 
@@ -270,6 +273,7 @@
             var {
                 lang,
                 pattern,
+                verbose,
             } = this.findArgs(args);
             var that = this;
             var callSlowFind = (args)=>{
@@ -277,7 +281,7 @@
             };
             var result;
             if (this.isExample(pattern, lang)) {
-                let guid = this.exampleGuid(pattern, lang);
+                let guid = this.exampleGuid(pattern, lang, verbose);
                 let url = [
                     'https://raw.githubusercontent.com',
                     'ebt-site',

@@ -35,14 +35,17 @@ ${json}
     );
 }
 
+let { argv } = process;
+let [ execContent, script, exampleArg, ] = argv;
+
 (async function(){ try {
     let execGit = new ExecGit({
         repo: 'https://github.com/ebt-site/ebt-data.git',
         logger,
     });
+
     let exampleFiles = (await fs.promises.readdir(EXAMPLES_DIR))
         .filter(f=>/examples-/.test(f));
-    logger.info(`exampleFiles`, exampleFiles);
 
     let bilaraData;
     let examples = {};
@@ -60,6 +63,8 @@ ${json}
             logger.log(`${exampleFile}: ${langExamples.length}`);
         }
     }
+
+    logger.info(`exampleFiles`, exampleFiles);
     let examplesJson = JSON.stringify(examples,null,2);
     await fs.promises.writeFile(API_EXAMPLES, examplesJson);
     await writeJsonModule('Examples', SRC_EXAMPLES, examplesJson);
@@ -99,8 +104,12 @@ ${json}
                 var res = eg && await skr.find({
                     pattern: eg,
                     lang,
+                    //searchLang: lang,
                     matchHighlight,
                 });
+                if (eg === exampleArg) {
+                  logger.warn(`examples.find(${exampleArg})`, JSON.stringify(res, null, 2));
+                }
             } catch(e){
                 logger.warn(e.message);
             }

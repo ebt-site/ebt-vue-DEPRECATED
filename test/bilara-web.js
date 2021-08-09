@@ -81,7 +81,7 @@
         });
         should.deepEqual(BilaraWeb.decodeHash(), {});
     });
-    it("TESTTESTencodeHash(...) => URL hash dhp174:1", ()=>{
+    it("encodeHash(...) => URL hash dhp174:1", ()=>{
         let sutta_uid = 'dhp174';
         let segnum = '1';
         let search = 'like a bird';
@@ -143,7 +143,27 @@
         let guid = '6887db39e3f45d06e4e87ebf004a0334';
         should(bw.exampleGuid(example, lang)).equal(guid);
     });
-    it("TESTTESTfind(...) finds example", async()=>{
+    it("TESTTESTfind(...) finds de example", async()=>{
+        var bw = new BilaraWeb({fetch});
+        bw.logLevel = 'info';
+        var pattern = "abnehmend"; 
+        var verbose = true;
+        var lang = 'de';
+        var res = await bw.find({ pattern, lang, verbose });
+        console.log(res);
+        should.deepEqual(res.suttaRefs, [
+            'sn42.11/en/sujato',
+            'mn105/en/sujato',
+            'mn1/en/sujato',
+            'sn56.21/en/sujato',
+            'mn66/en/sujato',
+            'mn116/en/sujato',
+            'dn16/en/sujato',
+            //'pli-tv-kd6/en/brahmali',
+        ]);
+        should(res.bilaraPaths.length).equal(14);
+    });
+    it("find(...) finds example", async()=>{
         var bw = new BilaraWeb({fetch});
 
         var pattern = "root of suffering"; 
