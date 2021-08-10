@@ -32,11 +32,14 @@
     "pattern": "schweiß.* angesichts",
     "method": "phrase",
     "resultPattern": "\\bschweiß.* angesichts",
-    "segsMatched": 8,
+    "segsMatched": 9,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an4/an4.61_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.61_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.61_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an8/an8.76_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an8/an8.76_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an8/an8.76_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.55_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.55_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an8/an8.55_translation-en-sujato.json",
@@ -58,6 +61,7 @@
     ],
     "suttaRefs": [
       "an4.61/de/sabbamitta",
+      "an8.76/de/sabbamitta",
       "an8.55/de/sabbamitta",
       "an8.54/de/sabbamitta",
       "an7.64/de/sabbamitta",
@@ -167,6 +171,38 @@
           "pli": 44,
           "de": 43,
           "en": 43
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.76_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an8/an8.76_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an8/an8.76_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an8.76",
+        "lang": "de",
+        "segMap": {
+          "an8.76:2.2": {
+            "scid": "an8.76:2.2",
+            "pli": "Idha, bhikkhave, kulaputtassa bhogā honti uṭṭhānavīriyādhigatā bāhābalaparicitā sedāvakkhittā dhammikā dhammaladdhā te ārakkhena guttiyā sampādeti: ",
+            "de": "Da besitzt ein anständiger Mensch rechtmäßig erworbenes Vermögen, das er mit seiner Anstrengung und seinem Unternehmungsgeist erarbeitet, mit seinen Händen aufgebaut und im <span class=\"ebt-matched\">Schweiß seines Angesichts</span> zusammengetragen hat. Er stellt sicher, dass es bewacht und gehütet wird: ",
+            "en": "It’s when a gentleman owns legitimate wealth that he has earned by his own efforts and initiative, built up with his own hands, gathered by the sweat of the brow. He ensures it is guarded and protected, thinking: ",
+            "matched": true
+          }
+        },
+        "score": 1.018,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 8\n8. Paare\n76. Vervollkommnung (2)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 57,
+          "de": 56,
+          "en": 56
         }
       },
       {

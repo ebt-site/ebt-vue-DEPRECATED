@@ -32,7 +32,7 @@
     "pattern": "einzig der schönheit zugewandt",
     "method": "phrase",
     "resultPattern": "\\beinzig der schönheit zugewandt",
-    "segsMatched": 4,
+    "segsMatched": 5,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
@@ -43,6 +43,9 @@
       "root/pli/ms/sutta/dn/dn15_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn15_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn15_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an8/an8.66_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an8/an8.66_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an8/an8.66_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an1/an1.394-574_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an1/an1.394-574_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an1/an1.394-574_translation-en-sujato.json"
@@ -51,9 +54,42 @@
       "dn34/de/sabbamitta",
       "dn33/de/sabbamitta",
       "dn15/de/sabbamitta",
+      "an8.66/de/sabbamitta",
       "an1.394-574/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.66_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an8/an8.66_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an8/an8.66_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an8.66",
+        "lang": "de",
+        "segMap": {
+          "an8.66:3.1": {
+            "scid": "an8.66:3.1",
+            "pli": "Subhanteva adhimutto hoti. ",
+            "de": "Man ist <span class=\"ebt-matched\">einzig der Schönheit zugewandt</span>. ",
+            "en": "They’re focused only on beauty. ",
+            "matched": true
+          }
+        },
+        "score": 1.043,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 8\n7. Erdbeben\n66. Befreiungen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 23,
+          "de": 22,
+          "en": 22
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/an/an1/an1.394-574_root-pli-ms.json",

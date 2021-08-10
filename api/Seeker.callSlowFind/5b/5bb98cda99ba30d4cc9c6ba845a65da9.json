@@ -32,7 +32,7 @@
     "pattern": "blind",
     "method": "phrase",
     "resultPattern": "\\bblind",
-    "segsMatched": 19,
+    "segsMatched": 20,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an3/an3.29_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.29_translation-de-sabbamitta.json",
@@ -52,6 +52,9 @@
       "root/pli/ms/sutta/kn/thig/thig13.5_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thig/thig13.5_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thig/thig13.5_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/dhp/dhp167-178_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/dhp/dhp167-178_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp167-178_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn25_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn25_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn25_translation-en-sujato.json",
@@ -75,6 +78,7 @@
       "thig5.9/de/sabbamitta",
       "thig14.1/de/sabbamitta",
       "thig13.5/de/sabbamitta",
+      "dhp167-178/de/sabbamitta",
       "dn25/de/sabbamitta",
       "an7.64/de/sabbamitta",
       "an4.66/de/sabbamitta",
@@ -328,6 +332,38 @@
           "pli": 37,
           "de": 36,
           "en": 36
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/dhp/dhp167-178_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/dhp/dhp167-178_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/dhp/dhp167-178_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dhp167-178",
+        "lang": "de",
+        "segMap": {
+          "dhp174:1": {
+            "scid": "dhp174:1",
+            "pli": "Andhabhūto ayaṁ loko,",
+            "de": "<span class=\"ebt-matched\">Blind</span> ist die Welt, ",
+            "en": "<span class=\"ebt-matched\">Blind</span> is the world,",
+            "matched": true
+          }
+        },
+        "score": 1.016,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Kleinere Sammlung\nDhamma-Sprüche\n13. Die Welt\nDaharabhikkhuvatthu",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 63,
+          "de": 51,
+          "en": 63
         }
       },
       {

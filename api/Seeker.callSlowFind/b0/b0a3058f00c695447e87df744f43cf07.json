@@ -32,11 +32,14 @@
     "pattern": "wie ein vogel",
     "method": "phrase",
     "resultPattern": "\\bwie ein vogel",
-    "segsMatched": 10,
+    "segsMatched": 11,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn10_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn10_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/dhp/dhp167-178_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/dhp/dhp167-178_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp167-178_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
@@ -64,6 +67,7 @@
     ],
     "suttaRefs": [
       "dn10/de/sabbamitta",
+      "dhp167-178/de/sabbamitta",
       "dn34/de/sabbamitta",
       "dn28/de/sabbamitta",
       "an6.70/de/sabbamitta",
@@ -239,6 +243,38 @@
           "pli": 52,
           "de": 51,
           "en": 51
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/dhp/dhp167-178_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/dhp/dhp167-178_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/dhp/dhp167-178_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dhp167-178",
+        "lang": "de",
+        "segMap": {
+          "dhp174:4": {
+            "scid": "dhp174:4",
+            "pli": "appo saggāya gacchati.",
+            "de": "<span class=\"ebt-matched\">wie ein Vogel</span>, vom Netz befreit. ",
+            "en": "like a bird freed from a net.",
+            "matched": true
+          }
+        },
+        "score": 1.016,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Kleinere Sammlung\nDhamma-Sprüche\n13. Die Welt\nDaharabhikkhuvatthu",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 63,
+          "de": 51,
+          "en": 63
         }
       },
       {

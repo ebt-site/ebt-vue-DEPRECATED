@@ -32,20 +32,105 @@
     "pattern": "ein bisschen aufs ohr",
     "method": "phrase",
     "resultPattern": "\\bein bisschen aufs ohr",
-    "segsMatched": 16,
+    "segsMatched": 24,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json"
+      "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an8/an8.80_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an8/an8.80_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an8/an8.80_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "dn34/de/sabbamitta",
-      "dn33/de/sabbamitta"
+      "dn33/de/sabbamitta",
+      "an8.80/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.80_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an8/an8.80_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an8/an8.80_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an8.80",
+        "lang": "de",
+        "segMap": {
+          "an8.80:1.5": {
+            "scid": "an8.80:1.5",
+            "pli": "‘kammaṁ kho me kattabbaṁ bhavissati. Kammaṁ kho pana me karontassa kāyo kilamissati. Handāhaṁ nipajjāmī’ti. ",
+            "de": "‚Ich habe etwas zu arbeiten. Aber bei dieser Arbeit wird mein Körper müde werden. Ich lege mich lieber <span class=\"ebt-matched\">ein bisschen aufs Ohr</span>.‘ ",
+            "en": "‘I have some work to do. But while doing it my body will get tired. I’d better have a lie down.’ ",
+            "matched": true
+          },
+          "an8.80:2.3": {
+            "scid": "an8.80:2.3",
+            "pli": "‘ahaṁ kho kammaṁ akāsiṁ. Kammaṁ kho pana me karontassa kāyo kilanto. Handāhaṁ nipajjāmī’ti. ",
+            "de": "‚Ich habe etwas gearbeitet. Aber während der Arbeit wurde mein Körper müde. Ich lege mich lieber <span class=\"ebt-matched\">ein bisschen aufs Ohr</span>.‘ ",
+            "en": "‘I’ve done some work. But while working my body got tired. I’d better have a lie down.’ ",
+            "matched": true
+          },
+          "an8.80:3.3": {
+            "scid": "an8.80:3.3",
+            "pli": "‘maggo me gantabbo bhavissati. Maggaṁ kho pana me gacchantassa kāyo kilamissati. Handāhaṁ nipajjāmī’ti. ",
+            "de": "‚Ich muss eine Reise unternehmen. Aber beim Gehen wird mein Körper müde werden. Ich lege mich lieber <span class=\"ebt-matched\">ein bisschen aufs Ohr</span>.‘ ",
+            "en": "‘I have to go on a journey. But while walking my body will get tired. I’d better have a lie down.’ ",
+            "matched": true
+          },
+          "an8.80:4.3": {
+            "scid": "an8.80:4.3",
+            "pli": "‘ahaṁ kho maggaṁ agamāsiṁ. Maggaṁ kho pana me gacchantassa kāyo kilanto. Handāhaṁ nipajjāmī’ti. ",
+            "de": "‚Ich habe eine Reise unternommen. Aber beim Gehen wurde mein Körper müde. Ich lege mich lieber <span class=\"ebt-matched\">ein bisschen aufs Ohr</span>.‘ ",
+            "en": "‘I’ve gone on a journey. But while walking my body got tired. I’d better have a lie down.’ ",
+            "matched": true
+          },
+          "an8.80:5.3": {
+            "scid": "an8.80:5.3",
+            "pli": "‘ahaṁ kho gāmaṁ vā nigamaṁ vā piṇḍāya caranto nālatthaṁ lūkhassa vā paṇītassa vā bhojanassa yāvadatthaṁ pāripūriṁ. Tassa me kāyo kilanto akammañño. Handāhaṁ nipajjāmī’ti. ",
+            "de": "‚Ich bin um Almosen umhergezogen, aber ich habe nicht genug derbe oder erlesene Speise erhalten, um mich satt zu essen. Mein Körper ist müde und taugt nicht zur Arbeit. Ich lege mich lieber <span class=\"ebt-matched\">ein bisschen aufs Ohr</span>.‘ ",
+            "en": "‘I’ve wandered for alms, but I didn’t get to fill up on as much food as I like, rough or fine. My body is tired and unfit for work. I’d better have a lie down.’ ",
+            "matched": true
+          },
+          "an8.80:6.3": {
+            "scid": "an8.80:6.3",
+            "pli": "‘ahaṁ kho gāmaṁ vā nigamaṁ vā piṇḍāya caranto alatthaṁ lūkhassa vā paṇītassa vā bhojanassa yāvadatthaṁ pāripūriṁ. Tassa me kāyo garuko akammañño māsācitaṁ maññe. Handāhaṁ nipajjāmī’ti. ",
+            "de": "‚Ich bin um Almosen umhergezogen, und ich habe genug derbe oder erlesene Speise erhalten, um mich satt zu essen. Mein Körper ist schwer, fühlt sich vollgestopft an und taugt nicht zur Arbeit. Ich lege mich lieber <span class=\"ebt-matched\">ein bisschen aufs Ohr</span>.‘ ",
+            "en": "‘I’ve wandered for alms, and I got to fill up on as much food as I like, rough or fine. My body is heavy, unfit for work, like I’ve just eaten a load of beans. I’d better have a lie down.’ ",
+            "matched": true
+          },
+          "an8.80:7.3": {
+            "scid": "an8.80:7.3",
+            "pli": "‘uppanno kho me ayaṁ appamattako ābādho atthi kappo nipajjituṁ. Handāhaṁ nipajjāmī’ti. ",
+            "de": "‚Ich fühle mich ein wenig krank. Hinlegen wäre gut für mich. Ich lege mich lieber <span class=\"ebt-matched\">ein bisschen aufs Ohr</span>.‘ ",
+            "en": "‘I feel a little sick. Lying down would be good for me. I’d better have a lie down.’ ",
+            "matched": true
+          },
+          "an8.80:8.3": {
+            "scid": "an8.80:8.3",
+            "pli": "‘ahaṁ kho gilānā vuṭṭhito aciravuṭṭhito gelaññā. Tassa me kāyo dubbalo akammañño. Handāhaṁ nipajjāmī’ti. ",
+            "de": "‚Ich bin kürzlich von einer Krankheit genesen. Mein Körper ist schwach und taugt nicht zur Arbeit. Ich lege mich lieber <span class=\"ebt-matched\">ein bisschen aufs Ohr</span>.‘ ",
+            "en": "‘I’ve recently recovered from illness. My body is weak and unfit for work. I’d better have a lie down.’ ",
+            "matched": true
+          }
+        },
+        "score": 8.088,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 8\n8. Paare\n80. Grundlagen der Faulheit und Grundlagen, um die Energie aufzurütteln",
+        "segsMatched": 8,
+        "langSegs": {
+          "pli": 91,
+          "de": 84,
+          "en": 89
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
