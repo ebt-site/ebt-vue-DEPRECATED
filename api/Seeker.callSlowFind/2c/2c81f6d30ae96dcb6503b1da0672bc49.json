@@ -3,7 +3,7 @@
   "volume": "Seeker.callSlowFind",
   "args": [
     {
-      "pattern": "focus only on beauty",
+      "pattern": "on beauty",
       "showMatchesOnly": true,
       "languages": [
         "pli",
@@ -28,49 +28,43 @@
     "minLang": 2,
     "maxDoc": 50,
     "maxResults": 1000,
-    "pattern": "focus only on beauty",
-    "method": "keywords",
-    "resultPattern": "\\bfocus|\\bo(n|ṅ|ñ|ṇ)(l|ḷ)y|\\bo(n|ṅ|ñ|ṇ)|\\bbeauty",
+    "pattern": "on beauty",
+    "method": "phrase",
+    "resultPattern": "\\bon beauty",
     "segsMatched": 10,
     "bilaraPaths": [
-      "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
-      "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/thag/thag19.1_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/thag/thag19.1_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an1/an1.394-574_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an1/an1.394-574_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an10/an10.67_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an10/an10.67_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an10/an10.68_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an10/an10.68_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an8/an8.120_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an8/an8.120_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an8/an8.66_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an8/an8.66_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn15_root-pli-ms.json",
-      "translation/en/sujato/sutta/dn/dn15_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
-      "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
-      "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
-      "root/pli/ms/sutta/mn/mn137_root-pli-ms.json",
-      "translation/en/sujato/sutta/mn/mn137_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn77_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn77_translation-en-sujato.json",
-      "root/pli/ms/sutta/sn/sn35/sn35.127_root-pli-ms.json",
-      "translation/en/sujato/sutta/sn/sn35/sn35.127_translation-en-sujato.json"
+      "root/pli/ms/sutta/mn/mn137_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn137_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/dhp/dhp334-359_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp334-359_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn15_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn15_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an8/an8.66_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an8/an8.66_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an8/an8.120_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an8/an8.120_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an1/an1.394-574_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an1/an1.394-574_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "dn16/en/sujato",
-      "an1.394-574/en/sujato",
-      "an8.120/en/sujato",
-      "an8.66/en/sujato",
-      "dn15/en/sujato",
-      "dn33/en/sujato",
-      "dn34/en/sujato",
-      "mn137/en/sujato",
       "mn77/en/sujato",
-      "sn35.127/en/sujato"
+      "mn137/en/sujato",
+      "dhp334-359/en/sujato",
+      "dn34/en/sujato",
+      "dn33/en/sujato",
+      "dn16/en/sujato",
+      "dn15/en/sujato",
+      "an8.66/en/sujato",
+      "an8.120/en/sujato",
+      "an1.394-574/en/sujato"
     ],
     "mlDocs": [
       {
@@ -87,7 +81,7 @@
           "an8.120:1.3": {
             "scid": "an8.120:1.3",
             "pli": "Rūpī rūpāni passati, ajjhattaṁ arūpasaññī bahiddhā rūpāni passati, subhanteva adhimutto hoti, sabbaso rūpasaññānaṁ samatikkamā paṭighasaññānaṁ atthaṅgamā nānattasaññānaṁ amanasikārā ‘ananto ākāso’ti ākāsānañcāyatanaṁ upasampajja viharati, sabbaso ākāsānañcāyatanaṁ samatikkamma ‘anantaṁ viññāṇan’ti viññāṇañcāyatanaṁ upasampajja viharati, sabbaso viññāṇañcāyatanaṁ samatikkamma ‘natthi kiñcī’ti ākiñcaññāyatanaṁ upasampajja viharati, sabbaso ākiñcaññāyatanaṁ samatikkamma nevasaññānāsaññāyatanaṁ upasampajja viharati, sabbaso nevasaññānāsaññāyatanaṁ samatikkamma saññāvedayitanirodhaṁ upasampajja viharati—",
-            "en": "Having physical form, they see visions … not perceiving form internally, they see visions externally … they’re <span class=\"ebt-matched\">focus</span>ed <span class=\"ebt-matched\">only</span> <span class=\"ebt-matched\">on</span> <span class=\"ebt-matched\">beauty</span> … going totally beyond perceptions of form, with the ending of perceptions of impingement, not <span class=\"ebt-matched\">focus</span>ing <span class=\"ebt-matched\">on</span> perceptions of diversity, aware that ‘space is infinite’, they enter and remain in the dimension of infinite space … going totally beyond the dimension of infinite space, aware that ‘consciousness is infinite’, they enter and remain in the dimension of infinite consciousness … going totally beyond the dimension of infinite consciousness, aware that ‘there is nothing at all’, they enter and remain in the dimension of nothingness … going totally beyond the dimension of nothingness, they enter and remain in the dimension of neither perception nor non-perception … going totally beyond the dimension of neither perception nor non-perception, they enter and remain in the cessation of perception and feeling … ",
+            "en": "Having physical form, they see visions … not perceiving form internally, they see visions externally … they’re focused only <span class=\"ebt-matched\">on beauty</span> … going totally beyond perceptions of form, with the ending of perceptions of impingement, not focusing on perceptions of diversity, aware that ‘space is infinite’, they enter and remain in the dimension of infinite space … going totally beyond the dimension of infinite space, aware that ‘consciousness is infinite’, they enter and remain in the dimension of infinite consciousness … going totally beyond the dimension of infinite consciousness, aware that ‘there is nothing at all’, they enter and remain in the dimension of nothingness … going totally beyond the dimension of nothingness, they enter and remain in the dimension of neither perception nor non-perception … going totally beyond the dimension of neither perception nor non-perception, they enter and remain in the cessation of perception and feeling … ",
             "matched": true
           }
         },
@@ -116,7 +110,7 @@
           "an8.66:3.1": {
             "scid": "an8.66:3.1",
             "pli": "Subhanteva adhimutto hoti. ",
-            "en": "They’re <span class=\"ebt-matched\">focus</span>ed <span class=\"ebt-matched\">only</span> <span class=\"ebt-matched\">on</span> <span class=\"ebt-matched\">beauty</span>. ",
+            "en": "They’re focused only <span class=\"ebt-matched\">on beauty</span>. ",
             "matched": true
           }
         },
@@ -133,31 +127,31 @@
       },
       {
         "bilaraPaths": [
-          "root/pli/ms/sutta/sn/sn35/sn35.127_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn35/sn35.127_translation-en-sujato.json"
+          "root/pli/ms/sutta/kn/dhp/dhp334-359_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/dhp/dhp334-359_translation-en-sujato.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
         "category": "sutta",
-        "sutta_uid": "sn35.127",
+        "sutta_uid": "dhp334-359",
         "lang": "en",
         "segMap": {
-          "sn35.127:3.7": {
-            "scid": "sn35.127:3.7",
-            "pli": "Appekadā, bho bhāradvāja, asubhato manasi karissāmīti subhatova āgacchati. ",
-            "en": "Sometimes I plan to <span class=\"ebt-matched\">focus</span> <span class=\"ebt-matched\">on</span> something as ugly, but <span class=\"ebt-matched\">only</span> its <span class=\"ebt-matched\">beauty</span> comes to mind. ",
+          "dhp349:2": {
+            "scid": "dhp349:2",
+            "pli": "Tibbarāgassa subhānupassino;",
+            "en": "very lustful, focusing <span class=\"ebt-matched\">on beauty</span>,",
             "matched": true
           }
         },
-        "score": 1.024,
+        "score": 1.008,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Linked Discourses 35\n13. Householders\n127. With Bhāradvāja",
+        "title": "Minor Collection\nSayings of the Dhamma\n24. Craving\nKapilamacchavatthu",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 42,
-          "en": 41
+          "pli": 124,
+          "en": 111
         }
       },
       {
@@ -174,7 +168,7 @@
           "an1.449:1.1": {
             "scid": "an1.449:1.1",
             "pli": "subhanteva adhimutto hoti … ",
-            "en": "they’re <span class=\"ebt-matched\">focus</span>ed <span class=\"ebt-matched\">only</span> <span class=\"ebt-matched\">on</span> <span class=\"ebt-matched\">beauty</span> … ",
+            "en": "they’re focused only <span class=\"ebt-matched\">on beauty</span> … ",
             "matched": true
           }
         },
@@ -203,7 +197,7 @@
           "mn137:27.5": {
             "scid": "mn137:27.5",
             "pli": "subhantveva adhimutto hoti—",
-            "en": "They’re <span class=\"ebt-matched\">focus</span>ed <span class=\"ebt-matched\">only</span> <span class=\"ebt-matched\">on</span> <span class=\"ebt-matched\">beauty</span>. ",
+            "en": "They’re focused only <span class=\"ebt-matched\">on beauty</span>. ",
             "matched": true
           }
         },
@@ -232,7 +226,7 @@
           "dn15:35.7": {
             "scid": "dn15:35.7",
             "pli": "Subhanteva adhimutto hoti, ",
-            "en": "They’re <span class=\"ebt-matched\">focus</span>ed <span class=\"ebt-matched\">only</span> <span class=\"ebt-matched\">on</span> <span class=\"ebt-matched\">beauty</span>. ",
+            "en": "They’re focused only <span class=\"ebt-matched\">on beauty</span>. ",
             "matched": true
           }
         },
@@ -261,7 +255,7 @@
           "mn77:22.6": {
             "scid": "mn77:22.6",
             "pli": "subhanteva adhimutto hoti, ",
-            "en": "They’re <span class=\"ebt-matched\">focus</span>ed <span class=\"ebt-matched\">only</span> <span class=\"ebt-matched\">on</span> <span class=\"ebt-matched\">beauty</span>. ",
+            "en": "They’re focused only <span class=\"ebt-matched\">on beauty</span>. ",
             "matched": true
           }
         },
@@ -290,7 +284,7 @@
           "dn16:3.33.7": {
             "scid": "dn16:3.33.7",
             "pli": "Subhanteva adhimutto hoti, ",
-            "en": "They’re <span class=\"ebt-matched\">focus</span>ed <span class=\"ebt-matched\">only</span> <span class=\"ebt-matched\">on</span> <span class=\"ebt-matched\">beauty</span>. ",
+            "en": "They’re focused only <span class=\"ebt-matched\">on beauty</span>. ",
             "matched": true
           }
         },
@@ -319,7 +313,7 @@
           "dn33:3.1.173": {
             "scid": "dn33:3.1.173",
             "pli": "Subhanteva adhimutto hoti. ",
-            "en": "They’re <span class=\"ebt-matched\">focus</span>ed <span class=\"ebt-matched\">only</span> <span class=\"ebt-matched\">on</span> <span class=\"ebt-matched\">beauty</span>. ",
+            "en": "They’re focused only <span class=\"ebt-matched\">on beauty</span>. ",
             "matched": true
           }
         },
@@ -348,7 +342,7 @@
           "dn34:2.1.196": {
             "scid": "dn34:2.1.196",
             "pli": "Subhanteva adhimutto hoti. ",
-            "en": "They’re <span class=\"ebt-matched\">focus</span>ed <span class=\"ebt-matched\">only</span> <span class=\"ebt-matched\">on</span> <span class=\"ebt-matched\">beauty</span>. ",
+            "en": "They’re focused only <span class=\"ebt-matched\">on beauty</span>. ",
             "matched": true
           }
         },
