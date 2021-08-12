@@ -31,7 +31,7 @@
     "pattern": "spectrum of wisdom",
     "method": "phrase",
     "resultPattern": "\\bspectrum of wisdom",
-    "segsMatched": 14,
+    "segsMatched": 11,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn10_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn10_translation-en-sujato.json",
@@ -66,12 +66,6 @@
         "sutta_uid": "dn10",
         "lang": "en",
         "segMap": {
-          "dn10:1.6.3": {
-            "scid": "dn10:1.6.3",
-            "pli": "Ariyassa sīlakkhandhassa, ariyassa samādhikkhandhassa, ariyassa paññākkhandhassa. ",
-            "en": "The entire spectrum of noble ethics, immersion, and wisdom. ",
-            "matched": true
-          },
           "dn10:2.20.0": {
             "scid": "dn10:2.20.0",
             "pli": "3. Paññākkhandha ",
@@ -103,56 +97,15 @@
             "matched": true
           }
         },
-        "score": 6.021,
+        "score": 5.018,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Long Discourses 10\nWith Subha",
-        "segsMatched": 6,
+        "segsMatched": 5,
         "langSegs": {
           "pli": 284,
           "en": 281
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/an/an3/an3.26_root-pli-ms.json",
-          "translation/en/sujato/sutta/an/an3/an3.26_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "an3.26",
-        "lang": "en",
-        "segMap": {
-          "an3.26:3.5": {
-            "scid": "an3.26:3.5",
-            "pli": "Iti aparipūraṁ vā sīlakkhandhaṁ paripūressāmi, paripūraṁ vā sīlakkhandhaṁ tattha tattha paññāya anuggahessāmi; ",
-            "en": "Thinking, ‘I’ll fulfill the entire spectrum of ethical conduct I haven’t yet fulfilled, or support with wisdom in every situation the ethical conduct I’ve already fulfilled. ",
-            "matched": true
-          },
-          "an3.26:3.6": {
-            "scid": "an3.26:3.6",
-            "pli": "aparipūraṁ vā samādhikkhandhaṁ paripūressāmi, paripūraṁ vā samādhikkhandhaṁ tattha tattha paññāya anuggahessāmi; ",
-            "en": "I’ll fulfill the entire spectrum of immersion I haven’t yet fulfilled, or support with wisdom in every situation the immersion I’ve already fulfilled. ",
-            "matched": true
-          },
-          "an3.26:3.7": {
-            "scid": "an3.26:3.7",
-            "pli": "aparipūraṁ vā paññākkhandhaṁ paripūressāmi, paripūraṁ vā paññākkhandhaṁ tattha tattha paññāya anuggahessāmīti. ",
-            "en": "I’ll fulfill the entire <span class=\"ebt-matched\">spectrum of wisdom</span> I haven’t yet fulfilled, or support with wisdom in every situation the wisdom I’ve already fulfilled.’ ",
-            "matched": true
-          }
-        },
-        "score": 3.091,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Numbered Discourses 3\n3. Persons\n26. Associates",
-        "segsMatched": 3,
-        "langSegs": {
-          "pli": 33,
-          "en": 32
         }
       },
       {
@@ -188,6 +141,35 @@
         "langSegs": {
           "pli": 14,
           "en": 13
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an3/an3.26_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an3/an3.26_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an3.26",
+        "lang": "en",
+        "segMap": {
+          "an3.26:3.7": {
+            "scid": "an3.26:3.7",
+            "pli": "aparipūraṁ vā paññākkhandhaṁ paripūressāmi, paripūraṁ vā paññākkhandhaṁ tattha tattha paññāya anuggahessāmīti. ",
+            "en": "I’ll fulfill the entire <span class=\"ebt-matched\">spectrum of wisdom</span> I haven’t yet fulfilled, or support with wisdom in every situation the wisdom I’ve already fulfilled.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.03,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 3\n3. Persons\n26. Associates",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 33,
+          "en": 32
         }
       },
       {
