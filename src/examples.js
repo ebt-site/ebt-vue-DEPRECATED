@@ -1083,7 +1083,6 @@
     "skillful ethics",
     "slain by conceit",
     "snake scorpion centipede",
-    "so diminished",
     "someone with confident heart goes for refuge",
     "something left over",
     "speak, good horn",
