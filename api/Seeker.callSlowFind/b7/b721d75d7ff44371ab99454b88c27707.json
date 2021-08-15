@@ -32,11 +32,14 @@
     "pattern": "höllenlärm",
     "method": "phrase",
     "resultPattern": "\\bhöllenlärm",
-    "segsMatched": 9,
+    "segsMatched": 11,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn25_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn25_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn25_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an8/an8.86_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an8/an8.86_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an8/an8.86_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an7/an7.63_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an7/an7.63_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an7/an7.63_translation-en-sujato.json",
@@ -49,6 +52,7 @@
     ],
     "suttaRefs": [
       "dn25/de/sabbamitta",
+      "an8.86/de/sabbamitta",
       "an7.63/de/sabbamitta",
       "an6.42/de/sabbamitta",
       "an5.30/de/sabbamitta"
@@ -176,6 +180,45 @@
           "pli": 60,
           "de": 53,
           "en": 58
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.86_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an8/an8.86_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an8/an8.86_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an8.86",
+        "lang": "de",
+        "segMap": {
+          "an8.86:2.1": {
+            "scid": "an8.86:2.1",
+            "pli": "Atha kho icchānaṅgalakā brāhmaṇagahapatikā tassā rattiyā accayena pahutaṁ khādanīyaṁ bhojanīyaṁ ādāya yena icchānaṅgalavanasaṇḍo tenupasaṅkamiṁsu; upasaṅkamitvā bahidvārakoṭṭhake aṭṭhaṁsu uccāsaddā mahāsaddā. ",
+            "de": "Als dann die Nacht vorüber war, nahmen sie viele verschiedene Arten von Speisen, gingen in den Wald bei Icchānaṅgala und standen vor dem Tor, wo sie einen <span class=\"ebt-matched\">Höllenlärm</span> machten. ",
+            "en": "Then, when the night had passed, they took many different foods and went to the forest near Icchānaṅgala, where they stood outside the gates making a dreadful racket. ",
+            "matched": true
+          },
+          "an8.86:2.4": {
+            "scid": "an8.86:2.4",
+            "pli": "“ke pana te, nāgita, uccāsaddā mahāsaddā kevaṭṭā maññe macchavilope”ti? ",
+            "de": "„Nāgita, wer macht diesen <span class=\"ebt-matched\">Höllenlärm</span>? Man könnte meinen, es wären Fischer, die ihren Fang einholen!“ ",
+            "en": "“Nāgita, who’s making that dreadful racket? You’d think it was fishermen hauling in a catch!” ",
+            "matched": true
+          }
+        },
+        "score": 2.031,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 8\n9. Achtsamkeit\n86. Mit Nāgita",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 65,
+          "de": 64,
+          "en": 64
         }
       },
       {

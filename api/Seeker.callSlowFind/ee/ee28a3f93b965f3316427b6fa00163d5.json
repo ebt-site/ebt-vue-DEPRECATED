@@ -32,7 +32,7 @@
     "pattern": "es ist einfach dieser edle achtfache pfad",
     "method": "phrase",
     "resultPattern": "\\bes ist einfach dieser edle achtfache pfad",
-    "segsMatched": 9,
+    "segsMatched": 10,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn56/sn56.11_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn56/sn56.11_translation-de-sabbamitta.json",
@@ -43,6 +43,9 @@
       "root/pli/ms/sutta/mn/mn44_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn44_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn44_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn141_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn141_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn141_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn6_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn6_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn6_translation-en-sujato.json",
@@ -63,6 +66,7 @@
       "sn56.11/de/sabbamitta",
       "sn47.40/de/sabbamitta",
       "mn44/de/sabbamitta",
+      "mn141/de/sabbamitta",
       "dn6/de/sabbamitta",
       "dn19/de/sabbamitta",
       "an3.71/de/sabbamitta",
@@ -235,6 +239,38 @@
           "pli": 117,
           "de": 116,
           "en": 116
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn141_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn141_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn141_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn141",
+        "lang": "de",
+        "segMap": {
+          "mn141:23.2": {
+            "scid": "mn141:23.2",
+            "pli": "Ayameva ariyo aṭṭhaṅgiko maggo, seyyathidaṁ—",
+            "de": "<span class=\"ebt-matched\">Es ist einfach dieser edle achtfache Pfad</span>: nämlich ",
+            "en": "It is simply this noble eightfold path, that is: ",
+            "matched": true
+          }
+        },
+        "score": 1.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 141\nDie Aufgliederung der Wahrheiten",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 122,
+          "de": 121,
+          "en": 121
         }
       },
       {

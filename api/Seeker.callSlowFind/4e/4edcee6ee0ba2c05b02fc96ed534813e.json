@@ -32,7 +32,7 @@
     "pattern": "ertragen",
     "method": "phrase",
     "resultPattern": "\\bertragen",
-    "segsMatched": 87,
+    "segsMatched": 88,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an5/an5.139_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.139_translation-de-sabbamitta.json",
@@ -73,6 +73,9 @@
       "root/pli/ms/sutta/an/an3/an3.49_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.49_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.49_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag15.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag15.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag15.1_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.165_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.165_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.165_translation-en-sujato.json",
@@ -97,6 +100,7 @@
       "an5.123/de/sabbamitta",
       "an5.113/de/sabbamitta",
       "an3.49/de/sabbamitta",
+      "thag15.1/de/sabbamitta",
       "an4.165/de/sabbamitta",
       "an4.157/de/sabbamitta",
       "an3.135/de/sabbamitta"
@@ -1109,6 +1113,38 @@
           "pli": 26,
           "de": 25,
           "en": 25
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag15.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag15.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag15.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag15.1",
+        "lang": "de",
+        "segMap": {
+          "thag15.1:12.3": {
+            "scid": "thag15.1:12.3",
+            "pli": "Nāgo saṅgāmasīseva,",
+            "de": "soll man achtsam <span class=\"ebt-matched\">ertragen</span> ",
+            "en": "one should mindfully endure,",
+            "matched": true
+          }
+        },
+        "score": 1.014,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche\nDas Sechzehnerbuch\nErstes Kapitel\n15.1. Koṇḍañña der Versteher",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 71,
+          "de": 70,
+          "en": 70
         }
       }
     ]

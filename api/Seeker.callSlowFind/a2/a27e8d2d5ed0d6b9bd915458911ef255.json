@@ -32,7 +32,7 @@
     "pattern": "abnehmend",
     "method": "phrase",
     "resultPattern": "\\babnehmend",
-    "segsMatched": 6,
+    "segsMatched": 7,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn31_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn31_translation-de-sabbamitta.json",
@@ -48,14 +48,18 @@
       "translation/en/sujato/sutta/sn/sn12/sn12.28_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn12/sn12.27_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.27_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn12/sn12.27_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn12/sn12.27_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn141_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn141_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn141_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "dn31/de/sabbamitta",
       "sn12.33/de/sabbamitta",
       "sn12.2/de/sabbamitta",
       "sn12.28/de/sabbamitta",
-      "sn12.27/de/sabbamitta"
+      "sn12.27/de/sabbamitta",
+      "mn141/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -223,6 +227,38 @@
           "pli": 79,
           "de": 78,
           "en": 78
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn141_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn141_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn141_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn141",
+        "lang": "de",
+        "segMap": {
+          "mn141:12.2": {
+            "scid": "mn141:12.2",
+            "pli": "Yā tesaṁ tesaṁ sattānaṁ tamhi tamhi sattanikāye jarā jīraṇatā khaṇḍiccaṁ pāliccaṁ valittacatā āyuno saṁhāni indriyānaṁ paripāko, ",
+            "de": "Das Alter, das Herunterkommen, bröckelige Zähne, graue Haare, runzelige Haut, <span class=\"ebt-matched\">abnehmend</span>e Lebensenergie und versagende Sinneskräfte bei den verschiedenen Wesen der verschiedenen Gattungen von Wesen – ",
+            "en": "The old age, decrepitude, broken teeth, grey hair, wrinkly skin, diminished vitality, and failing faculties of the various sentient beings in the various orders of sentient beings. ",
+            "matched": true
+          }
+        },
+        "score": 1.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 141\nDie Aufgliederung der Wahrheiten",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 122,
+          "de": 121,
+          "en": 121
         }
       }
     ]

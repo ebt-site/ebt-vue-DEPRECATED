@@ -32,7 +32,7 @@
     "pattern": "aufgegeben werden",
     "method": "phrase",
     "resultPattern": "\\baufgegeben werden",
-    "segsMatched": 75,
+    "segsMatched": 76,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn2_translation-de-sabbamitta.json",
@@ -64,6 +64,9 @@
       "root/pli/ms/sutta/sn/sn45/sn45.8_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn45/sn45.8_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn45/sn45.8_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn141_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn141_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn141_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
@@ -97,6 +100,7 @@
       "an3.121/de/sabbamitta",
       "sn56.11/de/sabbamitta",
       "sn45.8/de/sabbamitta",
+      "mn141/de/sabbamitta",
       "dn33/de/sabbamitta",
       "an6.102/de/sabbamitta",
       "an4.69/de/sabbamitta",
@@ -990,6 +994,38 @@
           "pli": 82,
           "de": 80,
           "en": 80
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn141_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn141_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn141_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn141",
+        "lang": "de",
+        "segMap": {
+          "mn141:29.3": {
+            "scid": "mn141:29.3",
+            "pli": "uppannānaṁ pāpakānaṁ akusalānaṁ dhammānaṁ pahānāya chandaṁ janeti vāyamati vīriyaṁ ārabhati cittaṁ paggaṇhāti padahati, ",
+            "de": "Sie entwickelt Begeisterung, probiert, setzt sich ein, gebraucht ihren Geist und bemüht sich, damit schlechte, untaugliche Eigenschaften, die aufgekommen sind, <span class=\"ebt-matched\">aufgegeben werden</span>. ",
+            "en": "They generate enthusiasm, try, make an effort, exert the mind, and strive so that bad, unskillful qualities that have arisen are given up. ",
+            "matched": true
+          }
+        },
+        "score": 1.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 141\nDie Aufgliederung der Wahrheiten",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 122,
+          "de": 121,
+          "en": 121
         }
       },
       {
