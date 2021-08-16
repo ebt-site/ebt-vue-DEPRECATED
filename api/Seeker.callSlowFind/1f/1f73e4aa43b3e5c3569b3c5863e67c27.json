@@ -3,7 +3,7 @@
   "volume": "Seeker.callSlowFind",
   "args": [
     {
-      "pattern": "alt werden muss",
+      "pattern": "alt werden m[uü]ss",
       "showMatchesOnly": true,
       "languages": [
         "pli",
@@ -29,10 +29,10 @@
     "minLang": 3,
     "maxDoc": 50,
     "maxResults": 1000,
-    "pattern": "alt werden muss",
+    "pattern": "alt werden m[uü]ss",
     "method": "phrase",
-    "resultPattern": "\\balt werden muss",
-    "segsMatched": 25,
+    "resultPattern": "\\balt werden m[uü]ss",
+    "segsMatched": 26,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an5/an5.50_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.50_translation-de-sabbamitta.json",
@@ -46,6 +46,9 @@
       "root/pli/ms/sutta/an/an3/an3.39_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.39_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.39_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn141_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn141_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn141_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.57_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.57_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.57_translation-en-sujato.json",
@@ -61,6 +64,7 @@
       "an5.48/de/sabbamitta",
       "an4.255/de/sabbamitta",
       "an3.39/de/sabbamitta",
+      "mn141/de/sabbamitta",
       "an5.57/de/sabbamitta",
       "an5.49/de/sabbamitta",
       "an4.182/de/sabbamitta"
@@ -414,6 +418,38 @@
           "pli": 78,
           "de": 77,
           "en": 77
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn141_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn141_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn141_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn141",
+        "lang": "de",
+        "segMap": {
+          "mn141:19.6": {
+            "scid": "mn141:19.6",
+            "pli": "Jarādhammānaṁ, āvuso, sattānaṁ …pe… ",
+            "de": "Bei Lebewesen, die <span class=\"ebt-matched\">alt werden müss</span>en, … ",
+            "en": "In sentient beings who are liable to grow old … ",
+            "matched": true
+          }
+        },
+        "score": 1.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 141\nDie Aufgliederung der Wahrheiten",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 122,
+          "de": 121,
+          "en": 121
         }
       }
     ]
