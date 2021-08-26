@@ -3,7 +3,7 @@
   "volume": "Seeker.callSlowFind",
   "args": [
     {
-      "pattern": "with tongue pressed",
+      "pattern": "tongue pressed",
       "showMatchesOnly": true,
       "languages": [
         "pli",
@@ -28,29 +28,25 @@
     "minLang": 2,
     "maxDoc": 50,
     "maxResults": 1000,
-    "pattern": "with tongue pressed",
-    "method": "keywords",
-    "resultPattern": "\\bwith|\\btongue|\\bpressed",
+    "pattern": "tongue pressed",
+    "method": "phrase",
+    "resultPattern": "\\btongue pressed",
     "segsMatched": 9,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn20_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn20_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an3/an3.61_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an3/an3.61_translation-en-sujato.json",
-      "root/pli/ms/sutta/mn/mn100_root-pli-ms.json",
-      "translation/en/sujato/sutta/mn/mn100_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn85_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn36_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn36_translation-en-sujato.json",
-      "root/pli/ms/sutta/mn/mn38_root-pli-ms.json",
-      "translation/en/sujato/sutta/mn/mn38_translation-en-sujato.json",
-      "root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
-      "translation/en/sujato/sutta/mn/mn85_translation-en-sujato.json"
+      "root/pli/ms/sutta/mn/mn100_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn100_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "mn20/en/sujato",
-      "mn100/en/sujato",
+      "mn85/en/sujato",
       "mn36/en/sujato",
-      "mn85/en/sujato"
+      "mn100/en/sujato"
     ],
     "mlDocs": [
       {
@@ -67,19 +63,19 @@
           "mn20:7.2": {
             "scid": "mn20:7.2",
             "pli": "Tena, bhikkhave, bhikkhunā dantebhidantamādhāya jivhāya tāluṁ āhacca cetasā cittaṁ abhiniggaṇhitabbaṁ abhinippīḷetabbaṁ abhisantāpetabbaṁ. ",
-            "en": "<span class=\"ebt-matched\">With</span> teeth clenched and <span class=\"ebt-matched\">tongue</span> <span class=\"ebt-matched\">pressed</span> against the roof of the mouth, they should squeeze, squash, and torture mind <span class=\"ebt-matched\">with</span> mind. ",
+            "en": "With teeth clenched and <span class=\"ebt-matched\">tongue pressed</span> against the roof of the mouth, they should squeeze, squash, and torture mind with mind. ",
             "matched": true
           },
           "mn20:7.7": {
             "scid": "mn20:7.7",
             "pli": "Tena, bhikkhave, bhikkhunā dantebhidantamādhāya jivhāya tāluṁ āhacca cetasā cittaṁ abhiniggaṇhitabbaṁ abhinippīḷetabbaṁ abhisantāpetabbaṁ. ",
-            "en": "<span class=\"ebt-matched\">with</span> teeth clenched and <span class=\"ebt-matched\">tongue</span> <span class=\"ebt-matched\">pressed</span> against the roof of the mouth, should squeeze, squash, and torture mind <span class=\"ebt-matched\">with</span> mind. ",
+            "en": "with teeth clenched and <span class=\"ebt-matched\">tongue pressed</span> against the roof of the mouth, should squeeze, squash, and torture mind with mind. ",
             "matched": true
           },
           "mn20:8.9": {
             "scid": "mn20:8.9",
             "pli": "Dantebhidantamādhāya jivhāya tāluṁ āhacca cetasā cittaṁ abhiniggaṇhato abhinippīḷayato abhisantāpayato ye pāpakā akusalā vitakkā chandūpasaṁhitāpi dosūpasaṁhitāpi mohūpasaṁhitāpi te pahīyanti te abbhatthaṁ gacchanti. ",
-            "en": "<span class=\"ebt-matched\">With</span> teeth clenched and <span class=\"ebt-matched\">tongue</span> <span class=\"ebt-matched\">pressed</span> against the roof of the mouth, they squeeze, squash, and torture mind <span class=\"ebt-matched\">with</span> mind. When they succeed in each of these things, those bad thoughts are given up and come to an end. ",
+            "en": "With teeth clenched and <span class=\"ebt-matched\">tongue pressed</span> against the roof of the mouth, they squeeze, squash, and torture mind with mind. When they succeed in each of these things, those bad thoughts are given up and come to an end. ",
             "matched": true
           }
         },
@@ -108,13 +104,13 @@
           "mn100:17.2": {
             "scid": "mn100:17.2",
             "pli": "‘yannūnāhaṁ dantebhidantamādhāya, jivhāya tāluṁ āhacca, cetasā cittaṁ abhiniggaṇheyyaṁ abhinippīḷeyyaṁ abhisantāpeyyan’ti. ",
-            "en": "‘Why don’t I, <span class=\"ebt-matched\">with</span> teeth clenched and <span class=\"ebt-matched\">tongue</span> <span class=\"ebt-matched\">pressed</span> against the roof of my mouth, squeeze, squash, and torture mind <span class=\"ebt-matched\">with</span> mind.’ ",
+            "en": "‘Why don’t I, with teeth clenched and <span class=\"ebt-matched\">tongue pressed</span> against the roof of my mouth, squeeze, squash, and torture mind with mind.’ ",
             "matched": true
           },
           "mn100:17.6": {
             "scid": "mn100:17.6",
             "pli": "evameva kho me, bhāradvāja, dantebhidantamādhāya, jivhāya tāluṁ āhacca, cetasā cittaṁ abhiniggaṇhato abhinippīḷayato abhisantāpayato kacchehi sedā muccanti. ",
-            "en": "In the same way, <span class=\"ebt-matched\">with</span> teeth clenched and <span class=\"ebt-matched\">tongue</span> <span class=\"ebt-matched\">pressed</span> against the roof of my mouth, I squeezed, squashed, and tortured mind <span class=\"ebt-matched\">with</span> mind until sweat ran from my armpits. ",
+            "en": "In the same way, with teeth clenched and <span class=\"ebt-matched\">tongue pressed</span> against the roof of my mouth, I squeezed, squashed, and tortured mind with mind until sweat ran from my armpits. ",
             "matched": true
           }
         },
@@ -143,13 +139,13 @@
           "mn36:20.2": {
             "scid": "mn36:20.2",
             "pli": "‘yannūnāhaṁ dantebhi dantamādhāya, jivhāya tāluṁ āhacca, cetasā cittaṁ abhiniggaṇheyyaṁ abhinippīḷeyyaṁ abhisantāpeyyan’ti. ",
-            "en": "‘Why don’t I, <span class=\"ebt-matched\">with</span> teeth clenched and <span class=\"ebt-matched\">tongue</span> <span class=\"ebt-matched\">pressed</span> against the roof of my mouth, squeeze, squash, and torture mind <span class=\"ebt-matched\">with</span> mind.’ ",
+            "en": "‘Why don’t I, with teeth clenched and <span class=\"ebt-matched\">tongue pressed</span> against the roof of my mouth, squeeze, squash, and torture mind with mind.’ ",
             "matched": true
           },
           "mn36:20.6": {
             "scid": "mn36:20.6",
             "pli": "evameva kho me, aggivessana, dantebhi dantamādhāya, jivhāya tāluṁ āhacca, cetasā cittaṁ abhiniggaṇhato abhinippīḷayato abhisantāpayato kacchehi sedā muccanti. ",
-            "en": "In the same way, <span class=\"ebt-matched\">with</span> teeth clenched and <span class=\"ebt-matched\">tongue</span> <span class=\"ebt-matched\">pressed</span> against the roof of my mouth, I squeezed, squashed, and tortured mind <span class=\"ebt-matched\">with</span> mind until sweat ran from my armpits. ",
+            "en": "In the same way, with teeth clenched and <span class=\"ebt-matched\">tongue pressed</span> against the roof of my mouth, I squeezed, squashed, and tortured mind with mind until sweat ran from my armpits. ",
             "matched": true
           }
         },
@@ -178,13 +174,13 @@
           "mn85:20.2": {
             "scid": "mn85:20.2",
             "pli": "‘yannūnāhaṁ dantebhidantamādhāya, jivhāya tāluṁ āhacca, cetasā cittaṁ abhiniggaṇheyyaṁ abhinippīḷeyyaṁ abhisantāpeyyan’ti. ",
-            "en": "‘Why don’t I, <span class=\"ebt-matched\">with</span> teeth clenched and <span class=\"ebt-matched\">tongue</span> <span class=\"ebt-matched\">pressed</span> against the roof of my mouth, squeeze, squash, and torture mind <span class=\"ebt-matched\">with</span> mind.’ ",
+            "en": "‘Why don’t I, with teeth clenched and <span class=\"ebt-matched\">tongue pressed</span> against the roof of my mouth, squeeze, squash, and torture mind with mind.’ ",
             "matched": true
           },
           "mn85:20.6": {
             "scid": "mn85:20.6",
             "pli": "evameva kho me, rājakumāra, dantebhidantamādhāya, jivhāya tāluṁ āhacca, cetasā cittaṁ abhiniggaṇhato abhinippīḷayato abhisantāpayato kacchehi sedā muccanti. ",
-            "en": "In the same way, <span class=\"ebt-matched\">with</span> teeth clenched and <span class=\"ebt-matched\">tongue</span> <span class=\"ebt-matched\">pressed</span> against the roof of my mouth, I squeezed, squashed, and tortured mind <span class=\"ebt-matched\">with</span> mind until sweat ran from my armpits. ",
+            "en": "In the same way, with teeth clenched and <span class=\"ebt-matched\">tongue pressed</span> against the roof of my mouth, I squeezed, squashed, and tortured mind with mind until sweat ran from my armpits. ",
             "matched": true
           }
         },
