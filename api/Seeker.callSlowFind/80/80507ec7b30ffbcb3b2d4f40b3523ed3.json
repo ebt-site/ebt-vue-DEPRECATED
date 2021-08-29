@@ -1,0 +1,122 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "alle bedingungen sind unbeständig",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "alle bedingungen sind unbeständig",
+    "method": "phrase",
+    "resultPattern": "\\balle bedingungen sind unbeständig",
+    "segsMatched": 3,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an3/an3.136_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an3/an3.136_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an3/an3.136_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag15.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag15.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag15.1_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an3.136/de/sabbamitta",
+      "thag15.1/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an3/an3.136_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an3/an3.136_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an3/an3.136_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an3.136",
+        "lang": "de",
+        "segMap": {
+          "an3.136:1.2": {
+            "scid": "an3.136:1.2",
+            "pli": "Sabbe saṅkhārā aniccā. ",
+            "de": "<span class=\"ebt-matched\">Alle Bedingungen sind unbeständig</span>. ",
+            "en": "all conditions are impermanent. ",
+            "matched": true
+          },
+          "an3.136:1.5": {
+            "scid": "an3.136:1.5",
+            "pli": "‘sabbe saṅkhārā aniccā’ti. ",
+            "de": "‚<span class=\"ebt-matched\">Alle Bedingungen sind unbeständig</span>.‘ ",
+            "en": "‘All conditions are impermanent.’ ",
+            "matched": true
+          }
+        },
+        "score": 2.105,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 3\n14. Ein Krieger\n136. Erscheinen",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 19,
+          "de": 18,
+          "en": 18
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag15.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag15.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag15.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag15.1",
+        "lang": "de",
+        "segMap": {
+          "thag15.1:4.1": {
+            "scid": "thag15.1:4.1",
+            "pli": "Sabbe saṅkhārā aniccāti,",
+            "de": "<span class=\"ebt-matched\">Alle Bedingungen sind unbeständig</span> – ",
+            "en": "All conditions are impermanent—",
+            "matched": true
+          }
+        },
+        "score": 1.014,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche\nDas Sechzehnerbuch\nErstes Kapitel\n15.1. Koṇḍañña der Versteher",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 71,
+          "de": 70,
+          "en": 70
+        }
+      }
+    ]
+  }
+}
