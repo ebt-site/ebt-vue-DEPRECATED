@@ -151,8 +151,9 @@
                   tipitakaCategories: undefined, // These are not serialized
               }],
             };
-            verbose && console.log(`exampleGuid(${example}, ${lang})`, JSON.stringify(key, null, 2));
-            return this.mj.hash(key);
+            let guid = this.mj.hash(key);
+            verbose && console.log(`bilaraWeb.exampleGuid(${example}, ${lang}) => ${guid}`, JSON.stringify(key, null, 2));
+            return guid;
         }
 
         findArgs(args) {
@@ -296,6 +297,7 @@
                     let res = await fetch(url, {headers:{Accept: 'text/plain'}});
                     result = (await res.json()).value;
                 } catch(e) {
+                    let guid = this.exampleGuid(pattern, lang, true);
                     let err = new Error(`${url} => ${e.message}`);
                     throw err;
                 }

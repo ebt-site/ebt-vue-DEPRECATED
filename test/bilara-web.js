@@ -143,25 +143,34 @@
         let guid = '6887db39e3f45d06e4e87ebf004a0334';
         should(bw.exampleGuid(example, lang)).equal(guid);
     });
+    it("TESTTESTfind(...) finds inappropriate to talk", async()=>{
+        var bw = new BilaraWeb({fetch});
+        bw.logLevel = 'info';
+        var pattern = "inappropriate to talk"; 
+        var verbose = 0;
+        var lang = 'en';
+        var res = await bw.find({ pattern, lang, verbose });
+        should.deepEqual(res.suttaRefs, [
+          'an5.157/en/sujato',
+        ]);
+        should(res.bilaraPaths.length).equal(2);
+    });
     it("TESTTESTfind(...) finds de example", async()=>{
         var bw = new BilaraWeb({fetch});
         bw.logLevel = 'info';
         var pattern = "abnehmend"; 
-        var verbose = true;
+        var verbose = 0;
         var lang = 'de';
         var res = await bw.find({ pattern, lang, verbose });
-        console.log(res);
         should.deepEqual(res.suttaRefs, [
-            'sn42.11/en/sujato',
-            'mn105/en/sujato',
-            'mn1/en/sujato',
-            'sn56.21/en/sujato',
-            'mn66/en/sujato',
-            'mn116/en/sujato',
-            'dn16/en/sujato',
-            //'pli-tv-kd6/en/brahmali',
+          'dn31/de/sabbamitta',
+          'sn12.33/de/sabbamitta',
+          'sn12.2/de/sabbamitta',
+          'sn12.28/de/sabbamitta',
+          'sn12.27/de/sabbamitta',       
+          'mn141/de/sabbamitta'   
         ]);
-        should(res.bilaraPaths.length).equal(14);
+        should(res.bilaraPaths.length).equal(18);
     });
     it("find(...) finds example", async()=>{
         var bw = new BilaraWeb({fetch});
