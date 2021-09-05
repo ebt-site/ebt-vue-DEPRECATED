@@ -32,7 +32,7 @@
     "pattern": "schwer zu finden",
     "method": "phrase",
     "resultPattern": "\\bschwer zu finden",
-    "segsMatched": 13,
+    "segsMatched": 14,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an5/an5.60_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.60_translation-de-sabbamitta.json",
@@ -43,6 +43,9 @@
       "root/pli/ms/sutta/sn/sn3/sn3.21_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn3/sn3.21_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn3/sn3.21_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thig/thig16.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thig/thig16.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thig/thig16.1_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.29_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.29_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an8/an8.29_translation-en-sujato.json",
@@ -63,6 +66,7 @@
       "an5.60/de/sabbamitta",
       "an5.59/de/sabbamitta",
       "sn3.21/de/sabbamitta",
+      "thig16.1/de/sabbamitta",
       "an8.29/de/sabbamitta",
       "an6.57/de/sabbamitta",
       "an4.85/de/sabbamitta",
@@ -359,6 +363,38 @@
           "pli": 79,
           "de": 78,
           "en": 78
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thig/thig16.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thig/thig16.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thig/thig16.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thig16.1",
+        "lang": "de",
+        "segMap": {
+          "thig16.1:36.4": {
+            "scid": "thig16.1:36.4",
+            "pli": "Kāmasukhā dullabhā loke.",
+            "de": "Sinnenfreuden sind in der Welt <span class=\"ebt-matched\">schwer zu finden</span>! ",
+            "en": "Sensual pleasures are hard to find in the world!",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Nonnen\nDas große Buch\n16.1. Sumedhā",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 311,
+          "de": 306,
+          "en": 306
         }
       }
     ]
