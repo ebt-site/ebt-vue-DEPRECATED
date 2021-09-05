@@ -30,10 +30,20 @@ export default (context, inject) => {
 
     let cookieJson = VueCookie.get(COOKIE_NAME);
     if (cookieJson) {
-        let settings = new Settings(JSON.parse(cookieJson));
-        console.log(`ebt-client: `, {settings});
-        store.commit('ebt/settings', settings);
-        $vuetify.lang.current = settings.locale;
+        try {
+          let settings = new Settings(JSON.parse(cookieJson));
+          console.log(`ebt-client: `, {settings});
+          store.commit('ebt/settings', settings);
+          $vuetify.lang.current = settings.locale;
+        } catch(e) {
+          let msg = [
+            `Cannot retrieve settings.`,
+            `Please refresh your browser page.`,
+            `ERROR: cannot parse saved settings (cookieJson:${cookieJson} length:${cookieJson.length})`,
+          ].join('\n');
+          console.error(msg);
+          alert(msg);
+        }
     }
 
     store.subscribe((mutation,state) => {
