@@ -242,9 +242,9 @@ export default {
     viewEditGithub: "Seite auf Github ansehen/bearbeiten",
     showEnglish: "Zeige Englisch",
     loadingSutta: "A_SUTTA wird geladen...",
-    refreshPage: "Refresh Page",
-    applicationError: "Application Error",
-    clickRefresh: "An application error has occurred. Click Refresh Page to continue",
+    refreshPage: "Seite neu laden",
+    applicationError: "Fehler in der Web-Anwendung",
+    clickRefresh: "In der Web-Anwendung ist ein Fehler aufgetreten. Klicken Sie „Seite neu laden“, um fortzufahren.",
 
   },
 }
