@@ -240,6 +240,9 @@ export default {
     viewEditGithub: "View/Edit page on Github",
     showEnglish: "Show English",
     loadingSutta: "Loading A_SUTTA...",
+    refreshPage: "Refresh Page",
+    applicationError: "Application Error",
+    clickRefresh: "An application error has occurred. Click Refresh Page to continue",
 
   }
 }

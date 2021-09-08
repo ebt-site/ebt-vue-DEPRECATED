@@ -147,7 +147,7 @@
         var bw = new BilaraWeb({fetch});
         bw.logLevel = 'info';
         var pattern = "inappropriate to talk"; 
-        var verbose = 0;
+        var verbose = 1;
         var lang = 'en';
         var res = await bw.find({ pattern, lang, verbose });
         should.deepEqual(res.suttaRefs, [
@@ -155,7 +155,7 @@
         ]);
         should(res.bilaraPaths.length).equal(2);
     });
-    it("TESTTESTfind(...) finds de example", async()=>{
+    it("find(...) finds de example", async()=>{
         var bw = new BilaraWeb({fetch});
         bw.logLevel = 'info';
         var pattern = "abnehmend"; 
