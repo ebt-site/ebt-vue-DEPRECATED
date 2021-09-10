@@ -1,0 +1,150 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "sicher nicht",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "sicher nicht",
+    "method": "phrase",
+    "resultPattern": "\\bsicher nicht",
+    "segsMatched": 7,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn15_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn15_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn15_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an8/an8.86_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an8/an8.86_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an8/an8.86_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "dn15/de/sabbamitta",
+      "an8.86/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn15_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn15_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn15_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn15",
+        "lang": "de",
+        "segMap": {
+          "dn15:27.4": {
+            "scid": "dn15:27.4",
+            "pli": "‘Na heva kho me vedanā attā, appaṭisaṁvedano me attā’ti iti vā hi, ānanda, attānaṁ samanupassamāno samanupassati. ",
+            "de": "Oder sie betrachten es so: ‚Gefühl ist ganz <span class=\"ebt-matched\">sicher nicht</span> mein Selbst. Mein Selbst erlebt kein Gefühl.‘ ",
+            "en": "Or they regard it like this: ‘Feeling is definitely not my self. My self does not experience feeling.’ ",
+            "matched": true
+          },
+          "dn15:27.5": {
+            "scid": "dn15:27.5",
+            "pli": "‘Na heva kho me vedanā attā, nopi appaṭisaṁvedano me attā, attā me vediyati, vedanādhammo hi me attā’ti iti vā hi, ānanda, attānaṁ samanupassamāno samanupassati. ",
+            "de": "Oder sie betrachten es so: ‚Gefühl ist ganz <span class=\"ebt-matched\">sicher nicht</span> mein Selbst. Aber es ist nicht so, dass mein Selbst kein Gefühl erleben würde. Mein Selbst fühlt, denn mein Selbst ist dem Fühlen unterworfen.‘ ",
+            "en": "Or they regard it like this: ‘Feeling is definitely not my self. But it’s not that my self does not experience feeling. My self feels, for my self is liable to feel.’ ",
+            "matched": true
+          },
+          "dn15:30.2": {
+            "scid": "dn15:30.2",
+            "pli": "‘na heva kho me vedanā attā, appaṭisaṁvedano me attā’ti, so evamassa vacanīyo: ",
+            "de": "‚Gefühl ist ganz <span class=\"ebt-matched\">sicher nicht</span> mein Selbst. Mein Selbst erlebt kein Gefühl.‘ Zu ihnen solltest du sagen: ",
+            "en": "‘Feeling is definitely not my self. My self does not experience feeling.’ You should say this to them, ",
+            "matched": true
+          },
+          "dn15:31.2": {
+            "scid": "dn15:31.2",
+            "pli": "‘na heva kho me vedanā attā, nopi appaṭisaṁvedano me attā, attā me vediyati, vedanādhammo hi me attā’ti. ",
+            "de": "‚Gefühl ist ganz <span class=\"ebt-matched\">sicher nicht</span> mein Selbst. Aber es ist nicht so, dass mein Selbst kein Gefühl erleben würde. Mein Selbst fühlt, denn mein Selbst ist dem Fühlen unterworfen.‘ ",
+            "en": "‘Feeling is definitely not my self. But it’s not that my self does not experience feeling. My self feels, for my self is liable to feel.’ ",
+            "matched": true
+          }
+        },
+        "score": 4.014,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 15\nDie große Lehrrede über das Kausalprinzip\n1. Abhängiges Entstehen",
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 277,
+          "de": 254,
+          "en": 276
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.86_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an8/an8.86_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an8/an8.86_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an8.86",
+        "lang": "de",
+        "segMap": {
+          "an8.86:5.3": {
+            "scid": "an8.86:5.3",
+            "pli": "‘na hi nūname āyasmanto imassa nekkhammasukhassa pavivekasukhassa upasamasukhassa sambodhasukhassa nikāmalābhino assu akicchalābhino akasiralābhino. Yassāhaṁ nekkhammasukhassa pavivekasukhassa upasamasukhassa sambodhasukhassa nikāmalābhī akicchalābhī akasiralābhī. ",
+            "de": "‚Diese Ehrwürdigen können <span class=\"ebt-matched\">sicher nicht</span> wie ich das Glück der Entsagung, das Glück der Abgeschiedenheit, das Glück des Friedens, das Glück des Erwachens erlangen, wann immer sie wollen, ohne Mühe und Not. ",
+            "en": "‘These venerables mustn’t get the bliss of renunciation, the bliss of seclusion, the bliss of peace, the bliss of awakening when they want, without trouble or difficulty like I can. ",
+            "matched": true
+          },
+          "an8.86:6.3": {
+            "scid": "an8.86:6.3",
+            "pli": "‘na hi nūname āyasmanto imassa nekkhammasukhassa pavivekasukhassa upasamasukhassa sambodhasukhassa nikāmalābhino assu akicchalābhino akasiralābhino. Yassāhaṁ nekkhammasukhassa pavivekasukhassa upasamasukhassa sambodhasukhassa nikāmalābhī akicchalābhī akasiralābhī. ",
+            "de": "‚Diese Ehrwürdigen können <span class=\"ebt-matched\">sicher nicht</span> wie ich das Glück der Entsagung, das Glück der Abgeschiedenheit, das Glück des Friedens, das Glück des Erwachens erlangen, wann immer sie wollen, ohne Mühe und Not. ",
+            "en": "‘These venerables mustn’t get the bliss of renunciation, the bliss of seclusion, the bliss of peace, the bliss of awakening when they want, without trouble or difficulty like I can. ",
+            "matched": true
+          },
+          "an8.86:7.3": {
+            "scid": "an8.86:7.3",
+            "pli": "‘na hi nūname āyasmanto imassa nekkhammasukhassa pavivekasukhassa upasamasukhassa sambodhasukhassa nikāmalābhino assu akicchalābhino akasiralābhino. Yassāhaṁ nekkhammasukhassa pavivekasukhassa upasamasukhassa sambodhasukhassa nikāmalābhī akicchalābhī akasiralābhī. ",
+            "de": "‚Diese Ehrwürdigen können <span class=\"ebt-matched\">sicher nicht</span> wie ich das Glück der Entsagung, das Glück der Abgeschiedenheit, das Glück des Friedens, das Glück des Erwachens erlangen, wann immer sie wollen, ohne Mühe und Not. ",
+            "en": "‘These venerables mustn’t get the bliss of renunciation, the bliss of seclusion, the bliss of peace, the bliss of awakening when they want, without trouble or difficulty like I can. ",
+            "matched": true
+          }
+        },
+        "score": 3.046,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 8\n9. Achtsamkeit\n86. Mit Nāgita",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 65,
+          "de": 64,
+          "en": 64
+        }
+      }
+    ]
+  }
+}
