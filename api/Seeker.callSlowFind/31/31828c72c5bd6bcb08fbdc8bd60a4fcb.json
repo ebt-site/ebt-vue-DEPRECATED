@@ -32,7 +32,7 @@
     "pattern": "was noch nicht erreicht ist",
     "method": "phrase",
     "resultPattern": "\\bwas noch nicht erreicht ist",
-    "segsMatched": 49,
+    "segsMatched": 50,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an8/an8.80_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.80_translation-de-sabbamitta.json",
@@ -66,7 +66,10 @@
       "translation/en/sujato/sutta/an/an3/an3.95_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn12/sn12.22_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.22_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn12/sn12.22_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn12/sn12.22_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an9/an9.4_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an9/an9.4_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an9/an9.4_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an8.80/de/sabbamitta",
@@ -79,7 +82,8 @@
       "an5.79/de/sabbamitta",
       "an5.156/de/sabbamitta",
       "an3.95/de/sabbamitta",
-      "sn12.22/de/sabbamitta"
+      "sn12.22/de/sabbamitta",
+      "an9.4/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -698,6 +702,38 @@
           "pli": 34,
           "de": 33,
           "en": 33
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an9/an9.4_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an9/an9.4_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an9/an9.4_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an9.4",
+        "lang": "de",
+        "segMap": {
+          "an9.4:13.2": {
+            "scid": "an9.4:13.2",
+            "pli": "Yathā yathā, āvuso, bhikkhu bhikkhūnaṁ dhammaṁ deseti ādikalyāṇaṁ majjhekalyāṇaṁ pariyosānakalyāṇaṁ sātthaṁ sabyañjanaṁ, kevalaparipuṇṇaṁ parisuddhaṁ brahmacariyaṁ pakāseti, tattha ye kho bhikkhū sekhā appattamānasā anuttaraṁ yogakkhemaṁ patthayamānā viharanti, te taṁ dhammaṁ sutvā vīriyaṁ ārabhanti appattassa pattiyā anadhigatassa adhigamāya asacchikatassa sacchikiriyāya. ",
+            "de": "Immer wenn er das tut, sind vielleicht Mönche oder Nonnen in Schulung anwesend, die ihren Herzenswunsch noch nicht erfüllt haben, doch die so leben, dass sie nach der unübertrefflichen Geborgenheit streben. Wenn sie diese Lehre hören, rütteln sie ihre Energie auf, um zu erreichen, <span class=\"ebt-matched\">was noch nicht erreicht ist</span>, zu erringen, was noch nicht errungen ist, und zu erkennen, was noch nicht erkannt ist. ",
+            "en": "Whenever they do this, there may be trainee mendicants present, who haven’t achieved their heart’s desire, but live aspiring to the supreme sanctuary. Hearing that teaching, they rouse energy for attaining the unattained, achieving the unachieved, and realizing the unrealized. ",
+            "matched": true
+          }
+        },
+        "score": 1.012,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 9\n1. Erwachen\n4. Mit Nandaka",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 81,
+          "de": 80,
+          "en": 80
         }
       }
     ]

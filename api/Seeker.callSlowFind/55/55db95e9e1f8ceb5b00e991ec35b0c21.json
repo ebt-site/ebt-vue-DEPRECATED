@@ -32,8 +32,11 @@
     "pattern": "etwas übrig bleibt",
     "method": "phrase",
     "resultPattern": "\\betwas übrig bleibt",
-    "segsMatched": 7,
+    "segsMatched": 10,
     "bilaraPaths": [
+      "root/pli/ms/sutta/an/an9/an9.12_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an9/an9.12_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an9/an9.12_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn10_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn10_translation-en-sujato.json",
@@ -48,12 +51,59 @@
       "translation/en/sujato/sutta/sn/sn47/sn47.36_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "an9.12/de/sabbamitta",
       "mn10/de/sabbamitta",
       "an5.67/de/sabbamitta",
       "an5.122/de/sabbamitta",
       "sn47.36/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an9/an9.12_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an9/an9.12_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an9/an9.12_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an9.12",
+        "lang": "de",
+        "segMap": {
+          "an9.12:0.3": {
+            "scid": "an9.12:0.3",
+            "pli": "12. Saupādisesasutta ",
+            "de": "12. Wenn noch <span class=\"ebt-matched\">etwas übrig bleibt</span> ",
+            "en": "12. With Something Left Over ",
+            "matched": true
+          },
+          "an9.12:4.1": {
+            "scid": "an9.12:4.1",
+            "pli": "“Ke ca, sāriputta, aññatitthiyā paribbājakā bālā abyattā, ke ca saupādisesaṁ vā ‘saupādiseso’ti jānissanti, anupādisesaṁ vā ‘anupādiseso’ti jānissanti. ",
+            "de": "„Sāriputta, diese törichten, unfähigen Wanderer, die andere Wege gehen: Wer sind sie, dass sie wüssten, ob bei jemandem noch <span class=\"ebt-matched\">etwas übrig bleibt</span> oder nicht? ",
+            "en": "“Sāriputta, these foolish, incompetent wanderers following other paths: who are they to know whether someone has something left over or not? ",
+            "matched": true
+          },
+          "an9.12:11.1": {
+            "scid": "an9.12:11.1",
+            "pli": "Ke ca, sāriputta, aññatitthiyā paribbājakā bālā abyattā, ke ca saupādisesaṁ vā ‘saupādiseso’ti jānissanti, anupādisesaṁ vā ‘anupādiseso’ti jānissanti. ",
+            "de": "Diese törichten, unfähigen Wanderer, die andere Wege gehen: Wer sind sie, dass sie wüssten, ob bei jemandem noch <span class=\"ebt-matched\">etwas übrig bleibt</span> oder nicht? ",
+            "en": "These foolish, incompetent wanderers following other paths: who are they to know whether someone has something left over or not? ",
+            "matched": true
+          }
+        },
+        "score": 3.05,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 9\n2. Das Löwengebrüll\n12. Wenn noch etwas übrig bleibt",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 60,
+          "de": 48,
+          "en": 59
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/an/an5/an5.122_root-pli-ms.json",

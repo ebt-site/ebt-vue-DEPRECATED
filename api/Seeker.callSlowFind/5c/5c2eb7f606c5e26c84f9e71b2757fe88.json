@@ -32,7 +32,7 @@
     "pattern": "abfälle",
     "method": "phrase",
     "resultPattern": "\\babfälle",
-    "segsMatched": 13,
+    "segsMatched": 15,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn23_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/an/an2/an2.42-51_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an2/an2.42-51_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an2/an2.42-51_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an9/an9.20_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an9/an9.20_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an9/an9.20_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.147_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.147_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.147_translation-en-sujato.json",
@@ -50,6 +53,7 @@
     "suttaRefs": [
       "dn23/de/sabbamitta",
       "an2.42-51/de/sabbamitta",
+      "an9.20/de/sabbamitta",
       "an5.147/de/sabbamitta",
       "an4.20/de/sabbamitta"
     ],
@@ -211,6 +215,45 @@
           "pli": 12,
           "de": 11,
           "en": 11
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an9/an9.20_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an9/an9.20_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an9/an9.20_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an9.20",
+        "lang": "de",
+        "segMap": {
+          "an9.20:2.5": {
+            "scid": "an9.20:2.5",
+            "pli": "tañca asakkaccaṁ deti, acittīkatvā deti, asahatthā deti, apaviddhaṁ deti, anāgamanadiṭṭhiko deti. ",
+            "de": "aber er gibt sie ohne Sorgfalt, gedankenlos, nicht mit eigener Hand, er gibt die <span class=\"ebt-matched\">Abfälle</span>, er gibt, ohne die Folgen zu bedenken – ",
+            "en": "But they give it carelessly, thoughtlessly, not with their own hand. They give the dregs, and they give without consideration for consequences. ",
+            "matched": true
+          },
+          "an9.20:3.2": {
+            "scid": "an9.20:3.2",
+            "pli": "tañca sakkaccaṁ deti, cittīkatvā deti, sahatthā deti, anapaviddhaṁ deti, āgamanadiṭṭhiko deti. ",
+            "de": "und er gibt sie sorgfältig, wohlbedacht, mit eigener Hand, er gibt keine <span class=\"ebt-matched\">Abfälle</span>, er gibt und bedenkt die Folgen – ",
+            "en": "And they give it carefully, thoughtfully, with their own hand. They don’t give the dregs, and they give with consideration for consequences. ",
+            "matched": true
+          }
+        },
+        "score": 2.036,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 9\n2. Das Löwengebrüll\n20. Über Velāma",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 56,
+          "de": 42,
+          "en": 54
         }
       },
       {

@@ -32,7 +32,7 @@
     "pattern": "keine wahrnehmung",
     "method": "phrase",
     "resultPattern": "\\bkeine wahrnehmung",
-    "segsMatched": 35,
+    "segsMatched": 38,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
@@ -52,12 +52,18 @@
       "root/pli/ms/sutta/dn/dn29_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn29_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn29_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an9/an9.24_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an9/an9.24_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an9/an9.24_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.66_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.66_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an8/an8.66_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an1/an1.394-574_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an1/an1.394-574_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an1/an1.394-574_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an9/an9.31_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an9/an9.31_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an9/an9.31_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.120_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.120_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an8/an8.120_translation-en-sujato.json",
@@ -75,8 +81,10 @@
       "mn140/de/sabbamitta",
       "dn15/de/sabbamitta",
       "dn29/de/sabbamitta",
+      "an9.24/de/sabbamitta",
       "an8.66/de/sabbamitta",
       "an1.394-574/de/sabbamitta",
+      "an9.31/de/sabbamitta",
       "an8.120/de/sabbamitta",
       "an5.170/de/sabbamitta",
       "an4.190/de/sabbamitta"
@@ -430,6 +438,45 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/an/an9/an9.24_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an9/an9.24_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an9/an9.24_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an9.24",
+        "lang": "de",
+        "segMap": {
+          "an9.24:5.1": {
+            "scid": "an9.24:5.1",
+            "pli": "Santi, bhikkhave, sattā asaññino appaṭisaṁvedino, seyyathāpi devā asaññasattā. ",
+            "de": "Es gibt Lebewesen, die haben <span class=\"ebt-matched\">keine Wahrnehmung</span> und erleben nichts – wie die göttlichen Wesen ohne Wahrnehmung. ",
+            "en": "There are sentient beings that are non-percipient and do not experience anything, such as the gods who are non-percipient beings. ",
+            "matched": true
+          },
+          "an9.24:9.1": {
+            "scid": "an9.24:9.1",
+            "pli": "Santi, bhikkhave, sattā sabbaso ākiñcaññāyatanaṁ samatikkamma nevasaññānāsaññāyatanūpagā. ",
+            "de": "Es gibt Lebewesen, die die Dimension des Nichts vollständig überstiegen haben. Sie wurden in der Dimension ‚weder Wahrnehmung noch <span class=\"ebt-matched\">keine Wahrnehmung</span>‘ wiedergeboren. ",
+            "en": "There are sentient beings that have gone totally beyond the dimension of nothingness. They have been reborn in the dimension of neither perception nor non-perception. ",
+            "matched": true
+          }
+        },
+        "score": 2.08,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 9\n3. Wohnplätze der Lebewesen\n24. Wohnplätze der Lebewesen",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 25,
+          "de": 24,
+          "en": 24
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an1/an1.394-574_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/an/an1/an1.394-574_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/an/an1/an1.394-574_translation-en-sujato.json"
@@ -536,6 +583,38 @@
           "pli": 7,
           "de": 7,
           "en": 7
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an9/an9.31_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an9/an9.31_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an9/an9.31_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an9.31",
+        "lang": "de",
+        "segMap": {
+          "an9.31:1.10": {
+            "scid": "an9.31:1.10",
+            "pli": "nevasaññānāsaññāyatanaṁ samāpannassa ākiñcaññāyatanasaññā niruddhā hoti; ",
+            "de": "Wenn man die Dimension ‚weder Wahrnehmung noch <span class=\"ebt-matched\">keine Wahrnehmung</span>‘ erreicht hat, hat die Wahrnehmung der Dimension des Nichts aufgehört. ",
+            "en": "For someone who has attained the dimension of neither perception nor non-perception, the perception of the dimension of nothingness has ceased. ",
+            "matched": true
+          }
+        },
+        "score": 1.045,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 9\n3. Wohnplätze der Lebewesen\n31. Fortschreitende Stufen des Aufhörens",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 22,
+          "de": 15,
+          "en": 20
         }
       },
       {

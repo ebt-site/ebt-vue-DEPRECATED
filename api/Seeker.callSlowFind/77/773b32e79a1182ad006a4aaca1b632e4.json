@@ -32,7 +32,7 @@
     "pattern": "leere.* hütten",
     "method": "phrase",
     "resultPattern": "\\bleere.* hütten",
-    "segsMatched": 7,
+    "segsMatched": 8,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn25_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn25_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/sn/sn47/sn47.10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn47/sn47.10_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn47/sn47.10_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an9/an9.19_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an9/an9.19_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an9/an9.19_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an7/an7.74_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an7/an7.74_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an7/an7.74_translation-en-sujato.json",
@@ -56,6 +59,7 @@
     "suttaRefs": [
       "dn25/de/sabbamitta",
       "sn47.10/de/sabbamitta",
+      "an9.19/de/sabbamitta",
       "an7.74/de/sabbamitta",
       "an5.74/de/sabbamitta",
       "an5.73/de/sabbamitta",
@@ -163,6 +167,38 @@
           "pli": 24,
           "de": 23,
           "en": 23
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an9/an9.19_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an9/an9.19_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an9/an9.19_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an9.19",
+        "lang": "de",
+        "segMap": {
+          "an9.19:4.5": {
+            "scid": "an9.19:4.5",
+            "pli": "Etāni, bhikkhave, rukkhamūlāni etāni suññāgārāni. Jhāyatha, bhikkhave, mā pamādattha, mā pacchā vippaṭisārino ahuvattha seyyathāpi tā purimikā devatā”ti. ",
+            "de": "Hier, Mönche und Nonnen, sind Plätze am Fuß von Bäumen, und hier sind <span class=\"ebt-matched\">leere Hütten</span>. Übt die Vertiefungen, Mönche und Nonnen! Seid nicht nachlässig! Nicht, dass ihr es später bereut wie die ersten dieser Gottheiten.“ ",
+            "en": "Here, mendicants, are these roots of trees, and here are these empty huts. Practice absorption, mendicants! Don’t be negligent! Don’t regret it later, like those former deities.” ",
+            "matched": true
+          }
+        },
+        "score": 1.038,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 9\n2. Das Löwengebrüll\n19. Gottheiten",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 26,
+          "de": 25,
+          "en": 25
         }
       },
       {

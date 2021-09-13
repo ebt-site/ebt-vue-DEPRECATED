@@ -32,7 +32,7 @@
     "pattern": "erkenntnis des entstehens und vergehens",
     "method": "phrase",
     "resultPattern": "\\berkenntnis des entstehens und vergehens",
-    "segsMatched": 23,
+    "segsMatched": 25,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
@@ -46,6 +46,12 @@
       "root/pli/ms/sutta/an/an5/an5.135_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.135_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.135_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga4/ud4.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/ud/vagga4/ud4.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/ud/vagga4/ud4.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an9/an9.3_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an9/an9.3_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an9/an9.3_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an9/an9.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an9/an9.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an9/an9.1_translation-en-sujato.json",
@@ -97,6 +103,8 @@
       "dn33/de/sabbamitta",
       "an5.136/de/sabbamitta",
       "an5.135/de/sabbamitta",
+      "ud4.1/de/sabbamitta",
+      "an9.3/de/sabbamitta",
       "an9.1/de/sabbamitta",
       "an8.76/de/sabbamitta",
       "an8.55/de/sabbamitta",
@@ -624,6 +632,38 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/an/an9/an9.3_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an9/an9.3_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an9/an9.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an9.3",
+        "lang": "de",
+        "segMap": {
+          "an9.3:14.1": {
+            "scid": "an9.3:14.1",
+            "pli": "Puna caparaṁ, meghiya, bhikkhu paññavā hoti udayatthagāminiyā paññāya samannāgato ariyāya nibbedhikāya sammā dukkhakkhayagāminiyā. ",
+            "de": "Dann ist da ein Mönch weise. Er besitzt die <span class=\"ebt-matched\">Erkenntnis des Entstehens und Vergehens</span>, die edel und durchdringend ist und zum völligen Beenden des Leidens führt. ",
+            "en": "Furthermore, a mendicant is wise. They have the wisdom of arising and passing away which is noble, penetrative, and leads to the complete ending of suffering. ",
+            "matched": true
+          }
+        },
+        "score": 1.014,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 9\n1. Erwachen\n3. Mit Meghiya",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 74,
+          "de": 59,
+          "en": 73
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an8/an8.55_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/an/an8/an8.55_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/an/an8/an8.55_translation-en-sujato.json"
@@ -684,6 +724,38 @@
           "pli": 82,
           "de": 81,
           "en": 81
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga4/ud4.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/ud/vagga4/ud4.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/ud/vagga4/ud4.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud4.1",
+        "lang": "de",
+        "segMap": {
+          "ud4.1:16.1": {
+            "scid": "ud4.1:16.1",
+            "pli": "Puna caparaṁ, meghiya, bhikkhu paññavā hoti udayatthagāminiyā paññāya samannāgato ariyāya nibbedhikāya sammā dukkhakkhayagāminiyā.",
+            "de": "Dann ist da ein Mönch weise. Er besitzt die <span class=\"ebt-matched\">Erkenntnis des Entstehens und Vergehens</span>, die edel und durchdringend ist und zum völligen Beenden des Leidens führt. ",
+            "en": "Furthermore, a mendicant is wise. They have the wisdom of arising and passing away which is noble, penetrative, and leads to the complete ending of suffering. ",
+            "matched": true
+          }
+        },
+        "score": 1.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Tief empfundene Sprüche\n4.1. Mit Meghiya",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 91,
+          "de": 68,
+          "en": 68
         }
       },
       {

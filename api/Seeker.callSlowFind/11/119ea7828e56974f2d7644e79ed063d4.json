@@ -1,0 +1,106 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "see the clams and mussels",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en"
+      ],
+      "maxResults": 1000,
+      "searchLang": "en",
+      "maxDoc": 50,
+      "minLang": 2,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "en",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "see the clams and mussels",
+    "method": "phrase",
+    "resultPattern": "\\bsee the clams and mussels",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn10_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn10_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "dn2/en/sujato",
+      "dn10/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn10_root-pli-ms.json",
+          "translation/en/sujato/sutta/dn/dn10_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn10",
+        "lang": "en",
+        "segMap": {
+          "dn10:2.36.1": {
+            "scid": "dn10:2.36.1",
+            "pli": "Seyyathāpi, māṇava, pabbatasaṅkhepe udakarahado accho vippasanno anāvilo. Tattha cakkhumā puriso tīre ṭhito passeyya sippisambukampi sakkharakathalampi macchagumbampi carantampi tiṭṭhantampi. Tassa evamassa: ‘ayaṁ kho udakarahado accho vippasanno anāvilo. Tatrime sippisambukāpi sakkharakathalāpi macchagumbāpi carantipi tiṭṭhantipī’ti. ",
+            "en": "Suppose that in a mountain glen there was a lake that was transparent, clear, and unclouded. A person with good eyesight standing on the bank would <span class=\"ebt-matched\">see the clams and mussels</span>, and pebbles and gravel, and schools of fish swimming about or staying still. They’d think: ‘This lake is transparent, clear, and unclouded. And here are the clams and mussels, and pebbles and gravel, and schools of fish swimming about or staying still.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Long Discourses 10\nWith Subha",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 284,
+          "en": 281
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
+          "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn2",
+        "lang": "en",
+        "segMap": {
+          "dn2:98.1": {
+            "scid": "dn2:98.1",
+            "pli": "Seyyathāpi, mahārāja, pabbatasaṅkhepe udakarahado accho vippasanno anāvilo. Tattha cakkhumā puriso tīre ṭhito passeyya sippisambukampi sakkharakathalampi macchagumbampi carantampi tiṭṭhantampi. Tassa evamassa: ‘ayaṁ kho udakarahado accho vippasanno anāvilo. Tatrime sippisambukāpi sakkharakathalāpi macchagumbāpi carantipi tiṭṭhantipī’ti. ",
+            "en": "Suppose that in a mountain glen there was a lake that was transparent, clear, and unclouded. A person with good eyesight standing on the bank would <span class=\"ebt-matched\">see the clams and mussels</span>, and pebbles and gravel, and schools of fish swimming about or staying still. They’d think: ‘This lake is transparent, clear, and unclouded. And here are the clams and mussels, and pebbles and gravel, and schools of fish swimming about or staying still.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Long Discourses 2\nThe Fruits of the Ascetic Life\n1. A Discussion With the King’s Ministers",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 649,
+          "en": 632
+        }
+      }
+    ]
+  }
+}

@@ -32,7 +32,7 @@
     "pattern": "fingerschnippen",
     "method": "phrase",
     "resultPattern": "\\bfingerschnippen",
-    "segsMatched": 20,
+    "segsMatched": 21,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an1/an1.394-574_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an1/an1.394-574_translation-de-sabbamitta.json",
@@ -45,13 +45,17 @@
       "translation/en/sujato/sutta/an/an1/an1.316-332_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thig/thig5.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thig/thig5.1_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/kn/thig/thig5.1_translation-en-sujato.json"
+      "translation/en/sujato/sutta/kn/thig/thig5.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an9/an9.20_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an9/an9.20_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an9/an9.20_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an1.394-574/de/sabbamitta",
       "an1.51-60/de/sabbamitta",
       "an1.316-332/de/sabbamitta",
-      "thig5.1/de/sabbamitta"
+      "thig5.1/de/sabbamitta",
+      "an9.20/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -292,6 +296,38 @@
           "pli": 26,
           "de": 25,
           "en": 25
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an9/an9.20_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an9/an9.20_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an9/an9.20_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an9.20",
+        "lang": "de",
+        "segMap": {
+          "an9.20:9.9": {
+            "scid": "an9.20:9.9",
+            "pli": "pāṇātipātā veramaṇiṁ …pe… surāmerayamajjapamādaṭṭhānā veramaṇiṁ, yo ca antamaso gandhohanamattampi mettacittaṁ bhāveyya, yo ca accharāsaṅghātamattampi aniccasaññaṁ bhāveyya, idaṁ tato mahapphalataran”ti. ",
+            "de": "wäre es gewesen, die Wahrnehmung der Unbeständigkeit zu entwickeln, und sei es nur für die Dauer eines <span class=\"ebt-matched\">Fingerschnippen</span>s.“ ",
+            "en": " ",
+            "matched": true
+          }
+        },
+        "score": 1.018,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 9\n2. Das Löwengebrüll\n20. Über Velāma",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 56,
+          "de": 42,
+          "en": 54
         }
       }
     ]

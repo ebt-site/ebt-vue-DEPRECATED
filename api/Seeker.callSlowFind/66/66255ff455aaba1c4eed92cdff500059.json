@@ -32,11 +32,17 @@
     "pattern": "selbstüberwindung",
     "method": "phrase",
     "resultPattern": "\\bselbstüberwindung",
-    "segsMatched": 13,
+    "segsMatched": 17,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn28_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn28_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn28_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga4/ud4.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/ud/vagga4/ud4.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/ud/vagga4/ud4.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an9/an9.3_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an9/an9.3_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an9/an9.3_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an9/an9.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an9/an9.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an9/an9.1_translation-en-sujato.json",
@@ -58,6 +64,8 @@
     ],
     "suttaRefs": [
       "dn28/de/sabbamitta",
+      "ud4.1/de/sabbamitta",
+      "an9.3/de/sabbamitta",
       "an9.1/de/sabbamitta",
       "an5.90/de/sabbamitta",
       "an5.231/de/sabbamitta",
@@ -234,6 +242,84 @@
           "pli": 48,
           "de": 41,
           "en": 46
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an9/an9.3_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an9/an9.3_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an9/an9.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an9.3",
+        "lang": "de",
+        "segMap": {
+          "an9.3:12.1": {
+            "scid": "an9.3:12.1",
+            "pli": "Puna caparaṁ, meghiya, yāyaṁ kathā abhisallekhikā cetovivaraṇasappāyā, seyyathidaṁ—appicchakathā santuṭṭhikathā pavivekakathā asaṁsaggakathā vīriyārambhakathā sīlakathā samādhikathā paññākathā vimuttikathā vimuttiñāṇadassanakathā, evarūpiyā kathāya nikāmalābhī hoti akicchalābhī akasiralābhī. ",
+            "de": "Dann findet da ein Mönch, wann immer er will, ohne Mühe und Not, Gelegenheit, an Gesprächen über <span class=\"ebt-matched\">Selbstüberwindung</span> teilzunehmen, die helfen, das Herz zu öffnen: nämlich an Gesprächen über Genügsamkeit, Zufriedenheit, Abgeschiedenheit, Abstand, das Aufrütteln der Energie, sittliches Verhalten, Versenkung, Weisheit, Freiheit und das Wissen und Sehen der Freiheit. ",
+            "en": "Furthermore, a mendicant gets to take part in talk about self-effacement that helps open the heart, when they want, without trouble or difficulty. That is, talk about fewness of wishes, contentment, seclusion, aloofness, arousing energy, ethics, immersion, wisdom, freedom, and the knowledge and vision of freedom. ",
+            "matched": true
+          },
+          "an9.3:16.2": {
+            "scid": "an9.3:16.2",
+            "pli": "‘yāyaṁ kathā abhisallekhikā cetovivaraṇasappāyā, seyyathidaṁ—appicchakathā …pe… vimuttiñāṇadassanakathā, evarūpiyā kathāya nikāmalābhī bhavissati akicchalābhī akasiralābhī’. ",
+            "de": "dass er, wann immer er will, ohne Mühe und Not, Gelegenheit findet, an Gesprächen über <span class=\"ebt-matched\">Selbstüberwindung</span> teilzunehmen, die helfen, das Herz zu öffnen … ",
+            "en": "take part in talk about self-effacement that helps open the heart … ",
+            "matched": true
+          }
+        },
+        "score": 2.027,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 9\n1. Erwachen\n3. Mit Meghiya",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 74,
+          "de": 59,
+          "en": 73
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga4/ud4.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/ud/vagga4/ud4.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/ud/vagga4/ud4.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud4.1",
+        "lang": "de",
+        "segMap": {
+          "ud4.1:14.1": {
+            "scid": "ud4.1:14.1",
+            "pli": "Puna caparaṁ, meghiya, bhikkhu yāyaṁ kathā abhisallekhikā cetovivaraṇasappāyā ekantanibbidāya virāgāya nirodhāya upasamāya abhiññāya sambodhāya nibbānāya saṁvattati, seyyathidaṁ—",
+            "de": "Dann findet da ein Mönch, wann immer er will, ohne Mühe und Not, Gelegenheit, an Gesprächen über <span class=\"ebt-matched\">Selbstüberwindung</span> teilzunehmen, die helfen, das Herz zu öffnen und einzig zu Ernüchterung, Sichabwenden, Aufhören, Frieden, Einsicht, Erwachen und Erlöschen führen: nämlich an Gesprächen über Genügsamkeit, Zufriedenheit, Abgeschiedenheit, Abstand, das Aufrütteln der Energie, sittliches Verhalten, Versenkung, Weisheit, Freiheit und das Wissen und Sehen der Freiheit. ",
+            "en": "Furthermore, a mendicant gets to take part in talk about self-effacement that helps open the heart and leads solely to disillusionment, dispassion, cessation, peace, insight, awakening, and extinguishment when they want, without trouble or difficulty. That is, talk about fewness of wishes, contentment, seclusion, aloofness, arousing energy, ethics, immersion, wisdom, freedom, and the knowledge and vision of freedom.’ ",
+            "matched": true
+          },
+          "ud4.1:18.1": {
+            "scid": "ud4.1:18.1",
+            "pli": "Kalyāṇamittassetaṁ, meghiya, bhikkhuno pāṭikaṅkhaṁ kalyāṇasahāyassa kalyāṇasampavaṅkassa yaṁ yāyaṁ kathā abhisallekhikā cetovivaraṇasappāyā ekantanibbidāya virāgāya nirodhāya upasamāya abhiññāya sambodhāya nibbānāya saṁvattati, seyyathidaṁ—",
+            "de": "Ein Mönch mit guten Freunden, Genossen und Gefährten kann erwarten, dass er, wann immer er will, ohne Mühe und Not, Gelegenheit findet, an Gesprächen über <span class=\"ebt-matched\">Selbstüberwindung</span> teilzunehmen, die helfen, das Herz zu öffnen … ",
+            "en": "A mendicant with good friends, companions, and associates can expect to take part in talk about self-effacement that helps open the heart … ",
+            "matched": true
+          }
+        },
+        "score": 2.022,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Tief empfundene Sprüche\n4.1. Mit Meghiya",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 91,
+          "de": 68,
+          "en": 68
         }
       },
       {

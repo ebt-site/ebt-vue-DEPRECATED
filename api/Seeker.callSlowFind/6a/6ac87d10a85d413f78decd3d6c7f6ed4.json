@@ -32,7 +32,7 @@
     "pattern": "verlasse mich darauf",
     "method": "phrase",
     "resultPattern": "\\bverlasse mich darauf",
-    "segsMatched": 7,
+    "segsMatched": 9,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn28_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn28_translation-de-sabbamitta.json",
@@ -40,6 +40,12 @@
       "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn23_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn23_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an9/an9.8_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an9/an9.8_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an9/an9.8_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an9/an9.7_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an9/an9.7_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an9/an9.7_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.23_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.23_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an8/an8.23_translation-en-sujato.json",
@@ -59,6 +65,8 @@
     "suttaRefs": [
       "dn28/de/sabbamitta",
       "dn23/de/sabbamitta",
+      "an9.8/de/sabbamitta",
+      "an9.7/de/sabbamitta",
       "an8.23/de/sabbamitta",
       "an8.12/de/sabbamitta",
       "an5.44/de/sabbamitta",
@@ -66,6 +74,70 @@
       "an3.57/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an9/an9.7_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an9/an9.7_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an9/an9.7_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an9.7",
+        "lang": "de",
+        "segMap": {
+          "an9.7:2.5": {
+            "scid": "an9.7:2.5",
+            "pli": "Kacci metaṁ, bhante, bhagavato sussutaṁ suggahitaṁ sumanasikataṁ sūpadhāritan”ti? ",
+            "de": "Ich <span class=\"ebt-matched\">verlasse mich darauf</span>, dass ich das vom Buddha richtig gehört und gelernt, dass ich richtig aufgepasst und es mir richtig gemerkt habe?“ ",
+            "en": "I trust I properly heard, learned, attended, and remembered that from the Buddha?” ",
+            "matched": true
+          }
+        },
+        "score": 1.056,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 9\n1. Erwachen\n7. Mit dem Wanderer Sutavā",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 18,
+          "de": 17,
+          "en": 17
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an9/an9.8_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an9/an9.8_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an9/an9.8_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an9.8",
+        "lang": "de",
+        "segMap": {
+          "an9.8:2.5": {
+            "scid": "an9.8:2.5",
+            "pli": "Kacci metaṁ, bhante, bhagavato sussutaṁ suggahitaṁ sumanasikataṁ sūpadhāritan”ti? ",
+            "de": "Ich <span class=\"ebt-matched\">verlasse mich darauf</span>, dass ich das vom Buddha richtig gehört und gelernt, dass ich richtig aufgepasst und es mir richtig gemerkt habe?“ ",
+            "en": "I trust I properly heard, learned, attended, and remembered that from the Buddha?” ",
+            "matched": true
+          }
+        },
+        "score": 1.056,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 9\n1. Erwachen\n8. Mit dem Wanderer Sajjha",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 18,
+          "de": 17,
+          "en": 17
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/an/an8/an8.23_root-pli-ms.json",

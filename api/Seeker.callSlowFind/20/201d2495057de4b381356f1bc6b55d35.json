@@ -32,13 +32,17 @@
     "pattern": "gibt und bedenkt",
     "method": "phrase",
     "resultPattern": "\\bgibt und bedenkt",
-    "segsMatched": 1,
+    "segsMatched": 2,
     "bilaraPaths": [
+      "root/pli/ms/sutta/an/an9/an9.20_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an9/an9.20_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an9/an9.20_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.147_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.147_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.147_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "an9.20/de/sabbamitta",
       "an5.147/de/sabbamitta"
     ],
     "mlDocs": [
@@ -72,6 +76,38 @@
           "pli": 12,
           "de": 11,
           "en": 11
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an9/an9.20_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an9/an9.20_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an9/an9.20_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an9.20",
+        "lang": "de",
+        "segMap": {
+          "an9.20:3.2": {
+            "scid": "an9.20:3.2",
+            "pli": "tañca sakkaccaṁ deti, cittīkatvā deti, sahatthā deti, anapaviddhaṁ deti, āgamanadiṭṭhiko deti. ",
+            "de": "und er gibt sie sorgfältig, wohlbedacht, mit eigener Hand, er gibt keine Abfälle, er <span class=\"ebt-matched\">gibt und bedenkt</span> die Folgen – ",
+            "en": "And they give it carefully, thoughtfully, with their own hand. They don’t give the dregs, and they give with consideration for consequences. ",
+            "matched": true
+          }
+        },
+        "score": 1.018,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 9\n2. Das Löwengebrüll\n20. Über Velāma",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 56,
+          "de": 42,
+          "en": 54
         }
       }
     ]
