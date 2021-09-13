@@ -3,7 +3,7 @@
   "volume": "Seeker.callSlowFind",
   "args": [
     {
-      "pattern": "noch etwas übrig bleibt",
+      "pattern": "noch etwas übrig",
       "showMatchesOnly": true,
       "languages": [
         "pli",
@@ -29,10 +29,10 @@
     "minLang": 3,
     "maxDoc": 50,
     "maxResults": 1000,
-    "pattern": "noch etwas übrig bleibt",
+    "pattern": "noch etwas übrig",
     "method": "phrase",
-    "resultPattern": "\\bnoch etwas übrig bleibt",
-    "segsMatched": 10,
+    "resultPattern": "\\bnoch etwas übrig",
+    "segsMatched": 15,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an9/an9.12_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an9/an9.12_translation-de-sabbamitta.json",
@@ -73,31 +73,66 @@
           "an9.12:0.3": {
             "scid": "an9.12:0.3",
             "pli": "12. Saupādisesasutta ",
-            "de": "12. Wenn <span class=\"ebt-matched\">noch etwas übrig bleibt</span> ",
+            "de": "12. Wenn <span class=\"ebt-matched\">noch etwas übrig</span> bleibt ",
             "en": "12. With Something Left Over ",
+            "matched": true
+          },
+          "an9.12:2.2": {
+            "scid": "an9.12:2.2",
+            "pli": "“yo hi koci, āvuso, saupādiseso kālaṁ karoti, sabbo so aparimutto nirayā aparimutto tiracchānayoniyā aparimutto pettivisayā aparimutto apāyaduggativinipātā”ti. ",
+            "de": "„Werte Freunde, niemand, der stirbt und es bleibt <span class=\"ebt-matched\">noch etwas übrig</span>, ist befreit von der Hölle, dem Tierreich oder dem Gespensterreich. Er ist nicht befreit von verlorenen Orten, von schlechten Orten, von der Unterwelt“ ",
+            "en": "“Reverends, no-one who dies with something left over is exempt from hell, the animal realm, or the ghost realm. They’re not exempt from places of loss, bad places, the underworld.” ",
             "matched": true
           },
           "an9.12:4.1": {
             "scid": "an9.12:4.1",
             "pli": "“Ke ca, sāriputta, aññatitthiyā paribbājakā bālā abyattā, ke ca saupādisesaṁ vā ‘saupādiseso’ti jānissanti, anupādisesaṁ vā ‘anupādiseso’ti jānissanti. ",
-            "de": "„Sāriputta, diese törichten, unfähigen Wanderer, die andere Wege gehen: Wer sind sie, dass sie wüssten, ob bei jemandem <span class=\"ebt-matched\">noch etwas übrig bleibt</span> oder nicht? ",
+            "de": "„Sāriputta, diese törichten, unfähigen Wanderer, die andere Wege gehen: Wer sind sie, dass sie wüssten, ob bei jemandem <span class=\"ebt-matched\">noch etwas übrig</span> bleibt oder nicht? ",
             "en": "“Sāriputta, these foolish, incompetent wanderers following other paths: who are they to know whether someone has something left over or not? ",
+            "matched": true
+          },
+          "an9.12:5.1": {
+            "scid": "an9.12:5.1",
+            "pli": "Navayime, sāriputta, puggalā saupādisesā kālaṁ kurumānā parimuttā nirayā parimuttā tiracchānayoniyā parimuttā pettivisayā parimuttā apāyaduggativinipātā. ",
+            "de": "Es gibt neun Menschen, die sterben und es bleibt <span class=\"ebt-matched\">noch etwas übrig</span> und die befreit sind von der Hölle, dem Tierreich und dem Gespensterreich; sie sind befreit von verlorenen Orten, von schlechten Orten, von der Unterwelt. ",
+            "en": "There are these nine people who, dying with something left over, are exempt from hell, the animal realm, and the ghost realm. They’re exempt from places of loss, bad places, the underworld. ",
+            "matched": true
+          },
+          "an9.12:5.5": {
+            "scid": "an9.12:5.5",
+            "pli": "Ayaṁ, sāriputta, paṭhamo puggalo saupādiseso kālaṁ kurumāno parimutto nirayā parimutto tiracchānayoniyā parimutto pettivisayā parimutto apāyaduggativinipātā. ",
+            "de": "Das ist der erste Mensch, der stirbt und es bleibt <span class=\"ebt-matched\">noch etwas übrig</span> und der befreit ist von der Hölle, dem Tierreich und dem Gespensterreich; er ist befreit von verlorenen Orten, von schlechten Orten, von der Unterwelt. ",
+            "en": "This is the first person … ",
+            "matched": true
+          },
+          "an9.12:10.3": {
+            "scid": "an9.12:10.3",
+            "pli": "Ayaṁ, sāriputta, navamo puggalo saupādiseso kālaṁ kurumāno parimutto nirayā parimutto tiracchānayoniyā parimutto pettivisayā parimutto apāyaduggativinipātā. ",
+            "de": "Das ist der neunte Mensch, der stirbt und es bleibt <span class=\"ebt-matched\">noch etwas übrig</span> und der befreit ist von der Hölle, dem Tierreich und dem Gespensterreich; er ist befreit von verlorenen Orten, von schlechten Orten, von der Unterwelt. ",
+            "en": "This is the ninth person … ",
             "matched": true
           },
           "an9.12:11.1": {
             "scid": "an9.12:11.1",
             "pli": "Ke ca, sāriputta, aññatitthiyā paribbājakā bālā abyattā, ke ca saupādisesaṁ vā ‘saupādiseso’ti jānissanti, anupādisesaṁ vā ‘anupādiseso’ti jānissanti. ",
-            "de": "Diese törichten, unfähigen Wanderer, die andere Wege gehen: Wer sind sie, dass sie wüssten, ob bei jemandem <span class=\"ebt-matched\">noch etwas übrig bleibt</span> oder nicht? ",
+            "de": "Diese törichten, unfähigen Wanderer, die andere Wege gehen: Wer sind sie, dass sie wüssten, ob bei jemandem <span class=\"ebt-matched\">noch etwas übrig</span> bleibt oder nicht? ",
             "en": "These foolish, incompetent wanderers following other paths: who are they to know whether someone has something left over or not? ",
+            "matched": true
+          },
+          "an9.12:11.2": {
+            "scid": "an9.12:11.2",
+            "pli": "Ime kho, sāriputta, nava puggalā saupādisesā kālaṁ kurumānā parimuttā nirayā parimuttā tiracchānayoniyā parimuttā pettivisayā parimuttā apāyaduggativinipātā. ",
+            "de": "Das sind die neuen Menschen, die sterben und es bleibt <span class=\"ebt-matched\">noch etwas übrig</span> und die befreit sind von der Hölle, dem Tierreich und dem Gespensterreich; sie sind befreit von verlorenen Orten, von schlechten Orten, von der Unterwelt. ",
+            "en": "These are the nine people who, dying with something left over, are exempt from hell, the animal realm, and the ghost realm. They’re exempt from places of loss, bad places, the underworld. ",
             "matched": true
           }
         },
-        "score": 3.05,
+        "score": 8.133,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Nummerierte Lehrreden 9\n2. Das Löwengebrüll\n12. Wenn noch etwas übrig bleibt",
-        "segsMatched": 3,
+        "segsMatched": 8,
         "langSegs": {
           "pli": 60,
           "de": 48,
@@ -119,14 +154,14 @@
           "an5.122:1.2": {
             "scid": "an5.122:1.2",
             "pli": "diṭṭheva dhamme aññā, sati vā upādisese anāgāmitā. ",
-            "de": "Erleuchtung in diesem Leben, oder, wenn <span class=\"ebt-matched\">noch etwas übrig bleibt</span>, Nichtwiederkehr. ",
+            "de": "Erleuchtung in diesem Leben, oder, wenn <span class=\"ebt-matched\">noch etwas übrig</span> bleibt, Nichtwiederkehr. ",
             "en": "enlightenment in the present life, or if there’s something left over, non-return. ",
             "matched": true
           },
           "an5.122:2.4": {
             "scid": "an5.122:2.4",
             "pli": "diṭṭheva dhamme aññā, sati vā upādisese anāgāmitā”ti. ",
-            "de": "Erleuchtung in diesem Leben, oder, wenn <span class=\"ebt-matched\">noch etwas übrig bleibt</span>, Nichtwiederkehr.“ ",
+            "de": "Erleuchtung in diesem Leben, oder, wenn <span class=\"ebt-matched\">noch etwas übrig</span> bleibt, Nichtwiederkehr.“ ",
             "en": "enlightenment in the present life, or if there’s something left over, non-return.” ",
             "matched": true
           }
@@ -158,14 +193,14 @@
           "an5.67:1.2": {
             "scid": "an5.67:1.2",
             "pli": "diṭṭheva dhamme aññā, sati vā upādisese anāgāmitā. ",
-            "de": "Erleuchtung in diesem Leben, oder, wenn <span class=\"ebt-matched\">noch etwas übrig bleibt</span>, Nichtwiederkehr. ",
+            "de": "Erleuchtung in diesem Leben, oder, wenn <span class=\"ebt-matched\">noch etwas übrig</span> bleibt, Nichtwiederkehr. ",
             "en": "enlightenment in the present life, or if there’s something left over, non-return. ",
             "matched": true
           },
           "an5.67:2.8": {
             "scid": "an5.67:2.8",
             "pli": "diṭṭheva dhamme aññā, sati vā upādisese anāgāmitā”ti. ",
-            "de": "Erleuchtung in diesem Leben, oder, wenn <span class=\"ebt-matched\">noch etwas übrig bleibt</span>, Nichtwiederkehr.“ ",
+            "de": "Erleuchtung in diesem Leben, oder, wenn <span class=\"ebt-matched\">noch etwas übrig</span> bleibt, Nichtwiederkehr.“ ",
             "en": "enlightenment in the present life, or if there’s something left over, non-return.” ",
             "matched": true
           }
@@ -197,14 +232,14 @@
           "mn10:46.2": {
             "scid": "mn10:46.2",
             "pli": "diṭṭheva dhamme aññā; sati vā upādisese anāgāmitā. ",
-            "de": "Erleuchtung in diesem Leben, oder, wenn <span class=\"ebt-matched\">noch etwas übrig bleibt</span>, Nichtwiederkehr. ",
+            "de": "Erleuchtung in diesem Leben, oder, wenn <span class=\"ebt-matched\">noch etwas übrig</span> bleibt, Nichtwiederkehr. ",
             "en": "enlightenment in the present life, or if there’s something left over, non-return. ",
             "matched": true
           },
           "mn10:46.23": {
             "scid": "mn10:46.23",
             "pli": "diṭṭheva dhamme aññā sati vā upādisese anāgāmitāti. ",
-            "de": "Erleuchtung in diesem Leben, oder, wenn <span class=\"ebt-matched\">noch etwas übrig bleibt</span>, Nichtwiederkehr. ",
+            "de": "Erleuchtung in diesem Leben, oder, wenn <span class=\"ebt-matched\">noch etwas übrig</span> bleibt, Nichtwiederkehr. ",
             "en": "enlightenment in the present life, or if there’s something left over, non-return. ",
             "matched": true
           }
@@ -236,7 +271,7 @@
           "sn47.36:1.9": {
             "scid": "sn47.36:1.9",
             "pli": "diṭṭheva dhamme aññā, sati vā upādisese anāgāmitā”ti. ",
-            "de": "Erleuchtung in diesem Leben, oder, wenn <span class=\"ebt-matched\">noch etwas übrig bleibt</span>, Nichtwiederkehr.“ ",
+            "de": "Erleuchtung in diesem Leben, oder, wenn <span class=\"ebt-matched\">noch etwas übrig</span> bleibt, Nichtwiederkehr.“ ",
             "en": "enlightenment in the present life, or if there’s something left over, non-return.” ",
             "matched": true
           }
