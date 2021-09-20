@@ -32,7 +32,7 @@
     "pattern": "bemüht.*, damit",
     "method": "phrase",
     "resultPattern": "\\bbemüht.*, damit",
-    "segsMatched": 29,
+    "segsMatched": 35,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn45/sn45.8_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn45/sn45.8_translation-de-sabbamitta.json",
@@ -43,6 +43,9 @@
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an9/an9.73_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an9/an9.73_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an9/an9.73_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.69_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.69_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.69_translation-en-sujato.json",
@@ -55,6 +58,9 @@
       "root/pli/ms/sutta/an/an1/an1.394-574_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an1/an1.394-574_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an1/an1.394-574_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an9/an9.82_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an9/an9.82_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an9/an9.82_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.275_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.275_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.275_translation-en-sujato.json"
@@ -63,10 +69,12 @@
       "sn45.8/de/sabbamitta",
       "mn141/de/sabbamitta",
       "dn33/de/sabbamitta",
+      "an9.73/de/sabbamitta",
       "an4.69/de/sabbamitta",
       "an4.13/de/sabbamitta",
       "an3.156-162/de/sabbamitta",
       "an1.394-574/de/sabbamitta",
+      "an9.82/de/sabbamitta",
       "an4.275/de/sabbamitta"
     ],
     "mlDocs": [
@@ -116,6 +124,59 @@
         "maxWord": 30,
         "minWord": 5,
         "title": "Nummerierte Lehrreden 4\n2. Gehen\n13. Bemühen",
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 15,
+          "de": 14,
+          "en": 14
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an9/an9.73_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an9/an9.73_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an9/an9.73_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an9.73",
+        "lang": "de",
+        "segMap": {
+          "an9.73:2.3": {
+            "scid": "an9.73:2.3",
+            "pli": "Idha, bhikkhave, bhikkhu anuppannānaṁ pāpakānaṁ akusalānaṁ dhammānaṁ anuppādāya chandaṁ janeti vāyamati vīriyaṁ ārabhati cittaṁ paggaṇhāti padahati; ",
+            "de": "Da entwickelt ein Mönch Begeisterung, probiert, setzt sich ein, gebraucht seinen Geist und <span class=\"ebt-matched\">bemüht sich, damit</span> schlechte, untaugliche Eigenschaften nicht aufkommen. ",
+            "en": "It’s when a mendicant generates enthusiasm, tries, makes an effort, exerts the mind, and strives so that bad, unskillful qualities don’t arise. ",
+            "matched": true
+          },
+          "an9.73:2.4": {
+            "scid": "an9.73:2.4",
+            "pli": "uppannānaṁ pāpakānaṁ akusalānaṁ dhammānaṁ pahānāya chandaṁ janeti vāyamati vīriyaṁ ārabhati cittaṁ paggaṇhāti padahati; ",
+            "de": "Er entwickelt Begeisterung, probiert, setzt sich ein, gebraucht seinen Geist und <span class=\"ebt-matched\">bemüht sich, damit</span> schlechte, untaugliche Eigenschaften, die aufgekommen sind, aufgegeben werden. ",
+            "en": "They generate enthusiasm, try, make an effort, exert the mind, and strive so that bad, unskillful qualities that have arisen are given up. ",
+            "matched": true
+          },
+          "an9.73:2.5": {
+            "scid": "an9.73:2.5",
+            "pli": "anuppannānaṁ kusalānaṁ dhammānaṁ uppādāya chandaṁ janeti vāyamati vīriyaṁ ārabhati cittaṁ paggaṇhāti padahati; ",
+            "de": "Er entwickelt Begeisterung, probiert, setzt sich ein, gebraucht seinen Geist und <span class=\"ebt-matched\">bemüht sich, damit</span> taugliche Eigenschaften aufkommen. ",
+            "en": "They generate enthusiasm, try, make an effort, exert the mind, and strive so that skillful qualities arise. ",
+            "matched": true
+          },
+          "an9.73:2.6": {
+            "scid": "an9.73:2.6",
+            "pli": "uppannānaṁ kusalānaṁ dhammānaṁ ṭhitiyā asammosāya bhiyyobhāvāya vepullāya bhāvanāya pāripūriyā chandaṁ janeti vāyamati vīriyaṁ ārabhati cittaṁ paggaṇhāti padahati. ",
+            "de": "Er entwickelt Begeisterung, probiert, setzt sich ein, gebraucht seinen Geist und <span class=\"ebt-matched\">bemüht sich, damit</span> taugliche Eigenschaften, die aufgekommen sind, bleiben, nicht verloren gehen, sondern anwachsen, reifen und sich vollständig entwickeln. ",
+            "en": "They generate enthusiasm, try, make an effort, exert the mind, and strive so that skillful qualities that have arisen remain, are not lost, but increase, mature, and are completed by development. ",
+            "matched": true
+          }
+        },
+        "score": 4.267,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 9\n8. Rechtes Bemühen\n73. Schwächen bei der Schulung und rechtes Bemühen",
         "segsMatched": 4,
         "langSegs": {
           "pli": 15,
@@ -244,7 +305,7 @@
           "an3.157:3.2": {
             "scid": "an3.157:3.2",
             "pli": "Idha, bhikkhave, bhikkhu anuppannānaṁ pāpakānaṁ akusalānaṁ dhammānaṁ anuppādāya chandaṁ janeti vāyamati vīriyaṁ ārabhati cittaṁ paggaṇhāti padahati; ",
-            "de": "Da entwickelt ein Mönch Begeisterung, probiert, sich einsetzt, seinen Geist gebraucht und <span class=\"ebt-matched\">bemüht sich, damit</span> schlechte, untaugliche Eigenschaften nicht aufkommen. ",
+            "de": "Da entwickelt ein Mönch Begeisterung, probiert, setzt sich ein, gebraucht seinen Geist und <span class=\"ebt-matched\">bemüht sich, damit</span> schlechte, untaugliche Eigenschaften nicht aufkommen. ",
             "en": "It’s when a mendicant generates enthusiasm, tries, makes an effort, exerts the mind, and strives so that bad, unskillful qualities don’t arise. ",
             "matched": true
           },
@@ -439,6 +500,45 @@
           "pli": 1167,
           "de": 1166,
           "en": 1166
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an9/an9.82_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an9/an9.82_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an9/an9.82_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an9.82",
+        "lang": "de",
+        "segMap": {
+          "an9.82:2.3": {
+            "scid": "an9.82:2.3",
+            "pli": "Idha, bhikkhave, bhikkhu anuppannānaṁ pāpakānaṁ akusalānaṁ dhammānaṁ anuppādāya chandaṁ janeti vāyamati vīriyaṁ ārabhati cittaṁ paggaṇhāti padahati; ",
+            "de": "Da entwickelt eine Nonne Begeisterung, probiert, setzt sich ein, gebraucht ihren Geist und <span class=\"ebt-matched\">bemüht sich, damit</span> schlechte, untaugliche Eigenschaften nicht aufkommen. … ",
+            "en": "It’s when a mendicant generates enthusiasm, tries, makes an effort, exerts the mind, and strives so that bad, unskillful qualities don’t arise. … ",
+            "matched": true
+          },
+          "an9.82:2.6": {
+            "scid": "an9.82:2.6",
+            "pli": "uppannānaṁ kusalānaṁ dhammānaṁ ṭhitiyā asammosāya bhiyyobhāvāya vepullāya bhāvanāya pāripūriyā chandaṁ janeti vāyamati vīriyaṁ ārabhati cittaṁ paggaṇhāti padahati. ",
+            "de": "Sie entwickelt Begeisterung, probiert, setzt sich ein, gebraucht ihren Geist und <span class=\"ebt-matched\">bemüht sich, damit</span> taugliche Eigenschaften, die aufgekommen sind, bleiben, nicht verloren gehen, sondern anwachsen, reifen und sich vollständig entwickeln. ",
+            "en": "They generate enthusiasm, try, make an effort, exert the mind, and strive so that skillful qualities that have arisen remain, are not lost, but increase, mature, and are completed by development. ",
+            "matched": true
+          }
+        },
+        "score": 2.125,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 9\n8. Rechtes Bemühen\n82. Seelische Fesseln",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 16,
+          "de": 14,
+          "en": 15
         }
       },
       {

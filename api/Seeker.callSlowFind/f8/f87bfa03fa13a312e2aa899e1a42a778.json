@@ -32,7 +32,7 @@
     "pattern": "herzen, das frei von verlangen",
     "method": "phrase",
     "resultPattern": "\\bherzen, das frei von verlangen",
-    "segsMatched": 4,
+    "segsMatched": 5,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn25_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn25_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/dn/dn10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn10_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn10_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an9/an9.40_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an9/an9.40_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an9/an9.40_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.75_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.75_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.75_translation-en-sujato.json",
@@ -50,10 +53,43 @@
     "suttaRefs": [
       "dn25/de/sabbamitta",
       "dn10/de/sabbamitta",
+      "an9.40/de/sabbamitta",
       "an5.75/de/sabbamitta",
       "an4.198/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an9/an9.40_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an9/an9.40_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an9/an9.40_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an9.40",
+        "lang": "de",
+        "segMap": {
+          "an9.40:5.1": {
+            "scid": "an9.40:5.1",
+            "pli": "So abhijjhaṁ loke pahāya vigatābhijjhena cetasā viharati, abhijjhāya cittaṁ parisodheti; ",
+            "de": "Sie gibt das Verlangen nach der Welt auf, meditiert mit einem <span class=\"ebt-matched\">Herzen, das frei von Verlangen</span> ist, und läutert den Geist von Verlangen. ",
+            "en": "Giving up desire for the world, they meditate with a heart rid of desire, cleansing the mind of desire. ",
+            "matched": true
+          }
+        },
+        "score": 1.026,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 9\n4. Das große Kapitel\n40. Das Gleichnis vom Elefantenbullen im Wald",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 39,
+          "de": 38,
+          "en": 38
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/an/an5/an5.75_root-pli-ms.json",

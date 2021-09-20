@@ -32,14 +32,18 @@
     "pattern": "nicht möglich.* zu erkennen",
     "method": "phrase",
     "resultPattern": "\\bnicht möglich.* zu erkennen",
-    "segsMatched": 2,
+    "segsMatched": 3,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an4/an4.45_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.45_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an4/an4.45_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an4/an4.45_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an9/an9.38_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an9/an9.38_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an9/an9.38_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "an4.45/de/sabbamitta"
+      "an4.45/de/sabbamitta",
+      "an9.38/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -79,6 +83,38 @@
           "pli": 31,
           "de": 30,
           "en": 30
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an9/an9.38_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an9/an9.38_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an9/an9.38_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an9.38",
+        "lang": "de",
+        "segMap": {
+          "an9.38:4.13": {
+            "scid": "an9.38:4.13",
+            "pli": "Nāhaṁ, brāhmaṇā, evarūpāya sandhāvanikāya lokassa antaṁ ñāteyyaṁ daṭṭheyyaṁ patteyyanti vadāmi. ",
+            "de": "Ich sage, es ist <span class=\"ebt-matched\">nicht möglich, durch solches Rennen das Ende der Welt zu erkennen</span> oder zu sehen oder zu erreichen. ",
+            "en": "I say it’s not possible to know or see or reach the end of the world by running like this. ",
+            "matched": true
+          }
+        },
+        "score": 1.014,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 9\n4. Das große Kapitel\n38. Brahmanische Kosmologen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 74,
+          "de": 73,
+          "en": 73
         }
       }
     ]

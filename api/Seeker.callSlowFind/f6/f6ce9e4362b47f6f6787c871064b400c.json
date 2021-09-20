@@ -32,7 +32,7 @@
     "pattern": "auf beiden seiten",
     "method": "phrase",
     "resultPattern": "\\bauf beiden seiten",
-    "segsMatched": 24,
+    "segsMatched": 25,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
@@ -52,6 +52,9 @@
       "root/pli/ms/sutta/dn/dn17_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn17_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn17_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an9/an9.35_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an9/an9.35_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an9/an9.35_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an9/an9.20_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an9/an9.20_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an9/an9.20_translation-en-sujato.json",
@@ -87,6 +90,7 @@
       "an5.51/de/sabbamitta",
       "an2.52-63/de/sabbamitta",
       "dn17/de/sabbamitta",
+      "an9.35/de/sabbamitta",
       "an9.20/de/sabbamitta",
       "an8.30/de/sabbamitta",
       "an7.64/de/sabbamitta",
@@ -479,6 +483,38 @@
           "pli": 79,
           "de": 78,
           "en": 78
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an9/an9.35_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an9/an9.35_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an9/an9.35_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an9.35",
+        "lang": "de",
+        "segMap": {
+          "an9.35:2.7": {
+            "scid": "an9.35:2.7",
+            "pli": "Ayaṁ vuccati, bhikkhave, ‘bhikkhu ubhato bhaṭṭho ubhato parihīno, seyyathāpi sā gāvī pabbateyyā bālā abyattā akhettaññū akusalā visame pabbate carituṁ’. ",
+            "de": "Das nennt man einen Mönch, der <span class=\"ebt-matched\">auf beiden Seiten</span> abgerutscht und heruntergefallen ist. Er ist wie die Bergkuh, die töricht, unfähig und untauglich ist und ohne gesunden Menschenverstand durch schroffe Berglandschaften streift. ",
+            "en": "This is called a mendicant who has slipped and fallen from both sides. They’re like the mountain cow who was foolish, incompetent, unskillful, and lacking in common sense when roaming on rugged mountains. ",
+            "matched": true
+          }
+        },
+        "score": 1.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 9\n4. Das große Kapitel\n35. Das Gleichnis von der Kuh",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 95,
+          "de": 92,
+          "en": 94
         }
       },
       {

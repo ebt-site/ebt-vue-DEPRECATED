@@ -32,7 +32,7 @@
     "pattern": "aber zum erwachen entschlossen",
     "method": "phrase",
     "resultPattern": "\\baber zum erwachen entschlossen",
-    "segsMatched": 8,
+    "segsMatched": 9,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an5/an5.196_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.196_translation-de-sabbamitta.json",
@@ -43,6 +43,9 @@
       "root/pli/ms/sutta/sn/sn12/sn12.10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.10_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn12/sn12.10_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an9/an9.41_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an9/an9.41_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an9/an9.41_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.64_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.64_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an8/an8.64_translation-en-sujato.json",
@@ -57,6 +60,7 @@
       "an5.196/de/sabbamitta",
       "sn12.4/de/sabbamitta",
       "sn12.10/de/sabbamitta",
+      "an9.41/de/sabbamitta",
       "an8.64/de/sabbamitta",
       "an5.68/de/sabbamitta",
       "an3.103/de/sabbamitta"
@@ -266,6 +270,38 @@
           "pli": 106,
           "de": 106,
           "en": 106
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an9/an9.41_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an9/an9.41_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an9/an9.41_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an9.41",
+        "lang": "de",
+        "segMap": {
+          "an9.41:7.2": {
+            "scid": "an9.41:7.2",
+            "pli": "Mayhampi kho, ānanda, pubbeva sambodhā anabhisambuddhassa bodhisattasseva sato etadahosi: ",
+            "de": "Vor meinem Erwachen – als ich noch nicht erwacht war, <span class=\"ebt-matched\">aber zum Erwachen entschlossen</span> – dachte ich auch: ",
+            "en": "Before my awakening—when I was still unawakened but intent on awakening—I too thought, ",
+            "matched": true
+          }
+        },
+        "score": 1.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 9\n4. Das große Kapitel\n41. Mit dem Hausbesitzer Tapussa",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 177,
+          "de": 166,
+          "en": 175
         }
       }
     ]

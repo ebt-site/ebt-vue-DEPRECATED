@@ -32,7 +32,7 @@
     "pattern": "einen gierigen geist",
     "method": "phrase",
     "resultPattern": "\\beinen gierigen geist",
-    "segsMatched": 7,
+    "segsMatched": 8,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn10_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/dn/dn10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn10_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn10_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an9/an9.35_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an9/an9.35_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an9/an9.35_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an6/an6.70_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.70_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an6/an6.70_translation-en-sujato.json",
@@ -59,6 +62,7 @@
     "suttaRefs": [
       "mn10/de/sabbamitta",
       "dn10/de/sabbamitta",
+      "an9.35/de/sabbamitta",
       "an6.70/de/sabbamitta",
       "an6.2/de/sabbamitta",
       "an5.28/de/sabbamitta",
@@ -224,6 +228,38 @@
           "pli": 85,
           "de": 84,
           "en": 84
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an9/an9.35_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an9/an9.35_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an9/an9.35_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an9.35",
+        "lang": "de",
+        "segMap": {
+          "an9.35:15.2": {
+            "scid": "an9.35:15.2",
+            "pli": "sarāgaṁ vā cittaṁ sarāgaṁ cittanti pajāneyyaṁ,",
+            "de": "Dass ich <span class=\"ebt-matched\">einen gierigen Geist</span> als „gierigen Geist“ erkennen könnte, ",
+            "en": "May I understand mind with greed as “mind with greed”,",
+            "matched": true
+          }
+        },
+        "score": 1.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 9\n4. Das große Kapitel\n35. Das Gleichnis von der Kuh",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 95,
+          "de": 92,
+          "en": 94
         }
       },
       {
