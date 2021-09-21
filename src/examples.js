@@ -280,7 +280,6 @@
     "juck",
     "Kassapa der Prinz",
     "keine Angst, Gutes zu tun",
-    "keine Wahrnehmung",
     "kennt mich",
     "Kennzeichen",
     "Keuschen und die Unkeuschen",
