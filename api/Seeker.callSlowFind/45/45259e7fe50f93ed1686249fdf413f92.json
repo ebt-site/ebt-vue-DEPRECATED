@@ -1,0 +1,86 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "kosmologe",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "kosmologe",
+    "method": "phrase",
+    "resultPattern": "\\bkosmologe",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an9/an9.38_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an9/an9.38_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an9/an9.38_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an9.38/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an9/an9.38_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an9/an9.38_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an9/an9.38_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an9.38",
+        "lang": "de",
+        "segMap": {
+          "an9.38:0.3": {
+            "scid": "an9.38:0.3",
+            "pli": "38. Lokāyatikasutta ",
+            "de": "38. Brahmanische <span class=\"ebt-matched\">Kosmologe</span>n ",
+            "en": "38. Brahmin Cosmologists ",
+            "matched": true
+          },
+          "an9.38:1.1": {
+            "scid": "an9.38:1.1",
+            "pli": "Atha kho dve lokāyatikā brāhmaṇā yena bhagavā tenupasaṅkamiṁsu; upasaṅkamitvā bhagavatā saddhiṁ sammodiṁsu. ",
+            "de": "Da gingen zwei brahmanische <span class=\"ebt-matched\">Kosmologe</span>n zum Buddha und tauschten Willkommensgrüße mit ihm aus. ",
+            "en": "Then two brahmin cosmologists went up to the Buddha, and exchanged greetings with him. ",
+            "matched": true
+          }
+        },
+        "score": 2.027,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 9\n4. Das große Kapitel\n38. Brahmanische Kosmologen",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 74,
+          "de": 73,
+          "en": 73
+        }
+      }
+    ]
+  }
+}

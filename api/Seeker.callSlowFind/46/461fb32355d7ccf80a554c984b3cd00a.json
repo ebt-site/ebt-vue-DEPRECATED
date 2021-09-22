@@ -1,0 +1,86 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "geschlagen und in panik",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "geschlagen und in panik",
+    "method": "phrase",
+    "resultPattern": "\\bgeschlagen und in panik",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an9/an9.39_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an9/an9.39_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an9/an9.39_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an9.39/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an9/an9.39_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an9/an9.39_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an9/an9.39_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an9.39",
+        "lang": "de",
+        "segMap": {
+          "an9.39:2.6": {
+            "scid": "an9.39:2.6",
+            "pli": "Parājitā ca, bhikkhave, devā bhītā devapuraṁyeva pavisiṁsu. ",
+            "de": "<span class=\"ebt-matched\">Geschlagen und in Panik</span> flohen die Götter geradewegs in die Burg der Götter. ",
+            "en": "Defeated and terrified, the gods fled right into the castle of the gods. ",
+            "matched": true
+          },
+          "an9.39:4.6": {
+            "scid": "an9.39:4.6",
+            "pli": "Parājitā ca, bhikkhave, asurā bhītā asurapuraṁyeva pavisiṁsu. ",
+            "de": "<span class=\"ebt-matched\">Geschlagen und in Panik</span> flohen die Dämonen geradewegs in die Burg der Dämonen. ",
+            "en": "Defeated and terrified, the demons fled right into the citadel of the demons. ",
+            "matched": true
+          }
+        },
+        "score": 2.033,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 9\n4. Das große Kapitel\n39. Der Krieg zwischen Göttern und Dämonen",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 61,
+          "de": 60,
+          "en": 60
+        }
+      }
+    ]
+  }
+}
