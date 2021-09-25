@@ -1,0 +1,122 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "beschützer",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "beschützer",
+    "method": "phrase",
+    "resultPattern": "\\bbeschützer",
+    "segsMatched": 3,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/kn/thig/thig13.3_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thig/thig13.3_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thig/thig13.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thig/thig11.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thig/thig11.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thig/thig11.1_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "thig13.3/de/sabbamitta",
+      "thig11.1/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thig/thig13.3_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thig/thig13.3_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thig/thig13.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thig13.3",
+        "lang": "de",
+        "segMap": {
+          "thig13.3:17.2": {
+            "scid": "thig13.3:17.2",
+            "pli": "lokanāthaṁ anuttaraṁ;",
+            "de": "an den unübertrefflichen <span class=\"ebt-matched\">Beschützer</span> der Welt. ",
+            "en": "to the supreme protector of the world.",
+            "matched": true
+          },
+          "thig13.3:18.4": {
+            "scid": "thig13.3:18.4",
+            "pli": "lokanāthaṁ anuttaraṁ;",
+            "de": "an den unübertrefflichen <span class=\"ebt-matched\">Beschützer</span> der Welt. ",
+            "en": "to the supreme protector of the world.",
+            "matched": true
+          }
+        },
+        "score": 2.021,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Nonnen\nDas Zwanzigerbuch\n13.3. Cāpā",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 94,
+          "de": 93,
+          "en": 93
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thig/thig11.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thig/thig11.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thig/thig11.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thig11.1",
+        "lang": "de",
+        "segMap": {
+          "thig11.1:6.4": {
+            "scid": "thig11.1:6.4",
+            "pli": "lokanāthassa tādino”.",
+            "de": "des prachtvollen <span class=\"ebt-matched\">Beschützer</span>s der Welt.“ ",
+            "en": "the glorious protector of the world.”",
+            "matched": true
+          }
+        },
+        "score": 1.019,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Nonnen\nDas Zwölferbuch\n11.1. Uppalavaṇṇā",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 54,
+          "de": 52,
+          "en": 52
+        }
+      }
+    ]
+  }
+}
