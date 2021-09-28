@@ -32,7 +32,7 @@
     "pattern": "besser.* erlesener",
     "method": "phrase",
     "resultPattern": "\\bbesser.* erlesener",
-    "segsMatched": 11,
+    "segsMatched": 12,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an4/an4.16_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.16_translation-de-sabbamitta.json",
@@ -51,7 +51,10 @@
       "translation/en/sujato/sutta/an/an5/an5.106_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.24_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.24_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an4/an4.24_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an4/an4.24_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.22_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.22_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.22_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an4.16/de/sabbamitta",
@@ -59,7 +62,8 @@
       "an6.44/de/sabbamitta",
       "dn15/de/sabbamitta",
       "an5.106/de/sabbamitta",
-      "an4.24/de/sabbamitta"
+      "an4.24/de/sabbamitta",
+      "an10.22/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -223,6 +227,38 @@
           "pli": 29,
           "de": 28,
           "en": 28
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.22_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.22_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.22_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.22",
+        "lang": "de",
+        "segMap": {
+          "an10.22:2.5": {
+            "scid": "an10.22:2.5",
+            "pli": "Etasmā cāhaṁ, ānanda, ñāṇā aññaṁ ñāṇaṁ uttaritaraṁ vā paṇītataraṁ vā natthīti vadāmi. ",
+            "de": "Und Ānanda, ich sage, es gibt kein anderes Wissen, das <span class=\"ebt-matched\">besser und erlesener</span> wäre als dieses. ",
+            "en": "And Ānanda, I say that there is no other knowledge better or finer than this. ",
+            "matched": true
+          }
+        },
+        "score": 1.03,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10\n3. Das große Kapitel\n22. Annahmen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 33,
+          "de": 32,
+          "en": 32
         }
       },
       {

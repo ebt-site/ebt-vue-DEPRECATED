@@ -32,7 +32,7 @@
     "pattern": "dachsparren",
     "method": "phrase",
     "resultPattern": "\\bdachsparren",
-    "segsMatched": 5,
+    "segsMatched": 6,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an3/an3.110_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.110_translation-de-sabbamitta.json",
@@ -42,12 +42,16 @@
       "translation/en/sujato/sutta/an/an3/an3.109_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an6/an6.53_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.53_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an6/an6.53_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an6/an6.53_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.15_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.15_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.15_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an3.110/de/sabbamitta",
       "an3.109/de/sabbamitta",
-      "an6.53/de/sabbamitta"
+      "an6.53/de/sabbamitta",
+      "an10.15/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -130,6 +134,38 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.15_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.15_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.15_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.15",
+        "lang": "de",
+        "segMap": {
+          "an10.15:3.1": {
+            "scid": "an10.15:3.1",
+            "pli": "Seyyathāpi, bhikkhave, kūṭāgārassa yā kāci gopānasiyo sabbā tā kūṭaṅgamā kūṭaninnā kūṭasamosaraṇā, kūṭo tāsaṁ aggamakkhāyati; ",
+            "de": "Die <span class=\"ebt-matched\">Dachsparren</span> eines Giebelhauses neigen sich alle zum First, sie streben zum First, treffen sich am First, daher gilt der First als der oberste von allen. ",
+            "en": "The rafters of a bungalow all lean to the peak, slope to the peak, and meet at the peak, so the peak is said to be the topmost of them all. ",
+            "matched": true
+          }
+        },
+        "score": 1.042,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10\n2. Ein Beschützer\n15. Beflissenheit",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 24,
+          "de": 23,
+          "en": 23
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an6/an6.53_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/an/an6/an6.53_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/an/an6/an6.53_translation-en-sujato.json"
@@ -143,7 +179,7 @@
           "an6.53:5.1": {
             "scid": "an6.53:5.1",
             "pli": "Seyyathāpi, brāhmaṇa, kūṭāgārassa yā kāci gopānasiyo sabbā tā kūṭaṅgamā kūṭaninnā kūṭasamosaraṇā, kūṭaṁ tāsaṁ aggamakkhāyati; ",
-            "de": "Die <span class=\"ebt-matched\">Dachsparren</span> eines Giebelhauses lehnen sich alle an den First, sie neigen sich zum First, treffen sich am First, daher gilt der First als der oberste von allen. ",
+            "de": "Die <span class=\"ebt-matched\">Dachsparren</span> eines Giebelhauses neigen sich alle zum First, sie streben zum First, treffen sich am First, daher gilt der First als der oberste von allen. ",
             "en": "The rafters of a bungalow all lean to the peak, slope to the peak, and meet at the peak, so the peak is said to be the topmost of them all. ",
             "matched": true
           }

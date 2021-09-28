@@ -32,7 +32,7 @@
     "pattern": "wesentliche.* bedingungen",
     "method": "phrase",
     "resultPattern": "\\bwesentliche.* bedingungen",
-    "segsMatched": 5,
+    "segsMatched": 8,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn12/sn12.23_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.23_translation-de-sabbamitta.json",
@@ -42,12 +42,24 @@
       "translation/en/sujato/sutta/dn/dn18_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an7/an7.45_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an7/an7.45_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an7/an7.45_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an7/an7.45_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.5_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.5_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.5_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.4_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.4_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.4_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.3_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.3_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.3_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "sn12.23/de/sabbamitta",
       "dn18/de/sabbamitta",
-      "an7.45/de/sabbamitta"
+      "an7.45/de/sabbamitta",
+      "an10.5/de/sabbamitta",
+      "an10.4/de/sabbamitta",
+      "an10.3/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -126,6 +138,102 @@
           "pli": 8,
           "de": 7,
           "en": 7
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.4_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.4_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.4_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.4",
+        "lang": "de",
+        "segMap": {
+          "an10.4:0.3": {
+            "scid": "an10.4:0.3",
+            "pli": "4. Dutiyaupanisasutta ",
+            "de": "4. <span class=\"ebt-matched\">Wesentliche Bedingungen</span> (2) ",
+            "en": "4. Vital Conditions (2nd) ",
+            "matched": true
+          }
+        },
+        "score": 1.053,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10\n1. Vorteilhafte Folgen\n4. Wesentliche Bedingungen (2)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 19,
+          "de": 18,
+          "en": 18
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.3_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.3_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.3",
+        "lang": "de",
+        "segMap": {
+          "an10.3:0.3": {
+            "scid": "an10.3:0.3",
+            "pli": "3. Paṭhamaupanisasutta ",
+            "de": "3. <span class=\"ebt-matched\">Wesentliche Bedingungen</span> (1) ",
+            "en": "3. Vital Conditions (1st) ",
+            "matched": true
+          }
+        },
+        "score": 1.033,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10\n1. Vorteilhafte Folgen\n3. Wesentliche Bedingungen (1)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 30,
+          "de": 29,
+          "en": 29
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.5_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.5_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.5_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.5",
+        "lang": "de",
+        "segMap": {
+          "an10.5:0.3": {
+            "scid": "an10.5:0.3",
+            "pli": "5. Tatiyaupanisasutta ",
+            "de": "<span class=\"ebt-matched\">Wesentliche Bedingungen</span> (3) ",
+            "en": "5. Vital Conditions (3rd) ",
+            "matched": true
+          }
+        },
+        "score": 1.032,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10\n1. Vorteilhafte Folgen\nWesentliche Bedingungen (3)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 31,
+          "de": 30,
+          "en": 30
         }
       },
       {

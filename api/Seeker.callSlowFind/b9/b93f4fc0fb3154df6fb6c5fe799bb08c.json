@@ -32,7 +32,7 @@
     "pattern": "heißt es so",
     "method": "phrase",
     "resultPattern": "\\bheißt es so",
-    "segsMatched": 8,
+    "segsMatched": 9,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn33_translation-de-sabbamitta.json",
@@ -51,7 +51,10 @@
       "translation/en/sujato/sutta/an/an6/an6.51_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.20_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.20_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an3/an3.20_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an3/an3.20_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.11_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.11_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.11_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "mn33/de/sabbamitta",
@@ -59,7 +62,8 @@
       "dn34/de/sabbamitta",
       "an8.2/de/sabbamitta",
       "an6.51/de/sabbamitta",
-      "an3.20/de/sabbamitta"
+      "an3.20/de/sabbamitta",
+      "an10.11/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -138,6 +142,38 @@
           "pli": 146,
           "de": 144,
           "en": 144
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.11_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.11_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.11_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.11",
+        "lang": "de",
+        "segMap": {
+          "an10.11:3.8": {
+            "scid": "an10.11:3.8",
+            "pli": "‘idaṁ, bhante, kathaṁ, imassa ko attho’ti; ",
+            "de": "‚Warum, Herr, <span class=\"ebt-matched\">heißt es so</span>? Was bedeutet das?‘ ",
+            "en": "‘Why, sir, does it say this? What does that mean?’ ",
+            "matched": true
+          }
+        },
+        "score": 1.042,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10\n2. Ein Beschützer\n11. Unterkünfte",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 24,
+          "de": 23,
+          "en": 23
         }
       },
       {

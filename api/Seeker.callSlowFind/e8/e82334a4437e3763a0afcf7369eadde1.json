@@ -32,7 +32,7 @@
     "pattern": "wesentliche bedingung für rechte",
     "method": "phrase",
     "resultPattern": "\\bwesentliche bedingung für rechte",
-    "segsMatched": 15,
+    "segsMatched": 19,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an5/an5.24_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.24_translation-de-sabbamitta.json",
@@ -48,14 +48,22 @@
       "translation/en/sujato/sutta/an/an8/an8.81_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an6/an6.50_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.50_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an6/an6.50_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an6/an6.50_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.5_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.5_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.5_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.3_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.3_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.3_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an5.24/de/sabbamitta",
       "an5.168/de/sabbamitta",
       "an7.65/de/sabbamitta",
       "an8.81/de/sabbamitta",
-      "an6.50/de/sabbamitta"
+      "an6.50/de/sabbamitta",
+      "an10.5/de/sabbamitta",
+      "an10.3/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -286,6 +294,84 @@
           "pli": 26,
           "de": 25,
           "en": 25
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.3_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.3_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.3",
+        "lang": "de",
+        "segMap": {
+          "an10.3:1.6": {
+            "scid": "an10.3:1.6",
+            "pli": "sukhe asati sukhavipannassa hatūpaniso hoti sammāsamādhi; ",
+            "de": "Wenn es keine Wonne gibt, hat jemand, der keine Wonne empfindet, eine <span class=\"ebt-matched\">wesentliche Bedingung für rechte</span> Versenkung zerstört. ",
+            "en": "When there is no bliss, one who lacks bliss has destroyed a vital condition for right immersion. ",
+            "matched": true
+          },
+          "an10.3:2.6": {
+            "scid": "an10.3:2.6",
+            "pli": "sukhe sati sukhasampannassa upanisasampanno hoti sammāsamādhi; ",
+            "de": "Wenn es Wonne gibt, hat jemand, der die Wonne vervollkommnet hat, eine <span class=\"ebt-matched\">wesentliche Bedingung für rechte</span> Versenkung erfüllt. ",
+            "en": "When there is bliss, one who has fulfilled bliss has fulfilled a vital condition for right immersion. ",
+            "matched": true
+          }
+        },
+        "score": 2.067,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10\n1. Vorteilhafte Folgen\n3. Wesentliche Bedingungen (1)",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 30,
+          "de": 29,
+          "en": 29
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.5_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.5_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.5_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.5",
+        "lang": "de",
+        "segMap": {
+          "an10.5:1.7": {
+            "scid": "an10.5:1.7",
+            "pli": "sukhe asati sukhavipannassa hatūpaniso hoti sammāsamādhi; ",
+            "de": "Wenn es keine Wonne gibt, hat jemand, der keine Wonne empfindet, eine <span class=\"ebt-matched\">wesentliche Bedingung für rechte</span> Versenkung zerstört. ",
+            "en": "When there is no bliss, one who lacks bliss has destroyed a vital condition for right immersion. ",
+            "matched": true
+          },
+          "an10.5:2.6": {
+            "scid": "an10.5:2.6",
+            "pli": "sukhe sati sukhasampannassa upanisasampanno hoti sammāsamādhi; ",
+            "de": "Wenn es Wonne gibt, hat jemand, der die Wonne vervollkommnet hat, eine <span class=\"ebt-matched\">wesentliche Bedingung für rechte</span> Versenkung erfüllt. ",
+            "en": "When there is bliss, one who has fulfilled bliss has fulfilled a vital condition for right immersion. ",
+            "matched": true
+          }
+        },
+        "score": 2.065,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10\n1. Vorteilhafte Folgen\nWesentliche Bedingungen (3)",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 31,
+          "de": 30,
+          "en": 30
         }
       }
     ]

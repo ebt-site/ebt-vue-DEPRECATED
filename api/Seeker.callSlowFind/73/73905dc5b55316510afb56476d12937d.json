@@ -32,7 +32,7 @@
     "pattern": "vor langer zeit getan oder gesagt",
     "method": "phrase",
     "resultPattern": "\\bvor langer zeit getan oder gesagt",
-    "segsMatched": 8,
+    "segsMatched": 10,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
@@ -54,7 +54,13 @@
       "translation/en/sujato/sutta/an/an5/an5.14_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.35_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.35_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an4/an4.35_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an4/an4.35_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.18_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.18_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.18_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.17_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.17_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.17_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "dn34/de/sabbamitta",
@@ -63,7 +69,9 @@
       "an7.67/de/sabbamitta",
       "an7.4/de/sabbamitta",
       "an5.14/de/sabbamitta",
-      "an4.35/de/sabbamitta"
+      "an4.35/de/sabbamitta",
+      "an10.18/de/sabbamitta",
+      "an10.17/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -171,6 +179,38 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.17_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.17_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.17_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.17",
+        "lang": "de",
+        "segMap": {
+          "an10.17:9.1": {
+            "scid": "an10.17:9.1",
+            "pli": "Puna caparaṁ, bhikkhave, bhikkhu satimā hoti paramena satinepakkena samannāgato cirakatampi cirabhāsitampi saritā anussaritā. ",
+            "de": "Dann ist da ein Mönch achtsam. Er besitzt äußerste Achtsamkeit und Wachheit, und an Dinge, die <span class=\"ebt-matched\">vor langer Zeit getan oder gesagt</span> wurden, kann er sich erinnern und sie sich ins Gedächtnis rufen. ",
+            "en": "Furthermore, a mendicant is mindful. They have utmost mindfulness and alertness, and can remember and recall what was said and done long ago. ",
+            "matched": true
+          }
+        },
+        "score": 1.024,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10\n2. Ein Beschützer\n17. Ein Beschützer (1)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 41,
+          "de": 30,
+          "en": 40
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an4/an4.35_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/an/an4/an4.35_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/an/an4/an4.35_translation-en-sujato.json"
@@ -199,6 +239,38 @@
           "pli": 55,
           "de": 54,
           "en": 54
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.18_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.18_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.18_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.18",
+        "lang": "de",
+        "segMap": {
+          "an10.18:10.1": {
+            "scid": "an10.18:10.1",
+            "pli": "Puna caparaṁ, bhikkhave, bhikkhu satimā hoti paramena satinepakkena samannāgato, cirakatampi cirabhāsitampi saritā anussaritā. ",
+            "de": "Dann ist da eine Nonne achtsam. Sie besitzt äußerste Achtsamkeit und Wachheit, und an Dinge, die <span class=\"ebt-matched\">vor langer Zeit getan oder gesagt</span> wurden, kann sie sich erinnern und sie sich ins Gedächtnis rufen. ",
+            "en": "Furthermore, a mendicant is mindful. They have utmost mindfulness and alertness, and can remember and recall what was said and done long ago. ",
+            "matched": true
+          }
+        },
+        "score": 1.017,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10\n2. Ein Beschützer\n18. Ein Beschützer (2)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 59,
+          "de": 58,
+          "en": 58
         }
       },
       {
