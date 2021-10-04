@@ -32,8 +32,11 @@
     "pattern": "damit zufrieden, da",
     "method": "phrase",
     "resultPattern": "\\bdamit zufrieden, da",
-    "segsMatched": 2,
+    "segsMatched": 4,
     "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn25_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn25_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn25_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.52_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.52_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an10/an10.52_translation-en-sujato.json",
@@ -42,10 +45,50 @@
       "translation/en/sujato/sutta/an/an10/an10.51_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "dn25/de/sabbamitta",
       "an10.52/de/sabbamitta",
       "an10.51/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn25_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn25_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn25_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn25",
+        "lang": "de",
+        "segMap": {
+          "dn25:9.2": {
+            "scid": "dn25:9.2",
+            "pli": "“Idha, nigrodha, tapassī tapaṁ samādiyati, so tena tapasā attamano hoti paripuṇṇasaṅkappo. ",
+            "de": "„Zunächst unternimmt da ein Büßender eine Bußübung. Er ist <span class=\"ebt-matched\">damit zufrieden, da</span> er alles erreicht hat, was er sich wünschte. ",
+            "en": "“Firstly, a mortifier undertakes a practice of mortification. They’re happy with that, as they’ve got all they wished for. ",
+            "matched": true
+          },
+          "dn25:10.1": {
+            "scid": "dn25:10.1",
+            "pli": "Puna caparaṁ, nigrodha, tapassī tapaṁ samādiyati, so tena tapasā lābhasakkārasilokaṁ abhinibbatteti, so tena lābhasakkārasilokena attamano hoti paripuṇṇasaṅkappo. ",
+            "de": "Dann unternimmt da ein Büßender eine Bußübung. Er schafft sich durch diese Bußübung Besitz, Ehre und Beliebtheit. Er ist <span class=\"ebt-matched\">damit zufrieden, da</span> er alles erreicht hat, was er sich wünschte. ",
+            "en": "Furthermore, a mortifier undertakes a practice of mortification. They generate possessions, honor, and popularity through that mortification. They’re happy with that, as they’ve got all they wished for. ",
+            "matched": true
+          }
+        },
+        "score": 2.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 25\nDas Löwengebrüll in Udumbarikās Kloster\n1. Vom Wanderer Nigrodha",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 383,
+          "de": 347,
+          "en": 382
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/an/an10/an10.52_root-pli-ms.json",
