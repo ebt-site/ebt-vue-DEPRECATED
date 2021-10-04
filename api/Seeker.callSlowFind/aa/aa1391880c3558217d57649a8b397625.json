@@ -32,18 +32,22 @@
     "pattern": "inneren sinnesfelder",
     "method": "phrase",
     "resultPattern": "\\binneren sinnesfelder",
-    "segsMatched": 2,
+    "segsMatched": 3,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn35/sn35.238_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn35/sn35.238_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.238_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an6/an6.61_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.61_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an6/an6.61_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an6/an6.61_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.27_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.27_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.27_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "sn35.238/de/sabbamitta",
-      "an6.61/de/sabbamitta"
+      "an6.61/de/sabbamitta",
+      "an10.27/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -108,6 +112,38 @@
           "pli": 58,
           "de": 56,
           "en": 57
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.27_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.27_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.27_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.27",
+        "lang": "de",
+        "segMap": {
+          "an10.27:15.5": {
+            "scid": "an10.27:15.5",
+            "pli": "Chasu ajjhattikesu āyatanesu—",
+            "de": "Die sechs <span class=\"ebt-matched\">inneren Sinnesfelder</span> … ",
+            "en": "The six interior sense fields. … ",
+            "matched": true
+          }
+        },
+        "score": 1.009,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10\n3. Das große Kapitel\n27. Die großen Fragen (1)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 112,
+          "de": 65,
+          "en": 111
         }
       }
     ]

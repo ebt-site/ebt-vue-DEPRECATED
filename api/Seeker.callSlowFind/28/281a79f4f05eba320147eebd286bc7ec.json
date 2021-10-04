@@ -32,7 +32,7 @@
     "pattern": "sechs elemente",
     "method": "phrase",
     "resultPattern": "\\bsechs elemente",
-    "segsMatched": 16,
+    "segsMatched": 17,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn140_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn140_translation-de-sabbamitta.json",
@@ -48,14 +48,18 @@
       "translation/en/sujato/sutta/an/an6/an6.13_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json"
+      "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.28_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.28_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.28_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "mn140/de/sabbamitta",
       "an3.61/de/sabbamitta",
       "dn33/de/sabbamitta",
       "an6.13/de/sabbamitta",
-      "dn34/de/sabbamitta"
+      "dn34/de/sabbamitta",
+      "an10.28/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -261,6 +265,38 @@
           "pli": 1167,
           "de": 1166,
           "en": 1166
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.28_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.28_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.28_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.28",
+        "lang": "de",
+        "segMap": {
+          "an10.28:7.7": {
+            "scid": "an10.28:7.7",
+            "pli": "Chasu nissaraṇīyāsu dhātūsu …pe… ",
+            "de": "Die <span class=\"ebt-matched\">sechs Elemente</span> des Entrinnens … ",
+            "en": "The six elements of escape. … ",
+            "matched": true
+          }
+        },
+        "score": 1.013,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10\n3. Das große Kapitel\n28. Die großen Fragen (2)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 75,
+          "de": 59,
+          "en": 74
         }
       },
       {

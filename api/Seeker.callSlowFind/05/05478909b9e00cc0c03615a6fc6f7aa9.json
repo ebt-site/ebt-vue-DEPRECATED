@@ -32,7 +32,7 @@
     "pattern": "eine große hilfe",
     "method": "phrase",
     "resultPattern": "\\beine große hilfe",
-    "segsMatched": 37,
+    "segsMatched": 39,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
@@ -60,7 +60,13 @@
       "translation/en/sujato/sutta/an/an3/an3.31_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an2/an2.32-41_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an2/an2.32-41_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an2/an2.32-41_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an2/an2.32-41_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.52_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.52_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.52_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.51_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.51_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.51_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "dn34/de/sabbamitta",
@@ -71,7 +77,9 @@
       "an8.51/de/sabbamitta",
       "an4.63/de/sabbamitta",
       "an3.31/de/sabbamitta",
-      "an2.32-41/de/sabbamitta"
+      "an2.32-41/de/sabbamitta",
+      "an10.52/de/sabbamitta",
+      "an10.51/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -396,6 +404,70 @@
           "pli": 13,
           "de": 12,
           "en": 12
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.52_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.52_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.52_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.52",
+        "lang": "de",
+        "segMap": {
+          "an10.52:4.1": {
+            "scid": "an10.52:4.1",
+            "pli": "Evamevaṁ kho, āvuso, bhikkhuno paccavekkhaṇā bahukārā hoti kusalesu dhammesu: ",
+            "de": "Ebenso ist es für die tauglichen Eigenschaften eines Mönchs <span class=\"ebt-matched\">eine große Hilfe</span>, wenn er prüft: ",
+            "en": "In the same way, checking is very helpful for a mendicant’s skillful qualities. ",
+            "matched": true
+          }
+        },
+        "score": 1.045,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10\n6. Der eigene Geist\n52. Mit Sāriputta",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 22,
+          "de": 21,
+          "en": 21
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.51_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.51_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.51_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.51",
+        "lang": "de",
+        "segMap": {
+          "an10.51:3.5": {
+            "scid": "an10.51:3.5",
+            "pli": "Evamevaṁ kho, bhikkhave, bhikkhuno paccavekkhaṇā bahukārā hoti kusalesu dhammesu: ",
+            "de": "Ebenso ist es für die tauglichen Eigenschaften einer Nonne <span class=\"ebt-matched\">eine große Hilfe</span>, wenn sie prüft: ",
+            "en": "In the same way, checking is very helpful for a mendicant’s skillful qualities. ",
+            "matched": true
+          }
+        },
+        "score": 1.043,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10\n6. Der eigene Geist\n51. Der eigene Geist",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 23,
+          "de": 22,
+          "en": 22
         }
       },
       {

@@ -32,7 +32,7 @@
     "pattern": "liebevolle.* herz",
     "method": "phrase",
     "resultPattern": "\\bliebevolle.* herz",
-    "segsMatched": 18,
+    "segsMatched": 19,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an5/an5.167_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.167_translation-de-sabbamitta.json",
@@ -54,7 +54,10 @@
       "translation/en/sujato/sutta/an/an9/an9.20_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.198_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.198_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an5/an5.198_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an5/an5.198_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.44_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.44_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.44_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an5.167/de/sabbamitta",
@@ -63,7 +66,8 @@
       "an4.67/de/sabbamitta",
       "dn33/de/sabbamitta",
       "an9.20/de/sabbamitta",
-      "an5.198/de/sabbamitta"
+      "an5.198/de/sabbamitta",
+      "an10.44/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -301,6 +305,38 @@
           "pli": 8,
           "de": 7,
           "en": 7
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.44_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.44_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.44_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.44",
+        "lang": "de",
+        "segMap": {
+          "an10.44:7.6": {
+            "scid": "an10.44:7.6",
+            "pli": "mettacitto vakkhāmi, no dosantaro’ti—",
+            "de": "Ich werde mit <span class=\"ebt-matched\">liebevollem Herz</span>en sprechen, nicht mit verstecktem Hass.‘ ",
+            "en": "I will speak lovingly, not from secret hate.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.022,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10\n5. Beschimpfung\n44. In Kusinārā",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 46,
+          "de": 44,
+          "en": 45
         }
       },
       {

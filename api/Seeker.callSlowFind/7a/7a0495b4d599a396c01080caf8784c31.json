@@ -32,7 +32,7 @@
     "pattern": "werden von.* erhalten",
     "method": "phrase",
     "resultPattern": "\\bwerden von.* erhalten",
-    "segsMatched": 4,
+    "segsMatched": 6,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
@@ -42,12 +42,20 @@
       "translation/en/sujato/sutta/kn/kp/kp4_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json"
+      "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.28_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.28_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.28_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.27_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.27_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.27_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "dn33/de/sabbamitta",
       "kp4/de/sabbamitta",
-      "dn34/de/sabbamitta"
+      "dn34/de/sabbamitta",
+      "an10.28/de/sabbamitta",
+      "an10.27/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -119,6 +127,70 @@
           "pli": 23,
           "de": 22,
           "en": 22
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.28_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.28_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.28_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.28",
+        "lang": "de",
+        "segMap": {
+          "an10.28:4.5": {
+            "scid": "an10.28:4.5",
+            "pli": "Sabbe sattā āhāraṭṭhitikā—",
+            "de": "‚Alle Lebewesen <span class=\"ebt-matched\">werden von Nahrung erhalten</span>.‘ ",
+            "en": "‘All sentient beings are sustained by food.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.013,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10\n3. Das große Kapitel\n28. Die großen Fragen (2)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 75,
+          "de": 59,
+          "en": 74
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.27_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.27_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.27_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.27",
+        "lang": "de",
+        "segMap": {
+          "an10.27:10.5": {
+            "scid": "an10.27:10.5",
+            "pli": "‘Sabbe sattā āhāraṭṭhitikā’—",
+            "de": "‚Alle Lebewesen <span class=\"ebt-matched\">werden von Nahrung erhalten</span>.‘ ",
+            "en": "‘All sentient beings are sustained by food.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.009,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10\n3. Das große Kapitel\n27. Die großen Fragen (1)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 112,
+          "de": 65,
+          "en": 111
         }
       },
       {

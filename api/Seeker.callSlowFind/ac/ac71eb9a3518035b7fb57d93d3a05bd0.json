@@ -32,7 +32,7 @@
     "pattern": "voller freude über die lehre",
     "method": "phrase",
     "resultPattern": "\\bvoller freude über die lehre",
-    "segsMatched": 4,
+    "segsMatched": 5,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.50_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.50_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.50_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.18_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.18_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an10/an10.18_translation-en-sujato.json",
@@ -50,6 +53,7 @@
     "suttaRefs": [
       "dn34/de/sabbamitta",
       "dn33/de/sabbamitta",
+      "an10.50/de/sabbamitta",
       "an10.18/de/sabbamitta",
       "an10.17/de/sabbamitta"
     ],
@@ -84,6 +88,38 @@
           "pli": 41,
           "de": 30,
           "en": 40
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.50_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.50_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.50_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.50",
+        "lang": "de",
+        "segMap": {
+          "an10.50:9.1": {
+            "scid": "an10.50:9.1",
+            "pli": "Puna caparaṁ, bhikkhave, bhikkhu dhammakāmo hoti piyasamudāhāro, abhidhamme abhivinaye uḷārapāmojjo. ",
+            "de": "Dann liebt da ein Mönch die Lehren, es ist eine Lust, sich mit ihm zu unterhalten, er ist <span class=\"ebt-matched\">voller Freude über die Lehre</span> und Schulung. ",
+            "en": "Furthermore, a mendicant loves the teachings and is a delight to converse with, being full of joy in the teaching and training. … ",
+            "matched": true
+          }
+        },
+        "score": 1.02,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10\n5. Beschimpfung\n50. Zank",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 51,
+          "de": 43,
+          "en": 49
         }
       },
       {

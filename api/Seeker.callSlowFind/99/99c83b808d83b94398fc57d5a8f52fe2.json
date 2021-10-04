@@ -32,7 +32,7 @@
     "pattern": "sehr lange.* zeit",
     "method": "phrase",
     "resultPattern": "\\bsehr lange.* zeit",
-    "segsMatched": 19,
+    "segsMatched": 20,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an7/an7.66_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an7/an7.66_translation-de-sabbamitta.json",
@@ -51,7 +51,10 @@
       "translation/en/sujato/sutta/kn/thig/thig16.1_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.1_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an4/an4.1_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an4/an4.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.29_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.29_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.29_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an7.66/de/sabbamitta",
@@ -59,7 +62,8 @@
       "mn140/de/sabbamitta",
       "sn56.47/de/sabbamitta",
       "thig16.1/de/sabbamitta",
-      "an4.1/de/sabbamitta"
+      "an4.1/de/sabbamitta",
+      "an10.29/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -311,6 +315,38 @@
           "pli": 27,
           "de": 26,
           "en": 26
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.29_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.29_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.29_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.29",
+        "lang": "de",
+        "segMap": {
+          "an10.29:3.3": {
+            "scid": "an10.29:3.3",
+            "pli": "Te tattha honti manomayā pītibhakkhā sayaṁpabhā antalikkhecarā subhaṭṭhāyino ciraṁ dīghamaddhānaṁ tiṭṭhanti. ",
+            "de": "Dort sind sie geistgeschaffen, ernähren sich von Ekstase, sind selbstleuchtend und bewegen sich über den Himmel, von gleichmäßiger Pracht, und sie bleiben so für eine <span class=\"ebt-matched\">sehr lange Zeit</span>. ",
+            "en": "There they are mind-made, feeding on rapture, self-luminous, moving through the sky, steadily glorious, and they remain like that for a very long time. ",
+            "matched": true
+          }
+        },
+        "score": 1.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10\n3. Das große Kapitel\n29. Kosala (1)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 124,
+          "de": 123,
+          "en": 123
         }
       },
       {

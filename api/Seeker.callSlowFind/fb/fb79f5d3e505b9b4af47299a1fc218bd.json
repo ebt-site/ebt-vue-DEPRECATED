@@ -32,7 +32,7 @@
     "pattern": "die ausführliche bedeutung",
     "method": "phrase",
     "resultPattern": "\\bdie ausführliche bedeutung",
-    "segsMatched": 19,
+    "segsMatched": 23,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an7/an7.70_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an7/an7.70_translation-de-sabbamitta.json",
@@ -49,6 +49,12 @@
       "root/pli/ms/sutta/dn/dn21_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn21_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn21_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.28_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.28_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.28_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.26_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.26_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.26_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an7/an7.63_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an7/an7.63_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an7/an7.63_translation-en-sujato.json",
@@ -62,6 +68,8 @@
       "an6.69/de/sabbamitta",
       "sn12.31/de/sabbamitta",
       "dn21/de/sabbamitta",
+      "an10.28/de/sabbamitta",
+      "an10.26/de/sabbamitta",
       "an7.63/de/sabbamitta",
       "an4.171/de/sabbamitta"
     ],
@@ -269,6 +277,84 @@
           "pli": 66,
           "de": 65,
           "en": 65
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.26_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.26_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.26_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.26",
+        "lang": "de",
+        "segMap": {
+          "an10.26:3.1": {
+            "scid": "an10.26:3.1",
+            "pli": "Imassa kho, bhante, bhagavatā saṅkhittena bhāsitassa kathaṁ vitthārena attho daṭṭhabbo”ti? ",
+            "de": "Wie sollte man <span class=\"ebt-matched\">die ausführliche Bedeutung</span> dieser kurzen Aussage des Buddha verstehen?“ ",
+            "en": "How should we see the detailed meaning of the Buddha’s brief statement?” ",
+            "matched": true
+          },
+          "an10.26:5.13": {
+            "scid": "an10.26:5.13",
+            "pli": "Iti kho, bhagini, yaṁ taṁ vuttaṁ bhagavatā kumāripañhesu: ",
+            "de": "Das, Schwester, ist <span class=\"ebt-matched\">die ausführliche Bedeutung</span> der kurzen Aussage des Buddha in den ‚Fragen der Jungfrauen‘: ",
+            "en": "So, sister, that’s how to understand the detailed meaning of what the Buddha said in brief in ‘The Maiden’s Questions’: ",
+            "matched": true
+          }
+        },
+        "score": 2.056,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10\n3. Das große Kapitel\n26. Mit Kāḷī",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 36,
+          "de": 34,
+          "en": 35
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.28_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.28_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.28_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.28",
+        "lang": "de",
+        "segMap": {
+          "an10.28:2.3": {
+            "scid": "an10.28:2.3",
+            "pli": "Imassa nu kho, ayye, bhagavatā saṅkhittena bhāsitassa kathaṁ vitthārena attho daṭṭhabbo”ti? ",
+            "de": "Wie sollten wir <span class=\"ebt-matched\">die ausführliche Bedeutung</span> dieser kurzen Aussage des Buddha verstehen?“ ",
+            "en": "How should we see the detailed meaning of the Buddha’s brief statement?” ",
+            "matched": true
+          },
+          "an10.28:10.1": {
+            "scid": "an10.28:10.1",
+            "pli": "Iti kho, āvuso, yaṁ taṁ vuttaṁ bhagavatā saṅkhittena bhāsitāsu mahāpañhāsu: ",
+            "de": "So verstehe ich <span class=\"ebt-matched\">die ausführliche Bedeutung</span> dieser kurzen Aussage des Buddha in den ‚großen Fragen‘. ",
+            "en": "That’s how I understand the detailed meaning of what the Buddha said in brief in ‘The Great Questions’. ",
+            "matched": true
+          }
+        },
+        "score": 2.027,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10\n3. Das große Kapitel\n28. Die großen Fragen (2)",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 75,
+          "de": 59,
+          "en": 74
         }
       },
       {

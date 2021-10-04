@@ -32,7 +32,7 @@
     "pattern": "vor langer zeit getan oder gesagt",
     "method": "phrase",
     "resultPattern": "\\bvor langer zeit getan oder gesagt",
-    "segsMatched": 10,
+    "segsMatched": 11,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
@@ -55,6 +55,9 @@
       "root/pli/ms/sutta/an/an4/an4.35_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.35_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.35_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.50_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.50_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.50_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.18_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.18_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an10/an10.18_translation-en-sujato.json",
@@ -70,6 +73,7 @@
       "an7.4/de/sabbamitta",
       "an5.14/de/sabbamitta",
       "an4.35/de/sabbamitta",
+      "an10.50/de/sabbamitta",
       "an10.18/de/sabbamitta",
       "an10.17/de/sabbamitta"
     ],
@@ -207,6 +211,38 @@
           "pli": 41,
           "de": 30,
           "en": 40
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.50_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.50_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.50_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.50",
+        "lang": "de",
+        "segMap": {
+          "an10.50:12.1": {
+            "scid": "an10.50:12.1",
+            "pli": "Puna caparaṁ, bhikkhave, bhikkhu satimā hoti, paramena satinepakkena samannāgato, cirakatampi cirabhāsitampi saritā anussaritā. ",
+            "de": "Dann ist da eine Nonne achtsam. Sie besitzt äußerste Achtsamkeit und Wachheit, und an Dinge, die <span class=\"ebt-matched\">vor langer Zeit getan oder gesagt</span> wurden, kann sie sich erinnern und sie sich ins Gedächtnis rufen. ",
+            "en": "Furthermore, a mendicant is mindful. They have utmost mindfulness and alertness, and can remember and recall what was said and done long ago. … ",
+            "matched": true
+          }
+        },
+        "score": 1.02,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10\n5. Beschimpfung\n50. Zank",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 51,
+          "de": 43,
+          "en": 49
         }
       },
       {
