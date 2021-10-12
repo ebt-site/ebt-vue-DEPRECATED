@@ -32,7 +32,7 @@
     "pattern": "etwas übrig bleibt",
     "method": "phrase",
     "resultPattern": "\\betwas übrig bleibt",
-    "segsMatched": 10,
+    "segsMatched": 11,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an9/an9.12_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an9/an9.12_translation-de-sabbamitta.json",
@@ -48,14 +48,18 @@
       "translation/en/sujato/sutta/an/an5/an5.122_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn47/sn47.36_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn47/sn47.36_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn47/sn47.36_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn47/sn47.36_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.59_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.59_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.59_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an9.12/de/sabbamitta",
       "mn10/de/sabbamitta",
       "an5.67/de/sabbamitta",
       "an5.122/de/sabbamitta",
-      "sn47.36/de/sabbamitta"
+      "sn47.36/de/sabbamitta",
+      "an10.59/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -219,6 +223,38 @@
           "pli": 235,
           "de": 204,
           "en": 233
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.59_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.59_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.59_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.59",
+        "lang": "de",
+        "segMap": {
+          "an10.59:2.2": {
+            "scid": "an10.59:2.2",
+            "pli": "diṭṭheva dhamme aññā, sati vā upādisese anāgāmitā”ti. ",
+            "de": "Erleuchtung in diesem Leben, oder, wenn noch <span class=\"ebt-matched\">etwas übrig bleibt</span>, Nichtwiederkehr.“ ",
+            "en": "enlightenment in the present life, or if there’s something left over, non-return.” ",
+            "matched": true
+          }
+        },
+        "score": 1.1,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10\n6. Der eigene Geist\n59. Das Fortziehen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 10,
+          "de": 9,
+          "en": 9
         }
       },
       {

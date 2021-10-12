@@ -32,17 +32,21 @@
     "pattern": "zwei arten von menschen",
     "method": "phrase",
     "resultPattern": "\\bzwei arten von menschen",
-    "segsMatched": 4,
+    "segsMatched": 7,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an9/an9.6_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an9/an9.6_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an9/an9.6_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.54_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.54_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.54_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an2/an2.32-41_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an2/an2.32-41_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an2/an2.32-41_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an9.6/de/sabbamitta",
+      "an10.54/de/sabbamitta",
       "an2.32-41/de/sabbamitta"
     ],
     "mlDocs": [
@@ -90,6 +94,52 @@
           "pli": 89,
           "de": 88,
           "en": 88
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.54_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.54_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.54_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.54",
+        "lang": "de",
+        "segMap": {
+          "an10.54:7.11": {
+            "scid": "an10.54:7.11",
+            "pli": "Puggalampāhaṁ, bhikkhave, duvidhena vadāmi—",
+            "de": "Es gibt <span class=\"ebt-matched\">zwei Arten von Menschen</span>, sage ich: ",
+            "en": "I say that there are two kinds of people: ",
+            "matched": true
+          },
+          "an10.54:13.1": {
+            "scid": "an10.54:13.1",
+            "pli": "‘Puggalampāhaṁ, bhikkhave, duvidhena vadāmi—",
+            "de": "‚Es gibt <span class=\"ebt-matched\">zwei Arten von Menschen</span>, sage ich: ",
+            "en": "‘I say that there are two kinds of people: ",
+            "matched": true
+          },
+          "an10.54:13.8": {
+            "scid": "an10.54:13.8",
+            "pli": "‘Puggalampāhaṁ, bhikkhave, duvidhena vadāmi—",
+            "de": "‚Es gibt <span class=\"ebt-matched\">zwei Arten von Menschen</span>, sage ich: ",
+            "en": "‘I say that there are two kinds of people: ",
+            "matched": true
+          }
+        },
+        "score": 3.031,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10\n6. Der eigene Geist\n54. Ruhe",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 98,
+          "de": 96,
+          "en": 97
         }
       },
       {

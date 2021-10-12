@@ -32,18 +32,22 @@
     "pattern": "ruhe als auch klarsicht",
     "method": "phrase",
     "resultPattern": "\\bruhe als auch klarsicht",
-    "segsMatched": 7,
+    "segsMatched": 10,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an4/an4.94_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.94_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.94_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.93_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.93_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an4/an4.93_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an4/an4.93_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.54_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.54_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.54_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an4.94/de/sabbamitta",
-      "an4.93/de/sabbamitta"
+      "an4.93/de/sabbamitta",
+      "an10.54/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -143,6 +147,52 @@
           "pli": 20,
           "de": 19,
           "en": 19
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.54_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.54_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.54_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.54",
+        "lang": "de",
+        "segMap": {
+          "an10.54:3.3": {
+            "scid": "an10.54:3.3",
+            "pli": "So aparena samayena lābhī ceva hoti ajjhattaṁ cetosamathassa lābhī ca adhipaññādhammavipassanāya. ",
+            "de": "Nach einer Weile wird er sowohl <span class=\"ebt-matched\">Ruhe als auch Klarsicht</span> besitzen. ",
+            "en": "After some time they have both serenity and discernment. ",
+            "matched": true
+          },
+          "an10.54:5.6": {
+            "scid": "an10.54:5.6",
+            "pli": "So aparena samayena lābhī ceva hoti ajjhattaṁ cetosamathassa lābhī ca adhipaññādhammavipassanāya. ",
+            "de": "Nach einer Weile wird er sowohl <span class=\"ebt-matched\">Ruhe als auch Klarsicht</span> besitzen. ",
+            "en": "After some time they have both serenity and discernment. ",
+            "matched": true
+          },
+          "an10.54:6.2": {
+            "scid": "an10.54:6.2",
+            "pli": "‘lābhīmhi ajjhattaṁ cetosamathassa, lābhī adhipaññādhammavipassanāyā’ti, tena, bhikkhave, bhikkhunā tesuyeva kusalesu dhammesu patiṭṭhāya uttari āsavānaṁ khayāya yogo karaṇīyo. ",
+            "de": "‚Ich besitze sowohl <span class=\"ebt-matched\">Ruhe als auch Klarsicht</span>‘, dann sollte er sich auf diese tauglichen Eigenschaften stützen und weiterhin Meditation üben, um die Befleckungen aufzulösen. ",
+            "en": "‘I have both serenity and discernment.’ Grounded on those skillful qualities, they should practice meditation further to end the defilements. ",
+            "matched": true
+          }
+        },
+        "score": 3.031,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10\n6. Der eigene Geist\n54. Ruhe",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 98,
+          "de": 96,
+          "en": 97
         }
       }
     ]
