@@ -31,16 +31,24 @@
     "pattern": "assess",
     "method": "phrase",
     "resultPattern": "\\bassess",
-    "segsMatched": 20,
+    "segsMatched": 28,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn15_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn15_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn12/sn12.31_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.31_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn139_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn139_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn19_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn19_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an6/an6.44_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an6/an6.44_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.75_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an10/an10.75_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn7/sn7.20_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn7/sn7.20_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn36/sn36.6_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn36/sn36.6_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an9/an9.23_root-pli-ms.json",
@@ -56,9 +64,13 @@
     ],
     "suttaRefs": [
       "dn15/en/sujato",
+      "sn12.31/en/sujato",
       "mn139/en/sujato",
+      "dn19/en/sujato",
       "an6.44/en/sujato",
       "an10.75/en/sujato",
+      "sn7.20/en/sujato",
+      "sn36.6/en/sujato",
       "dn34/en/sujato",
       "an9.23/en/sujato",
       "an5.50/en/sujato",
@@ -81,7 +93,7 @@
           "dn15:9.1": {
             "scid": "dn15:9.1",
             "pli": "Iti kho panetaṁ, ānanda, vedanaṁ paṭicca taṇhā, taṇhaṁ paṭicca pariyesanā, pariyesanaṁ paṭicca lābho, lābhaṁ paṭicca vinicchayo, vinicchayaṁ paṭicca chandarāgo, chandarāgaṁ paṭicca ajjhosānaṁ, ajjhosānaṁ paṭicca pariggaho, pariggahaṁ paṭicca macchariyaṁ, macchariyaṁ paṭicca ārakkho. ",
-            "en": "So it is, Ānanda, that feeling is a cause of craving. Craving is a cause of seeking. Seeking is a cause of gaining material possessions. Gaining material possessions is a cause of <span class=\"ebt-matched\">assess</span>ing. <span class=\"ebt-matched\">Assess</span>ing is a cause of desire and lust. Desire and lust is a cause of attachment. Attachment is a cause of possessiveness. Possessiveness is a cause of stinginess. Stinginess is a cause of safeguarding. ",
+            "en": "So it is, Ānanda, that feeling is a cause of craving. Craving is a cause of seeking. Seeking is a cause of gaining material possessions. Gaining material possessions is a cause of <span class=\"ebt-matched\">assess</span>ing. <span class=\"ebt-matched\">Assess</span>ing is a cause of desire and lust. Desire and lust is a cause of attachment. Attachment is a cause of ownership. Ownership is a cause of stinginess. Stinginess is a cause of safeguarding. ",
             "matched": true
           },
           "dn15:15.1": {
@@ -130,6 +142,53 @@
         "langSegs": {
           "pli": 277,
           "en": 276
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn12/sn12.31_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn12/sn12.31_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn12.31",
+        "lang": "en",
+        "segMap": {
+          "sn12.31:2.1": {
+            "scid": "sn12.31:2.1",
+            "pli": "‘Ye ca saṅkhātadhammāse, ",
+            "en": "‘There are those who have <span class=\"ebt-matched\">assess</span>ed the teaching, ",
+            "matched": true
+          },
+          "sn12.31:8.1": {
+            "scid": "sn12.31:8.1",
+            "pli": "Kathañca, bhante, saṅkhātadhammo hoti? ",
+            "en": "And what, sir, is one who has <span class=\"ebt-matched\">assess</span>ed the teaching? ",
+            "matched": true
+          },
+          "sn12.31:8.8": {
+            "scid": "sn12.31:8.8",
+            "pli": "Evaṁ kho, bhante, saṅkhātadhammo hoti. ",
+            "en": "In this way one has <span class=\"ebt-matched\">assess</span>ed the teaching. ",
+            "matched": true
+          },
+          "sn12.31:9.1": {
+            "scid": "sn12.31:9.1",
+            "pli": "‘Ye ca saṅkhātadhammāse, ",
+            "en": "‘There are those who have <span class=\"ebt-matched\">assess</span>ed the teaching, ",
+            "matched": true
+          }
+        },
+        "score": 4.061,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 12\n4. Kaḷāra the Aristocrat\n31. What Has Come to Be",
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 66,
+          "en": 65
         }
       },
       {
@@ -245,6 +304,41 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn19_root-pli-ms.json",
+          "translation/en/sujato/sutta/dn/dn19_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn19",
+        "lang": "en",
+        "segMap": {
+          "dn19:19.2": {
+            "scid": "dn19:19.2",
+            "pli": "‘sādhu, mahābrahme, etadeva mayaṁ saṅkhāya modāma; ",
+            "en": "‘Good, Great Brahmā! Having <span class=\"ebt-matched\">assess</span>ed this, we rejoice. ",
+            "matched": true
+          },
+          "dn19:19.4": {
+            "scid": "dn19:19.4",
+            "pli": "te ca mayaṁ saṅkhāya modāmā’ti. ",
+            "en": "having <span class=\"ebt-matched\">assess</span>ed them, too, we rejoice.’ ",
+            "matched": true
+          }
+        },
+        "score": 2.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Long Discourses 19\nThe Great Steward",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 559,
+          "en": 558
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an9/an9.23_root-pli-ms.json",
           "translation/en/sujato/sutta/an/an9/an9.23_translation-en-sujato.json"
         ],
@@ -257,7 +351,7 @@
           "an9.23:1.3": {
             "scid": "an9.23:1.3",
             "pli": "Taṇhaṁ paṭicca pariyesanā, pariyesanaṁ paṭicca lābho, lābhaṁ paṭicca vinicchayo, vinicchayaṁ paṭicca chandarāgo, chandarāgaṁ paṭicca ajjhosānaṁ, ajjhosānaṁ paṭicca pariggaho, pariggahaṁ paṭicca macchariyaṁ, macchariyaṁ paṭicca ārakkho, ārakkhādhikaraṇaṁ daṇḍādānaṁ satthādānaṁ kalahaviggahavivādatuvaṁtuvaṁpesuññamusāvādā aneke pāpakā akusalā dhammā sambhavanti. ",
-            "en": "Craving is a cause of seeking. Seeking is a cause of gaining material possessions. Gaining material possessions is a cause of <span class=\"ebt-matched\">assess</span>ing. <span class=\"ebt-matched\">Assess</span>ing is a cause of desire and lust. Desire and lust is a cause of attachment. Attachment is a cause of possessiveness. Possessiveness is a cause of stinginess. Stinginess is a cause of safeguarding. Owing to safeguarding, many bad, unskillful things come to be: taking up the rod and the sword, quarrels, arguments, and fights, accusations, divisive speech, and lies. ",
+            "en": "Craving is a cause of seeking. Seeking is a cause of gaining material possessions. Gaining material possessions is a cause of <span class=\"ebt-matched\">assess</span>ing. <span class=\"ebt-matched\">Assess</span>ing is a cause of desire and lust. Desire and lust is a cause of attachment. Attachment is a cause of ownership. Ownership is a cause of stinginess. Stinginess is a cause of safeguarding. Owing to safeguarding, many bad, unskillful things come to be: taking up the rod and the sword, quarrels, arguments, and fights, accusations, divisive speech, and lies. ",
             "matched": true
           }
         },
@@ -270,6 +364,35 @@
         "langSegs": {
           "pli": 8,
           "en": 7
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn7/sn7.20_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn7/sn7.20_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn7.20",
+        "lang": "en",
+        "segMap": {
+          "sn7.20:3.3": {
+            "scid": "sn7.20:3.3",
+            "pli": "Saṅkhāya loke carati, ",
+            "en": "and wanders having <span class=\"ebt-matched\">assess</span>ed the world,",
+            "matched": true
+          }
+        },
+        "score": 1.056,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 7\n2. Lay Followers\n20. A Beggar",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 18,
+          "en": 18
         }
       },
       {
@@ -361,6 +484,35 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn36/sn36.6_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn36/sn36.6_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn36.6",
+        "lang": "en",
+        "segMap": {
+          "sn36.6:5.1": {
+            "scid": "sn36.6:5.1",
+            "pli": "Saṅkhātadhammassa bahussutassa, ",
+            "en": "A learned person who has <span class=\"ebt-matched\">assess</span>ed the teaching ",
+            "matched": true
+          }
+        },
+        "score": 1.016,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 36\n1. With Verses\n6. An Arrow",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 63,
+          "en": 62
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an5/an5.50_root-pli-ms.json",
           "translation/en/sujato/sutta/an/an5/an5.50_translation-en-sujato.json"
         ],
@@ -402,7 +554,7 @@
           "dn34:2.2.32": {
             "scid": "dn34:2.2.32",
             "pli": "taṇhaṁ paṭicca pariyesanā, pariyesanaṁ paṭicca lābho, lābhaṁ paṭicca vinicchayo, vinicchayaṁ paṭicca chandarāgo, chandarāgaṁ paṭicca ajjhosānaṁ, ajjhosānaṁ paṭicca pariggaho, pariggahaṁ paṭicca macchariyaṁ, macchariyaṁ paṭicca ārakkho, ārakkhādhikaraṇaṁ daṇḍādānasatthādānakalahaviggahavivādatuvaṁtuvaṁpesuññamusāvādā aneke pāpakā akusalā dhammā sambhavanti. ",
-            "en": "Craving is a cause of seeking. Seeking is a cause of gaining material possessions. Gaining material possessions is a cause of <span class=\"ebt-matched\">assess</span>ing. <span class=\"ebt-matched\">Assess</span>ing is a cause of desire and lust. Desire and lust is a cause of attachment. Attachment is a cause of possessiveness. Possessiveness is a cause of stinginess. Stinginess is a cause of safeguarding. Owing to safeguarding, many bad, unskillful things come to be: taking up the rod and the sword, quarrels, arguments, fights, accusations, divisive speech, and lies. ",
+            "en": "Craving is a cause of seeking. Seeking is a cause of gaining material possessions. Gaining material possessions is a cause of <span class=\"ebt-matched\">assess</span>ing. <span class=\"ebt-matched\">Assess</span>ing is a cause of desire and lust. Desire and lust is a cause of attachment. Attachment is a cause of possessiveness. Possessiveness is a cause of stinginess. Stinginess is a cause of safeguarding. Owing to safeguarding, many bad, unskillful things come to be: taking up the rod and the sword, quarrels, arguments, disputes, accusations, divisive speech, and lies. ",
             "matched": true
           }
         },

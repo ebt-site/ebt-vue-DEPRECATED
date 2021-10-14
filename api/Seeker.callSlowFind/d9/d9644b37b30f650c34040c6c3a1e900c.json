@@ -29,78 +29,76 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "whether it is night or day",
-    "method": "phrase",
-    "resultPattern": "\\bwhether it is night or day",
-    "segsMatched": 2,
+    "method": "keywords",
+    "resultPattern": "\\bwhether|\\bit|\\bis|\\bnight|\\bor|\\bday",
+    "segsMatched": 0,
     "bilaraPaths": [
+      "root/pli/ms/sutta/an/an10/an10.67_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an10/an10.67_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.68_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an10/an10.68_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn16/sn16.7_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn16/sn16.7_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn85_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn36_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn36_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn79_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn79_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn80_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn80_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.48_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an10/an10.48_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.127_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an3/an3.127_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.41_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an4/an4.41_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an6/an6.29_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an6/an6.29_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an7/an7.61_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an7/an7.61_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn1_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn1_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn10_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn10_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn12_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn12_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn19_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn19_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn23_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an6/an6.29_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an6/an6.29_translation-en-sujato.json"
+      "root/pli/ms/sutta/dn/dn9_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn9_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag21.1_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/thag/thag21.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn100_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn100_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn101_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn101_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn151_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn151_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn38_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn38_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn91_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn91_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn92_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn92_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.95_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.95_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn47/sn47.15_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn47/sn47.15_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn47/sn47.46_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn47/sn47.46_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn47/sn47.47_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn47/sn47.47_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn51/sn51.11_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn51/sn51.11_translation-en-sujato.json"
     ],
-    "suttaRefs": [
-      "dn33/en/sujato",
-      "an6.29/en/sujato"
-    ],
-    "mlDocs": [
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/an/an6/an6.29_root-pli-ms.json",
-          "translation/en/sujato/sutta/an/an6/an6.29_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "an6.29",
-        "lang": "en",
-        "segMap": {
-          "an6.29:5.1": {
-            "scid": "an6.29:5.1",
-            "pli": "“Puna caparaṁ, bhante, bhikkhu ālokasaññaṁ manasi karoti, divā saññaṁ adhiṭṭhāti, yathā divā tathā rattiṁ, yathā rattiṁ tathā divā; ",
-            "en": "Furthermore, a mendicant focuses on the perception of light, concentrating on the perception of day regardless of <span class=\"ebt-matched\">whether it is night or day</span>. ",
-            "matched": true
-          }
-        },
-        "score": 1.019,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Numbered Discourses 6\n3. Unsurpassable\n29. With Udāyī",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 52,
-          "en": 51
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
-          "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "dn33",
-        "lang": "en",
-        "segMap": {
-          "dn33:1.11.35": {
-            "scid": "dn33:1.11.35",
-            "pli": "Idhāvuso, bhikkhu ālokasaññaṁ manasi karoti, divāsaññaṁ adhiṭṭhāti yathā divā tathā rattiṁ, yathā rattiṁ tathā divā. ",
-            "en": "A mendicant focuses on the perception of light, concentrating on the perception of day regardless of <span class=\"ebt-matched\">whether it is night or day</span>. ",
-            "matched": true
-          }
-        },
-        "score": 1.001,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Long Discourses 33\nReciting in Concert",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 1167,
-          "en": 1166
-        }
-      }
-    ]
+    "suttaRefs": [],
+    "mlDocs": []
   }
 }

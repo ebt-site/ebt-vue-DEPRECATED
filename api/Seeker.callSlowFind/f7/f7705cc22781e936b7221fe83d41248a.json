@@ -31,21 +31,53 @@
     "pattern": "this cosmos contracts",
     "method": "phrase",
     "resultPattern": "\\bthis cosmos contracts",
-    "segsMatched": 3,
+    "segsMatched": 4,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn27_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn27_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn24_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn24_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn1_root-pli-ms.json",
-      "translation/en/sujato/sutta/dn/dn1_translation-en-sujato.json"
+      "translation/en/sujato/sutta/dn/dn1_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.29_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an10/an10.29_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "dn27/en/sujato",
       "dn24/en/sujato",
-      "dn1/en/sujato"
+      "dn1/en/sujato",
+      "an10.29/en/sujato"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.29_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an10/an10.29_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.29",
+        "lang": "en",
+        "segMap": {
+          "an10.29:3.1": {
+            "scid": "an10.29:3.1",
+            "pli": "Hoti so, bhikkhave, samayo yaṁ ayaṁ loko saṁvaṭṭati. ",
+            "en": "There comes a time when <span class=\"ebt-matched\">this cosmos contracts</span>. ",
+            "matched": true
+          }
+        },
+        "score": 1.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 10\n3. The Great Chapter\n29. Kosala (1st)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 124,
+          "en": 123
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/dn/dn27_root-pli-ms.json",
