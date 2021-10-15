@@ -31,7 +31,7 @@
     "pattern": "moderation",
     "method": "phrase",
     "resultPattern": "\\bmoderation",
-    "segsMatched": 80,
+    "segsMatched": 82,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an7/an7.68_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an7/an7.68_translation-en-sujato.json",
@@ -89,6 +89,10 @@
       "translation/en/sujato/sutta/kn/thag/thag15.1_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag10.6_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thag/thag10.6_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga4/snp4.16_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga4/snp4.16_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga2/snp2.11_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga2/snp2.11_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/dhp/dhp179-196_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/dhp/dhp179-196_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/dhp/dhp1-20_root-pli-ms.json",
@@ -137,6 +141,8 @@
       "thag16.10/en/sujato",
       "thag15.1/en/sujato",
       "thag10.6/en/sujato",
+      "snp4.16/en/sujato",
+      "snp2.11/en/sujato",
       "dhp179-196/en/sujato",
       "dhp1-20/en/sujato",
       "dn34/en/sujato",
@@ -1191,6 +1197,35 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga2/snp2.11_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga2/snp2.11_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp2.11",
+        "lang": "en",
+        "segMap": {
+          "snp2.11:4.4": {
+            "scid": "snp2.11:4.4",
+            "pli": "mattaññū hohi bhojane.",
+            "en": "and eat in <span class=\"ebt-matched\">moderation</span>. ",
+            "matched": true
+          }
+        },
+        "score": 1.028,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses\nWith Rāhula",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 36,
+          "en": 35
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/kn/thag/thag10.6_root-pli-ms.json",
           "translation/en/sujato/sutta/kn/thag/thag10.6_translation-en-sujato.json"
         ],
@@ -1332,6 +1367,35 @@
         "langSegs": {
           "pli": 88,
           "en": 77
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga4/snp4.16_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga4/snp4.16_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp4.16",
+        "lang": "en",
+        "segMap": {
+          "snp4.16:17.2": {
+            "scid": "snp4.16:17.2",
+            "pli": "Mattaṁ so jaññā idha tosanatthaṁ;",
+            "en": "they would know <span class=\"ebt-matched\">moderation</span> for the sake of contentment.",
+            "matched": true
+          }
+        },
+        "score": 1.01,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses\nWith Sāriputta",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 101,
+          "en": 88
         }
       },
       {

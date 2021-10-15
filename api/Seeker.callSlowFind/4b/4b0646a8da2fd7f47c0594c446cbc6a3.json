@@ -31,7 +31,7 @@
     "pattern": "hard to find",
     "method": "phrase",
     "resultPattern": "\\bhard to find",
-    "segsMatched": 28,
+    "segsMatched": 33,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an5/an5.60_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an5/an5.60_translation-en-sujato.json",
@@ -45,6 +45,8 @@
       "translation/en/sujato/sutta/mn/mn4_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag16.6_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thag/thag16.6_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga3/snp3.7_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga3/snp3.7_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn2/sn2.6_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn2/sn2.6_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn1/sn1.49_root-pli-ms.json",
@@ -57,6 +59,12 @@
       "translation/en/sujato/sutta/kn/thag/thag2.9_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag2.47_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thag/thag2.47_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga5/snp5.1_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga5/snp5.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga1/snp1.7_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga1/snp1.7_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga1/snp1.3_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga1/snp1.3_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/dhp/dhp179-196_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/dhp/dhp179-196_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.29_root-pli-ms.json",
@@ -81,12 +89,16 @@
       "mn92/en/sujato",
       "mn4/en/sujato",
       "thag16.6/en/sujato",
+      "snp3.7/en/sujato",
       "sn2.6/en/sujato",
       "sn1.49/en/sujato",
       "mn129/en/sujato",
       "thig16.1/en/sujato",
       "thag2.9/en/sujato",
       "thag2.47/en/sujato",
+      "snp5.1/en/sujato",
+      "snp1.7/en/sujato",
+      "snp1.3/en/sujato",
       "dhp179-196/en/sujato",
       "an8.29/en/sujato",
       "an6.57/en/sujato",
@@ -316,6 +328,41 @@
         "segsMatched": 2,
         "langSegs": {
           "pli": 205,
+          "en": 204
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga3/snp3.7_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga3/snp3.7_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp3.7",
+        "lang": "en",
+        "segMap": {
+          "snp3.7:24.4": {
+            "scid": "snp3.7:24.4",
+            "pli": "Sambuddhānaṁ abhiṇhaso.",
+            "en": "is <span class=\"ebt-matched\">hard to find</span> again.",
+            "matched": true
+          },
+          "snp3.7:25.4": {
+            "scid": "snp3.7:25.4",
+            "pli": "Sallakatto anuttaro.",
+            "en": "is <span class=\"ebt-matched\">hard to find</span> again.",
+            "matched": true
+          }
+        },
+        "score": 2.01,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses\nWith Sela",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 206,
           "en": 204
         }
       },
@@ -665,6 +712,93 @@
         "langSegs": {
           "pli": 148,
           "en": 147
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga1/snp1.7_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga1/snp1.7_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp1.7",
+        "lang": "en",
+        "segMap": {
+          "snp1.7:26.2": {
+            "scid": "snp1.7:26.2",
+            "pli": "Mātaṅgo yaṁ sudullabhaṁ;",
+            "en": "so very <span class=\"ebt-matched\">hard to find</span>.",
+            "matched": true
+          }
+        },
+        "score": 1.007,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses\nThe Lowlife",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 135,
+          "en": 134
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga1/snp1.3_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga1/snp1.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp1.3",
+        "lang": "en",
+        "segMap": {
+          "snp1.3:41.2": {
+            "scid": "snp1.3:41.2",
+            "pli": "Nikkāraṇā dullabhā ajja mittā;",
+            "en": "these days it’s <span class=\"ebt-matched\">hard to find</span> friends lacking ulterior motive.",
+            "matched": true
+          }
+        },
+        "score": 1.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses\nThe Rhinoceros Horn",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 167,
+          "en": 166
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga5/snp5.1_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga5/snp5.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp5.1",
+        "lang": "en",
+        "segMap": {
+          "snp5.1:23.3": {
+            "scid": "snp5.1:23.3",
+            "pli": "Svājja lokamhi uppanno,",
+            "en": "is <span class=\"ebt-matched\">hard to find</span> again—",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses\nIntroductory Verses",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 233,
+          "en": 233
         }
       },
       {

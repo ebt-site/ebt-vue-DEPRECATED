@@ -31,7 +31,7 @@
     "pattern": "loved one",
     "method": "phrase",
     "resultPattern": "\\bloved one",
-    "segsMatched": 31,
+    "segsMatched": 33,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn87_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn87_translation-en-sujato.json",
@@ -43,6 +43,10 @@
       "translation/en/sujato/sutta/mn/mn56_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag19.1_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thag/thag19.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga4/snp4.6_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga4/snp4.6_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga1/snp1.3_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga1/snp1.3_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/dhp/dhp209-220_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/dhp/dhp209-220_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn30_root-pli-ms.json",
@@ -62,6 +66,8 @@
       "sn3.4/en/sujato",
       "mn56/en/sujato",
       "thag19.1/en/sujato",
+      "snp4.6/en/sujato",
+      "snp1.3/en/sujato",
       "dhp209-220/en/sujato",
       "dn30/en/sujato",
       "an8.44/en/sujato",
@@ -279,6 +285,35 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga4/snp4.6_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga4/snp4.6_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp4.6",
+        "lang": "en",
+        "segMap": {
+          "snp4.6:4.3": {
+            "scid": "snp4.6:4.3",
+            "pli": "Evampi piyāyitaṁ janaṁ,",
+            "en": "so too you do not see your <span class=\"ebt-matched\">loved one</span>s",
+            "matched": true
+          }
+        },
+        "score": 1.023,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses\nOld Age",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 43,
+          "en": 42
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an5/an5.30_root-pli-ms.json",
           "translation/en/sujato/sutta/an/an5/an5.30_translation-en-sujato.json"
         ],
@@ -420,6 +455,35 @@
         "langSegs": {
           "pli": 128,
           "en": 126
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga1/snp1.3_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga1/snp1.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp1.3",
+        "lang": "en",
+        "segMap": {
+          "snp1.3:3.1": {
+            "scid": "snp1.3:3.1",
+            "pli": "“Mitte suhajje anukampamāno,",
+            "en": "When feelings for friends and <span class=\"ebt-matched\">loved one</span>s",
+            "matched": true
+          }
+        },
+        "score": 1.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses\nThe Rhinoceros Horn",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 167,
+          "en": 166
         }
       },
       {

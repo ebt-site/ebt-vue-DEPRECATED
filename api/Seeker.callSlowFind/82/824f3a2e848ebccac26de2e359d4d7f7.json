@@ -31,7 +31,7 @@
     "pattern": "this is the only truth",
     "method": "phrase",
     "resultPattern": "\\bthis is the only truth",
-    "segsMatched": 66,
+    "segsMatched": 68,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn72_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn72_translation-en-sujato.json",
@@ -67,6 +67,10 @@
       "translation/en/sujato/sutta/kn/ud/vagga6/ud6.5_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/ud/vagga6/ud6.4_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/ud/vagga6/ud6.4_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga4/snp4.8_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga4/snp4.8_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga4/snp4.13_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga4/snp4.13_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn21_root-pli-ms.json",
@@ -90,6 +94,8 @@
       "ud6.6/en/sujato",
       "ud6.5/en/sujato",
       "ud6.4/en/sujato",
+      "snp4.8/en/sujato",
+      "snp4.13/en/sujato",
       "dn33/en/sujato",
       "dn21/en/sujato"
     ],
@@ -726,6 +732,35 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga4/snp4.8_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga4/snp4.8_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp4.8",
+        "lang": "en",
+        "segMap": {
+          "snp4.8:9.2": {
+            "scid": "snp4.8:9.2",
+            "pli": "Idameva saccanti ca vādayanti;",
+            "en": "saying, “<span class=\"ebt-matched\">This is the only truth</span>,”",
+            "matched": true
+          }
+        },
+        "score": 1.021,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses\nWith Pasūra",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 47,
+          "en": 46
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/kn/ud/vagga6/ud6.5_root-pli-ms.json",
           "translation/en/sujato/sutta/kn/ud/vagga6/ud6.5_translation-en-sujato.json"
         ],
@@ -780,6 +815,35 @@
         "langSegs": {
           "pli": 67,
           "en": 40
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga4/snp4.13_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga4/snp4.13_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp4.13",
+        "lang": "en",
+        "segMap": {
+          "snp4.13:1.2": {
+            "scid": "snp4.13:1.2",
+            "pli": "Idameva saccanti vivādayanti;",
+            "en": "arguing that, ‘<span class=\"ebt-matched\">This is the only truth</span>’:",
+            "matched": true
+          }
+        },
+        "score": 1.012,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses\nThe Longer Discourse on Arrayed for Battle",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 83,
+          "en": 82
         }
       },
       {

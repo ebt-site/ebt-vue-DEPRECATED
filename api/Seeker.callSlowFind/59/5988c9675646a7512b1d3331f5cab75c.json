@@ -31,10 +31,12 @@
     "pattern": "all suffering",
     "method": "phrase",
     "resultPattern": "\\ball suffering",
-    "segsMatched": 42,
+    "segsMatched": 49,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn101_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn101_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga1/snp1.9_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga1/snp1.9_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn56/sn56.22_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn56/sn56.22_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn1/sn1.59_root-pli-ms.json",
@@ -45,6 +47,8 @@
       "translation/en/sujato/sutta/mn/mn14_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thig/thig13.4_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thig/thig13.4_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga3/snp3.12_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga3/snp3.12_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/iti/vagga11/iti103_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/iti/vagga11/iti103_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/dhp/dhp334-359_root-pli-ms.json",
@@ -73,6 +77,10 @@
       "translation/en/sujato/sutta/kn/thig/thig10.1_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag19.1_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thag/thag19.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga2/snp2.2_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga2/snp2.2_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga1/snp1.4_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga1/snp1.4_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/iti/vagga7/iti61_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/iti/vagga7/iti61_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/iti/vagga1/iti8_root-pli-ms.json",
@@ -102,11 +110,13 @@
     ],
     "suttaRefs": [
       "mn101/en/sujato",
+      "snp1.9/en/sujato",
       "sn56.22/en/sujato",
       "sn1.59/en/sujato",
       "sn1.30/en/sujato",
       "mn14/en/sujato",
       "thig13.4/en/sujato",
+      "snp3.12/en/sujato",
       "iti103/en/sujato",
       "dhp334-359/en/sujato",
       "sn7.11/en/sujato",
@@ -121,6 +131,8 @@
       "thig13.3/en/sujato",
       "thig10.1/en/sujato",
       "thag19.1/en/sujato",
+      "snp2.2/en/sujato",
+      "snp1.4/en/sujato",
       "iti61/en/sujato",
       "iti8/en/sujato",
       "iti7/en/sujato",
@@ -136,6 +148,47 @@
       "an3.36/en/sujato"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga1/snp1.9_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga1/snp1.9_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp1.9",
+        "lang": "en",
+        "segMap": {
+          "snp1.9:20.4": {
+            "scid": "snp1.9:20.4",
+            "pli": "Kathaṁ dukkhā pamuccati”.",
+            "en": "how is one released from <span class=\"ebt-matched\">all suffering</span>?” ",
+            "matched": true
+          },
+          "snp1.9:21.4": {
+            "scid": "snp1.9:21.4",
+            "pli": "Evaṁ dukkhā pamuccati.",
+            "en": "you’re released from <span class=\"ebt-matched\">all suffering</span>. ",
+            "matched": true
+          },
+          "snp1.9:22.4": {
+            "scid": "snp1.9:22.4",
+            "pli": "Evaṁ dukkhā pamuccati”.",
+            "en": "you’re released from <span class=\"ebt-matched\">all suffering</span>.”",
+            "matched": true
+          }
+        },
+        "score": 3.022,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses\nWith Hemavata",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 136,
+          "en": 135
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/mn/mn101_root-pli-ms.json",
@@ -420,6 +473,41 @@
         "langSegs": {
           "pli": 144,
           "en": 143
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga3/snp3.12_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga3/snp3.12_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp3.12",
+        "lang": "en",
+        "segMap": {
+          "snp3.12:5.3": {
+            "scid": "snp3.12:5.3",
+            "pli": "Yattha ca sabbaso dukkhaṁ,",
+            "en": "and where <span class=\"ebt-matched\">all suffering</span> ",
+            "matched": true
+          },
+          "snp3.12:7.3": {
+            "scid": "snp3.12:7.3",
+            "pli": "Yattha ca sabbaso dukkhaṁ,",
+            "en": "and where <span class=\"ebt-matched\">all suffering</span> ",
+            "matched": true
+          }
+        },
+        "score": 2.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses\n3.12 Contemplating Pairs",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 315,
+          "en": 297
         }
       },
       {
@@ -946,6 +1034,35 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga2/snp2.2_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga2/snp2.2_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp2.2",
+        "lang": "en",
+        "segMap": {
+          "snp2.2:14.2": {
+            "scid": "snp2.2:14.2",
+            "pli": "Nirāmagandhaṁ sabbadukkhappanūdanaṁ;",
+            "en": "that are carrion-free, getting rid of <span class=\"ebt-matched\">all suffering</span>;",
+            "matched": true
+          }
+        },
+        "score": 1.016,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses\nCarrion",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 63,
+          "en": 62
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/kn/dhp/dhp320-333_root-pli-ms.json",
           "translation/en/sujato/sutta/kn/dhp/dhp320-333_translation-en-sujato.json"
         ],
@@ -971,6 +1088,35 @@
         "langSegs": {
           "pli": 68,
           "en": 59
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga1/snp1.4_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga1/snp1.4_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp1.4",
+        "lang": "en",
+        "segMap": {
+          "snp1.4:9.4": {
+            "scid": "snp1.4:9.4",
+            "pli": "Sabbadukkhā pamuccatī”ti.",
+            "en": "you’re released from <span class=\"ebt-matched\">all suffering</span>.” ",
+            "matched": true
+          }
+        },
+        "score": 1.015,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses\nWith Bhāradvāja the Farmer",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 66,
+          "en": 64
         }
       },
       {

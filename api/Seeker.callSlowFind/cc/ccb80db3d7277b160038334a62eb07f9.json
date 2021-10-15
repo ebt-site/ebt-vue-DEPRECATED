@@ -31,7 +31,7 @@
     "pattern": "should be known",
     "method": "phrase",
     "resultPattern": "\\bshould be known",
-    "segsMatched": 23,
+    "segsMatched": 24,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an6/an6.63_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an6/an6.63_translation-en-sujato.json",
@@ -41,6 +41,8 @@
       "translation/en/sujato/sutta/mn/mn91_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag16.6_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thag/thag16.6_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga3/snp3.7_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga3/snp3.7_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.272_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an5/an5.272_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.22_root-pli-ms.json",
@@ -51,6 +53,7 @@
       "mn92/en/sujato",
       "mn91/en/sujato",
       "thag16.6/en/sujato",
+      "snp3.7/en/sujato",
       "an5.272/en/sujato",
       "an10.22/en/sujato"
     ],
@@ -299,6 +302,35 @@
         "segsMatched": 1,
         "langSegs": {
           "pli": 205,
+          "en": 204
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga3/snp3.7_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga3/snp3.7_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp3.7",
+        "lang": "en",
+        "segMap": {
+          "snp3.7:23.1": {
+            "scid": "snp3.7:23.1",
+            "pli": "Abhiññeyyaṁ abhiññātaṁ,",
+            "en": "I have known what <span class=\"ebt-matched\">should be known</span>, ",
+            "matched": true
+          }
+        },
+        "score": 1.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses\nWith Sela",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 206,
           "en": 204
         }
       },

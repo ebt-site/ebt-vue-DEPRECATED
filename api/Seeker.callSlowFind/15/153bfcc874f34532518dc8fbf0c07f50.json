@@ -31,12 +31,14 @@
     "pattern": "giant",
     "method": "phrase",
     "resultPattern": "\\bgiant",
-    "segsMatched": 51,
+    "segsMatched": 59,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an6/an6.43_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an6/an6.43_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag15.2_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thag/thag15.2_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga3/snp3.6_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga3/snp3.6_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/ud/vagga4/ud4.5_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/ud/vagga4/ud4.5_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag21.1_root-pli-ms.json",
@@ -61,12 +63,23 @@
       "translation/en/sujato/sutta/kn/thag/thag4.6_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag16.6_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thag/thag16.6_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga5/snp5.5_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga5/snp5.5_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga5/snp5.19_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga5/snp5.19_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga5/snp5.13_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga5/snp5.13_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga4/snp4.9_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga4/snp4.9_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga3/snp3.7_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga3/snp3.7_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/dhp/dhp320-333_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/dhp/dhp320-333_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an6.43/en/sujato",
       "thag15.2/en/sujato",
+      "snp3.6/en/sujato",
       "ud4.5/en/sujato",
       "thag21.1/en/sujato",
       "sn8.8/en/sujato",
@@ -79,6 +92,11 @@
       "ud4.4/en/sujato",
       "thag4.6/en/sujato",
       "thag16.6/en/sujato",
+      "snp5.5/en/sujato",
+      "snp5.19/en/sujato",
+      "snp5.13/en/sujato",
+      "snp4.9/en/sujato",
+      "snp3.7/en/sujato",
       "dhp320-333/en/sujato"
     ],
     "mlDocs": [
@@ -156,7 +174,7 @@
           "an6.43:9.1": {
             "scid": "an6.43:9.1",
             "pli": "Nāgaṁ vo kittayissāmi, ",
-            "en": "I’ll extol the <span class=\"ebt-matched\">giant</span> for you, ",
+            "en": "I shall extol the <span class=\"ebt-matched\">giant</span> for you, ",
             "matched": true
           },
           "an6.43:9.4": {
@@ -263,7 +281,7 @@
           "thag15.2:5.1": {
             "scid": "thag15.2:5.1",
             "pli": "Nāgaṁ vo kittayissāmi,",
-            "en": "I’ll extol the <span class=\"ebt-matched\">giant</span> for you,",
+            "en": "I shall extol the <span class=\"ebt-matched\">giant</span> for you,",
             "matched": true
           },
           "thag15.2:5.4": {
@@ -346,6 +364,47 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga3/snp3.6_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga3/snp3.6_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp3.6",
+        "lang": "en",
+        "segMap": {
+          "snp3.6:18.4": {
+            "scid": "snp3.6:18.4",
+            "pli": "Nāgoti kathaṁ pavuccati,",
+            "en": "How is one declared to be a ‘<span class=\"ebt-matched\">giant</span>’? ",
+            "matched": true
+          },
+          "snp3.6:22.4": {
+            "scid": "snp3.6:22.4",
+            "pli": "Nāgo tādi pavuccate tathattā”ti.",
+            "en": "such an one is rightly called ‘<span class=\"ebt-matched\">giant</span>’.”",
+            "matched": true
+          },
+          "snp3.6:47.1": {
+            "scid": "snp3.6:47.1",
+            "pli": "Tassa te nāganāgassa,",
+            "en": "O <span class=\"ebt-matched\">giant</span> among <span class=\"ebt-matched\">giant</span>s, O great hero,",
+            "matched": true
+          }
+        },
+        "score": 3.013,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses\nWith Sabhiya",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 223,
+          "en": 221
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/kn/ud/vagga4/ud4.5_root-pli-ms.json",
           "translation/en/sujato/sutta/kn/ud/vagga4/ud4.5_translation-en-sujato.json"
         ],
@@ -412,6 +471,35 @@
         "langSegs": {
           "pli": 309,
           "en": 309
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga5/snp5.13_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga5/snp5.13_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp5.13",
+        "lang": "en",
+        "segMap": {
+          "snp5.13:2.2": {
+            "scid": "snp5.13:2.2",
+            "pli": "Tava vīra vākyaṁ abhikaṅkhamānā;",
+            "en": "After hearing the spiritual <span class=\"ebt-matched\">giant</span> they will depart from here.",
+            "matched": true
+          }
+        },
+        "score": 1.048,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses\nThe Questions of Bhadrāvudha",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 21,
+          "en": 20
         }
       },
       {
@@ -561,6 +649,35 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga5/snp5.5_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga5/snp5.5_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp5.5",
+        "lang": "en",
+        "segMap": {
+          "snp5.5:10.3": {
+            "scid": "snp5.5:10.3",
+            "pli": "Taṁ taṁ namassāmi samecca nāga,",
+            "en": "Therefore, having met, I bow to you, O spiritual <span class=\"ebt-matched\">giant</span>;",
+            "matched": true
+          }
+        },
+        "score": 1.018,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses\nThe Questions of Mettagū",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 57,
+          "en": 56
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/kn/dhp/dhp320-333_root-pli-ms.json",
           "translation/en/sujato/sutta/kn/dhp/dhp320-333_translation-en-sujato.json"
         ],
@@ -586,6 +703,35 @@
         "langSegs": {
           "pli": 68,
           "en": 59
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga4/snp4.9_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga4/snp4.9_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp4.9",
+        "lang": "en",
+        "segMap": {
+          "snp4.9:11.1": {
+            "scid": "snp4.9:11.1",
+            "pli": "Yehi vivitto vicareyya loke,",
+            "en": "A spiritual <span class=\"ebt-matched\">giant</span> would not take up for argument",
+            "matched": true
+          }
+        },
+        "score": 1.015,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses\nWith Māgaṇḍiya",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 66,
+          "en": 65
         }
       },
       {
@@ -648,6 +794,35 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga5/snp5.19_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga5/snp5.19_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp5.19",
+        "lang": "en",
+        "segMap": {
+          "snp5.19:1.5": {
+            "scid": "snp5.19:1.5",
+            "pli": "Nikkāmo nibbano nāgo;",
+            "en": "He is desireless, unentangled, a spiritual <span class=\"ebt-matched\">giant</span>:",
+            "matched": true
+          }
+        },
+        "score": 1.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses\nPreserving the Way to the Beyond",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 174,
+          "en": 82
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/mn/mn5_root-pli-ms.json",
           "translation/en/sujato/sutta/mn/mn5_translation-en-sujato.json"
         ],
@@ -701,6 +876,35 @@
         "segsMatched": 1,
         "langSegs": {
           "pli": 205,
+          "en": 204
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga3/snp3.7_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga3/snp3.7_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp3.7",
+        "lang": "en",
+        "segMap": {
+          "snp3.7:42.4": {
+            "scid": "snp3.7:42.4",
+            "pli": "Nāgā vandantu satthuno”ti.",
+            "en": "let these <span class=\"ebt-matched\">giant</span>s bow to the Teacher.”",
+            "matched": true
+          }
+        },
+        "score": 1.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses\nWith Sela",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 206,
           "en": 204
         }
       },

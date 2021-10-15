@@ -31,16 +31,19 @@
     "pattern": "no craving at all",
     "method": "phrase",
     "resultPattern": "\\bno craving at all",
-    "segsMatched": 3,
+    "segsMatched": 4,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn15_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn15_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn12/sn12.51_root-pli-ms.json",
-      "translation/en/sujato/sutta/sn/sn12/sn12.51_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn12/sn12.51_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga3/snp3.5_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga3/snp3.5_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "dn15/en/sujato",
-      "sn12.51/en/sujato"
+      "sn12.51/en/sujato",
+      "snp3.5/en/sujato"
     ],
     "mlDocs": [
       {
@@ -105,6 +108,35 @@
         "langSegs": {
           "pli": 92,
           "en": 91
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga3/snp3.5_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga3/snp3.5_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp3.5",
+        "lang": "en",
+        "segMap": {
+          "snp3.5:14.1": {
+            "scid": "snp3.5:14.1",
+            "pli": "Yesaṁ taṇhā natthi kuhiñci loke,",
+            "en": "Those with <span class=\"ebt-matched\">no craving at all</span> in the world",
+            "matched": true
+          }
+        },
+        "score": 1.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses\nWith Māgha",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 126,
+          "en": 125
         }
       }
     ]

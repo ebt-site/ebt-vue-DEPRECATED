@@ -31,7 +31,7 @@
     "pattern": "anxiety",
     "method": "phrase",
     "resultPattern": "\\banxiety",
-    "segsMatched": 27,
+    "segsMatched": 28,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn22_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn22_translation-en-sujato.json",
@@ -47,6 +47,8 @@
       "translation/en/sujato/sutta/sn/sn22/sn22.90_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn98_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn98_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga3/snp3.9_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga3/snp3.9_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/dhp/dhp383-423_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/dhp/dhp383-423_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn1_root-pli-ms.json",
@@ -60,6 +62,7 @@
       "sn2.17/en/sujato",
       "sn22.90/en/sujato",
       "mn98/en/sujato",
+      "snp3.9/en/sujato",
       "dhp383-423/en/sujato",
       "dn1/en/sujato"
     ],
@@ -402,6 +405,35 @@
         "langSegs": {
           "pli": 294,
           "en": 293
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga3/snp3.9_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga3/snp3.9_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp3.9",
+        "lang": "en",
+        "segMap": {
+          "snp3.9:33.2": {
+            "scid": "snp3.9:33.2",
+            "pli": "Yo ve na paritassati;",
+            "en": "they have no <span class=\"ebt-matched\">anxiety</span>;",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses\nWith Vāseṭṭha",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 292,
+          "en": 291
         }
       },
       {

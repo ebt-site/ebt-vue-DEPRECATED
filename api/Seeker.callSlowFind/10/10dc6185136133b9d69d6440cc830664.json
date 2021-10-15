@@ -31,7 +31,7 @@
     "pattern": "like a cow",
     "method": "phrase",
     "resultPattern": "\\blike a cow",
-    "segsMatched": 19,
+    "segsMatched": 20,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn57_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn57_translation-en-sujato.json",
@@ -47,6 +47,8 @@
       "translation/en/sujato/sutta/mn/mn93_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn91_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn91_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga3/snp3.8_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga3/snp3.8_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/dhp/dhp1-20_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/dhp/dhp1-20_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
@@ -66,6 +68,7 @@
       "sn11.4/en/sujato",
       "mn93/en/sujato",
       "mn91/en/sujato",
+      "snp3.8/en/sujato",
       "dhp1-20/en/sujato",
       "dn14/en/sujato",
       "an5.162/en/sujato",
@@ -316,6 +319,35 @@
         "langSegs": {
           "pli": 74,
           "en": 74
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga3/snp3.8_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga3/snp3.8_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp3.8",
+        "lang": "en",
+        "segMap": {
+          "snp3.8:7.4": {
+            "scid": "snp3.8:7.4",
+            "pli": "govajjho viya nīyati.",
+            "en": "<span class=\"ebt-matched\">like a cow</span> to the slaughter.",
+            "matched": true
+          }
+        },
+        "score": 1.012,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses\nThe Dart",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 85,
+          "en": 84
         }
       },
       {

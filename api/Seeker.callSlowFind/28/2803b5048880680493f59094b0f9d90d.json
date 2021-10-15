@@ -31,7 +31,7 @@
     "pattern": "characteristics",
     "method": "phrase",
     "resultPattern": "\\bcharacteristics",
-    "segsMatched": 34,
+    "segsMatched": 35,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn33_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn33_translation-en-sujato.json",
@@ -49,6 +49,8 @@
       "translation/en/sujato/sutta/kn/thag/thag16.6_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag1.106_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thag/thag1.106_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga3/snp3.7_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga3/snp3.7_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn27_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn27_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.2_root-pli-ms.json",
@@ -65,6 +67,7 @@
       "mn92/en/sujato",
       "thag16.6/en/sujato",
       "thag1.106/en/sujato",
+      "snp3.7/en/sujato",
       "dn27/en/sujato",
       "an3.2/en/sujato",
       "an11.22-29/en/sujato"
@@ -495,6 +498,35 @@
         "segsMatched": 1,
         "langSegs": {
           "pli": 205,
+          "en": 204
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga3/snp3.7_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga3/snp3.7_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp3.7",
+        "lang": "en",
+        "segMap": {
+          "snp3.7:14.1": {
+            "scid": "snp3.7:14.1",
+            "pli": "Narassa hi sujātassa,",
+            "en": "The <span class=\"ebt-matched\">characteristics</span>",
+            "matched": true
+          }
+        },
+        "score": 1.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses\nWith Sela",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 206,
           "en": 204
         }
       },

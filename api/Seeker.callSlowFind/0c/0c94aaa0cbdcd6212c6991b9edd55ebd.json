@@ -31,7 +31,7 @@
     "pattern": "grueling",
     "method": "phrase",
     "resultPattern": "\\bgrueling",
-    "segsMatched": 13,
+    "segsMatched": 14,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn4/sn4.1_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn4/sn4.1_translation-en-sujato.json",
@@ -51,6 +51,8 @@
       "translation/en/sujato/sutta/mn/mn101_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn100_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn100_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga3/snp3.9_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga3/snp3.9_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/dhp/dhp383-423_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/dhp/dhp383-423_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.56_root-pli-ms.json",
@@ -66,6 +68,7 @@
       "mn12/en/sujato",
       "mn101/en/sujato",
       "mn100/en/sujato",
+      "snp3.9/en/sujato",
       "dhp383-423/en/sujato",
       "an8.56/en/sujato"
     ],
@@ -370,6 +373,35 @@
         "langSegs": {
           "pli": 362,
           "en": 361
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga3/snp3.9_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga3/snp3.9_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp3.9",
+        "lang": "en",
+        "segMap": {
+          "snp3.9:50.1": {
+            "scid": "snp3.9:50.1",
+            "pli": "Yomaṁ palipathaṁ duggaṁ,",
+            "en": "They’ve got past this <span class=\"ebt-matched\">grueling</span> swamp ",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses\nWith Vāseṭṭha",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 292,
+          "en": 291
         }
       },
       {

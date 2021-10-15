@@ -31,7 +31,7 @@
     "pattern": "tongue pressed",
     "method": "phrase",
     "resultPattern": "\\btongue pressed",
-    "segsMatched": 9,
+    "segsMatched": 10,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn20_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn20_translation-en-sujato.json",
@@ -40,13 +40,16 @@
       "root/pli/ms/sutta/mn/mn36_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn36_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn100_root-pli-ms.json",
-      "translation/en/sujato/sutta/mn/mn100_translation-en-sujato.json"
+      "translation/en/sujato/sutta/mn/mn100_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga3/snp3.11_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga3/snp3.11_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "mn20/en/sujato",
       "mn85/en/sujato",
       "mn36/en/sujato",
-      "mn100/en/sujato"
+      "mn100/en/sujato",
+      "snp3.11/en/sujato"
     ],
     "mlDocs": [
       {
@@ -193,6 +196,35 @@
         "langSegs": {
           "pli": 553,
           "en": 552
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga3/snp3.11_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga3/snp3.11_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp3.11",
+        "lang": "en",
+        "segMap": {
+          "snp3.11:38.3": {
+            "scid": "snp3.11:38.3",
+            "pli": "Jivhāya tālumāhacca,",
+            "en": "With <span class=\"ebt-matched\">tongue pressed</span> to the roof of your mouth,",
+            "matched": true
+          }
+        },
+        "score": 1.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses\nAbout Nālaka",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 186,
+          "en": 185
         }
       }
     ]

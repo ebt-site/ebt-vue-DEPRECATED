@@ -31,7 +31,7 @@
     "pattern": "well freed",
     "method": "phrase",
     "resultPattern": "\\bwell freed",
-    "segsMatched": 75,
+    "segsMatched": 76,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
@@ -89,6 +89,8 @@
       "translation/en/sujato/sutta/mn/mn116_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thig/thig1.11_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thig/thig1.11_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga4/snp4.16_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga4/snp4.16_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an7/an7.56_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an7/an7.56_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.19_root-pli-ms.json",
@@ -123,6 +125,7 @@
       "sn1.38/en/sujato",
       "mn116/en/sujato",
       "thig1.11/en/sujato",
+      "snp4.16/en/sujato",
       "an7.56/en/sujato",
       "an10.19/en/sujato"
     ],
@@ -1236,6 +1239,35 @@
         "langSegs": {
           "pli": 96,
           "en": 95
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga4/snp4.16_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga4/snp4.16_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp4.16",
+        "lang": "en",
+        "segMap": {
+          "snp4.16:21.2": {
+            "scid": "snp4.16:21.2",
+            "pli": "Bhikkhu satimā suvimuttacitto;",
+            "en": "a mindful mendicant, their heart <span class=\"ebt-matched\">well freed</span>,",
+            "matched": true
+          }
+        },
+        "score": 1.01,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses\nWith Sāriputta",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 101,
+          "en": 88
         }
       },
       {

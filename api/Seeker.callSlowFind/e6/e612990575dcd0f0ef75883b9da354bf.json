@@ -31,7 +31,7 @@
     "pattern": "something left over",
     "method": "phrase",
     "resultPattern": "\\bsomething left over",
-    "segsMatched": 29,
+    "segsMatched": 31,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an9/an9.12_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an9/an9.12_translation-en-sujato.json",
@@ -41,6 +41,8 @@
       "translation/en/sujato/sutta/sn/sn46/sn46.76_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn10_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn10_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga3/snp3.12_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga3/snp3.12_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn22_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn22_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.67_root-pli-ms.json",
@@ -73,6 +75,7 @@
       "iti44/en/sujato",
       "sn46.76/en/sujato",
       "mn10/en/sujato",
+      "snp3.12/en/sujato",
       "dn22/en/sujato",
       "an5.67/en/sujato",
       "an5.122/en/sujato",
@@ -326,6 +329,41 @@
         "langSegs": {
           "pli": 235,
           "en": 233
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga3/snp3.12_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga3/snp3.12_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp3.12",
+        "lang": "en",
+        "segMap": {
+          "snp3.12:3.4": {
+            "scid": "snp3.12:3.4",
+            "pli": "diṭṭheva dhamme aññā, sati vā upādisese anāgāmitā”ti.",
+            "en": "enlightenment in the present life, or if there’s <span class=\"ebt-matched\">something left over</span>, non-return.” ",
+            "matched": true
+          },
+          "snp3.12:54.7": {
+            "scid": "snp3.12:54.7",
+            "pli": "diṭṭheva dhamme aññā, sati vā upādisese anāgāmitāti.",
+            "en": "enlightenment in the present life, or if there’s <span class=\"ebt-matched\">something left over</span>, non-return. ",
+            "matched": true
+          }
+        },
+        "score": 2.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses\n3.12 Contemplating Pairs",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 315,
+          "en": 297
         }
       },
       {

@@ -31,7 +31,7 @@
     "pattern": "wheel-turning monarch",
     "method": "phrase",
     "resultPattern": "\\bwheel-turning monarch",
-    "segsMatched": 171,
+    "segsMatched": 173,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn129_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn129_translation-en-sujato.json",
@@ -69,6 +69,8 @@
       "translation/en/sujato/sutta/sn/sn55/sn55.1_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn92_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn92_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga3/snp3.7_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga3/snp3.7_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an7/an7.62_root-pli-ms.json",
@@ -133,6 +135,7 @@
       "sn8.7/en/sujato",
       "sn55.1/en/sujato",
       "mn92/en/sujato",
+      "snp3.7/en/sujato",
       "dn14/en/sujato",
       "an7.62/en/sujato",
       "sn46.50/en/sujato",
@@ -1490,6 +1493,41 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga3/snp3.7_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga3/snp3.7_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp3.7",
+        "lang": "en",
+        "segMap": {
+          "snp3.7:8.4": {
+            "scid": "snp3.7:8.4",
+            "pli": "Sace agāraṁ ajjhāvasati rājā hoti cakkavattī dhammiko dhammarājā cāturanto vijitāvī janapadatthāvariyappatto sattaratanasamannāgato.",
+            "en": "If he stays at home he becomes a king, a <span class=\"ebt-matched\">wheel-turning monarch</span>, a just and principled king. His dominion extends to all four sides, he achieves stability in the country, and he possesses the seven treasures. ",
+            "matched": true
+          },
+          "snp3.7:17.2": {
+            "scid": "snp3.7:17.2",
+            "pli": "cakkavattī rathesabho;",
+            "en": "a <span class=\"ebt-matched\">wheel-turning monarch</span>, chief of charioteers,",
+            "matched": true
+          }
+        },
+        "score": 2.01,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses\nWith Sela",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 206,
+          "en": 204
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
           "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json"
         ],
@@ -1980,7 +2018,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Minor Passages\nA Hidden Treasure",
+        "title": "Basic Passages\nA Hidden Treasure",
         "segsMatched": 1,
         "langSegs": {
           "pli": 69,

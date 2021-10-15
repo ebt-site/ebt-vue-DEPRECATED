@@ -31,7 +31,7 @@
     "pattern": "ending of attachments",
     "method": "phrase",
     "resultPattern": "\\bending of attachments",
-    "segsMatched": 18,
+    "segsMatched": 19,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an6/an6.56_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an6/an6.56_translation-en-sujato.json",
@@ -43,6 +43,8 @@
       "translation/en/sujato/sutta/sn/sn5/sn5.8_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn66_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn66_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga5/snp5.1_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga5/snp5.1_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/iti/vagga3/iti27_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/iti/vagga3/iti27_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/iti/vagga11/iti112_root-pli-ms.json",
@@ -56,6 +58,7 @@
       "mn105/en/sujato",
       "sn5.8/en/sujato",
       "mn66/en/sujato",
+      "snp5.1/en/sujato",
       "iti27/en/sujato",
       "iti112/en/sujato",
       "an8.1/en/sujato"
@@ -351,6 +354,35 @@
         "langSegs": {
           "pli": 202,
           "en": 201
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga5/snp5.1_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga5/snp5.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp5.1",
+        "lang": "en",
+        "segMap": {
+          "snp5.1:17.6": {
+            "scid": "snp5.1:17.6",
+            "pli": "Vimutto upadhikkhaye.",
+            "en": "he is freed with the <span class=\"ebt-matched\">ending of attachments</span>. ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses\nIntroductory Verses",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 233,
+          "en": 233
         }
       }
     ]

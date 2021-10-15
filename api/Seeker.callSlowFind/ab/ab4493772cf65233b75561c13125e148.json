@@ -31,7 +31,7 @@
     "pattern": "assess",
     "method": "phrase",
     "resultPattern": "\\bassess",
-    "segsMatched": 30,
+    "segsMatched": 35,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn15_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn15_translation-en-sujato.json",
@@ -51,6 +51,16 @@
       "translation/en/sujato/sutta/sn/sn36/sn36.6_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/ud/vagga2/ud2.5_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/ud/vagga2/ud2.5_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga5/snp5.4_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga5/snp5.4_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga5/snp5.3_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga5/snp5.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga5/snp5.2_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga5/snp5.2_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga1/snp1.3_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga1/snp1.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga1/snp1.12_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga1/snp1.12_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/dhp/dhp256-272_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/dhp/dhp256-272_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
@@ -76,6 +86,11 @@
       "sn7.20/en/sujato",
       "sn36.6/en/sujato",
       "ud2.5/en/sujato",
+      "snp5.4/en/sujato",
+      "snp5.3/en/sujato",
+      "snp5.2/en/sujato",
+      "snp1.3/en/sujato",
+      "snp1.12/en/sujato",
       "dhp256-272/en/sujato",
       "dn34/en/sujato",
       "an9.23/en/sujato",
@@ -432,6 +447,35 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga5/snp5.3_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga5/snp5.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp5.3",
+        "lang": "en",
+        "segMap": {
+          "snp5.3:2.4": {
+            "scid": "snp5.3:2.4",
+            "pli": "Saṅkhāya nibbuto bhikkhu,",
+            "en": "a mendicant who, after <span class=\"ebt-matched\">assess</span>ing, is quenched:",
+            "matched": true
+          }
+        },
+        "score": 1.053,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses\nThe Questions of Tissametteyya",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 19,
+          "en": 18
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an3/an3.32_root-pli-ms.json",
           "translation/en/sujato/sutta/an/an3/an3.32_translation-en-sujato.json"
         ],
@@ -486,6 +530,64 @@
         "langSegs": {
           "pli": 36,
           "en": 35
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga5/snp5.4_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga5/snp5.4_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp5.4",
+        "lang": "en",
+        "segMap": {
+          "snp5.4:6.1": {
+            "scid": "snp5.4:6.1",
+            "pli": "“Saṅkhāya lokasmi paroparāni,",
+            "en": "“Having <span class=\"ebt-matched\">assess</span>ed the world high and low,” ",
+            "matched": true
+          }
+        },
+        "score": 1.026,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses\nThe Questions of Puṇṇaka",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 39,
+          "en": 38
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga5/snp5.2_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga5/snp5.2_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp5.2",
+        "lang": "en",
+        "segMap": {
+          "snp5.2:7.1": {
+            "scid": "snp5.2:7.1",
+            "pli": "“Ye ca saṅkhātadhammāse,",
+            "en": "“There are those who have <span class=\"ebt-matched\">assess</span>ed the teaching, ",
+            "matched": true
+          }
+        },
+        "score": 1.024,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses\nThe Questions of Ajita",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 42,
+          "en": 41
         }
       },
       {
@@ -548,6 +650,35 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga1/snp1.12_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga1/snp1.12_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp1.12",
+        "lang": "en",
+        "segMap": {
+          "snp1.12:3.1": {
+            "scid": "snp1.12:3.1",
+            "pli": "Saṅkhāya vatthūni pamāya bījaṁ,",
+            "en": "Having <span class=\"ebt-matched\">assess</span>ed the fields and measured the seeds,",
+            "matched": true
+          }
+        },
+        "score": 1.013,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses\nThe Sage",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 76,
+          "en": 65
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/kn/dhp/dhp256-272_root-pli-ms.json",
           "translation/en/sujato/sutta/kn/dhp/dhp256-272_translation-en-sujato.json"
         ],
@@ -602,6 +733,35 @@
         "langSegs": {
           "pli": 110,
           "en": 108
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga1/snp1.3_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga1/snp1.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp1.3",
+        "lang": "en",
+        "segMap": {
+          "snp1.3:36.3": {
+            "scid": "snp1.3:36.3",
+            "pli": "Saṅkhātadhammo niyato padhānavā,",
+            "en": "who has <span class=\"ebt-matched\">assess</span>ed the teaching and is bound for awakening, should",
+            "matched": true
+          }
+        },
+        "score": 1.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses\nThe Rhinoceros Horn",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 167,
+          "en": 166
         }
       },
       {

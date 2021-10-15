@@ -31,18 +31,21 @@
     "pattern": "shady orchid tree",
     "method": "phrase",
     "resultPattern": "\\bshady orchid tree",
-    "segsMatched": 20,
+    "segsMatched": 22,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an7/an7.69_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an7/an7.69_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn48/sn48.68_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn48/sn48.68_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga1/snp1.3_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga1/snp1.3_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn134_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn134_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an7.69/en/sujato",
       "sn48.68/en/sujato",
+      "snp1.3/en/sujato",
       "mn134/en/sujato"
     ],
     "mlDocs": [
@@ -204,6 +207,41 @@
         "langSegs": {
           "pli": 14,
           "en": 13
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga1/snp1.3_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga1/snp1.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp1.3",
+        "lang": "en",
+        "segMap": {
+          "snp1.3:10.2": {
+            "scid": "snp1.3:10.2",
+            "pli": "Sañchinnapatto yathā koviḷāro;",
+            "en": "like the fallen leaves of the <span class=\"ebt-matched\">Shady Orchid Tree</span>;",
+            "matched": true
+          },
+          "snp1.3:30.2": {
+            "scid": "snp1.3:30.2",
+            "pli": "Sañchannapatto yathā pārichatto;",
+            "en": "like the fallen leaves of the <span class=\"ebt-matched\">Shady Orchid Tree</span>,",
+            "matched": true
+          }
+        },
+        "score": 2.012,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses\nThe Rhinoceros Horn",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 167,
+          "en": 166
         }
       },
       {

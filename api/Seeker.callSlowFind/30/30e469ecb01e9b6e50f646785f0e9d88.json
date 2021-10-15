@@ -31,7 +31,7 @@
     "pattern": "a raft",
     "method": "phrase",
     "resultPattern": "\\ba raft",
-    "segsMatched": 10,
+    "segsMatched": 12,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn22_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn22_translation-en-sujato.json",
@@ -39,6 +39,8 @@
       "translation/en/sujato/sutta/mn/mn38_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/ud/vagga8/ud8.6_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/ud/vagga8/ud8.6_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga1/snp1.2_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga1/snp1.2_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn35/sn35.238_root-pli-ms.json",
@@ -48,6 +50,7 @@
       "mn22/en/sujato",
       "mn38/en/sujato",
       "ud8.6/en/sujato",
+      "snp1.2/en/sujato",
       "dn16/en/sujato",
       "sn35.238/en/sujato"
     ],
@@ -91,6 +94,41 @@
         "langSegs": {
           "pli": 359,
           "en": 358
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga1/snp1.2_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga1/snp1.2_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp1.2",
+        "lang": "en",
+        "segMap": {
+          "snp1.2:4.1": {
+            "scid": "snp1.2:4.1",
+            "pli": "“Baddhāsi bhisī susaṅkhatā,",
+            "en": "“I bound <span class=\"ebt-matched\">a raft</span> and made it well,” ",
+            "matched": true
+          },
+          "snp1.2:4.4": {
+            "scid": "snp1.2:4.4",
+            "pli": "Attho bhisiyā na vijjati,",
+            "en": "Now I have no need for <span class=\"ebt-matched\">a raft</span>:",
+            "matched": true
+          }
+        },
+        "score": 2.024,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses\nWith Dhaniya the Cowherd",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 85,
+          "en": 84
         }
       },
       {

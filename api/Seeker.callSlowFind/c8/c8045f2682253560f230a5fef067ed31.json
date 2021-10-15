@@ -31,8 +31,10 @@
     "pattern": "both ends",
     "method": "phrase",
     "resultPattern": "\\bboth ends",
-    "segsMatched": 19,
+    "segsMatched": 22,
     "bilaraPaths": [
+      "root/pli/ms/sutta/kn/snp/vagga5/snp5.3_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga5/snp5.3_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an6/an6.61_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an6/an6.61_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn22/sn22.96_root-pli-ms.json",
@@ -45,6 +47,8 @@
       "translation/en/sujato/sutta/mn/mn119_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn10_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn10_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga4/snp4.2_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga4/snp4.2_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/iti/vagga10/iti91_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/iti/vagga10/iti91_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
@@ -71,12 +75,14 @@
       "translation/en/sujato/sutta/an/an3/an3.35_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "snp5.3/en/sujato",
       "an6.61/en/sujato",
       "sn22.96/en/sujato",
       "sn22.80/en/sujato",
       "mn12/en/sujato",
       "mn119/en/sujato",
       "mn10/en/sujato",
+      "snp4.2/en/sujato",
       "iti91/en/sujato",
       "dn2/en/sujato",
       "dn22/en/sujato",
@@ -91,6 +97,41 @@
       "an3.35/en/sujato"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga5/snp5.3_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga5/snp5.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp5.3",
+        "lang": "en",
+        "segMap": {
+          "snp5.3:1.4": {
+            "scid": "snp5.3:1.4",
+            "pli": "Ko ubhantamabhiññāya,",
+            "en": "Who, having known <span class=\"ebt-matched\">both ends</span>,",
+            "matched": true
+          },
+          "snp5.3:3.1": {
+            "scid": "snp5.3:3.1",
+            "pli": "So ubhantamabhiññāya,",
+            "en": "That’s who, having known <span class=\"ebt-matched\">both ends</span>,",
+            "matched": true
+          }
+        },
+        "score": 2.105,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses\nThe Questions of Tissametteyya",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 19,
+          "en": 18
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/an/an6/an6.61_root-pli-ms.json",
@@ -182,6 +223,35 @@
         "langSegs": {
           "pli": 31,
           "en": 30
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga4/snp4.2_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga4/snp4.2_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp4.2",
+        "lang": "en",
+        "segMap": {
+          "snp4.2:7.1": {
+            "scid": "snp4.2:7.1",
+            "pli": "Ubhosu antesu vineyya chandaṁ,",
+            "en": "Rid of desire for <span class=\"ebt-matched\">both ends</span>,",
+            "matched": true
+          }
+        },
+        "score": 1.029,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses\nEight on the Cave",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 35,
+          "en": 34
         }
       },
       {

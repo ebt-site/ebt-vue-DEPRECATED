@@ -31,7 +31,7 @@
     "pattern": "cruel",
     "method": "phrase",
     "resultPattern": "\\bcruel",
-    "segsMatched": 116,
+    "segsMatched": 117,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn35/sn35.95_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.95_translation-en-sujato.json",
@@ -115,6 +115,8 @@
       "translation/en/sujato/sutta/mn/mn115_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn114_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn114_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga2/snp2.2_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga2/snp2.2_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/iti/vagga9/iti87_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/iti/vagga9/iti87_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/dhp/dhp383-423_root-pli-ms.json",
@@ -214,6 +216,7 @@
       "mn117/en/sujato",
       "mn115/en/sujato",
       "mn114/en/sujato",
+      "snp2.2/en/sujato",
       "iti87/en/sujato",
       "dhp383-423/en/sujato",
       "dn34/en/sujato",
@@ -1833,6 +1836,35 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga2/snp2.2_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga2/snp2.2_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp2.2",
+        "lang": "en",
+        "segMap": {
+          "snp2.2:9.3": {
+            "scid": "snp2.2:9.3",
+            "pli": "Dussīlaluddā pharusā anādarā,",
+            "en": "immoral, <span class=\"ebt-matched\">cruel</span>, harsh, lacking regard for others:",
+            "matched": true
+          }
+        },
+        "score": 1.016,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses\nCarrion",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 63,
+          "en": 62
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an6/an6.57_root-pli-ms.json",
           "translation/en/sujato/sutta/an/an6/an6.57_translation-en-sujato.json"
         ],
@@ -1945,35 +1977,6 @@
         "langSegs": {
           "pli": 80,
           "en": 78
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/mn/mn55_root-pli-ms.json",
-          "translation/en/sujato/sutta/mn/mn55_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "mn55",
-        "lang": "en",
-        "segMap": {
-          "mn55:11.6": {
-            "scid": "mn55:11.6",
-            "pli": "“Yena kho, jīvaka, rāgena yena dosena yena mohena vihesavā assa arativā assa paṭighavā assa so rāgo so doso so moho tathāgatassa pahīno ucchinnamūlo tālāvatthukato anabhāvaṅkato āyatiṁ anuppādadhammo. ",
-            "en": "“Any greed, hate, or delusion that might give rise to <span class=\"ebt-matched\">cruel</span>ty, discontent, or repulsion has been given up by the Realized One, cut off at the root, made like a palm stump, obliterated, and is unable to arise in the future. ",
-            "matched": true
-          }
-        },
-        "score": 1.012,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Middle Discourses 55\nWith Jīvaka",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 80,
-          "en": 79
         }
       }
     ]

@@ -31,7 +31,7 @@
     "pattern": "protector",
     "method": "phrase",
     "resultPattern": "\\bprotector",
-    "segsMatched": 73,
+    "segsMatched": 74,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an10/an10.18_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an10/an10.18_translation-en-sujato.json",
@@ -53,6 +53,8 @@
       "translation/en/sujato/sutta/kn/thig/thig11.1_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag16.10_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thag/thag16.10_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga5/snp5.1_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga5/snp5.1_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.20_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an10/an10.20_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.19_root-pli-ms.json",
@@ -81,6 +83,7 @@
       "mn108/en/sujato",
       "thig11.1/en/sujato",
       "thag16.10/en/sujato",
+      "snp5.1/en/sujato",
       "an10.20/en/sujato",
       "an10.19/en/sujato",
       "an10.16/en/sujato",
@@ -941,6 +944,35 @@
         "langSegs": {
           "pli": 160,
           "en": 159
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga5/snp5.1_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga5/snp5.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp5.1",
+        "lang": "en",
+        "segMap": {
+          "snp5.1:20.4": {
+            "scid": "snp5.1:20.4",
+            "pli": "Katamamhi vā janapade lokanātho;",
+            "en": "or in what land is the <span class=\"ebt-matched\">protector</span> of the world,",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses\nIntroductory Verses",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 233,
+          "en": 233
         }
       }
     ]

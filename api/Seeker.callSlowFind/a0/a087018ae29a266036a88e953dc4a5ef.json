@@ -31,7 +31,7 @@
     "pattern": "challenging",
     "method": "phrase",
     "resultPattern": "\\bchallenging",
-    "segsMatched": 11,
+    "segsMatched": 12,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn56/sn56.45_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn56/sn56.45_translation-en-sujato.json",
@@ -45,6 +45,8 @@
       "translation/en/sujato/sutta/sn/sn5/sn5.2_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thig/thig3.8_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thig/thig3.8_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga3/snp3.11_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga3/snp3.11_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.99_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an10/an10.99_translation-en-sujato.json"
     ],
@@ -55,6 +57,7 @@
       "an2.1-10/en/sujato",
       "sn5.2/en/sujato",
       "thig3.8/en/sujato",
+      "snp3.11/en/sujato",
       "an10.99/en/sujato"
     ],
     "mlDocs": [
@@ -283,6 +286,35 @@
         "langSegs": {
           "pli": 148,
           "en": 147
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga3/snp3.11_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga3/snp3.11_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp3.11",
+        "lang": "en",
+        "segMap": {
+          "snp3.11:23.3": {
+            "scid": "snp3.11:23.3",
+            "pli": "Dukkaraṁ durabhisambhavaṁ;",
+            "en": "“so difficult and <span class=\"ebt-matched\">challenging</span>.",
+            "matched": true
+          }
+        },
+        "score": 1.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses\nAbout Nālaka",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 186,
+          "en": 185
         }
       }
     ]

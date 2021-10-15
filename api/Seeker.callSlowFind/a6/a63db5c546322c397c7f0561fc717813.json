@@ -31,7 +31,7 @@
     "pattern": "the sure path",
     "method": "phrase",
     "resultPattern": "\\bthe sure path",
-    "segsMatched": 32,
+    "segsMatched": 33,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an6/an6.98_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an6/an6.98_translation-en-sujato.json",
@@ -48,7 +48,9 @@
       "root/pli/ms/sutta/an/an5/an5.151_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an5/an5.151_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.22_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an3/an3.22_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an3/an3.22_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga2/snp2.13_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga2/snp2.13_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an6.98/en/sujato",
@@ -58,7 +60,8 @@
       "an5.153/en/sujato",
       "an5.152/en/sujato",
       "an5.151/en/sujato",
-      "an3.22/en/sujato"
+      "an3.22/en/sujato",
+      "snp2.13/en/sujato"
     ],
     "mlDocs": [
       {
@@ -435,6 +438,35 @@
         "langSegs": {
           "pli": 20,
           "en": 19
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga2/snp2.13_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga2/snp2.13_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp2.13",
+        "lang": "en",
+        "segMap": {
+          "snp2.13:13.1": {
+            "scid": "snp2.13:13.1",
+            "pli": "Saddho sutavā niyāmadassī,",
+            "en": "Faithful, learned, seer of <span class=\"ebt-matched\">the sure path</span>,",
+            "matched": true
+          }
+        },
+        "score": 1.014,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses\nThe Right Way to Wander",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 72,
+          "en": 71
         }
       }
     ]

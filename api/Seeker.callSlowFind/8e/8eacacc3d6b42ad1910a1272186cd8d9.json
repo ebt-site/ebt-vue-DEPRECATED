@@ -31,7 +31,7 @@
     "pattern": "signless",
     "method": "phrase",
     "resultPattern": "\\bsignless",
-    "segsMatched": 67,
+    "segsMatched": 68,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn43_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn43_translation-en-sujato.json",
@@ -77,6 +77,8 @@
       "translation/en/sujato/sutta/kn/thag/thag21.1_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag1.92_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thag/thag1.92_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga2/snp2.11_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga2/snp2.11_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.183-352_root-pli-ms.json",
@@ -105,6 +107,7 @@
       "thig2.1/en/sujato",
       "thag21.1/en/sujato",
       "thag1.92/en/sujato",
+      "snp2.11/en/sujato",
       "dn16/en/sujato",
       "an3.183-352/en/sujato"
     ],
@@ -858,6 +861,35 @@
         "langSegs": {
           "pli": 27,
           "en": 27
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga2/snp2.11_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga2/snp2.11_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp2.11",
+        "lang": "en",
+        "segMap": {
+          "snp2.11:8.1": {
+            "scid": "snp2.11:8.1",
+            "pli": "Animittañca bhāvehi,",
+            "en": "Meditate on the <span class=\"ebt-matched\">signless</span>,",
+            "matched": true
+          }
+        },
+        "score": 1.028,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses\nWith Rāhula",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 36,
+          "en": 35
         }
       },
       {

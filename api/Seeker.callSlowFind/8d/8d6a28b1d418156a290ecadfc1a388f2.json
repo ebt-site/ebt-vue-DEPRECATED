@@ -31,7 +31,7 @@
     "pattern": "identity view",
     "method": "phrase",
     "resultPattern": "\\bidentity view",
-    "segsMatched": 64,
+    "segsMatched": 65,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn64_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn64_translation-en-sujato.json",
@@ -63,6 +63,8 @@
       "translation/en/sujato/sutta/mn/mn2_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thig/thig6.7_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thig/thig6.7_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga2/snp2.1_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga2/snp2.1_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/kp/kp6_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/kp/kp6_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an9/an9.67_root-pli-ms.json",
@@ -96,6 +98,7 @@
       "sn1.21/en/sujato",
       "mn2/en/sujato",
       "thig6.7/en/sujato",
+      "snp2.1/en/sujato",
       "kp6/en/sujato",
       "an9.67/en/sujato",
       "an7.92/en/sujato",
@@ -983,7 +986,36 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Minor Passages\nGems",
+        "title": "Basic Passages\nGems",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 92,
+          "en": 91
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga2/snp2.1_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga2/snp2.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp2.1",
+        "lang": "en",
+        "segMap": {
+          "snp2.1:10.3": {
+            "scid": "snp2.1:10.3",
+            "pli": "Sakkāyadiṭṭhī vicikicchitañca,",
+            "en": "<span class=\"ebt-matched\">identity view</span>, doubt, and any",
+            "matched": true
+          }
+        },
+        "score": 1.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses\nGems",
         "segsMatched": 1,
         "langSegs": {
           "pli": 92,

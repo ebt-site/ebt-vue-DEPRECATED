@@ -31,19 +31,25 @@
     "pattern": "concepts of identity",
     "method": "phrase",
     "resultPattern": "\\bconcepts of identity",
-    "segsMatched": 13,
+    "segsMatched": 15,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn18_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn18_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn21_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn21_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/ud/vagga7/ud7.7_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/ud/vagga7/ud7.7_translation-en-sujato.json"
+      "translation/en/sujato/sutta/kn/ud/vagga7/ud7.7_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga4/snp4.14_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga4/snp4.14_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga4/snp4.11_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga4/snp4.11_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "mn18/en/sujato",
       "dn21/en/sujato",
-      "ud7.7/en/sujato"
+      "ud7.7/en/sujato",
+      "snp4.14/en/sujato",
+      "snp4.11/en/sujato"
     ],
     "mlDocs": [
       {
@@ -191,6 +197,64 @@
         "langSegs": {
           "pli": 11,
           "en": 10
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga4/snp4.11_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga4/snp4.11_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp4.11",
+        "lang": "en",
+        "segMap": {
+          "snp4.11:13.4": {
+            "scid": "snp4.11:13.4",
+            "pli": "Saññānidānā hi papañcasaṅkhā”.",
+            "en": "for <span class=\"ebt-matched\">concepts of identity</span> due to proliferation spring from perception.”",
+            "matched": true
+          }
+        },
+        "score": 1.014,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses\nQuarrels and Disputes",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 69,
+          "en": 68
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga4/snp4.14_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga4/snp4.14_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp4.14",
+        "lang": "en",
+        "segMap": {
+          "snp4.14:2.3": {
+            "scid": "snp4.14:2.3",
+            "pli": "Mantā asmīti sabbamuparundhe;",
+            "en": "“which is the root of all <span class=\"ebt-matched\">concepts of identity</span> due to proliferation.",
+            "matched": true
+          }
+        },
+        "score": 1.012,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses\nSpeedy",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 84,
+          "en": 83
         }
       }
     ]

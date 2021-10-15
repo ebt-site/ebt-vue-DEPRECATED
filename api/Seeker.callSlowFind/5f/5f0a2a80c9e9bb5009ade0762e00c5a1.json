@@ -31,7 +31,7 @@
     "pattern": "like a bird",
     "method": "phrase",
     "resultPattern": "\\blike a bird",
-    "segsMatched": 32,
+    "segsMatched": 33,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json",
@@ -69,6 +69,8 @@
       "translation/en/sujato/sutta/mn/mn101_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag17.3_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thag/thag17.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga5/snp5.19_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga5/snp5.19_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/dhp/dhp167-178_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/dhp/dhp167-178_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
@@ -113,6 +115,7 @@
       "mn108/en/sujato",
       "mn101/en/sujato",
       "thag17.3/en/sujato",
+      "snp5.19/en/sujato",
       "dhp167-178/en/sujato",
       "dn34/en/sujato",
       "dn28/en/sujato",
@@ -688,6 +691,35 @@
         "langSegs": {
           "pli": 180,
           "en": 176
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga5/snp5.19_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga5/snp5.19_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp5.19",
+        "lang": "en",
+        "segMap": {
+          "snp5.19:4.1": {
+            "scid": "snp5.19:4.1",
+            "pli": "Dijo yathā kubbanakaṁ pahāya,",
+            "en": "<span class=\"ebt-matched\">Like a bird</span> that flees a little copse,",
+            "matched": true
+          }
+        },
+        "score": 1.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses\nPreserving the Way to the Beyond",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 174,
+          "en": 82
         }
       },
       {

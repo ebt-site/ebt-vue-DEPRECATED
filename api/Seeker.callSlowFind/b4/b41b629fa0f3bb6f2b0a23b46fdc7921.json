@@ -31,15 +31,47 @@
     "pattern": "gains wisdom by wanting",
     "method": "phrase",
     "resultPattern": "\\bgains wisdom by wanting",
-    "segsMatched": 1,
+    "segsMatched": 2,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn10/sn10.12_root-pli-ms.json",
-      "translation/en/sujato/sutta/sn/sn10/sn10.12_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn10/sn10.12_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga1/snp1.10_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga1/snp1.10_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "sn10.12/en/sujato"
+      "sn10.12/en/sujato",
+      "snp1.10/en/sujato"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga1/snp1.10_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga1/snp1.10_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp1.10",
+        "lang": "en",
+        "segMap": {
+          "snp1.10:11.2": {
+            "scid": "snp1.10:11.2",
+            "pli": "dhammaṁ nibbānapattiyā;",
+            "en": "<span class=\"ebt-matched\">gains wisdom by wanting</span> to learn, ",
+            "matched": true
+          }
+        },
+        "score": 1.013,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses\nWith Āḷavaka",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 75,
+          "en": 74
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn10/sn10.12_root-pli-ms.json",

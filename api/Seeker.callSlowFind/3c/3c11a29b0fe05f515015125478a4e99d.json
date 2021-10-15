@@ -31,7 +31,7 @@
     "pattern": "find peace",
     "method": "phrase",
     "resultPattern": "\\bfind peace",
-    "segsMatched": 13,
+    "segsMatched": 15,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json",
@@ -44,7 +44,11 @@
       "root/pli/ms/sutta/kn/thig/thig3.1_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thig/thig3.1_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thig/thig2.10_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/thig/thig2.10_translation-en-sujato.json"
+      "translation/en/sujato/sutta/kn/thig/thig2.10_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga4/snp4.14_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga4/snp4.14_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga3/snp3.8_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga3/snp3.8_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "dn2/en/sujato",
@@ -52,7 +56,9 @@
       "thig5.1/en/sujato",
       "thig3.2/en/sujato",
       "thig3.1/en/sujato",
-      "thig2.10/en/sujato"
+      "thig2.10/en/sujato",
+      "snp4.14/en/sujato",
+      "snp3.8/en/sujato"
     ],
     "mlDocs": [
       {
@@ -269,6 +275,64 @@
         "langSegs": {
           "pli": 30,
           "en": 28
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga3/snp3.8_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga3/snp3.8_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp3.8",
+        "lang": "en",
+        "segMap": {
+          "snp3.8:11.2": {
+            "scid": "snp3.8:11.2",
+            "pli": "Santiṁ pappoti cetaso;",
+            "en": "will you <span class=\"ebt-matched\">find peace</span> of heart.",
+            "matched": true
+          }
+        },
+        "score": 1.012,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses\nThe Dart",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 85,
+          "en": 84
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga4/snp4.14_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga4/snp4.14_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp4.14",
+        "lang": "en",
+        "segMap": {
+          "snp4.14:5.1": {
+            "scid": "snp4.14:5.1",
+            "pli": "Ajjhattamevupasame,",
+            "en": "A mendicant would <span class=\"ebt-matched\">find peace</span> inside themselves,",
+            "matched": true
+          }
+        },
+        "score": 1.012,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses\nSpeedy",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 84,
+          "en": 83
         }
       }
     ]

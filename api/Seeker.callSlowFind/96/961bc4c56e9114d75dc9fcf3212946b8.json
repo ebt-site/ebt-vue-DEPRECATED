@@ -31,18 +31,21 @@
     "pattern": "more peaceful",
     "method": "phrase",
     "resultPattern": "\\bmore peaceful",
-    "segsMatched": 10,
+    "segsMatched": 12,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn68_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn68_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn14_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn14_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga3/snp3.12_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga3/snp3.12_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/iti/vagga8/iti73_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/iti/vagga8/iti73_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "mn68/en/sujato",
       "mn14/en/sujato",
+      "snp3.12/en/sujato",
       "iti73/en/sujato"
     ],
     "mlDocs": [
@@ -173,6 +176,41 @@
         "langSegs": {
           "pli": 24,
           "en": 23
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga3/snp3.12_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga3/snp3.12_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp3.12",
+        "lang": "en",
+        "segMap": {
+          "snp3.12:47.3": {
+            "scid": "snp3.12:47.3",
+            "pli": "Rūpehi, bhikkhave, arūpā santatarāti, ayamekānupassanā.",
+            "en": "‘Formless states are <span class=\"ebt-matched\">more peaceful</span> than states of form’: this is the first contemplation.",
+            "matched": true
+          },
+          "snp3.12:47.4": {
+            "scid": "snp3.12:47.4",
+            "pli": "Arūpehi nirodho santataroti, ayaṁ dutiyānupassanā.",
+            "en": "‘Cessation is <span class=\"ebt-matched\">more peaceful</span> than formless states’: this is the second contemplation.",
+            "matched": true
+          }
+        },
+        "score": 2.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses\n3.12 Contemplating Pairs",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 315,
+          "en": 297
         }
       }
     ]

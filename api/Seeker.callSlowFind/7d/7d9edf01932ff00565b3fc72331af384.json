@@ -31,7 +31,7 @@
     "pattern": "argue with",
     "method": "phrase",
     "resultPattern": "\\bargue with",
-    "segsMatched": 9,
+    "segsMatched": 10,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn22/sn22.3_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.3_translation-en-sujato.json",
@@ -40,13 +40,16 @@
       "root/pli/ms/sutta/sn/sn22/sn22.94_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.94_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag16.10_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/thag/thag16.10_translation-en-sujato.json"
+      "translation/en/sujato/sutta/kn/thag/thag16.10_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga4/snp4.8_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga4/snp4.8_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "sn22.3/en/sujato",
       "mn74/en/sujato",
       "sn22.94/en/sujato",
-      "thag16.10/en/sujato"
+      "thag16.10/en/sujato",
+      "snp4.8/en/sujato"
     ],
     "mlDocs": [
       {
@@ -164,6 +167,35 @@
         "langSegs": {
           "pli": 35,
           "en": 34
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga4/snp4.8_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga4/snp4.8_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp4.8",
+        "lang": "en",
+        "segMap": {
+          "snp4.8:10.3": {
+            "scid": "snp4.8:10.3",
+            "pli": "Tesu tvaṁ kiṁ labhetho pasūra,",
+            "en": "Who is there to <span class=\"ebt-matched\">argue with</span> you, Pasūra,",
+            "matched": true
+          }
+        },
+        "score": 1.021,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses\nWith Pasūra",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 47,
+          "en": 46
         }
       },
       {
