@@ -31,7 +31,7 @@
     "pattern": "assess",
     "method": "phrase",
     "resultPattern": "\\bassess",
-    "segsMatched": 28,
+    "segsMatched": 30,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn15_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn15_translation-en-sujato.json",
@@ -49,6 +49,10 @@
       "translation/en/sujato/sutta/sn/sn7/sn7.20_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn36/sn36.6_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn36/sn36.6_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga2/ud2.5_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/ud/vagga2/ud2.5_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/dhp/dhp256-272_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp256-272_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an9/an9.23_root-pli-ms.json",
@@ -71,6 +75,8 @@
       "an10.75/en/sujato",
       "sn7.20/en/sujato",
       "sn36.6/en/sujato",
+      "ud2.5/en/sujato",
+      "dhp256-272/en/sujato",
       "dn34/en/sujato",
       "an9.23/en/sujato",
       "an5.50/en/sujato",
@@ -368,6 +374,35 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga2/ud2.5_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/ud/vagga2/ud2.5_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud2.5",
+        "lang": "en",
+        "segMap": {
+          "ud2.5:4.2": {
+            "scid": "ud2.5:4.2",
+            "pli": "Saṅkhātadhammassa bahussutassa;",
+            "en": "a learned person who has <span class=\"ebt-matched\">assess</span>ed the teaching.",
+            "matched": true
+          }
+        },
+        "score": 1.067,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Heartfelt Sayings\nA Lay Follower",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 15,
+          "en": 14
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn7/sn7.20_root-pli-ms.json",
           "translation/en/sujato/sutta/sn/sn7/sn7.20_translation-en-sujato.json"
         ],
@@ -509,6 +544,35 @@
         "langSegs": {
           "pli": 63,
           "en": 62
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/dhp/dhp256-272_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/dhp/dhp256-272_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dhp256-272",
+        "lang": "en",
+        "segMap": {
+          "dhp267:3": {
+            "scid": "dhp267:3",
+            "pli": "Saṅkhāya loke carati,",
+            "en": "who wanders having <span class=\"ebt-matched\">assess</span>ed the world,",
+            "matched": true
+          }
+        },
+        "score": 1.012,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Minor Collection\nSayings of the Dhamma\nThe Just\nVinicchayamahāmattavatthu",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 84,
+          "en": 84
         }
       },
       {
