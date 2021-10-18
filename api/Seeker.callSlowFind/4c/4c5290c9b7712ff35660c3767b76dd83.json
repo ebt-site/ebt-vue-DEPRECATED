@@ -32,7 +32,7 @@
     "pattern": "eingeschätzt",
     "method": "phrase",
     "resultPattern": "\\beingeschätzt",
-    "segsMatched": 9,
+    "segsMatched": 11,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn12/sn12.31_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.31_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/an/an7/an7.70_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an7/an7.70_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an7/an7.70_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn19_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn19_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn19_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.41_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.41_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.41_translation-en-sujato.json",
@@ -50,6 +53,7 @@
     "suttaRefs": [
       "sn12.31/de/sabbamitta",
       "an7.70/de/sabbamitta",
+      "dn19/de/sabbamitta",
       "an4.41/de/sabbamitta",
       "an3.32/de/sabbamitta"
     ],
@@ -155,6 +159,45 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn19_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn19_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn19_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn19",
+        "lang": "de",
+        "segMap": {
+          "dn19:19.2": {
+            "scid": "dn19:19.2",
+            "pli": "‘sādhu, mahābrahme, etadeva mayaṁ saṅkhāya modāma; ",
+            "de": "‚Gut, Großer Brahmā! Da wir das <span class=\"ebt-matched\">eingeschätzt</span> haben, freuen wir uns. ",
+            "en": "‘Good, Great Brahmā! Having assessed this, we rejoice. ",
+            "matched": true
+          },
+          "dn19:19.4": {
+            "scid": "dn19:19.4",
+            "pli": "te ca mayaṁ saṅkhāya modāmā’ti. ",
+            "de": "da wir auch das <span class=\"ebt-matched\">eingeschätzt</span> haben, freuen wir uns.‘ ",
+            "en": "having assessed them, too, we rejoice.’ ",
+            "matched": true
+          }
+        },
+        "score": 2.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 19\nDer Große Verwalter",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 559,
+          "de": 479,
+          "en": 558
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an3/an3.32_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/an/an3/an3.32_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/an/an3/an3.32_translation-en-sujato.json"
@@ -168,7 +211,7 @@
           "an3.32:6.1": {
             "scid": "an3.32:6.1",
             "pli": "‘Saṅkhāya lokasmiṁ paroparāni, ",
-            "de": "‚Sie haben die Höhen und Tiefen der Welt <span class=\"ebt-matched\">eingeschätzt</span> ",
+            "de": "‚Sie haben die Höhen und Tiefen der Welt <span class=\"ebt-matched\">eingeschätzt</span>, ",
             "en": "‘Having assessed the world high and low, ",
             "matched": true
           }
