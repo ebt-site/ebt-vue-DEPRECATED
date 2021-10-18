@@ -29,84 +29,11 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "gather all the mendicants",
-    "method": "phrase",
-    "resultPattern": "\\bgather all the mendicants",
-    "segsMatched": 3,
-    "bilaraPaths": [
-      "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
-      "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
-      "root/pli/ms/sutta/sn/sn54/sn54.9_root-pli-ms.json",
-      "translation/en/sujato/sutta/sn/sn54/sn54.9_translation-en-sujato.json"
-    ],
-    "suttaRefs": [
-      "dn16/en/sujato",
-      "sn54.9/en/sujato"
-    ],
-    "mlDocs": [
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
-          "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "dn16",
-        "lang": "en",
-        "segMap": {
-          "dn16:1.6.2": {
-            "scid": "dn16:1.6.2",
-            "pli": "“gaccha tvaṁ, ānanda, yāvatikā bhikkhū rājagahaṁ upanissāya viharanti, te sabbe upaṭṭhānasālāyaṁ sannipātehī”ti. ",
-            "en": "“Go, Ānanda, <span class=\"ebt-matched\">gather all the mendicants</span> staying in the vicinity of Rājagaha together in the assembly hall.” ",
-            "matched": true
-          },
-          "dn16:3.49.2": {
-            "scid": "dn16:3.49.2",
-            "pli": "“gaccha tvaṁ, ānanda, yāvatikā bhikkhū vesāliṁ upanissāya viharanti, te sabbe upaṭṭhānasālāyaṁ sannipātehī”ti. ",
-            "en": "“Go, Ānanda, <span class=\"ebt-matched\">gather all the mendicants</span> staying in the vicinity of Vesālī together in the assembly hall.” ",
-            "matched": true
-          }
-        },
-        "score": 2.001,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Long Discourses 16\nThe Great Discourse on the Buddha’s Extinguishment",
-        "segsMatched": 2,
-        "langSegs": {
-          "pli": 1665,
-          "en": 1664
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/sn/sn54/sn54.9_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn54/sn54.9_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "sn54.9",
-        "lang": "en",
-        "segMap": {
-          "sn54.9:5.1": {
-            "scid": "sn54.9:5.1",
-            "pli": "“Tenahānanda, yāvatikā bhikkhū vesāliṁ upanissāya viharanti te sabbe upaṭṭhānasālāyaṁ sannipātehī”ti. ",
-            "en": "“Well then, Ānanda, <span class=\"ebt-matched\">gather all the mendicants</span> staying in the vicinity of Vesālī together in the assembly hall.” ",
-            "matched": true
-          }
-        },
-        "score": 1.029,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Linked Discourses 54\n1. One Thing\n9. At Vesālī",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 35,
-          "en": 34
-        }
-      }
-    ]
+    "method": "keywords",
+    "resultPattern": "\\bgather|\\ball|\\bthe|\\bmendicants",
+    "segsMatched": 0,
+    "bilaraPaths": [],
+    "suttaRefs": [],
+    "mlDocs": []
   }
 }

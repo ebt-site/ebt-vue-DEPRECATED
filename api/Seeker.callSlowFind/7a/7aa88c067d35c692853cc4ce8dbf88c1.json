@@ -30,50 +30,11 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "nichts ist es wert, daran festzuhalten",
-    "method": "phrase",
-    "resultPattern": "\\bnichts ist es wert, daran festzuhalten",
-    "segsMatched": 1,
-    "bilaraPaths": [
-      "root/pli/ms/sutta/an/an7/an7.61_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an7/an7.61_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an7/an7.61_translation-en-sujato.json"
-    ],
-    "suttaRefs": [
-      "an7.61/de/sabbamitta"
-    ],
-    "mlDocs": [
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/an/an7/an7.61_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/an/an7/an7.61_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/an/an7/an7.61_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "an7.61",
-        "lang": "de",
-        "segMap": {
-          "an7.61:13.2": {
-            "scid": "an7.61:13.2",
-            "pli": "‘sabbe dhammā nālaṁ abhinivesāyā’ti; ",
-            "de": "‚<span class=\"ebt-matched\">Nichts ist es wert, daran festzuhalten</span>.‘ ",
-            "en": "‘Nothing is worth insisting on.’ ",
-            "matched": true
-          }
-        },
-        "score": 1.016,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Nummerierte Lehrreden 7\n6. Die nicht erklärten Punkte\n61. Einnicken",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 61,
-          "de": 59,
-          "en": 60
-        }
-      }
-    ]
+    "method": "keywords",
+    "resultPattern": "\\bnichts|\\bist|\\bes|\\bwert,|\\bdaran|\\bfestzuhalten",
+    "segsMatched": 0,
+    "bilaraPaths": [],
+    "suttaRefs": [],
+    "mlDocs": []
   }
 }

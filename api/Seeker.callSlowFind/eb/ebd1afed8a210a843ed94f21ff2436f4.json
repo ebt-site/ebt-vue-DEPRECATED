@@ -30,86 +30,11 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "eben da nahm ich beim buddha",
-    "method": "phrase",
-    "resultPattern": "\\beben da nahm ich beim buddha",
-    "segsMatched": 2,
-    "bilaraPaths": [
-      "root/pli/ms/sutta/an/an8/an8.22_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an8/an8.22_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an8/an8.22_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an8/an8.21_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an8/an8.21_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an8/an8.21_translation-en-sujato.json"
-    ],
-    "suttaRefs": [
-      "an8.22/de/sabbamitta",
-      "an8.21/de/sabbamitta"
-    ],
-    "mlDocs": [
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/an/an8/an8.21_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/an/an8/an8.21_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/an/an8/an8.21_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "an8.21",
-        "lang": "de",
-        "segMap": {
-          "an8.21:4.10": {
-            "scid": "an8.21:4.10",
-            "pli": "tattheva buddhañca dhammañca saṅghañca saraṇaṁ agamāsiṁ, brahmacariyapañcamāni ca sikkhāpadāni samādiyiṁ. ",
-            "de": "<span class=\"ebt-matched\">Eben da nahm ich beim Buddha</span>, bei der Lehre und beim Saṅgha meine Zuflucht. Und ich nahm mir die fünf Schulungsregeln vor, mit Enthaltsamkeit als fünfter. ",
-            "en": "Right there I went for refuge to the Buddha, his teaching, and the Saṅgha. And I undertook the five training rules with celibacy as the fifth. ",
-            "matched": true
-          }
-        },
-        "score": 1.014,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Nummerierte Lehrreden 8\n3. Hausbesitzer\n21. Mit Ugga von Vesālī",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 71,
-          "de": 70,
-          "en": 70
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/an/an8/an8.22_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/an/an8/an8.22_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/an/an8/an8.22_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "an8.22",
-        "lang": "de",
-        "segMap": {
-          "an8.22:4.9": {
-            "scid": "an8.22:4.9",
-            "pli": "‘yaṁ kiñci samudayadhammaṁ sabbaṁ taṁ nirodhadhamman’ti. ",
-            "de": "Ich sah, erfasste, verstand und ergründete den Dhamma. Ich ging über den Zweifel hinaus, machte mich von Unschlüssigkeit frei und gewann Selbstvertrauen, wurde in der Anleitung des Lehrers von anderen unabhängig. <span class=\"ebt-matched\">Eben da nahm ich beim Buddha</span>, bei der Lehre und beim Saṅgha meine Zuflucht. Und ich nahm mir die fünf Schulungsregeln vor, mit Enthaltsamkeit als fünfter. ",
-            "en": "I saw, attained, understood, and fathomed the Dhamma. I went beyond doubt, got rid of indecision, and became self-assured and independent of others regarding the Teacher’s instructions. Right there I went for refuge to the Buddha, his teaching, and the Saṅgha. And I undertook the five training rules with celibacy as the fifth. ",
-            "matched": true
-          }
-        },
-        "score": 1.013,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Nummerierte Lehrreden 8\n3. Hausbesitzer\n22. Mit Ugga vom Dorf Hatthi",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 77,
-          "de": 75,
-          "en": 75
-        }
-      }
-    ]
+    "method": "keywords",
+    "resultPattern": "\\beben|\\bda|\\bnahm|\\bich|\\bbeim|\\bb(u|ū)(d|ḍ)(d|ḍ)h(a|ā)",
+    "segsMatched": 0,
+    "bilaraPaths": [],
+    "suttaRefs": [],
+    "mlDocs": []
   }
 }

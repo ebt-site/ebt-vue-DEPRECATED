@@ -29,46 +29,11 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "what fetters bind the gods",
-    "method": "phrase",
-    "resultPattern": "\\bwhat fetters bind the gods",
-    "segsMatched": 1,
-    "bilaraPaths": [
-      "root/pli/ms/sutta/dn/dn21_root-pli-ms.json",
-      "translation/en/sujato/sutta/dn/dn21_translation-en-sujato.json"
-    ],
-    "suttaRefs": [
-      "dn21/en/sujato"
-    ],
-    "mlDocs": [
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/dn/dn21_root-pli-ms.json",
-          "translation/en/sujato/sutta/dn/dn21_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "dn21",
-        "lang": "en",
-        "segMap": {
-          "dn21:2.1.2": {
-            "scid": "dn21:2.1.2",
-            "pli": "“Kiṁsaṁyojanā nu kho, mārisa, devā manussā asurā nāgā gandhabbā ye caññe santi puthukāyā, te: ",
-            "en": "“Dear sir, <span class=\"ebt-matched\">what fetters bind the gods</span>, humans, demons, dragons, fairies—and any of the other diverse creatures—",
-            "matched": true
-          }
-        },
-        "score": 1.002,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Long Discourses 21\nSakka’s Questions",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 515,
-          "en": 514
-        }
-      }
-    ]
+    "method": "keywords",
+    "resultPattern": "\\bwhat|\\bfetters|\\bbind|\\bthe|\\bgods",
+    "segsMatched": 0,
+    "bilaraPaths": [],
+    "suttaRefs": [],
+    "mlDocs": []
   }
 }

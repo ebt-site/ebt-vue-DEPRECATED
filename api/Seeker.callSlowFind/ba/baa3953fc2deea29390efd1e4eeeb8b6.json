@@ -29,58 +29,11 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "bowl upside down",
-    "method": "phrase",
-    "resultPattern": "\\bbowl upside down",
-    "segsMatched": 3,
-    "bilaraPaths": [
-      "root/pli/ms/sutta/an/an8/an8.87_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an8/an8.87_translation-en-sujato.json"
-    ],
-    "suttaRefs": [
-      "an8.87/en/sujato"
-    ],
-    "mlDocs": [
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/an/an8/an8.87_root-pli-ms.json",
-          "translation/en/sujato/sutta/an/an8/an8.87_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "an8.87",
-        "lang": "en",
-        "segMap": {
-          "an8.87:0.3": {
-            "scid": "an8.87:0.3",
-            "pli": "87. Pattanikujjanasutta ",
-            "en": "87. Turning the <span class=\"ebt-matched\">Bowl Upside Down</span> ",
-            "matched": true
-          },
-          "an8.87:1.1": {
-            "scid": "an8.87:1.1",
-            "pli": "“Aṭṭhahi, bhikkhave, aṅgehi samannāgatassa upāsakassa ākaṅkhamāno saṅgho pattaṁ nikkujjeyya. ",
-            "en": "“Mendicants, the Saṅgha may, if it wishes, turn the <span class=\"ebt-matched\">bowl upside down</span> for a lay follower on eight grounds. ",
-            "matched": true
-          },
-          "an8.87:1.4": {
-            "scid": "an8.87:1.4",
-            "pli": "Imehi kho, bhikkhave, aṭṭhahaṅgehi samannāgatassa upāsakassa ākaṅkhamāno saṅgho pattaṁ nikkujjeyya. ",
-            "en": "The Saṅgha may, if it wishes, turn the <span class=\"ebt-matched\">bowl upside down</span> for a lay follower on these eight grounds. ",
-            "matched": true
-          }
-        },
-        "score": 3.25,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Numbered Discourses 8\n9. Mindfulness\n87. Turning the Bowl Upside Down",
-        "segsMatched": 3,
-        "langSegs": {
-          "pli": 12,
-          "en": 11
-        }
-      }
-    ]
+    "method": "keywords",
+    "resultPattern": "\\bbowl|\\bupside|\\bdown",
+    "segsMatched": 0,
+    "bilaraPaths": [],
+    "suttaRefs": [],
+    "mlDocs": []
   }
 }

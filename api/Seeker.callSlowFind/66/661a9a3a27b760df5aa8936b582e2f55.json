@@ -30,57 +30,11 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "urteil über menschen",
-    "method": "phrase",
-    "resultPattern": "\\burteil über menschen",
-    "segsMatched": 2,
-    "bilaraPaths": [
-      "root/pli/ms/sutta/an/an6/an6.44_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an6/an6.44_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an6/an6.44_translation-en-sujato.json"
-    ],
-    "suttaRefs": [
-      "an6.44/de/sabbamitta"
-    ],
-    "mlDocs": [
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/an/an6/an6.44_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/an/an6/an6.44_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/an/an6/an6.44_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "an6.44",
-        "lang": "de",
-        "segMap": {
-          "an6.44:9.7": {
-            "scid": "an6.44:9.7",
-            "pli": "mā puggalesu pamāṇaṁ gaṇhittha. ",
-            "de": "Fälle kein <span class=\"ebt-matched\">Urteil über Menschen</span>. ",
-            "en": "Don’t pass judgment on people. ",
-            "matched": true
-          },
-          "an6.44:16.7": {
-            "scid": "an6.44:16.7",
-            "pli": "mā puggalesu pamāṇaṁ gaṇhittha. ",
-            "de": "Fälle kein <span class=\"ebt-matched\">Urteil über Menschen</span>. ",
-            "en": "Don’t pass judgment on people. ",
-            "matched": true
-          }
-        },
-        "score": 2.026,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Nummerierte Lehrreden 6\n5. Über Dhammika\n44. Mit Migasālā",
-        "segsMatched": 2,
-        "langSegs": {
-          "pli": 77,
-          "de": 66,
-          "en": 76
-        }
-      }
-    ]
+    "method": "keywords",
+    "resultPattern": "\\burteil|\\büber|\\bmenschen",
+    "segsMatched": 0,
+    "bilaraPaths": [],
+    "suttaRefs": [],
+    "mlDocs": []
   }
 }

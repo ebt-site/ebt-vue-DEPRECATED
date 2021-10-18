@@ -30,71 +30,11 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "gut, schwester",
-    "method": "phrase",
-    "resultPattern": "\\bgut, schwester",
-    "segsMatched": 4,
-    "bilaraPaths": [
-      "root/pli/ms/sutta/an/an7/an7.53_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an7/an7.53_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an7/an7.53_translation-en-sujato.json"
-    ],
-    "suttaRefs": [
-      "an7.53/de/sabbamitta"
-    ],
-    "mlDocs": [
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/an/an7/an7.53_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/an/an7/an7.53_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/an/an7/an7.53_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "an7.53",
-        "lang": "de",
-        "segMap": {
-          "an7.53:3.3": {
-            "scid": "an7.53:3.3",
-            "pli": "“sādhu, bhagini, sādhu, bhaginī”ti. ",
-            "de": "„<span class=\"ebt-matched\">Gut, Schwester</span>! <span class=\"ebt-matched\">Gut, Schwester</span>!“ ",
-            "en": "“Good, sister! Good, sister!” ",
-            "matched": true
-          },
-          "an7.53:3.7": {
-            "scid": "an7.53:3.7",
-            "pli": "“Sādhu, bhagini, etañceva me hotu ātitheyyaṁ. ",
-            "de": "„<span class=\"ebt-matched\">Gut, Schwester</span>! Und lass auch das dein Gastgeschenk an mich sein: ",
-            "en": "‘Good, sister! And let this also be your offering to me as your guest. ",
-            "matched": true
-          },
-          "an7.53:6.3": {
-            "scid": "an7.53:6.3",
-            "pli": "‘sādhu, bhagini, sādhu, bhaginī’ti. ",
-            "de": "‚<span class=\"ebt-matched\">Gut, Schwester</span>! <span class=\"ebt-matched\">Gut, Schwester</span>!‘ ",
-            "en": "‘Good, sister! Good, sister!’ ",
-            "matched": true
-          },
-          "an7.53:6.7": {
-            "scid": "an7.53:6.7",
-            "pli": "‘Sādhu, bhagini, etañceva me hotu ātitheyyaṁ. ",
-            "de": "‚<span class=\"ebt-matched\">Gut, Schwester</span>! Und lass auch das dein Gastgeschenk an mich sein: ",
-            "en": "‘Good, sister! And let this also be your offering to me as your guest. ",
-            "matched": true
-          }
-        },
-        "score": 4.048,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Nummerierte Lehrreden 7\n5. Ein großes Opfer\n53. Nandas Mutter",
-        "segsMatched": 4,
-        "langSegs": {
-          "pli": 84,
-          "de": 75,
-          "en": 82
-        }
-      }
-    ]
+    "method": "keywords",
+    "resultPattern": "\\bgut,|\\bschwester",
+    "segsMatched": 0,
+    "bilaraPaths": [],
+    "suttaRefs": [],
+    "mlDocs": []
   }
 }

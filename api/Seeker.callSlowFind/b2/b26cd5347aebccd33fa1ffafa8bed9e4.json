@@ -29,52 +29,11 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "establish in",
-    "method": "phrase",
-    "resultPattern": "\\bestablish in",
-    "segsMatched": 2,
-    "bilaraPaths": [
-      "root/pli/ms/sutta/an/an10/an10.44_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an10/an10.44_translation-en-sujato.json"
-    ],
-    "suttaRefs": [
-      "an10.44/en/sujato"
-    ],
-    "mlDocs": [
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/an/an10/an10.44_root-pli-ms.json",
-          "translation/en/sujato/sutta/an/an10/an10.44_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "an10.44",
-        "lang": "en",
-        "segMap": {
-          "an10.44:7.1": {
-            "scid": "an10.44:7.1",
-            "pli": "Katame pañca dhammā ajjhattaṁ upaṭṭhāpetabbā? ",
-            "en": "What five things should they <span class=\"ebt-matched\">establish in</span> themselves? ",
-            "matched": true
-          },
-          "an10.44:7.7": {
-            "scid": "an10.44:7.7",
-            "pli": "ime pañca dhammā ajjhattaṁ upaṭṭhāpetabbā. ",
-            "en": "These are the five things they should <span class=\"ebt-matched\">establish in</span> themselves. ",
-            "matched": true
-          }
-        },
-        "score": 2.043,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Numbered Discourses 10\n5. Abuse\n44. At Kusināra",
-        "segsMatched": 2,
-        "langSegs": {
-          "pli": 46,
-          "en": 45
-        }
-      }
-    ]
+    "method": "keywords",
+    "resultPattern": "\\bestablish|\\bin",
+    "segsMatched": 0,
+    "bilaraPaths": [],
+    "suttaRefs": [],
+    "mlDocs": []
   }
 }

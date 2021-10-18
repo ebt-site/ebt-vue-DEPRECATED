@@ -30,100 +30,11 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "bevorzugen und zurückweisen",
-    "method": "phrase",
-    "resultPattern": "\\bbevorzugen und zurückweisen",
-    "segsMatched": 4,
-    "bilaraPaths": [
-      "root/pli/ms/sutta/an/an8/an8.6_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an8/an8.6_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an8/an8.6_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an8/an8.5_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an8/an8.5_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an8/an8.5_translation-en-sujato.json"
-    ],
-    "suttaRefs": [
-      "an8.6/de/sabbamitta",
-      "an8.5/de/sabbamitta"
-    ],
-    "mlDocs": [
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/an/an8/an8.6_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/an/an8/an8.6_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/an/an8/an8.6_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "an8.6",
-        "lang": "de",
-        "segMap": {
-          "an8.6:4.6": {
-            "scid": "an8.6:4.6",
-            "pli": "So evaṁ anurodhavirodhasamāpanno na parimuccati jātiyā jarāya maraṇena sokehi paridevehi dukkhehi domanassehi upāyāsehi. ",
-            "de": "Wenn er so voller <span class=\"ebt-matched\">Bevorzugen und Zurückweisen</span> ist, ist er nicht befreit von Wiedergeburt, von Alter und Tod, Kummer, Klage, Schmerz, Traurigkeit und Bedrängnis. ",
-            "en": "Being so full of favoring and opposing, they’re not freed from rebirth, old age, and death, from sorrow, lamentation, pain, sadness, and distress. ",
-            "matched": true
-          },
-          "an8.6:6.6": {
-            "scid": "an8.6:6.6",
-            "pli": "So evaṁ anurodhavirodhavippahīno parimuccati jātiyā jarāya maraṇena sokehi paridevehi dukkhehi domanassehi upāyāsehi. ",
-            "de": "Da sie <span class=\"ebt-matched\">Bevorzugen und Zurückweisen</span> aufgegeben hat, ist sie befreit von Wiedergeburt, von Alter und Tod, Kummer, Klage, Schmerz, Traurigkeit und Bedrängnis. ",
-            "en": "Having given up favoring and opposing, they’re freed from rebirth, old age, and death, from sorrow, lamentation, pain, sadness, and distress. ",
-            "matched": true
-          },
-          "an8.6:9.1": {
-            "scid": "an8.6:9.1",
-            "pli": "Tassānurodhā atha vā virodhā, ",
-            "de": "<span class=\"ebt-matched\">Bevorzugen und Zurückweisen</span> ",
-            "en": "Both favoring and opposing ",
-            "matched": true
-          }
-        },
-        "score": 3.043,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Nummerierte Lehrreden 8\n1. Liebe\n6. Weltliche Gegebenheiten (2)",
-        "segsMatched": 3,
-        "langSegs": {
-          "pli": 70,
-          "de": 69,
-          "en": 69
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/an/an8/an8.5_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/an/an8/an8.5_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/an/an8/an8.5_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "an8.5",
-        "lang": "de",
-        "segMap": {
-          "an8.5:4.1": {
-            "scid": "an8.5:4.1",
-            "pli": "Tassānurodhā atha vā virodhā, ",
-            "de": "<span class=\"ebt-matched\">Bevorzugen und Zurückweisen</span> ",
-            "en": "Both favoring and opposing ",
-            "matched": true
-          }
-        },
-        "score": 1.05,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Nummerierte Lehrreden 8\n1. Liebe\n5. Weltliche Gegebenheiten (1)",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 20,
-          "de": 19,
-          "en": 19
-        }
-      }
-    ]
+    "method": "keywords",
+    "resultPattern": "\\bbevorzugen|\\bund|\\bzurückweisen",
+    "segsMatched": 0,
+    "bilaraPaths": [],
+    "suttaRefs": [],
+    "mlDocs": []
   }
 }

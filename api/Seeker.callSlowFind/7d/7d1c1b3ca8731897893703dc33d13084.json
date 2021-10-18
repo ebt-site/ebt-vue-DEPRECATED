@@ -29,78 +29,11 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "gave him her milk",
-    "method": "phrase",
-    "resultPattern": "\\bgave him her milk",
-    "segsMatched": 2,
-    "bilaraPaths": [
-      "root/pli/ms/sutta/mn/mn142_root-pli-ms.json",
-      "translation/en/sujato/sutta/mn/mn142_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an8/an8.51_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an8/an8.51_translation-en-sujato.json"
-    ],
-    "suttaRefs": [
-      "mn142/en/sujato",
-      "an8.51/en/sujato"
-    ],
-    "mlDocs": [
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/an/an8/an8.51_root-pli-ms.json",
-          "translation/en/sujato/sutta/an/an8/an8.51_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "an8.51",
-        "lang": "en",
-        "segMap": {
-          "an8.51:9.8": {
-            "scid": "an8.51:9.8",
-            "pli": "bahukārā, bhante, mahāpajāpatī gotamī bhagavato mātucchā āpādikā posikā khīrassa dāyikā; ",
-            "en": "Sir, Mahāpajāpatī has been very helpful to the Buddha. She is his aunt who raised him, nurtured him, and <span class=\"ebt-matched\">gave him her milk</span>. ",
-            "matched": true
-          }
-        },
-        "score": 1.011,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Numbered Discourses 8\n6. Gotamī\n51. With Gotamī",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 92,
-          "en": 91
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/mn/mn142_root-pli-ms.json",
-          "translation/en/sujato/sutta/mn/mn142_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "mn142",
-        "lang": "en",
-        "segMap": {
-          "mn142:3.3": {
-            "scid": "mn142:3.3",
-            "pli": "Bahūpakārā, bhante, mahāpajāpati gotamī bhagavato mātucchā āpādikā posikā khīrassa dāyikā; ",
-            "en": "Sir, Mahāpajāpatī was very helpful to the Buddha. As his aunt, she raised him, nurtured him, and <span class=\"ebt-matched\">gave him her milk</span>. ",
-            "matched": true
-          }
-        },
-        "score": 1.007,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Middle Discourses 142\nThe Analysis of Religious Donations",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 141,
-          "en": 139
-        }
-      }
-    ]
+    "method": "keywords",
+    "resultPattern": "\\bg(a|ā)ve|\\bhim|\\bher|\\bmilk",
+    "segsMatched": 0,
+    "bilaraPaths": [],
+    "suttaRefs": [],
+    "mlDocs": []
   }
 }

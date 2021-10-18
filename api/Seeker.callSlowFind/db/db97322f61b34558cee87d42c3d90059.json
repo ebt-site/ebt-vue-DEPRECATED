@@ -30,57 +30,11 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "die im wasser",
-    "method": "phrase",
-    "resultPattern": "\\bdie im wasser",
-    "segsMatched": 2,
-    "bilaraPaths": [
-      "root/pli/ms/sutta/an/an7/an7.15_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an7/an7.15_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an7/an7.15_translation-en-sujato.json"
-    ],
-    "suttaRefs": [
-      "an7.15/de/sabbamitta"
-    ],
-    "mlDocs": [
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/an/an7/an7.15_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/an/an7/an7.15_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/an/an7/an7.15_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "an7.15",
-        "lang": "de",
-        "segMap": {
-          "an7.15:1.1": {
-            "scid": "an7.15:1.1",
-            "pli": "“Sattime, bhikkhave, udakūpamā puggalā santo saṁvijjamānā lokasmiṁ. ",
-            "de": "„Mönche und Nonnen, sieben Menschen, die man in der Welt findet, sind wie <span class=\"ebt-matched\">die im Wasser</span>. ",
-            "en": "“Mendicants, these seven people found in the world are like those in water. ",
-            "matched": true
-          },
-          "an7.15:9.1": {
-            "scid": "an7.15:9.1",
-            "pli": "Ime kho, bhikkhave, satta udakūpamā puggalā santo saṁvijjamānā lokasmin”ti. ",
-            "de": "Diese sieben Menschen, die man in der Welt findet, sind wie <span class=\"ebt-matched\">die im Wasser</span>.“ ",
-            "en": "These seven people found in the world are like those in water.” ",
-            "matched": true
-          }
-        },
-        "score": 2.03,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Nummerierte Lehrreden 7\n2. Neigungen\n15. Das Gleichnis im Wasser",
-        "segsMatched": 2,
-        "langSegs": {
-          "pli": 66,
-          "de": 40,
-          "en": 65
-        }
-      }
-    ]
+    "method": "keywords",
+    "resultPattern": "\\bdie|\\bim|\\bwasser",
+    "segsMatched": 0,
+    "bilaraPaths": [],
+    "suttaRefs": [],
+    "mlDocs": []
   }
 }
