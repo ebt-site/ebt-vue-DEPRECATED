@@ -29,11 +29,224 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "freed from all these things",
-    "method": "keywords",
-    "resultPattern": "\\bfreed|\\bfrom|\\ball|\\bthese|\\bthings",
-    "segsMatched": 0,
-    "bilaraPaths": [],
-    "suttaRefs": [],
-    "mlDocs": []
+    "method": "phrase",
+    "resultPattern": "\\bfreed from all these things",
+    "segsMatched": 9,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an10/an10.109_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an10/an10.109_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.108_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an10/an10.108_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.107_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an10/an10.107_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn45/sn45.3_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn45/sn45.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn45/sn45.2_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn45/sn45.2_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn3/sn3.18_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn3/sn3.18_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an10.109/en/sujato",
+      "an10.108/en/sujato",
+      "an10.107/en/sujato",
+      "sn45.3/en/sujato",
+      "sn45.2/en/sujato",
+      "sn3.18/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.109_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an10/an10.109_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.109",
+        "lang": "en",
+        "segMap": {
+          "an10.109:2.1": {
+            "scid": "an10.109:2.1",
+            "pli": "Ahañca kho, bhikkhave, ariyaṁ vamanaṁ desessāmi, yaṁ vamanaṁ sampajjatiyeva no vipajjati, yaṁ vamanaṁ āgamma jātidhammā sattā jātiyā parimuccanti, jarādhammā sattā jarāya parimuccanti, maraṇadhammā sattā maraṇena parimuccanti, sokaparidevadukkhadomanassupāyāsadhammā sattā sokaparidevadukkhadomanassupāyāsehi parimuccanti. ",
+            "en": "I will teach a noble emetic that works without fail. Relying on that emetic, sentient beings who are liable to rebirth, old age, and death, to sorrow, lamentation, pain, sadness, and distress are <span class=\"ebt-matched\">freed from all these things</span>. ",
+            "matched": true
+          },
+          "an10.109:6.4": {
+            "scid": "an10.109:6.4",
+            "pli": "Idaṁ kho taṁ, bhikkhave, ariyaṁ vamanaṁ yaṁ vamanaṁ sampajjatiyeva no vipajjati, yaṁ vamanaṁ āgamma jātidhammā sattā jātiyā parimuccanti …pe… sokaparidevadukkhadomanassupāyāsehi parimuccantī”ti. ",
+            "en": "This is the noble emetic that works without fail. Relying on this emetic, sentient beings who are liable to rebirth, old age, and death, to sorrow, lamentation, pain, sadness, and distress are <span class=\"ebt-matched\">freed from all these things</span>.” ",
+            "matched": true
+          }
+        },
+        "score": 2.08,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 10\n11. Perceptions for Ascetics\n109. Emetic",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 25,
+          "en": 24
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.108_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an10/an10.108_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.108",
+        "lang": "en",
+        "segMap": {
+          "an10.108:2.1": {
+            "scid": "an10.108:2.1",
+            "pli": "Ahañca kho, bhikkhave, ariyaṁ virecanaṁ desessāmi, yaṁ virecanaṁ sampajjatiyeva no vipajjati, yaṁ virecanaṁ āgamma jātidhammā sattā jātiyā parimuccanti, jarādhammā sattā jarāya parimuccanti, maraṇadhammā sattā maraṇena parimuccanti, sokaparidevadukkhadomanassupāyāsadhammā sattā sokaparidevadukkhadomanassupāyāsehi parimuccanti. ",
+            "en": "I will teach a noble purgative that works without fail. Relying on that purgative, sentient beings who are liable to rebirth, old age, and death, to sorrow, lamentation, pain, sadness, and distress are <span class=\"ebt-matched\">freed from all these things</span>. ",
+            "matched": true
+          },
+          "an10.108:6.4": {
+            "scid": "an10.108:6.4",
+            "pli": "Idaṁ kho taṁ, bhikkhave, ariyaṁ virecanaṁ yaṁ virecanaṁ sampajjatiyeva no vipajjati, yaṁ virecanaṁ āgamma jātidhammā sattā jātiyā parimuccanti …pe… sokaparidevadukkhadomanassupāyāsehi parimuccantī”ti. ",
+            "en": "This is the noble purgative that works without fail. Relying on this purgative, sentient beings who are liable to rebirth, old age, and death, to sorrow, lamentation, pain, sadness, and distress are <span class=\"ebt-matched\">freed from all these things</span>.” ",
+            "matched": true
+          }
+        },
+        "score": 2.074,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 10\n11. Perceptions for Ascetics\n108. Doctors",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 27,
+          "en": 26
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.107_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an10/an10.107_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.107",
+        "lang": "en",
+        "segMap": {
+          "an10.107:2.1": {
+            "scid": "an10.107:2.1",
+            "pli": "Ahañca kho, bhikkhave, ariyaṁ dhovanaṁ desessāmi, yaṁ dhovanaṁ ekantanibbidāya virāgāya nirodhāya upasamāya abhiññāya sambodhāya nibbānāya saṁvattati, yaṁ dhovanaṁ āgamma jātidhammā sattā jātiyā parimuccanti, jarādhammā sattā jarāya parimuccanti, maraṇadhammā sattā maraṇena parimuccanti, sokaparidevadukkhadomanassupāyāsadhammā sattā sokaparidevadukkhadomanassupāyāsehi parimuccanti. ",
+            "en": "I will teach a noble washing that leads solely to disillusionment, dispassion, cessation, peace, insight, awakening, and extinguishment. Relying on that washing, sentient beings who are liable to rebirth, old age, and death, to sorrow, lamentation, pain, sadness, and distress are <span class=\"ebt-matched\">freed from all these things</span>. ",
+            "matched": true
+          },
+          "an10.107:6.4": {
+            "scid": "an10.107:6.4",
+            "pli": "Idaṁ kho taṁ, bhikkhave, ariyaṁ dhovanaṁ ekantanibbidāya virāgāya nirodhāya upasamāya abhiññāya sambodhāya nibbānāya saṁvattati, yaṁ dhovanaṁ āgamma jātidhammā sattā jātiyā parimuccanti, jarādhammā sattā jarāya parimuccanti, maraṇadhammā sattā maraṇena parimuccanti, sokaparidevadukkhadomanassupāyāsadhammā sattā sokaparidevadukkhadomanassupāyāsehi parimuccantī”ti. ",
+            "en": "This is the noble washing that leads solely to disillusionment, dispassion, cessation, peace, insight, awakening, and extinguishment. Relying on this washing, sentient beings who are liable to rebirth, old age, and death, to sorrow, lamentation, pain, sadness, and distress are <span class=\"ebt-matched\">freed from all these things</span>.” ",
+            "matched": true
+          }
+        },
+        "score": 2.071,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 10\n11. Perceptions for Ascetics\n107. Washing",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 28,
+          "en": 27
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn45/sn45.3_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn45/sn45.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn45.3",
+        "lang": "en",
+        "segMap": {
+          "sn45.3:4.2": {
+            "scid": "sn45.3:4.2",
+            "pli": "Mamañhi, sāriputta, kalyāṇamittaṁ āgamma jātidhammā sattā jātiyā parimuccanti; jarādhammā sattā jarāya parimuccanti; maraṇadhammā sattā maraṇena parimuccanti; sokaparidevadukkhadomanassupāyāsadhammā sattā sokaparidevadukkhadomanassupāyāsehi parimuccanti. ",
+            "en": "For, by relying on me as a good friend, sentient beings who are liable to rebirth, old age, and death, to sorrow, lamentation, pain, sadness, and distress are <span class=\"ebt-matched\">freed from all these things</span>. ",
+            "matched": true
+          }
+        },
+        "score": 1.063,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 45\n1. Ignorance\n3. Sāriputta",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 16,
+          "en": 15
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn45/sn45.2_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn45/sn45.2_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn45.2",
+        "lang": "en",
+        "segMap": {
+          "sn45.2:4.2": {
+            "scid": "sn45.2:4.2",
+            "pli": "Mamañhi, ānanda, kalyāṇamittaṁ āgamma jātidhammā sattā jātiyā parimuccanti; jarādhammā sattā jarāya parimuccanti; maraṇadhammā sattā maraṇena parimuccanti; sokaparidevadukkhadomanassupāyāsadhammā sattā sokaparidevadukkhadomanassupāyāsehi parimuccanti. ",
+            "en": "For, by relying on me as a good friend, sentient beings who are liable to rebirth, old age, and death, to sorrow, lamentation, pain, sadness, and distress are <span class=\"ebt-matched\">freed from all these things</span>. ",
+            "matched": true
+          }
+        },
+        "score": 1.042,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 45\n1. Ignorance\n2. Half the Spiritual Life",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 24,
+          "en": 23
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn3/sn3.18_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn3/sn3.18_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn3.18",
+        "lang": "en",
+        "segMap": {
+          "sn3.18:6.1": {
+            "scid": "sn3.18:6.1",
+            "pli": "Mamañhi, ānanda, kalyāṇamittaṁ āgamma jātidhammā sattā jātiyā parimuccanti, jarādhammā sattā jarāya parimuccanti, byādhidhammā sattā byādhito parimuccanti, maraṇadhammā sattā maraṇena parimuccanti, sokaparidevadukkhadomanassupāyāsadhammā sattā sokaparidevadukkhadomanassupāyāsehi parimuccanti. ",
+            "en": "For, by relying on me as a good friend, sentient beings who are liable to rebirth, old age, and death, to sorrow, lamentation, pain, sadness, and distress are <span class=\"ebt-matched\">freed from all these things</span>. ",
+            "matched": true
+          }
+        },
+        "score": 1.019,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 3\n2. Childless\n18. Good Friends",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 52,
+          "en": 52
+        }
+      }
+    ]
   }
 }

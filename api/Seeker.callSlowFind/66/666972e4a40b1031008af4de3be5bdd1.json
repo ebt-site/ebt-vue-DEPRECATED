@@ -30,11 +30,71 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "alle tauglichen eigenschaften",
-    "method": "keywords",
-    "resultPattern": "\\balle|\\btauglichen|\\beigenschaften",
-    "segsMatched": 0,
-    "bilaraPaths": [],
-    "suttaRefs": [],
-    "mlDocs": []
+    "method": "phrase",
+    "resultPattern": "\\balle tauglichen eigenschaften",
+    "segsMatched": 4,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an10/an10.15_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.15_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.15_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an10.15/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.15_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.15_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.15_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.15",
+        "lang": "de",
+        "segMap": {
+          "an10.15:1.2": {
+            "scid": "an10.15:1.2",
+            "pli": "evamevaṁ kho, bhikkhave, ye keci kusalā dhammā, sabbe te appamādamūlakā appamādasamosaraṇā. Appamādo tesaṁ aggamakkhāyati. ",
+            "de": "Ebenso wurzeln <span class=\"ebt-matched\">alle tauglichen Eigenschaften</span> in der Beflissenheit und treffen sich bei der Beflissenheit, und Beflissenheit gilt als die beste unter ihnen. ",
+            "en": "In the same way, all skillful qualities are rooted in diligence and meet at diligence, and diligence is said to be the best of them. ",
+            "matched": true
+          },
+          "an10.15:2.2": {
+            "scid": "an10.15:2.2",
+            "pli": "evamevaṁ kho, bhikkhave, ye keci kusalā dhammā, sabbe te appamādamūlakā appamādasamosaraṇā. Appamādo tesaṁ aggamakkhāyati. ",
+            "de": "Ebenso wurzeln <span class=\"ebt-matched\">alle tauglichen Eigenschaften</span> in der Beflissenheit und treffen sich bei der Beflissenheit, und Beflissenheit gilt als die beste unter ihnen. ",
+            "en": "In the same way, all skillful qualities are rooted in diligence and meet at diligence, and diligence is said to be the best of them. ",
+            "matched": true
+          },
+          "an10.15:3.2": {
+            "scid": "an10.15:3.2",
+            "pli": "evamevaṁ kho, bhikkhave, ye keci kusalā dhammā, sabbe te appamādamūlakā appamādasamosaraṇā. Appamādo tesaṁ aggamakkhāyati. ",
+            "de": "Ebenso wurzeln <span class=\"ebt-matched\">alle tauglichen Eigenschaften</span> in der Beflissenheit und treffen sich bei der Beflissenheit, und Beflissenheit gilt als die beste unter ihnen. ",
+            "en": "In the same way, all skillful qualities are rooted in diligence and meet at diligence, and diligence is said to be the best of them. ",
+            "matched": true
+          },
+          "an10.15:10.2": {
+            "scid": "an10.15:10.2",
+            "pli": "evamevaṁ kho, bhikkhave, ye keci kusalā dhammā, sabbe te appamādamūlakā appamādasamosaraṇā. Appamādo tesaṁ aggamakkhāyatī”ti. ",
+            "de": "Ebenso wurzeln <span class=\"ebt-matched\">alle tauglichen Eigenschaften</span> in der Beflissenheit und treffen sich bei der Beflissenheit, und Beflissenheit gilt als die beste unter ihnen.“ ",
+            "en": "In the same way, all skillful qualities are rooted in diligence and meet at diligence, and diligence is said to be the best of them.” ",
+            "matched": true
+          }
+        },
+        "score": 4.167,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10\n2. Ein Beschützer\n15. Beflissenheit",
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 24,
+          "de": 23,
+          "en": 23
+        }
+      }
+    ]
   }
 }

@@ -30,11 +30,445 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "glaube an eine persönlichkeit",
-    "method": "keywords",
-    "resultPattern": "\\bglaube|\\ban|\\beine|\\bpersönlichkeit",
-    "segsMatched": 0,
-    "bilaraPaths": [],
-    "suttaRefs": [],
-    "mlDocs": []
+    "method": "phrase",
+    "resultPattern": "\\bglaube an eine persönlichkeit",
+    "segsMatched": 16,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn44_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn44_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn44_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an6/an6.89_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an6/an6.89_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an6/an6.89_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thig/thig6.7_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thig/thig6.7_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thig/thig6.7_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/kp/kp6_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/kp/kp6_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/kp/kp6_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an9/an9.67_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an9/an9.67_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an9/an9.67_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an7/an7.85_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an7/an7.85_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an7/an7.85_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an6/an6.91_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an6/an6.91_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an6/an6.91_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an6/an6.90_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an6/an6.90_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an6/an6.90_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.94_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an3/an3.94_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an3/an3.94_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.13_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.13_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.13_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "mn44/de/sabbamitta",
+      "dn33/de/sabbamitta",
+      "an6.89/de/sabbamitta",
+      "thig6.7/de/sabbamitta",
+      "kp6/de/sabbamitta",
+      "an9.67/de/sabbamitta",
+      "an7.85/de/sabbamitta",
+      "an6.91/de/sabbamitta",
+      "an6.90/de/sabbamitta",
+      "an3.94/de/sabbamitta",
+      "an10.13/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn44_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn44_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn44_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn44",
+        "lang": "de",
+        "segMap": {
+          "mn44:7.1": {
+            "scid": "mn44:7.1",
+            "pli": "“Kathaṁ panāyye, sakkāyadiṭṭhi hotī”ti? ",
+            "de": "„Aber meine Dame, wie kommt der <span class=\"ebt-matched\">Glaube an eine Persönlichkeit</span> zustande?“ ",
+            "en": "“But ma’am, how does identity view come about?” ",
+            "matched": true
+          },
+          "mn44:7.8": {
+            "scid": "mn44:7.8",
+            "pli": "Evaṁ kho, āvuso visākha, sakkāyadiṭṭhi hotī”ti. ",
+            "de": "So kommt der <span class=\"ebt-matched\">Glaube an eine Persönlichkeit</span> zustande.“ ",
+            "en": "That’s how identity view comes about.” ",
+            "matched": true
+          },
+          "mn44:8.1": {
+            "scid": "mn44:8.1",
+            "pli": "“Kathaṁ panāyye, sakkāyadiṭṭhi na hotī”ti? ",
+            "de": "„Aber meine Dame, wie kommt der <span class=\"ebt-matched\">Glaube an eine Persönlichkeit</span> nicht zustande?“ ",
+            "en": "“But ma’am, how does identity view not come about?” ",
+            "matched": true
+          },
+          "mn44:8.8": {
+            "scid": "mn44:8.8",
+            "pli": "Evaṁ kho, āvuso visākha, sakkāyadiṭṭhi na hotī”ti. ",
+            "de": "So kommt der <span class=\"ebt-matched\">Glaube an eine Persönlichkeit</span> nicht zustande.“ ",
+            "en": "That’s how identity view does not come about.” ",
+            "matched": true
+          }
+        },
+        "score": 4.029,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 44\nDie kürzere Einteilung",
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 138,
+          "de": 137,
+          "en": 137
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an6/an6.89_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an6/an6.89_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an6/an6.89_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an6.89",
+        "lang": "de",
+        "segMap": {
+          "an6.89:1.3": {
+            "scid": "an6.89:1.3",
+            "pli": "Sakkāyadiṭṭhiṁ, vicikicchaṁ, sīlabbataparāmāsaṁ, apāyagamanīyaṁ rāgaṁ, apāyagamanīyaṁ dosaṁ, apāyagamanīyaṁ mohaṁ. ",
+            "de": "<span class=\"ebt-matched\">Glaube an eine Persönlichkeit</span>, Zweifel, falsches Verständnis von Regeln und Gelübden und Formen von Gier, Hass und Täuschung, die zu Wiedergeburt an verlorenen Orten führen. ",
+            "en": "Identity view, doubt, misapprehension of precepts and observances, and forms of greed, hate, and delusion that lead to rebirth in places of loss. ",
+            "matched": true
+          },
+          "an6.89:2.3": {
+            "scid": "an6.89:2.3",
+            "pli": "Sakkāyadiṭṭhiṁ, vicikicchaṁ, sīlabbataparāmāsaṁ, apāyagamanīyaṁ rāgaṁ, apāyagamanīyaṁ dosaṁ, apāyagamanīyaṁ mohaṁ. ",
+            "de": "<span class=\"ebt-matched\">Glaube an eine Persönlichkeit</span>, Zweifel, falsches Verständnis von Regeln und Gelübden und Formen von Gier, Hass und Täuschung, die zu Wiedergeburt an verlorenen Orten führen. ",
+            "en": "Identity view, doubt, misapprehension of precepts and observances, and forms of greed, hate, and delusion that lead to rebirth in places of loss. ",
+            "matched": true
+          }
+        },
+        "score": 2.167,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 6\n9. Kühle\n89. Nicht aufgeben",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 12,
+          "de": 11,
+          "en": 11
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn33",
+        "lang": "de",
+        "segMap": {
+          "dn33:1.10.41": {
+            "scid": "dn33:1.10.41",
+            "pli": "sakkāyadiṭṭhi, vicikicchā, sīlabbataparāmāso. ",
+            "de": "<span class=\"ebt-matched\">Glaube an eine Persönlichkeit</span>, Zweifel und falsches Verständnis von Regeln und Gelübden. ",
+            "en": "identity view, doubt, and misapprehension of precepts and observances. ",
+            "matched": true
+          },
+          "dn33:2.1.21": {
+            "scid": "dn33:2.1.21",
+            "pli": "sakkāyadiṭṭhi, vicikicchā, sīlabbataparāmāso, kāmacchando, byāpādo. ",
+            "de": "<span class=\"ebt-matched\">Glaube an eine Persönlichkeit</span>, Zweifel, falsches Verständnis von Regeln und Gelübden, sinnliches Verlangen und böser Wille. ",
+            "en": "identity view, doubt, misapprehension of precepts and observances, sensual desire, and ill will. ",
+            "matched": true
+          }
+        },
+        "score": 2.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 33\nIm Chor aufsagen",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 1167,
+          "de": 1166,
+          "en": 1166
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an6/an6.90_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an6/an6.90_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an6/an6.90_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an6.90",
+        "lang": "de",
+        "segMap": {
+          "an6.90:1.3": {
+            "scid": "an6.90:1.3",
+            "pli": "Sakkāyadiṭṭhi, vicikicchā, sīlabbataparāmāso, apāyagamanīyo rāgo, apāyagamanīyo doso, apāyagamanīyo moho. ",
+            "de": "<span class=\"ebt-matched\">Glaube an eine Persönlichkeit</span>, Zweifel, falsches Verständnis von Regeln und Gelübden und Formen von Gier, Hass und Täuschung, die zu Wiedergeburt an verlorenen Orten führen. ",
+            "en": "Identity view, doubt, misapprehension of precepts and observances, and forms of greed, hate, and delusion that lead to rebirth in places of loss. ",
+            "matched": true
+          }
+        },
+        "score": 1.125,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 6\n9. Kühle\n90. Aufgegeben",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 8,
+          "de": 7,
+          "en": 7
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an6/an6.91_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an6/an6.91_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an6/an6.91_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an6.91",
+        "lang": "de",
+        "segMap": {
+          "an6.91:1.3": {
+            "scid": "an6.91:1.3",
+            "pli": "Sakkāyadiṭṭhiṁ, vicikicchaṁ, sīlabbataparāmāsaṁ, apāyagamanīyaṁ rāgaṁ, apāyagamanīyaṁ dosaṁ, apāyagamanīyaṁ mohaṁ. ",
+            "de": "<span class=\"ebt-matched\">Glaube an eine Persönlichkeit</span>, Zweifel, falsches Verständnis von Regeln und Gelübden und Formen von Gier, Hass und Täuschung, die zu Wiedergeburt an verlorenen Orten führen. ",
+            "en": "Identity view, doubt, misapprehension of precepts and observances, and forms of greed, hate, and delusion that lead to rebirth in places of loss. ",
+            "matched": true
+          }
+        },
+        "score": 1.125,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 6\n9. Kühle\n91. Kann nicht hervorbringen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 8,
+          "de": 7,
+          "en": 7
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an7/an7.85_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an7/an7.85_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an7/an7.85_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an7.85",
+        "lang": "de",
+        "segMap": {
+          "an7.85:1.3": {
+            "scid": "an7.85:1.3",
+            "pli": "Sakkāyadiṭṭhi bhinnā hoti, vicikicchā bhinnā hoti, sīlabbataparāmāso bhinno hoti, rāgo bhinno hoti, doso bhinno hoti, moho bhinno hoti, māno bhinno hoti. ",
+            "de": "<span class=\"ebt-matched\">Glaube an eine Persönlichkeit</span>, Zweifel, falsches Verständnis von Regeln und Gelübden, Gier, Hass, Täuschung und Einbildung. ",
+            "en": "Identity view, doubt, misapprehension of precepts and observances, greed, hate, delusion, and conceit. ",
+            "matched": true
+          }
+        },
+        "score": 1.125,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 7\n9. Asketen\n85. Mönch oder Nonne",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 8,
+          "de": 7,
+          "en": 7
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an9/an9.67_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an9/an9.67_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an9/an9.67_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an9.67",
+        "lang": "de",
+        "segMap": {
+          "an9.67:1.3": {
+            "scid": "an9.67:1.3",
+            "pli": "Sakkāyadiṭṭhi, vicikicchā, sīlabbataparāmāso, kāmacchando, byāpādo—",
+            "de": "<span class=\"ebt-matched\">Glaube an eine Persönlichkeit</span>, Zweifel, falsches Verständnis von Regeln und Gelübden, sinnliches Verlangen und böser Wille. ",
+            "en": "Identity view, doubt, misapprehension of precepts and observances, sensual desire, and ill will. ",
+            "matched": true
+          }
+        },
+        "score": 1.111,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 9\n7. Achtsamkeitsmeditation\n67. Niedere Fesseln",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 9,
+          "de": 8,
+          "en": 8
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an3/an3.94_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an3/an3.94_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an3/an3.94_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an3.94",
+        "lang": "de",
+        "segMap": {
+          "an3.94:2.2": {
+            "scid": "an3.94:2.2",
+            "pli": "sakkāyadiṭṭhi, vicikicchā, sīlabbataparāmāso. ",
+            "de": "<span class=\"ebt-matched\">Glaube an eine Persönlichkeit</span>, Zweifel und falsches Verständnis von Regeln und Gelübden. ",
+            "en": "identity view, doubt, and misapprehension of precepts and observances. ",
+            "matched": true
+          }
+        },
+        "score": 1.1,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 3\n10. Ein Salzklümpchen\n94. Frühling",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 10,
+          "de": 9,
+          "en": 9
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.13_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.13_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.13_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.13",
+        "lang": "de",
+        "segMap": {
+          "an10.13:1.5": {
+            "scid": "an10.13:1.5",
+            "pli": "Sakkāyadiṭṭhi, vicikicchā, sīlabbataparāmāso, kāmacchando, byāpādo—",
+            "de": "<span class=\"ebt-matched\">Glaube an eine Persönlichkeit</span>, Zweifel, falsches Verständnis von Regeln und Gelübden, sinnliches Verlangen und böser Wille. ",
+            "en": "Identity view, doubt, misapprehension of precepts and observances, sensual desire, and ill will. ",
+            "matched": true
+          }
+        },
+        "score": 1.071,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10\n2. Ein Beschützer\n13. Fesseln",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 14,
+          "de": 13,
+          "en": 13
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thig/thig6.7_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thig/thig6.7_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thig/thig6.7_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thig6.7",
+        "lang": "de",
+        "segMap": {
+          "thig6.7:3.2": {
+            "scid": "thig6.7:3.2",
+            "pli": "sakkāyadiṭṭhimeva ca;",
+            "de": "<span class=\"ebt-matched\">Glaube an eine Persönlichkeit</span>, ",
+            "en": "and identity view;",
+            "matched": true
+          }
+        },
+        "score": 1.036,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Nonnen\nDas Sechserbuch\nGuttā",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 28,
+          "de": 27,
+          "en": 27
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/kp/kp6_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/kp/kp6_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/kp/kp6_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "kp6",
+        "lang": "de",
+        "segMap": {
+          "kp6:10.3": {
+            "scid": "kp6:10.3",
+            "pli": "Sakkāyadiṭṭhī vicikicchitañca,",
+            "de": "<span class=\"ebt-matched\">Glaube an eine Persönlichkeit</span>, Zweifel ",
+            "en": "identity view, doubt, and any",
+            "matched": true
+          }
+        },
+        "score": 1.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Grundlegende Ausschnitte\nJuwelen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 92,
+          "de": 91,
+          "en": 91
+        }
+      }
+    ]
   }
 }

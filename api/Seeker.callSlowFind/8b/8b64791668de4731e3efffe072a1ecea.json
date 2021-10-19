@@ -29,11 +29,84 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "eats meat",
-    "method": "keywords",
-    "resultPattern": "\\beats|\\bmeat",
-    "segsMatched": 0,
-    "bilaraPaths": [],
-    "suttaRefs": [],
-    "mlDocs": []
+    "method": "phrase",
+    "resultPattern": "\\beats meat",
+    "segsMatched": 3,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an8/an8.12_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an8/an8.12_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn55_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn55_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an8.12/en/sujato",
+      "mn55/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.12_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an8/an8.12_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an8.12",
+        "lang": "en",
+        "segMap": {
+          "an8.12:31.4": {
+            "scid": "an8.12:31.4",
+            "pli": "Taṁ samaṇo gotamo jānaṁ uddissakataṁ maṁsaṁ paribhuñjati paṭiccakamman”ti. ",
+            "en": "The ascetic Gotama knowingly <span class=\"ebt-matched\">eats meat</span> prepared specially for him: this is a deed he caused.” ",
+            "matched": true
+          },
+          "an8.12:32.5": {
+            "scid": "an8.12:32.5",
+            "pli": "Taṁ samaṇo gotamo jānaṁ uddissakataṁ maṁsaṁ paribhuñjati paṭiccakamman’ti. ",
+            "en": "The ascetic Gotama knowingly <span class=\"ebt-matched\">eats meat</span> prepared specially for him: this is a deed he caused.’” ",
+            "matched": true
+          }
+        },
+        "score": 2.013,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 8\n2. The Great Chapter\n12. With Sīha",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 152,
+          "en": 151
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn55_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn55_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn55",
+        "lang": "en",
+        "segMap": {
+          "mn55:3.2": {
+            "scid": "mn55:3.2",
+            "pli": "‘samaṇaṁ gotamaṁ uddissa pāṇaṁ ārabhanti, taṁ samaṇo gotamo jānaṁ uddissakataṁ maṁsaṁ paribhuñjati paṭiccakamman’ti. ",
+            "en": "‘They slaughter living creatures specially for the ascetic Gotama. The ascetic Gotama knowingly <span class=\"ebt-matched\">eats meat</span> prepared on purpose for him: this is a deed he caused.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.012,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Middle Discourses 55\nWith Jīvaka",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 80,
+          "en": 79
+        }
+      }
+    ]
   }
 }

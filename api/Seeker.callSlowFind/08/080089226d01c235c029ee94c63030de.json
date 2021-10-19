@@ -29,11 +29,960 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "can expect growth",
-    "method": "keywords",
-    "resultPattern": "\\bcan|\\bexpect|\\bgrowth",
-    "segsMatched": 0,
-    "bilaraPaths": [],
-    "suttaRefs": [],
-    "mlDocs": []
+    "method": "phrase",
+    "resultPattern": "\\bcan expect growth",
+    "segsMatched": 84,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an7/an7.22_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an7/an7.22_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an7/an7.23_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an7/an7.23_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an7/an7.21_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an7/an7.21_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.68_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an10/an10.68_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.67_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an10/an10.67_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn16/sn16.7_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn16/sn16.7_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an7/an7.24_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an7/an7.24_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.14_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an10/an10.14_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an7/an7.26_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an7/an7.26_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an7/an7.25_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an7/an7.25_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an6/an6.84_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an6/an6.84_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn47/sn47.47_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn47/sn47.47_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn47/sn47.46_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn47/sn47.46_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn47/sn47.3_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn47/sn47.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn47/sn47.15_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn47/sn47.15_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an7/an7.27_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an7/an7.27_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "dn16/en/sujato",
+      "an7.22/en/sujato",
+      "an7.23/en/sujato",
+      "an7.21/en/sujato",
+      "an10.68/en/sujato",
+      "an10.67/en/sujato",
+      "sn16.7/en/sujato",
+      "an7.24/en/sujato",
+      "an10.14/en/sujato",
+      "an7.26/en/sujato",
+      "an7.25/en/sujato",
+      "an6.84/en/sujato",
+      "sn47.47/en/sujato",
+      "sn47.46/en/sujato",
+      "sn47.3/en/sujato",
+      "sn47.15/en/sujato",
+      "an7.27/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
+          "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn16",
+        "lang": "en",
+        "segMap": {
+          "dn16:1.4.5": {
+            "scid": "dn16:1.4.5",
+            "pli": "“Yāvakīvañca, ānanda, vajjī abhiṇhaṁ sannipātā sannipātabahulā bhavissanti, vuddhiyeva, ānanda, vajjīnaṁ pāṭikaṅkhā, no parihāni. ",
+            "en": "“As long as the Vajjis meet frequently and have many meetings, they <span class=\"ebt-matched\">can expect growth</span>, not decline. ",
+            "matched": true
+          },
+          "dn16:1.4.8": {
+            "scid": "dn16:1.4.8",
+            "pli": "“Yāvakīvañca, ānanda, vajjī samaggā sannipatissanti, samaggā vuṭṭhahissanti, samaggā vajjikaraṇīyāni karissanti, vuddhiyeva, ānanda, vajjīnaṁ pāṭikaṅkhā, no parihāni. ",
+            "en": "“As long as the Vajjis meet in harmony, leave in harmony, and carry on their business in harmony, they <span class=\"ebt-matched\">can expect growth</span>, not decline. ",
+            "matched": true
+          },
+          "dn16:1.4.11": {
+            "scid": "dn16:1.4.11",
+            "pli": "“Yāvakīvañca, ānanda, vajjī apaññattaṁ na paññapessanti, paññattaṁ na samucchindissanti, yathāpaññatte porāṇe vajjidhamme samādāya vattissanti, vuddhiyeva, ānanda, vajjīnaṁ pāṭikaṅkhā, no parihāni. ",
+            "en": "“As long as the Vajjis don’t make new decrees or abolish existing decrees, but proceed having undertaken the traditional Vajjian principles as they have been decreed, they <span class=\"ebt-matched\">can expect growth</span>, not decline. ",
+            "matched": true
+          },
+          "dn16:1.4.14": {
+            "scid": "dn16:1.4.14",
+            "pli": "“Yāvakīvañca, ānanda, vajjī ye te vajjīnaṁ vajjimahallakā, te sakkarissanti garuṁ karissanti mānessanti pūjessanti, tesañca sotabbaṁ maññissanti, vuddhiyeva, ānanda, vajjīnaṁ pāṭikaṅkhā, no parihāni. ",
+            "en": "“As long as the Vajjis honor, respect, esteem, and venerate Vajjian elders, and think them worth listening to, they <span class=\"ebt-matched\">can expect growth</span>, not decline. ",
+            "matched": true
+          },
+          "dn16:1.4.17": {
+            "scid": "dn16:1.4.17",
+            "pli": "“Yāvakīvañca, ānanda, vajjī yā tā kulitthiyo kulakumāriyo, tā na okkassa pasayha vāsessanti, vuddhiyeva, ānanda, vajjīnaṁ pāṭikaṅkhā, no parihāni. ",
+            "en": "“As long as the Vajjis don’t rape or abduct women or girls from their families and force them to live with them, they <span class=\"ebt-matched\">can expect growth</span>, not decline. ",
+            "matched": true
+          },
+          "dn16:1.4.20": {
+            "scid": "dn16:1.4.20",
+            "pli": "“Yāvakīvañca, ānanda, vajjī yāni tāni vajjīnaṁ vajjicetiyāni abbhantarāni ceva bāhirāni ca, tāni sakkarissanti garuṁ karissanti mānessanti pūjessanti, tesañca dinnapubbaṁ katapubbaṁ dhammikaṁ baliṁ no parihāpessanti, vuddhiyeva, ānanda, vajjīnaṁ pāṭikaṅkhā, no parihāni. ",
+            "en": "“As long as the Vajjis honor, respect, esteem, and venerate the Vajjian shrines, whether inner or outer, not neglecting the proper spirit-offerings that were given and made in the past, they <span class=\"ebt-matched\">can expect growth</span>, not decline. ",
+            "matched": true
+          },
+          "dn16:1.4.23": {
+            "scid": "dn16:1.4.23",
+            "pli": "“Yāvakīvañca, ānanda, vajjīnaṁ arahantesu dhammikā rakkhāvaraṇagutti susaṁvihitā bhavissati, kinti anāgatā ca arahanto vijitaṁ āgaccheyyuṁ, āgatā ca arahanto vijite phāsu vihareyyunti. Vuddhiyeva, ānanda, vajjīnaṁ pāṭikaṅkhā, no parihānī”ti. ",
+            "en": "“As long as the Vajjis organize proper protection, shelter, and security for perfected ones, so that more perfected ones might come to the realm and those already here may live in comfort, they <span class=\"ebt-matched\">can expect growth</span>, not decline.” ",
+            "matched": true
+          },
+          "dn16:1.5.4": {
+            "scid": "dn16:1.5.4",
+            "pli": "Yāvakīvañca, brāhmaṇa, ime satta aparihāniyā dhammā vajjīsu ṭhassanti, imesu ca sattasu aparihāniyesu dhammesu vajjī sandississanti, vuddhiyeva, brāhmaṇa, vajjīnaṁ pāṭikaṅkhā, no parihānī”ti. ",
+            "en": "As long as these seven principles that prevent decline last among the Vajjis, and as long as the Vajjis are seen following them, they <span class=\"ebt-matched\">can expect growth</span>, not decline.” ",
+            "matched": true
+          },
+          "dn16:1.5.6": {
+            "scid": "dn16:1.5.6",
+            "pli": "“ekamekenapi, bho gotama, aparihāniyena dhammena samannāgatānaṁ vajjīnaṁ vuddhiyeva pāṭikaṅkhā, no parihāni. ",
+            "en": "“Master Gotama, if the Vajjis follow even a single one of these principles they <span class=\"ebt-matched\">can expect growth</span>, not decline. ",
+            "matched": true
+          },
+          "dn16:1.6.11": {
+            "scid": "dn16:1.6.11",
+            "pli": "“Yāvakīvañca, bhikkhave, bhikkhū abhiṇhaṁ sannipātā sannipātabahulā bhavissanti, vuddhiyeva, bhikkhave, bhikkhūnaṁ pāṭikaṅkhā, no parihāni. ",
+            "en": "“As long as the mendicants meet frequently and have many meetings, they <span class=\"ebt-matched\">can expect growth</span>, not decline. ",
+            "matched": true
+          },
+          "dn16:1.6.12": {
+            "scid": "dn16:1.6.12",
+            "pli": "Yāvakīvañca, bhikkhave, bhikkhū samaggā sannipatissanti, samaggā vuṭṭhahissanti, samaggā saṅghakaraṇīyāni karissanti, vuddhiyeva, bhikkhave, bhikkhūnaṁ pāṭikaṅkhā, no parihāni. ",
+            "en": "As long as the mendicants meet in harmony, leave in harmony, and carry on their business in harmony, they <span class=\"ebt-matched\">can expect growth</span>, not decline. ",
+            "matched": true
+          },
+          "dn16:1.6.13": {
+            "scid": "dn16:1.6.13",
+            "pli": "Yāvakīvañca, bhikkhave, bhikkhū apaññattaṁ na paññapessanti, paññattaṁ na samucchindissanti, yathāpaññattesu sikkhāpadesu samādāya vattissanti, vuddhiyeva, bhikkhave, bhikkhūnaṁ pāṭikaṅkhā, no parihāni. ",
+            "en": "As long as the mendicants don’t make new decrees or abolish existing decrees, but undertake and follow the training rules as they have been decreed, they <span class=\"ebt-matched\">can expect growth</span>, not decline. ",
+            "matched": true
+          },
+          "dn16:1.6.14": {
+            "scid": "dn16:1.6.14",
+            "pli": "Yāvakīvañca, bhikkhave, bhikkhū ye te bhikkhū therā rattaññū cirapabbajitā saṅghapitaro saṅghapariṇāyakā, te sakkarissanti garuṁ karissanti mānessanti pūjessanti, tesañca sotabbaṁ maññissanti, vuddhiyeva, bhikkhave, bhikkhūnaṁ pāṭikaṅkhā, no parihāni. ",
+            "en": "As long as the mendicants honor, respect, esteem, and venerate the senior mendicants—of long standing, long gone forth, fathers and leaders of the Saṅgha—and think them worth listening to, they <span class=\"ebt-matched\">can expect growth</span>, not decline. ",
+            "matched": true
+          },
+          "dn16:1.6.15": {
+            "scid": "dn16:1.6.15",
+            "pli": "Yāvakīvañca, bhikkhave, bhikkhū uppannāya taṇhāya ponobbhavikāya na vasaṁ gacchissanti, vuddhiyeva, bhikkhave, bhikkhūnaṁ pāṭikaṅkhā, no parihāni. ",
+            "en": "As long as the mendicants don’t fall under the sway of arisen craving for future lives, they <span class=\"ebt-matched\">can expect growth</span>, not decline. ",
+            "matched": true
+          },
+          "dn16:1.6.16": {
+            "scid": "dn16:1.6.16",
+            "pli": "Yāvakīvañca, bhikkhave, bhikkhū āraññakesu senāsanesu sāpekkhā bhavissanti, vuddhiyeva, bhikkhave, bhikkhūnaṁ pāṭikaṅkhā, no parihāni. ",
+            "en": "As long as the mendicants take care to live in wilderness lodgings, they <span class=\"ebt-matched\">can expect growth</span>, not decline. ",
+            "matched": true
+          },
+          "dn16:1.6.17": {
+            "scid": "dn16:1.6.17",
+            "pli": "Yāvakīvañca, bhikkhave, bhikkhū paccattaññeva satiṁ upaṭṭhapessanti: ‘kinti anāgatā ca pesalā sabrahmacārī āgaccheyyuṁ, āgatā ca pesalā sabrahmacārī phāsu vihareyyun’ti. Vuddhiyeva, bhikkhave, bhikkhūnaṁ pāṭikaṅkhā, no parihāni. ",
+            "en": "As long as the mendicants individually establish mindfulness, so that more good-hearted spiritual companions might come, and those that have already come may live comfortably, they <span class=\"ebt-matched\">can expect growth</span>, not decline. ",
+            "matched": true
+          },
+          "dn16:1.6.18": {
+            "scid": "dn16:1.6.18",
+            "pli": "Yāvakīvañca, bhikkhave, ime satta aparihāniyā dhammā bhikkhūsu ṭhassanti, imesu ca sattasu aparihāniyesu dhammesu bhikkhū sandississanti, vuddhiyeva, bhikkhave, bhikkhūnaṁ pāṭikaṅkhā, no parihāni. ",
+            "en": "As long as these seven principles that prevent decline last among the mendicants, and as long as the mendicants are seen following them, they <span class=\"ebt-matched\">can expect growth</span>, not decline. ",
+            "matched": true
+          },
+          "dn16:1.7.4": {
+            "scid": "dn16:1.7.4",
+            "pli": "“Yāvakīvañca, bhikkhave, bhikkhū na kammārāmā bhavissanti na kammaratā na kammārāmatamanuyuttā, vuddhiyeva, bhikkhave, bhikkhūnaṁ pāṭikaṅkhā, no parihāni. ",
+            "en": "As long as the mendicants don’t relish work, loving it and liking to relish it, they <span class=\"ebt-matched\">can expect growth</span>, not decline. ",
+            "matched": true
+          },
+          "dn16:1.7.10": {
+            "scid": "dn16:1.7.10",
+            "pli": "Yāvakīvañca, bhikkhave, bhikkhū na oramattakena visesādhigamena antarāvosānaṁ āpajjissanti, vuddhiyeva, bhikkhave, bhikkhūnaṁ pāṭikaṅkhā, no parihāni. ",
+            "en": "they don’t stop half-way after achieving some insignificant distinction, they <span class=\"ebt-matched\">can expect growth</span>, not decline. ",
+            "matched": true
+          },
+          "dn16:1.8.1": {
+            "scid": "dn16:1.8.1",
+            "pli": "Yāvakīvañca, bhikkhave, ime satta aparihāniyā dhammā bhikkhūsu ṭhassanti, imesu ca sattasu aparihāniyesu dhammesu bhikkhū sandississanti, vuddhiyeva, bhikkhave, bhikkhūnaṁ pāṭikaṅkhā, no parihāni. ",
+            "en": "As long as these seven principles that prevent decline last among the mendicants, and as long as the mendicants are seen following them, they <span class=\"ebt-matched\">can expect growth</span>, not decline. ",
+            "matched": true
+          },
+          "dn16:1.8.9": {
+            "scid": "dn16:1.8.9",
+            "pli": "paññavanto bhavissanti, vuddhiyeva, bhikkhave, bhikkhūnaṁ pāṭikaṅkhā, no parihāni. ",
+            "en": "wise, they <span class=\"ebt-matched\">can expect growth</span>, not decline. ",
+            "matched": true
+          },
+          "dn16:1.8.10": {
+            "scid": "dn16:1.8.10",
+            "pli": "Yāvakīvañca, bhikkhave, ime satta aparihāniyā dhammā bhikkhūsu ṭhassanti, imesu ca sattasu aparihāniyesu dhammesu bhikkhū sandississanti, vuddhiyeva, bhikkhave, bhikkhūnaṁ pāṭikaṅkhā, no parihāni. ",
+            "en": "As long as these seven principles that prevent decline last among the mendicants, and as long as the mendicants are seen following them, they <span class=\"ebt-matched\">can expect growth</span>, not decline. ",
+            "matched": true
+          },
+          "dn16:1.9.7": {
+            "scid": "dn16:1.9.7",
+            "pli": "upekkhāsambojjhaṅgaṁ bhāvessanti, vuddhiyeva, bhikkhave, bhikkhūnaṁ pāṭikaṅkhā, no parihāni. ",
+            "en": "equanimity, they <span class=\"ebt-matched\">can expect growth</span>, not decline. ",
+            "matched": true
+          },
+          "dn16:1.10.1": {
+            "scid": "dn16:1.10.1",
+            "pli": "Yāvakīvañca, bhikkhave, ime satta aparihāniyā dhammā bhikkhūsu ṭhassanti, imesu ca sattasu aparihāniyesu dhammesu bhikkhū sandississanti, vuddhiyeva, bhikkhave, bhikkhūnaṁ pāṭikaṅkhā no parihāni. ",
+            "en": "As long as these seven principles that prevent decline last among the mendicants, and as long as the mendicants are seen following them, they <span class=\"ebt-matched\">can expect growth</span>, not decline. ",
+            "matched": true
+          },
+          "dn16:1.10.11": {
+            "scid": "dn16:1.10.11",
+            "pli": "nirodhasaññaṁ bhāvessanti, vuddhiyeva, bhikkhave, bhikkhūnaṁ pāṭikaṅkhā, no parihāni. ",
+            "en": "cessation, they <span class=\"ebt-matched\">can expect growth</span>, not decline. ",
+            "matched": true
+          },
+          "dn16:1.10.12": {
+            "scid": "dn16:1.10.12",
+            "pli": "Yāvakīvañca, bhikkhave, ime satta aparihāniyā dhammā bhikkhūsu ṭhassanti, imesu ca sattasu aparihāniyesu dhammesu bhikkhū sandississanti, vuddhiyeva, bhikkhave, bhikkhūnaṁ pāṭikaṅkhā, no parihāni. ",
+            "en": "As long as these seven principles that prevent decline last among the mendicants, and as long as the mendicants are seen following them, they <span class=\"ebt-matched\">can expect growth</span>, not decline. ",
+            "matched": true
+          },
+          "dn16:1.11.6": {
+            "scid": "dn16:1.11.6",
+            "pli": "mettaṁ manokammaṁ paccupaṭṭhāpessanti sabrahmacārīsu āvi ceva raho ca, vuddhiyeva, bhikkhave, bhikkhūnaṁ pāṭikaṅkhā, no parihāni. ",
+            "en": "and mental kindness both in public and in private, they <span class=\"ebt-matched\">can expect growth</span>, not decline. ",
+            "matched": true
+          },
+          "dn16:1.11.7": {
+            "scid": "dn16:1.11.7",
+            "pli": "Yāvakīvañca, bhikkhave, bhikkhū, ye te lābhā dhammikā dhammaladdhā antamaso pattapariyāpannamattampi tathārūpehi lābhehi appaṭivibhattabhogī bhavissanti sīlavantehi sabrahmacārīhi sādhāraṇabhogī, vuddhiyeva, bhikkhave, bhikkhūnaṁ pāṭikaṅkhā, no parihāni. ",
+            "en": "As long as the mendicants share without reservation any material possessions they have gained by legitimate means, even the food placed in the alms-bowl, using them in common with their ethical spiritual companions, they <span class=\"ebt-matched\">can expect growth</span>, not decline. ",
+            "matched": true
+          },
+          "dn16:1.11.8": {
+            "scid": "dn16:1.11.8",
+            "pli": "Yāvakīvañca, bhikkhave, bhikkhū yāni tāni sīlāni akhaṇḍāni acchiddāni asabalāni akammāsāni bhujissāni viññūpasatthāni aparāmaṭṭhāni samādhisaṁvattanikāni tathārūpesu sīlesu sīlasāmaññagatā viharissanti sabrahmacārīhi āvi ceva raho ca, vuddhiyeva, bhikkhave, bhikkhūnaṁ pāṭikaṅkhā, no parihāni. ",
+            "en": "As long as the mendicants live according to the precepts shared with their spiritual companions, both in public and in private—such precepts as are unbroken, impeccable, spotless, and unmarred, liberating, praised by sensible people, not mistaken, and leading to immersion—they <span class=\"ebt-matched\">can expect growth</span>, not decline. ",
+            "matched": true
+          },
+          "dn16:1.11.9": {
+            "scid": "dn16:1.11.9",
+            "pli": "Yāvakīvañca, bhikkhave, bhikkhū yāyaṁ diṭṭhi ariyā niyyānikā, niyyāti takkarassa sammā dukkhakkhayāya, tathārūpāya diṭṭhiyā diṭṭhisāmaññagatā viharissanti sabrahmacārīhi āvi ceva raho ca, vuddhiyeva, bhikkhave, bhikkhūnaṁ pāṭikaṅkhā, no parihāni. ",
+            "en": "As long as the mendicants live according to the view shared with their spiritual companions, both in public and in private—the view that is noble and emancipating, and leads one who practices it to the complete end of suffering—they <span class=\"ebt-matched\">can expect growth</span>, not decline. ",
+            "matched": true
+          },
+          "dn16:1.11.10": {
+            "scid": "dn16:1.11.10",
+            "pli": "Yāvakīvañca, bhikkhave, ime cha aparihāniyā dhammā bhikkhūsu ṭhassanti, imesu ca chasu aparihāniyesu dhammesu bhikkhū sandississanti, vuddhiyeva, bhikkhave, bhikkhūnaṁ pāṭikaṅkhā, no parihānī”ti. ",
+            "en": "As long as these six principles that prevent decline last among the mendicants, and as long as the mendicants are seen following them, they <span class=\"ebt-matched\">can expect growth</span>, not decline.” ",
+            "matched": true
+          }
+        },
+        "score": 31.019,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Long Discourses 16\nThe Great Discourse on the Buddha’s Extinguishment",
+        "segsMatched": 31,
+        "langSegs": {
+          "pli": 1665,
+          "en": 1664
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an7/an7.22_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an7/an7.22_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an7.22",
+        "lang": "en",
+        "segMap": {
+          "an7.22:4.5": {
+            "scid": "an7.22:4.5",
+            "pli": "“Yāvakīvañca, ānanda, vajjī abhiṇhaṁ sannipātā bhavissanti sannipātabahulā; vuddhiyeva, ānanda, vajjīnaṁ pāṭikaṅkhā, no parihāni. ",
+            "en": "“As long as the Vajjis meet frequently and have many meetings, they <span class=\"ebt-matched\">can expect growth</span>, not decline. ",
+            "matched": true
+          },
+          "an7.22:5.3": {
+            "scid": "an7.22:5.3",
+            "pli": "“Yāvakīvañca, ānanda, vajjī samaggā sannipatissanti, samaggā vuṭṭhahissanti, samaggā vajjikaraṇīyāni karissanti; vuddhiyeva, ānanda, vajjīnaṁ pāṭikaṅkhā, no parihāni. ",
+            "en": "“As long as the Vajjis meet in harmony, leave in harmony, and carry on their business in harmony, they <span class=\"ebt-matched\">can expect growth</span>, not decline. ",
+            "matched": true
+          },
+          "an7.22:6.3": {
+            "scid": "an7.22:6.3",
+            "pli": "“Yāvakīvañca, ānanda, vajjī apaññattaṁ na paññāpessanti, paññattaṁ na samucchindissanti, yathāpaññatte porāṇe vajjidhamme samādāya vattissanti; vuddhiyeva, ānanda, vajjīnaṁ pāṭikaṅkhā, no parihāni. ",
+            "en": "“As long as the Vajjis don’t make new decrees or abolish existing decrees, but proceed having undertaken the traditional Vajjian principles as they have been decreed, they <span class=\"ebt-matched\">can expect growth</span>, not decline. ",
+            "matched": true
+          },
+          "an7.22:7.3": {
+            "scid": "an7.22:7.3",
+            "pli": "“Yāvakīvañca, ānanda, vajjī ye te vajjīnaṁ vajjimahallakā te sakkarissanti garuṁ karissanti mānessanti pūjessanti, tesañca sotabbaṁ maññissanti; vuddhiyeva, ānanda, vajjīnaṁ pāṭikaṅkhā, no parihāni. ",
+            "en": "“As long as the Vajjis honor, respect, esteem, and venerate Vajjian elders, and think them worth listening to, they <span class=\"ebt-matched\">can expect growth</span>, not decline. ",
+            "matched": true
+          },
+          "an7.22:8.3": {
+            "scid": "an7.22:8.3",
+            "pli": "“Yāvakīvañca, ānanda, vajjī yā tā kulitthiyo kulakumāriyo tā na okassa pasayha vāsessanti; vuddhiyeva, ānanda, vajjīnaṁ pāṭikaṅkhā, no parihāni. ",
+            "en": "“As long as the Vajjis don’t rape or abduct women or girls from their families and force them to live with them, they <span class=\"ebt-matched\">can expect growth</span>, not decline. ",
+            "matched": true
+          },
+          "an7.22:9.3": {
+            "scid": "an7.22:9.3",
+            "pli": "“Yāvakīvañca, ānanda, vajjī yāni tāni vajjīnaṁ vajjicetiyāni abbhantarāni ceva bāhirāni ca tāni sakkarissanti garuṁ karissanti mānessanti pūjessanti, tesañca dinnapubbaṁ katapubbaṁ dhammikaṁ baliṁ no parihāpessanti; vuddhiyeva, ānanda, vajjīnaṁ pāṭikaṅkhā, no parihāni. ",
+            "en": "“As long as the Vajjis honor, respect, esteem, and venerate the Vajjian shrines, whether inner or outer, not neglecting the proper spirit-offerings that were given and made in the past, they <span class=\"ebt-matched\">can expect growth</span>, not decline. ",
+            "matched": true
+          },
+          "an7.22:10.3": {
+            "scid": "an7.22:10.3",
+            "pli": "“Yāvakīvañca, ānanda, vajjīnaṁ arahantesu dhammikā rakkhāvaraṇagutti susaṁvihitā bhavissati: ‘kinti anāgatā ca arahanto vijitaṁ āgaccheyyuṁ, āgatā ca arahanto vijite phāsuṁ vihareyyun’ti; vuddhiyeva, ānanda, vajjīnaṁ pāṭikaṅkhā, no parihānī”ti. ",
+            "en": "“As long as the Vajjis organize proper protection, shelter, and security for perfected ones, so that more perfected ones might come to the realm and those already here may live in comfort, they <span class=\"ebt-matched\">can expect growth</span>, not decline.” ",
+            "matched": true
+          },
+          "an7.22:11.4": {
+            "scid": "an7.22:11.4",
+            "pli": "Yāvakīvañca, brāhmaṇa, ime satta aparihāniyā dhammā vajjīsu ṭhassanti, imesu ca sattasu aparihāniyesu dhammesu vajjī sandississanti; vuddhiyeva, brāhmaṇa, vajjīnaṁ pāṭikaṅkhā, no parihānī”ti. ",
+            "en": "As long as these seven principles that prevent decline last among the Vajjis, and as long as the Vajjis are seen following them, they <span class=\"ebt-matched\">can expect growth</span>, not decline.” ",
+            "matched": true
+          },
+          "an7.22:12.1": {
+            "scid": "an7.22:12.1",
+            "pli": "“Ekamekenapi, bho gotama, aparihāniyena dhammena samannāgatānaṁ vajjīnaṁ vuddhiyeva pāṭikaṅkhā, no parihāni; ",
+            "en": "When the Buddha had spoken, Vassakāra said to him: “Master Gotama, if the Vajjis follow even a single one of these principles they <span class=\"ebt-matched\">can expect growth</span>, not decline. ",
+            "matched": true
+          }
+        },
+        "score": 9.158,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 7\n3. The Vajji Seven\n22. With Vassakāra",
+        "segsMatched": 9,
+        "langSegs": {
+          "pli": 57,
+          "en": 56
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an7/an7.23_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an7/an7.23_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an7.23",
+        "lang": "en",
+        "segMap": {
+          "an7.23:2.2": {
+            "scid": "an7.23:2.2",
+            "pli": "Yāvakīvañca, bhikkhave, bhikkhū abhiṇhaṁ sannipātā bhavissanti sannipātabahulā; vuddhiyeva, bhikkhave, bhikkhūnaṁ pāṭikaṅkhā, no parihāni. ",
+            "en": "As long as the mendicants meet frequently and have many meetings, they <span class=\"ebt-matched\">can expect growth</span>, not decline. ",
+            "matched": true
+          },
+          "an7.23:3.1": {
+            "scid": "an7.23:3.1",
+            "pli": "Yāvakīvañca, bhikkhave, bhikkhū samaggā sannipatissanti, samaggā vuṭṭhahissanti, samaggā saṅghakaraṇīyāni karissanti; vuddhiyeva, bhikkhave, bhikkhūnaṁ pāṭikaṅkhā, no parihāni. ",
+            "en": "As long as the mendicants meet in harmony, leave in harmony, and carry on their business in harmony, they <span class=\"ebt-matched\">can expect growth</span>, not decline. ",
+            "matched": true
+          },
+          "an7.23:4.1": {
+            "scid": "an7.23:4.1",
+            "pli": "Yāvakīvañca, bhikkhave, bhikkhū apaññattaṁ na paññāpessanti, paññattaṁ na samucchindissanti, yathāpaññattesu sikkhāpadesu samādāya vattissanti; vuddhiyeva, bhikkhave, bhikkhūnaṁ pāṭikaṅkhā, no parihāni. ",
+            "en": "As long as the mendicants don’t make new decrees or abolish existing decrees, but undertake and follow the training rules as they have been decreed, they <span class=\"ebt-matched\">can expect growth</span>, not decline. ",
+            "matched": true
+          },
+          "an7.23:5.1": {
+            "scid": "an7.23:5.1",
+            "pli": "Yāvakīvañca, bhikkhave, bhikkhū ye te bhikkhū therā rattaññū cirapabbajitā saṅghapitaro saṅghapariṇāyakā te sakkarissanti garuṁ karissanti mānessanti pūjessanti, tesañca sotabbaṁ maññissanti; vuddhiyeva, bhikkhave, bhikkhūnaṁ pāṭikaṅkhā, no parihāni. ",
+            "en": "As long as the mendicants honor, respect, esteem, and venerate the senior mendicants—of long standing, long gone forth, fathers and leaders of the Saṅgha—and think them worth listening to, they <span class=\"ebt-matched\">can expect growth</span>, not decline. ",
+            "matched": true
+          },
+          "an7.23:6.1": {
+            "scid": "an7.23:6.1",
+            "pli": "Yāvakīvañca, bhikkhave, bhikkhū uppannāya taṇhāya ponobhavikāya na vasaṁ gacchissanti; vuddhiyeva, bhikkhave, bhikkhūnaṁ pāṭikaṅkhā, no parihāni. ",
+            "en": "As long as the mendicants don’t fall under the sway of arisen craving for future lives, they <span class=\"ebt-matched\">can expect growth</span>, not decline. ",
+            "matched": true
+          },
+          "an7.23:7.1": {
+            "scid": "an7.23:7.1",
+            "pli": "Yāvakīvañca, bhikkhave, bhikkhū āraññakesu senāsanesu sāpekkhā bhavissanti; vuddhiyeva, bhikkhave, bhikkhūnaṁ pāṭikaṅkhā, no parihāni. ",
+            "en": "As long as the mendicants take care to live in wilderness lodgings, they <span class=\"ebt-matched\">can expect growth</span>, not decline. ",
+            "matched": true
+          },
+          "an7.23:8.1": {
+            "scid": "an7.23:8.1",
+            "pli": "Yāvakīvañca, bhikkhave, bhikkhū paccattaññeva satiṁ upaṭṭhāpessanti: ‘kinti anāgatā ca pesalā sabrahmacārī āgaccheyyuṁ, āgatā ca pesalā sabrahmacārī phāsuṁ vihareyyun’ti; vuddhiyeva, bhikkhave, bhikkhūnaṁ pāṭikaṅkhā, no parihāni. ",
+            "en": "As long as the mendicants individually establish mindfulness, so that more good-hearted spiritual companions might come, and those that have already come may live comfortably, they <span class=\"ebt-matched\">can expect growth</span>, not decline. ",
+            "matched": true
+          },
+          "an7.23:9.1": {
+            "scid": "an7.23:9.1",
+            "pli": "Yāvakīvañca, bhikkhave, ime satta aparihāniyā dhammā bhikkhūsu ṭhassanti, imesu ca sattasu aparihāniyesu dhammesu bhikkhū sandississanti; vuddhiyeva, bhikkhave, bhikkhūnaṁ pāṭikaṅkhā, no parihānī”ti. ",
+            "en": "As long as these seven principles that prevent decline last among the mendicants, and as long as the mendicants are seen following them, they <span class=\"ebt-matched\">can expect growth</span>, not decline.” ",
+            "matched": true
+          }
+        },
+        "score": 8.4,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 7\n3. The Vajji Seven\n23. Non-Decline for Mendicants (1st)",
+        "segsMatched": 8,
+        "langSegs": {
+          "pli": 20,
+          "en": 19
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an7/an7.21_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an7/an7.21_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an7.21",
+        "lang": "en",
+        "segMap": {
+          "an7.21:2.3": {
+            "scid": "an7.21:2.3",
+            "pli": "vuddhiyeva, licchavī, vajjīnaṁ pāṭikaṅkhā, no parihāni. ",
+            "en": "they <span class=\"ebt-matched\">can expect growth</span>, not decline. ",
+            "matched": true
+          },
+          "an7.21:3.2": {
+            "scid": "an7.21:3.2",
+            "pli": "vuddhiyeva, licchavī, vajjīnaṁ pāṭikaṅkhā, no parihāni. ",
+            "en": "they <span class=\"ebt-matched\">can expect growth</span>, not decline. ",
+            "matched": true
+          },
+          "an7.21:4.2": {
+            "scid": "an7.21:4.2",
+            "pli": "vuddhiyeva, licchavī, vajjīnaṁ pāṭikaṅkhā, no parihāni. ",
+            "en": "they <span class=\"ebt-matched\">can expect growth</span>, not decline. ",
+            "matched": true
+          },
+          "an7.21:5.2": {
+            "scid": "an7.21:5.2",
+            "pli": "vuddhiyeva, licchavī, vajjīnaṁ pāṭikaṅkhā, no parihāni. ",
+            "en": "they <span class=\"ebt-matched\">can expect growth</span>, not decline. ",
+            "matched": true
+          },
+          "an7.21:6.2": {
+            "scid": "an7.21:6.2",
+            "pli": "vuddhiyeva, licchavī, vajjīnaṁ pāṭikaṅkhā, no parihāni. ",
+            "en": "they <span class=\"ebt-matched\">can expect growth</span>, not decline. ",
+            "matched": true
+          },
+          "an7.21:7.2": {
+            "scid": "an7.21:7.2",
+            "pli": "vuddhiyeva, licchavī, vajjīnaṁ pāṭikaṅkhā, no parihāni. ",
+            "en": "they <span class=\"ebt-matched\">can expect growth</span>, not decline. ",
+            "matched": true
+          },
+          "an7.21:8.3": {
+            "scid": "an7.21:8.3",
+            "pli": "vuddhiyeva, licchavī, vajjīnaṁ pāṭikaṅkhā, no parihāni. ",
+            "en": "they <span class=\"ebt-matched\">can expect growth</span>, not decline. ",
+            "matched": true
+          },
+          "an7.21:9.2": {
+            "scid": "an7.21:9.2",
+            "pli": "vuddhiyeva, licchavī, vajjīnaṁ pāṭikaṅkhā, no parihānī”ti. ",
+            "en": "they <span class=\"ebt-matched\">can expect growth</span>, not decline.” ",
+            "matched": true
+          }
+        },
+        "score": 8.276,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 7\n3. The Vajji Seven\n21. At Sārandada",
+        "segsMatched": 8,
+        "langSegs": {
+          "pli": 29,
+          "en": 28
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.68_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an10/an10.68_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.68",
+        "lang": "en",
+        "segMap": {
+          "an10.68:5.9": {
+            "scid": "an10.68:5.9",
+            "pli": "appamādo atthi kusalesu dhammesu, tassa yā ratti vā divaso vā āgacchati, vuddhiyeva pāṭikaṅkhā kusalesu dhammesu no parihāni. ",
+            "en": "<span class=\"ebt-matched\">can expect growth</span>, not decline, in skillful qualities, whether by day or by night. ",
+            "matched": true
+          },
+          "an10.68:5.12": {
+            "scid": "an10.68:5.12",
+            "pli": "appamādo atthi kusalesu dhammesu, tassa yā ratti vā divaso vā āgacchati, vuddhiyeva pāṭikaṅkhā kusalesu dhammesu no parihānī”ti. ",
+            "en": "<span class=\"ebt-matched\">can expect growth</span>, not decline, in skillful qualities, whether by day or by night.” ",
+            "matched": true
+          },
+          "an10.68:7.9": {
+            "scid": "an10.68:7.9",
+            "pli": "appamādo atthi kusalesu dhammesu, tassa yā ratti vā divaso vā āgacchati, vuddhiyeva pāṭikaṅkhā kusalesu dhammesu no parihāni. ",
+            "en": "<span class=\"ebt-matched\">can expect growth</span>, not decline, in skillful qualities, whether by day or by night. ",
+            "matched": true
+          },
+          "an10.68:7.12": {
+            "scid": "an10.68:7.12",
+            "pli": "appamādo atthi kusalesu dhammesu, tassa yā ratti vā divaso vā āgacchati, vuddhiyeva pāṭikaṅkhā kusalesu dhammesu no parihānī”ti. ",
+            "en": "<span class=\"ebt-matched\">can expect growth</span>, not decline, in skillful qualities, whether by day or by night.” ",
+            "matched": true
+          }
+        },
+        "score": 4.054,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 10\n7. Pairs\n68. At Naḷakapāna (2nd)",
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 74,
+          "en": 73
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.67_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an10/an10.67_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.67",
+        "lang": "en",
+        "segMap": {
+          "an10.67:6.3": {
+            "scid": "an10.67:6.3",
+            "pli": "paññā atthi kusalesu dhammesu, tassa yā ratti vā divaso vā āgacchati, vuddhiyeva pāṭikaṅkhā kusalesu dhammesu no parihāni. ",
+            "en": "<span class=\"ebt-matched\">can expect growth</span>, not decline, in skillful qualities, whether by day or by night. ",
+            "matched": true
+          },
+          "an10.67:6.8": {
+            "scid": "an10.67:6.8",
+            "pli": "paññā atthi kusalesu dhammesu, tassa yā ratti vā divaso vā āgacchati, vuddhiyeva pāṭikaṅkhā kusalesu dhammesu no parihāni. ",
+            "en": "<span class=\"ebt-matched\">can expect growth</span>, not decline, in skillful qualities, whether by day or by night. ",
+            "matched": true
+          },
+          "an10.67:10.4": {
+            "scid": "an10.67:10.4",
+            "pli": "paññā atthi kusalesu dhammesu, tassa yā ratti vā divaso vā āgacchati, vuddhiyeva pāṭikaṅkhā kusalesu dhammesu no parihāni. ",
+            "en": "<span class=\"ebt-matched\">can expect growth</span>, not decline, in skillful qualities, whether by day or by night. ",
+            "matched": true
+          },
+          "an10.67:10.9": {
+            "scid": "an10.67:10.9",
+            "pli": "paññā atthi kusalesu dhammesu, tassa yā ratti vā divaso vā āgacchati, vuddhiyeva pāṭikaṅkhā kusalesu dhammesu no parihāni. ",
+            "en": "<span class=\"ebt-matched\">can expect growth</span>, not decline, in skillful qualities, whether by day or by night. ",
+            "matched": true
+          }
+        },
+        "score": 4.043,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 10\n7. Pairs\n67. At Naḷakapāna (1st)",
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 93,
+          "en": 92
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an7/an7.24_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an7/an7.24_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an7.24",
+        "lang": "en",
+        "segMap": {
+          "an7.24:2.1": {
+            "scid": "an7.24:2.1",
+            "pli": "Yāvakīvañca, bhikkhave, bhikkhū na kammārāmā bhavissanti, na kammaratā, na kammārāmataṁ anuyuttā; vuddhiyeva, bhikkhave, bhikkhūnaṁ pāṭikaṅkhā, no parihāni. ",
+            "en": "As long as the mendicants don’t relish work, loving it and liking to relish it, they <span class=\"ebt-matched\">can expect growth</span>, not decline. ",
+            "matched": true
+          },
+          "an7.24:3.6": {
+            "scid": "an7.24:3.6",
+            "pli": "na oramattakena visesādhigamena antarāvosānaṁ āpajjissanti; vuddhiyeva, bhikkhave, bhikkhūnaṁ pāṭikaṅkhā, no parihāni. ",
+            "en": "they don’t stop half-way after achieving some insignificant distinction, they <span class=\"ebt-matched\">can expect growth</span>, not decline. ",
+            "matched": true
+          },
+          "an7.24:4.1": {
+            "scid": "an7.24:4.1",
+            "pli": "Yāvakīvañca, bhikkhave, ime satta aparihāniyā dhammā bhikkhūsu ṭhassanti, imesu ca sattasu aparihāniyesu dhammesu bhikkhū sandississanti; vuddhiyeva, bhikkhave, bhikkhūnaṁ pāṭikaṅkhā, no parihānī”ti. ",
+            "en": "As long as these seven principles that prevent decline last among the mendicants, and as long as the mendicants are seen following them, they <span class=\"ebt-matched\">can expect growth</span>, not decline.” ",
+            "matched": true
+          }
+        },
+        "score": 3.2,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 7\n3. The Vajji Seven\n24. Non-Decline for Mendicants (2nd)",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 15,
+          "en": 14
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.14_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an10/an10.14_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.14",
+        "lang": "en",
+        "segMap": {
+          "an10.14:8.1": {
+            "scid": "an10.14:8.1",
+            "pli": "Yassa kassaci, bhikkhave, bhikkhussa vā bhikkhuniyā vā pañca cetokhilā pahīnā pañca cetasovinibandhā susamucchinnā, tassa yā ratti vā divaso vā āgacchati vuddhiyeva pāṭikaṅkhā kusalesu dhammesu no parihāni. ",
+            "en": "A monk or nun who has given up five kinds of emotional barrenness and has cut off five emotional shackles <span class=\"ebt-matched\">can expect growth</span>, not decline, in skillful qualities, whether by day or by night. ",
+            "matched": true
+          },
+          "an10.14:13.1": {
+            "scid": "an10.14:13.1",
+            "pli": "Yassa kassaci, bhikkhave, bhikkhussa vā bhikkhuniyā vā ime pañca cetokhilā pahīnā ime pañca cetasovinibandhā susamucchinnā, tassa yā ratti vā divaso vā āgacchati vuddhiyeva pāṭikaṅkhā kusalesu dhammesu no parihāni. ",
+            "en": "A monk or nun who has given up these five kinds of emotional barrenness and has cut off these five emotional shackles <span class=\"ebt-matched\">can expect growth</span>, not decline, in skillful qualities, whether by day or by night. ",
+            "matched": true
+          },
+          "an10.14:14.2": {
+            "scid": "an10.14:14.2",
+            "pli": "evamevaṁ kho, bhikkhave, yassa kassaci bhikkhussa vā bhikkhuniyā vā ime pañca cetokhilā pahīnā ime pañca cetasovinibandhā susamucchinnā, tassa yā ratti vā divaso vā āgacchati vuddhiyeva pāṭikaṅkhā kusalesu dhammesu no parihānī”ti. ",
+            "en": "In the same way, a monk or nun who has given up these five kinds of emotional barrenness and has cut off these five emotional shackles <span class=\"ebt-matched\">can expect growth</span>, not decline, in skillful qualities, whether by day or by night.” ",
+            "matched": true
+          }
+        },
+        "score": 3.054,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 10\n2. A Protector\n14. Emotional Barrenness",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 56,
+          "en": 55
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn16/sn16.7_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn16/sn16.7_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn16.7",
+        "lang": "en",
+        "segMap": {
+          "sn16.7:5.1": {
+            "scid": "sn16.7:5.1",
+            "pli": "Yassa kassaci, bhante, saddhā atthi kusalesu dhammesu, hirī atthi kusalesu dhammesu, ottappaṁ atthi kusalesu dhammesu, vīriyaṁ atthi kusalesu dhammesu, paññā atthi kusalesu dhammesu, tassa yā ratti vā divaso vā āgacchati, vuddhiyeva pāṭikaṅkhā kusalesu dhammesu, no parihāni. ",
+            "en": "Sir, whoever has faith, conscience, prudence, energy, and wisdom when it comes to skillful qualities <span class=\"ebt-matched\">can expect growth</span>, not decline, in skillful qualities, whether by day or by night. ",
+            "matched": true
+          },
+          "sn16.7:6.2": {
+            "scid": "sn16.7:6.2",
+            "pli": "Evameva kho, bhante, yassa kassaci saddhā atthi kusalesu dhammesu … ",
+            "en": "In the same way, whoever has faith, conscience, prudence, energy, and wisdom when it comes to skillful qualities <span class=\"ebt-matched\">can expect growth</span>, not decline, in skillful qualities, whether by day or by night. ",
+            "matched": true
+          },
+          "sn16.7:10.1": {
+            "scid": "sn16.7:10.1",
+            "pli": "Yassa kassaci, kassapa, saddhā atthi kusalesu dhammesu …pe… ",
+            "en": "Whoever has faith, conscience, prudence, energy, and wisdom when it comes to skillful qualities <span class=\"ebt-matched\">can expect growth</span>, not decline … ",
+            "matched": true
+          }
+        },
+        "score": 3.037,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 16\n1. Kassapa\n7. Advice (2nd)",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 81,
+          "en": 80
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an7/an7.25_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an7/an7.25_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an7.25",
+        "lang": "en",
+        "segMap": {
+          "an7.25:2.6": {
+            "scid": "an7.25:2.6",
+            "pli": "paññavanto bhavissanti; vuddhiyeva, bhikkhave, bhikkhūnaṁ pāṭikaṅkhā, no parihāni. ",
+            "en": "wise, they <span class=\"ebt-matched\">can expect growth</span>, not decline. ",
+            "matched": true
+          },
+          "an7.25:3.1": {
+            "scid": "an7.25:3.1",
+            "pli": "Yāvakīvañca, bhikkhave, ime satta aparihāniyā dhammā bhikkhūsu ṭhassanti, imesu ca sattasu aparihāniyesu dhammesu bhikkhū sandississanti; vuddhiyeva, bhikkhave, bhikkhūnaṁ pāṭikaṅkhā, no parihānī”ti. ",
+            "en": "As long as these seven principles that prevent decline last among the mendicants, and as long as the mendicants are seen following them, they <span class=\"ebt-matched\">can expect growth</span>, not decline.” ",
+            "matched": true
+          }
+        },
+        "score": 2.133,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 7\n3. The Vajji Seven\n25. Non-Decline for Mendicants (3rd)",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 15,
+          "en": 14
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an7/an7.26_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an7/an7.26_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an7.26",
+        "lang": "en",
+        "segMap": {
+          "an7.26:2.6": {
+            "scid": "an7.26:2.6",
+            "pli": "upekkhāsambojjhaṅgaṁ bhāvessanti; vuddhiyeva, bhikkhave, bhikkhūnaṁ pāṭikaṅkhā, no parihāni. ",
+            "en": "equanimity, they <span class=\"ebt-matched\">can expect growth</span>, not decline. ",
+            "matched": true
+          },
+          "an7.26:3.1": {
+            "scid": "an7.26:3.1",
+            "pli": "Yāvakīvañca, bhikkhave, ime satta aparihāniyā dhammā bhikkhūsu ṭhassanti, imesu ca sattasu aparihāniyesu dhammesu bhikkhū sandississanti; vuddhiyeva, bhikkhave, bhikkhūnaṁ pāṭikaṅkhā, no parihānī”ti. ",
+            "en": "As long as these seven principles that prevent decline last among the mendicants, and as long as the mendicants are seen following them, they <span class=\"ebt-matched\">can expect growth</span>, not decline.” ",
+            "matched": true
+          }
+        },
+        "score": 2.133,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 7\n3. The Vajji Seven\n26. Awakening Factors",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 15,
+          "en": 14
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an6/an6.84_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an6/an6.84_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an6.84",
+        "lang": "en",
+        "segMap": {
+          "an6.84:2.1": {
+            "scid": "an6.84:2.1",
+            "pli": "Chahi, bhikkhave, dhammehi samannāgatassa bhikkhuno yā ratti vā divaso vā āgacchati vuddhiyeva pāṭikaṅkhā kusalesu dhammesu, no parihāni. ",
+            "en": "A mendicant with six qualities <span class=\"ebt-matched\">can expect growth</span>, not decline, in skillful qualities, whether by day or by night. ",
+            "matched": true
+          },
+          "an6.84:2.4": {
+            "scid": "an6.84:2.4",
+            "pli": "Imehi kho, bhikkhave, chahi dhammehi samannāgatassa bhikkhuno yā ratti vā divaso vā āgacchati vuddhiyeva pāṭikaṅkhā, kusalesu dhammesu no parihānī”ti. ",
+            "en": "A mendicant with these six qualities <span class=\"ebt-matched\">can expect growth</span>, not decline, in skillful qualities, whether by day or by night.” ",
+            "matched": true
+          }
+        },
+        "score": 2.111,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 6\n8. Perfection\n84. Day and Night",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 18,
+          "en": 16
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an7/an7.27_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an7/an7.27_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an7.27",
+        "lang": "en",
+        "segMap": {
+          "an7.27:3.1": {
+            "scid": "an7.27:3.1",
+            "pli": "vuddhiyeva, bhikkhave, bhikkhūnaṁ pāṭikaṅkhā, no parihāni. Yāvakīvañca, bhikkhave, ime satta aparihāniyā dhammā bhikkhūsu ṭhassanti, imesu ca sattasu aparihāniyesu dhammesu, bhikkhū sandississanti; vuddhiyeva, bhikkhave, bhikkhūnaṁ pāṭikaṅkhā, no parihānī”ti. ",
+            "en": "they <span class=\"ebt-matched\">can expect growth</span>, not decline. As long as these seven principles that prevent decline last among the mendicants, and as long as the mendicants are seen following them, they <span class=\"ebt-matched\">can expect growth</span>, not decline.” ",
+            "matched": true
+          }
+        },
+        "score": 1.067,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 7\n3. The Vajji Seven\n27. Perceptions",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 15,
+          "en": 14
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn47/sn47.47_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn47/sn47.47_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn47.47",
+        "lang": "en",
+        "segMap": {
+          "sn47.47:2.6": {
+            "scid": "sn47.47:2.6",
+            "pli": "Yato kho tvaṁ, bhikkhu, sīlaṁ nissāya sīle patiṭṭhāya ime cattāro satipaṭṭhāne evaṁ bhāvessasi, tato tuyhaṁ, bhikkhu, yā ratti vā divaso vā āgamissati vuddhiyeva pāṭikaṅkhā kusalesu dhammesu, no parihānī”ti …pe… ",
+            "en": "When you develop the four kinds of mindfulness meditation in this way, depending on and grounded on ethics, you <span class=\"ebt-matched\">can expect growth</span>, not decline, in skillful qualities, whether by day or by night.” … ",
+            "matched": true
+          }
+        },
+        "score": 1.053,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 47\n5. The Deathless\n47. Bad Conduct",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 19,
+          "en": 18
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn47/sn47.46_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn47/sn47.46_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn47.46",
+        "lang": "en",
+        "segMap": {
+          "sn47.46:3.6": {
+            "scid": "sn47.46:3.6",
+            "pli": "Yato kho tvaṁ, bhikkhu, sīlaṁ nissāya sīle patiṭṭhāya ime cattāro satipaṭṭhāne evaṁ bhāvessasi, tato tuyhaṁ, bhikkhu, yā ratti vā divaso vā āgamissati vuddhiyeva pāṭikaṅkhā kusalesu dhammesu, no parihānī”ti. ",
+            "en": "When you develop the four kinds of mindfulness meditation in this way, depending on and grounded on ethics, you <span class=\"ebt-matched\">can expect growth</span>, not decline, in skillful qualities, whether by day or by night.” ",
+            "matched": true
+          }
+        },
+        "score": 1.05,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 47\n5. The Deathless\n46. Restraint in the Monastic Code",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 20,
+          "en": 19
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn47/sn47.15_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn47/sn47.15_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn47.15",
+        "lang": "en",
+        "segMap": {
+          "sn47.15:2.6": {
+            "scid": "sn47.15:2.6",
+            "pli": "Yato kho tvaṁ, bāhiya, sīlaṁ nissāya sīle patiṭṭhāya ime cattāro satipaṭṭhāne evaṁ bhāvessasi, tato tuyhaṁ, bāhiya, yā ratti vā divaso vā āgamissati, vuddhiyeva pāṭikaṅkhā kusalesu dhammesu, no parihānī”ti. ",
+            "en": "When you develop these four kinds of mindfulness meditation, depending on and grounded on ethics, you <span class=\"ebt-matched\">can expect growth</span>, not decline, in skillful qualities, whether by day or by night.” ",
+            "matched": true
+          }
+        },
+        "score": 1.048,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 47\n2. At Nālandā\n15. With Bāhiya",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 21,
+          "en": 20
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn47/sn47.3_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn47/sn47.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn47.3",
+        "lang": "en",
+        "segMap": {
+          "sn47.3:2.14": {
+            "scid": "sn47.3:2.14",
+            "pli": "Yato kho tvaṁ, bhikkhu, sīlaṁ nissāya sīle patiṭṭhāya ime cattāro satipaṭṭhāne evaṁ tividhena bhāvessasi, tato tuyhaṁ, bhikkhu, yā ratti vā divaso vā āgamissati vuddhiyeva pāṭikaṅkhā kusalesu dhammesu, no parihānī”ti. ",
+            "en": "When you develop the four kinds of mindfulness meditation in these three ways, depending on and grounded on ethics, you <span class=\"ebt-matched\">can expect growth</span>, not decline, in skillful qualities, whether by day or by night.” ",
+            "matched": true
+          }
+        },
+        "score": 1.032,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 47\n1. In Ambapālī’s Wood\n3. A Monk",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 31,
+          "en": 30
+        }
+      }
+    ]
   }
 }

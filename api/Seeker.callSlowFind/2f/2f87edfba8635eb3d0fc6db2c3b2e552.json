@@ -30,11 +30,280 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "aber zum erwachen entschlossen",
-    "method": "keywords",
-    "resultPattern": "\\baber|\\bzum|\\berwachen|\\bentschlossen",
-    "segsMatched": 0,
-    "bilaraPaths": [],
-    "suttaRefs": [],
-    "mlDocs": []
+    "method": "phrase",
+    "resultPattern": "\\baber zum erwachen entschlossen",
+    "segsMatched": 9,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an5/an5.196_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an5/an5.196_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an5/an5.196_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn12/sn12.4_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn12/sn12.4_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.4_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn12/sn12.10_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn12/sn12.10_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.10_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an9/an9.41_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an9/an9.41_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an9/an9.41_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an8/an8.64_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an8/an8.64_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an8/an8.64_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.68_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an5/an5.68_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an5/an5.68_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.103_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an3/an3.103_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an3/an3.103_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an5.196/de/sabbamitta",
+      "sn12.4/de/sabbamitta",
+      "sn12.10/de/sabbamitta",
+      "an9.41/de/sabbamitta",
+      "an8.64/de/sabbamitta",
+      "an5.68/de/sabbamitta",
+      "an3.103/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an5/an5.196_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an5/an5.196_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an5/an5.196_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an5.196",
+        "lang": "de",
+        "segMap": {
+          "an5.196:1.1": {
+            "scid": "an5.196:1.1",
+            "pli": "“Tathāgatassa, bhikkhave, arahato sammāsambuddhassa pubbeva sambodhā anabhisambuddhassa bodhisattasseva sato pañca mahāsupinā pāturahesuṁ. ",
+            "de": "„Mönche und Nonnen, fünf große Träume erschienen dem Klargewordenen, dem Vollendeten, dem vollkommen erwachten Buddha vor seinem Erwachen, als er noch nicht erwacht war, <span class=\"ebt-matched\">aber zum Erwachen entschlossen</span>. ",
+            "en": "“Mendicants, before his awakening five great dreams appeared to the Realized One, the perfected one, the fully awakened Buddha, when he was still not awake but intent on awakening. ",
+            "matched": true
+          },
+          "an5.196:6.1": {
+            "scid": "an5.196:6.1",
+            "pli": "Yampi, bhikkhave, tathāgatassa arahato sammāsambuddhassa pubbeva sambodhā anabhisambuddhassa bodhisattasseva sato ayaṁ mahāpathavī mahāsayanaṁ ahosi, himavā pabbatarājā bibbohanaṁ ahosi, puratthime samudde vāmo hattho ohito ahosi, pacchime samudde dakkhiṇo hattho ohito ahosi, dakkhiṇe samudde ubho pādā ohitā ahesuṁ; ",
+            "de": "Was nun die Zeit vor seinem Erwachen betrifft, da der Klargewordene, der Vollendete, der vollkommen erwachte Buddha noch nicht erwacht war, <span class=\"ebt-matched\">aber zum Erwachen entschlossen</span>; als diese große Erde sein Bett war, der Himalaya, der König der Berge, sein Kissen, als seine linke Hand im östlichen und seine rechte im westlichen und seine beiden Füße im südlichen Meer lagen: ",
+            "en": "Now, as to when, before his awakening, the Realized One, the perfected one, the fully awakened Buddha was still not awake but intent on awakening. This great earth was his bed. Himalaya, king of mountains, was his pillow. His left hand was laid down in the eastern sea. His right hand was laid down in the western sea. And both his feet were laid down in the southern sea. ",
+            "matched": true
+          },
+          "an5.196:11.1": {
+            "scid": "an5.196:11.1",
+            "pli": "Tathāgatassa, bhikkhave, arahato sammāsambuddhassa pubbeva sambodhā anabhisambuddhassa bodhisattasseva sato ime pañca mahāsupinā pāturahesun”ti. ",
+            "de": "Diese fünf großen Träume erschienen dem Klargewordenen, dem Vollendeten, dem vollkommen erwachten Buddha vor seinem Erwachen, als er noch nicht erwacht war, <span class=\"ebt-matched\">aber zum Erwachen entschlossen</span>.“ ",
+            "en": "Before his awakening these five great dreams appeared to the Realized One, the perfected one, the fully awakened Buddha, when he was still not awake but intent on awakening.” ",
+            "matched": true
+          }
+        },
+        "score": 3.094,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 5\n20. Brahmanen\n196. Die großen Träume",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 32,
+          "de": 31,
+          "en": 31
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an3/an3.103_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an3/an3.103_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an3/an3.103_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an3.103",
+        "lang": "de",
+        "segMap": {
+          "an3.103:1.1": {
+            "scid": "an3.103:1.1",
+            "pli": "“Pubbeva me, bhikkhave, sambodhā anabhisambuddhassa bodhisattasseva sato etadahosi: ",
+            "de": "„Mönche und Nonnen, vor meinem Erwachen – als ich noch nicht erwacht war, <span class=\"ebt-matched\">aber zum Erwachen entschlossen</span> – dachte ich: ",
+            "en": "“Mendicants, before my awakening—when I was still unawakened but intent on awakening—I thought: ",
+            "matched": true
+          }
+        },
+        "score": 1.071,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 3\n11. Erwachen\n103. Vor dem Erwachen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 14,
+          "de": 13,
+          "en": 13
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an5/an5.68_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an5/an5.68_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an5/an5.68_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an5.68",
+        "lang": "de",
+        "segMap": {
+          "an5.68:1.1": {
+            "scid": "an5.68:1.1",
+            "pli": "“Pubbevāhaṁ, bhikkhave, sambodhā anabhisambuddho bodhisattova samāno pañca dhamme bhāvesiṁ, pañca dhamme bahulīkāsiṁ. ",
+            "de": "„Mönche und Nonnen, vor meinem Erwachen, als ich noch nicht erwacht war, <span class=\"ebt-matched\">aber zum Erwachen entschlossen</span>, entwickelte und pflegte ich fünf Dinge. ",
+            "en": "“Mendicants, before my awakening—when I was still not awake but intent on awakening—I developed and cultivated five things. ",
+            "matched": true
+          }
+        },
+        "score": 1.059,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 5\n7. Wahrnehmungen\n68. Grundlagen der Wunderkräfte (2)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 17,
+          "de": 16,
+          "en": 16
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.64_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an8/an8.64_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an8/an8.64_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an8.64",
+        "lang": "de",
+        "segMap": {
+          "an8.64:1.3": {
+            "scid": "an8.64:1.3",
+            "pli": "“pubbāhaṁ, bhikkhave, sambodhā anabhisambuddho bodhisattova samāno obhāsaññeva kho sañjānāmi, no ca rūpāni passāmi. ",
+            "de": "„Mönche und Nonnen, vor meinem Erwachen, als ich noch nicht erwacht war, <span class=\"ebt-matched\">aber zum Erwachen entschlossen</span>, nahm ich Licht wahr, aber sah keine Bilder. ",
+            "en": "“Mendicants, before my awakening—when I was still not awake but intent on awakening—I perceived light but did not see visions. ",
+            "matched": true
+          }
+        },
+        "score": 1.019,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 8\n7. Erdbeben\n64. Beim Gayā-Kopf",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 53,
+          "de": 48,
+          "en": 52
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn12/sn12.10_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn12/sn12.10_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn12/sn12.10_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn12.10",
+        "lang": "de",
+        "segMap": {
+          "sn12.10:1.1": {
+            "scid": "sn12.10:1.1",
+            "pli": "“Pubbeva me, bhikkhave, sambodhā anabhisambuddhassa bodhisattasseva sato etadahosi: ",
+            "de": "„Mönche und Nonnen, vor meinem Erwachen, als ich noch nicht erwacht war, <span class=\"ebt-matched\">aber zum Erwachen entschlossen</span>, dachte ich: ",
+            "en": "“Mendicants, before my awakening—when I was still unawakened but intent on awakening—I thought: ",
+            "matched": true
+          }
+        },
+        "score": 1.018,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 12\n1. Die Buddhas\n10. Gotama",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 56,
+          "de": 54,
+          "en": 54
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn12/sn12.4_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn12/sn12.4_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn12/sn12.4_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn12.4",
+        "lang": "de",
+        "segMap": {
+          "sn12.4:1.2": {
+            "scid": "sn12.4:1.2",
+            "pli": "“vipassissa, bhikkhave, bhagavato arahato sammāsambuddhassa pubbeva sambodhā anabhisambuddhassa bodhisattasseva sato etadahosi: ",
+            "de": "„Mönche und Nonnen, Vipassī der Gesegnete, der Vollendete, der vollkommen erwachte Buddha hatte diesen Gedanken, bevor er erwachte, als er noch nicht erwacht war, <span class=\"ebt-matched\">aber zum Erwachen entschlossen</span>: ",
+            "en": "“Mendicants, Vipassī the Blessed One, the perfected one, the fully awakened Buddha had this thought before his awakening, when he was still unawakened but intent on awakening: ",
+            "matched": true
+          }
+        },
+        "score": 1.009,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 12\n1. Die Buddhas\n4. Über Vipassī",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 106,
+          "de": 106,
+          "en": 106
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an9/an9.41_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an9/an9.41_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an9/an9.41_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an9.41",
+        "lang": "de",
+        "segMap": {
+          "an9.41:7.2": {
+            "scid": "an9.41:7.2",
+            "pli": "Mayhampi kho, ānanda, pubbeva sambodhā anabhisambuddhassa bodhisattasseva sato etadahosi: ",
+            "de": "Vor meinem Erwachen – als ich noch nicht erwacht war, <span class=\"ebt-matched\">aber zum Erwachen entschlossen</span> – dachte ich auch: ",
+            "en": "Before my awakening—when I was still unawakened but intent on awakening—I too thought, ",
+            "matched": true
+          }
+        },
+        "score": 1.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 9\n4. Das große Kapitel\n41. Mit dem Hausbesitzer Tapussa",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 177,
+          "de": 166,
+          "en": 175
+        }
+      }
+    ]
   }
 }

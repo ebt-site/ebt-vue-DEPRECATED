@@ -29,11 +29,178 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "the interior earth element",
-    "method": "keywords",
-    "resultPattern": "\\bthe|\\binterior|\\bearth|\\belement",
-    "segsMatched": 0,
-    "bilaraPaths": [],
-    "suttaRefs": [],
-    "mlDocs": []
+    "method": "phrase",
+    "resultPattern": "\\bthe interior earth element",
+    "segsMatched": 10,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn62_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn62_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn28_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn28_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn140_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn140_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.177_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an4/an4.177_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "mn62/en/sujato",
+      "mn28/en/sujato",
+      "mn140/en/sujato",
+      "an4.177/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn62_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn62_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn62",
+        "lang": "en",
+        "segMap": {
+          "mn62:8.1": {
+            "scid": "mn62:8.1",
+            "pli": "“Yaṁ kiñci, rāhula, ajjhattaṁ paccattaṁ kakkhaḷaṁ kharigataṁ upādinnaṁ, seyyathidaṁ—",
+            "en": "“Rāhula, <span class=\"ebt-matched\">the interior earth element</span> is said to be anything hard, solid, and appropriated that’s internal, pertaining to an individual. This includes: ",
+            "matched": true
+          },
+          "mn62:8.3": {
+            "scid": "mn62:8.3",
+            "pli": "ayaṁ vuccati, rāhula, ajjhattikā pathavīdhātu. ",
+            "en": "This is called <span class=\"ebt-matched\">the interior earth element</span>. ",
+            "matched": true
+          },
+          "mn62:8.4": {
+            "scid": "mn62:8.4",
+            "pli": "Yā ceva kho pana ajjhattikā pathavīdhātu yā ca bāhirā pathavīdhātu, pathavīdhāturevesā. ",
+            "en": "<span class=\"ebt-matched\">The interior earth element</span> and the exterior earth element are just the earth element. ",
+            "matched": true
+          }
+        },
+        "score": 3.025,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Middle Discourses 62\nThe Longer Advice to Rāhula",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 122,
+          "en": 121
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn28_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn28_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn28",
+        "lang": "en",
+        "segMap": {
+          "mn28:6.3": {
+            "scid": "mn28:6.3",
+            "pli": "Katamā cāvuso, ajjhattikā pathavīdhātu? ",
+            "en": "And what is <span class=\"ebt-matched\">the interior earth element</span>? ",
+            "matched": true
+          },
+          "mn28:6.6": {
+            "scid": "mn28:6.6",
+            "pli": "Ayaṁ vuccatāvuso, ajjhattikā pathavīdhātu. ",
+            "en": "This is called <span class=\"ebt-matched\">the interior earth element</span>. ",
+            "matched": true
+          },
+          "mn28:6.7": {
+            "scid": "mn28:6.7",
+            "pli": "Yā ceva kho pana ajjhattikā pathavīdhātu, yā ca bāhirā pathavīdhātu, pathavīdhāturevesā. ",
+            "en": "<span class=\"ebt-matched\">The interior earth element</span> and the exterior earth element are just the earth element. ",
+            "matched": true
+          }
+        },
+        "score": 3.018,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Middle Discourses 28\nThe Longer Simile of the Elephant’s Footprint",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 166,
+          "en": 165
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn140_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn140_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn140",
+        "lang": "en",
+        "segMap": {
+          "mn140:14.3": {
+            "scid": "mn140:14.3",
+            "pli": "Katamā ca, bhikkhu, ajjhattikā pathavīdhātu? ",
+            "en": "And what is <span class=\"ebt-matched\">the interior earth element</span>? ",
+            "matched": true
+          },
+          "mn140:14.6": {
+            "scid": "mn140:14.6",
+            "pli": "ayaṁ vuccati, bhikkhu, ajjhattikā pathavīdhātu. ",
+            "en": "This is called <span class=\"ebt-matched\">the interior earth element</span>. ",
+            "matched": true
+          },
+          "mn140:14.7": {
+            "scid": "mn140:14.7",
+            "pli": "Yā ceva kho pana ajjhattikā pathavīdhātu yā ca bāhirā pathavīdhātu pathavīdhāturevesā. ",
+            "en": "<span class=\"ebt-matched\">The interior earth element</span> and the exterior earth element are just the earth element. ",
+            "matched": true
+          }
+        },
+        "score": 3.013,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Middle Discourses 140\nThe Analysis of the Elements",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 239,
+          "en": 238
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.177_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an4/an4.177_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.177",
+        "lang": "en",
+        "segMap": {
+          "an4.177:2.1": {
+            "scid": "an4.177:2.1",
+            "pli": "“Yā ca, rāhula, ajjhattikā pathavīdhātu yā ca bāhirā pathavīdhātu, pathavīdhāturevesā. ",
+            "en": "“Rāhula, <span class=\"ebt-matched\">the interior earth element</span> and the exterior earth element are just the earth element. ",
+            "matched": true
+          }
+        },
+        "score": 1.056,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 4\n18. Intention\n177. With Rāhula",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 18,
+          "en": 17
+        }
+      }
+    ]
   }
 }

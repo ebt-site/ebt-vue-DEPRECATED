@@ -29,11 +29,308 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "grasp at anything in the world",
-    "method": "keywords",
-    "resultPattern": "\\bgrasp|\\bat|\\banything|\\bin|\\bthe|\\bworld",
-    "segsMatched": 0,
-    "bilaraPaths": [],
-    "suttaRefs": [],
-    "mlDocs": []
+    "method": "phrase",
+    "resultPattern": "\\bgrasp at anything in the world",
+    "segsMatched": 10,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn37_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn37_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn35/sn35.91_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.91_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn35/sn35.90_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.90_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn35/sn35.31_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.31_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn35/sn35.30_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.30_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn12/sn12.51_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.51_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn140_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn140_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn15_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn15_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an7/an7.61_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an7/an7.61_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "mn37/en/sujato",
+      "sn35.91/en/sujato",
+      "sn35.90/en/sujato",
+      "sn35.31/en/sujato",
+      "sn35.30/en/sujato",
+      "sn12.51/en/sujato",
+      "mn140/en/sujato",
+      "dn15/en/sujato",
+      "an7.61/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn37_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn37_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn37",
+        "lang": "en",
+        "segMap": {
+          "mn37:3.7": {
+            "scid": "mn37:3.7",
+            "pli": "So tāsu vedanāsu aniccānupassī viharanto, virāgānupassī viharanto, nirodhānupassī viharanto, paṭinissaggānupassī viharanto na kiñci loke upādiyati. ",
+            "en": "Meditating in this way, they don’t <span class=\"ebt-matched\">grasp at anything in the world</span>. ",
+            "matched": true
+          },
+          "mn37:13.8": {
+            "scid": "mn37:13.8",
+            "pli": "So tāsu vedanāsu aniccānupassī viharanto, virāgānupassī viharanto, nirodhānupassī viharanto, paṭinissaggānupassī viharanto na kiñci loke upādiyati, ",
+            "en": "Meditating in this way, they don’t <span class=\"ebt-matched\">grasp at anything in the world</span>. ",
+            "matched": true
+          }
+        },
+        "score": 2.018,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Middle Discourses 37\nThe Shorter Discourse on the Ending of Craving",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 110,
+          "en": 109
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn35/sn35.30_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn35/sn35.30_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn35.30",
+        "lang": "en",
+        "segMap": {
+          "sn35.30:1.20": {
+            "scid": "sn35.30:1.20",
+            "pli": "So evaṁ amaññamāno na ca kiñci loke upādiyati. ",
+            "en": "Not identifying, they don’t <span class=\"ebt-matched\">grasp at anything in the world</span>. ",
+            "matched": true
+          }
+        },
+        "score": 1.037,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 35\n3. All\n30. The Practice Fit for Uprooting",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 27,
+          "en": 26
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn35/sn35.31_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn35/sn35.31_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn35.31",
+        "lang": "en",
+        "segMap": {
+          "sn35.31:1.22": {
+            "scid": "sn35.31:1.22",
+            "pli": "So evaṁ amaññamāno na ca kiñci loke upādiyati. ",
+            "en": "Not identifying, they don’t <span class=\"ebt-matched\">grasp at anything in the world</span>. ",
+            "matched": true
+          }
+        },
+        "score": 1.034,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 35\n3. All\n31. The Practice Conducive to Uprooting (1st)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 29,
+          "en": 28
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn35/sn35.90_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn35/sn35.90_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn35.90",
+        "lang": "en",
+        "segMap": {
+          "sn35.90:4.1": {
+            "scid": "sn35.90:4.1",
+            "pli": "So evaṁ amaññamāno na kiñcipi loke upādiyati. ",
+            "en": "Not identifying, they don’t <span class=\"ebt-matched\">grasp at anything in the world</span>. ",
+            "matched": true
+          }
+        },
+        "score": 1.034,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 35\n9. With Channa\n90. Turbulence (1st)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 29,
+          "en": 28
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn35/sn35.91_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn35/sn35.91_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn35.91",
+        "lang": "en",
+        "segMap": {
+          "sn35.91:4.2": {
+            "scid": "sn35.91:4.2",
+            "pli": "So evaṁ amaññamāno na kiñci loke upādiyati. ",
+            "en": "Not identifying, they don’t <span class=\"ebt-matched\">grasp at anything in the world</span>. ",
+            "matched": true
+          }
+        },
+        "score": 1.033,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 35\n9. With Channa\n91. Turbulence (2nd)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 30,
+          "en": 29
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an7/an7.61_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an7/an7.61_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an7.61",
+        "lang": "en",
+        "segMap": {
+          "an7.61:13.7": {
+            "scid": "an7.61:13.7",
+            "pli": "So tāsu vedanāsu aniccānupassī viharanto virāgānupassī viharanto nirodhānupassī viharanto paṭinissaggānupassī viharanto na kiñci loke upādiyati, ",
+            "en": "Meditating in this way, they don’t <span class=\"ebt-matched\">grasp at anything in the world</span>. ",
+            "matched": true
+          }
+        },
+        "score": 1.016,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 7\n6. The Undeclared Points\n61. Nodding Off",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 61,
+          "en": 60
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn12/sn12.51_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn12/sn12.51_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn12.51",
+        "lang": "en",
+        "segMap": {
+          "sn12.51:9.5": {
+            "scid": "sn12.51:9.5",
+            "pli": "Anabhisaṅkharonto anabhisañcetayanto na kiñci loke upādiyati; ",
+            "en": "Not choosing or intending, they don’t <span class=\"ebt-matched\">grasp at anything in the world</span>. ",
+            "matched": true
+          }
+        },
+        "score": 1.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 12\n6. Suffering\n51. A Full Inquiry",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 92,
+          "en": 91
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn15_root-pli-ms.json",
+          "translation/en/sujato/sutta/dn/dn15_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn15",
+        "lang": "en",
+        "segMap": {
+          "dn15:32.2": {
+            "scid": "dn15:32.2",
+            "pli": "So evaṁ na samanupassanto na ca kiñci loke upādiyati, ",
+            "en": "Not regarding anything in this way, they don’t <span class=\"ebt-matched\">grasp at anything in the world</span>. ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Long Discourses 15\nThe Great Discourse on Causation\n1. Dependent Origination",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 277,
+          "en": 276
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn140_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn140_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn140",
+        "lang": "en",
+        "segMap": {
+          "mn140:22.11": {
+            "scid": "mn140:22.11",
+            "pli": "So anabhisaṅkharonto anabhisañcetayanto bhavāya vā vibhavāya vā na kiñci loke upādiyati, ",
+            "en": "Because of this, they don’t <span class=\"ebt-matched\">grasp at anything in the world</span>. ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Middle Discourses 140\nThe Analysis of the Elements",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 239,
+          "en": 238
+        }
+      }
+    ]
   }
 }

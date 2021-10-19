@@ -29,11 +29,78 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "conducive to immersion",
-    "method": "keywords",
-    "resultPattern": "\\bconducive|\\bto|\\bimmersion",
-    "segsMatched": 0,
-    "bilaraPaths": [],
-    "suttaRefs": [],
-    "mlDocs": []
+    "method": "phrase",
+    "resultPattern": "\\bconducive to immersion",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn34/sn34.55_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn34/sn34.55_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn34/sn34.10_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn34/sn34.10_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn34.55/en/sujato",
+      "sn34.10/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn34/sn34.10_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn34/sn34.10_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn34.10",
+        "lang": "en",
+        "segMap": {
+          "sn34.10:0.3": {
+            "scid": "sn34.10:0.3",
+            "pli": "10. Samādhimūlakasappāyakārīsutta ",
+            "en": "10. <span class=\"ebt-matched\">Conducive to Immersion</span> ",
+            "matched": true
+          }
+        },
+        "score": 1.067,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 34\n1. Absorption\n10. Conducive to Immersion",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 15,
+          "en": 14
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn34/sn34.55_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn34/sn34.55_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn34.55",
+        "lang": "en",
+        "segMap": {
+          "sn34.55:1.5": {
+            "scid": "sn34.55:1.5",
+            "pli": "Idha pana, bhikkhave, ekacco jhāyī samādhismiṁ sappāyakārī hoti, na samādhismiṁ sātaccakārī. ",
+            "en": "One meditator is skilled in doing what’s <span class=\"ebt-matched\">conducive to immersion</span> but not in practicing persistently for it. ",
+            "matched": true
+          }
+        },
+        "score": 1.031,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 34\n1. Absorption\n55. Persistence and What’s Conducive",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 32,
+          "en": 30
+        }
+      }
+    ]
   }
 }

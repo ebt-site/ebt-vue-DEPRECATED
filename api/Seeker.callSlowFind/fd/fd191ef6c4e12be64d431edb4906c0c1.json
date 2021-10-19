@@ -30,11 +30,93 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "von sprache",
-    "method": "keywords",
-    "resultPattern": "\\bvon|\\bsprache",
-    "segsMatched": 0,
-    "bilaraPaths": [],
-    "suttaRefs": [],
-    "mlDocs": []
+    "method": "phrase",
+    "resultPattern": "\\bvon sprache",
+    "segsMatched": 3,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn22/sn22.62_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn22/sn22.62_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.62_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn15_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn15_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn15_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn22.62/de/sabbamitta",
+      "dn15/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.62_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn22/sn22.62_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.62_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.62",
+        "lang": "de",
+        "segMap": {
+          "sn22.62:1.2": {
+            "scid": "sn22.62:1.2",
+            "pli": "“Tayome, bhikkhave, niruttipathā adhivacanapathā paññattipathā asaṅkiṇṇā asaṅkiṇṇapubbā, na saṅkīyanti, na saṅkīyissanti, appaṭikuṭṭhā samaṇehi brāhmaṇehi viññūhi. ",
+            "de": "„Mönche und Nonnen, es gibt drei Geltungsbereiche <span class=\"ebt-matched\">von Sprache</span>, Ausdrucksweise und Beschreibung. Sie sind unbefleckt, wie sie von Anfang an waren, sie werden jetzt und in Zukunft nicht befleckt werden. Sie werden von vernünftigen Asketen und Brahmanen nicht verachtet. ",
+            "en": "“Mendicants, there are these three scopes of language, terminology, and descriptions. They’re uncorrupted, as they have been since the beginning. They’re not being corrupted now, nor will they be. Sensible ascetics and brahmins don’t look down on them. ",
+            "matched": true
+          },
+          "sn22.62:13.1": {
+            "scid": "sn22.62:13.1",
+            "pli": "Ime kho, bhikkhave, tayo niruttipathā adhivacanapathā paññattipathā asaṅkiṇṇā asaṅkiṇṇapubbā, na saṅkīyanti, na saṅkīyissanti, appaṭikuṭṭhā samaṇehi brāhmaṇehi viññūhi. ",
+            "de": "Das sind die drei Geltungsbereiche <span class=\"ebt-matched\">von Sprache</span>, Ausdrucksweise und Beschreibung. Sie sind unbefleckt, wie sie von Anfang an waren, sie werden jetzt und in Zukunft nicht befleckt werden. Sie werden von vernünftigen Asketen und Brahmanen nicht verachtet. ",
+            "en": "These are the three scopes of language, terminology, and descriptions. They’re uncorrupted, as they have been since the beginning. They’re not being corrupted now, nor will they be. Sensible ascetics and brahmins don’t look down on them. ",
+            "matched": true
+          }
+        },
+        "score": 2.045,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 22\n6. Gebunden\n62. Der Geltungsbereich der Sprache",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 44,
+          "de": 31,
+          "en": 42
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn15_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn15_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn15_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn15",
+        "lang": "de",
+        "segMap": {
+          "dn15:22.6": {
+            "scid": "dn15:22.6",
+            "pli": "Ettāvatā adhivacanapatho, ettāvatā niruttipatho, ettāvatā paññattipatho, ettāvatā paññāvacaraṁ, ettāvatā vaṭṭaṁ vattati itthattaṁ paññāpanāya yadidaṁ nāmarūpaṁ saha viññāṇena aññamaññapaccayatā pavattati. ",
+            "de": "Bis zu diesem Punkt erstreckt sich der Geltungsbereich <span class=\"ebt-matched\">von Sprache</span>, Ausdrucksweise und Beschreibung; erstreckt sich der Bereich der Weisheit; setzt sich der Kreislauf der Wiedergeburten fort, so dass es diesen Daseinszustand gibt: nämlich, dass Name und Form und Bewusstsein in wechselseitiger Abhängigkeit stehen. ",
+            "en": "This is how far the scope of language, terminology, and description extends; how far the sphere of wisdom extends; how far the cycle of rebirths proceeds so that this state of existence is to be found; namely, name and form together with consciousness. ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 15\nDie große Lehrrede über das Kausalprinzip\n1. Abhängiges Entstehen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 277,
+          "de": 254,
+          "en": 276
+        }
+      }
+    ]
   }
 }

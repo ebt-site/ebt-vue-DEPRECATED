@@ -30,11 +30,100 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "das innere erdelement",
-    "method": "keywords",
-    "resultPattern": "\\bdas|\\binnere|\\berdelement",
-    "segsMatched": 0,
-    "bilaraPaths": [],
-    "suttaRefs": [],
-    "mlDocs": []
+    "method": "phrase",
+    "resultPattern": "\\bdas innere erdelement",
+    "segsMatched": 4,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn140_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn140_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn140_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.177_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.177_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.177_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "mn140/de/sabbamitta",
+      "an4.177/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn140_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn140_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn140_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn140",
+        "lang": "de",
+        "segMap": {
+          "mn140:14.3": {
+            "scid": "mn140:14.3",
+            "pli": "Katamā ca, bhikkhu, ajjhattikā pathavīdhātu? ",
+            "de": "Und was ist <span class=\"ebt-matched\">das innere Erdelement</span>? ",
+            "en": "And what is the interior earth element? ",
+            "matched": true
+          },
+          "mn140:14.6": {
+            "scid": "mn140:14.6",
+            "pli": "ayaṁ vuccati, bhikkhu, ajjhattikā pathavīdhātu. ",
+            "de": "Das nennt man <span class=\"ebt-matched\">das innere Erdelement</span>. ",
+            "en": "This is called the interior earth element. ",
+            "matched": true
+          },
+          "mn140:14.7": {
+            "scid": "mn140:14.7",
+            "pli": "Yā ceva kho pana ajjhattikā pathavīdhātu yā ca bāhirā pathavīdhātu pathavīdhāturevesā. ",
+            "de": "<span class=\"ebt-matched\">Das innere Erdelement</span> und das äußere Erdelement sind bloß das Erdelement. ",
+            "en": "The interior earth element and the exterior earth element are just the earth element. ",
+            "matched": true
+          }
+        },
+        "score": 3.013,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 140\nDie Aufgliederung der Elemente",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 239,
+          "de": 229,
+          "en": 238
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.177_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.177_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.177_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.177",
+        "lang": "de",
+        "segMap": {
+          "an4.177:2.1": {
+            "scid": "an4.177:2.1",
+            "pli": "“Yā ca, rāhula, ajjhattikā pathavīdhātu yā ca bāhirā pathavīdhātu, pathavīdhāturevesā. ",
+            "de": "„Rāhula, <span class=\"ebt-matched\">das innere Erdelement</span> und das äußere Erdelement sind bloß das Erdelement. ",
+            "en": "“Rāhula, the interior earth element and the exterior earth element are just the earth element. ",
+            "matched": true
+          }
+        },
+        "score": 1.056,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 4\n18. Absicht\n177. Mit Rāhula",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 18,
+          "de": 17,
+          "en": 17
+        }
+      }
+    ]
   }
 }

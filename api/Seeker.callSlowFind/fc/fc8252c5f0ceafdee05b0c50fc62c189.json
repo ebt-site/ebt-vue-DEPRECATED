@@ -30,11 +30,114 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "ausdruck für sinnenfreuden",
-    "method": "keywords",
-    "resultPattern": "\\bausdruck|\\bfür|\\bsinnenfreuden",
-    "segsMatched": 0,
-    "bilaraPaths": [],
-    "suttaRefs": [],
-    "mlDocs": []
+    "method": "phrase",
+    "resultPattern": "\\bausdruck für sinnenfreuden",
+    "segsMatched": 6,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an8/an8.56_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an8/an8.56_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an8/an8.56_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an6/an6.23_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an6/an6.23_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an6/an6.23_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an8.56/de/sabbamitta",
+      "an6.23/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an6/an6.23_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an6/an6.23_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an6/an6.23_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an6.23",
+        "lang": "de",
+        "segMap": {
+          "an6.23:1.1": {
+            "scid": "an6.23:1.1",
+            "pli": "“‘Bhayan’ti, bhikkhave, kāmānametaṁ adhivacanaṁ; ",
+            "de": "„Mönche und Nonnen, ‚Gefahr‘ ist ein <span class=\"ebt-matched\">Ausdruck für Sinnenfreuden</span>. ",
+            "en": "“‘Danger’, mendicants, is a term for sensual pleasures. ",
+            "matched": true
+          },
+          "an6.23:2.1": {
+            "scid": "an6.23:2.1",
+            "pli": "Kasmā ca, bhikkhave, ‘bhayan’ti kāmānametaṁ adhivacanaṁ? ",
+            "de": "Und warum ist ‚Gefahr‘ ein <span class=\"ebt-matched\">Ausdruck für Sinnenfreuden</span>? ",
+            "en": "And why is ‘danger’ a term for sensual pleasures? ",
+            "matched": true
+          },
+          "an6.23:2.2": {
+            "scid": "an6.23:2.2",
+            "pli": "Kāmarāgarattāyaṁ, bhikkhave, chandarāgavinibaddho diṭṭhadhammikāpi bhayā na parimuccati, samparāyikāpi bhayā na parimuccati, tasmā ‘bhayan’ti kāmānametaṁ adhivacanaṁ. ",
+            "de": "Jemand, der von sinnlicher Gier besessen und durch Sehnsucht und Begierde angekettet ist, ist nicht frei von Gefahren, weder in diesem noch in künftigen Leben. Darum ist ‚Gefahr‘ ein <span class=\"ebt-matched\">Ausdruck für Sinnenfreuden</span>. ",
+            "en": "Someone who is besotted by sensual greed and shackled by lustful desire is not freed from dangers in the present life or in lives to come. That is why ‘danger’ is a term for sensual pleasures. ",
+            "matched": true
+          }
+        },
+        "score": 3.1,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 6\n3. Unübertrefflich\n23. Gefahren",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 30,
+          "de": 29,
+          "en": 29
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.56_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an8/an8.56_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an8/an8.56_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an8.56",
+        "lang": "de",
+        "segMap": {
+          "an8.56:1.1": {
+            "scid": "an8.56:1.1",
+            "pli": "“‘Bhayan’ti, bhikkhave, kāmānametaṁ adhivacanaṁ. ",
+            "de": "„Mönche und Nonnen, ‚Gefahr‘ ist ein <span class=\"ebt-matched\">Ausdruck für Sinnenfreuden</span>. ",
+            "en": "“Mendicants, ‘danger’ is a term for sensual pleasures. ",
+            "matched": true
+          },
+          "an8.56:1.9": {
+            "scid": "an8.56:1.9",
+            "pli": "Kasmā ca, bhikkhave, ‘bhayan’ti kāmānametaṁ adhivacanaṁ? ",
+            "de": "Und warum ist ‚Gefahr‘ ein <span class=\"ebt-matched\">Ausdruck für Sinnenfreuden</span>? ",
+            "en": "And why is ‘danger’ a term for sensual pleasures? ",
+            "matched": true
+          },
+          "an8.56:1.10": {
+            "scid": "an8.56:1.10",
+            "pli": "Yasmā ca kāmarāgarattāyaṁ, bhikkhave, chandarāgavinibaddho diṭṭhadhammikāpi bhayā na parimuccati, samparāyikāpi bhayā na parimuccati, tasmā ‘bhayan’ti kāmānametaṁ adhivacanaṁ. ",
+            "de": "Jemand, der von sinnlicher Gier besessen und durch Sehnsucht und Begierde angekettet ist, ist nicht frei von Gefahren, weder in diesem noch in künftigen Leben. Darum ist ‚Gefahr‘ ein <span class=\"ebt-matched\">Ausdruck für Sinnenfreuden</span>. ",
+            "en": "Someone who is besotted by sensual greed and shackled by lustful desire is not freed from dangers in the present life or in lives to come. That is why ‘danger’ is a term for sensual pleasures. ",
+            "matched": true
+          }
+        },
+        "score": 3.086,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 8\n6. Gotamī\n56. Gefahren",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 35,
+          "de": 34,
+          "en": 34
+        }
+      }
+    ]
   }
 }

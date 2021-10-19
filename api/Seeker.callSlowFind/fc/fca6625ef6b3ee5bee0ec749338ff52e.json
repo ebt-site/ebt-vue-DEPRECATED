@@ -30,11 +30,86 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "ohne verlangen",
-    "method": "keywords",
-    "resultPattern": "\\bohne|\\bverlangen",
-    "segsMatched": 0,
-    "bilaraPaths": [],
-    "suttaRefs": [],
-    "mlDocs": []
+    "method": "phrase",
+    "resultPattern": "\\bohne verlangen",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an7/an7.64_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an7/an7.64_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an7/an7.64_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.9_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.9_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.9_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an7.64/de/sabbamitta",
+      "an4.9/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.9_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.9_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.9_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.9",
+        "lang": "de",
+        "segMap": {
+          "an4.9:3.4": {
+            "scid": "an4.9:3.4",
+            "pli": "Sato bhikkhu paribbaje”ti. ",
+            "de": "<span class=\"ebt-matched\">ohne Verlangen</span>, von Ergreifen frei.“ ",
+            "en": "a mendicant would wander mindful.” ",
+            "matched": true
+          }
+        },
+        "score": 1.053,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 4\n1. Beim Dorf Bhaṇḍa\n9. Wie Verlangen entsteht",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 19,
+          "de": 18,
+          "en": 18
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an7/an7.64_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an7/an7.64_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an7/an7.64_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an7.64",
+        "lang": "de",
+        "segMap": {
+          "an7.64:25.2": {
+            "scid": "an7.64:25.2",
+            "pli": "Vītalobhā anussukā; ",
+            "de": "frei von Gier und <span class=\"ebt-matched\">ohne Verlangen</span>, ",
+            "en": "free of greed, with no more longing, ",
+            "matched": true
+          }
+        },
+        "score": 1.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 7\n6. Die nicht erklärten Punkte\n64. Reizbar",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 128,
+          "de": 118,
+          "en": 126
+        }
+      }
+    ]
   }
 }

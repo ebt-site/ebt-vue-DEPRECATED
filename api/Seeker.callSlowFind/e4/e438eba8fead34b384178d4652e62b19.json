@@ -30,11 +30,237 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "nachfolger durch vertrauen",
-    "method": "keywords",
-    "resultPattern": "\\bnachfolger|\\bdurch|\\bvertrauen",
-    "segsMatched": 0,
-    "bilaraPaths": [],
-    "suttaRefs": [],
-    "mlDocs": []
+    "method": "phrase",
+    "resultPattern": "\\bnachfolger durch vertrauen",
+    "segsMatched": 7,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an2/an2.42-51_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an2/an2.42-51_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an2/an2.42-51_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn28_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn28_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn28_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an8/an8.22_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an8/an8.22_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an8/an8.22_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an7/an7.14_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an7/an7.14_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an7/an7.14_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.16_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.16_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.16_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an2.42-51/de/sabbamitta",
+      "dn33/de/sabbamitta",
+      "dn28/de/sabbamitta",
+      "an8.22/de/sabbamitta",
+      "an7.14/de/sabbamitta",
+      "an10.16/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an2/an2.42-51_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an2/an2.42-51_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an2/an2.42-51_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an2.42-51",
+        "lang": "de",
+        "segMap": {
+          "an2.48:1.6": {
+            "scid": "an2.48:1.6",
+            "pli": "‘asuko bhikkhu ubhatobhāgavimutto, asuko paññāvimutto, asuko kāyasakkhī, asuko diṭṭhippatto, asuko saddhāvimutto, asuko dhammānusārī, asuko saddhānusārī, asuko sīlavā kalyāṇadhammo, asuko dussīlo pāpadhammo’ti. ",
+            "de": "‚Der Mönch Soundso ist auf beide Arten befreit; die Nonne Soundso ist durch Weisheit befreit; Soundso ist ein persönlicher Zeuge; Soundso ist zur Ansicht gelangt; Soundso ist durch Vertrauen befreit; Soundso ist eine Nachfolgerin der Lehren; Soundso ist ein <span class=\"ebt-matched\">Nachfolger durch Vertrauen</span>; Soundso ist ein sittlicher Mensch, von gutem Charakter; Soundso ist unmoralisch, von schlechtem Charakter.‘ ",
+            "en": "‘The mendicant so-and-so is freed both ways; so-and-so is freed by wisdom; so-and-so is a personal witness; so-and-so is attained to view; so-and-so is freed by faith; so-and-so is a follower of the teachings; so-and-so is a follower by faith; so-and-so is ethical, of good character; so-and-so is unethical, of bad character.’ ",
+            "matched": true
+          },
+          "an2.48:2.3": {
+            "scid": "an2.48:2.3",
+            "pli": "‘asuko bhikkhu ubhatobhāgavimutto, asuko paññāvimutto, asuko kāyasakkhī, asuko diṭṭhippatto, asuko saddhāvimutto, asuko dhammānusārī, asuko saddhānusārī, asuko sīlavā kalyāṇadhammo, asuko dussīlo pāpadhammo’ti. ",
+            "de": "‚Der Mönch Soundso ist auf beide Arten befreit; die Nonne Soundso ist durch Weisheit befreit; Soundso ist ein persönlicher Zeuge; Soundso ist zur Ansicht gelangt; Soundso ist durch Vertrauen befreit; Soundso ist eine Nachfolgerin der Lehren; Soundso ist ein <span class=\"ebt-matched\">Nachfolger durch Vertrauen</span>; Soundso ist ein sittlicher Mensch, von gutem Charakter; Soundso ist unmoralisch, von schlechtem Charakter.‘ ",
+            "en": "‘The mendicant so-and-so is freed both ways; so-and-so is freed by wisdom; so-and-so is a personal witness; so-and-so is attained to view; so-and-so is freed by faith; so-and-so is a follower of the teachings; so-and-so is a follower by faith; so-and-so is ethical, of good character; so-and-so is unethical, of bad character.’ ",
+            "matched": true
+          }
+        },
+        "score": 2.014,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 2\n5. Versammlungen\n42–51",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 146,
+          "de": 144,
+          "en": 144
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an7/an7.14_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an7/an7.14_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an7/an7.14_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an7.14",
+        "lang": "de",
+        "segMap": {
+          "an7.14:1.3": {
+            "scid": "an7.14:1.3",
+            "pli": "Ubhatobhāgavimutto, paññāvimutto, kāyasakkhī, diṭṭhippatto, saddhāvimutto, dhammānusārī, saddhānusārī. ",
+            "de": "Jemand, der auf beide Arten befreit ist, jemand, der durch Weisheit befreit ist, eine persönliche Zeugin, jemand, der zur Ansicht gelangt ist, jemand, der durch Vertrauen befreit ist, eine Nachfolgerin der Lehren und ein <span class=\"ebt-matched\">Nachfolger durch Vertrauen</span>. ",
+            "en": "The one freed both ways, the one freed by wisdom, the personal witness, the one attained to view, the one freed by faith, the follower of the teachings, and the follower by faith. ",
+            "matched": true
+          }
+        },
+        "score": 1.125,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 7\n2. Neigungen\n14. Menschen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 8,
+          "de": 7,
+          "en": 7
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.16_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.16_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.16_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.16",
+        "lang": "de",
+        "segMap": {
+          "an10.16:1.3": {
+            "scid": "an10.16:1.3",
+            "pli": "Tathāgato arahaṁ sammāsambuddho, paccekabuddho, ubhatobhāgavimutto, paññāvimutto, kāyasakkhī, diṭṭhippatto, saddhāvimutto, saddhānusārī, dhammānusārī, gotrabhū—",
+            "de": "Ein Klargewordener, ein Vollendeter, ein vollkommen erwachter Buddha; ein Buddha, der für sich allein erwacht ist; jemand, der auf beide Arten befreit ist; jemand, der durch Weisheit befreit ist; ein persönlicher Zeuge; jemand, der zur Ansicht gelangt ist; jemand, der durch Vertrauen befreit ist; ein <span class=\"ebt-matched\">Nachfolger durch Vertrauen</span>; eine Nachfolgerin der Lehren; und ein Mitglied der spirituellen Familie. ",
+            "en": "A Realized One, a perfected one, a fully awakened Buddha; a Buddha awakened for themselves; one freed both ways; one freed by wisdom; a personal witness; one attained to view; one freed by faith; a follower by faith; a follower of the teachings; a member of the spiritual family. ",
+            "matched": true
+          }
+        },
+        "score": 1.125,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10\n2. Ein Beschützer\n16. Einer den Göttern gewidmeten Gabe würdig",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 8,
+          "de": 7,
+          "en": 7
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.22_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an8/an8.22_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an8/an8.22_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an8.22",
+        "lang": "de",
+        "segMap": {
+          "an8.22:8.2": {
+            "scid": "an8.22:8.2",
+            "pli": "‘asuko, gahapati, bhikkhu ubhatobhāgavimutto asuko paññāvimutto asuko kāyasakkhī asuko diṭṭhippatto asuko saddhāvimutto asuko dhammānusārī asuko saddhānusārī asuko sīlavā kalyāṇadhammo asuko dussīlo pāpadhammo’ti. ",
+            "de": "‚Hausbesitzer, der Mönch Soundso ist auf beide Arten befreit; die Nonne Soundso ist durch Weisheit befreit; Soundso ist ein persönlicher Zeuge; Soundso ist zur Ansicht gelangt; Soundso ist durch Vertrauen befreit; Soundso ist eine Nachfolgerin der Lehren; Soundso ist ein <span class=\"ebt-matched\">Nachfolger durch Vertrauen</span>; Soundso ist ein sittlicher Mensch, von gutem Charakter; Soundso ist unmoralisch, von schlechtem Charakter.‘ ",
+            "en": "‘Householder, that mendicant is freed both ways. That one is freed by wisdom. That one is a personal witness. That one is attained to view. That one is freed by faith. That one is a follower of the teachings. That one is a follower by faith. That one is ethical, of good character. That one is unethical, of bad character.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.013,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 8\n3. Hausbesitzer\n22. Mit Ugga vom Dorf Hatthi",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 77,
+          "de": 75,
+          "en": 75
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn28_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn28_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn28_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn28",
+        "lang": "de",
+        "segMap": {
+          "dn28:8.3": {
+            "scid": "dn28:8.3",
+            "pli": "Ubhatobhāgavimutto paññāvimutto kāyasakkhi diṭṭhippatto saddhāvimutto dhammānusārī saddhānusārī. ",
+            "de": "einen, der auf beide Arten befreit ist, eine, die durch Weisheit befreit ist, einen persönlichen Zeugen, eine, die zur Ansicht gelangt ist, einen, der durch Vertrauen befreit ist, eine Nachfolgerin der Lehren und einen <span class=\"ebt-matched\">Nachfolger durch Vertrauen</span>. ",
+            "en": "One freed both ways, one freed by wisdom, a personal witness, one attained to view, one freed by faith, a follower of the teachings, a follower by faith. ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 28\nZuversicht wecken\n1. Sāriputtas Löwengebrüll",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 250,
+          "de": 236,
+          "en": 249
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn33",
+        "lang": "de",
+        "segMap": {
+          "dn33:2.3.44": {
+            "scid": "dn33:2.3.44",
+            "pli": "ubhatobhāgavimutto, paññāvimutto, kāyasakkhi, diṭṭhippatto, saddhāvimutto, dhammānusārī, saddhānusārī. ",
+            "de": "jemand, der auf beide Arten befreit ist, jemand, der durch Weisheit befreit ist, ein persönlicher Zeuge, jemand, der zur Ansicht gelangt ist, jemand, der durch Vertrauen befreit ist, eine Nachfolgerin der Lehren und ein <span class=\"ebt-matched\">Nachfolger durch Vertrauen</span>. ",
+            "en": "one freed both ways, one freed by wisdom, a personal witness, one attained to view, one freed by faith, a follower of the teachings, and a follower by faith. ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 33\nIm Chor aufsagen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 1167,
+          "de": 1166,
+          "en": 1166
+        }
+      }
+    ]
   }
 }

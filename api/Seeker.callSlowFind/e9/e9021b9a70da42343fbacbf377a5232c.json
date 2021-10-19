@@ -30,11 +30,50 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "ihm ihre milch gegeben",
-    "method": "keywords",
-    "resultPattern": "\\bihm|\\bihre|\\bmilch|\\bgegeben",
-    "segsMatched": 0,
-    "bilaraPaths": [],
-    "suttaRefs": [],
-    "mlDocs": []
+    "method": "phrase",
+    "resultPattern": "\\bihm ihre milch gegeben",
+    "segsMatched": 1,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an8/an8.51_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an8/an8.51_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an8/an8.51_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an8.51/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.51_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an8/an8.51_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an8/an8.51_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an8.51",
+        "lang": "de",
+        "segMap": {
+          "an8.51:9.8": {
+            "scid": "an8.51:9.8",
+            "pli": "bahukārā, bhante, mahāpajāpatī gotamī bhagavato mātucchā āpādikā posikā khīrassa dāyikā; ",
+            "de": "Herr, Mahāpajāpatī war dem Buddha eine große Hilfe. Sie ist seine Tante und hat ihn aufgezogen, ihn ernährt und <span class=\"ebt-matched\">ihm ihre Milch gegeben</span>. ",
+            "en": "Sir, Mahāpajāpatī has been very helpful to the Buddha. She is his aunt who raised him, nurtured him, and gave him her milk. ",
+            "matched": true
+          }
+        },
+        "score": 1.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 8\n6. Gotamī\n51. Mit Gotamī",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 92,
+          "de": 88,
+          "en": 91
+        }
+      }
+    ]
   }
 }

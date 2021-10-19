@@ -30,11 +30,272 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "mein unübertreffliches vollkommenes erwachen erklärt",
-    "method": "keywords",
-    "resultPattern": "\\bmein|\\bunübertreffliches|\\bvollkommenes|\\berwachen|\\berklärt",
-    "segsMatched": 0,
-    "bilaraPaths": [],
-    "suttaRefs": [],
-    "mlDocs": []
+    "method": "phrase",
+    "resultPattern": "\\bmein unübertreffliches vollkommenes erwachen erklärt",
+    "segsMatched": 12,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn56/sn56.11_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn56/sn56.11_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn56/sn56.11_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an9/an9.41_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an9/an9.41_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an9/an9.41_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an8/an8.64_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an8/an8.64_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an8/an8.64_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an7/an7.50_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an7/an7.50_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an7/an7.50_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.104_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an3/an3.104_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an3/an3.104_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.103_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an3/an3.103_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an3/an3.103_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn56.11/de/sabbamitta",
+      "an9.41/de/sabbamitta",
+      "an8.64/de/sabbamitta",
+      "an7.50/de/sabbamitta",
+      "an3.104/de/sabbamitta",
+      "an3.103/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an3/an3.103_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an3/an3.103_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an3/an3.103_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an3.103",
+        "lang": "de",
+        "segMap": {
+          "an3.103:1.7": {
+            "scid": "an3.103:1.7",
+            "pli": "Yāvakīvañcāhaṁ, bhikkhave, evaṁ lokassa assādañca assādato ādīnavañca ādīnavato nissaraṇañca nissaraṇato yathābhūtaṁ nābbhaññāsiṁ, neva tāvāhaṁ, bhikkhave, sadevake loke samārake sabrahmake sassamaṇabrāhmaṇiyā pajāya sadevamanussāya ‘anuttaraṁ sammāsambodhiṁ abhisambuddho’ti paccaññāsiṁ. ",
+            "de": "Solange ich die vorteilhaften und nachteiligen Folgen in der Welt und das Entrinnen daraus nicht ihrer wahren Natur gemäß wirklich verstanden hatte, solange habe ich in dieser Welt mit ihren Göttern, Māras und Brahmās, unter dieser Bevölkerung mit ihren Asketen und Brahmanen, Göttern und Menschen nicht <span class=\"ebt-matched\">mein unübertreffliches vollkommenes Erwachen erklärt</span>. ",
+            "en": "As long as I didn’t truly understand the world’s gratification, drawback, and escape in this way for what they are, I didn’t announce my supreme perfect awakening in this world with its gods, Māras, and Brahmās, this population with its ascetics and brahmins, its gods and humans. ",
+            "matched": true
+          },
+          "an3.103:1.8": {
+            "scid": "an3.103:1.8",
+            "pli": "Yato ca khvāhaṁ, bhikkhave, evaṁ lokassa assādañca assādato ādīnavañca ādīnavato nissaraṇañca nissaraṇato yathābhūtaṁ abbhaññāsiṁ, athāhaṁ, bhikkhave, sadevake loke samārake sabrahmake sassamaṇabrāhmaṇiyā pajāya sadevamanussāya ‘anuttaraṁ sammāsambodhiṁ abhisambuddho’ti paccaññāsiṁ. ",
+            "de": "Als ich aber die vorteilhaften und nachteiligen Folgen in der Welt und das Entrinnen daraus ihrer wahren Natur gemäß wirklich verstanden hatte, da habe ich in dieser Welt mit ihren Göttern, Māras und Brahmās, unter dieser Bevölkerung mit ihren Asketen und Brahmanen, Göttern und Menschen <span class=\"ebt-matched\">mein unübertreffliches vollkommenes Erwachen erklärt</span>. ",
+            "en": "But when I did truly understand the world’s gratification, drawback, and escape in this way for what they are, I announced my supreme perfect awakening in this world with its gods, Māras, and Brahmās, this population with its ascetics and brahmins, its gods and humans. ",
+            "matched": true
+          }
+        },
+        "score": 2.143,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 3\n11. Erwachen\n103. Vor dem Erwachen",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 14,
+          "de": 13,
+          "en": 13
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an3/an3.104_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an3/an3.104_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an3/an3.104_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an3.104",
+        "lang": "de",
+        "segMap": {
+          "an3.104:1.7": {
+            "scid": "an3.104:1.7",
+            "pli": "Yāvakīvañcāhaṁ, bhikkhave, lokassa assādañca assādato ādīnavañca ādīnavato nissaraṇañca nissaraṇato yathābhūtaṁ nābbhaññāsiṁ, neva tāvāhaṁ, bhikkhave, sadevake loke samārake sabrahmake sassamaṇabrāhmaṇiyā pajāya sadevamanussāya ‘anuttaraṁ sammāsambodhiṁ abhisambuddho’ti paccaññāsiṁ. ",
+            "de": "Solange ich die vorteilhaften und nachteiligen Folgen in der Welt und das Entrinnen daraus nicht ihrer wahren Natur gemäß wirklich verstanden hatte, solange habe ich in dieser Welt mit ihren Göttern, Māras und Brahmās, unter dieser Bevölkerung mit ihren Asketen und Brahmanen, Göttern und Menschen nicht <span class=\"ebt-matched\">mein unübertreffliches vollkommenes Erwachen erklärt</span>. ",
+            "en": "As long as I didn’t truly understand the world’s gratification, drawback, and escape for what they are, I didn’t announce my supreme perfect awakening in this world with its gods, Māras, and Brahmās, this population with its ascetics and brahmins, its gods and humans. ",
+            "matched": true
+          },
+          "an3.104:1.8": {
+            "scid": "an3.104:1.8",
+            "pli": "Yato ca khvāhaṁ, bhikkhave, lokassa assādañca assādato ādīnavañca ādīnavato nissaraṇañca nissaraṇato yathābhūtaṁ abbhaññāsiṁ, athāhaṁ, bhikkhave, sadevake loke samārake sabrahmake sassamaṇabrāhmaṇiyā pajāya sadevamanussāya ‘anuttaraṁ sammāsambodhiṁ abhisambuddho’ti paccaññāsiṁ. ",
+            "de": "Als ich aber die vorteilhaften und nachteiligen Folgen in der Welt und das Entrinnen daraus ihrer wahren Natur gemäß wirklich verstanden hatte, da habe ich in dieser Welt mit ihren Göttern, Māras und Brahmās, unter dieser Bevölkerung mit ihren Asketen und Brahmanen, Göttern und Menschen <span class=\"ebt-matched\">mein unübertreffliches vollkommenes Erwachen erklärt</span>. ",
+            "en": "But when I did truly understand the world’s gratification, drawback, and escape for what they are, I announced my supreme perfect awakening in this world with its gods, Māras, and Brahmās, this population with its ascetics and brahmins, its gods and humans. ",
+            "matched": true
+          }
+        },
+        "score": 2.143,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 3\n11. Erwachen\n104. Vorteilhafte Folgen (1)",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 14,
+          "de": 13,
+          "en": 13
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an7/an7.50_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an7/an7.50_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an7/an7.50_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an7.50",
+        "lang": "de",
+        "segMap": {
+          "an7.50:9.1": {
+            "scid": "an7.50:9.1",
+            "pli": "Yāvakīvañcāhaṁ, brāhmaṇa, imesaṁ sattannaṁ methunasaṁyogānaṁ aññataraññataramethunasaṁyogaṁ attani appahīnaṁ samanupassiṁ, neva tāvāhaṁ, brāhmaṇa, sadevake loke samārake sabrahmake sassamaṇabrāhmaṇiyā pajāya sadevamanussāya anuttaraṁ sammāsambodhiṁ abhisambuddhoti paccaññāsiṁ. ",
+            "de": "Solange ich sah, dass diese sieben Fesseln des Geschlechtsverkehrs – oder auch nur eine von ihnen – in mir noch nicht aufgegeben waren, solange habe ich in dieser Welt mit ihren Göttern, Māras und Brahmās, unter dieser Bevölkerung mit ihren Asketen und Brahmanen, Göttern und Menschen nicht <span class=\"ebt-matched\">mein unübertreffliches vollkommenes Erwachen erklärt</span>. ",
+            "en": "As long as I saw that these seven sexual fetters—or even one of them—had not been given up in me, I didn’t announce my supreme perfect awakening in this world with its gods, Māras, and Brahmās, this population with its ascetics and brahmins, its gods and humans. ",
+            "matched": true
+          },
+          "an7.50:10.1": {
+            "scid": "an7.50:10.1",
+            "pli": "Yato ca khohaṁ, brāhmaṇa, imesaṁ sattannaṁ methunasaṁyogānaṁ aññataraññataramethunasaṁyogaṁ attani appahīnaṁ na samanupassiṁ, athāhaṁ, brāhmaṇa, sadevake loke samārake sabrahmake sassamaṇabrāhmaṇiyā pajāya sadevamanussāya anuttaraṁ sammāsambodhiṁ abhisambuddhoti paccaññāsiṁ. ",
+            "de": "Als ich aber sah, dass diese sieben Fesseln des Geschlechtsverkehrs – jede einzelne von ihnen – in mir aufgegeben waren, da habe ich in dieser Welt mit ihren Göttern, Māras und Brahmās, unter dieser Bevölkerung mit ihren Asketen und Brahmanen, Göttern und Menschen <span class=\"ebt-matched\">mein unübertreffliches vollkommenes Erwachen erklärt</span>. ",
+            "en": "But when I saw that these seven sexual fetters—every one of them—had been given up in me, I announced my supreme perfect awakening in this world with its gods, Māras, and Brahmās, this population with its ascetics and brahmins, its gods and humans. ",
+            "matched": true
+          }
+        },
+        "score": 2.053,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 7\n5. Ein großes Opfer\n50. Geschlechtsverkehr",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 38,
+          "de": 32,
+          "en": 37
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.64_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an8/an8.64_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an8/an8.64_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an8.64",
+        "lang": "de",
+        "segMap": {
+          "an8.64:10.1": {
+            "scid": "an8.64:10.1",
+            "pli": "Yāvakīvañca me, bhikkhave, evaṁ aṭṭhaparivaṭṭaṁ adhidevañāṇadassanaṁ na suvisuddhaṁ ahosi, neva tāvāhaṁ, bhikkhave, ‘sadevake loke samārake sabrahmake sassamaṇabrāhmaṇiyā pajāya sadevamanussāya anuttaraṁ sammāsambodhiṁ abhisambuddho’ti paccaññāsiṁ. ",
+            "de": "Solange mein Erkennen und Sehen dieser Gottheiten nicht in diesen acht Richtungen vollständig geläutert war, solange habe ich in dieser Welt mit ihren Göttern, Māras und Brahmās, unter dieser Bevölkerung mit ihren Asketen und Brahmanen, Göttern und Menschen nicht <span class=\"ebt-matched\">mein unübertreffliches vollkommenes Erwachen erklärt</span>. ",
+            "en": "As long as my knowledge and vision about the deities was not fully purified from these eight perspectives, I didn’t announce my supreme perfect awakening in this world with its gods, Māras, and Brahmās, this population with its ascetics and brahmins, its gods and humans. ",
+            "matched": true
+          },
+          "an8.64:10.2": {
+            "scid": "an8.64:10.2",
+            "pli": "Yato ca kho me, bhikkhave, evaṁ aṭṭhaparivaṭṭaṁ adhidevañāṇadassanaṁ suvisuddhaṁ ahosi, athāhaṁ, bhikkhave, ‘sadevake loke samārake sabrahmake sassamaṇabrāhmaṇiyā pajāya sadevamanussāya anuttaraṁ sammāsambodhiṁ abhisambuddho’ti paccaññāsiṁ; ",
+            "de": "Doch als mein wirkliches Erkennen und Sehen dieser Gottheiten in diesen acht Richtungen vollständig geläutert war, da habe ich in dieser Welt mit ihren Göttern, Māras und Brahmās, unter dieser Bevölkerung mit ihren Asketen und Brahmanen, Göttern und Menschen <span class=\"ebt-matched\">mein unübertreffliches vollkommenes Erwachen erklärt</span>. ",
+            "en": "But when my knowledge and vision about the deities was fully purified from these eight perspectives, I announced my supreme perfect awakening in this world with its gods, Māras, and Brahmās, this population with its ascetics and brahmins, its gods and humans. ",
+            "matched": true
+          }
+        },
+        "score": 2.038,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 8\n7. Erdbeben\n64. Beim Gayā-Kopf",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 53,
+          "de": 48,
+          "en": 52
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn56/sn56.11_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn56/sn56.11_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn56/sn56.11_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn56.11",
+        "lang": "de",
+        "segMap": {
+          "sn56.11:9.1": {
+            "scid": "sn56.11:9.1",
+            "pli": "Yāvakīvañca me, bhikkhave, imesu catūsu ariyasaccesu evaṁ tiparivaṭṭaṁ dvādasākāraṁ yathābhūtaṁ ñāṇadassanaṁ na suvisuddhaṁ ahosi, neva tāvāhaṁ, bhikkhave, sadevake loke samārake sabrahmake sassamaṇabrāhmaṇiyā pajāya sadevamanussāya ‘anuttaraṁ sammāsambodhiṁ abhisambuddho’ti paccaññāsiṁ. ",
+            "de": "Solange mein wirkliches Erkennen und Sehen dieser vier edlen Wahrheiten nicht in diesen drei Richtungen und mit den zwölf Aspekten vollständig geläutert war, solange habe ich in dieser Welt mit ihren Göttern, Māras und Brahmās, unter dieser Bevölkerung mit ihren Asketen und Brahmanen, Göttern und Menschen nicht <span class=\"ebt-matched\">mein unübertreffliches vollkommenes Erwachen erklärt</span>. ",
+            "en": "As long as my true knowledge and vision about these four noble truths was not fully purified in these three perspectives and twelve aspects, I didn’t announce my supreme perfect awakening in this world with its gods, Māras, and Brahmās, this population with its ascetics and brahmins, its gods and humans. ",
+            "matched": true
+          },
+          "sn56.11:10.1": {
+            "scid": "sn56.11:10.1",
+            "pli": "Yato ca kho me, bhikkhave, imesu catūsu ariyasaccesu evaṁ tiparivaṭṭaṁ dvādasākāraṁ yathābhūtaṁ ñāṇadassanaṁ suvisuddhaṁ ahosi, athāhaṁ, bhikkhave, sadevake loke samārake sabrahmake sassamaṇabrāhmaṇiyā pajāya sadevamanussāya ‘anuttaraṁ sammāsambodhiṁ abhisambuddho’ti paccaññāsiṁ. ",
+            "de": "Doch als mein wirkliches Erkennen und Sehen dieser vier edlen Wahrheiten in diesen drei Richtungen und mit den zwölf Aspekten vollständig geläutert war, da habe ich in dieser Welt mit ihren Göttern, Māras und Brahmās, unter dieser Bevölkerung mit ihren Asketen und Brahmanen, Göttern und Menschen <span class=\"ebt-matched\">mein unübertreffliches vollkommenes Erwachen erklärt</span>. ",
+            "en": "But when my true knowledge and vision about these four noble truths was fully purified in these three perspectives and twelve aspects, I announced my supreme perfect awakening in this world with its gods, Māras, and Brahmās, this population with its ascetics and brahmins, its gods and humans. ",
+            "matched": true
+          }
+        },
+        "score": 2.033,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 56\n2. Das Rad des Dhamma ins Rollen bringen\n11. Das Rad des Dhamma ins Rollen bringen",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 60,
+          "de": 59,
+          "en": 59
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an9/an9.41_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an9/an9.41_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an9/an9.41_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an9.41",
+        "lang": "de",
+        "segMap": {
+          "an9.41:16.1": {
+            "scid": "an9.41:16.1",
+            "pli": "Yāvakīvañcāhaṁ, ānanda, imā nava anupubbavihārasamāpattiyo na evaṁ anulomapaṭilomaṁ samāpajjimpi vuṭṭhahimpi, neva tāvāhaṁ, ānanda, sadevake loke samārake sabrahmake sassamaṇabrāhmaṇiyā pajāya sadevamanussāya ‘anuttaraṁ sammāsambodhiṁ abhisambuddho’ti paccaññāsiṁ. ",
+            "de": "Solange ich nicht in diese neun fortschreitenden erhabenen Meditationszustände in auf- und absteigender Folge ein- und wieder herausgetreten war, solange habe ich in dieser Welt mit ihren Göttern, Māras und Brahmās, unter dieser Bevölkerung mit ihren Asketen und Brahmanen, Göttern und Menschen nicht <span class=\"ebt-matched\">mein unübertreffliches vollkommenes Erwachen erklärt</span>. ",
+            "en": "As long as I hadn’t entered into and withdrawn from these nine progressive meditative attainments in both forward and reverse order, I didn’t announce my supreme perfect awakening in this world with its gods, Māras, and Brahmās, this population with its ascetics and brahmins, its gods and humans. ",
+            "matched": true
+          },
+          "an9.41:16.2": {
+            "scid": "an9.41:16.2",
+            "pli": "Yato ca kho ahaṁ, ānanda, imā nava anupubbavihārasamāpattiyo evaṁ anulomapaṭilomaṁ samāpajjimpi vuṭṭhahimpi, athāhaṁ, ānanda, sadevake loke samārake sabrahmake sassamaṇabrāhmaṇiyā pajāya sadevamanussāya ‘anuttaraṁ sammāsambodhiṁ abhisambuddho’ti paccaññāsiṁ. ",
+            "de": "Als ich aber in diese neun fortschreitenden erhabenen Meditationszustände in auf- und absteigender Folge ein- und wieder herausgetreten war, da habe ich in dieser Welt mit ihren Göttern, Māras und Brahmās, unter dieser Bevölkerung mit ihren Asketen und Brahmanen, Göttern und Menschen <span class=\"ebt-matched\">mein unübertreffliches vollkommenes Erwachen erklärt</span>. ",
+            "en": "But when I had entered into and withdrawn from these nine progressive meditative attainments in both forward and reverse order, I announced my supreme perfect awakening in this world with its gods, Māras, and Brahmās, this population with its ascetics and brahmins, its gods and humans. ",
+            "matched": true
+          }
+        },
+        "score": 2.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 9\n4. Das große Kapitel\n41. Mit dem Hausbesitzer Tapussa",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 177,
+          "de": 166,
+          "en": 175
+        }
+      }
+    ]
   }
 }

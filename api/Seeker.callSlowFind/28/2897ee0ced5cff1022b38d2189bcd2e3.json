@@ -29,11 +29,96 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "cosmologist",
-    "method": "keywords",
+    "method": "phrase",
     "resultPattern": "\\bcosmologist",
-    "segsMatched": 0,
-    "bilaraPaths": [],
-    "suttaRefs": [],
-    "mlDocs": []
+    "segsMatched": 5,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn12/sn12.48_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.48_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an9/an9.38_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an9/an9.38_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn12.48/en/sujato",
+      "an9.38/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn12/sn12.48_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn12/sn12.48_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn12.48",
+        "lang": "en",
+        "segMap": {
+          "sn12.48:0.3": {
+            "scid": "sn12.48:0.3",
+            "pli": "48. Lokāyatikasutta ",
+            "en": "48. A <span class=\"ebt-matched\">Cosmologist</span> ",
+            "matched": true
+          },
+          "sn12.48:1.2": {
+            "scid": "sn12.48:1.2",
+            "pli": "Atha kho lokāyatiko brāhmaṇo yena bhagavā …pe… ",
+            "en": "Then a brahmin <span class=\"ebt-matched\">cosmologist</span> went up to the Buddha … ",
+            "matched": true
+          },
+          "sn12.48:7.1": {
+            "scid": "sn12.48:7.1",
+            "pli": "Evaṁ vutte, lokāyatiko brāhmaṇo bhagavantaṁ etadavoca: ",
+            "en": "When he said this, the brahmin <span class=\"ebt-matched\">cosmologist</span> said to the Buddha, ",
+            "matched": true
+          }
+        },
+        "score": 3.12,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 12\n5. Householders\n48. A Cosmologist",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 25,
+          "en": 24
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an9/an9.38_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an9/an9.38_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an9.38",
+        "lang": "en",
+        "segMap": {
+          "an9.38:0.3": {
+            "scid": "an9.38:0.3",
+            "pli": "38. Lokāyatikasutta ",
+            "en": "38. Brahmin <span class=\"ebt-matched\">Cosmologist</span>s ",
+            "matched": true
+          },
+          "an9.38:1.1": {
+            "scid": "an9.38:1.1",
+            "pli": "Atha kho dve lokāyatikā brāhmaṇā yena bhagavā tenupasaṅkamiṁsu; upasaṅkamitvā bhagavatā saddhiṁ sammodiṁsu. ",
+            "en": "Then two brahmin <span class=\"ebt-matched\">cosmologist</span>s went up to the Buddha, and exchanged greetings with him. ",
+            "matched": true
+          }
+        },
+        "score": 2.027,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 9\n4. The Great Chapter\n38. Brahmin Cosmologists",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 74,
+          "en": 73
+        }
+      }
+    ]
   }
 }

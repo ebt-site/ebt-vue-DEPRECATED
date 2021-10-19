@@ -30,11 +30,50 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "den buddha bezaubern",
-    "method": "keywords",
-    "resultPattern": "\\bden|\\bb(u|ū)(d|ḍ)(d|ḍ)h(a|ā)|\\bbezaubern",
-    "segsMatched": 0,
-    "bilaraPaths": [],
-    "suttaRefs": [],
-    "mlDocs": []
+    "method": "phrase",
+    "resultPattern": "\\bden buddha bezaubern",
+    "segsMatched": 1,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn21_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn21_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn21_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "dn21/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn21_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn21_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn21_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn21",
+        "lang": "de",
+        "segMap": {
+          "dn21:1.4.3": {
+            "scid": "dn21:1.4.3",
+            "pli": "Yadi pana tvaṁ, tāta pañcasikha, bhagavantaṁ paṭhamaṁ pasādeyyāsi, tayā, tāta, paṭhamaṁ pasāditaṁ pacchā mayaṁ taṁ bhagavantaṁ dassanāya upasaṅkameyyāma arahantaṁ sammāsambuddhan”ti. ",
+            "de": "Aber wenn du zuerst <span class=\"ebt-matched\">den Buddha bezaubern</span> würdest, könnte ich anschließend zu ihm gehen.“ ",
+            "en": "But if you were to charm the Buddha first, then I could go to see him.” ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 21\nSakkas Fragen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 515,
+          "de": 477,
+          "en": 514
+        }
+      }
+    ]
   }
 }

@@ -29,11 +29,446 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "being intent on awakening",
-    "method": "keywords",
-    "resultPattern": "\\bbeing|\\bintent|\\bo(n|ṅ|ñ|ṇ)|\\bawakening",
-    "segsMatched": 0,
-    "bilaraPaths": [],
-    "suttaRefs": [],
-    "mlDocs": []
+    "method": "phrase",
+    "resultPattern": "\\bbeing intent on awakening",
+    "segsMatched": 46,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn123_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn123_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an8/an8.70_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an8/an8.70_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.127_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an4/an4.127_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga3/snp3.11_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga3/snp3.11_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "mn123/en/sujato",
+      "dn14/en/sujato",
+      "dn16/en/sujato",
+      "an8.70/en/sujato",
+      "an4.127/en/sujato",
+      "snp3.11/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn123_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn123_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn123",
+        "lang": "en",
+        "segMap": {
+          "mn123:3.2": {
+            "scid": "mn123:3.2",
+            "pli": "‘sato sampajāno, ānanda, bodhisatto tusitaṁ kāyaṁ upapajjī’ti. ",
+            "en": "‘Mindful and aware, the <span class=\"ebt-matched\">being intent on awakening</span> was reborn in the host of Joyful Gods.’ ",
+            "matched": true
+          },
+          "mn123:4.2": {
+            "scid": "mn123:4.2",
+            "pli": "‘sato sampajāno, ānanda, bodhisatto tusite kāye aṭṭhāsī’ti. ",
+            "en": "‘Mindful and aware, the <span class=\"ebt-matched\">being intent on awakening</span> remained in the host of Joyful Gods.’ ",
+            "matched": true
+          },
+          "mn123:5.2": {
+            "scid": "mn123:5.2",
+            "pli": "‘yāvatāyukaṁ, ānanda, bodhisatto tusite kāye aṭṭhāsī’ti. ",
+            "en": "‘For the whole of that life, the <span class=\"ebt-matched\">being intent on awakening</span> remained in the host of Joyful Gods.’ ",
+            "matched": true
+          },
+          "mn123:6.2": {
+            "scid": "mn123:6.2",
+            "pli": "‘sato sampajāno, ānanda, bodhisatto tusitā, kāyā cavitvā mātukucchiṁ okkamī’ti. ",
+            "en": "‘Mindful and aware, the <span class=\"ebt-matched\">being intent on awakening</span> passed away from the host of Joyful Gods and was conceived in his mother’s womb.’ ",
+            "matched": true
+          },
+          "mn123:7.2": {
+            "scid": "mn123:7.2",
+            "pli": "‘yadā, ānanda, bodhisatto tusitā kāyā cavitvā mātukucchiṁ okkamati, ",
+            "en": "‘When the <span class=\"ebt-matched\">being intent on awakening</span> passes away from the host of Joyful Gods, he is conceived in his mother’s womb. ",
+            "matched": true
+          },
+          "mn123:8.2": {
+            "scid": "mn123:8.2",
+            "pli": "‘yadā, ānanda, bodhisatto mātukucchiṁ okkanto hoti, cattāro devaputtā catuddisaṁ ārakkhāya upagacchanti—mā naṁ bodhisattaṁ vā bodhisattamātaraṁ vā manusso vā amanusso vā koci vā viheṭhesī’ti. ",
+            "en": "‘When the <span class=\"ebt-matched\">being intent on awakening</span> is conceived in his mother’s belly, four deities approach to guard the four directions, so that no human or non-human or anyone at all shall harm the <span class=\"ebt-matched\">being intent on awakening</span> or his mother.’ ",
+            "matched": true
+          },
+          "mn123:9.2": {
+            "scid": "mn123:9.2",
+            "pli": "‘yadā, ānanda, bodhisatto mātukucchiṁ okkanto hoti, pakatiyā sīlavatī bodhisattamātā hoti viratā pāṇātipātā viratā adinnādānā viratā kāmesumicchācārā viratā musāvādā viratā surāmerayamajjapamādaṭṭhānā’ti. ",
+            "en": "‘When the <span class=\"ebt-matched\">being intent on awakening</span> is conceived in his mother’s belly, she becomes naturally ethical. She refrains from killing living creatures, stealing, sexual misconduct, lying, and alcoholic drinks that cause negligence.’ ",
+            "matched": true
+          },
+          "mn123:10.2": {
+            "scid": "mn123:10.2",
+            "pli": "‘yadā, ānanda, bodhisatto mātukucchiṁ okkanto hoti, na bodhisattamātu purisesu mānasaṁ uppajjati kāmaguṇūpasaṁhitaṁ, anatikkamanīyā ca bodhisattamātā hoti kenaci purisena rattacittenā’ti. ",
+            "en": "‘When the <span class=\"ebt-matched\">being intent on awakening</span> is conceived in his mother’s belly, she no longer feels sexual desire for men, and she cannot be violated by a man of lustful intent.’ ",
+            "matched": true
+          },
+          "mn123:11.2": {
+            "scid": "mn123:11.2",
+            "pli": "‘yadā, ānanda, bodhisatto mātukucchiṁ okkanto hoti, lābhinī bodhisattamātā hoti pañcannaṁ kāmaguṇānaṁ. Sā pañcahi kāmaguṇehi samappitā samaṅgībhūtā paricāretī’ti. ",
+            "en": "‘When the <span class=\"ebt-matched\">being intent on awakening</span> is conceived in his mother’s belly, she obtains the five kinds of sensual stimulation and amuses herself, supplied and provided with them.’ ",
+            "matched": true
+          },
+          "mn123:12.2": {
+            "scid": "mn123:12.2",
+            "pli": "‘yadā, ānanda, bodhisatto mātukucchiṁ okkanto hoti, na bodhisattamātu kocideva ābādho uppajjati; sukhinī bodhisattamātā hoti akilantakāyā; bodhisattañca bodhisattamātā tirokucchigataṁ passati sabbaṅgapaccaṅgaṁ ahīnindriyaṁ. ",
+            "en": "‘When the <span class=\"ebt-matched\">being intent on awakening</span> is conceived in his mother’s belly, no afflictions beset her. She’s happy and free of bodily fatigue. And she sees the <span class=\"ebt-matched\">being intent on awakening</span> in her womb, complete with all his various parts, not deficient in any faculty. ",
+            "matched": true
+          },
+          "mn123:12.5": {
+            "scid": "mn123:12.5",
+            "pli": "Evameva kho, ānanda, yadā bodhisatto mātukucchiṁ okkanto hoti, na bodhisattamātu kocideva ābādho uppajjati; sukhinī bodhisattamātā hoti akilantakāyā; bodhisattañca bodhisattamātā tirokucchigataṁ passati sabbaṅgapaccaṅgaṁ ahīnindriyan’ti. ",
+            "en": "In the same way, when the <span class=\"ebt-matched\">being intent on awakening</span> is conceived in his mother’s belly, no afflictions beset her. She’s happy and free of bodily fatigue. And she sees the <span class=\"ebt-matched\">being intent on awakening</span> in her womb, complete with all his various parts, not deficient in any faculty.’ ",
+            "matched": true
+          },
+          "mn123:13.2": {
+            "scid": "mn123:13.2",
+            "pli": "‘sattāhajāte, ānanda, bodhisatte bodhisattamātā kālaṁ karoti, tusitaṁ kāyaṁ upapajjatī’ti. ",
+            "en": "‘Seven days after the <span class=\"ebt-matched\">being intent on awakening</span> is born, his mother passes away and is reborn in the host of Joyful Gods.’ ",
+            "matched": true
+          },
+          "mn123:14.2": {
+            "scid": "mn123:14.2",
+            "pli": "‘yathā kho panānanda, aññā itthikā nava vā dasa vā māse gabbhaṁ kucchinā pariharitvā vijāyanti, na hevaṁ bodhisattaṁ bodhisattamātā vijāyati. Daseva māsāni bodhisattaṁ bodhisattamātā kucchinā pariharitvā vijāyatī’ti. ",
+            "en": "‘Other women carry the infant in the womb for nine or ten months before giving birth. Not so the mother of the <span class=\"ebt-matched\">being intent on awakening</span>. She gives birth after exactly ten months.’ ",
+            "matched": true
+          },
+          "mn123:15.2": {
+            "scid": "mn123:15.2",
+            "pli": "‘yathā kho panānanda, aññā itthikā nisinnā vā nipannā vā vijāyanti, na hevaṁ bodhisattaṁ bodhisattamātā vijāyati. Ṭhitāva bodhisattaṁ bodhisattamātā vijāyatī’ti. ",
+            "en": "‘Other women give birth while sitting or lying down. Not so the mother of the <span class=\"ebt-matched\">being intent on awakening</span>. She only gives birth standing up.’ ",
+            "matched": true
+          },
+          "mn123:16.2": {
+            "scid": "mn123:16.2",
+            "pli": "‘yadā, ānanda, bodhisatto mātukucchimhā nikkhamati, devā naṁ paṭhamaṁ paṭiggaṇhanti pacchā manussā’ti. ",
+            "en": "‘When the <span class=\"ebt-matched\">being intent on awakening</span> emerges from his mother’s womb, gods receive him first, then humans.’ ",
+            "matched": true
+          },
+          "mn123:17.2": {
+            "scid": "mn123:17.2",
+            "pli": "‘yadā, ānanda, bodhisatto mātukucchimhā nikkhamati, appattova bodhisatto pathaviṁ hoti, cattāro naṁ devaputtā paṭiggahetvā mātu purato ṭhapenti—attamanā, devi, hohi; mahesakkho te putto uppanno’ti. ",
+            "en": "‘When the <span class=\"ebt-matched\">being intent on awakening</span> emerges from his mother’s womb, before he reaches the ground, four deities receive him and place him before his mother, saying: “Rejoice, O Queen! An illustrious son is born to you.”’ ",
+            "matched": true
+          },
+          "mn123:18.2": {
+            "scid": "mn123:18.2",
+            "pli": "‘yadā, ānanda, bodhisatto mātukucchimhā nikkhamati, visadova nikkhamati amakkhito udena amakkhito semhena amakkhito ruhirena amakkhito kenaci asucinā suddho visado. ",
+            "en": "‘When the <span class=\"ebt-matched\">being intent on awakening</span> emerges from his mother’s womb, he emerges already clean, unsoiled by waters, mucus, blood, or any other kind of impurity, pure and clean. ",
+            "matched": true
+          },
+          "mn123:18.6": {
+            "scid": "mn123:18.6",
+            "pli": "Evameva kho, ānanda, yadā bodhisatto mātukucchimhā nikkhamati, visadova nikkhamati amakkhito udena amakkhito semhena amakkhito ruhirena amakkhito kenaci asucinā suddho visado’ti. ",
+            "en": "In the same way, when the <span class=\"ebt-matched\">being intent on awakening</span> emerges from his mother’s womb, he emerges already clean, unsoiled by waters, mucus, blood, or any other kind of impurity, pure and clean.’ ",
+            "matched": true
+          },
+          "mn123:19.2": {
+            "scid": "mn123:19.2",
+            "pli": "‘yadā, ānanda, bodhisatto mātukucchimhā nikkhamati, dve udakassa dhārā antalikkhā pātubhavanti—ekā sītassa, ekā uṇhassa; yena bodhisattassa udakakiccaṁ karonti mātu cā’ti. ",
+            "en": "‘When the <span class=\"ebt-matched\">being intent on awakening</span> emerges from his mother’s womb, two streams of water appear in the sky, one cool, one warm, for bathing the <span class=\"ebt-matched\">being intent on awakening</span> and his mother.’ ",
+            "matched": true
+          },
+          "mn123:20.2": {
+            "scid": "mn123:20.2",
+            "pli": "‘sampatijāto, ānanda, bodhisatto samehi pādehi pathaviyaṁ patiṭṭhahitvā uttarābhimukho sattapadavītihārena gacchati, setamhi chatte anudhāriyamāne, sabbā ca disā viloketi, āsabhiñca vācaṁ bhāsati—aggohamasmi lokassa, jeṭṭhohamasmi lokassa, seṭṭhohamasmi lokassa. Ayamantimā jāti, natthi dāni punabbhavo’ti. ",
+            "en": "‘As soon as he’s born, the <span class=\"ebt-matched\">being intent on awakening</span> stands firm with his own feet on the ground. Facing north, he takes seven strides with a white parasol held above him, surveys all quarters, and makes this dramatic proclamation: “I am the foremost in the world! I am the eldest in the world! I am the first in the world! This is my last rebirth. Now there are no more future lives.”’ ",
+            "matched": true
+          },
+          "mn123:21.2": {
+            "scid": "mn123:21.2",
+            "pli": "‘yadā, ānanda, bodhisatto mātukucchimhā nikkhamati, atha sadevake loke samārake sabrahmake sassamaṇabrāhmaṇiyā pajāya sadevamanussāya appamāṇo uḷāro obhāso loke pātubhavati atikkammeva devānaṁ devānubhāvaṁ. ",
+            "en": "‘When the <span class=\"ebt-matched\">being intent on awakening</span> emerges from his mother’s womb, then—in this world with its gods, Māras and Brahmās, this population with its ascetics and brahmins, gods and humans—an immeasurable, magnificent light appears, surpassing the glory of the gods. ",
+            "matched": true
+          }
+        },
+        "score": 21.196,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Middle Discourses 123\nIncredible and Amazing",
+        "segsMatched": 21,
+        "langSegs": {
+          "pli": 107,
+          "en": 106
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
+          "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn14",
+        "lang": "en",
+        "segMap": {
+          "dn14:1.17.1": {
+            "scid": "dn14:1.17.1",
+            "pli": "Atha kho, bhikkhave, vipassī bodhisatto tusitā kāyā cavitvā sato sampajāno mātukucchiṁ okkami. ",
+            "en": "When Vipassī, the <span class=\"ebt-matched\">being intent on awakening</span>, passed away from the host of Joyful Gods, he was conceived in his mother’s womb, mindful and aware. ",
+            "matched": true
+          },
+          "dn14:1.17.3": {
+            "scid": "dn14:1.17.3",
+            "pli": "Dhammatā esā, bhikkhave, yadā bodhisatto tusitā kāyā cavitvā mātukucchiṁ okkamati. ",
+            "en": "It’s normal that, when the <span class=\"ebt-matched\">being intent on awakening</span> passes away from the host of Joyful Gods, he is conceived in his mother’s womb. ",
+            "matched": true
+          },
+          "dn14:1.17.9": {
+            "scid": "dn14:1.17.9",
+            "pli": "Dhammatā esā, bhikkhave, yadā bodhisatto mātukucchiṁ okkanto hoti, cattāro naṁ devaputtā catuddisaṁ rakkhāya upagacchanti: ‘mā naṁ bodhisattaṁ vā bodhisattamātaraṁ vā manusso vā amanusso vā koci vā viheṭhesī’ti. ",
+            "en": "It’s normal that, when the <span class=\"ebt-matched\">being intent on awakening</span> is conceived in his mother’s belly, four gods approach to guard the four directions, so that no human or non-human or anyone at all shall harm the <span class=\"ebt-matched\">being intent on awakening</span> or his mother. ",
+            "matched": true
+          },
+          "dn14:1.18.1": {
+            "scid": "dn14:1.18.1",
+            "pli": "Dhammatā esā, bhikkhave, yadā bodhisatto mātukucchiṁ okkanto hoti, pakatiyā sīlavatī bodhisattamātā hoti, viratā pāṇātipātā, viratā adinnādānā, viratā kāmesumicchācārā, viratā musāvādā, viratā surāmerayamajjappamādaṭṭhānā. ",
+            "en": "It’s normal that, when the <span class=\"ebt-matched\">being intent on awakening</span> is conceived in his mother’s belly, she becomes naturally ethical. She refrains from killing living creatures, stealing, sexual misconduct, lying, and alcoholic drinks that cause negligence. ",
+            "matched": true
+          },
+          "dn14:1.19.1": {
+            "scid": "dn14:1.19.1",
+            "pli": "Dhammatā esā, bhikkhave, yadā bodhisatto mātukucchiṁ okkanto hoti, na bodhisattamātu purisesu mānasaṁ uppajjati kāmaguṇūpasaṁhitaṁ, anatikkamanīyā ca bodhisattamātā hoti kenaci purisena rattacittena. ",
+            "en": "It’s normal that, when the <span class=\"ebt-matched\">being intent on awakening</span> is conceived in his mother’s belly, she no longer feels sexual desire for men, and she cannot be violated by a man of lustful intent. ",
+            "matched": true
+          },
+          "dn14:1.20.1": {
+            "scid": "dn14:1.20.1",
+            "pli": "Dhammatā esā, bhikkhave, yadā bodhisatto mātukucchiṁ okkanto hoti, lābhinī bodhisattamātā hoti pañcannaṁ kāmaguṇānaṁ. Sā pañcahi kāmaguṇehi samappitā samaṅgībhūtā paricāreti. ",
+            "en": "It’s normal that, when the <span class=\"ebt-matched\">being intent on awakening</span> is conceived in his mother’s belly, she obtains the five kinds of sensual stimulation and amuses herself, supplied and provided with them. ",
+            "matched": true
+          },
+          "dn14:1.21.1": {
+            "scid": "dn14:1.21.1",
+            "pli": "Dhammatā esā, bhikkhave, yadā bodhisatto mātukucchiṁ okkanto hoti, na bodhisattamātu kocideva ābādho uppajjati. Sukhinī bodhisattamātā hoti akilantakāyā, bodhisattañca bodhisattamātā tirokucchigataṁ passati sabbaṅgapaccaṅgiṁ ahīnindriyaṁ. ",
+            "en": "It’s normal that, when the <span class=\"ebt-matched\">being intent on awakening</span> is conceived in his mother’s belly, no afflictions beset her. She’s happy and free of bodily fatigue. And she sees the <span class=\"ebt-matched\">being intent on awakening</span> in her womb, complete with all his various parts, not deficient in any faculty. ",
+            "matched": true
+          },
+          "dn14:1.21.4": {
+            "scid": "dn14:1.21.4",
+            "pli": "Evameva kho, bhikkhave, yadā bodhisatto mātukucchiṁ okkanto hoti, na bodhisattamātu kocideva ābādho uppajjati, sukhinī bodhisattamātā hoti akilantakāyā, bodhisattañca bodhisattamātā tirokucchigataṁ passati sabbaṅgapaccaṅgiṁ ahīnindriyaṁ. ",
+            "en": "In the same way, when the <span class=\"ebt-matched\">being intent on awakening</span> is conceived in his mother’s belly, no afflictions beset her. She’s happy and free of bodily fatigue. And she sees the <span class=\"ebt-matched\">being intent on awakening</span> in her womb, complete with all his various parts, not deficient in any faculty. ",
+            "matched": true
+          },
+          "dn14:1.22.1": {
+            "scid": "dn14:1.22.1",
+            "pli": "Dhammatā esā, bhikkhave, sattāhajāte bodhisatte bodhisattamātā kālaṁ karoti tusitaṁ kāyaṁ upapajjati. ",
+            "en": "It’s normal that, seven days after the <span class=\"ebt-matched\">being intent on awakening</span> is born, his mother passes away and is reborn in the host of Joyful Gods. ",
+            "matched": true
+          },
+          "dn14:1.23.1": {
+            "scid": "dn14:1.23.1",
+            "pli": "Dhammatā esā, bhikkhave, yathā aññā itthikā nava vā dasa vā māse gabbhaṁ kucchinā pariharitvā vijāyanti, na hevaṁ bodhisattaṁ bodhisattamātā vijāyati. Daseva māsāni bodhisattaṁ bodhisattamātā kucchinā pariharitvā vijāyati. ",
+            "en": "It’s normal that, while other women carry the infant in the womb for nine or ten months before giving birth, not so the mother of the <span class=\"ebt-matched\">being intent on awakening</span>. She gives birth after exactly ten months. ",
+            "matched": true
+          },
+          "dn14:1.24.1": {
+            "scid": "dn14:1.24.1",
+            "pli": "Dhammatā esā, bhikkhave, yathā aññā itthikā nisinnā vā nipannā vā vijāyanti, na hevaṁ bodhisattaṁ bodhisattamātā vijāyati. Ṭhitāva bodhisattaṁ bodhisattamātā vijāyati. ",
+            "en": "It’s normal that, while other women give birth while sitting or lying down, not so the mother of the <span class=\"ebt-matched\">being intent on awakening</span>. She only gives birth standing up. ",
+            "matched": true
+          },
+          "dn14:1.25.1": {
+            "scid": "dn14:1.25.1",
+            "pli": "Dhammatā esā, bhikkhave, yadā bodhisatto mātukucchimhā nikkhamati, devā paṭhamaṁ paṭiggaṇhanti, pacchā manussā. ",
+            "en": "It’s normal that, when the <span class=\"ebt-matched\">being intent on awakening</span> emerges from his mother’s womb, gods receive him first, then humans. ",
+            "matched": true
+          },
+          "dn14:1.26.1": {
+            "scid": "dn14:1.26.1",
+            "pli": "Dhammatā esā, bhikkhave, yadā bodhisatto mātukucchimhā nikkhamati, appattova bodhisatto pathaviṁ hoti, cattāro naṁ devaputtā paṭiggahetvā mātu purato ṭhapenti: ‘attamanā, devi, hohi; mahesakkho te putto uppanno’ti. ",
+            "en": "It’s normal that, when the <span class=\"ebt-matched\">being intent on awakening</span> emerges from his mother’s womb, before he reaches the ground, four gods receive him and place him before his mother, saying: ‘Rejoice, O Queen! An illustrious child is born to you.’ ",
+            "matched": true
+          },
+          "dn14:1.27.1": {
+            "scid": "dn14:1.27.1",
+            "pli": "Dhammatā esā, bhikkhave, yadā bodhisatto mātukucchimhā nikkhamati, visadova nikkhamati amakkhito udena amakkhito semhena amakkhito ruhirena amakkhito kenaci asucinā suddho visado. ",
+            "en": "It’s normal that, when the <span class=\"ebt-matched\">being intent on awakening</span> emerges from his mother’s womb, he emerges already clean, unsoiled by waters, mucus, blood, or any other kind of impurity, pure and clean. ",
+            "matched": true
+          },
+          "dn14:1.27.5": {
+            "scid": "dn14:1.27.5",
+            "pli": "Evameva kho, bhikkhave, yadā bodhisatto mātukucchimhā nikkhamati, visadova nikkhamati amakkhito, udena amakkhito semhena amakkhito ruhirena amakkhito kenaci asucinā suddho visado. ",
+            "en": "In the same way, when the <span class=\"ebt-matched\">being intent on awakening</span> emerges from his mother’s womb, he emerges already clean, unsoiled by waters, mucus, blood, or any other kind of impurity, pure and clean. ",
+            "matched": true
+          },
+          "dn14:1.28.1": {
+            "scid": "dn14:1.28.1",
+            "pli": "Dhammatā esā, bhikkhave, yadā bodhisatto mātukucchimhā nikkhamati, dve udakassa dhārā antalikkhā pātubhavanti—ekā sītassa ekā uṇhassa yena bodhisattassa udakakiccaṁ karonti mātu ca. ",
+            "en": "It’s normal that, when the <span class=\"ebt-matched\">being intent on awakening</span> emerges from his mother’s womb, two streams of water appear in the sky, one cool, one warm, for bathing the <span class=\"ebt-matched\">being intent on awakening</span> and his mother. ",
+            "matched": true
+          },
+          "dn14:1.29.1": {
+            "scid": "dn14:1.29.1",
+            "pli": "Dhammatā esā, bhikkhave, sampatijāto bodhisatto samehi pādehi patiṭṭhahitvā uttarābhimukho sattapadavītihārena gacchati setamhi chatte anudhāriyamāne, sabbā ca disā anuviloketi, āsabhiṁ vācaṁ bhāsati ‘aggohamasmi lokassa, jeṭṭhohamasmi lokassa, seṭṭhohamasmi lokassa, ayamantimā jāti, natthi dāni punabbhavo’ti. ",
+            "en": "It’s normal that, as soon as he’s born, the <span class=\"ebt-matched\">being intent on awakening</span> stands firm with his own feet on the ground. Facing north, he takes seven strides with a white parasol held above him, surveys all quarters, and makes this dramatic proclamation: ‘I am the foremost in the world! I am the eldest in the world! I am the first in the world! This is my last rebirth. Now there are no more future lives.’ ",
+            "matched": true
+          },
+          "dn14:1.30.1": {
+            "scid": "dn14:1.30.1",
+            "pli": "Dhammatā esā, bhikkhave, yadā bodhisatto mātukucchimhā nikkhamati, atha sadevake loke samārake sabrahmake sassamaṇabrāhmaṇiyā pajāya sadevamanussāya appamāṇo uḷāro obhāso pātubhavati, atikkammeva devānaṁ devānubhāvaṁ. ",
+            "en": "It’s normal that, when the <span class=\"ebt-matched\">being intent on awakening</span> emerges from his mother’s womb, then—in this world with its gods, Māras and Brahmās, this population with its ascetics and brahmins, gods and humans—an immeasurable, magnificent light appears, surpassing the glory of the gods. ",
+            "matched": true
+          }
+        },
+        "score": 18.021,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Long Discourses 14\nThe Great Discourse on the Harvest of Deeds\n1. On Past Lives",
+        "segsMatched": 18,
+        "langSegs": {
+          "pli": 851,
+          "en": 850
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.127_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an4/an4.127_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.127",
+        "lang": "en",
+        "segMap": {
+          "an4.127:1.3": {
+            "scid": "an4.127:1.3",
+            "pli": "Yadā, bhikkhave, bodhisatto tusitā kāyā cavitvā sato sampajāno mātukucchiṁ okkamati, atha sadevake loke samārake sabrahmake sassamaṇabrāhmaṇiyā pajāya sadevamanussāya appamāṇo uḷāro obhāso pātubhavati atikkammeva devānaṁ devānubhāvaṁ. ",
+            "en": "When the <span class=\"ebt-matched\">being intent on awakening</span> passes away from the host of Joyful Gods, he’s conceived in his mother’s womb, mindful and aware. And then—in this world with its gods, Māras and Brahmās, this population with its ascetics and brahmins, gods and humans—an immeasurable, magnificent light appears, surpassing the glory of the gods. ",
+            "matched": true
+          },
+          "an4.127:2.1": {
+            "scid": "an4.127:2.1",
+            "pli": "Puna caparaṁ, bhikkhave, yadā bodhisatto sato sampajāno mātukucchimhā nikkhamati, atha sadevake loke samārake sabrahmake sassamaṇabrāhmaṇiyā pajāya sadevamanussāya appamāṇo uḷāro obhāso pātubhavati atikkammeva devānaṁ devānubhāvaṁ. ",
+            "en": "Furthermore, the <span class=\"ebt-matched\">being intent on awakening</span> emerges from his mother’s womb, mindful and aware. And then … an immeasurable, magnificent light appears … ",
+            "matched": true
+          }
+        },
+        "score": 2.074,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 4\n13. Fears\n127. Incredible Things About the Realized One (1st)",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 27,
+          "en": 26
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.70_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an8/an8.70_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an8.70",
+        "lang": "en",
+        "segMap": {
+          "an8.70:16.1": {
+            "scid": "an8.70:16.1",
+            "pli": "Puna caparaṁ, ānanda, yadā bodhisatto tusitā kāyā cavitvā sato sampajāno mātukucchiṁ okkamati, tadāyaṁ pathavī kampati saṅkampati sampakampati sampavedhati. ",
+            "en": "Furthermore, when the <span class=\"ebt-matched\">being intent on awakening</span> passes away from the host of Joyful Gods, he’s conceived in his mother’s belly, mindful and aware. Then the earth shakes and rocks and trembles. ",
+            "matched": true
+          },
+          "an8.70:17.1": {
+            "scid": "an8.70:17.1",
+            "pli": "Puna caparaṁ, ānanda, yadā bodhisatto sato sampajāno mātukucchismā nikkhamati, tadāyaṁ pathavī kampati saṅkampati sampakampati sampavedhati. ",
+            "en": "Furthermore, when the <span class=\"ebt-matched\">being intent on awakening</span> comes out of his mother’s belly mindful and aware, the earth shakes and rocks and trembles. ",
+            "matched": true
+          }
+        },
+        "score": 2.023,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 8\n7. Earthquakes\n70. Earthquakes",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 87,
+          "en": 85
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
+          "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn16",
+        "lang": "en",
+        "segMap": {
+          "dn16:3.15.1": {
+            "scid": "dn16:3.15.1",
+            "pli": "Puna caparaṁ, ānanda, yadā bodhisatto tusitakāyā cavitvā sato sampajāno mātukucchiṁ okkamati, tadāyaṁ pathavī kampati saṅkampati sampakampati sampavedhati. ",
+            "en": "Furthermore, when the <span class=\"ebt-matched\">being intent on awakening</span> passes away from the host of Joyful Gods, he’s conceived in his mother’s belly, mindful and aware. Then the earth shakes and rocks and trembles. ",
+            "matched": true
+          },
+          "dn16:3.16.1": {
+            "scid": "dn16:3.16.1",
+            "pli": "Puna caparaṁ, ānanda, yadā bodhisatto sato sampajāno mātukucchismā nikkhamati, tadāyaṁ pathavī kampati saṅkampati sampakampati sampavedhati. ",
+            "en": "Furthermore, when the <span class=\"ebt-matched\">being intent on awakening</span> comes out of his mother’s belly mindful and aware, the earth shakes and rocks and trembles. ",
+            "matched": true
+          }
+        },
+        "score": 2.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Long Discourses 16\nThe Great Discourse on the Buddha’s Extinguishment",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 1665,
+          "en": 1664
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga3/snp3.11_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga3/snp3.11_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp3.11",
+        "lang": "en",
+        "segMap": {
+          "snp3.11:5.1": {
+            "scid": "snp3.11:5.1",
+            "pli": "“So bodhisatto ratanavaro atulyo,",
+            "en": "“The <span class=\"ebt-matched\">being intent on awakening</span>, a peerless gem,",
+            "matched": true
+          }
+        },
+        "score": 1.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses\nAbout Nālaka",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 186,
+          "en": 185
+        }
+      }
+    ]
   }
 }

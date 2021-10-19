@@ -30,11 +30,374 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "wilde[sn] fohlen",
-    "method": "keywords",
-    "resultPattern": "\\bwilde[sn]|\\bfohlen",
-    "segsMatched": 0,
-    "bilaraPaths": [],
-    "suttaRefs": [],
-    "mlDocs": []
+    "method": "phrase",
+    "resultPattern": "\\bwilde[sn] fohlen",
+    "segsMatched": 39,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an8/an8.14_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an8/an8.14_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an8/an8.14_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an9/an9.22_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an9/an9.22_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an9/an9.22_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.140_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an3/an3.140_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an3/an3.140_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an8.14/de/sabbamitta",
+      "an9.22/de/sabbamitta",
+      "an3.140/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.14_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an8/an8.14_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an8/an8.14_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an8.14",
+        "lang": "de",
+        "segMap": {
+          "an8.14:0.3": {
+            "scid": "an8.14:0.3",
+            "pli": "14. Assakhaḷuṅkasutta ",
+            "de": "14. Ein <span class=\"ebt-matched\">wildes Fohlen</span> ",
+            "en": "14. A Wild Colt ",
+            "matched": true
+          },
+          "an8.14:2.1": {
+            "scid": "an8.14:2.1",
+            "pli": "“Katame ca, bhikkhave, aṭṭha assakhaḷuṅkā aṭṭha ca assadosā? ",
+            "de": "„Und was, Mönche und Nonnen, sind die acht <span class=\"ebt-matched\">wilden Fohlen</span> und die acht Fehler bei Pferden? ",
+            "en": "“And what, mendicants, are the eight wild colts and eight defects in horses? ",
+            "matched": true
+          },
+          "an8.14:2.2": {
+            "scid": "an8.14:2.2",
+            "pli": "Idha, bhikkhave, ekacco assakhaḷuṅko ‘pehī’ti vutto, viddho samāno codito sārathinā pacchato paṭikkamati, piṭṭhito rathaṁ pavatteti. ",
+            "de": "Zunächst springen da manche <span class=\"ebt-matched\">wilden Fohlen</span>, wenn der Zureiter ‚Hü!‘ sagt und sie mit Sporen und Peitsche antreibt, nach hinten und wirbeln den Wagen hinter sich herum. ",
+            "en": "Firstly, when the trainer says ‘giddyup!’ and spurs and goads them on, some wild colts back right up and spin the chariot behind them. ",
+            "matched": true
+          },
+          "an8.14:2.3": {
+            "scid": "an8.14:2.3",
+            "pli": "Evarūpopi, bhikkhave, idhekacco assakhaḷuṅko hoti. ",
+            "de": "So sind manche <span class=\"ebt-matched\">wilden Fohlen</span>. ",
+            "en": "Some wild colts are like that. ",
+            "matched": true
+          },
+          "an8.14:3.1": {
+            "scid": "an8.14:3.1",
+            "pli": "Puna caparaṁ, bhikkhave, idhekacco assakhaḷuṅko ‘pehī’ti vutto, viddho samāno codito sārathinā pacchā laṅghati, kubbaraṁ hanati, tidaṇḍaṁ bhañjati. ",
+            "de": "Dann springen da manche <span class=\"ebt-matched\">wilden Fohlen</span>, wenn der Zureiter ‚Hü!‘ sagt und sie mit Sporen und Peitsche antreibt, nach hinten, zerstören die Nabe und zerbrechen das dreifache Gestänge. ",
+            "en": "Furthermore, when the trainer says ‘giddyup!’ and spurs and goads them on, some wild colts jump back, wreck the hub, and break the triple rod. ",
+            "matched": true
+          },
+          "an8.14:3.2": {
+            "scid": "an8.14:3.2",
+            "pli": "Evarūpopi, bhikkhave, idhekacco assakhaḷuṅko hoti. ",
+            "de": "So sind manche <span class=\"ebt-matched\">wilden Fohlen</span>. ",
+            "en": "Some wild colts are like that. ",
+            "matched": true
+          },
+          "an8.14:4.1": {
+            "scid": "an8.14:4.1",
+            "pli": "Puna caparaṁ, bhikkhave, idhekacco assakhaḷuṅko ‘pehī’ti vutto, viddho samāno codito sārathinā rathīsāya satthiṁ ussajjitvā rathīsaṁyeva ajjhomaddati. ",
+            "de": "Dann schütteln da manche <span class=\"ebt-matched\">wilden Fohlen</span>, wenn der Zureiter ‚Hü!‘ sagt und sie mit Sporen und Peitsche antreibt, die Deichsel vom Bein ab und trampeln darauf herum. ",
+            "en": "Furthermore, when the trainer says ‘giddyup!’ and spurs and goads them on, some wild colts shake the cart-pole off their thigh and trample it. ",
+            "matched": true
+          },
+          "an8.14:4.2": {
+            "scid": "an8.14:4.2",
+            "pli": "Evarūpopi, bhikkhave, idhekacco assakhaḷuṅko hoti. ",
+            "de": "So sind manche <span class=\"ebt-matched\">wilden Fohlen</span>. ",
+            "en": "Some wild colts are like that. ",
+            "matched": true
+          },
+          "an8.14:5.1": {
+            "scid": "an8.14:5.1",
+            "pli": "Puna caparaṁ, bhikkhave, idhekacco assakhaḷuṅko ‘pehī’ti vutto, viddho samāno codito sārathinā ummaggaṁ gaṇhati, ubbaṭumaṁ rathaṁ karoti. ",
+            "de": "Dann machen da manche <span class=\"ebt-matched\">wilden Fohlen</span>, wenn der Zureiter ‚Hü!‘ sagt und sie mit Sporen und Peitsche antreibt, eine falsche Wendung und bringen den Wagen vom Weg ab. ",
+            "en": "Furthermore, when the trainer says ‘giddyup!’ and spurs and goads them on, some wild colts take a wrong turn, sending the chariot off track. ",
+            "matched": true
+          },
+          "an8.14:5.2": {
+            "scid": "an8.14:5.2",
+            "pli": "Evarūpopi, bhikkhave, idhekacco assakhaḷuṅko hoti. ",
+            "de": "So sind manche <span class=\"ebt-matched\">wilden Fohlen</span>. ",
+            "en": "Some wild colts are like that. ",
+            "matched": true
+          },
+          "an8.14:6.1": {
+            "scid": "an8.14:6.1",
+            "pli": "Puna caparaṁ, bhikkhave, idhekacco assakhaḷuṅko ‘pehī’ti vutto, viddho samāno codito sārathinā laṅghati purimakāyaṁ paggaṇhati purime pāde. ",
+            "de": "Dann bäumen sich da manche <span class=\"ebt-matched\">wilden Fohlen</span>, wenn der Zureiter ‚Hü!‘ sagt und sie mit Sporen und Peitsche antreibt, auf und schlagen mit den Vorderfüßen aus. ",
+            "en": "Furthermore, when the trainer says ‘giddyup!’ and spurs and goads them on, some wild colts rear up and strike out with their fore-legs. ",
+            "matched": true
+          },
+          "an8.14:6.2": {
+            "scid": "an8.14:6.2",
+            "pli": "Evarūpopi, bhikkhave, idhekacco assakhaḷuṅko hoti. ",
+            "de": "So sind manche <span class=\"ebt-matched\">wilden Fohlen</span>. ",
+            "en": "Some wild colts are like that. ",
+            "matched": true
+          },
+          "an8.14:7.1": {
+            "scid": "an8.14:7.1",
+            "pli": "Puna caparaṁ, bhikkhave, idhekacco assakhaḷuṅko ‘pehī’ti vutto, viddho samāno codito sārathinā anādiyitvā sārathiṁ anādiyitvā patodalaṭṭhiṁ dantehi mukhādhānaṁ vidhaṁsitvā yena kāmaṁ pakkamati. ",
+            "de": "Dann beachten da manche <span class=\"ebt-matched\">wilden Fohlen</span>, wenn der Zureiter ‚Hü!‘ sagt und sie mit Sporen und Peitsche antreibt, den Zureiter und seine Peitsche nicht, spucken die Trense aus und gehen, wohin sie wollen. ",
+            "en": "Furthermore, when the trainer says ‘giddyup!’ and spurs and goads them on, some wild colts ignore the trainer and the goad, spit out the bit, and go wherever they want. ",
+            "matched": true
+          },
+          "an8.14:7.2": {
+            "scid": "an8.14:7.2",
+            "pli": "Evarūpopi, bhikkhave, idhekacco assakhaḷuṅko hoti. ",
+            "de": "So sind manche <span class=\"ebt-matched\">wilden Fohlen</span>. ",
+            "en": "Some wild colts are like that. ",
+            "matched": true
+          },
+          "an8.14:8.1": {
+            "scid": "an8.14:8.1",
+            "pli": "Puna caparaṁ, bhikkhave, idhekacco assakhaḷuṅko ‘pehī’ti vutto, viddho samāno codito sārathinā neva abhikkamati no paṭikkamati tattheva khīlaṭṭhāyī ṭhito hoti. ",
+            "de": "Dann gehen da manche <span class=\"ebt-matched\">wilden Fohlen</span>, wenn der Zureiter ‚Hü!‘ sagt und sie mit Sporen und Peitsche antreibt, weder vor noch zurück, sondern bleiben still stehen wie eine Säule. ",
+            "en": "Furthermore, when the trainer says ‘giddyup!’ and spurs and goads them on, some wild colts don’t step forward or turn back but stand right there still as a post. ",
+            "matched": true
+          },
+          "an8.14:8.2": {
+            "scid": "an8.14:8.2",
+            "pli": "Evarūpopi, bhikkhave, idhekacco assakhaḷuṅko hoti. ",
+            "de": "So sind manche <span class=\"ebt-matched\">wilden Fohlen</span>. ",
+            "en": "Some wild colts are like that. ",
+            "matched": true
+          },
+          "an8.14:9.1": {
+            "scid": "an8.14:9.1",
+            "pli": "Puna caparaṁ, bhikkhave, idhekacco assakhaḷuṅko ‘pehī’ti vutto, viddho samāno codito sārathinā purime ca pāde saṁharitvā pacchime ca pāde saṁharitvā tattheva cattāro pāde abhinisīdati. ",
+            "de": "Dann schlagen da manche <span class=\"ebt-matched\">wilden Fohlen</span>, wenn der Zureiter ‚Hü!‘ sagt und sie mit Sporen und Peitsche antreibt, die Vorder- und Hinterbeine unter und sitzen eben da auf ihren vier Beinen. ",
+            "en": "Furthermore, when the trainer says ‘giddyup!’ and spurs and goads them on, some wild colts tuck in their fore-legs and hind-legs, and sit right down on their four legs. ",
+            "matched": true
+          },
+          "an8.14:9.2": {
+            "scid": "an8.14:9.2",
+            "pli": "Evarūpopi, bhikkhave, idhekacco assakhaḷuṅko hoti. ",
+            "de": "So sind manche <span class=\"ebt-matched\">wilden Fohlen</span>. ",
+            "en": "Some wild colts are like that. ",
+            "matched": true
+          },
+          "an8.14:9.4": {
+            "scid": "an8.14:9.4",
+            "pli": "Ime kho, bhikkhave, aṭṭha assakhaḷuṅkā aṭṭha ca assadosā. ",
+            "de": "Das sind die acht <span class=\"ebt-matched\">wilden Fohlen</span> und die acht Fehler bei Pferden. ",
+            "en": "These are the eight wild colts and the eight defects in horses. ",
+            "matched": true
+          },
+          "an8.14:10.4": {
+            "scid": "an8.14:10.4",
+            "pli": "Seyyathāpi so, bhikkhave, assakhaḷuṅko ‘pehī’ti vutto, viddho samāno codito sārathinā pacchato paṭikkamati, piṭṭhito rathaṁ vatteti; ",
+            "de": "Ich sage, dieser Mensch ist einem <span class=\"ebt-matched\">wilden Fohlen</span> vergleichbar, das, wenn der Zureiter ‚Hü!‘ sagt und es mit Sporen und Peitsche antreibt, nach hinten springt und den Wagen hinter sich herumwirbelt. ",
+            "en": "I say that this person is comparable to the wild colts who, when the trainer says ‘giddyup!’ and spurs and goads them on, back right up and spin the chariot behind them. ",
+            "matched": true
+          },
+          "an8.14:11.5": {
+            "scid": "an8.14:11.5",
+            "pli": "Seyyathāpi so, bhikkhave, assakhaḷuṅko ‘pehī’ti vutto, viddho samāno codito sārathinā pacchā laṅghati, kubbaraṁ hanati, tidaṇḍaṁ bhañjati; ",
+            "de": "Ich sage, dieser Mensch ist einem <span class=\"ebt-matched\">wilden Fohlen</span> vergleichbar, das, wenn der Zureiter ‚Hü!‘ sagt und es mit Sporen und Peitsche antreibt, nach hinten springt, die Nabe zerstört und das dreifache Gestänge zerbricht. ",
+            "en": "I say that this person is comparable to the wild colts who, when the trainer says ‘giddyup!’ and spurs and goads them on, jump back, wreck the hub, and break the triple rod. ",
+            "matched": true
+          },
+          "an8.14:12.4": {
+            "scid": "an8.14:12.4",
+            "pli": "Seyyathāpi so, bhikkhave, assakhaḷuṅko ‘pehī’ti vutto, viddho samāno codito sārathinā rathīsāya satthiṁ ussajjitvā rathīsaṁyeva ajjhomaddati; ",
+            "de": "Ich sage, dieser Mensch ist einem <span class=\"ebt-matched\">wilden Fohlen</span> vergleichbar, das, wenn der Zureiter ‚Hü!‘ sagt und es mit Sporen und Peitsche antreibt, die Deichsel vom Bein abschüttelt und darauf herumtrampelt. ",
+            "en": "I say that this person is comparable to the wild colts who, when the trainer says ‘giddyup!’ and spurs and goads them on, shake the cart-pole off their thigh and trample it. ",
+            "matched": true
+          },
+          "an8.14:13.3": {
+            "scid": "an8.14:13.3",
+            "pli": "Seyyathāpi so, bhikkhave, assakhaḷuṅko ‘pehī’ti vutto, viddho samāno codito sārathinā ummaggaṁ gaṇhati, ubbaṭumaṁ rathaṁ karoti; ",
+            "de": "Ich sage, dieser Mensch ist einem <span class=\"ebt-matched\">wilden Fohlen</span> vergleichbar, das, wenn der Zureiter ‚Hü!‘ sagt und es mit Sporen und Peitsche antreibt, eine falsche Wendung macht und den Wagen vom Weg abbringt. ",
+            "en": "I say that this person is comparable to the wild colts who, when the trainer says ‘giddyup!’ and spurs and goads them on, take a wrong turn, sending the chariot off track. ",
+            "matched": true
+          },
+          "an8.14:14.3": {
+            "scid": "an8.14:14.3",
+            "pli": "Seyyathāpi so, bhikkhave, assakhaḷuṅko ‘pehī’ti vutto, viddho samāno codito sārathinā laṅghati, purimakāyaṁ paggaṇhati purime pāde; ",
+            "de": "Ich sage, dieser Mensch ist einem <span class=\"ebt-matched\">wilden Fohlen</span> vergleichbar, das, wenn der Zureiter ‚Hü!‘ sagt und es mit Sporen und Peitsche antreibt, sich aufbäumt und mit den Vorderfüßen ausschlägt. ",
+            "en": "I say that this person is comparable to the wild colts who, when the trainer says ‘giddyup!’ and spurs and goads them on, rear up and strike out with their fore-legs. ",
+            "matched": true
+          },
+          "an8.14:15.3": {
+            "scid": "an8.14:15.3",
+            "pli": "Seyyathāpi so, bhikkhave, assakhaḷuṅko ‘pehī’ti vutto, viddho samāno codito sārathinā anādiyitvā sārathiṁ anādiyitvā patodalaṭṭhiṁ dantehi mukhādhānaṁ vidhaṁsitvā yena kāmaṁ pakkamati; ",
+            "de": "Ich sage, dieser Mensch ist einem <span class=\"ebt-matched\">wilden Fohlen</span> vergleichbar, das, wenn der Zureiter ‚Hü!‘ sagt und es mit Sporen und Peitsche antreibt, den Zureiter und seine Peitsche nicht beachtet, die Trense ausspuckt und geht, wohin es will. ",
+            "en": "I say that this person is comparable to the wild colts who, when the trainer says ‘giddyup!’ and spurs and goads them on, ignore the trainer and the goad, spit out the bit, and go wherever they want. ",
+            "matched": true
+          },
+          "an8.14:16.3": {
+            "scid": "an8.14:16.3",
+            "pli": "Seyyathāpi so, bhikkhave, assakhaḷuṅko ‘pehī’ti vutto, viddho samāno codito sārathinā neva abhikkamati no paṭikkamati tattheva khīlaṭṭhāyī ṭhito hoti; ",
+            "de": "Ich sage, dieser Mensch ist einem <span class=\"ebt-matched\">wilden Fohlen</span> vergleichbar, das, wenn der Zureiter ‚Hü!‘ sagt und es mit Sporen und Peitsche antreibt, weder vor- noch zurückgeht, sondern still stehenbleibt wie eine Säule. ",
+            "en": "I say that this person is comparable to the wild colts who, when the trainer says ‘giddyup!’ and spurs and goads them on, don’t step forward or turn back but stand right there still as a post. ",
+            "matched": true
+          },
+          "an8.14:17.6": {
+            "scid": "an8.14:17.6",
+            "pli": "Seyyathāpi so, bhikkhave, assakhaḷuṅko ‘pehī’ti vutto, viddho samāno codito sārathinā purime ca pāde saṁharitvā pacchime ca pāde saṁharitvā tattheva cattāro pāde abhinisīdati; ",
+            "de": "Ich sage, dieser Mensch ist einem <span class=\"ebt-matched\">wilden Fohlen</span> vergleichbar, das, wenn der Zureiter ‚Hü!‘ sagt und es mit Sporen und Peitsche antreibt, die Vorder- und Hinterbeine unterschlägt und eben da auf seinen vier Beinen sitzt. ",
+            "en": "I say that this person is comparable to the wild colts who, when the trainer says ‘giddyup!’ and spurs and goads them on, tuck in their fore-legs and hind-legs, and sit right down on their four legs. ",
+            "matched": true
+          }
+        },
+        "score": 27.3,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 8\n2. Das große Kapitel\n14. Ein wildes Fohlen",
+        "segsMatched": 27,
+        "langSegs": {
+          "pli": 90,
+          "de": 81,
+          "en": 89
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an3/an3.140_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an3/an3.140_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an3/an3.140_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an3.140",
+        "lang": "de",
+        "segMap": {
+          "an3.140:0.3": {
+            "scid": "an3.140:0.3",
+            "pli": "140. Assakhaḷuṅkasutta ",
+            "de": "140. Ein <span class=\"ebt-matched\">wildes Fohlen</span> ",
+            "en": "140. A Wild Colt ",
+            "matched": true
+          },
+          "an3.140:2.1": {
+            "scid": "an3.140:2.1",
+            "pli": "“Katame ca, bhikkhave, tayo assakhaḷuṅkā? ",
+            "de": "„Was sind die drei <span class=\"ebt-matched\">wilden Fohlen</span>? ",
+            "en": "“What are the three wild colts? ",
+            "matched": true
+          },
+          "an3.140:2.2": {
+            "scid": "an3.140:2.2",
+            "pli": "Idha, bhikkhave, ekacco assakhaḷuṅko javasampanno hoti; na vaṇṇasampanno, na ārohapariṇāhasampanno. ",
+            "de": "Ein <span class=\"ebt-matched\">wildes Fohlen</span> ist schnell, aber nicht schön und nicht wohlgestaltet. ",
+            "en": "One wild colt is fast, but not beautiful or well proportioned. ",
+            "matched": true
+          },
+          "an3.140:2.3": {
+            "scid": "an3.140:2.3",
+            "pli": "Idha pana, bhikkhave, ekacco assakhaḷuṅko javasampanno ca hoti vaṇṇasampanno ca; na ārohapariṇāhasampanno. ",
+            "de": "Ein anderes <span class=\"ebt-matched\">wildes Fohlen</span> ist schnell und schön, aber nicht wohlgestaltet. ",
+            "en": "Another wild colt is fast and beautiful, but not well proportioned. ",
+            "matched": true
+          },
+          "an3.140:2.4": {
+            "scid": "an3.140:2.4",
+            "pli": "Idha pana, bhikkhave, ekacco assakhaḷuṅko javasampanno ca hoti vaṇṇasampanno ca ārohapariṇāhasampanno ca. ",
+            "de": "Und wieder ein anderes <span class=\"ebt-matched\">wildes Fohlen</span> ist schnell, schön und wohlgestaltet. ",
+            "en": "While another wild colt is fast, beautiful, and well proportioned. ",
+            "matched": true
+          },
+          "an3.140:2.5": {
+            "scid": "an3.140:2.5",
+            "pli": "Ime kho, bhikkhave, tayo assakhaḷuṅkā. ",
+            "de": "Das sind die drei <span class=\"ebt-matched\">wilden Fohlen</span>. ",
+            "en": "These are the three wild colts. ",
+            "matched": true
+          }
+        },
+        "score": 6.143,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 3\n14. Ein Krieger\n140. Ein wildes Fohlen",
+        "segsMatched": 6,
+        "langSegs": {
+          "pli": 42,
+          "de": 41,
+          "en": 41
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an9/an9.22_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an9/an9.22_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an9/an9.22_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an9.22",
+        "lang": "de",
+        "segMap": {
+          "an9.22:0.3": {
+            "scid": "an9.22:0.3",
+            "pli": "22. Assakhaḷuṅkasutta ",
+            "de": "22. Ein <span class=\"ebt-matched\">wildes Fohlen</span> ",
+            "en": "22. A Wild Colt ",
+            "matched": true
+          },
+          "an9.22:2.1": {
+            "scid": "an9.22:2.1",
+            "pli": "Katame ca, bhikkhave, tayo assakhaḷuṅkā? ",
+            "de": "Und was sind die drei <span class=\"ebt-matched\">wilden Fohlen</span>? ",
+            "en": "And what are the three wild colts? ",
+            "matched": true
+          },
+          "an9.22:2.2": {
+            "scid": "an9.22:2.2",
+            "pli": "Idha, bhikkhave, ekacco assakhaḷuṅko javasampanno hoti, na vaṇṇasampanno, na ārohapariṇāhasampanno. ",
+            "de": "Ein <span class=\"ebt-matched\">wildes Fohlen</span> ist schnell, aber nicht schön und nicht wohlgestaltet. ",
+            "en": "One wild colt is fast, but not beautiful or well proportioned. ",
+            "matched": true
+          },
+          "an9.22:2.3": {
+            "scid": "an9.22:2.3",
+            "pli": "Idha pana, bhikkhave, ekacco assakhaḷuṅko javasampanno ca hoti vaṇṇasampanno ca, na ārohapariṇāhasampanno. ",
+            "de": "Ein anderes <span class=\"ebt-matched\">wildes Fohlen</span> ist schnell und schön, aber nicht wohlgestaltet. ",
+            "en": "Another wild colt is fast and beautiful, but not well proportioned. ",
+            "matched": true
+          },
+          "an9.22:2.4": {
+            "scid": "an9.22:2.4",
+            "pli": "Idha pana, bhikkhave, ekacco assakhaḷuṅko javasampanno ca hoti vaṇṇasampanno ca ārohapariṇāhasampanno ca. ",
+            "de": "Und wieder ein anderes <span class=\"ebt-matched\">wildes Fohlen</span> ist schnell, schön und wohlgestaltet. ",
+            "en": "While another wild colt is fast, beautiful, and well proportioned. ",
+            "matched": true
+          },
+          "an9.22:2.5": {
+            "scid": "an9.22:2.5",
+            "pli": "Ime kho, bhikkhave, tayo assakhaḷuṅkā. ",
+            "de": "Das sind die drei <span class=\"ebt-matched\">wilden Fohlen</span>. ",
+            "en": "These are the three wild colts. ",
+            "matched": true
+          }
+        },
+        "score": 6.081,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 9\n3. Wohnplätze der Lebewesen\n22. Ein wildes Fohlen",
+        "segsMatched": 6,
+        "langSegs": {
+          "pli": 74,
+          "de": 73,
+          "en": 73
+        }
+      }
+    ]
   }
 }

@@ -30,11 +30,135 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "wurde vom buddha nicht erklärt",
-    "method": "keywords",
-    "resultPattern": "\\bwurde|\\bvom|\\bb(u|ū)(d|ḍ)(d|ḍ)h(a|ā)|\\bnicht|\\berklärt",
-    "segsMatched": 0,
-    "bilaraPaths": [],
-    "suttaRefs": [],
-    "mlDocs": []
+    "method": "phrase",
+    "resultPattern": "\\bwurde vom buddha nicht erklärt",
+    "segsMatched": 9,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn44/sn44.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn44/sn44.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn44/sn44.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn29_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn29_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn29_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn44.1/de/sabbamitta",
+      "dn29/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn44/sn44.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn44/sn44.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn44/sn44.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn44.1",
+        "lang": "de",
+        "segMap": {
+          "sn44.1:4.3": {
+            "scid": "sn44.1:4.3",
+            "pli": "“Abyākataṁ kho etaṁ, mahārāja, bhagavatā: ",
+            "de": "„Großer König, das <span class=\"ebt-matched\">wurde vom Buddha nicht erklärt</span>.“ ",
+            "en": "“Great king, this has not been declared by the Buddha.” ",
+            "matched": true
+          },
+          "sn44.1:4.6": {
+            "scid": "sn44.1:4.6",
+            "pli": "“Etampi kho, mahārāja, abyākataṁ bhagavatā: ",
+            "de": "„Auch das <span class=\"ebt-matched\">wurde vom Buddha nicht erklärt</span>.“ ",
+            "en": "“This too has not been declared by the Buddha.” ",
+            "matched": true
+          },
+          "sn44.1:4.9": {
+            "scid": "sn44.1:4.9",
+            "pli": "“Abyākataṁ kho etaṁ, mahārāja, bhagavatā: ",
+            "de": "„Auch das <span class=\"ebt-matched\">wurde vom Buddha nicht erklärt</span>.“ ",
+            "en": "“This has not been declared by the Buddha.” ",
+            "matched": true
+          },
+          "sn44.1:4.12": {
+            "scid": "sn44.1:4.12",
+            "pli": "“Etampi kho, mahārāja, abyākataṁ bhagavatā: ",
+            "de": "„Auch das <span class=\"ebt-matched\">wurde vom Buddha nicht erklärt</span>.“ ",
+            "en": "“This too has not been declared by the Buddha.” ",
+            "matched": true
+          },
+          "sn44.1:5.2": {
+            "scid": "sn44.1:5.2",
+            "pli": "‘abyākataṁ kho etaṁ, mahārāja, bhagavatā—",
+            "de": "‚Das <span class=\"ebt-matched\">wurde vom Buddha nicht erklärt</span>.‘ ",
+            "en": "that this has not been declared by the Buddha. ",
+            "matched": true
+          }
+        },
+        "score": 5.042,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 44\n1. Die nicht erklärten Punkte\n1. Mit Khemā",
+        "segsMatched": 5,
+        "langSegs": {
+          "pli": 120,
+          "de": 61,
+          "en": 119
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn29_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn29_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn29_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn29",
+        "lang": "de",
+        "segMap": {
+          "dn29:30.4": {
+            "scid": "dn29:30.4",
+            "pli": "‘abyākataṁ kho etaṁ, āvuso, bhagavatā: ",
+            "de": "‚Werter Freund, das <span class=\"ebt-matched\">wurde vom Buddha nicht erklärt</span>.‘ ",
+            "en": "‘Reverend, this has not been declared by the Buddha.’ ",
+            "matched": true
+          },
+          "dn29:30.9": {
+            "scid": "dn29:30.9",
+            "pli": "‘etampi kho, āvuso, bhagavatā abyākataṁ: ",
+            "de": "‚Auch das <span class=\"ebt-matched\">wurde vom Buddha nicht erklärt</span>.‘ ",
+            "en": "‘This too has not been declared by the Buddha.’ ",
+            "matched": true
+          },
+          "dn29:30.14": {
+            "scid": "dn29:30.14",
+            "pli": "‘abyākataṁ kho etaṁ, āvuso, bhagavatā: ",
+            "de": "‚Auch das <span class=\"ebt-matched\">wurde vom Buddha nicht erklärt</span>.‘ ",
+            "en": "‘This too has not been declared by the Buddha.’ ",
+            "matched": true
+          },
+          "dn29:30.19": {
+            "scid": "dn29:30.19",
+            "pli": "‘etampi kho, āvuso, bhagavatā abyākataṁ: ",
+            "de": "‚Auch das <span class=\"ebt-matched\">wurde vom Buddha nicht erklärt</span>.‘ ",
+            "en": "‘This too has not been declared by the Buddha.’ ",
+            "matched": true
+          }
+        },
+        "score": 4.009,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 29\nEine beeindruckende Lehrrede",
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 465,
+          "de": 404,
+          "en": 464
+        }
+      }
+    ]
   }
 }

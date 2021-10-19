@@ -30,11 +30,376 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "seelische.* unfruchtbarkeit",
-    "method": "keywords",
-    "resultPattern": "\\bseelische.*|\\bunfruchtbarkeit",
-    "segsMatched": 0,
-    "bilaraPaths": [],
-    "suttaRefs": [],
-    "mlDocs": []
+    "method": "phrase",
+    "resultPattern": "\\bseelische.* unfruchtbarkeit",
+    "segsMatched": 31,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an10/an10.14_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.14_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.14_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an9/an9.71_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an9/an9.71_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an9/an9.71_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.205_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an5/an5.205_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an5/an5.205_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an10.14/de/sabbamitta",
+      "an9.71/de/sabbamitta",
+      "an5.205/de/sabbamitta",
+      "dn34/de/sabbamitta",
+      "dn33/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.14_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.14_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.14_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.14",
+        "lang": "de",
+        "segMap": {
+          "an10.14:0.3": {
+            "scid": "an10.14:0.3",
+            "pli": "14. Cetokhilasutta ",
+            "de": "14. <span class=\"ebt-matched\">Seelische Unfruchtbarkeit</span> ",
+            "en": "14. Emotional Barrenness ",
+            "matched": true
+          },
+          "an10.14:1.1": {
+            "scid": "an10.14:1.1",
+            "pli": "“Yassa kassaci, bhikkhave, bhikkhussa vā bhikkhuniyā vā pañca cetokhilā appahīnā pañca cetasovinibandhā asamucchinnā, tassa yā ratti vā divaso vā āgacchati hāniyeva pāṭikaṅkhā kusalesu dhammesu no vuddhi. ",
+            "de": "„Mönche und Nonnen, wenn ein Mönch oder eine Nonne fünf Arten der <span class=\"ebt-matched\">seelischen Unfruchtbarkeit</span> nicht aufgegeben und fünf seelische Fesseln nicht durchtrennt hat, können sie bei tauglichen Eigenschaften Niedergang erwarten, kein Wachstum, bei Tag oder Nacht. ",
+            "en": "“Mendicants, a monk or nun who has not given up five kinds of emotional barrenness and has not cut off five emotional shackles can expect decline, not growth, in skillful qualities, whether by day or by night. ",
+            "matched": true
+          },
+          "an10.14:2.1": {
+            "scid": "an10.14:2.1",
+            "pli": "Katamassa pañca cetokhilā appahīnā honti? ",
+            "de": "Was sind die fünf Arten von <span class=\"ebt-matched\">seelischer Unfruchtbarkeit</span>, die sie nicht aufgegeben haben? ",
+            "en": "What are the five kinds of emotional barrenness they haven’t given up? ",
+            "matched": true
+          },
+          "an10.14:2.4": {
+            "scid": "an10.14:2.4",
+            "pli": "Yassa cittaṁ na namati ātappāya anuyogāya sātaccāya padhānāya, evamassāyaṁ paṭhamo cetokhilo appahīno hoti. ",
+            "de": "Das ist die erste Art von <span class=\"ebt-matched\">seelischer Unfruchtbarkeit</span>, die sie nicht aufgegeben haben. ",
+            "en": "This is the first kind of emotional barrenness they haven’t given up. ",
+            "matched": true
+          },
+          "an10.14:3.6": {
+            "scid": "an10.14:3.6",
+            "pli": "Yassa cittaṁ na namati ātappāya anuyogāya sātaccāya padhānāya, evamassāyaṁ pañcamo cetokhilo appahīno hoti. ",
+            "de": "Das ist die fünfte Art von <span class=\"ebt-matched\">seelischer Unfruchtbarkeit</span>, die sie nicht aufgegeben haben. ",
+            "en": "This is the fifth kind of emotional barrenness they haven’t given up. ",
+            "matched": true
+          },
+          "an10.14:3.7": {
+            "scid": "an10.14:3.7",
+            "pli": "Imassa pañca cetokhilā appahīnā honti. ",
+            "de": "Das sind die fünf Arten von <span class=\"ebt-matched\">seelischer Unfruchtbarkeit</span>, die sie nicht aufgegeben haben. ",
+            "en": "These are the five kinds of emotional barrenness they haven’t given up. ",
+            "matched": true
+          },
+          "an10.14:6.1": {
+            "scid": "an10.14:6.1",
+            "pli": "Yassa kassaci, bhikkhave, bhikkhussa vā bhikkhuniyā vā ime pañca cetokhilā appahīnā ime pañca cetasovinibandhā asamucchinnā, tassa yā ratti vā divaso vā āgacchati hāniyeva pāṭikaṅkhā kusalesu dhammesu no vuddhi. ",
+            "de": "Wenn ein Mönch oder eine Nonne diese fünf Arten der <span class=\"ebt-matched\">seelischen Unfruchtbarkeit</span> nicht aufgegeben und diese fünf seelischen Fesseln nicht durchtrennt hat, können sie bei tauglichen Eigenschaften Niedergang erwarten, kein Wachstum, bei Tag oder Nacht. ",
+            "en": "A monk or nun who has not given up these five kinds of emotional barrenness and has not cut off these five emotional shackles can expect decline, not growth, in skillful qualities, whether by day or by night. ",
+            "matched": true
+          },
+          "an10.14:7.2": {
+            "scid": "an10.14:7.2",
+            "pli": "evamevaṁ kho, bhikkhave, yassa kassaci bhikkhussa vā bhikkhuniyā vā ime pañca cetokhilā appahīnā ime pañca cetasovinibandhā asamucchinnā, tassa yā ratti vā divaso vā āgacchati hāniyeva pāṭikaṅkhā kusalesu dhammesu no vuddhi. ",
+            "de": "Ebenso ist es, wenn ein Mönch oder eine Nonne diese fünf Arten der <span class=\"ebt-matched\">seelischen Unfruchtbarkeit</span> nicht aufgegeben und diese fünf seelische Fesseln nicht durchtrennt hat: Sie können bei tauglichen Eigenschaften Niedergang erwarten, kein Wachstum, bei Tag oder Nacht. ",
+            "en": "In the same way, monk or nun who has not given up these five kinds of emotional barrenness and has not cut off these five emotional shackles can expect decline, not growth, in skillful qualities, whether by day or by night. ",
+            "matched": true
+          },
+          "an10.14:8.1": {
+            "scid": "an10.14:8.1",
+            "pli": "Yassa kassaci, bhikkhave, bhikkhussa vā bhikkhuniyā vā pañca cetokhilā pahīnā pañca cetasovinibandhā susamucchinnā, tassa yā ratti vā divaso vā āgacchati vuddhiyeva pāṭikaṅkhā kusalesu dhammesu no parihāni. ",
+            "de": "Wenn ein Mönch oder eine Nonne fünf Arten der <span class=\"ebt-matched\">seelischen Unfruchtbarkeit</span> aufgegeben und fünf seelische Fesseln durchtrennt hat, können sie bei tauglichen Eigenschaften Wachstum erwarten, keinen Niedergang, bei Tag oder Nacht. ",
+            "en": "A monk or nun who has given up five kinds of emotional barrenness and has cut off five emotional shackles can expect growth, not decline, in skillful qualities, whether by day or by night. ",
+            "matched": true
+          },
+          "an10.14:9.1": {
+            "scid": "an10.14:9.1",
+            "pli": "Katamassa pañca cetokhilā pahīnā honti? ",
+            "de": "Was sind die fünf Arten von <span class=\"ebt-matched\">seelischer Unfruchtbarkeit</span>, die sie aufgegeben haben? ",
+            "en": "What are the five kinds of emotional barrenness they’ve given up? ",
+            "matched": true
+          },
+          "an10.14:9.4": {
+            "scid": "an10.14:9.4",
+            "pli": "Yassa cittaṁ namati ātappāya anuyogāya sātaccāya padhānāya, evamassāyaṁ paṭhamo cetokhilo pahīno hoti. ",
+            "de": "Das ist die erste Art von <span class=\"ebt-matched\">seelischer Unfruchtbarkeit</span>, die sie aufgegeben haben. ",
+            "en": "This is the first kind of emotional barrenness they’ve given up. ",
+            "matched": true
+          },
+          "an10.14:10.6": {
+            "scid": "an10.14:10.6",
+            "pli": "Yassa cittaṁ namati ātappāya anuyogāya sātaccāya padhānāya, evamassāyaṁ pañcamo cetokhilo pahīno hoti. ",
+            "de": "Das ist die fünfte Art von <span class=\"ebt-matched\">seelischer Unfruchtbarkeit</span>, die sie aufgegeben haben. ",
+            "en": "This is the fifth kind of emotional barrenness they’ve given up. ",
+            "matched": true
+          },
+          "an10.14:10.7": {
+            "scid": "an10.14:10.7",
+            "pli": "Imassa pañca cetokhilā pahīnā honti. ",
+            "de": "Das sind die fünf Arten von <span class=\"ebt-matched\">seelischer Unfruchtbarkeit</span>, die sie aufgegeben haben. ",
+            "en": "These are the five kinds of emotional barrenness they’ve given up. ",
+            "matched": true
+          },
+          "an10.14:13.1": {
+            "scid": "an10.14:13.1",
+            "pli": "Yassa kassaci, bhikkhave, bhikkhussa vā bhikkhuniyā vā ime pañca cetokhilā pahīnā ime pañca cetasovinibandhā susamucchinnā, tassa yā ratti vā divaso vā āgacchati vuddhiyeva pāṭikaṅkhā kusalesu dhammesu no parihāni. ",
+            "de": "Wenn ein Mönch oder eine Nonne diese fünf Arten der <span class=\"ebt-matched\">seelischen Unfruchtbarkeit</span> aufgegeben und diese fünf seelischen Fesseln durchtrennt hat, können sie bei tauglichen Eigenschaften Wachstum erwarten, keinen Niedergang, bei Tag oder Nacht. ",
+            "en": "A monk or nun who has given up these five kinds of emotional barrenness and has cut off these five emotional shackles can expect growth, not decline, in skillful qualities, whether by day or by night. ",
+            "matched": true
+          },
+          "an10.14:14.2": {
+            "scid": "an10.14:14.2",
+            "pli": "evamevaṁ kho, bhikkhave, yassa kassaci bhikkhussa vā bhikkhuniyā vā ime pañca cetokhilā pahīnā ime pañca cetasovinibandhā susamucchinnā, tassa yā ratti vā divaso vā āgacchati vuddhiyeva pāṭikaṅkhā kusalesu dhammesu no parihānī”ti. ",
+            "de": "Ebenso ist es, wenn ein Mönch oder eine Nonne diese fünf Arten der <span class=\"ebt-matched\">seelischen Unfruchtbarkeit</span> aufgegeben und diese fünf seelische Fesseln durchtrennt hat: Sie können bei tauglichen Eigenschaften Wachstum erwarten, keinen Niedergang, bei Tag oder Nacht.“ ",
+            "en": "In the same way, a monk or nun who has given up these five kinds of emotional barrenness and has cut off these five emotional shackles can expect growth, not decline, in skillful qualities, whether by day or by night.” ",
+            "matched": true
+          }
+        },
+        "score": 15.268,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10\n2. Ein Beschützer\n14. Seelische Unfruchtbarkeit",
+        "segsMatched": 15,
+        "langSegs": {
+          "pli": 56,
+          "de": 55,
+          "en": 55
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an5/an5.205_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an5/an5.205_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an5/an5.205_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an5.205",
+        "lang": "de",
+        "segMap": {
+          "an5.205:0.3": {
+            "scid": "an5.205:0.3",
+            "pli": "205. Cetokhilasutta ",
+            "de": "205. <span class=\"ebt-matched\">Seelische Unfruchtbarkeit</span> ",
+            "en": "205. Emotional Barrenness ",
+            "matched": true
+          },
+          "an5.205:1.1": {
+            "scid": "an5.205:1.1",
+            "pli": "“Pañcime, bhikkhave, cetokhilā. ",
+            "de": "„Mönche und Nonnen, es gibt fünf Arten von <span class=\"ebt-matched\">seelischer Unfruchtbarkeit</span>. ",
+            "en": "“Mendicants, there are these five kinds of emotional barrenness. ",
+            "matched": true
+          },
+          "an5.205:1.5": {
+            "scid": "an5.205:1.5",
+            "pli": "Yassa cittaṁ na namati ātappāya anuyogāya sātaccāya padhānāya, ayaṁ paṭhamo cetokhilo. ",
+            "de": "Das ist die erste Art von <span class=\"ebt-matched\">seelischer Unfruchtbarkeit</span>. ",
+            "en": "This is the first kind of emotional barrenness. ",
+            "matched": true
+          },
+          "an5.205:2.6": {
+            "scid": "an5.205:2.6",
+            "pli": "Yassa cittaṁ na namati ātappāya anuyogāya sātaccāya padhānāya, ayaṁ pañcamo cetokhilo. ",
+            "de": "Das ist die fünfte Art von <span class=\"ebt-matched\">seelischer Unfruchtbarkeit</span>. ",
+            "en": "This is the fifth kind of emotional barrenness. ",
+            "matched": true
+          },
+          "an5.205:2.7": {
+            "scid": "an5.205:2.7",
+            "pli": "Ime kho, bhikkhave, pañca cetokhilā”ti. ",
+            "de": "Das sind die fünf Arten von <span class=\"ebt-matched\">seelischer Unfruchtbarkeit</span>.“ ",
+            "en": "These are the five kinds of emotional barrenness.” ",
+            "matched": true
+          }
+        },
+        "score": 5.313,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 5\n21. Mit Kimbila\n205. Seelische Unfruchtbarkeit",
+        "segsMatched": 5,
+        "langSegs": {
+          "pli": 16,
+          "de": 15,
+          "en": 15
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an9/an9.71_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an9/an9.71_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an9/an9.71_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an9.71",
+        "lang": "de",
+        "segMap": {
+          "an9.71:0.3": {
+            "scid": "an9.71:0.3",
+            "pli": "71. Cetokhilasutta ",
+            "de": "71. <span class=\"ebt-matched\">Seelische Unfruchtbarkeit</span> ",
+            "en": "71. Emotional Barrenness ",
+            "matched": true
+          },
+          "an9.71:1.1": {
+            "scid": "an9.71:1.1",
+            "pli": "“Pañcime, bhikkhave, cetokhilā. ",
+            "de": "„Mönche und Nonnen, es gibt fünf Arten von <span class=\"ebt-matched\">seelischer Unfruchtbarkeit</span>. ",
+            "en": "“Mendicants, there are five kinds of emotional barrenness. ",
+            "matched": true
+          },
+          "an9.71:1.5": {
+            "scid": "an9.71:1.5",
+            "pli": "Yassa cittaṁ na namati ātappāya anuyogāya sātaccāya padhānāya, ayaṁ paṭhamo cetokhilo. ",
+            "de": "Das ist die erste Art von <span class=\"ebt-matched\">seelischer Unfruchtbarkeit</span>. ",
+            "en": "This is the first kind of emotional barrenness. ",
+            "matched": true
+          },
+          "an9.71:2.6": {
+            "scid": "an9.71:2.6",
+            "pli": "Yassa cittaṁ na namati ātappāya anuyogāya sātaccāya padhānāya, ayaṁ pañcamo cetokhilo. ",
+            "de": "Das ist die fünfte Art von <span class=\"ebt-matched\">seelischer Unfruchtbarkeit</span>. ",
+            "en": "This is the fifth kind of emotional barrenness. ",
+            "matched": true
+          },
+          "an9.71:3.1": {
+            "scid": "an9.71:3.1",
+            "pli": "Imesaṁ kho, bhikkhave, pañcannaṁ cetokhilānaṁ pahānāya …pe… ime cattāro satipaṭṭhānā bhāvetabbā”ti. ",
+            "de": "Um diese fünf Arten von <span class=\"ebt-matched\">seelischer Unfruchtbarkeit</span> aufzugeben, solltet ihr vier Arten der Achtsamkeitsmeditation entwickeln. …“ ",
+            "en": "To give up these five kinds of emotional barrenness you should develop the four kinds of mindfulness meditation. …” ",
+            "matched": true
+          }
+        },
+        "score": 5.313,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 9\n7. Achtsamkeitsmeditation\n71. Seelische Unfruchtbarkeit",
+        "segsMatched": 5,
+        "langSegs": {
+          "pli": 16,
+          "de": 15,
+          "en": 15
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn33",
+        "lang": "de",
+        "segMap": {
+          "dn33:2.1.76": {
+            "scid": "dn33:2.1.76",
+            "pli": "Pañca cetokhilā. ",
+            "de": "Fünf Arten von <span class=\"ebt-matched\">seelischer Unfruchtbarkeit</span>: ",
+            "en": "Five kinds of emotional barrenness. ",
+            "matched": true
+          },
+          "dn33:2.1.78": {
+            "scid": "dn33:2.1.78",
+            "pli": "Yo so, āvuso, bhikkhu satthari kaṅkhati vicikicchati nādhimuccati na sampasīdati, tassa cittaṁ na namati ātappāya anuyogāya sātaccāya padhānāya, yassa cittaṁ na namati ātappāya anuyogāya sātaccāya padhānāya, ayaṁ paṭhamo cetokhilo. ",
+            "de": "Wenn das so ist, neigt sein Geist nicht zu Ehrgeiz, Hingabe, Ausdauer und Mühe. Das ist die erste Art von <span class=\"ebt-matched\">seelischer Unfruchtbarkeit</span>. ",
+            "en": "This being so, their mind doesn’t incline toward keenness, commitment, persistence, and striving. This is the first kind of emotional barrenness. ",
+            "matched": true
+          },
+          "dn33:2.1.83": {
+            "scid": "dn33:2.1.83",
+            "pli": "Yo so, āvuso, bhikkhu sabrahmacārīsu kupito hoti anattamano āhatacitto khilajāto, tassa cittaṁ na namati ātappāya anuyogāya sātaccāya padhānāya, yassa cittaṁ na namati ātappāya anuyogāya sātaccāya padhānāya, ayaṁ pañcamo cetokhilo. ",
+            "de": "Wenn das so ist, neigt sein Geist nicht zu Ehrgeiz, Hingabe, Ausdauer und Mühe. Das ist die fünfte Art von <span class=\"ebt-matched\">seelischer Unfruchtbarkeit</span>. ",
+            "en": "This being so, their mind doesn’t incline toward keenness, commitment, persistence, and striving. This is the fifth kind of emotional barrenness. ",
+            "matched": true
+          }
+        },
+        "score": 3.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 33\nIm Chor aufsagen",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 1167,
+          "de": 1166,
+          "en": 1166
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn34",
+        "lang": "de",
+        "segMap": {
+          "dn34:1.6.24": {
+            "scid": "dn34:1.6.24",
+            "pli": "Pañca cetokhilā—",
+            "de": "Fünf Arten von <span class=\"ebt-matched\">seelischer Unfruchtbarkeit</span>: ",
+            "en": "Five kinds of emotional barrenness. ",
+            "matched": true
+          },
+          "dn34:1.6.28": {
+            "scid": "dn34:1.6.28",
+            "pli": "Ayaṁ paṭhamo cetokhilo. ",
+            "de": "Das ist die erste Art von <span class=\"ebt-matched\">seelischer Unfruchtbarkeit</span>. ",
+            "en": "This is the first kind of emotional barrenness. ",
+            "matched": true
+          },
+          "dn34:1.6.34": {
+            "scid": "dn34:1.6.34",
+            "pli": "Ayaṁ pañcamo cetokhilo. ",
+            "de": "Das ist die fünfte Art von <span class=\"ebt-matched\">seelischer Unfruchtbarkeit</span>. ",
+            "en": "This is the fifth kind of emotional barrenness. ",
+            "matched": true
+          }
+        },
+        "score": 3.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 34\nBis zu zehn",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 894,
+          "de": 754,
+          "en": 891
+        }
+      }
+    ]
   }
 }

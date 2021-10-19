@@ -30,11 +30,93 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "nicht möglich, das ende der welt",
-    "method": "keywords",
-    "resultPattern": "\\bnicht|\\bmöglich,|\\bdas|\\bende|\\bder|\\bwelt",
-    "segsMatched": 0,
-    "bilaraPaths": [],
-    "suttaRefs": [],
-    "mlDocs": []
+    "method": "phrase",
+    "resultPattern": "\\bnicht möglich, das ende der welt",
+    "segsMatched": 3,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an4/an4.45_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.45_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.45_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an9/an9.38_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an9/an9.38_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an9/an9.38_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an4.45/de/sabbamitta",
+      "an9.38/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.45_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.45_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.45_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.45",
+        "lang": "de",
+        "segMap": {
+          "an4.45:2.2": {
+            "scid": "an4.45:2.2",
+            "pli": "“Yattha kho, āvuso, na jāyati na jīyati na mīyati na cavati na upapajjati, nāhaṁ taṁ gamanena lokassa antaṁ ñāteyyaṁ daṭṭheyyaṁ patteyyanti vadāmī”ti. ",
+            "de": "„Werter Freund, ich sage, es ist <span class=\"ebt-matched\">nicht möglich, das Ende der Welt</span> zu erkennen oder zu sehen oder zu erreichen, indem man zu einem Ort geht, an dem es kein Geborenwerden, kein Altern, kein Sterben, kein Verscheiden und kein Wiedergeborenwerden gibt.“ ",
+            "en": "“Reverend, I say it’s not possible to know or see or reach the end of the world by traveling to a place where there’s no being born, growing old, dying, passing away, or being reborn.” ",
+            "matched": true
+          },
+          "an4.45:6.1": {
+            "scid": "an4.45:6.1",
+            "pli": "“‘Yattha kho, āvuso, na jāyati na jīyati na mīyati na cavati na upapajjati, nāhaṁ taṁ gamanena lokassa antaṁ ñāteyyaṁ daṭṭheyyaṁ patteyyan’ti vadāmi. ",
+            "de": "„Werter Freund, ich sage, es ist <span class=\"ebt-matched\">nicht möglich, das Ende der Welt</span> zu erkennen oder zu sehen oder zu erreichen, indem man zu einem Ort geht, an dem es kein Geborenwerden, kein Altern, kein Sterben, kein Verscheiden und kein Wiedergeborenwerden gibt. ",
+            "en": "“Reverend, I say it’s not possible to know or see or reach the end of the world by traveling to a place where there’s no being born, growing old, dying, passing away, or being reborn. ",
+            "matched": true
+          }
+        },
+        "score": 2.065,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 4\n5. Mit Rohitassa\n45. Mit Rohitassa",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 31,
+          "de": 30,
+          "en": 30
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an9/an9.38_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an9/an9.38_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an9/an9.38_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an9.38",
+        "lang": "de",
+        "segMap": {
+          "an9.38:4.13": {
+            "scid": "an9.38:4.13",
+            "pli": "Nāhaṁ, brāhmaṇā, evarūpāya sandhāvanikāya lokassa antaṁ ñāteyyaṁ daṭṭheyyaṁ patteyyanti vadāmi. ",
+            "de": "Ich sage, es ist <span class=\"ebt-matched\">nicht möglich, das Ende der Welt</span> durch solches Rennen zu erkennen oder zu sehen oder zu erreichen. ",
+            "en": "I say it’s not possible to know or see or reach the end of the world by running like this. ",
+            "matched": true
+          }
+        },
+        "score": 1.014,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 9\n4. Das große Kapitel\n38. Brahmanische Kosmologen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 74,
+          "de": 73,
+          "en": 73
+        }
+      }
+    ]
   }
 }

@@ -29,11 +29,46 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "who sees the cessation of suffering",
-    "method": "keywords",
-    "resultPattern": "\\bwho|\\bsees|\\bthe|\\bcessation|\\bof|\\bsuffering",
-    "segsMatched": 0,
-    "bilaraPaths": [],
-    "suttaRefs": [],
-    "mlDocs": []
+    "method": "phrase",
+    "resultPattern": "\\bwho sees the cessation of suffering",
+    "segsMatched": 1,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn56/sn56.30_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn56/sn56.30_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn56.30/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn56/sn56.30_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn56/sn56.30_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn56.30",
+        "lang": "en",
+        "segMap": {
+          "sn56.30:2.5": {
+            "scid": "sn56.30:2.5",
+            "pli": "Yo dukkhanirodhaṁ passati dukkhampi so passati, dukkhasamudayampi passati, dukkhanirodhagāminiṁ paṭipadampi passati. ",
+            "en": "Someone <span class=\"ebt-matched\">who sees the cessation of suffering</span> also sees suffering, the origin of suffering, and the practice that leads to the cessation of suffering. ",
+            "matched": true
+          }
+        },
+        "score": 1.053,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 56\n3. At the Village of Koṭi\n30. With Gavampati",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 19,
+          "en": 17
+        }
+      }
+    ]
   }
 }

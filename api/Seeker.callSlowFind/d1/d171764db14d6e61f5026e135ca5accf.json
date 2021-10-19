@@ -29,11 +29,78 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "eliminating illnesses",
-    "method": "keywords",
-    "resultPattern": "\\beliminating|\\billnesses",
-    "segsMatched": 0,
-    "bilaraPaths": [],
-    "suttaRefs": [],
-    "mlDocs": []
+    "method": "phrase",
+    "resultPattern": "\\beliminating illnesses",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an10/an10.109_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an10/an10.109_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.108_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an10/an10.108_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an10.109/en/sujato",
+      "an10.108/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.109_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an10/an10.109_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.109",
+        "lang": "en",
+        "segMap": {
+          "an10.109:1.1": {
+            "scid": "an10.109:1.1",
+            "pli": "“Tikicchakā, bhikkhave, vamanaṁ denti pittasamuṭṭhānānampi ābādhānaṁ paṭighātāya, semhasamuṭṭhānānampi ābādhānaṁ paṭighātāya, vātasamuṭṭhānānampi ābādhānaṁ paṭighātāya. ",
+            "en": "“Mendicants, doctors prescribe an emetic for <span class=\"ebt-matched\">eliminating illnesses</span> stemming from disorders of bile, phlegm, and wind. ",
+            "matched": true
+          }
+        },
+        "score": 1.04,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 10\n11. Perceptions for Ascetics\n109. Emetic",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 25,
+          "en": 24
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.108_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an10/an10.108_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.108",
+        "lang": "en",
+        "segMap": {
+          "an10.108:1.1": {
+            "scid": "an10.108:1.1",
+            "pli": "“Tikicchakā, bhikkhave, virecanaṁ denti pittasamuṭṭhānānampi ābādhānaṁ paṭighātāya, semhasamuṭṭhānānampi ābādhānaṁ paṭighātāya, vātasamuṭṭhānānampi ābādhānaṁ paṭighātāya. ",
+            "en": "“Mendicants, doctors prescribe a purgative for <span class=\"ebt-matched\">eliminating illnesses</span> stemming from disorders of bile, phlegm, and wind. ",
+            "matched": true
+          }
+        },
+        "score": 1.037,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 10\n11. Perceptions for Ascetics\n108. Doctors",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 27,
+          "en": 26
+        }
+      }
+    ]
   }
 }

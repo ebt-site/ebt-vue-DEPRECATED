@@ -30,11 +30,582 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "gute freunde, genossen und gefährt",
-    "method": "keywords",
-    "resultPattern": "\\bgute|\\bfreunde,|\\bgenossen|\\bund|\\bgefährt",
-    "segsMatched": 0,
-    "bilaraPaths": [],
-    "suttaRefs": [],
-    "mlDocs": []
+    "method": "phrase",
+    "resultPattern": "\\bgute freunde, genossen und gefährt",
+    "segsMatched": 19,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn45/sn45.3_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn45/sn45.3_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn45/sn45.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn45/sn45.2_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn45/sn45.2_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn45/sn45.2_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an8/an8.55_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an8/an8.55_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an8/an8.55_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an8/an8.54_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an8/an8.54_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an8/an8.54_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga4/ud4.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/ud/vagga4/ud4.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/ud/vagga4/ud4.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an9/an9.3_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an9/an9.3_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an9/an9.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an9/an9.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an9/an9.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an9/an9.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an8/an8.57_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an8/an8.57_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an8/an8.57_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an6/an6.67_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an6/an6.67_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an6/an6.67_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.27_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an3/an3.27_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an3/an3.27_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.50_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.50_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.50_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.18_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.18_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.18_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.17_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.17_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.17_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn45.3/de/sabbamitta",
+      "sn45.2/de/sabbamitta",
+      "an8.55/de/sabbamitta",
+      "an8.54/de/sabbamitta",
+      "ud4.1/de/sabbamitta",
+      "dn34/de/sabbamitta",
+      "dn33/de/sabbamitta",
+      "an9.3/de/sabbamitta",
+      "an9.1/de/sabbamitta",
+      "an8.57/de/sabbamitta",
+      "an6.67/de/sabbamitta",
+      "an3.27/de/sabbamitta",
+      "an10.50/de/sabbamitta",
+      "an10.18/de/sabbamitta",
+      "an10.17/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn45/sn45.3_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn45/sn45.3_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn45/sn45.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn45.3",
+        "lang": "de",
+        "segMap": {
+          "sn45.3:1.3": {
+            "scid": "sn45.3:1.3",
+            "pli": "“sakalamidaṁ, bhante, brahmacariyaṁ, yadidaṁ—kalyāṇamittatā kalyāṇasahāyatā kalyāṇasampavaṅkatā”ti. ",
+            "de": "„Herr, <span class=\"ebt-matched\">gute Freunde, Genossen und Gefährt</span>en sind das ganze geistliche Leben.“ ",
+            "en": "“Sir, good friends, companions, and associates are the whole of the spiritual life.” ",
+            "matched": true
+          },
+          "sn45.3:2.2": {
+            "scid": "sn45.3:2.2",
+            "pli": "Sakalamidaṁ, sāriputta, brahmacariyaṁ, yadidaṁ—kalyāṇamittatā kalyāṇasahāyatā kalyāṇasampavaṅkatā. ",
+            "de": "<span class=\"ebt-matched\">Gute Freunde, Genossen und Gefährt</span>en sind das ganze geistliche Leben. ",
+            "en": "Good friends, companions, and associates are the whole of the spiritual life. ",
+            "matched": true
+          }
+        },
+        "score": 2.125,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 45\n1. Unwissenheit\n3. Sāriputta",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 16,
+          "de": 15,
+          "en": 15
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn45/sn45.2_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn45/sn45.2_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn45/sn45.2_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn45.2",
+        "lang": "de",
+        "segMap": {
+          "sn45.2:1.4": {
+            "scid": "sn45.2:1.4",
+            "pli": "“upaḍḍhamidaṁ, bhante, brahmacariyaṁ, yadidaṁ—kalyāṇamittatā kalyāṇasahāyatā kalyāṇasampavaṅkatā”ti. ",
+            "de": "„Herr, <span class=\"ebt-matched\">gute Freunde, Genossen und Gefährt</span>en sind das halbe geistliche Leben.“ ",
+            "en": "“Sir, good friends, companions, and associates are half the spiritual life.” ",
+            "matched": true
+          },
+          "sn45.2:2.2": {
+            "scid": "sn45.2:2.2",
+            "pli": "Sakalamevidaṁ, ānanda, brahmacariyaṁ, yadidaṁ—kalyāṇamittatā kalyāṇasahāyatā kalyāṇasampavaṅkatā. ",
+            "de": "<span class=\"ebt-matched\">Gute Freunde, Genossen und Gefährt</span>en sind das ganze geistliche Leben. ",
+            "en": "Good friends, companions, and associates are the whole of the spiritual life. ",
+            "matched": true
+          }
+        },
+        "score": 2.083,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 45\n1. Unwissenheit\n2. Das halbe geistliche Leben",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 24,
+          "de": 23,
+          "en": 23
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.55_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an8/an8.55_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an8/an8.55_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an8.55",
+        "lang": "de",
+        "segMap": {
+          "an8.55:8.2": {
+            "scid": "an8.55:8.2",
+            "pli": "na itthidhutto, na surādhutto, na akkhadhutto, kalyāṇamitto kalyāṇasahāyo kalyāṇasampavaṅko. ",
+            "de": "Keine Frauengeschichten, nicht Trinken, nicht Spielen und <span class=\"ebt-matched\">gute Freunde, Genossen und Gefährt</span>en. ",
+            "en": "Not womanizing, drinking, or gambling, and having good friends, companions, and associates. ",
+            "matched": true
+          },
+          "an8.55:8.5": {
+            "scid": "an8.55:8.5",
+            "pli": "na itthidhutto …pe… kalyāṇasampavaṅko. ",
+            "de": "Keine Frauengeschichten, nicht Trinken, nicht Spielen und <span class=\"ebt-matched\">gute Freunde, Genossen und Gefährt</span>en. ",
+            "en": "Not womanizing, drinking, or gambling, and having good friends, companions, and associates. ",
+            "matched": true
+          }
+        },
+        "score": 2.026,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 8\n6. Gotamī\n55. Mit Ujjaya",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 76,
+          "de": 75,
+          "en": 75
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.54_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an8/an8.54_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an8/an8.54_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an8.54",
+        "lang": "de",
+        "segMap": {
+          "an8.54:7.2": {
+            "scid": "an8.54:7.2",
+            "pli": "na itthidhutto, na surādhutto, na akkhadhutto, kalyāṇamitto kalyāṇasahāyo kalyāṇasampavaṅko. ",
+            "de": "Keine Frauengeschichten, nicht Trinken, nicht Spielen und <span class=\"ebt-matched\">gute Freunde, Genossen und Gefährt</span>en. ",
+            "en": "Not womanizing, drinking, or gambling, and having good friends, companions, and associates. ",
+            "matched": true
+          },
+          "an8.54:7.8": {
+            "scid": "an8.54:7.8",
+            "pli": "na itthidhutto, na surādhutto, na akkhadhutto, kalyāṇamitto kalyāṇasahāyo kalyāṇasampavaṅko. ",
+            "de": "Keine Frauengeschichten, nicht Trinken, nicht Spielen und <span class=\"ebt-matched\">gute Freunde, Genossen und Gefährt</span>en. ",
+            "en": "Not womanizing, drinking, or gambling, and having good friends, companions, and associates. ",
+            "matched": true
+          }
+        },
+        "score": 2.024,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 8\n6. Gotamī\n54. Mit Dīghajāṇu",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 82,
+          "de": 81,
+          "en": 81
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an6/an6.67_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an6/an6.67_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an6/an6.67_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an6.67",
+        "lang": "de",
+        "segMap": {
+          "an6.67:2.1": {
+            "scid": "an6.67:2.1",
+            "pli": "‘So vata, bhikkhave, bhikkhu kalyāṇamitto kalyāṇasahāyo kalyāṇasampavaṅko, kalyāṇamitte sevamāno bhajamāno payirupāsamāno, tesañca diṭṭhānugatiṁ āpajjamāno ābhisamācārikaṁ dhammaṁ paripūressatī’ti ṭhānametaṁ vijjati. ",
+            "de": "Es ist sehr wohl möglich, dass ein Mönch, der <span class=\"ebt-matched\">gute Freunde, Genossen und Gefährt</span>en hat und sich mit ihnen verbindet, sich ihnen anschließt, sie begleitet und ihrem Vorbild folgt – es ist möglich, dass ein solcher Mönch die Übung erfüllen wird, die die ergänzenden Regelungen betrifft. ",
+            "en": "It’s possible that a mendicant with good friends, companions, and associates, while frequenting, accompanying, and attending, and following their example, will fulfill the practice dealing with the supplementary regulations. ",
+            "matched": true
+          }
+        },
+        "score": 1.083,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 6\n7. Eine Gottheit\n67. Freunde",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 12,
+          "de": 11,
+          "en": 11
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.57_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an8/an8.57_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an8/an8.57_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an8.57",
+        "lang": "de",
+        "segMap": {
+          "an8.57:1.5": {
+            "scid": "an8.57:1.5",
+            "pli": "kalyāṇamitto hoti kalyāṇasahāyo kalyāṇasampavaṅko; ",
+            "de": "Sie hat <span class=\"ebt-matched\">gute Freunde, Genossen und Gefährt</span>innen. ",
+            "en": "They have good friends, companions, and associates. ",
+            "matched": true
+          }
+        },
+        "score": 1.067,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 8\n6. Gotamī\n57. Einer Gabe würdig (1)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 15,
+          "de": 14,
+          "en": 14
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an9/an9.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an9/an9.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an9/an9.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an9.1",
+        "lang": "de",
+        "segMap": {
+          "an9.1:5.1": {
+            "scid": "an9.1:5.1",
+            "pli": "‘Idhāvuso, bhikkhu kalyāṇamitto hoti kalyāṇasahāyo kalyāṇasampavaṅko. ",
+            "de": "‚Da hat eine Nonne <span class=\"ebt-matched\">gute Freunde, Genossen und Gefährt</span>innen. ",
+            "en": "‘It’s when a mendicant has good friends, companions, and associates. ",
+            "matched": true
+          }
+        },
+        "score": 1.027,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 9\n1. Erwachen\n1. Erwachen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 37,
+          "de": 36,
+          "en": 36
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.17_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.17_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.17_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.17",
+        "lang": "de",
+        "segMap": {
+          "an10.17:3.1": {
+            "scid": "an10.17:3.1",
+            "pli": "Puna caparaṁ, bhikkhave, bhikkhu kalyāṇamitto hoti kalyāṇasahāyo kalyāṇasampavaṅko. ",
+            "de": "Dann hat da ein Mönch <span class=\"ebt-matched\">gute Freunde, Genossen und Gefährt</span>en. ",
+            "en": "Furthermore, a mendicant has good friends, companions, and associates. ",
+            "matched": true
+          }
+        },
+        "score": 1.024,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10\n2. Ein Beschützer\n17. Ein Beschützer (1)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 41,
+          "de": 30,
+          "en": 40
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an3/an3.27_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an3/an3.27_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an3/an3.27_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an3.27",
+        "lang": "de",
+        "segMap": {
+          "an3.27:3.6": {
+            "scid": "an3.27:3.6",
+            "pli": "‘kalyāṇamitto purisapuggalo kalyāṇasahāyo kalyāṇasampavaṅko’ti. ",
+            "de": "‚Diese Person hat <span class=\"ebt-matched\">gute Freunde, Genossen und Gefährt</span>en.‘ ",
+            "en": "‘That individual has good friends, companions, and associates.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.022,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 3\n3. Menschen\n27. Angewidert",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 45,
+          "de": 44,
+          "en": 44
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.50_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.50_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.50_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.50",
+        "lang": "de",
+        "segMap": {
+          "an10.50:6.1": {
+            "scid": "an10.50:6.1",
+            "pli": "Puna caparaṁ, bhikkhave, bhikkhu kalyāṇamitto hoti kalyāṇasahāyo kalyāṇasampavaṅko. ",
+            "de": "Dann hat da eine Nonne <span class=\"ebt-matched\">gute Freunde, Genossen und Gefährt</span>innen. ",
+            "en": "Furthermore, a mendicant has good friends, companions, and associates. … ",
+            "matched": true
+          }
+        },
+        "score": 1.02,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10\n5. Beschimpfung\n50. Zank",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 51,
+          "de": 43,
+          "en": 49
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.18_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.18_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.18_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.18",
+        "lang": "de",
+        "segMap": {
+          "an10.18:4.1": {
+            "scid": "an10.18:4.1",
+            "pli": "Puna caparaṁ, bhikkhave, bhikkhu kalyāṇamitto hoti kalyāṇasahāyo kalyāṇasampavaṅko. ",
+            "de": "Da hat eine Nonne <span class=\"ebt-matched\">gute Freunde, Genossen und Gefährt</span>innen. ",
+            "en": "Furthermore, a mendicant has good friends, companions, and associates. ",
+            "matched": true
+          }
+        },
+        "score": 1.017,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10\n2. Ein Beschützer\n18. Ein Beschützer (2)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 59,
+          "de": 58,
+          "en": 58
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an9/an9.3_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an9/an9.3_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an9/an9.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an9.3",
+        "lang": "de",
+        "segMap": {
+          "an9.3:10.3": {
+            "scid": "an9.3:10.3",
+            "pli": "Idha, meghiya, bhikkhu kalyāṇamitto hoti kalyāṇasahāyo kalyāṇasampavaṅko. ",
+            "de": "Zunächst hat da ein Mönch <span class=\"ebt-matched\">gute Freunde, Genossen und Gefährt</span>en. ",
+            "en": "Firstly, a mendicant has good friends, companions, and associates. ",
+            "matched": true
+          }
+        },
+        "score": 1.014,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 9\n1. Erwachen\n3. Mit Meghiya",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 74,
+          "de": 59,
+          "en": 73
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga4/ud4.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/ud/vagga4/ud4.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/ud/vagga4/ud4.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud4.1",
+        "lang": "de",
+        "segMap": {
+          "ud4.1:12.1": {
+            "scid": "ud4.1:12.1",
+            "pli": "Idha, meghiya, bhikkhu kalyāṇamitto hoti kalyāṇasahāyo kalyāṇasampavaṅko.",
+            "de": "Zunächst hat da ein Mönch <span class=\"ebt-matched\">gute Freunde, Genossen und Gefährt</span>en. ",
+            "en": "Firstly, a mendicant has good friends, companions, and associates. ",
+            "matched": true
+          }
+        },
+        "score": 1.012,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Tief empfundene Sprüche\nMit Meghiya",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 85,
+          "de": 69,
+          "en": 69
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn33",
+        "lang": "de",
+        "segMap": {
+          "dn33:3.3.11": {
+            "scid": "dn33:3.3.11",
+            "pli": "Puna caparaṁ, āvuso, bhikkhu kalyāṇamitto hoti kalyāṇasahāyo kalyāṇasampavaṅko. ",
+            "de": "Weiterhin hat ein Mönch <span class=\"ebt-matched\">gute Freunde, Genossen und Gefährt</span>en. ",
+            "en": "Furthermore, a mendicant has good friends, companions, and associates. ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 33\nIm Chor aufsagen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 1167,
+          "de": 1166,
+          "en": 1166
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn34",
+        "lang": "de",
+        "segMap": {
+          "dn34:2.3.10": {
+            "scid": "dn34:2.3.10",
+            "pli": "Puna caparaṁ, āvuso, bhikkhu kalyāṇamitto hoti kalyāṇasahāyo kalyāṇasampavaṅko. ",
+            "de": "Dann hat da ein Mönch <span class=\"ebt-matched\">gute Freunde, Genossen und Gefährt</span>en. ",
+            "en": "Furthermore, a mendicant has good friends, companions, and associates. ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 34\nBis zu zehn",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 894,
+          "de": 754,
+          "en": 891
+        }
+      }
+    ]
   }
 }

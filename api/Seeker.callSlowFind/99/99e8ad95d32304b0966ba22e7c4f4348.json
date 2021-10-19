@@ -30,11 +30,165 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "bedingungen sind unbeständig",
-    "method": "keywords",
-    "resultPattern": "\\bbedingungen|\\bsind|\\bunbeständig",
-    "segsMatched": 0,
-    "bilaraPaths": [],
-    "suttaRefs": [],
-    "mlDocs": []
+    "method": "phrase",
+    "resultPattern": "\\bbedingungen sind unbeständig",
+    "segsMatched": 5,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an3/an3.136_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an3/an3.136_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an3/an3.136_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag15.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag15.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag15.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn17_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn17_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn17_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an7/an7.66_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an7/an7.66_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an7/an7.66_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an3.136/de/sabbamitta",
+      "thag15.1/de/sabbamitta",
+      "dn17/de/sabbamitta",
+      "an7.66/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an3/an3.136_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an3/an3.136_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an3/an3.136_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an3.136",
+        "lang": "de",
+        "segMap": {
+          "an3.136:1.2": {
+            "scid": "an3.136:1.2",
+            "pli": "Sabbe saṅkhārā aniccā. ",
+            "de": "Alle <span class=\"ebt-matched\">Bedingungen sind unbeständig</span>. ",
+            "en": "all conditions are impermanent. ",
+            "matched": true
+          },
+          "an3.136:1.5": {
+            "scid": "an3.136:1.5",
+            "pli": "‘sabbe saṅkhārā aniccā’ti. ",
+            "de": "‚Alle <span class=\"ebt-matched\">Bedingungen sind unbeständig</span>.‘ ",
+            "en": "‘All conditions are impermanent.’ ",
+            "matched": true
+          }
+        },
+        "score": 2.105,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 3\n14. Ein Krieger\n136. Erscheinen",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 19,
+          "de": 18,
+          "en": 18
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag15.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag15.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag15.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag15.1",
+        "lang": "de",
+        "segMap": {
+          "thag15.1:4.1": {
+            "scid": "thag15.1:4.1",
+            "pli": "Sabbe saṅkhārā aniccāti,",
+            "de": "Alle <span class=\"ebt-matched\">Bedingungen sind unbeständig</span> – ",
+            "en": "All conditions are impermanent—",
+            "matched": true
+          }
+        },
+        "score": 1.014,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche\nDas Sechzehnerbuch\nErstes Kapitel\nKoṇḍañña der Versteher",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 71,
+          "de": 70,
+          "en": 70
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an7/an7.66_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an7/an7.66_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an7/an7.66_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an7.66",
+        "lang": "de",
+        "segMap": {
+          "an7.66:2.1": {
+            "scid": "an7.66:2.1",
+            "pli": "“Aniccā, bhikkhave, saṅkhārā; ",
+            "de": "„Mönche und Nonnen, <span class=\"ebt-matched\">Bedingungen sind unbeständig</span>. ",
+            "en": "“Mendicants, conditions are impermanent. ",
+            "matched": true
+          }
+        },
+        "score": 1.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 7\n7. Das große Kapitel\n66. Die sieben Sonnen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 95,
+          "de": 89,
+          "en": 94
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn17_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn17_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn17_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn17",
+        "lang": "de",
+        "segMap": {
+          "dn17:2.17.5": {
+            "scid": "dn17:2.17.5",
+            "pli": "“Aniccā vata saṅkhārā, ",
+            "de": "„Ach! <span class=\"ebt-matched\">Bedingungen sind unbeständig</span>, ",
+            "en": "“Oh! Conditions are impermanent, ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 17\nDer König Mahāsudassana",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 444,
+          "de": 359,
+          "en": 443
+        }
+      }
+    ]
   }
 }

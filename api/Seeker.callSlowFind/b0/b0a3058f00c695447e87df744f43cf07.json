@@ -30,11 +30,381 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "wie ein vogel",
-    "method": "keywords",
-    "resultPattern": "\\bwie|\\bein|\\bvogel",
-    "segsMatched": 0,
-    "bilaraPaths": [],
-    "suttaRefs": [],
-    "mlDocs": []
+    "method": "phrase",
+    "resultPattern": "\\bwie ein vogel",
+    "segsMatched": 11,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn10_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn10_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn10_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/dhp/dhp167-178_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/dhp/dhp167-178_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp167-178_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn28_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn28_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn28_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an6/an6.70_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an6/an6.70_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an6/an6.70_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an6/an6.2_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an6/an6.2_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an6/an6.2_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.23_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an5/an5.23_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an5/an5.23_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.198_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.198_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.198_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.60_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an3/an3.60_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an3/an3.60_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.101_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an3/an3.101_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an3/an3.101_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "dn10/de/sabbamitta",
+      "dhp167-178/de/sabbamitta",
+      "dn34/de/sabbamitta",
+      "dn28/de/sabbamitta",
+      "an6.70/de/sabbamitta",
+      "an6.2/de/sabbamitta",
+      "an5.23/de/sabbamitta",
+      "an4.198/de/sabbamitta",
+      "an3.60/de/sabbamitta",
+      "an3.101/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn10_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn10_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn10_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn10",
+        "lang": "de",
+        "segMap": {
+          "dn10:2.4.3": {
+            "scid": "dn10:2.4.3",
+            "pli": "Seyyathāpi, māṇava, pakkhī sakuṇo yena yeneva ḍeti, sapattabhārova ḍeti; ",
+            "de": "<span class=\"ebt-matched\">Wie ein Vogel</span>: Wohin er fliegt, da hat er nur seine Flügel dabei. ",
+            "en": "They’re like a bird: wherever it flies, wings are its only burden. ",
+            "matched": true
+          },
+          "dn10:2.25.2": {
+            "scid": "dn10:2.25.2",
+            "pli": "So anekavihitaṁ iddhividhaṁ paccanubhoti—ekopi hutvā bahudhā hoti, bahudhāpi hutvā eko hoti; āvibhāvaṁ tirobhāvaṁ tirokuṭṭaṁ tiropākāraṁ tiropabbataṁ asajjamāno gacchati seyyathāpi ākāse; pathaviyāpi ummujjanimujjaṁ karoti seyyathāpi udake; udakepi abhijjamāne gacchati seyyathāpi pathaviyaṁ; ākāsepi pallaṅkena kamati seyyathāpi pakkhī sakuṇo; imepi candimasūriye evaṁ mahiddhike evaṁ mahānubhāve pāṇinā parāmasati parimajjati; yāva brahmalokāpi kāyena vasaṁ vatteti. ",
+            "de": "Sie übt die vielen Arten von Wunderkräften aus: sich vervielfältigen und wieder eins werden; erscheinen und verschwinden; ungehindert durch eine Wand, einen Erdwall oder einen Berg gehen wie durch leeren Raum; in die Erde tauchen und herauskommen, als wäre sie Wasser; über das Wasser gehen, als wäre es Land; mit gekreuzten Beinen durch die Luft fliegen <span class=\"ebt-matched\">wie ein Vogel</span>; Sonne und Mond, so mächtig und gewaltig, mit der Hand berühren und streicheln; den Körper beherrschen bis hin zur Brahmāwelt. ",
+            "en": "They wield the many kinds of psychic power: multiplying themselves and becoming one again; going unimpeded through a wall, a rampart, or a mountain as if through space; diving in and out of the earth as if it were water; walking on water as if it were earth; flying cross-legged through the sky like a bird; touching and stroking with the hand the sun and moon, so mighty and powerful; controlling the body as far as the Brahmā realm. ",
+            "matched": true
+          }
+        },
+        "score": 2.007,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 10\nMit Subha",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 284,
+          "de": 226,
+          "en": 281
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an6/an6.70_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an6/an6.70_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an6/an6.70_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an6.70",
+        "lang": "de",
+        "segMap": {
+          "an6.70:1.1": {
+            "scid": "an6.70:1.1",
+            "pli": "“‘So vata, bhikkhave, bhikkhu na santena samādhinā na paṇītena na paṭippassaddhiladdhena na ekodibhāvādhigatena anekavihitaṁ iddhividhaṁ paccanubhavissati—ekopi hutvā bahudhā bhavissati, bahudhāpi hutvā eko bhavissati …pe… yāva brahmalokāpi kāyena vasaṁ vattessatī’ti netaṁ ṭhānaṁ vijjati. ",
+            "de": "„Mönche und Nonnen, es ist völlig unmöglich, dass eine Nonne ohne Versenkung, die friedvoll, erhaben, still und einheitlich ist, die vielen Arten von Wunderkräften ausübt: sich vervielfältigen und wieder eins werden; erscheinen und verschwinden; ungehindert durch eine Wand, einen Erdwall oder einen Berg gehen wie durch leeren Raum; in die Erde tauchen und herauskommen, als wäre sie Wasser; über das Wasser gehen, als wäre es Land; mit gekreuzten Beinen durch die Luft fliegen <span class=\"ebt-matched\">wie ein Vogel</span>; Sonne und Mond, so mächtig und gewaltig, mit der Hand berühren und streicheln; den Körper beherrschen bis hin zur Brahmāwelt. ",
+            "en": "“Mendicants, it’s totally impossible that a mendicant without immersion that is peaceful, refined, tranquil, and unified will wield the many kinds of psychic power: multiplying themselves and becoming one again; appearing and disappearing; going unimpeded through a wall, a rampart, or a mountain as if through space; diving in and out of the earth as if it were water; walking on water as if it were earth; flying cross-legged through the sky like a bird; touching and stroking with the hand the sun and moon, so mighty and powerful. They control the body as far as the Brahmā realm. ",
+            "matched": true
+          }
+        },
+        "score": 1.05,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 6\n7. Eine Gottheit\n70. Versenkung",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 20,
+          "de": 17,
+          "en": 17
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an6/an6.2_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an6/an6.2_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an6/an6.2_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an6.2",
+        "lang": "de",
+        "segMap": {
+          "an6.2:1.3": {
+            "scid": "an6.2:1.3",
+            "pli": "Idha, bhikkhave, bhikkhu anekavihitaṁ iddhividhaṁ paccanubhoti—ekopi hutvā bahudhā hoti, bahudhāpi hutvā eko hoti; āvibhāvaṁ tirobhāvaṁ; tirokuṭṭaṁ tiropākāraṁ tiropabbataṁ asajjamāno gacchati, seyyathāpi ākāse; pathaviyāpi ummujjanimujjaṁ karoti, seyyathāpi udake; udakepi abhijjamāne gacchati, seyyathāpi pathaviyaṁ; ākāsepi pallaṅkena kamati, seyyathāpi pakkhī sakuṇo; imepi candimasūriye evaṁmahiddhike evaṁmahānubhāve pāṇinā parimasati parimajjati; yāva brahmalokāpi kāyena vasaṁ vatteti. ",
+            "de": "Da übt eine Nonne die vielen Arten von Wunderkräften aus: sich vervielfältigen und wieder eins werden; erscheinen und verschwinden; ungehindert durch eine Wand, einen Erdwall oder einen Berg gehen wie durch leeren Raum; in die Erde tauchen und herauskommen, als wäre sie Wasser; über das Wasser gehen, als wäre es Land; mit gekreuzten Beinen durch die Luft fliegen <span class=\"ebt-matched\">wie ein Vogel</span>; Sonne und Mond, so mächtig und gewaltig, mit der Hand berühren und streicheln; den Körper beherrschen bis hin zur Brahmāwelt. ",
+            "en": "It’s a mendicant who wields the many kinds of psychic power: multiplying themselves and becoming one again; appearing and disappearing; going unimpeded through a wall, a rampart, or a mountain as if through space; diving in and out of the earth as if it were water; walking on water as if it were earth; flying cross-legged through the sky like a bird; touching and stroking with the hand the sun and moon, so mighty and powerful. They control the body as far as the Brahmā realm. ",
+            "matched": true
+          }
+        },
+        "score": 1.034,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 6\n1. Einer Gabe würdig\n2. Einer Gabe würdig (2)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 29,
+          "de": 28,
+          "en": 28
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an5/an5.23_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an5/an5.23_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an5/an5.23_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an5.23",
+        "lang": "de",
+        "segMap": {
+          "an5.23:3.1": {
+            "scid": "an5.23:3.1",
+            "pli": "So sace ākaṅkhati: ‘anekavihitaṁ iddhividhaṁ paccanubhaveyyaṁ—ekopi hutvā bahudhā assaṁ, bahudhāpi hutvā eko assaṁ; āvibhāvaṁ, tirobhāvaṁ; tirokuṭṭaṁ tiropākāraṁ tiropabbataṁ asajjamāno gaccheyyaṁ, seyyathāpi ākāse; pathaviyāpi ummujjanimujjaṁ kareyyaṁ, seyyathāpi udake; udakepi abhijjamāno gaccheyyaṁ, seyyathāpi pathaviyaṁ; ākāsepi pallaṅkena kameyyaṁ, seyyathāpi pakkhī sakuṇo; imepi candimasūriye evaṁmahiddhike evaṁmahānubhāve pāṇinā parimaseyyaṁ parimajjeyyaṁ yāva brahmalokāpi kāyena vasaṁ vatteyyan’ti, ",
+            "de": "Wenn man wünscht: ‚Dass ich doch die vielen Arten von Wunderkräften ausüben könnte: mich vervielfältigen und wieder eins werden; erscheinen und verschwinden; ungehindert durch eine Wand, einen Erdwall oder einen Berg gehen wie durch leeren Raum; in die Erde tauchen und herauskommen, als wäre sie Wasser; über das Wasser gehen, als wäre es Land; mit gekreuzten Beinen durch die Luft fliegen <span class=\"ebt-matched\">wie ein Vogel</span>; Sonne und Mond, so mächtig und gewaltig, mit der Hand berühren und streicheln; meinen Körper bis hin zur Brahmāwelt beherrschen‘ – ",
+            "en": "If you wish: ‘May I wield the many kinds of psychic power—multiplying myself and becoming one again; appearing and disappearing; going unimpeded through a wall, a rampart, or a mountain as if through space; diving in and out of the earth as if it were water; walking on water as if it were earth; flying cross-legged through the sky like a bird; touching and stroking with the hand the sun and moon, so mighty and powerful, controlling the body as far as the Brahmā realm.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.023,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 5\n3. Mit fünf Faktoren\n23. Verunreinigungen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 44,
+          "de": 43,
+          "en": 43
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an3/an3.101_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an3/an3.101_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an3/an3.101_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an3.101",
+        "lang": "de",
+        "segMap": {
+          "an3.101:3.1": {
+            "scid": "an3.101:3.1",
+            "pli": "So sace ākaṅkhati: ‘anekavihitaṁ iddhividhaṁ paccanubhaveyyaṁ—ekopi hutvā bahudhā assaṁ, bahudhāpi hutvā eko assaṁ; āvibhāvaṁ, tirobhāvaṁ; tirokuṭṭaṁ tiropākāraṁ tiropabbataṁ asajjamāno gaccheyyaṁ, seyyathāpi ākāse; pathaviyāpi ummujjanimujjaṁ kareyyaṁ, seyyathāpi udake; udakepi abhijjamāne gaccheyyaṁ, seyyathāpi pathaviyaṁ; ākāsepi pallaṅkena kameyyaṁ, seyyathāpi pakkhī sakuṇo; imepi candimasūriye evaṁmahiddhike evaṁmahānubhāve pāṇinā parimaseyyaṁ parimajjeyyaṁ; yāva brahmalokāpi kāyena vasaṁ vatteyyan’ti, ",
+            "de": "Wenn sie wünscht: ‚Dass ich doch die vielen Arten von Wunderkräften ausüben könnte: mich vervielfältigen und wieder eins werden; erscheinen und verschwinden; ungehindert durch eine Wand, einen Erdwall oder einen Berg gehen wie durch leeren Raum; in die Erde tauchen und herauskommen, als wäre sie Wasser; über das Wasser gehen, als wäre es Land; mit gekreuzten Beinen durch die Luft fliegen <span class=\"ebt-matched\">wie ein Vogel</span>; Sonne und Mond, so mächtig und gewaltig, mit der Hand berühren und streicheln; meinen Körper bis hin zur Brahmāwelt beherrschen‘ – ",
+            "en": "If they wish: ‘May I wield the many kinds of psychic power: multiplying myself and becoming one again; appearing and disappearing; going unimpeded through a wall, a rampart, or a mountain as if through space; diving in and out of the earth as if it were water; walking on water as if it were earth; flying cross-legged through the sky like a bird; touching and stroking with my hand the sun and moon, so mighty and powerful; controlling my body as far as the Brahmā realm.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.019,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 3\n10. Ein Salzklümpchen\n101. Ein Goldwäscher",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 52,
+          "de": 51,
+          "en": 51
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/dhp/dhp167-178_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/dhp/dhp167-178_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/dhp/dhp167-178_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dhp167-178",
+        "lang": "de",
+        "segMap": {
+          "dhp174:4": {
+            "scid": "dhp174:4",
+            "pli": "appo saggāya gacchati.",
+            "de": "<span class=\"ebt-matched\">wie ein Vogel</span>, vom Netz befreit. ",
+            "en": "like a bird freed from a net.",
+            "matched": true
+          }
+        },
+        "score": 1.016,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Kleinere Sammlung\nDhamma-Sprüche\nDie Welt\nDaharabhikkhuvatthu",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 63,
+          "de": 51,
+          "en": 63
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.198_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.198_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.198_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.198",
+        "lang": "de",
+        "segMap": {
+          "an4.198:10.2": {
+            "scid": "an4.198:10.2",
+            "pli": "Seyyathāpi nāma pakkhī sakuṇo yena yeneva ḍeti, sapattabhārova ḍeti; ",
+            "de": "<span class=\"ebt-matched\">Wie ein Vogel</span>: Wohin er fliegt, da hat er nur seine Flügel dabei. ",
+            "en": "They’re like a bird: wherever it flies, wings are its only burden. ",
+            "matched": true
+          }
+        },
+        "score": 1.009,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 4\n20. Das große Kapitel\n198. Selbstquälerei",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 111,
+          "de": 110,
+          "en": 110
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an3/an3.60_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an3/an3.60_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an3/an3.60_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an3.60",
+        "lang": "de",
+        "segMap": {
+          "an3.60:8.5": {
+            "scid": "an3.60:8.5",
+            "pli": "Idha, brāhmaṇa, ekacco anekavihitaṁ iddhividhaṁ paccanubhoti: ‘ekopi hutvā bahudhā hoti, bahudhāpi hutvā eko hoti; āvibhāvaṁ, tirobhāvaṁ; tirokuṭṭaṁ tiropākāraṁ tiropabbataṁ asajjamāno gacchati, seyyathāpi ākāse; pathaviyāpi ummujjanimujjaṁ karoti, seyyathāpi udake; udakepi abhijjamāne gacchati, seyyathāpi pathaviyaṁ; ākāsepi pallaṅkena kamati, seyyathāpi pakkhī sakuṇo; imepi candimasūriye evaṁmahiddhike evaṁmahānubhāve pāṇinā parimasati parimajjati, yāva brahmalokāpi kāyena vasaṁ vatteti’. ",
+            "de": "Es ist, wenn jemand die vielen Arten von Wunderkräften ausübt: sich vervielfältigen und wieder eins werden; erscheinen und verschwinden; ungehindert durch eine Wand, einen Erdwall oder einen Berg gehen wie durch leeren Raum; in die Erde tauchen und herauskommen, als wäre sie Wasser; über das Wasser gehen, als wäre es Land; mit gekreuzten Beinen durch die Luft fliegen <span class=\"ebt-matched\">wie ein Vogel</span>; Sonne und Mond, so mächtig und gewaltig, mit der Hand berühren und streicheln; den Körper beherrschen bis hin zur Brahmāwelt. ",
+            "en": "It’s when someone wields the many kinds of psychic power: multiplying themselves and becoming one again; appearing and disappearing; going unimpeded through a wall, a rampart, or a mountain as if through space; diving in and out of the earth as if it were water; walking on water as if it were earth; flying cross-legged through the sky like a bird; touching and stroking with the hand the sun and moon, so mighty and powerful. They control the body as far as the Brahmā realm. ",
+            "matched": true
+          }
+        },
+        "score": 1.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 3\n6. Brahmanen\n60. Mit Saṅgārava",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 119,
+          "de": 117,
+          "en": 117
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn28_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn28_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn28_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn28",
+        "lang": "de",
+        "segMap": {
+          "dn28:18.7": {
+            "scid": "dn28:18.7",
+            "pli": "ekopi hutvā bahudhā hoti, bahudhāpi hutvā eko hoti; āvibhāvaṁ tirobhāvaṁ tirokuṭṭaṁ tiropākāraṁ tiropabbataṁ asajjamāno gacchati seyyathāpi ākāse; pathaviyāpi ummujjanimujjaṁ karoti seyyathāpi udake; udakepi abhijjamāne gacchati seyyathāpi pathaviyaṁ; ākāsepi pallaṅkena kamati seyyathāpi pakkhī sakuṇo; imepi candimasūriye evaṁmahiddhike evaṁmahānubhāve pāṇinā parāmasati parimajjati; yāva brahmalokāpi kāyena vasaṁ vatteti. ",
+            "de": "sich vervielfältigen und wieder eins werden; erscheinen und verschwinden; ungehindert durch eine Wand, einen Erdwall oder einen Berg gehen wie durch leeren Raum; in die Erde tauchen und herauskommen, als wäre sie Wasser; über das Wasser gehen, als wäre es Land; mit gekreuzten Beinen durch die Luft fliegen <span class=\"ebt-matched\">wie ein Vogel</span>; Sonne und Mond, so mächtig und gewaltig, mit der Hand berühren und streicheln; den Körper beherrschen bis hin zur Brahmāwelt. ",
+            "en": "multiplying themselves and becoming one again; going unimpeded through a wall, a rampart, or a mountain as if through space; diving in and out of the earth as if it were water; walking on water as if it were earth; flying cross-legged through the sky like a bird; touching and stroking with the hand the sun and moon, so mighty and powerful; controlling the body as far as the Brahmā realm. ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 28\nZuversicht wecken\n1. Sāriputtas Löwengebrüll",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 250,
+          "de": 236,
+          "en": 249
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn34",
+        "lang": "de",
+        "segMap": {
+          "dn34:1.7.85": {
+            "scid": "dn34:1.7.85",
+            "pli": "idhāvuso, bhikkhu anekavihitaṁ iddhividhaṁ paccanubhoti—ekopi hutvā bahudhā hoti, bahudhāpi hutvā eko hoti; āvibhāvaṁ tirobhāvaṁ; tirokuṭṭaṁ tiropākāraṁ tiropabbataṁ asajjamāno gacchati seyyathāpi ākāse; pathaviyāpi ummujjanimujjaṁ karoti seyyathāpi udake; udakepi abhijjamāne gacchati seyyathāpi pathaviyaṁ; ākāsepi pallaṅkena kamati seyyathāpi pakkhī sakuṇo; imepi candimasūriye evaṁmahiddhike evaṁmahānubhāve pāṇinā parāmasati parimajjati; yāva brahmalokāpi kāyena vasaṁ vatteti.  ",
+            "de": "Da übt eine Nonne die vielen Arten von Wunderkräften aus: sich vervielfältigen und wieder eins werden; erscheinen und verschwinden; ungehindert durch eine Wand, einen Erdwall oder einen Berg gehen wie durch leeren Raum; in die Erde tauchen und herauskommen, als wäre sie Wasser; über das Wasser gehen, als wäre es Land; mit gekreuzten Beinen durch die Luft fliegen <span class=\"ebt-matched\">wie ein Vogel</span>; Sonne und Mond, so mächtig und gewaltig, mit der Hand berühren und streicheln; den Körper beherrschen bis hin zur Brahmāwelt. ",
+            "en": "A mendicant wields the many kinds of psychic power: multiplying themselves and becoming one again; appearing and disappearing; going unimpeded through a wall, a rampart, or a mountain as if through space; diving in and out of the earth as if it were water; walking on water as if it were earth; flying cross-legged through the sky like a bird; touching and stroking with the hand the sun and moon, so mighty and powerful; controlling the body as far as the Brahmā realm. ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 34\nBis zu zehn",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 894,
+          "de": 754,
+          "en": 891
+        }
+      }
+    ]
   }
 }
