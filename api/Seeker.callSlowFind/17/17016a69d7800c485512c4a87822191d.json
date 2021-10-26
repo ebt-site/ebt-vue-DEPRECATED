@@ -32,7 +32,7 @@
     "pattern": "genügsam",
     "method": "phrase",
     "resultPattern": "\\bgenügsam",
-    "segsMatched": 46,
+    "segsMatched": 47,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an8/an8.30_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.30_translation-de-sabbamitta.json",
@@ -67,6 +67,9 @@
       "root/pli/ms/sutta/kn/ud/vagga4/ud4.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga4/ud4.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/ud/vagga4/ud4.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga1/snp1.8_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/snp/vagga1/snp1.8_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/snp/vagga1/snp1.8_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/kp/kp9_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/kp/kp9_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/kp/kp9_translation-en-sujato.json",
@@ -131,6 +134,7 @@
       "an1.61-70/de/sabbamitta",
       "an10.67/de/sabbamitta",
       "ud4.1/de/sabbamitta",
+      "snp1.8/de/sabbamitta",
       "kp9/de/sabbamitta",
       "dn34/de/sabbamitta",
       "an9.3/de/sabbamitta",
@@ -1040,6 +1044,38 @@
         "segsMatched": 1,
         "langSegs": {
           "pli": 44,
+          "de": 42,
+          "en": 42
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga1/snp1.8_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/snp/vagga1/snp1.8_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/snp/vagga1/snp1.8_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp1.8",
+        "lang": "de",
+        "segMap": {
+          "snp1.8:2.2": {
+            "scid": "snp1.8:2.2",
+            "pli": "Appakicco ca sallahukavutti;",
+            "de": "nicht geschäftig; <span class=\"ebt-matched\">genügsam</span> sollen sie leben, ",
+            "en": "unbusied, living lightly,",
+            "matched": true
+          }
+        },
+        "score": 1.023,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lehrreden-Sammelband\nDie Lehrrede von der Liebe",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 43,
           "de": 42,
           "en": 42
         }

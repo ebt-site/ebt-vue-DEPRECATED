@@ -32,7 +32,7 @@
     "pattern": "acht menschen",
     "method": "phrase",
     "resultPattern": "\\bacht menschen",
-    "segsMatched": 13,
+    "segsMatched": 14,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an8/an8.60_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.60_translation-de-sabbamitta.json",
@@ -46,6 +46,9 @@
       "root/pli/ms/sutta/an/an8/an8.61_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.61_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an8/an8.61_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga2/snp2.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/snp/vagga2/snp2.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/snp/vagga2/snp2.1_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/kp/kp6_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/kp/kp6_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/kp/kp6_translation-en-sujato.json",
@@ -58,6 +61,7 @@
       "an8.59/de/sabbamitta",
       "an8.77/de/sabbamitta",
       "an8.61/de/sabbamitta",
+      "snp2.1/de/sabbamitta",
       "kp6/de/sabbamitta",
       "dn33/de/sabbamitta"
     ],
@@ -264,6 +268,38 @@
         "maxWord": 30,
         "minWord": 5,
         "title": "Grundlegende Ausschnitte\nJuwelen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 92,
+          "de": 91,
+          "en": 91
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga2/snp2.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/snp/vagga2/snp2.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/snp/vagga2/snp2.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp2.1",
+        "lang": "de",
+        "segMap": {
+          "snp2.1:6.1": {
+            "scid": "snp2.1:6.1",
+            "pli": "Ye puggalā aṭṭha sataṁ pasatthā,",
+            "de": "Die <span class=\"ebt-matched\">acht Menschen</span>, von den Guten gepriesen, ",
+            "en": "The eight individuals praised by the good,",
+            "matched": true
+          }
+        },
+        "score": 1.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lehrreden-Sammelband\nJuwelen",
         "segsMatched": 1,
         "langSegs": {
           "pli": 92,

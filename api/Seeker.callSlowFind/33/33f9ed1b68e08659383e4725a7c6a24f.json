@@ -32,11 +32,14 @@
     "pattern": "wenn sinnliches verlangen",
     "method": "phrase",
     "resultPattern": "\\bwenn sinnliches verlangen",
-    "segsMatched": 3,
+    "segsMatched": 4,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn10_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn10_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga1/snp1.8_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/snp/vagga1/snp1.8_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/snp/vagga1/snp1.8_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/kp/kp9_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/kp/kp9_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/kp/kp9_translation-en-sujato.json",
@@ -46,6 +49,7 @@
     ],
     "suttaRefs": [
       "mn10/de/sabbamitta",
+      "snp1.8/de/sabbamitta",
       "kp9/de/sabbamitta",
       "an3.121/de/sabbamitta"
     ],
@@ -110,6 +114,38 @@
         "segsMatched": 1,
         "langSegs": {
           "pli": 44,
+          "de": 42,
+          "en": 42
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga1/snp1.8_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/snp/vagga1/snp1.8_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/snp/vagga1/snp1.8_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp1.8",
+        "lang": "de",
+        "segMap": {
+          "snp1.8:10.3": {
+            "scid": "snp1.8:10.3",
+            "pli": "Kāmesu vinaya gedhaṁ,",
+            "de": "<span class=\"ebt-matched\">wenn sinnliches Verlangen</span> beseitigt ist, ",
+            "en": "with sensual desire dispelled,",
+            "matched": true
+          }
+        },
+        "score": 1.023,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lehrreden-Sammelband\nDie Lehrrede von der Liebe",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 43,
           "de": 42,
           "en": 42
         }

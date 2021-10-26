@@ -32,7 +32,7 @@
     "pattern": "glaube an eine persönlichkeit",
     "method": "phrase",
     "resultPattern": "\\bglaube an eine persönlichkeit",
-    "segsMatched": 16,
+    "segsMatched": 17,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn44_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn44_translation-de-sabbamitta.json",
@@ -46,6 +46,9 @@
       "root/pli/ms/sutta/kn/thig/thig6.7_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thig/thig6.7_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thig/thig6.7_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga2/snp2.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/snp/vagga2/snp2.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/snp/vagga2/snp2.1_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/kp/kp6_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/kp/kp6_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/kp/kp6_translation-en-sujato.json",
@@ -73,6 +76,7 @@
       "dn33/de/sabbamitta",
       "an6.89/de/sabbamitta",
       "thig6.7/de/sabbamitta",
+      "snp2.1/de/sabbamitta",
       "kp6/de/sabbamitta",
       "an9.67/de/sabbamitta",
       "an7.85/de/sabbamitta",
@@ -462,6 +466,38 @@
         "maxWord": 30,
         "minWord": 5,
         "title": "Grundlegende Ausschnitte\nJuwelen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 92,
+          "de": 91,
+          "en": 91
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga2/snp2.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/snp/vagga2/snp2.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/snp/vagga2/snp2.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp2.1",
+        "lang": "de",
+        "segMap": {
+          "snp2.1:10.3": {
+            "scid": "snp2.1:10.3",
+            "pli": "Sakkāyadiṭṭhī vicikicchitañca,",
+            "de": "<span class=\"ebt-matched\">Glaube an eine Persönlichkeit</span>, Zweifel ",
+            "en": "identity view, doubt, and any",
+            "matched": true
+          }
+        },
+        "score": 1.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lehrreden-Sammelband\nJuwelen",
         "segsMatched": 1,
         "langSegs": {
           "pli": 92,
