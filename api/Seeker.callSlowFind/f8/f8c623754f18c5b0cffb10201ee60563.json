@@ -32,7 +32,7 @@
     "pattern": "haare.* zu berge",
     "method": "phrase",
     "resultPattern": "\\bhaare.* zu berge",
-    "segsMatched": 18,
+    "segsMatched": 19,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn5/sn5.9_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn5/sn5.9_translation-de-sabbamitta.json",
@@ -55,6 +55,9 @@
       "root/pli/ms/sutta/sn/sn5/sn5.10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn5/sn5.10_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn5/sn5.10_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn6/sn6.15_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn6/sn6.15_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn6/sn6.15_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn10/sn10.8_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn10/sn10.8_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn10/sn10.8_translation-en-sujato.json",
@@ -76,6 +79,7 @@
       "sn5.2/de/sabbamitta",
       "sn5.1/de/sabbamitta",
       "sn5.10/de/sabbamitta",
+      "sn6.15/de/sabbamitta",
       "sn10.8/de/sabbamitta",
       "dn24/de/sabbamitta",
       "dn21/de/sabbamitta",
@@ -353,6 +357,38 @@
           "pli": 38,
           "de": 31,
           "en": 37
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn6/sn6.15_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn6/sn6.15_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn6/sn6.15_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn6.15",
+        "lang": "de",
+        "segMap": {
+          "sn6.15:8.2": {
+            "scid": "sn6.15:8.2",
+            "pli": "tadāsi lomahaṁsanaṁ; ",
+            "de": "Dann standen da die <span class=\"ebt-matched\">Haare zu Berge</span>! – ",
+            "en": "Then they had goosebumps! ",
+            "matched": true
+          }
+        },
+        "score": 1.023,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 6\nZweites Kapitel\n15. Endgültiges Erlöschen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 43,
+          "de": 37,
+          "en": 42
         }
       },
       {

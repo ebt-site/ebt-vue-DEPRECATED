@@ -32,8 +32,11 @@
     "pattern": "knochensack",
     "method": "phrase",
     "resultPattern": "\\bknochensack",
-    "segsMatched": 6,
+    "segsMatched": 7,
     "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn6/sn6.15_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn6/sn6.15_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn6/sn6.15_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thig/thig6.6_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thig/thig6.6_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thig/thig6.6_translation-en-sujato.json",
@@ -54,6 +57,7 @@
       "translation/en/sujato/sutta/kn/thig/thig13.1_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "sn6.15/de/sabbamitta",
       "thig6.6/de/sabbamitta",
       "thig5.8/de/sabbamitta",
       "thig5.4/de/sabbamitta",
@@ -220,6 +224,38 @@
           "pli": 28,
           "de": 27,
           "en": 27
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn6/sn6.15_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn6/sn6.15_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn6/sn6.15_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn6.15",
+        "lang": "de",
+        "segMap": {
+          "sn6.15:4.2": {
+            "scid": "sn6.15:4.2",
+            "pli": "bhūtā loke samussayaṁ; ",
+            "de": "müssen diesen <span class=\"ebt-matched\">Knochensack</span> ablegen. ",
+            "en": "must lay down this bag of bones. ",
+            "matched": true
+          }
+        },
+        "score": 1.023,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 6\nZweites Kapitel\n15. Endgültiges Erlöschen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 43,
+          "de": 37,
+          "en": 42
         }
       },
       {

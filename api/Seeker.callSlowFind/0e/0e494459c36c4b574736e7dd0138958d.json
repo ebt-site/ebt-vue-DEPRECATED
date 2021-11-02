@@ -32,11 +32,14 @@
     "pattern": "erster anfang",
     "method": "phrase",
     "resultPattern": "\\berster anfang",
-    "segsMatched": 4,
+    "segsMatched": 5,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn15/sn15.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn15/sn15.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn15/sn15.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn15/sn15.20_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn15/sn15.20_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn15/sn15.20_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.62_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.62_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an10/an10.62_translation-en-sujato.json",
@@ -46,6 +49,7 @@
     ],
     "suttaRefs": [
       "sn15.1/de/sabbamitta",
+      "sn15.20/de/sabbamitta",
       "an10.62/de/sabbamitta",
       "an10.61/de/sabbamitta"
     ],
@@ -151,6 +155,38 @@
           "pli": 72,
           "de": 71,
           "en": 71
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn15/sn15.20_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn15/sn15.20_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn15/sn15.20_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn15.20",
+        "lang": "de",
+        "segMap": {
+          "sn15.20:2.2": {
+            "scid": "sn15.20:2.2",
+            "pli": "Pubbā koṭi na paññāyati avijjānīvaraṇānaṁ sattānaṁ taṇhāsaṁyojanānaṁ sandhāvataṁ saṁsarataṁ. ",
+            "de": "Ein <span class=\"ebt-matched\">erster Anfang</span> für das Umherstreifen und Umherwandern der Lebewesen, die von Unwissenheit behindert und von Verlangen gefesselt sind, ist nicht zu finden. ",
+            "en": "No first point is found of sentient beings roaming and transmigrating, hindered by ignorance and fettered by craving. ",
+            "matched": true
+          }
+        },
+        "score": 1.014,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 15\nZweites Kapitel\n20. Der Berg Vepulla",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 70,
+          "de": 60,
+          "en": 69
         }
       }
     ]

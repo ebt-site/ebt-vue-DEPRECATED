@@ -32,11 +32,17 @@
     "pattern": "bedingungen sind unbeständig",
     "method": "phrase",
     "resultPattern": "\\bbedingungen sind unbeständig",
-    "segsMatched": 5,
+    "segsMatched": 7,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an3/an3.136_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.136_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.136_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn6/sn6.15_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn6/sn6.15_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn6/sn6.15_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn15/sn15.20_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn15/sn15.20_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn15/sn15.20_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag15.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag15.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag15.1_translation-en-sujato.json",
@@ -49,6 +55,8 @@
     ],
     "suttaRefs": [
       "an3.136/de/sabbamitta",
+      "sn6.15/de/sabbamitta",
+      "sn15.20/de/sabbamitta",
       "thag15.1/de/sabbamitta",
       "dn17/de/sabbamitta",
       "an7.66/de/sabbamitta"
@@ -91,6 +99,70 @@
           "pli": 19,
           "de": 18,
           "en": 18
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn6/sn6.15_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn6/sn6.15_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn6/sn6.15_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn6.15",
+        "lang": "de",
+        "segMap": {
+          "sn6.15:6.1": {
+            "scid": "sn6.15:6.1",
+            "pli": "“Aniccā vata saṅkhārā, ",
+            "de": "„Ach! <span class=\"ebt-matched\">Bedingungen sind unbeständig</span>, ",
+            "en": "“Oh! Conditions are impermanent, ",
+            "matched": true
+          }
+        },
+        "score": 1.023,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 6\nZweites Kapitel\n15. Endgültiges Erlöschen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 43,
+          "de": 37,
+          "en": 42
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn15/sn15.20_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn15/sn15.20_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn15/sn15.20_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn15.20",
+        "lang": "de",
+        "segMap": {
+          "sn15.20:8.1": {
+            "scid": "sn15.20:8.1",
+            "pli": "Aniccā vata saṅkhārā, ",
+            "de": "Ach! <span class=\"ebt-matched\">Bedingungen sind unbeständig</span>, ",
+            "en": "Oh! Conditions are impermanent, ",
+            "matched": true
+          }
+        },
+        "score": 1.014,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 15\nZweites Kapitel\n20. Der Berg Vepulla",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 70,
+          "de": 60,
+          "en": 69
         }
       },
       {
