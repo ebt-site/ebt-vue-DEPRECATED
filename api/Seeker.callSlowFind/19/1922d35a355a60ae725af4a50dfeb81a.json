@@ -32,7 +32,7 @@
     "pattern": "verwirklicht werden",
     "method": "phrase",
     "resultPattern": "\\bverwirklicht werden",
-    "segsMatched": 34,
+    "segsMatched": 35,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
@@ -49,6 +49,9 @@
       "root/pli/ms/sutta/sn/sn56/sn56.11_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn56/sn56.11_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn56/sn56.11_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag20.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag20.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag20.1_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.22_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.22_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an10/an10.22_translation-en-sujato.json"
@@ -59,6 +62,7 @@
       "dn33/de/sabbamitta",
       "an4.254/de/sabbamitta",
       "sn56.11/de/sabbamitta",
+      "thag20.1/de/sabbamitta",
       "an10.22/de/sabbamitta"
     ],
     "mlDocs": [
@@ -448,6 +452,38 @@
           "pli": 60,
           "de": 59,
           "en": 59
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag20.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag20.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag20.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag20.1",
+        "lang": "de",
+        "segMap": {
+          "thag20.1:26.3": {
+            "scid": "thag20.1:26.3",
+            "pli": "Nibbānamadhigantabbaṁ,",
+            "de": "kann das Erlöschen <span class=\"ebt-matched\">verwirklicht werden</span>, ",
+            "en": "is extinguishment realized,",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche\nDas Sechzigerbuch\nErstes Kapitel\nMahāmoggallāna",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 299,
+          "de": 294,
+          "en": 293
         }
       }
     ]

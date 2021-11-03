@@ -32,8 +32,11 @@
     "pattern": "kopf in flammen",
     "method": "phrase",
     "resultPattern": "\\bkopf in flammen",
-    "segsMatched": 11,
+    "segsMatched": 13,
     "bilaraPaths": [
+      "root/pli/ms/sutta/kn/thag/thag20.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag20.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag20.1_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.74_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.74_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an8/an8.74_translation-en-sujato.json",
@@ -60,6 +63,7 @@
       "translation/en/sujato/sutta/an/an10/an10.51_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "thag20.1/de/sabbamitta",
       "an8.74/de/sabbamitta",
       "an6.20/de/sabbamitta",
       "an10.55/de/sabbamitta",
@@ -185,6 +189,45 @@
           "pli": 43,
           "de": 36,
           "en": 41
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag20.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag20.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag20.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag20.1",
+        "lang": "de",
+        "segMap": {
+          "thag20.1:23.2": {
+            "scid": "thag20.1:23.2",
+            "pli": "ḍayhamānova matthake;",
+            "de": "wie wenn sein <span class=\"ebt-matched\">Kopf in Flammen</span> stünde, ",
+            "en": "like their head was on fire,",
+            "matched": true
+          },
+          "thag20.1:24.2": {
+            "scid": "thag20.1:24.2",
+            "pli": "ḍayhamānova matthake;",
+            "de": "wie wenn sein <span class=\"ebt-matched\">Kopf in Flammen</span> stünde, ",
+            "en": "like their head was on fire,",
+            "matched": true
+          }
+        },
+        "score": 2.007,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche\nDas Sechzigerbuch\nErstes Kapitel\nMahāmoggallāna",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 299,
+          "de": 294,
+          "en": 293
         }
       },
       {

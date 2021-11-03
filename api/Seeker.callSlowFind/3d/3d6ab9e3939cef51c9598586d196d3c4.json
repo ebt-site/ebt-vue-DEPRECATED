@@ -32,14 +32,18 @@
     "pattern": "nymphen",
     "method": "phrase",
     "resultPattern": "\\bnymphen",
-    "segsMatched": 13,
+    "segsMatched": 14,
     "bilaraPaths": [
       "root/pli/ms/sutta/kn/ud/vagga3/ud3.2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga3/ud3.2_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/kn/ud/vagga3/ud3.2_translation-en-sujato.json"
+      "translation/en/sujato/sutta/kn/ud/vagga3/ud3.2_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag20.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag20.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag20.1_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "ud3.2/de/sabbamitta"
+      "ud3.2/de/sabbamitta",
+      "thag20.1/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -156,6 +160,38 @@
           "pli": 62,
           "de": 58,
           "en": 58
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag20.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag20.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag20.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag20.1",
+        "lang": "de",
+        "segMap": {
+          "thag20.1:51.5": {
+            "scid": "thag20.1:51.5",
+            "pli": "Accharā tattha naccanti,",
+            "de": "Dort tanzen <span class=\"ebt-matched\">Nymphen</span>, ",
+            "en": "Dancing there are nymphs",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche\nDas Sechzigerbuch\nErstes Kapitel\nMahāmoggallāna",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 299,
+          "de": 294,
+          "en": 293
         }
       }
     ]
