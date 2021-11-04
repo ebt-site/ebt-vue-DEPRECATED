@@ -239,7 +239,7 @@
     "gibt in dem Gedanken",
     "gibt und bedenkt",
     "Giftschlange",
-    "Glaube an eine Persönlichkeit",
+    "Glaube.* an eine Persönlichkeit",
     "Glück, das ohne Tadel ist",
     "Goldschmied",
     "grausam",

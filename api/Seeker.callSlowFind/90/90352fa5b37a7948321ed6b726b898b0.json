@@ -3,7 +3,7 @@
   "volume": "Seeker.callSlowFind",
   "args": [
     {
-      "pattern": "glaube an eine persönlichkeit",
+      "pattern": "glaube.* an eine persönlichkeit",
       "showMatchesOnly": true,
       "languages": [
         "pli",
@@ -29,11 +29,14 @@
     "minLang": 3,
     "maxDoc": 50,
     "maxResults": 1000,
-    "pattern": "glaube an eine persönlichkeit",
+    "pattern": "glaube.* an eine persönlichkeit",
     "method": "phrase",
-    "resultPattern": "\\bglaube an eine persönlichkeit",
-    "segsMatched": 17,
+    "resultPattern": "\\bglaube.* an eine persönlichkeit",
+    "segsMatched": 27,
     "bilaraPaths": [
+      "root/pli/ms/sutta/an/an10/an10.76_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.76_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.76_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn44_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn44_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn44_translation-en-sujato.json",
@@ -43,6 +46,9 @@
       "root/pli/ms/sutta/an/an6/an6.89_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.89_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an6/an6.89_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn2_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn2_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn2_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thig/thig6.7_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thig/thig6.7_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thig/thig6.7_translation-en-sujato.json",
@@ -55,6 +61,9 @@
       "root/pli/ms/sutta/an/an9/an9.67_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an9/an9.67_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an9/an9.67_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an7/an7.92_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an7/an7.92_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an7/an7.92_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an7/an7.85_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an7/an7.85_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an7/an7.85_translation-en-sujato.json",
@@ -72,13 +81,16 @@
       "translation/en/sujato/sutta/an/an10/an10.13_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "an10.76/de/sabbamitta",
       "mn44/de/sabbamitta",
       "dn33/de/sabbamitta",
       "an6.89/de/sabbamitta",
+      "mn2/de/sabbamitta",
       "thig6.7/de/sabbamitta",
       "snp2.1/de/sabbamitta",
       "kp6/de/sabbamitta",
       "an9.67/de/sabbamitta",
+      "an7.92/de/sabbamitta",
       "an7.85/de/sabbamitta",
       "an6.91/de/sabbamitta",
       "an6.90/de/sabbamitta",
@@ -86,6 +98,87 @@
       "an10.13/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.76_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.76_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.76_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.76",
+        "lang": "de",
+        "segMap": {
+          "an10.76:3.3": {
+            "scid": "an10.76:3.3",
+            "pli": "Sakkāyadiṭṭhiṁ appahāya, vicikicchaṁ appahāya, sīlabbataparāmāsaṁ appahāya—",
+            "de": "Den <span class=\"ebt-matched\">Glauben an eine Persönlichkeit</span>, Zweifel und falsches Verständnis von Regeln und Gelübden. ",
+            "en": "Identity view, doubt, and misapprehension of precepts and observances. ",
+            "matched": true
+          },
+          "an10.76:4.1": {
+            "scid": "an10.76:4.1",
+            "pli": "Tayome, bhikkhave, dhamme appahāya abhabbo sakkāyadiṭṭhiṁ pahātuṁ vicikicchaṁ pahātuṁ sīlabbataparāmāsaṁ pahātuṁ. ",
+            "de": "Ohne drei Dinge aufzugeben, kann man den <span class=\"ebt-matched\">Glauben an eine Persönlichkeit</span>, Zweifel und falsches Verständnis von Regeln und Gelübden nicht aufgeben. ",
+            "en": "Without giving up three things you can’t give up identity view, doubt, and misapprehension of precepts and observances. ",
+            "matched": true
+          },
+          "an10.76:4.4": {
+            "scid": "an10.76:4.4",
+            "pli": "ime kho, bhikkhave, tayo dhamme appahāya abhabbo sakkāyadiṭṭhiṁ pahātuṁ vicikicchaṁ pahātuṁ sīlabbataparāmāsaṁ pahātuṁ. ",
+            "de": "Ohne diese drei Dinge aufzugeben, kann man den <span class=\"ebt-matched\">Glauben an eine Persönlichkeit</span>, Zweifel und falsches Verständnis von Regeln und Gelübden nicht aufgeben. ",
+            "en": "Without giving up these three things you can’t give up identity view, doubt, and misapprehension of precepts and observances. ",
+            "matched": true
+          },
+          "an10.76:11.8": {
+            "scid": "an10.76:11.8",
+            "pli": "So līnacitto samāno abhabbo sakkāyadiṭṭhiṁ pahātuṁ vicikicchaṁ pahātuṁ sīlabbataparāmāsaṁ pahātuṁ. ",
+            "de": "Wenn der Geist träge ist, kann man den <span class=\"ebt-matched\">Glauben an eine Persönlichkeit</span>, Zweifel und falsches Verständnis von Regeln und Gelübden nicht aufgeben. ",
+            "en": "When your mind is sluggish you can’t give up identity view, doubt, and misapprehension of precepts and observances. ",
+            "matched": true
+          },
+          "an10.76:13.3": {
+            "scid": "an10.76:13.3",
+            "pli": "Sakkāyadiṭṭhiṁ pahāya, vicikicchaṁ pahāya, sīlabbataparāmāsaṁ pahāya—",
+            "de": "Den <span class=\"ebt-matched\">Glauben an eine Persönlichkeit</span>, Zweifel und falsches Verständnis von Regeln und Gelübden. ",
+            "en": "Identity view, doubt, and misapprehension of precepts and observances. ",
+            "matched": true
+          },
+          "an10.76:14.1": {
+            "scid": "an10.76:14.1",
+            "pli": "Tayome, bhikkhave, dhamme pahāya bhabbo sakkāyadiṭṭhiṁ pahātuṁ vicikicchaṁ pahātuṁ sīlabbataparāmāsaṁ pahātuṁ. ",
+            "de": "Wenn man drei Dinge aufgibt, kann man den <span class=\"ebt-matched\">Glauben an eine Persönlichkeit</span>, Zweifel und falsches Verständnis von Regeln und Gelübden aufgeben. ",
+            "en": "After giving up three things you can give up identity view, doubt, and misapprehension of precepts and observances. ",
+            "matched": true
+          },
+          "an10.76:14.4": {
+            "scid": "an10.76:14.4",
+            "pli": "ime kho, bhikkhave, tayo dhamme pahāya bhabbo sakkāyadiṭṭhiṁ pahātuṁ vicikicchaṁ pahātuṁ sīlabbataparāmāsaṁ pahātuṁ. ",
+            "de": "Wenn man diese drei Dinge aufgibt, kann man den <span class=\"ebt-matched\">Glauben an eine Persönlichkeit</span>, Zweifel und falsches Verständnis von Regeln und Gelübden aufgeben. ",
+            "en": "After giving up these three things you can give up identity view, doubt, and misapprehension of precepts and observances. ",
+            "matched": true
+          },
+          "an10.76:21.8": {
+            "scid": "an10.76:21.8",
+            "pli": "So alīnacitto samāno bhabbo sakkāyadiṭṭhiṁ pahātuṁ vicikicchaṁ pahātuṁ sīlabbataparāmāsaṁ pahātuṁ. ",
+            "de": "Wenn der Geist nicht träge ist, kann man den <span class=\"ebt-matched\">Glauben an eine Persönlichkeit</span>, Zweifel und falsches Verständnis von Regeln und Gelübden aufgeben. ",
+            "en": "When your mind isn’t sluggish you can give up identity view, doubt, and misapprehension of precepts and observances. ",
+            "matched": true
+          }
+        },
+        "score": 8.079,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10\n8. Wenn man wünscht\n76. Drei Dinge",
+        "segsMatched": 8,
+        "langSegs": {
+          "pli": 101,
+          "de": 100,
+          "en": 100
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/mn/mn44_root-pli-ms.json",
@@ -315,6 +408,38 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/an/an7/an7.92_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an7/an7.92_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an7/an7.92_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an7.92",
+        "lang": "de",
+        "segMap": {
+          "an7.92:1.3": {
+            "scid": "an7.92:1.3",
+            "pli": "Sakkāyadiṭṭhi ārakā hoti, vicikicchā ārakā hoti, sīlabbataparāmāso ārako hoti, rāgo ārako hoti, doso ārako hoti, moho ārako hoti, māno ārako hoti. ",
+            "de": "Vom <span class=\"ebt-matched\">Glauben an eine Persönlichkeit</span>, Zweifel, falschem Verständnis von Regeln und Gelübden, Gier, Hass, Täuschung und Einbildung. ",
+            "en": "Identity view, doubt, misapprehension of precepts and observances, greed, hate, delusion, and conceit. ",
+            "matched": true
+          }
+        },
+        "score": 1.125,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 7\n9. Asketen\n92. Eine Vollendete",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 8,
+          "de": 7,
+          "en": 7
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an9/an9.67_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/an/an9/an9.67_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/an/an9/an9.67_translation-en-sujato.json"
@@ -503,6 +628,38 @@
           "pli": 92,
           "de": 91,
           "en": 91
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn2_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn2_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn2_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn2",
+        "lang": "de",
+        "segMap": {
+          "mn2:11.3": {
+            "scid": "mn2:11.3",
+            "pli": "sakkāyadiṭṭhi, vicikicchā, sīlabbataparāmāso. ",
+            "de": "<span class=\"ebt-matched\">Glauben an eine Persönlichkeit</span>, Zweifel und falsches Verständnis von Regeln und Gelübden. ",
+            "en": "identity view, doubt, and misapprehension of precepts and observances. ",
+            "matched": true
+          }
+        },
+        "score": 1.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 2\nAlle Befleckungen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 125,
+          "de": 124,
+          "en": 124
         }
       }
     ]
