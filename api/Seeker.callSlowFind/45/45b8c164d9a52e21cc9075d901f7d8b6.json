@@ -32,7 +32,7 @@
     "pattern": "grausam",
     "method": "phrase",
     "resultPattern": "\\bgrausam",
-    "segsMatched": 56,
+    "segsMatched": 58,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
@@ -76,6 +76,9 @@
       "root/pli/ms/sutta/an/an3/an3.124_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.124_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.124_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.77_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.77_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.77_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn7_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn7_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn7_translation-en-sujato.json",
@@ -152,6 +155,7 @@
       "an5.216/de/sabbamitta",
       "an4.138/de/sabbamitta",
       "an3.124/de/sabbamitta",
+      "an10.77/de/sabbamitta",
       "mn7/de/sabbamitta",
       "mn2/de/sabbamitta",
       "dn34/de/sabbamitta",
@@ -535,6 +539,45 @@
         "maxWord": 30,
         "minWord": 5,
         "title": "Nummerierte Lehrreden 6\n11. Dreiergruppen\n113. Widerwille",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 12,
+          "de": 11,
+          "en": 11
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.77_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.77_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.77_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.77",
+        "lang": "de",
+        "segMap": {
+          "an10.77:1.3": {
+            "scid": "an10.77:1.3",
+            "pli": "Dhaṁsī ca, pagabbho ca, tintiṇo ca, mahagghaso ca, luddo ca, akāruṇiko ca, dubbalo ca, oravitā ca, muṭṭhassati ca, necayiko ca—",
+            "de": "Sie ist ruppig und roh, gefräßig und unersättlich, <span class=\"ebt-matched\">grausam</span> und erbarmungslos, schwach und lärmend, unachtsam und gewinnsüchtig. ",
+            "en": "They’re rude and impudent, gluttonous and voracious, cruel and pitiless, weak and raucous, unmindful and acquisitive. ",
+            "matched": true
+          },
+          "an10.77:1.7": {
+            "scid": "an10.77:1.7",
+            "pli": "Dhaṁsī ca, pagabbho ca, tintiṇo ca, mahagghaso ca, luddo ca, akāruṇiko ca, dubbalo ca, oravitā ca, muṭṭhassati ca, necayiko ca—",
+            "de": "Sie ist ruppig und roh, gefräßig und unersättlich, <span class=\"ebt-matched\">grausam</span> und erbarmungslos, schwach und lärmend, unachtsam und gewinnsüchtig. ",
+            "en": "They’re rude and impudent, gluttonous and voracious, cruel and pitiless, weak and raucous, unmindful and acquisitive. ",
+            "matched": true
+          }
+        },
+        "score": 2.167,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10\n8. Wenn man wünscht\n77. Eine Krähe",
         "segsMatched": 2,
         "langSegs": {
           "pli": 12,

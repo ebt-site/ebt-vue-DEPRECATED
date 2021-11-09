@@ -32,7 +32,7 @@
     "pattern": "wilde[sn] fohlen",
     "method": "phrase",
     "resultPattern": "\\bwilde[sn] fohlen",
-    "segsMatched": 39,
+    "segsMatched": 40,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an8/an8.14_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.14_translation-de-sabbamitta.json",
@@ -42,12 +42,16 @@
       "translation/en/sujato/sutta/an/an9/an9.22_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.140_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.140_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an3/an3.140_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an3/an3.140_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.87_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.87_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.87_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an8.14/de/sabbamitta",
       "an9.22/de/sabbamitta",
-      "an3.140/de/sabbamitta"
+      "an3.140/de/sabbamitta",
+      "an10.87/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -396,6 +400,38 @@
           "pli": 74,
           "de": 73,
           "en": 73
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.87_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.87_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.87_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.87",
+        "lang": "de",
+        "segMap": {
+          "an10.87:13.1": {
+            "scid": "an10.87:13.1",
+            "pli": "Seyyathāpi, bhikkhave, assakhaḷuṅkassa kiñcāpi evaṁ icchā uppajjeyya: ",
+            "de": "Wie wenn ein <span class=\"ebt-matched\">wildes Fohlen</span> wünschen würde: ",
+            "en": "Suppose a wild colt was to wish: ",
+            "matched": true
+          }
+        },
+        "score": 1.014,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10\n9. Ordensälteste\n87. Disziplinarische Angelegenheiten",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 72,
+          "de": 55,
+          "en": 71
         }
       }
     ]
