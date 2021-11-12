@@ -1,0 +1,115 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "drängt, zu lehren",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "drängt, zu lehren",
+    "method": "phrase",
+    "resultPattern": "\\bdrängt, zu lehren",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an8/an8.82_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an8/an8.82_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an8/an8.82_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.83_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.83_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.83_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an8.82/de/sabbamitta",
+      "an10.83/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.83_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.83_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.83_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.83",
+        "lang": "de",
+        "segMap": {
+          "an10.83:1.2": {
+            "scid": "an10.83:1.2",
+            "pli": "“ko nu kho, bhante, hetu ko paccayo yena appekadā tathāgataṁ dhammadesanā paṭibhāti appekadā nappaṭibhātī”ti? ",
+            "de": "„Was ist die Ursache, Herr, was ist der Grund dafür, dass es den Klargewordenen manchmal <span class=\"ebt-matched\">drängt, zu lehren</span>, und manchmal nicht?“ ",
+            "en": "“Sir, what is the cause, what is the reason why sometimes the Realized One feels inspired to teach, and other times not?” ",
+            "matched": true
+          }
+        },
+        "score": 1.053,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10\n9. Ordensälteste\n83. Mit Puṇṇiya",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 19,
+          "de": 18,
+          "en": 18
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.82_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an8/an8.82_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an8/an8.82_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an8.82",
+        "lang": "de",
+        "segMap": {
+          "an8.82:1.2": {
+            "scid": "an8.82:1.2",
+            "pli": "“ko nu kho, bhante, hetu ko paccayo yena appekadā tathāgataṁ dhammadesanā paṭibhāti, appekadā na paṭibhātī”ti? ",
+            "de": "„Was ist die Ursache, Herr, was ist der Grund dafür, dass es den Klargewordenen manchmal <span class=\"ebt-matched\">drängt, zu lehren</span>, und manchmal nicht?“ ",
+            "en": "“Sir, what is the cause, what is the reason why sometimes the Realized One feels inspired to teach, and other times not?” ",
+            "matched": true
+          }
+        },
+        "score": 1.05,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 8\n9. Achtsamkeit\n82. Mit Puṇṇiya",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 20,
+          "de": 19,
+          "en": 19
+        }
+      }
+    ]
+  }
+}
