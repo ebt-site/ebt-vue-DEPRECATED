@@ -32,7 +32,7 @@
     "pattern": "schädlichen irrglauben",
     "method": "phrase",
     "resultPattern": "\\bschädlichen irrglauben",
-    "segsMatched": 17,
+    "segsMatched": 18,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn23_translation-de-sabbamitta.json",
@@ -42,12 +42,16 @@
       "translation/en/sujato/sutta/dn/dn12_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn24_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn24_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn24_translation-en-sujato.json"
+      "translation/en/sujato/sutta/dn/dn24_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.95_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.95_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.95_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "dn23/de/sabbamitta",
       "dn12/de/sabbamitta",
-      "dn24/de/sabbamitta"
+      "dn24/de/sabbamitta",
+      "an10.95/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -242,6 +246,38 @@
           "pli": 581,
           "de": 500,
           "en": 580
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.95_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.95_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.95_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.95",
+        "lang": "de",
+        "segMap": {
+          "an10.95:9.2": {
+            "scid": "an10.95:9.2",
+            "pli": "“mā hevaṁ kho uttiyo paribbājako pāpakaṁ diṭṭhigataṁ paṭilabhi: ",
+            "de": "„Der Wanderer Uttiya soll nicht den <span class=\"ebt-matched\">schädlichen Irrglauben</span> entwickeln: ",
+            "en": "“The wanderer Uttiya must not get the harmful misconception: ",
+            "matched": true
+          }
+        },
+        "score": 1.018,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10\n10. Mit Upāli\n95. Mit Uttiya",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 57,
+          "de": 40,
+          "en": 56
         }
       }
     ]

@@ -32,7 +32,7 @@
     "pattern": "einen gierigen geist",
     "method": "phrase",
     "resultPattern": "\\beinen gierigen geist",
-    "segsMatched": 8,
+    "segsMatched": 9,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn10_translation-de-sabbamitta.json",
@@ -57,7 +57,10 @@
       "translation/en/sujato/sutta/an/an5/an5.23_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.101_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.101_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an3/an3.101_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an3/an3.101_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.97_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.97_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.97_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "mn10/de/sabbamitta",
@@ -67,7 +70,8 @@
       "an6.2/de/sabbamitta",
       "an5.28/de/sabbamitta",
       "an5.23/de/sabbamitta",
-      "an3.101/de/sabbamitta"
+      "an3.101/de/sabbamitta",
+      "an10.97/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -132,6 +136,38 @@
           "pli": 29,
           "de": 28,
           "en": 28
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.97_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.97_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.97_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.97",
+        "lang": "de",
+        "segMap": {
+          "an10.97:8.2": {
+            "scid": "an10.97:8.2",
+            "pli": "Sarāgaṁ vā cittaṁ ‘sarāgaṁ cittan’ti pajānāti;",
+            "de": "Sie erkennt <span class=\"ebt-matched\">einen gierigen Geist</span> als ‚gierigen Geist‘ ",
+            "en": "They understand mind with greed as ‘mind with greed’,",
+            "matched": true
+          }
+        },
+        "score": 1.03,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10\n10. Mit Upāli\n97. Einer den Göttern gewidmeten Gabe würdig",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 33,
+          "de": 32,
+          "en": 32
         }
       },
       {

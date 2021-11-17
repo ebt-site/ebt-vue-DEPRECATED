@@ -32,7 +32,7 @@
     "pattern": "sag.* die wahrheit",
     "method": "phrase",
     "resultPattern": "\\bsag.* die wahrheit",
-    "segsMatched": 6,
+    "segsMatched": 7,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an8/an8.41_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.41_translation-de-sabbamitta.json",
@@ -45,13 +45,17 @@
       "translation/en/sujato/sutta/dn/dn30_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.198_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.198_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an4/an4.198_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an4/an4.198_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.99_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.99_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.99_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an8.41/de/sabbamitta",
       "an3.70/de/sabbamitta",
       "dn30/de/sabbamitta",
-      "an4.198/de/sabbamitta"
+      "an4.198/de/sabbamitta",
+      "an10.99/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -162,6 +166,38 @@
           "pli": 111,
           "de": 110,
           "en": 110
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.99_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.99_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.99_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.99",
+        "lang": "de",
+        "segMap": {
+          "an10.99:14.1": {
+            "scid": "an10.99:14.1",
+            "pli": "Musāvādaṁ pahāya musāvādā paṭivirato hoti saccavādī saccasandho theto paccayiko avisaṁvādako lokassa. ",
+            "de": "Sie gibt das Lügen auf. Sie <span class=\"ebt-matched\">sagt die Wahrheit und hält sich an die Wahrheit</span>. Sie ist ehrlich und vertrauenswürdig und legt die Welt nicht mit ihren Worten herein. ",
+            "en": "They give up lying. They speak the truth and stick to the truth. They’re honest and trustworthy, and don’t trick the world with their words. ",
+            "matched": true
+          }
+        },
+        "score": 1.007,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10\n10. Mit Upāli\n99. Mit Upāli",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 148,
+          "de": 146,
+          "en": 147
         }
       },
       {

@@ -32,7 +32,7 @@
     "pattern": "höllenlärm",
     "method": "phrase",
     "resultPattern": "\\bhöllenlärm",
-    "segsMatched": 13,
+    "segsMatched": 15,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn25_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn25_translation-de-sabbamitta.json",
@@ -51,7 +51,13 @@
       "translation/en/sujato/sutta/an/an5/an5.30_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.72_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.72_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an10/an10.72_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an10/an10.72_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.94_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.94_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.94_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.93_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.93_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.93_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "dn25/de/sabbamitta",
@@ -59,7 +65,9 @@
       "an7.63/de/sabbamitta",
       "an6.42/de/sabbamitta",
       "an5.30/de/sabbamitta",
-      "an10.72/de/sabbamitta"
+      "an10.72/de/sabbamitta",
+      "an10.94/de/sabbamitta",
+      "an10.93/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -301,6 +309,70 @@
           "pli": 69,
           "de": 68,
           "en": 68
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.94_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.94_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.94_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.94",
+        "lang": "de",
+        "segMap": {
+          "an10.94:2.2": {
+            "scid": "an10.94:2.2",
+            "pli": "Tena kho pana samayena te aññatitthiyā paribbājakā saṅgamma samāgamma unnādino uccāsaddamahāsaddā anekavihitaṁ tiracchānakathaṁ kathentā nisinnā honti. ",
+            "de": "Zu dieser Zeit waren die Wanderer, die andere Wege gehen, zusammengekommen, und sie machten einen Tumult, einen <span class=\"ebt-matched\">Höllenlärm</span>, wie sie da beisammensaßen und sich alberne Gespräche aller Art hielten. ",
+            "en": "Now at that time, the wanderers who follow other paths had come together, making an uproar, a dreadful racket as they sat and talked about all kinds of unworthy topics. ",
+            "matched": true
+          }
+        },
+        "score": 1.016,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10\n10. Mit Upāli\n94. Mit Vajjiyamāhita",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 63,
+          "de": 62,
+          "en": 62
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.93_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.93_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.93_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.93",
+        "lang": "de",
+        "segMap": {
+          "an10.93:2.2": {
+            "scid": "an10.93:2.2",
+            "pli": "Tena kho pana samayena aññatitthiyā paribbājakā saṅgamma samāgamma unnādino uccāsaddamahāsaddā anekavihitaṁ tiracchānakathaṁ kathentā nisinnā honti. ",
+            "de": "Zu dieser Zeit waren die Wanderer, die andere Wege gehen, zusammengekommen, und sie machten einen Tumult, einen <span class=\"ebt-matched\">Höllenlärm</span>, wie sie da beisammensaßen und sich alberne Gespräche aller Art hielten. ",
+            "en": "Now at that time, the wanderers who follow other paths had come together, making an uproar, a dreadful racket as they sat and talked about all kinds of unworthy topics. ",
+            "matched": true
+          }
+        },
+        "score": 1.01,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10\n10. Mit Upāli\n93. Welche Ansicht hast du?",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 103,
+          "de": 102,
+          "en": 102
         }
       }
     ]
