@@ -31,7 +31,7 @@
     "pattern": "one-eyed turtle",
     "method": "phrase",
     "resultPattern": "\\bone-eyed turtle",
-    "segsMatched": 9,
+    "segsMatched": 10,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn56/sn56.47_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn56/sn56.47_translation-en-sujato.json",
@@ -40,13 +40,18 @@
       "root/pli/ms/sutta/sn/sn56/sn56.48_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn56/sn56.48_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thig/thig16.1_root-pli-ms.json",
+      "translation/en/soma/sutta/kn/thig/thig16.1_translation-en-soma.json",
+      "translation/en/sujato/sutta/kn/thig/thig16.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thig/thig16.1_root-pli-ms.json",
+      "translation/en/soma/sutta/kn/thig/thig16.1_translation-en-soma.json",
       "translation/en/sujato/sutta/kn/thig/thig16.1_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "sn56.47/en/sujato",
       "mn129/en/sujato",
       "sn56.48/en/sujato",
-      "thig16.1/en/sujato"
+      "thig16.1/en/sujato",
+      "thig16.1/en/soma"
     ],
     "mlDocs": [
       {
@@ -169,9 +174,40 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/kn/thig/thig16.1_root-pli-ms.json",
+          "translation/en/soma/sutta/kn/thig/thig16.1_translation-en-soma.json",
           "translation/en/sujato/sutta/kn/thig/thig16.1_translation-en-sujato.json"
         ],
-        "author_uid": "sujato",
+        "author_uid": "soma, sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thig16.1",
+        "lang": "en",
+        "segMap": {
+          "thig16.1:53.1": {
+            "scid": "thig16.1:53.1",
+            "pli": "Sara kāṇakacchapaṁ pubba-",
+            "en": "Remember the <span class=\"ebt-matched\">one-eyed turtle</span> and the yoke with a hole",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verses of the Senior Nuns\nThe Great Book\nSumedhā",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 311,
+          "en": 306
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thig/thig16.1_root-pli-ms.json",
+          "translation/en/soma/sutta/kn/thig/thig16.1_translation-en-soma.json",
+          "translation/en/sujato/sutta/kn/thig/thig16.1_translation-en-sujato.json"
+        ],
+        "author_uid": "soma, sujato",
         "type": "translation",
         "category": "sutta",
         "sutta_uid": "thig16.1",

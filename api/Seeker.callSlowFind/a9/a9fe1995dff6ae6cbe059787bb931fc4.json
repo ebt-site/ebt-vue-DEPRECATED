@@ -31,19 +31,24 @@
     "pattern": "like a dog",
     "method": "phrase",
     "resultPattern": "\\blike a dog",
-    "segsMatched": 7,
+    "segsMatched": 8,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn57_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn57_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thig/thig16.1_root-pli-ms.json",
+      "translation/en/soma/sutta/kn/thig/thig16.1_translation-en-soma.json",
       "translation/en/sujato/sutta/kn/thig/thig16.1_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn24_root-pli-ms.json",
-      "translation/en/sujato/sutta/dn/dn24_translation-en-sujato.json"
+      "translation/en/sujato/sutta/dn/dn24_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thig/thig16.1_root-pli-ms.json",
+      "translation/en/soma/sutta/kn/thig/thig16.1_translation-en-soma.json",
+      "translation/en/sujato/sutta/kn/thig/thig16.1_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "mn57/en/sujato",
       "thig16.1/en/sujato",
-      "dn24/en/sujato"
+      "dn24/en/sujato",
+      "thig16.1/en/soma"
     ],
     "mlDocs": [
       {
@@ -102,9 +107,40 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/kn/thig/thig16.1_root-pli-ms.json",
+          "translation/en/soma/sutta/kn/thig/thig16.1_translation-en-soma.json",
           "translation/en/sujato/sutta/kn/thig/thig16.1_translation-en-sujato.json"
         ],
-        "author_uid": "sujato",
+        "author_uid": "soma, sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thig16.1",
+        "lang": "en",
+        "segMap": {
+          "thig16.1:62.2": {
+            "scid": "thig16.1:62.2",
+            "pli": "Tāva sunakhova saṅkhalābaddho;",
+            "en": "You’re <span class=\"ebt-matched\">like a dog</span> fixed to a chain:",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verses of the Senior Nuns\nThe Great Book\nSumedhā",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 311,
+          "en": 306
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thig/thig16.1_root-pli-ms.json",
+          "translation/en/soma/sutta/kn/thig/thig16.1_translation-en-soma.json",
+          "translation/en/sujato/sutta/kn/thig/thig16.1_translation-en-sujato.json"
+        ],
+        "author_uid": "soma, sujato",
         "type": "translation",
         "category": "sutta",
         "sutta_uid": "thig16.1",

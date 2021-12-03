@@ -31,7 +31,7 @@
     "pattern": "from the soles of the feet",
     "method": "phrase",
     "resultPattern": "\\bfrom the soles of the feet",
-    "segsMatched": 10,
+    "segsMatched": 11,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn119_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn119_translation-en-sujato.json",
@@ -42,6 +42,7 @@
       "root/pli/ms/sutta/mn/mn10_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn10_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thig/thig2.8_root-pli-ms.json",
+      "translation/en/soma/sutta/kn/thig/thig2.8_translation-en-soma.json",
       "translation/en/sujato/sutta/kn/thig/thig2.8_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn28_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn28_translation-en-sujato.json",
@@ -50,7 +51,10 @@
       "root/pli/ms/sutta/an/an6/an6.29_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an6/an6.29_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.60_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an10/an10.60_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an10/an10.60_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thig/thig2.8_root-pli-ms.json",
+      "translation/en/soma/sutta/kn/thig/thig2.8_translation-en-soma.json",
+      "translation/en/sujato/sutta/kn/thig/thig2.8_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "mn119/en/sujato",
@@ -61,7 +65,8 @@
       "dn28/en/sujato",
       "dn22/en/sujato",
       "an6.29/en/sujato",
-      "an10.60/en/sujato"
+      "an10.60/en/sujato",
+      "thig2.8/en/soma"
     ],
     "mlDocs": [
       {
@@ -102,9 +107,40 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/kn/thig/thig2.8_root-pli-ms.json",
+          "translation/en/soma/sutta/kn/thig/thig2.8_translation-en-soma.json",
           "translation/en/sujato/sutta/kn/thig/thig2.8_translation-en-sujato.json"
         ],
-        "author_uid": "sujato",
+        "author_uid": "soma, sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thig2.8",
+        "lang": "en",
+        "segMap": {
+          "thig2.8:1.2": {
+            "scid": "thig2.8:1.2",
+            "pli": "adho ve kesamatthakā;",
+            "en": "up <span class=\"ebt-matched\">from the soles of the feet</span>,",
+            "matched": true
+          }
+        },
+        "score": 1.083,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verses of the Senior Nuns\nThe Book of the Twos\nAbhaya’s Mother",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 12,
+          "en": 11
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thig/thig2.8_root-pli-ms.json",
+          "translation/en/soma/sutta/kn/thig/thig2.8_translation-en-soma.json",
+          "translation/en/sujato/sutta/kn/thig/thig2.8_translation-en-sujato.json"
+        ],
+        "author_uid": "soma, sujato",
         "type": "translation",
         "category": "sutta",
         "sutta_uid": "thig2.8",

@@ -31,7 +31,7 @@
     "pattern": "like a cow",
     "method": "phrase",
     "resultPattern": "\\blike a cow",
-    "segsMatched": 20,
+    "segsMatched": 21,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn57_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn57_translation-en-sujato.json",
@@ -50,6 +50,7 @@
       "root/pli/ms/sutta/kn/snp/vagga3/snp3.8_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/snp/vagga3/snp3.8_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/dhp/dhp1-20_root-pli-ms.json",
+      "translation/en/suddhaso/sutta/kn/dhp/dhp1-20_translation-en-suddhaso.json",
       "translation/en/sujato/sutta/kn/dhp/dhp1-20_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json",
@@ -58,7 +59,10 @@
       "root/pli/ms/sutta/an/an3/an3.82_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an3/an3.82_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.70_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an3/an3.70_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an3/an3.70_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/dhp/dhp1-20_root-pli-ms.json",
+      "translation/en/suddhaso/sutta/kn/dhp/dhp1-20_translation-en-suddhaso.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp1-20_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "mn57/en/sujato",
@@ -73,7 +77,8 @@
       "dn14/en/sujato",
       "an5.162/en/sujato",
       "an3.82/en/sujato",
-      "an3.70/en/sujato"
+      "an3.70/en/sujato",
+      "dhp1-20/en/suddhaso"
     ],
     "mlDocs": [
       {
@@ -353,9 +358,40 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/kn/dhp/dhp1-20_root-pli-ms.json",
+          "translation/en/suddhaso/sutta/kn/dhp/dhp1-20_translation-en-suddhaso.json",
           "translation/en/sujato/sutta/kn/dhp/dhp1-20_translation-en-sujato.json"
         ],
-        "author_uid": "sujato",
+        "author_uid": "suddhaso, sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dhp1-20",
+        "lang": "en",
+        "segMap": {
+          "dhp19:3": {
+            "scid": "dhp19:3",
+            "pli": "Gopova gāvo gaṇayaṁ paresaṁ,",
+            "en": "then, <span class=\"ebt-matched\">like a cow</span>herd who counts the cattle of others,",
+            "matched": true
+          }
+        },
+        "score": 1.009,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Minor Collection\nSayings of the Dhamma\nPairs\nCakkhupālattheravatthu",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 108,
+          "en": 93
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/dhp/dhp1-20_root-pli-ms.json",
+          "translation/en/suddhaso/sutta/kn/dhp/dhp1-20_translation-en-suddhaso.json",
+          "translation/en/sujato/sutta/kn/dhp/dhp1-20_translation-en-sujato.json"
+        ],
+        "author_uid": "suddhaso, sujato",
         "type": "translation",
         "category": "sutta",
         "sutta_uid": "dhp1-20",

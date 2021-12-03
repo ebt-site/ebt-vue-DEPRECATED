@@ -31,7 +31,7 @@
     "pattern": "goldsmith",
     "method": "phrase",
     "resultPattern": "\\bgoldsmith",
-    "segsMatched": 12,
+    "segsMatched": 13,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an3/an3.102_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an3/an3.102_translation-en-sujato.json",
@@ -42,13 +42,17 @@
       "root/pli/ms/sutta/mn/mn140_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn140_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thig/thig15.1_root-pli-ms.json",
+      "translation/en/soma/sutta/kn/thig/thig15.1_translation-en-soma.json",
       "translation/en/sujato/sutta/kn/thig/thig15.1_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn10_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn10_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.23_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an5/an5.23_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an5/an5.23_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thig/thig15.1_root-pli-ms.json",
+      "translation/en/soma/sutta/kn/thig/thig15.1_translation-en-soma.json",
+      "translation/en/sujato/sutta/kn/thig/thig15.1_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an3.102/en/sujato",
@@ -58,7 +62,8 @@
       "thig15.1/en/sujato",
       "dn2/en/sujato",
       "dn10/en/sujato",
-      "an5.23/en/sujato"
+      "an5.23/en/sujato",
+      "thig15.1/en/soma"
     ],
     "mlDocs": [
       {
@@ -175,9 +180,40 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/kn/thig/thig15.1_root-pli-ms.json",
+          "translation/en/soma/sutta/kn/thig/thig15.1_translation-en-soma.json",
           "translation/en/sujato/sutta/kn/thig/thig15.1_translation-en-sujato.json"
         ],
-        "author_uid": "sujato",
+        "author_uid": "soma, sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thig15.1",
+        "lang": "en",
+        "segMap": {
+          "thig15.1:36.2": {
+            "scid": "thig15.1:36.2",
+            "pli": "Suvaṇṇakāro ahaṁ pahūtadhano;",
+            "en": "I was a <span class=\"ebt-matched\">goldsmith</span> with lots of money.",
+            "matched": true
+          }
+        },
+        "score": 1.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verses of the Senior Nuns\nThe Book of the Forties\nIsidāsī",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 198,
+          "en": 196
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thig/thig15.1_root-pli-ms.json",
+          "translation/en/soma/sutta/kn/thig/thig15.1_translation-en-soma.json",
+          "translation/en/sujato/sutta/kn/thig/thig15.1_translation-en-sujato.json"
+        ],
+        "author_uid": "soma, sujato",
         "type": "translation",
         "category": "sutta",
         "sutta_uid": "thig15.1",

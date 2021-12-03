@@ -31,7 +31,7 @@
     "pattern": "cowherd",
     "method": "phrase",
     "resultPattern": "\\bcowherd",
-    "segsMatched": 50,
+    "segsMatched": 51,
     "bilaraPaths": [
       "root/pli/ms/sutta/kn/ud/vagga4/ud4.3_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/ud/vagga4/ud4.3_translation-en-sujato.json",
@@ -62,6 +62,10 @@
       "root/pli/ms/sutta/kn/dhp/dhp129-145_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/dhp/dhp129-145_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/dhp/dhp1-20_root-pli-ms.json",
+      "translation/en/suddhaso/sutta/kn/dhp/dhp1-20_translation-en-suddhaso.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp1-20_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/dhp/dhp1-20_root-pli-ms.json",
+      "translation/en/suddhaso/sutta/kn/dhp/dhp1-20_translation-en-suddhaso.json",
       "translation/en/sujato/sutta/kn/dhp/dhp1-20_translation-en-sujato.json"
     ],
     "suttaRefs": [
@@ -79,7 +83,8 @@
       "mn86/en/sujato",
       "mn12/en/sujato",
       "dhp129-145/en/sujato",
-      "dhp1-20/en/sujato"
+      "dhp1-20/en/sujato",
+      "dhp1-20/en/suddhaso"
     ],
     "mlDocs": [
       {
@@ -643,9 +648,40 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/kn/dhp/dhp1-20_root-pli-ms.json",
+          "translation/en/suddhaso/sutta/kn/dhp/dhp1-20_translation-en-suddhaso.json",
           "translation/en/sujato/sutta/kn/dhp/dhp1-20_translation-en-sujato.json"
         ],
-        "author_uid": "sujato",
+        "author_uid": "suddhaso, sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dhp1-20",
+        "lang": "en",
+        "segMap": {
+          "dhp19:3": {
+            "scid": "dhp19:3",
+            "pli": "Gopova gāvo gaṇayaṁ paresaṁ,",
+            "en": "then, like a <span class=\"ebt-matched\">cowherd</span> who counts the cattle of others,",
+            "matched": true
+          }
+        },
+        "score": 1.009,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Minor Collection\nSayings of the Dhamma\nPairs\nCakkhupālattheravatthu",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 108,
+          "en": 93
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/dhp/dhp1-20_root-pli-ms.json",
+          "translation/en/suddhaso/sutta/kn/dhp/dhp1-20_translation-en-suddhaso.json",
+          "translation/en/sujato/sutta/kn/dhp/dhp1-20_translation-en-sujato.json"
+        ],
+        "author_uid": "suddhaso, sujato",
         "type": "translation",
         "category": "sutta",
         "sutta_uid": "dhp1-20",

@@ -31,7 +31,7 @@
     "pattern": "all suffering",
     "method": "phrase",
     "resultPattern": "\\ball suffering",
-    "segsMatched": 49,
+    "segsMatched": 55,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn101_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn101_translation-en-sujato.json",
@@ -46,6 +46,7 @@
       "root/pli/ms/sutta/mn/mn14_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn14_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thig/thig13.4_root-pli-ms.json",
+      "translation/en/soma/sutta/kn/thig/thig13.4_translation-en-soma.json",
       "translation/en/sujato/sutta/kn/thig/thig13.4_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/snp/vagga3/snp3.12_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/snp/vagga3/snp3.12_translation-en-sujato.json",
@@ -53,6 +54,9 @@
       "translation/en/sujato/sutta/kn/iti/vagga11/iti103_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/dhp/dhp334-359_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/dhp/dhp334-359_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thig/thig13.4_root-pli-ms.json",
+      "translation/en/soma/sutta/kn/thig/thig13.4_translation-en-soma.json",
+      "translation/en/sujato/sutta/kn/thig/thig13.4_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn7/sn7.11_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn7/sn7.11_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn5/sn5.6_root-pli-ms.json",
@@ -68,12 +72,16 @@
       "root/pli/ms/sutta/mn/mn130_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn130_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thig/thig6.6_root-pli-ms.json",
+      "translation/en/soma/sutta/kn/thig/thig6.6_translation-en-soma.json",
       "translation/en/sujato/sutta/kn/thig/thig6.6_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thig/thig6.3_root-pli-ms.json",
+      "translation/en/soma/sutta/kn/thig/thig6.3_translation-en-soma.json",
       "translation/en/sujato/sutta/kn/thig/thig6.3_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thig/thig13.3_root-pli-ms.json",
+      "translation/en/soma/sutta/kn/thig/thig13.3_translation-en-soma.json",
       "translation/en/sujato/sutta/kn/thig/thig13.3_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thig/thig10.1_root-pli-ms.json",
+      "translation/en/soma/sutta/kn/thig/thig10.1_translation-en-soma.json",
       "translation/en/sujato/sutta/kn/thig/thig10.1_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag19.1_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thag/thag19.1_translation-en-sujato.json",
@@ -106,7 +114,19 @@
       "root/pli/ms/sutta/an/an3/an3.74_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an3/an3.74_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.36_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an3/an3.36_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an3/an3.36_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thig/thig6.6_root-pli-ms.json",
+      "translation/en/soma/sutta/kn/thig/thig6.6_translation-en-soma.json",
+      "translation/en/sujato/sutta/kn/thig/thig6.6_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thig/thig6.3_root-pli-ms.json",
+      "translation/en/soma/sutta/kn/thig/thig6.3_translation-en-soma.json",
+      "translation/en/sujato/sutta/kn/thig/thig6.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thig/thig13.3_root-pli-ms.json",
+      "translation/en/soma/sutta/kn/thig/thig13.3_translation-en-soma.json",
+      "translation/en/sujato/sutta/kn/thig/thig13.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thig/thig10.1_root-pli-ms.json",
+      "translation/en/soma/sutta/kn/thig/thig10.1_translation-en-soma.json",
+      "translation/en/sujato/sutta/kn/thig/thig10.1_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "mn101/en/sujato",
@@ -119,6 +139,7 @@
       "snp3.12/en/sujato",
       "iti103/en/sujato",
       "dhp334-359/en/sujato",
+      "thig13.4/en/soma",
       "sn7.11/en/sujato",
       "sn5.6/en/sujato",
       "sn2.21/en/sujato",
@@ -145,7 +166,11 @@
       "an5.35/en/sujato",
       "an4.49/en/sujato",
       "an3.74/en/sujato",
-      "an3.36/en/sujato"
+      "an3.36/en/sujato",
+      "thig6.6/en/soma",
+      "thig6.3/en/soma",
+      "thig13.3/en/soma",
+      "thig10.1/en/soma"
     ],
     "mlDocs": [
       {
@@ -373,9 +398,46 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/kn/thig/thig13.4_root-pli-ms.json",
+          "translation/en/soma/sutta/kn/thig/thig13.4_translation-en-soma.json",
           "translation/en/sujato/sutta/kn/thig/thig13.4_translation-en-sujato.json"
         ],
-        "author_uid": "sujato",
+        "author_uid": "soma, sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thig13.4",
+        "lang": "en",
+        "segMap": {
+          "thig13.4:6.4": {
+            "scid": "thig13.4:6.4",
+            "pli": "dhammaṁ desesi pāṇinaṁ.",
+            "en": "may abandon <span class=\"ebt-matched\">all suffering</span>.",
+            "matched": true
+          },
+          "thig13.4:8.4": {
+            "scid": "thig13.4:8.4",
+            "pli": "sabbadukkhā pamocaye”.",
+            "en": "from <span class=\"ebt-matched\">all suffering</span>.”",
+            "matched": true
+          }
+        },
+        "score": 2.017,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verses of the Senior Nuns\nThe Book of the Twenties\nSundarī",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 119,
+          "en": 118
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thig/thig13.4_root-pli-ms.json",
+          "translation/en/soma/sutta/kn/thig/thig13.4_translation-en-soma.json",
+          "translation/en/sujato/sutta/kn/thig/thig13.4_translation-en-sujato.json"
+        ],
+        "author_uid": "soma, sujato",
         "type": "translation",
         "category": "sutta",
         "sutta_uid": "thig13.4",
@@ -745,9 +807,40 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/kn/thig/thig6.3_root-pli-ms.json",
+          "translation/en/soma/sutta/kn/thig/thig6.3_translation-en-soma.json",
           "translation/en/sujato/sutta/kn/thig/thig6.3_translation-en-sujato.json"
         ],
-        "author_uid": "sujato",
+        "author_uid": "soma, sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thig6.3",
+        "lang": "en",
+        "segMap": {
+          "thig6.3:6.4": {
+            "scid": "thig6.3:6.4",
+            "pli": "satthusāsanakārikā”ti.",
+            "en": "I am released from <span class=\"ebt-matched\">all suffering</span>.”",
+            "matched": true
+          }
+        },
+        "score": 1.036,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verses of the Senior Nuns\nThe Book of the Sixes\nKhemā",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 28,
+          "en": 27
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thig/thig6.3_root-pli-ms.json",
+          "translation/en/soma/sutta/kn/thig/thig6.3_translation-en-soma.json",
+          "translation/en/sujato/sutta/kn/thig/thig6.3_translation-en-sujato.json"
+        ],
+        "author_uid": "soma, sujato",
         "type": "translation",
         "category": "sutta",
         "sutta_uid": "thig6.3",
@@ -774,9 +867,40 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/kn/thig/thig6.6_root-pli-ms.json",
+          "translation/en/soma/sutta/kn/thig/thig6.6_translation-en-soma.json",
           "translation/en/sujato/sutta/kn/thig/thig6.6_translation-en-sujato.json"
         ],
-        "author_uid": "sujato",
+        "author_uid": "soma, sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thig6.6",
+        "lang": "en",
+        "segMap": {
+          "thig6.6:2.1": {
+            "scid": "thig6.6:2.1",
+            "pli": "Sabbadukkhaṁ pariññātaṁ,",
+            "en": "<span class=\"ebt-matched\">All suffering</span> is fully understood;",
+            "matched": true
+          }
+        },
+        "score": 1.036,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verses of the Senior Nuns\nThe Book of the Sixes\nMahāpajāpati Gotamī",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 28,
+          "en": 27
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thig/thig6.6_root-pli-ms.json",
+          "translation/en/soma/sutta/kn/thig/thig6.6_translation-en-soma.json",
+          "translation/en/sujato/sutta/kn/thig/thig6.6_translation-en-sujato.json"
+        ],
+        "author_uid": "soma, sujato",
         "type": "translation",
         "category": "sutta",
         "sutta_uid": "thig6.6",
@@ -1006,9 +1130,40 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/kn/thig/thig10.1_root-pli-ms.json",
+          "translation/en/soma/sutta/kn/thig/thig10.1_translation-en-soma.json",
           "translation/en/sujato/sutta/kn/thig/thig10.1_translation-en-sujato.json"
         ],
-        "author_uid": "sujato",
+        "author_uid": "soma, sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thig10.1",
+        "lang": "en",
+        "segMap": {
+          "thig10.1:2.4": {
+            "scid": "thig10.1:2.4",
+            "pli": "Sabbehipi dukkhehi pamucceyya.",
+            "en": "you would be freed from <span class=\"ebt-matched\">all suffering</span>.",
+            "matched": true
+          }
+        },
+        "score": 1.02,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verses of the Senior Nuns\nThe Book of the Elevens\nKisāgotamī",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 50,
+          "en": 48
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thig/thig10.1_root-pli-ms.json",
+          "translation/en/soma/sutta/kn/thig/thig10.1_translation-en-soma.json",
+          "translation/en/sujato/sutta/kn/thig/thig10.1_translation-en-sujato.json"
+        ],
+        "author_uid": "soma, sujato",
         "type": "translation",
         "category": "sutta",
         "sutta_uid": "thig10.1",
@@ -1151,9 +1306,40 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/kn/thig/thig13.3_root-pli-ms.json",
+          "translation/en/soma/sutta/kn/thig/thig13.3_translation-en-soma.json",
           "translation/en/sujato/sutta/kn/thig/thig13.3_translation-en-sujato.json"
         ],
-        "author_uid": "sujato",
+        "author_uid": "soma, sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thig13.3",
+        "lang": "en",
+        "segMap": {
+          "thig13.3:16.4": {
+            "scid": "thig13.3:16.4",
+            "pli": "dhammaṁ deseti pāṇinaṁ;",
+            "en": "may abandon <span class=\"ebt-matched\">all suffering</span>.",
+            "matched": true
+          }
+        },
+        "score": 1.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verses of the Senior Nuns\nThe Book of the Twenties\nCāpā",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 94,
+          "en": 93
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thig/thig13.3_root-pli-ms.json",
+          "translation/en/soma/sutta/kn/thig/thig13.3_translation-en-soma.json",
+          "translation/en/sujato/sutta/kn/thig/thig13.3_translation-en-sujato.json"
+        ],
+        "author_uid": "soma, sujato",
         "type": "translation",
         "category": "sutta",
         "sutta_uid": "thig13.3",
