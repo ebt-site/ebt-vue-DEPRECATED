@@ -32,7 +32,7 @@
     "pattern": "ist etwas anderes",
     "method": "phrase",
     "resultPattern": "\\bist etwas anderes",
-    "segsMatched": 6,
+    "segsMatched": 9,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an3/an3.59_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.59_translation-de-sabbamitta.json",
@@ -40,14 +40,22 @@
       "root/pli/ms/sutta/an/an3/an3.58_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.58_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.58_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.167_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.167_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.167_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.119_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.119_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an10/an10.119_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an10/an10.119_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.176_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.176_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.176_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an3.59/de/sabbamitta",
       "an3.58/de/sabbamitta",
-      "an10.119/de/sabbamitta"
+      "an10.167/de/sabbamitta",
+      "an10.119/de/sabbamitta",
+      "an10.176/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -165,6 +173,77 @@
           "pli": 69,
           "de": 68,
           "en": 68
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.167_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.167_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.167_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.167",
+        "lang": "de",
+        "segMap": {
+          "an10.167:4.1": {
+            "scid": "an10.167:4.1",
+            "pli": "“Aññathā kho, brāhmaṇa, brāhmaṇānaṁ paccorohaṇī hoti, aññathā ca pana ariyassa vinaye paccorohaṇī hotī”ti. ",
+            "de": "„Die Abstiegszeremonie, wie sie bei den Brahmanen begangen wird, <span class=\"ebt-matched\">ist etwas anderes</span> als die Abstiegszeremonie in der Schulung des Edlen.“ ",
+            "en": "“The ceremony of descent observed by the brahmins is quite different from that observed in the training of the Noble One.” ",
+            "matched": true
+          },
+          "an10.167:16.1": {
+            "scid": "an10.167:16.1",
+            "pli": "“Aññathā kho, bho gotama, brāhmaṇānaṁ paccorohaṇī hoti, aññathā ca pana ariyassa vinaye paccorohaṇī hoti. ",
+            "de": "„Die Abstiegszeremonie, wie sie bei den Brahmanen begangen wird, <span class=\"ebt-matched\">ist etwas anderes</span> als die Abstiegszeremonie in der Schulung des Edlen. ",
+            "en": "“The ceremony of descent observed by the brahmins is quite different from that observed in the training of the Noble One. ",
+            "matched": true
+          }
+        },
+        "score": 2.029,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10\n17. Mit Jāṇussoṇī\n167. Die Abstiegszeremonie der Brahmanen",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 68,
+          "de": 67,
+          "en": 67
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.176_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.176_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.176_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.176",
+        "lang": "de",
+        "segMap": {
+          "an10.176:3.1": {
+            "scid": "an10.176:3.1",
+            "pli": "“Aññathā kho, cunda, brāhmaṇā pacchābhūmakā kamaṇḍalukā sevālamālikā aggiparicārikā udakorohakā soceyyāni paññapenti, aññathā ca pana ariyassa vinaye soceyyaṁ hotī”ti. ",
+            "de": "„Die Reinheit, für die die Brahmanen des Westens plädieren, <span class=\"ebt-matched\">ist etwas anderes</span> als die Reinheit in der Schulung des Edlen.“ ",
+            "en": "“The purity advocated by the western brahmins is quite different from that in the training of the Noble One.” ",
+            "matched": true
+          }
+        },
+        "score": 1.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10\n17. Mit Jāṇussoṇī\n176. Mit Cunda",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 88,
+          "de": 87,
+          "en": 87
         }
       }
     ]

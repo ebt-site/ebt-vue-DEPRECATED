@@ -30,11 +30,50 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "ein abgebrühter mörder",
-    "method": "keywords",
-    "resultPattern": "\\bein|\\babgebrühter|\\bmörder",
-    "segsMatched": 0,
-    "bilaraPaths": [],
-    "suttaRefs": [],
-    "mlDocs": []
+    "method": "phrase",
+    "resultPattern": "\\bein abgebrühter mörder",
+    "segsMatched": 1,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an10/an10.176_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.176_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.176_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an10.176/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.176_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.176_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.176_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.176",
+        "lang": "de",
+        "segMap": {
+          "an10.176:6.2": {
+            "scid": "an10.176:6.2",
+            "pli": "Idha, cunda, ekacco pāṇātipātī hoti luddo lohitapāṇi hatapahate niviṭṭho adayāpanno sabbapāṇabhūtesu. ",
+            "de": "Da tötet jemand lebende Geschöpfe. Er ist unbarmherzig, hat Blut an den Händen, <span class=\"ebt-matched\">ein abgebrühter Mörder</span>, mitleidslos gegenüber allen Lebewesen. ",
+            "en": "It’s when a certain person kills living creatures. They’re violent, bloody-handed, a hardened killer, merciless to living beings. ",
+            "matched": true
+          }
+        },
+        "score": 1.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10\n17. Mit Jāṇussoṇī\n176. Mit Cunda",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 88,
+          "de": 87,
+          "en": 87
+        }
+      }
+    ]
   }
 }

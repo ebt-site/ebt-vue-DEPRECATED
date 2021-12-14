@@ -32,14 +32,18 @@
     "pattern": "gepflegt werden sollte, und",
     "method": "phrase",
     "resultPattern": "\\bgepflegt werden sollte, und",
-    "segsMatched": 6,
+    "segsMatched": 7,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn21_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn21_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn21_translation-en-sujato.json"
+      "translation/en/sujato/sutta/dn/dn21_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.150_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.150_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.150_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "dn21/de/sabbamitta"
+      "dn21/de/sabbamitta",
+      "an10.150/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -107,6 +111,38 @@
           "pli": 515,
           "de": 477,
           "en": 514
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.150_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.150_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.150_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.150",
+        "lang": "de",
+        "segMap": {
+          "an10.150:1.1": {
+            "scid": "an10.150:1.1",
+            "pli": "“Āsevitabbañca vo, bhikkhave, dhammaṁ desessāmi na āsevitabbañca. ",
+            "de": "„Ich will euch den Grundsatz lehren, der <span class=\"ebt-matched\">gepflegt werden sollte, und</span> den Grundsatz, der nicht gepflegt werden sollte. ",
+            "en": "“I will teach you the principle to cultivate and the principle not to cultivate. … ",
+            "matched": true
+          }
+        },
+        "score": 1.083,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10\n15. Der edle Pfad\n150. Sollte gepflegt werden",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 12,
+          "de": 11,
+          "en": 11
         }
       }
     ]
