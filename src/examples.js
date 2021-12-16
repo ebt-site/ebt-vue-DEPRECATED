@@ -227,7 +227,7 @@
     "genießt.*Arbeit",
     "genügsam",
     "gepflegt werden sollte, und",
-    "gerechter König, der sich an Grundsätze",
+    "gerechter und prinzipientreuer König",
     "geschlagen und in Panik",
     "geschlossene Faust eines Lehrers",
     "Gesetzmäßigkeiten klar",
