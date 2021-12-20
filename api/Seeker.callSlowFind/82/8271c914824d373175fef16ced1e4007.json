@@ -32,17 +32,21 @@
     "pattern": "gepflegt werden sollte, und",
     "method": "phrase",
     "resultPattern": "\\bgepflegt werden sollte, und",
-    "segsMatched": 7,
+    "segsMatched": 8,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn21_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn21_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn21_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.194_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.194_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.194_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.150_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.150_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an10/an10.150_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "dn21/de/sabbamitta",
+      "an10.194/de/sabbamitta",
       "an10.150/de/sabbamitta"
     ],
     "mlDocs": [
@@ -143,6 +147,38 @@
           "pli": 12,
           "de": 11,
           "en": 11
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.194_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.194_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.194_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.194",
+        "lang": "de",
+        "segMap": {
+          "an10.194:1.1": {
+            "scid": "an10.194:1.1",
+            "pli": "“Āsevitabbañca vo, bhikkhave, dhammaṁ desessāmi nāsevitabbañca. ",
+            "de": "„Ich will euch den Grundsatz lehren, der <span class=\"ebt-matched\">gepflegt werden sollte, und</span> den Grundsatz, der nicht gepflegt werden sollte. ",
+            "en": "“I will teach you the principle to cultivate and the principle not to cultivate. … ",
+            "matched": true
+          }
+        },
+        "score": 1.071,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10\n19. Der edle Pfad\n194. Der Grundsatz, der gepflegt werden sollte",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 14,
+          "de": 13,
+          "en": 13
         }
       }
     ]
