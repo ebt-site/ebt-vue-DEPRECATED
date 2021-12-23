@@ -32,7 +32,7 @@
     "pattern": "wilde[sn] fohlen",
     "method": "phrase",
     "resultPattern": "\\bwilde[sn] fohlen",
-    "segsMatched": 40,
+    "segsMatched": 45,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an8/an8.14_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.14_translation-de-sabbamitta.json",
@@ -43,6 +43,9 @@
       "root/pli/ms/sutta/an/an3/an3.140_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.140_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.140_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an11/an11.9_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an11/an11.9_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an11/an11.9_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.87_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.87_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an10/an10.87_translation-en-sujato.json"
@@ -51,6 +54,7 @@
       "an8.14/de/sabbamitta",
       "an9.22/de/sabbamitta",
       "an3.140/de/sabbamitta",
+      "an11.9/de/sabbamitta",
       "an10.87/de/sabbamitta"
     ],
     "mlDocs": [
@@ -400,6 +404,66 @@
           "pli": 74,
           "de": 73,
           "en": 73
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an11/an11.9_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an11/an11.9_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an11/an11.9_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an11.9",
+        "lang": "de",
+        "segMap": {
+          "an11.9:2.2": {
+            "scid": "an11.9:2.2",
+            "pli": "mā khaḷuṅkajhāyitaṁ. ",
+            "de": "nicht wie ein <span class=\"ebt-matched\">wildes Fohlen</span>. ",
+            "en": "not like a wild colt. ",
+            "matched": true
+          },
+          "an11.9:2.3": {
+            "scid": "an11.9:2.3",
+            "pli": "Kathañca, khaḷuṅkajhāyitaṁ hoti? ",
+            "de": "Und wie meditiert ein <span class=\"ebt-matched\">wildes Fohlen</span>? ",
+            "en": "And how does a wild colt meditate? ",
+            "matched": true
+          },
+          "an11.9:2.4": {
+            "scid": "an11.9:2.4",
+            "pli": "Assakhaḷuṅko hi, saddha, doṇiyā baddho ‘yavasaṁ yavasan’ti jhāyati. ",
+            "de": "Ein <span class=\"ebt-matched\">wildes Fohlen</span>, das am Futtertrog angebunden ist, meditiert: ‚Futter, Futter!‘ ",
+            "en": "A wild colt, tied up by the feeding trough, meditates: ‘Fodder, fodder!’ ",
+            "matched": true
+          },
+          "an11.9:2.6": {
+            "scid": "an11.9:2.6",
+            "pli": "Na hi, saddha, assakhaḷuṅkassa doṇiyā baddhassa evaṁ hoti: ",
+            "de": "Weil dem <span class=\"ebt-matched\">wilden Fohlen</span>, das am Futtertrog angebunden ist, nicht in den Sinn kommt, zu denken: ",
+            "en": "Because it doesn’t occur to the wild colt tied up by the feeding trough: ",
+            "matched": true
+          },
+          "an11.9:2.17": {
+            "scid": "an11.9:2.17",
+            "pli": "Evaṁ kho, saddha, purisakhaḷuṅkajhāyitaṁ hoti. ",
+            "de": "So meditiert ein <span class=\"ebt-matched\">wildes Fohlen</span>. ",
+            "en": "That’s how a wild colt meditates. ",
+            "matched": true
+          }
+        },
+        "score": 5.085,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 11\n1. Abhängigkeit\n9. Mit Sandha",
+        "segsMatched": 5,
+        "langSegs": {
+          "pli": 59,
+          "de": 52,
+          "en": 58
         }
       },
       {

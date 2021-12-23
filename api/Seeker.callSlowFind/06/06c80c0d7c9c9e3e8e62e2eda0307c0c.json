@@ -32,7 +32,7 @@
     "pattern": "gute freunde, genossen und gefährt",
     "method": "phrase",
     "resultPattern": "\\bgute freunde, genossen und gefährt",
-    "segsMatched": 20,
+    "segsMatched": 21,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn45/sn45.3_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn45/sn45.3_translation-de-sabbamitta.json",
@@ -70,6 +70,9 @@
       "root/pli/ms/sutta/an/an3/an3.27_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.27_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.27_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an11/an11.14_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an11/an11.14_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an11/an11.14_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.97_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.97_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an10/an10.97_translation-en-sujato.json",
@@ -96,6 +99,7 @@
       "an8.57/de/sabbamitta",
       "an6.67/de/sabbamitta",
       "an3.27/de/sabbamitta",
+      "an11.14/de/sabbamitta",
       "an10.97/de/sabbamitta",
       "an10.50/de/sabbamitta",
       "an10.18/de/sabbamitta",
@@ -480,6 +484,38 @@
           "pli": 51,
           "de": 43,
           "en": 49
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an11/an11.14_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an11/an11.14_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an11/an11.14_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an11.14",
+        "lang": "de",
+        "segMap": {
+          "an11.14:6.1": {
+            "scid": "an11.14:6.1",
+            "pli": "Puna caparaṁ, subhūti, bhikkhu kalyāṇamitto hoti kalyāṇasahāyo kalyāṇasampavaṅko. ",
+            "de": "Dann hat da ein Mönch <span class=\"ebt-matched\">gute Freunde, Genossen und Gefährt</span>en. ",
+            "en": "Furthermore, a mendicant has good friends, companions, and associates. ",
+            "matched": true
+          }
+        },
+        "score": 1.019,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 11\n2. Besinnung\n14. Mit Subhūti",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 54,
+          "de": 53,
+          "en": 53
         }
       },
       {

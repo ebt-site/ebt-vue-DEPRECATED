@@ -32,7 +32,7 @@
     "pattern": "sowohl öffentlich als insgeheim",
     "method": "phrase",
     "resultPattern": "\\bsowohl öffentlich als insgeheim",
-    "segsMatched": 25,
+    "segsMatched": 27,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
@@ -51,7 +51,10 @@
       "translation/en/sujato/sutta/an/an5/an5.105_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn33_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/mn/mn33_translation-en-sujato.json"
+      "translation/en/sujato/sutta/mn/mn33_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an11/an11.17_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an11/an11.17_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an11/an11.17_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "dn34/de/sabbamitta",
@@ -59,7 +62,8 @@
       "an6.12/de/sabbamitta",
       "an6.11/de/sabbamitta",
       "an5.105/de/sabbamitta",
-      "mn33/de/sabbamitta"
+      "mn33/de/sabbamitta",
+      "an11.17/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -346,6 +350,45 @@
           "pli": 10,
           "de": 9,
           "en": 9
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an11/an11.17_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an11/an11.17_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an11/an11.17_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an11.17",
+        "lang": "de",
+        "segMap": {
+          "an11.17:13.2": {
+            "scid": "an11.17:13.2",
+            "pli": "Idha, bhikkhave, bhikkhu ye te bhikkhū therā rattaññū cirapabbajitā saṅghapitaro saṅghapariṇāyakā, tesu na mettaṁ kāyakammaṁ paccupaṭṭhāpeti āvi ceva raho ca, na mettaṁ vacīkammaṁ … na mettaṁ manokammaṁ paccupaṭṭhāpeti āvi ceva raho ca. ",
+            "de": "Da behandelt ein Mönch langjährige Ordensälteste, die schon lange fortgezogen sind, die Väter und Leiter des Saṅgha, mit dem Körper, der Sprache und dem Geist nicht stets freundlich, <span class=\"ebt-matched\">sowohl öffentlich als insgeheim</span>. ",
+            "en": "It’s when a mendicant doesn’t consistently treat senior mendicants of long standing, long gone forth, fathers and leaders of the Saṅgha with kindness by way of body, speech, and mind, both in public and in private. ",
+            "matched": true
+          },
+          "an11.17:27.2": {
+            "scid": "an11.17:27.2",
+            "pli": "Idha, bhikkhave, bhikkhu ye te therā rattaññū cirapabbajitā saṅghapitaro saṅghapariṇāyakā, tesu mettaṁ kāyakammaṁ paccupaṭṭhāpeti āvi ceva raho ca, mettaṁ vacīkammaṁ … mettaṁ manokammaṁ paccupaṭṭhāpeti āvi ceva raho ca. ",
+            "de": "Da behandelt ein Mönch langjährige Ordensälteste, die schon lange fortgezogen sind, die Väter und Leiter des Saṅgha, mit dem Körper, der Sprache und dem Geist nicht stets freundlich, <span class=\"ebt-matched\">sowohl öffentlich als insgeheim</span>. ",
+            "en": "It’s when a mendicant consistently treats senior mendicants of long standing, long gone forth, fathers and leaders of the Saṅgha with kindness by way of body, speech, and mind, both in public and in private. ",
+            "matched": true
+          }
+        },
+        "score": 2.019,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 11\n2. Besinnung\n17. Der Kuhhirte",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 106,
+          "de": 105,
+          "en": 105
         }
       },
       {

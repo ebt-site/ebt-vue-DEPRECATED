@@ -32,7 +32,7 @@
     "pattern": "das rechte maß",
     "method": "phrase",
     "resultPattern": "\\bdas rechte maß",
-    "segsMatched": 17,
+    "segsMatched": 18,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an7/an7.68_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an7/an7.68_translation-de-sabbamitta.json",
@@ -54,7 +54,10 @@
       "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json"
+      "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an11/an11.17_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an11/an11.17_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an11/an11.17_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an7.68/de/sabbamitta",
@@ -63,7 +66,8 @@
       "an5.131/de/sabbamitta",
       "mn33/de/sabbamitta",
       "dn34/de/sabbamitta",
-      "dn33/de/sabbamitta"
+      "dn33/de/sabbamitta",
+      "an11.17/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -262,6 +266,38 @@
           "pli": 16,
           "de": 15,
           "en": 15
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an11/an11.17_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an11/an11.17_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an11/an11.17_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an11.17",
+        "lang": "de",
+        "segMap": {
+          "an11.17:26.3": {
+            "scid": "an11.17:26.3",
+            "pli": "Tatra bhikkhu mattaṁ jānāti paṭiggahaṇāya. ",
+            "de": "und sie kennt <span class=\"ebt-matched\">das rechte Maß</span> beim Nehmen. ",
+            "en": "And that mendicant knows moderation in accepting. ",
+            "matched": true
+          }
+        },
+        "score": 1.009,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 11\n2. Besinnung\n17. Der Kuhhirte",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 106,
+          "de": 105,
+          "en": 105
         }
       },
       {

@@ -32,7 +32,7 @@
     "pattern": "benommenheit",
     "method": "phrase",
     "resultPattern": "\\bbenommenheit",
-    "segsMatched": 59,
+    "segsMatched": 61,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an7/an7.61_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an7/an7.61_translation-de-sabbamitta.json",
@@ -67,6 +67,9 @@
       "root/pli/ms/sutta/an/an4/an4.12_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.12_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.12_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an11/an11.9_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an11/an11.9_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an11/an11.9_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.12_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.12_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an10/an10.12_translation-en-sujato.json",
@@ -146,6 +149,7 @@
       "an6.66/de/sabbamitta",
       "an4.61/de/sabbamitta",
       "an4.12/de/sabbamitta",
+      "an11.9/de/sabbamitta",
       "an10.12/de/sabbamitta",
       "sn47.5/de/sabbamitta",
       "mn23/de/sabbamitta",
@@ -656,6 +660,45 @@
           "pli": 24,
           "de": 23,
           "en": 23
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an11/an11.9_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an11/an11.9_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an11/an11.9_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an11.9",
+        "lang": "de",
+        "segMap": {
+          "an11.9:2.12": {
+            "scid": "an11.9:2.12",
+            "pli": "thinamiddhapariyuṭṭhitena cetasā viharati … ",
+            "de": "von Dumpfheit und <span class=\"ebt-matched\">Benommenheit</span> … ",
+            "en": "dullness and drowsiness … ",
+            "matched": true
+          },
+          "an11.9:3.10": {
+            "scid": "an11.9:3.10",
+            "pli": "na thinamiddhapariyuṭṭhitena cetasā viharati … ",
+            "de": "von Dumpfheit und <span class=\"ebt-matched\">Benommenheit</span> … ",
+            "en": "dullness and drowsiness … ",
+            "matched": true
+          }
+        },
+        "score": 2.034,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 11\n1. Abhängigkeit\n9. Mit Sandha",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 59,
+          "de": 52,
+          "en": 58
         }
       },
       {

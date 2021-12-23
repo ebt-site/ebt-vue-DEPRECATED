@@ -32,7 +32,7 @@
     "pattern": "wenn.* stirbt, fühlt",
     "method": "phrase",
     "resultPattern": "\\bwenn.* stirbt, fühlt",
-    "segsMatched": 14,
+    "segsMatched": 16,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an5/an5.241_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.241_translation-de-sabbamitta.json",
@@ -49,6 +49,9 @@
       "root/pli/ms/sutta/an/an2/an2.11-20_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an2/an2.11-20_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an2/an2.11-20_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an11/an11.6_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an11/an11.6_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an11/an11.6_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.212_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.212_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.212_translation-en-sujato.json",
@@ -68,6 +71,7 @@
       "an5.216/de/sabbamitta",
       "an5.215/de/sabbamitta",
       "an2.11-20/de/sabbamitta",
+      "an11.6/de/sabbamitta",
       "an5.212/de/sabbamitta",
       "an5.211/de/sabbamitta",
       "an11.15/de/sabbamitta",
@@ -228,6 +232,45 @@
           "pli": 20,
           "de": 19,
           "en": 19
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an11/an11.6_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an11/an11.6_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an11/an11.6_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an11.6",
+        "lang": "de",
+        "segMap": {
+          "an11.6:2.11": {
+            "scid": "an11.6:2.11",
+            "pli": "sammūḷho kālaṁ karoti, ",
+            "de": "<span class=\"ebt-matched\">Wenn sie stirbt, fühlt</span> sie sich verloren. ",
+            "en": "They feel lost when they die. ",
+            "matched": true
+          },
+          "an11.6:4.11": {
+            "scid": "an11.6:4.11",
+            "pli": "sammūḷho kālaṁ karoti, ",
+            "de": "<span class=\"ebt-matched\">Wenn sie stirbt, fühlt</span> sie sich verloren. ",
+            "en": "They feel lost when they die. ",
+            "matched": true
+          }
+        },
+        "score": 2.063,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 11\n1. Abhängigkeit\n6. Verhängnis",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 32,
+          "de": 31,
+          "en": 31
         }
       },
       {

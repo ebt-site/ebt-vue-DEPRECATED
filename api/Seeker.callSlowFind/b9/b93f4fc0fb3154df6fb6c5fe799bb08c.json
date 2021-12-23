@@ -32,7 +32,7 @@
     "pattern": "heißt es so",
     "method": "phrase",
     "resultPattern": "\\bheißt es so",
-    "segsMatched": 9,
+    "segsMatched": 11,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn33_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/an/an2/an2.42-51_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an2/an2.42-51_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an2/an2.42-51_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an11/an11.17_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an11/an11.17_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an11/an11.17_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
@@ -59,6 +62,7 @@
     "suttaRefs": [
       "mn33/de/sabbamitta",
       "an2.42-51/de/sabbamitta",
+      "an11.17/de/sabbamitta",
       "dn34/de/sabbamitta",
       "an8.2/de/sabbamitta",
       "an6.51/de/sabbamitta",
@@ -66,6 +70,45 @@
       "an10.11/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an11/an11.17_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an11/an11.17_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an11/an11.17_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an11.17",
+        "lang": "de",
+        "segMap": {
+          "an11.17:8.3": {
+            "scid": "an11.17:8.3",
+            "pli": "‘idaṁ, bhante, kathaṁ, imassa ko attho’ti? ",
+            "de": "‚Warum, Herr, <span class=\"ebt-matched\">heißt es so</span>? Was bedeutet das?‘ ",
+            "en": "‘Why, sir, does it say this? What does that mean?’ ",
+            "matched": true
+          },
+          "an11.17:22.3": {
+            "scid": "an11.17:22.3",
+            "pli": "‘idaṁ, bhante, kathaṁ, imassa ko attho’ti? ",
+            "de": "‚Warum, Herr, <span class=\"ebt-matched\">heißt es so</span>? Was bedeutet das?‘ ",
+            "en": "‘Why, sir, does it say this? What does that mean?’ ",
+            "matched": true
+          }
+        },
+        "score": 2.019,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 11\n2. Besinnung\n17. Der Kuhhirte",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 106,
+          "de": 105,
+          "en": 105
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/mn/mn33_root-pli-ms.json",
