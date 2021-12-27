@@ -1,0 +1,118 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "hindrances are entirely",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en"
+      ],
+      "maxResults": 1000,
+      "searchLang": "en",
+      "maxDoc": 50,
+      "minLang": 2,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "en",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "hindrances are entirely",
+    "method": "phrase",
+    "resultPattern": "\\bhindrances are entirely",
+    "segsMatched": 4,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn47/sn47.5_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn47/sn47.5_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.52_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an5/an5.52_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn47.5/en/sujato",
+      "an5.52/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an5/an5.52_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an5/an5.52_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an5.52",
+        "lang": "en",
+        "segMap": {
+          "an5.52:1.2": {
+            "scid": "an5.52:1.2",
+            "pli": "Kevalo hāyaṁ, bhikkhave, akusalarāsi yadidaṁ pañca nīvaraṇā. ",
+            "en": "For these five <span class=\"ebt-matched\">hindrances are entirely</span> a heap of the unskillful. ",
+            "matched": true
+          },
+          "an5.52:1.6": {
+            "scid": "an5.52:1.6",
+            "pli": "Kevalo hāyaṁ, bhikkhave, akusalarāsi yadidaṁ pañca nīvaraṇā”ti. ",
+            "en": "For these five <span class=\"ebt-matched\">hindrances are entirely</span> a heap of the unskillful.” ",
+            "matched": true
+          }
+        },
+        "score": 2.2,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 5\n6. Hindrances\n52. A Heap of the Unskillful",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 10,
+          "en": 9
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn47/sn47.5_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn47/sn47.5_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn47.5",
+        "lang": "en",
+        "segMap": {
+          "sn47.5:1.4": {
+            "scid": "sn47.5:1.4",
+            "pli": "Kevalo hāyaṁ, bhikkhave, akusalarāsi, yadidaṁ—pañca nīvaraṇā. ",
+            "en": "For these five <span class=\"ebt-matched\">hindrances are entirely</span> a heap of the unskillful. ",
+            "matched": true
+          },
+          "sn47.5:1.8": {
+            "scid": "sn47.5:1.8",
+            "pli": "Kevalo hāyaṁ, bhikkhave, akusalarāsi, yadidaṁ—pañca nīvaraṇā. ",
+            "en": "For these five <span class=\"ebt-matched\">hindrances are entirely</span> a heap of the unskillful. ",
+            "matched": true
+          }
+        },
+        "score": 2.095,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 47\n1. In Ambapālī’s Wood\n5. A Heap of the Unskillful",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 21,
+          "en": 20
+        }
+      }
+    ]
+  }
+}

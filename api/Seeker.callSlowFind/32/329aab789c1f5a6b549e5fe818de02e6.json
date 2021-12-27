@@ -1,0 +1,287 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "alberne gespräche",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "alberne gespräche",
+    "method": "phrase",
+    "resultPattern": "\\balberne gespräche",
+    "segsMatched": 10,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn25_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn25_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn25_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an8/an8.2_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an8/an8.2_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an8/an8.2_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.69_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.69_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.69_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.94_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.94_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.94_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.93_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.93_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.93_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.70_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.70_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.70_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "dn25/de/sabbamitta",
+      "an8.2/de/sabbamitta",
+      "an10.69/de/sabbamitta",
+      "an10.94/de/sabbamitta",
+      "an10.93/de/sabbamitta",
+      "an10.70/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn25_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn25_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn25_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn25",
+        "lang": "de",
+        "segMap": {
+          "dn25:2.1": {
+            "scid": "dn25:2.1",
+            "pli": "Tena kho pana samayena nigrodho paribbājako mahatiyā paribbājakaparisāya saddhiṁ nisinno hoti unnādiniyā uccāsaddamahāsaddāya anekavihitaṁ tiracchānakathaṁ kathentiyā. ",
+            "de": "Zu dieser Zeit saß Nigrodha mit einer großen Versammlung von Wanderern beisammen, und sie machten einen Tumult, einen Höllenlärm. Sie hielten sich <span class=\"ebt-matched\">alberne Gespräche</span> aller Art, ",
+            "en": "Now at that time, Nigrodha was sitting together with a large assembly of wanderers making an uproar, a dreadful racket. They engaged in all kinds of unworthy talk, such as ",
+            "matched": true
+          },
+          "dn25:4.3": {
+            "scid": "dn25:4.3",
+            "pli": "“aññathā kho ime bhonto aññatitthiyā paribbājakā saṅgamma samāgamma unnādino uccāsaddamahāsaddā anekavihitaṁ tiracchānakathaṁ anuyuttā viharanti. ",
+            "de": "„Wie die Wanderer da einen Tumult machen, einen Höllenlärm, wenn sie zusammensitzen und sich <span class=\"ebt-matched\">alberne Gespräche</span> aller Art halten, das ist eine Sache. ",
+            "en": "“The way the wanderers make an uproar as they sit together and talk about all kinds of unworthy topics is one thing. ",
+            "matched": true
+          },
+          "dn25:21.6": {
+            "scid": "dn25:21.6",
+            "pli": "‘ye te ahesuṁ atītamaddhānaṁ arahanto sammāsambuddhā, evaṁ su te bhagavanto saṅgamma samāgamma unnādino uccāsaddamahāsaddā anekavihitaṁ tiracchānakathaṁ anuyuttā viharanti. ",
+            "de": "wenn die Vollendeten, die vollkommen erwachten Buddhas der Vergangenheit zusammenkamen, dann hätten sie einen Tumult gemacht, einen Höllenlärm, wenn sie zusammensaßen und sich <span class=\"ebt-matched\">alberne Gespräche</span> aller Art hielten, ",
+            "en": "when the perfected ones, the fully awakened Buddhas of the past came together, they made an uproar, a dreadful racket as they sat and talked about all kinds of unworthy topics, ",
+            "matched": true
+          }
+        },
+        "score": 3.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 25\nDas Löwengebrüll in Udumbarikās Kloster\n1. Vom Wanderer Nigrodha",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 383,
+          "de": 347,
+          "en": 382
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.69_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.69_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.69_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.69",
+        "lang": "de",
+        "segMap": {
+          "an10.69:1.2": {
+            "scid": "an10.69:1.2",
+            "pli": "Tena kho pana samayena sambahulā bhikkhū pacchābhattaṁ piṇḍapātapaṭikkantā upaṭṭhānasālāyaṁ sannisinnā sannipatitā anekavihitaṁ tiracchānakathaṁ anuyuttā viharanti, seyyathidaṁ—",
+            "de": "Da saßen nach dem Essen, als sie vom Almosengang zurückkamen, mehrere Mönche und Nonnen in der Versammlungshalle beisammen. Sie hielten sich <span class=\"ebt-matched\">alberne Gespräche</span> aller Art, ",
+            "en": "Now at that time, after the meal, on return from almsround, several mendicants sat together in the assembly hall. They engaged in all kinds of unworthy talk, such as ",
+            "matched": true
+          },
+          "an10.69:3.3": {
+            "scid": "an10.69:3.3",
+            "pli": "“Na kho panetaṁ, bhikkhave, tumhākaṁ patirūpaṁ kulaputtānaṁ saddhāya agārasmā anagāriyaṁ pabbajitānaṁ, yaṁ tumhe anekavihitaṁ tiracchānakathaṁ anuyuttā vihareyyātha, seyyathidaṁ—",
+            "de": "„Mönche und Nonnen, für anständige Menschen wie ihr, die aus Vertrauen aus dem Haus fortgezogen sind ins hauslose Leben, ist es nicht angebracht, euch <span class=\"ebt-matched\">alberne Gespräche</span> aller Art zu halten. ",
+            "en": "“Mendicants, it is not appropriate for you gentlemen who have gone forth in faith from the lay life to homelessness to engage in these kinds of unworthy talk. ",
+            "matched": true
+          }
+        },
+        "score": 2.105,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10\n7. Paare\n69. Diskussionsthemen (1)",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 19,
+          "de": 16,
+          "en": 18
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.2_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an8/an8.2_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an8/an8.2_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an8.2",
+        "lang": "de",
+        "segMap": {
+          "an8.2:7.1": {
+            "scid": "an8.2:7.1",
+            "pli": "Saṅghagato kho pana anānākathiko hoti atiracchānakathiko. ",
+            "de": "Wenn er im Saṅgha ist, lässt er sich nicht auf Gespräche über alles Mögliche oder auf <span class=\"ebt-matched\">alberne Gespräche</span> ein. ",
+            "en": "When in the Saṅgha they don’t engage in motley talk or unworthy talk. ",
+            "matched": true
+          },
+          "an8.2:15.1": {
+            "scid": "an8.2:15.1",
+            "pli": "‘Saṅghagato kho panāyamāyasmā anānākathiko hoti atiracchānakathiko. ",
+            "de": "‚Wenn er im Saṅgha ist, lässt dieser Ehrwürdige sich nicht auf Gespräche über alles Mögliche oder auf <span class=\"ebt-matched\">alberne Gespräche</span> ein. ",
+            "en": "‘When in the Saṅgha they don’t engage in motley talk or unworthy talk. ",
+            "matched": true
+          }
+        },
+        "score": 2.031,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 8\n1. Liebe\n2. Weisheit",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 64,
+          "de": 56,
+          "en": 63
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.70_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.70_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.70_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.70",
+        "lang": "de",
+        "segMap": {
+          "an10.70:1.3": {
+            "scid": "an10.70:1.3",
+            "pli": "rājakathaṁ corakathaṁ mahāmattakathaṁ …pe… itibhavābhavakathaṁ iti vāti. ",
+            "de": "Sie hielten sich <span class=\"ebt-matched\">alberne Gespräche</span> aller Art, wie Gespräche über Könige, Räuber und Minister, über Heere, Bedrohungen und Kriege, über Essen, Trinken, Kleider und Betten, über Kränze und Düfte, über die Familie, Fahrzeuge, Dörfer, Marktflecken, Städte und Länder, über Frauen und Helden, Straßen- und Brunnengespräch, Gespräch über Verstorbene, über allerlei Dinge, Geschichten vom Land und vom Meer und Gespräche über Wiedergeburt in diesem oder jenem Daseinszustand. ",
+            "en": "They engaged in all kinds of unworthy talk, such as talk about kings, bandits, and ministers; talk about armies, threats, and wars; talk about food, drink, clothes, and beds; talk about garlands and fragrances; talk about family, vehicles, villages, towns, cities, and nations; talk about women and heroes; street talk and well talk; talk about the departed; miscellaneous talk; tales of land and sea; and talk about being reborn in this or that state of existence. ",
+            "matched": true
+          }
+        },
+        "score": 1.028,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10\n7. Paare\n70. Diskussionsthemen (2)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 36,
+          "de": 29,
+          "en": 34
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.94_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.94_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.94_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.94",
+        "lang": "de",
+        "segMap": {
+          "an10.94:2.2": {
+            "scid": "an10.94:2.2",
+            "pli": "Tena kho pana samayena te aññatitthiyā paribbājakā saṅgamma samāgamma unnādino uccāsaddamahāsaddā anekavihitaṁ tiracchānakathaṁ kathentā nisinnā honti. ",
+            "de": "Zu dieser Zeit waren die Wanderer, die andere Wege gehen, zusammengekommen, und sie machten einen Tumult, einen Höllenlärm, wie sie da beisammensaßen und sich <span class=\"ebt-matched\">alberne Gespräche</span> aller Art hielten. ",
+            "en": "Now at that time, the wanderers who follow other paths had come together, making an uproar, a dreadful racket as they sat and talked about all kinds of unworthy topics. ",
+            "matched": true
+          }
+        },
+        "score": 1.016,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10\n10. Mit Upāli\n94. Mit Vajjiyamāhita",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 63,
+          "de": 62,
+          "en": 62
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.93_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.93_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.93_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.93",
+        "lang": "de",
+        "segMap": {
+          "an10.93:2.2": {
+            "scid": "an10.93:2.2",
+            "pli": "Tena kho pana samayena aññatitthiyā paribbājakā saṅgamma samāgamma unnādino uccāsaddamahāsaddā anekavihitaṁ tiracchānakathaṁ kathentā nisinnā honti. ",
+            "de": "Zu dieser Zeit waren die Wanderer, die andere Wege gehen, zusammengekommen, und sie machten einen Tumult, einen Höllenlärm, wie sie da beisammensaßen und sich <span class=\"ebt-matched\">alberne Gespräche</span> aller Art hielten. ",
+            "en": "Now at that time, the wanderers who follow other paths had come together, making an uproar, a dreadful racket as they sat and talked about all kinds of unworthy topics. ",
+            "matched": true
+          }
+        },
+        "score": 1.01,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10\n10. Mit Upāli\n93. Welche Ansicht hast du?",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 103,
+          "de": 102,
+          "en": 102
+        }
+      }
+    ]
+  }
+}

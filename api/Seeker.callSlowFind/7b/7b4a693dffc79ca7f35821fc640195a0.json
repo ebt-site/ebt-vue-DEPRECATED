@@ -1,0 +1,79 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "wie ein tautropfen",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "wie ein tautropfen",
+    "method": "phrase",
+    "resultPattern": "\\bwie ein tautropfen",
+    "segsMatched": 1,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an7/an7.74_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an7/an7.74_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an7/an7.74_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an7.74/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an7/an7.74_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an7/an7.74_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an7/an7.74_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an7.74",
+        "lang": "de",
+        "segMap": {
+          "an7.74:2.1": {
+            "scid": "an7.74:2.1",
+            "pli": "Seyyathāpi, brāhmaṇa, tiṇagge ussāvabindu sūriye uggacchante khippaṁyeva paṭivigacchati, na ciraṭṭhitikaṁ hoti; ",
+            "de": "<span class=\"ebt-matched\">Wie ein Tautropfen</span> an der Spitze eines Grashalms: Wenn die Sonne aufgeht, verdunstet er rasch und bleibt nicht lange erhalten. ",
+            "en": "It’s like a drop of dew on a grass tip. When the sun comes up it quickly evaporates and doesn’t last long. ",
+            "matched": true
+          }
+        },
+        "score": 1.019,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 7\n7. Das große Kapitel\n74. Über Araka",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 54,
+          "de": 43,
+          "en": 52
+        }
+      }
+    ]
+  }
+}

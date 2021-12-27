@@ -1,0 +1,558 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "good enough",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en"
+      ],
+      "maxResults": 1000,
+      "searchLang": "en",
+      "maxDoc": 50,
+      "minLang": 2,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "en",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "good enough",
+    "method": "phrase",
+    "resultPattern": "\\bgood enough",
+    "segsMatched": 47,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an8/an8.78_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an8/an8.78_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an8/an8.62_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an8/an8.62_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn23_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn85_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn36_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn36_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn26_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn26_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn100_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn100_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga4/ud4.1_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/ud/vagga4/ud4.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an9/an9.3_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an9/an9.3_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an8.78/en/sujato",
+      "an8.62/en/sujato",
+      "dn23/en/sujato",
+      "mn85/en/sujato",
+      "mn36/en/sujato",
+      "mn26/en/sujato",
+      "mn100/en/sujato",
+      "ud4.1/en/sujato",
+      "an9.3/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.62_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an8/an8.62_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an8.62",
+        "lang": "en",
+        "segMap": {
+          "an8.62:0.3": {
+            "scid": "an8.62:0.3",
+            "pli": "62. Alaṁsutta ",
+            "en": "62. <span class=\"ebt-matched\">Good Enough</span> ",
+            "matched": true
+          },
+          "an8.62:1.1": {
+            "scid": "an8.62:1.1",
+            "pli": "“Chahi, bhikkhave, dhammehi samannāgato bhikkhu alaṁ attano alaṁ paresaṁ. ",
+            "en": "“Mendicants, a mendicant with six qualities is <span class=\"ebt-matched\">good enough</span> for themselves and others. ",
+            "matched": true
+          },
+          "an8.62:1.9": {
+            "scid": "an8.62:1.9",
+            "pli": "Imehi kho, bhikkhave, chahi dhammehi samannāgato bhikkhu alaṁ attano alaṁ paresaṁ. ",
+            "en": "A mendicant with these six qualities is <span class=\"ebt-matched\">good enough</span> for themselves and others. ",
+            "matched": true
+          },
+          "an8.62:2.1": {
+            "scid": "an8.62:2.1",
+            "pli": "Pañcahi, bhikkhave, dhammehi samannāgato bhikkhu alaṁ attano alaṁ paresaṁ. ",
+            "en": "A mendicant with five qualities is <span class=\"ebt-matched\">good enough</span> for themselves and others. ",
+            "matched": true
+          },
+          "an8.62:2.9": {
+            "scid": "an8.62:2.9",
+            "pli": "Imehi kho, bhikkhave, pañcahi dhammehi samannāgato bhikkhu alaṁ attano alaṁ paresaṁ. ",
+            "en": "A mendicant with these five qualities is <span class=\"ebt-matched\">good enough</span> for themselves and others. ",
+            "matched": true
+          },
+          "an8.62:3.1": {
+            "scid": "an8.62:3.1",
+            "pli": "Catūhi, bhikkhave, dhammehi samannāgato bhikkhu alaṁ attano nālaṁ paresaṁ. ",
+            "en": "A mendicant with four qualities is <span class=\"ebt-matched\">good enough</span> for themselves but not for others. ",
+            "matched": true
+          },
+          "an8.62:3.9": {
+            "scid": "an8.62:3.9",
+            "pli": "Imehi kho, bhikkhave, catūhi dhammehi samannāgato bhikkhu alaṁ attano nālaṁ paresaṁ. ",
+            "en": "A mendicant with these four qualities is <span class=\"ebt-matched\">good enough</span> for themselves but not for others. ",
+            "matched": true
+          },
+          "an8.62:4.1": {
+            "scid": "an8.62:4.1",
+            "pli": "Catūhi, bhikkhave, dhammehi samannāgato bhikkhu alaṁ paresaṁ nālaṁ attano. ",
+            "en": "A mendicant with four qualities is <span class=\"ebt-matched\">good enough</span> for others but not for themselves. ",
+            "matched": true
+          },
+          "an8.62:4.9": {
+            "scid": "an8.62:4.9",
+            "pli": "Imehi kho, bhikkhave, catūhi dhammehi samannāgato bhikkhu alaṁ paresaṁ, nālaṁ attano. ",
+            "en": "A mendicant with these four qualities is <span class=\"ebt-matched\">good enough</span> for others but not for themselves. ",
+            "matched": true
+          },
+          "an8.62:5.1": {
+            "scid": "an8.62:5.1",
+            "pli": "Tīhi, bhikkhave, dhammehi samannāgato bhikkhu alaṁ attano nālaṁ paresaṁ. ",
+            "en": "A mendicant with three qualities is <span class=\"ebt-matched\">good enough</span> for themselves but not for others. ",
+            "matched": true
+          },
+          "an8.62:5.9": {
+            "scid": "an8.62:5.9",
+            "pli": "Imehi kho, bhikkhave, tīhi dhammehi samannāgato bhikkhu alaṁ attano, nālaṁ paresaṁ. ",
+            "en": "A mendicant with these three qualities is <span class=\"ebt-matched\">good enough</span> for themselves but not for others. ",
+            "matched": true
+          },
+          "an8.62:6.1": {
+            "scid": "an8.62:6.1",
+            "pli": "Tīhi, bhikkhave, dhammehi samannāgato bhikkhu alaṁ paresaṁ, nālaṁ attano. ",
+            "en": "A mendicant with three qualities is <span class=\"ebt-matched\">good enough</span> for others but not for themselves. ",
+            "matched": true
+          },
+          "an8.62:6.9": {
+            "scid": "an8.62:6.9",
+            "pli": "Imehi kho, bhikkhave, tīhi dhammehi samannāgato bhikkhu alaṁ paresaṁ, nālaṁ attano. ",
+            "en": "A mendicant with these three qualities is <span class=\"ebt-matched\">good enough</span> for others but not for themselves. ",
+            "matched": true
+          },
+          "an8.62:7.1": {
+            "scid": "an8.62:7.1",
+            "pli": "Dvīhi, bhikkhave, dhammehi samannāgato bhikkhu alaṁ attano, nālaṁ paresaṁ. ",
+            "en": "A mendicant with two qualities is <span class=\"ebt-matched\">good enough</span> for themselves but not for others. ",
+            "matched": true
+          },
+          "an8.62:7.9": {
+            "scid": "an8.62:7.9",
+            "pli": "Imehi kho, bhikkhave, dvīhi dhammehi samannāgato bhikkhu alaṁ attano, nālaṁ paresaṁ. ",
+            "en": "A mendicant with these two qualities is <span class=\"ebt-matched\">good enough</span> for themselves but not for others. ",
+            "matched": true
+          },
+          "an8.62:8.1": {
+            "scid": "an8.62:8.1",
+            "pli": "Dvīhi, bhikkhave, dhammehi samannāgato bhikkhu alaṁ paresaṁ, nālaṁ attano. ",
+            "en": "A mendicant with two qualities is <span class=\"ebt-matched\">good enough</span> for others but not for themselves. ",
+            "matched": true
+          },
+          "an8.62:8.9": {
+            "scid": "an8.62:8.9",
+            "pli": "Imehi kho, bhikkhave, dvīhi dhammehi samannāgato bhikkhu alaṁ paresaṁ, nālaṁ attano”ti. ",
+            "en": "A mendicant with these two qualities is <span class=\"ebt-matched\">good enough</span> for others but not for themselves.” ",
+            "matched": true
+          }
+        },
+        "score": 17.224,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 8\n7. Earthquakes\n62. Good Enough",
+        "segsMatched": 17,
+        "langSegs": {
+          "pli": 76,
+          "en": 75
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.78_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an8/an8.78_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an8.78",
+        "lang": "en",
+        "segMap": {
+          "an8.78:0.3": {
+            "scid": "an8.78:0.3",
+            "pli": "78. Alaṁsutta ",
+            "en": "78. <span class=\"ebt-matched\">Good Enough</span> ",
+            "matched": true
+          },
+          "an8.78:1.2": {
+            "scid": "an8.78:1.2",
+            "pli": "chahāvuso, dhammehi samannāgato bhikkhu alaṁ attano, alaṁ paresaṁ. ",
+            "en": "“Reverends, a mendicant with six qualities is <span class=\"ebt-matched\">good enough</span> for themselves and others. ",
+            "matched": true
+          },
+          "an8.78:1.10": {
+            "scid": "an8.78:1.10",
+            "pli": "Imehi kho, āvuso, chahi dhammehi samannāgato bhikkhu alaṁ attano, alaṁ paresaṁ. ",
+            "en": "A mendicant with these six qualities is <span class=\"ebt-matched\">good enough</span> for themselves and others. ",
+            "matched": true
+          },
+          "an8.78:2.1": {
+            "scid": "an8.78:2.1",
+            "pli": "Pañcahāvuso, dhammehi samannāgato bhikkhu alaṁ attano, alaṁ paresaṁ. ",
+            "en": "A mendicant with five qualities is <span class=\"ebt-matched\">good enough</span> for themselves and others. ",
+            "matched": true
+          },
+          "an8.78:2.9": {
+            "scid": "an8.78:2.9",
+            "pli": "Imehi kho, āvuso, pañcahi dhammehi samannāgato bhikkhu alaṁ attano, alaṁ paresaṁ. ",
+            "en": "A mendicant with these five qualities is <span class=\"ebt-matched\">good enough</span> for themselves and others. ",
+            "matched": true
+          },
+          "an8.78:3.1": {
+            "scid": "an8.78:3.1",
+            "pli": "Catūhāvuso, dhammehi samannāgato bhikkhu alaṁ attano, nālaṁ paresaṁ. ",
+            "en": "A mendicant with four qualities is <span class=\"ebt-matched\">good enough</span> for themselves but not for others. ",
+            "matched": true
+          },
+          "an8.78:3.9": {
+            "scid": "an8.78:3.9",
+            "pli": "Imehi kho, āvuso, catūhi dhammehi samannāgato bhikkhu alaṁ attano, nālaṁ paresaṁ. ",
+            "en": "A mendicant with these four qualities is <span class=\"ebt-matched\">good enough</span> for themselves but not for others. ",
+            "matched": true
+          },
+          "an8.78:4.1": {
+            "scid": "an8.78:4.1",
+            "pli": "Catūhāvuso, dhammehi samannāgato bhikkhu alaṁ paresaṁ, nālaṁ attano. ",
+            "en": "A mendicant with four qualities is <span class=\"ebt-matched\">good enough</span> for others but not for themselves. ",
+            "matched": true
+          },
+          "an8.78:4.9": {
+            "scid": "an8.78:4.9",
+            "pli": "Imehi kho, āvuso, catūhi dhammehi samannāgato bhikkhu alaṁ paresaṁ, nālaṁ attano. ",
+            "en": "A mendicant with these four qualities is <span class=\"ebt-matched\">good enough</span> for others but not for themselves. ",
+            "matched": true
+          },
+          "an8.78:5.1": {
+            "scid": "an8.78:5.1",
+            "pli": "Tīhāvuso, dhammehi samannāgato bhikkhu alaṁ attano, nālaṁ paresaṁ. ",
+            "en": "A mendicant with three qualities is <span class=\"ebt-matched\">good enough</span> for themselves but not for others. ",
+            "matched": true
+          },
+          "an8.78:5.9": {
+            "scid": "an8.78:5.9",
+            "pli": "Imehi kho, āvuso, tīhi dhammehi samannāgato bhikkhu alaṁ attano, nālaṁ paresaṁ. ",
+            "en": "A mendicant with these three qualities is <span class=\"ebt-matched\">good enough</span> for themselves but not for others. ",
+            "matched": true
+          },
+          "an8.78:6.1": {
+            "scid": "an8.78:6.1",
+            "pli": "Tīhāvuso, dhammehi samannāgato bhikkhu alaṁ paresaṁ, nālaṁ attano. ",
+            "en": "A mendicant with three qualities is <span class=\"ebt-matched\">good enough</span> for others but not for themselves. ",
+            "matched": true
+          },
+          "an8.78:6.9": {
+            "scid": "an8.78:6.9",
+            "pli": "Imehi kho, āvuso, tīhi dhammehi samannāgato bhikkhu alaṁ paresaṁ, nālaṁ attano. ",
+            "en": "A mendicant with these three qualities is <span class=\"ebt-matched\">good enough</span> for others but not for themselves. ",
+            "matched": true
+          },
+          "an8.78:7.1": {
+            "scid": "an8.78:7.1",
+            "pli": "Dvīhāvuso, dhammehi samannāgato bhikkhu alaṁ attano, nālaṁ paresaṁ. ",
+            "en": "A mendicant with two qualities is <span class=\"ebt-matched\">good enough</span> for themselves but not for others. ",
+            "matched": true
+          },
+          "an8.78:7.9": {
+            "scid": "an8.78:7.9",
+            "pli": "Imehi kho, āvuso, dvīhi dhammehi samannāgato bhikkhu alaṁ attano, nālaṁ paresaṁ. ",
+            "en": "A mendicant with these two qualities is <span class=\"ebt-matched\">good enough</span> for themselves but not for others. ",
+            "matched": true
+          },
+          "an8.78:8.1": {
+            "scid": "an8.78:8.1",
+            "pli": "Dvīhāvuso, dhammehi samannāgato bhikkhu alaṁ paresaṁ, nālaṁ attano. ",
+            "en": "A mendicant with two qualities is <span class=\"ebt-matched\">good enough</span> for others but not for themselves. ",
+            "matched": true
+          },
+          "an8.78:8.9": {
+            "scid": "an8.78:8.9",
+            "pli": "Imehi kho, āvuso, dvīhi dhammehi samannāgato bhikkhu alaṁ paresaṁ, nālaṁ attano”ti. ",
+            "en": "A mendicant with these two qualities is <span class=\"ebt-matched\">good enough</span> for others but not for themselves.” ",
+            "matched": true
+          }
+        },
+        "score": 17.221,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 8\n8. Pairs\n78. Good Enough",
+        "segsMatched": 17,
+        "langSegs": {
+          "pli": 77,
+          "en": 76
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
+          "translation/en/sujato/sutta/dn/dn23_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn23",
+        "lang": "en",
+        "segMap": {
+          "dn23:29.13": {
+            "scid": "dn23:29.13",
+            "pli": "‘Ayaṁ kho me, samma, sāṇabhāro dūrābhato ca susannaddho ca, alaṁ me, tvaṁ pajānāhī’ti. ",
+            "en": "‘I’ve already carried this bundle of hemp a long way, and it’s well tied up. It’s <span class=\"ebt-matched\">good enough</span> for me, you understand.’ ",
+            "matched": true
+          },
+          "dn23:29.19": {
+            "scid": "dn23:29.19",
+            "pli": "‘Ayaṁ kho me, samma, sāṇabhāro dūrābhato ca susannaddho ca, alaṁ me, tvaṁ pajānāhī’ti. ",
+            "en": "‘I’ve already carried this bundle of hemp a long way, and it’s well tied up. It’s <span class=\"ebt-matched\">good enough</span> for me, you understand.’ ",
+            "matched": true
+          },
+          "dn23:29.36": {
+            "scid": "dn23:29.36",
+            "pli": "‘Ayaṁ kho me, samma, sāṇabhāro dūrābhato ca susannaddho ca, alaṁ me tvaṁ pajānāhī’ti. ",
+            "en": "‘I’ve already carried this bundle of hemp a long way, and it’s well tied up. It’s <span class=\"ebt-matched\">good enough</span> for me, you understand.’ ",
+            "matched": true
+          }
+        },
+        "score": 3.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Long Discourses 23\nWith Pāyāsi",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 715,
+          "en": 713
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn100_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn100_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn100",
+        "lang": "en",
+        "segMap": {
+          "mn100:13.5": {
+            "scid": "mn100:13.5",
+            "pli": "Alaṁ vatidaṁ kulaputtassa padhānatthikassa padhānāyā’ti. ",
+            "en": "This is <span class=\"ebt-matched\">good enough</span> for a gentleman who wishes to put forth effort in meditation.’ ",
+            "matched": true
+          },
+          "mn100:13.7": {
+            "scid": "mn100:13.7",
+            "pli": "‘alamidaṁ padhānāyā’ti. ",
+            "en": "‘This is <span class=\"ebt-matched\">good enough</span> for meditation.’ ",
+            "matched": true
+          }
+        },
+        "score": 2.007,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Middle Discourses 100\nWith Saṅgārava",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 306,
+          "en": 303
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn36_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn36_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn36",
+        "lang": "en",
+        "segMap": {
+          "mn36:16.5": {
+            "scid": "mn36:16.5",
+            "pli": "Alaṁ vatidaṁ kulaputtassa padhānatthikassa padhānāyā’ti. ",
+            "en": "This is <span class=\"ebt-matched\">good enough</span> for a gentleman who wishes to put forth effort in meditation.’ ",
+            "matched": true
+          },
+          "mn36:16.7": {
+            "scid": "mn36:16.7",
+            "pli": "‘alamidaṁ padhānāyā’ti. ",
+            "en": "‘This is <span class=\"ebt-matched\">good enough</span> for meditation.’ ",
+            "matched": true
+          }
+        },
+        "score": 2.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Middle Discourses 36\nThe Longer Discourse With Saccaka",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 360,
+          "en": 359
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn26_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn26_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn26",
+        "lang": "en",
+        "segMap": {
+          "mn26:17.5": {
+            "scid": "mn26:17.5",
+            "pli": "Alaṁ vatidaṁ kulaputtassa padhānatthikassa padhānāyā’ti. ",
+            "en": "This is <span class=\"ebt-matched\">good enough</span> for a gentleman who wishes to put forth effort in meditation.’ ",
+            "matched": true
+          },
+          "mn26:17.7": {
+            "scid": "mn26:17.7",
+            "pli": "alamidaṁ padhānāyāti. ",
+            "en": "‘This is <span class=\"ebt-matched\">good enough</span> for meditation.’ ",
+            "matched": true
+          }
+        },
+        "score": 2.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Middle Discourses 26\nThe Noble Search",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 365,
+          "en": 364
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn85_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn85",
+        "lang": "en",
+        "segMap": {
+          "mn85:14.5": {
+            "scid": "mn85:14.5",
+            "pli": "Alaṁ vatidaṁ kulaputtassa padhānatthikassa padhānāyā’ti. ",
+            "en": "This is <span class=\"ebt-matched\">good enough</span> for a gentleman who wishes to put forth effort in meditation.’ ",
+            "matched": true
+          },
+          "mn85:14.7": {
+            "scid": "mn85:14.7",
+            "pli": "‘alamidaṁ padhānāyā’ti. ",
+            "en": "‘This is <span class=\"ebt-matched\">good enough</span> for meditation.’ ",
+            "matched": true
+          }
+        },
+        "score": 2.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Middle Discourses 85\nWith Prince Bodhi",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 553,
+          "en": 552
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an9/an9.3_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an9/an9.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an9.3",
+        "lang": "en",
+        "segMap": {
+          "an9.3:2.5": {
+            "scid": "an9.3:2.5",
+            "pli": "“pāsādikaṁ vatidaṁ ambavanaṁ ramaṇīyaṁ, alaṁ vatidaṁ kulaputtassa padhānatthikassa padhānāya. ",
+            "en": "“Oh, this mango grove is lovely and delightful! It’s truly <span class=\"ebt-matched\">good enough</span> for meditation for a kinsman who wants to meditate. ",
+            "matched": true
+          }
+        },
+        "score": 1.014,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 9\n1. Awakening\n3. With Meghiya",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 74,
+          "en": 73
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga4/ud4.1_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/ud/vagga4/ud4.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud4.1",
+        "lang": "en",
+        "segMap": {
+          "ud4.1:2.5": {
+            "scid": "ud4.1:2.5",
+            "pli": "“pāsādikaṁ vatidaṁ ambavanaṁ manuññaṁ ramaṇīyaṁ. Alaṁ vatidaṁ kulaputtassa padhānatthikassa padhānāya.",
+            "en": "“Oh, this mango grove is lovely and delightful! It’s truly <span class=\"ebt-matched\">good enough</span> for meditation for a kinsman who wants to meditate. ",
+            "matched": true
+          }
+        },
+        "score": 1.012,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Heartfelt Sayings\nWith Meghiya",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 85,
+          "en": 69
+        }
+      }
+    ]
+  }
+}

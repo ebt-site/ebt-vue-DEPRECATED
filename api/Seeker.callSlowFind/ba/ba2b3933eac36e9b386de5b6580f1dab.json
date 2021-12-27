@@ -1,0 +1,86 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "kreislauf der wiedergeburten",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "kreislauf der wiedergeburten",
+    "method": "phrase",
+    "resultPattern": "\\bkreislauf der wiedergeburten",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn15_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn15_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn15_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "dn15/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn15_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn15_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn15_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn15",
+        "lang": "de",
+        "segMap": {
+          "dn15:22.6": {
+            "scid": "dn15:22.6",
+            "pli": "Ettāvatā adhivacanapatho, ettāvatā niruttipatho, ettāvatā paññattipatho, ettāvatā paññāvacaraṁ, ettāvatā vaṭṭaṁ vattati itthattaṁ paññāpanāya yadidaṁ nāmarūpaṁ saha viññāṇena aññamaññapaccayatā pavattati. ",
+            "de": "Bis zu diesem Punkt erstreckt sich der Geltungsbereich von Sprache, Ausdrucksweise und Beschreibung; erstreckt sich der Bereich der Weisheit; setzt sich der <span class=\"ebt-matched\">Kreislauf der Wiedergeburten</span> fort, so dass es diesen Daseinszustand gibt: nämlich, dass Name und Form und Bewusstsein in wechselseitiger Abhängigkeit stehen. ",
+            "en": "This is how far the scope of language, terminology, and description extends; how far the sphere of wisdom extends; how far the cycle of rebirths proceeds so that this state of existence is to be found; namely, name and form together with consciousness. ",
+            "matched": true
+          },
+          "dn15:32.11": {
+            "scid": "dn15:32.11",
+            "pli": "Yāvatā, ānanda, adhivacanaṁ yāvatā adhivacanapatho, yāvatā nirutti yāvatā niruttipatho, yāvatā paññatti yāvatā paññattipatho, yāvatā paññā yāvatā paññāvacaraṁ, yāvatā vaṭṭaṁ, yāvatā vaṭṭati, tadabhiññāvimutto bhikkhu, tadabhiññāvimuttaṁ bhikkhuṁ ‘na jānāti na passati itissa diṭṭhī’ti, tadakallaṁ. ",
+            "de": "Ein Mönch ist befreit, indem er unmittelbar erkennt, wie weit sich die Sprache und der Geltungsbereich der Sprache erstrecken; wie weit sich die Ausdrucksweise und der Geltungsbereich der Ausdrucksweise erstrecken; wie weit sich Beschreibung und der Geltungsbereich der Beschreibung erstrecken; wie weit sich die Weisheit und der Bereich der Weisheit erstrecken; wie weit sich der <span class=\"ebt-matched\">Kreislauf der Wiedergeburten</span> und seine Fortsetzung erstrecken. Es wäre nicht angemessen, zu sagen, dass ein Mönch, der befreit ist, indem er dies unmittelbar erkennt, die Ansicht hat: ‚So etwas wie Erkennen und Sehen gibt es nicht.‘ ",
+            "en": "A mendicant is freed by directly knowing this: how far language and the scope of language extend; how far terminology and the scope of terminology extend; how far description and the scope of description extend; how far wisdom and the sphere of wisdom extend; how far the cycle of rebirths and its continuation extend. It wouldn’t be appropriate to say that a mendicant freed by directly knowing this holds the view: ‘There is no such thing as knowing and seeing.’ ",
+            "matched": true
+          }
+        },
+        "score": 2.007,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 15\nDie große Lehrrede über das Kausalprinzip\n1. Abhängiges Entstehen",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 277,
+          "de": 254,
+          "en": 276
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "so hat der buddha es erklärt",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "so hat der buddha es erklärt",
+    "method": "phrase",
+    "resultPattern": "\\bso hat der buddha es erklärt",
+    "segsMatched": 3,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an6/an6.62_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an6/an6.62_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an6/an6.62_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an6/an6.44_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an6/an6.44_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an6/an6.44_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.75_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.75_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.75_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an6.62/de/sabbamitta",
+      "an6.44/de/sabbamitta",
+      "an10.75/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an6/an6.44_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an6/an6.44_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an6/an6.44_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an6.44",
+        "lang": "de",
+        "segMap": {
+          "an6.44:2.7": {
+            "scid": "an6.44:2.7",
+            "pli": "“Evaṁ kho panetaṁ, bhagini, bhagavatā byākatan”ti. ",
+            "de": "„Du hast recht, Schwester, aber <span class=\"ebt-matched\">so hat der Buddha es erklärt</span>.“ ",
+            "en": "“You’re right, sister, but that’s how the Buddha declared it.” ",
+            "matched": true
+          }
+        },
+        "score": 1.013,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 6\n5. Über Dhammika\n44. Mit Migasālā",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 77,
+          "de": 66,
+          "en": 76
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.75_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.75_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.75_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.75",
+        "lang": "de",
+        "segMap": {
+          "an10.75:3.2": {
+            "scid": "an10.75:3.2",
+            "pli": "“Evaṁ kho panetaṁ, bhagini, bhagavatā byākatan”ti. ",
+            "de": "„Du hast recht, Schwester, aber <span class=\"ebt-matched\">so hat der Buddha es erklärt</span>.“ ",
+            "en": "“You’re right, sister, but that’s how the Buddha declared it.” ",
+            "matched": true
+          }
+        },
+        "score": 1.009,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10\n8. Wenn man wünscht\n75. Mit Migasālā",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 117,
+          "de": 106,
+          "en": 116
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an6/an6.62_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an6/an6.62_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an6/an6.62_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an6.62",
+        "lang": "de",
+        "segMap": {
+          "an6.62:2.6": {
+            "scid": "an6.62:2.6",
+            "pli": "Evaṁ kho panetaṁ, āvuso, bhagavatā byākatan”ti. ",
+            "de": "„Du hast recht, werter Freund, aber <span class=\"ebt-matched\">so hat der Buddha es erklärt</span>.“ ",
+            "en": "“You’re right, reverend, that’s how the Buddha declared it.” ",
+            "matched": true
+          }
+        },
+        "score": 1.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 6\n6. Das große Kapitel\n62. Menschenkenntnis",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 157,
+          "de": 118,
+          "en": 156
+        }
+      }
+    ]
+  }
+}

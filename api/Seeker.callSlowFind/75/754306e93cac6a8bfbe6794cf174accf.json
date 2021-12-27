@@ -1,0 +1,100 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "licht wahrnehmen",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "licht wahrnehmen",
+    "method": "phrase",
+    "resultPattern": "\\blicht wahrnehmen",
+    "segsMatched": 4,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an8/an8.64_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an8/an8.64_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an8/an8.64_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an8.64/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.64_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an8/an8.64_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an8/an8.64_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an8.64",
+        "lang": "de",
+        "segMap": {
+          "an8.64:2.2": {
+            "scid": "an8.64:2.2",
+            "pli": "‘sace kho ahaṁ obhāsañceva sañjāneyyaṁ rūpāni ca passeyyaṁ; ",
+            "de": "‚Wie wäre es, wenn ich sowohl <span class=\"ebt-matched\">Licht wahrnehmen</span> als auch Bilder sehen würde? ",
+            "en": "‘What if I were to both perceive light and see visions? ",
+            "matched": true
+          },
+          "an8.64:4.2": {
+            "scid": "an8.64:4.2",
+            "pli": "‘sace kho ahaṁ obhāsañceva sañjāneyyaṁ, rūpāni ca passeyyaṁ, tāhi ca devatāhi saddhiṁ santiṭṭheyyaṁ sallapeyyaṁ sākacchaṁ samāpajjeyyaṁ; ",
+            "de": "‚Wie wäre es, wenn ich sowohl <span class=\"ebt-matched\">Licht wahrnehmen</span> als auch Bilder sehen würde; und wenn ich mich mit diesen Gottheiten zusammenschließen, mit ihnen unterhalten und auf Diskussionen mit ihnen einlassen würde? ",
+            "en": "‘What if I were to perceive light and see visions; and associate with those deities, converse, and engage in discussion? ",
+            "matched": true
+          },
+          "an8.64:6.2": {
+            "scid": "an8.64:6.2",
+            "pli": "‘sace kho ahaṁ obhāsañceva sañjāneyyaṁ, rūpāni ca passeyyaṁ, tāhi ca devatāhi saddhiṁ santiṭṭheyyaṁ sallapeyyaṁ sākacchaṁ samāpajjeyyaṁ, tā ca devatā jāneyyaṁ: ",
+            "de": "‚Wie wäre es, wenn ich <span class=\"ebt-matched\">Licht wahrnehmen</span> und Bilder sehen würde; wenn ich mich mit diesen Gottheiten zusammenschließen, mit ihnen unterhalten und auf Diskussionen mit ihnen einlassen würde; ",
+            "en": "‘What if I were to perceive light and see visions; and associate with those deities, converse, and engage in discussion; ",
+            "matched": true
+          },
+          "an8.64:8.2": {
+            "scid": "an8.64:8.2",
+            "pli": "‘sace kho ahaṁ obhāsañceva sañjāneyyaṁ, rūpāni ca passeyyaṁ, tāhi ca devatāhi saddhiṁ santiṭṭheyyaṁ sallapeyyaṁ sākacchaṁ samāpajjeyyaṁ, tā ca devatā jāneyyaṁ: ",
+            "de": "‚Wie wäre es, wenn ich <span class=\"ebt-matched\">Licht wahrnehmen</span> und Bilder sehen würde; wenn ich mich mit diesen Gottheiten zusammenschließen, mit ihnen unterhalten und auf Diskussionen mit ihnen einlassen würde; ",
+            "en": "‘What if I were to perceive light and see visions; and associate with those deities, converse, and engage in discussion; ",
+            "matched": true
+          }
+        },
+        "score": 4.075,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 8\n7. Erdbeben\n64. Beim Gayā-Kopf",
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 53,
+          "de": 48,
+          "en": 52
+        }
+      }
+    ]
+  }
+}
