@@ -1,0 +1,206 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "vielleicht nicht mein",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "vielleicht nicht mein",
+    "method": "phrase",
+    "resultPattern": "\\bvielleicht nicht mein",
+    "segsMatched": 15,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an7/an7.55_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an7/an7.55_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an7/an7.55_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.29_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.29_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.29_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an7.55/de/sabbamitta",
+      "an10.29/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an7/an7.55_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an7/an7.55_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an7/an7.55_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an7.55",
+        "lang": "de",
+        "segMap": {
+          "an7.55:2.2": {
+            "scid": "an7.55:2.2",
+            "pli": "‘no cassa no ca me siyā, na bhavissati na me bhavissati, yadatthi yaṁ bhūtaṁ taṁ pajahāmī’ti upekkhaṁ paṭilabhati. ",
+            "de": "‚Es ist vielleicht nicht, und es ist <span class=\"ebt-matched\">vielleicht nicht mein</span>. Es wird nicht sein, und es wird nicht mein sein. Was besteht, was entstanden ist, das gebe ich auf.‘ So gewinnt sie Gleichmut. ",
+            "en": "‘It might not be, and it might not be mine. It will not be, and it will not be mine. I am giving up what exists, what has come to be.’ They gain equanimity. ",
+            "matched": true
+          },
+          "an7.55:3.2": {
+            "scid": "an7.55:3.2",
+            "pli": "‘no cassa no ca me siyā, na bhavissati na me bhavissati, yadatthi yaṁ bhūtaṁ taṁ pajahāmī’ti upekkhaṁ paṭilabhati. ",
+            "de": "‚Es ist vielleicht nicht, und es ist <span class=\"ebt-matched\">vielleicht nicht mein</span>. Es wird nicht sein, und es wird nicht mein sein. Was besteht, was entstanden ist, das gebe ich auf.‘ So gewinnt er Gleichmut. ",
+            "en": "‘It might not be, and it might not be mine. It will not be, and it will not be mine. I am giving up what exists, what has come to be.’ They gain equanimity. ",
+            "matched": true
+          },
+          "an7.55:3.8": {
+            "scid": "an7.55:3.8",
+            "pli": "‘no cassa no ca me siyā …pe… ",
+            "de": "‚Es ist vielleicht nicht, und es ist <span class=\"ebt-matched\">vielleicht nicht mein</span>. … ",
+            "en": " ",
+            "matched": true
+          },
+          "an7.55:4.2": {
+            "scid": "an7.55:4.2",
+            "pli": "‘no cassa no ca me siyā …pe… ",
+            "de": "‚Es ist vielleicht nicht, und es ist <span class=\"ebt-matched\">vielleicht nicht mein</span>. … ",
+            "en": "‘It might not be, and it might not be mine. …’ ",
+            "matched": true
+          },
+          "an7.55:4.6": {
+            "scid": "an7.55:4.6",
+            "pli": "‘no cassa no ca me siyā …pe… ",
+            "de": "‚Es ist vielleicht nicht, und es ist <span class=\"ebt-matched\">vielleicht nicht mein</span>. … ",
+            "en": " ",
+            "matched": true
+          },
+          "an7.55:5.2": {
+            "scid": "an7.55:5.2",
+            "pli": "‘no cassa no ca me siyā …pe… ",
+            "de": "‚Es ist vielleicht nicht, und es ist <span class=\"ebt-matched\">vielleicht nicht mein</span>. … ",
+            "en": "‘It might not be, and it might not be mine. …’ ",
+            "matched": true
+          },
+          "an7.55:5.6": {
+            "scid": "an7.55:5.6",
+            "pli": "‘no cassa no ca me siyā …pe… ",
+            "de": "‚Es ist vielleicht nicht, und es ist <span class=\"ebt-matched\">vielleicht nicht mein</span>. … ",
+            "en": "‘It might not be, and it might not be mine. …’ ",
+            "matched": true
+          },
+          "an7.55:6.2": {
+            "scid": "an7.55:6.2",
+            "pli": "‘no cassa no ca me siyā …pe… ",
+            "de": "‚Es ist vielleicht nicht, und es ist <span class=\"ebt-matched\">vielleicht nicht mein</span>. … ",
+            "en": "‘It might not be, and it might not be mine. …’ ",
+            "matched": true
+          },
+          "an7.55:6.7": {
+            "scid": "an7.55:6.7",
+            "pli": "‘no cassa no ca me siyā …pe… ",
+            "de": "‚Es ist vielleicht nicht, und es ist <span class=\"ebt-matched\">vielleicht nicht mein</span>. … ",
+            "en": "‘It might not be, and it might not be mine. …’ ",
+            "matched": true
+          },
+          "an7.55:7.2": {
+            "scid": "an7.55:7.2",
+            "pli": "‘no cassa no ca me siyā …pe… ",
+            "de": "‚Es ist vielleicht nicht, und es ist <span class=\"ebt-matched\">vielleicht nicht mein</span>. … ",
+            "en": "‘It might not be, and it might not be mine. …’ ",
+            "matched": true
+          },
+          "an7.55:7.7": {
+            "scid": "an7.55:7.7",
+            "pli": "‘no cassa no ca me siyā …pe… ",
+            "de": "‚Es ist vielleicht nicht, und es ist <span class=\"ebt-matched\">vielleicht nicht mein</span>. … ",
+            "en": "‘It might not be, and it might not be mine. …’ ",
+            "matched": true
+          },
+          "an7.55:8.2": {
+            "scid": "an7.55:8.2",
+            "pli": "‘no cassa no ca me siyā, na bhavissati na me bhavissati, yadatthi yaṁ bhūtaṁ taṁ pajahāmī’ti upekkhaṁ paṭilabhati. ",
+            "de": "‚Es ist vielleicht nicht, und es ist <span class=\"ebt-matched\">vielleicht nicht mein</span>. Es wird nicht sein, und es wird nicht mein sein. Was besteht, was entstanden ist, das gebe ich auf.‘ So gewinnt sie Gleichmut. ",
+            "en": "‘It might not be, and it might not be mine. It will not be, and it will not be mine. I am giving up what exists, what has come to be.’ They gain equanimity. ",
+            "matched": true
+          },
+          "an7.55:8.9": {
+            "scid": "an7.55:8.9",
+            "pli": "‘no cassa no ca me siyā …pe… ",
+            "de": "‚Es ist vielleicht nicht, und es ist <span class=\"ebt-matched\">vielleicht nicht mein</span>. … ",
+            "en": "‘It might not be, and it might not be mine. …’ ",
+            "matched": true
+          },
+          "an7.55:9.3": {
+            "scid": "an7.55:9.3",
+            "pli": "‘no cassa no ca me siyā, na bhavissati na me bhavissati, yadatthi yaṁ bhūtaṁ taṁ pajahāmī’ti upekkhaṁ paṭilabhati. ",
+            "de": "‚Es ist vielleicht nicht, und es ist <span class=\"ebt-matched\">vielleicht nicht mein</span>. Es wird nicht sein, und es wird nicht mein sein. Was besteht, was entstanden ist, das gebe ich auf.‘ So gewinnt er Gleichmut. ",
+            "en": "‘It might not be, and it might not be mine. It will not be, and it will not be mine. I am giving up what exists, what has come to be.’ They gain equanimity. ",
+            "matched": true
+          }
+        },
+        "score": 14.179,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 7\n6. Die nicht erklärten Punkte\n55. Bestimmungsorte von Menschen",
+        "segsMatched": 14,
+        "langSegs": {
+          "pli": 78,
+          "de": 74,
+          "en": 77
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.29_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.29_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.29_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.29",
+        "lang": "de",
+        "segMap": {
+          "an10.29:19.1": {
+            "scid": "an10.29:19.1",
+            "pli": "Etadaggaṁ, bhikkhave, bāhirakānaṁ diṭṭhigatānaṁ yadidaṁ ‘no cassaṁ, no ca me siyā, na bhavissāmi, na me bhavissatī’ti. ",
+            "de": "Die vorderste unter den Überzeugungen Außenstehender ist: ‚Es ist vielleicht nicht, und es ist <span class=\"ebt-matched\">vielleicht nicht mein</span>. Es wird nicht sein, und es wird nicht mein sein.‘ ",
+            "en": "This is the best of the convictions of outsiders, that is: ‘I might not be, and it might not be mine. I will not be, and it will not be mine.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10\n3. Das große Kapitel\n29. Kosala (1)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 124,
+          "de": 123,
+          "en": 123
+        }
+      }
+    ]
+  }
+}

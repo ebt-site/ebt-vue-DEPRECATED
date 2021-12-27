@@ -1,0 +1,170 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "the lion, king of beasts, emerges",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en"
+      ],
+      "maxResults": 1000,
+      "searchLang": "en",
+      "maxDoc": 50,
+      "minLang": 2,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "en",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "the lion, king of beasts, emerges",
+    "method": "phrase",
+    "resultPattern": "\\bthe lion, king of beasts, emerges",
+    "segsMatched": 4,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn22/sn22.78_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.78_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.99_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an5/an5.99_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.33_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an4/an4.33_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.21_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an10/an10.21_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn22.78/en/sujato",
+      "an5.99/en/sujato",
+      "an4.33/en/sujato",
+      "an10.21/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an5/an5.99_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an5/an5.99_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an5.99",
+        "lang": "en",
+        "segMap": {
+          "an5.99:1.1": {
+            "scid": "an5.99:1.1",
+            "pli": "“Sīho, bhikkhave, migarājā sāyanhasamayaṁ āsayā nikkhamati; ",
+            "en": "“Mendicants, towards evening <span class=\"ebt-matched\">the lion, king of beasts, emerges</span> from his den, ",
+            "matched": true
+          }
+        },
+        "score": 1.04,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 5\n10. With Kakudha\n99. The Lion",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 25,
+          "en": 24
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.21_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an10/an10.21_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.21",
+        "lang": "en",
+        "segMap": {
+          "an10.21:1.1": {
+            "scid": "an10.21:1.1",
+            "pli": "“Sīho, bhikkhave, migarājā sāyanhasamayaṁ āsayā nikkhamati. ",
+            "en": "“Mendicants, towards evening <span class=\"ebt-matched\">the lion, king of beasts, emerges</span> from his den, ",
+            "matched": true
+          }
+        },
+        "score": 1.028,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 10\n3. The Great Chapter\n21. The Lion’s Roar",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 36,
+          "en": 35
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.33_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an4/an4.33_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.33",
+        "lang": "en",
+        "segMap": {
+          "an4.33:1.1": {
+            "scid": "an4.33:1.1",
+            "pli": "“Sīho, bhikkhave, migarājā sāyanhasamayaṁ āsayā nikkhamati. ",
+            "en": "“Mendicants, towards evening <span class=\"ebt-matched\">the lion, king of beasts, emerges</span> from his den, ",
+            "matched": true
+          }
+        },
+        "score": 1.027,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 4\n4. Situations\n33. The Lion",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 37,
+          "en": 36
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.78_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.78_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.78",
+        "lang": "en",
+        "segMap": {
+          "sn22.78:1.2": {
+            "scid": "sn22.78:1.2",
+            "pli": "“Sīho, bhikkhave, migarājā sāyanhasamayaṁ āsayā nikkhamati; āsayā nikkhamitvā vijambhati; vijambhitvā samantā catuddisā anuviloketi; samantā catuddisā anuviloketvā tikkhattuṁ sīhanādaṁ nadati; tikkhattuṁ sīhanādaṁ naditvā gocarāya pakkamati. ",
+            "en": "“Mendicants, towards evening <span class=\"ebt-matched\">the lion, king of beasts, emerges</span> from his den, yawns, looks all around the four directions, and roars his lion’s roar three times. Then he sets out on the hunt. ",
+            "matched": true
+          }
+        },
+        "score": 1.026,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 22\n8. Itchy\n78. The Lion",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 39,
+          "en": 38
+        }
+      }
+    ]
+  }
+}

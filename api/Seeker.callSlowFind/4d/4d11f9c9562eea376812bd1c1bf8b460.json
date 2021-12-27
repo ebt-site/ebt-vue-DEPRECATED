@@ -1,0 +1,574 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "cowardice",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en"
+      ],
+      "maxResults": 1000,
+      "searchLang": "en",
+      "maxDoc": 50,
+      "minLang": 2,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "en",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "cowardice",
+    "method": "phrase",
+    "resultPattern": "\\bcowardice",
+    "segsMatched": 28,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn31_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn31_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.20_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an4/an4.20_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.19_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an4/an4.19_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.272_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an5/an5.272_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.18_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an4/an4.18_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.17_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an4/an4.17_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an2/an2.42-51_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an2/an2.42-51_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag16.7_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/thag/thag16.7_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga3/snp3.2_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga3/snp3.2_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn29_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn29_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an9/an9.7_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an9/an9.7_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an8/an8.33_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an8/an8.33_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.273-285_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an5/an5.273-285_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "dn31/en/sujato",
+      "an4.20/en/sujato",
+      "an4.19/en/sujato",
+      "an5.272/en/sujato",
+      "an4.18/en/sujato",
+      "an4.17/en/sujato",
+      "an2.42-51/en/sujato",
+      "thag16.7/en/sujato",
+      "snp3.2/en/sujato",
+      "dn33/en/sujato",
+      "dn29/en/sujato",
+      "an9.7/en/sujato",
+      "an8.33/en/sujato",
+      "an5.273-285/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.19_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an4/an4.19_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.19",
+        "lang": "en",
+        "segMap": {
+          "an4.19:1.3": {
+            "scid": "an4.19:1.3",
+            "pli": "Chandāgatiṁ gacchati, dosāgatiṁ gacchati, mohāgatiṁ gacchati, bhayāgatiṁ gacchati—",
+            "en": "Making decisions prejudiced by favoritism, hostility, stupidity, and <span class=\"ebt-matched\">cowardice</span>. ",
+            "matched": true
+          },
+          "an4.19:2.3": {
+            "scid": "an4.19:2.3",
+            "pli": "Na chandāgatiṁ gacchati, na dosāgatiṁ gacchati, na mohāgatiṁ gacchati, na bhayāgatiṁ gacchati—",
+            "en": "Making decisions unprejudiced by favoritism, hostility, stupidity, and <span class=\"ebt-matched\">cowardice</span>. ",
+            "matched": true
+          },
+          "an4.19:3.2": {
+            "scid": "an4.19:3.2",
+            "pli": "yo dhammaṁ ativattati; ",
+            "en": "out of favoritism, hostility, <span class=\"ebt-matched\">cowardice</span>, or stupidity, ",
+            "matched": true
+          },
+          "an4.19:4.2": {
+            "scid": "an4.19:4.2",
+            "pli": "yo dhammaṁ nātivattati; ",
+            "en": "out of favoritism, hostility, <span class=\"ebt-matched\">cowardice</span>, and stupidity, ",
+            "matched": true
+          }
+        },
+        "score": 4.2,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 4\n2. Walking\n19. Prejudice (3rd)",
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 20,
+          "en": 19
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.20_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an4/an4.20_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.20",
+        "lang": "en",
+        "segMap": {
+          "an4.20:1.3": {
+            "scid": "an4.20:1.3",
+            "pli": "Chandāgatiṁ gacchati, dosāgatiṁ gacchati, mohāgatiṁ gacchati, bhayāgatiṁ gacchati—",
+            "en": "They make decisions prejudiced by favoritism, hostility, stupidity, and <span class=\"ebt-matched\">cowardice</span>. ",
+            "matched": true
+          },
+          "an4.20:2.3": {
+            "scid": "an4.20:2.3",
+            "pli": "Na chandāgatiṁ gacchati, na dosāgatiṁ gacchati, na mohāgatiṁ gacchati, na bhayāgatiṁ gacchati—",
+            "en": "They make decisions unprejudiced by favoritism, hostility, stupidity, and <span class=\"ebt-matched\">cowardice</span>. ",
+            "matched": true
+          },
+          "an4.20:3.3": {
+            "scid": "an4.20:3.3",
+            "pli": "Chandā dosā mohā ca bhayā gāmino, ",
+            "en": "led astray by favoritism, hatred, stupidity, or <span class=\"ebt-matched\">cowardice</span>, ",
+            "matched": true
+          },
+          "an4.20:4.4": {
+            "scid": "an4.20:4.4",
+            "pli": "Na chandā na dosā na mohā na bhayā ca gāmino; ",
+            "en": "not led astray by favoritism, hatred, stupidity, or <span class=\"ebt-matched\">cowardice</span>, ",
+            "matched": true
+          }
+        },
+        "score": 4.143,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 4\n2. Walking\n20. A Meal-allocator",
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 28,
+          "en": 26
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn31_root-pli-ms.json",
+          "translation/en/sujato/sutta/dn/dn31_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn31",
+        "lang": "en",
+        "segMap": {
+          "dn31:5.2": {
+            "scid": "dn31:5.2",
+            "pli": "Chandāgatiṁ gacchanto pāpakammaṁ karoti, dosāgatiṁ gacchanto pāpakammaṁ karoti, mohāgatiṁ gacchanto pāpakammaṁ karoti, bhayāgatiṁ gacchanto pāpakammaṁ karoti. ",
+            "en": "One does bad deeds prejudiced by favoritism, hostility, stupidity, and <span class=\"ebt-matched\">cowardice</span>. ",
+            "matched": true
+          },
+          "dn31:5.3": {
+            "scid": "dn31:5.3",
+            "pli": "Yato kho, gahapatiputta, ariyasāvako neva chandāgatiṁ gacchati, na dosāgatiṁ gacchati, na mohāgatiṁ gacchati, na bhayāgatiṁ gacchati; ",
+            "en": "When a noble disciple is not prejudiced by favoritism, hostility, stupidity, and <span class=\"ebt-matched\">cowardice</span>, ",
+            "matched": true
+          },
+          "dn31:6.2": {
+            "scid": "dn31:6.2",
+            "pli": "yo dhammaṁ ativattati; ",
+            "en": "out of favoritism, hostility, <span class=\"ebt-matched\">cowardice</span>, or stupidity, ",
+            "matched": true
+          },
+          "dn31:6.6": {
+            "scid": "dn31:6.6",
+            "pli": "yo dhammaṁ nātivattati; ",
+            "en": "out of favoritism, hostility, <span class=\"ebt-matched\">cowardice</span>, and stupidity, ",
+            "matched": true
+          }
+        },
+        "score": 4.015,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Long Discourses 31\nAdvice to Sigālaka",
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 267,
+          "en": 266
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an5/an5.272_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an5/an5.272_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an5.272",
+        "lang": "en",
+        "segMap": {
+          "an5.272:1.3": {
+            "scid": "an5.272:1.3",
+            "pli": "Chandāgatiṁ gacchati, dosāgatiṁ gacchati, mohāgatiṁ gacchati, bhayāgatiṁ gacchati, uddiṭṭhānuddiṭṭhaṁ na jānāti. ",
+            "en": "They make decisions prejudiced by favoritism, hostility, stupidity, and <span class=\"ebt-matched\">cowardice</span>. And they don’t know if a meal has been assigned or not. ",
+            "matched": true
+          },
+          "an5.272:2.3": {
+            "scid": "an5.272:2.3",
+            "pli": "Na chandāgatiṁ gacchati, na dosāgatiṁ gacchati, na mohāgatiṁ gacchati, na bhayāgatiṁ gacchati, uddiṭṭhānuddiṭṭhaṁ jānāti. ",
+            "en": "They don’t make decisions prejudiced by favoritism, hostility, stupidity, and <span class=\"ebt-matched\">cowardice</span>. And they know if a meal has been assigned or not. ",
+            "matched": true
+          },
+          "an5.272:3.3": {
+            "scid": "an5.272:3.3",
+            "pli": "Na chandāgatiṁ gacchati, na dosāgatiṁ gacchati, na mohāgatiṁ gacchati, na bhayāgatiṁ gacchati, uddiṭṭhānuddiṭṭhaṁ jānāti. ",
+            "en": "They don’t make decisions prejudiced by favoritism, hostility, stupidity, and <span class=\"ebt-matched\">cowardice</span>. And they know if a meal has been assigned or not. ",
+            "matched": true
+          }
+        },
+        "score": 3.188,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 5\n27. Abbreviated Texts on Appointments\n272. A Meal Assigner",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 16,
+          "en": 15
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.17_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an4/an4.17_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.17",
+        "lang": "en",
+        "segMap": {
+          "an4.17:1.3": {
+            "scid": "an4.17:1.3",
+            "pli": "Chandāgatiṁ gacchati, dosāgatiṁ gacchati, mohāgatiṁ gacchati, bhayāgatiṁ gacchati—",
+            "en": "Making decisions prejudiced by favoritism, hostility, stupidity, and <span class=\"ebt-matched\">cowardice</span>. ",
+            "matched": true
+          },
+          "an4.17:2.2": {
+            "scid": "an4.17:2.2",
+            "pli": "yo dhammaṁ ativattati; ",
+            "en": "out of favoritism, hostility, <span class=\"ebt-matched\">cowardice</span>, or stupidity, ",
+            "matched": true
+          }
+        },
+        "score": 2.167,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 4\n2. Walking\n17. Prejudice (1st)",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 12,
+          "en": 11
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.18_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an4/an4.18_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.18",
+        "lang": "en",
+        "segMap": {
+          "an4.18:1.3": {
+            "scid": "an4.18:1.3",
+            "pli": "Na chandāgatiṁ gacchati, na dosāgatiṁ gacchati, na mohāgatiṁ gacchati, na bhayāgatiṁ gacchati—",
+            "en": "Making decisions unprejudiced by favoritism, hostility, stupidity, and <span class=\"ebt-matched\">cowardice</span>. ",
+            "matched": true
+          },
+          "an4.18:2.2": {
+            "scid": "an4.18:2.2",
+            "pli": "yo dhammaṁ nātivattati; ",
+            "en": "out of favoritism, hostility, <span class=\"ebt-matched\">cowardice</span>, and stupidity, ",
+            "matched": true
+          }
+        },
+        "score": 2.167,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 4\n2. Walking\n18. Prejudice (2nd)",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 12,
+          "en": 11
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an2/an2.42-51_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an2/an2.42-51_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an2.42-51",
+        "lang": "en",
+        "segMap": {
+          "an2.46:1.5": {
+            "scid": "an2.46:1.5",
+            "pli": "Idha, bhikkhave, yassaṁ parisāyaṁ bhikkhū chandāgatiṁ gacchanti, dosāgatiṁ gacchanti, mohāgatiṁ gacchanti, bhayāgatiṁ gacchanti. ",
+            "en": "An assembly where the mendicants make decisions prejudiced by favoritism, hostility, stupidity, and <span class=\"ebt-matched\">cowardice</span>. ",
+            "matched": true
+          },
+          "an2.46:2.2": {
+            "scid": "an2.46:2.2",
+            "pli": "Idha, bhikkhave, yassaṁ parisāyaṁ bhikkhū na chandāgatiṁ gacchanti, na dosāgatiṁ gacchanti, na mohāgatiṁ gacchanti, na bhayāgatiṁ gacchanti. ",
+            "en": "An assembly where the mendicants make decisions unprejudiced by favoritism, hostility, stupidity, and <span class=\"ebt-matched\">cowardice</span>. ",
+            "matched": true
+          }
+        },
+        "score": 2.014,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 2\n5. Assemblies\n42–51",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 146,
+          "en": 144
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.33_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an8/an8.33_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an8.33",
+        "lang": "en",
+        "segMap": {
+          "an8.33:1.3": {
+            "scid": "an8.33:1.3",
+            "pli": "Chandā dānaṁ deti, dosā dānaṁ deti, mohā dānaṁ deti, bhayā dānaṁ deti, ‘dinnapubbaṁ katapubbaṁ pitupitāmahehi, nārahāmi porāṇaṁ kulavaṁsaṁ hāpetun’ti dānaṁ deti, ‘imāhaṁ dānaṁ datvā kāyassa bhedā paraṁ maraṇā sugatiṁ saggaṁ lokaṁ upapajjissāmī’ti dānaṁ deti, ‘imaṁ me dānaṁ dadato cittaṁ pasīdati, attamanatā somanassaṁ upajāyatī’ti dānaṁ deti, cittālaṅkāracittaparikkhāratthaṁ dānaṁ deti. ",
+            "en": "A person might give a gift out of favoritism or hostility or stupidity or <span class=\"ebt-matched\">cowardice</span>. Or they give thinking, ‘Giving was practiced by my father and my father’s father. It would not be right for me to abandon this family tradition.’ Or they give thinking, ‘After I’ve given this gift, when my body breaks up, after death, I’ll be reborn in a good place, a heavenly realm.’ Or they give thinking, ‘When giving this gift my mind becomes clear, and I become happy and joyful.’ Or they give a gift thinking, ‘This is an adornment and requisite for the mind.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.125,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 8\n4. Giving\n33. Reasons to Give",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 8,
+          "en": 7
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an9/an9.7_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an9/an9.7_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an9.7",
+        "lang": "en",
+        "segMap": {
+          "an9.7:3.4": {
+            "scid": "an9.7:3.4",
+            "pli": "abhabbo khīṇāsavo bhikkhu sañcicca pāṇaṁ jīvitā voropetuṁ, abhabbo khīṇāsavo bhikkhu adinnaṁ theyyasaṅkhātaṁ ādātuṁ, abhabbo khīṇāsavo bhikkhu methunaṁ dhammaṁ paṭisevituṁ, abhabbo khīṇāsavo bhikkhu sampajānamusā bhāsituṁ, abhabbo khīṇāsavo bhikkhu sannidhikārakaṁ kāme paribhuñjituṁ seyyathāpi pubbe agāriyabhūto, abhabbo khīṇāsavo bhikkhu chandāgatiṁ gantuṁ, abhabbo khīṇāsavo bhikkhu dosāgatiṁ gantuṁ, abhabbo khīṇāsavo bhikkhu mohāgatiṁ gantuṁ, abhabbo khīṇāsavo bhikkhu bhayāgatiṁ gantuṁ’. ",
+            "en": "A mendicant with defilements ended can’t deliberately take the life of a living creature, take something with the intention to steal, have sex, tell a deliberate lie, or store up goods for their own enjoyment like they did as a lay person. And they can’t make decisions prejudiced by favoritism, hostility, stupidity, or <span class=\"ebt-matched\">cowardice</span>.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.056,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 9\n1. Awakening\n7. With Sutavā the Wanderer",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 18,
+          "en": 17
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an5/an5.273-285_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an5/an5.273-285_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an5.273-285",
+        "lang": "en",
+        "segMap": {
+          "an5.273-285:14.3": {
+            "scid": "an5.273-285:14.3",
+            "pli": "Na chandāgatiṁ gacchati, na dosāgatiṁ gacchati, na mohāgatiṁ gacchati, na bhayāgatiṁ gacchati, pesitāpesitaṁ jānāti. ",
+            "en": "They don’t make decisions prejudiced by favoritism, hostility, stupidity, and <span class=\"ebt-matched\">cowardice</span>. And they know if a novice has been supervised or not. ",
+            "matched": true
+          }
+        },
+        "score": 1.043,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 5\n27. Abbreviated Texts on Appointments\n273–285. A Lodgings Assigner",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 23,
+          "en": 22
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag16.7_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/thag/thag16.7_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag16.7",
+        "lang": "en",
+        "segMap": {
+          "thag16.7:23.1": {
+            "scid": "thag16.7:23.1",
+            "pli": "Sojja bhaddo anutrāsī,",
+            "en": "Today I am fortunate, free of <span class=\"ebt-matched\">cowardice</span>,",
+            "matched": true
+          }
+        },
+        "score": 1.012,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verses of the Senior Monks\nThe Book of the Twenties\nChapter One\nKāḷigodhāputtabhaddiya",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 84,
+          "en": 83
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga3/snp3.2_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga3/snp3.2_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp3.2",
+        "lang": "en",
+        "segMap": {
+          "snp3.2:13.2": {
+            "scid": "snp3.2:13.2",
+            "pli": "Chaṭṭhā bhīrū pavuccati;",
+            "en": "the sixth is said to be <span class=\"ebt-matched\">cowardice</span>,",
+            "matched": true
+          }
+        },
+        "score": 1.01,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses\nStriving",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 105,
+          "en": 104
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn29_root-pli-ms.json",
+          "translation/en/sujato/sutta/dn/dn29_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn29",
+        "lang": "en",
+        "segMap": {
+          "dn29:26.8": {
+            "scid": "dn29:26.8",
+            "pli": "Abhabbo, āvuso, khīṇāsavo bhikkhu sañcicca pāṇaṁ jīvitā voropetuṁ; abhabbo khīṇāsavo bhikkhu adinnaṁ theyyasaṅkhātaṁ ādiyituṁ; abhabbo khīṇāsavo bhikkhu methunaṁ dhammaṁ paṭisevituṁ; abhabbo khīṇāsavo bhikkhu sampajānamusā bhāsituṁ; abhabbo khīṇāsavo bhikkhu sannidhikārakaṁ kāme paribhuñjituṁ, seyyathāpi pubbe āgārikabhūto; abhabbo khīṇāsavo bhikkhu chandāgatiṁ gantuṁ; abhabbo khīṇāsavo bhikkhu dosāgatiṁ gantuṁ; abhabbo khīṇāsavo bhikkhu mohāgatiṁ gantuṁ; abhabbo khīṇāsavo bhikkhu bhayāgatiṁ gantuṁ. ",
+            "en": "A mendicant with defilements ended can’t deliberately take the life of a living creature, take something with the intention to steal, have sex, tell a deliberate lie, or store up goods for their own enjoyment like they did as a lay person. And they can’t make decisions prejudiced by favoritism, hostility, stupidity, or <span class=\"ebt-matched\">cowardice</span>. ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Long Discourses 29\nAn Impressive Discourse",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 465,
+          "en": 464
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+          "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn33",
+        "lang": "en",
+        "segMap": {
+          "dn33:1.11.128": {
+            "scid": "dn33:1.11.128",
+            "pli": "chandāgatiṁ gacchati, dosāgatiṁ gacchati, mohāgatiṁ gacchati, bhayāgatiṁ gacchati. ",
+            "en": "making decisions prejudiced by favoritism, hostility, stupidity, and <span class=\"ebt-matched\">cowardice</span>. ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Long Discourses 33\nReciting in Concert",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 1167,
+          "en": 1166
+        }
+      }
+    ]
+  }
+}
