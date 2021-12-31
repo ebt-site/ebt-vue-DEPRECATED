@@ -1,0 +1,129 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "verloren, wenn er stirbt",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "verloren, wenn er stirbt",
+    "method": "phrase",
+    "resultPattern": "\\bverloren, wenn er stirbt",
+    "segsMatched": 4,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.213_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an5/an5.213_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an5/an5.213_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "dn33/de/sabbamitta",
+      "an5.213/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an5/an5.213_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an5/an5.213_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an5/an5.213_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an5.213",
+        "lang": "de",
+        "segMap": {
+          "an5.213:4.1": {
+            "scid": "an5.213:4.1",
+            "pli": "Puna caparaṁ, bhikkhave, dussīlo sīlavipanno sammūḷho kālaṁ karoti. ",
+            "de": "Dann fühlt sich da ein unmoralischer Mensch <span class=\"ebt-matched\">verloren, wenn er stirbt</span>. ",
+            "en": "Furthermore, an unethical person feels lost when they die. ",
+            "matched": true
+          },
+          "an5.213:9.1": {
+            "scid": "an5.213:9.1",
+            "pli": "Puna caparaṁ, bhikkhave, sīlavā sīlasampanno asammūḷho kālaṁ karoti. ",
+            "de": "Dann fühlt sich da ein sittlicher Mensch nicht <span class=\"ebt-matched\">verloren, wenn er stirbt</span>. ",
+            "en": "Furthermore, an ethical person dies not feeling lost. ",
+            "matched": true
+          }
+        },
+        "score": 2.067,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 5\n22. Beschimpfung\n213. Sittliches Verhalten",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 30,
+          "de": 29,
+          "en": 29
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn33",
+        "lang": "de",
+        "segMap": {
+          "dn33:2.1.43": {
+            "scid": "dn33:2.1.43",
+            "pli": "Puna caparaṁ, āvuso, dussīlo sīlavipanno sammūḷho kālaṁ karoti, ",
+            "de": "Dann fühlt sich da ein unmoralischer Mensch <span class=\"ebt-matched\">verloren, wenn er stirbt</span>. ",
+            "en": "Furthermore, an unethical person feels lost when they die. ",
+            "matched": true
+          },
+          "dn33:2.1.54": {
+            "scid": "dn33:2.1.54",
+            "pli": "Puna caparaṁ, āvuso, sīlavā sīlasampanno asammūḷho kālaṁ karoti, ",
+            "de": "Dann fühlt sich da ein sittlicher Mensch nicht <span class=\"ebt-matched\">verloren, wenn er stirbt</span>. ",
+            "en": "Furthermore, an ethical person dies not feeling lost. ",
+            "matched": true
+          }
+        },
+        "score": 2.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 33\nIm Chor aufsagen",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 1167,
+          "de": 1166,
+          "en": 1166
+        }
+      }
+    ]
+  }
+}
