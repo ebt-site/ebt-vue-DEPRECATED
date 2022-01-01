@@ -1185,6 +1185,7 @@
     "speak, good horn",
     "speak the truth",
     "spectrum of wisdom",
+    "spectrums of the teaching",
     "starting arguments",
     "still belongs",
     "stilling of all activities",
