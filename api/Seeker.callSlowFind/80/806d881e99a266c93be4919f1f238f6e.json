@@ -1,0 +1,93 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "aus meiner unmittelbaren einsicht heraus gelehrt",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "aus meiner unmittelbaren einsicht heraus gelehrt",
+    "method": "phrase",
+    "resultPattern": "\\baus meiner unmittelbaren einsicht heraus gelehrt",
+    "segsMatched": 3,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn29_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn29_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn29_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "dn29/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn29_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn29_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn29_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn29",
+        "lang": "de",
+        "segMap": {
+          "dn29:17.1": {
+            "scid": "dn29:17.1",
+            "pli": "Tasmātiha, cunda, ye vo mayā dhammā abhiññā desitā, tattha sabbeheva saṅgamma samāgamma atthena atthaṁ byañjanena byañjanaṁ saṅgāyitabbaṁ na vivaditabbaṁ, yathayidaṁ brahmacariyaṁ addhaniyaṁ assa ciraṭṭhitikaṁ, tadassa bahujanahitāya bahujanasukhāya lokānukampāya atthāya hitāya sukhāya devamanussānaṁ. ",
+            "de": "Daher, Cunda, solltet ihr alle zusammenkommen und die Dinge, die ich euch <span class=\"ebt-matched\">aus meiner unmittelbaren Einsicht heraus gelehrt</span> habe, im Chor aufsagen, ohne zu streiten, Bedeutung mit Bedeutung und Ausdruck mit Ausdruck vergleichen, sodass dieser spirituelle Pfad lange Zeit bestehen bleibt. Das wäre zum Nutzen und Glück vieler Menschen, zum Vorteil, Nutzen und Glück von Göttern und Menschen. ",
+            "en": "So, Cunda, you should all come together and recite in concert, without disputing, those things I have taught you from my direct knowledge, comparing meaning with meaning and phrasing with phrasing, so that this spiritual path may last for a long time. That would be for the welfare and happiness of the people, for the benefit, welfare, and happiness of gods and humans. ",
+            "matched": true
+          },
+          "dn29:17.2": {
+            "scid": "dn29:17.2",
+            "pli": "Katame ca te, cunda, dhammā mayā abhiññā desitā, yattha sabbeheva saṅgamma samāgamma atthena atthaṁ byañjanena byañjanaṁ saṅgāyitabbaṁ na vivaditabbaṁ, yathayidaṁ brahmacariyaṁ addhaniyaṁ assa ciraṭṭhitikaṁ, tadassa bahujanahitāya bahujanasukhāya lokānukampāya atthāya hitāya sukhāya devamanussānaṁ? ",
+            "de": "Und was sind die Dinge, die ich <span class=\"ebt-matched\">aus meiner unmittelbaren Einsicht heraus gelehrt</span> habe? ",
+            "en": "And what are those things I have taught from my direct knowledge? ",
+            "matched": true
+          },
+          "dn29:17.4": {
+            "scid": "dn29:17.4",
+            "pli": "Ime kho te, cunda, dhammā mayā abhiññā desitā. ",
+            "de": "Das sind die Dinge, die ich <span class=\"ebt-matched\">aus meiner unmittelbaren Einsicht heraus gelehrt</span> habe. ",
+            "en": "These are the things I have taught from my own direct knowledge. ",
+            "matched": true
+          }
+        },
+        "score": 3.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 29\nEine beeindruckende Lehrrede",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 465,
+          "de": 404,
+          "en": 464
+        }
+      }
+    ]
+  }
+}

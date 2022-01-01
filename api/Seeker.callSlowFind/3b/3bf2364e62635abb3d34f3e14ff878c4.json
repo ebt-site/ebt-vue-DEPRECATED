@@ -1,0 +1,79 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "bedingungen müssen vergehen",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "bedingungen müssen vergehen",
+    "method": "phrase",
+    "resultPattern": "\\bbedingungen müssen vergehen",
+    "segsMatched": 1,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn6/sn6.15_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn6/sn6.15_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn6/sn6.15_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn6.15/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn6/sn6.15_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn6/sn6.15_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn6/sn6.15_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn6.15",
+        "lang": "de",
+        "segMap": {
+          "sn6.15:1.4": {
+            "scid": "sn6.15:1.4",
+            "pli": "‘vayadhammā saṅkhārā, appamādena sampādethā’”ti. ",
+            "de": "‚<span class=\"ebt-matched\">Bedingungen müssen vergehen</span>. Macht ihr beflissen weiter.‘“ ",
+            "en": "‘Conditions fall apart. Persist with diligence.’” ",
+            "matched": true
+          }
+        },
+        "score": 1.023,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 6\nZweites Kapitel\n15. Endgültiges Erlöschen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 43,
+          "de": 37,
+          "en": 42
+        }
+      }
+    ]
+  }
+}
