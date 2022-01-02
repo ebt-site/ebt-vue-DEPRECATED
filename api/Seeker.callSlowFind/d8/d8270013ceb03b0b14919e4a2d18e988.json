@@ -3,7 +3,7 @@
   "volume": "Seeker.callSlowFind",
   "args": [
     {
-      "pattern": "wie könnte es möglich sein",
+      "pattern": "wie könnte es.* sein",
       "showMatchesOnly": true,
       "languages": [
         "pli",
@@ -29,10 +29,10 @@
     "minLang": 3,
     "maxDoc": 50,
     "maxResults": 1000,
-    "pattern": "wie könnte es möglich sein",
+    "pattern": "wie könnte es.* sein",
     "method": "phrase",
-    "resultPattern": "\\bwie könnte es möglich sein",
-    "segsMatched": 8,
+    "resultPattern": "\\bwie könnte es.* sein",
+    "segsMatched": 12,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
@@ -69,6 +69,13 @@
             "en": "How could it possibly be so that what is born, created, conditioned, and liable to fall apart should not fall apart? ",
             "matched": true
           },
+          "dn16:5.6.7": {
+            "scid": "dn16:5.6.7",
+            "pli": "‘aniccā saṅkhārā, taṁ kutettha labbhā’”ti. ",
+            "de": "‚Bedingungen sind unbeständig. <span class=\"ebt-matched\">Wie könnte es auch anders sein</span>?‘“ ",
+            "en": "‘Conditions are impermanent. How could it possibly be otherwise?’” ",
+            "matched": true
+          },
           "dn16:5.14.4": {
             "scid": "dn16:5.14.4",
             "pli": "taṁ kutettha, ānanda, labbhā. Yaṁ taṁ jātaṁ bhūtaṁ saṅkhataṁ palokadhammaṁ, ‘taṁ vata tathāgatassāpi sarīraṁ mā palujjī’ti netaṁ ṭhānaṁ vijjati. ",
@@ -76,11 +83,32 @@
             "en": "How could it possibly be so that what is born, created, conditioned, and liable to fall apart should not fall apart, even the Realized One’s body? ",
             "matched": true
           },
+          "dn16:6.10.30": {
+            "scid": "dn16:6.10.30",
+            "pli": "“aniccā saṅkhārā, taṁ kutettha labbhā”ti. ",
+            "de": "„Bedingungen sind unbeständig. <span class=\"ebt-matched\">Wie könnte es auch anders sein</span>?“ ",
+            "en": "“Conditions are impermanent. How could it possibly be otherwise?” ",
+            "matched": true
+          },
           "dn16:6.11.5": {
             "scid": "dn16:6.11.5",
             "pli": "Taṁ kutettha, āvuso, labbhā. ‘Yaṁ taṁ jātaṁ bhūtaṁ saṅkhataṁ palokadhammaṁ, taṁ vata mā palujjī’ti, netaṁ ṭhānaṁ vijjati. ",
             "de": "<span class=\"ebt-matched\">Wie könnte es möglich sein</span>, dass das, was geboren, geschaffen, bedingt ist und zerfallen muss, nicht zerfallen sollte? ",
             "en": "How could it possibly be so that what is born, created, conditioned, and liable to fall apart should not fall apart? ",
+            "matched": true
+          },
+          "dn16:6.11.13": {
+            "scid": "dn16:6.11.13",
+            "pli": "‘aniccā saṅkhārā, taṁ kutettha labbhā’”ti. ",
+            "de": "‚Bedingungen sind unbeständig. <span class=\"ebt-matched\">Wie könnte es auch anders sein</span>?‘“ ",
+            "en": "‘Conditions are impermanent. How could it possibly be otherwise?’” ",
+            "matched": true
+          },
+          "dn16:6.19.11": {
+            "scid": "dn16:6.19.11",
+            "pli": "“aniccā saṅkhārā, taṁ kutettha labbhā”ti. ",
+            "de": "‚Bedingungen sind unbeständig. <span class=\"ebt-matched\">Wie könnte es auch anders sein</span>?‘“ ",
+            "en": "“Conditions are impermanent. How could it possibly be otherwise?” ",
             "matched": true
           },
           "dn16:6.20.10": {
@@ -91,12 +119,12 @@
             "matched": true
           }
         },
-        "score": 4.002,
+        "score": 8.005,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Lange Lehrreden 16\nDie große Lehrrede vom Erlöschen des Buddha",
-        "segsMatched": 4,
+        "segsMatched": 8,
         "langSegs": {
           "pli": 1665,
           "de": 1579,
