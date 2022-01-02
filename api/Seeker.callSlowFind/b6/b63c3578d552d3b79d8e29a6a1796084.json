@@ -32,7 +32,7 @@
     "pattern": "gerechter und prinzipientreuer könig",
     "method": "phrase",
     "resultPattern": "\\bgerechter und prinzipientreuer könig",
-    "segsMatched": 12,
+    "segsMatched": 13,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an5/an5.133_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.133_translation-de-sabbamitta.json",
@@ -49,6 +49,9 @@
       "root/pli/ms/sutta/dn/dn17_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn17_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn17_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn14_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json",
@@ -65,6 +68,7 @@
       "an3.14/de/sabbamitta",
       "dn18/de/sabbamitta",
       "dn17/de/sabbamitta",
+      "dn16/de/sabbamitta",
       "dn14/de/sabbamitta",
       "an7.66/de/sabbamitta",
       "an7.62/de/sabbamitta"
@@ -352,6 +356,38 @@
           "pli": 851,
           "de": 689,
           "en": 850
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn16",
+        "lang": "de",
+        "segMap": {
+          "dn16:5.18.1": {
+            "scid": "dn16:5.18.1",
+            "pli": "Bhūtapubbaṁ, ānanda, rājā mahāsudassano nāma ahosi cakkavattī dhammiko dhammarājā cāturanto vijitāvī janapadatthāvariyappatto sattaratanasamannāgato. ",
+            "de": "Es war einmal ein König mit Namen Mahāsudassana, ein Rad-drehender Herrscher, ein <span class=\"ebt-matched\">gerechter und prinzipientreuer König</span>. Sein Herrschaftsgebiet erstreckte sich nach allen vier Seiten, er machte das Land sicher und er besaß die sieben Juwelen. ",
+            "en": "Once upon a time there was a king named Mahāsudassana who was a wheel-turning monarch, a just and principled king. His dominion extended to all four sides, he achieved stability in the country, and he possessed the seven treasures. ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 16\nDie große Lehrrede vom Erlöschen des Buddha",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 1665,
+          "de": 1579,
+          "en": 1664
         }
       }
     ]

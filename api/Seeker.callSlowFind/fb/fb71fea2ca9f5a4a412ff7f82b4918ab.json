@@ -32,7 +32,7 @@
     "pattern": "eigene insel",
     "method": "phrase",
     "resultPattern": "\\beigene insel",
-    "segsMatched": 12,
+    "segsMatched": 16,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn47/sn47.9_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn47/sn47.9_translation-de-sabbamitta.json",
@@ -42,12 +42,16 @@
       "translation/en/sujato/sutta/sn/sn47/sn47.14_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn47/sn47.13_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn47/sn47.13_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn47/sn47.13_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn47/sn47.13_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "sn47.9/de/sabbamitta",
       "sn47.14/de/sabbamitta",
-      "sn47.13/de/sabbamitta"
+      "sn47.13/de/sabbamitta",
+      "dn16/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -201,12 +205,65 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Verbundene Lehrreden 47\n1. In Ambapālīs Wald\n9. Krank",
+        "title": "Verbundene Lehrreden 47\n1. Die Kurtisane Ambapālī\n9. Krank",
         "segsMatched": 4,
         "langSegs": {
           "pli": 47,
           "de": 45,
           "en": 46
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn16",
+        "lang": "de",
+        "segMap": {
+          "dn16:2.26.1": {
+            "scid": "dn16:2.26.1",
+            "pli": "Tasmātihānanda, attadīpā viharatha attasaraṇā anaññasaraṇā, dhammadīpā dhammasaraṇā anaññasaraṇā. ",
+            "de": "Daher, Ānanda, lebe als deine <span class=\"ebt-matched\">eigene Insel</span>, als deine eigene Zuflucht, suche keine andere Zuflucht. Lass die Lehre deine Insel und deine Zuflucht sein, suche keine andere Zuflucht. ",
+            "en": "So Ānanda, be your own island, your own refuge, with no other refuge. Let the teaching be your island and your refuge, with no other refuge. ",
+            "matched": true
+          },
+          "dn16:2.26.2": {
+            "scid": "dn16:2.26.2",
+            "pli": "Kathañcānanda, bhikkhu attadīpo viharati attasaraṇo anaññasaraṇo, dhammadīpo dhammasaraṇo anaññasaraṇo? ",
+            "de": "Und wie lebt ein Mönch als seine <span class=\"ebt-matched\">eigene Insel</span>, als seine eigene Zuflucht, und sucht keine andere Zuflucht? Wie lässt er die Lehre seine Insel und seine Zuflucht sein und sucht keine andere Zuflucht? ",
+            "en": "And how does a mendicant do this? ",
+            "matched": true
+          },
+          "dn16:2.26.7": {
+            "scid": "dn16:2.26.7",
+            "pli": "Evaṁ kho, ānanda, bhikkhu attadīpo viharati attasaraṇo anaññasaraṇo, dhammadīpo dhammasaraṇo anaññasaraṇo. ",
+            "de": "So lebt ein Mönch als seine <span class=\"ebt-matched\">eigene Insel</span>, als seine eigene Zuflucht und sucht keine andere Zuflucht. So lässt er die Lehre seine Insel und seine Zuflucht sein und sucht keine andere Zuflucht. ",
+            "en": "That’s how a mendicant is their own island, their own refuge, with no other refuge. That’s how the teaching is their island and their refuge, with no other refuge. ",
+            "matched": true
+          },
+          "dn16:2.26.8": {
+            "scid": "dn16:2.26.8",
+            "pli": "Ye hi keci, ānanda, etarahi vā mama vā accayena attadīpā viharissanti attasaraṇā anaññasaraṇā, dhammadīpā dhammasaraṇā anaññasaraṇā, tamatagge me te, ānanda, bhikkhū bhavissanti ye keci sikkhākāmā”ti. ",
+            "de": "Jetzt oder nach meinem Ende – jeder, der als seine <span class=\"ebt-matched\">eigene Insel</span> lebt, als seine eigene Zuflucht, der keine andere Zuflucht sucht; der die Lehre seine Insel und seine Zuflucht sein lässt und keine andere Zuflucht sucht – diese Mönche und Nonnen, die üben wollen, werden zu den Besten der Besten gehören.“ ",
+            "en": "Whether now or after I have passed, any who shall live as their own island, their own refuge, with no other refuge; with the teaching as their island and their refuge, with no other refuge—those mendicants of mine who want to train shall be among the best of the best.” ",
+            "matched": true
+          }
+        },
+        "score": 4.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 16\nDie große Lehrrede vom Erlöschen des Buddha",
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 1665,
+          "de": 1579,
+          "en": 1664
         }
       }
     ]

@@ -32,8 +32,11 @@
     "pattern": "haarsträubend",
     "method": "phrase",
     "resultPattern": "\\bhaarsträubend",
-    "segsMatched": 6,
+    "segsMatched": 10,
     "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.70_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.70_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an8/an8.70_translation-en-sujato.json",
@@ -49,12 +52,66 @@
       "translation/en/sujato/sutta/kn/thig/thig11.1_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "dn16/de/sabbamitta",
       "an8.70/de/sabbamitta",
       "sn51.10/de/sabbamitta",
       "ud6.1/de/sabbamitta",
       "thig11.1/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn16",
+        "lang": "de",
+        "segMap": {
+          "dn16:3.10.2": {
+            "scid": "dn16:3.10.2",
+            "pli": "Ossaṭṭhe ca bhagavatā āyusaṅkhāre mahābhūmicālo ahosi bhiṁsanako salomahaṁso, devadundubhiyo ca phaliṁsu. ",
+            "de": "Als er das tat, gab es ein großes Erdbeben, furchterregend und <span class=\"ebt-matched\">haarsträubend</span>, und Donner ließ den Himmel bersten. ",
+            "en": "When he did so there was a great earthquake, awe-inspiring and hair-raising, and thunder cracked the sky. ",
+            "matched": true
+          },
+          "dn16:3.11.3": {
+            "scid": "dn16:3.11.3",
+            "pli": "sumahā vatāyaṁ bhūmicālo bhiṁsanako salomahaṁso; devadundubhiyo ca phaliṁsu. ",
+            "de": "Das war wirklich ein großes Erdbeben, furchterregend und <span class=\"ebt-matched\">haarsträubend</span>, und Donner ließ den Himmel bersten! ",
+            "en": "That was really a very big earthquake; awe-inspiring and hair-raising, and thunder cracked the sky! ",
+            "matched": true
+          },
+          "dn16:3.12.6": {
+            "scid": "dn16:3.12.6",
+            "pli": "sumahā vatāyaṁ, bhante, bhūmicālo bhiṁsanako salomahaṁso; devadundubhiyo ca phaliṁsu. ",
+            "de": "Das war wirklich ein großes Erdbeben, furchterregend und <span class=\"ebt-matched\">haarsträubend</span>, und Donner ließ den Himmel bersten! ",
+            "en": "That was really a very big earthquake; awe-inspiring and hair-raising, and thunder cracked the sky! ",
+            "matched": true
+          },
+          "dn16:6.10.1": {
+            "scid": "dn16:6.10.1",
+            "pli": "Parinibbute bhagavati saha parinibbānā mahābhūmicālo ahosi bhiṁsanako salomahaṁso. Devadundubhiyo ca phaliṁsu. ",
+            "de": "Als der Buddha vollkommen erlosch, im Augenblick des vollkommenen Erlöschens, gab es ein großes Erdbeben, furchterregend und <span class=\"ebt-matched\">haarsträubend</span>, und Donner ließ den Himmel bersten. ",
+            "en": "When the Buddha became fully extinguished, along with the full extinguishment there was a great earthquake, awe-inspiring and hair-raising, and thunder cracked the sky. ",
+            "matched": true
+          }
+        },
+        "score": 4.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 16\nDie große Lehrrede vom Erlöschen des Buddha",
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 1665,
+          "de": 1579,
+          "en": 1664
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/an/an8/an8.70_root-pli-ms.json",

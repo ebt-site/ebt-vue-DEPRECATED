@@ -32,8 +32,11 @@
     "pattern": "bedingungen sind unbeständig",
     "method": "phrase",
     "resultPattern": "\\bbedingungen sind unbeständig",
-    "segsMatched": 8,
+    "segsMatched": 13,
     "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.136_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.136_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.136_translation-en-sujato.json",
@@ -57,6 +60,7 @@
       "translation/en/sujato/sutta/an/an7/an7.66_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "dn16/de/sabbamitta",
       "an3.136/de/sabbamitta",
       "sn6.15/de/sabbamitta",
       "sn15.20/de/sabbamitta",
@@ -66,6 +70,66 @@
       "an7.66/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn16",
+        "lang": "de",
+        "segMap": {
+          "dn16:5.6.7": {
+            "scid": "dn16:5.6.7",
+            "pli": "‘aniccā saṅkhārā, taṁ kutettha labbhā’”ti. ",
+            "de": "‚<span class=\"ebt-matched\">Bedingungen sind unbeständig</span>. Wie könnte es auch anders sein?‘“ ",
+            "en": "‘Conditions are impermanent. How could it possibly be otherwise?’” ",
+            "matched": true
+          },
+          "dn16:6.10.10": {
+            "scid": "dn16:6.10.10",
+            "pli": "“Aniccā vata saṅkhārā, ",
+            "de": "„Ach! <span class=\"ebt-matched\">Bedingungen sind unbeständig</span>, ",
+            "en": "“Oh! Conditions are impermanent, ",
+            "matched": true
+          },
+          "dn16:6.10.30": {
+            "scid": "dn16:6.10.30",
+            "pli": "“aniccā saṅkhārā, taṁ kutettha labbhā”ti. ",
+            "de": "„<span class=\"ebt-matched\">Bedingungen sind unbeständig</span>. Wie könnte es auch anders sein?“ ",
+            "en": "“Conditions are impermanent. How could it possibly be otherwise?” ",
+            "matched": true
+          },
+          "dn16:6.11.13": {
+            "scid": "dn16:6.11.13",
+            "pli": "‘aniccā saṅkhārā, taṁ kutettha labbhā’”ti. ",
+            "de": "‚<span class=\"ebt-matched\">Bedingungen sind unbeständig</span>. Wie könnte es auch anders sein?‘“ ",
+            "en": "‘Conditions are impermanent. How could it possibly be otherwise?’” ",
+            "matched": true
+          },
+          "dn16:6.19.11": {
+            "scid": "dn16:6.19.11",
+            "pli": "“aniccā saṅkhārā, taṁ kutettha labbhā”ti. ",
+            "de": "‚<span class=\"ebt-matched\">Bedingungen sind unbeständig</span>. Wie könnte es auch anders sein?‘“ ",
+            "en": "“Conditions are impermanent. How could it possibly be otherwise?” ",
+            "matched": true
+          }
+        },
+        "score": 5.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 16\nDie große Lehrrede vom Erlöschen des Buddha",
+        "segsMatched": 5,
+        "langSegs": {
+          "pli": 1665,
+          "de": 1579,
+          "en": 1664
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/an/an3/an3.136_root-pli-ms.json",
