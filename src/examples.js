@@ -226,6 +226,7 @@
     "gehört, dass jemand eine solche",
     "geht: ‚Ich gehe.‘",
     "geistgeschaffenen Körper",
+    "gelichtet",
     "genießt.*Arbeit",
     "genügsam",
     "gepflegt werden sollte, und",
