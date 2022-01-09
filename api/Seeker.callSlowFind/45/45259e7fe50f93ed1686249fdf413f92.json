@@ -32,16 +32,66 @@
     "pattern": "kosmologe",
     "method": "phrase",
     "resultPattern": "\\bkosmologe",
-    "segsMatched": 2,
+    "segsMatched": 5,
     "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn12/sn12.48_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn12/sn12.48_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.48_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an9/an9.38_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an9/an9.38_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an9/an9.38_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "sn12.48/de/sabbamitta",
       "an9.38/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn12/sn12.48_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn12/sn12.48_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn12/sn12.48_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn12.48",
+        "lang": "de",
+        "segMap": {
+          "sn12.48:0.3": {
+            "scid": "sn12.48:0.3",
+            "pli": "48. Lokāyatikasutta ",
+            "de": "48. Ein <span class=\"ebt-matched\">Kosmologe</span> ",
+            "en": "48. A Cosmologist ",
+            "matched": true
+          },
+          "sn12.48:1.2": {
+            "scid": "sn12.48:1.2",
+            "pli": "Atha kho lokāyatiko brāhmaṇo yena bhagavā …pe… ",
+            "de": "Da ging ein brahmanischer <span class=\"ebt-matched\">Kosmologe</span> zum Buddha … ",
+            "en": "Then a brahmin cosmologist went up to the Buddha … ",
+            "matched": true
+          },
+          "sn12.48:7.1": {
+            "scid": "sn12.48:7.1",
+            "pli": "Evaṁ vutte, lokāyatiko brāhmaṇo bhagavantaṁ etadavoca: ",
+            "de": "Auf diese Worte sagte der brahmanische <span class=\"ebt-matched\">Kosmologe</span> zum Buddha: ",
+            "en": "When he said this, the brahmin cosmologist said to the Buddha, ",
+            "matched": true
+          }
+        },
+        "score": 3.12,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 12\n5. Hausbesitzer\n48. Ein Kosmologe",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 25,
+          "de": 24,
+          "en": 24
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/an/an9/an9.38_root-pli-ms.json",

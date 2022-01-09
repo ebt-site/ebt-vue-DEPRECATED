@@ -32,7 +32,7 @@
     "pattern": "sowohl öffentlich als insgeheim",
     "method": "phrase",
     "resultPattern": "\\bsowohl öffentlich als insgeheim",
-    "segsMatched": 29,
+    "segsMatched": 32,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an6/an6.12_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.12_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an6/an6.12_translation-en-sujato.json",
@@ -52,9 +55,6 @@
       "root/pli/ms/sutta/mn/mn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn33_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn33_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an11/an11.17_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an11/an11.17_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an11/an11.17_translation-en-sujato.json"
@@ -62,11 +62,11 @@
     "suttaRefs": [
       "dn34/de/sabbamitta",
       "dn33/de/sabbamitta",
+      "dn16/de/sabbamitta",
       "an6.12/de/sabbamitta",
       "an6.11/de/sabbamitta",
       "an5.105/de/sabbamitta",
       "mn33/de/sabbamitta",
-      "dn16/de/sabbamitta",
       "an11.17/de/sabbamitta"
     ],
     "mlDocs": [
@@ -312,6 +312,66 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn16",
+        "lang": "de",
+        "segMap": {
+          "dn16:1.11.4": {
+            "scid": "dn16:1.11.4",
+            "pli": "“Yāvakīvañca, bhikkhave, bhikkhū mettaṁ kāyakammaṁ paccupaṭṭhāpessanti sabrahmacārīsu āvi ceva raho ca, vuddhiyeva, bhikkhave, bhikkhūnaṁ pāṭikaṅkhā, no parihāni. ",
+            "de": "Solange die Mönche und Nonnen ihre geistlichen Gefährten mit dem Körper stets liebevoll behandeln, <span class=\"ebt-matched\">sowohl öffentlich als insgeheim</span> … ",
+            "en": "As long as the mendicants consistently treat their spiritual companions with bodily kindness … ",
+            "matched": true
+          },
+          "dn16:1.11.5": {
+            "scid": "dn16:1.11.5",
+            "pli": "Yāvakīvañca, bhikkhave, bhikkhū mettaṁ vacīkammaṁ paccupaṭṭhāpessanti …pe… ",
+            "de": "solange sie sie mit der Sprache stets liebevoll behandeln, <span class=\"ebt-matched\">sowohl öffentlich als insgeheim</span> … ",
+            "en": "verbal kindness … ",
+            "matched": true
+          },
+          "dn16:1.11.6": {
+            "scid": "dn16:1.11.6",
+            "pli": "mettaṁ manokammaṁ paccupaṭṭhāpessanti sabrahmacārīsu āvi ceva raho ca, vuddhiyeva, bhikkhave, bhikkhūnaṁ pāṭikaṅkhā, no parihāni. ",
+            "de": "und solange sie sie mit dem Geist stets liebevoll behandeln, <span class=\"ebt-matched\">sowohl öffentlich als insgeheim</span>, können sie Wachstum erwarten, keinen Niedergang. ",
+            "en": "and mental kindness both in public and in private, they can expect growth, not decline. ",
+            "matched": true
+          },
+          "dn16:1.11.8": {
+            "scid": "dn16:1.11.8",
+            "pli": "Yāvakīvañca, bhikkhave, bhikkhū yāni tāni sīlāni akhaṇḍāni acchiddāni asabalāni akammāsāni bhujissāni viññūpasatthāni aparāmaṭṭhāni samādhisaṁvattanikāni tathārūpesu sīlesu sīlasāmaññagatā viharissanti sabrahmacārīhi āvi ceva raho ca, vuddhiyeva, bhikkhave, bhikkhūnaṁ pāṭikaṅkhā, no parihāni. ",
+            "de": "Solange die Mönche und Nonnen gemäß den Regeln leben, die sie mit ihren geistlichen Gefährten teilen, <span class=\"ebt-matched\">sowohl öffentlich als insgeheim</span> – diese Regeln, die ungebrochen, tadellos, makellos und unbeschädigt sind; die befreiend sind, von vernünftigen Menschen gepriesen werden, nicht fehlgeleitet sind und in die Versenkung führen – solange können sie Wachstum erwarten, keinen Niedergang. ",
+            "en": "As long as the mendicants live according to the precepts shared with their spiritual companions, both in public and in private—such precepts as are unbroken, impeccable, spotless, and unmarred, liberating, praised by sensible people, not mistaken, and leading to immersion—they can expect growth, not decline. ",
+            "matched": true
+          },
+          "dn16:1.11.9": {
+            "scid": "dn16:1.11.9",
+            "pli": "Yāvakīvañca, bhikkhave, bhikkhū yāyaṁ diṭṭhi ariyā niyyānikā, niyyāti takkarassa sammā dukkhakkhayāya, tathārūpāya diṭṭhiyā diṭṭhisāmaññagatā viharissanti sabrahmacārīhi āvi ceva raho ca, vuddhiyeva, bhikkhave, bhikkhūnaṁ pāṭikaṅkhā, no parihāni. ",
+            "de": "Solange die Mönche und Nonnen entsprechend der Ansicht leben, die sie mit ihren geistlichen Gefährten teilen, <span class=\"ebt-matched\">sowohl öffentlich als insgeheim</span> – diese Ansicht, die edel ist, unabhängig macht und den, der sie übt, zum völligen Beenden des Leidens führt – solange können sie Wachstum erwarten, keinen Niedergang. ",
+            "en": "As long as the mendicants live according to the view shared with their spiritual companions, both in public and in private—the view that is noble and emancipating, and leads one who practices it to the complete end of suffering—they can expect growth, not decline. ",
+            "matched": true
+          }
+        },
+        "score": 5.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 16\nDie große Lehrrede vom Erlöschen des Buddha",
+        "segsMatched": 5,
+        "langSegs": {
+          "pli": 1665,
+          "de": 1579,
+          "en": 1664
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an5/an5.105_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/an/an5/an5.105_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/an/an5/an5.105_translation-en-sujato.json"
@@ -432,45 +492,6 @@
           "pli": 118,
           "de": 117,
           "en": 117
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "dn16",
-        "lang": "de",
-        "segMap": {
-          "dn16:1.11.8": {
-            "scid": "dn16:1.11.8",
-            "pli": "Yāvakīvañca, bhikkhave, bhikkhū yāni tāni sīlāni akhaṇḍāni acchiddāni asabalāni akammāsāni bhujissāni viññūpasatthāni aparāmaṭṭhāni samādhisaṁvattanikāni tathārūpesu sīlesu sīlasāmaññagatā viharissanti sabrahmacārīhi āvi ceva raho ca, vuddhiyeva, bhikkhave, bhikkhūnaṁ pāṭikaṅkhā, no parihāni. ",
-            "de": "Solange die Mönche und Nonnen gemäß den Regeln leben, die sie mit ihren geistlichen Gefährten teilen, <span class=\"ebt-matched\">sowohl öffentlich als insgeheim</span> – diese Regeln, die ungebrochen, tadellos, makellos und unbeschädigt sind; die befreiend sind, von vernünftigen Menschen gepriesen werden, nicht fehlgeleitet sind und in die Versenkung führen – solange können sie Wachstum erwarten, keinen Niedergang. ",
-            "en": "As long as the mendicants live according to the precepts shared with their spiritual companions, both in public and in private—such precepts as are unbroken, impeccable, spotless, and unmarred, liberating, praised by sensible people, not mistaken, and leading to immersion—they can expect growth, not decline. ",
-            "matched": true
-          },
-          "dn16:1.11.9": {
-            "scid": "dn16:1.11.9",
-            "pli": "Yāvakīvañca, bhikkhave, bhikkhū yāyaṁ diṭṭhi ariyā niyyānikā, niyyāti takkarassa sammā dukkhakkhayāya, tathārūpāya diṭṭhiyā diṭṭhisāmaññagatā viharissanti sabrahmacārīhi āvi ceva raho ca, vuddhiyeva, bhikkhave, bhikkhūnaṁ pāṭikaṅkhā, no parihāni. ",
-            "de": "Solange die Mönche und Nonnen entsprechend der Ansicht leben, die sie mit ihren geistlichen Gefährten teilen, <span class=\"ebt-matched\">sowohl öffentlich als insgeheim</span> – diese Ansicht, die edel ist, unabhängig macht und den, der sie übt, zum völligen Beenden des Leidens führt – solange können sie Wachstum erwarten, keinen Niedergang. ",
-            "en": "As long as the mendicants live according to the view shared with their spiritual companions, both in public and in private—the view that is noble and emancipating, and leads one who practices it to the complete end of suffering—they can expect growth, not decline. ",
-            "matched": true
-          }
-        },
-        "score": 2.001,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Lange Lehrreden 16\nDie große Lehrrede vom Erlöschen des Buddha",
-        "segsMatched": 2,
-        "langSegs": {
-          "pli": 1665,
-          "de": 1579,
-          "en": 1664
         }
       }
     ]

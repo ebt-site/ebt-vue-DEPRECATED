@@ -32,14 +32,18 @@
     "pattern": "rufe alle mönche und nonnen",
     "method": "phrase",
     "resultPattern": "\\brufe alle mönche und nonnen",
-    "segsMatched": 2,
+    "segsMatched": 3,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json"
+      "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn54/sn54.9_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn54/sn54.9_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn54/sn54.9_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "dn16/de/sabbamitta"
+      "dn16/de/sabbamitta",
+      "sn54.9/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -79,6 +83,38 @@
           "pli": 1665,
           "de": 1579,
           "en": 1664
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn54/sn54.9_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn54/sn54.9_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn54/sn54.9_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn54.9",
+        "lang": "de",
+        "segMap": {
+          "sn54.9:5.1": {
+            "scid": "sn54.9:5.1",
+            "pli": "“Tenahānanda, yāvatikā bhikkhū vesāliṁ upanissāya viharanti te sabbe upaṭṭhānasālāyaṁ sannipātehī”ti. ",
+            "de": "„Nun, Ānanda, <span class=\"ebt-matched\">rufe alle Mönche und Nonnen</span>, die in der Umgebung von Vesālī leben, in der Versammlungshalle zusammen.“ ",
+            "en": "“Well then, Ānanda, gather all the mendicants staying in the vicinity of Vesālī together in the assembly hall.” ",
+            "matched": true
+          }
+        },
+        "score": 1.029,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 54\n1. Ein Ding\n9. In Vesālī",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 35,
+          "de": 32,
+          "en": 34
         }
       }
     ]
