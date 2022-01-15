@@ -1,0 +1,45 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "wie ein affe",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "wie ein affe",
+    "method": "keywords",
+    "resultPattern": "\\bwie|\\bein|\\baffe",
+    "segsMatched": 0,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/kn/thig/thig15.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thig/thig15.1_translation-de-sabbamitta.json",
+      "translation/en/soma/sutta/kn/thig/thig15.1_translation-en-soma.json",
+      "translation/en/sujato/sutta/kn/thig/thig15.1_translation-en-sujato.json"
+    ],
+    "suttaRefs": [],
+    "mlDocs": []
+  }
+}
