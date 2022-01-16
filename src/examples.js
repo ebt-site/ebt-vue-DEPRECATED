@@ -1294,6 +1294,7 @@
     "those of few wishes",
     "thoughts arise",
     "three characteristics",
+    "three cravings",
     "three examples",
     "three foundations",
     "three kinds of demonstration",
