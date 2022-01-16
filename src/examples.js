@@ -130,6 +130,7 @@
     "disziplinarische Angelegenheit beizulegen",
     "drängt, zu lehren",
     "drei Arten der Versenkung",
+    "drei Arten des Verlangens",
     "drei Dinge.* entwickelt werden",
     "drei Grundlagen",
     "drei Kennzeichen",

@@ -1,0 +1,100 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "drei arten des verlangens",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "drei arten des verlangens",
+    "method": "phrase",
+    "resultPattern": "\\bdrei arten des verlangens",
+    "segsMatched": 4,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an6/an6.106_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an6/an6.106_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an6/an6.106_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an6.106/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an6/an6.106_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an6/an6.106_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an6/an6.106_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an6.106",
+        "lang": "de",
+        "segMap": {
+          "an6.106:1.1": {
+            "scid": "an6.106:1.1",
+            "pli": "“Tisso imā, bhikkhave, taṇhā pahātabbā, tayo ca mānā. ",
+            "de": "„Mönche und Nonnen, ihr solltet <span class=\"ebt-matched\">drei Arten des Verlangens</span> und drei Arten der Einbildung aufgeben. ",
+            "en": "“Mendicants, you should give up these three cravings and three conceits. ",
+            "matched": true
+          },
+          "an6.106:1.2": {
+            "scid": "an6.106:1.2",
+            "pli": "Katamā tisso taṇhā pahātabbā? ",
+            "de": "Was sind die <span class=\"ebt-matched\">drei Arten des Verlangens</span>, die ihr aufgeben solltet? ",
+            "en": "What three cravings should you give up? ",
+            "matched": true
+          },
+          "an6.106:1.4": {
+            "scid": "an6.106:1.4",
+            "pli": "imā tisso taṇhā pahātabbā. ",
+            "de": "Das sind die <span class=\"ebt-matched\">drei Arten des Verlangens</span>, die ihr aufgeben solltet. ",
+            "en": "These are the three cravings you should give up. ",
+            "matched": true
+          },
+          "an6.106:1.8": {
+            "scid": "an6.106:1.8",
+            "pli": "Yato kho, bhikkhave, bhikkhuno imā tisso taṇhā pahīnā honti, ime ca tayo mānā; ",
+            "de": "Wenn ein Mönch diese <span class=\"ebt-matched\">drei Arten des Verlangens</span> und diese drei Arten der Einbildung aufgegeben hat, ",
+            "en": "When a mendicant has given up these three cravings and these three conceits ",
+            "matched": true
+          }
+        },
+        "score": 4.19,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 6\n10. Vorteilhafte Folgen\n106. Verlangen",
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 21,
+          "de": 12,
+          "en": 19
+        }
+      }
+    ]
+  }
+}
