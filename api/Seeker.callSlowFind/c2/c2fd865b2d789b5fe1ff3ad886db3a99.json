@@ -32,18 +32,22 @@
     "pattern": "lass.* es gut sein mit den sieben jahren",
     "method": "phrase",
     "resultPattern": "\\blass.* es gut sein mit den sieben jahren",
-    "segsMatched": 2,
+    "segsMatched": 3,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn10_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn10_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn25_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn25_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn25_translation-en-sujato.json"
+      "translation/en/sujato/sutta/dn/dn25_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn22_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn22_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn22_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "mn10/de/sabbamitta",
-      "dn25/de/sabbamitta"
+      "dn25/de/sabbamitta",
+      "dn22/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -108,6 +112,38 @@
           "pli": 383,
           "de": 347,
           "en": 382
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn22_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn22_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn22_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn22",
+        "lang": "de",
+        "segMap": {
+          "dn22:22.3": {
+            "scid": "dn22:22.3",
+            "pli": "Tiṭṭhantu, bhikkhave, sattavassāni. ",
+            "de": "<span class=\"ebt-matched\">Lasst es gut sein mit den sieben Jahren</span>; ",
+            "en": "Let alone seven years, ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 22\nDie längere Lehrrede über Achtsamkeitsmeditation",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 454,
+          "de": 359,
+          "en": 453
         }
       }
     ]

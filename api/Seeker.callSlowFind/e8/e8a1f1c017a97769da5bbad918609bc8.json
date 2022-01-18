@@ -32,7 +32,7 @@
     "pattern": "von den fußsohlen aufwärts",
     "method": "phrase",
     "resultPattern": "\\bvon den fußsohlen aufwärts",
-    "segsMatched": 6,
+    "segsMatched": 7,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn10_translation-de-sabbamitta.json",
@@ -44,6 +44,9 @@
       "root/pli/ms/sutta/dn/dn28_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn28_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn28_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn22_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn22_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn22_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an6/an6.29_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.29_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an6/an6.29_translation-en-sujato.json",
@@ -55,6 +58,7 @@
       "mn10/de/sabbamitta",
       "thig2.8/de/sabbamitta",
       "dn28/de/sabbamitta",
+      "dn22/de/sabbamitta",
       "an6.29/de/sabbamitta",
       "an10.60/de/sabbamitta"
     ],
@@ -225,6 +229,38 @@
           "pli": 250,
           "de": 236,
           "en": 249
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn22_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn22_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn22_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn22",
+        "lang": "de",
+        "segMap": {
+          "dn22:5.1": {
+            "scid": "dn22:5.1",
+            "pli": "Puna caparaṁ, bhikkhave, bhikkhu imameva kāyaṁ uddhaṁ pādatalā adho kesamatthakā tacapariyantaṁ pūraṁ nānappakārassa asucino paccavekkhati: ",
+            "de": "Dann betrachtet da ein Mönch seinen eigenen Körper, <span class=\"ebt-matched\">von den Fußsohlen aufwärts</span> und von den Haarspitzen abwärts, der von Haut umhüllt und mit zahlreichen widerlichen Dingen angefüllt ist. ",
+            "en": "Furthermore, a mendicant examines their own body, up from the soles of the feet and down from the tips of the hairs, wrapped in skin and full of many kinds of filth. ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 22\nDie längere Lehrrede über Achtsamkeitsmeditation",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 454,
+          "de": 359,
+          "en": 453
         }
       }
     ]

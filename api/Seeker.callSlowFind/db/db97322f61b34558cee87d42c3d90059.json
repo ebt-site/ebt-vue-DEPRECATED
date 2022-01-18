@@ -32,14 +32,18 @@
     "pattern": "die im wasser",
     "method": "phrase",
     "resultPattern": "\\bdie im wasser",
-    "segsMatched": 2,
+    "segsMatched": 3,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an7/an7.15_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an7/an7.15_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an7/an7.15_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an7/an7.15_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn12/sn12.63_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn12/sn12.63_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.63_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "an7.15/de/sabbamitta"
+      "an7.15/de/sabbamitta",
+      "sn12.63/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -79,6 +83,38 @@
           "pli": 66,
           "de": 40,
           "en": 65
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn12/sn12.63_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn12/sn12.63_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn12/sn12.63_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn12.63",
+        "lang": "de",
+        "segMap": {
+          "sn12.63:4.4": {
+            "scid": "sn12.63:4.4",
+            "pli": "Udakañce nissāya tiṭṭheyya, ye udakanissitā pāṇā te naṁ khādeyyuṁ. ",
+            "de": "Wenn sie im Wasser steht, wird sie von den Wesen, <span class=\"ebt-matched\">die im Wasser</span> leben, gebissen. ",
+            "en": "If she stands in some water, the creatures in the water bite her. ",
+            "matched": true
+          }
+        },
+        "score": 1.014,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 12\n7. Das große Kapitel\n63. Fleisch eines Kindes",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 73,
+          "de": 72,
+          "en": 72
         }
       }
     ]

@@ -32,7 +32,7 @@
     "pattern": "schwer zu sehen",
     "method": "phrase",
     "resultPattern": "\\bschwer zu sehen",
-    "segsMatched": 6,
+    "segsMatched": 7,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn6/sn6.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn6/sn6.1_translation-de-sabbamitta.json",
@@ -47,13 +47,17 @@
       "root/pli/ms/sutta/kn/thig/thig3.5_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thig/thig3.5_translation-de-sabbamitta.json",
       "translation/en/soma/sutta/kn/thig/thig3.5_translation-en-soma.json",
-      "translation/en/sujato/sutta/kn/thig/thig3.5_translation-en-sujato.json"
+      "translation/en/sujato/sutta/kn/thig/thig3.5_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga4/snp4.15_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/snp/vagga4/snp4.15_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/snp/vagga4/snp4.15_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "sn6.1/de/sabbamitta",
       "dn14/de/sabbamitta",
       "thig6.1/de/sabbamitta",
-      "thig3.5/de/sabbamitta"
+      "thig3.5/de/sabbamitta",
+      "snp4.15/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -150,7 +154,7 @@
           "thig3.5:2.2": {
             "scid": "thig3.5:2.2",
             "pli": "duddasaṁ hadayassitaṁ;",
-            "de": "der im Herzen steckte, <span class=\"ebt-matched\">schwer zu sehen</span>. ",
+            "de": "so <span class=\"ebt-matched\">schwer zu sehen</span>, der im Herzen steckte. ",
             "en": "so hard to see, stuck in the heart.",
             "matched": true
           }
@@ -183,7 +187,7 @@
           "thig6.1:5.2": {
             "scid": "thig6.1:5.2",
             "pli": "duddasaṁ hadayassitaṁ;",
-            "de": "der im Herzen steckte, <span class=\"ebt-matched\">schwer zu sehen</span>. ",
+            "de": "so <span class=\"ebt-matched\">schwer zu sehen</span>, der im Herzen steckte. ",
             "en": "so hard to see, stuck in the heart.",
             "matched": true
           }
@@ -198,6 +202,38 @@
           "pli": 31,
           "de": 30,
           "en": 30
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga4/snp4.15_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/snp/vagga4/snp4.15_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/snp/vagga4/snp4.15_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp4.15",
+        "lang": "de",
+        "segMap": {
+          "snp4.15:4.4": {
+            "scid": "snp4.15:4.4",
+            "pli": "Duddasaṁ hadayanissitaṁ.",
+            "de": "so <span class=\"ebt-matched\">schwer zu sehen</span>, der im Herzen steckte. ",
+            "en": "so hard to see, stuck in the heart.",
+            "matched": true
+          }
+        },
+        "score": 1.012,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lehrreden-Sammelband\nZu den Waffen greifen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 84,
+          "de": 83,
+          "en": 83
         }
       }
     ]

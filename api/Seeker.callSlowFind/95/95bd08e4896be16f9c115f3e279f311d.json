@@ -32,8 +32,11 @@
     "pattern": "schwieg der buddha",
     "method": "phrase",
     "resultPattern": "\\bschwieg der buddha",
-    "segsMatched": 3,
+    "segsMatched": 5,
     "bilaraPaths": [
+      "root/pli/ms/sutta/kn/ud/vagga5/ud5.5_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/ud/vagga5/ud5.5_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/ud/vagga5/ud5.5_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.20_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.20_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an8/an8.20_translation-en-sujato.json",
@@ -42,6 +45,7 @@
       "translation/en/sujato/sutta/an/an10/an10.95_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "ud5.5/de/sabbamitta",
       "an8.20/de/sabbamitta",
       "an10.95/de/sabbamitta"
     ],
@@ -83,6 +87,45 @@
           "pli": 73,
           "de": 57,
           "en": 71
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga5/ud5.5_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/ud/vagga5/ud5.5_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/ud/vagga5/ud5.5_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud5.5",
+        "lang": "de",
+        "segMap": {
+          "ud5.5:2.4": {
+            "scid": "ud5.5:2.4",
+            "pli": "Evaṁ vutte, bhagavā tuṇhī ahosi.",
+            "de": "Doch darauf <span class=\"ebt-matched\">schwieg der Buddha</span>. ",
+            "en": "But when he said this, the Buddha kept silent. ",
+            "matched": true
+          },
+          "ud5.5:3.4": {
+            "scid": "ud5.5:3.4",
+            "pli": "Dutiyampi kho bhagavā tuṇhī ahosi.",
+            "de": "Doch zum zweiten Mal <span class=\"ebt-matched\">schwieg der Buddha</span>. ",
+            "en": "But for a second time the Buddha kept silent. ",
+            "matched": true
+          }
+        },
+        "score": 2.018,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Tief empfundene Sprüche\nBesinnungstag",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 109,
+          "de": 89,
+          "en": 89
         }
       },
       {

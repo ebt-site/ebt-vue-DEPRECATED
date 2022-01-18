@@ -32,7 +32,7 @@
     "pattern": "den besinnungstag",
     "method": "phrase",
     "resultPattern": "\\bden besinnungstag",
-    "segsMatched": 73,
+    "segsMatched": 75,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an3/an3.70_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.70_translation-de-sabbamitta.json",
@@ -58,6 +58,9 @@
       "root/pli/ms/sutta/an/an3/an3.37_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.37_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.37_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga5/ud5.5_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/ud/vagga5/ud5.5_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/ud/vagga5/ud5.5_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an9/an9.18_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an9/an9.18_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an9/an9.18_translation-en-sujato.json",
@@ -90,6 +93,7 @@
       "an10.46/de/sabbamitta",
       "dn30/de/sabbamitta",
       "an3.37/de/sabbamitta",
+      "ud5.5/de/sabbamitta",
       "an9.18/de/sabbamitta",
       "an8.20/de/sabbamitta",
       "an3.38/de/sabbamitta",
@@ -833,7 +837,7 @@
           "an8.20:6.2": {
             "scid": "an8.20:6.2",
             "pli": "“tumheva dāni, bhikkhave, uposathaṁ kareyyātha, pātimokkhaṁ uddiseyyātha. ",
-            "de": "„Mönche, jetzt solltet ihr <span class=\"ebt-matched\">den Besinnungstag</span> abhalten und die Ordenssatzung aufsagen. ",
+            "de": "„Mönche und Nonnen, jetzt sollt ihr <span class=\"ebt-matched\">den Besinnungstag</span> abhalten und die Ordenssatzung aufsagen. ",
             "en": "“Now, mendicants, you should perform the sabbath and recite the monastic code. ",
             "matched": true
           },
@@ -855,6 +859,45 @@
           "pli": 73,
           "de": 57,
           "en": 71
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga5/ud5.5_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/ud/vagga5/ud5.5_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/ud/vagga5/ud5.5_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud5.5",
+        "lang": "de",
+        "segMap": {
+          "ud5.5:8.2": {
+            "scid": "ud5.5:8.2",
+            "pli": "“na dānāhaṁ, bhikkhave, ito paraṁ uposathaṁ karissāmi, pātimokkhaṁ uddisissāmi.",
+            "de": "„Von diesem Tag an werde ich nicht mehr <span class=\"ebt-matched\">den Besinnungstag</span> abhalten oder die Ordenssatzung aufsagen. ",
+            "en": "“From this day forth, mendicants, I will not perform the sabbath or recite the monastic code. ",
+            "matched": true
+          },
+          "ud5.5:8.3": {
+            "scid": "ud5.5:8.3",
+            "pli": "Tumheva dāni, bhikkhave, ito paraṁ uposathaṁ kareyyātha, pātimokkhaṁ uddiseyyātha.",
+            "de": "Jetzt sollt ihr <span class=\"ebt-matched\">den Besinnungstag</span> abhalten und die Ordenssatzung aufsagen. ",
+            "en": "Now you should perform the sabbath and recite the monastic code. ",
+            "matched": true
+          }
+        },
+        "score": 2.018,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Tief empfundene Sprüche\nBesinnungstag",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 109,
+          "de": 89,
+          "en": 89
         }
       },
       {

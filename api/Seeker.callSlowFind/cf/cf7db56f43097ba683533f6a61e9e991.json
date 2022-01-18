@@ -32,18 +32,22 @@
     "pattern": "manifestation",
     "method": "phrase",
     "resultPattern": "\\bmanifestation",
-    "segsMatched": 2,
+    "segsMatched": 3,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn12/sn12.2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.2_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn12/sn12.2_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn141_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn141_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/mn/mn141_translation-en-sujato.json"
+      "translation/en/sujato/sutta/mn/mn141_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn22_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn22_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn22_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "sn12.2/de/sabbamitta",
-      "mn141/de/sabbamitta"
+      "mn141/de/sabbamitta",
+      "dn22/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -108,6 +112,38 @@
           "pli": 122,
           "de": 121,
           "en": 121
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn22_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn22_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn22_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn22",
+        "lang": "de",
+        "segMap": {
+          "dn22:18.4": {
+            "scid": "dn22:18.4",
+            "pli": "Yā tesaṁ tesaṁ sattānaṁ tamhi tamhi sattanikāye jāti sañjāti okkanti abhinibbatti khandhānaṁ pātubhāvo āyatanānaṁ paṭilābho, ",
+            "de": "Die Wiedergeburt, der Anfang, die Empfängnis, Wiederverkörperung, die <span class=\"ebt-matched\">Manifestation</span> der Aggregate und der Erwerb der Sinnesfelder bei den verschiedenen Wesen der verschiedenen Gattungen von Wesen – ",
+            "en": "The rebirth, inception, conception, reincarnation, <span class=\"ebt-matched\">manifestation</span> of the sets of phenomena, and acquisition of the sense fields of the various sentient beings in the various orders of sentient beings. ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 22\nDie längere Lehrrede über Achtsamkeitsmeditation",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 454,
+          "de": 359,
+          "en": 453
         }
       }
     ]

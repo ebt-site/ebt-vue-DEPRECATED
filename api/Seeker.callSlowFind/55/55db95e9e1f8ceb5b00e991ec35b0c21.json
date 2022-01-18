@@ -32,7 +32,7 @@
     "pattern": "etwas übrig bleibt",
     "method": "phrase",
     "resultPattern": "\\betwas übrig bleibt",
-    "segsMatched": 11,
+    "segsMatched": 13,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an9/an9.12_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an9/an9.12_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/mn/mn10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn10_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn10_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn22_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn22_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn22_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.67_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.67_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.67_translation-en-sujato.json",
@@ -56,6 +59,7 @@
     "suttaRefs": [
       "an9.12/de/sabbamitta",
       "mn10/de/sabbamitta",
+      "dn22/de/sabbamitta",
       "an5.67/de/sabbamitta",
       "an5.122/de/sabbamitta",
       "sn47.36/de/sabbamitta",
@@ -223,6 +227,45 @@
           "pli": 235,
           "de": 204,
           "en": 233
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn22_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn22_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn22_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn22",
+        "lang": "de",
+        "segMap": {
+          "dn22:22.2": {
+            "scid": "dn22:22.2",
+            "pli": "diṭṭheva dhamme aññā; sati vā upādisese anāgāmitā. ",
+            "de": "Erleuchtung in diesem Leben, oder, wenn noch <span class=\"ebt-matched\">etwas übrig bleibt</span>, Nichtwiederkehr. ",
+            "en": "enlightenment in the present life, or if there’s something left over, non-return. ",
+            "matched": true
+          },
+          "dn22:22.23": {
+            "scid": "dn22:22.23",
+            "pli": "diṭṭheva dhamme aññā; sati vā upādisese anāgāmitāti. ",
+            "de": "Erleuchtung in diesem Leben, oder, wenn noch <span class=\"ebt-matched\">etwas übrig bleibt</span>, Nichtwiederkehr. ",
+            "en": "enlightenment in the present life, or if there’s something left over, non-return. ",
+            "matched": true
+          }
+        },
+        "score": 2.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 22\nDie längere Lehrrede über Achtsamkeitsmeditation",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 454,
+          "de": 359,
+          "en": 453
         }
       },
       {
