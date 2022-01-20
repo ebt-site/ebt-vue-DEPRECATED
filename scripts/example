@@ -13,10 +13,7 @@ const {
 const APP_DIR = path.join(__dirname, '..' );
 const API_DIR = path.join(APP_DIR, 'api');
 const SRC_DIR = path.join(APP_DIR, 'src');
-const SRC_EXAMPLES = path.join(SRC_DIR, 'examples.js');
-const API_EXAMPLES = path.join(API_DIR, 'examples.json');
 const EBT_DATA_DIR = path.join(APP_DIR, 'local', 'ebt-data');
-const EXAMPLES_DIR = path.join(EBT_DATA_DIR, 'examples');
 
 logger.logLevel = 'warn';
 

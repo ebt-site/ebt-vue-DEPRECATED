@@ -2,7 +2,7 @@ const {
     BilaraWeb,
     Settings,
 } = require('../src/index');
-const examples = require('../api/examples.json');
+const examples = require('scv-bilara/src/examples.json');
 const { PaliHyphenator } = require('js-ebt');
 import Vue from "vue";
 

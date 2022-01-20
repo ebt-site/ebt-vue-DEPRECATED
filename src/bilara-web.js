@@ -1,7 +1,7 @@
 (function(exports) {
     const { logger } = require('log-instance');
     const { MerkleJson } = require('merkle-json');
-    const { examples } = require('./examples.js');
+    const examples = require('scv-bilara/src/examples.json');
     const SUID_MAP = require('scv-bilara/src/auto/suidmap.json');
     const IS_EXAMPLE = require('scv-bilara/src/is-example.json');
     const AUTHORS = require('../api/authors.json');
@@ -98,7 +98,9 @@
         get reExample() {
             var reExample = this._reExample;
             if (!reExample) {
-                let examples = this.examples;
+                let examples = Object.assign({},this.examples);
+                delete examples.authors;
+                delete examples.comments;
                 reExample = Object.keys(examples).reduce((a,lang)=>{
                     let egLang = examples[lang].map(e=>BilaraWeb.sanitizePattern(e));
                     let pat = egLang.join('|\\b');

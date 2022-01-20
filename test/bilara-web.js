@@ -22,14 +22,19 @@
     it("default ctor", ()=>{
         should.throws(()=>new BilaraWeb());
     });
-    it("custom ctor", ()=>{
+    it("TESTTESTcustom ctor", ()=>{
+        let bw = new BilaraWeb({fetch});
+        should.deepEqual(Object.keys(bw.examples).sort(), [
+          'comment', 'authors', 'de', 'jpn', 'en'].sort());
+        should(bw.fetch).equal(fetch);
+
         let examples = {
             de:[],
             en:[],
         };
-        let bw = new BilaraWeb({examples, fetch});
-        should(bw.examples).equal(examples);
-        should(bw.fetch).equal(fetch);
+        let bweg = new BilaraWeb({examples, fetch});
+        should(bweg.examples).equal(examples);
+        should(bweg.fetch).equal(fetch);
     });
     it("decodeHash() => hash object", ()=>{
         // vagga test: an2.31 is part of an2.27-31
@@ -105,7 +110,7 @@
         should(BilaraWeb.encodeHash({sutta_uid, segnum}))
             .equal('#mn1:1.2');
     });
-    it("isExample", async()=>{
+    it("TESTTESTisExample", async()=>{
         var bw = new BilaraWeb({
             fetch,
             lang: 'en', // English default
@@ -114,6 +119,7 @@
         should(bw.isExample('ROOT OF SUFFERING')).equal(true);
         should(bw.isExample('root suffering')).equal(false);
         should(bw.isExample('Wurzel des Leidens')).equal(true);
+        should(bw.isExample('fühlt.* es losgelöst', 'de')).equal(true);
         should(bw.isExample('Wurzel des Leidens', 'de')).equal(true);
         should(bw.isExample('wurzel des leidens', 'de')).equal(true);
 
@@ -142,6 +148,19 @@
         let lang = 'de';
         let guid = '6887db39e3f45d06e4e87ebf004a0334';
         should(bw.exampleGuid(example, lang)).equal(guid);
+    });
+    it("TESTTESTfind(...) finds mind with greed", async()=>{
+        console.log('TODO', __filename); return;
+        var bw = new BilaraWeb({fetch});
+        bw.logLevel = 'info';
+        var pattern = "mind with greed"; 
+        var verbose = 1;
+        var lang = 'en';
+        var res = await bw.find({ pattern, lang, verbose });
+        should.deepEqual(res.suttaRefs, [
+          'an5.157/en/sujato',
+        ]);
+        should(res.bilaraPaths.length).equal(2);
     });
     it("find(...) finds inappropriate to talk", async()=>{
         var bw = new BilaraWeb({fetch});
@@ -400,7 +419,7 @@
         let i34_3 = sutta.segments.findIndex(seg=>seg.scid==='mn10:34.3');
         should(i34_3).equal(i34_2+1); //
     });
-    it("loadSutta(...) returns an2.32-41", async ()=>{
+    it("TESTTESTloadSutta(...) returns an2.32-41", async ()=>{
         let bw = new BilaraWeb({fetch});
         let { sutta_uid, lang } = bw.parseSuttaRef('an2.41/de');
         let sutta = await bw.loadSutta({sutta_uid, lang});

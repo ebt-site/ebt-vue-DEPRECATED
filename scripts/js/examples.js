@@ -17,6 +17,7 @@ const SRC_EXAMPLES = path.join(SRC_DIR, 'examples.js');
 const API_EXAMPLES = path.join(API_DIR, 'examples.json');
 const EBT_DATA_DIR = path.join(APP_DIR, 'local', 'ebt-data');
 const EXAMPLES_DIR = path.join(EBT_DATA_DIR, 'examples');
+const EXAMPLES = require('scv-bilara/src/examples.json');
 
 logger.logLevel = 'info';
 
@@ -44,27 +45,9 @@ let [ execContent, script, exampleArg, ] = argv;
         logger,
     });
 
-    let exampleFiles = (await fs.promises.readdir(EXAMPLES_DIR))
-        .filter(f=>/examples-/.test(f));
-
     let bilaraData;
-    let examples = {};
+    let examples = EXAMPLES;
     let languages = [];
-    for (exampleFile of exampleFiles) {
-        let examplePath = path.join(EXAMPLES_DIR, exampleFile);
-        let langExamples = (await fs.promises.readFile(examplePath))
-            .toString()
-            .split('\n')
-            .filter(ex=>!!ex);
-        if (langExamples.length) {
-            let lang = exampleFile.split('-')[1].split('.')[0];
-            languages.push(lang);
-            examples[lang] = langExamples;
-            logger.log(`${exampleFile}: ${langExamples.length}`);
-        }
-    }
-
-    logger.info(`exampleFiles`, exampleFiles);
     let examplesJson = JSON.stringify(examples,null,2);
     await fs.promises.writeFile(API_EXAMPLES, examplesJson);
     await writeJsonModule('Examples', SRC_EXAMPLES, examplesJson);
