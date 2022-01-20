@@ -1,0 +1,79 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "wo entsteht dieses verlangen",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "wo entsteht dieses verlangen",
+    "method": "phrase",
+    "resultPattern": "\\bwo entsteht dieses verlangen",
+    "segsMatched": 1,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn22_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn22_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn22_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "dn22/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn22_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn22_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn22_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn22",
+        "lang": "de",
+        "segMap": {
+          "dn22:19.4": {
+            "scid": "dn22:19.4",
+            "pli": "Sā kho panesā, bhikkhave, taṇhā kattha uppajjamānā uppajjati, kattha nivisamānā nivisati? ",
+            "de": "Aber <span class=\"ebt-matched\">wo entsteht dieses Verlangen</span> und wo setzt es sich fest? ",
+            "en": "But where does that craving arise and where does it settle? ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 22\nDie längere Lehrrede über Achtsamkeitsmeditation",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 454,
+          "de": 359,
+          "en": 453
+        }
+      }
+    ]
+  }
+}
