@@ -120,12 +120,12 @@
         should(bw.isExample('\\bROOT OF SUFFERING')).equal(false);
         should(bw.isExample('\\bROOT OF SUFFERING\\b')).equal(false);
     });
-    it("authors(...) => supported authors", async()=>{
+    it("TESTTESTauthors(...) => supported authors", async()=>{
         let bw = new BilaraWeb({fetch});
         let authors = bw.authors;
         should.deepEqual(authors.sabbamitta, {
             lang: 'de',
-            name: 'Anagarika Sabbamitta',
+            name: 'Sabbamitta',
             type: 'translator',
         });
     });
@@ -143,7 +143,7 @@
         let guid = '6887db39e3f45d06e4e87ebf004a0334';
         should(bw.exampleGuid(example, lang)).equal(guid);
     });
-    it("TESTTESTfind(...) finds inappropriate to talk", async()=>{
+    it("find(...) finds inappropriate to talk", async()=>{
         var bw = new BilaraWeb({fetch});
         bw.logLevel = 'info';
         var pattern = "inappropriate to talk"; 
@@ -155,7 +155,7 @@
         ]);
         should(res.bilaraPaths.length).equal(2);
     });
-    it("find(...) finds de example", async()=>{
+    it("TESTTESTfind(...) finds de example", async()=>{
         var bw = new BilaraWeb({fetch});
         bw.logLevel = 'info';
         var pattern = "abnehmend"; 
@@ -164,13 +164,19 @@
         var res = await bw.find({ pattern, lang, verbose });
         should.deepEqual(res.suttaRefs, [
           'dn31/de/sabbamitta',
+          'an10.68/de/sabbamitta',
+          'an10.67/de/sabbamitta',
           'sn12.33/de/sabbamitta',
           'sn12.2/de/sabbamitta',
           'sn12.28/de/sabbamitta',
           'sn12.27/de/sabbamitta',       
-          'mn141/de/sabbamitta'   
+          'mn141/de/sabbamitta',
+          'dn22/de/sabbamitta',
+          'an4.19/de/sabbamitta',
+          'an4.17/de/sabbamitta',
+          'an10.14/de/sabbamitta',
         ]);
-        should(res.bilaraPaths.length).equal(18);
+        should(res.bilaraPaths.length).equal(36);
     });
     it("find(...) finds example", async()=>{
         var bw = new BilaraWeb({fetch});
