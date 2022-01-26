@@ -32,11 +32,14 @@
     "pattern": "aber zum erwachen entschlossen",
     "method": "phrase",
     "resultPattern": "\\baber zum erwachen entschlossen",
-    "segsMatched": 9,
+    "segsMatched": 10,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an5/an5.196_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.196_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.196_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn12/sn12.65_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn12/sn12.65_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.65_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn12/sn12.4_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.4_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn12/sn12.4_translation-en-sujato.json",
@@ -58,6 +61,7 @@
     ],
     "suttaRefs": [
       "an5.196/de/sabbamitta",
+      "sn12.65/de/sabbamitta",
       "sn12.4/de/sabbamitta",
       "sn12.10/de/sabbamitta",
       "an9.41/de/sabbamitta",
@@ -238,6 +242,38 @@
           "pli": 56,
           "de": 54,
           "en": 54
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn12/sn12.65_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn12/sn12.65_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn12/sn12.65_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn12.65",
+        "lang": "de",
+        "segMap": {
+          "sn12.65:1.2": {
+            "scid": "sn12.65:1.2",
+            "pli": "“Pubbe me, bhikkhave, sambodhā anabhisambuddhassa bodhisattasseva sato etadahosi: ",
+            "de": "„Mönche und Nonnen, vor meinem Erwachen – als ich noch nicht erwacht war, <span class=\"ebt-matched\">aber zum Erwachen entschlossen</span> – dachte ich: ",
+            "en": "“Mendicants, before my awakening—when I was still unawakened but intent on awakening—I thought: ",
+            "matched": true
+          }
+        },
+        "score": 1.01,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 12\n7. Das große Kapitel\n65. Die Stadt",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 105,
+          "de": 102,
+          "en": 104
         }
       },
       {

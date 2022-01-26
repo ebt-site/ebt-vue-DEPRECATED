@@ -32,7 +32,7 @@
     "pattern": "ist es wirklich wahr",
     "method": "phrase",
     "resultPattern": "\\bist es wirklich wahr",
-    "segsMatched": 15,
+    "segsMatched": 16,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn24_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn24_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/an/an3/an3.61_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.61_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.61_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn12/sn12.70_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn12/sn12.70_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.70_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn12/sn12.32_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.32_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn12/sn12.32_translation-en-sujato.json",
@@ -68,6 +71,7 @@
     "suttaRefs": [
       "dn24/de/sabbamitta",
       "an3.61/de/sabbamitta",
+      "sn12.70/de/sabbamitta",
       "sn12.32/de/sabbamitta",
       "ud3.2/de/sabbamitta",
       "dn25/de/sabbamitta",
@@ -335,6 +339,38 @@
           "pli": 135,
           "de": 134,
           "en": 134
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn12/sn12.70_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn12/sn12.70_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn12/sn12.70_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn12.70",
+        "lang": "de",
+        "segMap": {
+          "sn12.70:4.8": {
+            "scid": "sn12.70:4.8",
+            "pli": "“saccaṁ kirāyasmantehi bhagavato santike aññā byākatā: ",
+            "de": "„<span class=\"ebt-matched\">Ist es wirklich wahr</span>, dass die Ehrwürdigen vor dem Buddha ihre Erleuchtung erklärt haben?“ ",
+            "en": "“Is it really true that the venerables have declared enlightenment in the Buddha’s presence?” ",
+            "matched": true
+          }
+        },
+        "score": 1.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 12\n7. Das große Kapitel\n70. Der Wanderer Susīma",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 180,
+          "de": 166,
+          "en": 176
         }
       },
       {

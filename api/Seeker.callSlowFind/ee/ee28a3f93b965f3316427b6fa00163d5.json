@@ -32,7 +32,7 @@
     "pattern": "es ist einfach dieser edle achtfache pfad",
     "method": "phrase",
     "resultPattern": "\\bes ist einfach dieser edle achtfache pfad",
-    "segsMatched": 11,
+    "segsMatched": 12,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn56/sn56.11_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn56/sn56.11_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/sn/sn47/sn47.40_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn47/sn47.40_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn47/sn47.40_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn12/sn12.65_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn12/sn12.65_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.65_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn44_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn44_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn44_translation-en-sujato.json",
@@ -68,6 +71,7 @@
     "suttaRefs": [
       "sn56.11/de/sabbamitta",
       "sn47.40/de/sabbamitta",
+      "sn12.65/de/sabbamitta",
       "mn44/de/sabbamitta",
       "mn141/de/sabbamitta",
       "dn6/de/sabbamitta",
@@ -211,6 +215,38 @@
           "pli": 55,
           "de": 54,
           "en": 54
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn12/sn12.65_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn12/sn12.65_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn12/sn12.65_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn12.65",
+        "lang": "de",
+        "segMap": {
+          "sn12.65:8.2": {
+            "scid": "sn12.65:8.2",
+            "pli": "Ayameva ariyo aṭṭhaṅgiko maggo, seyyathidaṁ—",
+            "de": "<span class=\"ebt-matched\">Es ist einfach dieser edle achtfache Pfad</span>: nämlich ",
+            "en": "It is simply this noble eightfold path, that is: ",
+            "matched": true
+          }
+        },
+        "score": 1.01,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 12\n7. Das große Kapitel\n65. Die Stadt",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 105,
+          "de": 102,
+          "en": 104
         }
       },
       {

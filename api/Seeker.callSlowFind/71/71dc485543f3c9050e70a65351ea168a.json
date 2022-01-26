@@ -31,20 +31,19 @@
     "pattern": "like a cat",
     "method": "phrase",
     "resultPattern": "\\blike a cat",
-    "segsMatched": 3,
+    "segsMatched": 2,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn50_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn50_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn21_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn21_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thig/thig16.1_root-pli-ms.json",
-      "translation/en/soma/sutta/kn/thig/thig16.1_translation-en-soma.json",
-      "translation/en/sujato/sutta/kn/thig/thig16.1_translation-en-sujato.json"
+      "translation/en/sujato/sutta/kn/thig/thig16.1_translation-en-sujato.json",
+      "translation/en/soma/sutta/kn/thig/thig16.1_translation-en-soma.json"
     ],
     "suttaRefs": [
       "mn50/en/sujato",
-      "mn21/en/sujato",
-      "thig16.1/en/sujato"
+      "mn21/en/sujato"
     ],
     "mlDocs": [
       {
@@ -103,36 +102,6 @@
         "langSegs": {
           "pli": 239,
           "en": 236
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/kn/thig/thig16.1_root-pli-ms.json",
-          "translation/en/soma/sutta/kn/thig/thig16.1_translation-en-soma.json",
-          "translation/en/sujato/sutta/kn/thig/thig16.1_translation-en-sujato.json"
-        ],
-        "author_uid": "soma, sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "thig16.1",
-        "lang": "en",
-        "segMap": {
-          "thig16.1:61.4": {
-            "scid": "thig16.1:61.4",
-            "pli": "Gilitvā pacchā vihaññasi.",
-            "en": "<span class=\"ebt-matched\">like a cat</span>fish on a hook.",
-            "matched": true
-          }
-        },
-        "score": 1.003,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Verses of the Senior Nuns\nThe Great Book\nSumedhā",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 311,
-          "en": 306
         }
       }
     ]

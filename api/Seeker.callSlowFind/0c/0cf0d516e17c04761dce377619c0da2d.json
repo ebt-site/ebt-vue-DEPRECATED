@@ -31,7 +31,7 @@
     "pattern": "overcome by anger",
     "method": "phrase",
     "resultPattern": "\\bovercome by anger",
-    "segsMatched": 4,
+    "segsMatched": 5,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn15_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn15_translation-en-sujato.json",
@@ -42,14 +42,15 @@
       "root/pli/ms/sutta/an/an7/an7.64_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an7/an7.64_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thig/thig13.3_root-pli-ms.json",
-      "translation/en/soma/sutta/kn/thig/thig13.3_translation-en-soma.json",
-      "translation/en/sujato/sutta/kn/thig/thig13.3_translation-en-sujato.json"
+      "translation/en/sujato/sutta/kn/thig/thig13.3_translation-en-sujato.json",
+      "translation/en/soma/sutta/kn/thig/thig13.3_translation-en-soma.json"
     ],
     "suttaRefs": [
       "mn15/en/sujato",
       "iti12/en/sujato",
       "iti4/en/sujato",
-      "an7.64/en/sujato"
+      "an7.64/en/sujato",
+      "thig13.3/en/soma"
     ],
     "mlDocs": [
       {
@@ -108,6 +109,36 @@
         "langSegs": {
           "pli": 20,
           "en": 19
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thig/thig13.3_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/thig/thig13.3_translation-en-sujato.json",
+          "translation/en/soma/sutta/kn/thig/thig13.3_translation-en-soma.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thig13.3",
+        "lang": "en",
+        "segMap": {
+          "thig13.3:3.4": {
+            "scid": "thig13.3:3.4",
+            "pli": "suddhi atthi kuto tapo”.",
+            "en": " be <span class=\"ebt-matched\">overcome by anger</span>?",
+            "matched": true
+          }
+        },
+        "score": 1.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verses of the Elder Bhikkhunīs\nThe Chapter of the Twenties\nVerses of the Elder Cāpā",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 94,
+          "en": 94
         }
       },
       {

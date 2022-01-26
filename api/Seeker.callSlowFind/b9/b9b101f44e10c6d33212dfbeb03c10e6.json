@@ -31,7 +31,7 @@
     "pattern": "unbound",
     "method": "phrase",
     "resultPattern": "\\bunbound",
-    "segsMatched": 14,
+    "segsMatched": 20,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an7/an7.51_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an7/an7.51_translation-en-sujato.json",
@@ -40,31 +40,36 @@
       "root/pli/ms/sutta/dn/dn1_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn1_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thig/thig13.4_root-pli-ms.json",
-      "translation/en/soma/sutta/kn/thig/thig13.4_translation-en-soma.json",
       "translation/en/sujato/sutta/kn/thig/thig13.4_translation-en-sujato.json",
+      "translation/en/soma/sutta/kn/thig/thig13.4_translation-en-soma.json",
       "root/pli/ms/sutta/kn/thag/thag2.48_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thag/thag2.48_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag1.38_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thag/thag1.38_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thig/thig5.5_root-pli-ms.json",
-      "translation/en/soma/sutta/kn/thig/thig5.5_translation-en-soma.json",
       "translation/en/sujato/sutta/kn/thig/thig5.5_translation-en-sujato.json",
+      "translation/en/soma/sutta/kn/thig/thig5.5_translation-en-soma.json",
       "root/pli/ms/sutta/kn/thig/thig5.4_root-pli-ms.json",
-      "translation/en/soma/sutta/kn/thig/thig5.4_translation-en-soma.json",
       "translation/en/sujato/sutta/kn/thig/thig5.4_translation-en-sujato.json",
+      "translation/en/soma/sutta/kn/thig/thig5.4_translation-en-soma.json",
       "root/pli/ms/sutta/kn/thig/thig1.4_root-pli-ms.json",
-      "translation/en/soma/sutta/kn/thig/thig1.4_translation-en-soma.json",
       "translation/en/sujato/sutta/kn/thig/thig1.4_translation-en-sujato.json",
+      "translation/en/soma/sutta/kn/thig/thig1.4_translation-en-soma.json",
       "root/pli/ms/sutta/kn/thig/thig13.5_root-pli-ms.json",
-      "translation/en/soma/sutta/kn/thig/thig13.5_translation-en-soma.json",
-      "translation/en/sujato/sutta/kn/thig/thig13.5_translation-en-sujato.json"
+      "translation/en/sujato/sutta/kn/thig/thig13.5_translation-en-sujato.json",
+      "translation/en/soma/sutta/kn/thig/thig13.5_translation-en-soma.json"
     ],
     "suttaRefs": [
       "an7.51/en/sujato",
       "sn41.5/en/sujato",
       "dn1/en/sujato",
+      "thig13.4/en/soma",
       "thag2.48/en/sujato",
-      "thag1.38/en/sujato"
+      "thag1.38/en/sujato",
+      "thig5.5/en/soma",
+      "thig5.4/en/soma",
+      "thig1.4/en/soma",
+      "thig13.5/en/soma"
     ],
     "mlDocs": [
       {
@@ -210,6 +215,72 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thig/thig13.4_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/thig/thig13.4_translation-en-sujato.json",
+          "translation/en/soma/sutta/kn/thig/thig13.4_translation-en-soma.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thig13.4",
+        "lang": "en",
+        "segMap": {
+          "thig13.4:23.3": {
+            "scid": "thig13.4:23.3",
+            "pli": "Vītarāgaṁ visaṁyuttaṁ,",
+            "en": "free from passion, <span class=\"ebt-matched\">unbound</span>,",
+            "matched": true
+          },
+          "thig13.4:26.5": {
+            "scid": "thig13.4:26.5",
+            "pli": "Vītarāgā visaṁyuttā,",
+            "en": "Free from passion, <span class=\"ebt-matched\">unbound</span>,",
+            "matched": true
+          }
+        },
+        "score": 2.017,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verses of the Elder Bhikkhunīs\nThe Chapter of the Twenties\nVerses of the Elder Sundarī",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 119,
+          "en": 119
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thig/thig1.4_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/thig/thig1.4_translation-en-sujato.json",
+          "translation/en/soma/sutta/kn/thig/thig1.4_translation-en-soma.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thig1.4",
+        "lang": "en",
+        "segMap": {
+          "thig1.4:1.3": {
+            "scid": "thig1.4:1.3",
+            "pli": "Sabbayogavisaṁyuttā,",
+            "en": "All bonds <span class=\"ebt-matched\">unbound</span>,",
+            "matched": true
+          }
+        },
+        "score": 1.125,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verses of the Elder Bhikkhunīs\nThe Chapter of the Ones\nVerses of the Elder Tissā",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 8,
+          "en": 8
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/kn/thag/thag1.38_root-pli-ms.json",
           "translation/en/sujato/sutta/kn/thag/thag1.38_translation-en-sujato.json"
         ],
@@ -264,6 +335,96 @@
         "langSegs": {
           "pli": 13,
           "en": 12
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thig/thig5.4_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/thig/thig5.4_translation-en-sujato.json",
+          "translation/en/soma/sutta/kn/thig/thig5.4_translation-en-soma.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thig5.4",
+        "lang": "en",
+        "segMap": {
+          "thig5.4:5.3": {
+            "scid": "thig5.4:5.3",
+            "pli": "Appamattā visaṁyuttā,",
+            "en": "Heedful, <span class=\"ebt-matched\">unbound</span>,",
+            "matched": true
+          }
+        },
+        "score": 1.042,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verses of the Elder Bhikkhunīs\nThe Chapter of the Fives\nVerses of the Elder Sundarīnandā",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 24,
+          "en": 24
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thig/thig5.5_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/thig/thig5.5_translation-en-sujato.json",
+          "translation/en/soma/sutta/kn/thig/thig5.5_translation-en-soma.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thig5.5",
+        "lang": "en",
+        "segMap": {
+          "thig5.5:5.3": {
+            "scid": "thig5.5:5.3",
+            "pli": "Sabbayogavisaṁyuttā,",
+            "en": "All bonds <span class=\"ebt-matched\">unbound</span>,",
+            "matched": true
+          }
+        },
+        "score": 1.042,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verses of the Elder Bhikkhunīs\nThe Chapter of the Fives\nVerses of the Elder Nanduttarā",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 24,
+          "en": 24
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thig/thig13.5_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/thig/thig13.5_translation-en-sujato.json",
+          "translation/en/soma/sutta/kn/thig/thig13.5_translation-en-soma.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thig13.5",
+        "lang": "en",
+        "segMap": {
+          "thig13.5:28.3": {
+            "scid": "thig13.5:28.3",
+            "pli": "Sabbayogavisaṁyuttā,",
+            "en": "with all bonds <span class=\"ebt-matched\">unbound</span>,",
+            "matched": true
+          }
+        },
+        "score": 1.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verses of the Elder Bhikkhunīs\nThe Chapter of the Twenties\nSubhā, the Daughter of a Blacksmith",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 122,
+          "en": 121
         }
       }
     ]

@@ -32,14 +32,22 @@
     "pattern": "diese.* vier edlen wahrheiten",
     "method": "phrase",
     "resultPattern": "\\bdiese.* vier edlen wahrheiten",
-    "segsMatched": 2,
+    "segsMatched": 4,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn56/sn56.11_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn56/sn56.11_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn56/sn56.11_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn56/sn56.11_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn56/sn56.4_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn56/sn56.4_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn56/sn56.4_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn56/sn56.3_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn56/sn56.3_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn56/sn56.3_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "sn56.11/de/sabbamitta"
+      "sn56.11/de/sabbamitta",
+      "sn56.4/de/sabbamitta",
+      "sn56.3/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -79,6 +87,70 @@
           "pli": 60,
           "de": 59,
           "en": 59
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn56/sn56.3_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn56/sn56.3_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn56/sn56.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn56.3",
+        "lang": "de",
+        "segMap": {
+          "sn56.3:2.5": {
+            "scid": "sn56.3:2.5",
+            "pli": "pabbajanti, sabbe te imesaṁyeva catunnaṁ ariyasaccānaṁ yathābhūtaṁ abhisamayāya. ",
+            "de": "oder der Gegenwart zu Recht aus dem Haus fortzieht ins hauslose Leben –, sie alle tun es, um <span class=\"ebt-matched\">diese vier edlen Wahrheiten</span> wahrhaftig zu erfassen. ",
+            "en": "or present—rightly go forth from the lay life to homelessness, all of them do so in order to truly comprehend the four noble truths. ",
+            "matched": true
+          }
+        },
+        "score": 1.077,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 56\n1. Versenkung\n3. Ein anständiger Mensch (1)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 13,
+          "de": 12,
+          "en": 12
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn56/sn56.4_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn56/sn56.4_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn56/sn56.4_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn56.4",
+        "lang": "de",
+        "segMap": {
+          "sn56.4:2.5": {
+            "scid": "sn56.4:2.5",
+            "pli": "abhisamenti, sabbe te imāni cattāri ariyasaccāni yathābhūtaṁ abhisamenti. ",
+            "de": "oder der Gegenwart etwas wahrhaftig erfasst, nachdem er zu Recht aus dem Haus fortgezogen ist ins hauslose Leben –, sie alle erfassen wahrhaftig <span class=\"ebt-matched\">diese vier edlen Wahrheiten</span>. ",
+            "en": " ",
+            "matched": true
+          }
+        },
+        "score": 1.077,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 56\n1. Versenkung\n4. Ein anständiger Mensch (2)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 13,
+          "de": 12,
+          "en": 12
         }
       }
     ]

@@ -32,7 +32,7 @@
     "pattern": "wenn berührung aufhört",
     "method": "phrase",
     "resultPattern": "\\bwenn berührung aufhört",
-    "segsMatched": 13,
+    "segsMatched": 15,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an6/an6.63_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.63_translation-de-sabbamitta.json",
@@ -43,6 +43,12 @@
       "root/pli/ms/sutta/sn/sn47/sn47.42_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn47/sn47.42_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn47/sn47.42_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn12/sn12.70_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn12/sn12.70_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.70_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn12/sn12.68_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn12/sn12.68_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.68_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn12/sn12.4_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.4_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn12/sn12.4_translation-en-sujato.json",
@@ -66,6 +72,8 @@
       "an6.63/de/sabbamitta",
       "dn14/de/sabbamitta",
       "sn47.42/de/sabbamitta",
+      "sn12.70/de/sabbamitta",
+      "sn12.68/de/sabbamitta",
       "sn12.4/de/sabbamitta",
       "sn12.24/de/sabbamitta",
       "sn12.1/de/sabbamitta",
@@ -296,6 +304,38 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn12/sn12.68_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn12/sn12.68_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn12/sn12.68_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn12.68",
+        "lang": "de",
+        "segMap": {
+          "sn12.68:4.6": {
+            "scid": "sn12.68:4.6",
+            "pli": "phassanirodhā vedanānirodhoti … ",
+            "de": "dass, <span class=\"ebt-matched\">wenn Berührung aufhört</span>, Gefühl aufhört … ",
+            "en": "when contact ceases, feeling ceases … ",
+            "matched": true
+          }
+        },
+        "score": 1.012,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 12\n7. Das große Kapitel\n68. In Kosambī",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 84,
+          "de": 66,
+          "en": 83
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an3/an3.61_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/an/an3/an3.61_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/an/an3/an3.61_translation-en-sujato.json"
@@ -388,6 +428,38 @@
           "pli": 107,
           "de": 106,
           "en": 106
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn12/sn12.70_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn12/sn12.70_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn12/sn12.70_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn12.70",
+        "lang": "de",
+        "segMap": {
+          "sn12.70:19.8": {
+            "scid": "sn12.70:19.8",
+            "pli": "phassanirodhā vedanānirodhoti … ",
+            "de": "dass, <span class=\"ebt-matched\">wenn Berührung aufhört</span>, Gefühl aufhört … ",
+            "en": "when contact ceases, feeling ceases … ",
+            "matched": true
+          }
+        },
+        "score": 1.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 12\n7. Das große Kapitel\n70. Der Wanderer Susīma",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 180,
+          "de": 166,
+          "en": 176
         }
       }
     ]

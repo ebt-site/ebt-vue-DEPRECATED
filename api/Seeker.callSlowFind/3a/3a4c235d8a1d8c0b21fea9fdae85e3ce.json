@@ -31,116 +31,33 @@
     "pattern": "hatred",
     "method": "phrase",
     "resultPattern": "\\bhatred",
-    "segsMatched": 12,
+    "segsMatched": 9,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn128_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn128_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/dhp/dhp1-20_root-pli-ms.json",
-      "translation/en/suddhaso/sutta/kn/dhp/dhp1-20_translation-en-suddhaso.json",
       "translation/en/sujato/sutta/kn/dhp/dhp1-20_translation-en-sujato.json",
+      "translation/en/suddhaso/sutta/kn/dhp/dhp1-20_translation-en-suddhaso.json",
       "root/pli/ms/sutta/an/an4/an4.20_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an4/an4.20_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag6.1_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thag/thag6.1_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/dhp/dhp1-20_root-pli-ms.json",
-      "translation/en/suddhaso/sutta/kn/dhp/dhp1-20_translation-en-suddhaso.json",
       "translation/en/sujato/sutta/kn/dhp/dhp1-20_translation-en-sujato.json",
+      "translation/en/suddhaso/sutta/kn/dhp/dhp1-20_translation-en-suddhaso.json",
       "root/pli/ms/sutta/kn/thig/thig15.1_root-pli-ms.json",
-      "translation/en/soma/sutta/kn/thig/thig15.1_translation-en-soma.json",
-      "translation/en/sujato/sutta/kn/thig/thig15.1_translation-en-sujato.json"
+      "translation/en/sujato/sutta/kn/thig/thig15.1_translation-en-sujato.json",
+      "translation/en/soma/sutta/kn/thig/thig15.1_translation-en-soma.json"
     ],
     "suttaRefs": [
       "mn128/en/sujato",
       "dhp1-20/en/sujato",
       "an4.20/en/sujato",
       "thag6.1/en/sujato",
-      "dhp1-20/en/suddhaso"
+      "dhp1-20/en/suddhaso",
+      "thig15.1/en/soma"
     ],
     "mlDocs": [
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/kn/dhp/dhp1-20_root-pli-ms.json",
-          "translation/en/suddhaso/sutta/kn/dhp/dhp1-20_translation-en-suddhaso.json",
-          "translation/en/sujato/sutta/kn/dhp/dhp1-20_translation-en-sujato.json"
-        ],
-        "author_uid": "suddhaso, sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "dhp1-20",
-        "lang": "en",
-        "segMap": {
-          "dhp3:4": {
-            "scid": "dhp3:4",
-            "pli": "veraṁ tesaṁ na sammati.",
-            "en": "<span class=\"ebt-matched\">hatred</span> never ends.",
-            "matched": true
-          },
-          "dhp4:4": {
-            "scid": "dhp4:4",
-            "pli": "veraṁ tesūpasammati.",
-            "en": "<span class=\"ebt-matched\">hatred</span> has an end.",
-            "matched": true
-          },
-          "dhp5:1": {
-            "scid": "dhp5:1",
-            "pli": "Na hi verena verāni,",
-            "en": "For never is <span class=\"ebt-matched\">hatred</span>",
-            "matched": true
-          }
-        },
-        "score": 3.028,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Minor Collection\nSayings of the Dhamma\nPairs\nCakkhupālattheravatthu",
-        "segsMatched": 3,
-        "langSegs": {
-          "pli": 108,
-          "en": 93
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/kn/dhp/dhp1-20_root-pli-ms.json",
-          "translation/en/suddhaso/sutta/kn/dhp/dhp1-20_translation-en-suddhaso.json",
-          "translation/en/sujato/sutta/kn/dhp/dhp1-20_translation-en-sujato.json"
-        ],
-        "author_uid": "suddhaso, sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "dhp1-20",
-        "lang": "en",
-        "segMap": {
-          "dhp3:4": {
-            "scid": "dhp3:4",
-            "pli": "veraṁ tesaṁ na sammati.",
-            "en": "<span class=\"ebt-matched\">hatred</span> never ends.",
-            "matched": true
-          },
-          "dhp4:4": {
-            "scid": "dhp4:4",
-            "pli": "veraṁ tesūpasammati.",
-            "en": "<span class=\"ebt-matched\">hatred</span> has an end.",
-            "matched": true
-          },
-          "dhp5:1": {
-            "scid": "dhp5:1",
-            "pli": "Na hi verena verāni,",
-            "en": "For never is <span class=\"ebt-matched\">hatred</span>",
-            "matched": true
-          }
-        },
-        "score": 3.028,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Minor Collection\nSayings of the Dhamma\nPairs\nCakkhupālattheravatthu",
-        "segsMatched": 3,
-        "langSegs": {
-          "pli": 108,
-          "en": 93
-        }
-      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/mn/mn128_root-pli-ms.json",
@@ -244,6 +161,96 @@
         "langSegs": {
           "pli": 29,
           "en": 28
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/dhp/dhp1-20_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/dhp/dhp1-20_translation-en-sujato.json",
+          "translation/en/suddhaso/sutta/kn/dhp/dhp1-20_translation-en-suddhaso.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dhp1-20",
+        "lang": "en",
+        "segMap": {
+          "dhp20:3": {
+            "scid": "dhp20:3",
+            "pli": "Rāgañca dosañca pahāya mohaṁ,",
+            "en": "having abandoned passion, <span class=\"ebt-matched\">hatred</span>, and delusion,",
+            "matched": true
+          }
+        },
+        "score": 1.009,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Collection of Minor Texts\nVerses of Dhamma\nChapter of Pairs\nCakkhupālattheravatthu",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 108,
+          "en": 94
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/dhp/dhp1-20_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/dhp/dhp1-20_translation-en-sujato.json",
+          "translation/en/suddhaso/sutta/kn/dhp/dhp1-20_translation-en-suddhaso.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dhp1-20",
+        "lang": "en",
+        "segMap": {
+          "dhp20:3": {
+            "scid": "dhp20:3",
+            "pli": "Rāgañca dosañca pahāya mohaṁ,",
+            "en": "having abandoned passion, <span class=\"ebt-matched\">hatred</span>, and delusion,",
+            "matched": true
+          }
+        },
+        "score": 1.009,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Collection of Minor Texts\nVerses of Dhamma\nChapter of Pairs\nCakkhupālattheravatthu",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 108,
+          "en": 94
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thig/thig15.1_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/thig/thig15.1_translation-en-sujato.json",
+          "translation/en/soma/sutta/kn/thig/thig15.1_translation-en-soma.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thig15.1",
+        "lang": "en",
+        "segMap": {
+          "thig15.1:47.4": {
+            "scid": "thig15.1:47.4",
+            "pli": "Tassāhaṁ viddesanamakāsiṁ.",
+            "en": "I filled her with <span class=\"ebt-matched\">hatred</span>.",
+            "matched": true
+          }
+        },
+        "score": 1.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verses of the Elder Bhikkhunīs\nThe Chapter of the Forties\nVerses of the Elder Isidāsī",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 198,
+          "en": 197
         }
       }
     ]

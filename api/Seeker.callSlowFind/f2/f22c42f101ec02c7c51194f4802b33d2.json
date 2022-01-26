@@ -31,7 +31,7 @@
     "pattern": "seized by",
     "method": "phrase",
     "resultPattern": "\\bseized by",
-    "segsMatched": 6,
+    "segsMatched": 7,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn3/sn3.4_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn3/sn3.4_translation-en-sujato.json",
@@ -46,8 +46,8 @@
       "root/pli/ms/sutta/an/an4/an4.170_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an4/an4.170_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thig/thig16.1_root-pli-ms.json",
-      "translation/en/soma/sutta/kn/thig/thig16.1_translation-en-soma.json",
-      "translation/en/sujato/sutta/kn/thig/thig16.1_translation-en-sujato.json"
+      "translation/en/sujato/sutta/kn/thig/thig16.1_translation-en-sujato.json",
+      "translation/en/soma/sutta/kn/thig/thig16.1_translation-en-soma.json"
     ],
     "suttaRefs": [
       "sn3.4/en/sujato",
@@ -55,7 +55,8 @@
       "sn2.10/en/sujato",
       "sn1.38/en/sujato",
       "dhp273-289/en/sujato",
-      "an4.170/en/sujato"
+      "an4.170/en/sujato",
+      "thig16.1/en/soma"
     ],
     "mlDocs": [
       {
@@ -230,6 +231,36 @@
         "langSegs": {
           "pli": 86,
           "en": 86
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thig/thig16.1_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/thig/thig16.1_translation-en-sujato.json",
+          "translation/en/soma/sutta/kn/thig/thig16.1_translation-en-soma.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thig16.1",
+        "lang": "en",
+        "segMap": {
+          "thig16.1:64.4": {
+            "scid": "thig16.1:64.4",
+            "pli": "Sabbā sabbattha jātiyo.",
+            "en": "<span class=\"ebt-matched\">seized by</span> death and sickness.",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verses of the Elder Bhikkhunīs\nThe Great Chapter\nVerses of the Elder Sumedhā",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 311,
+          "en": 307
         }
       }
     ]

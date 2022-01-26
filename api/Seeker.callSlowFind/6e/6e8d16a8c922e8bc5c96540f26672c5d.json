@@ -32,8 +32,11 @@
     "pattern": "einen gierigen geist",
     "method": "phrase",
     "resultPattern": "\\beinen gierigen geist",
-    "segsMatched": 10,
+    "segsMatched": 11,
     "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn12/sn12.70_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn12/sn12.70_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.70_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn10_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn10_translation-en-sujato.json",
@@ -66,6 +69,7 @@
       "translation/en/sujato/sutta/an/an10/an10.97_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "sn12.70/de/sabbamitta",
       "mn10/de/sabbamitta",
       "dn22/de/sabbamitta",
       "dn10/de/sabbamitta",
@@ -300,6 +304,38 @@
           "pli": 95,
           "de": 92,
           "en": 94
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn12/sn12.70_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn12/sn12.70_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn12/sn12.70_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn12.70",
+        "lang": "de",
+        "segMap": {
+          "sn12.70:7.2": {
+            "scid": "sn12.70:7.2",
+            "pli": "sarāgaṁ vā cittaṁ sarāgaṁ cittanti pajānātha;",
+            "de": "Erkennt ihr <span class=\"ebt-matched\">einen gierigen Geist</span> als ‚gierigen Geist‘ ",
+            "en": "Do you understand mind with greed as ‘mind with greed’,",
+            "matched": true
+          }
+        },
+        "score": 1.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 12\n7. Das große Kapitel\n70. Der Wanderer Susīma",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 180,
+          "de": 166,
+          "en": 176
         }
       },
       {
