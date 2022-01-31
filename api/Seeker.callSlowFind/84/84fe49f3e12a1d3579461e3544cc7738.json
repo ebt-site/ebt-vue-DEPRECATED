@@ -32,7 +32,7 @@
     "pattern": "vollständig verstanden werden",
     "method": "phrase",
     "resultPattern": "\\bvollständig verstanden werden",
-    "segsMatched": 20,
+    "segsMatched": 21,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
@@ -43,6 +43,9 @@
       "root/pli/ms/sutta/an/an4/an4.254_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.254_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.254_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn56/sn56.12_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn56/sn56.12_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn56/sn56.12_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn56/sn56.11_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn56/sn56.11_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn56/sn56.11_translation-en-sujato.json"
@@ -51,6 +54,7 @@
       "dn34/de/sabbamitta",
       "an6.61/de/sabbamitta",
       "an4.254/de/sabbamitta",
+      "sn56.12/de/sabbamitta",
       "sn56.11/de/sabbamitta"
     ],
     "mlDocs": [
@@ -260,6 +264,38 @@
           "pli": 56,
           "de": 51,
           "en": 55
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn56/sn56.12_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn56/sn56.12_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn56/sn56.12_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn56.12",
+        "lang": "de",
+        "segMap": {
+          "sn56.12:1.2": {
+            "scid": "sn56.12:1.2",
+            "pli": "‘Taṁ kho panidaṁ dukkhaṁ ariyasaccaṁ pariññeyyan’ti, bhikkhave, tathāgatānaṁ pubbe …pe… udapādi. ",
+            "de": "‚Diese edle Wahrheit vom Leiden muss <span class=\"ebt-matched\">vollständig verstanden werden</span>.‘ Dieses Sehen ging den Klargewordenen auf … ",
+            "en": "‘This noble truth of suffering should be completely understood.’ … ",
+            "matched": true
+          }
+        },
+        "score": 1.063,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 56\n2. Das Rad des Dhamma ins Rollen bringen\n12. Die Klargewordenen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 16,
+          "de": 15,
+          "en": 15
         }
       },
       {

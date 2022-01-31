@@ -32,7 +32,7 @@
     "pattern": "alberne gespräche",
     "method": "phrase",
     "resultPattern": "\\balberne gespräche",
-    "segsMatched": 10,
+    "segsMatched": 11,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn25_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn25_translation-de-sabbamitta.json",
@@ -43,6 +43,9 @@
       "root/pli/ms/sutta/an/an10/an10.69_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.69_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an10/an10.69_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn56/sn56.10_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn56/sn56.10_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn56/sn56.10_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.94_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.94_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an10/an10.94_translation-en-sujato.json",
@@ -57,6 +60,7 @@
       "dn25/de/sabbamitta",
       "an8.2/de/sabbamitta",
       "an10.69/de/sabbamitta",
+      "sn56.10/de/sabbamitta",
       "an10.94/de/sabbamitta",
       "an10.93/de/sabbamitta",
       "an10.70/de/sabbamitta"
@@ -184,6 +188,38 @@
           "pli": 64,
           "de": 56,
           "en": 63
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn56/sn56.10_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn56/sn56.10_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn56/sn56.10_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn56.10",
+        "lang": "de",
+        "segMap": {
+          "sn56.10:0.3": {
+            "scid": "sn56.10:0.3",
+            "pli": "10. Tiracchānakathāsutta ",
+            "de": "10. <span class=\"ebt-matched\">Alberne Gespräche</span> ",
+            "en": "10. Unworthy Talk ",
+            "matched": true
+          }
+        },
+        "score": 1.056,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 56\n1. Versenkung\n10. Alberne Gespräche",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 18,
+          "de": 11,
+          "en": 16
         }
       },
       {
