@@ -1325,6 +1325,7 @@
     "the unattained",
     "the wise give",
     "they’re happy with that",
+    "thief",
     "things are helpful",
     "things in themselves",
     "this body is also of that same nature",

@@ -31,7 +31,7 @@
     "pattern": "cross.* the flood",
     "method": "phrase",
     "resultPattern": "\\bcross.* the flood",
-    "segsMatched": 45,
+    "segsMatched": 46,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn1/sn1.1_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.1_translation-en-sujato.json",
@@ -108,6 +108,7 @@
       "ud8.10/en/sujato",
       "ud7.3/en/sujato",
       "ud7.1/en/sujato",
+      "thig1.10/en/sujato",
       "thag21.1/en/sujato",
       "thag13.1/en/sujato",
       "thag1.15/en/sujato",
@@ -453,6 +454,36 @@
         "langSegs": {
           "pli": 127,
           "en": 126
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thig/thig1.10_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/thig/thig1.10_translation-en-sujato.json",
+          "translation/en/soma/sutta/kn/thig/thig1.10_translation-en-soma.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thig1.10",
+        "lang": "en",
+        "segMap": {
+          "thig1.10:1.1": {
+            "scid": "thig1.10:1.1",
+            "pli": "“Upasame tare oghaṁ,",
+            "en": "Upasamā, <span class=\"ebt-matched\">cross the flood</span>,",
+            "matched": true
+          }
+        },
+        "score": 1.125,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verses of the Senior Nuns\nThe Book of the Ones\nUpasamā",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 8,
+          "en": 7
         }
       },
       {
