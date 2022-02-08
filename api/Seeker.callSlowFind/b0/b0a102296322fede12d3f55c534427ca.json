@@ -32,11 +32,14 @@
     "pattern": "alle[sm] leiden",
     "method": "phrase",
     "resultPattern": "\\balle[sm] leiden",
-    "segsMatched": 21,
+    "segsMatched": 23,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn42/sn42.11_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn42/sn42.11_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn42/sn42.11_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn56/sn56.22_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn56/sn56.22_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn56/sn56.22_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thig/thig13.4_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thig/thig13.4_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thig/thig13.4_translation-en-sujato.json",
@@ -90,6 +93,7 @@
     ],
     "suttaRefs": [
       "sn42.11/de/sabbamitta",
+      "sn56.22/de/sabbamitta",
       "thig13.4/de/sabbamitta",
       "sn5.6/de/sabbamitta",
       "mn140/de/sabbamitta",
@@ -165,6 +169,45 @@
           "pli": 55,
           "de": 54,
           "en": 54
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn56/sn56.22_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn56/sn56.22_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn56/sn56.22_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn56.22",
+        "lang": "de",
+        "segMap": {
+          "sn56.22:4.3": {
+            "scid": "sn56.22:4.3",
+            "pli": "Yattha ca sabbaso dukkhaṁ, ",
+            "de": "und auch nicht, wo <span class=\"ebt-matched\">alles Leiden</span> ",
+            "en": "and where all suffering ",
+            "matched": true
+          },
+          "sn56.22:6.3": {
+            "scid": "sn56.22:6.3",
+            "pli": "Yattha ca sabbaso dukkhaṁ, ",
+            "de": "und wo <span class=\"ebt-matched\">alles Leiden</span> ",
+            "en": "and where all suffering ",
+            "matched": true
+          }
+        },
+        "score": 2.067,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 56\n3. Beim Dorf Koṭi\n22. Beim Dorf Koṭi (2)",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 30,
+          "de": 29,
+          "en": 29
         }
       },
       {
