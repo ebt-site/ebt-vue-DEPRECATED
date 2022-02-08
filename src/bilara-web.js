@@ -13,7 +13,8 @@
             (opts.logger || logger).logInstance(this, opts);
             this.examples = opts.examples || examples;
             this.suidMap = opts.suidMap || SUID_MAP;
-            this.suids = Object.keys(this.suidMap).sort(SuttaCentralId.compareLow);
+            this.suids = Object.keys(this.suidMap)
+              .sort(SuttaCentralId.compareLow);
             this.lang = opts.lang || 'en';
             this.mj = new MerkleJson;
             this.maxResults = opts.maxResults==null ? 1000 : opts.maxResults;
@@ -268,45 +269,45 @@
         }
 
         async find(...args) { try {
-            var {
-                fetch,
-                findMemo,
-                memoizer,
-            } = this;
-            var {
-                lang,
-                pattern,
-                verbose,
-            } = this.findArgs(args);
-            var that = this;
-            var callSlowFind = (args)=>{
-                return that.slowFind.call(that, args);
-            };
-            var result;
-            if (this.isExample(pattern, lang)) {
-                let guid = this.exampleGuid(pattern, lang, verbose);
-                let url = [
-                    'https://raw.githubusercontent.com',
-                    'ebt-site',
-                    'ebt-vue',
-                    'main',
-                    'api',
-                    'Seeker.callSlowFind',
-                    guid.substring(0,2),
-                    `${guid}.json`,
-                ].join('/');
-                try {
-                    let res = await fetch(url, {headers:{Accept: 'text/plain'}});
-                    result = (await res.json()).value;
-                } catch(e) {
-                    let guid = this.exampleGuid(pattern, lang, true);
-                    let err = new Error(`${url} => ${e.message}`);
-                    throw err;
-                }
-            } else {
-                this.info(`find() non-example:`, pattern);
+          var {
+              fetch,
+              findMemo,
+              memoizer,
+          } = this;
+          var {
+              lang,
+              pattern,
+              verbose,
+          } = this.findArgs(args);
+          var that = this;
+          var callSlowFind = (args)=>{
+              return that.slowFind.call(that, args);
+          };
+          var result;
+          if (this.isExample(pattern, lang)) {
+            let guid = this.exampleGuid(pattern, lang, verbose);
+            let url = [
+              'https://raw.githubusercontent.com',
+              'ebt-site',
+              'ebt-vue',
+              'main',
+              'api',
+              'Seeker.callSlowFind',
+              guid.substring(0,2),
+              `${guid}.json`,
+            ].join('/');
+            try {
+              let res = await fetch(url, {headers:{Accept: 'text/plain'}});
+              result = (await res.json()).value;
+            } catch(e) {
+              let guid = this.exampleGuid(pattern, lang, true);
+              let err = new Error(`${url} => ${e.message}`);
+              throw err;
             }
-            return result;
+          } else {
+              this.info(`find() non-example:`, pattern);
+          }
+          return result;
         } catch(e) {
             this.warn(`find(${pattern})`, e.message);
             throw e;
@@ -345,13 +346,24 @@
 
         async loadSuttaSegments({sutta_uid, lang='pli'}) {
             let {
+                authors,
                 fetch,
                 host,
                 includeUnpublished,
             } = this;
             let segments;
             let bilaraPaths = this.suidPaths(sutta_uid) || {};
-            let bpKey = Object.keys(bilaraPaths).find(key=>key.includes(`/${lang}/`));
+            let bpKeys = Object.keys(bilaraPaths).filter(bp=>bp.match(`/${lang}/`));
+            bpKeys.length > 1 && bpKeys.sort((a,b)=>{
+              let [ aTrans, aLang, aAuth ] = a.split('/');
+              let [ bTrans, bLang, bAuth ] = b.split('/');
+              // Prioritize sutta selection for a language by author exampleVersion
+              let aEV = authors[aAuth].exampleVersion;
+              let bEV = authors[bAuth].exampleVersion;
+              let cmp = bEV - aEV;
+              return cmp;
+            });
+            let bpKey = bpKeys.find(key=>key.includes(`/${lang}/`));
             if (bpKey == null) {
                 this.info(`loadSuttaSegments(${sutta_uid},${lang}) => undefined`);
                 return undefined;

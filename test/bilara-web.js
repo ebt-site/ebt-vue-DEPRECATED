@@ -22,7 +22,7 @@
     it("default ctor", ()=>{
         should.throws(()=>new BilaraWeb());
     });
-    it("TESTTESTcustom ctor", ()=>{
+    it("custom ctor", ()=>{
         let bw = new BilaraWeb({fetch});
         should.deepEqual(Object.keys(bw.examples).sort(), [
           'comment', 'authors', 'de', 'jpn', 'en'].sort());
@@ -110,7 +110,7 @@
         should(BilaraWeb.encodeHash({sutta_uid, segnum}))
             .equal('#mn1:1.2');
     });
-    it("TESTTESTisExample", async()=>{
+    it("isExample", async()=>{
         var bw = new BilaraWeb({
             fetch,
             lang: 'en', // English default
@@ -126,14 +126,15 @@
         should(bw.isExample('\\bROOT OF SUFFERING')).equal(false);
         should(bw.isExample('\\bROOT OF SUFFERING\\b')).equal(false);
     });
-    it("TESTTESTauthors(...) => supported authors", async()=>{
-        let bw = new BilaraWeb({fetch});
-        let authors = bw.authors;
-        should.deepEqual(authors.sabbamitta, {
-            lang: 'de',
-            name: 'Sabbamitta',
-            type: 'translator',
-        });
+    it("authors(...) => supported authors", async()=>{
+      let bw = new BilaraWeb({fetch});
+      let authors = bw.authors;
+      should.deepEqual(authors.sabbamitta, {
+        exampleVersion: 1,
+        lang: 'de',
+        name: 'Sabbamitta',
+        type: 'translator',
+      });
     });
     it("exampleGuid(...) => en guid", async()=>{
         let bw = new BilaraWeb({fetch});
@@ -149,7 +150,7 @@
         let guid = '6887db39e3f45d06e4e87ebf004a0334';
         should(bw.exampleGuid(example, lang)).equal(guid);
     });
-    it("TESTTESTfind(...) finds mind with greed", async()=>{
+    it("find(...) finds mind with greed", async()=>{
         console.log('TODO', __filename); return;
         var bw = new BilaraWeb({fetch});
         bw.logLevel = 'info';
@@ -174,7 +175,7 @@
         ]);
         should(res.bilaraPaths.length).equal(2);
     });
-    it("TESTTESTfind(...) finds de example", async()=>{
+    it("find(...) finds de example", async()=>{
         var bw = new BilaraWeb({fetch});
         bw.logLevel = 'info';
         var pattern = "abnehmend"; 
@@ -338,7 +339,24 @@
         let nosuid = await bw.loadSuttaSegments({lang:'nosuid'});
         should(nosuid).equal(undefined);
     });
-    it("loadSutta(...) returns asn3.128", async ()=>{
+    it("TESTTESTloadSutta(...) => thig1.1 (sujato)", async ()=>{
+        let bw = new BilaraWeb({fetch});
+        bw.logLevel = 'debug';
+        let sutta_uid = 'thig1.1';
+        let translator = 'sujato';
+        let lang = 'en';
+        let sutta = await bw.loadSutta({sutta_uid});
+        should(sutta.sutta_uid).equal(sutta_uid);
+        should(sutta.lang).equal(lang);
+        should(sutta.translator).equal(translator);
+        let segments = sutta.segments;
+        should.deepEqual(segments[0],{
+            scid: 'thig1.1:0.1',
+            pli: 'Therīgāthā',
+            en: 'Verses of the Senior Nuns',
+        });
+    });
+    it("TESTTESTloadSutta(...) returns asn3.128", async ()=>{
         let bw = new BilaraWeb({fetch});
         let sutta_uid = 'an3.128';
         let lang = 'de';
@@ -359,7 +377,7 @@
         should.deepEqual(sutta.titles, [ 
             'Nummerierte Lehrreden 3 ',
             '13. Kusināra ',
-            '128. Verdrießlich '
+            '128. Bitter '
         ]);
     });
     it("loadSutta(...) returns an1.31:1.2 => an2.21-31", async ()=>{
@@ -419,7 +437,7 @@
         let i34_3 = sutta.segments.findIndex(seg=>seg.scid==='mn10:34.3');
         should(i34_3).equal(i34_2+1); //
     });
-    it("TESTTESTloadSutta(...) returns an2.32-41", async ()=>{
+    it("loadSutta(...) returns an2.32-41", async ()=>{
         let bw = new BilaraWeb({fetch});
         let { sutta_uid, lang } = bw.parseSuttaRef('an2.41/de');
         let sutta = await bw.loadSutta({sutta_uid, lang});
@@ -486,9 +504,11 @@
             vroot: 'aditi',
         });
         let endpoint = 'https://voice.suttacentral.net/scv/audio';
+        let enGuid = `2b889573f11b1e26ff1f2a3113beb746`;
+        let pliGuid = `4cde0928fd30c7920ea805960313a269`;
         should.deepEqual(urls, {
-          en: `${endpoint}/sn12.23/en/sujato/amy/2b889573f11b1e26ff1f2a3113beb746`,
-          pli: `${endpoint}/sn12.23/pli/ms/aditi/4cde0928fd30c7920ea805960313a269`,
+          en: `${endpoint}/sn12.23/en/sujato/amy/${enGuid}`,
+          pli: `${endpoint}/sn12.23/pli/ms/aditi/${pliGuid}`,
         });
     });
 })
