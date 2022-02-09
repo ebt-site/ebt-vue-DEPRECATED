@@ -269,7 +269,7 @@
         });
         
     });
-    it("ThighlightExamples(...) handles quotes", ()=>{
+    it("highlightExamples(...) handles quotes", ()=>{
         let examples = {
             en: [
                 "but ma'am",
@@ -318,7 +318,7 @@
         var bw = new BilaraWeb({fetch, examples});
         should(bw.exampleOfMatch('königliches Gut', 'de')).equal(examples.de[0]);
     });
-    it("loadSuttaSegments(...) returns sutta", async ()=>{
+    it("TESTTESTloadSuttaSegments(...) returns sutta", async ()=>{
         var bw = new BilaraWeb({fetch});
         //bw.logLevel = 'info';
         var res = await bw.loadSuttaSegments({sutta_uid:'an9.2'});
@@ -339,9 +339,24 @@
         let nosuid = await bw.loadSuttaSegments({lang:'nosuid'});
         should(nosuid).equal(undefined);
     });
-    it("TESTTESTloadSutta(...) => thig1.1 (sujato)", async ()=>{
+    it("loadSutta(...) => thig1.1 (en/sujato)", async ()=>{
         let bw = new BilaraWeb({fetch});
-        bw.logLevel = 'debug';
+        let translator = 'sujato';
+        let lang = 'en';
+        let sutta_uid = `thig1.1/${lang}/${translator}`;
+        let sutta = await bw.loadSutta({sutta_uid});
+        should(sutta.sutta_uid).equal(sutta_uid);
+        should(sutta.lang).equal(lang);
+        should(sutta.translator).equal(translator);
+        let segments = sutta.segments;
+        should.deepEqual(segments[0],{
+            scid: 'thig1.1:0.1',
+            pli: 'Therīgāthā',
+            en: 'Verses of the Senior Nuns',
+        });
+    });
+    it("loadSutta(...) => thig1.1 (sujato)", async ()=>{
+        let bw = new BilaraWeb({fetch});
         let sutta_uid = 'thig1.1';
         let translator = 'sujato';
         let lang = 'en';
@@ -356,7 +371,39 @@
             en: 'Verses of the Senior Nuns',
         });
     });
-    it("TESTTESTloadSutta(...) returns asn3.128", async ()=>{
+    it("loadSutta(...) => thig1.1 (en/soma)", async ()=>{
+        let bw = new BilaraWeb({fetch});
+        let translator = 'soma';
+        let lang = 'en';
+        let sutta_uid = `thig1.1/${lang}/${translator}`;
+        let sutta = await bw.loadSutta({sutta_uid});
+        should(sutta.sutta_uid).equal(sutta_uid);
+        should(sutta.lang).equal(lang);
+        should(sutta.translator).equal(translator);
+        let segments = sutta.segments;
+        should.deepEqual(segments[0],{
+            scid: 'thig1.1:0.1',
+            pli: 'Therīgāthā',
+            en: 'Verses of the Elder Bhikkhunīs',
+        });
+    });
+    it("loadSutta(...) => thig1.1 (soma)", async ()=>{
+        let bw = new BilaraWeb({fetch});
+        let translator = 'soma';
+        let lang = 'en';
+        let sutta_uid = `thig1.1/${translator}`;
+        let sutta = await bw.loadSutta({sutta_uid});
+        should(sutta.sutta_uid).equal(sutta_uid);
+        should(sutta.lang).equal(lang);
+        should(sutta.translator).equal(translator);
+        let segments = sutta.segments;
+        should.deepEqual(segments[0],{
+            scid: 'thig1.1:0.1',
+            pli: 'Therīgāthā',
+            en: 'Verses of the Elder Bhikkhunīs',
+        });
+    });
+    it("loadSutta(...) returns asn3.128", async ()=>{
         let bw = new BilaraWeb({fetch});
         let sutta_uid = 'an3.128';
         let lang = 'de';

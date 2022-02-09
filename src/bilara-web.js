@@ -332,9 +332,21 @@
 
         suidPaths(suid='') {
             var suidParts = suid.split('/');
-            var key = suidParts[0];
+            var [ key, lang, author ] = suidParts;
             let map = this.suidMap[key];
-            return map && Object.keys(map).reduce((a,k) => {
+            let keys = map && Object.keys(map);
+            if (author) {
+              let patAuth = new RegExp(`/${author.toLowerCase()}$`);
+              keys = keys.filter(k=> k.match(patAuth) || k.match(`/pli/`));
+            } else if (lang) {
+              let patAuth = new RegExp(`/${lang.toLowerCase()}$`);
+              let patLang = new RegExp(`/{lang.toLowerCase()/`);
+              keys = keys.filter(k=>
+                k.match(patAuth) ||
+                k.match(patLang) ||
+                k.match(`/pli/`));
+            }
+            return map && keys.reduce((a,k) => {
                 let v = map[k];
                 let kParts = k.split('/');
                 let vParts = v.split('/');
@@ -390,63 +402,63 @@
         }
 
         async loadSutta({sutta_uid, lang=this.lang, showEnglish}) { try {
-            let { suttaCache, } = this;
-            var url = '';
-            let key = [sutta_uid, lang].join('/');
-            let sutta = suttaCache[key];
-            if (sutta) {
-                return sutta;
-            }
-            if (!(typeof lang === 'string')) {
-                throw new Error(`expected string lang:${lang}`);
-            }
-            let {
-                segments: pli = [],
-            } = await this.loadSuttaSegments({sutta_uid, lang:'pli'}) || {};
-            let segMap = Object.keys(pli).reduce((a,scid)=>{
-                a[scid] = {scid, pli:pli[scid]};
-                return a;
-            },{});
-            let translation = await this.loadSuttaSegments({sutta_uid, lang});
-            if (translation == null) {
-                return undefined;
-            }
-            if (showEnglish) {
-                let english = await this.loadSuttaSegments({sutta_uid, lang:'en'});
-                let { segments:enSegs = [] } = english;
-                Object.keys(enSegs).forEach(scid=>{
-                    segMap[scid] = segMap[scid] || { scid };
-                    segMap[scid].en = enSegs[scid];
-                });
-            }
-            let {
-                translator = 'notranslator',
-                segments:langSegs = [],
-            } = translation;
-            Object.keys(langSegs).forEach(scid=>{
-                segMap[scid] = segMap[scid] || { scid };
-                segMap[scid][lang] = langSegs[scid];
-            });
-            let segments = Object.keys(segMap)
-                .sort(SuttaCentralId.compareLow)
-                .map(scid=>segMap[scid]);
-            segments = this.highlightExamples({segments, lang});
-            let titleSegs = [];
-            for (let s of segments) {
-                if (!s.scid.includes(':0')) {
-                    break;
-                }
-                titleSegs.push(s);
-            }
-            let titles = titleSegs.map(s=>s[lang]||s.pli||'');
-            return suttaCache[key] = {
-              sutta_uid,
-              lang,
-              translator,
-              titles,
-              segments,
-            };
-        } catch(e) {
+          let { suttaCache, } = this;
+          var url = '';
+          let key = [sutta_uid, lang].join('/');
+          let sutta = suttaCache[key];
+          if (sutta) {
+              return sutta;
+          }
+          if (!(typeof lang === 'string')) {
+              throw new Error(`expected string lang:${lang}`);
+          }
+          let {
+              segments: pli = [],
+          } = await this.loadSuttaSegments({sutta_uid, lang:'pli'}) || {};
+          let segMap = Object.keys(pli).reduce((a,scid)=>{
+              a[scid] = {scid, pli:pli[scid]};
+              return a;
+          },{});
+          let translation = await this.loadSuttaSegments({sutta_uid, lang});
+          if (translation == null) {
+              return undefined;
+          }
+          if (showEnglish) {
+              let english = await this.loadSuttaSegments({sutta_uid, lang:'en'});
+              let { segments:enSegs = [] } = english;
+              Object.keys(enSegs).forEach(scid=>{
+                  segMap[scid] = segMap[scid] || { scid };
+                  segMap[scid].en = enSegs[scid];
+              });
+          }
+          let {
+              translator = 'notranslator',
+              segments:langSegs = [],
+          } = translation;
+          Object.keys(langSegs).forEach(scid=>{
+              segMap[scid] = segMap[scid] || { scid };
+              segMap[scid][lang] = langSegs[scid];
+          });
+          let segments = Object.keys(segMap)
+              .sort(SuttaCentralId.compareLow)
+              .map(scid=>segMap[scid]);
+          segments = this.highlightExamples({segments, lang});
+          let titleSegs = [];
+          for (let s of segments) {
+              if (!s.scid.includes(':0')) {
+                  break;
+              }
+              titleSegs.push(s);
+          }
+          let titles = titleSegs.map(s=>s[lang]||s.pli||'');
+          return suttaCache[key] = {
+            sutta_uid,
+            lang,
+            translator,
+            titles,
+            segments,
+          };
+      } catch(e) {
             this.warn(`loadSutta(${sutta_uid}) ${url}`, e.message);
             throw e;
         }}
