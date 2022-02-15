@@ -32,8 +32,11 @@
     "pattern": "auge der weisheit",
     "method": "phrase",
     "resultPattern": "\\bauge der weisheit",
-    "segsMatched": 2,
+    "segsMatched": 3,
     "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn56/sn56.63_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn56/sn56.63_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn56/sn56.63_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
@@ -42,10 +45,43 @@
       "translation/en/sujato/sutta/an/an1/an1.333-377_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "sn56.63/de/sabbamitta",
       "dn33/de/sabbamitta",
       "an1.333-377/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn56/sn56.63_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn56/sn56.63_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn56/sn56.63_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn56.63",
+        "lang": "de",
+        "segMap": {
+          "sn56.63:1.1": {
+            "scid": "sn56.63:1.1",
+            "pli": "… “Evameva kho, bhikkhave, appakā te sattā ye pana ariyena paññācakkhunā samannāgatā; atha kho eteva bahutarā sattā ye avijjāgatā sammuḷhā …pe…. ",
+            "de": "„… ebenso besitzen wenige Lebewesen das edle <span class=\"ebt-matched\">Auge der Weisheit</span>; viele hingegen sind unwissend und verwirrt. …“ ",
+            "en": "“… the sentient beings who have the noble eye of wisdom are few, while those who are ignorant and confused are many. …” ",
+            "matched": true
+          }
+        },
+        "score": 1.2,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 56\n7. Abgekürzte Texte über rohes Getreide\n63. Weisheit",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 5,
+          "de": 4,
+          "en": 4
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/an/an1/an1.333-377_root-pli-ms.json",
@@ -61,7 +97,7 @@
           "an1.337:1.1": {
             "scid": "an1.337:1.1",
             "pli": "… Evamevaṁ kho, bhikkhave, appakā te sattā ye ariyena paññācakkhunā samannāgatā; ",
-            "de": "… ebenso haben wenige Lebewesen das edle <span class=\"ebt-matched\">Auge der Weisheit</span>; ",
+            "de": "… ebenso besitzen wenige Lebewesen das edle <span class=\"ebt-matched\">Auge der Weisheit</span>; ",
             "en": "… so too the sentient beings who have the noble eye of wisdom are few, ",
             "matched": true
           }
