@@ -506,7 +506,91 @@
         let sutta = await bw.loadSutta({sutta_uid, lang});
         should(sutta).equal(undefined);
     });
-    it("parseSuttaRef() an2.32-41", ()=>{
+    it("parseSuttaRef() string", ()=>{
+      let ctorLang = 'ctor=lang';
+      let defaultLang = 'default-lang';
+      let author = 'test-author';
+      let lang = 'test-lang';
+      let sutta_uid = 'thig1.1';
+      let segnum = '0.1';
+      let bw = new BilaraWeb({fetch, lang: ctorLang});
+
+      // string sutta reference ctorLang
+      should.deepEqual(bw.parseSuttaRef(`${sutta_uid}/${lang}/${author}:${segnum}`), {
+        sutta_uid, lang, author, segnum,
+      });
+      should.deepEqual(bw.parseSuttaRef(`${sutta_uid}/${lang}/${author}`), {
+        sutta_uid, lang, author, segnum: undefined,
+      });
+      should.deepEqual(bw.parseSuttaRef(`${sutta_uid}/${lang}`), {
+        sutta_uid, lang, author: undefined, segnum: undefined,
+      });
+      should.deepEqual(bw.parseSuttaRef(`${sutta_uid}/${lang}:${segnum}`), {
+        sutta_uid, lang, author: undefined, segnum,
+      });
+      should.deepEqual(bw.parseSuttaRef(`${sutta_uid}`), {
+        sutta_uid, lang: ctorLang, author: undefined, segnum: undefined,
+      });
+      should.deepEqual(bw.parseSuttaRef(`${sutta_uid}:${segnum}`), {
+        sutta_uid, lang: ctorLang, author: undefined, segnum,
+      });
+
+      // string sutta reference defaultLang
+      should.deepEqual(
+        bw.parseSuttaRef(`${sutta_uid}/${lang}/${author}:${segnum}`, defaultLang), {
+        sutta_uid, lang, author, segnum,
+      });
+      should.deepEqual(
+        bw.parseSuttaRef(`${sutta_uid}/${lang}/${author}`, defaultLang), {
+        sutta_uid, lang, author, segnum: undefined,
+      });
+      should.deepEqual(
+        bw.parseSuttaRef(`${sutta_uid}/${lang}`, defaultLang), {
+        sutta_uid, lang, author: undefined, segnum: undefined,
+      });
+      should.deepEqual(
+        bw.parseSuttaRef(`${sutta_uid}/${lang}:${segnum}`, defaultLang), {
+        sutta_uid, lang, author: undefined, segnum,
+      });
+      should.deepEqual(
+        bw.parseSuttaRef(`${sutta_uid}`, defaultLang), {
+        sutta_uid, lang: defaultLang, author: undefined, segnum: undefined,
+      });
+      should.deepEqual(
+        bw.parseSuttaRef(`${sutta_uid}:${segnum}`, defaultLang), {
+        sutta_uid, lang: defaultLang, author: undefined, segnum,
+      });
+    });
+    it("TESTTESTparseSuttaRef() object", ()=>{
+      let ctorLang = 'ctor=lang';
+      let defaultLang = 'default-lang';
+      let author = 'test-author';
+      let lang = 'test-lang';
+      let sutta_uid = 'thig1.1';
+      let segnum = '0.1';
+      let bw = new BilaraWeb({fetch, lang: ctorLang});
+
+      // string sutta reference
+      should.deepEqual(bw.parseSuttaRef({sutta_uid, lang, author, segnum }), {
+        sutta_uid, lang, author, segnum,
+      });
+      should.deepEqual(bw.parseSuttaRef({sutta_uid, lang, author}), {
+        sutta_uid, lang, author, segnum: undefined,
+      });
+      should.deepEqual(bw.parseSuttaRef(`${sutta_uid}/${lang}`), {
+        sutta_uid, lang, author: undefined, segnum: undefined,
+      });
+      should.deepEqual(bw.parseSuttaRef(`${sutta_uid}/${lang}:${segnum}`), {
+        sutta_uid, lang, author: undefined, segnum,
+      });
+      should.deepEqual(bw.parseSuttaRef(`${sutta_uid}`), {
+        sutta_uid, lang: ctorLang, author: undefined, segnum: undefined,
+      });
+      should.deepEqual(bw.parseSuttaRef(`${sutta_uid}:${segnum}`), {
+        sutta_uid, lang: ctorLang, author: undefined, segnum,
+      });
+    });
+    it("TESTTESTparseSuttaRef() an2.32-41", ()=>{
         let bw = new BilaraWeb({fetch});
         let pattern = 'an 2.41/de';
         let lang = 'de';

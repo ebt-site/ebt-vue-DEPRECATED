@@ -490,28 +490,40 @@
             return VOICES.filter(v => v.langTrans === lang)[0];
         }
 
-        parseSuttaRef(pattern, defaultLang=this.lang) {
+        parseSuttaRef(suttaRef, defaultLang=this.lang) {
+          if (typeof suttaRef === 'string') {
             let { suids } = this;
-            let patLower = pattern.toLowerCase();
-            let [ suttaRef, segnum ] = patLower.split(':');
+            let refLower = suttaRef.toLowerCase();
+            let [ ref, segnum ] = refLower.split(':');
             let [ 
-                sutta_uid, 
-                lang=defaultLang, 
-                author,
-            ] = suttaRef.replace(/ /ug,'').split('/');
+              sutta_uid, 
+              lang=defaultLang, 
+              author,
+            ] = ref.replace(/ /ug,'').split('/');
             let { compareLow, compareHigh } = SuttaCentralId;
             let keys = suids.filter(k=>{
-                return compareLow(k, sutta_uid)<=0 && compareHigh(sutta_uid, k)<=0;
+              return compareLow(k, sutta_uid)<=0 && compareHigh(sutta_uid, k)<=0;
             });
             if (keys.length === 1) {
-                return {
-                    sutta_uid: keys[0], 
-                    lang,
-                    author,
-                    segnum,
-                };
+              return {
+                sutta_uid: keys[0], 
+                lang,
+                author,
+                segnum,
+              };
             }
-            return null;
+          } else if (suttaRef) {
+            let parsed = this.parseSuttaRef(suttaRef.sutta_uid, suttaRef.lang||defaultLang);
+            let { sutta_uid, lang, author, segnum } = parsed || {};
+            return {
+              sutta_uid, 
+              lang,
+              author:author || suttaRef.author || suttaRef.translator,
+              segnum:segnum || suttaRef.segnum,
+            }
+          }
+
+          return null;
         }
 
         async segmentAudioUrls(opts={}) {
