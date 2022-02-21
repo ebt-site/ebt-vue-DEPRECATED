@@ -1,6 +1,5 @@
 module.exports = {
 
-    BilaraPath: require("./bilara-path"),
     BilaraWeb: require("./bilara-web"),
     Settings: require('./settings'),
     SuttaCentralId: require('scv-bilara/src/sutta-central-id'),
