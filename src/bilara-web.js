@@ -392,6 +392,37 @@
           return bilaraPaths[bpKey];
         }
 
+        async loadBilaraPath(bilaraPath) {
+          let {
+            authors,
+            fetch,
+            host,
+            includeUnpublished,
+          } = this;
+          let segments;
+          if (bilaraPath) {
+            let branch = includeUnpublished ? 'unpublished' : 'published';
+            let url = `${host}/suttacentral/bilara-data/${branch}/${bilaraPath}`;
+            try {
+                let res = await fetch(url, {headers:{Accept:'text/plain'}});
+                segments = await res.json();
+            } catch(e) {
+                this.info(`loadSuttaSegments(${sutta_uid}) ${url} => ${e.message}`);
+            }
+          } else {
+            this.info(`loadSuttaSegments(${sutta_uid}) not found lang:${lang}`);
+          }
+          let [ segType, segLang, author ] = bilaraPath && bilaraPath.split('/') || [];
+          let sutta = {
+            bilaraPath,
+            lang: segLang,
+            author,
+            segments
+          };
+          Object.defineProperty(sutta, 'translator', { value: author }); // deprecated
+          return sutta;
+        }
+
         async loadSuttaSegments({sutta_uid, lang='pli'}) {
             let {
                 authors,

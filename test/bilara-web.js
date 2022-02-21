@@ -343,6 +343,66 @@
       should(bw.bilaraPathOf('thig1.1/de/sabbamitta')).equal(
         'translation/de/sabbamitta/sutta/kn/thig/thig1.1_translation-de-sabbamitta.json');
     });
+    it("TESTTESTloadBilaraPath(...) => thig1.1", async ()=>{
+      let defaultLang = 'default-lang'
+      var bw = new BilaraWeb({fetch, lang:defaultLang});
+      let bilaraPath = bw.bilaraPathOf('thig1.1');
+      var res = await bw.loadBilaraPath(bilaraPath);
+      should(res).properties({
+        bilaraPath,
+        lang: 'pli',
+        author: 'ms',
+      });
+      should(res.segments['thig1.1:0.1']).equal('Therīgāthā');
+      should(res.segments['thig1.1:0.2']).equal('Ekakanipāta');
+      should(res.segments['thig1.1:0.3']).equal('1. Aññatarātherīgāthā');
+      should(res.segments['thig1.1:1.1']).equal('“Sukhaṁ supāhi therike,');
+    });
+    it("TESTTESTloadBilaraPath(...) => thig1.1/en", async ()=>{
+      let defaultLang = 'default-lang'
+      var bw = new BilaraWeb({fetch, lang:defaultLang});
+      let bilaraPath = bw.bilaraPathOf('thig1.1/en');
+      var res = await bw.loadBilaraPath(bilaraPath);
+      should(res).properties({
+        bilaraPath,
+        lang: 'en',
+        author: 'sujato',
+      });
+      should(res.segments['thig1.1:0.1']).equal('Verses of the Senior Nuns');
+      should(res.segments['thig1.1:0.2']).equal('The Book of the Ones');
+      should(res.segments['thig1.1:0.3']).equal('An Unnamed Nun (1st)');
+      should(res.segments['thig1.1:1.1']).equal('Sleep softly, little nun,');
+    });
+    it("TESTTESTloadBilaraPath(...) => thig1.1/en/sujato", async ()=>{
+      let defaultLang = 'default-lang'
+      var bw = new BilaraWeb({fetch, lang:defaultLang});
+      let bilaraPath = bw.bilaraPathOf('thig1.1/en/sujato');
+      var res = await bw.loadBilaraPath(bilaraPath);
+      should(res).properties({
+        bilaraPath,
+        lang: 'en',
+        author: 'sujato',
+      });
+      should(res.segments['thig1.1:0.1']).equal('Verses of the Senior Nuns');
+      should(res.segments['thig1.1:0.2']).equal('The Book of the Ones');
+      should(res.segments['thig1.1:0.3']).equal('An Unnamed Nun (1st)');
+      should(res.segments['thig1.1:1.1']).equal('Sleep softly, little nun,');
+    });
+    it("TESTTESTloadBilaraPath(...) => thig1.1/en/soma", async ()=>{
+      let defaultLang = 'default-lang'
+      var bw = new BilaraWeb({fetch, lang:defaultLang});
+      let bilaraPath = bw.bilaraPathOf('thig1.1/en/soma');
+      var res = await bw.loadBilaraPath(bilaraPath);
+      should(res).properties({
+        bilaraPath,
+        lang: 'en',
+        author: 'soma',
+      });
+      should(res.segments['thig1.1:0.1']).equal('Verses of the Elder Bhikkhunīs');
+      should(res.segments['thig1.1:0.2']).equal('The Chapter of the Ones');
+      should(res.segments['thig1.1:0.3']).equal('Verses of a Certain Unknown Elder');
+      should(res.segments['thig1.1:1.1']).equal('“Sleep with ease, Elder,');
+    });
     it("TESTTESTloadSuttaSegments(...) returns sutta", async ()=>{
         var bw = new BilaraWeb({fetch});
         //bw.logLevel = 'info';
