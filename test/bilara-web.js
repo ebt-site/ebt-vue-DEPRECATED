@@ -4,7 +4,8 @@
     const path = require('path');
     const { MerkleJson } = require('merkle-json');
     const {
-        BilaraWeb,
+      BilaraWeb,
+      SuttaRef,
     } = require("../src/index");
     const { logger, LogInstance } = require('log-instance');
     const axios = require('axios');
@@ -317,6 +318,30 @@
         };
         var bw = new BilaraWeb({fetch, examples});
         should(bw.exampleOfMatch('königliches Gut', 'de')).equal(examples.de[0]);
+    });
+    it("TESTTESTbilaraPathOf(...) SuttaRef => Bilara path", ()=>{
+      let defaultLang = 'default-lang';
+      let sutta_uid = 'thig1.1';
+      let author = 'test-author';
+      let segnum = '0.1';
+      var bw = new BilaraWeb({fetch, lang:defaultLang});
+
+      should(bw.bilaraPathOf('thig1.1')).equal(
+        'root/pli/ms/sutta/kn/thig/thig1.1_root-pli-ms.json');
+      should(bw.bilaraPathOf('thig1.1/pli')).equal(
+        'root/pli/ms/sutta/kn/thig/thig1.1_root-pli-ms.json');
+      should(bw.bilaraPathOf('thig1.1/pli/ms')).equal(
+        'root/pli/ms/sutta/kn/thig/thig1.1_root-pli-ms.json');
+      should(bw.bilaraPathOf('thig1.1/en')).equal(
+        'translation/en/sujato/sutta/kn/thig/thig1.1_translation-en-sujato.json');
+      should(bw.bilaraPathOf('thig1.1/en/sujato')).equal(
+        'translation/en/sujato/sutta/kn/thig/thig1.1_translation-en-sujato.json');
+      should(bw.bilaraPathOf('thig1.1/en/soma')).equal(
+        'translation/en/soma/sutta/kn/thig/thig1.1_translation-en-soma.json');
+      should(bw.bilaraPathOf('thig1.1/de')).equal(
+        'translation/de/sabbamitta/sutta/kn/thig/thig1.1_translation-de-sabbamitta.json');
+      should(bw.bilaraPathOf('thig1.1/de/sabbamitta')).equal(
+        'translation/de/sabbamitta/sutta/kn/thig/thig1.1_translation-de-sabbamitta.json');
     });
     it("TESTTESTloadSuttaSegments(...) returns sutta", async ()=>{
         var bw = new BilaraWeb({fetch});

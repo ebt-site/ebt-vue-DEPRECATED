@@ -10,10 +10,14 @@
   it("TESTTESTcustom ctor", ()=>{
     let sutta_uid = 'thig1.1';
     let lang = 'test-lang';
+    let defaultLang = 'default-lang';
     let author = 'test-author';
     let segnum = '0.1';
     let suttaRef = new SuttaRef({sutta_uid, lang, author, segnum});
     should(suttaRef).properties({sutta_uid, lang, author, segnum});
+
+    let suttaRef2 = new SuttaRef(suttaRef);
+    should(suttaRef2).properties({sutta_uid, lang, author, segnum});
   });
   it("TESTTESTcreate(string) => SuttaRef", ()=>{
     let defaultLang = 'default-lang';
@@ -71,7 +75,7 @@
     should(SuttaRef.create({sutta_uid, segnum}))
       .properties({ sutta_uid, lang:'pli', author: undefined, segnum, });
 
-    // string sutta reference defaultLang
+    // object sutta reference defaultLang
     should(SuttaRef.create({sutta_uid, lang, author, segnum}, defaultLang))
       .properties({ sutta_uid, lang, author, segnum, });
     should(SuttaRef.create({sutta_uid, lang, author, }, defaultLang))
@@ -85,7 +89,13 @@
     should(SuttaRef.create({sutta_uid, segnum}, defaultLang))
       .properties({ sutta_uid, lang: defaultLang, author: undefined, segnum, });
 
-    // string sutta reference translator
+    // SuttaRef
+    let suttaRef = new SuttaRef({sutta_uid, lang, author, segnum});
+    let suttaRef2 = SuttaRef.create(suttaRef, defaultLang);
+    should(suttaRef2).not.equal(suttaRef);
+    should(suttaRef2).properties({ sutta_uid, lang, author, segnum, });
+
+    // object sutta reference translator
     let translator = 'test-translator';
     should(SuttaRef.create({sutta_uid, lang, author, translator, segnum}))
       .properties({ sutta_uid, lang, author, segnum, });

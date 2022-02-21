@@ -7,6 +7,8 @@
     const AUTHORS = require('../api/authors.json');
     const SuttaCentralId = require('scv-bilara/src/sutta-central-id');
     const VOICES = require('./voices.json');
+    const SuttaRef = require('./sutta-ref');
+    const assert = require('assert');
 
     class BilaraWeb {
         constructor(opts={}) {
@@ -354,6 +356,40 @@
                 a[k] = `${k}/${v}/${suidParts[0]}_${kParts.join('-')}.json`;
                 return a;
             }, {});
+        }
+
+        bilaraPathOf(suttaRef, defaultLang='pli') {
+          suttaRef = SuttaRef.create(suttaRef, defaultLang);
+          let { sutta_uid, lang, author } = suttaRef;
+          let {
+              authors,
+              fetch,
+              host,
+              includeUnpublished,
+          } = this;
+          let segments;
+          let bilaraPaths = this.suidPaths(sutta_uid) || {};
+          let bpKeys = Object.keys(bilaraPaths);
+          bpKeys = bpKeys.filter(key=>key.includes(`/${lang}/`));
+          if (author) {
+            bpKeys = bpKeys.filter(bp=>bp.endsWith(`/${author}`));
+          } else {
+            bpKeys.length > 1 && bpKeys.sort((a,b)=>{
+              let [ aTrans, aLang, aAuth ] = a.split('/');
+              let [ bTrans, bLang, bAuth ] = b.split('/');
+              // Prioritize sutta selection for a language by author exampleVersion
+              let aEV = authors[aAuth].exampleVersion;
+              let bEV = authors[bAuth].exampleVersion;
+              let cmp = bEV - aEV;
+              return cmp;
+            });
+          }
+          let bpKey = bpKeys[0];
+          if (bpKey == null) {
+              this.info(`bilaraPathOf(${sutta_uid},${lang}) => undefined`);
+              return undefined;
+          }
+          return bilaraPaths[bpKey];
         }
 
         async loadSuttaSegments({sutta_uid, lang='pli'}) {
