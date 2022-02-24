@@ -32,14 +32,18 @@
     "pattern": "geschlagen und in panik",
     "method": "phrase",
     "resultPattern": "\\bgeschlagen und in panik",
-    "segsMatched": 2,
+    "segsMatched": 3,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an9/an9.39_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an9/an9.39_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an9/an9.39_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an9/an9.39_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn56/sn56.41_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn56/sn56.41_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn56/sn56.41_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "an9.39/de/sabbamitta"
+      "an9.39/de/sabbamitta",
+      "sn56.41/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -57,14 +61,14 @@
           "an9.39:2.6": {
             "scid": "an9.39:2.6",
             "pli": "Parājitā ca, bhikkhave, devā bhītā devapuraṁyeva pavisiṁsu. ",
-            "de": "<span class=\"ebt-matched\">Geschlagen und in Panik</span> flohen die Götter geradewegs in die Burg der Götter. ",
+            "de": "<span class=\"ebt-matched\">Geschlagen und in Panik</span> flohen die Götter geradewegs in die Götterburg. ",
             "en": "Defeated and terrified, the gods fled right into the castle of the gods. ",
             "matched": true
           },
           "an9.39:4.6": {
             "scid": "an9.39:4.6",
             "pli": "Parājitā ca, bhikkhave, asurā bhītā asurapuraṁyeva pavisiṁsu. ",
-            "de": "<span class=\"ebt-matched\">Geschlagen und in Panik</span> flohen die Dämonen geradewegs in die Burg der Dämonen. ",
+            "de": "<span class=\"ebt-matched\">Geschlagen und in Panik</span> flohen die Dämonen geradewegs in die Dämonenburg. ",
             "en": "Defeated and terrified, the demons fled right into the citadel of the demons. ",
             "matched": true
           }
@@ -79,6 +83,38 @@
           "pli": 61,
           "de": 60,
           "en": 60
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn56/sn56.41_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn56/sn56.41_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn56/sn56.41_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn56.41",
+        "lang": "de",
+        "segMap": {
+          "sn56.41:3.4": {
+            "scid": "sn56.41:3.4",
+            "pli": "Parājitā ca kho, bhikkhave, asurā bhītā bhisamuḷālena asurapuraṁ pavisiṁsu devānaṁyeva mohayamānā. ",
+            "de": "<span class=\"ebt-matched\">Geschlagen und in Panik</span> flohen die Dämonen durch einen Lotusstängel in die Dämonenburg, um die Götter zu täuschen. ",
+            "en": "The defeated and terrified demons entered the demon city through the lotus stalk only to confuse the gods. ",
+            "matched": true
+          }
+        },
+        "score": 1.029,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 56\n5. Eine Klippe\n41. Spekulationen über die Welt",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 34,
+          "de": 33,
+          "en": 33
         }
       }
     ]

@@ -1,0 +1,86 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "ich bin verrückt geworden",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "ich bin verrückt geworden",
+    "method": "phrase",
+    "resultPattern": "\\bich bin verrückt geworden",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn56/sn56.41_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn56/sn56.41_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn56/sn56.41_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn56.41/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn56/sn56.41_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn56/sn56.41_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn56/sn56.41_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn56.41",
+        "lang": "de",
+        "segMap": {
+          "sn56.41:1.6": {
+            "scid": "sn56.41:1.6",
+            "pli": "‘ummattosmi nāmāhaṁ, vicetosmi nāmāhaṁ. ",
+            "de": "‚<span class=\"ebt-matched\">Ich bin verrückt geworden</span>, wirklich, ich habe den Verstand verloren! ",
+            "en": "‘I’ve gone mad, really, I’ve lost my mind! ",
+            "matched": true
+          },
+          "sn56.41:2.2": {
+            "scid": "sn56.41:2.2",
+            "pli": "‘ummattosmi nāmāhaṁ, bhante, vicetosmi nāmāhaṁ, bhante. ",
+            "de": "‚<span class=\"ebt-matched\">Ich bin verrückt geworden</span>, wirklich, ich habe den Verstand verloren! ",
+            "en": "‘I’ve gone mad, really, I’ve lost my mind! ",
+            "matched": true
+          }
+        },
+        "score": 2.059,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 56\n5. Eine Klippe\n41. Spekulationen über die Welt",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 34,
+          "de": 33,
+          "en": 33
+        }
+      }
+    ]
+  }
+}
