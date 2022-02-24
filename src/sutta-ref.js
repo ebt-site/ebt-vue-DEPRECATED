@@ -7,7 +7,6 @@
   class SuttaRef {
     constructor({sutta_uid, lang, author, segnum}) {
       assert(!!sutta_uid);
-      assert(!!lang);
       assert(sutta_uid.length > 0);
       assert(!sutta_uid.match('/'));
       Object.assign(this, {

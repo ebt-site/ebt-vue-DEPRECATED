@@ -31,7 +31,12 @@
             this.host = opts.host || 'https://raw.githubusercontent.com';
             this.authors = AUTHORS;
             this.includeUnpublished = opts.includeUnpublished === true;
-            this.suttaCache = {};
+
+            // private
+            Object.defineProperty(this, "suttaCache", { 
+              value: {},
+            });
+
             let matchHighlight = this.matchHighlight = opts.matchHighlight ||
                 '<span class="ebt-matched">$&</span>';
             this.highlightMatch = opts.highlightMatch || (match=>
@@ -358,9 +363,8 @@
             }, {});
         }
 
-        bilaraPathOf(suttaRef, defaultLang='pli') {
-          suttaRef = SuttaRef.create(suttaRef, defaultLang);
-          let { sutta_uid, lang, author } = suttaRef;
+        bilaraPathOf(suttaRef) {
+          let { sutta_uid, lang, author } = SuttaRef.create(suttaRef, null) || {};
           let {
               authors,
               fetch,
@@ -370,7 +374,6 @@
           let segments;
           let bilaraPaths = this.suidPaths(sutta_uid) || {};
           let bpKeys = Object.keys(bilaraPaths);
-          bpKeys = bpKeys.filter(key=>key.includes(`/${lang}/`));
           if (author) {
             bpKeys = bpKeys.filter(bp=>bp.endsWith(`/${author}`));
           } else {
@@ -384,15 +387,17 @@
               return cmp;
             });
           }
-          let bpKey = bpKeys[0];
-          if (bpKey == null) {
-              this.info(`bilaraPathOf(${sutta_uid},${lang}) => undefined`);
-              return undefined;
+          if (lang) {
+            bpKeys = bpKeys.filter(key=>key.includes(`/${lang}/`));
           }
-          return bilaraPaths[bpKey];
+          let bpKey = bpKeys[0];
+          let bilaraPath = bilaraPaths[bpKey];
+          bilaraPath == null && this.info(`bilaraPathOf(${bpKey}) undefined:`, suttaRef);
+          return bilaraPath;
         }
 
         async loadBilaraPath(bilaraPath) {
+          assert(bilaraPath);
           let {
             authors,
             fetch,
@@ -400,19 +405,15 @@
             includeUnpublished,
           } = this;
           let segments;
-          if (bilaraPath) {
-            let branch = includeUnpublished ? 'unpublished' : 'published';
-            let url = `${host}/suttacentral/bilara-data/${branch}/${bilaraPath}`;
-            try {
-                let res = await fetch(url, {headers:{Accept:'text/plain'}});
-                segments = await res.json();
-            } catch(e) {
-                this.info(`loadSuttaSegments(${sutta_uid}) ${url} => ${e.message}`);
-            }
-          } else {
-            this.info(`loadSuttaSegments(${sutta_uid}) not found lang:${lang}`);
+          let branch = includeUnpublished ? 'unpublished' : 'published';
+          let url = `${host}/suttacentral/bilara-data/${branch}/${bilaraPath}`;
+          try {
+            let res = await fetch(url, {headers:{Accept:'text/plain'}});
+            segments = await res.json();
+          } catch(e) {
+            this.info(`loadBilaraPath(${sutta_uid}) ${url} => ${e.message}`);
           }
-          let [ segType, segLang, author ] = bilaraPath && bilaraPath.split('/') || [];
+          let [ segType, segLang, author ] = bilaraPath.split('/') || [];
           let sutta = {
             bilaraPath,
             lang: segLang,
@@ -423,7 +424,7 @@
           return sutta;
         }
 
-        async loadSuttaSegments({sutta_uid, lang='pli'}) {
+        async loadSuttaSegments({sutta_uid, lang='pli'}) { // deprecated
             let {
                 authors,
                 fetch,
@@ -463,12 +464,92 @@
             let [ segType, segLang, translator ] = bpKey && bpKey.split('/') || [];
             return {
                 lang,
+                author: translator,
                 translator,
                 segments
             };
         }
 
-        async loadSutta({sutta_uid, lang=this.lang, showEnglish}) { try {
+        async loadSuttaRef(suttaRef, refLang='en') { try {
+          suttaRef = SuttaRef.create(suttaRef, null); 
+          let { sutta_uid, lang, author, segnum } = suttaRef;
+          this.info("loadSuttaRef", {
+            sutta_uid, lang, author, segnum, refLang});
+          let { suttaCache, } = this;
+          var url = '';
+          let key = [sutta_uid, lang].join('/');
+          let sutta = suttaCache[key];
+          if (sutta) {
+              return sutta;
+          }
+          assert(lang == null || typeof lang === 'string');
+
+          // Load Pali first as main segment reference
+          let pliBilaraPath = this.bilaraPathOf({sutta_uid, lang:'pli'});
+          let {
+              segments: pli = [],
+          } = await this.loadBilaraPath(pliBilaraPath) || {};
+          let segMap = Object.keys(pli).reduce((a,scid)=>{
+              a[scid] = {scid, pli:pli[scid]};
+              return a;
+          },{});
+
+          // Load translation segments
+          let transBilaraPath = this.bilaraPathOf({sutta_uid, lang, author});
+          assert(transBilaraPath, 
+            `bilaraPathOf(${JSON.stringify({suttaRef, sutta_uid, lang, author})}`);
+          let translation = await this.loadBilaraPath(transBilaraPath);
+          if (translation == null) {
+              return undefined;
+          }
+          let [transRoot, transLang ] = transBilaraPath.split('/');
+          let {
+              translator = 'notranslator',
+              segments:langSegs = [],
+          } = translation;
+          Object.keys(langSegs).forEach(scid=>{
+              segMap[scid] = segMap[scid] || { scid };
+              segMap[scid][transLang] = langSegs[scid];
+          });
+
+          // Load segments from reference language document
+          if (refLang) {
+            let refBilaraPath = this.bilaraPathOf({sutta_uid, lang:refLang});
+            let reference = await this.loadBilaraPath(refBilaraPath);
+            let { segments:refSegs = [] } = reference;
+            Object.keys(refSegs).forEach(scid=>{
+                segMap[scid] = segMap[scid] || { scid };
+                segMap[scid].ref = refSegs[scid];
+            });
+          }
+
+          let segments = Object.keys(segMap)
+              .sort(SuttaCentralId.compareLow)
+              .map(scid=>segMap[scid]);
+          segments = this.highlightExamples({segments, lang});
+          let titleSegs = [];
+          for (let s of segments) {
+              if (!s.scid.includes(':0')) {
+                  break;
+              }
+              titleSegs.push(s);
+          }
+          let titles = titleSegs.map(s=>s[lang]||s.pli||'');
+          sutta = suttaCache[key] = {
+            sutta_uid,
+            lang: transLang,
+            author: translator,
+            titles,
+            segments,
+          };
+          Object.defineProperty(sutta, "translator", { value: translator }); // deprecated
+          return sutta;
+        } catch(e) {
+          this.warn(`loadSuttaRef(${suttaRef}) ${url}`, e.message);
+          throw e;
+        }}
+
+        async loadSutta({sutta_uid, lang=this.lang, showEnglish}) { try { // deprecated
           let { suttaCache, } = this;
           var url = '';
           let key = [sutta_uid, lang].join('/');
@@ -525,9 +606,9 @@
             titles,
             segments,
           };
-      } catch(e) {
-            this.warn(`loadSutta(${sutta_uid}) ${url}`, e.message);
-            throw e;
+        } catch(e) {
+          this.warn(`loadSutta(${sutta_uid}) ${url}`, e.message);
+          throw e;
         }}
 
         async voices() {

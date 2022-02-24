@@ -19,7 +19,7 @@
     let suttaRef2 = new SuttaRef(suttaRef);
     should(suttaRef2).properties({sutta_uid, lang, author, segnum});
   });
-  it("TESTTESTcreate(string) => SuttaRef", ()=>{
+  it("TESTTESTcreate(...) => SuttaRef", ()=>{
     let defaultLang = 'default-lang';
     let author = 'test-author';
     let lang = 'test-lang';
