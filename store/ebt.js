@@ -226,7 +226,7 @@ export const actions = {
         let sutta;
         let refLang = showEnglish ? 'en' : undefined;
         let useSuttaRef = 0;
-        if (useSUttaRef) {
+        if (useSuttaRef) {
           sutta = await bilaraWeb.loadSuttaRef(sutta_uid, refLang);
         } else {
           sutta = await bilaraWeb.loadSutta({
