@@ -470,7 +470,7 @@
             };
         }
 
-        async loadSuttaRef(suttaRef, refLang='en') { try {
+        async loadSuttaRef(suttaRef, refLang) { try {
           suttaRef = SuttaRef.create(suttaRef, null); 
           let { sutta_uid, lang, author, segnum } = suttaRef;
           this.info("loadSuttaRef", {

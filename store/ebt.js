@@ -223,7 +223,9 @@ export const actions = {
         context.commit('processing', msg);
         bilaraWeb = bilaraWeb || new BilaraWeb({fetch});
         let parsed = bilaraWeb.parseSuttaRef(sutta_uid, lang, translator);
-        let sutta = await bilaraWeb.loadSutta({
+        let sutta;
+        let refLang = showEnglish ? 'en' : undefined;
+        sutta = await bilaraWeb.loadSutta({
             sutta_uid:parsed.sutta_uid, 
             lang,
             showEnglish,

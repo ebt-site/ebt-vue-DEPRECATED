@@ -455,14 +455,10 @@
         let sutta_uid = 'thig1.1';
         let suttaRef = `thig1.1/${lang}/${author}`;
         let sutta = await bw.loadSuttaRef(suttaRef);
-        should(sutta.sutta_uid).equal(sutta_uid);
-        should(sutta.lang).equal(lang);
-        should(sutta.author).equal(author);
-        let segments = sutta.segments;
-        should.deepEqual(segments[0],{
+        should(sutta).properties({sutta_uid, lang, author});
+        should.deepEqual(sutta.segments[0],{
             scid: 'thig1.1:0.1',
             pli: 'Therīgāthā',
-            ref: 'Verses of the Senior Nuns',
             en: 'Verses of the Senior Nuns',
         });
     });
@@ -473,18 +469,30 @@
         let sutta_uid = 'thig1.1';
         let suttaRef = `thig1.1/${lang}`;
         let sutta = await bw.loadSuttaRef(suttaRef);
-        should(sutta.sutta_uid).equal(sutta_uid);
-        should(sutta.lang).equal(lang);
-        should(sutta.author).equal(author);
-        let segments = sutta.segments;
-        should.deepEqual(segments[0],{
+        should(sutta).properties({sutta_uid, lang, author});
+        should.deepEqual(sutta.segments[0],{
             scid: 'thig1.1:0.1',
             pli: 'Therīgāthā',
-            ref: 'Verses of the Senior Nuns',
+            en: 'Verses of the Senior Nuns',
+        });
+      });
+    it("TESTTESTloadSuttaRef(...) => thig1.1 (en) refLang:de", async ()=>{
+        let bw = new BilaraWeb({fetch});
+        let author = 'sujato';
+        let lang = 'en';
+        let sutta_uid = 'thig1.1';
+        let suttaRef = `thig1.1/${lang}`;
+        let refLang = 'de';
+        let sutta = await bw.loadSuttaRef(suttaRef, refLang);
+        should(sutta).properties({sutta_uid, lang, author});
+        should.deepEqual(sutta.segments[0],{
+            scid: 'thig1.1:0.1',
+            pli: 'Therīgāthā',
+            ref: 'Strophen der altehrwürdigen Nonnen ',
             en: 'Verses of the Senior Nuns',
         });
     });
-    it("TESTTESTloadSuttaRef(...) => thig1.1 (sujato)", async ()=>{
+    it("loadSuttaRef(...) => thig1.1 (sujato)", async ()=>{
         let bw = new BilaraWeb({fetch});
         //bw.logLevel = 'info';
         let author = 'sujato';
@@ -492,18 +500,14 @@
         let sutta_uid = 'thig1.1';
         let suttaRef = { sutta_uid, author:'sujato' };
         let sutta = await bw.loadSuttaRef(suttaRef);
-        should(sutta.sutta_uid).equal(sutta_uid);
-        should(sutta.lang).equal(lang);
-        should(sutta.author).equal(author);
-        let segments = sutta.segments;
-        should.deepEqual(segments[0],{
+        should(sutta).properties({sutta_uid, lang, author});
+        should.deepEqual(sutta.segments[0],{
             scid: 'thig1.1:0.1',
             pli: 'Therīgāthā',
-            ref: 'Verses of the Senior Nuns',
             en: 'Verses of the Senior Nuns',
         });
     });
-    it("loadSuttaRef(...) => thig1.1 (soma)", async ()=>{
+    it("TESTTESTloadSuttaRef(...) => thig1.1 (soma)", async ()=>{
         let bw = new BilaraWeb({fetch});
         //bw.logLevel = 'info';
         let author = 'soma';
@@ -511,18 +515,32 @@
         let sutta_uid = 'thig1.1';
         let suttaRef = `${sutta_uid}/${lang}/${author}`;
         let sutta = await bw.loadSuttaRef(suttaRef);
-        should(sutta.sutta_uid).equal(sutta_uid);
-        should(sutta.lang).equal(lang);
-        should(sutta.author).equal(author);
-        let segments = sutta.segments;
-        should.deepEqual(segments[0],{
+        should(sutta).properties({sutta_uid, lang, author});
+        should.deepEqual(sutta.segments[0],{
+            scid: 'thig1.1:0.1',
+            pli: 'Therīgāthā',
+            en: 'Verses of the Elder Bhikkhunīs',
+            //ref: 'Verses of the Senior Nuns',
+        });
+    });
+    it("TESTTESTloadSuttaRef(...) => thig1.1 (soma) refLang:en", async ()=>{
+        let bw = new BilaraWeb({fetch});
+        //bw.logLevel = 'info';
+        let author = 'soma';
+        let lang = 'en';
+        let sutta_uid = 'thig1.1';
+        let suttaRef = `${sutta_uid}/${lang}/${author}`;
+        let refLang = 'en';
+        let sutta = await bw.loadSuttaRef(suttaRef, refLang);
+        should(sutta).properties({sutta_uid, lang, author});
+        should.deepEqual(sutta.segments[0],{
             scid: 'thig1.1:0.1',
             pli: 'Therīgāthā',
             en: 'Verses of the Elder Bhikkhunīs',
             ref: 'Verses of the Senior Nuns',
         });
     });
-    it("loadSuttaRef(...) => thig1.1 (de)", async ()=>{
+    it("TESTTESTloadSuttaRef(...) => thig1.1 (de)", async ()=>{
         let bw = new BilaraWeb({fetch});
         //bw.logLevel = 'info';
         let author = 'sabbamitta';
@@ -530,18 +548,14 @@
         let sutta_uid = 'thig1.1';
         let suttaRef = `${sutta_uid}/${lang}`;
         let sutta = await bw.loadSuttaRef(suttaRef);
-        should(sutta.sutta_uid).equal(sutta_uid);
-        should(sutta.lang).equal(lang);
-        should(sutta.author).equal(author);
-        let segments = sutta.segments;
-        should.deepEqual(segments[0],{
+        should(sutta).properties({sutta_uid, lang, author});
+        should.deepEqual(sutta.segments[0],{
             scid: 'thig1.1:0.1',
             pli: 'Therīgāthā',
             de: 'Strophen der altehrwürdigen Nonnen ',
-            ref: 'Verses of the Senior Nuns',
         });
     });
-    it("loadSuttaRef(...) => thig1.1 (sabbamitta)", async ()=>{
+    it("TESTTESTloadSuttaRef(...) => thig1.1 (sabbamitta)", async ()=>{
         let bw = new BilaraWeb({fetch});
         //bw.logLevel = 'info';
         let sutta_uid = 'thig1.1';
@@ -549,15 +563,11 @@
         let author = 'sabbamitta';
         let suttaRef = {sutta_uid, author};
         let sutta = await bw.loadSuttaRef(suttaRef);
-        should(sutta.sutta_uid).equal(sutta_uid);
-        should(sutta.lang).equal(lang);
-        should(sutta.author).equal(author);
-        let segments = sutta.segments;
-        should.deepEqual(segments[0],{
+        should(sutta).properties({sutta_uid, lang, author});
+        should.deepEqual(sutta.segments[0],{
             scid: 'thig1.1:0.1',
             pli: 'Therīgāthā',
             de: 'Strophen der altehrwürdigen Nonnen ',
-            ref: 'Verses of the Senior Nuns',
         });
     });
     it("TESTTESTloadSuttaRef(...) => thig1.1 (sabbamitta) ref:de", async ()=>{
