@@ -213,7 +213,8 @@ export const actions = {
         let { 
             sutta_uid, 
             lang=settings.lang, 
-            translator,
+            translator, // deprecated
+            author,
             updateHistory,
             selectSegment=hash && hash.length>1,
         } = payload;
@@ -227,7 +228,8 @@ export const actions = {
         let refLang = showEnglish ? 'en' : undefined;
         let useSuttaRef = 0;
         if (useSuttaRef) {
-          sutta = await bilaraWeb.loadSuttaRef(sutta_uid, refLang);
+          console.warn("DBG ebt loadSutta payload", payload);
+          sutta = await bilaraWeb.loadSuttaRef({sutta_uid, lang, author}, refLang);
         } else {
           sutta = await bilaraWeb.loadSutta({
               sutta_uid:parsed.sutta_uid, 
