@@ -225,11 +225,16 @@ export const actions = {
         let parsed = bilaraWeb.parseSuttaRef(sutta_uid, lang, translator);
         let sutta;
         let refLang = showEnglish ? 'en' : undefined;
-        sutta = await bilaraWeb.loadSutta({
-            sutta_uid:parsed.sutta_uid, 
-            lang,
-            showEnglish,
-        });
+        let useSuttaRef = 0;
+        if (useSUttaRef) {
+          sutta = await bilaraWeb.loadSuttaRef(sutta_uid, refLang);
+        } else {
+          sutta = await bilaraWeb.loadSutta({
+              sutta_uid:parsed.sutta_uid, 
+              lang,
+              showEnglish,
+          });
+        }
         context.commit('processing', null);
         if (sutta == null) {
             console.log(`$store.state.ebt.loadSutta(${sutta_uid}/${lang})`,

@@ -369,6 +369,7 @@
               authors,
               fetch,
               host,
+              lang:defaultLang,
               includeUnpublished,
           } = this;
           let segments;
@@ -389,6 +390,8 @@
           }
           if (lang) {
             bpKeys = bpKeys.filter(key=>key.includes(`/${lang}/`));
+          } else if (author == null) {
+            bpKeys = bpKeys.filter(key=>key.includes(`/${defaultLang}/`));
           }
           let bpKey = bpKeys[0];
           let bilaraPath = bilaraPaths[bpKey];
