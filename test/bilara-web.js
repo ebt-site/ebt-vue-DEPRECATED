@@ -579,11 +579,8 @@
         let refLang = 'de';
         let suttaRef = {sutta_uid, author};
         let sutta = await bw.loadSuttaRef(suttaRef, refLang);
-        should(sutta.sutta_uid).equal(sutta_uid);
-        should(sutta.lang).equal(lang);
-        should(sutta.author).equal(author);
-        let segments = sutta.segments;
-        should.deepEqual(segments[0],{
+        should(sutta).properties({sutta_uid, lang, author});
+        should.deepEqual(sutta.segments[0],{
             scid: 'thig1.1:0.1',
             pli: 'Therīgāthā',
             de: 'Strophen der altehrwürdigen Nonnen ',
@@ -592,15 +589,12 @@
     });
     it("loadSutta(...) => thig1.1 (en/sujato)", async ()=>{ // deprecated
         let bw = new BilaraWeb({fetch});
-        let translator = 'sujato';
         let lang = 'en';
+        let translator = 'sujato';
         let sutta_uid = `thig1.1/${lang}/${translator}`;
         let sutta = await bw.loadSutta({sutta_uid});
-        should(sutta.sutta_uid).equal(sutta_uid);
-        should(sutta.lang).equal(lang);
-        should(sutta.translator).equal(translator);
-        let segments = sutta.segments;
-        should.deepEqual(segments[0],{
+        should(sutta).properties({sutta_uid, lang, translator});
+        should.deepEqual(sutta.segments[0],{
             scid: 'thig1.1:0.1',
             pli: 'Therīgāthā',
             en: 'Verses of the Senior Nuns',
