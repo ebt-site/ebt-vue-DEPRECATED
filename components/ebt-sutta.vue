@@ -33,14 +33,23 @@
           :class="segmentClass(seg)">
           <div v-if="settings.showId" class="ebt-scid">{{seg.scid}}</div>
           <div v-if="settings.showPali" v-html="seg.pli" class="ebt-text-root"/>
+
+          <!-- COLUMN VIEW -->
           <div v-if="!fullLine && settings.showTrans" 
             v-html="seg[sutta.lang]" class="ebt-text-trans"/><!-- primary column -->
           <div v-if="!fullLine && settings.showEnglish" 
             v-html="seg.en" class="ebt-text-english"/>
+          <div v-if="!fullLine && settings.refLang !== 'pli'" 
+            v-html="seg.ref" class="ebt-text-ref"/>
+
+          <!-- LINE-BY-LINE VIEW -->
           <div v-if="fullLine && settings.showEnglish" 
             v-html="seg.en" class="ebt-text-english"/>
           <div v-if="fullLine && settings.showTrans" 
             v-html="seg[sutta.lang]" class="ebt-text-trans"/><!-- primary line -->
+          <div v-if="fullLine && settings.refLang !== 'pli'" 
+            v-html="seg.ref" class="ebt-text-ref"/><!-- reference line -->
+
           <v-btn v-if="cursor && cursor.scid === seg.scid"
             icon class=""
             @click="clickCopy(seg)"

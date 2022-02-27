@@ -122,7 +122,6 @@ export const mutations = {
             seg.pli = words.join(' ');
           }
         });
-        console.log(`dbg sutta`, sutta.segments.length);
         console.debug(`$store.state.ebt.sutta:`, {sutta, settings});
     },
     processing(state, value) {
@@ -208,13 +207,13 @@ export const mutations = {
 export const actions = {
     async loadSutta (context, payload) {
         let settings = context.state.settings;
-        let { showEnglish } = settings;
+        let { showEnglish, refLang } = settings;
         let { hash, query, path } = $nuxt.$route;
         let { 
             sutta_uid, 
             lang=settings.lang, 
             translator, // deprecated
-            author,
+            author=payload.translator,
             updateHistory,
             selectSegment=hash && hash.length>1,
         } = payload;
@@ -225,11 +224,10 @@ export const actions = {
         bilaraWeb = bilaraWeb || new BilaraWeb({fetch});
         let parsed = bilaraWeb.parseSuttaRef(sutta_uid, lang, translator);
         let sutta;
-        let refLang = showEnglish ? 'en' : undefined;
-        let useSuttaRef = 0;
+        let useSuttaRef = 1;
         if (useSuttaRef) {
-          console.warn("DBG ebt loadSutta payload", payload);
-          sutta = await bilaraWeb.loadSuttaRef({sutta_uid, lang, author}, refLang);
+          sutta = await bilaraWeb.loadSuttaRef({sutta_uid, lang, author}, 
+            refLang === 'pli' ? undefined : refLang);
         } else {
           sutta = await bilaraWeb.loadSutta({
               sutta_uid:parsed.sutta_uid, 

@@ -53,7 +53,7 @@
               <div class="ebt-settings-title">
                   <div>{{$t('languages')}}</div>
                   <div v-if="openDetail!=='lang'" class="body-2">
-                    {{locale.toUpperCase()}} {{lang.toUpperCase()}}
+                    {{locale.toUpperCase()}} {{lang.toUpperCase()}} 
                   </div>
               </div><!--ebt-settings-title-->
             </summary>
@@ -81,6 +81,17 @@
                 </select>
                 <label for="lang-select">{{$t('transLanguage')}}</label>
               </div>
+              <div class="ebt-select-container">
+                <select id="ref-select" 
+                  class="ebt-select"
+                  v-model="refLang"
+                  @click="stopPropagation($event)">
+                  <option v-for="item in refLanguages" :key="item.code" 
+                    :selected="item.code===lang"
+                    :value="item.code">{{item.label}}</option>
+                </select>
+                <label for="lang-select">{{$t('refLang')}}</label>
+              </div>
             </div>
           </details>
         </li><!-- Language -->
@@ -94,8 +105,9 @@
                   <div>{{$t('textLayout')}}</div>
                   <div >
                     <span v-if="showId" class="body-2">#</span>
-                    <span v-if="showPali" class="body-2">Pali</span>
+                    <span v-if="showPali" class="body-2">PLI</span>
                     <span v-if="showEnglish" class="body-2">EN</span>
+                    <span v-if="refLang" class="body-2">{{refLang.toUpperCase()}}</span>
                     <v-icon class="ebt-settings-icon"
                       v-if="showFormat"
                       {{ showFormat }}
@@ -124,6 +136,23 @@
                 :label="$t('showTransText')"
                 @click="stopPropagation($event)"
                 />
+              <ebt-checkbox v-model="showReference" 
+                ref="trans-focus"
+                :aria-checked="showReference"
+                :label="$t('showReference')"
+                @click="stopPropagation($event)"
+                />
+              <div v-if="showReference" class="ebt-select-container ml-5">
+                <select id="ref-select" 
+                  class="ebt-select"
+                  v-model="refLang"
+                  @click="stopPropagation($event)">
+                  <option v-for="item in refLanguages" :key="item.code" 
+                    :selected="item.code===lang"
+                    :value="item.code">{{item.label}}</option>
+                </select>
+              </div>
+              <v-divider/>
               <ebt-checkbox v-model="fullLine" 
                 :aria-checked="fullLine"
                 :label="$t('showLineByLine')"
@@ -411,6 +440,10 @@ export default {
       get: function() { return this.$store.state.ebt.settings.showTrans; },
       set: function(value) { this.$store.commit("ebt/settings", {showTrans:value}); },
     },
+    showReference: {
+      get: function() { return this.$store.state.ebt.settings.showReference; },
+      set: function(value) { this.$store.commit("ebt/settings", {showReference:value}); },
+    },
     showEnglish: {
       get: function() { return this.$store.state.ebt.settings.showEnglish; },
       set: function(value) { this.$store.commit("ebt/settings", {showEnglish:value}); },
@@ -431,6 +464,10 @@ export default {
       get: function() { return this.$store.state.ebt.settings.maxResults; },
       set: function(value) { 
         this.$store.commit("ebt/settings", {maxResults:Number(value)}); },
+    },
+    refLang: {
+      get: function() { return this.$store.state.ebt.settings.refLang; },
+      set: function(value) { this.$store.commit("ebt/settings", {refLang:value}); },
     },
     locale: {
       get: function() { return this.$store.state.ebt.settings.locale; },
@@ -475,6 +512,7 @@ export default {
       showPali && nText++;
       showTrans && nText++;
       showEnglish && nText++;
+      showReference && nText++;
       if (fullLine && nText > 1) {
         return mdiFormatAlignJustify;
       }
@@ -488,6 +526,9 @@ export default {
     },
     voices() {
       return this.$store.state.ebt.voices;
+    },
+    refLanguages() {
+      return Settings.REF_LANGUAGES;
     },
     transLanguages() {
       return Settings.TRANS_LANGUAGES;

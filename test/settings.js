@@ -4,7 +4,7 @@
         Settings,
     } = require("../src/index");
 
-    it("default ctor", async()=>{
+    it("TESTTESTdefault ctor", async()=>{
         var ebt = new Settings();
         should(ebt).properties({
             audio: Settings.AUDIO.OGG,
@@ -15,11 +15,13 @@
             lang: 'en',
             maxResults: 5,
             maxHistory: 2000,  // half a cookie
+            refLang: 'en',
             saveSettings: false,
             saveSettingsExamples: false,
             search: null,
             showId: false,
             showPali: true,
+            showReference: false,
             showTrans: true,
             vnameRoot: 'Aditi',
             vnameTrans: 'Amy',
@@ -73,6 +75,12 @@
         let json2 = JSON.parse(cookie);
         let settings2 = new Settings(json2);
         should.deepEqual(settings2.history, history);
+    });
+    it("TESTTESTREF_LANGUAGES => reference languages", ()=>{
+        should.deepEqual(Settings.REF_LANGUAGES.map(tl=>tl.code).sort(), [
+            'de',
+            'en',
+        ]);
     });
     it("TRANS_LANGUAGES => translation languages", ()=>{
         should.deepEqual(Settings.TRANS_LANGUAGES.map(tl=>tl.code).sort(), [

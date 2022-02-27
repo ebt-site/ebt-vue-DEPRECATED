@@ -245,6 +245,7 @@ export default {
     refreshPage: "Seite neu laden",
     applicationError: "Fehler in der Web-Anwendung",
     clickRefresh: "In der Web-Anwendung ist ein Fehler aufgetreten. Klicken Sie „Seite neu laden“, um fortzufahren.",
+    refLang: "3. Spalte",
 
   },
 }

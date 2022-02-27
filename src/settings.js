@@ -12,6 +12,7 @@
                 locale = 'en',
                 maxHistory = 2000,
                 maxResults = 5,
+                refLang = 'en',
                 saveSettingsExamples = false,
                 saveSettings = false,
                 search = null,
@@ -19,6 +20,7 @@
                 showPali = true,
                 showTrans = true,
                 showEnglish = false,
+                showReference = false,
                 vnameRoot = 'Aditi',
                 vnameTrans = 'Amy',
 
@@ -29,13 +31,13 @@
             this.iCursor = iCursor;
             this.fullLine = fullLine;
             this.history = history.reduce((a,h)=>{
-                if (h != null) {
-                    let date = typeof h.date === 'string'
-                        ? new Date(h.date)
-                        : h.date;
-                    a.push(Object.assign({}, h, {date}));
-                }
-                return a;
+              if (h != null) {
+                  let date = typeof h.date === 'string'
+                      ? new Date(h.date)
+                      : h.date;
+                  a.push(Object.assign({}, h, {date}));
+              }
+              return a;
             }, []);
             this.history.sort((a,b)=>a.date - b.date);
             this.ips = 6;
@@ -47,12 +49,14 @@
             }, 'en');
             this.maxResults = maxResults;
             this.maxHistory = maxHistory,
+            this.refLang = refLang;
             this.saveSettingsExamples = saveSettingsExamples;
             this.saveSettings = saveSettings;
             this.search = search;
             this.showId = showId;
             this.showEnglish = lang === 'en' ? false : showEnglish;
             this.showPali = showPali;
+            this.showReference = showReference;
             this.showTrans = showTrans;
             this.vnameRoot = vnameRoot;
             this.vnameTrans = vnameTrans;
@@ -71,7 +75,17 @@
             return json;
         }
         
-        static get TRANS_LANGUAGES() { 
+        static get REF_LANGUAGES() {
+            return [{
+                code: 'de',
+                label: 'Sabbamitta / DE',
+            }, {
+                code: 'en',
+                label: 'Sujato / EN',
+            }];
+        }
+
+        static get TRANS_LANGUAGES() {
             return [{
                 code: 'cs',
                 label: 'Čeština / CS',
