@@ -32,7 +32,7 @@
     "pattern": "überquer",
     "method": "phrase",
     "resultPattern": "\\büberquer",
-    "segsMatched": 27,
+    "segsMatched": 29,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an4/an4.196_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.196_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/sn/sn1/sn1.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn1/sn1.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn1/sn1.5_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn1/sn1.5_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn1/sn1.5_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/ud/vagga8/ud8.6_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga8/ud8.6_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/ud/vagga8/ud8.6_translation-en-sujato.json",
@@ -75,6 +78,7 @@
     "suttaRefs": [
       "an4.196/de/sabbamitta",
       "sn1.1/de/sabbamitta",
+      "sn1.5/de/sabbamitta",
       "ud8.6/de/sabbamitta",
       "dn16/de/sabbamitta",
       "ud3.2/de/sabbamitta",
@@ -240,6 +244,45 @@
           "pli": 20,
           "de": 20,
           "en": 20
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn1/sn1.5_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn1/sn1.5_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn1/sn1.5_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn1.5",
+        "lang": "de",
+        "segMap": {
+          "sn1.5:2.4": {
+            "scid": "sn1.5:2.4",
+            "pli": "oghatiṇṇoti vuccatī”ti. ",
+            "de": "bevor man ihn einen nennt, der die Flut <span class=\"ebt-matched\">überquer</span>t hat?“ ",
+            "en": "before you call them a flood-crosser?” ",
+            "matched": true
+          },
+          "sn1.5:3.4": {
+            "scid": "sn1.5:3.4",
+            "pli": "oghatiṇṇoti vuccatī”ti. ",
+            "de": "bevor man ihn einen nennt, der die Flut <span class=\"ebt-matched\">überquer</span>t hat.“ ",
+            "en": "before you call them a flood-crosser.”",
+            "matched": true
+          }
+        },
+        "score": 2.154,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 1\n1. Ein Schilfrohr\n5. Wie viele zu zerschneiden?",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 13,
+          "de": 13,
+          "en": 13
         }
       },
       {

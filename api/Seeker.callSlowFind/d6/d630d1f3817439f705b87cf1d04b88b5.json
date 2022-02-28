@@ -30,15 +30,57 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "dort sah ich einen riesigen berg",
-    "method": "keywords",
-    "resultPattern": "\\bdort|\\bsah|\\bich|\\beinen|\\briesigen|\\bberg",
-    "segsMatched": 0,
+    "method": "phrase",
+    "resultPattern": "\\bdort sah ich einen riesigen berg",
+    "segsMatched": 2,
     "bilaraPaths": [
-      "root/pli/ms/sutta/an/an6/an6.43_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an6/an6.43_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an6/an6.43_translation-en-sujato.json"
+      "root/pli/ms/sutta/sn/sn3/sn3.25_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn3/sn3.25_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn3/sn3.25_translation-en-sujato.json"
     ],
-    "suttaRefs": [],
-    "mlDocs": []
+    "suttaRefs": [
+      "sn3.25/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn3/sn3.25_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn3/sn3.25_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn3/sn3.25_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn3.25",
+        "lang": "de",
+        "segMap": {
+          "sn3.25:2.5": {
+            "scid": "sn3.25:2.5",
+            "pli": "Tatthaddasaṁ mahantaṁ pabbataṁ abbhasamaṁ, sabbe pāṇe nippothento āgacchati. ",
+            "de": "<span class=\"ebt-matched\">Dort sah ich einen riesigen Berg</span>, der bis zu den Wolken reichte. Er bewegte sich hierher und zermalmte dabei alle Geschöpfe. ",
+            "en": "There I saw a huge mountain that reached the clouds. And it was coming this way, crushing all creatures. ",
+            "matched": true
+          },
+          "sn3.25:2.12": {
+            "scid": "sn3.25:2.12",
+            "pli": "Tatthaddasaṁ mahantaṁ pabbataṁ abbhasamaṁ sabbe pāṇe nippothento āgacchati. ",
+            "de": "<span class=\"ebt-matched\">Dort sah ich einen riesigen Berg</span>, der bis zu den Wolken reichte. Er bewegte sich hierher und zermalmte dabei alle Geschöpfe. ",
+            "en": "There I saw a huge mountain that reached the clouds. And it was coming this way, crushing all creatures. ",
+            "matched": true
+          }
+        },
+        "score": 2.029,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 3\n3. Kosala\n25. Das Gleichnis vom Berg",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 70,
+          "de": 62,
+          "en": 69
+        }
+      }
+    ]
   }
 }

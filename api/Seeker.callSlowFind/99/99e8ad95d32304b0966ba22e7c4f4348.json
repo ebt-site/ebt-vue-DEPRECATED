@@ -32,7 +32,7 @@
     "pattern": "bedingungen sind unbeständig",
     "method": "phrase",
     "resultPattern": "\\bbedingungen sind unbeständig",
-    "segsMatched": 13,
+    "segsMatched": 14,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
@@ -43,6 +43,9 @@
       "root/pli/ms/sutta/sn/sn6/sn6.15_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn6/sn6.15_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn6/sn6.15_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn1/sn1.11_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn1/sn1.11_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn1/sn1.11_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn15/sn15.20_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn15/sn15.20_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn15/sn15.20_translation-en-sujato.json",
@@ -63,6 +66,7 @@
       "dn16/de/sabbamitta",
       "an3.136/de/sabbamitta",
       "sn6.15/de/sabbamitta",
+      "sn1.11/de/sabbamitta",
       "sn15.20/de/sabbamitta",
       "thag20.1/de/sabbamitta",
       "thag15.1/de/sabbamitta",
@@ -167,6 +171,38 @@
           "pli": 19,
           "de": 18,
           "en": 18
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn1/sn1.11_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn1/sn1.11_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn1/sn1.11_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn1.11",
+        "lang": "de",
+        "segMap": {
+          "sn1.11:5.3": {
+            "scid": "sn1.11:5.3",
+            "pli": "Aniccā sabbasaṅkhārā, ",
+            "de": "Alle <span class=\"ebt-matched\">Bedingungen sind unbeständig</span>, ",
+            "en": "All conditions are impermanent, ",
+            "matched": true
+          }
+        },
+        "score": 1.048,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 1\n2. Der Garten des Entzückens\n11. Der Garten des Entzückens",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 21,
+          "de": 21,
+          "en": 21
         }
       },
       {
