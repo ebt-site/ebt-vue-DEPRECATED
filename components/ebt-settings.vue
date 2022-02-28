@@ -81,17 +81,6 @@
                 </select>
                 <label for="lang-select">{{$t('transLanguage')}}</label>
               </div>
-              <div class="ebt-select-container">
-                <select id="ref-select" 
-                  class="ebt-select"
-                  v-model="refLang"
-                  @click="stopPropagation($event)">
-                  <option v-for="item in refLanguages" :key="item.code" 
-                    :selected="item.code===lang"
-                    :value="item.code">{{item.label}}</option>
-                </select>
-                <label for="lang-select">{{$t('refLang')}}</label>
-              </div>
             </div>
           </details>
         </li><!-- Language -->
@@ -152,7 +141,7 @@
                     :value="item.code">{{item.label}}</option>
                 </select>
               </div>
-              <v-divider/>
+              <v-divider class="mt-2 mb-2"/>
               <ebt-checkbox v-model="fullLine" 
                 :aria-checked="fullLine"
                 :label="$t('showLineByLine')"

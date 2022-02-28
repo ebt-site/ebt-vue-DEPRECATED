@@ -480,7 +480,7 @@
             sutta_uid, lang, author, segnum, refLang});
           let { suttaCache, } = this;
           var url = '';
-          let key = [sutta_uid, lang].join('/');
+          let key = [sutta_uid, lang, author].join('/');
           let sutta = suttaCache[key];
           if (sutta) {
               return sutta;

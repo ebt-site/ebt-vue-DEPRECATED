@@ -319,7 +319,7 @@
         var bw = new BilaraWeb({fetch, examples});
         should(bw.exampleOfMatch('königliches Gut', 'de')).equal(examples.de[0]);
     });
-    it("TESTTESTbilaraPathOf(...) SuttaRef => Bilara path", ()=>{
+    it("bilaraPathOf(...) SuttaRef => Bilara path", ()=>{
       let sutta_uid = 'thig1.1';
       let segnum = '0.1';
       var bwPli = new BilaraWeb({fetch, lang:'pli'});
@@ -370,7 +370,7 @@
       should(bwEn.bilaraPathOf({sutta_uid, author:'sabbamitta'})).equal(
         'translation/de/sabbamitta/sutta/kn/thig/thig1.1_translation-de-sabbamitta.json');
     });
-    it("TESTTESTloadBilaraPath(...) => thig1.1", async ()=>{
+    it("loadBilaraPath(...) => thig1.1", async ()=>{
       // Pali
       var bwPli = new BilaraWeb({fetch, lang:'pli'});
       let bilaraPathPli = bwPli.bilaraPathOf('thig1.1');
@@ -444,7 +444,7 @@
       should(res.segments['thig1.1:0.3']).equal('Verses of a Certain Unknown Elder');
       should(res.segments['thig1.1:1.1']).equal('“Sleep with ease, Elder,');
     });
-    it("TESTTESTloadBilaraPath(...) => thig1.1/xyz", async ()=>{
+    it("loadBilaraPath(...) => thig1.1/xyz", async ()=>{
       let defaultLang = 'default-lang'
       var bw = new BilaraWeb({fetch, lang:defaultLang});
       let bilaraPath = bw.bilaraPathOf('thig1.1/xyz'); // non-existent Bilara path
@@ -477,7 +477,34 @@
         let nosuid = await bw.loadSuttaSegments({lang:'nosuid'});
         should(nosuid).equal(undefined);
     });
-    it("TESTTESTloadSuttaRef(...) => thig1.1", async ()=>{
+    it("TESTTESTloadSuttaRef(...) => thig1.1 (soma/sujato)", async ()=>{
+        let bw = new BilaraWeb({fetch});
+        let author = 'soma';
+        let lang = 'en';
+        let sutta_uid = 'thig1.1';
+
+        // Soma
+        let suttaRefSoma = `${sutta_uid}/${lang}/${author}`;
+        let suttaSoma = await bw.loadSuttaRef(suttaRefSoma);
+        should(suttaSoma).properties({sutta_uid, lang, author});
+        should.deepEqual(suttaSoma.segments[0],{
+            scid: 'thig1.1:0.1',
+            pli: 'Therīgāthā',
+            //en: 'Verses of the Senior Nuns',
+            en: 'Verses of the Elder Bhikkhunīs',
+        });
+
+        // EN (Sujato)
+        let suttaRefEn = `${sutta_uid}/${lang}`;
+        let suttaEn = await bw.loadSuttaRef(suttaRefEn);
+        should(suttaEn).properties({sutta_uid, lang, author:'sujato'});
+        should.deepEqual(suttaEn.segments[0],{
+            scid: 'thig1.1:0.1',
+            pli: 'Therīgāthā',
+            en: 'Verses of the Senior Nuns',
+        });
+    });
+    it("loadSuttaRef(...) => thig1.1", async ()=>{
         let bw = new BilaraWeb({fetch});
         let author = 'sujato';
         let lang = 'en';
