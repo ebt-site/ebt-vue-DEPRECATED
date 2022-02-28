@@ -39,7 +39,7 @@
             v-html="seg[sutta.lang]" class="ebt-text-trans"/><!-- primary column -->
           <div v-if="!fullLine && settings.showEnglish" 
             v-html="seg.en" class="ebt-text-english"/>
-          <div v-if="!fullLine && settings.refLang !== 'pli'" 
+          <div v-if="!fullLine && settings.showReference" 
             v-html="seg.ref" class="ebt-text-ref"/>
 
           <!-- LINE-BY-LINE VIEW -->
@@ -47,8 +47,8 @@
             v-html="seg.en" class="ebt-text-english"/>
           <div v-if="fullLine && settings.showTrans" 
             v-html="seg[sutta.lang]" class="ebt-text-trans"/><!-- primary line -->
-          <div v-if="fullLine && settings.refLang !== 'pli'" 
-            v-html="seg.ref" class="ebt-text-ref"/><!-- reference line -->
+          <div v-if="fullLine && settings.showReference" 
+            v-html="seg.ref" class="ebt-text-ref"/>
 
           <v-btn v-if="cursor && cursor.scid === seg.scid"
             icon class=""

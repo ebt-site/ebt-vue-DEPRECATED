@@ -95,14 +95,12 @@
                   <div >
                     <span v-if="showId" class="body-2">#</span>
                     <span v-if="showPali" class="body-2">PLI</span>
-                    <span v-if="showEnglish" class="body-2">EN</span>
-                    <span v-if="refLang" class="body-2">{{refLang.toUpperCase()}}</span>
+                    <span v-if="showTrans" class="body-2">{{lang.toUpperCase()}}</span>
+                    <span v-if="showReference" class="body-2">{{refLang.toUpperCase()}}</span>
                     <v-icon class="ebt-settings-icon"
                       v-if="showFormat"
                       {{ showFormat }}
                     </v-icon>
-                    <span v-if="showTrans" class="body-2">
-                      {{lang.toUpperCase()}}</span>
                   </div>
               </div><!--ebt-settings-title-->
             </summary>
@@ -286,7 +284,7 @@
             small
             class="ebt-text-btn"
             :aria-label="$t('ariaClose')"
-            @click="focusMore(false,$event)"
+            @click="clickClose(false,$event)"
             >
             {{$t('$vuetify.close')}}
           </v-btn>
@@ -387,6 +385,11 @@ export default {
               this.moreVisible = false;
           }
       }, 500);
+    },
+    clickClose(focus, evt){
+      console.log("clickClose");
+      this.focusMore(focus);
+      window.location.reload();
     },
     clickBackdrop(){
       this.focusMore(false);
