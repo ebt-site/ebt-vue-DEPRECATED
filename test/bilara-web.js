@@ -477,7 +477,31 @@
         let nosuid = await bw.loadSuttaSegments({lang:'nosuid'});
         should(nosuid).equal(undefined);
     });
-    it("TESTTESTloadSuttaRef(...) => thig1.1 (soma/sujato)", async ()=>{
+    it("TESTTESTloadSuttaRef(...) => sn35.7 (soma/sabbamitta)", async ()=>{
+        let bw = new BilaraWeb({fetch});
+        let lang = 'en';
+        let sutta_uid = 'sn35.7';
+        let suttaRefSoma = `${sutta_uid}/${lang}/soma`;
+
+        // Soma + Sabbamitta/DE
+        let refLang = 'de';
+        let suttaSomaDE = await bw.loadSuttaRef(suttaRefSoma, refLang);
+        should(suttaSomaDE).properties({sutta_uid, lang:undefined, author:undefined});
+        should.deepEqual(suttaSomaDE.segments[1],{
+            scid: 'sn35.7:0.2',
+            pli: '1. Aniccavagga ',
+            //de: 'Drei Merkmale und drei Zeiten',
+        });
+
+        // Soma has no translation for SN35.7
+        let suttaSoma = await bw.loadSuttaRef(suttaRefSoma);
+        should(suttaSoma).properties({sutta_uid, lang:undefined, author:undefined});
+        should.deepEqual(suttaSoma.segments[1],{
+            scid: 'sn35.7:0.2',
+            pli: '1. Aniccavagga ',
+        });
+    });
+    it("loadSuttaRef(...) => thig1.1 (soma/sujato)", async ()=>{
         let bw = new BilaraWeb({fetch});
         let author = 'soma';
         let lang = 'en';

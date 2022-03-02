@@ -499,15 +499,14 @@
 
           // Load translation segments
           let transBilaraPath = this.bilaraPathOf({sutta_uid, lang, author});
-          assert(transBilaraPath, 
-            `bilaraPathOf(${JSON.stringify({suttaRef, sutta_uid, lang, author})}`);
-          let translation = await this.loadBilaraPath(transBilaraPath);
-          if (translation == null) {
-              return undefined;
-          }
-          let [transRoot, transLang ] = transBilaraPath.split('/');
+          //assert(transBilaraPath, 
+            //`bilaraPathOf(${JSON.stringify({suttaRef, sutta_uid, lang, author})}`);
+          let translation = transBilaraPath
+            ?  (await this.loadBilaraPath(transBilaraPath)) 
+            : {};
+          let [transRoot, transLang ] = transBilaraPath && transBilaraPath.split('/') || [];
           let {
-              translator = 'notranslator',
+              translator,
               segments:langSegs = [],
           } = translation;
           Object.keys(langSegs).forEach(scid=>{
@@ -518,7 +517,9 @@
           // Load segments from reference language document
           if (refLang) {
             let refBilaraPath = this.bilaraPathOf({sutta_uid, lang:refLang});
-            let reference = await this.loadBilaraPath(refBilaraPath);
+            let reference = refBilaraPath
+              ? (await this.loadBilaraPath(refBilaraPath))
+              : {};
             let { segments:refSegs = [] } = reference;
             Object.keys(refSegs).forEach(scid=>{
                 segMap[scid] = segMap[scid] || { scid };
