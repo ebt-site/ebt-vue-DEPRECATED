@@ -111,13 +111,6 @@
                 :label="$t('showPaliText')"
                 @click="stopPropagation($event)"
                 />
-              <ebt-checkbox v-model="showEnglish" 
-                ref="trans-focus"
-                v-if="lang !== 'en'"
-                :aria-checked="showEnglish"
-                :label="$t('showEnglish')"
-                @click="stopPropagation($event)"
-                />
               <ebt-checkbox v-model="showTrans" 
                 :aria-checked="showTrans"
                 :label="$t('showTransText')"
@@ -436,10 +429,6 @@ export default {
       get: function() { return this.$store.state.ebt.settings.showReference; },
       set: function(value) { this.$store.commit("ebt/settings", {showReference:value}); },
     },
-    showEnglish: {
-      get: function() { return this.$store.state.ebt.settings.showEnglish; },
-      set: function(value) { this.$store.commit("ebt/settings", {showEnglish:value}); },
-    },
     showPali: {
       get: function() { return this.$store.state.ebt.settings.showPali; },
       set: function(value) { this.$store.commit("ebt/settings", {showPali:value}); },
@@ -503,7 +492,6 @@ export default {
       let nText = 0;
       showPali && nText++;
       showTrans && nText++;
-      showEnglish && nText++;
       showReference && nText++;
       if (fullLine && nText > 1) {
         return mdiFormatAlignJustify;

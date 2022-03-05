@@ -207,7 +207,7 @@ export const mutations = {
 export const actions = {
     async loadSutta (context, payload) {
         let settings = context.state.settings;
-        let { showEnglish, refLang } = settings;
+        let { refLang } = settings;
         let { hash, query, path } = $nuxt.$route;
         let { 
             sutta_uid, 
@@ -224,17 +224,8 @@ export const actions = {
         bilaraWeb = bilaraWeb || new BilaraWeb({fetch});
         let parsed = bilaraWeb.parseSuttaRef(sutta_uid, lang, translator);
         let sutta;
-        let useSuttaRef = 1;
-        if (useSuttaRef) {
-          sutta = await bilaraWeb.loadSuttaRef({sutta_uid, lang, author}, 
-            refLang === 'pli' ? undefined : refLang);
-        } else {
-          sutta = await bilaraWeb.loadSutta({
-              sutta_uid:parsed.sutta_uid, 
-              lang,
-              showEnglish,
-          });
-        }
+        sutta = await bilaraWeb.loadSuttaRef({sutta_uid, lang, author}, 
+          refLang === 'pli' ? undefined : refLang);
         context.commit('processing', null);
         if (sutta == null) {
             console.log(`$store.state.ebt.loadSutta(${sutta_uid}/${lang})`,

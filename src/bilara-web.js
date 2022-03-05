@@ -427,52 +427,6 @@
           return sutta;
         }
 
-        async loadSuttaSegments({sutta_uid, lang='pli'}) { // deprecated
-            let {
-                authors,
-                fetch,
-                host,
-                includeUnpublished,
-            } = this;
-            let segments;
-            let bilaraPaths = this.suidPaths(sutta_uid) || {};
-            let bpKeys = Object.keys(bilaraPaths).filter(bp=>bp.match(`/${lang}/`));
-            bpKeys.length > 1 && bpKeys.sort((a,b)=>{
-              let [ aTrans, aLang, aAuth ] = a.split('/');
-              let [ bTrans, bLang, bAuth ] = b.split('/');
-              // Prioritize sutta selection for a language by author exampleVersion
-              let aEV = authors[aAuth].exampleVersion;
-              let bEV = authors[bAuth].exampleVersion;
-              let cmp = bEV - aEV;
-              return cmp;
-            });
-            let bpKey = bpKeys.find(key=>key.includes(`/${lang}/`));
-            if (bpKey == null) {
-                this.info(`loadSuttaSegments(${sutta_uid},${lang}) => undefined`);
-                return undefined;
-            }
-            let bpSegs = bilaraPaths[bpKey];
-            if (bpSegs) { 
-                let branch = includeUnpublished ? 'unpublished' : 'published';
-                let url = `${host}/suttacentral/bilara-data/${branch}/${bpSegs}`;
-                try {
-                    let res = await fetch(url, {headers:{Accept:'text/plain'}});
-                    segments = await res.json();
-                } catch(e) {
-                    this.info(`loadSuttaSegments(${sutta_uid}) ${url} => ${e.message}`);
-                }
-            } else {
-                this.info(`loadSuttaSegments(${sutta_uid}) not found lang:${lang}`);
-            }
-            let [ segType, segLang, translator ] = bpKey && bpKey.split('/') || [];
-            return {
-                lang,
-                author: translator,
-                translator,
-                segments
-            };
-        }
-
         async loadSuttaRef(suttaRef, refLang) { try {
           suttaRef = SuttaRef.create(suttaRef, null); 
           let { sutta_uid, lang, author, segnum } = suttaRef;
@@ -550,68 +504,6 @@
           return sutta;
         } catch(e) {
           this.warn(`loadSuttaRef(${suttaRef}) ${url}`, e.message);
-          throw e;
-        }}
-
-        async loadSutta({sutta_uid, lang=this.lang, showEnglish}) { try { // deprecated
-          let { suttaCache, } = this;
-          var url = '';
-          let key = [sutta_uid, lang].join('/');
-          let sutta = suttaCache[key];
-          if (sutta) {
-              return sutta;
-          }
-          if (!(typeof lang === 'string')) {
-              throw new Error(`expected string lang:${lang}`);
-          }
-          let {
-              segments: pli = [],
-          } = await this.loadSuttaSegments({sutta_uid, lang:'pli'}) || {};
-          let segMap = Object.keys(pli).reduce((a,scid)=>{
-              a[scid] = {scid, pli:pli[scid]};
-              return a;
-          },{});
-          let translation = await this.loadSuttaSegments({sutta_uid, lang});
-          if (translation == null) {
-              return undefined;
-          }
-          if (showEnglish) {
-              let english = await this.loadSuttaSegments({sutta_uid, lang:'en'});
-              let { segments:enSegs = [] } = english;
-              Object.keys(enSegs).forEach(scid=>{
-                  segMap[scid] = segMap[scid] || { scid };
-                  segMap[scid].en = enSegs[scid];
-              });
-          }
-          let {
-              translator = 'notranslator',
-              segments:langSegs = [],
-          } = translation;
-          Object.keys(langSegs).forEach(scid=>{
-              segMap[scid] = segMap[scid] || { scid };
-              segMap[scid][lang] = langSegs[scid];
-          });
-          let segments = Object.keys(segMap)
-              .sort(SuttaCentralId.compareLow)
-              .map(scid=>segMap[scid]);
-          segments = this.highlightExamples({segments, lang});
-          let titleSegs = [];
-          for (let s of segments) {
-              if (!s.scid.includes(':0')) {
-                  break;
-              }
-              titleSegs.push(s);
-          }
-          let titles = titleSegs.map(s=>s[lang]||s.pli||'');
-          return suttaCache[key] = {
-            sutta_uid,
-            lang,
-            translator,
-            titles,
-            segments,
-          };
-        } catch(e) {
-          this.warn(`loadSutta(${sutta_uid}) ${url}`, e.message);
           throw e;
         }}
 

@@ -19,7 +19,6 @@
                 showId = false,
                 showPali = true,
                 showTrans = true,
-                showEnglish = false,
                 showReference = false,
                 vnameRoot = 'Aditi',
                 vnameTrans = 'Amy',
@@ -54,7 +53,6 @@
             this.saveSettings = saveSettings;
             this.search = search;
             this.showId = showId;
-            this.showEnglish = lang === 'en' ? false : showEnglish;
             this.showPali = showPali;
             this.showReference = showReference;
             this.showTrans = showTrans;

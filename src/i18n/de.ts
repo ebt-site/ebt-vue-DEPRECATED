@@ -240,7 +240,6 @@ export default {
     days: "A_DAYS Tage",
     weeks: "A_WEEKS Wochen",
     viewEditGithub: "Seite auf Github ansehen/bearbeiten",
-    showEnglish: "Zeige Englisch",
     loadingSutta: "A_SUTTA wird geladen...",
     refreshPage: "Seite neu laden",
     applicationError: "Fehler in der Web-Anwendung",

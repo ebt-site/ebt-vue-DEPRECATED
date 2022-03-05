@@ -237,7 +237,6 @@ export default {
     days: "A_DAYS days",
     weeks: "A_WEEKS weeks",
     viewEditGithub: "View/Edit page on Github",
-    showEnglish: "Show English",
     loadingSutta: "Loading A_SUTTA...",
     refreshPage: "Refresh Page",
     applicationError: "Application Error",

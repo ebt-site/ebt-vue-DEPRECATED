@@ -31,20 +31,18 @@
           @click="clickSegment(seg.scid, $event)"
           @copy="clickCopy(seg)"
           :class="segmentClass(seg)">
+
+          <!-- COMMON VIEW -->
           <div v-if="settings.showId" class="ebt-scid">{{seg.scid}}</div>
           <div v-if="settings.showPali" v-html="seg.pli" class="ebt-text-root"/>
 
           <!-- COLUMN VIEW -->
           <div v-if="!fullLine && settings.showTrans" 
             v-html="seg[sutta.lang]" class="ebt-text-trans"/><!-- primary column -->
-          <div v-if="!fullLine && settings.showEnglish" 
-            v-html="seg.en" class="ebt-text-english"/>
           <div v-if="!fullLine && settings.showReference" 
             v-html="seg.ref" class="ebt-text-ref"/>
 
           <!-- LINE-BY-LINE VIEW -->
-          <div v-if="fullLine && settings.showEnglish" 
-            v-html="seg.en" class="ebt-text-english"/>
           <div v-if="fullLine && settings.showTrans" 
             v-html="seg[sutta.lang]" class="ebt-text-trans"/><!-- primary line -->
           <div v-if="fullLine && settings.showReference" 
@@ -103,8 +101,7 @@ export default {
   },
   async mounted() {
     let { settings } = this;
-    let { showEnglish } = settings;
-    this.bilaraWeb = new this.js.BilaraWeb({fetch, showEnglish});
+    this.bilaraWeb = new this.js.BilaraWeb({fetch, });
     let that = this;
     this.$nuxt.$on('ebt-segment-selected', (cursor={})=>{
       that.$nextTick(()=>that.scrollToCursor(cursor));
@@ -178,7 +175,7 @@ export default {
     },
     clickCopy(seg) {
       let { sutta, settings } = this;
-      let { showId, showEnglish, showPali, showTrans } = settings;
+      let { showId, showPali, showTrans } = settings;
       let { sutta_uid, lang, translator } = sutta;
       let scid = seg.scid.toUpperCase();
       let urlSC = `https://suttacentral.net/`+
