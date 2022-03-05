@@ -456,7 +456,7 @@
       }
       should(eCaught.message).match(/assert\(bilaraPath\)/);
     });
-    it("TESTTESTloadSuttaRef(...) => sn35.7 (soma/sabbamitta)", async ()=>{
+    it("loadSuttaRef(...) => sn35.7 (soma/sabbamitta) none/none", async ()=>{
         let bw = new BilaraWeb({fetch});
         let lang = 'en';
         let sutta_uid = 'sn35.7';
@@ -469,7 +469,6 @@
         should.deepEqual(suttaSomaDE.segments[1],{
             scid: 'sn35.7:0.2',
             pli: '1. Aniccavagga ',
-            //de: 'Drei Merkmale und drei Zeiten',
         });
 
         // Soma has no translation for SN35.7
@@ -480,7 +479,7 @@
             pli: '1. Aniccavagga ',
         });
     });
-    it("loadSuttaRef(...) => thig1.1 (soma/sujato)", async ()=>{
+    it("TESTTESTloadSuttaRef(...) => thig1.1 (soma/sujato)", async ()=>{
         let bw = new BilaraWeb({fetch});
         let author = 'soma';
         let lang = 'en';
@@ -490,6 +489,7 @@
         let suttaRefSoma = `${sutta_uid}/${lang}/${author}`;
         let suttaSoma = await bw.loadSuttaRef(suttaRefSoma);
         should(suttaSoma).properties({sutta_uid, lang, author});
+        should(suttaSoma.refAuthor).equal(undefined);
         should.deepEqual(suttaSoma.segments[0],{
             scid: 'thig1.1:0.1',
             pli: 'Therīgāthā',
@@ -501,6 +501,7 @@
         let suttaRefEn = `${sutta_uid}/${lang}`;
         let suttaEn = await bw.loadSuttaRef(suttaRefEn);
         should(suttaEn).properties({sutta_uid, lang, author:'sujato'});
+        should(suttaEn.refAuthor).equal(undefined);
         should.deepEqual(suttaEn.segments[0],{
             scid: 'thig1.1:0.1',
             pli: 'Therīgāthā',
@@ -549,15 +550,16 @@
             en: 'Verses of the Senior Nuns',
         });
       });
-    it("loadSuttaRef(...) => thig1.1 (en) refLang:de", async ()=>{
+    it("TESTTESTloadSuttaRef(...) => thig1.1 (en) refLang:de", async ()=>{
         let bw = new BilaraWeb({fetch});
         let author = 'sujato';
         let lang = 'en';
         let sutta_uid = 'thig1.1';
         let suttaRef = `thig1.1/${lang}`;
         let refLang = 'de';
+        let refAuthor = 'sabbamitta';
         let sutta = await bw.loadSuttaRef(suttaRef, refLang);
-        should(sutta).properties({sutta_uid, lang, author});
+        should(sutta).properties({sutta_uid, lang, author, refAuthor});
         should.deepEqual(sutta.segments[0],{
             scid: 'thig1.1:0.1',
             pli: 'Therīgāthā',

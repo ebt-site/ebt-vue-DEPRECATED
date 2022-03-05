@@ -439,6 +439,8 @@
           if (sutta) {
               return sutta;
           }
+          sutta = {};
+
           assert(lang == null || typeof lang === 'string');
 
           // Load Pali first as main segment reference
@@ -459,10 +461,7 @@
             ?  (await this.loadBilaraPath(transBilaraPath)) 
             : {};
           let [transRoot, transLang ] = transBilaraPath && transBilaraPath.split('/') || [];
-          let {
-              translator,
-              segments:langSegs = [],
-          } = translation;
+          let { translator, segments:langSegs = [], } = translation;
           Object.keys(langSegs).forEach(scid=>{
               segMap[scid] = segMap[scid] || { scid };
               segMap[scid][transLang] = langSegs[scid];
@@ -474,7 +473,8 @@
             let reference = refBilaraPath
               ? (await this.loadBilaraPath(refBilaraPath))
               : {};
-            let { segments:refSegs = [] } = reference;
+            let { translator:refAuthor, segments:refSegs = [] } = reference;
+            sutta.refAuthor = refAuthor;
             Object.keys(refSegs).forEach(scid=>{
                 segMap[scid] = segMap[scid] || { scid };
                 segMap[scid].ref = refSegs[scid];
@@ -493,13 +493,13 @@
               titleSegs.push(s);
           }
           let titles = titleSegs.map(s=>s[lang]||s.pli||'');
-          sutta = suttaCache[key] = {
+          sutta = suttaCache[key] = Object.assign(sutta, {
             sutta_uid,
             lang: transLang,
             author: translator,
             titles,
             segments,
-          };
+          });
           Object.defineProperty(sutta, "translator", { value: translator }); // deprecated
           return sutta;
         } catch(e) {
@@ -509,25 +509,6 @@
 
         async voices() {
             return VOICES;
-            /*
-            let { fetch } = this;
-            //let url = [
-                //'https://raw.githubusercontent.com',
-                //'sc-voice',
-                //'sc-voice',
-                //'master',
-                //'words',
-                //'voices.json',
-            //].join('/');
-            let url = 'https://unpkg.com/sc-voice/words/voices.json';
-            try {
-                let res = await fetch(url, {headers:{Accept: 'text/plain'}});
-                return await res.json();
-            } catch(e) {
-                let err = new Error(`${url} => ${e.message}`);
-                throw err;
-            }
-            */
         }
 
         langDefaultVoice(lang='en') {

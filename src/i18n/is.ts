@@ -244,6 +244,7 @@ export default {
     applicationError: "Application Error",
     clickRefresh: "An application error has occurred. Click Refresh Page to continue",
     showReference: "Show alternate reference",
+    referenceBy: "Reference by A_AUTHOR",
 
   }
 }

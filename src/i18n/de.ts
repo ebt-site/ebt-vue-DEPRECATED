@@ -245,6 +245,7 @@ export default {
     applicationError: "Fehler in der Web-Anwendung",
     clickRefresh: "In der Web-Anwendung ist ein Fehler aufgetreten. Klicken Sie „Seite neu laden“, um fortzufahren.",
     showReference: "Zeige Vergleichstext",
+    referenceBy: "Vergleichstext A_AUTHOR",
 
   },
 }

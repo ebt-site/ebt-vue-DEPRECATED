@@ -20,8 +20,14 @@
             @click="onLink()"
           >{{mdiLink}}</v-icon>
         </div>
-        <div class="ebt-author" v-if="author">
+        <div class="ebt-author" v-if="settings.showPali">
+          Mahasangiti
+        </div>
+        <div class="ebt-author" v-if="author && settings.showTrans">
           {{$t('translatedBy')}} {{author.name}}
+        </div>
+        <div class="ebt-author" v-if="settings.showReference">
+          {{referenceBy}}
         </div>
       </header>
       <div class="ebt-text-container" @click="textClicked($event)">
@@ -281,6 +287,16 @@ export default {
       let { bilaraWeb } = this;
       let authors = bilaraWeb && bilaraWeb.authors || [];
       return authors[this.sutta.translator];
+    },
+    refAuthor() {
+      let { bilaraWeb } = this;
+      let authors = bilaraWeb && bilaraWeb.authors || [];
+      return authors[this.sutta.refAuthor];
+    },
+    referenceBy() {
+      let { bilaraWeb, $t } = this;
+      let tmplt = $t('referenceBy') || "Reference by A_AUTHOR";
+      return tmplt.replace(/A_AUTHOR/, this.refAuthor.name);
     },
     history() {
       return this.$store.state.ebt.settings.history;
