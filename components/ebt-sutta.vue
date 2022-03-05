@@ -21,7 +21,7 @@
           >{{mdiLink}}</v-icon>
         </div>
         <div class="ebt-author" v-if="settings.showPali">
-          Mahasangiti
+          Mahāsaṅgīti
         </div>
         <div class="ebt-author" v-if="author && settings.showTrans">
           {{$t('translatedBy')}} {{author.name}}
