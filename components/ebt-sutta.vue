@@ -26,7 +26,7 @@
         <div class="ebt-author" v-if="author && settings.showTrans">
           {{$t('translatedBy')}} {{author.name}}
         </div>
-        <div class="ebt-author" v-if="settings.showReference">
+        <div class="ebt-author" v-if="showRef">
           {{referenceBy}}
         </div>
       </header>
@@ -45,13 +45,13 @@
           <!-- COLUMN VIEW -->
           <div v-if="!fullLine && settings.showTrans" 
             v-html="seg[sutta.lang]" class="ebt-text-trans"/><!-- primary column -->
-          <div v-if="!fullLine && settings.showReference" 
+          <div v-if="!fullLine && showRef" 
             v-html="seg.ref" class="ebt-text-ref"/>
 
           <!-- LINE-BY-LINE VIEW -->
           <div v-if="fullLine && settings.showTrans" 
             v-html="seg[sutta.lang]" class="ebt-text-trans"/><!-- primary line -->
-          <div v-if="fullLine && settings.showReference" 
+          <div v-if="fullLine && showRef" 
             v-html="seg.ref" class="ebt-text-ref"/>
 
           <v-btn v-if="cursor && cursor.scid === seg.scid"
@@ -276,6 +276,11 @@ export default {
     },
     settings() {
       return this.$store.state.ebt.settings;
+    },
+    showRef() {
+      let { settings, sutta={} } = this;
+      let { author } = sutta;
+      return settings.showReference || author == null;
     },
     sutta() {
       return this.$store.state.ebt.sutta;

@@ -7,7 +7,7 @@
     const AUTHORS = require('../api/authors.json');
     const SuttaCentralId = require('scv-bilara/src/sutta-central-id');
     const VOICES = require('./voices.json');
-    const SuttaRef = require('./sutta-ref');
+    const SuttaRef = require('scv-bilara/src/sutta-ref');
     const assert = require('assert');
 
     class BilaraWeb {
