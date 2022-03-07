@@ -32,7 +32,7 @@
     "pattern": "das ist eine andere art",
     "method": "phrase",
     "resultPattern": "\\bdas ist eine andere art",
-    "segsMatched": 8,
+    "segsMatched": 9,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an4/an4.188_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.188_translation-de-sabbamitta.json",
@@ -45,13 +45,17 @@
       "translation/en/sujato/sutta/sn/sn45/sn45.3_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn45/sn45.2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn45/sn45.2_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn45/sn45.2_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn45/sn45.2_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn3/sn3.18_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn3/sn3.18_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn3/sn3.18_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an4.188/de/sabbamitta",
       "sn56.19/de/sabbamitta",
       "sn45.3/de/sabbamitta",
-      "sn45.2/de/sabbamitta"
+      "sn45.2/de/sabbamitta",
+      "sn3.18/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -208,6 +212,38 @@
           "pli": 24,
           "de": 23,
           "en": 23
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn3/sn3.18_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn3/sn3.18_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn3/sn3.18_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn3.18",
+        "lang": "de",
+        "segMap": {
+          "sn3.18:6.2": {
+            "scid": "sn3.18:6.2",
+            "pli": "Iminā kho etaṁ, ānanda, pariyāyena veditabbaṁ yathā sakalamevidaṁ brahmacariyaṁ—yadidaṁ kalyāṇamittatā kalyāṇasahāyatā kalyāṇasampavaṅkatā’ti. ",
+            "de": "<span class=\"ebt-matched\">Das ist eine andere Art</span>, zu verstehen, wie gute Freunde das ganze geistliche Leben sind.‘ ",
+            "en": "This is another way to understand how good friends are the whole of the spiritual life.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.019,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 3\n2. Kinderlos\n18. Gute Freunde",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 52,
+          "de": 45,
+          "en": 52
         }
       }
     ]

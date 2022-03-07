@@ -32,7 +32,7 @@
     "pattern": "von all diesen dingen befreit",
     "method": "phrase",
     "resultPattern": "\\bvon all diesen dingen befreit",
-    "segsMatched": 8,
+    "segsMatched": 9,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an10/an10.109_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.109_translation-de-sabbamitta.json",
@@ -48,14 +48,18 @@
       "translation/en/sujato/sutta/sn/sn45/sn45.3_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn45/sn45.2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn45/sn45.2_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn45/sn45.2_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn45/sn45.2_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn3/sn3.18_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn3/sn3.18_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn3/sn3.18_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an10.109/de/sabbamitta",
       "an10.108/de/sabbamitta",
       "an10.107/de/sabbamitta",
       "sn45.3/de/sabbamitta",
-      "sn45.2/de/sabbamitta"
+      "sn45.2/de/sabbamitta",
+      "sn3.18/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -237,6 +241,38 @@
           "pli": 24,
           "de": 23,
           "en": 23
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn3/sn3.18_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn3/sn3.18_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn3/sn3.18_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn3.18",
+        "lang": "de",
+        "segMap": {
+          "sn3.18:6.1": {
+            "scid": "sn3.18:6.1",
+            "pli": "Mamañhi, ānanda, kalyāṇamittaṁ āgamma jātidhammā sattā jātiyā parimuccanti, jarādhammā sattā jarāya parimuccanti, byādhidhammā sattā byādhito parimuccanti, maraṇadhammā sattā maraṇena parimuccanti, sokaparidevadukkhadomanassupāyāsadhammā sattā sokaparidevadukkhadomanassupāyāsehi parimuccanti. ",
+            "de": "Denn indem sie sich auf mich als guten Freund stützen, werden Lebewesen, die wiedergeboren werden, alt werden und sterben müssen, die Kummer, Klage, Schmerz, Traurigkeit und Bedrängnis erfahren müssen, <span class=\"ebt-matched\">von all diesen Dingen befreit</span>. ",
+            "en": "For, by relying on me as a good friend, sentient beings who are liable to rebirth, old age, and death, to sorrow, lamentation, pain, sadness, and distress are freed from all these things. ",
+            "matched": true
+          }
+        },
+        "score": 1.019,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 3\n2. Kinderlos\n18. Gute Freunde",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 52,
+          "de": 45,
+          "en": 52
         }
       }
     ]

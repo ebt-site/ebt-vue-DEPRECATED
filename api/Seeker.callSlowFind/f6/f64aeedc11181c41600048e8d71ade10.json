@@ -32,8 +32,11 @@
     "pattern": "regenwolke",
     "method": "phrase",
     "resultPattern": "\\bregenwolke",
-    "segsMatched": 4,
+    "segsMatched": 5,
     "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn3/sn3.24_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn3/sn3.24_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn3/sn3.24_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.38_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.38_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an8/an8.38_translation-en-sujato.json",
@@ -48,6 +51,7 @@
       "translation/en/sujato/sutta/an/an5/an5.197_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "sn3.24/de/sabbamitta",
       "an8.38/de/sabbamitta",
       "an5.42/de/sabbamitta",
       "an5.31/de/sabbamitta",
@@ -180,6 +184,38 @@
           "pli": 55,
           "de": 54,
           "en": 54
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn3/sn3.24_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn3/sn3.24_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn3/sn3.24_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn3.24",
+        "lang": "de",
+        "segMap": {
+          "sn3.24:8.1": {
+            "scid": "sn3.24:8.1",
+            "pli": "Yathā hi megho thanayaṁ, ",
+            "de": "Die donnernde <span class=\"ebt-matched\">Regenwolke</span>, ",
+            "en": "The thundering rain cloud, ",
+            "matched": true
+          }
+        },
+        "score": 1.014,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 3\n3. Kosala\n24. Bogenschießen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 70,
+          "de": 70,
+          "en": 70
         }
       }
     ]

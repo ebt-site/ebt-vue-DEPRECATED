@@ -32,7 +32,7 @@
     "pattern": "flut.* überquer",
     "method": "phrase",
     "resultPattern": "\\bflut.* überquer",
-    "segsMatched": 16,
+    "segsMatched": 14,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn1/sn1.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn1/sn1.1_translation-de-sabbamitta.json",
@@ -43,27 +43,19 @@
       "root/pli/ms/sutta/sn/sn1/sn1.5_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn1/sn1.5_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.5_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/ud/vagga8/ud8.6_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/kn/ud/vagga8/ud8.6_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/kn/ud/vagga8/ud8.6_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn21_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn21_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn21_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn20_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn20_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn20_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json"
+      "translation/en/sujato/sutta/dn/dn20_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "sn1.1/de/sabbamitta",
       "an4.196/de/sabbamitta",
       "sn1.5/de/sabbamitta",
-      "ud8.6/de/sabbamitta",
       "dn21/de/sabbamitta",
-      "dn20/de/sabbamitta",
-      "dn16/de/sabbamitta"
+      "dn20/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -227,38 +219,6 @@
       },
       {
         "bilaraPaths": [
-          "root/pli/ms/sutta/kn/ud/vagga8/ud8.6_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/kn/ud/vagga8/ud8.6_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/kn/ud/vagga8/ud8.6_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "ud8.6",
-        "lang": "de",
-        "segMap": {
-          "ud8.6:30.1": {
-            "scid": "ud8.6:30.1",
-            "pli": "“Ye taranti aṇṇavaṁ saraṁ,",
-            "de": "„Die, die eine <span class=\"ebt-matched\">Flut oder einen Strom überquer</span>en, ",
-            "en": "“Those who cross a deluge or stream ",
-            "matched": true
-          }
-        },
-        "score": 1.009,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Tief empfundene Sprüche\nDie Laien vom Dorf Pāṭali",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 107,
-          "de": 99,
-          "en": 98
-        }
-      },
-      {
-        "bilaraPaths": [
           "root/pli/ms/sutta/dn/dn20_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/dn/dn20_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/dn/dn20_translation-en-sujato.json"
@@ -319,38 +279,6 @@
           "pli": 515,
           "de": 477,
           "en": 514
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "dn16",
-        "lang": "de",
-        "segMap": {
-          "dn16:1.34.3": {
-            "scid": "dn16:1.34.3",
-            "pli": "“Ye taranti aṇṇavaṁ saraṁ, ",
-            "de": "„Die, die eine <span class=\"ebt-matched\">Flut oder einen Strom überquer</span>en, ",
-            "en": "“Those who cross a deluge or stream ",
-            "matched": true
-          }
-        },
-        "score": 1.001,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Lange Lehrreden 16\nDie große Lehrrede vom Erlöschen des Buddha",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 1665,
-          "de": 1579,
-          "en": 1664
         }
       }
     ]

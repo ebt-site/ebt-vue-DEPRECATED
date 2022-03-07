@@ -32,11 +32,14 @@
     "pattern": "das rechte maß",
     "method": "phrase",
     "resultPattern": "\\bdas rechte maß",
-    "segsMatched": 18,
+    "segsMatched": 20,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an7/an7.68_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an7/an7.68_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an7/an7.68_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn3/sn3.13_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn3/sn3.13_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn3/sn3.13_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.4_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.4_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an8/an8.4_translation-en-sujato.json",
@@ -61,6 +64,7 @@
     ],
     "suttaRefs": [
       "an7.68/de/sabbamitta",
+      "sn3.13/de/sabbamitta",
       "an8.4/de/sabbamitta",
       "an5.132/de/sabbamitta",
       "an5.131/de/sabbamitta",
@@ -266,6 +270,45 @@
           "pli": 16,
           "de": 15,
           "en": 15
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn3/sn3.13_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn3/sn3.13_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn3/sn3.13_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn3.13",
+        "lang": "de",
+        "segMap": {
+          "sn3.13:3.2": {
+            "scid": "sn3.13:3.2",
+            "pli": "Mattaṁ jānato laddhabhojane; ",
+            "de": "<span class=\"ebt-matched\">das rechte Maß</span> beim Essen kennt, ",
+            "en": "knowing moderation in eating, ",
+            "matched": true
+          },
+          "sn3.13:5.2": {
+            "scid": "sn3.13:5.2",
+            "pli": "Mattaṁ jānato laddhabhojane; ",
+            "de": "<span class=\"ebt-matched\">das rechte Maß</span> beim Essen kennt, ",
+            "en": "knowing moderation in eating, ",
+            "matched": true
+          }
+        },
+        "score": 2.083,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 3\n2. Kinderlos\n13. Ein Kübel Reis",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 24,
+          "de": 24,
+          "en": 24
         }
       },
       {
