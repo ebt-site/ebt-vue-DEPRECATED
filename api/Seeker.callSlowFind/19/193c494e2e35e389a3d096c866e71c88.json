@@ -1,0 +1,151 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "die ich liebe",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "die ich liebe",
+    "method": "phrase",
+    "resultPattern": "\\bdie ich liebe",
+    "segsMatched": 3,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn42/sn42.11_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn42/sn42.11_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn42/sn42.11_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an8/an8.44_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an8/an8.44_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an8/an8.44_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.193_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.193_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.193_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn42.11/de/sabbamitta",
+      "an8.44/de/sabbamitta",
+      "an4.193/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.44_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an8/an8.44_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an8/an8.44_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an8.44",
+        "lang": "de",
+        "segMap": {
+          "an8.44:2.2": {
+            "scid": "an8.44:2.2",
+            "pli": "“piyā me, bhante, ñātisālohitā aṭṭhaṅgasamannāgataṁ uposathaṁ upavaseyyuṁ, piyānampi me assa ñātisālohitānaṁ dīgharattaṁ hitāya sukhāya. ",
+            "de": "„Wenn die, <span class=\"ebt-matched\">die ich liebe</span>, meine Verwandten und meine Sippe, diesen Besinnungstag mit acht Faktoren einhalten würden, wäre das zu ihrem langanhaltenden Nutzen und Glück. ",
+            "en": "“If my loved ones—relatives and kin—were to observe this sabbath with its eight factors, it would be for their lasting welfare and happiness. ",
+            "matched": true
+          }
+        },
+        "score": 1.063,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 8\n5. Besinnungstag\n44. Mit Vāseṭṭha über den Besinnungstag",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 16,
+          "de": 15,
+          "en": 15
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn42/sn42.11_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn42/sn42.11_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn42/sn42.11_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn42.11",
+        "lang": "de",
+        "segMap": {
+          "sn42.11:2.7": {
+            "scid": "sn42.11:2.7",
+            "pli": "“Yesaṁ me, bhante, uruvelakappiyānaṁ manussānaṁ vadhena vā bandhena vā jāniyā vā garahāya vā uppajjeyyuṁ sokaparidevadukkhadomanassupāyāsā, atthi me tesu chandarāgo. ",
+            "de": "„Die Menschen, bei denen mich das bekümmern würde, sind die, nach denen ich mich sehne und <span class=\"ebt-matched\">die ich liebe</span>. ",
+            "en": "“The people regarding whom this would give rise to sorrow are those I desire and love. ",
+            "matched": true
+          }
+        },
+        "score": 1.018,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 42\n1. Ortsvorsteher\n11. Mit Bhadraka",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 55,
+          "de": 54,
+          "en": 54
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.193_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.193_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.193_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.193",
+        "lang": "de",
+        "segMap": {
+          "an4.193:15.9": {
+            "scid": "an4.193:15.9",
+            "pli": "Piyā me, bhante, ñātisālohitā imāya āvaṭṭaniyā āvaṭṭeyyuṁ, piyānampi me assa ñātisālohitānaṁ dīgharattaṁ hitāya sukhāya. ",
+            "de": "Wenn die, <span class=\"ebt-matched\">die ich liebe</span>, meine Verwandten und meine Sippe, davon bekehrt würden, wäre das zu ihrem langanhaltenden Nutzen und Glück. ",
+            "en": "If my loved ones—relatives and kin—were to be converted by this, it would be for their lasting welfare and happiness. ",
+            "matched": true
+          }
+        },
+        "score": 1.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 4\n20. Das große Kapitel\n193. Mit Bhaddiya",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 93,
+          "de": 92,
+          "en": 92
+        }
+      }
+    ]
+  }
+}
