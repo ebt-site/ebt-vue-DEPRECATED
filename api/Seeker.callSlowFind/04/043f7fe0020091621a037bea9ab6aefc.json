@@ -32,7 +32,7 @@
     "pattern": "mangel an vertrauen",
     "method": "phrase",
     "resultPattern": "\\bmangel an vertrauen",
-    "segsMatched": 22,
+    "segsMatched": 23,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an10/an10.76_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.76_translation-de-sabbamitta.json",
@@ -48,14 +48,18 @@
       "translation/en/sujato/sutta/an/an6/an6.66_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an6/an6.65_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.65_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an6/an6.65_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an6/an6.65_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn1/sn1.36_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn1/sn1.36_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn1/sn1.36_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an10.76/de/sabbamitta",
       "an10.62/de/sabbamitta",
       "an10.61/de/sabbamitta",
       "an6.66/de/sabbamitta",
-      "an6.65/de/sabbamitta"
+      "an6.65/de/sabbamitta",
+      "sn1.36/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -335,6 +339,38 @@
           "pli": 12,
           "de": 11,
           "en": 11
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn1/sn1.36_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn1/sn1.36_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn1/sn1.36_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn1.36",
+        "lang": "de",
+        "segMap": {
+          "sn1.36:2.2": {
+            "scid": "sn1.36:2.2",
+            "pli": "No ce assaddhiyaṁ avatiṭṭhati; ",
+            "de": "Wenn <span class=\"ebt-matched\">Mangel an Vertrauen</span> nicht anhält, ",
+            "en": "If faithlessness doesn’t linger, ",
+            "matched": true
+          }
+        },
+        "score": 1.043,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 1\n4. Die Satullapa-Gruppe\n36. Vertrauen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 23,
+          "de": 23,
+          "en": 23
         }
       }
     ]

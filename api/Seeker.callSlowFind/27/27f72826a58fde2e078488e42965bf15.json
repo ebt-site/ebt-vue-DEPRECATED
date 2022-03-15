@@ -32,8 +32,11 @@
     "pattern": "filz",
     "method": "phrase",
     "resultPattern": "\\bfilz",
-    "segsMatched": 8,
+    "segsMatched": 14,
     "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn1/sn1.23_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn1/sn1.23_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn1/sn1.23_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn23_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn23_translation-en-sujato.json",
@@ -48,12 +51,80 @@
       "translation/en/sujato/sutta/an/an5/an5.294-302_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "sn1.23/de/sabbamitta",
       "dn23/de/sabbamitta",
       "sn3.11/de/sabbamitta",
       "ud6.2/de/sabbamitta",
       "an5.294-302/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn1/sn1.23_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn1/sn1.23_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn1/sn1.23_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn1.23",
+        "lang": "de",
+        "segMap": {
+          "sn1.23:0.3": {
+            "scid": "sn1.23:0.3",
+            "pli": "23. Jaṭāsutta ",
+            "de": "23. <span class=\"ebt-matched\">Filz</span> ",
+            "en": "23. A Tangle ",
+            "matched": true
+          },
+          "sn1.23:1.2": {
+            "scid": "sn1.23:1.2",
+            "pli": "Jaṭāya jaṭitā pajā; ",
+            "de": "diese Menschen sind in <span class=\"ebt-matched\">Filz</span>geflechten verfilzt. ",
+            "en": "these people are tangled in tangles. ",
+            "matched": true
+          },
+          "sn1.23:1.4": {
+            "scid": "sn1.23:1.4",
+            "pli": "Ko imaṁ vijaṭaye jaṭan”ti. ",
+            "de": "Wer kann dieses <span class=\"ebt-matched\">Filz</span>geflecht entflechten?“ ",
+            "en": "Who can untangle this tangle?” ",
+            "matched": true
+          },
+          "sn1.23:2.4": {
+            "scid": "sn1.23:2.4",
+            "pli": "So imaṁ vijaṭaye jaṭaṁ. ",
+            "de": "er kann dieses <span class=\"ebt-matched\">Filz</span>geflecht entflechten. ",
+            "en": "they can untangle this tangle. ",
+            "matched": true
+          },
+          "sn1.23:3.4": {
+            "scid": "sn1.23:3.4",
+            "pli": "tesaṁ vijaṭitā jaṭā. ",
+            "de": "sie haben das <span class=\"ebt-matched\">Filz</span>geflecht entflochten. ",
+            "en": "they have untangled the tangle. ",
+            "matched": true
+          },
+          "sn1.23:4.4": {
+            "scid": "sn1.23:4.4",
+            "pli": "etthesā chijjate jaṭā”ti. ",
+            "de": "dort wird das <span class=\"ebt-matched\">Filz</span>geflecht durchschnitten.“ ",
+            "en": "it’s there that the tangle is cut.”",
+            "matched": true
+          }
+        },
+        "score": 6.316,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 1\n3. Ein Schwert\n23. Filz",
+        "segsMatched": 6,
+        "langSegs": {
+          "pli": 19,
+          "de": 19,
+          "en": 19
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",

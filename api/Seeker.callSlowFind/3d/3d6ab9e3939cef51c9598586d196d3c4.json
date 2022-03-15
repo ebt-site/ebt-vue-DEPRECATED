@@ -32,11 +32,14 @@
     "pattern": "nymphen",
     "method": "phrase",
     "resultPattern": "\\bnymphen",
-    "segsMatched": 15,
+    "segsMatched": 17,
     "bilaraPaths": [
       "root/pli/ms/sutta/kn/ud/vagga3/ud3.2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga3/ud3.2_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/ud/vagga3/ud3.2_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn1/sn1.46_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn1/sn1.46_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn1/sn1.46_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn1/sn1.11_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn1/sn1.11_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.11_translation-en-sujato.json",
@@ -46,6 +49,7 @@
     ],
     "suttaRefs": [
       "ud3.2/de/sabbamitta",
+      "sn1.46/de/sabbamitta",
       "sn1.11/de/sabbamitta",
       "thag20.1/de/sabbamitta"
     ],
@@ -164,6 +168,45 @@
           "pli": 62,
           "de": 58,
           "en": 58
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn1/sn1.46_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn1/sn1.46_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn1/sn1.46_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn1.46",
+        "lang": "de",
+        "segMap": {
+          "sn1.46:0.3": {
+            "scid": "sn1.46:0.3",
+            "pli": "46. Accharāsutta ",
+            "de": "46. <span class=\"ebt-matched\">Nymphen</span> ",
+            "en": "46. Nymphs ",
+            "matched": true
+          },
+          "sn1.46:1.1": {
+            "scid": "sn1.46:1.1",
+            "pli": "“Accharāgaṇasaṅghuṭṭhaṁ, ",
+            "de": "„Von einer Gruppe <span class=\"ebt-matched\">Nymphen</span> hallt er wider, ",
+            "en": "“It’s resounding with a group of nymphs, ",
+            "matched": true
+          }
+        },
+        "score": 2.105,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 1\n5. In Flammen\n46. Nymphen",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 19,
+          "de": 19,
+          "en": 19
         }
       },
       {

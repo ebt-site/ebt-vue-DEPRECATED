@@ -32,14 +32,18 @@
     "pattern": "strudel",
     "method": "phrase",
     "resultPattern": "\\bstrudel",
-    "segsMatched": 6,
+    "segsMatched": 7,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an4/an4.122_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.122_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an4/an4.122_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an4/an4.122_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn1/sn1.44_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn1/sn1.44_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn1/sn1.44_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "an4.122/de/sabbamitta"
+      "an4.122/de/sabbamitta",
+      "sn1.44/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -107,6 +111,38 @@
           "pli": 68,
           "de": 67,
           "en": 67
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn1/sn1.44_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn1/sn1.44_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn1/sn1.44_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn1.44",
+        "lang": "de",
+        "segMap": {
+          "sn1.44:1.1": {
+            "scid": "sn1.44:1.1",
+            "pli": "“Ekamūlaṁ dvirāvaṭṭaṁ, ",
+            "de": "„Eine ist die Wurzel, zwei sind die <span class=\"ebt-matched\">Strudel</span>, ",
+            "en": "“One is the root, two are the whirlpools, ",
+            "matched": true
+          }
+        },
+        "score": 1.143,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 1\n5. In Flammen\n44. Eine Wurzel",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 7,
+          "de": 7,
+          "en": 7
         }
       }
     ]

@@ -32,7 +32,7 @@
     "pattern": "glaube.* an eine persönlichkeit",
     "method": "phrase",
     "resultPattern": "\\bglaube.* an eine persönlichkeit",
-    "segsMatched": 27,
+    "segsMatched": 28,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an10/an10.76_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.76_translation-de-sabbamitta.json",
@@ -46,6 +46,9 @@
       "root/pli/ms/sutta/an/an6/an6.89_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.89_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an6/an6.89_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn1/sn1.21_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn1/sn1.21_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn1/sn1.21_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn2_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn2_translation-en-sujato.json",
@@ -86,6 +89,7 @@
       "mn44/de/sabbamitta",
       "dn33/de/sabbamitta",
       "an6.89/de/sabbamitta",
+      "sn1.21/de/sabbamitta",
       "mn2/de/sabbamitta",
       "thig6.7/de/sabbamitta",
       "snp2.1/de/sabbamitta",
@@ -501,6 +505,38 @@
           "pli": 10,
           "de": 9,
           "en": 9
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn1/sn1.21_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn1/sn1.21_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn1/sn1.21_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn1.21",
+        "lang": "de",
+        "segMap": {
+          "sn1.21:3.4": {
+            "scid": "sn1.21:3.4",
+            "pli": "sato bhikkhu paribbaje”ti. ",
+            "de": "um den <span class=\"ebt-matched\">Glauben an eine Persönlichkeit</span> aufzugeben.“ ",
+            "en": "to give up identity view.”",
+            "matched": true
+          }
+        },
+        "score": 1.077,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 1\n3. Ein Schwert\n21. Ein Schwert",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 13,
+          "de": 13,
+          "en": 13
         }
       },
       {

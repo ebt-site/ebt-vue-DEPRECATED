@@ -32,14 +32,18 @@
     "pattern": "viel leiden und bedrängnis",
     "method": "phrase",
     "resultPattern": "\\bviel leiden und bedrängnis",
-    "segsMatched": 5,
+    "segsMatched": 7,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an5/an5.76_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.76_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an5/an5.76_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an5/an5.76_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn1/sn1.20_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn1/sn1.20_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn1/sn1.20_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "an5.76/de/sabbamitta"
+      "an5.76/de/sabbamitta",
+      "sn1.20/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -100,6 +104,45 @@
           "pli": 138,
           "de": 137,
           "en": 137
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn1/sn1.20_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn1/sn1.20_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn1/sn1.20_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn1.20",
+        "lang": "de",
+        "segMap": {
+          "sn1.20:5.3": {
+            "scid": "sn1.20:5.3",
+            "pli": "Kālikā hi, āvuso, kāmā vuttā bhagavatā bahudukkhā bahupāyāsā; ādīnavo ettha bhiyyo. ",
+            "de": "Denn der Buddha hat gesagt, dass Sinnenfreuden sich mit der Zeit zeigen, mit <span class=\"ebt-matched\">viel Leiden und Bedrängnis</span>, und mehr noch, dass sie viele nachteilige Folgen haben. ",
+            "en": "For the Buddha has said that sensual pleasures take effect over time, with much suffering and distress, and they’re all the more full of drawbacks. ",
+            "matched": true
+          },
+          "sn1.20:6.1": {
+            "scid": "sn1.20:6.1",
+            "pli": "“Kathañca, bhikkhu, kālikā kāmā vuttā bhagavatā bahudukkhā bahupāyāsā, ādīnavo ettha bhiyyo? ",
+            "de": "„Aber inwiefern, Mönch, hat der Buddha gesagt, dass Sinnenfreuden sich mit der Zeit zeigen, mit <span class=\"ebt-matched\">viel Leiden und Bedrängnis</span>, und mehr noch, dass sie viele nachteilige Folgen haben? ",
+            "en": "“But in what way, mendicant, has the Buddha said that sensual pleasures take effect over time, with much suffering and distress, and they’re all the more full of drawbacks? ",
+            "matched": true
+          }
+        },
+        "score": 2.019,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 1\n2. Der Garten des Entzückens\n20. Mit Samiddhi",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 108,
+          "de": 68,
+          "en": 106
         }
       }
     ]

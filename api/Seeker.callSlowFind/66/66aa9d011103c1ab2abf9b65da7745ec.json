@@ -32,18 +32,22 @@
     "pattern": "hölle de[rs]",
     "method": "phrase",
     "resultPattern": "\\bhölle de[rs]",
-    "segsMatched": 11,
+    "segsMatched": 12,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an10/an10.89_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.89_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an10/an10.89_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn3/sn3.20_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn3/sn3.20_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn3/sn3.20_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn3/sn3.20_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn1/sn1.39_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn1/sn1.39_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn1/sn1.39_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an10.89/de/sabbamitta",
-      "sn3.20/de/sabbamitta"
+      "sn3.20/de/sabbamitta",
+      "sn1.39/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -171,6 +175,38 @@
           "pli": 55,
           "de": 47,
           "en": 53
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn1/sn1.39_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn1/sn1.39_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn1/sn1.39_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn1.39",
+        "lang": "de",
+        "segMap": {
+          "sn1.39:4.3": {
+            "scid": "sn1.39:4.3",
+            "pli": "Upenti roruvaṁ ghoraṁ, ",
+            "de": "Sie stürzen in die schreckliche <span class=\"ebt-matched\">Hölle der</span> Schreie, ",
+            "en": "They fall into the terrible Hell of Screams ",
+            "matched": true
+          }
+        },
+        "score": 1.043,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 1\n4. Die Satullapa-Gruppe\n39. Mit Pajjunnas Tochter (1)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 23,
+          "de": 23,
+          "en": 23
         }
       }
     ]

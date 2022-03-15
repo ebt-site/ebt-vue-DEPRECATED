@@ -32,11 +32,14 @@
     "pattern": "kopf in flammen",
     "method": "phrase",
     "resultPattern": "\\bkopf in flammen",
-    "segsMatched": 15,
+    "segsMatched": 17,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn56/sn56.34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn56/sn56.34_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn56/sn56.34_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn1/sn1.21_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn1/sn1.21_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn1/sn1.21_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag20.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag20.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag20.1_translation-en-sujato.json",
@@ -67,6 +70,7 @@
     ],
     "suttaRefs": [
       "sn56.34/de/sabbamitta",
+      "sn1.21/de/sabbamitta",
       "thag20.1/de/sabbamitta",
       "an8.74/de/sabbamitta",
       "an6.20/de/sabbamitta",
@@ -115,6 +119,45 @@
           "pli": 10,
           "de": 9,
           "en": 9
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn1/sn1.21_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn1/sn1.21_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn1/sn1.21_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn1.21",
+        "lang": "de",
+        "segMap": {
+          "sn1.21:2.2": {
+            "scid": "sn1.21:2.2",
+            "pli": "ḍayhamānova matthake; ",
+            "de": "wie wenn sein <span class=\"ebt-matched\">Kopf in Flammen</span> stünde, ",
+            "en": "like their head was on fire, ",
+            "matched": true
+          },
+          "sn1.21:3.2": {
+            "scid": "sn1.21:3.2",
+            "pli": "ḍayhamānova matthake; ",
+            "de": "wie wenn sein <span class=\"ebt-matched\">Kopf in Flammen</span> stünde, ",
+            "en": "like their head was on fire, ",
+            "matched": true
+          }
+        },
+        "score": 2.154,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 1\n3. Ein Schwert\n21. Ein Schwert",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 13,
+          "de": 13,
+          "en": 13
         }
       },
       {
