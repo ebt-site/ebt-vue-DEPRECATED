@@ -1,0 +1,79 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "töten du gutheißt",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "töten du gutheißt",
+    "method": "phrase",
+    "resultPattern": "\\btöten du gutheißt",
+    "segsMatched": 1,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn1/sn1.71_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn1/sn1.71_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn1/sn1.71_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn1.71/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn1/sn1.71_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn1/sn1.71_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn1/sn1.71_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn1.71",
+        "lang": "de",
+        "segMap": {
+          "sn1.71:2.4": {
+            "scid": "sn1.71:2.4",
+            "pli": "vadhaṁ rocesi gotamā”ti. ",
+            "de": "dessen <span class=\"ebt-matched\">Töten du gutheißt</span>?“ ",
+            "en": "whose killing you approve?” ",
+            "matched": true
+          }
+        },
+        "score": 1.067,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 1\n8. Eingeäschert\n71. Eingeäschert",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 15,
+          "de": 15,
+          "en": 15
+        }
+      }
+    ]
+  }
+}

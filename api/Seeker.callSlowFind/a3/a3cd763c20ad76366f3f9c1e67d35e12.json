@@ -1,0 +1,115 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "pfeil des verlangens",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "pfeil des verlangens",
+    "method": "phrase",
+    "resultPattern": "\\bpfeil des verlangens",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn1/sn1.66_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn1/sn1.66_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn1/sn1.66_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn21_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn21_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn21_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn1.66/de/sabbamitta",
+      "dn21/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn1/sn1.66_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn1/sn1.66_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn1/sn1.66_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn1.66",
+        "lang": "de",
+        "segMap": {
+          "sn1.66:2.3": {
+            "scid": "sn1.66:2.3",
+            "pli": "Taṇhāsallena otiṇṇo, ",
+            "de": "Der <span class=\"ebt-matched\">Pfeil des Verlangens</span> hat sie niedergestreckt. ",
+            "en": "The dart of craving has struck it down. ",
+            "matched": true
+          }
+        },
+        "score": 1.091,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 1\n7. Unterdrückt\n66. Geschlagen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 11,
+          "de": 11,
+          "en": 11
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn21_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn21_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn21_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn21",
+        "lang": "de",
+        "segMap": {
+          "dn21:2.9.25": {
+            "scid": "dn21:2.9.25",
+            "pli": "Taṇhāsallassa hantāraṁ, ",
+            "de": "Den <span class=\"ebt-matched\">Pfeil des Verlangens</span> hat er vernichtet: ",
+            "en": "Destroyer of the dart of craving, ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 21\nSakkas Fragen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 515,
+          "de": 477,
+          "en": 514
+        }
+      }
+    ]
+  }
+}
