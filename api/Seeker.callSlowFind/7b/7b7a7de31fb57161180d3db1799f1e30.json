@@ -32,11 +32,14 @@
     "pattern": "kopf in flammen",
     "method": "phrase",
     "resultPattern": "\\bkopf in flammen",
-    "segsMatched": 17,
+    "segsMatched": 20,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn56/sn56.34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn56/sn56.34_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn56/sn56.34_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn2/sn2.16_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn2/sn2.16_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn2/sn2.16_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn1/sn1.21_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn1/sn1.21_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.21_translation-en-sujato.json",
@@ -52,6 +55,9 @@
       "root/pli/ms/sutta/an/an10/an10.55_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.55_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an10/an10.55_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn4/sn4.9_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn4/sn4.9_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn4/sn4.9_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.93_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.93_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.93_translation-en-sujato.json",
@@ -70,11 +76,13 @@
     ],
     "suttaRefs": [
       "sn56.34/de/sabbamitta",
+      "sn2.16/de/sabbamitta",
       "sn1.21/de/sabbamitta",
       "thag20.1/de/sabbamitta",
       "an8.74/de/sabbamitta",
       "an6.20/de/sabbamitta",
       "an10.55/de/sabbamitta",
+      "sn4.9/de/sabbamitta",
       "an4.93/de/sabbamitta",
       "an10.54/de/sabbamitta",
       "an10.53/de/sabbamitta",
@@ -119,6 +127,45 @@
           "pli": 10,
           "de": 9,
           "en": 9
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn2/sn2.16_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn2/sn2.16_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn2/sn2.16_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn2.16",
+        "lang": "de",
+        "segMap": {
+          "sn2.16:2.2": {
+            "scid": "sn2.16:2.2",
+            "pli": "ḍayhamānova matthake; ",
+            "de": "wie wenn sein <span class=\"ebt-matched\">Kopf in Flammen</span> stünde, ",
+            "en": "like their head was on fire, ",
+            "matched": true
+          },
+          "sn2.16:3.2": {
+            "scid": "sn2.16:3.2",
+            "pli": "ḍayhamānova matthake; ",
+            "de": "wie wenn sein <span class=\"ebt-matched\">Kopf in Flammen</span> stünde, ",
+            "en": "like their head was on fire, ",
+            "matched": true
+          }
+        },
+        "score": 2.167,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 2\n2. Mit Anāthapiṇḍika\n16. Mit Vāsudatta",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 12,
+          "de": 12,
+          "en": 12
         }
       },
       {
@@ -410,6 +457,38 @@
           "pli": 23,
           "de": 22,
           "en": 22
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn4/sn4.9_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn4/sn4.9_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn4/sn4.9_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn4.9",
+        "lang": "de",
+        "segMap": {
+          "sn4.9:5.3": {
+            "scid": "sn4.9:5.3",
+            "pli": "Careyyādittasīsova, ",
+            "de": "Sie sollen leben, als stünde ihr <span class=\"ebt-matched\">Kopf in Flammen</span>, ",
+            "en": "They should live as though their head was on fire, ",
+            "matched": true
+          }
+        },
+        "score": 1.043,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 4\n1. Lebensdauer\n9. Lebensdauer (1)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 23,
+          "de": 23,
+          "en": 23
         }
       },
       {

@@ -32,16 +32,59 @@
     "pattern": "mörderisch",
     "method": "phrase",
     "resultPattern": "\\bmörderisch",
-    "segsMatched": 1,
+    "segsMatched": 3,
     "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn4/sn4.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn4/sn4.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn4/sn4.1_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.56_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.56_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an8/an8.56_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "sn4.1/de/sabbamitta",
       "an8.56/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn4/sn4.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn4/sn4.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn4/sn4.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn4.1",
+        "lang": "de",
+        "segMap": {
+          "sn4.1:1.4": {
+            "scid": "sn4.1:1.4",
+            "pli": "“mutto vatamhi tāya dukkarakārikāya. ",
+            "de": "„Ich bin tatsächlich von dieser <span class=\"ebt-matched\">mörderisch</span>en Arbeit befreit! ",
+            "en": "“I am truly freed from that grueling work! ",
+            "matched": true
+          },
+          "sn4.1:1.5": {
+            "scid": "sn4.1:1.5",
+            "pli": "Sādhu mutto vatamhi tāya anatthasaṁhitāya dukkarakārikāya. ",
+            "de": "Zum Glück bin ich von dieser sinnlosen <span class=\"ebt-matched\">mörderisch</span>en Arbeit befreit. ",
+            "en": "Thank goodness I’m freed from that pointless grueling work. ",
+            "matched": true
+          }
+        },
+        "score": 2.083,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 4\n1. Lebensdauer\n1. Bußübung",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 24,
+          "de": 24,
+          "en": 24
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/an/an8/an8.56_root-pli-ms.json",

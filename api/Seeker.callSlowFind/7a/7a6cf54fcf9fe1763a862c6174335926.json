@@ -32,7 +32,7 @@
     "pattern": "flut.* überquer",
     "method": "phrase",
     "resultPattern": "\\bflut.* überquer",
-    "segsMatched": 14,
+    "segsMatched": 16,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn1/sn1.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn1/sn1.1_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/an/an4/an4.196_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.196_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.196_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn2/sn2.15_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn2/sn2.15_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn2/sn2.15_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn1/sn1.5_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn1/sn1.5_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.5_translation-en-sujato.json",
@@ -53,6 +56,7 @@
     "suttaRefs": [
       "sn1.1/de/sabbamitta",
       "an4.196/de/sabbamitta",
+      "sn2.15/de/sabbamitta",
       "sn1.5/de/sabbamitta",
       "dn21/de/sabbamitta",
       "dn20/de/sabbamitta"
@@ -215,6 +219,45 @@
           "pli": 13,
           "de": 13,
           "en": 13
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn2/sn2.15_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn2/sn2.15_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn2/sn2.15_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn2.15",
+        "lang": "de",
+        "segMap": {
+          "sn2.15:2.1": {
+            "scid": "sn2.15:2.1",
+            "pli": "“Kathaṁsu tarati oghaṁ, ",
+            "de": "„Wer hat hier die <span class=\"ebt-matched\">Flut überquer</span>t, ",
+            "en": "“Who here crosses the flood, ",
+            "matched": true
+          },
+          "sn2.15:3.4": {
+            "scid": "sn2.15:3.4",
+            "pli": "Oghaṁ tarati duttaraṁ. ",
+            "de": "der überquert die <span class=\"ebt-matched\">Flut, die so schwer zu überquer</span>en ist. ",
+            "en": "crosses the flood so hard to cross. ",
+            "matched": true
+          }
+        },
+        "score": 2.125,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 2\n2. Mit Anāthapiṇḍika\n15. Mit Candana",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 16,
+          "de": 16,
+          "en": 16
         }
       },
       {

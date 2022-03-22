@@ -32,7 +32,7 @@
     "pattern": "überquer",
     "method": "phrase",
     "resultPattern": "\\büberquer",
-    "segsMatched": 38,
+    "segsMatched": 42,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an4/an4.196_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.196_translation-de-sabbamitta.json",
@@ -46,6 +46,9 @@
       "root/pli/ms/sutta/sn/sn1/sn1.50_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn1/sn1.50_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.50_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn2/sn2.15_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn2/sn2.15_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn2/sn2.15_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn1/sn1.5_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn1/sn1.5_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.5_translation-en-sujato.json",
@@ -55,6 +58,12 @@
       "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn4/sn4.12_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn4/sn4.12_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn4/sn4.12_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn2/sn2.18_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn2/sn2.18_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn2/sn2.18_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn1/sn1.44_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn1/sn1.44_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.44_translation-en-sujato.json",
@@ -95,9 +104,12 @@
       "sn1.1/de/sabbamitta",
       "sn2.24/de/sabbamitta",
       "sn1.50/de/sabbamitta",
+      "sn2.15/de/sabbamitta",
       "sn1.5/de/sabbamitta",
       "ud8.6/de/sabbamitta",
       "dn16/de/sabbamitta",
+      "sn4.12/de/sabbamitta",
+      "sn2.18/de/sabbamitta",
       "sn1.44/de/sabbamitta",
       "sn1.35/de/sabbamitta",
       "sn1.33/de/sabbamitta",
@@ -304,7 +316,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Verbundene Lehrreden 2\n3. Anhänger verschiedener Sekten\n24. Mit Ghaṭīkāra",
+        "title": "Verbundene Lehrreden 2\n3. Verschiedene Andersgläubige\n24. Mit Ghaṭīkāra",
         "segsMatched": 3,
         "langSegs": {
           "pli": 60,
@@ -395,6 +407,45 @@
           "pli": 13,
           "de": 13,
           "en": 13
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn2/sn2.15_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn2/sn2.15_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn2/sn2.15_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn2.15",
+        "lang": "de",
+        "segMap": {
+          "sn2.15:2.1": {
+            "scid": "sn2.15:2.1",
+            "pli": "“Kathaṁsu tarati oghaṁ, ",
+            "de": "„Wer hat hier die Flut <span class=\"ebt-matched\">überquer</span>t, ",
+            "en": "“Who here crosses the flood, ",
+            "matched": true
+          },
+          "sn2.15:3.4": {
+            "scid": "sn2.15:3.4",
+            "pli": "Oghaṁ tarati duttaraṁ. ",
+            "de": "der <span class=\"ebt-matched\">überquer</span>t die Flut, die so schwer zu <span class=\"ebt-matched\">überquer</span>en ist. ",
+            "en": "crosses the flood so hard to cross. ",
+            "matched": true
+          }
+        },
+        "score": 2.125,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 2\n2. Mit Anāthapiṇḍika\n15. Mit Candana",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 16,
+          "de": 16,
+          "en": 16
         }
       },
       {
@@ -542,6 +593,38 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn4/sn4.12_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn4/sn4.12_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn4/sn4.12_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn4.12",
+        "lang": "de",
+        "segMap": {
+          "sn4.12:4.4": {
+            "scid": "sn4.12:4.4",
+            "pli": "tiṇṇā loke visattikan”ti. ",
+            "de": "hat das Klammern an der Welt <span class=\"ebt-matched\">überquer</span>t.“ ",
+            "en": "has crossed over clinging to the world.” ",
+            "matched": true
+          }
+        },
+        "score": 1.056,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 4\n2. Herrschaft\n12. Löwe",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 18,
+          "de": 18,
+          "en": 18
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an3/an3.32_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/an/an3/an3.32_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/an/an3/an3.32_translation-en-sujato.json"
@@ -570,6 +653,38 @@
           "pli": 20,
           "de": 19,
           "en": 19
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn2/sn2.18_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn2/sn2.18_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn2/sn2.18_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn2.18",
+        "lang": "de",
+        "segMap": {
+          "sn2.18:6.4": {
+            "scid": "sn2.18:6.4",
+            "pli": "tiṇṇaṁ loke visattikan”ti. ",
+            "de": "er hat das Klammern an der Welt <span class=\"ebt-matched\">überquer</span>t.“ ",
+            "en": "he has crossed over clinging to the world.”",
+            "matched": true
+          }
+        },
+        "score": 1.031,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 2\n2. Mit Anāthapiṇḍika\n18. Mit Kakudha",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 32,
+          "de": 32,
+          "en": 32
         }
       },
       {

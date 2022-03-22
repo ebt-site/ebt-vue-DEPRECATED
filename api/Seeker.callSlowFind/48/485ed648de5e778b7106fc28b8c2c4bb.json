@@ -32,14 +32,18 @@
     "pattern": "nicht zwei auf einer straße",
     "method": "phrase",
     "resultPattern": "\\bnicht zwei auf einer straße",
-    "segsMatched": 2,
+    "segsMatched": 3,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn14_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json"
+      "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn4/sn4.5_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn4/sn4.5_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn4/sn4.5_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "dn14/de/sabbamitta"
+      "dn14/de/sabbamitta",
+      "sn4.5/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -79,6 +83,38 @@
           "pli": 851,
           "de": 689,
           "en": 850
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn4/sn4.5_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn4/sn4.5_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn4/sn4.5_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn4.5",
+        "lang": "de",
+        "segMap": {
+          "sn4.5:2.4": {
+            "scid": "sn4.5:2.4",
+            "pli": "Mā ekena dve agamittha. ",
+            "de": "Es sollen <span class=\"ebt-matched\">nicht zwei auf einer Straße</span> gehen. ",
+            "en": "Let not two go by one road. ",
+            "matched": true
+          }
+        },
+        "score": 1.038,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 4\n1. Lebensdauer\n5. Māras Schlingen (2)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 26,
+          "de": 26,
+          "en": 26
         }
       }
     ]

@@ -32,18 +32,22 @@
     "pattern": "ekel vor sünde",
     "method": "phrase",
     "resultPattern": "\\bekel vor sünde",
-    "segsMatched": 27,
+    "segsMatched": 29,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn25_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn25_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn25_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.196_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.196_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an4/an4.196_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an4/an4.196_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn2/sn2.30_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn2/sn2.30_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn2/sn2.30_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "dn25/de/sabbamitta",
-      "an4.196/de/sabbamitta"
+      "an4.196/de/sabbamitta",
+      "sn2.30/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -283,6 +287,45 @@
           "pli": 71,
           "de": 70,
           "en": 70
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn2/sn2.30_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn2/sn2.30_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn2/sn2.30_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn2.30",
+        "lang": "de",
+        "segMap": {
+          "sn2.30:4.1": {
+            "scid": "sn2.30:4.1",
+            "pli": "“Tapojigucchāya susaṁvutatto, ",
+            "de": "„Durch Bußübung aus <span class=\"ebt-matched\">Ekel vor Sünde</span> wurde er gut gezügelt. ",
+            "en": "“Through mortification in disgust of sin he became well restrained. ",
+            "matched": true
+          },
+          "sn2.30:12.1": {
+            "scid": "sn2.30:12.1",
+            "pli": "“Tapojigucchāya āyuttā, ",
+            "de": "„Die sich der Bußübung aus <span class=\"ebt-matched\">Ekel vor Sünde</span> weihen, ",
+            "en": "“Those dedicated to mortification in disgust of sin, ",
+            "matched": true
+          }
+        },
+        "score": 2.033,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 2\n3. Verschiedene Andersgläubige\n30. Die Schüler verschiedener Andersgläubiger",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 61,
+          "de": 55,
+          "en": 60
         }
       }
     ]

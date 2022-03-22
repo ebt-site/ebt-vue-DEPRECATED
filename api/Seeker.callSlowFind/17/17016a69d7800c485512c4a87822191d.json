@@ -32,11 +32,14 @@
     "pattern": "genügsam",
     "method": "phrase",
     "resultPattern": "\\bgenügsam",
-    "segsMatched": 49,
+    "segsMatched": 53,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an8/an8.30_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.30_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an8/an8.30_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn2/sn2.29_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn2/sn2.29_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn2/sn2.29_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn28_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn28_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn28_translation-en-sujato.json",
@@ -130,6 +133,7 @@
     ],
     "suttaRefs": [
       "an8.30/de/sabbamitta",
+      "sn2.29/de/sabbamitta",
       "dn28/de/sabbamitta",
       "an5.190/de/sabbamitta",
       "an5.181/de/sabbamitta",
@@ -227,6 +231,59 @@
           "pli": 119,
           "de": 112,
           "en": 117
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn2/sn2.29_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn2/sn2.29_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn2/sn2.29_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn2.29",
+        "lang": "de",
+        "segMap": {
+          "sn2.29:2.9": {
+            "scid": "sn2.29:2.9",
+            "pli": "Appiccho, bhante, āyasmā sāriputto. ",
+            "de": "Er ist <span class=\"ebt-matched\">genügsam</span>, ",
+            "en": "He has few wishes, ",
+            "matched": true
+          },
+          "sn2.29:3.10": {
+            "scid": "sn2.29:3.10",
+            "pli": "Appiccho, ānanda, sāriputto. ",
+            "de": "Er ist <span class=\"ebt-matched\">genügsam</span>, ",
+            "en": " ",
+            "matched": true
+          },
+          "sn2.29:13.3": {
+            "scid": "sn2.29:13.3",
+            "pli": "Appiccho sorato danto, ",
+            "de": "<span class=\"ebt-matched\">Genügsam</span>, sanft, gezähmt – ",
+            "en": "Few in wishes, sweet, tamed, ",
+            "matched": true
+          },
+          "sn2.29:15.3": {
+            "scid": "sn2.29:15.3",
+            "pli": "Appiccho sorato danto, ",
+            "de": "<span class=\"ebt-matched\">Genügsam</span>, sanft, gezähmt – ",
+            "en": "Few in wishes, sweet, tamed; ",
+            "matched": true
+          }
+        },
+        "score": 4.056,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 2\n3. Verschiedene Andersgläubige\n29. Mit Susīma",
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 72,
+          "de": 67,
+          "en": 72
         }
       },
       {

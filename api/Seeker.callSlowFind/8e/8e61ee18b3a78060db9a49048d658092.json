@@ -32,13 +32,17 @@
     "pattern": "süße spitze",
     "method": "phrase",
     "resultPattern": "\\bsüße spitze",
-    "segsMatched": 1,
+    "segsMatched": 2,
     "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn2/sn2.3_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn2/sn2.3_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn2/sn2.3_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn1/sn1.71_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn1/sn1.71_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.71_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "sn2.3/de/sabbamitta",
       "sn1.71/de/sabbamitta"
     ],
     "mlDocs": [
@@ -57,7 +61,7 @@
           "sn1.71:3.4": {
             "scid": "sn1.71:3.4",
             "pli": "madhuraggassa devate; ",
-            "de": "und eine <span class=\"ebt-matched\">süße Spitze</span>. ",
+            "de": "und eine <span class=\"ebt-matched\">süße Spitze</span>, Gottheit. ",
             "en": "and a honey tip. ",
             "matched": true
           }
@@ -72,6 +76,38 @@
           "pli": 15,
           "de": 15,
           "en": 15
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn2/sn2.3_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn2/sn2.3_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn2/sn2.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn2.3",
+        "lang": "de",
+        "segMap": {
+          "sn2.3:3.4": {
+            "scid": "sn2.3:3.4",
+            "pli": "madhuraggassa vatrabhū; ",
+            "de": "und eine <span class=\"ebt-matched\">süße Spitze</span>, Vatrabhū. ",
+            "en": "and a honey tip. ",
+            "matched": true
+          }
+        },
+        "score": 1.063,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 2\nErstes Kapitel\n3. Mit Māgha",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 16,
+          "de": 16,
+          "en": 16
         }
       }
     ]

@@ -32,7 +32,7 @@
     "pattern": "glaube.* an eine persönlichkeit",
     "method": "phrase",
     "resultPattern": "\\bglaube.* an eine persönlichkeit",
-    "segsMatched": 28,
+    "segsMatched": 29,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an10/an10.76_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.76_translation-de-sabbamitta.json",
@@ -46,6 +46,9 @@
       "root/pli/ms/sutta/an/an6/an6.89_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.89_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an6/an6.89_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn2/sn2.16_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn2/sn2.16_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn2/sn2.16_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn1/sn1.21_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn1/sn1.21_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.21_translation-en-sujato.json",
@@ -89,6 +92,7 @@
       "mn44/de/sabbamitta",
       "dn33/de/sabbamitta",
       "an6.89/de/sabbamitta",
+      "sn2.16/de/sabbamitta",
       "sn1.21/de/sabbamitta",
       "mn2/de/sabbamitta",
       "thig6.7/de/sabbamitta",
@@ -505,6 +509,38 @@
           "pli": 10,
           "de": 9,
           "en": 9
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn2/sn2.16_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn2/sn2.16_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn2/sn2.16_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn2.16",
+        "lang": "de",
+        "segMap": {
+          "sn2.16:3.4": {
+            "scid": "sn2.16:3.4",
+            "pli": "sato bhikkhu paribbaje”ti. ",
+            "de": "um den <span class=\"ebt-matched\">Glauben an eine Persönlichkeit</span> aufzugeben.“ ",
+            "en": "to give up identity view.”",
+            "matched": true
+          }
+        },
+        "score": 1.083,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 2\n2. Mit Anāthapiṇḍika\n16. Mit Vāsudatta",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 12,
+          "de": 12,
+          "en": 12
         }
       },
       {

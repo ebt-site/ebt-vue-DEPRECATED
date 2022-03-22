@@ -32,17 +32,21 @@
     "pattern": "bevorzugen und zurückweisen",
     "method": "phrase",
     "resultPattern": "\\bbevorzugen und zurückweisen",
-    "segsMatched": 4,
+    "segsMatched": 6,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an8/an8.6_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.6_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an8/an8.6_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn4/sn4.14_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn4/sn4.14_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn4/sn4.14_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.5_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.5_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an8/an8.5_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an8.6/de/sabbamitta",
+      "sn4.14/de/sabbamitta",
       "an8.5/de/sabbamitta"
     ],
     "mlDocs": [
@@ -90,6 +94,45 @@
           "pli": 70,
           "de": 69,
           "en": 69
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn4/sn4.14_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn4/sn4.14_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn4/sn4.14_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn4.14",
+        "lang": "de",
+        "segMap": {
+          "sn4.14:3.4": {
+            "scid": "sn4.14:3.4",
+            "pli": "mā sajjittho tadācaran”ti. ",
+            "de": "in <span class=\"ebt-matched\">Bevorzugen und Zurückweisen</span> verstrickst.“ ",
+            "en": "don’t get caught up in favoring and opposing.” ",
+            "matched": true
+          },
+          "sn4.14:4.4": {
+            "scid": "sn4.14:4.4",
+            "pli": "vippamutto tathāgato”ti. ",
+            "de": "von <span class=\"ebt-matched\">Bevorzugen und Zurückweisen</span>.“ ",
+            "en": "from favoring and opposing.” ",
+            "matched": true
+          }
+        },
+        "score": 2.111,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 4\n2. Herrschaft\n14. Angebracht",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 18,
+          "de": 18,
+          "en": 18
         }
       },
       {

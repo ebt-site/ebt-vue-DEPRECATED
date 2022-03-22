@@ -32,18 +32,22 @@
     "pattern": "wenig sand in den augen",
     "method": "phrase",
     "resultPattern": "\\bwenig sand in den augen",
-    "segsMatched": 9,
+    "segsMatched": 10,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn14_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn6/sn6.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn6/sn6.1_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn6/sn6.1_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn6/sn6.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn4/sn4.5_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn4/sn4.5_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn4/sn4.5_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "dn14/de/sabbamitta",
-      "sn6.1/de/sabbamitta"
+      "sn6.1/de/sabbamitta",
+      "sn4.5/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -157,6 +161,38 @@
           "pli": 53,
           "de": 53,
           "en": 53
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn4/sn4.5_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn4/sn4.5_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn4/sn4.5_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn4.5",
+        "lang": "de",
+        "segMap": {
+          "sn4.5:2.6": {
+            "scid": "sn4.5:2.6",
+            "pli": "Santi sattā apparajakkhajātikā, assavanatā dhammassa parihāyanti. ",
+            "de": "Es gibt Wesen, die <span class=\"ebt-matched\">wenig Sand in den Augen</span> haben. Sie werden verkümmern, weil sie die Lehre nicht gehört haben. ",
+            "en": "There are beings with little dust in their eyes. They’re in decline because they haven’t heard the teaching. ",
+            "matched": true
+          }
+        },
+        "score": 1.038,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 4\n1. Lebensdauer\n5. Māras Schlingen (2)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 26,
+          "de": 26,
+          "en": 26
         }
       }
     ]

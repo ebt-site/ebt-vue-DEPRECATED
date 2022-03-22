@@ -32,8 +32,11 @@
     "pattern": "über das leiden hinaus",
     "method": "phrase",
     "resultPattern": "\\büber das leiden hinaus",
-    "segsMatched": 4,
+    "segsMatched": 6,
     "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn2/sn2.14_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn2/sn2.14_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn2/sn2.14_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn14_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json",
@@ -46,11 +49,51 @@
       "translation/en/sujato/sutta/an/an3/an3.74_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "sn2.14/de/sabbamitta",
       "dn14/de/sabbamitta",
       "thig13.4/de/sabbamitta",
       "an3.74/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn2/sn2.14_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn2/sn2.14_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn2/sn2.14_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn2.14",
+        "lang": "de",
+        "segMap": {
+          "sn2.14:2.5": {
+            "scid": "sn2.14:2.5",
+            "pli": "Kathaṁvidho dukkhamaticca iriyati, ",
+            "de": "Was für ein Mensch lebt weiter, nachdem er <span class=\"ebt-matched\">über das Leiden hinaus</span>gegangen ist? ",
+            "en": "What kind of person lives on after transcending suffering? ",
+            "matched": true
+          },
+          "sn2.14:4.3": {
+            "scid": "sn2.14:4.3",
+            "pli": "Tathāvidho dukkhamaticca iriyati, ",
+            "de": "Ein solcher Mensch lebt weiter, nachdem er <span class=\"ebt-matched\">über das Leiden hinaus</span>gegangen ist. ",
+            "en": "That kind of person lives on after transcending suffering. ",
+            "matched": true
+          }
+        },
+        "score": 2.111,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 2\n2. Mit Anāthapiṇḍika\n14. Mit Nandana",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 18,
+          "de": 18,
+          "en": 18
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
