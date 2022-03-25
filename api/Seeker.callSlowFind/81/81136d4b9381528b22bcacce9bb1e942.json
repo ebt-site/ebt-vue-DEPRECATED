@@ -1,0 +1,79 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "besorgnis",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "besorgnis",
+    "method": "phrase",
+    "resultPattern": "\\bbesorgnis",
+    "segsMatched": 1,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn2/sn2.17_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn2/sn2.17_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn2/sn2.17_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn2.17/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn2/sn2.17_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn2/sn2.17_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn2/sn2.17_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn2.17",
+        "lang": "de",
+        "segMap": {
+          "sn2.17:2.5": {
+            "scid": "sn2.17:2.5",
+            "pli": "Sace atthi anutrastaṁ, ",
+            "de": "Wenn es einen Zustand ohne <span class=\"ebt-matched\">Besorgnis</span> gibt, ",
+            "en": "If there is a state free of anxiety, ",
+            "matched": true
+          }
+        },
+        "score": 1.063,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 2\n2. Mit Anāthapiṇḍika\n17. Mit Subrahmā",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 16,
+          "de": 16,
+          "en": 16
+        }
+      }
+    ]
+  }
+}

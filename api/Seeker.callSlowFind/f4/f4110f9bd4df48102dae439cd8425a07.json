@@ -3,7 +3,7 @@
   "volume": "Seeker.callSlowFind",
   "args": [
     {
-      "pattern": "heed attention wholeheartedly",
+      "pattern": "wholeheartedly",
       "showMatchesOnly": true,
       "languages": [
         "pli",
@@ -28,67 +28,76 @@
     "minLang": 2,
     "maxDoc": 50,
     "maxResults": 1000,
-    "pattern": "heed attention wholeheartedly",
-    "method": "keywords",
-    "resultPattern": "\\bheed|\\battention|\\bwholeheartedly",
-    "segsMatched": 25,
+    "pattern": "wholeheartedly",
+    "method": "phrase",
+    "resultPattern": "\\bwholeheartedly",
+    "segsMatched": 29,
     "bilaraPaths": [
-      "root/pli/ms/sutta/an/an4/an4.114_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an4/an4.114_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an5/an5.140_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an5/an5.140_translation-en-sujato.json",
-      "root/pli/ms/sutta/sn/sn4/sn4.16_root-pli-ms.json",
-      "translation/en/sujato/sutta/sn/sn4/sn4.16_translation-en-sujato.json",
-      "root/pli/ms/sutta/sn/sn4/sn4.17_root-pli-ms.json",
-      "translation/en/sujato/sutta/sn/sn4/sn4.17_translation-en-sujato.json",
-      "root/pli/ms/sutta/sn/sn46/sn46.38_root-pli-ms.json",
-      "translation/en/sujato/sutta/sn/sn46/sn46.38_translation-en-sujato.json",
-      "root/pli/ms/sutta/sn/sn8/sn8.6_root-pli-ms.json",
-      "translation/en/sujato/sutta/sn/sn8/sn8.6_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn8/sn8.8_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn8/sn8.8_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn18_root-pli-ms.json",
-      "translation/en/sujato/sutta/dn/dn18_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/ud/vagga8/ud8.1_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/ud/vagga8/ud8.1_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/ud/vagga8/ud8.2_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/ud/vagga8/ud8.2_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/ud/vagga8/ud8.3_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/ud/vagga8/ud8.3_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/ud/vagga8/ud8.4_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/ud/vagga8/ud8.4_translation-en-sujato.json",
-      "root/pli/ms/sutta/mn/mn134_root-pli-ms.json",
-      "translation/en/sujato/sutta/mn/mn134_translation-en-sujato.json",
-      "root/pli/ms/sutta/mn/mn48_root-pli-ms.json",
-      "translation/en/sujato/sutta/mn/mn48_translation-en-sujato.json",
-      "root/pli/ms/sutta/mn/mn65_root-pli-ms.json",
-      "translation/en/sujato/sutta/mn/mn65_translation-en-sujato.json",
-      "root/pli/ms/sutta/sn/sn10/sn10.7_root-pli-ms.json",
-      "translation/en/sujato/sutta/sn/sn10/sn10.7_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn8/sn8.6_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn8/sn8.6_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn4/sn4.17_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn4/sn4.17_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn4/sn4.16_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn4/sn4.16_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn46/sn46.38_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn46/sn46.38_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an8/an8.9_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an8/an8.9_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.140_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an5/an5.140_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.114_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an4/an4.114_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn4/sn4.19_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn4/sn4.19_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn16/sn16.11_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn16/sn16.11_translation-en-sujato.json",
-      "root/pli/ms/sutta/sn/sn4/sn4.19_root-pli-ms.json",
-      "translation/en/sujato/sutta/sn/sn4/sn4.19_translation-en-sujato.json"
+      "root/pli/ms/sutta/sn/sn10/sn10.7_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn10/sn10.7_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn65_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn65_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn48_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn48_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn134_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn134_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga8/ud8.4_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/ud/vagga8/ud8.4_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga8/ud8.3_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/ud/vagga8/ud8.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga8/ud8.2_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/ud/vagga8/ud8.2_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga8/ud8.1_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/ud/vagga8/ud8.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag1.1_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/thag/thag1.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn18_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn18_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an6/an6.62_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an6/an6.62_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "an4.114/en/sujato",
-      "an5.140/en/sujato",
-      "sn4.16/en/sujato",
-      "sn4.17/en/sujato",
-      "sn46.38/en/sujato",
-      "sn8.6/en/sujato",
       "sn8.8/en/sujato",
-      "dn18/en/sujato",
-      "ud8.1/en/sujato",
-      "ud8.2/en/sujato",
-      "ud8.3/en/sujato",
-      "ud8.4/en/sujato",
-      "mn134/en/sujato",
-      "mn48/en/sujato",
-      "mn65/en/sujato",
-      "sn10.7/en/sujato",
+      "sn8.6/en/sujato",
+      "sn4.17/en/sujato",
+      "sn4.16/en/sujato",
+      "sn46.38/en/sujato",
+      "an8.9/en/sujato",
+      "an5.140/en/sujato",
+      "an4.114/en/sujato",
+      "sn4.19/en/sujato",
       "sn16.11/en/sujato",
-      "sn4.19/en/sujato"
+      "sn10.7/en/sujato",
+      "mn65/en/sujato",
+      "mn48/en/sujato",
+      "mn134/en/sujato",
+      "ud8.4/en/sujato",
+      "ud8.3/en/sujato",
+      "ud8.2/en/sujato",
+      "ud8.1/en/sujato",
+      "thag1.1/en/sujato",
+      "dn18/en/sujato",
+      "an6.62/en/sujato"
     ],
     "mlDocs": [
       {
@@ -105,13 +114,13 @@
           "sn46.38:1.1": {
             "scid": "sn46.38:1.1",
             "pli": "Yasmiṁ, bhikkhave, samaye ariyasāvako aṭṭhiṁ katvā manasi katvā sabbaṁ cetaso samannāharitvā ohitasoto dhammaṁ suṇāti, imassa pañca nīvaraṇā tasmiṁ samaye na honti. Satta bojjhaṅgā tasmiṁ samaye bhāvanāpāripūriṁ gacchanti. ",
-            "en": "Mendicants, sometimes a mendicant pays <span class=\"ebt-matched\">heed</span>, pays <span class=\"ebt-matched\">attention</span>, engages <span class=\"ebt-matched\">wholeheartedly</span>, and lends an ear to the teaching. At such a time the five hindrances are absent, and the seven awakening factors are fully developed. ",
+            "en": "Mendicants, sometimes a mendicant pays heed, pays attention, engages <span class=\"ebt-matched\">wholeheartedly</span>, and lends an ear to the teaching. At such a time the five hindrances are absent, and the seven awakening factors are fully developed. ",
             "matched": true
           },
           "sn46.38:3.4": {
             "scid": "sn46.38:3.4",
             "pli": "Yasmiṁ, bhikkhave, samaye ariyasāvako aṭṭhiṁ katvā manasi katvā sabbaṁ cetaso samannāharitvā ohitasoto dhammaṁ suṇāti, imassa pañca nīvaraṇā tasmiṁ samaye na honti. Ime satta bojjhaṅgā tasmiṁ samaye bhāvanāpāripūriṁ gacchantī”ti. ",
-            "en": "Sometimes a mendicant pays <span class=\"ebt-matched\">heed</span>, pays <span class=\"ebt-matched\">attention</span>, engages <span class=\"ebt-matched\">wholeheartedly</span>, and lends an ear to the teaching. At such a time the five hindrances are absent, and the seven awakening factors are fully developed.” ",
+            "en": "Sometimes a mendicant pays heed, pays attention, engages <span class=\"ebt-matched\">wholeheartedly</span>, and lends an ear to the teaching. At such a time the five hindrances are absent, and the seven awakening factors are fully developed.” ",
             "matched": true
           }
         },
@@ -140,13 +149,13 @@
           "sn4.17:1.3": {
             "scid": "sn4.17:1.3",
             "pli": "Te ca bhikkhū aṭṭhiṁ katvā manasi katvā sabbacetasā samannāharitvā ohitasotā dhammaṁ suṇanti. ",
-            "en": "And those mendicants were paying <span class=\"ebt-matched\">heed</span>, paying <span class=\"ebt-matched\">attention</span>, engaging <span class=\"ebt-matched\">wholeheartedly</span>, and lending an ear. ",
+            "en": "And those mendicants were paying heed, paying attention, engaging <span class=\"ebt-matched\">wholeheartedly</span>, and lending an ear. ",
             "matched": true
           },
           "sn4.17:2.3": {
             "scid": "sn4.17:2.3",
             "pli": "Te ca bhikkhū aṭṭhiṁ katvā manasi katvā sabbacetasā samannāharitvā ohitasotā dhammaṁ suṇanti. ",
-            "en": "And those mendicants are paying <span class=\"ebt-matched\">heed</span>, paying <span class=\"ebt-matched\">attention</span>, engaging <span class=\"ebt-matched\">wholeheartedly</span>, and lending an ear. ",
+            "en": "And those mendicants are paying heed, paying attention, engaging <span class=\"ebt-matched\">wholeheartedly</span>, and lending an ear. ",
             "matched": true
           }
         },
@@ -175,13 +184,13 @@
           "sn4.16:1.3": {
             "scid": "sn4.16:1.3",
             "pli": "Te ca bhikkhū aṭṭhiṁ katvā manasi katvā sabbacetasā samannāharitvā ohitasotā dhammaṁ suṇanti. ",
-            "en": "And those mendicants were paying <span class=\"ebt-matched\">heed</span>, paying <span class=\"ebt-matched\">attention</span>, engaging <span class=\"ebt-matched\">wholeheartedly</span>, and lending an ear. ",
+            "en": "And those mendicants were paying heed, paying attention, engaging <span class=\"ebt-matched\">wholeheartedly</span>, and lending an ear. ",
             "matched": true
           },
           "sn4.16:2.3": {
             "scid": "sn4.16:2.3",
             "pli": "Te ca bhikkhū aṭṭhiṁ katvā manasi katvā sabbacetasā samannāharitvā ohitasotā dhammaṁ suṇanti. ",
-            "en": "And the mendicants are paying <span class=\"ebt-matched\">heed</span>, paying <span class=\"ebt-matched\">attention</span>, engaging <span class=\"ebt-matched\">wholeheartedly</span>, and lending an ear. ",
+            "en": "And the mendicants are paying heed, paying attention, engaging <span class=\"ebt-matched\">wholeheartedly</span>, and lending an ear. ",
             "matched": true
           }
         },
@@ -210,13 +219,13 @@
           "sn8.6:1.3": {
             "scid": "sn8.6:1.3",
             "pli": "Te ca bhikkhū aṭṭhiṁ katvā manasi katvā sabbacetasā samannāharitvā ohitasotā dhammaṁ suṇanti. ",
-            "en": "And those mendicants were paying <span class=\"ebt-matched\">heed</span>, paying <span class=\"ebt-matched\">attention</span>, engaging <span class=\"ebt-matched\">wholeheartedly</span>, and lending an ear. ",
+            "en": "And those mendicants were paying heed, paying attention, engaging <span class=\"ebt-matched\">wholeheartedly</span>, and lending an ear. ",
             "matched": true
           },
           "sn8.6:1.6": {
             "scid": "sn8.6:1.6",
             "pli": "Te ca bhikkhū aṭṭhiṁ katvā manasi katvā sabbacetasā samannāharitvā ohitasotā dhammaṁ suṇanti. ",
-            "en": "And those mendicants are paying <span class=\"ebt-matched\">heed</span>, paying <span class=\"ebt-matched\">attention</span>, engaging <span class=\"ebt-matched\">wholeheartedly</span>, and lending an ear. ",
+            "en": "And those mendicants are paying heed, paying attention, engaging <span class=\"ebt-matched\">wholeheartedly</span>, and lending an ear. ",
             "matched": true
           }
         },
@@ -233,6 +242,41 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.9_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an8/an8.9_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an8.9",
+        "lang": "en",
+        "segMap": {
+          "an8.9:1.7": {
+            "scid": "an8.9:1.7",
+            "pli": "Sace, bhikkhave, nandassa puratthimā disā āloketabbā hoti, sabbaṁ cetasā samannāharitvā nando puratthimaṁ disaṁ āloketi: ",
+            "en": "If he has to look to the east, he <span class=\"ebt-matched\">wholeheartedly</span> concentrates before looking, thinking: ",
+            "matched": true
+          },
+          "an8.9:2.6": {
+            "scid": "an8.9:2.6",
+            "pli": "anudisā anuviloketabbā hoti, sabbaṁ cetasā samannāharitvā nando anudisaṁ anuviloketi: ",
+            "en": "If he has to survey the intermediate directions, he <span class=\"ebt-matched\">wholeheartedly</span> concentrates before looking, thinking: ",
+            "matched": true
+          }
+        },
+        "score": 2.053,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 8\n1. Love\n9. Nanda",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 38,
+          "en": 37
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an4/an4.114_root-pli-ms.json",
           "translation/en/sujato/sutta/an/an4/an4.114_translation-en-sujato.json"
         ],
@@ -245,13 +289,13 @@
           "an4.114:2.2": {
             "scid": "an4.114:2.2",
             "pli": "Idha, bhikkhave, rañño nāgo yamenaṁ hatthidammasārathi kāraṇaṁ kāreti—",
-            "en": "It’s when a royal bull elephant pays <span class=\"ebt-matched\">heed</span>, pays <span class=\"ebt-matched\">attention</span>, engages <span class=\"ebt-matched\">wholeheartedly</span>, and lends an ear to whatever task the elephant trainer has it do, ",
+            "en": "It’s when a royal bull elephant pays heed, pays attention, engages <span class=\"ebt-matched\">wholeheartedly</span>, and lends an ear to whatever task the elephant trainer has it do, ",
             "matched": true
           },
           "an4.114:7.2": {
             "scid": "an4.114:7.2",
             "pli": "Idha, bhikkhave, bhikkhu tathāgatappavedite dhammavinaye desiyamāne aṭṭhiṁ katvā manasi katvā sabbacetasā samannāharitvā ohitasoto dhammaṁ suṇāti. ",
-            "en": "It’s when a mendicant pays <span class=\"ebt-matched\">heed</span>, pays <span class=\"ebt-matched\">attention</span>, engages <span class=\"ebt-matched\">wholeheartedly</span>, and lends an ear when the teaching and training proclaimed by a Realized One is being taught. ",
+            "en": "It’s when a mendicant pays heed, pays attention, engages <span class=\"ebt-matched\">wholeheartedly</span>, and lends an ear when the teaching and training proclaimed by a Realized One is being taught. ",
             "matched": true
           }
         },
@@ -280,13 +324,13 @@
           "sn8.8:1.3": {
             "scid": "sn8.8:1.3",
             "pli": "Te ca bhikkhū aṭṭhiṁ katvā manasi katvā sabbacetasā samannāharitvā ohitasotā dhammaṁ suṇanti. ",
-            "en": "And those mendicants were paying <span class=\"ebt-matched\">heed</span>, paying <span class=\"ebt-matched\">attention</span>, engaging <span class=\"ebt-matched\">wholeheartedly</span>, and lending an ear. ",
+            "en": "And those mendicants were paying heed, paying attention, engaging <span class=\"ebt-matched\">wholeheartedly</span>, and lending an ear. ",
             "matched": true
           },
           "sn8.8:1.6": {
             "scid": "sn8.8:1.6",
             "pli": "Te ca bhikkhū aṭṭhiṁ katvā manasi katvā sabbacetasā samannāharitvā ohitasotā dhammaṁ suṇanti. ",
-            "en": "And those mendicants are paying <span class=\"ebt-matched\">heed</span>, paying <span class=\"ebt-matched\">attention</span>, engaging <span class=\"ebt-matched\">wholeheartedly</span>, and lending an ear. ",
+            "en": "And those mendicants are paying heed, paying attention, engaging <span class=\"ebt-matched\">wholeheartedly</span>, and lending an ear. ",
             "matched": true
           }
         },
@@ -315,13 +359,13 @@
           "an5.140:2.2": {
             "scid": "an5.140:2.2",
             "pli": "Idha, bhikkhave, rañño nāgo yamenaṁ hatthidammasārathi kāraṇaṁ kāreti—",
-            "en": "It’s when a royal bull elephant pays <span class=\"ebt-matched\">heed</span>, pays <span class=\"ebt-matched\">attention</span>, engages <span class=\"ebt-matched\">wholeheartedly</span>, and lends an ear to whatever task the elephant trainer has it do, ",
+            "en": "It’s when a royal bull elephant pays heed, pays attention, engages <span class=\"ebt-matched\">wholeheartedly</span>, and lends an ear to whatever task the elephant trainer has it do, ",
             "matched": true
           },
           "an5.140:9.2": {
             "scid": "an5.140:9.2",
             "pli": "Idha, bhikkhave, bhikkhu tathāgatappavedite dhammavinaye desiyamāne aṭṭhiṅkatvā manasi katvā sabbaṁ cetasā samannāharitvā ohitasoto dhammaṁ suṇāti. ",
-            "en": "It’s when a mendicant pays <span class=\"ebt-matched\">heed</span>, pays <span class=\"ebt-matched\">attention</span>, engages <span class=\"ebt-matched\">wholeheartedly</span>, and lends an ear when the teaching and training proclaimed by a Realized One is being taught. ",
+            "en": "It’s when a mendicant pays heed, pays attention, engages <span class=\"ebt-matched\">wholeheartedly</span>, and lends an ear when the teaching and training proclaimed by a Realized One is being taught. ",
             "matched": true
           }
         },
@@ -350,7 +394,7 @@
           "ud8.3:1.4": {
             "scid": "ud8.3:1.4",
             "pli": "Tedha bhikkhū aṭṭhiṁ katvā, manasi katvā, sabbaṁ cetaso samannāharitvā, ohitasotā dhammaṁ suṇanti.",
-            "en": "And those mendicants were paying <span class=\"ebt-matched\">heed</span>, paying <span class=\"ebt-matched\">attention</span>, engaging <span class=\"ebt-matched\">wholeheartedly</span>, and lending an ear. ",
+            "en": "And those mendicants were paying heed, paying attention, engaging <span class=\"ebt-matched\">wholeheartedly</span>, and lending an ear. ",
             "matched": true
           }
         },
@@ -379,7 +423,7 @@
           "ud8.1:1.4": {
             "scid": "ud8.1:1.4",
             "pli": "Tedha bhikkhū aṭṭhiṁ katvā manasi katvā sabbaṁ cetaso samannāharitvā ohitasotā dhammaṁ suṇanti.",
-            "en": "And those mendicants were paying <span class=\"ebt-matched\">heed</span>, paying <span class=\"ebt-matched\">attention</span>, engaging <span class=\"ebt-matched\">wholeheartedly</span>, and lending an ear. ",
+            "en": "And those mendicants were paying heed, paying attention, engaging <span class=\"ebt-matched\">wholeheartedly</span>, and lending an ear. ",
             "matched": true
           }
         },
@@ -408,7 +452,7 @@
           "ud8.2:1.4": {
             "scid": "ud8.2:1.4",
             "pli": "Tedha bhikkhū aṭṭhiṁ katvā manasi katvā sabbaṁ cetaso samannāharitvā ohitasotā dhammaṁ suṇanti.",
-            "en": "And those mendicants were paying <span class=\"ebt-matched\">heed</span>, paying <span class=\"ebt-matched\">attention</span>, engaging <span class=\"ebt-matched\">wholeheartedly</span>, and lending an ear. ",
+            "en": "And those mendicants were paying heed, paying attention, engaging <span class=\"ebt-matched\">wholeheartedly</span>, and lending an ear. ",
             "matched": true
           }
         },
@@ -437,7 +481,7 @@
           "ud8.4:1.4": {
             "scid": "ud8.4:1.4",
             "pli": "Tedha bhikkhū aṭṭhiṁ katvā manasi katvā sabbaṁ cetaso samannāharitvā ohitasotā dhammaṁ suṇanti.",
-            "en": "And those mendicants were paying <span class=\"ebt-matched\">heed</span>, paying <span class=\"ebt-matched\">attention</span>, engaging <span class=\"ebt-matched\">wholeheartedly</span>, and lending an ear. ",
+            "en": "And those mendicants were paying heed, paying attention, engaging <span class=\"ebt-matched\">wholeheartedly</span>, and lending an ear. ",
             "matched": true
           }
         },
@@ -454,6 +498,35 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag1.1_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/thag/thag1.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag1.1",
+        "lang": "en",
+        "segMap": {
+          "thag1.1:4.4": {
+            "scid": "thag1.1:4.4",
+            "pli": "Ātāpī viharāmi vassa devā”ti.",
+            "en": "I practice <span class=\"ebt-matched\">wholeheartedly</span>: so rain, sky!",
+            "matched": true
+          }
+        },
+        "score": 1.042,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verses of the Senior Monks\nThe Book of the Ones\nChapter One\nSubhūti",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 24,
+          "en": 24
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn4/sn4.19_root-pli-ms.json",
           "translation/en/sujato/sutta/sn/sn4/sn4.19_translation-en-sujato.json"
         ],
@@ -466,7 +539,7 @@
           "sn4.19:1.3": {
             "scid": "sn4.19:1.3",
             "pli": "Te ca bhikkhū aṭṭhiṁ katvā manasi katvā sabbacetasā samannāharitvā ohitasotā dhammaṁ suṇanti. ",
-            "en": "And those mendicants were paying <span class=\"ebt-matched\">heed</span>, paying <span class=\"ebt-matched\">attention</span>, engaging <span class=\"ebt-matched\">wholeheartedly</span>, and lending an ear. ",
+            "en": "And those mendicants were paying heed, paying attention, engaging <span class=\"ebt-matched\">wholeheartedly</span>, and lending an ear. ",
             "matched": true
           }
         },
@@ -495,7 +568,7 @@
           "sn10.7:1.3": {
             "scid": "sn10.7:1.3",
             "pli": "Te ca bhikkhū aṭṭhiṁ katvā manasi katvā sabbacetasā samannāharitvā ohitasotā dhammaṁ suṇanti. ",
-            "en": "And those mendicants were paying <span class=\"ebt-matched\">heed</span>, paying <span class=\"ebt-matched\">attention</span>, engaging <span class=\"ebt-matched\">wholeheartedly</span>, and lending an ear. ",
+            "en": "And those mendicants were paying heed, paying attention, engaging <span class=\"ebt-matched\">wholeheartedly</span>, and lending an ear. ",
             "matched": true
           }
         },
@@ -524,7 +597,7 @@
           "sn16.11:11.2": {
             "scid": "sn16.11:11.2",
             "pli": "“yaṁ kiñci dhammaṁ suṇissāmi kusalūpasaṁhitaṁ sabbaṁ taṁ aṭṭhiṁ katvā manasi karitvā sabbacetasā samannāharitvā ohitasoto dhammaṁ suṇissāmī”ti. ",
-            "en": "“Whenever I hear a teaching connected with what’s skillful, I will pay <span class=\"ebt-matched\">heed</span>, pay <span class=\"ebt-matched\">attention</span>, engage <span class=\"ebt-matched\">wholeheartedly</span>, and lend an ear to that teaching.” ",
+            "en": "“Whenever I hear a teaching connected with what’s skillful, I will pay heed, pay attention, engage <span class=\"ebt-matched\">wholeheartedly</span>, and lend an ear to that teaching.” ",
             "matched": true
           }
         },
@@ -553,7 +626,7 @@
           "mn48:13.4": {
             "scid": "mn48:13.4",
             "pli": "Balatā esā, bhikkhave, diṭṭhisampannassa puggalassa yaṁ tathāgatappavedite dhammavinaye desiyamāne aṭṭhiṁ katvā manasikatvā sabbacetasā samannāharitvā ohitasoto dhammaṁ suṇāti. ",
-            "en": "The strength of a person accomplished in view is that, when the teaching and training proclaimed by the Realized One are being taught, they pay <span class=\"ebt-matched\">heed</span>, pay <span class=\"ebt-matched\">attention</span>, engage <span class=\"ebt-matched\">wholeheartedly</span>, and lend an ear. ",
+            "en": "The strength of a person accomplished in view is that, when the teaching and training proclaimed by the Realized One are being taught, they pay heed, pay attention, engage <span class=\"ebt-matched\">wholeheartedly</span>, and lend an ear. ",
             "matched": true
           }
         },
@@ -582,7 +655,7 @@
           "mn134:6.4": {
             "scid": "mn134:6.4",
             "pli": "Candano, bhikkhu, devaputto aṭṭhiṁ katvā manasikatvā sabbacetasā samannāharitvā ohitasoto dhammaṁ suṇāti. ",
-            "en": "Candana pays <span class=\"ebt-matched\">heed</span>, pays <span class=\"ebt-matched\">attention</span>, engages <span class=\"ebt-matched\">wholeheartedly</span>, and lends an ear to the teaching. ",
+            "en": "Candana pays heed, pays attention, engages <span class=\"ebt-matched\">wholeheartedly</span>, and lends an ear to the teaching. ",
             "matched": true
           }
         },
@@ -599,6 +672,35 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/an/an6/an6.62_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an6/an6.62_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an6.62",
+        "lang": "en",
+        "segMap": {
+          "an6.62:2.5": {
+            "scid": "an6.62:2.5",
+            "pli": "‘āpāyiko devadatto nerayiko kappaṭṭho atekiccho’ti, udāhu kenacideva pariyāyenāti? ",
+            "en": "going to a place of loss, to hell, there to remain for an eon, irredeemable, did he do so after <span class=\"ebt-matched\">wholeheartedly</span> deliberating, or was this just a way of speaking?” ",
+            "matched": true
+          }
+        },
+        "score": 1.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 6\n6. The Great Chapter\n62. Knowledge of the Faculties of Persons",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 157,
+          "en": 156
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/mn/mn65_root-pli-ms.json",
           "translation/en/sujato/sutta/mn/mn65_translation-en-sujato.json"
         ],
@@ -611,7 +713,7 @@
           "mn65:32.8": {
             "scid": "mn65:32.8",
             "pli": "‘na cāyaṁ moghapuriso mayā dhamme desiyamāne aṭṭhiṁ katvā manasi katvā sabbacetaso samannāharitvā ohitasoto dhammaṁ suṇātī’ti. ",
-            "en": "‘While I’m teaching, this silly man doesn’t pay <span class=\"ebt-matched\">heed</span>, pay <span class=\"ebt-matched\">attention</span>, engage <span class=\"ebt-matched\">wholeheartedly</span>, or lend an ear.’ ",
+            "en": "‘While I’m teaching, this silly man doesn’t pay heed, pay attention, engage <span class=\"ebt-matched\">wholeheartedly</span>, or lend an ear.’ ",
             "matched": true
           }
         },
@@ -640,7 +742,7 @@
           "dn18:7.2": {
             "scid": "dn18:7.2",
             "pli": "Nātike piṇḍāya caritvā pacchābhattaṁ piṇḍapātapaṭikkanto pāde pakkhāletvā giñjakāvasathaṁ pavisitvā māgadhake paricārake ārabbha aṭṭhiṁ katvā manasikatvā sabbaṁ cetasā samannāharitvā paññatte āsane nisīdi: ",
-            "en": "He wandered for alms in Nādika. After the meal, on his return from almsround, he washed his feet and entered the brick house. He paid <span class=\"ebt-matched\">heed</span>, paid <span class=\"ebt-matched\">attention</span>, and concentrated <span class=\"ebt-matched\">wholeheartedly</span> on the fate of Magadhan devotees, and sat on the seat spread out, thinking, ",
+            "en": "He wandered for alms in Nādika. After the meal, on his return from almsround, he washed his feet and entered the brick house. He paid heed, paid attention, and concentrated <span class=\"ebt-matched\">wholeheartedly</span> on the fate of Magadhan devotees, and sat on the seat spread out, thinking, ",
             "matched": true
           }
         },
