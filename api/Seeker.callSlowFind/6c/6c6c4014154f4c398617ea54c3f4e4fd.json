@@ -32,7 +32,7 @@
     "pattern": "bewusstsein verankert",
     "method": "phrase",
     "resultPattern": "\\bbewusstsein verankert",
-    "segsMatched": 20,
+    "segsMatched": 21,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn12/sn12.64_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.64_translation-de-sabbamitta.json",
@@ -45,13 +45,17 @@
       "translation/en/sujato/sutta/sn/sn12/sn12.39_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn12/sn12.38_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.38_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn12/sn12.38_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn12/sn12.38_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn4/sn4.23_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn4/sn4.23_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn4/sn4.23_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "sn12.64/de/sabbamitta",
       "sn12.40/de/sabbamitta",
       "sn12.39/de/sabbamitta",
-      "sn12.38/de/sabbamitta"
+      "sn12.38/de/sabbamitta",
+      "sn4.23/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -292,6 +296,38 @@
           "pli": 32,
           "de": 25,
           "en": 30
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn4/sn4.23_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn4/sn4.23_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn4/sn4.23_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn4.23",
+        "lang": "de",
+        "segMap": {
+          "sn4.23:10.5": {
+            "scid": "sn4.23:10.5",
+            "pli": "‘kattha godhikassa kulaputtassa viññāṇaṁ patiṭṭhitan’ti? ",
+            "de": "‚Wo ist Godhikas <span class=\"ebt-matched\">Bewusstsein verankert</span>?‘ ",
+            "en": "‘Where is Godhika’s consciousness established?’ ",
+            "matched": true
+          }
+        },
+        "score": 1.014,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 4\n3. Māra\n23. Mit Godhika",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 70,
+          "de": 66,
+          "en": 70
         }
       }
     ]

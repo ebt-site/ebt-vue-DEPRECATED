@@ -32,18 +32,22 @@
     "pattern": "viel leiden und bedrängnis",
     "method": "phrase",
     "resultPattern": "\\bviel leiden und bedrängnis",
-    "segsMatched": 7,
+    "segsMatched": 8,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an5/an5.76_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.76_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.76_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn1/sn1.20_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn1/sn1.20_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn1/sn1.20_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn1/sn1.20_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn4/sn4.21_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn4/sn4.21_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn4/sn4.21_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an5.76/de/sabbamitta",
-      "sn1.20/de/sabbamitta"
+      "sn1.20/de/sabbamitta",
+      "sn4.21/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -143,6 +147,38 @@
           "pli": 108,
           "de": 68,
           "en": 106
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn4/sn4.21_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn4/sn4.21_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn4/sn4.21_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn4.21",
+        "lang": "de",
+        "segMap": {
+          "sn4.21:1.10": {
+            "scid": "sn4.21:1.10",
+            "pli": "Kālikā hi, brāhmaṇa, kāmā vuttā bhagavatā bahudukkhā bahupāyāsā, ādīnavo ettha bhiyyo. ",
+            "de": "Denn der Buddha hat gesagt, dass Sinnenfreuden sich mit der Zeit zeigen, mit <span class=\"ebt-matched\">viel Leiden und Bedrängnis</span>, und mehr noch, dass sie viele nachteilige Folgen haben. ",
+            "en": "For the Buddha says that sensual pleasures take effect over time; they give much suffering and distress, and they are all the more full of drawbacks. ",
+            "matched": true
+          }
+        },
+        "score": 1.029,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 4\n3. Māra\n21. Einige",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 34,
+          "de": 23,
+          "en": 34
         }
       }
     ]

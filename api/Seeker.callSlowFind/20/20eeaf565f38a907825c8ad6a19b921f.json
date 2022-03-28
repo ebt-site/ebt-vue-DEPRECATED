@@ -32,7 +32,7 @@
     "pattern": "mit hängenden schultern",
     "method": "phrase",
     "resultPattern": "\\bmit hängenden schultern",
-    "segsMatched": 9,
+    "segsMatched": 10,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an3/an3.64_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.64_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/dn/dn25_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn25_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn25_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn4/sn4.25_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn4/sn4.25_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn4/sn4.25_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.49_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.49_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.49_translation-en-sujato.json",
@@ -53,6 +56,7 @@
     "suttaRefs": [
       "an3.64/de/sabbamitta",
       "dn25/de/sabbamitta",
+      "sn4.25/de/sabbamitta",
       "an5.49/de/sabbamitta",
       "an10.94/de/sabbamitta",
       "an10.93/de/sabbamitta"
@@ -244,6 +248,38 @@
           "pli": 103,
           "de": 102,
           "en": 102
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn4/sn4.25_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn4/sn4.25_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn4/sn4.25_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn4.25",
+        "lang": "de",
+        "segMap": {
+          "sn4.25:1.1": {
+            "scid": "sn4.25:1.1",
+            "pli": "Atha kho māro pāpimā bhagavato santike imā nibbejanīyā gāthāyo abhāsitvā tamhā ṭhānā apakkamma bhagavato avidūre pathaviyaṁ pallaṅkena nisīdi tuṇhībhūto maṅkubhūto pattakkhandho adhomukho pajjhāyanto appaṭibhāno kaṭṭhena bhūmiṁ vilikhanto. ",
+            "de": "Und als Māra der Böse vor dem Buddha diese Strophen über seine Enttäuschung aufgesagt hatte, verließ er diesen Ort. Er saß nicht weit vom Buddha mit gekreuzten Beinen schweigend auf dem Boden, bedrückt, <span class=\"ebt-matched\">mit hängenden Schultern</span> und gesenktem Kopf, niedergeschlagen und unfähig zu sprechen, und kritzelte mit einem Stock auf dem Boden herum. ",
+            "en": "And then Māra the Wicked, after reciting these verses of disillusionment in the Buddha’s presence, left that place. He sat cross-legged on the ground not far from the Buddha, silent, embarrassed, shoulders drooping, downcast, depressed, with nothing to say, scratching the ground with a stick. ",
+            "matched": true
+          }
+        },
+        "score": 1.009,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 4\n3. Māra\n25. Māras Töchter",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 116,
+          "de": 94,
+          "en": 115
         }
       }
     ]

@@ -30,101 +30,28 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "diese spende gebe",
-    "method": "keywords",
-    "resultPattern": "\\bdiese|\\bspende|\\bgebe",
-    "segsMatched": 3,
+    "method": "phrase",
+    "resultPattern": "\\bdiese spende gebe",
+    "segsMatched": 5,
     "bilaraPaths": [
-      "root/pli/ms/sutta/an/an5/an5.34_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an5/an5.34_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an5/an5.34_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an7/an7.52_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an7/an7.52_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an7/an7.52_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
-      "root/pli/ms/sutta/sn/sn1/sn1.32_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/sn/sn1/sn1.32_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn1/sn1.32_translation-en-sujato.json",
-      "root/pli/ms/sutta/sn/sn2/sn2.23_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/sn/sn2/sn2.23_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn2/sn2.23_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn30_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/dn/dn30_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn30_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an7/an7.57_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an7/an7.57_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an7/an7.57_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an9/an9.20_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an9/an9.20_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an9/an9.20_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an10/an10.176_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an10/an10.176_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an10/an10.176_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an10/an10.211_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an10/an10.211_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an10/an10.211_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an10/an10.212_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an10/an10.212_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an10/an10.212_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an10/an10.217_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an10/an10.217_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an10/an10.217_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an3/an3.57_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an3/an3.57_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an3/an3.57_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an10/an10.177_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an10/an10.177_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an10/an10.177_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an11/an11.16_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an11/an11.16_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an11/an11.16_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an2/an2.141-150_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an2/an2.141-150_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an2/an2.141-150_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an4/an4.58_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an4/an4.58_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an4/an4.58_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an4/an4.59_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an4/an4.59_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an4/an4.59_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an5/an5.35_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an5/an5.35_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an5/an5.35_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an6/an6.42_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an6/an6.42_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an6/an6.42_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an6/an6.59_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an6/an6.59_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an6/an6.59_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an8/an8.29_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an8/an8.29_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an8/an8.29_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an8/an8.86_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an8/an8.86_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an8/an8.86_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn31_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/dn/dn31_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn31_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/kp/kp7_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/kn/kp/kp7_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/kn/kp/kp7_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/ud/vagga8/ud8.5_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/kn/ud/vagga8/ud8.5_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/kn/ud/vagga8/ud8.5_translation-en-sujato.json",
-      "root/pli/ms/sutta/sn/sn1/sn1.33_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/sn/sn1/sn1.33_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn1/sn1.33_translation-en-sujato.json"
+      "root/pli/ms/sutta/an/an8/an8.33_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an8/an8.33_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an8/an8.33_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an8/an8.31_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an8/an8.31_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an8/an8.31_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an7.52/de/sabbamitta",
-      "an6.59/de/sabbamitta"
+      "dn33/de/sabbamitta",
+      "an8.33/de/sabbamitta",
+      "an8.31/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -139,18 +66,18 @@
         "sutta_uid": "an7.52",
         "lang": "de",
         "segMap": {
-          "an7.52:4.3": {
-            "scid": "an7.52:4.3",
-            "pli": "Taṁ kiṁ maññasi, sāriputta, dadeyya idhekacco evarūpaṁ dānan”ti? ",
-            "de": "Was denkst du, Sāriputta: <span class=\"ebt-matched\">Gebe</span>n nicht manche Leute <span class=\"ebt-matched\">Spende</span>n auf <span class=\"ebt-matched\">diese</span> Art?“ ",
-            "en": "What do you think, Sāriputta, don’t some people give gifts in this way?” ",
+          "an7.52:10.3": {
+            "scid": "an7.52:10.3",
+            "pli": "api ca kho ‘imaṁ me dānaṁ dadato cittaṁ pasīdati, attamanatā somanassaṁ upajāyatī’ti dānaṁ deti …pe…. ",
+            "de": "Er gibt eine Spende in dem Gedanken: ‚Wenn ich <span class=\"ebt-matched\">diese Spende gebe</span>, wird mein Geist klar und ich werde froh und glücklich.‘ … ",
+            "en": "They give a gift thinking, ‘When giving this gift my mind becomes clear, and I become happy and joyful.’ … ",
             "matched": true
           },
-          "an7.52:11.4": {
-            "scid": "an7.52:11.4",
-            "pli": "Taṁ kiṁ maññasi, sāriputta, dadeyya idhekacco evarūpaṁ dānan”ti? ",
-            "de": "Was denkst du, Sāriputta: <span class=\"ebt-matched\">Gebe</span>n nicht manche Leute <span class=\"ebt-matched\">Spende</span>n auf <span class=\"ebt-matched\">diese</span> Art?“ ",
-            "en": "What do you think, Sāriputta, don’t some people give gifts in this way?” ",
+          "an7.52:11.1": {
+            "scid": "an7.52:11.1",
+            "pli": "Napi ‘imaṁ me dānaṁ dadato cittaṁ pasīdati, attamanatā somanassaṁ upajāyatī’ti dānaṁ deti; ",
+            "de": "Er gibt eine Spende nicht in dem Gedanken: ‚Wenn ich <span class=\"ebt-matched\">diese Spende gebe</span>, wird mein Geist klar und ich werde froh und glücklich.‘ ",
+            "en": "They don’t give a gift thinking, ‘When giving this gift my mind becomes clear, and I become happy and joyful.’ ",
             "matched": true
           }
         },
@@ -168,34 +95,98 @@
       },
       {
         "bilaraPaths": [
-          "root/pli/ms/sutta/an/an6/an6.59_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/an/an6/an6.59_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/an/an6/an6.59_translation-en-sujato.json"
+          "root/pli/ms/sutta/an/an8/an8.33_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an8/an8.33_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an8/an8.33_translation-en-sujato.json"
         ],
         "author_uid": "sabbamitta",
         "type": "translation",
         "category": "sutta",
-        "sutta_uid": "an6.59",
+        "sutta_uid": "an8.33",
         "lang": "de",
         "segMap": {
-          "an6.59:9.4": {
-            "scid": "an6.59:9.4",
-            "pli": "“Esāhaṁ, bhante, ajjatagge saṅghe dānaṁ dassāmī”ti. ",
-            "de": "„Herr, von <span class=\"ebt-matched\">diese</span>m Tag an will ich dem Saṅgha <span class=\"ebt-matched\">Spende</span>n <span class=\"ebt-matched\">gebe</span>n.“ ",
-            "en": "“Sir, from this day forth I will give gifts to the Saṅgha.” ",
+          "an8.33:1.3": {
+            "scid": "an8.33:1.3",
+            "pli": "Chandā dānaṁ deti, dosā dānaṁ deti, mohā dānaṁ deti, bhayā dānaṁ deti, ‘dinnapubbaṁ katapubbaṁ pitupitāmahehi, nārahāmi porāṇaṁ kulavaṁsaṁ hāpetun’ti dānaṁ deti, ‘imāhaṁ dānaṁ datvā kāyassa bhedā paraṁ maraṇā sugatiṁ saggaṁ lokaṁ upapajjissāmī’ti dānaṁ deti, ‘imaṁ me dānaṁ dadato cittaṁ pasīdati, attamanatā somanassaṁ upajāyatī’ti dānaṁ deti, cittālaṅkāracittaparikkhāratthaṁ dānaṁ deti. ",
+            "de": "Jemand gibt aus Bevorzugung, Abneigung, Dummheit oder Feigheit. Jemand gibt in dem Gedanken: ‚Das Geben wurde von meinem Vater und meinem Großvater geübt. Es wäre nicht recht von mir, diesen Familienbrauch aufzugeben.‘ Jemand gibt in dem Gedanken: ‚Wenn ich <span class=\"ebt-matched\">diese Spende gebe</span>, werde ich, wenn mein Körper auseinanderbricht, nach dem Tod, an einem guten Ort wiedergeboren werden, in einer himmlischen Welt.‘ Jemand gibt in dem Gedanken: ‚Wenn ich <span class=\"ebt-matched\">diese Spende gebe</span>, wird mein Geist klar und ich werde froh und glücklich.‘ Jemand gibt in dem Gedanken: ‚Das ist ein Schmuck und ein Bestandteil für den Geist.‘ ",
+            "en": "A person might give a gift out of favoritism or hostility or stupidity or cowardice. Or they give thinking, ‘Giving was practiced by my father and my father’s father. It would not be right for me to abandon this family tradition.’ Or they give thinking, ‘After I’ve given this gift, when my body breaks up, after death, I’ll be reborn in a good place, a heavenly realm.’ Or they give thinking, ‘When giving this gift my mind becomes clear, and I become happy and joyful.’ Or they give a gift thinking, ‘This is an adornment and requisite for the mind.’ ",
             "matched": true
           }
         },
-        "score": 1.026,
+        "score": 1.125,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Nummerierte Lehrreden 6\n6. Das große Kapitel\n59. Mit Dārukammika",
+        "title": "Nummerierte Lehrreden 8\n4. Geben\n33. Beweggründe für das Geben",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 39,
-          "de": 38,
-          "en": 38
+          "pli": 8,
+          "de": 7,
+          "en": 7
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.31_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an8/an8.31_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an8/an8.31_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an8.31",
+        "lang": "de",
+        "segMap": {
+          "an8.31:1.9": {
+            "scid": "an8.31:1.9",
+            "pli": "‘imaṁ me dānaṁ dadato kalyāṇo kittisaddo abbhuggacchatī’ti dānaṁ deti, ",
+            "de": "Jemand gibt in dem Gedanken: ‚Wenn ich <span class=\"ebt-matched\">diese Spende gebe</span>, werde ich einen guten Ruf haben.‘ ",
+            "en": "Or they give thinking, ‘By giving this gift I’ll get a good reputation.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.067,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 8\n4. Geben\n31. Geben (1)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 15,
+          "de": 14,
+          "en": 14
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn33",
+        "lang": "de",
+        "segMap": {
+          "dn33:3.1.95": {
+            "scid": "dn33:3.1.95",
+            "pli": "Āsajja dānaṁ deti, bhayā dānaṁ deti, ‘adāsi me’ti dānaṁ deti, ‘dassati me’ti dānaṁ deti, ‘sāhu dānan’ti dānaṁ deti, ‘ahaṁ pacāmi, ime na pacanti, nārahāmi pacanto apacantānaṁ dānaṁ na dātun’ti dānaṁ deti, ‘idaṁ me dānaṁ dadato kalyāṇo kittisaddo abbhuggacchatī’ti dānaṁ deti. ",
+            "de": "Jemand beleidigt jemanden und gibt dann eine Spende. Jemand gibt aus Furcht. Jemand gibt in dem Gedanken: ‚Dieser Mensch hat mir gegeben.‘ Jemand gibt in dem Gedanken: ‚Dieser Mensch wird mir geben.‘ Jemand gibt in dem Gedanken: ‚Geben ist gut.‘ Jemand gibt in dem Gedanken: ‚Ich koche, sie kochen nicht. Es wäre nicht recht von mir, ihnen nichts zu geben.‘ Jemand gibt in dem Gedanken: ‚Wenn ich <span class=\"ebt-matched\">diese Spende gebe</span>, werde ich einen guten Ruf haben.‘ Jemand gibt in dem Gedanken: ‚Das ist ein Schmuck und ein Bestandteil für den Geist.‘ ",
+            "en": "A person might give a gift after insulting the recipient. Or they give out of fear. Or they give thinking, ‘They gave to me.’ Or they give thinking, ‘They’ll give to me.’ Or they give thinking, ‘It’s good to give.’ Or they give thinking, ‘I cook, they don’t. It wouldn’t be right for me to not give to them.’ Or they give thinking, ‘By giving this gift I’ll get a good reputation.’ Or they give thinking, ‘This is an adornment and requisite for the mind.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 33\nIm Chor aufsagen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 1167,
+          "de": 1166,
+          "en": 1166
         }
       }
     ]

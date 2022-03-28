@@ -32,7 +32,7 @@
     "pattern": "gut befreit",
     "method": "phrase",
     "resultPattern": "\\bgut befreit",
-    "segsMatched": 32,
+    "segsMatched": 34,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
@@ -56,6 +56,12 @@
       "root/pli/ms/sutta/an/an5/an5.200_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.200_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.200_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn6/sn6.3_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn6/sn6.3_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn6/sn6.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn4/sn4.25_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn4/sn4.25_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn4/sn4.25_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn1/sn1.38_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn1/sn1.38_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.38_translation-en-sujato.json",
@@ -78,6 +84,8 @@
       "thig2.3/de/sabbamitta",
       "thag1.43/de/sabbamitta",
       "an5.200/de/sabbamitta",
+      "sn6.3/de/sabbamitta",
+      "sn4.25/de/sabbamitta",
       "sn1.38/de/sabbamitta",
       "thig1.11/de/sabbamitta",
       "an7.56/de/sabbamitta",
@@ -523,6 +531,38 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn6/sn6.3_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn6/sn6.3_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn6/sn6.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn6.3",
+        "lang": "de",
+        "segMap": {
+          "sn6.3:8.3": {
+            "scid": "sn6.3:8.3",
+            "pli": "Bhikkhu susīlo suvimuttacitto, ",
+            "de": "Er ist ein Mönch von guter Sittlichkeit, im Herzen <span class=\"ebt-matched\">gut befreit</span>. ",
+            "en": "He’s a mendicant fair in ethics, with heart well freed. ",
+            "matched": true
+          }
+        },
+        "score": 1.022,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 6\n1. Die Aufforderung\n3. Mit Brahmadeva",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 45,
+          "de": 45,
+          "en": 45
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn1/sn1.38_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/sn/sn1/sn1.38_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/sn/sn1/sn1.38_translation-en-sujato.json"
@@ -583,6 +623,38 @@
           "pli": 97,
           "de": 78,
           "en": 96
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn4/sn4.25_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn4/sn4.25_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn4/sn4.25_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn4.25",
+        "lang": "de",
+        "segMap": {
+          "sn4.25:17.1": {
+            "scid": "sn4.25:17.1",
+            "pli": "“Passaddhakāyo suvimuttacitto, ",
+            "de": "„Mit gestilltem Körper und <span class=\"ebt-matched\">gut befreit</span>em Geist, ",
+            "en": "“With tranquil body and mind well freed, ",
+            "matched": true
+          }
+        },
+        "score": 1.009,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 4\n3. Māra\n25. Māras Töchter",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 116,
+          "de": 94,
+          "en": 115
         }
       }
     ]

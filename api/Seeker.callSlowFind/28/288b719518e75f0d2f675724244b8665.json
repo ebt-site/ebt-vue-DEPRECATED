@@ -32,7 +32,7 @@
     "pattern": "harfe",
     "method": "phrase",
     "resultPattern": "\\bharfe",
-    "segsMatched": 11,
+    "segsMatched": 13,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn21_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn21_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/an/an6/an6.55_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.55_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an6/an6.55_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn4/sn4.23_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn4/sn4.23_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn4/sn4.23_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn17_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn17_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn17_translation-en-sujato.json",
@@ -53,6 +56,7 @@
     "suttaRefs": [
       "dn21/de/sabbamitta",
       "an6.55/de/sabbamitta",
+      "sn4.23/de/sabbamitta",
       "dn17/de/sabbamitta",
       "dn16/de/sabbamitta",
       "an6.30/de/sabbamitta"
@@ -162,6 +166,45 @@
           "pli": 515,
           "de": 477,
           "en": 514
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn4/sn4.23_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn4/sn4.23_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn4/sn4.23_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn4.23",
+        "lang": "de",
+        "segMap": {
+          "sn4.23:10.7": {
+            "scid": "sn4.23:10.7",
+            "pli": "Atha kho māro pāpimā beluvapaṇḍuvīṇaṁ ādāya yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavantaṁ gāthāya ajjhabhāsi: ",
+            "de": "Da nahm Māra seine <span class=\"ebt-matched\">Harfe</span> aus hellem Belbaumholz, ging zum Buddha und redete ihn mit einer Strophe an: ",
+            "en": "Then Māra, carrying his harp of yellow wood apple, went up to the Buddha and addressed him in verse: ",
+            "matched": true
+          },
+          "sn4.23:14.2": {
+            "scid": "sn4.23:14.2",
+            "pli": "vīṇā kacchā abhassatha; ",
+            "de": "dass ihm die <span class=\"ebt-matched\">Harfe</span> aus der Achsel glitt, ",
+            "en": "that his harp dropped from his armpit, ",
+            "matched": true
+          }
+        },
+        "score": 2.029,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 4\n3. Māra\n23. Mit Godhika",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 70,
+          "de": 66,
+          "en": 70
         }
       },
       {
