@@ -1,0 +1,115 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "in kummer versunken",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "in kummer versunken",
+    "method": "phrase",
+    "resultPattern": "\\bin kummer versunken",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn4/sn4.25_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn4/sn4.25_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn4/sn4.25_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn4/sn4.24_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn4/sn4.24_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn4/sn4.24_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn4.25/de/sabbamitta",
+      "sn4.24/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn4/sn4.24_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn4/sn4.24_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn4/sn4.24_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn4.24",
+        "lang": "de",
+        "segMap": {
+          "sn4.24:2.1": {
+            "scid": "sn4.24:2.1",
+            "pli": "“Sokāvatiṇṇo nu vanamhi jhāyasi, ",
+            "de": "„Bist du <span class=\"ebt-matched\">in Kummer versunken</span>, dass du im Wald meditierst? ",
+            "en": "“Are you swamped by sorrow that you meditate in the forest? ",
+            "matched": true
+          }
+        },
+        "score": 1.021,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 4\n3. Māra\n24. Sieben Jahre Verfolgung",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 48,
+          "de": 48,
+          "en": 48
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn4/sn4.25_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn4/sn4.25_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn4/sn4.25_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn4.25",
+        "lang": "de",
+        "segMap": {
+          "sn4.25:13.1": {
+            "scid": "sn4.25:13.1",
+            "pli": "“Sokāvatiṇṇo nu vanamhi jhāyasi, ",
+            "de": "„Bist du <span class=\"ebt-matched\">in Kummer versunken</span>, dass du im Wald meditierst? ",
+            "en": "“Are you swamped by sorrow that you meditate in the forest? ",
+            "matched": true
+          }
+        },
+        "score": 1.009,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 4\n3. Māra\n25. Māras Töchter",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 116,
+          "de": 94,
+          "en": 115
+        }
+      }
+    ]
+  }
+}
