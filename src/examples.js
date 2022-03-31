@@ -269,6 +269,7 @@
     "Gegenstände zur Besinnung",
     "geheimen und öffentlichen",
     "gehört, dass jemand eine solche",
+    "gehört immer noch",
     "geht: ‚Ich gehe.‘",
     "geistgeschaffenen Körper",
     "gelichtet",
