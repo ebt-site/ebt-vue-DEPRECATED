@@ -1360,6 +1360,7 @@
     "there is the earth element",
     "the sabbath",
     "these four noble truths",
+    "the self is",
     "the seventh kind of wealth",
     "the suffering inherent in perishing",
     "the supreme wheel of dhamma",
