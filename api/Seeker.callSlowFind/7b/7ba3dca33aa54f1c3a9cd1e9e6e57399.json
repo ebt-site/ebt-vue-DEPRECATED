@@ -3,7 +3,7 @@
   "volume": "Seeker.callSlowFind",
   "args": [
     {
-      "pattern": "kuh das leben",
+      "pattern": "kuh.* das leben",
       "showMatchesOnly": true,
       "languages": [
         "pli",
@@ -29,9 +29,9 @@
     "minLang": 3,
     "maxDoc": 50,
     "maxResults": 1000,
-    "pattern": "kuh das leben",
+    "pattern": "kuh.* das leben",
     "method": "phrase",
-    "resultPattern": "\\bkuh das leben",
+    "resultPattern": "\\bkuh.* das leben",
     "segsMatched": 1,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn140_root-pli-ms.json",

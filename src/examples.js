@@ -379,7 +379,7 @@
     "kreisen.* Gedanken",
     "Kreislauf der Wiedergeburten",
     "Kriechtieren abzuhalten",
-    "Kuh das Leben",
+    "Kuh.* das Leben",
     "Kuhhirte",
     "kühl geworden, voller Wonne",
     "Küstenspäher-Vogel",
