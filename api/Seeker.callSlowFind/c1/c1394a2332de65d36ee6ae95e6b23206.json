@@ -31,18 +31,18 @@
     "pattern": "these four noble truths",
     "method": "phrase",
     "resultPattern": "\\bthese four noble truths",
-    "segsMatched": 12,
+    "segsMatched": 13,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn56/sn56.29_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn56/sn56.29_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn56/sn56.27_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn56/sn56.27_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn56/sn56.23_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn56/sn56.23_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn56/sn56.11_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn56/sn56.11_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn56/sn56.28_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn56/sn56.28_translation-en-sujato.json",
-      "root/pli/ms/sutta/sn/sn56/sn56.27_root-pli-ms.json",
-      "translation/en/sujato/sutta/sn/sn56/sn56.27_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn56/sn56.26_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn56/sn56.26_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn56/sn56.14_root-pli-ms.json",
@@ -54,16 +54,51 @@
     ],
     "suttaRefs": [
       "sn56.29/en/sujato",
+      "sn56.27/en/sujato",
       "sn56.23/en/sujato",
       "sn56.11/en/sujato",
       "sn56.28/en/sujato",
-      "sn56.27/en/sujato",
       "sn56.26/en/sujato",
       "sn56.14/en/sujato",
       "sn56.13/en/sujato",
       "thag7.5/en/sujato"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn56/sn56.27_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn56/sn56.27_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn56.27",
+        "lang": "en",
+        "segMap": {
+          "sn56.27:1.1": {
+            "scid": "sn56.27:1.1",
+            "pli": "“Cattārimāni, bhikkhave, ariyasaccāni. ",
+            "en": "“Mendicants, there are <span class=\"ebt-matched\">these four noble truths</span>. ",
+            "matched": true
+          },
+          "sn56.27:1.4": {
+            "scid": "sn56.27:1.4",
+            "pli": "imāni kho, bhikkhave, cattāri ariyasaccāni tathāni avitathāni anaññathāni; ",
+            "en": "<span class=\"ebt-matched\">These four noble truths</span> are real, not unreal, not otherwise. ",
+            "matched": true
+          }
+        },
+        "score": 2.2,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 56.27\n3. At the Village of Koṭi\nReal",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 10,
+          "en": 9
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn56/sn56.23_root-pli-ms.json",
@@ -196,35 +231,6 @@
         "langSegs": {
           "pli": 9,
           "en": 8
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/sn/sn56/sn56.27_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn56/sn56.27_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "sn56.27",
-        "lang": "en",
-        "segMap": {
-          "sn56.27:1.1": {
-            "scid": "sn56.27:1.1",
-            "pli": "“Cattārimāni, bhikkhave, ariyasaccāni. ",
-            "en": "“Mendicants, there are <span class=\"ebt-matched\">these four noble truths</span>. ",
-            "matched": true
-          }
-        },
-        "score": 1.1,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Linked Discourses 56.27\n3. At the Village of Koṭi\nReal",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 10,
-          "en": 9
         }
       },
       {
