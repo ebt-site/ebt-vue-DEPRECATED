@@ -32,7 +32,7 @@
     "pattern": "schädlichen irrglauben",
     "method": "phrase",
     "resultPattern": "\\bschädlichen irrglauben",
-    "segsMatched": 18,
+    "segsMatched": 20,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn23_translation-de-sabbamitta.json",
@@ -43,6 +43,12 @@
       "root/pli/ms/sutta/dn/dn24_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn24_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn24_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn6/sn6.5_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn6/sn6.5_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn6/sn6.5_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn6/sn6.4_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn6/sn6.4_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn6/sn6.4_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.95_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.95_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an10/an10.95_translation-en-sujato.json"
@@ -51,6 +57,8 @@
       "dn23/de/sabbamitta",
       "dn12/de/sabbamitta",
       "dn24/de/sabbamitta",
+      "sn6.5/de/sabbamitta",
+      "sn6.4/de/sabbamitta",
       "an10.95/de/sabbamitta"
     ],
     "mlDocs": [
@@ -250,6 +258,38 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn6/sn6.4_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn6/sn6.4_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn6/sn6.4_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn6.4",
+        "lang": "de",
+        "segMap": {
+          "sn6.4:1.3": {
+            "scid": "sn6.4:1.3",
+            "pli": "Tena kho pana samayena bakassa brahmuno evarūpaṁ pāpakaṁ diṭṭhigataṁ uppannaṁ hoti: ",
+            "de": "Nun hatte der Brahmā Baka zu dieser Zeit den folgenden <span class=\"ebt-matched\">schädlichen Irrglauben</span>: ",
+            "en": "Now at that time Baka the Brahmā had the following harmful misconception: ",
+            "matched": true
+          }
+        },
+        "score": 1.019,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 6\n1. Die Aufforderung\n4. Mit dem Brahmā Baka",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 52,
+          "de": 52,
+          "en": 52
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an10/an10.95_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/an/an10/an10.95_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/an/an10/an10.95_translation-en-sujato.json"
@@ -278,6 +318,38 @@
           "pli": 57,
           "de": 40,
           "en": 56
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn6/sn6.5_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn6/sn6.5_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn6/sn6.5_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn6.5",
+        "lang": "de",
+        "segMap": {
+          "sn6.5:1.2": {
+            "scid": "sn6.5:1.2",
+            "pli": "Tena kho pana samayena aññatarassa brahmuno evarūpaṁ pāpakaṁ diṭṭhigataṁ uppannaṁ hoti: ",
+            "de": "Nun hatte ein gewisser Brahmā zu dieser Zeit den folgenden <span class=\"ebt-matched\">schädlichen Irrglauben</span>: ",
+            "en": "Now at that time a certain Brahmā had the following harmful misconception: ",
+            "matched": true
+          }
+        },
+        "score": 1.016,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 6\n1. Die Aufforderung\n5. Ein gewisser Brahmā",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 61,
+          "de": 49,
+          "en": 61
         }
       }
     ]

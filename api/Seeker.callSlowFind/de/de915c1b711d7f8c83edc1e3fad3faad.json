@@ -30,78 +30,71 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "gehört immer noch",
-    "method": "keywords",
-    "resultPattern": "\\bgehört|\\bimmer|\\bnoch",
-    "segsMatched": 0,
+    "method": "phrase",
+    "resultPattern": "\\bgehört immer noch",
+    "segsMatched": 4,
     "bilaraPaths": [
-      "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn21_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/dn/dn21_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn21_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn24_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/dn/dn24_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn24_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn18_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/dn/dn18_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn18_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/dn/dn23_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn23_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn28_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/dn/dn28_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn28_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn29_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/dn/dn29_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn29_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an10/an10.217_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an10/an10.217_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an10/an10.217_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an2/an2.32-41_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an2/an2.32-41_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an2/an2.32-41_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an5/an5.179_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an5/an5.179_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an5/an5.179_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an7/an7.53_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an7/an7.53_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an7/an7.53_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/dn/dn14_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn15_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/dn/dn15_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn15_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn19_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/dn/dn19_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn19_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn30_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/dn/dn30_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn30_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/ud/vagga4/ud4.1_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/kn/ud/vagga4/ud4.1_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/kn/ud/vagga4/ud4.1_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/ud/vagga6/ud6.1_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/kn/ud/vagga6/ud6.1_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/kn/ud/vagga6/ud6.1_translation-en-sujato.json",
-      "root/pli/ms/sutta/sn/sn12/sn12.65_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/sn/sn12/sn12.65_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn12/sn12.65_translation-en-sujato.json",
-      "root/pli/ms/sutta/sn/sn4/sn4.13_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/sn/sn4/sn4.13_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn4/sn4.13_translation-en-sujato.json",
-      "root/pli/ms/sutta/sn/sn51/sn51.10_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/sn/sn51/sn51.10_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn51/sn51.10_translation-en-sujato.json"
+      "root/pli/ms/sutta/sn/sn7/sn7.2_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn7/sn7.2_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn7/sn7.2_translation-en-sujato.json"
     ],
-    "suttaRefs": [],
-    "mlDocs": []
+    "suttaRefs": [
+      "sn7.2/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn7/sn7.2_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn7/sn7.2_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn7/sn7.2_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn7.2",
+        "lang": "de",
+        "segMap": {
+          "sn7.2:2.10": {
+            "scid": "sn7.2:2.10",
+            "pli": "Tavevetaṁ, brāhmaṇa, hoti; ",
+            "de": "Es <span class=\"ebt-matched\">gehört immer noch</span> dir, Brahmane, ",
+            "en": "It still belongs to you, brahmin, ",
+            "matched": true
+          },
+          "sn7.2:2.11": {
+            "scid": "sn7.2:2.11",
+            "pli": "tavevetaṁ, brāhmaṇa, hoti. ",
+            "de": "es <span class=\"ebt-matched\">gehört immer noch</span> dir! ",
+            "en": "it still belongs to you! ",
+            "matched": true
+          },
+          "sn7.2:3.3": {
+            "scid": "sn7.2:3.3",
+            "pli": "Tavevetaṁ, brāhmaṇa, hoti; ",
+            "de": "Es <span class=\"ebt-matched\">gehört immer noch</span> dir, Brahmane, ",
+            "en": "It still belongs to you, brahmin, ",
+            "matched": true
+          },
+          "sn7.2:3.4": {
+            "scid": "sn7.2:3.4",
+            "pli": "tavevetaṁ, brāhmaṇa, hotī”ti. ",
+            "de": "es <span class=\"ebt-matched\">gehört immer noch</span> dir!“",
+            "en": "it still belongs to you!” ",
+            "matched": true
+          }
+        },
+        "score": 4.085,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 7\n1. Die Vollendeten\n2. Beschimpfung",
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 47,
+          "de": 47,
+          "en": 47
+        }
+      }
+    ]
   }
 }

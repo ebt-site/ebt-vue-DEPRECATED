@@ -32,16 +32,52 @@
     "pattern": "kuh.* das leben",
     "method": "phrase",
     "resultPattern": "\\bkuh.* das leben",
-    "segsMatched": 1,
+    "segsMatched": 2,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn140_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn140_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/mn/mn140_translation-en-sujato.json"
+      "translation/en/sujato/sutta/mn/mn140_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga1/ud1.10_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/ud/vagga1/ud1.10_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/ud/vagga1/ud1.10_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "mn140/de/sabbamitta"
+      "mn140/de/sabbamitta",
+      "ud1.10/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga1/ud1.10_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/ud/vagga1/ud1.10_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/ud/vagga1/ud1.10_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud1.10",
+        "lang": "de",
+        "segMap": {
+          "ud1.10:10.2": {
+            "scid": "ud1.10:10.2",
+            "pli": "Atha kho acirapakkantassa bhagavato bāhiyaṁ dārucīriyaṁ gāvī taruṇavacchā adhipatitvā jīvitā voropesi.",
+            "de": "Aber kurz nachdem der Buddha gegangen war, griff eine <span class=\"ebt-matched\">Kuh mit einem kleinen Kälbchen Bāhiya an und nahm ihm das Leben</span>. ",
+            "en": "But soon after the Buddha had left, a cow with a baby calf charged at Bāhiya and took his life. ",
+            "matched": true
+          }
+        },
+        "score": 1.013,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Innige Sprüche\n1.10 Mit Bāhiya",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 77,
+          "de": 70,
+          "en": 70
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/mn/mn140_root-pli-ms.json",

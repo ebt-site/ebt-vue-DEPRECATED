@@ -32,7 +32,7 @@
     "pattern": "haare.* zu berge",
     "method": "phrase",
     "resultPattern": "\\bhaare.* zu berge",
-    "segsMatched": 27,
+    "segsMatched": 28,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn5/sn5.9_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn5/sn5.9_translation-de-sabbamitta.json",
@@ -79,6 +79,9 @@
       "root/pli/ms/sutta/sn/sn10/sn10.8_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn10/sn10.8_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn10/sn10.8_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga1/ud1.7_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/ud/vagga1/ud1.7_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/ud/vagga1/ud1.7_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag20.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag20.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag20.1_translation-en-sujato.json",
@@ -111,6 +114,7 @@
       "sn2.9/de/sabbamitta",
       "sn2.10/de/sabbamitta",
       "sn10.8/de/sabbamitta",
+      "ud1.7/de/sabbamitta",
       "thag20.1/de/sabbamitta",
       "dn24/de/sabbamitta",
       "dn21/de/sabbamitta",
@@ -425,6 +429,38 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga1/ud1.7_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/ud/vagga1/ud1.7_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/ud/vagga1/ud1.7_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud1.7",
+        "lang": "de",
+        "segMap": {
+          "ud1.7:1.4": {
+            "scid": "ud1.7:1.4",
+            "pli": "Atha kho ajakalāpako yakkho bhagavato bhayaṁ chambhitattaṁ lomahaṁsaṁ uppādetukāmo yena bhagavā tenupasaṅkami; upasaṅkamitvā bhagavato avidūre tikkhattuṁ “akkulo pakkulo”ti akkulapakkulikaṁ akāsi:",
+            "de": "Und Ajakalāpaka, in der Absicht, dem Buddha Furcht einzujagen, ihn zu erschrecken und ihm die <span class=\"ebt-matched\">Haare zu Berge</span> stehen zu lassen, begab sich zu ihm und kreischte in seiner Nähe dreimal: „Huh! Buh!“ Dann fügte er hinzu: ",
+            "en": "Then Ajakalāpaka, wanting to make the Buddha feel fear, terror, and goosebumps, approached him, and while not far away yelled three times, “Grr! Arrgh!” Then he added, ",
+            "matched": true
+          }
+        },
+        "score": 1.077,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Innige Sprüche\n1.7 In Ajakalāpaka",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 13,
+          "de": 12,
+          "en": 12
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn4/sn4.3_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/sn/sn4/sn4.3_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/sn/sn4/sn4.3_translation-en-sujato.json"
@@ -671,7 +707,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Strophen der altehrwürdigen Mönche\nDas Sechzigerbuch\nErstes Kapitel\nMahāmoggallāna",
+        "title": "Strophen der altehrwürdigen Mönche\nDas Sechzigerbuch\nErstes Kapitel\n20.1 Mahāmoggallāna",
         "segsMatched": 1,
         "langSegs": {
           "pli": 299,

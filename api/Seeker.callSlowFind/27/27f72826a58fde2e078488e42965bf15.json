@@ -32,7 +32,7 @@
     "pattern": "filz",
     "method": "phrase",
     "resultPattern": "\\bfilz",
-    "segsMatched": 15,
+    "segsMatched": 17,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn1/sn1.23_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn1/sn1.23_translation-de-sabbamitta.json",
@@ -46,6 +46,9 @@
       "root/pli/ms/sutta/kn/ud/vagga6/ud6.2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga6/ud6.2_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/ud/vagga6/ud6.2_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga1/ud1.9_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/ud/vagga1/ud1.9_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/ud/vagga1/ud1.9_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn4/sn4.21_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn4/sn4.21_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn4/sn4.21_translation-en-sujato.json",
@@ -58,6 +61,7 @@
       "dn23/de/sabbamitta",
       "sn3.11/de/sabbamitta",
       "ud6.2/de/sabbamitta",
+      "ud1.9/de/sabbamitta",
       "sn4.21/de/sabbamitta",
       "an5.294-302/de/sabbamitta"
     ],
@@ -177,6 +181,45 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga1/ud1.9_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/ud/vagga1/ud1.9_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/ud/vagga1/ud1.9_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud1.9",
+        "lang": "de",
+        "segMap": {
+          "ud1.9:0.2": {
+            "scid": "ud1.9:0.2",
+            "pli": "Jaṭilasutta",
+            "de": "1.9 <span class=\"ebt-matched\">Filz</span>haarasketen ",
+            "en": "Dreadlocked Ascetics",
+            "matched": true
+          },
+          "ud1.9:1.3": {
+            "scid": "ud1.9:1.3",
+            "pli": "Tena kho pana samayena sambahulā jaṭilā sītāsu hemantikāsu rattīsu antaraṭṭhake himapātasamaye gayāyaṁ ummujjantipi nimujjantipi, ummujjanimujjampi karonti osiñcantipi, aggimpi juhanti:",
+            "de": "Zu dieser Zeit nun – während des Kälteeinbruchs im tiefsten Winter, wenn der Schnee fällt – tauchten viele <span class=\"ebt-matched\">Filz</span>haarasketen im Fluss Gayā auf und unter. Sie tauchten und besprengten sich und huldigten der heiligen Flamme: ",
+            "en": "Now at that time—during the cold spell when the snow falls in the dead of winter—many dreadlocked ascetics plunged in and out of the Gayā river. Plunging and showering, they served the sacred flame, thinking:",
+            "matched": true
+          }
+        },
+        "score": 2.143,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Innige Sprüche\n1.9 Filzhaarasketen",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 14,
+          "de": 12,
+          "en": 12
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/kn/ud/vagga6/ud6.2_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/kn/ud/vagga6/ud6.2_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/kn/ud/vagga6/ud6.2_translation-en-sujato.json"
@@ -190,7 +233,7 @@
           "ud6.2:0.2": {
             "scid": "ud6.2:0.2",
             "pli": "Sattajaṭilasutta",
-            "de": "Sieben <span class=\"ebt-matched\">Filz</span>haarasketen ",
+            "de": "6.2 Sieben <span class=\"ebt-matched\">Filz</span>haarasketen ",
             "en": "Seven Matted-Hair Ascetics ",
             "matched": true
           },
@@ -206,7 +249,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Tief empfundene Sprüche\nSieben Filzhaarasketen",
+        "title": "Innige Sprüche\n6.2 Sieben Filzhaarasketen",
         "segsMatched": 2,
         "langSegs": {
           "pli": 35,

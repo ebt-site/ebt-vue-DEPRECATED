@@ -32,7 +32,7 @@
     "pattern": "wenn dieses besteht, ist jenes",
     "method": "phrase",
     "resultPattern": "\\bwenn dieses besteht, ist jenes",
-    "segsMatched": 9,
+    "segsMatched": 11,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn12/sn12.62_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.62_translation-de-sabbamitta.json",
@@ -58,6 +58,12 @@
       "root/pli/ms/sutta/sn/sn12/sn12.21_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.21_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn12/sn12.21_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga1/ud1.3_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/ud/vagga1/ud1.3_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/ud/vagga1/ud1.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga1/ud1.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/ud/vagga1/ud1.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/ud/vagga1/ud1.1_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.92_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.92_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an10/an10.92_translation-en-sujato.json"
@@ -71,6 +77,8 @@
       "sn12.37/de/sabbamitta",
       "sn12.22/de/sabbamitta",
       "sn12.21/de/sabbamitta",
+      "ud1.3/de/sabbamitta",
+      "ud1.1/de/sabbamitta",
       "an10.92/de/sabbamitta"
     ],
     "mlDocs": [
@@ -136,6 +144,38 @@
           "pli": 19,
           "de": 18,
           "en": 18
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga1/ud1.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/ud/vagga1/ud1.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/ud/vagga1/ud1.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud1.1",
+        "lang": "de",
+        "segMap": {
+          "ud1.1:2.1": {
+            "scid": "ud1.1:2.1",
+            "pli": "“Iti imasmiṁ sati idaṁ hoti, imassuppādā idaṁ uppajjati, yadidaṁ—",
+            "de": "„<span class=\"ebt-matched\">Wenn dieses besteht, ist jenes</span>; aufgrund des Entstehens von diesem entsteht jenes. Das heißt: ",
+            "en": "“When this exists, that is; due to the arising of this, that arises. That is: ",
+            "matched": true
+          }
+        },
+        "score": 1.04,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Innige Sprüche\n1.1 Beim Erwachen (1)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 25,
+          "de": 24,
+          "en": 24
         }
       },
       {
@@ -264,6 +304,38 @@
           "pli": 37,
           "de": 36,
           "en": 36
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga1/ud1.3_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/ud/vagga1/ud1.3_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/ud/vagga1/ud1.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud1.3",
+        "lang": "de",
+        "segMap": {
+          "ud1.3:2.1": {
+            "scid": "ud1.3:2.1",
+            "pli": "“Iti imasmiṁ sati idaṁ hoti, imassuppādā idaṁ uppajjati,",
+            "de": "„<span class=\"ebt-matched\">Wenn dieses besteht, ist jenes</span>; aufgrund des Entstehens von diesem entsteht jenes. ",
+            "en": "“When this exists, that is; due to the arising of this, that arises. ",
+            "matched": true
+          }
+        },
+        "score": 1.026,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Innige Sprüche\n1.3 Beim Erwachen (3)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 38,
+          "de": 37,
+          "en": 37
         }
       },
       {

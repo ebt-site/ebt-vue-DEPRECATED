@@ -32,11 +32,17 @@
     "pattern": "bewerte",
     "method": "phrase",
     "resultPattern": "\\bbewerte",
-    "segsMatched": 20,
+    "segsMatched": 22,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn15_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn15_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn15_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn6/sn6.8_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn6/sn6.8_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn6/sn6.8_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn6/sn6.7_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn6/sn6.7_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn6/sn6.7_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
@@ -79,6 +85,8 @@
     ],
     "suttaRefs": [
       "dn15/de/sabbamitta",
+      "sn6.8/de/sabbamitta",
+      "sn6.7/de/sabbamitta",
       "dn34/de/sabbamitta",
       "an9.23/de/sabbamitta",
       "an8.52/de/sabbamitta",
@@ -198,6 +206,70 @@
           "pli": 8,
           "de": 7,
           "en": 7
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn6/sn6.7_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn6/sn6.7_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn6/sn6.7_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn6.7",
+        "lang": "de",
+        "segMap": {
+          "sn6.7:2.2": {
+            "scid": "sn6.7:2.2",
+            "pli": "Kodha vidvā vikappaye; ",
+            "de": "das Unermessliche <span class=\"ebt-matched\">bewerte</span>n, indem er es misst? ",
+            "en": "the immeasurable by measuring them? ",
+            "matched": true
+          }
+        },
+        "score": 1.091,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 6\n1. Die Aufforderung\n7. Über Kokālika",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 11,
+          "de": 11,
+          "en": 11
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn6/sn6.8_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn6/sn6.8_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn6/sn6.8_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn6.8",
+        "lang": "de",
+        "segMap": {
+          "sn6.8:2.2": {
+            "scid": "sn6.8:2.2",
+            "pli": "Kodha vidvā vikappaye; ",
+            "de": "das Unermessliche <span class=\"ebt-matched\">bewerte</span>n, indem er es misst? ",
+            "en": "the immeasurable by measuring them? ",
+            "matched": true
+          }
+        },
+        "score": 1.091,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 6\n1. Die Aufforderung\n8. Über Katamorakatissaka",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 11,
+          "de": 11,
+          "en": 11
         }
       },
       {
