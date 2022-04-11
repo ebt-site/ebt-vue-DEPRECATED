@@ -32,7 +32,7 @@
     "pattern": "geliebte",
     "method": "phrase",
     "resultPattern": "\\bgeliebte",
-    "segsMatched": 16,
+    "segsMatched": 19,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn21_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn21_translation-de-sabbamitta.json",
@@ -43,12 +43,18 @@
       "root/pli/ms/sutta/an/an5/an5.50_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.50_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.50_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga2/ud2.7_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/ud/vagga2/ud2.7_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/ud/vagga2/ud2.7_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn56/sn56.11_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn56/sn56.11_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn56/sn56.11_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn3/sn3.4_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn3/sn3.4_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn3/sn3.4_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga2/ud2.8_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/ud/vagga2/ud2.8_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/ud/vagga2/ud2.8_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an7/an7.64_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an7/an7.64_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an7/an7.64_translation-en-sujato.json",
@@ -63,8 +69,10 @@
       "dn21/de/sabbamitta",
       "dn22/de/sabbamitta",
       "an5.50/de/sabbamitta",
+      "ud2.7/de/sabbamitta",
       "sn56.11/de/sabbamitta",
       "sn3.4/de/sabbamitta",
+      "ud2.8/de/sabbamitta",
       "an7.64/de/sabbamitta",
       "an5.30/de/sabbamitta",
       "an3.61/de/sabbamitta"
@@ -224,6 +232,45 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga2/ud2.7_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/ud/vagga2/ud2.7_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/ud/vagga2/ud2.7_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud2.7",
+        "lang": "de",
+        "segMap": {
+          "ud2.7:1.3": {
+            "scid": "ud2.7:1.3",
+            "pli": "Tena kho pana samayena aññatarassa upāsakassa ekaputtako piyo manāpo kālaṅkato hoti.",
+            "de": "Nun war da gerade das <span class=\"ebt-matched\">geliebte</span> und teure einziges Kind eines Laienschülers gestorben. ",
+            "en": "Now at that time a certain lay follower’s dear and beloved only child passed away. ",
+            "matched": true
+          },
+          "ud2.7:3.2": {
+            "scid": "ud2.7:3.2",
+            "pli": "“mayhaṁ kho, bhante, ekaputtako piyo manāpo kālaṅkato.",
+            "de": "„Herr, mein <span class=\"ebt-matched\">geliebte</span>s und teures einziges Kind ist gestorben. ",
+            "en": "“Sir, my dear and beloved only child has passed away. ",
+            "matched": true
+          }
+        },
+        "score": 2.1,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Innige Sprüche\n2.7 Einziges Kind",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 20,
+          "de": 19,
+          "en": 19
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an5/an5.30_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/an/an5/an5.30_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/an/an5/an5.30_translation-en-sujato.json"
@@ -316,6 +363,38 @@
           "pli": 60,
           "de": 59,
           "en": 59
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga2/ud2.8_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/ud/vagga2/ud2.8_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/ud/vagga2/ud2.8_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud2.8",
+        "lang": "de",
+        "segMap": {
+          "ud2.8:18.2": {
+            "scid": "ud2.8:18.2",
+            "pli": "piyarūpena appiyaṁ;",
+            "de": "Ungeliebtes in Gestalt von <span class=\"ebt-matched\">Geliebte</span>m, ",
+            "en": "the disliked in the guise of the liked,",
+            "matched": true
+          }
+        },
+        "score": 1.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Innige Sprüche\n2.8 Suppavāsā",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 93,
+          "de": 71,
+          "en": 71
         }
       },
       {
