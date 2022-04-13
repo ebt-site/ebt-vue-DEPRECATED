@@ -1,0 +1,111 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "sieben tage mit gekreuzten beinen",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "sieben tage mit gekreuzten beinen",
+    "method": "keywords",
+    "resultPattern": "\\bsieben|\\btage|\\bmit|\\bgekreuzten|\\bbeinen",
+    "segsMatched": 1,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an10/an10.99_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.99_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.99_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.198_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.198_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.198_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn18_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn18_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn18_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn19_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn19_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn19_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn22_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn22_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn22_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn25_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn25_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn25_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thig/thig3.2_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thig/thig3.2_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thig/thig3.2_translation-en-sujato.json",
+      "translation/en/soma/sutta/kn/thig/thig3.2_translation-en-soma.json",
+      "root/pli/ms/sutta/kn/ud/vagga1/ud1.2_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/ud/vagga1/ud1.2_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/ud/vagga1/ud1.2_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga1/ud1.3_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/ud/vagga1/ud1.3_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/ud/vagga1/ud1.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga1/ud1.4_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/ud/vagga1/ud1.4_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/ud/vagga1/ud1.4_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn10_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn10_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn10_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "thig3.2/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thig/thig3.2_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thig/thig3.2_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thig/thig3.2_translation-en-sujato.json",
+          "translation/en/soma/sutta/kn/thig/thig3.2_translation-en-soma.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thig3.2",
+        "lang": "de",
+        "segMap": {
+          "thig3.2:3.3": {
+            "scid": "thig3.2:3.3",
+            "pli": "Sattāhaṁ ekapallaṅkena,",
+            "de": "<span class=\"ebt-matched\">mit</span> <span class=\"ebt-matched\">gekreuzten</span> <span class=\"ebt-matched\">Beinen</span> <span class=\"ebt-matched\">sieben</span> <span class=\"ebt-matched\">Tage</span> lang bewegungslos, ",
+            "en": "I sat cross-legged for seven days without moving,",
+            "matched": true
+          }
+        },
+        "score": 1.056,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Nonnen\nDas Dreierbuch\n3.2 Uttamā",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 18,
+          "de": 17,
+          "en": 17
+        }
+      }
+    ]
+  }
+}
