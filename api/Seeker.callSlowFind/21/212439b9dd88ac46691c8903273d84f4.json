@@ -1,0 +1,151 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "gerücht",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "gerücht",
+    "method": "phrase",
+    "resultPattern": "\\bgerücht",
+    "segsMatched": 3,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn7/sn7.2_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn7/sn7.2_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn7/sn7.2_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn10/sn10.8_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn10/sn10.8_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn10/sn10.8_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn31_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn31_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn31_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn7.2/de/sabbamitta",
+      "sn10.8/de/sabbamitta",
+      "dn31/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn7/sn7.2_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn7/sn7.2_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn7/sn7.2_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn7.2",
+        "lang": "de",
+        "segMap": {
+          "sn7.2:1.2": {
+            "scid": "sn7.2:1.2",
+            "pli": "Assosi kho akkosakabhāradvājo brāhmaṇo: ",
+            "de": "Der Brahmane Bhāradvāja der Ruppige hörte das <span class=\"ebt-matched\">Gerücht</span>, ",
+            "en": "The brahmin Bhāradvāja the Rude heard a rumor that ",
+            "matched": true
+          }
+        },
+        "score": 1.021,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 7\n1. Die Vollendeten\n2. Beschimpfung",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 47,
+          "de": 47,
+          "en": 47
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn10/sn10.8_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn10/sn10.8_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn10/sn10.8_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn10.8",
+        "lang": "de",
+        "segMap": {
+          "sn10.8:1.4": {
+            "scid": "sn10.8:1.4",
+            "pli": "“buddho kira loke uppanno”ti. ",
+            "de": "ein <span class=\"ebt-matched\">Gerücht</span>, dass ein Buddha in der Welt erschienen sei. ",
+            "en": "a rumor that a Buddha had arisen in the world. ",
+            "matched": true
+          }
+        },
+        "score": 1.016,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 10\n1. Mit Indaka\n8. Mit Sudatta",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 62,
+          "de": 62,
+          "en": 62
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn31_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn31_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn31_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn31",
+        "lang": "de",
+        "segMap": {
+          "dn31:9.2": {
+            "scid": "dn31:9.2",
+            "pli": "Attāpissa agutto arakkhito hoti, puttadāropissa agutto arakkhito hoti, sāpateyyampissa aguttaṁ arakkhitaṁ hoti, saṅkiyo ca hoti pāpakesu ṭhānesu, abhūtavacanañca tasmiṁ rūhati, bahūnañca dukkhadhammānaṁ purakkhato hoti. ",
+            "de": "Man selbst, die Partnerinnen und Kinder und der Besitz sind nicht bewacht; man wird schlechter Taten verdächtigt; falsche <span class=\"ebt-matched\">Gerücht</span>e verbreiten sich über einen; und man steht in vorderster Reihe bei vielen Dingen, die zu Leiden führen. ",
+            "en": "Yourself, your partners and children, and your property are all left unguarded. You’re suspected of bad deeds. Untrue rumors spread about you. You’re at the forefront of many things that entail suffering. ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 31\nRat für Sigālaka",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 267,
+          "de": 264,
+          "en": 266
+        }
+      }
+    ]
+  }
+}
