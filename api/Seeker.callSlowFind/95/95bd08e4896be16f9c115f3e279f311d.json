@@ -32,11 +32,14 @@
     "pattern": "schwieg der buddha",
     "method": "phrase",
     "resultPattern": "\\bschwieg der buddha",
-    "segsMatched": 5,
+    "segsMatched": 7,
     "bilaraPaths": [
       "root/pli/ms/sutta/kn/ud/vagga5/ud5.5_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga5/ud5.5_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/ud/vagga5/ud5.5_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga3/ud3.3_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/ud/vagga3/ud3.3_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/ud/vagga3/ud3.3_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.20_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.20_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an8/an8.20_translation-en-sujato.json",
@@ -46,6 +49,7 @@
     ],
     "suttaRefs": [
       "ud5.5/de/sabbamitta",
+      "ud3.3/de/sabbamitta",
       "an8.20/de/sabbamitta",
       "an10.95/de/sabbamitta"
     ],
@@ -87,6 +91,45 @@
           "pli": 73,
           "de": 57,
           "en": 71
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga3/ud3.3_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/ud/vagga3/ud3.3_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/ud/vagga3/ud3.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud3.3",
+        "lang": "de",
+        "segMap": {
+          "ud3.3:12.4": {
+            "scid": "ud3.3:12.4",
+            "pli": "Evaṁ vutte, bhagavā tuṇhī ahosi.",
+            "de": "Doch darauf <span class=\"ebt-matched\">schwieg der Buddha</span>. ",
+            "en": "But the Buddha kept silent. ",
+            "matched": true
+          },
+          "ud3.3:13.6": {
+            "scid": "ud3.3:13.6",
+            "pli": "Dutiyampi kho bhagavā tuṇhī ahosi.",
+            "de": "Doch zum zweiten Mal <span class=\"ebt-matched\">schwieg der Buddha</span>. ",
+            "en": "But for a second time the Buddha kept silent. ",
+            "matched": true
+          }
+        },
+        "score": 2.026,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Innige Sprüche\n3.3 Mit Yasoja",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 76,
+          "de": 69,
+          "en": 69
         }
       },
       {

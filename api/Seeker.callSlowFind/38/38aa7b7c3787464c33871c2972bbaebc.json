@@ -32,7 +32,7 @@
     "pattern": "gewürdigt, verehrt und wertgeschätzt",
     "method": "phrase",
     "resultPattern": "\\bgewürdigt, verehrt und wertgeschätzt",
-    "segsMatched": 9,
+    "segsMatched": 11,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn12/sn12.70_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.70_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/kn/ud/vagga2/ud2.4_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga2/ud2.4_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/ud/vagga2/ud2.4_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga3/ud3.8_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/ud/vagga3/ud3.8_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/ud/vagga3/ud3.8_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/ud/vagga1/ud1.10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga1/ud1.10_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/ud/vagga1/ud1.10_translation-en-sujato.json",
@@ -50,6 +53,7 @@
     "suttaRefs": [
       "sn12.70/de/sabbamitta",
       "ud2.4/de/sabbamitta",
+      "ud3.8/de/sabbamitta",
       "ud1.10/de/sabbamitta",
       "dn16/de/sabbamitta"
     ],
@@ -151,6 +155,45 @@
           "pli": 19,
           "de": 14,
           "en": 14
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga3/ud3.8_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/ud/vagga3/ud3.8_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/ud/vagga3/ud3.8_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud3.8",
+        "lang": "de",
+        "segMap": {
+          "ud3.8:2.2": {
+            "scid": "ud3.8:2.2",
+            "pli": "Piṇḍapātiko, āvuso, bhikkhu sakkato garukato mānito pūjito apacito piṇḍāya carati.",
+            "de": "Er zieht um Almosen umher und wird geehrt, geachtet, <span class=\"ebt-matched\">gewürdigt, verehrt und wertgeschätzt</span>. ",
+            "en": "They wander for alms being honored, respected, revered, venerated, and esteemed.",
+            "matched": true
+          },
+          "ud3.8:2.5": {
+            "scid": "ud3.8:2.5",
+            "pli": "mayampi sakkatā garukatā mānitā pūjitā apacitā piṇḍāya carissāmā”ti.",
+            "de": "Auch wir werden um Almosen umherziehen und geehrt, geachtet, <span class=\"ebt-matched\">gewürdigt, verehrt und wertgeschätzt</span> werden.“ ",
+            "en": "We too shall wander for alms being honored, respected, revered, venerated, and esteemed.”",
+            "matched": true
+          }
+        },
+        "score": 2.065,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Innige Sprüche\n3.8 Einer, der nur Almosen isst",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 31,
+          "de": 23,
+          "en": 23
         }
       },
       {

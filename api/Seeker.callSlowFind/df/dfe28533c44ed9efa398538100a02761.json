@@ -32,7 +32,7 @@
     "pattern": "benommenheit",
     "method": "phrase",
     "resultPattern": "\\bbenommenheit",
-    "segsMatched": 63,
+    "segsMatched": 65,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an7/an7.61_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an7/an7.61_translation-de-sabbamitta.json",
@@ -52,6 +52,9 @@
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga4/ud4.2_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/ud/vagga4/ud4.2_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/ud/vagga4/ud4.2_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
@@ -150,6 +153,7 @@
       "an5.193/de/sabbamitta",
       "an1.11-20/de/sabbamitta",
       "dn33/de/sabbamitta",
+      "ud4.2/de/sabbamitta",
       "dn34/de/sabbamitta",
       "an6.73/de/sabbamitta",
       "an6.66/de/sabbamitta",
@@ -590,6 +594,45 @@
           "pli": 14,
           "de": 13,
           "en": 13
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga4/ud4.2_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/ud/vagga4/ud4.2_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/ud/vagga4/ud4.2_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud4.2",
+        "lang": "de",
+        "segMap": {
+          "ud4.2:4.3": {
+            "scid": "ud4.2:4.3",
+            "pli": "Thinamiddhābhibhūtena,",
+            "de": "von Dumpfheit und <span class=\"ebt-matched\">Benommenheit</span> überwältigt, ",
+            "en": "overcome with dullness and drowsiness,",
+            "matched": true
+          },
+          "ud4.2:5.5": {
+            "scid": "ud4.2:5.5",
+            "pli": "Thinamiddhābhibhū bhikkhu,",
+            "de": "würde ein Mönch, der Dumpfheit und <span class=\"ebt-matched\">Benommenheit</span> überwunden hat, ",
+            "en": "a mendicant who has overcome dullness and drowsiness",
+            "matched": true
+          }
+        },
+        "score": 2.111,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Innige Sprüche\n4.2 Rastlos",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 18,
+          "de": 17,
+          "en": 17
         }
       },
       {

@@ -30,24 +30,57 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "mit einem stock verletzt",
-    "method": "keywords",
-    "resultPattern": "\\bmit|\\beinem|\\bstock|\\bverletzt",
-    "segsMatched": 0,
+    "method": "phrase",
+    "resultPattern": "\\bmit einem stock verletzt",
+    "segsMatched": 2,
     "bilaraPaths": [
-      "root/pli/ms/sutta/an/an3/an3.70_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an3/an3.70_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an3/an3.70_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/dn/dn14_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn30_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/dn/dn30_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn30_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/ud/vagga2/ud2.3_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga2/ud2.3_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/ud/vagga2/ud2.3_translation-en-sujato.json"
     ],
-    "suttaRefs": [],
-    "mlDocs": []
+    "suttaRefs": [
+      "ud2.3/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga2/ud2.3_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/ud/vagga2/ud2.3_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/ud/vagga2/ud2.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud2.3",
+        "lang": "de",
+        "segMap": {
+          "ud2.3:3.2": {
+            "scid": "ud2.3:3.2",
+            "pli": "yo daṇḍena vihiṁsati;",
+            "de": "wenn ihr sie <span class=\"ebt-matched\">mit einem Stock verletzt</span> ",
+            "en": "so if you hurt them with a stick",
+            "matched": true
+          },
+          "ud2.3:4.2": {
+            "scid": "ud2.3:4.2",
+            "pli": "yo daṇḍena na hiṁsati;",
+            "de": "wenn ihr sie nicht <span class=\"ebt-matched\">mit einem Stock verletzt</span> ",
+            "en": "so if you don’t hurt them with a stick",
+            "matched": true
+          }
+        },
+        "score": 2.118,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Innige Sprüche\n2.3 Ein Stock",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 17,
+          "de": 16,
+          "en": 16
+        }
+      }
+    ]
   }
 }
