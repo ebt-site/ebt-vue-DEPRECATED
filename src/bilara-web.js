@@ -5,9 +5,8 @@
     const SUID_MAP = require('scv-bilara/src/auto/suidmap.json');
     const IS_EXAMPLE = require('scv-bilara/src/is-example.json');
     const AUTHORS = require('../api/authors.json');
-    const SuttaCentralId = require('scv-bilara/src/sutta-central-id');
+    const { SuttaCentralId, SuttaRef } = require('scv-esm');
     const VOICES = require('./voices.json');
-    const SuttaRef = require('scv-bilara/src/sutta-ref');
     const assert = require('assert');
 
     class BilaraWeb {

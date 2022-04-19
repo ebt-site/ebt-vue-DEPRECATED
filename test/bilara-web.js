@@ -19,6 +19,7 @@
         }
     }
     this.timeout(10*1000);
+    let VERSES_SENIOR_NUNS = "Verses of the Senior Nuns 1.1";
 
     it("default ctor", ()=>{
         should.throws(()=>new BilaraWeb());
@@ -394,7 +395,7 @@
         lang: 'en',
         author: 'sujato',
       });
-      should(resEn.segments['thig1.1:0.1']).equal('Verses of the Senior Nuns');
+      should(resEn.segments['thig1.1:0.1']).equal(VERSES_SENIOR_NUNS);
       should(resEn.segments['thig1.1:0.2']).equal('The Book of the Ones');
       should(resEn.segments['thig1.1:0.3']).equal('An Unnamed Nun (1st)');
       should(resEn.segments['thig1.1:1.1']).equal('Sleep softly, little nun,');
@@ -409,12 +410,12 @@
         lang: 'en',
         author: 'sujato',
       });
-      should(res.segments['thig1.1:0.1']).equal('Verses of the Senior Nuns');
+      should(res.segments['thig1.1:0.1']).equal(VERSES_SENIOR_NUNS);
       should(res.segments['thig1.1:0.2']).equal('The Book of the Ones');
       should(res.segments['thig1.1:0.3']).equal('An Unnamed Nun (1st)');
       should(res.segments['thig1.1:1.1']).equal('Sleep softly, little nun,');
     });
-    it("loadBilaraPath(...) => thig1.1/en/sujato", async ()=>{
+    it("TESTTESTloadBilaraPath(...) => thig1.1/en/sujato", async ()=>{
       let defaultLang = 'default-lang'
       var bw = new BilaraWeb({fetch, lang:defaultLang});
       let bilaraPath = bw.bilaraPathOf('thig1.1/en/sujato');
@@ -424,7 +425,8 @@
         lang: 'en',
         author: 'sujato',
       });
-      should(res.segments['thig1.1:0.1']).equal('Verses of the Senior Nuns');
+      should(res.segments['thig1.1:0.1'])
+        .equal(VERSES_SENIOR_NUNS);
       should(res.segments['thig1.1:0.2']).equal('The Book of the Ones');
       should(res.segments['thig1.1:0.3']).equal('An Unnamed Nun (1st)');
       should(res.segments['thig1.1:1.1']).equal('Sleep softly, little nun,');
@@ -493,7 +495,7 @@
         should.deepEqual(suttaSoma.segments[0],{
             scid: 'thig1.1:0.1',
             pli: 'Therīgāthā',
-            //en: 'Verses of the Senior Nuns',
+            //en: VERSES_SENIOR_NUNS,
             en: 'Verses of the Elder Bhikkhunīs',
         });
 
@@ -505,10 +507,10 @@
         should.deepEqual(suttaEn.segments[0],{
             scid: 'thig1.1:0.1',
             pli: 'Therīgāthā',
-            en: 'Verses of the Senior Nuns',
+            en: VERSES_SENIOR_NUNS,
         });
     });
-    it("loadSuttaRef(...) => thig1.1", async ()=>{
+    it("TESTTESTloadSuttaRef(...) => thig1.1", async ()=>{
         let bw = new BilaraWeb({fetch});
         let author = 'sujato';
         let lang = 'en';
@@ -519,10 +521,10 @@
         should.deepEqual(sutta.segments[0],{
             scid: 'thig1.1:0.1',
             pli: 'Therīgāthā',
-            en: 'Verses of the Senior Nuns',
+            en: VERSES_SENIOR_NUNS,
         });
     });
-    it("loadSuttaRef(...) => thig1.1 (en/sujato)", async ()=>{
+    it("TESTTESTloadSuttaRef(...) => thig1.1 (en/sujato)", async ()=>{
         let bw = new BilaraWeb({fetch});
         let author = 'sujato';
         let lang = 'en';
@@ -533,10 +535,10 @@
         should.deepEqual(sutta.segments[0],{
             scid: 'thig1.1:0.1',
             pli: 'Therīgāthā',
-            en: 'Verses of the Senior Nuns',
+            en: VERSES_SENIOR_NUNS,
         });
     });
-    it("loadSuttaRef(...) => thig1.1 (en)", async ()=>{
+    it("TESTTESTloadSuttaRef(...) => thig1.1 (en)", async ()=>{
         let bw = new BilaraWeb({fetch});
         let author = 'sujato';
         let lang = 'en';
@@ -547,7 +549,7 @@
         should.deepEqual(sutta.segments[0],{
             scid: 'thig1.1:0.1',
             pli: 'Therīgāthā',
-            en: 'Verses of the Senior Nuns',
+            en: VERSES_SENIOR_NUNS,
         });
       });
     it("TESTTESTloadSuttaRef(...) => thig1.1 (en) refLang:de", async ()=>{
@@ -564,10 +566,10 @@
             scid: 'thig1.1:0.1',
             pli: 'Therīgāthā',
             ref: 'Strophen der altehrwürdigen Nonnen ',
-            en: 'Verses of the Senior Nuns',
+            en: VERSES_SENIOR_NUNS,
         });
     });
-    it("loadSuttaRef(...) => thig1.1 (sujato)", async ()=>{
+    it("TESTTESTloadSuttaRef(...) => thig1.1 (sujato)", async ()=>{
         let bw = new BilaraWeb({fetch});
         //bw.logLevel = 'info';
         let author = 'sujato';
@@ -579,7 +581,7 @@
         should.deepEqual(sutta.segments[0],{
             scid: 'thig1.1:0.1',
             pli: 'Therīgāthā',
-            en: 'Verses of the Senior Nuns',
+            en: VERSES_SENIOR_NUNS,
         });
     });
     it("loadSuttaRef(...) => thig1.1 (soma)", async ()=>{
@@ -595,10 +597,10 @@
             scid: 'thig1.1:0.1',
             pli: 'Therīgāthā',
             en: 'Verses of the Elder Bhikkhunīs',
-            //ref: 'Verses of the Senior Nuns',
+            //ref: VERSES_SENIOR_NUNS,
         });
     });
-    it("loadSuttaRef(...) => thig1.1 (soma) refLang:en", async ()=>{
+    it("TESTTESTloadSuttaRef(...) => thig1.1 (soma) refLang:en", async ()=>{
         let bw = new BilaraWeb({fetch});
         //bw.logLevel = 'info';
         let author = 'soma';
@@ -612,7 +614,7 @@
             scid: 'thig1.1:0.1',
             pli: 'Therīgāthā',
             en: 'Verses of the Elder Bhikkhunīs',
-            ref: 'Verses of the Senior Nuns',
+            ref: VERSES_SENIOR_NUNS,
         });
     });
     it("loadSuttaRef(...) => thig1.1 (de)", async ()=>{

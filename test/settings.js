@@ -4,7 +4,7 @@
         Settings,
     } = require("../src/index");
 
-    it("TESTTESTdefault ctor", async()=>{
+    it("default ctor", async()=>{
         var ebt = new Settings();
         should(ebt).properties({
             audio: Settings.AUDIO.OGG,
@@ -76,7 +76,7 @@
         let settings2 = new Settings(json2);
         should.deepEqual(settings2.history, history);
     });
-    it("TESTTESTREF_LANGUAGES => reference languages", ()=>{
+    it("REF_LANGUAGES => reference languages", ()=>{
         should.deepEqual(Settings.REF_LANGUAGES.map(tl=>tl.code).sort(), [
             'de',
             'en',
