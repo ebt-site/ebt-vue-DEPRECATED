@@ -110,10 +110,11 @@ import EbtSutta from '~/components/ebt-sutta.vue';
 import EbtSettings from '~/components/ebt-settings.vue';
 import EbtTipitaka from '~/components/ebt-tipitaka.vue';
 import EbtCursor from '~/components/ebt-cursor.vue';
+import Tipitaka from 'scv-esm';
 
 const JS = {
   BilaraWeb: require('../src/bilara-web'),
-  Tipitaka: require('scv-bilara/src/tipitaka'),
+  Tipitaka,
 }
 
 export default {

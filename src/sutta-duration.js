@@ -1,7 +1,6 @@
 (function(exports) {
     const { logger } = require('log-instance');
     const { MerkleJson } = require('merkle-json');
-    const examples = require('scv-bilara/src/examples.json');
     const SUID_DURATION_URL = [
         `https://raw.githubusercontent.com/sc-voice/sc-voice`,
         `master/src/assets/suid-duration.json`,

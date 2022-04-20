@@ -23,10 +23,11 @@ import EbtResults from './ebt-results';
 import EbtSettings from './ebt-settings';
 import EbtSutta from './ebt-sutta';
 import EbtCursor from './ebt-cursor';
+import { Tipitaka } from 'scv-esm';
 
 const JS = {
   BilaraWeb: require('../src/bilara-web'),
-  Tipitaka: require('scv-bilara/src/tipitaka'),
+  Tipitaka,
 }
 
 export default {

@@ -20,6 +20,7 @@ else
   git clone https://github.com/ebt-site/ebt-data $ED
 fi
 
+npm install --save scv-esm@latest
 npm install --save scv-bilara@latest
 npm install --save-dev scv-tts@latest
 rm -rf api/Seeker*

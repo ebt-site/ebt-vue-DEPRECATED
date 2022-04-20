@@ -30,9 +30,11 @@
 import Vue from 'vue';
 const { version } = require('~/package.json');
 import { EbtVue } from '../index';
+import Tipitaka from 'scv-esm';
+
 const JS = {
   BilaraWeb: require('../src/bilara-web'),
-  Tipitaka: require('scv-bilara/src/tipitaka'),
+  Tipitaka,
 }
 import {
   mdiMenu,

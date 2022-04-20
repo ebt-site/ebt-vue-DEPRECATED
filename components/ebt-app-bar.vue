@@ -32,9 +32,10 @@ import {
   name, 
   version,
 } from '@/package.json';
+import { Tipitaka } from 'scv-esm';
 const JS = {
   BilaraWeb: require('../src/bilara-web'),
-  Tipitaka: require('scv-bilara/src/tipitaka'),
+  Tipitaka,
 }
 
 export default {

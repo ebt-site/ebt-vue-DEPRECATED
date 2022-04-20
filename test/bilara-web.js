@@ -24,7 +24,7 @@
     it("default ctor", ()=>{
         should.throws(()=>new BilaraWeb());
     });
-    it("custom ctor", ()=>{
+    it("TESTTESTcustom ctor", ()=>{
         let bw = new BilaraWeb({fetch});
         should.deepEqual(Object.keys(bw.examples).sort(), [
           'comment', 'authors', 'de', 'jpn', 'en'].sort());
@@ -112,21 +112,22 @@
         should(BilaraWeb.encodeHash({sutta_uid, segnum}))
             .equal('#mn1:1.2');
     });
-    it("isExample", async()=>{
+    it("TESTTESTisExample", async()=>{
         var bw = new BilaraWeb({
             fetch,
             lang: 'en', // English default
         });
-        should(bw.isExample('root of suffering')).equal(true);
-        should(bw.isExample('ROOT OF SUFFERING')).equal(true);
-        should(bw.isExample('root suffering')).equal(false);
-        should(bw.isExample('Wurzel des Leidens')).equal(true);
-        should(bw.isExample('fühlt.* es losgelöst', 'de')).equal(true);
-        should(bw.isExample('Wurzel des Leidens', 'de')).equal(true);
-        should(bw.isExample('wurzel des leidens', 'de')).equal(true);
+        should(bw.isExample('root of suffering')).equal('en');
+        should(bw.isExample('ROOT OF SUFFERING')).equal('en');
+        should(bw.isExample('root suffering')).equal(undefined);
+        should(bw.isExample('Wurzel des Leidens')).equal('de');
+        should(bw.isExample('fühlt.* es losgelöst', 'de')).equal('de');
+        should(bw.isExample('Wurzel des Leidens', 'de')).equal('de');
+        should(bw.isExample('wurzel des leidens', 'de')).equal('de');
 
-        should(bw.isExample('\\bROOT OF SUFFERING')).equal(false);
-        should(bw.isExample('\\bROOT OF SUFFERING\\b')).equal(false);
+        should(bw.isExample('\\bROOT OF SUFFERING')).equal('en');
+        should(bw.isExample('\\bROOT OF SUFFERING\\b')).equal('en');
+        should(bw.isExample('\\bROOT OF SUFFER\\b')).equal(undefined);
     });
     it("authors(...) => supported authors", async()=>{
       let bw = new BilaraWeb({fetch});
@@ -219,7 +220,7 @@
         ]);
         should(res.bilaraPaths.length).equal(14);
     });
-    it("find(...) finds example with quote", async()=>{
+    it("TESTTESTfind(...) finds example with quote", async()=>{
         let examples = {
             'en': [
                 "but ma'am",
@@ -234,7 +235,7 @@
         should(/\bbut ma’am/i.test(text)).equal(true); // right single quote
         should(/\bbut ma'am/i.test(text)).equal(false);
         should(/\bbut ma.am/i.test(text)).equal(true);
-        should(bw.isExample(examples.en[0])).equal(true);
+        should(bw.isExample(examples.en[0])).equal('en');
 
         var pattern = "but ma'am"; 
         var res = await bw.find({
@@ -415,7 +416,7 @@
       should(res.segments['thig1.1:0.3']).equal('An Unnamed Nun (1st)');
       should(res.segments['thig1.1:1.1']).equal('Sleep softly, little nun,');
     });
-    it("TESTTESTloadBilaraPath(...) => thig1.1/en/sujato", async ()=>{
+    it("loadBilaraPath(...) => thig1.1/en/sujato", async ()=>{
       let defaultLang = 'default-lang'
       var bw = new BilaraWeb({fetch, lang:defaultLang});
       let bilaraPath = bw.bilaraPathOf('thig1.1/en/sujato');
@@ -481,7 +482,7 @@
             pli: '1. Aniccavagga ',
         });
     });
-    it("TESTTESTloadSuttaRef(...) => thig1.1 (soma/sujato)", async ()=>{
+    it("loadSuttaRef(...) => thig1.1 (soma/sujato)", async ()=>{
         let bw = new BilaraWeb({fetch});
         let author = 'soma';
         let lang = 'en';
@@ -510,7 +511,7 @@
             en: VERSES_SENIOR_NUNS,
         });
     });
-    it("TESTTESTloadSuttaRef(...) => thig1.1", async ()=>{
+    it("loadSuttaRef(...) => thig1.1", async ()=>{
         let bw = new BilaraWeb({fetch});
         let author = 'sujato';
         let lang = 'en';
@@ -524,7 +525,7 @@
             en: VERSES_SENIOR_NUNS,
         });
     });
-    it("TESTTESTloadSuttaRef(...) => thig1.1 (en/sujato)", async ()=>{
+    it("loadSuttaRef(...) => thig1.1 (en/sujato)", async ()=>{
         let bw = new BilaraWeb({fetch});
         let author = 'sujato';
         let lang = 'en';
@@ -538,7 +539,7 @@
             en: VERSES_SENIOR_NUNS,
         });
     });
-    it("TESTTESTloadSuttaRef(...) => thig1.1 (en)", async ()=>{
+    it("loadSuttaRef(...) => thig1.1 (en)", async ()=>{
         let bw = new BilaraWeb({fetch});
         let author = 'sujato';
         let lang = 'en';
@@ -552,7 +553,7 @@
             en: VERSES_SENIOR_NUNS,
         });
       });
-    it("TESTTESTloadSuttaRef(...) => thig1.1 (en) refLang:de", async ()=>{
+    it("loadSuttaRef(...) => thig1.1 (en) refLang:de", async ()=>{
         let bw = new BilaraWeb({fetch});
         let author = 'sujato';
         let lang = 'en';
@@ -569,7 +570,7 @@
             en: VERSES_SENIOR_NUNS,
         });
     });
-    it("TESTTESTloadSuttaRef(...) => thig1.1 (sujato)", async ()=>{
+    it("loadSuttaRef(...) => thig1.1 (sujato)", async ()=>{
         let bw = new BilaraWeb({fetch});
         //bw.logLevel = 'info';
         let author = 'sujato';
@@ -600,7 +601,7 @@
             //ref: VERSES_SENIOR_NUNS,
         });
     });
-    it("TESTTESTloadSuttaRef(...) => thig1.1 (soma) refLang:en", async ()=>{
+    it("loadSuttaRef(...) => thig1.1 (soma) refLang:en", async ()=>{
         let bw = new BilaraWeb({fetch});
         //bw.logLevel = 'info';
         let author = 'soma';

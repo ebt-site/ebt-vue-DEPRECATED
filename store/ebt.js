@@ -2,7 +2,7 @@ const {
     BilaraWeb,
     Settings,
 } = require('../src/index');
-const examples = require('scv-bilara/src/examples.json');
+const { Examples } = require('scv-esm');
 const { PaliHyphenator } = require('js-ebt');
 import Vue from "vue";
 
@@ -16,7 +16,7 @@ export const state = () => ({
     searchError: null,
     settings: Object.assign({}, new Settings()),
     sutta: null,
-    examples,
+    examples: Examples,
     voices: [],
     hyphenator: new PaliHyphenator({
       minWord: 5,

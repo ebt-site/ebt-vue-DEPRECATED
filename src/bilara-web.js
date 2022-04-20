@@ -1,19 +1,21 @@
 (function(exports) {
     const { logger } = require('log-instance');
     const { MerkleJson } = require('merkle-json');
-    const examples = require('scv-bilara/src/examples.json');
-    const SUID_MAP = require('scv-bilara/src/auto/suidmap.json');
-    const IS_EXAMPLE = require('scv-bilara/src/is-example.json');
+    const { 
+      Examples, 
+      SuidMap,
+      SuttaCentralId, 
+      SuttaRef,
+    } = require('scv-esm');
     const AUTHORS = require('../api/authors.json');
-    const { SuttaCentralId, SuttaRef } = require('scv-esm');
     const VOICES = require('./voices.json');
     const assert = require('assert');
 
     class BilaraWeb {
         constructor(opts={}) {
             (opts.logger || logger).logInstance(this, opts);
-            this.examples = opts.examples || examples;
-            this.suidMap = opts.suidMap || SUID_MAP;
+            this.examples = opts.examples || Examples;
+            this.suidMap = opts.suidMap || SuidMap;
             this.suids = Object.keys(this.suidMap)
               .sort(SuttaCentralId.compareLow);
             this.lang = opts.lang || 'en';
@@ -120,7 +122,7 @@
         }
 
         isExample(pattern, lang=this.lang) {
-            return !!IS_EXAMPLE[pattern.toLowerCase()];
+            return Examples.isExample(pattern);
         }
 
         exampleOfMatch(match, lang='en') {
