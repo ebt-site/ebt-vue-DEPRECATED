@@ -32,8 +32,11 @@
     "pattern": "gerücht",
     "method": "phrase",
     "resultPattern": "\\bgerücht",
-    "segsMatched": 3,
+    "segsMatched": 7,
     "bilaraPaths": [
+      "root/pli/ms/sutta/kn/ud/vagga4/ud4.8_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/ud/vagga4/ud4.8_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/ud/vagga4/ud4.8_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn7/sn7.2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn7/sn7.2_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn7/sn7.2_translation-en-sujato.json",
@@ -45,11 +48,65 @@
       "translation/en/sujato/sutta/dn/dn31_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "ud4.8/de/sabbamitta",
       "sn7.2/de/sabbamitta",
       "sn10.8/de/sabbamitta",
       "dn31/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga4/ud4.8_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/ud/vagga4/ud4.8_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/ud/vagga4/ud4.8_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud4.8",
+        "lang": "de",
+        "segMap": {
+          "ud4.8:11.1": {
+            "scid": "ud4.8:11.1",
+            "pli": "“Neso, bhikkhave, saddo ciraṁ bhavissati sattāhameva bhavissati. Sattāhassa accayena antaradhāyissati.",
+            "de": "„Dieses <span class=\"ebt-matched\">Gerücht</span>, Mönche und Nonnen, wird sich nicht lange halten. Es wird sieben Tage bleiben, dann wird es verschwinden. ",
+            "en": "“That rumor, mendicants, won’t last long. It will only be seven days, then it will vanish.",
+            "matched": true
+          },
+          "ud4.8:15.3": {
+            "scid": "ud4.8:15.3",
+            "pli": "Neva so saddo ciraṁ ahosi. Sattāhameva ahosi. Sattāhassa accayena antaradhāyi.",
+            "de": "Dieses <span class=\"ebt-matched\">Gerücht</span> hielt sich nicht lange. Es blieb sieben Tage, dann verschwand es. ",
+            "en": "That rumor didn’t last long. It was seven days, then it vanished.",
+            "matched": true
+          },
+          "ud4.8:17.3": {
+            "scid": "ud4.8:17.3",
+            "pli": "‘neso, bhikkhave, saddo ciraṁ bhavissati. Sattāhameva bhavissati. Sattāhassa accayena antaradhāyissatī’ti.",
+            "de": "‚Dieses <span class=\"ebt-matched\">Gerücht</span>, Mönche und Nonnen, wird sich nicht lange halten. Es wird sieben Tage bleiben, dann wird es verschwinden.‘ ",
+            "en": "‘That rumor, mendicants, won’t last long. It will only be seven days, then it will vanish.’",
+            "matched": true
+          },
+          "ud4.8:17.4": {
+            "scid": "ud4.8:17.4",
+            "pli": "Antarahito so, bhante, saddo”ti.",
+            "de": "Dieses <span class=\"ebt-matched\">Gerücht</span> ist verschwunden, Herr.“ ",
+            "en": "That rumor has vanished, sir.”",
+            "matched": true
+          }
+        },
+        "score": 4.055,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Innige Sprüche\n4.8 Mit Sundarī",
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 73,
+          "de": 60,
+          "en": 60
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn7/sn7.2_root-pli-ms.json",

@@ -32,7 +32,7 @@
     "pattern": "was anfängt, muss auch aufhören",
     "method": "phrase",
     "resultPattern": "\\bwas anfängt, muss auch aufhören",
-    "segsMatched": 8,
+    "segsMatched": 9,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn14_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/sn/sn56/sn56.11_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn56/sn56.11_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn56/sn56.11_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga5/ud5.3_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/ud/vagga5/ud5.3_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/ud/vagga5/ud5.3_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn21_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn21_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn21_translation-en-sujato.json",
@@ -56,6 +59,7 @@
     "suttaRefs": [
       "dn14/de/sabbamitta",
       "sn56.11/de/sabbamitta",
+      "ud5.3/de/sabbamitta",
       "dn21/de/sabbamitta",
       "an8.22/de/sabbamitta",
       "an8.21/de/sabbamitta",
@@ -138,6 +142,38 @@
           "pli": 60,
           "de": 59,
           "en": 59
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga5/ud5.3_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/ud/vagga5/ud5.3_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/ud/vagga5/ud5.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud5.3",
+        "lang": "de",
+        "segMap": {
+          "ud5.3:4.12": {
+            "scid": "ud5.3:4.12",
+            "pli": "“yaṁ kiñci samudayadhammaṁ sabbaṁ taṁ nirodhadhamman”ti.",
+            "de": "„Alles, <span class=\"ebt-matched\">was anfängt, muss auch aufhören</span>.“ ",
+            "en": "“Everything that has a beginning has an end.” ",
+            "matched": true
+          }
+        },
+        "score": 1.016,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Innige Sprüche\n5.3 Mit Suppabuddha dem Aussätzigen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 64,
+          "de": 62,
+          "en": 62
         }
       },
       {

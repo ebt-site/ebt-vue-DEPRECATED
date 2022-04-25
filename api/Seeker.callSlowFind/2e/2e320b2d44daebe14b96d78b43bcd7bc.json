@@ -32,8 +32,11 @@
     "pattern": "maßhalten beim essen",
     "method": "phrase",
     "resultPattern": "\\bmaßhalten beim essen",
-    "segsMatched": 3,
+    "segsMatched": 4,
     "bilaraPaths": [
+      "root/pli/ms/sutta/kn/ud/vagga4/ud4.6_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/ud/vagga4/ud4.6_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/ud/vagga4/ud4.6_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
@@ -45,11 +48,44 @@
       "translation/en/sujato/sutta/an/an2/an2.163-179_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "ud4.6/de/sabbamitta",
       "dn33/de/sabbamitta",
       "dn14/de/sabbamitta",
       "an2.163-179/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga4/ud4.6_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/ud/vagga4/ud4.6_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/ud/vagga4/ud4.6_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud4.6",
+        "lang": "de",
+        "segMap": {
+          "ud4.6:4.3": {
+            "scid": "ud4.6:4.3",
+            "pli": "Mattaññutā ca bhattasmiṁ,",
+            "de": "<span class=\"ebt-matched\">Maßhalten beim Essen</span>, ",
+            "en": "moderation in eating; ",
+            "matched": true
+          }
+        },
+        "score": 1.071,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Innige Sprüche\n4.6 Mit Piṇḍola",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 14,
+          "de": 13,
+          "en": 13
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/an/an2/an2.163-179_root-pli-ms.json",
