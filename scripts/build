@@ -26,7 +26,7 @@ npm install --save-dev scv-tts@latest
 rm -rf api/Seeker*
 rm -f local/examples.json
 cp -r node_modules/scv-tts/src/voice.json src/voices.json
-$DIR/js/examples.js
+$DIR/js/find-examples.js
 $DIR/js/authors.js
 
 if [ "$1" == "PUSH" ]; then
