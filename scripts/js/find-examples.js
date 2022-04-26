@@ -17,7 +17,7 @@ const SRC_EXAMPLES = path.join(SRC_DIR, 'examples.js');
 const API_EXAMPLES = path.join(API_DIR, 'examples.json');
 const EBT_DATA_DIR = path.join(APP_DIR, 'local', 'ebt-data');
 const EXAMPLES_DIR = path.join(EBT_DATA_DIR, 'examples');
-const EXAMPLES = require('scv-bilara/src/examples.json');
+const { Examples } = require('scv-esm');
 
 logger.logLevel = 'info';
 
@@ -46,11 +46,11 @@ let [ execContent, script, exampleArg, ] = argv;
     });
 
     let bilaraData;
-    let examples = EXAMPLES;
+    let examples = Examples;
     let languages = [];
-    let examplesJson = JSON.stringify(examples,null,2);
-    await fs.promises.writeFile(API_EXAMPLES, examplesJson);
-    await writeJsonModule('Examples', SRC_EXAMPLES, examplesJson);
+    //let examplesJson = JSON.stringify(examples,null,2);
+    //await fs.promises.writeFile(API_EXAMPLES, examplesJson);
+    //await writeJsonModule('Examples', SRC_EXAMPLES, examplesJson);
 
     let storeName = 'api';
     let storePath = path.join(APP_DIR, storeName);
