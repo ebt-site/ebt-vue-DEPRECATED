@@ -129,11 +129,13 @@
         should(bw.isExample('\\bROOT OF SUFFERING\\b')).equal('en');
         should(bw.isExample('\\bROOT OF SUFFER\\b')).equal(undefined);
     });
-    it("authors(...) => supported authors", async()=>{
+    it("TESTTESTauthors(...) => supported authors", async()=>{
       let bw = new BilaraWeb({fetch});
       let authors = bw.authors;
       should.deepEqual(authors.sabbamitta, {
+        category: [ 'sutta' ],
         exampleVersion: 1,
+        author: 'sabbamitta',
         lang: 'de',
         name: 'Sabbamitta',
         type: 'translator',
@@ -154,23 +156,23 @@
         should(bw.exampleGuid(example, lang)).equal(guid);
     });
     it("find(...) finds mind with greed", async()=>{
-        console.log('TODO', __filename); return;
         var bw = new BilaraWeb({fetch});
-        bw.logLevel = 'info';
         var pattern = "mind with greed"; 
-        var verbose = 1;
+        var verbose = 0;
         var lang = 'en';
         var res = await bw.find({ pattern, lang, verbose });
-        should.deepEqual(res.suttaRefs, [
-          'an5.157/en/sujato',
+        should.deepEqual(res.suttaRefs.slice(0,3), [
+          'sn52.14/en/sujato',
+          'sn51.11/en/sujato',
+          'sn16.9/en/sujato',
         ]);
-        should(res.bilaraPaths.length).equal(2);
+        should(res.bilaraPaths.length).equal(40);
     });
-    it("find(...) finds inappropriate to talk", async()=>{
+    it("TESTTESTfind(...) finds inappropriate to talk", async()=>{
         var bw = new BilaraWeb({fetch});
-        bw.logLevel = 'info';
+        //bw.logLevel = 'info';
         var pattern = "inappropriate to talk"; 
-        var verbose = 1;
+        var verbose = 0;
         var lang = 'en';
         var res = await bw.find({ pattern, lang, verbose });
         should.deepEqual(res.suttaRefs, [
@@ -180,7 +182,7 @@
     });
     it("find(...) finds de example", async()=>{
         var bw = new BilaraWeb({fetch});
-        bw.logLevel = 'info';
+        //bw.logLevel = 'info';
         var pattern = "abnehmend"; 
         var verbose = 0;
         var lang = 'de';
@@ -228,7 +230,7 @@
             ],
         };
         var bw = new BilaraWeb({fetch, examples});
-        bw.logLevel = 'info';
+        //bw.logLevel = 'info';
 
         let text = "But ma’am, how does identity view come about?";
         should(/\bhow does/i.test(text)).equal(true);
