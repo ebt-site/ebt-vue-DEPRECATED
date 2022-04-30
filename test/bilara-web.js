@@ -323,12 +323,14 @@
         var bw = new BilaraWeb({fetch, examples});
         should(bw.exampleOfMatch('königliches Gut', 'de')).equal(examples.de[0]);
     });
-    it("bilaraPathOf(...) SuttaRef => Bilara path", ()=>{
+    it("TESTTESTbilaraPathOf(...) SuttaRef => Bilara path", ()=>{
       let sutta_uid = 'thig1.1';
       let segnum = '0.1';
       var bwPli = new BilaraWeb({fetch, lang:'pli'});
       var bwEn = new BilaraWeb({fetch, lang:'en'});
       var bwDe = new BilaraWeb({fetch, lang:'de'});
+      let SUJATO = 'translation/en/sujato/sutta';
+      let SABBAMITTA = 'translation/de/sabbamitta/sutta';
       //bwEn.logLevel = 'info';
 
       // nothing
@@ -340,23 +342,25 @@
       should(bwPli.bilaraPathOf('thig1.1')).equal(
         'root/pli/ms/sutta/kn/thig/thig1.1_root-pli-ms.json');
       should(bwDe.bilaraPathOf('thig1.1')).equal(
-        'translation/de/sabbamitta/sutta/kn/thig/thig1.1_translation-de-sabbamitta.json');
+        `${SABBAMITTA}/kn/thig/thig1.1_translation-de-sabbamitta.json`);
       should(bwEn.bilaraPathOf('thig1.1')).equal(
-        'translation/en/sujato/sutta/kn/thig/thig1.1_translation-en-sujato.json');
+        `${SUJATO}/kn/thig/thig1.1_translation-en-sujato.json`);
       should(bwEn.bilaraPathOf('thig1.1/pli')).equal(
         'root/pli/ms/sutta/kn/thig/thig1.1_root-pli-ms.json');
       should(bwEn.bilaraPathOf('thig1.1/pli/ms')).equal(
         'root/pli/ms/sutta/kn/thig/thig1.1_root-pli-ms.json');
 
       // English
+      should(bwEn.bilaraPathOf('dn3')).equal(
+        `${SUJATO}/dn/dn3_translation-en-sujato.json`);
       should(bwEn.bilaraPathOf('thig1.1/en')).equal(
-        'translation/en/sujato/sutta/kn/thig/thig1.1_translation-en-sujato.json');
+        `${SUJATO}/kn/thig/thig1.1_translation-en-sujato.json`);
       should(bwDe.bilaraPathOf('thig1.1/en')).equal(
-        'translation/en/sujato/sutta/kn/thig/thig1.1_translation-en-sujato.json');
+        `${SUJATO}/kn/thig/thig1.1_translation-en-sujato.json`);
       should(bwPli.bilaraPathOf('thig1.1/en')).equal(
-        'translation/en/sujato/sutta/kn/thig/thig1.1_translation-en-sujato.json');
+        `${SUJATO}/kn/thig/thig1.1_translation-en-sujato.json`);
       should(bwEn.bilaraPathOf('thig1.1/en/sujato')).equal(
-        'translation/en/sujato/sutta/kn/thig/thig1.1_translation-en-sujato.json');
+        `${SUJATO}/kn/thig/thig1.1_translation-en-sujato.json`);
       should(bwEn.bilaraPathOf('thig1.1/en/soma')).equal(
         'translation/en/soma/sutta/kn/thig/thig1.1_translation-en-soma.json');
       should(bwDe.bilaraPathOf('thig1.1/en/soma')).equal(
@@ -364,15 +368,15 @@
 
       // German
       should(bwEn.bilaraPathOf('thig1.1/de')).equal(
-        'translation/de/sabbamitta/sutta/kn/thig/thig1.1_translation-de-sabbamitta.json');
+        `${SABBAMITTA}/kn/thig/thig1.1_translation-de-sabbamitta.json`);
       should(bwEn.bilaraPathOf('thig1.1/de/sabbamitta')).equal(
-        'translation/de/sabbamitta/sutta/kn/thig/thig1.1_translation-de-sabbamitta.json');
+        `${SABBAMITTA}/kn/thig/thig1.1_translation-de-sabbamitta.json`);
       should(bwPli.bilaraPathOf({sutta_uid, author:'sabbamitta'})).equal(
-        'translation/de/sabbamitta/sutta/kn/thig/thig1.1_translation-de-sabbamitta.json');
+        `${SABBAMITTA}/kn/thig/thig1.1_translation-de-sabbamitta.json`);
       should(bwEn.bilaraPathOf({sutta_uid, author:'sabbamitta'})).equal(
-        'translation/de/sabbamitta/sutta/kn/thig/thig1.1_translation-de-sabbamitta.json');
+        `${SABBAMITTA}/kn/thig/thig1.1_translation-de-sabbamitta.json`);
       should(bwEn.bilaraPathOf({sutta_uid, author:'sabbamitta'})).equal(
-        'translation/de/sabbamitta/sutta/kn/thig/thig1.1_translation-de-sabbamitta.json');
+        `${SABBAMITTA}/kn/thig/thig1.1_translation-de-sabbamitta.json`);
     });
     it("loadBilaraPath(...) => thig1.1", async ()=>{
       // Pali

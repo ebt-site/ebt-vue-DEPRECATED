@@ -383,11 +383,13 @@
       } else {
         bpKeys.length > 1 &&
           bpKeys.sort((a, b) => {
-            let [aTrans, aLang, aAuth] = a.split("/");
-            let [bTrans, bLang, bAuth] = b.split("/");
-            // Prioritize sutta selection for a language by author exampleVersion
-            let aEV = authors[aAuth].exampleVersion;
-            let bEV = authors[bAuth].exampleVersion;
+            let [aTrans, aLang, aId] = a.split("/");
+            let [bTrans, bLang, bId] = b.split("/");
+            // Prioritize sutta selection by author exampleVersion
+            let aAuth = authors[aId] || {};
+            let bAuth = authors[bId] || {};
+            let aEV = aAuth.exampleVersion || 0;
+            let bEV = bAuth.exampleVersion || 0;
             let cmp = bEV - aEV;
             return cmp;
           });
