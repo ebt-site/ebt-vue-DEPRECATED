@@ -1,0 +1,80 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "i kill",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en"
+      ],
+      "maxResults": 1000,
+      "searchLang": "en",
+      "maxDoc": 50,
+      "minLang": 2,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "en",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "i kill",
+    "method": "phrase",
+    "resultPattern": "\\bi kill",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an4/an4.111_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an4/an4.111_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an4.111/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.111_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an4/an4.111_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.111",
+        "lang": "en",
+        "segMap": {
+          "an4.111:1.7": {
+            "scid": "an4.111:1.7",
+            "pli": "hanāmi naṁ, bhante. ",
+            "en": "“In that case, sir, <span class=\"ebt-matched\">I kill</span> it. ",
+            "matched": true
+          },
+          "an4.111:4.2": {
+            "scid": "an4.111:4.2",
+            "pli": "“Sace me, kesi, purisadammo saṇhena vinayaṁ na upeti, pharusena vinayaṁ na upeti, saṇhapharusena vinayaṁ na upeti, hanāmi naṁ, kesī”ti. ",
+            "en": "“In that case, Kesi, <span class=\"ebt-matched\">I kill</span> them.” ",
+            "matched": true
+          }
+        },
+        "score": 2.057,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 4.111\n12. With Kesi\nWith Kesi",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 35,
+          "en": 34
+        }
+      }
+    ]
+  }
+}
