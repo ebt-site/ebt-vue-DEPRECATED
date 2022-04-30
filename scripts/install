@@ -1,6 +1,7 @@
 #!/bin/bash
 
-DIR=`dirname $0` 
+DIR=`dirname $0`
+${DIR}/install-node14
 
 $DIR/install-ripgrep
 
