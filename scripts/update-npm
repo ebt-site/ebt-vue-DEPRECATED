@@ -3,8 +3,7 @@
 DIR=`dirname $0`
 SCRIPT=`basename $0 | tr abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ`
 
-${DIR}/install-node14
-${DIR}/update-npm
-${DIR}/install-ripgrep
+sudo npm install -g npm@latest
+echo -e "${SCRIPT}: npm version `npm --version`"
 
 npm install

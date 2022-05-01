@@ -4,5 +4,6 @@ DIR=`dirname $0`
 SCRIPT=`basename $0 | tr abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ`
 cd $DIR/..
 
+git pull
 $DIR/build PUSH
 $DIR/push-action
