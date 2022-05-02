@@ -32,7 +32,7 @@
     "pattern": "kuhhirte",
     "method": "phrase",
     "resultPattern": "\\bkuhhirte",
-    "segsMatched": 33,
+    "segsMatched": 34,
     "bilaraPaths": [
       "root/pli/ms/sutta/kn/ud/vagga4/ud4.3_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga4/ud4.3_translation-de-sabbamitta.json",
@@ -51,7 +51,11 @@
       "translation/en/sujato/sutta/an/an11/an11.22-29_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an11/an11.502-981_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an11/an11.502-981_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an11/an11.502-981_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an11/an11.502-981_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/dhp/dhp1-20_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/dhp/dhp1-20_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp1-20_translation-en-sujato.json",
+      "translation/en/suddhaso/sutta/kn/dhp/dhp1-20_translation-en-suddhaso.json"
     ],
     "suttaRefs": [
       "ud4.3/de/sabbamitta",
@@ -59,7 +63,8 @@
       "an11.17/de/sabbamitta",
       "an3.70/de/sabbamitta",
       "an11.22-29/de/sabbamitta",
-      "an11.502-981/de/sabbamitta"
+      "an11.502-981/de/sabbamitta",
+      "dhp1-20/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -441,6 +446,39 @@
           "pli": 10,
           "de": 9,
           "en": 10
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/dhp/dhp1-20_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/dhp/dhp1-20_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/dhp/dhp1-20_translation-en-sujato.json",
+          "translation/en/suddhaso/sutta/kn/dhp/dhp1-20_translation-en-suddhaso.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dhp1-20",
+        "lang": "de",
+        "segMap": {
+          "dhp19:3": {
+            "scid": "dhp19:3",
+            "pli": "Gopova gāvo gaṇayaṁ paresaṁ,",
+            "de": "so verpasst er, wie ein <span class=\"ebt-matched\">Kuhhirte</span>, der anderer Leute Kühe zählt, ",
+            "en": "then, like a cowherd who counts the cattle of others,",
+            "matched": true
+          }
+        },
+        "score": 1.009,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Kleinere Sammlung\nDhamma-Sprüche 1–20\n1. Paare\nCakkhupālattheravatthu",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 108,
+          "de": 93,
+          "en": 93
         }
       }
     ]

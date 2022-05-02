@@ -3,7 +3,7 @@
   "volume": "Seeker.callSlowFind",
   "args": [
     {
-      "pattern": "stillen aller vorgänge",
+      "pattern": "stillen.* aller vorgänge",
       "showMatchesOnly": true,
       "languages": [
         "pli",
@@ -29,10 +29,10 @@
     "minLang": 3,
     "maxDoc": 50,
     "maxResults": 1000,
-    "pattern": "stillen aller vorgänge",
+    "pattern": "stillen.* aller vorgänge",
     "method": "phrase",
-    "resultPattern": "\\bstillen aller vorgänge",
-    "segsMatched": 20,
+    "resultPattern": "\\bstillen.* aller vorgänge",
+    "segsMatched": 21,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an9/an9.36_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an9/an9.36_translation-de-sabbamitta.json",
@@ -46,6 +46,9 @@
       "root/pli/ms/sutta/sn/sn6/sn6.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn6/sn6.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn6/sn6.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.90_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn22/sn22.90_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.90_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn14_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json",
@@ -82,6 +85,7 @@
       "an11.7/de/sabbamitta",
       "an10.60/de/sabbamitta",
       "sn6.1/de/sabbamitta",
+      "sn22.90/de/sabbamitta",
       "dn14/de/sabbamitta",
       "an5.140/de/sabbamitta",
       "an4.114/de/sabbamitta",
@@ -550,6 +554,38 @@
           "pli": 59,
           "de": 50,
           "en": 57
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.90_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn22/sn22.90_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.90_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.90",
+        "lang": "de",
+        "segMap": {
+          "sn22.90:3.12": {
+            "scid": "sn22.90:3.12",
+            "pli": "Atha ca pana me sabbasaṅkhārasamathe sabbūpadhipaṭinissagge taṇhākkhaye virāge nirodhe nibbāne cittaṁ na pakkhandati nappasīdati na santiṭṭhati nādhimuccati. ",
+            "de": "Und doch ist mein Geist bezüglich des <span class=\"ebt-matched\">Stillens aller Vorgänge</span>, des Loslassens aller Bindungen, des Beendens des Verlangens, des Schwindens, Aufhörens, Erlöschens nicht begierig, zuversichtlich, fest verankert und entschlossen. ",
+            "en": "And yet my mind isn’t eager, confident, settled, and decided about the stilling of all activities, the letting go of all attachments, the ending of craving, fading away, cessation, extinguishment. ",
+            "matched": true
+          }
+        },
+        "score": 1.01,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 22\n9. Ordensälteste\n90. Mit Channa",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 100,
+          "de": 57,
+          "en": 99
         }
       },
       {

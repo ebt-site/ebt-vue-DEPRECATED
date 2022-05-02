@@ -1,0 +1,115 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "ein paar jungen",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "ein paar jungen",
+    "method": "phrase",
+    "resultPattern": "\\bein paar jungen",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/kn/ud/vagga5/ud5.4_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/ud/vagga5/ud5.4_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/ud/vagga5/ud5.4_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga2/ud2.3_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/ud/vagga2/ud2.3_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/ud/vagga2/ud2.3_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "ud5.4/de/sabbamitta",
+      "ud2.3/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga2/ud2.3_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/ud/vagga2/ud2.3_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/ud/vagga2/ud2.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud2.3",
+        "lang": "de",
+        "segMap": {
+          "ud2.3:1.3": {
+            "scid": "ud2.3:1.3",
+            "pli": "Tena kho pana samayena sambahulā kumārakā antarā ca sāvatthiṁ antarā ca jetavanaṁ ahiṁ daṇḍena hananti.",
+            "de": "Zu dieser Zeit schlugen zwischen Sāvatthī und Jetas Wäldchen <span class=\"ebt-matched\">ein paar Jungen</span> eine Schlange mit einem Stock. ",
+            "en": "Now at that time, between Sāvatthī and the Jeta Grove, several boys were hitting a snake with a stick. ",
+            "matched": true
+          }
+        },
+        "score": 1.059,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Innige Sprüche\n2.3 Ein Stock",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 17,
+          "de": 16,
+          "en": 16
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga5/ud5.4_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/ud/vagga5/ud5.4_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/ud/vagga5/ud5.4_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud5.4",
+        "lang": "de",
+        "segMap": {
+          "ud5.4:1.3": {
+            "scid": "ud5.4:1.3",
+            "pli": "Tena kho pana samayena sambahulā kumārakā antarā ca sāvatthiṁ antarā ca jetavanaṁ macchake bādhenti.",
+            "de": "Zu dieser Zeit quälten zwischen Sāvatthī und Jetas Wäldchen <span class=\"ebt-matched\">ein paar Jungen</span> einige Fische. ",
+            "en": "Now at that time, between Sāvatthī and the Jeta Grove, several boys were tormenting some fish. ",
+            "matched": true
+          }
+        },
+        "score": 1.05,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Innige Sprüche\n5.4 Die Jungen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 20,
+          "de": 19,
+          "en": 19
+        }
+      }
+    ]
+  }
+}

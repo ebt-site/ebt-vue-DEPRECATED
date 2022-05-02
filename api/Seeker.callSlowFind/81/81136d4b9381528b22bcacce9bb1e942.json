@@ -32,14 +32,18 @@
     "pattern": "besorgnis",
     "method": "phrase",
     "resultPattern": "\\bbesorgnis",
-    "segsMatched": 1,
+    "segsMatched": 2,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn2/sn2.17_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn2/sn2.17_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn2/sn2.17_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn2/sn2.17_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.90_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn22/sn22.90_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.90_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "sn2.17/de/sabbamitta"
+      "sn2.17/de/sabbamitta",
+      "sn22.90/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -72,6 +76,38 @@
           "pli": 16,
           "de": 16,
           "en": 16
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.90_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn22/sn22.90_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.90_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.90",
+        "lang": "de",
+        "segMap": {
+          "sn22.90:3.13": {
+            "scid": "sn22.90:3.13",
+            "pli": "Paritassanā upādānaṁ uppajjati; ",
+            "de": "<span class=\"ebt-matched\">Besorgnis</span> und Ergreifen kommen auf, ",
+            "en": "Anxiety and grasping arise. ",
+            "matched": true
+          }
+        },
+        "score": 1.01,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 22\n9. Ordensälteste\n90. Mit Channa",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 100,
+          "de": 57,
+          "en": 99
         }
       }
     ]
