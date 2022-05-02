@@ -1,13 +1,13 @@
 #!/bin/bash
 SCRIPT=`basename $0 | tr abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ`
 
-RQDVER=14.19.1
+RQDVER=16
 if [ ! -x /usr/bin/curl ]; then
     echo -e "${SCRIPT}: apt-get install curl"
     sudo apt-get install -y curl
 fi
 if [ -e /usr/bin/node ]; then
-    NODEVER=`/usr/bin/node --version`
+    NODEVER=`/usr/bin/node --version | sed -e 's/\..*//'`
     if [ "$NODEVER" == "v${RQDVER}" ]; then
         echo -e "${SCRIPT}: node ${NODEVER} found (OK)"
         exit 0
@@ -17,7 +17,7 @@ if [ -e /usr/bin/node ]; then
     echo -e "${SCRIPT}: apt autoremove ... "
     sudo apt autoremove -y
     echo -e "${SCRIPT}: apt-get install nodejs@${RQDVER} "
-    curl -sL https://deb.nodesource.com/setup_14.19 | sudo bash -
+    curl -sL https://deb.nodesource.com/setup_16.x | sudo bash -
     sudo apt-get install -y nodejs
     exit 0;
 fi
@@ -25,7 +25,7 @@ fi
 . ~/.nvm/nvm.sh  
 type node > /dev/null
 RC=$?; if [ "$RC" == "0" ]; then
-    NODEVER=`node --version`
+    NODEVER=`/usr/bin/node --version | sed -e 's/\..*//'`
     if [ "$NODEVER" == "v${RQDVER}" ]; then
         echo -e "${SCRIPT}: node ${NODEVER} found (OK)"
     else
