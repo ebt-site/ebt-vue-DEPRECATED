@@ -31,12 +31,14 @@
     "pattern": "element of",
     "method": "phrase",
     "resultPattern": "\\belement of",
-    "segsMatched": 25,
+    "segsMatched": 31,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn14/sn14.11_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn14/sn14.11_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn14/sn14.12_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn14/sn14.12_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an6/an6.38_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an6/an6.38_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn22/sn22.47_root-pli-ms.json",
@@ -45,6 +47,8 @@
       "translation/en/sujato/sutta/sn/sn14/sn14.13_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/iti/vagga6/iti51_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/iti/vagga6/iti51_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn29_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn29_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an6/an6.41_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an6/an6.41_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an6/an6.111_root-pli-ms.json",
@@ -53,10 +57,12 @@
     "suttaRefs": [
       "sn14.11/en/sujato",
       "sn14.12/en/sujato",
+      "dn16/en/sujato",
       "an6.38/en/sujato",
       "sn22.47/en/sujato",
       "sn14.13/en/sujato",
       "iti51/en/sujato",
+      "dn29/en/sujato",
       "an6.41/en/sujato",
       "an6.111/en/sujato"
     ],
@@ -201,6 +207,59 @@
         "langSegs": {
           "pli": 39,
           "en": 38
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
+          "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn16",
+        "lang": "en",
+        "segMap": {
+          "dn16:3.20.1": {
+            "scid": "dn16:3.20.1",
+            "pli": "Puna caparaṁ, ānanda, yadā tathāgato anupādisesāya nibbānadhātuyā parinibbāyati, tadāyaṁ pathavī kampati saṅkampati sampakampati sampavedhati. ",
+            "en": "Furthermore, when the Realized One becomes fully extinguished through the <span class=\"ebt-matched\">element of</span> extinguishment with nothing left over, the earth shakes and rocks and trembles. ",
+            "matched": true
+          },
+          "dn16:4.38.2": {
+            "scid": "dn16:4.38.2",
+            "pli": "Yañca, ānanda, rattiṁ tathāgato anuttaraṁ sammāsambodhiṁ abhisambujjhati, yañca rattiṁ anupādisesāya nibbānadhātuyā parinibbāyati. ",
+            "en": "The night when a Realized One understands the supreme perfect awakening; and the night he becomes fully extinguished through the <span class=\"ebt-matched\">element of</span> extinguishment with nothing left over. ",
+            "matched": true
+          },
+          "dn16:4.42.10": {
+            "scid": "dn16:4.42.10",
+            "pli": "Yañca piṇḍapātaṁ paribhuñjitvā tathāgato anuttaraṁ sammāsambodhiṁ abhisambujjhati, yañca piṇḍapātaṁ paribhuñjitvā tathāgato anupādisesāya nibbānadhātuyā parinibbāyati. ",
+            "en": "The almsmeal after eating which a Realized One understands the supreme perfect awakening; and the almsmeal after eating which he becomes fully extinguished through the <span class=\"ebt-matched\">element of</span> extinguishment with nothing left over. ",
+            "matched": true
+          },
+          "dn16:5.8.6": {
+            "scid": "dn16:5.8.6",
+            "pli": "‘Idha tathāgato anupādisesāya nibbānadhātuyā parinibbuto’ti, ānanda, saddhassa kulaputtassa dassanīyaṁ saṁvejanīyaṁ ṭhānaṁ. ",
+            "en": "Thinking: ‘Here the Realized One became fully extinguished through the <span class=\"ebt-matched\">element of</span> extinguishment with nothing left over!’—that is an inspiring place. ",
+            "matched": true
+          },
+          "dn16:5.8.9": {
+            "scid": "dn16:5.8.9",
+            "pli": "‘idha tathāgato jāto’tipi, ‘idha tathāgato anuttaraṁ sammāsambodhiṁ abhisambuddho’tipi, ‘idha tathāgatena anuttaraṁ dhammacakkaṁ pavattitan’tipi, ‘idha tathāgato anupādisesāya nibbānadhātuyā parinibbuto’tipi. ",
+            "en": "‘Here the Realized One was born!’ and ‘Here the Realized One became awakened as a supreme fully awakened Buddha!’ and ‘Here the supreme Wheel of Dhamma was rolled forth by the Realized One!’ and ‘Here the Realized One became fully extinguished through the <span class=\"ebt-matched\">element of</span> extinguishment with nothing left over!’ ",
+            "matched": true
+          }
+        },
+        "score": 5.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Long Discourses 16\nThe Great Discourse on the Buddha’s Extinguishment",
+        "segsMatched": 5,
+        "langSegs": {
+          "pli": 1665,
+          "en": 1664
         }
       },
       {
@@ -393,6 +452,35 @@
         "langSegs": {
           "pli": 37,
           "en": 36
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn29_root-pli-ms.json",
+          "translation/en/sujato/sutta/dn/dn29_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn29",
+        "lang": "en",
+        "segMap": {
+          "dn29:29.3": {
+            "scid": "dn29:29.3",
+            "pli": "Yañca, cunda, rattiṁ tathāgato anuttaraṁ sammāsambodhiṁ abhisambujjhati, yañca rattiṁ anupādisesāya nibbānadhātuyā parinibbāyati, yaṁ etasmiṁ antare bhāsati lapati niddisati. Sabbaṁ taṁ tatheva hoti no aññathā, ",
+            "en": "From the night when the Realized One understands the supreme perfect awakening until the night he becomes fully extinguished—through the <span class=\"ebt-matched\">element of</span> extinguishment with nothing left over—everything he speaks, says, and expresses is real, not otherwise. ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Long Discourses 29\nAn Impressive Discourse",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 465,
+          "en": 464
         }
       }
     ]
