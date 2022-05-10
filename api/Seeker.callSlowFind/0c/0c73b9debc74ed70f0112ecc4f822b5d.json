@@ -1,0 +1,79 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "sprich einen dhammatext",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "sprich einen dhammatext",
+    "method": "phrase",
+    "resultPattern": "\\bsprich einen dhammatext",
+    "segsMatched": 1,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/kn/ud/vagga5/ud5.6_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/ud/vagga5/ud5.6_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/ud/vagga5/ud5.6_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "ud5.6/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga5/ud5.6_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/ud/vagga5/ud5.6_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/ud/vagga5/ud5.6_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud5.6",
+        "lang": "de",
+        "segMap": {
+          "ud5.6:17.4": {
+            "scid": "ud5.6:17.4",
+            "pli": "“paṭibhātu taṁ, bhikkhu, dhammo bhāsitun”ti.",
+            "de": "„<span class=\"ebt-matched\">Sprich einen Dhammatext</span>, Mönch, der dir in den Sinn kommt.“ ",
+            "en": "“Speak some Dhamma, mendicant, as you feel inspired.”",
+            "matched": true
+          }
+        },
+        "score": 1.012,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Innige Sprüche\n5.6 Mit Soṇa",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 82,
+          "de": 63,
+          "en": 63
+        }
+      }
+    ]
+  }
+}

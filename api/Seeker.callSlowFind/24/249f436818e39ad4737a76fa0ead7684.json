@@ -1,0 +1,151 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "eben das ist das ende des leidens",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "eben das ist das ende des leidens",
+    "method": "phrase",
+    "resultPattern": "\\beben das ist das ende des leidens",
+    "segsMatched": 3,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn12/sn12.51_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn12/sn12.51_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.51_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga7/ud7.2_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/ud/vagga7/ud7.2_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/ud/vagga7/ud7.2_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga1/ud1.10_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/ud/vagga1/ud1.10_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/ud/vagga1/ud1.10_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn12.51/de/sabbamitta",
+      "ud7.2/de/sabbamitta",
+      "ud1.10/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga7/ud7.2_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/ud/vagga7/ud7.2_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/ud/vagga7/ud7.2_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud7.2",
+        "lang": "de",
+        "segMap": {
+          "ud7.2:4.4": {
+            "scid": "ud7.2:4.4",
+            "pli": "Esevanto dukkhassā”ti.",
+            "de": "<span class=\"ebt-matched\">Eben das ist das Ende des Leidens</span>.“ ",
+            "en": "Just this is the end of suffering.” ",
+            "matched": true
+          }
+        },
+        "score": 1.083,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Innige Sprüche\n7.2 Bhaddiya der Zwerg (2)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 12,
+          "de": 11,
+          "en": 11
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga1/ud1.10_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/ud/vagga1/ud1.10_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/ud/vagga1/ud1.10_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud1.10",
+        "lang": "de",
+        "segMap": {
+          "ud1.10:8.8": {
+            "scid": "ud1.10:8.8",
+            "pli": "Esevanto dukkhassā”ti.",
+            "de": "<span class=\"ebt-matched\">Eben das ist das Ende des Leidens</span>.“ ",
+            "en": "Just this is the end of suffering.” ",
+            "matched": true
+          }
+        },
+        "score": 1.013,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Innige Sprüche\n1.10 Mit Bāhiya",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 77,
+          "de": 70,
+          "en": 70
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn12/sn12.51_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn12/sn12.51_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn12/sn12.51_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn12.51",
+        "lang": "de",
+        "segMap": {
+          "sn12.51:24.3": {
+            "scid": "sn12.51:24.3",
+            "pli": "Esevanto dukkhassā”ti. ",
+            "de": "<span class=\"ebt-matched\">Eben das ist das Ende des Leidens</span>.“ ",
+            "en": "Just this is the end of suffering.” ",
+            "matched": true
+          }
+        },
+        "score": 1.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 12\n6. Leiden\n51. Eine vollständige Untersuchung",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 92,
+          "de": 91,
+          "en": 91
+        }
+      }
+    ]
+  }
+}
