@@ -32,7 +32,7 @@
     "pattern": "überquer",
     "method": "phrase",
     "resultPattern": "\\büberquer",
-    "segsMatched": 46,
+    "segsMatched": 49,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an4/an4.196_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.196_translation-de-sabbamitta.json",
@@ -58,6 +58,9 @@
       "root/pli/ms/sutta/kn/ud/vagga8/ud8.6_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga8/ud8.6_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/ud/vagga8/ud8.6_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga7/ud7.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/ud/vagga7/ud7.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/ud/vagga7/ud7.1_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
@@ -76,6 +79,9 @@
       "root/pli/ms/sutta/sn/sn1/sn1.33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn1/sn1.33_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.33_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga7/ud7.3_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/ud/vagga7/ud7.3_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/ud/vagga7/ud7.3_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/ud/vagga3/ud3.2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga3/ud3.2_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/ud/vagga3/ud3.2_translation-en-sujato.json",
@@ -111,12 +117,14 @@
       "sn2.15/de/sabbamitta",
       "sn1.5/de/sabbamitta",
       "ud8.6/de/sabbamitta",
+      "ud7.1/de/sabbamitta",
       "dn16/de/sabbamitta",
       "sn4.12/de/sabbamitta",
       "sn2.18/de/sabbamitta",
       "sn1.44/de/sabbamitta",
       "sn1.35/de/sabbamitta",
       "sn1.33/de/sabbamitta",
+      "ud7.3/de/sabbamitta",
       "ud3.2/de/sabbamitta",
       "thig1.10/de/sabbamitta",
       "dn21/de/sabbamitta",
@@ -468,6 +476,45 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga7/ud7.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/ud/vagga7/ud7.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/ud/vagga7/ud7.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud7.1",
+        "lang": "de",
+        "segMap": {
+          "ud7.1:5.3": {
+            "scid": "ud7.1:5.3",
+            "pli": "Evaṁ vimutto udatāri oghaṁ,",
+            "de": "Da er so befreit ist, hat er die Flut <span class=\"ebt-matched\">überquer</span>t, ",
+            "en": "Freed like this, he has crossed the flood",
+            "matched": true
+          },
+          "ud7.1:5.4": {
+            "scid": "ud7.1:5.4",
+            "pli": "Atiṇṇapubbaṁ apunabbhavāyā”ti.",
+            "de": "die zuvor nicht <span class=\"ebt-matched\">überquer</span>t war, und wird nicht wiedergeboren.“ ",
+            "en": "not crossed before, so as to not be reborn.”",
+            "matched": true
+          }
+        },
+        "score": 2.154,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Innige Sprüche\n7.1 Bhaddiya der Zwerg (1)",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 13,
+          "de": 12,
+          "en": 12
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn2/sn2.15_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/sn/sn2/sn2.15_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/sn/sn2/sn2.15_translation-en-sujato.json"
@@ -646,6 +693,38 @@
           "pli": 8,
           "de": 7,
           "en": 7
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga7/ud7.3_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/ud/vagga7/ud7.3_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/ud/vagga7/ud7.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud7.3",
+        "lang": "de",
+        "segMap": {
+          "ud7.3:4.4": {
+            "scid": "ud7.3:4.4",
+            "pli": "Oghaṁ tareyyuṁ vipulaṁ mahantan”ti.",
+            "de": "da können sie niemals die Flut, die große, <span class=\"ebt-matched\">überquer</span>en.“ ",
+            "en": "there’s no way they can cross the flood so vast.”",
+            "matched": true
+          }
+        },
+        "score": 1.067,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Innige Sprüche\n7.3 Klammern (1)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 15,
+          "de": 12,
+          "en": 12
         }
       },
       {

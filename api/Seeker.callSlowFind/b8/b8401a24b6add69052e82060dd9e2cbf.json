@@ -32,14 +32,18 @@
     "pattern": "von geburt an blind",
     "method": "phrase",
     "resultPattern": "\\bvon geburt an blind",
-    "segsMatched": 3,
+    "segsMatched": 4,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn23_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn23_translation-en-sujato.json"
+      "translation/en/sujato/sutta/dn/dn23_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga6/ud6.4_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/ud/vagga6/ud6.4_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/ud/vagga6/ud6.4_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "dn23/de/sabbamitta"
+      "dn23/de/sabbamitta",
+      "ud6.4/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -86,6 +90,38 @@
           "pli": 715,
           "de": 636,
           "en": 713
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga6/ud6.4_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/ud/vagga6/ud6.4_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/ud/vagga6/ud6.4_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud6.4",
+        "lang": "de",
+        "segMap": {
+          "ud6.4:17.3": {
+            "scid": "ud6.4:17.3",
+            "pli": "‘ehi tvaṁ, ambho purisa, yāvatakā sāvatthiyā jaccandhā te sabbe ekajjhaṁ sannipātehī’ti.",
+            "de": "‚Bitte, guter Mann, versammle alle in ganz Sāvatthī, die <span class=\"ebt-matched\">von Geburt an blind</span> sind, und bringe sie an einem Ort zusammen.‘ ",
+            "en": "‘Please, mister, gather all those blind from birth throughout Sāvatthī and bring them together in one place.’",
+            "matched": true
+          }
+        },
+        "score": 1.009,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Innige Sprüche\n6.4 Anhänger anderer Lehren (1)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 106,
+          "de": 90,
+          "en": 88
         }
       }
     ]

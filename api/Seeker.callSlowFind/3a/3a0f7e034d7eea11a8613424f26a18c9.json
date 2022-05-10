@@ -32,18 +32,26 @@
     "pattern": "essen g[ei]b",
     "method": "phrase",
     "resultPattern": "\\bessen g[ei]b",
-    "segsMatched": 2,
+    "segsMatched": 4,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn1/sn1.42_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn1/sn1.42_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.42_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.78_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.78_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an5/an5.78_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an5/an5.78_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.59_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.59_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.59_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.58_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.58_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.58_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "sn1.42/de/sabbamitta",
-      "an5.78/de/sabbamitta"
+      "an5.78/de/sabbamitta",
+      "an4.59/de/sabbamitta",
+      "an4.58/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -76,6 +84,70 @@
           "pli": 17,
           "de": 17,
           "en": 17
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.59_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.59_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.59_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.59",
+        "lang": "de",
+        "segMap": {
+          "an4.59:2.2": {
+            "scid": "an4.59:2.2",
+            "pli": "Kālena sakkacca dadāti bhojanaṁ; ",
+            "de": "jenen <span class=\"ebt-matched\">Essen geb</span>en, die gezügelt sind und nur essen, was andere geben – ",
+            "en": " ",
+            "matched": true
+          }
+        },
+        "score": 1.056,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 4\n6. Überfließendes Verdienst\n59. Speise",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 18,
+          "de": 17,
+          "en": 17
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.58_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.58_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.58_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.58",
+        "lang": "de",
+        "segMap": {
+          "an4.58:3.2": {
+            "scid": "an4.58:3.2",
+            "pli": "Kālena sakkacca dadāti bhojanaṁ; ",
+            "de": "jenen <span class=\"ebt-matched\">Essen geb</span>en, die gezügelt sind und nur essen, was andere geben – ",
+            "en": "to those who are disciplined, eating only what others give, ",
+            "matched": true
+          }
+        },
+        "score": 1.053,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 4\n6. Überfließendes Verdienst\n58. Mit Sudatta",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 19,
+          "de": 18,
+          "en": 18
         }
       },
       {

@@ -32,8 +32,11 @@
     "pattern": "ein paar jungen",
     "method": "phrase",
     "resultPattern": "\\bein paar jungen",
-    "segsMatched": 2,
+    "segsMatched": 3,
     "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn4/sn4.24_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn4/sn4.24_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn4/sn4.24_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/ud/vagga5/ud5.4_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga5/ud5.4_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/ud/vagga5/ud5.4_translation-en-sujato.json",
@@ -42,6 +45,7 @@
       "translation/en/sujato/sutta/kn/ud/vagga2/ud2.3_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "sn4.24/de/sabbamitta",
       "ud5.4/de/sabbamitta",
       "ud2.3/de/sabbamitta"
     ],
@@ -108,6 +112,38 @@
           "pli": 20,
           "de": 19,
           "en": 19
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn4/sn4.24_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn4/sn4.24_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn4/sn4.24_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn4.24",
+        "lang": "de",
+        "segMap": {
+          "sn4.24:8.3": {
+            "scid": "sn4.24:8.3",
+            "pli": "Atha kho, bhante, sambahulā kumārakā vā kumārikāyo vā tamhā gāmā vā nigamā vā nikkhamitvā yena sā pokkharaṇī tenupasaṅkameyyuṁ; upasaṅkamitvā taṁ kakkaṭakaṁ udakā uddharitvā thale patiṭṭhapeyyuṁ. ",
+            "de": "Da gingen <span class=\"ebt-matched\">ein paar Jungen</span> oder Mädchen aus der Stadt oder dem Dorf zu dem Teich, zögen die Krabbe heraus und setzten sie aufs Trockene. ",
+            "en": "Then several boys or girls would leave the town or village and go to the pond, where they’d pull out the crab and put it on dry land. ",
+            "matched": true
+          }
+        },
+        "score": 1.021,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 4\n3. Māra\n24. Sieben Jahre Verfolgung",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 48,
+          "de": 48,
+          "en": 48
         }
       }
     ]
