@@ -1,0 +1,93 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "zwei arten von glück",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "zwei arten von glück",
+    "method": "phrase",
+    "resultPattern": "\\bzwei arten von glück",
+    "segsMatched": 3,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn21_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn21_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn21_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "dn21/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn21_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn21_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn21_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn21",
+        "lang": "de",
+        "segMap": {
+          "dn21:2.3.3": {
+            "scid": "dn21:2.3.3",
+            "pli": "“Somanassampāhaṁ, devānaminda, duvidhena vadāmi—",
+            "de": "„Götterkönig, es gibt <span class=\"ebt-matched\">zwei Arten von Glück</span>, sage ich: ",
+            "en": "“Lord of gods, there are two kinds of happiness, I say: ",
+            "matched": true
+          },
+          "dn21:2.3.9": {
+            "scid": "dn21:2.3.9",
+            "pli": "Somanassampāhaṁ, devānaminda, duvidhena vadāmi sevitabbampi, asevitabbampīti iti kho panetaṁ vuttaṁ, kiñcetaṁ paṭicca vuttaṁ? ",
+            "de": "Weshalb habe ich gesagt, es gibt <span class=\"ebt-matched\">zwei Arten von Glück</span>? ",
+            "en": "Why did I say that there are two kinds of happiness? ",
+            "matched": true
+          },
+          "dn21:2.3.15": {
+            "scid": "dn21:2.3.15",
+            "pli": "Somanassampāhaṁ, devānaminda, duvidhena vadāmi sevitabbampi, asevitabbampīti. ",
+            "de": "Deshalb habe ich gesagt, es gibt <span class=\"ebt-matched\">zwei Arten von Glück</span>. ",
+            "en": "That’s why I said there are two kinds of happiness. ",
+            "matched": true
+          }
+        },
+        "score": 3.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 21\nSakkas Fragen",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 515,
+          "de": 477,
+          "en": 514
+        }
+      }
+    ]
+  }
+}
