@@ -30,100 +30,15 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "hindernisse sind ganz und gar",
-    "method": "phrase",
-    "resultPattern": "\\bhindernisse sind ganz und gar",
-    "segsMatched": 4,
+    "method": "keywords",
+    "resultPattern": "\\bhindernisse|\\bsind|\\bganz|\\bund|\\bgar",
+    "segsMatched": 0,
     "bilaraPaths": [
-      "root/pli/ms/sutta/sn/sn47/sn47.5_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/sn/sn47/sn47.5_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn47/sn47.5_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an5/an5.52_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an5/an5.52_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an5/an5.52_translation-en-sujato.json"
+      "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json"
     ],
-    "suttaRefs": [
-      "sn47.5/de/sabbamitta",
-      "an5.52/de/sabbamitta"
-    ],
-    "mlDocs": [
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/an/an5/an5.52_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/an/an5/an5.52_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/an/an5/an5.52_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "an5.52",
-        "lang": "de",
-        "segMap": {
-          "an5.52:1.2": {
-            "scid": "an5.52:1.2",
-            "pli": "Kevalo hāyaṁ, bhikkhave, akusalarāsi yadidaṁ pañca nīvaraṇā. ",
-            "de": "Denn diese fünf <span class=\"ebt-matched\">Hindernisse sind ganz und gar</span> ein Haufen Untaugliches. ",
-            "en": "For these five hindrances are entirely a heap of the unskillful. ",
-            "matched": true
-          },
-          "an5.52:1.6": {
-            "scid": "an5.52:1.6",
-            "pli": "Kevalo hāyaṁ, bhikkhave, akusalarāsi yadidaṁ pañca nīvaraṇā”ti. ",
-            "de": "Denn diese fünf <span class=\"ebt-matched\">Hindernisse sind ganz und gar</span> ein Haufen Untaugliches.“ ",
-            "en": "For these five hindrances are entirely a heap of the unskillful.” ",
-            "matched": true
-          }
-        },
-        "score": 2.2,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Nummerierte Lehrreden 5\n6. Hindernisse\n52. Ein Haufen Untaugliches",
-        "segsMatched": 2,
-        "langSegs": {
-          "pli": 10,
-          "de": 9,
-          "en": 9
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/sn/sn47/sn47.5_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/sn/sn47/sn47.5_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/sn/sn47/sn47.5_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "sn47.5",
-        "lang": "de",
-        "segMap": {
-          "sn47.5:1.4": {
-            "scid": "sn47.5:1.4",
-            "pli": "Kevalo hāyaṁ, bhikkhave, akusalarāsi, yadidaṁ—pañca nīvaraṇā. ",
-            "de": "Denn die fünf <span class=\"ebt-matched\">Hindernisse sind ganz und gar</span> ein Haufen Untaugliches. ",
-            "en": "For these five hindrances are entirely a heap of the unskillful. ",
-            "matched": true
-          },
-          "sn47.5:1.8": {
-            "scid": "sn47.5:1.8",
-            "pli": "Kevalo hāyaṁ, bhikkhave, akusalarāsi, yadidaṁ—pañca nīvaraṇā. ",
-            "de": "Denn diese fünf <span class=\"ebt-matched\">Hindernisse sind ganz und gar</span> ein Haufen Untaugliches. ",
-            "en": "For these five hindrances are entirely a heap of the unskillful. ",
-            "matched": true
-          }
-        },
-        "score": 2.095,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Verbundene Lehrreden 47\n1. Die Kurtisane Ambapālī\n5. Ein Haufen Untaugliches",
-        "segsMatched": 2,
-        "langSegs": {
-          "pli": 21,
-          "de": 20,
-          "en": 20
-        }
-      }
-    ]
+    "suttaRefs": [],
+    "mlDocs": []
   }
 }

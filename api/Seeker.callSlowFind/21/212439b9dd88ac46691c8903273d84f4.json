@@ -32,11 +32,17 @@
     "pattern": "gerücht",
     "method": "phrase",
     "resultPattern": "\\bgerücht",
-    "segsMatched": 7,
+    "segsMatched": 9,
     "bilaraPaths": [
       "root/pli/ms/sutta/kn/ud/vagga4/ud4.8_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga4/ud4.8_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/ud/vagga4/ud4.8_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn7/sn7.4_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn7/sn7.4_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn7/sn7.4_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn7/sn7.3_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn7/sn7.3_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn7/sn7.3_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn7/sn7.2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn7/sn7.2_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn7/sn7.2_translation-en-sujato.json",
@@ -49,6 +55,8 @@
     ],
     "suttaRefs": [
       "ud4.8/de/sabbamitta",
+      "sn7.4/de/sabbamitta",
+      "sn7.3/de/sabbamitta",
       "sn7.2/de/sabbamitta",
       "sn10.8/de/sabbamitta",
       "dn31/de/sabbamitta"
@@ -109,6 +117,70 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn7/sn7.4_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn7/sn7.4_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn7/sn7.4_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn7.4",
+        "lang": "de",
+        "segMap": {
+          "sn7.4:1.2": {
+            "scid": "sn7.4:1.2",
+            "pli": "Assosi kho bilaṅgikabhāradvājo brāhmaṇo: ",
+            "de": "Der Brahmane Bhāradvāja der Bittere hörte das <span class=\"ebt-matched\">Gerücht</span>, ",
+            "en": "The brahmin Bhāradvāja the Bitter heard a rumor that ",
+            "matched": true
+          }
+        },
+        "score": 1.067,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 7\n1. Die Vollendeten\n4. Mit Bhāradvāja dem Bitteren",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 15,
+          "de": 14,
+          "en": 15
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn7/sn7.3_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn7/sn7.3_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn7/sn7.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn7.3",
+        "lang": "de",
+        "segMap": {
+          "sn7.3:1.2": {
+            "scid": "sn7.3:1.2",
+            "pli": "Assosi kho asurindakabhāradvājo brāhmaṇo: ",
+            "de": "Der Brahmane Bhāradvāja der Teufel hörte das <span class=\"ebt-matched\">Gerücht</span>, ",
+            "en": "The brahmin Bhāradvāja the Fiend heard a rumor to the effect that ",
+            "matched": true
+          }
+        },
+        "score": 1.034,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 7\n1. Die Vollendeten\n3. Mit Bhāradvāja dem Teufel",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 29,
+          "de": 28,
+          "en": 29
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn7/sn7.2_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/sn/sn7/sn7.2_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/sn/sn7/sn7.2_translation-en-sujato.json"
@@ -131,7 +203,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Verbundene Lehrreden 7\n1. Die Vollendeten\n2. Beschimpfung",
+        "title": "Verbundene Lehrreden 7\n1. Die Vollendeten\n2. Mit Bhāradvāja dem Ruppigen",
         "segsMatched": 1,
         "langSegs": {
           "pli": 47,

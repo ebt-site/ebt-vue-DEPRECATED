@@ -32,7 +32,7 @@
     "pattern": "hat.* aufgehört",
     "method": "phrase",
     "resultPattern": "\\bhat.* aufgehört",
-    "segsMatched": 27,
+    "segsMatched": 28,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
@@ -42,12 +42,16 @@
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an9/an9.31_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an9/an9.31_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an9/an9.31_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an9/an9.31_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga8/ud8.9_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/ud/vagga8/ud8.9_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/ud/vagga8/ud8.9_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "dn34/de/sabbamitta",
       "dn33/de/sabbamitta",
-      "an9.31/de/sabbamitta"
+      "an9.31/de/sabbamitta",
+      "ud8.9/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -312,6 +316,38 @@
           "pli": 1167,
           "de": 1166,
           "en": 1166
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga8/ud8.9_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/ud/vagga8/ud8.9_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/ud/vagga8/ud8.9_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud8.9",
+        "lang": "de",
+        "segMap": {
+          "ud8.9:5.1": {
+            "scid": "ud8.9:5.1",
+            "pli": "“Abhedi kāyo nirodhi saññā,",
+            "de": "„Der Körper ist auseinandergebrochen, die Wahrnehmung <span class=\"ebt-matched\">hat aufgehört</span>, ",
+            "en": "“The body is broken up, perception has ceased,",
+            "matched": true
+          }
+        },
+        "score": 1.056,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Innige Sprüche\n8.9 Mit Dabba (1)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 18,
+          "de": 16,
+          "en": 15
         }
       }
     ]

@@ -32,8 +32,11 @@
     "pattern": "ohne verlangen",
     "method": "phrase",
     "resultPattern": "\\bohne verlangen",
-    "segsMatched": 2,
+    "segsMatched": 3,
     "bilaraPaths": [
+      "root/pli/ms/sutta/kn/ud/vagga7/ud7.7_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/ud/vagga7/ud7.7_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/ud/vagga7/ud7.7_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an7/an7.64_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an7/an7.64_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an7/an7.64_translation-en-sujato.json",
@@ -42,10 +45,43 @@
       "translation/en/sujato/sutta/an/an4/an4.9_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "ud7.7/de/sabbamitta",
       "an7.64/de/sabbamitta",
       "an4.9/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga7/ud7.7_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/ud/vagga7/ud7.7_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/ud/vagga7/ud7.7_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud7.7",
+        "lang": "de",
+        "segMap": {
+          "ud7.7:3.3": {
+            "scid": "ud7.7:3.3",
+            "pli": "Taṁ nittaṇhaṁ muniṁ carantaṁ,",
+            "de": "Der Weise, der <span class=\"ebt-matched\">ohne Verlangen</span> lebt, ",
+            "en": "the sage who lives without craving",
+            "matched": true
+          }
+        },
+        "score": 1.091,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Innige Sprüche\n7.7 Das Aufhören des Wucherns",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 11,
+          "de": 10,
+          "en": 10
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/an/an4/an4.9_root-pli-ms.json",

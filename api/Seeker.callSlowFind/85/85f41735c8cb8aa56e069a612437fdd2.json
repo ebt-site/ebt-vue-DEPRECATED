@@ -32,11 +32,17 @@
     "pattern": "versenkung besitzt",
     "method": "phrase",
     "resultPattern": "\\bversenkung besitzt",
-    "segsMatched": 5,
+    "segsMatched": 7,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn56/sn56.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn56/sn56.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn56/sn56.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn1/sn1.9_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn1/sn1.9_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn1/sn1.9_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn1/sn1.38_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn1/sn1.38_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn1/sn1.38_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an6/an6.70_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.70_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an6/an6.70_translation-en-sujato.json",
@@ -49,6 +55,8 @@
     ],
     "suttaRefs": [
       "sn56.1/de/sabbamitta",
+      "sn1.9/de/sabbamitta",
+      "sn1.38/de/sabbamitta",
       "an6.70/de/sabbamitta",
       "an4.196/de/sabbamitta",
       "an3.21/de/sabbamitta"
@@ -95,6 +103,38 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn1/sn1.9_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn1/sn1.9_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn1/sn1.9_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn1.9",
+        "lang": "de",
+        "segMap": {
+          "sn1.9:2.2": {
+            "scid": "sn1.9:2.2",
+            "pli": "Na monamatthi asamāhitassa; ",
+            "de": "und wer keine <span class=\"ebt-matched\">Versenkung besitzt</span>, der kann kein Weiser sein. ",
+            "en": "and someone lacking serenity can’t be a sage. ",
+            "matched": true
+          }
+        },
+        "score": 1.077,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 1\n1. Ein Schilfrohr\n9. Die Einbildung lieben",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 13,
+          "de": 13,
+          "en": 13
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an6/an6.70_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/an/an6/an6.70_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/an/an6/an6.70_translation-en-sujato.json"
@@ -108,7 +148,7 @@
           "an6.70:2.1": {
             "scid": "an6.70:2.1",
             "pli": "‘So vata, bhikkhave, bhikkhu santena samādhinā paṇītena paṭippassaddhiladdhena ekodibhāvādhigatena anekavihitaṁ iddhividhaṁ paccanubhavissati …pe… yāva brahmalokāpi kāyena vasaṁ vattessatī’ti ṭhānametaṁ vijjati. ",
-            "de": "Aber es ist sehr wohl möglich, dass eine Nonne, die <span class=\"ebt-matched\">Versenkung besitzt</span>, die friedvoll, erhaben, still und einheitlich ist, die vielen Arten von Wunderkräften ausübt … ",
+            "de": "Aber es ist sehr wohl möglich, dass eine Nonne, die <span class=\"ebt-matched\">Versenkung besitzt</span>, die friedvoll, erhaben, ruhig und einheitlich ist, die vielen Arten von Wunderkräften ausübt … ",
             "en": "But it’s totally possible that a mendicant who has immersion that is peaceful, refined, tranquil, and unified will wield the many kinds of psychic power … ",
             "matched": true
           }
@@ -123,6 +163,38 @@
           "pli": 20,
           "de": 17,
           "en": 17
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn1/sn1.38_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn1/sn1.38_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn1/sn1.38_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn1.38",
+        "lang": "de",
+        "segMap": {
+          "sn1.38:11.2": {
+            "scid": "sn1.38:11.2",
+            "pli": "Na monamatthi asamāhitassa; ",
+            "de": "und wer keine <span class=\"ebt-matched\">Versenkung besitzt</span>, der kann kein Weiser sein. ",
+            "en": "and someone without immersion can’t be a sage. ",
+            "matched": true
+          }
+        },
+        "score": 1.021,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 1\n4. Die Satullapa-Gruppe\n38. Ein Splitter",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 47,
+          "de": 47,
+          "en": 47
         }
       },
       {

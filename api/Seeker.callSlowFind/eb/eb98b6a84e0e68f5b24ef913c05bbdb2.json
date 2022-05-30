@@ -32,17 +32,21 @@
     "pattern": "höchste reinheit",
     "method": "phrase",
     "resultPattern": "\\bhöchste reinheit",
-    "segsMatched": 3,
+    "segsMatched": 4,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an10/an10.29_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.29_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an10/an10.29_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn7/sn7.7_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn7/sn7.7_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn7/sn7.7_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn4/sn4.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn4/sn4.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn4/sn4.1_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an10.29/de/sabbamitta",
+      "sn7.7/de/sabbamitta",
       "sn4.1/de/sabbamitta"
     ],
     "mlDocs": [
@@ -110,6 +114,38 @@
         "maxWord": 30,
         "minWord": 5,
         "title": "Verbundene Lehrreden 4\n1. Lebensdauer\n1. Bußübung",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 24,
+          "de": 24,
+          "en": 24
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn7/sn7.7_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn7/sn7.7_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn7/sn7.7_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn7.7",
+        "lang": "de",
+        "segMap": {
+          "sn7.7:4.5": {
+            "scid": "sn7.7:4.5",
+            "pli": "Pappoti paramaṁ suddhiṁ, ",
+            "de": "wird <span class=\"ebt-matched\">höchste Reinheit</span> erlangen. ",
+            "en": "you’ll attain ultimate happiness. ",
+            "matched": true
+          }
+        },
+        "score": 1.042,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 7\n1. Die Vollendeten\n7. Mit Bhāradvāja dem Reinen",
         "segsMatched": 1,
         "langSegs": {
           "pli": 24,

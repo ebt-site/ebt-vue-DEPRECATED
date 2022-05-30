@@ -32,7 +32,7 @@
     "pattern": "verantwortung",
     "method": "phrase",
     "resultPattern": "\\bverantwortung",
-    "segsMatched": 6,
+    "segsMatched": 8,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an7/an7.28_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an7/an7.28_translation-de-sabbamitta.json",
@@ -43,6 +43,12 @@
       "root/pli/ms/sutta/sn/sn47/sn47.9_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn47/sn47.9_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn47/sn47.9_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn10/sn10.12_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn10/sn10.12_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn10/sn10.12_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga1/snp1.10_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/snp/vagga1/snp1.10_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/snp/vagga1/snp1.10_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json"
@@ -51,6 +57,8 @@
       "an7.28/de/sabbamitta",
       "an4.258/de/sabbamitta",
       "sn47.9/de/sabbamitta",
+      "sn10.12/de/sabbamitta",
+      "snp1.10/de/sabbamitta",
       "dn16/de/sabbamitta"
     ],
     "mlDocs": [
@@ -162,6 +170,70 @@
           "pli": 47,
           "de": 45,
           "en": 46
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga1/snp1.10_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/snp/vagga1/snp1.10_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/snp/vagga1/snp1.10_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp1.10",
+        "lang": "de",
+        "segMap": {
+          "snp1.10:12.1": {
+            "scid": "snp1.10:12.1",
+            "pli": "Patirūpakārī dhuravā,",
+            "de": "Indem man <span class=\"ebt-matched\">Verantwortung</span> trägt, angemessen handelt ",
+            "en": "Being responsible, acting appropriately, ",
+            "matched": true
+          }
+        },
+        "score": 1.013,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lehrreden-Sammelband\n1.10 Mit Āḷavaka",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 75,
+          "de": 74,
+          "en": 74
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn10/sn10.12_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn10/sn10.12_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn10/sn10.12_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn10.12",
+        "lang": "de",
+        "segMap": {
+          "sn10.12:8.1": {
+            "scid": "sn10.12:8.1",
+            "pli": "Patirūpakārī dhuravā, ",
+            "de": "Indem man <span class=\"ebt-matched\">Verantwortung</span> trägt, angemessen handelt ",
+            "en": "Being responsible, acting appropriately, ",
+            "matched": true
+          }
+        },
+        "score": 1.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 10\n1. Mit Indaka\n12. Mit Āḷavaka",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 87,
+          "de": 81,
+          "en": 86
         }
       },
       {

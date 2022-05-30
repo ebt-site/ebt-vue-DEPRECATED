@@ -32,8 +32,11 @@
     "pattern": "unbedingt",
     "method": "phrase",
     "resultPattern": "\\bunbedingt",
-    "segsMatched": 9,
+    "segsMatched": 12,
     "bilaraPaths": [
+      "root/pli/ms/sutta/kn/ud/vagga8/ud8.3_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/ud/vagga8/ud8.3_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/ud/vagga8/ud8.3_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.47_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.47_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.47_translation-en-sujato.json",
@@ -54,6 +57,7 @@
       "translation/en/sujato/sutta/an/an4/an4.34_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "ud8.3/de/sabbamitta",
       "an3.47/de/sabbamitta",
       "an2.11-20/de/sabbamitta",
       "mn44/de/sabbamitta",
@@ -62,6 +66,52 @@
       "an4.34/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga8/ud8.3_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/ud/vagga8/ud8.3_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/ud/vagga8/ud8.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud8.3",
+        "lang": "de",
+        "segMap": {
+          "ud8.3:3.1": {
+            "scid": "ud8.3:3.1",
+            "pli": "“Atthi, bhikkhave, ajātaṁ abhūtaṁ akataṁ asaṅkhataṁ.",
+            "de": "„Es gibt, Mönche und Nonnen, ein Ungeborenes, Ungeschaffenes, Ungemachtes und <span class=\"ebt-matched\">Unbedingt</span>es. ",
+            "en": "“There is, mendicants, an unborn, unproduced, unmade, and unconditioned.",
+            "matched": true
+          },
+          "ud8.3:3.2": {
+            "scid": "ud8.3:3.2",
+            "pli": "No cetaṁ, bhikkhave, abhavissa ajātaṁ abhūtaṁ akataṁ asaṅkhataṁ, nayidha jātassa bhūtassa katassa saṅkhatassa nissaraṇaṁ paññāyetha.",
+            "de": "Wenn es kein Ungeborenes, Ungeschaffenes, Ungemachtes und <span class=\"ebt-matched\">Unbedingt</span>es gäbe, wäre ein Entrinnen vom Geborenen, Geschaffenen, Gemachten und Bedingten hier nicht zu finden. ",
+            "en": "If there were no unborn, unproduced, unmade, and unconditioned, then you would find no escape here from the born, produced, made, and conditioned.",
+            "matched": true
+          },
+          "ud8.3:3.3": {
+            "scid": "ud8.3:3.3",
+            "pli": "Yasmā ca kho, bhikkhave, atthi ajātaṁ abhūtaṁ akataṁ asaṅkhataṁ, tasmā jātassa bhūtassa katassa saṅkhatassa nissaraṇaṁ paññāyatī”ti.",
+            "de": "Aber da es ein Ungeborenes, Ungeschaffenes, Ungemachtes und <span class=\"ebt-matched\">Unbedingt</span>es gibt, ist ein Entrinnen vom Geborenen, Geschaffenen, Gemachten und Bedingten zu finden.“ ",
+            "en": "But since there is an unborn, unproduced, unmade, and unconditioned, an escape is found from the born, produced, made, and conditioned.”",
+            "matched": true
+          }
+        },
+        "score": 3.273,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Innige Sprüche\n8.3 Über das Erlöschen (3)",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 11,
+          "de": 10,
+          "en": 10
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/an/an3/an3.47_root-pli-ms.json",

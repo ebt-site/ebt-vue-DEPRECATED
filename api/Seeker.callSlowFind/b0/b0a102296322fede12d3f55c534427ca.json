@@ -32,7 +32,7 @@
     "pattern": "alle[sm] leiden",
     "method": "phrase",
     "resultPattern": "\\balle[sm] leiden",
-    "segsMatched": 30,
+    "segsMatched": 32,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn42/sn42.11_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn42/sn42.11_translation-de-sabbamitta.json",
@@ -50,6 +50,9 @@
       "translation/de/sabbamitta/sutta/kn/thig/thig13.4_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thig/thig13.4_translation-en-sujato.json",
       "translation/en/soma/sutta/kn/thig/thig13.4_translation-en-soma.json",
+      "root/pli/ms/sutta/sn/sn7/sn7.11_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn7/sn7.11_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn7/sn7.11_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn5/sn5.6_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn5/sn5.6_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn5/sn5.6_translation-en-sujato.json",
@@ -81,6 +84,9 @@
       "translation/de/sabbamitta/sutta/kn/thig/thig10.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thig/thig10.1_translation-en-sujato.json",
       "translation/en/soma/sutta/kn/thig/thig10.1_translation-en-soma.json",
+      "root/pli/ms/sutta/kn/snp/vagga1/snp1.4_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/snp/vagga1/snp1.4_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/snp/vagga1/snp1.4_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn32_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn32_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn32_translation-en-sujato.json",
@@ -112,6 +118,7 @@
       "sn1.59/de/sabbamitta",
       "sn1.30/de/sabbamitta",
       "thig13.4/de/sabbamitta",
+      "sn7.11/de/sabbamitta",
       "sn5.6/de/sabbamitta",
       "sn2.21/de/sabbamitta",
       "sn1.31/de/sabbamitta",
@@ -121,6 +128,7 @@
       "thig6.3/de/sabbamitta",
       "thig13.3/de/sabbamitta",
       "thig10.1/de/sabbamitta",
+      "snp1.4/de/sabbamitta",
       "dn32/de/sabbamitta",
       "an8.34/de/sabbamitta",
       "an6.23/de/sabbamitta",
@@ -736,6 +744,38 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn7/sn7.11_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn7/sn7.11_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn7/sn7.11_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn7.11",
+        "lang": "de",
+        "segMap": {
+          "sn7.11:7.4": {
+            "scid": "sn7.11:7.4",
+            "pli": "sabbadukkhā pamuccatī”ti. ",
+            "de": "bist du von <span class=\"ebt-matched\">allem Leiden</span> erlöst.“ ",
+            "en": "you’re released from all suffering.” ",
+            "matched": true
+          }
+        },
+        "score": 1.02,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 7\n2. Laienschüler\n11. Mit Bhāradvāja dem Bauern",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 51,
+          "de": 51,
+          "en": 51
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/kn/thig/thig10.1_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/kn/thig/thig10.1_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/kn/thig/thig10.1_translation-en-sujato.json",
@@ -765,6 +805,38 @@
           "pli": 50,
           "de": 48,
           "en": 48
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga1/snp1.4_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/snp/vagga1/snp1.4_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/snp/vagga1/snp1.4_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp1.4",
+        "lang": "de",
+        "segMap": {
+          "snp1.4:9.4": {
+            "scid": "snp1.4:9.4",
+            "pli": "Sabbadukkhā pamuccatī”ti.",
+            "de": "bist du von <span class=\"ebt-matched\">allem Leiden</span> erlöst.“ ",
+            "en": "you’re released from all suffering.” ",
+            "matched": true
+          }
+        },
+        "score": 1.015,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lehrreden-Sammelband\n1.4 Mit Bhāradvāja dem Bauern",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 66,
+          "de": 64,
+          "en": 64
         }
       },
       {

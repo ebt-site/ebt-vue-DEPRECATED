@@ -43,12 +43,15 @@
       "root/pli/ms/sutta/sn/sn4/sn4.25_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn4/sn4.25_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn4/sn4.25_translation-en-sujato.json",
-      "root/pli/ms/sutta/sn/sn2/sn2.15_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/sn/sn2/sn2.15_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn2/sn2.15_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn1/sn1.5_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn1/sn1.5_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.5_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn2/sn2.15_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn2/sn2.15_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn2/sn2.15_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga8/ud8.10_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/ud/vagga8/ud8.10_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/ud/vagga8/ud8.10_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/ud/vagga7/ud7.3_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga7/ud7.3_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/ud/vagga7/ud7.3_translation-en-sujato.json",
@@ -66,8 +69,9 @@
       "sn1.1/de/sabbamitta",
       "an4.196/de/sabbamitta",
       "sn4.25/de/sabbamitta",
-      "sn2.15/de/sabbamitta",
       "sn1.5/de/sabbamitta",
+      "sn2.15/de/sabbamitta",
+      "ud8.10/de/sabbamitta",
       "ud7.3/de/sabbamitta",
       "ud7.1/de/sabbamitta",
       "dn21/de/sabbamitta",
@@ -235,45 +239,6 @@
       },
       {
         "bilaraPaths": [
-          "root/pli/ms/sutta/sn/sn2/sn2.15_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/sn/sn2/sn2.15_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/sn/sn2/sn2.15_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "sn2.15",
-        "lang": "de",
-        "segMap": {
-          "sn2.15:2.1": {
-            "scid": "sn2.15:2.1",
-            "pli": "“Kathaṁsu tarati oghaṁ, ",
-            "de": "„Wer hat hier die <span class=\"ebt-matched\">Flut überquer</span>t, ",
-            "en": "“Who here crosses the flood, ",
-            "matched": true
-          },
-          "sn2.15:3.4": {
-            "scid": "sn2.15:3.4",
-            "pli": "Oghaṁ tarati duttaraṁ. ",
-            "de": "der überquert die <span class=\"ebt-matched\">Flut, die so schwer zu überquer</span>en ist. ",
-            "en": "crosses the flood so hard to cross. ",
-            "matched": true
-          }
-        },
-        "score": 2.125,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Verbundene Lehrreden 2\n2. Mit Anāthapiṇḍika\n15. Mit Candana",
-        "segsMatched": 2,
-        "langSegs": {
-          "pli": 16,
-          "de": 16,
-          "en": 16
-        }
-      },
-      {
-        "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn4/sn4.25_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/sn/sn4/sn4.25_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/sn/sn4/sn4.25_translation-en-sujato.json"
@@ -373,6 +338,70 @@
           "pli": 15,
           "de": 12,
           "en": 12
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn2/sn2.15_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn2/sn2.15_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn2/sn2.15_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn2.15",
+        "lang": "de",
+        "segMap": {
+          "sn2.15:3.4": {
+            "scid": "sn2.15:3.4",
+            "pli": "Oghaṁ tarati duttaraṁ. ",
+            "de": "so überquert man die <span class=\"ebt-matched\">Flut, die so schwer zu überquer</span>en ist. ",
+            "en": "crosses the flood so hard to cross. ",
+            "matched": true
+          }
+        },
+        "score": 1.063,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 2\n2. Mit Anāthapiṇḍika\n15. Mit Candana",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 16,
+          "de": 16,
+          "en": 16
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga8/ud8.10_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/ud/vagga8/ud8.10_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/ud/vagga8/ud8.10_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud8.10",
+        "lang": "de",
+        "segMap": {
+          "ud8.10:5.2": {
+            "scid": "ud8.10:5.2",
+            "pli": "kāmabandhoghatārinaṁ;",
+            "de": "der die <span class=\"ebt-matched\">Flut der sinnlichen Fesseln überquer</span>t ",
+            "en": "who have crossed the flood of sensual bonds,",
+            "matched": true
+          }
+        },
+        "score": 1.024,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Innige Sprüche\n8.10 Mit Dabba (2)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 41,
+          "de": 21,
+          "en": 21
         }
       },
       {

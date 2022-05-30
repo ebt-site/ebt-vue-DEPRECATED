@@ -32,7 +32,7 @@
     "pattern": "eingeschätzt",
     "method": "phrase",
     "resultPattern": "\\beingeschätzt",
-    "segsMatched": 12,
+    "segsMatched": 13,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn12/sn12.31_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.31_translation-de-sabbamitta.json",
@@ -43,6 +43,9 @@
       "root/pli/ms/sutta/dn/dn19_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn19_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn19_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn7/sn7.20_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn7/sn7.20_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn7/sn7.20_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/ud/vagga2/ud2.5_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga2/ud2.5_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/ud/vagga2/ud2.5_translation-en-sujato.json",
@@ -57,6 +60,7 @@
       "sn12.31/de/sabbamitta",
       "an7.70/de/sabbamitta",
       "dn19/de/sabbamitta",
+      "sn7.20/de/sabbamitta",
       "ud2.5/de/sabbamitta",
       "an4.41/de/sabbamitta",
       "an3.32/de/sabbamitta"
@@ -230,6 +234,38 @@
           "pli": 15,
           "de": 14,
           "en": 14
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn7/sn7.20_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn7/sn7.20_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn7/sn7.20_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn7.20",
+        "lang": "de",
+        "segMap": {
+          "sn7.20:3.3": {
+            "scid": "sn7.20:3.3",
+            "pli": "Saṅkhāya loke carati, ",
+            "de": "wer wandert, nachdem er die Welt <span class=\"ebt-matched\">eingeschätzt</span> hat, ",
+            "en": "and wanders having assessed the world,",
+            "matched": true
+          }
+        },
+        "score": 1.056,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 7\n2. Laienschüler\n20. Ein Bettler",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 18,
+          "de": 18,
+          "en": 18
         }
       },
       {

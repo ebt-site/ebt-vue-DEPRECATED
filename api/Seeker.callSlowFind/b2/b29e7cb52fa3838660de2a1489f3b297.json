@@ -32,17 +32,21 @@
     "pattern": "vielleicht nicht mein",
     "method": "phrase",
     "resultPattern": "\\bvielleicht nicht mein",
-    "segsMatched": 15,
+    "segsMatched": 16,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an7/an7.55_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an7/an7.55_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an7/an7.55_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga7/ud7.8_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/ud/vagga7/ud7.8_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/ud/vagga7/ud7.8_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.29_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.29_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an10/an10.29_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an7.55/de/sabbamitta",
+      "ud7.8/de/sabbamitta",
       "an10.29/de/sabbamitta"
     ],
     "mlDocs": [
@@ -167,6 +171,38 @@
           "pli": 78,
           "de": 74,
           "en": 77
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga7/ud7.8_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/ud/vagga7/ud7.8_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/ud/vagga7/ud7.8_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud7.8",
+        "lang": "de",
+        "segMap": {
+          "ud7.8:4.3": {
+            "scid": "ud7.8:4.3",
+            "pli": "No cassa no ca me siyā,",
+            "de": "‚Es ist vielleicht nicht, und es ist <span class=\"ebt-matched\">vielleicht nicht mein</span>. ",
+            "en": "‘It might not be, and it might not be mine, ",
+            "matched": true
+          }
+        },
+        "score": 1.071,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Innige Sprüche\n7.8 Mit Kaccāna",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 14,
+          "de": 13,
+          "en": 13
         }
       },
       {
