@@ -1,0 +1,115 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "wundermacht und wunderkraft",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "wundermacht und wunderkraft",
+    "method": "phrase",
+    "resultPattern": "\\bwundermacht und wunderkraft",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn6/sn6.6_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn6/sn6.6_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn6/sn6.6_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn18_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn18_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn18_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn6.6/de/sabbamitta",
+      "dn18/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn6/sn6.6_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn6/sn6.6_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn6/sn6.6_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn6.6",
+        "lang": "de",
+        "segMap": {
+          "sn6.6:4.4": {
+            "scid": "sn6.6:4.4",
+            "pli": "“Tayā ca kho, mārisa, mayā ca sveva bhagavā mahiddhikataro ceva mahānubhāvataro ca. ",
+            "de": "„Dieser Buddha hat sogar noch größere <span class=\"ebt-matched\">Wundermacht und Wunderkraft</span> als du oder ich. ",
+            "en": "“That Buddha has even more psychic power and might than you or me. ",
+            "matched": true
+          }
+        },
+        "score": 1.028,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 6\n1. Die Aufforderung\n6. Der nachlässige Brahmā",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 36,
+          "de": 36,
+          "en": 36
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn18_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn18_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn18_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn18",
+        "lang": "de",
+        "segMap": {
+          "dn18:22.13": {
+            "scid": "dn18:22.13",
+            "pli": "Passanti no, bhonto devā tāvatiṁsā, mamapimaṁ evarūpaṁ iddhānubhāvan”ti? ",
+            "de": "Ihr Herren, seht ihr bei mir solche <span class=\"ebt-matched\">Wundermacht und Wunderkraft</span>?“ ",
+            "en": "Gentlemen, do you see such psychic might and power in me?” ",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 18\nMit Janavasabha",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 299,
+          "de": 255,
+          "en": 298
+        }
+      }
+    ]
+  }
+}
