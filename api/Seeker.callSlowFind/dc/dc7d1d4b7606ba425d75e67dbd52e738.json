@@ -1,0 +1,81 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "ewiger grundsatz",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "ewiger grundsatz",
+    "method": "phrase",
+    "resultPattern": "\\bewiger grundsatz",
+    "segsMatched": 1,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/kn/dhp/dhp1-20_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/dhp/dhp1-20_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp1-20_translation-en-sujato.json",
+      "translation/en/suddhaso/sutta/kn/dhp/dhp1-20_translation-en-suddhaso.json"
+    ],
+    "suttaRefs": [
+      "dhp1-20/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/dhp/dhp1-20_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/dhp/dhp1-20_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/dhp/dhp1-20_translation-en-sujato.json",
+          "translation/en/suddhaso/sutta/kn/dhp/dhp1-20_translation-en-suddhaso.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dhp1-20",
+        "lang": "de",
+        "segMap": {
+          "dhp5:4": {
+            "scid": "dhp5:4",
+            "pli": "esa dhammo sanantano.",
+            "de": "Das ist ein <span class=\"ebt-matched\">ewiger Grundsatz</span>. ",
+            "en": "this is an ancient law. ",
+            "matched": true
+          }
+        },
+        "score": 1.009,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Kleinere Sammlung\nDhamma-Sprüche 1–20\n1. Paare\nCakkhupālattheravatthu",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 108,
+          "de": 93,
+          "en": 93
+        }
+      }
+    ]
+  }
+}
