@@ -32,7 +32,7 @@
     "pattern": "rad-drehend.* herrscher",
     "method": "phrase",
     "resultPattern": "\\brad-drehend.* herrscher",
-    "segsMatched": 78,
+    "segsMatched": 80,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn30_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn30_translation-de-sabbamitta.json",
@@ -64,6 +64,9 @@
       "root/pli/ms/sutta/an/an5/an5.131_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.131_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.131_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn8/sn8.7_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn8/sn8.7_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn8/sn8.7_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn14_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json",
@@ -97,6 +100,7 @@
       "an5.133/de/sabbamitta",
       "an5.132/de/sabbamitta",
       "an5.131/de/sabbamitta",
+      "sn8.7/de/sabbamitta",
       "dn14/de/sabbamitta",
       "an7.62/de/sabbamitta",
       "kp8/de/sabbamitta",
@@ -837,6 +841,45 @@
           "pli": 26,
           "de": 25,
           "en": 25
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn8/sn8.7_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn8/sn8.7_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn8/sn8.7_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn8.7",
+        "lang": "de",
+        "segMap": {
+          "sn8.7:3.3": {
+            "scid": "sn8.7:3.3",
+            "pli": "Seyyathāpi, sāriputta, rañño cakkavattissa jeṭṭhaputto pitarā pavattitaṁ cakkaṁ sammadeva anuppavatteti; ",
+            "de": "Wie der älteste Sohn eines <span class=\"ebt-matched\">Rad-drehenden Herrscher</span>s, der die Macht, die sein Vater in Gang gesetzt hat, rechtmäßig weiter ausübt, ",
+            "en": "A wheel-turning monarch’s oldest son rightly keeps wielding the power set in motion by his father. ",
+            "matched": true
+          },
+          "sn8.7:7.1": {
+            "scid": "sn8.7:7.1",
+            "pli": "Cakkavattī yathā rājā, ",
+            "de": "Gerade wie ein <span class=\"ebt-matched\">Rad-drehender Herrscher</span> ",
+            "en": "Just as a wheel-turning monarch ",
+            "matched": true
+          }
+        },
+        "score": 2.048,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 8\n1. Mit Vaṅgīsa\n7. Die Einladung zum Ermahnen",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 42,
+          "de": 42,
+          "en": 42
         }
       },
       {
