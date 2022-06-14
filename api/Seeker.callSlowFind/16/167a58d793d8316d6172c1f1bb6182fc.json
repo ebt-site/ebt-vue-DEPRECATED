@@ -32,7 +32,7 @@
     "pattern": "flut.* überquer",
     "method": "phrase",
     "resultPattern": "\\bflut.* überquer",
-    "segsMatched": 20,
+    "segsMatched": 22,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn1/sn1.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn1/sn1.1_translation-de-sabbamitta.json",
@@ -46,6 +46,9 @@
       "root/pli/ms/sutta/sn/sn1/sn1.5_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn1/sn1.5_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.5_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn8/sn8.8_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn8/sn8.8_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn8/sn8.8_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn2/sn2.15_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn2/sn2.15_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn2/sn2.15_translation-en-sujato.json",
@@ -58,6 +61,9 @@
       "root/pli/ms/sutta/kn/ud/vagga7/ud7.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga7/ud7.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/ud/vagga7/ud7.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag21.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag21.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag21.1_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn21_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn21_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn21_translation-en-sujato.json",
@@ -70,10 +76,12 @@
       "an4.196/de/sabbamitta",
       "sn4.25/de/sabbamitta",
       "sn1.5/de/sabbamitta",
+      "sn8.8/de/sabbamitta",
       "sn2.15/de/sabbamitta",
       "ud8.10/de/sabbamitta",
       "ud7.3/de/sabbamitta",
       "ud7.1/de/sabbamitta",
+      "thag21.1/de/sabbamitta",
       "dn21/de/sabbamitta",
       "dn20/de/sabbamitta"
     ],
@@ -406,6 +414,38 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn8/sn8.8_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn8/sn8.8_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn8/sn8.8_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn8.8",
+        "lang": "de",
+        "segMap": {
+          "sn8.8:9.2": {
+            "scid": "sn8.8:9.2",
+            "pli": "Anekavihitaṁ maggaṁ akkhāsi; ",
+            "de": "den Weg erklärt, um die <span class=\"ebt-matched\">Flut zu überquer</span>en. ",
+            "en": "the path to cross the flood. ",
+            "matched": true
+          }
+        },
+        "score": 1.02,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 8\n1. Mit Vaṅgīsa\n8. Über tausend",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 50,
+          "de": 50,
+          "en": 50
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/dn/dn20_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/dn/dn20_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/dn/dn20_translation-en-sujato.json"
@@ -434,6 +474,38 @@
           "pli": 337,
           "de": 334,
           "en": 336
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag21.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag21.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag21.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag21.1",
+        "lang": "de",
+        "segMap": {
+          "thag21.1:35.2": {
+            "scid": "thag21.1:35.2",
+            "pli": "Anekavihitaṁ maggaṁ akkhāsi;",
+            "de": "den Weg erklärt, um die <span class=\"ebt-matched\">Flut zu überquer</span>en. ",
+            "en": "the path to cross the flood.",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche\nDas große Buch\nErstes Kapitel\n21.1 Vaṅgīsa",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 309,
+          "de": 294,
+          "en": 309
         }
       },
       {

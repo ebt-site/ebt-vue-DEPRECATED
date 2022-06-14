@@ -32,14 +32,18 @@
     "pattern": "von der einbildung geschlagen",
     "method": "phrase",
     "resultPattern": "\\bvon der einbildung geschlagen",
-    "segsMatched": 2,
+    "segsMatched": 4,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn8/sn8.3_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn8/sn8.3_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn8/sn8.3_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn8/sn8.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag21.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag21.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag21.1_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "sn8.3/de/sabbamitta"
+      "sn8.3/de/sabbamitta",
+      "thag21.1/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -79,6 +83,45 @@
           "pli": 25,
           "de": 25,
           "en": 25
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag21.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag21.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag21.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag21.1",
+        "lang": "de",
+        "segMap": {
+          "thag21.1:12.1": {
+            "scid": "thag21.1:12.1",
+            "pli": "Makkhena makkhitā pajā,",
+            "de": "Vom Beschmieren beschmiert und <span class=\"ebt-matched\">von der Einbildung geschlagen</span>, ",
+            "en": "Smeared by smears and slain by conceit,",
+            "matched": true
+          },
+          "thag21.1:12.3": {
+            "scid": "thag21.1:12.3",
+            "pli": "Socanti janā cirarattaṁ,",
+            "de": "Wenn die <span class=\"ebt-matched\">von der Einbildung Geschlagen</span>en in der Hölle wiedergeboren werden, ",
+            "en": "When people slain by conceit are reborn in hell,",
+            "matched": true
+          }
+        },
+        "score": 2.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche\nDas große Buch\nErstes Kapitel\n21.1 Vaṅgīsa",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 309,
+          "de": 294,
+          "en": 309
         }
       }
     ]

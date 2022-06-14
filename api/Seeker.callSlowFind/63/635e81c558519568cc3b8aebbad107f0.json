@@ -32,7 +32,7 @@
     "pattern": "riese",
     "method": "phrase",
     "resultPattern": "\\briese",
-    "segsMatched": 41,
+    "segsMatched": 44,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an6/an6.43_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.43_translation-de-sabbamitta.json",
@@ -43,6 +43,12 @@
       "root/pli/ms/sutta/an/an3/an3.80_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.80_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.80_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag21.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag21.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag21.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn8/sn8.8_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn8/sn8.8_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn8/sn8.8_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/ud/vagga4/ud4.5_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga4/ud4.5_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/ud/vagga4/ud4.5_translation-en-sujato.json",
@@ -54,6 +60,8 @@
       "an6.43/de/sabbamitta",
       "thag15.2/de/sabbamitta",
       "an3.80/de/sabbamitta",
+      "thag21.1/de/sabbamitta",
+      "sn8.8/de/sabbamitta",
       "ud4.5/de/sabbamitta",
       "ud4.4/de/sabbamitta"
     ],
@@ -408,6 +416,45 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag21.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag21.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag21.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag21.1",
+        "lang": "de",
+        "segMap": {
+          "thag21.1:32.1": {
+            "scid": "thag21.1:32.1",
+            "pli": "‘Nāganāmo’si bhagavā,",
+            "de": "Gesegneter, dein Name ist ‚<span class=\"ebt-matched\">Riese</span>‘, ",
+            "en": "Blessed One, your name is ‘Giant’,",
+            "matched": true
+          },
+          "thag21.1:71.4": {
+            "scid": "thag21.1:71.4",
+            "pli": "nāgaṁ nāgassa orasan”ti.",
+            "de": "ein <span class=\"ebt-matched\">Riese</span>, rechtmäßiger Sohn eines <span class=\"ebt-matched\">Riese</span>n.“ ",
+            "en": "a giant, rightful son of a giant.”",
+            "matched": true
+          }
+        },
+        "score": 2.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche\nDas große Buch\nErstes Kapitel\n21.1 Vaṅgīsa",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 309,
+          "de": 294,
+          "en": 309
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/kn/ud/vagga4/ud4.5_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/kn/ud/vagga4/ud4.5_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/kn/ud/vagga4/ud4.5_translation-en-sujato.json"
@@ -436,6 +483,38 @@
           "pli": 33,
           "de": 32,
           "en": 32
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn8/sn8.8_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn8/sn8.8_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn8/sn8.8_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn8.8",
+        "lang": "de",
+        "segMap": {
+          "sn8.8:5.1": {
+            "scid": "sn8.8:5.1",
+            "pli": "Nāganāmosi bhagavā, ",
+            "de": "Gesegneter, dein Name ist ‚<span class=\"ebt-matched\">Riese</span>‘, ",
+            "en": "Blessed One, your name is ‘Giant’, ",
+            "matched": true
+          }
+        },
+        "score": 1.02,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 8\n1. Mit Vaṅgīsa\n8. Über tausend",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 50,
+          "de": 50,
+          "en": 50
         }
       },
       {
