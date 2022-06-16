@@ -7,7 +7,13 @@ cd $DIR/..
 NPMVER=`npm show ebt-vue version`
 PKGVER=`grep -e '"version":' package.json | sed s/[^0-9.]//g`
 
-$DIR/install
+$DIR/install; RC=$?
+if [ "$RC" == "0" ]; then
+  echo -e "${SCRIPT}: install (OK)"
+else
+  echo -e "${SCRIPT}: install failed (ERROR $RC)"
+  exit $RC
+fi
 
 ED=local/ebt-data
 if [ -e $ED ]; then
@@ -25,7 +31,7 @@ npm install --save scv-bilara@latest
 npm install --save-dev scv-tts@latest
 rm -rf api/Seeker*
 rm -f local/examples.json
-cp -r node_modules/scv-tts/src/voice.json src/voices.json
+cp -r node_modules/scv-tts/src/words/voice.json src/voices.json
 $DIR/js/find-examples.js
 
 if [ "$1" == "PUSH" ]; then

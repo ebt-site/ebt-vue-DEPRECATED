@@ -24,7 +24,7 @@
     it("default ctor", ()=>{
         should.throws(()=>new BilaraWeb());
     });
-    it("TESTTESTcustom ctor", ()=>{
+    it("custom ctor", ()=>{
         let bw = new BilaraWeb({fetch});
         should.deepEqual(Object.keys(bw.examples).sort(), [
           'comment', 'authors', 'de', 'jpn', 'en'].sort());
@@ -112,7 +112,7 @@
         should(BilaraWeb.encodeHash({sutta_uid, segnum}))
             .equal('#mn1:1.2');
     });
-    it("TESTTESTisExample", async()=>{
+    it("isExample", async()=>{
         var bw = new BilaraWeb({
             fetch,
             lang: 'en', // English default
@@ -129,7 +129,7 @@
         should(bw.isExample('\\bROOT OF SUFFERING\\b')).equal('en');
         should(bw.isExample('\\bROOT OF SUFFER\\b')).equal(undefined);
     });
-    it("TESTTESTauthors(...) => supported authors", async()=>{
+    it("authors(...) => supported authors", async()=>{
       let bw = new BilaraWeb({fetch});
       let authors = bw.authors;
       should.deepEqual(authors.sabbamitta, {
@@ -141,19 +141,30 @@
         type: 'translator',
       });
     });
-    it("exampleGuid(...) => en guid", async()=>{
+    it("TESTTESTexampleGuid(...) => en guid", async()=>{
         let bw = new BilaraWeb({fetch});
         let example = 'root of suffering';
         let lang = 'en';
-        let guid = 'f0453d300d1391f5bded7acb6b3ae5c0';
-        should(bw.exampleGuid(example, lang)).equal(guid);
+        let guid_indent4 = 'f0453d300d1391f5bded7acb6b3ae5c0';
+        let guid_indent2 = '93cc08f6e62c1ad2b4a220a334dfc93d';
+        should(bw.exampleGuid(example, lang)).equal(guid_indent2);
     });
-    it("exampleGuid(...) => de guid", async()=>{
+    it("TESTTESTexampleGuid(...) => de guid", async()=>{
         let bw = new BilaraWeb({fetch});
         let example = 'sei.* abhängig entstanden';
         let lang = 'de';
-        let guid = '6887db39e3f45d06e4e87ebf004a0334';
-        should(bw.exampleGuid(example, lang)).equal(guid);
+        let guid_indent4 = '6887db39e3f45d06e4e87ebf004a0334';
+        let guid_indent2 = '59abab4175e60711fc204316ca632339';
+        should(bw.exampleGuid(example, lang)).equal(guid_indent2);
+    });
+    it("TESTTESTkuhhirte(...) => de guid", async()=>{
+        let bw = new BilaraWeb({fetch});
+        let example = 'kuhhirte';
+        let lang = 'de';
+        let guid_indent4 = '36dfdd20e0733781b028a70d13973f94';
+        let guid_indent2 = '1c1f97bab006c47a3f8ccf659543fb09';
+        let verbose = 0;
+        should(bw.exampleGuid(example, lang, verbose)).equal(guid_indent2);
     });
     it("find(...) finds mind with greed", async()=>{
         var bw = new BilaraWeb({fetch});
@@ -168,7 +179,7 @@
         ]);
         should(res.bilaraPaths.length).equal(40);
     });
-    it("TESTTESTfind(...) finds inappropriate to talk", async()=>{
+    it("find(...) finds inappropriate to talk", async()=>{
         var bw = new BilaraWeb({fetch});
         //bw.logLevel = 'info';
         var pattern = "inappropriate to talk"; 
@@ -222,7 +233,7 @@
         ]);
         should(res.bilaraPaths.length).equal(14);
     });
-    it("TESTTESTfind(...) finds example with quote", async()=>{
+    it("find(...) finds example with quote", async()=>{
         let examples = {
             'en': [
                 "but ma'am",
@@ -323,7 +334,7 @@
         var bw = new BilaraWeb({fetch, examples});
         should(bw.exampleOfMatch('königliches Gut', 'de')).equal(examples.de[0]);
     });
-    it("TESTTESTbilaraPathOf(...) SuttaRef => Bilara path", ()=>{
+    it("bilaraPathOf(...) SuttaRef => Bilara path", ()=>{
       let sutta_uid = 'thig1.1';
       let segnum = '0.1';
       var bwPli = new BilaraWeb({fetch, lang:'pli'});

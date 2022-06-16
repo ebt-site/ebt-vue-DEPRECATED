@@ -138,10 +138,15 @@
     }
 
     exampleGuid(example, lang = "en", verbose = false) {
+      // TODO: THIS IS REALLY FRAGILE AND DEPENDS
+      // ENTIRELY ON THE MEMOIZED FUNCTION IDENTATION IN
+      // scv-bilara/src/seeker.js
+      // IF THE IDENTATTION CHANGES, THE EXAMPLE GUIDS 
+      // WILL NO LONGER MATCH!!!
       const fbody = [
-        `(args)=>{`,
-        `                return that.slowFind.call(that, args);`,
-        `            }`,
+        "(args) => {",
+        "        return that.slowFind.call(that, args);",
+        "      }",
       ].join("\n");
       let { includeUnpublished } = this;
       let key = {
