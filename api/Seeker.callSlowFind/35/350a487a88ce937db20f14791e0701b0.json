@@ -32,7 +32,7 @@
     "pattern": "beschützer",
     "method": "phrase",
     "resultPattern": "\\bbeschützer",
-    "segsMatched": 70,
+    "segsMatched": 71,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an10/an10.18_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.18_translation-de-sabbamitta.json",
@@ -50,6 +50,9 @@
       "translation/de/sabbamitta/sutta/kn/thig/thig13.3_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thig/thig13.3_translation-en-sujato.json",
       "translation/en/soma/sutta/kn/thig/thig13.3_translation-en-soma.json",
+      "root/pli/ms/sutta/sn/sn9/sn9.13_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn9/sn9.13_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn9/sn9.13_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn2/sn2.25_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn2/sn2.25_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn2/sn2.25_translation-en-sujato.json",
@@ -88,6 +91,7 @@
       "dn34/de/sabbamitta",
       "dn33/de/sabbamitta",
       "thig13.3/de/sabbamitta",
+      "sn9.13/de/sabbamitta",
       "sn2.25/de/sabbamitta",
       "thig11.1/de/sabbamitta",
       "an10.20/de/sabbamitta",
@@ -863,6 +867,38 @@
         "maxWord": 30,
         "minWord": 5,
         "title": "Verbundene Lehrreden 2\n3. Verschiedene Andersgläubige\n25. Mit Jantu",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 24,
+          "de": 24,
+          "en": 24
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn9/sn9.13_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn9/sn9.13_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn9/sn9.13_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn9.13",
+        "lang": "de",
+        "segMap": {
+          "sn9.13:4.3": {
+            "scid": "sn9.13:4.3",
+            "pli": "Apaviddhā anāthā te, ",
+            "de": "Sie sind Ausschuss, haben keinen <span class=\"ebt-matched\">Beschützer</span>, ",
+            "en": "They’re rejects, with no protector, ",
+            "matched": true
+          }
+        },
+        "score": 1.042,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 9\n1. Im Wald\n13. Unbeherrschte Sinne",
         "segsMatched": 1,
         "langSegs": {
           "pli": 24,

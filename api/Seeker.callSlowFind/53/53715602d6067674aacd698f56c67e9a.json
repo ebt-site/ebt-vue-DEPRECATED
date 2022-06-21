@@ -32,7 +32,7 @@
     "pattern": "grausam",
     "method": "phrase",
     "resultPattern": "\\bgrausam",
-    "segsMatched": 50,
+    "segsMatched": 51,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
@@ -73,6 +73,9 @@
       "root/pli/ms/sutta/an/an11/an11.17_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an11/an11.17_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an11/an11.17_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn9/sn9.11_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn9/sn9.11_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn9/sn9.11_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn56/sn56.7_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn56/sn56.7_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn56/sn56.7_translation-en-sujato.json",
@@ -142,6 +145,7 @@
       "an4.138/de/sabbamitta",
       "an3.124/de/sabbamitta",
       "an11.17/de/sabbamitta",
+      "sn9.11/de/sabbamitta",
       "sn56.7/de/sabbamitta",
       "mn7/de/sabbamitta",
       "mn2/de/sabbamitta",
@@ -777,6 +781,38 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn9/sn9.11_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn9/sn9.11_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn9/sn9.11_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn9.11",
+        "lang": "de",
+        "segMap": {
+          "sn9.11:1.3": {
+            "scid": "sn9.11:1.3",
+            "pli": "kāmavitakkaṁ, byāpādavitakkaṁ, vihiṁsāvitakkaṁ. ",
+            "de": "sinnliche, boshafte und <span class=\"ebt-matched\">grausam</span>e Gedanken. ",
+            "en": "sensual, malicious, and cruel thoughts. ",
+            "matched": true
+          }
+        },
+        "score": 1.056,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 9\n1. Im Wald\n11. Untaugliche Gedanken",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 18,
+          "de": 18,
+          "en": 18
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an4/an4.165_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/an/an4/an4.165_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/an/an4/an4.165_translation-en-sujato.json"
@@ -1142,7 +1178,7 @@
           "mn2:20.2": {
             "scid": "mn2:20.2",
             "pli": "Idha, bhikkhave, bhikkhu paṭisaṅkhā yoniso uppannaṁ kāmavitakkaṁ nādhivāseti pajahati vinodeti byantīkaroti anabhāvaṁ gameti, uppannaṁ byāpādavitakkaṁ …pe… uppannaṁ vihiṁsāvitakkaṁ …pe… uppannuppanne pāpake akusale dhamme nādhivāseti pajahati vinodeti byantīkaroti anabhāvaṁ gameti. ",
-            "de": "Es ist, wenn eine Nonne genau nachdenkt und einen sinnlichen, boshaften oder <span class=\"ebt-matched\">grausam</span>en Gedanken, der aufgekommen ist, nicht duldet. Sie duldet keine schlechten, untauglichen Eigenschaften, die aufgekommen sind. Sie gibt sie auf, macht sich von ihnen los, beseitigt sie und merzt sie aus. ",
+            "de": "Es ist, wenn eine Nonne korrekt nachdenkt und einen sinnlichen, boshaften oder <span class=\"ebt-matched\">grausam</span>en Gedanken, der aufgekommen ist, nicht duldet. Sie duldet keine schlechten, untauglichen Eigenschaften, die aufgekommen sind. Sie gibt sie auf, macht sich von ihnen los, beseitigt sie und merzt sie aus. ",
             "en": "Take a mendicant who, reflecting properly, doesn’t tolerate a sensual, malicious, or cruel thought that has arisen, but gives it up, gets rid of it, eliminates it, and obliterates it. They don’t tolerate any bad, unskillful qualities that have arisen, but give them up, get rid of them, eliminate them, and obliterate them. ",
             "matched": true
           }
