@@ -3,7 +3,7 @@
   "volume": "Seeker.callSlowFind",
   "args": [
     {
-      "pattern": "im leiden verstrickt",
+      "pattern": "ins leiden verstrickt",
       "showMatchesOnly": true,
       "languages": [
         "pli",
@@ -29,26 +29,24 @@
     "minLang": 3,
     "maxDoc": 50,
     "maxResults": 1000,
-    "pattern": "im leiden verstrickt",
-    "method": "keywords",
-    "resultPattern": "\\bim|\\bleiden|\\bverstrickt",
-    "segsMatched": 4,
+    "pattern": "ins leiden verstrickt",
+    "method": "phrase",
+    "resultPattern": "\\bins leiden verstrickt",
+    "segsMatched": 5,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an3/an3.40_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.40_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.40_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an5/an5.76_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an5/an5.76_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an5/an5.76_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn10/sn10.7_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn10/sn10.7_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn10/sn10.7_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.122_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.122_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an4/an4.122_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/dn/dn14_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an4/an4.122_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an3.40/de/sabbamitta",
+      "sn10.7/de/sabbamitta",
       "an4.122/de/sabbamitta"
     ],
     "mlDocs": [
@@ -67,21 +65,21 @@
           "an3.40:1.8": {
             "scid": "an3.40:1.8",
             "pli": "Api ca khomhi otiṇṇo jātiyā jarāya maraṇena sokehi paridevehi dukkhehi domanassehi upāyāsehi, dukkhotiṇṇo dukkhapareto. ",
-            "de": "Sondern ich war in Wiedergeburt, Alter und Tod versunken, in Kummer, Klage, Schmerz, Traurigkeit und Bedrängnis. Ich war <span class=\"ebt-matched\">im</span> <span class=\"ebt-matched\">Leiden</span> versunken, ins <span class=\"ebt-matched\">Leiden</span> <span class=\"ebt-matched\">verstrickt</span>. ",
+            "de": "Sondern ich war in Wiedergeburt, Alter und Tod versunken, in Kummer, Klage, Schmerz, Traurigkeit und Bedrängnis. Ich war im Leiden versunken, <span class=\"ebt-matched\">ins Leiden verstrickt</span>. ",
             "en": "But I was swamped by rebirth, old age, and death; by sorrow, lamentation, pain, sadness, and distress. I was swamped by suffering, mired in suffering. ",
             "matched": true
           },
           "an3.40:2.5": {
             "scid": "an3.40:2.5",
             "pli": "Api ca khomhi otiṇṇo jātiyā jarāya maraṇena sokehi paridevehi dukkhehi domanassehi upāyāsehi, dukkhotiṇṇo dukkhapareto. ",
-            "de": "Sondern ich war in Wiedergeburt, Alter und Tod versunken, in Kummer, Klage, Schmerz, Traurigkeit und Bedrängnis. Ich war <span class=\"ebt-matched\">im</span> <span class=\"ebt-matched\">Leiden</span> versunken, ins <span class=\"ebt-matched\">Leiden</span> <span class=\"ebt-matched\">verstrickt</span>. ",
+            "de": "Sondern ich war in Wiedergeburt, Alter und Tod versunken, in Kummer, Klage, Schmerz, Traurigkeit und Bedrängnis. Ich war im Leiden versunken, <span class=\"ebt-matched\">ins Leiden verstrickt</span>. ",
             "en": "But I was swamped by rebirth, old age, and death, by sorrow, lamentation, pain, sadness, and distress. I was swamped by suffering, mired in suffering. ",
             "matched": true
           },
           "an3.40:3.5": {
             "scid": "an3.40:3.5",
             "pli": "Api ca khomhi otiṇṇo jātiyā jarāya maraṇena sokehi paridevehi dukkhehi domanassehi upāyāsehi, dukkhotiṇṇo dukkhapareto. ",
-            "de": "Sondern ich war in Wiedergeburt, Alter und Tod versunken, in Kummer, Klage, Schmerz, Traurigkeit und Bedrängnis. Ich war <span class=\"ebt-matched\">im</span> <span class=\"ebt-matched\">Leiden</span> versunken, ins <span class=\"ebt-matched\">Leiden</span> <span class=\"ebt-matched\">verstrickt</span>. ",
+            "de": "Sondern ich war in Wiedergeburt, Alter und Tod versunken, in Kummer, Klage, Schmerz, Traurigkeit und Bedrängnis. Ich war im Leiden versunken, <span class=\"ebt-matched\">ins Leiden verstrickt</span>. ",
             "en": "But I was swamped by rebirth, old age, and death, by sorrow, lamentation, pain, sadness, and distress. I was swamped by suffering, mired in suffering. ",
             "matched": true
           }
@@ -100,6 +98,38 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn10/sn10.7_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn10/sn10.7_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn10/sn10.7_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn10.7",
+        "lang": "de",
+        "segMap": {
+          "sn10.7:6.1": {
+            "scid": "sn10.7:6.1",
+            "pli": "Loke dukkhaparetasmiṁ, ",
+            "de": "In dieser Welt, die <span class=\"ebt-matched\">ins Leiden verstrickt</span> ist, ",
+            "en": "In this world mired in suffering, ",
+            "matched": true
+          }
+        },
+        "score": 1.021,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10\n1. Das Kapitel mit Indaka\n7. Mit Punabbasu",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 47,
+          "de": 47,
+          "en": 47
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an4/an4.122_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/an/an4/an4.122_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/an/an4/an4.122_translation-en-sujato.json"
@@ -113,7 +143,7 @@
           "an4.122:2.3": {
             "scid": "an4.122:2.3",
             "pli": "‘otiṇṇomhi jātiyā jarāya maraṇena sokehi paridevehi dukkhehi domanassehi upāyāsehi, dukkhotiṇṇo dukkhapareto; ",
-            "de": "‚Ich bin in Wiedergeburt, Alter und Tod versunken, in Kummer, Klage, Schmerz, Traurigkeit und Bedrängnis. Ich bin <span class=\"ebt-matched\">im</span> <span class=\"ebt-matched\">Leiden</span> versunken, ins <span class=\"ebt-matched\">Leiden</span> <span class=\"ebt-matched\">verstrickt</span>. ",
+            "de": "‚Ich bin in Wiedergeburt, Alter und Tod versunken, in Kummer, Klage, Schmerz, Traurigkeit und Bedrängnis. Ich bin im Leiden versunken, <span class=\"ebt-matched\">ins Leiden verstrickt</span>. ",
             "en": "‘I’m swamped by rebirth, old age, and death; by sorrow, lamentation, pain, sadness, and distress. I’m swamped by suffering, mired in suffering. ",
             "matched": true
           }
