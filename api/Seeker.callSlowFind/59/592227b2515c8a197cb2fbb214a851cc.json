@@ -30,16 +30,22 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "im leiden verstrickt",
-    "method": "phrase",
-    "resultPattern": "\\bim leiden verstrickt",
+    "method": "keywords",
+    "resultPattern": "\\bim|\\bleiden|\\bverstrickt",
     "segsMatched": 4,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an3/an3.40_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.40_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.40_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.76_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an5/an5.76_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an5/an5.76_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.122_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.122_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an4/an4.122_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an4/an4.122_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn14_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an3.40/de/sabbamitta",
@@ -61,21 +67,21 @@
           "an3.40:1.8": {
             "scid": "an3.40:1.8",
             "pli": "Api ca khomhi otiṇṇo jātiyā jarāya maraṇena sokehi paridevehi dukkhehi domanassehi upāyāsehi, dukkhotiṇṇo dukkhapareto. ",
-            "de": "Sondern ich war in Wiedergeburt, Alter und Tod versunken, in Kummer, Klage, Schmerz, Traurigkeit und Bedrängnis. Ich war im Leiden versunken, <span class=\"ebt-matched\">im Leiden verstrickt</span>. ",
+            "de": "Sondern ich war in Wiedergeburt, Alter und Tod versunken, in Kummer, Klage, Schmerz, Traurigkeit und Bedrängnis. Ich war <span class=\"ebt-matched\">im</span> <span class=\"ebt-matched\">Leiden</span> versunken, ins <span class=\"ebt-matched\">Leiden</span> <span class=\"ebt-matched\">verstrickt</span>. ",
             "en": "But I was swamped by rebirth, old age, and death; by sorrow, lamentation, pain, sadness, and distress. I was swamped by suffering, mired in suffering. ",
             "matched": true
           },
           "an3.40:2.5": {
             "scid": "an3.40:2.5",
             "pli": "Api ca khomhi otiṇṇo jātiyā jarāya maraṇena sokehi paridevehi dukkhehi domanassehi upāyāsehi, dukkhotiṇṇo dukkhapareto. ",
-            "de": "Sondern ich war in Wiedergeburt, Alter und Tod versunken, in Kummer, Klage, Schmerz, Traurigkeit und Bedrängnis. Ich war im Leiden versunken, <span class=\"ebt-matched\">im Leiden verstrickt</span>. ",
+            "de": "Sondern ich war in Wiedergeburt, Alter und Tod versunken, in Kummer, Klage, Schmerz, Traurigkeit und Bedrängnis. Ich war <span class=\"ebt-matched\">im</span> <span class=\"ebt-matched\">Leiden</span> versunken, ins <span class=\"ebt-matched\">Leiden</span> <span class=\"ebt-matched\">verstrickt</span>. ",
             "en": "But I was swamped by rebirth, old age, and death, by sorrow, lamentation, pain, sadness, and distress. I was swamped by suffering, mired in suffering. ",
             "matched": true
           },
           "an3.40:3.5": {
             "scid": "an3.40:3.5",
             "pli": "Api ca khomhi otiṇṇo jātiyā jarāya maraṇena sokehi paridevehi dukkhehi domanassehi upāyāsehi, dukkhotiṇṇo dukkhapareto. ",
-            "de": "Sondern ich war in Wiedergeburt, Alter und Tod versunken, in Kummer, Klage, Schmerz, Traurigkeit und Bedrängnis. Ich war im Leiden versunken, <span class=\"ebt-matched\">im Leiden verstrickt</span>. ",
+            "de": "Sondern ich war in Wiedergeburt, Alter und Tod versunken, in Kummer, Klage, Schmerz, Traurigkeit und Bedrängnis. Ich war <span class=\"ebt-matched\">im</span> <span class=\"ebt-matched\">Leiden</span> versunken, ins <span class=\"ebt-matched\">Leiden</span> <span class=\"ebt-matched\">verstrickt</span>. ",
             "en": "But I was swamped by rebirth, old age, and death, by sorrow, lamentation, pain, sadness, and distress. I was swamped by suffering, mired in suffering. ",
             "matched": true
           }
@@ -84,7 +90,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Nummerierte Lehrreden 3\n4. Götterboten\n40. Sich in die Pflicht nehmen",
+        "title": "Nummerierte Lehrreden 3\n4. Das Kapitel über Götterboten\n40. Sich in die Pflicht nehmen",
         "segsMatched": 3,
         "langSegs": {
           "pli": 75,
@@ -107,7 +113,7 @@
           "an4.122:2.3": {
             "scid": "an4.122:2.3",
             "pli": "‘otiṇṇomhi jātiyā jarāya maraṇena sokehi paridevehi dukkhehi domanassehi upāyāsehi, dukkhotiṇṇo dukkhapareto; ",
-            "de": "‚Ich bin in Wiedergeburt, Alter und Tod versunken, in Kummer, Klage, Schmerz, Traurigkeit und Bedrängnis. Ich bin im Leiden versunken, <span class=\"ebt-matched\">im Leiden verstrickt</span>. ",
+            "de": "‚Ich bin in Wiedergeburt, Alter und Tod versunken, in Kummer, Klage, Schmerz, Traurigkeit und Bedrängnis. Ich bin <span class=\"ebt-matched\">im</span> <span class=\"ebt-matched\">Leiden</span> versunken, ins <span class=\"ebt-matched\">Leiden</span> <span class=\"ebt-matched\">verstrickt</span>. ",
             "en": "‘I’m swamped by rebirth, old age, and death; by sorrow, lamentation, pain, sadness, and distress. I’m swamped by suffering, mired in suffering. ",
             "matched": true
           }
@@ -116,7 +122,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Nummerierte Lehrreden 4\n13. Furcht\n122. Gefahr durch Wellen",
+        "title": "Nummerierte Lehrreden 4\n13. Das Kapitel über Furcht\n122. Gefahr durch Wellen",
         "segsMatched": 1,
         "langSegs": {
           "pli": 68,

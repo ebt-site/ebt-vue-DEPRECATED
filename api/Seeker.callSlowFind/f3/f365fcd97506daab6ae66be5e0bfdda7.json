@@ -32,7 +32,7 @@
     "pattern": "überquer",
     "method": "phrase",
     "resultPattern": "\\büberquer",
-    "segsMatched": 62,
+    "segsMatched": 66,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an4/an4.196_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.196_translation-de-sabbamitta.json",
@@ -61,6 +61,9 @@
       "root/pli/ms/sutta/sn/sn1/sn1.5_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn1/sn1.5_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.5_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn10/sn10.3_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn10/sn10.3_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn10/sn10.3_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/ud/vagga8/ud8.6_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga8/ud8.6_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/ud/vagga8/ud8.6_translation-en-sujato.json",
@@ -70,6 +73,9 @@
       "root/pli/ms/sutta/kn/thag/thag21.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag21.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag21.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga2/snp2.5_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/snp/vagga2/snp2.5_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/snp/vagga2/snp2.5_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
@@ -142,9 +148,11 @@
       "snp1.10/de/sabbamitta",
       "sn2.15/de/sabbamitta",
       "sn1.5/de/sabbamitta",
+      "sn10.3/de/sabbamitta",
       "ud8.6/de/sabbamitta",
       "ud7.1/de/sabbamitta",
       "thag21.1/de/sabbamitta",
+      "snp2.5/de/sabbamitta",
       "dn16/de/sabbamitta",
       "sn9.1/de/sabbamitta",
       "sn8.8/de/sabbamitta",
@@ -314,7 +322,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Verbundene Lehrreden 1\n1. Ein Schilfrohr\n1. Die Flut überqueren",
+        "title": "Verbundene Lehrreden 1\n1. Das Kapitel über ein Schilfrohr\n1. Die Flut überqueren",
         "segsMatched": 6,
         "langSegs": {
           "pli": 20,
@@ -367,7 +375,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Verbundene Lehrreden 4\n3. Māra\n25. Māras Töchter",
+        "title": "Verbundene Lehrreden 4\n3. Das Kapitel über Māra\n25. Māras Töchter",
         "segsMatched": 4,
         "langSegs": {
           "pli": 116,
@@ -413,7 +421,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Verbundene Lehrreden 2\n3. Verschiedene Andersgläubige\n24. Mit Ghaṭīkāra",
+        "title": "Verbundene Lehrreden 2\n3. Das Kapitel über verschiedene Andersgläubige\n24. Mit Ghaṭīkāra",
         "segsMatched": 3,
         "langSegs": {
           "pli": 60,
@@ -459,7 +467,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Verbundene Lehrreden 1\n5. In Flammen\n50. Mit Ghaṭīkāra",
+        "title": "Verbundene Lehrreden 1\n5. Das Kapitel über das Inflammenstehen\n50. Mit Ghaṭīkāra",
         "segsMatched": 3,
         "langSegs": {
           "pli": 65,
@@ -551,7 +559,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Verbundene Lehrreden 10\n1. Mit Indaka\n12. Mit Āḷavaka",
+        "title": "Verbundene Lehrreden 10\n1. Das Kapitel mit Indaka\n12. Mit Āḷavaka",
         "segsMatched": 3,
         "langSegs": {
           "pli": 87,
@@ -590,7 +598,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Verbundene Lehrreden 1\n1. Ein Schilfrohr\n5. Wie viele zu zerschneiden?",
+        "title": "Verbundene Lehrreden 1\n1. Das Kapitel über ein Schilfrohr\n5. Wie viele zu zerschneiden?",
         "segsMatched": 2,
         "langSegs": {
           "pli": 13,
@@ -668,12 +676,90 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Verbundene Lehrreden 2\n2. Mit Anāthapiṇḍika\n15. Mit Candana",
+        "title": "Verbundene Lehrreden 2\n2. Das Kapitel mit Anāthapiṇḍika\n15. Mit Candana",
         "segsMatched": 2,
         "langSegs": {
           "pli": 16,
           "de": 16,
           "en": 16
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn10/sn10.3_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn10/sn10.3_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn10/sn10.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn10.3",
+        "lang": "de",
+        "segMap": {
+          "sn10.3:6.3": {
+            "scid": "sn10.3:6.3",
+            "pli": "Te duttaraṁ oghamimaṁ taranti, ",
+            "de": "Sie <span class=\"ebt-matched\">überquer</span>en die Flut, die so schwer zu <span class=\"ebt-matched\">überquer</span>en ist, ",
+            "en": "They cross this flood so hard to cross, ",
+            "matched": true
+          },
+          "sn10.3:6.4": {
+            "scid": "sn10.3:6.4",
+            "pli": "Atiṇṇapubbaṁ apunabbhavāyā”ti. ",
+            "de": "die zuvor nicht <span class=\"ebt-matched\">überquer</span>t war, und werden nicht wiedergeboren.“ ",
+            "en": "not crossed before, so as to not be reborn.”",
+            "matched": true
+          }
+        },
+        "score": 2.057,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10\n1. Das Kapitel mit Indaka\n3. Mit Stachelhaar",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 35,
+          "de": 35,
+          "en": 35
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga2/snp2.5_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/snp/vagga2/snp2.5_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/snp/vagga2/snp2.5_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp2.5",
+        "lang": "de",
+        "segMap": {
+          "snp2.5:8.3": {
+            "scid": "snp2.5:8.3",
+            "pli": "Te duttaraṁ oghamimaṁ taranti,",
+            "de": "Sie <span class=\"ebt-matched\">überquer</span>en die Flut, die so schwer zu <span class=\"ebt-matched\">überquer</span>en ist, ",
+            "en": "They cross this flood so hard to cross, ",
+            "matched": true
+          },
+          "snp2.5:8.4": {
+            "scid": "snp2.5:8.4",
+            "pli": "Atiṇṇapubbaṁ apunabbhavāyā”ti.",
+            "de": "die zuvor nicht <span class=\"ebt-matched\">überquer</span>t war, und werden nicht wiedergeboren.“ ",
+            "en": "not crossed before, so as to not be reborn.”",
+            "matched": true
+          }
+        },
+        "score": 2.054,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lehrreden-Sammelband\n2.5 Mit Stachelhaar",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 37,
+          "de": 36,
+          "en": 36
         }
       },
       {
@@ -746,7 +832,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Strophen der altehrwürdigen Mönche\nDas große Buch\nErstes Kapitel\n21.1 Vaṅgīsa",
+        "title": "Strophen der altehrwürdigen Mönche\nDas große Buch\nDas erste Kapitel\n21.1 Vaṅgīsa",
         "segsMatched": 2,
         "langSegs": {
           "pli": 309,
@@ -817,7 +903,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Verbundene Lehrreden 1\n5. In Flammen\n44. Eine Wurzel",
+        "title": "Verbundene Lehrreden 1\n5. Das Kapitel über das Inflammenstehen\n44. Eine Wurzel",
         "segsMatched": 1,
         "langSegs": {
           "pli": 7,
@@ -946,7 +1032,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Verbundene Lehrreden 4\n2. Herrschaft\n12. Löwe",
+        "title": "Verbundene Lehrreden 4\n2. Das Kapitel über Herrschaft\n12. Löwe",
         "segsMatched": 1,
         "langSegs": {
           "pli": 18,
@@ -978,7 +1064,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Nummerierte Lehrreden 3\n4. Götterboten\n32. Mit Ānanda",
+        "title": "Nummerierte Lehrreden 3\n4. Das Kapitel über Götterboten\n32. Mit Ānanda",
         "segsMatched": 1,
         "langSegs": {
           "pli": 20,
@@ -1010,7 +1096,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Verbundene Lehrreden 9\n1. Im Wald\n1. Abgeschiedenheit",
+        "title": "Verbundene Lehrreden 9\n1. Das Kapitel über den Wald\n1. Abgeschiedenheit",
         "segsMatched": 1,
         "langSegs": {
           "pli": 20,
@@ -1042,7 +1128,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Verbundene Lehrreden 2\n2. Mit Anāthapiṇḍika\n18. Mit Kakudha",
+        "title": "Verbundene Lehrreden 2\n2. Das Kapitel mit Anāthapiṇḍika\n18. Mit Kakudha",
         "segsMatched": 1,
         "langSegs": {
           "pli": 32,
@@ -1074,7 +1160,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Nummerierte Lehrreden 4\n5. Mit Rohitassa\n41. Wie man Versenkung weiterentwickelt",
+        "title": "Nummerierte Lehrreden 4\n5. Das Kapitel mit Rohitassa\n41. Wie man Versenkung weiterentwickelt",
         "segsMatched": 1,
         "langSegs": {
           "pli": 36,
@@ -1138,7 +1224,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Verbundene Lehrreden 8\n1. Mit Vaṅgīsa\n8. Über tausend",
+        "title": "Verbundene Lehrreden 8\n1. Das Kapitel mit Vaṅgīsa\n8. Über tausend",
         "segsMatched": 1,
         "langSegs": {
           "pli": 50,
@@ -1170,7 +1256,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Verbundene Lehrreden 1\n4. Die Satullapa-Gruppe\n35. Geringschätzung",
+        "title": "Verbundene Lehrreden 1\n4. Das Kapitel über die Satullapa-Gruppe\n35. Geringschätzung",
         "segsMatched": 1,
         "langSegs": {
           "pli": 54,
@@ -1234,7 +1320,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Verbundene Lehrreden 1\n4. Die Satullapa-Gruppe\n33. Gut",
+        "title": "Verbundene Lehrreden 1\n4. Das Kapitel über die Satullapa-Gruppe\n33. Gut",
         "segsMatched": 1,
         "langSegs": {
           "pli": 63,
