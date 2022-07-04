@@ -32,7 +32,7 @@
     "pattern": "was noch nicht erreicht ist",
     "method": "phrase",
     "resultPattern": "\\bwas noch nicht erreicht ist",
-    "segsMatched": 50,
+    "segsMatched": 52,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an8/an8.80_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.80_translation-de-sabbamitta.json",
@@ -67,6 +67,12 @@
       "root/pli/ms/sutta/sn/sn12/sn12.22_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.22_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn12/sn12.22_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn11/sn11.2_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn11/sn11.2_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn11/sn11.2_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn11/sn11.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn11/sn11.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn11/sn11.1_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an9/an9.4_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an9/an9.4_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an9/an9.4_translation-en-sujato.json"
@@ -83,6 +89,8 @@
       "an5.156/de/sabbamitta",
       "an3.95/de/sabbamitta",
       "sn12.22/de/sabbamitta",
+      "sn11.2/de/sabbamitta",
+      "sn11.1/de/sabbamitta",
       "an9.4/de/sabbamitta"
     ],
     "mlDocs": [
@@ -702,6 +710,70 @@
           "pli": 34,
           "de": 33,
           "en": 33
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn11/sn11.2_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn11/sn11.2_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn11/sn11.2_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn11.2",
+        "lang": "de",
+        "segMap": {
+          "sn11.2:8.2": {
+            "scid": "sn11.2:8.2",
+            "pli": "Idha kho taṁ, bhikkhave, sobhetha, yaṁ tumhe evaṁ svākkhāte dhammavinaye pabbajitā samānā uṭṭhaheyyātha ghaṭeyyātha vāyameyyātha appattassa pattiyā, anadhigatassa adhigamāya, asacchikatassa sacchikiriyāyā”ti. ",
+            "de": "Aber da ihr in einer so gut erklärten Lehre und Schulung fortgezogen seid, wäre es wirklich wundervoll, wenn ihr euch anstrengen, euch bemühen und euch einsetzen würdet, um zu erreichen, <span class=\"ebt-matched\">was noch nicht erreicht ist</span>, zu erringen, was noch nicht errungen ist, und zu erkennen, was noch nicht erkannt ist!“ ",
+            "en": "But since you have gone forth in such a well explained teaching and training, it would be truly beautiful for you to try hard, strive, and make an effort to attain the unattained, achieve the unachieved, and realize the unrealized!”",
+            "matched": true
+          }
+        },
+        "score": 1.024,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 11\n1. Das erste Kapitel\n2. Mit Susīma",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 41,
+          "de": 39,
+          "en": 41
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn11/sn11.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn11/sn11.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn11/sn11.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn11.1",
+        "lang": "de",
+        "segMap": {
+          "sn11.1:8.2": {
+            "scid": "sn11.1:8.2",
+            "pli": "Idha kho taṁ, bhikkhave, sobhetha, yaṁ tumhe evaṁ svākkhāte dhammavinaye pabbajitā samānā uṭṭhaheyyātha ghaṭeyyātha vāyameyyātha appattassa pattiyā anadhigatassa adhigamāya, asacchikatassa sacchikiriyāyā”ti. ",
+            "de": "Aber da ihr in einer so gut erklärten Lehre und Schulung fortgezogen seid, wäre es wirklich wundervoll, wenn ihr euch anstrengen, euch bemühen und euch einsetzen würdet, um zu erreichen, <span class=\"ebt-matched\">was noch nicht erreicht ist</span>, zu erringen, was noch nicht errungen ist, und zu erkennen, was noch nicht erkannt ist!“ ",
+            "en": "But since you have gone forth in such a well explained teaching and training, it would be truly beautiful for you to try hard, strive, and make an effort to attain the unattained, achieve the unachieved, and realize the unrealized!”",
+            "matched": true
+          }
+        },
+        "score": 1.022,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 11\n1. Das erste Kapitel\n1. Mit Suvīra",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 46,
+          "de": 46,
+          "en": 46
         }
       },
       {

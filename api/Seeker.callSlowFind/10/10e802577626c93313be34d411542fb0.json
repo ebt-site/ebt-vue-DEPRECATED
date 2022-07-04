@@ -32,11 +32,14 @@
     "pattern": "eingeäschert",
     "method": "phrase",
     "resultPattern": "\\beingeäschert",
-    "segsMatched": 16,
+    "segsMatched": 22,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn1/sn1.71_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn1/sn1.71_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.71_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn11/sn11.21_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn11/sn11.21_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn11/sn11.21_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn7/sn7.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn7/sn7.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn7/sn7.1_translation-en-sujato.json",
@@ -46,6 +49,7 @@
     ],
     "suttaRefs": [
       "sn1.71/de/sabbamitta",
+      "sn11.21/de/sabbamitta",
       "sn7.1/de/sabbamitta",
       "sn2.3/de/sabbamitta"
     ],
@@ -115,6 +119,73 @@
           "pli": 15,
           "de": 15,
           "en": 15
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn11/sn11.21_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn11/sn11.21_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn11/sn11.21_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn11.21",
+        "lang": "de",
+        "segMap": {
+          "sn11.21:0.3": {
+            "scid": "sn11.21:0.3",
+            "pli": "21. Chetvāsutta ",
+            "de": "21. <span class=\"ebt-matched\">Eingeäschert</span> ",
+            "en": "Incinerated ",
+            "matched": true
+          },
+          "sn11.21:2.1": {
+            "scid": "sn11.21:2.1",
+            "pli": "“Kiṁsu chetvā sukhaṁ seti, ",
+            "de": "„Wenn was <span class=\"ebt-matched\">eingeäschert</span> ist, schläft man gut? ",
+            "en": "“When what is incinerated do you sleep at ease? ",
+            "matched": true
+          },
+          "sn11.21:2.2": {
+            "scid": "sn11.21:2.2",
+            "pli": "kiṁsu chetvā na socati; ",
+            "de": "Wenn was <span class=\"ebt-matched\">eingeäschert</span> ist, gibt es keinen Kummer? ",
+            "en": "When what is incinerated is there no sorrow? ",
+            "matched": true
+          },
+          "sn11.21:3.1": {
+            "scid": "sn11.21:3.1",
+            "pli": "“Kodhaṁ chetvā sukhaṁ seti, ",
+            "de": "„Wenn Zorn <span class=\"ebt-matched\">eingeäschert</span> ist, schläft man gut. ",
+            "en": "“When anger’s incinerated you sleep at ease. ",
+            "matched": true
+          },
+          "sn11.21:3.2": {
+            "scid": "sn11.21:3.2",
+            "pli": "kodhaṁ chetvā na socati; ",
+            "de": "Wenn Zorn <span class=\"ebt-matched\">eingeäschert</span> ist, gibt es keinen Kummer. ",
+            "en": "When anger’s incinerated there is no sorrow. ",
+            "matched": true
+          },
+          "sn11.21:3.6": {
+            "scid": "sn11.21:3.6",
+            "pli": "tañhi chetvā na socatī”ti. ",
+            "de": "denn wenn er <span class=\"ebt-matched\">eingeäschert</span> ist, gibt es keinen Kummer.“ ",
+            "en": "for when it’s incinerated there is no sorrow.”",
+            "matched": true
+          }
+        },
+        "score": 6.375,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 11\n3. Das dritte Kapitel\n21. Eingeäschert",
+        "segsMatched": 6,
+        "langSegs": {
+          "pli": 16,
+          "de": 16,
+          "en": 16
         }
       },
       {

@@ -32,7 +32,7 @@
     "pattern": "schwer zu sehen",
     "method": "phrase",
     "resultPattern": "\\bschwer zu sehen",
-    "segsMatched": 8,
+    "segsMatched": 9,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn6/sn6.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn6/sn6.1_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn14_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn11/sn11.13_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn11/sn11.13_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn11/sn11.13_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/ud/vagga8/ud8.2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga8/ud8.2_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/ud/vagga8/ud8.2_translation-en-sujato.json",
@@ -58,6 +61,7 @@
     "suttaRefs": [
       "sn6.1/de/sabbamitta",
       "dn14/de/sabbamitta",
+      "sn11.13/de/sabbamitta",
       "ud8.2/de/sabbamitta",
       "thig6.1/de/sabbamitta",
       "thig3.5/de/sabbamitta",
@@ -238,6 +242,38 @@
           "pli": 31,
           "de": 30,
           "en": 30
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn11/sn11.13_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn11/sn11.13_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn11/sn11.13_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn11.13",
+        "lang": "de",
+        "segMap": {
+          "sn11.13:4.2": {
+            "scid": "sn11.13:4.2",
+            "pli": "Duddaso hi, bhante, sakko devānamindo”ti. ",
+            "de": "Denn Sakka ist <span class=\"ebt-matched\">schwer zu sehen</span>.“ ",
+            "en": "For Sakka is hard to see.” ",
+            "matched": true
+          }
+        },
+        "score": 1.028,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 11\n2. Das zweite Kapitel\n13. Mit Mahāli",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 36,
+          "de": 36,
+          "en": 36
         }
       },
       {
