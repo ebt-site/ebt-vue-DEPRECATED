@@ -31,16 +31,18 @@
     "pattern": "awakened for themselves",
     "method": "phrase",
     "resultPattern": "\\bawakened for themselves",
-    "segsMatched": 18,
+    "segsMatched": 21,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn116_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn116_translation-en-sujato.json",
-      "root/pli/ms/sutta/mn/mn142_root-pli-ms.json",
-      "translation/en/sujato/sutta/mn/mn142_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn142_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn142_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an9/an9.20_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an9/an9.20_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn3/sn3.20_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn3/sn3.20_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/ud/vagga5/ud5.3_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/ud/vagga5/ud5.3_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/kp/kp8_root-pli-ms.json",
@@ -54,9 +56,10 @@
     ],
     "suttaRefs": [
       "mn116/en/sujato",
-      "mn142/en/sujato",
       "dn16/en/sujato",
+      "mn142/en/sujato",
       "an9.20/en/sujato",
+      "sn3.20/en/sujato",
       "ud5.3/en/sujato",
       "kp8/en/sujato",
       "an4.247/en/sujato",
@@ -108,7 +111,7 @@
           "mn116:6.3": {
             "scid": "mn116:6.3",
             "pli": "Paccekabuddhā bhavanettikhīṇā, ",
-            "en": "<span class=\"ebt-matched\">awakened for themselves</span>, enders of the attachment to rebirth. ",
+            "en": "<span class=\"ebt-matched\">awakened for themselves</span>, enders of the conduit to rebirth. ",
             "matched": true
           },
           "mn116:7.1": {
@@ -127,6 +130,53 @@
         "langSegs": {
           "pli": 96,
           "en": 95
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
+          "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn16",
+        "lang": "en",
+        "segMap": {
+          "dn16:5.12.3": {
+            "scid": "dn16:5.12.3",
+            "pli": "Tathāgato arahaṁ sammāsambuddho thūpāraho, paccekasambuddho thūpāraho, tathāgatassa sāvako thūpāraho, rājā cakkavattī thūpārahoti. ",
+            "en": "A Realized One, a perfected one, a fully awakened Buddha; a Buddha <span class=\"ebt-matched\">awakened for themselves</span>; a disciple of a Realized One; and a wheel-turning monarch. ",
+            "matched": true
+          },
+          "dn16:5.12.8": {
+            "scid": "dn16:5.12.8",
+            "pli": "Kiñcānanda, atthavasaṁ paṭicca paccekasambuddho thūpāraho? ",
+            "en": "And for what reason is a Buddha <span class=\"ebt-matched\">awakened for themselves</span> worthy of a monument? ",
+            "matched": true
+          },
+          "dn16:5.12.9": {
+            "scid": "dn16:5.12.9",
+            "pli": "‘Ayaṁ tassa bhagavato paccekasambuddhassa thūpo’ti, ānanda, bahujanā cittaṁ pasādenti. ",
+            "en": "So that many people will inspire confidence in their hearts, thinking: ‘This is the monument for that Buddha <span class=\"ebt-matched\">awakened for themselves</span>!’ ",
+            "matched": true
+          },
+          "dn16:5.12.11": {
+            "scid": "dn16:5.12.11",
+            "pli": "Idaṁ kho, ānanda, atthavasaṁ paṭicca paccekasambuddho thūpāraho. ",
+            "en": "It is for this reason that a Buddha <span class=\"ebt-matched\">awakened for themselves</span> is worthy of a monument. ",
+            "matched": true
+          }
+        },
+        "score": 4.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Long Discourses 16\nThe Great Discourse on the Buddha’s Extinguishment",
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 1665,
+          "en": 1664
         }
       },
       {
@@ -201,41 +251,6 @@
       },
       {
         "bilaraPaths": [
-          "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
-          "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "dn16",
-        "lang": "en",
-        "segMap": {
-          "dn16:5.12.3": {
-            "scid": "dn16:5.12.3",
-            "pli": "Tathāgato arahaṁ sammāsambuddho thūpāraho, paccekasambuddho thūpāraho, tathāgatassa sāvako thūpāraho, rājā cakkavattī thūpārahoti. ",
-            "en": "A Realized One, a perfected one, a fully awakened Buddha; a Buddha <span class=\"ebt-matched\">awakened for themselves</span>; a disciple of a Realized One; and a wheel-turning monarch. ",
-            "matched": true
-          },
-          "dn16:5.12.8": {
-            "scid": "dn16:5.12.8",
-            "pli": "Kiñcānanda, atthavasaṁ paṭicca paccekasambuddho thūpāraho? ",
-            "en": "And for what reason is a Buddha <span class=\"ebt-matched\">awakened for themselves</span> worthy of a monument? ",
-            "matched": true
-          }
-        },
-        "score": 2.001,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Long Discourses 16\nThe Great Discourse on the Buddha’s Extinguishment",
-        "segsMatched": 2,
-        "langSegs": {
-          "pli": 1665,
-          "en": 1664
-        }
-      },
-      {
-        "bilaraPaths": [
           "root/pli/ms/sutta/an/an4/an4.247_root-pli-ms.json",
           "translation/en/sujato/sutta/an/an4/an4.247_translation-en-sujato.json"
         ],
@@ -294,6 +309,35 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn3/sn3.20_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn3/sn3.20_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn3.20",
+        "lang": "en",
+        "segMap": {
+          "sn3.20:3.2": {
+            "scid": "sn3.20:3.2",
+            "pli": "Bhūtapubbaṁ so, mahārāja, seṭṭhi gahapati taggarasikhiṁ nāma paccekasambuddhaṁ piṇḍapātena paṭipādesi. ",
+            "en": "Once upon a time, great king, that financier householder provided almsfood on behalf of a Buddha <span class=\"ebt-matched\">awakened for themselves</span> named Tagarasikhī. ",
+            "matched": true
+          }
+        },
+        "score": 1.018,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 3.20\n2. Childless\nChildless (2nd)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 55,
+          "en": 53
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/kn/ud/vagga5/ud5.3_root-pli-ms.json",
           "translation/en/sujato/sutta/kn/ud/vagga5/ud5.3_translation-en-sujato.json"
         ],
@@ -306,7 +350,7 @@
           "ud5.3:11.2": {
             "scid": "ud5.3:11.2",
             "pli": "So uyyānabhūmiṁ niyyanto addasa tagarasikhiṁ paccekabuddhaṁ nagaraṁ piṇḍāya pavisantaṁ.",
-            "en": "On his way to visit a park, he saw Tagarasikhi, a Buddha <span class=\"ebt-matched\">awakened for themselves</span>, entering the city for alms. ",
+            "en": "On his way to visit a park, he saw Tagarasikhī, a Buddha <span class=\"ebt-matched\">awakened for themselves</span>, entering the city for alms. ",
             "matched": true
           }
         },

@@ -31,7 +31,7 @@
     "pattern": "ending of deeds",
     "method": "phrase",
     "resultPattern": "\\bending of deeds",
-    "segsMatched": 24,
+    "segsMatched": 25,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn57_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn57_translation-en-sujato.json",
@@ -51,6 +51,8 @@
       "translation/en/sujato/sutta/an/an4/an4.238_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn14_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn14_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.232_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an4/an4.232_translation-en-sujato.json"
     ],
@@ -64,6 +66,7 @@
       "mn101/en/sujato",
       "an4.238/en/sujato",
       "mn14/en/sujato",
+      "dn33/en/sujato",
       "an4.232/en/sujato"
     ],
     "mlDocs": [
@@ -439,6 +442,35 @@
         "langSegs": {
           "pli": 144,
           "en": 143
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+          "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn33",
+        "lang": "en",
+        "segMap": {
+          "dn33:1.11.157": {
+            "scid": "dn33:1.11.157",
+            "pli": "Atthāvuso, kammaṁ akaṇhaasukkaṁ akaṇhaasukkavipākaṁ kammakkhayāya saṁvattati. ",
+            "en": "There are neither dark nor bright deeds with neither dark nor bright results, which lead to the <span class=\"ebt-matched\">ending of deeds</span>. ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Long Discourses 33\nReciting in Concert",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 1167,
+          "en": 1166
         }
       }
     ]

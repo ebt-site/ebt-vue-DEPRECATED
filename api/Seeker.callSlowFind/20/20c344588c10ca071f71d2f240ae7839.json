@@ -29,67 +29,116 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "ancient principle",
-    "method": "phrase",
-    "resultPattern": "\\bancient principle",
-    "segsMatched": 3,
+    "method": "keywords",
+    "resultPattern": "\\bancient|\\bprinciple",
+    "segsMatched": 5,
     "bilaraPaths": [
-      "root/pli/ms/sutta/sn/sn8/sn8.5_root-pli-ms.json",
-      "translation/en/sujato/sutta/sn/sn8/sn8.5_translation-en-sujato.json",
-      "root/pli/ms/sutta/sn/sn1/sn1.32_root-pli-ms.json",
-      "translation/en/sujato/sutta/sn/sn1/sn1.32_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/thag/thag21.1_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/thag/thag21.1_translation-en-sujato.json"
+      "root/pli/ms/sutta/dn/dn27_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn27_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn95_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn95_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.29_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an4/an4.29_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.30_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an4/an4.30_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an7/an7.22_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an7/an7.22_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga2/snp2.7_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga2/snp2.7_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "sn8.5/en/sujato",
-      "sn1.32/en/sujato",
-      "thag21.1/en/sujato"
+      "an4.29/en/sujato",
+      "an4.30/en/sujato",
+      "an7.22/en/sujato"
     ],
     "mlDocs": [
       {
         "bilaraPaths": [
-          "root/pli/ms/sutta/sn/sn8/sn8.5_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn8/sn8.5_translation-en-sujato.json"
+          "root/pli/ms/sutta/an/an4/an4.29_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an4/an4.29_translation-en-sujato.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
         "category": "sutta",
-        "sutta_uid": "sn8.5",
+        "sutta_uid": "an4.29",
         "lang": "en",
         "segMap": {
-          "sn8.5:7.2": {
-            "scid": "sn8.5:7.2",
-            "pli": "esa dhammo sanantano; ",
-            "en": "this is an <span class=\"ebt-matched\">ancient principle</span>. ",
+          "an4.29:1.1": {
+            "scid": "an4.29:1.1",
+            "pli": "“Cattārimāni, bhikkhave, dhammapadāni aggaññāni rattaññāni vaṁsaññāni porāṇāni asaṅkiṇṇāni asaṅkiṇṇapubbāni, na saṅkīyanti na saṅkīyissanti, appaṭikuṭṭhāni samaṇehi brāhmaṇehi viññūhi. ",
+            "en": "“Mendicants, these four basic <span class=\"ebt-matched\">principle</span>s are primordial, long-standing, traditional, and <span class=\"ebt-matched\">ancient</span>. They are uncorrupted, as they have been since the beginning. They’re not being corrupted now nor will they be. Sensible ascetics and brahmins don’t look down on them. ",
+            "matched": true
+          },
+          "an4.29:4.2": {
+            "scid": "an4.29:4.2",
+            "pli": "Imāni kho, bhikkhave, cattāri dhammapadāni aggaññāni rattaññāni vaṁsaññāni porāṇāni asaṅkiṇṇāni asaṅkiṇṇapubbāni, na saṅkīyanti na saṅkīyissanti, appaṭikuṭṭhāni samaṇehi brāhmaṇehi viññūhīti. ",
+            "en": "These four basic <span class=\"ebt-matched\">principle</span>s are primordial, long-standing, traditional, and <span class=\"ebt-matched\">ancient</span>. They are uncorrupted, as they have been since the beginning. They’re not being corrupted now nor will they be. Sensible ascetics and brahmins don’t look down on them. ",
             "matched": true
           }
         },
-        "score": 1.026,
+        "score": 2.133,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Linked Discourses 8.5\n1. With Vaṅgīsa\nWell-Spoken Words",
-        "segsMatched": 1,
+        "title": "Numbered Discourses 4.29\n3. At Uruvelā\nBasic Principles",
+        "segsMatched": 2,
         "langSegs": {
-          "pli": 38,
-          "en": 38
+          "pli": 15,
+          "en": 14
         }
       },
       {
         "bilaraPaths": [
-          "root/pli/ms/sutta/sn/sn1/sn1.32_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn1/sn1.32_translation-en-sujato.json"
+          "root/pli/ms/sutta/an/an4/an4.30_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an4/an4.30_translation-en-sujato.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
         "category": "sutta",
-        "sutta_uid": "sn1.32",
+        "sutta_uid": "an4.30",
         "lang": "en",
         "segMap": {
-          "sn1.32:7.4": {
-            "scid": "sn1.32:7.4",
-            "pli": "esa dhammo sanantano. ",
-            "en": "This is an <span class=\"ebt-matched\">ancient principle</span>. ",
+          "an4.30:2.1": {
+            "scid": "an4.30:2.1",
+            "pli": "“Cattārimāni, paribbājakā, dhammapadāni aggaññāni rattaññāni vaṁsaññāni porāṇāni asaṅkiṇṇāni asaṅkiṇṇapubbāni, na saṅkīyanti na saṅkīyissanti, appaṭikuṭṭhāni samaṇehi brāhmaṇehi viññūhi. ",
+            "en": "“Wanderers, these four basic <span class=\"ebt-matched\">principle</span>s are primordial, long-standing, traditional, and <span class=\"ebt-matched\">ancient</span>. They are uncorrupted, as they have been since the beginning. They’re not being corrupted now nor will they be. Sensible ascetics and brahmins don’t look down on them. ",
+            "matched": true
+          },
+          "an4.30:2.5": {
+            "scid": "an4.30:2.5",
+            "pli": "Imāni kho, paribbājakā, cattāri dhammapadāni aggaññāni rattaññāni vaṁsaññāni porāṇāni asaṅkiṇṇāni asaṅkiṇṇapubbāni, na saṅkīyanti na saṅkīyissanti, appaṭikuṭṭhāni samaṇehi brāhmaṇehi viññūhi. ",
+            "en": "These four basic <span class=\"ebt-matched\">principle</span>s are primordial, long-standing, traditional, and <span class=\"ebt-matched\">ancient</span>. They are uncorrupted, as they have been since the beginning. They’re not being corrupted now nor will they be. Sensible ascetics and brahmins don’t look down on them. ",
+            "matched": true
+          }
+        },
+        "score": 2.042,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 4.30\n3. At Uruvelā\nWanderers",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 48,
+          "en": 46
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an7/an7.22_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an7/an7.22_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an7.22",
+        "lang": "en",
+        "segMap": {
+          "an7.22:6.1": {
+            "scid": "an7.22:6.1",
+            "pli": "Kinti te, ānanda, sutaṁ: ‘vajjī apaññattaṁ na paññāpenti, paññattaṁ na samucchindanti, yathāpaññatte porāṇe vajjidhamme samādāya vattantī’”ti? ",
+            "en": "Ānanda, have you heard that the Vajjis don’t make new decrees or abolish existing decrees, but proceed having undertaken the <span class=\"ebt-matched\">ancient</span> Vajjian <span class=\"ebt-matched\">principle</span>s as they have been decreed?” ",
             "matched": true
           }
         },
@@ -97,40 +146,11 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Linked Discourses 1.32\n4. The Satullapa Group\nStinginess",
+        "title": "Numbered Discourses 7.22\n3. The Vajji Seven\nWith Vassakāra",
         "segsMatched": 1,
         "langSegs": {
           "pli": 57,
-          "en": 57
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/kn/thag/thag21.1_root-pli-ms.json",
-          "translation/en/sujato/sutta/kn/thag/thag21.1_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "thag21.1",
-        "lang": "en",
-        "segMap": {
-          "thag21.1:21.2": {
-            "scid": "thag21.1:21.2",
-            "pli": "esa dhammo sanantano;",
-            "en": "this is an <span class=\"ebt-matched\">ancient principle</span>.",
-            "matched": true
-          }
-        },
-        "score": 1.003,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Verses of the Senior Monks 21.1\nThe Great Book\nChapter One\nVaṅgīsa",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 309,
-          "en": 309
+          "en": 56
         }
       }
     ]
