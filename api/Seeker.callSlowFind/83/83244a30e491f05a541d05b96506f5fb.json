@@ -30,50 +30,24 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "hab. ich das beste getroffen",
-    "method": "phrase",
-    "resultPattern": "\\bhab. ich das beste getroffen",
-    "segsMatched": 1,
+    "method": "keywords",
+    "resultPattern": "\\bhab.|\\bich|\\bdas|\\bbeste|\\bgetroffen",
+    "segsMatched": 0,
     "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn21_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn21_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn21_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag20.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag20.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag20.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.234_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.234_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.234_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag21.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag21.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag21.1_translation-en-sujato.json"
     ],
-    "suttaRefs": [
-      "thag21.1/de/sabbamitta"
-    ],
-    "mlDocs": [
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/kn/thag/thag21.1_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/kn/thag/thag21.1_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/kn/thag/thag21.1_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "thag21.1",
-        "lang": "de",
-        "segMap": {
-          "thag21.1:53.4": {
-            "scid": "thag21.1:53.4",
-            "pli": "yaṁ seṭṭhaṁ tadupāgamiṁ.",
-            "de": "<span class=\"ebt-matched\">hab' ich das beste getroffen</span>. ",
-            "en": "I arrived at the the best.",
-            "matched": true
-          }
-        },
-        "score": 1.003,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Strophen der altehrwürdigen Mönche\nDas große Buch\nDas erste Kapitel\n21.1 Vaṅgīsa",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 309,
-          "de": 294,
-          "en": 309
-        }
-      }
-    ]
+    "suttaRefs": [],
+    "mlDocs": []
   }
 }

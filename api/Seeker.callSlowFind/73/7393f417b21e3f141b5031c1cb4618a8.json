@@ -32,7 +32,7 @@
     "pattern": "losgelöst",
     "method": "phrase",
     "resultPattern": "\\blosgelöst",
-    "segsMatched": 48,
+    "segsMatched": 49,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an7/an7.51_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an7/an7.51_translation-de-sabbamitta.json",
@@ -86,7 +86,10 @@
       "translation/en/soma/sutta/kn/thig/thig5.4_translation-en-soma.json",
       "root/pli/ms/sutta/an/an4/an4.38_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.38_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an4/an4.38_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an4/an4.38_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.10_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.10_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.10_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an7.51/de/sabbamitta",
@@ -105,7 +108,8 @@
       "ud7.5/de/sabbamitta",
       "ud4.4/de/sabbamitta",
       "thig5.4/de/sabbamitta",
-      "an4.38/de/sabbamitta"
+      "an4.38/de/sabbamitta",
+      "an4.10/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -869,6 +873,38 @@
           "pli": 49,
           "de": 48,
           "en": 48
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.10_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.10_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.10_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.10",
+        "lang": "de",
+        "segMap": {
+          "an4.10:8.6": {
+            "scid": "an4.10:8.6",
+            "pli": "visaṁyutto pāpakehi akusalehi dhammehi saṅkilesikehi ponobhavikehi sadarehi dukkhavipākehi āyatiṁ jātijarāmaraṇikehi. Tasmā yogakkhemīti vuccati. ",
+            "de": "Das sind schlechte, untaugliche Eigenschaften, die verunreinigen, zu künftigen Leben führen, die beschwerlich sind, zu Leiden führen, zu Wiedergeburt, Alter und Tod. Aus diesem Grund nennt man jemanden, der von ihnen <span class=\"ebt-matched\">losgelöst</span> ist, ‚einen, der Schutz vor den Bindungen gefunden hat‘. ",
+            "en": "These are bad, unskillful qualities that are corrupting, leading to future lives, hurtful, resulting in suffering and future rebirth, old age, and death. That’s why someone detached from them is called: ‘one who has found sanctuary from attachments’. ",
+            "matched": true
+          }
+        },
+        "score": 1.014,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 4\n1. Das Kapitel beim Dorf Bhaṇḍa\n10. Bindungen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 72,
+          "de": 70,
+          "en": 70
         }
       }
     ]

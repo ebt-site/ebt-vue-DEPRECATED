@@ -32,7 +32,7 @@
     "pattern": "bedingte.* erscheinungen",
     "method": "phrase",
     "resultPattern": "\\bbedingte.* erscheinungen",
-    "segsMatched": 5,
+    "segsMatched": 6,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an3/an3.47_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.47_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/sn/sn8/sn8.4_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn8/sn8.4_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn8/sn8.4_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn14/sn14.11_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn14/sn14.11_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn14/sn14.11_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn17_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn17_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn17_translation-en-sujato.json",
@@ -50,6 +53,7 @@
     "suttaRefs": [
       "an3.47/de/sabbamitta",
       "sn8.4/de/sabbamitta",
+      "sn14.11/de/sabbamitta",
       "dn17/de/sabbamitta",
       "dn14/de/sabbamitta"
     ],
@@ -91,6 +95,38 @@
           "pli": 14,
           "de": 13,
           "en": 13
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn14/sn14.11_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn14/sn14.11_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn14/sn14.11_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn14.11",
+        "lang": "de",
+        "segMap": {
+          "sn14.11:5.2": {
+            "scid": "sn14.11:5.2",
+            "pli": "Yāyaṁ, bhikkhu, nevasaññānāsaññāyatanadhātu—ayaṁ dhātu saṅkhārāvasesasamāpatti pattabbā. ",
+            "de": "Das Element der Dimension ‚weder Wahrnehmung noch keine Wahrnehmung‘ ist ein erhabener Zustand mit einem bloßen Rest von <span class=\"ebt-matched\">bedingten Erscheinungen</span>. ",
+            "en": "The element of the dimension of neither perception nor non-perception is an attainment with only a residue of conditioned phenomena. ",
+            "matched": true
+          }
+        },
+        "score": 1.045,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 14.11\n2. Das zweite Kapitel\nSieben Elemente",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 22,
+          "de": 21,
+          "en": 21
         }
       },
       {
