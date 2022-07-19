@@ -32,8 +32,11 @@
     "pattern": "zum töten",
     "method": "phrase",
     "resultPattern": "\\bzum töten",
-    "segsMatched": 4,
+    "segsMatched": 5,
     "bilaraPaths": [
+      "root/pli/ms/sutta/kn/iti/vagga3/iti27_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/iti/vagga3/iti27_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/iti/vagga3/iti27_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn25_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn25_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn25_translation-en-sujato.json",
@@ -48,6 +51,7 @@
       "translation/en/sujato/sutta/an/an3/an3.163-182_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "iti27/de/sabbamitta",
       "dn25/de/sabbamitta",
       "an8.1/de/sabbamitta",
       "an4.264/de/sabbamitta",
@@ -146,6 +150,38 @@
         "segsMatched": 1,
         "langSegs": {
           "pli": 37,
+          "de": 35,
+          "en": 35
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga3/iti27_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/iti/vagga3/iti27_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/iti/vagga3/iti27_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti27",
+        "lang": "de",
+        "segMap": {
+          "iti27:10.1": {
+            "scid": "iti27:10.1",
+            "pli": "Yo na hanti na ghāteti, ",
+            "de": "Töte nicht und stifte nicht andere <span class=\"ebt-matched\">zum Töten</span> an, ",
+            "en": "Don’t kill or cause others to kill,",
+            "matched": true
+          }
+        },
+        "score": 1.021,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So wurde es gesagt 27\nDas Einerbuch\nDas dritte Kapitel\nDie Meditation über Liebe",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 47,
           "de": 35,
           "en": 35
         }

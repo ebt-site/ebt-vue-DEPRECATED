@@ -32,7 +32,7 @@
     "pattern": "abnehmend",
     "method": "phrase",
     "resultPattern": "\\babnehmend",
-    "segsMatched": 6,
+    "segsMatched": 7,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn12/sn12.33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.33_translation-de-sabbamitta.json",
@@ -49,6 +49,9 @@
       "root/pli/ms/sutta/mn/mn141_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn141_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn141_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn31_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn31_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn31_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn22_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn22_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn22_translation-en-sujato.json"
@@ -59,6 +62,7 @@
       "sn12.28/de/sabbamitta",
       "sn12.27/de/sabbamitta",
       "mn141/de/sabbamitta",
+      "dn31/de/sabbamitta",
       "dn22/de/sabbamitta"
     ],
     "mlDocs": [
@@ -220,6 +224,38 @@
           "pli": 122,
           "de": 121,
           "en": 121
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn31_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn31_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn31_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn31",
+        "lang": "de",
+        "segMap": {
+          "dn31:14.20": {
+            "scid": "dn31:14.20",
+            "pli": "Nihīyate kāḷapakkheva cando. ",
+            "de": "Sie schwinden dahin wie der <span class=\"ebt-matched\">abnehmend</span>e Mond. ",
+            "en": "they diminish like the waning moon. ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 31\nRat für Sigālaka",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 267,
+          "de": 264,
+          "en": 266
         }
       },
       {

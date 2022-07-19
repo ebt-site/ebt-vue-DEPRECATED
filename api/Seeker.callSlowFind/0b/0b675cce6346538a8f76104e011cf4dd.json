@@ -32,11 +32,14 @@
     "pattern": "aber zum erwachen entschlossen",
     "method": "phrase",
     "resultPattern": "\\baber zum erwachen entschlossen",
-    "segsMatched": 10,
+    "segsMatched": 11,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an5/an5.196_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.196_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.196_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn14/sn14.31_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn14/sn14.31_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn14/sn14.31_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn12/sn12.65_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.65_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn12/sn12.65_translation-en-sujato.json",
@@ -61,6 +64,7 @@
     ],
     "suttaRefs": [
       "an5.196/de/sabbamitta",
+      "sn14.31/de/sabbamitta",
       "sn12.65/de/sabbamitta",
       "sn12.4/de/sabbamitta",
       "sn12.10/de/sabbamitta",
@@ -178,6 +182,38 @@
           "pli": 17,
           "de": 16,
           "en": 16
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn14/sn14.31_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn14/sn14.31_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn14/sn14.31_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn14.31",
+        "lang": "de",
+        "segMap": {
+          "sn14.31:1.2": {
+            "scid": "sn14.31:1.2",
+            "pli": "“Pubbeva me, bhikkhave, sambodhā anabhisambuddhassa bodhisattasseva sato etadahosi: ",
+            "de": "„Mönche und Nonnen, vor meinem Erwachen, als ich noch nicht erwacht war, <span class=\"ebt-matched\">aber zum Erwachen entschlossen</span>, dachte ich: ",
+            "en": "“Mendicants, before my awakening—when I was still unawakened but intent on awakening—I thought: ",
+            "matched": true
+          }
+        },
+        "score": 1.043,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 14.31\n4. Das vierte Kapitel\nVor dem Erwachen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 23,
+          "de": 22,
+          "en": 22
         }
       },
       {

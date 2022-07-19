@@ -32,20 +32,26 @@
     "pattern": "wie der mond",
     "method": "phrase",
     "resultPattern": "\\bwie der mond",
-    "segsMatched": 26,
+    "segsMatched": 31,
     "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn16/sn16.3_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn16/sn16.3_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn16/sn16.3_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.68_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.68_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an10/an10.68_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.67_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.67_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an10/an10.67_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn31_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/dn/dn31_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn31_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn16/sn16.7_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn16/sn16.7_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn16/sn16.7_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/dhp/dhp167-178_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/dhp/dhp167-178_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/dhp/dhp167-178_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn31_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn31_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn31_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.19_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.19_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.19_translation-en-sujato.json",
@@ -83,10 +89,12 @@
       "translation/en/sujato/sutta/an/an4/an4.17_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "sn16.3/de/sabbamitta",
       "an10.68/de/sabbamitta",
       "an10.67/de/sabbamitta",
-      "dn31/de/sabbamitta",
+      "sn16.7/de/sabbamitta",
       "dhp167-178/de/sabbamitta",
+      "dn31/de/sabbamitta",
       "an4.19/de/sabbamitta",
       "an10.14/de/sabbamitta",
       "sn8.11/de/sabbamitta",
@@ -100,6 +108,59 @@
       "an4.17/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn16/sn16.3_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn16/sn16.3_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn16/sn16.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn16.3",
+        "lang": "de",
+        "segMap": {
+          "sn16.3:0.3": {
+            "scid": "sn16.3:0.3",
+            "pli": "Candūpamāsutta ",
+            "de": "<span class=\"ebt-matched\">Wie der Mond</span> ",
+            "en": "Like the Moon ",
+            "matched": true
+          },
+          "sn16.3:1.2": {
+            "scid": "sn16.3:1.2",
+            "pli": "“Candūpamā, bhikkhave, kulāni upasaṅkamatha—",
+            "de": "„Mönche und Nonnen, wenn ihr euch zu Familien begebt, sollt ihr sein <span class=\"ebt-matched\">wie der Mond</span>: ",
+            "en": "“Mendicants, you should approach families like the moon: ",
+            "matched": true
+          },
+          "sn16.3:1.6": {
+            "scid": "sn16.3:1.6",
+            "pli": "evameva kho, bhikkhave, candūpamā kulāni upasaṅkamatha—",
+            "de": "Ebenso sollt ihr, wenn ihr euch zu Familien begebt, sein <span class=\"ebt-matched\">wie der Mond</span>: ",
+            "en": "In the same way, you should approach families like the moon: ",
+            "matched": true
+          },
+          "sn16.3:2.1": {
+            "scid": "sn16.3:2.1",
+            "pli": "Kassapo, bhikkhave, candūpamo kulāni upasaṅkamati—",
+            "de": "Kassapa begibt sich zu Familien <span class=\"ebt-matched\">wie der Mond</span>: ",
+            "en": "Kassapa approaches families like the moon: ",
+            "matched": true
+          }
+        },
+        "score": 4.089,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 16.3\n1. Das Kapitel mit Kassapa\nWie der Mond",
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 45,
+          "de": 43,
+          "en": 44
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/an/an10/an10.68_root-pli-ms.json",
@@ -204,52 +265,6 @@
           "pli": 93,
           "de": 79,
           "en": 92
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/dn/dn31_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/dn/dn31_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/dn/dn31_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "dn31",
-        "lang": "de",
-        "segMap": {
-          "dn31:6.4": {
-            "scid": "dn31:6.4",
-            "pli": "kāḷapakkheva candimā. ",
-            "de": "<span class=\"ebt-matched\">wie der Mond</span> in der dunklen Monatshälfte. ",
-            "en": "like the moon in the waning fortnight. ",
-            "matched": true
-          },
-          "dn31:6.8": {
-            "scid": "dn31:6.8",
-            "pli": "sukkapakkheva candimā”ti. ",
-            "de": "<span class=\"ebt-matched\">wie der Mond</span> in der hellen Monatshälfte.“ ",
-            "en": "like the moon in the waxing fortnight.” ",
-            "matched": true
-          },
-          "dn31:14.20": {
-            "scid": "dn31:14.20",
-            "pli": "Nihīyate kāḷapakkheva cando. ",
-            "de": "Sie schwinden dahin <span class=\"ebt-matched\">wie der Mond</span> in der dunklen Monatshälfte. ",
-            "en": "they diminish like the waning moon. ",
-            "matched": true
-          }
-        },
-        "score": 3.011,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Lange Lehrreden 31\nRat für Sigālaka",
-        "segsMatched": 3,
-        "langSegs": {
-          "pli": 267,
-          "de": 264,
-          "en": 266
         }
       },
       {
@@ -367,6 +382,84 @@
           "pli": 63,
           "de": 51,
           "en": 63
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn16/sn16.7_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn16/sn16.7_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn16/sn16.7_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn16.7",
+        "lang": "de",
+        "segMap": {
+          "sn16.7:3.1": {
+            "scid": "sn16.7:3.1",
+            "pli": "Seyyathāpi, bhante, kāḷapakkhe candassa yā ratti vā divaso vā āgacchati, hāyateva vaṇṇena, hāyati maṇḍalena, hāyati ābhāya, hāyati ārohapariṇāhena. ",
+            "de": "<span class=\"ebt-matched\">Wie der Mond</span> in der dunklen Monatshälfte: Bei Tag und Nacht nehmen seine Schönheit, seine Rundung, sein Licht und sein Durchmesser stets ab. ",
+            "en": "It’s like the moon in the waning fortnight. Whether by day or by night, its beauty, roundness, light, and diameter and circumference only decline. ",
+            "matched": true
+          },
+          "sn16.7:6.1": {
+            "scid": "sn16.7:6.1",
+            "pli": "Seyyathāpi, bhante, juṇhapakkhe candassa yā ratti vā divaso vā āgacchati, vaḍḍhateva vaṇṇena, vaḍḍhati maṇḍalena, vaḍḍhati ābhāya, vaḍḍhati ārohapariṇāhena. ",
+            "de": "<span class=\"ebt-matched\">Wie der Mond</span> in der hellen Monatshälfte: Bei Tag und Nacht nehmen seine Schönheit, seine Rundung, sein Licht und sein Durchmesser stets zu. ",
+            "en": "It’s like the moon in the waxing fortnight. Whether by day or by night, its beauty, roundness, light, and diameter and circumference only grow. ",
+            "matched": true
+          }
+        },
+        "score": 2.025,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 16.7\n1. Das Kapitel mit Kassapa\nUnterweisung (2)",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 81,
+          "de": 38,
+          "en": 80
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn31_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn31_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn31_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn31",
+        "lang": "de",
+        "segMap": {
+          "dn31:6.4": {
+            "scid": "dn31:6.4",
+            "pli": "kāḷapakkheva candimā. ",
+            "de": "<span class=\"ebt-matched\">wie der Mond</span> in der dunklen Monatshälfte. ",
+            "en": "like the moon in the waning fortnight. ",
+            "matched": true
+          },
+          "dn31:6.8": {
+            "scid": "dn31:6.8",
+            "pli": "sukkapakkheva candimā”ti. ",
+            "de": "<span class=\"ebt-matched\">wie der Mond</span> in der hellen Monatshälfte.“ ",
+            "en": "like the moon in the waxing fortnight.” ",
+            "matched": true
+          }
+        },
+        "score": 2.007,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 31\nRat für Sigālaka",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 267,
+          "de": 264,
+          "en": 266
         }
       },
       {

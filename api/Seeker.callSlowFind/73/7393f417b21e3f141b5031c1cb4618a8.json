@@ -32,7 +32,7 @@
     "pattern": "losgelöst",
     "method": "phrase",
     "resultPattern": "\\blosgelöst",
-    "segsMatched": 49,
+    "segsMatched": 51,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an7/an7.51_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an7/an7.51_translation-de-sabbamitta.json",
@@ -61,6 +61,9 @@
       "root/pli/ms/sutta/an/an5/an5.71_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.71_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.71_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn14/sn14.33_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn14/sn14.33_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn14/sn14.33_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thig/thig13.4_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thig/thig13.4_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thig/thig13.4_translation-en-sujato.json",
@@ -101,6 +104,7 @@
       "mn140/de/sabbamitta",
       "an5.72/de/sabbamitta",
       "an5.71/de/sabbamitta",
+      "sn14.33/de/sabbamitta",
       "thig13.4/de/sabbamitta",
       "an6.54/de/sabbamitta",
       "an3.105/de/sabbamitta",
@@ -633,6 +637,45 @@
           "pli": 12,
           "de": 11,
           "en": 11
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn14/sn14.33_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn14/sn14.33_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn14/sn14.33_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn14.33",
+        "lang": "de",
+        "segMap": {
+          "sn14.33:3.1": {
+            "scid": "sn14.33:3.1",
+            "pli": "Yāvakīvañcime, bhikkhave, sattā imāsaṁ catunnaṁ dhātūnaṁ assādañca assādato ādīnavañca ādīnavato nissaraṇañca nissaraṇato yathābhūtaṁ na abbhaññaṁsu, neva tāvime, bhikkhave, sattā sadevakā lokā samārakā sabrahmakā sassamaṇabrāhmaṇiyā pajāya sadevamanussāya nissaṭā visaṁyuttā vippamuttā vimariyādikatena cetasā vihariṁsu. ",
+            "de": "Solange die Lebewesen bei diesen vier Elementen die vorteilhaften und nachteiligen Folgen und das Entrinnen nicht ihrer wahren Natur gemäß wahrhaftig verstehen, so lange sind sie dieser Welt mit ihren Göttern, Māras und Brahmās, mit dieser Bevölkerung mit ihren Asketen und Brahmanen, Göttern und Menschen nicht entronnen, und sie leben nicht <span class=\"ebt-matched\">losgelöst</span>, befreit und mit einem grenzenlosen Geist. ",
+            "en": "As long as sentient beings don’t truly understand these four elements’ gratification, drawback, and escape for what they are, they haven’t escaped from this world—with its gods, Māras, and Brahmās, this population with its ascetics and brahmins, its gods and humans—and they don’t live detached, liberated, with a mind free of limits. ",
+            "matched": true
+          },
+          "sn14.33:4.1": {
+            "scid": "sn14.33:4.1",
+            "pli": "Yato ca kho, bhikkhave, sattā imāsaṁ catunnaṁ dhātūnaṁ assādañca assādato ādīnavañca ādīnavato nissaraṇañca nissaraṇato yathābhūtaṁ abbhaññaṁsu, atha, bhikkhave, sattā sadevakā lokā samārakā sabrahmakā sassamaṇabrāhmaṇiyā pajāya sadevamanussāya nissaṭā visaṁyuttā vippamuttā vimariyādikatena cetasā viharantī”ti. ",
+            "de": "Sobald die Lebewesen aber bei diesen vier Elementen die vorteilhaften und nachteiligen Folgen und das Entrinnen ihrer wahren Natur gemäß wahrhaftig verstehen, sind sie dieser Welt mit ihren Göttern, Māras und Brahmās, mit dieser Bevölkerung mit ihren Asketen und Brahmanen, Göttern und Menschen entronnen, und sie leben <span class=\"ebt-matched\">losgelöst</span>, befreit und mit einem grenzenlosen Geist.“ ",
+            "en": "But when sentient beings truly understand these four elements’ gratification, drawback, and escape for what they are, they’ve escaped from this world—with its gods, Māras, and Brahmās, this population with its ascetics and brahmins, its gods and humans—and they live detached, liberated, with a mind free of limits.” ",
+            "matched": true
+          }
+        },
+        "score": 2.095,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 14.33\n4. Das vierte Kapitel\nWenn es nicht gäbe",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 21,
+          "de": 15,
+          "en": 20
         }
       },
       {
