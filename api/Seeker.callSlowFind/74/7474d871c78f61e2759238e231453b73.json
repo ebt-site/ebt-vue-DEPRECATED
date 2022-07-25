@@ -30,43 +30,50 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "wie wächst ein kind",
-    "method": "keywords",
-    "resultPattern": "\\bwie|\\bwächst|\\bein|\\bkind",
-    "segsMatched": 0,
+    "method": "phrase",
+    "resultPattern": "\\bwie wächst ein kind",
+    "segsMatched": 1,
     "bilaraPaths": [
-      "root/pli/ms/sutta/dn/dn30_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/dn/dn30_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn30_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an10/an10.74_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an10/an10.74_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an10/an10.74_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an10/an10.99_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an10/an10.99_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an10/an10.99_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn31_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/dn/dn31_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn31_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an8/an8.54_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an8/an8.54_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an8/an8.54_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an8/an8.55_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an8/an8.55_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an8/an8.55_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an8/an8.76_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an8/an8.76_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an8/an8.76_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/dn/dn14_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/thig/thig10.1_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/kn/thig/thig10.1_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/kn/thig/thig10.1_translation-en-sujato.json",
-      "translation/en/soma/sutta/kn/thig/thig10.1_translation-en-soma.json"
+      "root/pli/ms/sutta/kn/iti/vagga8/iti74_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/iti/vagga8/iti74_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/iti/vagga8/iti74_translation-en-sujato.json"
     ],
-    "suttaRefs": [],
-    "mlDocs": []
+    "suttaRefs": [
+      "iti74/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga8/iti74_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/iti/vagga8/iti74_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/iti/vagga8/iti74_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti74",
+        "lang": "de",
+        "segMap": {
+          "iti74:3.1": {
+            "scid": "iti74:3.1",
+            "pli": "Kathañca, bhikkhave, putto atijāto hoti? ",
+            "de": "Und <span class=\"ebt-matched\">wie wächst ein Kind</span> über seine Geburt hinaus? ",
+            "en": "And how does a child better their birth? ",
+            "matched": true
+          }
+        },
+        "score": 1.021,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So wurde es gesagt 74\nDas Dreierbuch\nDas dritte Kapitel\nEin Kind",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 47,
+          "de": 46,
+          "en": 46
+        }
+      }
+    ]
   }
 }

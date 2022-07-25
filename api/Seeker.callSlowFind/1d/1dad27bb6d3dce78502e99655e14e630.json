@@ -32,17 +32,21 @@
     "pattern": "ich bin besser",
     "method": "phrase",
     "resultPattern": "\\bich bin besser",
-    "segsMatched": 4,
+    "segsMatched": 6,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an4/an4.185_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.185_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.185_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag18.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag18.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag18.1_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an4.185/de/sabbamitta",
+      "thag18.1/de/sabbamitta",
       "dn33/de/sabbamitta"
     ],
     "mlDocs": [
@@ -90,6 +94,45 @@
           "pli": 33,
           "de": 32,
           "en": 32
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag18.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag18.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag18.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag18.1",
+        "lang": "de",
+        "segMap": {
+          "thag18.1:24.4": {
+            "scid": "thag18.1:24.4",
+            "pli": "ahaṁ seyyoti maññati. ",
+            "de": "und denkst: ‚<span class=\"ebt-matched\">Ich bin besser</span>!‘ ",
+            "en": "and thinking, ‘I’m better than them.’ ",
+            "matched": true
+          },
+          "thag18.1:26.2": {
+            "scid": "thag18.1:26.2",
+            "pli": "nāhaṁ seyyoti vā pana; ",
+            "de": "‚<span class=\"ebt-matched\">ich bin besser</span>‘, ‚ich bin nicht besser‘, ",
+            "en": "by the modes of conceit—",
+            "matched": true
+          }
+        },
+        "score": 2.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 18.1\nDas Vierzigerbuch\n1. Das erste Kapitel\nMahākassapa",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 178,
+          "de": 171,
+          "en": 171
         }
       },
       {

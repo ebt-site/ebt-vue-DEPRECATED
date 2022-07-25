@@ -32,11 +32,14 @@
     "pattern": "wurde vo.* nicht erklärt",
     "method": "phrase",
     "resultPattern": "\\bwurde vo.* nicht erklärt",
-    "segsMatched": 12,
+    "segsMatched": 16,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn44/sn44.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn44/sn44.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn44/sn44.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn16/sn16.12_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn16/sn16.12_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn16/sn16.12_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn29_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn29_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn29_translation-en-sujato.json",
@@ -46,6 +49,7 @@
     ],
     "suttaRefs": [
       "sn44.1/de/sabbamitta",
+      "sn16.12/de/sabbamitta",
       "dn29/de/sabbamitta",
       "an10.95/de/sabbamitta"
     ],
@@ -108,6 +112,59 @@
           "pli": 120,
           "de": 61,
           "en": 119
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn16/sn16.12_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn16/sn16.12_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn16/sn16.12_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn16.12",
+        "lang": "de",
+        "segMap": {
+          "sn16.12:1.5": {
+            "scid": "sn16.12:1.5",
+            "pli": "“Abyākataṁ kho etaṁ, āvuso, bhagavatā: ",
+            "de": "„Werter Freund, das <span class=\"ebt-matched\">wurde vom Buddha nicht erklärt</span>.“ ",
+            "en": "“Reverend, this has not been declared by the Buddha.” ",
+            "matched": true
+          },
+          "sn16.12:1.8": {
+            "scid": "sn16.12:1.8",
+            "pli": "“Evampi kho, āvuso, abyākataṁ bhagavatā: ",
+            "de": "„Auch das <span class=\"ebt-matched\">wurde vom Buddha nicht erklärt</span>.“ ",
+            "en": "“This too has not been declared by the Buddha.” ",
+            "matched": true
+          },
+          "sn16.12:1.11": {
+            "scid": "sn16.12:1.11",
+            "pli": "“Abyākataṁ kho etaṁ, āvuso, bhagavatā: ",
+            "de": "„Auch das <span class=\"ebt-matched\">wurde vom Buddha nicht erklärt</span>.“ ",
+            "en": "“This too has not been declared by the Buddha.” ",
+            "matched": true
+          },
+          "sn16.12:1.14": {
+            "scid": "sn16.12:1.14",
+            "pli": "“Evampi kho, āvuso, abyākataṁ bhagavatā: ",
+            "de": "„Auch das <span class=\"ebt-matched\">wurde vom Buddha nicht erklärt</span>.“ ",
+            "en": "“This too has not been declared by the Buddha.” ",
+            "matched": true
+          }
+        },
+        "score": 4.133,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 16.12\n1. Das Kapitel mit Kassapa\nDer Klargewordene nach dem Tod",
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 30,
+          "de": 25,
+          "en": 29
         }
       },
       {

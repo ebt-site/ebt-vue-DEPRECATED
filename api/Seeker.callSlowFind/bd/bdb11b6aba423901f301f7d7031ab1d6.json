@@ -32,7 +32,7 @@
     "pattern": "zu meinem langanhaltenden nutzen",
     "method": "phrase",
     "resultPattern": "\\bzu meinem langanhaltenden nutzen",
-    "segsMatched": 7,
+    "segsMatched": 8,
     "bilaraPaths": [
       "root/pli/ms/sutta/kn/ud/vagga1/ud1.10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga1/ud1.10_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/an/an7/an7.47_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an7/an7.47_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an7/an7.47_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn16/sn16.11_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn16/sn16.11_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn16/sn16.11_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn30_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn30_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn30_translation-en-sujato.json",
@@ -50,6 +53,7 @@
     "suttaRefs": [
       "ud1.10/de/sabbamitta",
       "an7.47/de/sabbamitta",
+      "sn16.11/de/sabbamitta",
       "dn30/de/sabbamitta",
       "dn23/de/sabbamitta"
     ],
@@ -137,6 +141,38 @@
           "pli": 77,
           "de": 75,
           "en": 76
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn16/sn16.11_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn16/sn16.11_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn16/sn16.11_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn16.11",
+        "lang": "de",
+        "segMap": {
+          "sn16.11:14.3": {
+            "scid": "sn16.11:14.3",
+            "pli": "‘idha, bhante, bhagavā nisīdatu, yaṁ mamassa dīgharattaṁ hitāya sukhāyā’ti. ",
+            "de": "‚Herr, setz dich hierher. Das wird <span class=\"ebt-matched\">zu meinem langanhaltenden Nutzen</span> und Glück sein.‘ ",
+            "en": "‘Sir, sit here. That would be for my lasting welfare and happiness.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.013,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 16.11\n1. Das Kapitel mit Kassapa\nRoben",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 79,
+          "de": 75,
+          "en": 78
         }
       },
       {

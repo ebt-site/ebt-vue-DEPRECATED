@@ -32,14 +32,18 @@
     "pattern": "wie ein affe",
     "method": "phrase",
     "resultPattern": "\\bwie ein affe",
-    "segsMatched": 1,
+    "segsMatched": 2,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn12/sn12.61_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.61_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn12/sn12.61_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn12/sn12.61_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag18.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag18.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag18.1_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "sn12.61/de/sabbamitta"
+      "sn12.61/de/sabbamitta",
+      "thag18.1/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -72,6 +76,38 @@
           "pli": 33,
           "de": 32,
           "en": 32
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag18.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag18.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag18.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag18.1",
+        "lang": "de",
+        "segMap": {
+          "thag18.1:30.4": {
+            "scid": "thag18.1:30.4",
+            "pli": "na so tenupasobhati. ",
+            "de": "Er ist <span class=\"ebt-matched\">wie ein Affe</span> im Löwenpelz. ",
+            "en": "they’re like a monkey in a lion skin. ",
+            "matched": true
+          }
+        },
+        "score": 1.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 18.1\nDas Vierzigerbuch\n1. Das erste Kapitel\nMahākassapa",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 178,
+          "de": 171,
+          "en": 171
         }
       }
     ]

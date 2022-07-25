@@ -32,7 +32,7 @@
     "pattern": "gerücht",
     "method": "phrase",
     "resultPattern": "\\bgerücht",
-    "segsMatched": 9,
+    "segsMatched": 10,
     "bilaraPaths": [
       "root/pli/ms/sutta/kn/ud/vagga4/ud4.8_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga4/ud4.8_translation-de-sabbamitta.json",
@@ -46,6 +46,9 @@
       "root/pli/ms/sutta/sn/sn7/sn7.2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn7/sn7.2_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn7/sn7.2_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn16/sn16.11_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn16/sn16.11_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn16/sn16.11_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn10/sn10.8_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn10/sn10.8_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn10/sn10.8_translation-en-sujato.json",
@@ -58,6 +61,7 @@
       "sn7.4/de/sabbamitta",
       "sn7.3/de/sabbamitta",
       "sn7.2/de/sabbamitta",
+      "sn16.11/de/sabbamitta",
       "sn10.8/de/sabbamitta",
       "dn31/de/sabbamitta"
     ],
@@ -241,6 +245,38 @@
           "pli": 62,
           "de": 62,
           "en": 62
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn16/sn16.11_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn16/sn16.11_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn16/sn16.11_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn16.11",
+        "lang": "de",
+        "segMap": {
+          "sn16.11:6.1": {
+            "scid": "sn16.11:6.1",
+            "pli": "Assosi kho thullanandā bhikkhunī: ",
+            "de": "Die Nonne Thullanandā hörte ein <span class=\"ebt-matched\">Gerücht</span>, ",
+            "en": "The nun Thullanandā heard a rumor that ",
+            "matched": true
+          }
+        },
+        "score": 1.013,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 16.11\n1. Das Kapitel mit Kassapa\nRoben",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 79,
+          "de": 75,
+          "en": 78
         }
       },
       {
