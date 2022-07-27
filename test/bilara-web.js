@@ -19,7 +19,13 @@
         }
     }
     this.timeout(10*1000);
-    let VERSES_SENIOR_NUNS = "Verses of the Senior Nuns 1.1";
+    const PLI_THIG1_1 = 'Therīgāthā 1.1 ';
+    const VERSES_SENIOR_NUNS = "Verses of the Senior Nuns 1.1 ";
+    const VERSES_ELDER_BHIKKHUNIS = "Verses of the Elder Bhikkhunīs ";
+    const CHAPTER_OF_THE_ONES = "The Chapter of the Ones ";
+    const BOOK_OF_THE_ONES = "The Book of the Ones ";
+    const UNNAMED_NUN_1ST = "An Unnamed Nun (1st) ";
+    const SLEEP_SOFTLY_LITTLE_NUN = 'Sleep softly, little nun, ';
 
     it("default ctor", ()=>{
         should.throws(()=>new BilaraWeb());
@@ -141,7 +147,7 @@
         type: 'translator',
       });
     });
-    it("TESTTESTexampleGuid(...) => en guid", async()=>{
+    it("exampleGuid(...) => en guid", async()=>{
         let bw = new BilaraWeb({fetch});
         let example = 'root of suffering';
         let lang = 'en';
@@ -149,7 +155,7 @@
         let guid_indent2 = '93cc08f6e62c1ad2b4a220a334dfc93d';
         should(bw.exampleGuid(example, lang)).equal(guid_indent2);
     });
-    it("TESTTESTexampleGuid(...) => de guid", async()=>{
+    it("exampleGuid(...) => de guid", async()=>{
         let bw = new BilaraWeb({fetch});
         let example = 'sei.* abhängig entstanden';
         let lang = 'de';
@@ -157,7 +163,7 @@
         let guid_indent2 = '59abab4175e60711fc204316ca632339';
         should(bw.exampleGuid(example, lang)).equal(guid_indent2);
     });
-    it("TESTTESTkuhhirte(...) => de guid", async()=>{
+    it("kuhhirte(...) => de guid", async()=>{
         let bw = new BilaraWeb({fetch});
         let example = 'kuhhirte';
         let lang = 'de';
@@ -191,7 +197,7 @@
         ]);
         should(res.bilaraPaths.length).equal(2);
     });
-    it("find(...) finds de example", async()=>{
+    it("TESTTESTfind(...) finds de example", async()=>{
         var bw = new BilaraWeb({fetch});
         //bw.logLevel = 'info';
         var pattern = "abnehmend"; 
@@ -399,10 +405,10 @@
         lang: 'pli',
         author: 'ms',
       });
-      should(resPli.segments['thig1.1:0.1']).equal('Therīgāthā');
-      should(resPli.segments['thig1.1:0.2']).equal('Ekakanipāta');
-      should(resPli.segments['thig1.1:0.3']).equal('1. Aññatarātherīgāthā');
-      should(resPli.segments['thig1.1:1.1']).equal('“Sukhaṁ supāhi therike,');
+      should(resPli.segments['thig1.1:0.1']).equal(PLI_THIG1_1);
+      should(resPli.segments['thig1.1:0.2']).equal('Ekakanipāta ');
+      should(resPli.segments['thig1.1:0.3']).equal('Aññatarātherīgāthā ');
+      should(resPli.segments['thig1.1:1.1']).equal('“Sukhaṁ supāhi therike, ');
 
       // English
       var bwEn = new BilaraWeb({fetch, lang:'en'});
@@ -414,9 +420,9 @@
         author: 'sujato',
       });
       should(resEn.segments['thig1.1:0.1']).equal(VERSES_SENIOR_NUNS);
-      should(resEn.segments['thig1.1:0.2']).equal('The Book of the Ones');
-      should(resEn.segments['thig1.1:0.3']).equal('An Unnamed Nun (1st)');
-      should(resEn.segments['thig1.1:1.1']).equal('Sleep softly, little nun,');
+      should(resEn.segments['thig1.1:0.2']).equal(BOOK_OF_THE_ONES);
+      should(resEn.segments['thig1.1:0.3']).equal(UNNAMED_NUN_1ST);
+      should(resEn.segments['thig1.1:1.1']).equal(SLEEP_SOFTLY_LITTLE_NUN);
     });
     it("loadBilaraPath(...) => thig1.1/en", async ()=>{
       let defaultLang = 'default-lang'
@@ -429,9 +435,9 @@
         author: 'sujato',
       });
       should(res.segments['thig1.1:0.1']).equal(VERSES_SENIOR_NUNS);
-      should(res.segments['thig1.1:0.2']).equal('The Book of the Ones');
-      should(res.segments['thig1.1:0.3']).equal('An Unnamed Nun (1st)');
-      should(res.segments['thig1.1:1.1']).equal('Sleep softly, little nun,');
+      should(res.segments['thig1.1:0.2']).equal(BOOK_OF_THE_ONES);
+      should(res.segments['thig1.1:0.3']).equal(UNNAMED_NUN_1ST);
+      should(res.segments['thig1.1:1.1']).equal(SLEEP_SOFTLY_LITTLE_NUN);
     });
     it("loadBilaraPath(...) => thig1.1/en/sujato", async ()=>{
       let defaultLang = 'default-lang'
@@ -445,9 +451,9 @@
       });
       should(res.segments['thig1.1:0.1'])
         .equal(VERSES_SENIOR_NUNS);
-      should(res.segments['thig1.1:0.2']).equal('The Book of the Ones');
-      should(res.segments['thig1.1:0.3']).equal('An Unnamed Nun (1st)');
-      should(res.segments['thig1.1:1.1']).equal('Sleep softly, little nun,');
+      should(res.segments['thig1.1:0.2']).equal(BOOK_OF_THE_ONES);
+      should(res.segments['thig1.1:0.3']).equal(UNNAMED_NUN_1ST);
+      should(res.segments['thig1.1:1.1']).equal(SLEEP_SOFTLY_LITTLE_NUN);
     });
     it("loadBilaraPath(...) => thig1.1/en/soma", async ()=>{
       let defaultLang = 'default-lang'
@@ -459,10 +465,10 @@
         lang: 'en',
         author: 'soma',
       });
-      should(res.segments['thig1.1:0.1']).equal('Verses of the Elder Bhikkhunīs');
-      should(res.segments['thig1.1:0.2']).equal('The Chapter of the Ones');
-      should(res.segments['thig1.1:0.3']).equal('Verses of a Certain Unknown Elder');
-      should(res.segments['thig1.1:1.1']).equal('“Sleep with ease, Elder,');
+      should(res.segments['thig1.1:0.1']).equal(VERSES_ELDER_BHIKKHUNIS);
+      should(res.segments['thig1.1:0.2']).equal(CHAPTER_OF_THE_ONES);
+      should(res.segments['thig1.1:0.3']).equal('Verses of a Certain Unknown Elder ');
+      should(res.segments['thig1.1:1.1']).equal('“Sleep with ease, Elder, ');
     });
     it("loadBilaraPath(...) => thig1.1/xyz", async ()=>{
       let defaultLang = 'default-lang'
@@ -512,9 +518,9 @@
         should(suttaSoma.refAuthor).equal(undefined);
         should.deepEqual(suttaSoma.segments[0],{
             scid: 'thig1.1:0.1',
-            pli: 'Therīgāthā',
+            pli: PLI_THIG1_1,
             //en: VERSES_SENIOR_NUNS,
-            en: 'Verses of the Elder Bhikkhunīs',
+            en: VERSES_ELDER_BHIKKHUNIS,
         });
 
         // EN (Sujato)
@@ -524,7 +530,7 @@
         should(suttaEn.refAuthor).equal(undefined);
         should.deepEqual(suttaEn.segments[0],{
             scid: 'thig1.1:0.1',
-            pli: 'Therīgāthā',
+            pli: PLI_THIG1_1,
             en: VERSES_SENIOR_NUNS,
         });
     });
@@ -538,7 +544,7 @@
         should(sutta).properties({sutta_uid, lang, author});
         should.deepEqual(sutta.segments[0],{
             scid: 'thig1.1:0.1',
-            pli: 'Therīgāthā',
+            pli: PLI_THIG1_1,
             en: VERSES_SENIOR_NUNS,
         });
     });
@@ -552,7 +558,7 @@
         should(sutta).properties({sutta_uid, lang, author});
         should.deepEqual(sutta.segments[0],{
             scid: 'thig1.1:0.1',
-            pli: 'Therīgāthā',
+            pli: PLI_THIG1_1,
             en: VERSES_SENIOR_NUNS,
         });
     });
@@ -566,7 +572,7 @@
         should(sutta).properties({sutta_uid, lang, author});
         should.deepEqual(sutta.segments[0],{
             scid: 'thig1.1:0.1',
-            pli: 'Therīgāthā',
+            pli: PLI_THIG1_1,
             en: VERSES_SENIOR_NUNS,
         });
       });
@@ -582,7 +588,7 @@
         should(sutta).properties({sutta_uid, lang, author, refAuthor});
         should.deepEqual(sutta.segments[0],{
             scid: 'thig1.1:0.1',
-            pli: 'Therīgāthā',
+            pli: PLI_THIG1_1,
             ref: 'Strophen der altehrwürdigen Nonnen ',
             en: VERSES_SENIOR_NUNS,
         });
@@ -598,7 +604,7 @@
         should(sutta).properties({sutta_uid, lang, author});
         should.deepEqual(sutta.segments[0],{
             scid: 'thig1.1:0.1',
-            pli: 'Therīgāthā',
+            pli: PLI_THIG1_1,
             en: VERSES_SENIOR_NUNS,
         });
     });
@@ -613,8 +619,8 @@
         should(sutta).properties({sutta_uid, lang, author});
         should.deepEqual(sutta.segments[0],{
             scid: 'thig1.1:0.1',
-            pli: 'Therīgāthā',
-            en: 'Verses of the Elder Bhikkhunīs',
+            pli: PLI_THIG1_1,
+            en: VERSES_ELDER_BHIKKHUNIS,
             //ref: VERSES_SENIOR_NUNS,
         });
     });
@@ -630,8 +636,8 @@
         should(sutta).properties({sutta_uid, lang, author});
         should.deepEqual(sutta.segments[0],{
             scid: 'thig1.1:0.1',
-            pli: 'Therīgāthā',
-            en: 'Verses of the Elder Bhikkhunīs',
+            pli: PLI_THIG1_1,
+            en: VERSES_ELDER_BHIKKHUNIS,
             ref: VERSES_SENIOR_NUNS,
         });
     });
@@ -646,7 +652,7 @@
         should(sutta).properties({sutta_uid, lang, author});
         should.deepEqual(sutta.segments[0],{
             scid: 'thig1.1:0.1',
-            pli: 'Therīgāthā',
+            pli: PLI_THIG1_1,
             de: 'Strophen der altehrwürdigen Nonnen ',
         });
     });
@@ -661,7 +667,7 @@
         should(sutta).properties({sutta_uid, lang, author});
         should.deepEqual(sutta.segments[0],{
             scid: 'thig1.1:0.1',
-            pli: 'Therīgāthā',
+            pli: PLI_THIG1_1,
             de: 'Strophen der altehrwürdigen Nonnen ',
         });
     });
@@ -677,7 +683,7 @@
         should(sutta).properties({sutta_uid, lang, author});
         should.deepEqual(sutta.segments[0],{
             scid: 'thig1.1:0.1',
-            pli: 'Therīgāthā',
+            pli: PLI_THIG1_1,
             de: 'Strophen der altehrwürdigen Nonnen ',
             ref: 'Strophen der altehrwürdigen Nonnen ',
         });

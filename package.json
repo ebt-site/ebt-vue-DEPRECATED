@@ -44,6 +44,7 @@
     "test": "npm run test:verbose",
     "test:action": "scripts/test-action",
     "test:test": "mocha -w --watch-ignore node_modules,.git,local -R min --inline-diffs -g TEST './@(src|test)/**/*.js'",
+    "test:one": "mocha --inline-diffs -g TESTTEST",
     "test:verbose": "mocha --inline-diffs",
     "test:watch": "mocha -w --inline-diffs",
     "dev": "nuxt",
