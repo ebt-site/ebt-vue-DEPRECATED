@@ -205,20 +205,15 @@
         var lang = 'de';
         var res = await bw.find({ pattern, lang, verbose });
         should.deepEqual(res.suttaRefs, [
-          'dn31/de/sabbamitta',
-          'an10.68/de/sabbamitta',
-          'an10.67/de/sabbamitta',
           'sn12.33/de/sabbamitta',
           'sn12.2/de/sabbamitta',
           'sn12.28/de/sabbamitta',
           'sn12.27/de/sabbamitta',       
           'mn141/de/sabbamitta',
+          'dn31/de/sabbamitta',
           'dn22/de/sabbamitta',
-          'an4.19/de/sabbamitta',
-          'an4.17/de/sabbamitta',
-          'an10.14/de/sabbamitta',
         ]);
-        should(res.bilaraPaths.length).equal(36);
+        should(res.bilaraPaths.length).equal(21);
     });
     it("find(...) finds example", async()=>{
         var bw = new BilaraWeb({fetch});
