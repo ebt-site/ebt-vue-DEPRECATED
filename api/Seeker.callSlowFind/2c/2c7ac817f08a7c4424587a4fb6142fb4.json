@@ -32,9 +32,84 @@
     "pattern": "keinen halt finden",
     "method": "phrase",
     "resultPattern": "\\bkeinen halt finden",
-    "segsMatched": 0,
-    "bilaraPaths": [],
-    "suttaRefs": [],
-    "mlDocs": []
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn1/sn1.27_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn1/sn1.27_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn1/sn1.27_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga1/ud1.10_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/ud/vagga1/ud1.10_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/ud/vagga1/ud1.10_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn1.27/de/sabbamitta",
+      "ud1.10/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn1/sn1.27_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn1/sn1.27_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn1/sn1.27_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn1.27",
+        "lang": "de",
+        "segMap": {
+          "sn1.27:2.2": {
+            "scid": "sn1.27:2.2",
+            "pli": "tejo vāyo na gādhati; ",
+            "de": "Feuer und Luft <span class=\"ebt-matched\">keinen Halt finden</span>: ",
+            "en": "fire and air find no footing. ",
+            "matched": true
+          }
+        },
+        "score": 1.077,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 1\n3. Das Kapitel über ein Schwert\n27. Ströme",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 13,
+          "de": 13,
+          "en": 13
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga1/ud1.10_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/ud/vagga1/ud1.10_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/ud/vagga1/ud1.10_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud1.10",
+        "lang": "de",
+        "segMap": {
+          "ud1.10:14.2": {
+            "scid": "ud1.10:14.2",
+            "pli": "tejo vāyo na gādhati; ",
+            "de": "Feuer und Luft <span class=\"ebt-matched\">keinen Halt finden</span>: ",
+            "en": "fire and air find no footing: ",
+            "matched": true
+          }
+        },
+        "score": 1.013,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Innige Sprüche\n1.10 Mit Bāhiya",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 79,
+          "de": 72,
+          "en": 72
+        }
+      }
+    ]
   }
 }
