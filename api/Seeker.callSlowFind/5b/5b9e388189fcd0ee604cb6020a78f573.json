@@ -32,9 +32,91 @@
     "pattern": "mörderisch",
     "method": "phrase",
     "resultPattern": "\\bmörderisch",
-    "segsMatched": 0,
-    "bilaraPaths": [],
-    "suttaRefs": [],
-    "mlDocs": []
+    "segsMatched": 3,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn4/sn4.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn4/sn4.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn4/sn4.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an8/an8.56_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an8/an8.56_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an8/an8.56_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn4.1/de/sabbamitta",
+      "an8.56/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn4/sn4.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn4/sn4.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn4/sn4.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn4.1",
+        "lang": "de",
+        "segMap": {
+          "sn4.1:1.4": {
+            "scid": "sn4.1:1.4",
+            "pli": "“mutto vatamhi tāya dukkarakārikāya. ",
+            "de": "„Ich bin tatsächlich von diesem <span class=\"ebt-matched\">mörderisch</span>en Treiben befreit! ",
+            "en": "“I am truly freed from that grueling work! ",
+            "matched": true
+          },
+          "sn4.1:1.5": {
+            "scid": "sn4.1:1.5",
+            "pli": "Sādhu mutto vatamhi tāya anatthasaṁhitāya dukkarakārikāya. ",
+            "de": "Zum Glück bin ich von diesem sinnlosen, <span class=\"ebt-matched\">mörderisch</span>en Treiben befreit. ",
+            "en": "Thank goodness I’m freed from that pointless grueling work. ",
+            "matched": true
+          }
+        },
+        "score": 2.083,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 4\n1. Das Kapitel über die Lebensdauer\n1. Bußübung",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 24,
+          "de": 24,
+          "en": 24
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.56_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an8/an8.56_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an8/an8.56_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an8.56",
+        "lang": "de",
+        "segMap": {
+          "an8.56:4.2": {
+            "scid": "an8.56:4.2",
+            "pli": "atikkamma tathāvidho; ",
+            "de": "über diesen <span class=\"ebt-matched\">mörderisch</span>en Sumpf hinaus. ",
+            "en": "this grueling swamp. ",
+            "matched": true
+          }
+        },
+        "score": 1.029,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 8\n6. Das Kapitel mit Gotamī\n56. Gefahren",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 35,
+          "de": 34,
+          "en": 34
+        }
+      }
+    ]
   }
 }

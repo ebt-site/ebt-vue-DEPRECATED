@@ -32,9 +32,55 @@
     "pattern": "zu den waffen greifen",
     "method": "phrase",
     "resultPattern": "\\bzu den waffen greifen",
-    "segsMatched": 0,
-    "bilaraPaths": [],
-    "suttaRefs": [],
-    "mlDocs": []
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/kn/snp/vagga4/snp4.15_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/snp/vagga4/snp4.15_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/snp/vagga4/snp4.15_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "snp4.15/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga4/snp4.15_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/snp/vagga4/snp4.15_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/snp/vagga4/snp4.15_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp4.15",
+        "lang": "de",
+        "segMap": {
+          "snp4.15:0.2": {
+            "scid": "snp4.15:0.2",
+            "pli": "Attadaṇḍasutta ",
+            "de": "4.15 <span class=\"ebt-matched\">Zu den Waffen greifen</span> ",
+            "en": "Taking Up Arms ",
+            "matched": true
+          },
+          "snp4.15:1.1": {
+            "scid": "snp4.15:1.1",
+            "pli": "“Attadaṇḍā bhayaṁ jātaṁ, ",
+            "de": "Gefahr geht von denen aus, die <span class=\"ebt-matched\">zu den Waffen greifen</span>: ",
+            "en": "Peril stems from those who take up arms—",
+            "matched": true
+          }
+        },
+        "score": 2.024,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lehrreden-Sammelband\n4.15 Zu den Waffen greifen",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 84,
+          "de": 83,
+          "en": 83
+        }
+      }
+    ]
   }
 }

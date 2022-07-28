@@ -32,9 +32,48 @@
     "pattern": "es gibt fünf hindernisse",
     "method": "phrase",
     "resultPattern": "\\bes gibt fünf hindernisse",
-    "segsMatched": 0,
-    "bilaraPaths": [],
-    "suttaRefs": [],
-    "mlDocs": []
+    "segsMatched": 1,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an9/an9.64_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an9/an9.64_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an9/an9.64_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an9.64/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an9/an9.64_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an9/an9.64_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an9/an9.64_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an9.64",
+        "lang": "de",
+        "segMap": {
+          "an9.64:1.1": {
+            "scid": "an9.64:1.1",
+            "pli": "“Pañcimāni, bhikkhave, nīvaraṇāni. ",
+            "de": "„Mönche und Nonnen, <span class=\"ebt-matched\">es gibt fünf Hindernisse</span>. ",
+            "en": "“Mendicants, there are these five hindrances. ",
+            "matched": true
+          }
+        },
+        "score": 1.067,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 9\n7. Das Kapitel über Achtsamkeitsmeditation\n64. Hindernisse",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 15,
+          "de": 14,
+          "en": 14
+        }
+      }
+    ]
   }
 }

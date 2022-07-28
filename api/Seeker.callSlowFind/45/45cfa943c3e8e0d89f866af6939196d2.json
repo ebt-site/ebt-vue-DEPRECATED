@@ -32,9 +32,100 @@
     "pattern": "marionette",
     "method": "phrase",
     "resultPattern": "\\bmarionette",
-    "segsMatched": 0,
-    "bilaraPaths": [],
-    "suttaRefs": [],
-    "mlDocs": []
+    "segsMatched": 4,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn5/sn5.9_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn5/sn5.9_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn5/sn5.9_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thig/thig14.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thig/thig14.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thig/thig14.1_translation-en-sujato.json",
+      "translation/en/soma/sutta/kn/thig/thig14.1_translation-en-soma.json"
+    ],
+    "suttaRefs": [
+      "sn5.9/de/sabbamitta",
+      "thig14.1/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn5/sn5.9_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn5/sn5.9_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn5/sn5.9_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn5.9",
+        "lang": "de",
+        "segMap": {
+          "sn5.9:2.1": {
+            "scid": "sn5.9:2.1",
+            "pli": "“Kenidaṁ pakataṁ bimbaṁ, ",
+            "de": "„Wer schuf diese <span class=\"ebt-matched\">Marionette</span>? ",
+            "en": "“Who created this puppet? ",
+            "matched": true
+          },
+          "sn5.9:2.3": {
+            "scid": "sn5.9:2.3",
+            "pli": "Kvanu bimbaṁ samuppannaṁ, ",
+            "de": "Wo ist die <span class=\"ebt-matched\">Marionette</span> entstanden? ",
+            "en": "Where has the puppet arisen? ",
+            "matched": true
+          },
+          "sn5.9:4.1": {
+            "scid": "sn5.9:4.1",
+            "pli": "“Nayidaṁ attakataṁ bimbaṁ, ",
+            "de": "„Diese <span class=\"ebt-matched\">Marionette</span> ist nicht selbst gemacht, ",
+            "en": "“This puppet isn’t self-made, ",
+            "matched": true
+          }
+        },
+        "score": 3.1,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 5\n1. Das Kapitel mit Nonnen\n9. Mit Selā",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 30,
+          "de": 30,
+          "en": 30
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thig/thig14.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thig/thig14.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thig/thig14.1_translation-en-sujato.json",
+          "translation/en/soma/sutta/kn/thig/thig14.1_translation-en-soma.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thig14.1",
+        "lang": "de",
+        "segMap": {
+          "thig14.1:25.2": {
+            "scid": "thig14.1:25.2",
+            "pli": "Sombhā dārukapillakāni vā; ",
+            "de": "und hölzerne <span class=\"ebt-matched\">Marionette</span>n gesehen, ",
+            "en": "dolls and wooden puppets, ",
+            "matched": true
+          }
+        },
+        "score": 1.007,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Nonnen\nDas Dreißigerbuch\n14.1 Subhā von Jīvakas Mangowäldchen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 142,
+          "de": 140,
+          "en": 140
+        }
+      }
+    ]
   }
 }
