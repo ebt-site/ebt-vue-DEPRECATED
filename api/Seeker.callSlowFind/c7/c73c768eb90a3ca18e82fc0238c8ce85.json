@@ -32,7 +32,7 @@
     "pattern": "gut befreit",
     "method": "phrase",
     "resultPattern": "\\bgut befreit",
-    "segsMatched": 35,
+    "segsMatched": 37,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
@@ -46,6 +46,9 @@
       "root/pli/ms/sutta/an/an7/an7.49_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an7/an7.49_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an7/an7.49_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn18/sn18.22_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn18/sn18.22_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn18/sn18.22_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thig/thig2.3_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thig/thig2.3_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thig/thig2.3_translation-en-sujato.json",
@@ -85,6 +88,7 @@
       "dn33/de/sabbamitta",
       "an10.20/de/sabbamitta",
       "an7.49/de/sabbamitta",
+      "sn18.22/de/sabbamitta",
       "thig2.3/de/sabbamitta",
       "thag1.43/de/sabbamitta",
       "an5.200/de/sabbamitta",
@@ -422,12 +426,51 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Strophen der altehrwürdigen Mönche\nDas Einerbuch\nDas fünfte Kapitel\n1.43 Sumaṅgala",
+        "title": "Strophen der altehrwürdigen Mönche 1.43\nDas Einerbuch\n5. Das fünfte Kapitel\nSumaṅgala",
         "segsMatched": 2,
         "langSegs": {
           "pli": 13,
           "de": 12,
           "en": 12
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn18/sn18.22_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn18/sn18.22_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn18/sn18.22_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn18.22",
+        "lang": "de",
+        "segMap": {
+          "sn18.22:1.3": {
+            "scid": "sn18.22:1.3",
+            "pli": "“kathaṁ nu kho, bhante, jānato kathaṁ passato imasmiṁ ca saviññāṇake kāye bahiddhā ca sabbanimittesu ahaṅkāramamaṅkāramānāpagataṁ mānasaṁ hoti vidhā samatikkantaṁ santaṁ suvimuttan”ti? ",
+            "de": "„Herr, auf welche Art erkennt und sieht man, sodass der Geist sich von Anmaßen, Besitzgier und zugrunde liegender Neigung zur Einbildung für diesen beseelten Körper und für alle äußeren Reize losmacht; und dass er über die Abgrenzung hinausgeht und friedvoll und <span class=\"ebt-matched\">gut befreit</span> ist?“ ",
+            "en": "“Sir, how does one know and see so that the mind is rid of ego, possessiveness, and conceit for this conscious body and all external stimuli; and going beyond discrimination, it’s peaceful and well freed?” ",
+            "matched": true
+          },
+          "sn18.22:2.5": {
+            "scid": "sn18.22:2.5",
+            "pli": "Evaṁ kho, rāhula, jānato evaṁ passato imasmiñca saviññāṇake kāye bahiddhā ca sabbanimittesu ahaṅkāramamaṅkāramānāpagataṁ mānasaṁ hoti vidhā samatikkantaṁ santaṁ suvimuttan”ti. ",
+            "de": "Auf diese Art erkennt und sieht man, sodass der Geist sich von Anmaßen, Besitzgier und zugrunde liegender Neigung zur Einbildung für diesen beseelten Körper und für alle äußeren Reize losmacht; und dass er über die Abgrenzung hinausgeht und friedvoll und <span class=\"ebt-matched\">gut befreit</span> ist.“ ",
+            "en": "That’s how to know and see so that the mind is rid of ego, possessiveness, and conceit for this conscious body and all external stimuli; and going beyond discrimination, it’s peaceful and well freed.” ",
+            "matched": true
+          }
+        },
+        "score": 2.091,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 18.22\n2. Das zweite Kapitel\nVon Einbildung losgemacht",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 22,
+          "de": 13,
+          "en": 21
         }
       },
       {

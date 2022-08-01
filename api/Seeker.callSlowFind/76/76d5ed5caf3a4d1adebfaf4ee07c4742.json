@@ -32,11 +32,14 @@
     "pattern": "erlösung des herzens durch liebe",
     "method": "phrase",
     "resultPattern": "\\berlösung des herzens durch liebe",
-    "segsMatched": 30,
+    "segsMatched": 36,
     "bilaraPaths": [
       "root/pli/ms/sutta/kn/iti/vagga3/iti27_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/iti/vagga3/iti27_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/iti/vagga3/iti27_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn20/sn20.3_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn20/sn20.3_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn20/sn20.3_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
@@ -49,6 +52,9 @@
       "root/pli/ms/sutta/an/an10/an10.219_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.219_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an10/an10.219_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn20/sn20.5_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn20/sn20.5_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn20/sn20.5_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an8/an8.1_translation-en-sujato.json",
@@ -64,6 +70,9 @@
       "root/pli/ms/sutta/sn/sn46/sn46.51_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn46/sn46.51_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn46/sn46.51_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn20/sn20.4_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn20/sn20.4_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn20/sn20.4_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.63_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.63_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an8/an8.63_translation-en-sujato.json",
@@ -79,15 +88,18 @@
     ],
     "suttaRefs": [
       "iti27/de/sabbamitta",
+      "sn20.3/de/sabbamitta",
       "dn34/de/sabbamitta",
       "dn33/de/sabbamitta",
       "an6.13/de/sabbamitta",
       "an10.219/de/sabbamitta",
+      "sn20.5/de/sabbamitta",
       "an8.1/de/sabbamitta",
       "an3.68/de/sabbamitta",
       "an1.11-20/de/sabbamitta",
       "an11.15/de/sabbamitta",
       "sn46.51/de/sabbamitta",
+      "sn20.4/de/sabbamitta",
       "an8.63/de/sabbamitta",
       "an1.394-574/de/sabbamitta",
       "an11.982/de/sabbamitta",
@@ -146,12 +158,58 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "So wurde es gesagt 27\nDas Einerbuch\nDas dritte Kapitel\nDie Meditation über Liebe",
+        "title": "So wurde es gesagt 27\nDas Einerbuch\n3. Das dritte Kapitel\nDie Meditation über Liebe",
         "segsMatched": 5,
         "langSegs": {
           "pli": 47,
           "de": 35,
           "en": 35
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn20/sn20.3_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn20/sn20.3_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn20/sn20.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn20.3",
+        "lang": "de",
+        "segMap": {
+          "sn20.3:1.3": {
+            "scid": "sn20.3:1.3",
+            "pli": "evameva kho, bhikkhave, yassa kassaci bhikkhuno mettācetovimutti abhāvitā abahulīkatā so suppadhaṁsiyo hoti amanussehi. ",
+            "de": "Ebenso ist jeder Mönch, der die <span class=\"ebt-matched\">Erlösung des Herzens durch Liebe</span> nicht entwickelt und gepflegt hat, leichte Beute für nicht-menschliche Wesen. ",
+            "en": "In the same way any mendicant who has not developed and cultivated the heart’s release by love is easy prey for non-humans. ",
+            "matched": true
+          },
+          "sn20.3:1.5": {
+            "scid": "sn20.3:1.5",
+            "pli": "evameva kho, bhikkhave, yassa kassaci bhikkhuno mettācetovimutti bhāvitā bahulīkatā so duppadhaṁsiyo hoti amanussehi. ",
+            "de": "Ebenso ist jeder Mönch, der die <span class=\"ebt-matched\">Erlösung des Herzens durch Liebe</span> entwickelt und gepflegt hat, schwer zu erlangende Beute für nicht-menschliche Wesen. ",
+            "en": "In the same way a mendicant who has developed and cultivated the heart’s release by love is hard prey for non-humans. ",
+            "matched": true
+          },
+          "sn20.3:1.7": {
+            "scid": "sn20.3:1.7",
+            "pli": "‘mettā no cetovimutti bhāvitā bhavissati bahulīkatā yānīkatā vatthukatā anuṭṭhitā paricitā susamāraddhā’ti. ",
+            "de": "‚Wir wollen die <span class=\"ebt-matched\">Erlösung des Herzens durch Liebe</span> entwickeln. Wir wollen sie pflegen, sie zu unserem Fahrzeug und unserer Grundlage machen, wollen sie hochhalten, festigen und richtig umsetzen.‘ ",
+            "en": "‘We will develop the heart’s release by love. We’ll cultivate it, make it our vehicle and our basis, keep it up, consolidate it, and properly implement it.’ ",
+            "matched": true
+          }
+        },
+        "score": 3.25,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 20.3\n1. Das Kapitel mit Gleichnissen\nFamilien",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 12,
+          "de": 11,
+          "en": 11
         }
       },
       {
@@ -379,6 +437,45 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn20/sn20.5_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn20/sn20.5_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn20/sn20.5_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn20.5",
+        "lang": "de",
+        "segMap": {
+          "sn20.5:2.1": {
+            "scid": "sn20.5:2.1",
+            "pli": "“Evameva kho, bhikkhave, yassa kassaci bhikkhuno mettācetovimutti bhāvitā bahulīkatā yānīkatā vatthukatā anuṭṭhitā paricitā susamāraddhā, tassa ce amanusso cittaṁ khipitabbaṁ maññeyya; ",
+            "de": "„Ebenso ist es mit einer Nonne, die die <span class=\"ebt-matched\">Erlösung des Herzens durch Liebe</span> entwickelt und gepflegt hat, die sie zu ihrem Fahrzeug und ihrer Grundlage gemacht hat, sie hochgehalten, gefestigt und richtig umgesetzt hat. Sollte ein nicht-menschliches Wesen denken, es könnte ihren Geist zu Fall bringen, ",
+            "en": "“In the same way, suppose a mendicant has developed the heart’s release by love, has cultivated it, made it a vehicle and a basis, kept it up, consolidated it, and properly implemented it. Should any non-human think to overthrow their mind, ",
+            "matched": true
+          },
+          "sn20.5:2.4": {
+            "scid": "sn20.5:2.4",
+            "pli": "‘mettā no cetovimutti bhāvitā bhavissati bahulīkatā yānīkatā vatthukatā anuṭṭhitā paricitā susamāraddhā’ti. ",
+            "de": "‚Wir wollen die <span class=\"ebt-matched\">Erlösung des Herzens durch Liebe</span> entwickeln. Wir wollen sie pflegen, sie zu unserem Fahrzeug und unserer Grundlage machen, wollen sie hochhalten, festigen und richtig umsetzen.‘ ",
+            "en": "‘We will develop the heart’s release by love. We’ll cultivate it, make it our vehicle and our basis, keep it up, consolidate it, and properly implement it.’ ",
+            "matched": true
+          }
+        },
+        "score": 2.105,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 20.5\n1. Das Kapitel mit Gleichnissen\nEin Speer",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 19,
+          "de": 18,
+          "en": 18
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an8/an8.1_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/an/an8/an8.1_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/an/an8/an8.1_translation-en-sujato.json"
@@ -528,6 +625,38 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn20/sn20.4_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn20/sn20.4_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn20/sn20.4_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn20.4",
+        "lang": "de",
+        "segMap": {
+          "sn20.4:1.4": {
+            "scid": "sn20.4:1.4",
+            "pli": "‘mettā no cetovimutti bhāvitā bhavissati bahulīkatā yānīkatā vatthukatā anuṭṭhitā paricitā susamāraddhā’ti. ",
+            "de": "‚Wir wollen die <span class=\"ebt-matched\">Erlösung des Herzens durch Liebe</span> entwickeln. Wir wollen sie pflegen, sie zu unserem Fahrzeug und unserer Grundlage machen, wollen sie hochhalten, festigen und richtig umsetzen.‘ ",
+            "en": "‘We will develop the heart’s release by love. We’ll cultivate it, make it our vehicle and our basis, keep it up, consolidate it, and properly implement it.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.111,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 20.4\n1. Das Kapitel mit Gleichnissen\nTöpfe",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 9,
+          "de": 8,
+          "en": 8
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an8/an8.63_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/an/an8/an8.63_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/an/an8/an8.63_translation-en-sujato.json"
@@ -541,7 +670,7 @@
           "an8.63:2.2": {
             "scid": "an8.63:2.2",
             "pli": "‘mettā me cetovimutti bhāvitā bhavissati bahulīkatā yānīkatā vatthukatā anuṭṭhitā paricitā susamāraddhā’ti. ",
-            "de": "‚Ich will die <span class=\"ebt-matched\">Erlösung des Herzens durch Liebe</span> entwickeln. Ich werde sie pflegen, sie zu meinem Fahrzeug und meiner Grundlage machen, werde sie hochhalten, festigen und richtig umsetzen.‘ ",
+            "de": "‚Ich will die <span class=\"ebt-matched\">Erlösung des Herzens durch Liebe</span> entwickeln. Ich will sie pflegen, sie zu meinem Fahrzeug und meiner Grundlage machen, will sie hochhalten, festigen und richtig umsetzen.‘ ",
             "en": "‘I will develop the heart’s release by love. I’ll cultivate it, make it my vehicle and my basis, keep it up, consolidate it, and properly implement it.’ ",
             "matched": true
           }
