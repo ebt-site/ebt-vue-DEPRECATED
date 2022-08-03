@@ -1,0 +1,143 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "maus",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "maus",
+    "method": "phrase",
+    "resultPattern": "\\bmaus",
+    "segsMatched": 6,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn20/sn20.10_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn20/sn20.10_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn20/sn20.10_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.107_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.107_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.107_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn20.10/de/sabbamitta",
+      "an4.107/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn20/sn20.10_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn20/sn20.10_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn20/sn20.10_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn20.10",
+        "lang": "de",
+        "segMap": {
+          "sn20.10:2.1": {
+            "scid": "sn20.10:2.1",
+            "pli": "“Bhūtapubbaṁ, bhikkhave, biḷāro sandhisamalasaṅkaṭīre ṭhito ahosi mudumūsiṁ maggayamāno: ",
+            "de": "„Es war einmal, Mönche und Nonnen, eine Katze, die saß an einer Gasse oder einem Abfluss oder einem Abfalleimer und lauerte einer kleinen <span class=\"ebt-matched\">Maus</span> auf: ",
+            "en": "“Once upon a time, mendicants, a cat was standing by an alley or a drain or a dustbin hunting a little mouse, thinking, ",
+            "matched": true
+          },
+          "sn20.10:2.2": {
+            "scid": "sn20.10:2.2",
+            "pli": "‘yadāyaṁ mudumūsi gocarāya pakkamissati, tattheva naṁ gahetvā khādissāmī’ti. ",
+            "de": "‚Wenn diese kleine <span class=\"ebt-matched\">Maus</span> zum Futtersuchen herauskommt, will ich sie eben hier fangen und auffressen!‘ ",
+            "en": "‘When that little mouse comes out to feed, I’ll catch it right there and eat it!’ ",
+            "matched": true
+          },
+          "sn20.10:2.3": {
+            "scid": "sn20.10:2.3",
+            "pli": "Atha kho so, bhikkhave, mudumūsi gocarāya pakkāmi. ",
+            "de": "Und dann kam die kleine <span class=\"ebt-matched\">Maus</span> zum Futtersuchen heraus. ",
+            "en": "And then that little mouse came out to feed. ",
+            "matched": true
+          },
+          "sn20.10:2.5": {
+            "scid": "sn20.10:2.5",
+            "pli": "Tassa so mudumūsi antampi khādi, antaguṇampi khādi. ",
+            "de": "Aber die kleine <span class=\"ebt-matched\">Maus</span> fraß Därme und Gekröse der Katze, ",
+            "en": "But that little mouse ate its intestines and mesentery, ",
+            "matched": true
+          }
+        },
+        "score": 4.133,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 20.10\n1. Das Kapitel mit Gleichnissen\nDie Katze",
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 30,
+          "de": 25,
+          "en": 29
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.107_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.107_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.107_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.107",
+        "lang": "de",
+        "segMap": {
+          "an4.107:2.6": {
+            "scid": "an4.107:2.6",
+            "pli": "Seyyathāpi sā, bhikkhave, mūsikā gādhaṁ kattā, no vasitā; ",
+            "de": "Dieser Mensch ist wie eine <span class=\"ebt-matched\">Maus</span>, die ein Loch macht, doch nicht darin wohnt. ",
+            "en": "That person is like a mouse that makes a hole but doesn’t live in it, I say. ",
+            "matched": true
+          },
+          "an4.107:5.6": {
+            "scid": "an4.107:5.6",
+            "pli": "Seyyathāpi sā, bhikkhave, mūsikā gādhaṁ kattā ca hoti vasitā ca; ",
+            "de": "Dieser Mensch ist wie eine <span class=\"ebt-matched\">Maus</span>, die ein Loch macht und auch darin wohnt. ",
+            "en": "",
+            "matched": true
+          }
+        },
+        "score": 2.043,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 4\n11. Das Kapitel über Wolken\n107. Mäuse",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 46,
+          "de": 45,
+          "en": 45
+        }
+      }
+    ]
+  }
+}
