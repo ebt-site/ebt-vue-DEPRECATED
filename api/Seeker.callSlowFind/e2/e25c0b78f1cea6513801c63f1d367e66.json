@@ -30,11 +30,57 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "renner",
-    "method": "keywords",
+    "method": "phrase",
     "resultPattern": "\\brenner",
-    "segsMatched": 0,
-    "bilaraPaths": [],
-    "suttaRefs": [],
-    "mlDocs": []
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn20/sn20.6_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn20/sn20.6_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn20/sn20.6_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn20.6/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn20/sn20.6_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn20/sn20.6_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn20/sn20.6_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn20.6",
+        "lang": "de",
+        "segMap": {
+          "sn20.6:1.6": {
+            "scid": "sn20.6:1.6",
+            "pli": "‘javano puriso paramena javena samannāgato’ti alaṁvacanāyā”ti? ",
+            "de": "Darf dieser Mann ein ‚<span class=\"ebt-matched\">Renner</span> von höchster Geschwindigkeit‘ genannt werden?“ ",
+            "en": "Are they qualified to be called ‘a speedster, with ultimate speed’?” ",
+            "matched": true
+          },
+          "sn20.6:2.2": {
+            "scid": "sn20.6:2.2",
+            "pli": "‘javano puriso paramena javena samannāgato’ti alaṁvacanāya, ko pana vādo catunnaṁ daḷhadhammānaṁ dhanuggahānaṁ susikkhitānaṁ katahatthānaṁ katūpāsanānan”ti? ",
+            "de": "dürfte er ein ‚<span class=\"ebt-matched\">Renner</span> von höchster Geschwindigkeit‘ genannt werden. Wie erst, wenn er die Pfeile von vier Bogenschützen auffangen würde!“ ",
+            "en": "he’d be qualified to be called ‘a speedster, with ultimate speed’. How much more so arrows shot by four archers!” ",
+            "matched": true
+          }
+        },
+        "score": 2.118,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 20.6\n1. Das Kapitel mit Gleichnissen\nDie Bogenschützen",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 17,
+          "de": 16,
+          "en": 16
+        }
+      }
+    ]
   }
 }

@@ -32,8 +32,11 @@
     "pattern": "zu kummer",
     "method": "phrase",
     "resultPattern": "\\bzu kummer",
-    "segsMatched": 5,
+    "segsMatched": 10,
     "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn21/sn21.2_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn21/sn21.2_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn21/sn21.2_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn42/sn42.11_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn42/sn42.11_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn42/sn42.11_translation-en-sujato.json",
@@ -42,10 +45,71 @@
       "translation/en/sujato/sutta/an/an5/an5.30_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "sn21.2/de/sabbamitta",
       "sn42.11/de/sabbamitta",
       "an5.30/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn21/sn21.2_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn21/sn21.2_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn21/sn21.2_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn21.2",
+        "lang": "de",
+        "segMap": {
+          "sn21.2:2.2": {
+            "scid": "sn21.2:2.2",
+            "pli": "‘atthi nu kho taṁ kiñci lokasmiṁ yassa me vipariṇāmaññathābhāvā uppajjeyyuṁ sokaparidevadukkhadomanassupāyāsā’ti? ",
+            "de": "‚Gibt es irgendetwas in der Welt, dessen Veränderung und Umwandlung bei mir <span class=\"ebt-matched\">zu Kummer</span>, Klage, Schmerz, Traurigkeit und Bedrängnis führen würde?‘ ",
+            "en": "‘Is there anything in the world whose changing and perishing would give rise to sorrow, lamentation, pain, sadness, and distress in me?’ ",
+            "matched": true
+          },
+          "sn21.2:2.4": {
+            "scid": "sn21.2:2.4",
+            "pli": "‘natthi kho taṁ kiñci lokasmiṁ yassa me vipariṇāmaññathābhāvā uppajjeyyuṁ sokaparidevadukkhadomanassupāyāsā’”ti. ",
+            "de": "‚Es gibt nichts in der Welt, dessen Veränderung und Umwandlung bei mir <span class=\"ebt-matched\">zu Kummer</span>, Klage, Schmerz, Traurigkeit und Bedrängnis führen würde.‘“ ",
+            "en": "‘There is nothing in the world whose changing and perishing would give rise to sorrow, lamentation, pain, sadness, and distress in me.’” ",
+            "matched": true
+          },
+          "sn21.2:3.2": {
+            "scid": "sn21.2:3.2",
+            "pli": "“satthupi kho te, āvuso sāriputta, vipariṇāmaññathābhāvā nuppajjeyyuṁ sokaparidevadukkhadomanassupāyāsā”ti? ",
+            "de": "„Selbst wenn der Lehrer sich verändern und umwandeln würde, würde auch das bei dir nicht <span class=\"ebt-matched\">zu Kummer</span>, Klage, Schmerz, Traurigkeit und Bedrängnis führen?“ ",
+            "en": "“Even if the Teacher were to decay and perish? Wouldn’t that give rise to sorrow, lamentation, pain, sadness, and distress in you?” ",
+            "matched": true
+          },
+          "sn21.2:3.3": {
+            "scid": "sn21.2:3.3",
+            "pli": "“Satthupi kho me, āvuso, vipariṇāmaññathābhāvā nuppajjeyyuṁ sokaparidevadukkhadomanassupāyāsā, api ca me evamassa: ",
+            "de": "„Selbst wenn der Lehrer sich verändern und umwandeln würde, würde auch das bei mir nicht <span class=\"ebt-matched\">zu Kummer</span>, Klage, Schmerz, Traurigkeit und Bedrängnis führen. Doch ich würde denken: ",
+            "en": "“Even if the Teacher were to decay and perish, that wouldn’t give rise to sorrow, lamentation, pain, sadness, and distress in me. Still, I would think: ",
+            "matched": true
+          },
+          "sn21.2:3.7": {
+            "scid": "sn21.2:3.7",
+            "pli": "Tasmā āyasmato sāriputtassa satthupi vipariṇāmaññathābhāvā nuppajjeyyuṁ sokaparidevadukkhadomanassupāyāsā”ti. ",
+            "de": "Daher würde, selbst wenn der Lehrer sich verändern und umwandeln würde, auch das bei ihm nicht <span class=\"ebt-matched\">zu Kummer</span>, Klage, Schmerz, Traurigkeit und Bedrängnis führen.“ ",
+            "en": "So even if the Teacher were to decay and perish, it wouldn’t give rise to sorrow, lamentation, pain, sadness, and distress in him.” ",
+            "matched": true
+          }
+        },
+        "score": 5.25,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 21.2\n1. Das Kapitel mit Mönchen\nMit Upatissa",
+        "segsMatched": 5,
+        "langSegs": {
+          "pli": 20,
+          "de": 19,
+          "en": 19
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn42/sn42.11_root-pli-ms.json",
@@ -114,7 +178,7 @@
           "an5.30:4.6": {
             "scid": "an5.30:4.6",
             "pli": "Piyānaṁ kho, nāgita, vipariṇāmaññathābhāvā uppajjanti sokaparidevadukkhadomanassupāyāsā—",
-            "de": "Wenn die Lieben verderben und zugrunde gehen, kommt es <span class=\"ebt-matched\">zu Kummer</span>, Klage, Schmerz, Traurigkeit und Bedrängnis. ",
+            "de": "Wenn die Lieben sich verändern und umwandeln, kommt es <span class=\"ebt-matched\">zu Kummer</span>, Klage, Schmerz, Traurigkeit und Bedrängnis. ",
             "en": "When loved ones decay and perish, sorrow, lamentation, pain, sadness, and distress arise. ",
             "matched": true
           }

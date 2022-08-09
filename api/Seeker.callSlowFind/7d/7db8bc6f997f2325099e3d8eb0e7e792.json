@@ -32,7 +32,7 @@
     "pattern": "ist es wirklich wahr",
     "method": "phrase",
     "resultPattern": "\\bist es wirklich wahr",
-    "segsMatched": 20,
+    "segsMatched": 22,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn24_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn24_translation-de-sabbamitta.json",
@@ -43,6 +43,12 @@
       "root/pli/ms/sutta/sn/sn7/sn7.21_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn7/sn7.21_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn7/sn7.21_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn21/sn21.4_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn21/sn21.4_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn21/sn21.4_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn21/sn21.10_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn21/sn21.10_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn21/sn21.10_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn16/sn16.6_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn16/sn16.6_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn16/sn16.6_translation-en-sujato.json",
@@ -84,6 +90,8 @@
       "dn24/de/sabbamitta",
       "an3.61/de/sabbamitta",
       "sn7.21/de/sabbamitta",
+      "sn21.4/de/sabbamitta",
+      "sn21.10/de/sabbamitta",
       "sn16.6/de/sabbamitta",
       "sn12.70/de/sabbamitta",
       "sn12.32/de/sabbamitta",
@@ -259,6 +267,70 @@
           "pli": 27,
           "de": 26,
           "en": 26
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn21/sn21.4_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn21/sn21.4_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn21/sn21.4_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn21.4",
+        "lang": "de",
+        "segMap": {
+          "sn21.4:2.6": {
+            "scid": "sn21.4:2.6",
+            "pli": "“saccaṁ kira tvaṁ, bhikkhu, pacchābhattaṁ piṇḍapātapaṭikkanto vihāraṁ pavisitvā appossukko tuṇhībhūto saṅkasāyasi, na bhikkhūnaṁ veyyāvaccaṁ karosi cīvarakārasamaye”ti? ",
+            "de": "„<span class=\"ebt-matched\">Ist es wirklich wahr</span>, Mönch, dass du nach dem Essen, wenn du vom Almosengang zurückkamst, in deine Hütte gegangen bist und in Untätigkeit und Schweigen verharrt hast, und dass du den Mönchen und Nonnen nicht geholfen hast, als es Zeit zum Robennähen war?“ ",
+            "en": "“Is it really true, monk, that after your meal, on your return from almsround, you entered your dwelling, where you adhered to passivity and silence, and you didn’t help the mendicants out when it was time to sew robes?” ",
+            "matched": true
+          }
+        },
+        "score": 1.036,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 21.4\n1. Das Kapitel mit Mönchen\nEin jüngerer Mönch",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 28,
+          "de": 26,
+          "en": 27
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn21/sn21.10_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn21/sn21.10_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn21/sn21.10_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn21.10",
+        "lang": "de",
+        "segMap": {
+          "sn21.10:2.7": {
+            "scid": "sn21.10:2.7",
+            "pli": "“saccaṁ kira tvaṁ, thera, ekavihārī ekavihārassa ca vaṇṇavādī”ti? ",
+            "de": "„<span class=\"ebt-matched\">Ist es wirklich wahr</span>, Ältester, dass du allein lebst und das Alleinleben preist?“ ",
+            "en": "“Is it really true, Senior, that you live alone and praise living alone?” ",
+            "matched": true
+          }
+        },
+        "score": 1.03,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 21.10\n1. Das Kapitel mit Mönchen\nEin Mönch mit Namen Ältester",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 33,
+          "de": 32,
+          "en": 32
         }
       },
       {

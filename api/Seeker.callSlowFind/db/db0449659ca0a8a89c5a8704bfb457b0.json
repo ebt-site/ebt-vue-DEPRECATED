@@ -32,7 +32,7 @@
     "pattern": "alle[sm] leiden",
     "method": "phrase",
     "resultPattern": "\\balle[sm] leiden",
-    "segsMatched": 32,
+    "segsMatched": 33,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn42/sn42.11_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn42/sn42.11_translation-de-sabbamitta.json",
@@ -59,6 +59,9 @@
       "root/pli/ms/sutta/sn/sn2/sn2.21_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn2/sn2.21_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn2/sn2.21_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn21/sn21.4_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn21/sn21.4_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn21/sn21.4_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn1/sn1.31_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn1/sn1.31_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.31_translation-en-sujato.json",
@@ -121,6 +124,7 @@
       "sn7.11/de/sabbamitta",
       "sn5.6/de/sabbamitta",
       "sn2.21/de/sabbamitta",
+      "sn21.4/de/sabbamitta",
       "sn1.31/de/sabbamitta",
       "sn1.24/de/sabbamitta",
       "mn140/de/sabbamitta",
@@ -481,6 +485,38 @@
         "langSegs": {
           "pli": 28,
           "de": 27,
+          "en": 27
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn21/sn21.4_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn21/sn21.4_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn21/sn21.4_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn21.4",
+        "lang": "de",
+        "segMap": {
+          "sn21.4:5.4": {
+            "scid": "sn21.4:5.4",
+            "pli": "sabbadukkhappamocanaṁ. ",
+            "de": "die Befreiung von <span class=\"ebt-matched\">allem Leiden</span>. ",
+            "en": "the freedom from all suffering. ",
+            "matched": true
+          }
+        },
+        "score": 1.036,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 21.4\n1. Das Kapitel mit Mönchen\nEin jüngerer Mönch",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 28,
+          "de": 26,
           "en": 27
         }
       },
