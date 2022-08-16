@@ -32,7 +32,7 @@
     "pattern": "herr de[rs]",
     "method": "phrase",
     "resultPattern": "\\bherr de[rs]",
-    "segsMatched": 14,
+    "segsMatched": 15,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn20_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn20_translation-de-sabbamitta.json",
@@ -52,6 +52,9 @@
       "root/pli/ms/sutta/sn/sn3/sn3.16_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn3/sn3.16_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn3/sn3.16_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn27_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn27_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn27_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an7/an7.62_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an7/an7.62_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an7/an7.62_translation-en-sujato.json"
@@ -63,6 +66,7 @@
       "an10.115/de/sabbamitta",
       "sn3.1/de/sabbamitta",
       "sn3.16/de/sabbamitta",
+      "dn27/de/sabbamitta",
       "an7.62/de/sabbamitta"
     ],
     "mlDocs": [
@@ -337,6 +341,38 @@
           "pli": 74,
           "de": 74,
           "en": 74
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn27_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn27_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn27_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn27",
+        "lang": "de",
+        "segMap": {
+          "dn27:21.2": {
+            "scid": "dn27:21.2",
+            "pli": "Khettānaṁ adhipatīti kho, vāseṭṭha, ‘khattiyo, khattiyo’ tveva dutiyaṁ akkharaṁ upanibbattaṁ. ",
+            "de": "‚<span class=\"ebt-matched\">Herr der</span> Felder‘ ist die Bedeutung von ‚Adliger‘, des zweiten Ausdrucks, der eigens für ihn erdacht wurde. ",
+            "en": "‘Lord of the fields’ is the meaning of ‘aristocrat’, the second term to be specifically invented. ",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 27\nWas zuerst kam",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 323,
+          "de": 268,
+          "en": 322
         }
       }
     ]

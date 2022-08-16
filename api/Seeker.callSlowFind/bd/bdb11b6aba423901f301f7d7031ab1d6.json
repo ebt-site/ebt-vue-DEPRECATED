@@ -32,7 +32,7 @@
     "pattern": "zu meinem langanhaltenden nutzen",
     "method": "phrase",
     "resultPattern": "\\bzu meinem langanhaltenden nutzen",
-    "segsMatched": 8,
+    "segsMatched": 9,
     "bilaraPaths": [
       "root/pli/ms/sutta/kn/ud/vagga1/ud1.10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga1/ud1.10_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/an/an7/an7.47_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an7/an7.47_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an7/an7.47_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn22/sn22.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.1_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn16/sn16.11_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn16/sn16.11_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn16/sn16.11_translation-en-sujato.json",
@@ -53,6 +56,7 @@
     "suttaRefs": [
       "ud1.10/de/sabbamitta",
       "an7.47/de/sabbamitta",
+      "sn22.1/de/sabbamitta",
       "sn16.11/de/sabbamitta",
       "dn30/de/sabbamitta",
       "dn23/de/sabbamitta"
@@ -173,6 +177,38 @@
           "pli": 79,
           "de": 75,
           "en": 78
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn22/sn22.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.1",
+        "lang": "de",
+        "segMap": {
+          "sn22.1:2.5": {
+            "scid": "sn22.1:2.5",
+            "pli": "yaṁ mamassa dīgharattaṁ hitāya sukhāyā”ti. ",
+            "de": "Das wird <span class=\"ebt-matched\">zu meinem langanhaltenden Nutzen</span> und Glück sein.“ ",
+            "en": "It will be for my lasting welfare and happiness.” ",
+            "matched": true
+          }
+        },
+        "score": 1.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 22.1\n1. Das Kapitel mit Nakulas Vater\nNakulas Vater",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 94,
+          "de": 81,
+          "en": 93
         }
       },
       {
