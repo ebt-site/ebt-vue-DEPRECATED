@@ -3,7 +3,7 @@
   "volume": "Seeker.callSlowFind",
   "args": [
     {
-      "pattern": "wie könnte es.* sein",
+      "pattern": "wie könnte es möglich sein",
       "showMatchesOnly": true,
       "languages": [
         "pli",
@@ -29,10 +29,10 @@
     "minLang": 3,
     "maxDoc": 50,
     "maxResults": 1000,
-    "pattern": "wie könnte es.* sein",
+    "pattern": "wie könnte es möglich sein",
     "method": "phrase",
-    "resultPattern": "\\bwie könnte es.* sein",
-    "segsMatched": 15,
+    "resultPattern": "\\bwie könnte es möglich sein",
+    "segsMatched": 8,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
@@ -42,24 +42,12 @@
       "translation/en/sujato/sutta/sn/sn47/sn47.14_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn47/sn47.13_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn47/sn47.13_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn47/sn47.13_translation-en-sujato.json",
-      "root/pli/ms/sutta/sn/sn22/sn22.20_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/sn/sn22/sn22.20_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn22/sn22.20_translation-en-sujato.json",
-      "root/pli/ms/sutta/sn/sn22/sn22.19_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/sn/sn22/sn22.19_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn22/sn22.19_translation-en-sujato.json",
-      "root/pli/ms/sutta/sn/sn22/sn22.18_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/sn/sn22/sn22.18_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn22/sn22.18_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn47/sn47.13_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "dn16/de/sabbamitta",
       "sn47.14/de/sabbamitta",
-      "sn47.13/de/sabbamitta",
-      "sn22.20/de/sabbamitta",
-      "sn22.19/de/sabbamitta",
-      "sn22.18/de/sabbamitta"
+      "sn47.13/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -81,13 +69,6 @@
             "en": "How could it possibly be so that what is born, created, conditioned, and liable to fall apart should not fall apart? ",
             "matched": true
           },
-          "dn16:5.6.7": {
-            "scid": "dn16:5.6.7",
-            "pli": "‘aniccā saṅkhārā, taṁ kutettha labbhā’”ti. ",
-            "de": "‚Bedingungen sind unbeständig. <span class=\"ebt-matched\">Wie könnte es auch anders sein</span>?‘“ ",
-            "en": "‘Conditions are impermanent. How could it possibly be otherwise?’” ",
-            "matched": true
-          },
           "dn16:5.14.4": {
             "scid": "dn16:5.14.4",
             "pli": "taṁ kutettha, ānanda, labbhā. Yaṁ taṁ jātaṁ bhūtaṁ saṅkhataṁ palokadhammaṁ, ‘taṁ vata tathāgatassāpi sarīraṁ mā palujjī’ti netaṁ ṭhānaṁ vijjati. ",
@@ -95,32 +76,11 @@
             "en": "How could it possibly be so that what is born, created, conditioned, and liable to fall apart should not fall apart, even the Realized One’s body? ",
             "matched": true
           },
-          "dn16:6.10.30": {
-            "scid": "dn16:6.10.30",
-            "pli": "“aniccā saṅkhārā, taṁ kutettha labbhā”ti. ",
-            "de": "„Bedingungen sind unbeständig. <span class=\"ebt-matched\">Wie könnte es auch anders sein</span>?“ ",
-            "en": "“Conditions are impermanent. How could it possibly be otherwise?” ",
-            "matched": true
-          },
           "dn16:6.11.5": {
             "scid": "dn16:6.11.5",
             "pli": "Taṁ kutettha, āvuso, labbhā. ‘Yaṁ taṁ jātaṁ bhūtaṁ saṅkhataṁ palokadhammaṁ, taṁ vata mā palujjī’ti, netaṁ ṭhānaṁ vijjati. ",
             "de": "<span class=\"ebt-matched\">Wie könnte es möglich sein</span>, dass das, was geboren, geschaffen, bedingt ist und zerfallen muss, nicht zerfallen sollte? ",
             "en": "How could it possibly be so that what is born, created, conditioned, and liable to fall apart should not fall apart? ",
-            "matched": true
-          },
-          "dn16:6.11.13": {
-            "scid": "dn16:6.11.13",
-            "pli": "‘aniccā saṅkhārā, taṁ kutettha labbhā’”ti. ",
-            "de": "‚Bedingungen sind unbeständig. <span class=\"ebt-matched\">Wie könnte es auch anders sein</span>?‘“ ",
-            "en": "‘Conditions are impermanent. How could it possibly be otherwise?’” ",
-            "matched": true
-          },
-          "dn16:6.19.11": {
-            "scid": "dn16:6.19.11",
-            "pli": "“aniccā saṅkhārā, taṁ kutettha labbhā”ti. ",
-            "de": "‚Bedingungen sind unbeständig. <span class=\"ebt-matched\">Wie könnte es auch anders sein</span>?‘“ ",
-            "en": "“Conditions are impermanent. How could it possibly be otherwise?” ",
             "matched": true
           },
           "dn16:6.20.10": {
@@ -131,12 +91,12 @@
             "matched": true
           }
         },
-        "score": 8.005,
+        "score": 4.002,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Lange Lehrreden 16\nDie große Lehrrede vom Erlöschen des Buddha",
-        "segsMatched": 8,
+        "segsMatched": 4,
         "langSegs": {
           "pli": 1665,
           "de": 1579,
@@ -219,102 +179,6 @@
           "pli": 42,
           "de": 38,
           "en": 41
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/sn/sn22/sn22.19_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/sn/sn22/sn22.19_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/sn/sn22/sn22.19_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "sn22.19",
-        "lang": "de",
-        "segMap": {
-          "sn22.19:1.10": {
-            "scid": "sn22.19:1.10",
-            "pli": "Dukkhasambhūtaṁ, bhikkhave, viññāṇaṁ kuto sukhaṁ bhavissati. ",
-            "de": "Da Bewusstsein von etwas erzeugt wird, das Leiden ist, <span class=\"ebt-matched\">wie könnte es da Glück sein</span>? ",
-            "en": "Since consciousness is produced by what is suffering, how could it be happiness? ",
-            "matched": true
-          }
-        },
-        "score": 1.063,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Verbundene Lehrreden 22.19\n2. Das Kapitel über Unbeständigkeit\nLeiden mit seiner Ursache",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 16,
-          "de": 15,
-          "en": 15
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/sn/sn22/sn22.20_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/sn/sn22/sn22.20_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/sn/sn22/sn22.20_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "sn22.20",
-        "lang": "de",
-        "segMap": {
-          "sn22.20:1.10": {
-            "scid": "sn22.20:1.10",
-            "pli": "Anattasambhūtaṁ, bhikkhave, viññāṇaṁ kuto attā bhavissati. ",
-            "de": "Da Bewusstsein von etwas erzeugt wird, das nicht-selbst ist, <span class=\"ebt-matched\">wie könnte es da ein Selbst sein</span>? ",
-            "en": "Since consciousness is produced by what is not-self, how could it be self? ",
-            "matched": true
-          }
-        },
-        "score": 1.063,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Verbundene Lehrreden 22.20\n2. Das Kapitel über Unbeständigkeit\nNicht-Selbst mit seiner Ursache",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 16,
-          "de": 15,
-          "en": 15
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/sn/sn22/sn22.18_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/sn/sn22/sn22.18_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/sn/sn22/sn22.18_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "sn22.18",
-        "lang": "de",
-        "segMap": {
-          "sn22.18:1.14": {
-            "scid": "sn22.18:1.14",
-            "pli": "Aniccasambhūtaṁ, bhikkhave, viññāṇaṁ kuto niccaṁ bhavissati. ",
-            "de": "Da Bewusstsein von etwas erzeugt wird, das unbeständig ist, <span class=\"ebt-matched\">wie könnte es da beständig sein</span>? ",
-            "en": "Since consciousness is produced by what is impermanent, how could it be permanent? ",
-            "matched": true
-          }
-        },
-        "score": 1.05,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Verbundene Lehrreden 22.18\n2. Das Kapitel über Unbeständigkeit\nUnbeständigkeit mit ihrer Ursache",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 20,
-          "de": 15,
-          "en": 19
         }
       }
     ]

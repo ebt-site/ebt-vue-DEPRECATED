@@ -1,0 +1,151 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "in den drei zeiten",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "in den drei zeiten",
+    "method": "phrase",
+    "resultPattern": "\\bin den drei zeiten",
+    "segsMatched": 3,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn22/sn22.9_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn22/sn22.9_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.9_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.11_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn22/sn22.11_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.11_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.10_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn22/sn22.10_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.10_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn22.9/de/sabbamitta",
+      "sn22.11/de/sabbamitta",
+      "sn22.10/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.10_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn22/sn22.10_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.10_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.10",
+        "lang": "de",
+        "segMap": {
+          "sn22.10:0.3": {
+            "scid": "sn22.10:0.3",
+            "pli": "Kālattayadukkhasutta ",
+            "de": "Leiden <span class=\"ebt-matched\">in den drei Zeiten</span> ",
+            "en": "Suffering in the Three Times ",
+            "matched": true
+          }
+        },
+        "score": 1.056,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 22.10\n1. Das Kapitel mit Nakulas Vater\nLeiden in den drei Zeiten",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 18,
+          "de": 17,
+          "en": 17
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.9_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn22/sn22.9_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.9_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.9",
+        "lang": "de",
+        "segMap": {
+          "sn22.9:0.3": {
+            "scid": "sn22.9:0.3",
+            "pli": "Kālattayaaniccasutta ",
+            "de": "Unbeständigkeit <span class=\"ebt-matched\">in den drei Zeiten</span> ",
+            "en": "Impermanence in the Three Times ",
+            "matched": true
+          }
+        },
+        "score": 1.045,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 22.9\n1. Das Kapitel mit Nakulas Vater\nUnbeständigkeit in den drei Zeiten",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 22,
+          "de": 17,
+          "en": 21
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.11_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn22/sn22.11_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.11_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.11",
+        "lang": "de",
+        "segMap": {
+          "sn22.11:0.3": {
+            "scid": "sn22.11:0.3",
+            "pli": "Kālattayaanattasutta ",
+            "de": "Nicht-Selbst <span class=\"ebt-matched\">in den drei Zeiten</span> ",
+            "en": "Not-Self in the Three Times ",
+            "matched": true
+          }
+        },
+        "score": 1.038,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 22.11\n1. Das Kapitel mit Nakulas Vater\nNicht-Selbst in den drei Zeiten",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 26,
+          "de": 17,
+          "en": 24
+        }
+      }
+    ]
+  }
+}

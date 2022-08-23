@@ -1,0 +1,86 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "das nicht-selbst ist",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "das nicht-selbst ist",
+    "method": "phrase",
+    "resultPattern": "\\bdas nicht-selbst ist",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn22/sn22.20_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn22/sn22.20_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.20_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn22.20/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.20_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn22/sn22.20_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.20_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.20",
+        "lang": "de",
+        "segMap": {
+          "sn22.20:1.4": {
+            "scid": "sn22.20:1.4",
+            "pli": "Anattasambhūtaṁ, bhikkhave, rūpaṁ kuto attā bhavissati. ",
+            "de": "Da Form von etwas erzeugt wird, <span class=\"ebt-matched\">das nicht-selbst ist</span>, wie könnte sie da ein Selbst sein? ",
+            "en": "Since form is produced by what is not-self, how could it be self? ",
+            "matched": true
+          },
+          "sn22.20:1.10": {
+            "scid": "sn22.20:1.10",
+            "pli": "Anattasambhūtaṁ, bhikkhave, viññāṇaṁ kuto attā bhavissati. ",
+            "de": "Da Bewusstsein von etwas erzeugt wird, <span class=\"ebt-matched\">das nicht-selbst ist</span>, wie könnte es da ein Selbst sein? ",
+            "en": "Since consciousness is produced by what is not-self, how could it be self? ",
+            "matched": true
+          }
+        },
+        "score": 2.125,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 22.20\n2. Das Kapitel über Unbeständigkeit\nNicht-Selbst mit seiner Ursache",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 16,
+          "de": 15,
+          "en": 15
+        }
+      }
+    ]
+  }
+}
