@@ -30,86 +30,11 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "besorgnis",
-    "method": "phrase",
+    "method": "keywords",
     "resultPattern": "\\bbesorgnis",
-    "segsMatched": 2,
-    "bilaraPaths": [
-      "root/pli/ms/sutta/sn/sn2/sn2.17_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/sn/sn2/sn2.17_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn2/sn2.17_translation-en-sujato.json",
-      "root/pli/ms/sutta/sn/sn22/sn22.90_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/sn/sn22/sn22.90_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn22/sn22.90_translation-en-sujato.json"
-    ],
-    "suttaRefs": [
-      "sn2.17/de/sabbamitta",
-      "sn22.90/de/sabbamitta"
-    ],
-    "mlDocs": [
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/sn/sn2/sn2.17_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/sn/sn2/sn2.17_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/sn/sn2/sn2.17_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "sn2.17",
-        "lang": "de",
-        "segMap": {
-          "sn2.17:2.5": {
-            "scid": "sn2.17:2.5",
-            "pli": "Sace atthi anutrastaṁ, ",
-            "de": "Wenn es einen Zustand ohne <span class=\"ebt-matched\">Besorgnis</span> gibt, ",
-            "en": "If there is a state free of anxiety, ",
-            "matched": true
-          }
-        },
-        "score": 1.063,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Verbundene Lehrreden 2\n2. Das Kapitel mit Anāthapiṇḍika\n17. Mit Subrahmā",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 16,
-          "de": 16,
-          "en": 16
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/sn/sn22/sn22.90_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/sn/sn22/sn22.90_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/sn/sn22/sn22.90_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "sn22.90",
-        "lang": "de",
-        "segMap": {
-          "sn22.90:3.13": {
-            "scid": "sn22.90:3.13",
-            "pli": "Paritassanā upādānaṁ uppajjati; ",
-            "de": "<span class=\"ebt-matched\">Besorgnis</span> und Ergreifen kommen auf, ",
-            "en": "Anxiety and grasping arise. ",
-            "matched": true
-          }
-        },
-        "score": 1.01,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Verbundene Lehrreden 22.90\n9. Das Kapitel mit Ordensältesten\nMit Channa",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 100,
-          "de": 57,
-          "en": 99
-        }
-      }
-    ]
+    "segsMatched": 0,
+    "bilaraPaths": [],
+    "suttaRefs": [],
+    "mlDocs": []
   }
 }

@@ -32,7 +32,7 @@
     "pattern": "vollständig verstanden werden",
     "method": "phrase",
     "resultPattern": "\\bvollständig verstanden werden",
-    "segsMatched": 25,
+    "segsMatched": 28,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/sn/sn56/sn56.29_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn56/sn56.29_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn56/sn56.29_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.23_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn22/sn22.23_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.23_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an6/an6.61_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.61_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an6/an6.61_translation-en-sujato.json",
@@ -56,6 +59,7 @@
     "suttaRefs": [
       "dn34/de/sabbamitta",
       "sn56.29/de/sabbamitta",
+      "sn22.23/de/sabbamitta",
       "an6.61/de/sabbamitta",
       "an4.254/de/sabbamitta",
       "sn56.12/de/sabbamitta",
@@ -229,6 +233,52 @@
           "pli": 12,
           "de": 11,
           "en": 11
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.23_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn22/sn22.23_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.23_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.23",
+        "lang": "de",
+        "segMap": {
+          "sn22.23:1.2": {
+            "scid": "sn22.23:1.2",
+            "pli": "“Pariññeyye ca, bhikkhave, dhamme desessāmi pariññañca. ",
+            "de": "„Mönche und Nonnen, ich will euch die Dinge lehren, die <span class=\"ebt-matched\">vollständig verstanden werden</span> müssen, sowie das vollständige Verstehen. ",
+            "en": "“Mendicants, I will teach you the things that should be completely understood, and complete understanding. ",
+            "matched": true
+          },
+          "sn22.23:1.4": {
+            "scid": "sn22.23:1.4",
+            "pli": "Katame ca, bhikkhave, pariññeyyā dhammā? ",
+            "de": "Und was sind die Dinge, die <span class=\"ebt-matched\">vollständig verstanden werden</span> müssen? ",
+            "en": "And what things should be completely understood? ",
+            "matched": true
+          },
+          "sn22.23:1.6": {
+            "scid": "sn22.23:1.6",
+            "pli": "Ime vuccanti, bhikkhave, pariññeyyā dhammā. ",
+            "de": "Das nennt man die Dinge, die <span class=\"ebt-matched\">vollständig verstanden werden</span> müssen. ",
+            "en": "These are called the things that should be completely understood. ",
+            "matched": true
+          }
+        },
+        "score": 3.231,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 22.23\n3. Das Kapitel über die Last\nVollständiges Verstehen",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 13,
+          "de": 12,
+          "en": 12
         }
       },
       {

@@ -32,11 +32,14 @@
     "pattern": "versenkung besitzt",
     "method": "phrase",
     "resultPattern": "\\bversenkung besitzt",
-    "segsMatched": 7,
+    "segsMatched": 8,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn56/sn56.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn56/sn56.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn56/sn56.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.5_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn22/sn22.5_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.5_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn1/sn1.9_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn1/sn1.9_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.9_translation-en-sujato.json",
@@ -55,6 +58,7 @@
     ],
     "suttaRefs": [
       "sn56.1/de/sabbamitta",
+      "sn22.5/de/sabbamitta",
       "sn1.9/de/sabbamitta",
       "sn1.38/de/sabbamitta",
       "an6.70/de/sabbamitta",
@@ -227,6 +231,38 @@
           "pli": 64,
           "de": 63,
           "en": 63
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.5_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn22/sn22.5_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.5_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.5",
+        "lang": "de",
+        "segMap": {
+          "sn22.5:1.5": {
+            "scid": "sn22.5:1.5",
+            "pli": "samāhito, bhikkhave, bhikkhu yathābhūtaṁ pajānāti. ",
+            "de": "Ein Mönch, der <span class=\"ebt-matched\">Versenkung besitzt</span>, versteht wahrhaftig. ",
+            "en": "A mendicant who has immersion truly understands. ",
+            "matched": true
+          }
+        },
+        "score": 1.016,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 22.5\n1. Das Kapitel mit Nakulas Vater\nEntwicklung von Versenkung",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 63,
+          "de": 53,
+          "en": 62
         }
       },
       {

@@ -32,7 +32,7 @@
     "pattern": "wie könnte es.* sein",
     "method": "phrase",
     "resultPattern": "\\bwie könnte es.* sein",
-    "segsMatched": 12,
+    "segsMatched": 15,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
@@ -42,12 +42,24 @@
       "translation/en/sujato/sutta/sn/sn47/sn47.14_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn47/sn47.13_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn47/sn47.13_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn47/sn47.13_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn47/sn47.13_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.20_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn22/sn22.20_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.20_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.19_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn22/sn22.19_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.19_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.18_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn22/sn22.18_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.18_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "dn16/de/sabbamitta",
       "sn47.14/de/sabbamitta",
-      "sn47.13/de/sabbamitta"
+      "sn47.13/de/sabbamitta",
+      "sn22.20/de/sabbamitta",
+      "sn22.19/de/sabbamitta",
+      "sn22.18/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -207,6 +219,102 @@
           "pli": 42,
           "de": 38,
           "en": 41
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.19_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn22/sn22.19_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.19_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.19",
+        "lang": "de",
+        "segMap": {
+          "sn22.19:1.10": {
+            "scid": "sn22.19:1.10",
+            "pli": "Dukkhasambhūtaṁ, bhikkhave, viññāṇaṁ kuto sukhaṁ bhavissati. ",
+            "de": "Da Bewusstsein von etwas erzeugt wird, das Leiden ist, <span class=\"ebt-matched\">wie könnte es da Glück sein</span>? ",
+            "en": "Since consciousness is produced by what is suffering, how could it be happiness? ",
+            "matched": true
+          }
+        },
+        "score": 1.063,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 22.19\n2. Das Kapitel über Unbeständigkeit\nLeiden mit seiner Ursache",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 16,
+          "de": 15,
+          "en": 15
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.20_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn22/sn22.20_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.20_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.20",
+        "lang": "de",
+        "segMap": {
+          "sn22.20:1.10": {
+            "scid": "sn22.20:1.10",
+            "pli": "Anattasambhūtaṁ, bhikkhave, viññāṇaṁ kuto attā bhavissati. ",
+            "de": "Da Bewusstsein von etwas erzeugt wird, das nicht-selbst ist, <span class=\"ebt-matched\">wie könnte es da ein Selbst sein</span>? ",
+            "en": "Since consciousness is produced by what is not-self, how could it be self? ",
+            "matched": true
+          }
+        },
+        "score": 1.063,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 22.20\n2. Das Kapitel über Unbeständigkeit\nNicht-Selbst mit seiner Ursache",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 16,
+          "de": 15,
+          "en": 15
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.18_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn22/sn22.18_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.18_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.18",
+        "lang": "de",
+        "segMap": {
+          "sn22.18:1.14": {
+            "scid": "sn22.18:1.14",
+            "pli": "Aniccasambhūtaṁ, bhikkhave, viññāṇaṁ kuto niccaṁ bhavissati. ",
+            "de": "Da Bewusstsein von etwas erzeugt wird, das unbeständig ist, <span class=\"ebt-matched\">wie könnte es da beständig sein</span>? ",
+            "en": "Since consciousness is produced by what is impermanent, how could it be permanent? ",
+            "matched": true
+          }
+        },
+        "score": 1.05,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 22.18\n2. Das Kapitel über Unbeständigkeit\nUnbeständigkeit mit ihrer Ursache",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 20,
+          "de": 15,
+          "en": 19
         }
       }
     ]

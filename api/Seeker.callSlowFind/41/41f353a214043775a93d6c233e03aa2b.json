@@ -32,8 +32,11 @@
     "pattern": "entscheidungen als",
     "method": "phrase",
     "resultPattern": "\\bentscheidungen als",
-    "segsMatched": 5,
+    "segsMatched": 7,
     "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn22/sn22.7_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn22/sn22.7_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.7_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn22/sn22.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.1_translation-en-sujato.json",
@@ -45,11 +48,51 @@
       "translation/en/sujato/sutta/an/an4/an4.16_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "sn22.7/de/sabbamitta",
       "sn22.1/de/sabbamitta",
       "an4.200/de/sabbamitta",
       "an4.16/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.7_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn22/sn22.7_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.7_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.7",
+        "lang": "de",
+        "segMap": {
+          "sn22.7:4.2": {
+            "scid": "sn22.7:4.2",
+            "pli": "saṅkhāre attato samanupassati, saṅkhāravantaṁ vā attānaṁ; attani vā saṅkhāre, saṅkhāresu vā attānaṁ. ",
+            "de": "Er betrachtet <span class=\"ebt-matched\">Entscheidungen als</span> das Selbst … ",
+            "en": "They regard choices as self … ",
+            "matched": true
+          },
+          "sn22.7:8.2": {
+            "scid": "sn22.7:8.2",
+            "pli": "na attani vā saṅkhāre, na saṅkhāresu vā attānaṁ. ",
+            "de": "Er betrachtet nicht <span class=\"ebt-matched\">Entscheidungen als</span> das Selbst … ",
+            "en": "They don’t regard choices as self … ",
+            "matched": true
+          }
+        },
+        "score": 2.034,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 22.7\n1. Das Kapitel mit Nakulas Vater\nBangigkeit durch Ergreifen",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 58,
+          "de": 40,
+          "en": 57
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/an/an4/an4.200_root-pli-ms.json",
