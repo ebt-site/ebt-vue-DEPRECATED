@@ -31,7 +31,7 @@
     "pattern": "cowherd",
     "method": "phrase",
     "resultPattern": "\\bcowherd",
-    "segsMatched": 51,
+    "segsMatched": 52,
     "bilaraPaths": [
       "root/pli/ms/sutta/kn/ud/vagga4/ud4.3_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/ud/vagga4/ud4.3_translation-en-sujato.json",
@@ -61,9 +61,13 @@
       "translation/en/sujato/sutta/mn/mn12_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/dhp/dhp129-145_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/dhp/dhp129-145_translation-en-sujato.json",
+      "translation/en/suddhaso/sutta/kn/dhp/dhp129-145_translation-en-suddhaso.json",
       "root/pli/ms/sutta/kn/dhp/dhp1-20_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/dhp/dhp1-20_translation-en-sujato.json",
       "translation/en/suddhaso/sutta/kn/dhp/dhp1-20_translation-en-suddhaso.json",
+      "root/pli/ms/sutta/kn/dhp/dhp129-145_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp129-145_translation-en-sujato.json",
+      "translation/en/suddhaso/sutta/kn/dhp/dhp129-145_translation-en-suddhaso.json",
       "root/pli/ms/sutta/kn/dhp/dhp1-20_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/dhp/dhp1-20_translation-en-sujato.json",
       "translation/en/suddhaso/sutta/kn/dhp/dhp1-20_translation-en-suddhaso.json"
@@ -84,6 +88,7 @@
       "mn12/en/sujato",
       "dhp129-145/en/sujato",
       "dhp1-20/en/sujato",
+      "dhp129-145/en/suddhaso",
       "dhp1-20/en/suddhaso"
     ],
     "mlDocs": [
@@ -619,7 +624,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/kn/dhp/dhp129-145_root-pli-ms.json",
-          "translation/en/sujato/sutta/kn/dhp/dhp129-145_translation-en-sujato.json"
+          "translation/en/sujato/sutta/kn/dhp/dhp129-145_translation-en-sujato.json",
+          "translation/en/suddhaso/sutta/kn/dhp/dhp129-145_translation-en-suddhaso.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dhp129-145",
+        "lang": "en",
+        "segMap": {
+          "dhp135:1": {
+            "scid": "dhp135:1",
+            "pli": "Yathā daṇḍena gopālo, ",
+            "en": "As a <span class=\"ebt-matched\">cowherd</span> drives the cows ",
+            "matched": true
+          }
+        },
+        "score": 1.012,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Minor Collection\nSayings of the Dhamma 129–145\n10. The Rod\nChabbaggiyabhikkhuvatthu",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 85,
+          "en": 74
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/dhp/dhp129-145_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/dhp/dhp129-145_translation-en-sujato.json",
+          "translation/en/suddhaso/sutta/kn/dhp/dhp129-145_translation-en-suddhaso.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
