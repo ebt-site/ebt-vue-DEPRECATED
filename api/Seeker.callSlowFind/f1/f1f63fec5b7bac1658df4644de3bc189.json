@@ -32,11 +32,14 @@
     "pattern": "wenn berührung aufhört",
     "method": "phrase",
     "resultPattern": "\\bwenn berührung aufhört",
-    "segsMatched": 17,
+    "segsMatched": 20,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an6/an6.63_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.63_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an6/an6.63_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.56_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn22/sn22.56_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.56_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn14_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json",
@@ -76,6 +79,7 @@
     ],
     "suttaRefs": [
       "an6.63/de/sabbamitta",
+      "sn22.56/de/sabbamitta",
       "dn14/de/sabbamitta",
       "sn47.42/de/sabbamitta",
       "sn12.70/de/sabbamitta",
@@ -145,6 +149,52 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.56_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn22/sn22.56_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.56_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.56",
+        "lang": "de",
+        "segMap": {
+          "sn22.56:6.6": {
+            "scid": "sn22.56:6.6",
+            "pli": "phassanirodhā vedanānirodho. ",
+            "de": "<span class=\"ebt-matched\">Wenn Berührung aufhört</span>, hört Gefühl auf. ",
+            "en": "When contact ceases, feeling ceases. ",
+            "matched": true
+          },
+          "sn22.56:9.6": {
+            "scid": "sn22.56:9.6",
+            "pli": "phassanirodhā saññānirodho. ",
+            "de": "<span class=\"ebt-matched\">Wenn Berührung aufhört</span>, hört Wahrnehmung auf. ",
+            "en": "When contact ceases, perception ceases. ",
+            "matched": true
+          },
+          "sn22.56:10.6": {
+            "scid": "sn22.56:10.6",
+            "pli": "phassanirodhā saṅkhāranirodho. ",
+            "de": "<span class=\"ebt-matched\">Wenn Berührung aufhört</span>, hören Entscheidungen auf. ",
+            "en": "When contact ceases, choices cease. ",
+            "matched": true
+          }
+        },
+        "score": 3.039,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 22.56\n6. Das Kapitel über Einbindung\nBlickwinkel",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 76,
+          "de": 61,
+          "en": 75
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/dn/dn14_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json"
@@ -206,7 +256,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Verbundene Lehrreden 47\n5. Das Kapitel über die Unsterblichkeit\n42. Ursprung",
+        "title": "Verbundene Lehrreden 47.42\n5. Das Kapitel über die Unsterblichkeit\nUrsprung",
         "segsMatched": 1,
         "langSegs": {
           "pli": 15,
@@ -302,7 +352,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Verbundene Lehrreden 12\n1. Das Kapitel über die Buddhas\n1. Abhängiges Entstehen",
+        "title": "Verbundene Lehrreden 12.1\n1. Das Kapitel über die Buddhas\nAbhängiges Entstehen",
         "segsMatched": 1,
         "langSegs": {
           "pli": 42,
@@ -366,7 +416,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Verbundene Lehrreden 12\n2. Das Kapitel über Nahrung\n12. Phagguna mit dem Scheitelknoten",
+        "title": "Verbundene Lehrreden 12.12\n2. Das Kapitel über Nahrung\nPhagguna mit dem Scheitelknoten",
         "segsMatched": 1,
         "langSegs": {
           "pli": 70,
@@ -398,7 +448,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Verbundene Lehrreden 12\n7. Das große Kapitel\n68. In Kosambī",
+        "title": "Verbundene Lehrreden 12.68\n7. Das große Kapitel\nIn Kosambī",
         "segsMatched": 1,
         "langSegs": {
           "pli": 84,
@@ -462,7 +512,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Verbundene Lehrreden 12\n1. Das Kapitel über die Buddhas\n4. Über Vipassī",
+        "title": "Verbundene Lehrreden 12.4\n1. Das Kapitel über die Buddhas\nÜber Vipassī",
         "segsMatched": 1,
         "langSegs": {
           "pli": 106,
@@ -494,7 +544,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Verbundene Lehrreden 12\n3. Das Kapitel über die zehn Kräfte\n24. Anhänger anderer Lehren",
+        "title": "Verbundene Lehrreden 12.24\n3. Das Kapitel über die zehn Kräfte\nAnhänger anderer Lehren",
         "segsMatched": 1,
         "langSegs": {
           "pli": 107,
@@ -526,7 +576,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Verbundene Lehrreden 12\n7. Das große Kapitel\n70. Der Wanderer Susīma",
+        "title": "Verbundene Lehrreden 12.70\n7. Das große Kapitel\nDer Wanderer Susīma",
         "segsMatched": 1,
         "langSegs": {
           "pli": 180,

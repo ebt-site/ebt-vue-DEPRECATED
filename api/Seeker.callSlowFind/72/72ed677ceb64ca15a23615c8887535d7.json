@@ -32,7 +32,7 @@
     "pattern": "bangigkeit",
     "method": "phrase",
     "resultPattern": "\\bbangigkeit",
-    "segsMatched": 18,
+    "segsMatched": 20,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn22/sn22.7_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.7_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/sn/sn22/sn22.8_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.8_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.8_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.43_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn22/sn22.43_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.43_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn2/sn2.17_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn2/sn2.17_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn2/sn2.17_translation-en-sujato.json",
@@ -50,6 +53,7 @@
     "suttaRefs": [
       "sn22.7/de/sabbamitta",
       "sn22.8/de/sabbamitta",
+      "sn22.43/de/sabbamitta",
       "sn2.17/de/sabbamitta",
       "sn22.90/de/sabbamitta"
     ],
@@ -218,6 +222,45 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.43_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn22/sn22.43_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.43_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.43",
+        "lang": "de",
+        "segMap": {
+          "sn22.43:3.2": {
+            "scid": "sn22.43:3.2",
+            "pli": "Tesaṁ pahānā na paritassati, aparitassaṁ sukhaṁ viharati, sukhavihārī bhikkhu ‘tadaṅganibbuto’ti vuccati. ",
+            "de": "Wenn diese Dinge aufgegeben sind, gibt es keine <span class=\"ebt-matched\">Bangigkeit</span>. Ohne <span class=\"ebt-matched\">Bangigkeit</span> lebt man glücklich. Ein Mönch, der glücklich lebt, gilt in dieser Hinsicht als erloschen. ",
+            "en": "When these things are given up there’s no anxiety. Without anxiety you live happily. A mendicant who lives happily is said to be extinguished in that respect. ",
+            "matched": true
+          },
+          "sn22.43:3.9": {
+            "scid": "sn22.43:3.9",
+            "pli": "Tesaṁ pahānā na paritassati, aparitassaṁ sukhaṁ viharati, sukhavihārī bhikkhu ‘tadaṅganibbuto’ti vuccatī”ti. ",
+            "de": "Wenn diese Dinge aufgegeben sind, gibt es keine <span class=\"ebt-matched\">Bangigkeit</span>. Ohne <span class=\"ebt-matched\">Bangigkeit</span> lebt man glücklich. Eine Nonne, die glücklich lebt, gilt in dieser Hinsicht als erloschen.“ ",
+            "en": "When these things are given up there’s no anxiety. Without anxiety you live happily. A mendicant who lives happily is said to be extinguished in that respect.” ",
+            "matched": true
+          }
+        },
+        "score": 2.069,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 22.43\n5. Das Kapitel darüber, deine eigene Insel zu sein\nSei deine eigene Insel",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 29,
+          "de": 24,
+          "en": 28
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn2/sn2.17_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/sn/sn2/sn2.17_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/sn/sn2/sn2.17_translation-en-sujato.json"
@@ -240,7 +283,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Verbundene Lehrreden 2\n2. Das Kapitel mit Anāthapiṇḍika\n17. Mit Subrahmā",
+        "title": "Verbundene Lehrreden 2.17\n2. Das Kapitel mit Anāthapiṇḍika\nMit Subrahmā",
         "segsMatched": 1,
         "langSegs": {
           "pli": 16,

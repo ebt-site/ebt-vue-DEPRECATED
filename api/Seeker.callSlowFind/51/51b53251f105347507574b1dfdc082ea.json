@@ -32,8 +32,11 @@
     "pattern": "kreislauf der wiedergeburten",
     "method": "phrase",
     "resultPattern": "\\bkreislauf der wiedergeburten",
-    "segsMatched": 3,
+    "segsMatched": 5,
     "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn22/sn22.56_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn22/sn22.56_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.56_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn15_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn15_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn15_translation-en-sujato.json",
@@ -42,10 +45,50 @@
       "translation/en/sujato/sutta/kn/ud/vagga6/ud6.8_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "sn22.56/de/sabbamitta",
       "dn15/de/sabbamitta",
       "ud6.8/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.56_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn22/sn22.56_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.56_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.56",
+        "lang": "de",
+        "segMap": {
+          "sn22.56:5.3": {
+            "scid": "sn22.56:5.3",
+            "pli": "Ye kevalino vaṭṭaṁ tesaṁ natthi paññāpanāya. ",
+            "de": "Für Vollkommene ist kein <span class=\"ebt-matched\">Kreislauf der Wiedergeburten</span> zu finden. ",
+            "en": "For consummate ones, there is no cycle of rebirths to be found. ",
+            "matched": true
+          },
+          "sn22.56:15.3": {
+            "scid": "sn22.56:15.3",
+            "pli": "Ye kevalino vaṭṭaṁ tesaṁ natthi paññāpanāyā”ti. ",
+            "de": "Für Vollkommene ist kein <span class=\"ebt-matched\">Kreislauf der Wiedergeburten</span> zu finden.“ ",
+            "en": "For consummate ones, there is no cycle of rebirths to be found.” ",
+            "matched": true
+          }
+        },
+        "score": 2.026,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 22.56\n6. Das Kapitel über Einbindung\nBlickwinkel",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 76,
+          "de": 61,
+          "en": 75
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/dn/dn15_root-pli-ms.json",

@@ -32,13 +32,17 @@
     "pattern": "das nicht-selbst ist",
     "method": "phrase",
     "resultPattern": "\\bdas nicht-selbst ist",
-    "segsMatched": 2,
+    "segsMatched": 4,
     "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn22/sn22.55_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn22/sn22.55_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.55_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn22/sn22.20_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.20_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.20_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "sn22.55/de/sabbamitta",
       "sn22.20/de/sabbamitta"
     ],
     "mlDocs": [
@@ -79,6 +83,45 @@
           "pli": 16,
           "de": 15,
           "en": 15
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.55_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn22/sn22.55_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.55_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.55",
+        "lang": "de",
+        "segMap": {
+          "sn22.55:5.2": {
+            "scid": "sn22.55:5.2",
+            "pli": "anattaṁ vedanaṁ ‘anattā vedanā’ti yathābhūtaṁ nappajānāti, ",
+            "de": "Er versteht Gefühl, <span class=\"ebt-matched\">das nicht-selbst ist</span>, nicht wahrhaftig als nicht-selbst. ",
+            "en": "They don’t truly understand feeling … ",
+            "matched": true
+          },
+          "sn22.55:5.5": {
+            "scid": "sn22.55:5.5",
+            "pli": "anattaṁ viññāṇaṁ ‘anattā viññāṇan’ti yathābhūtaṁ nappajānāti. ",
+            "de": "Er versteht Bewusstsein, <span class=\"ebt-matched\">das nicht-selbst ist</span>, nicht wahrhaftig als nicht-selbst. ",
+            "en": "consciousness—which is not-self—as not-self. ",
+            "matched": true
+          }
+        },
+        "score": 2.023,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 22.55\n6. Das Kapitel über Einbindung\nEin inniger Spruch",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 87,
+          "de": 86,
+          "en": 86
         }
       }
     ]
