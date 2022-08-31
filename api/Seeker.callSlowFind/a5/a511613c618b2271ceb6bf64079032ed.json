@@ -31,7 +31,7 @@
     "pattern": "again and again",
     "method": "phrase",
     "resultPattern": "\\bagain and again",
-    "segsMatched": 72,
+    "segsMatched": 71,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn7/sn7.12_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn7/sn7.12_translation-en-sujato.json",
@@ -42,8 +42,6 @@
       "root/pli/ms/sutta/kn/thig/thig16.1_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thig/thig16.1_translation-en-sujato.json",
       "translation/en/soma/sutta/kn/thig/thig16.1_translation-en-soma.json",
-      "root/pli/ms/sutta/kn/snp/vagga3/snp3.12_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/snp/vagga3/snp3.12_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn35/sn35.134_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.134_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn1/sn1.77_root-pli-ms.json",
@@ -53,6 +51,8 @@
       "root/pli/ms/sutta/kn/thig/thig16.1_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thig/thig16.1_translation-en-sujato.json",
       "translation/en/soma/sutta/kn/thig/thig16.1_translation-en-soma.json",
+      "root/pli/ms/sutta/kn/snp/vagga3/snp3.12_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga3/snp3.12_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/dhp/dhp334-359_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/dhp/dhp334-359_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/dhp/dhp116-128_root-pli-ms.json",
@@ -126,11 +126,11 @@
       "thag10.1/en/sujato",
       "an10.23/en/sujato",
       "thig16.1/en/soma",
-      "snp3.12/en/sujato",
       "sn35.134/en/sujato",
       "sn1.77/en/sujato",
       "mn122/en/sujato",
       "thig16.1/en/sujato",
+      "snp3.12/en/sujato",
       "dhp334-359/en/sujato",
       "dhp116-128/en/sujato",
       "sn8.4/en/sujato",
@@ -411,47 +411,6 @@
       },
       {
         "bilaraPaths": [
-          "root/pli/ms/sutta/kn/snp/vagga3/snp3.12_root-pli-ms.json",
-          "translation/en/sujato/sutta/kn/snp/vagga3/snp3.12_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "snp3.12",
-        "lang": "en",
-        "segMap": {
-          "snp3.12:10.4": {
-            "scid": "snp3.12:10.4",
-            "pli": "Punappunaṁ dukkhamupeti mando; ",
-            "en": "that idiot returns to suffering <span class=\"ebt-matched\">again and again</span>. ",
-            "matched": true
-          },
-          "snp3.12:12.1": {
-            "scid": "snp3.12:12.1",
-            "pli": "“Jātimaraṇasaṁsāraṁ, ",
-            "en": "“Those who journey <span class=\"ebt-matched\">again and again</span>, ",
-            "matched": true
-          },
-          "snp3.12:26.3": {
-            "scid": "snp3.12:26.3",
-            "pli": "Phussa phussa vayaṁ passaṁ, ",
-            "en": "one sees them vanish as they’re experienced <span class=\"ebt-matched\">again and again</span>: ",
-            "matched": true
-          }
-        },
-        "score": 3.01,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Anthology of Discourses 3.12\n3.12 Contemplating Pairs",
-        "segsMatched": 3,
-        "langSegs": {
-          "pli": 315,
-          "en": 297
-        }
-      },
-      {
-        "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn1/sn1.77_root-pli-ms.json",
           "translation/en/sujato/sutta/sn/sn1/sn1.77_translation-en-sujato.json"
         ],
@@ -624,6 +583,41 @@
         "langSegs": {
           "pli": 172,
           "en": 171
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga3/snp3.12_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga3/snp3.12_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp3.12",
+        "lang": "en",
+        "segMap": {
+          "snp3.12:10.4": {
+            "scid": "snp3.12:10.4",
+            "pli": "Punappunaṁ dukkhamupeti mando; ",
+            "en": "that idiot returns to suffering <span class=\"ebt-matched\">again and again</span>. ",
+            "matched": true
+          },
+          "snp3.12:12.1": {
+            "scid": "snp3.12:12.1",
+            "pli": "“Jātimaraṇasaṁsāraṁ, ",
+            "en": "“Those who journey <span class=\"ebt-matched\">again and again</span>, ",
+            "matched": true
+          }
+        },
+        "score": 2.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses 3.12\n3.12 Contemplating Pairs",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 315,
+          "en": 297
         }
       },
       {
