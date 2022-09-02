@@ -1,0 +1,100 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "träger der last",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "träger der last",
+    "method": "phrase",
+    "resultPattern": "\\bträger der last",
+    "segsMatched": 4,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn22/sn22.22_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn22/sn22.22_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.22_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn22.22/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.22_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn22/sn22.22_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.22_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.22",
+        "lang": "de",
+        "segMap": {
+          "sn22.22:1.2": {
+            "scid": "sn22.22:1.2",
+            "pli": "“bhārañca vo, bhikkhave, desessāmi bhārahārañca bhārādānañca bhāranikkhepanañca. ",
+            "de": "„Mönche und Nonnen, ich will euch die Last lehren, den <span class=\"ebt-matched\">Träger der Last</span>, das Aufnehmen der Last und das Ablegen der Last. ",
+            "en": "“Mendicants, I will teach you the burden, the bearer of the burden, the picking up of the burden, and the putting down of the burden. ",
+            "matched": true
+          },
+          "sn22.22:2.1": {
+            "scid": "sn22.22:2.1",
+            "pli": "Katamo ca, bhikkhave, bhārahāro? ",
+            "de": "Und wer ist der <span class=\"ebt-matched\">Träger der Last</span>? ",
+            "en": "And who is the bearer of the burden? ",
+            "matched": true
+          },
+          "sn22.22:2.4": {
+            "scid": "sn22.22:2.4",
+            "pli": "ayaṁ vuccati, bhikkhave, bhārahāro. ",
+            "de": "Das nennt man den <span class=\"ebt-matched\">Träger der Last</span>. ",
+            "en": "This is called the bearer of the burden. ",
+            "matched": true
+          },
+          "sn22.22:6.2": {
+            "scid": "sn22.22:6.2",
+            "pli": "bhārahāro ca puggalo; ",
+            "de": "und der Mensch ist der <span class=\"ebt-matched\">Träger der Last</span>en. ",
+            "en": "and the person is the bearer of the burden. ",
+            "matched": true
+          }
+        },
+        "score": 4.121,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 22.22\n3. Das Kapitel über die Last\nDie Last",
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 33,
+          "de": 32,
+          "en": 32
+        }
+      }
+    ]
+  }
+}
