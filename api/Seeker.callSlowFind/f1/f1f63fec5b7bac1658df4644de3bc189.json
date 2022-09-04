@@ -32,11 +32,14 @@
     "pattern": "wenn berührung aufhört",
     "method": "phrase",
     "resultPattern": "\\bwenn berührung aufhört",
-    "segsMatched": 20,
+    "segsMatched": 23,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an6/an6.63_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.63_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an6/an6.63_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.57_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn22/sn22.57_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.57_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn22/sn22.56_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.56_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.56_translation-en-sujato.json",
@@ -79,6 +82,7 @@
     ],
     "suttaRefs": [
       "an6.63/de/sabbamitta",
+      "sn22.57/de/sabbamitta",
       "sn22.56/de/sabbamitta",
       "dn14/de/sabbamitta",
       "sn47.42/de/sabbamitta",
@@ -195,6 +199,52 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.57_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn22/sn22.57_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.57_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.57",
+        "lang": "de",
+        "segMap": {
+          "sn22.57:6.7": {
+            "scid": "sn22.57:6.7",
+            "pli": "phassanirodhā vedanānirodho. ",
+            "de": "<span class=\"ebt-matched\">Wenn Berührung aufhört</span>, hört Gefühl auf. ",
+            "en": "When contact ceases, feeling ceases. ",
+            "matched": true
+          },
+          "sn22.57:10.6": {
+            "scid": "sn22.57:10.6",
+            "pli": "phassanirodhā saññānirodho. ",
+            "de": "<span class=\"ebt-matched\">Wenn Berührung aufhört</span>, hört Wahrnehmung auf. ",
+            "en": "When contact ceases, perception ceases. ",
+            "matched": true
+          },
+          "sn22.57:11.7": {
+            "scid": "sn22.57:11.7",
+            "pli": "phassanirodhā saṅkhāranirodho. ",
+            "de": "<span class=\"ebt-matched\">Wenn Berührung aufhört</span>, hören Entscheidungen auf. ",
+            "en": "When contact ceases, choices cease. ",
+            "matched": true
+          }
+        },
+        "score": 3.028,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 22.57\n6. Das Kapitel über Einbindung\nSieben Fälle",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 107,
+          "de": 79,
+          "en": 106
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/dn/dn14_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json"
@@ -288,7 +338,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Innige Sprüche\n1.2 Beim Erwachen (2)",
+        "title": "Innige Sprüche 1.2\nBeim Erwachen (2)",
         "segsMatched": 1,
         "langSegs": {
           "pli": 25,
@@ -320,7 +370,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Innige Sprüche\n1.3 Beim Erwachen (3)",
+        "title": "Innige Sprüche 1.3\nBeim Erwachen (3)",
         "segsMatched": 1,
         "langSegs": {
           "pli": 38,

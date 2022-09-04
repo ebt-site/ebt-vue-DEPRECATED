@@ -32,11 +32,14 @@
     "pattern": "so ist form",
     "method": "phrase",
     "resultPattern": "\\bso ist form",
-    "segsMatched": 13,
+    "segsMatched": 14,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an4/an4.90_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.90_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.90_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.78_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn22/sn22.78_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.78_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn12/sn12.2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.2_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn12/sn12.2_translation-en-sujato.json",
@@ -73,6 +76,7 @@
     ],
     "suttaRefs": [
       "an4.90/de/sabbamitta",
+      "sn22.78/de/sabbamitta",
       "sn12.2/de/sabbamitta",
       "sn12.23/de/sabbamitta",
       "sn12.22/de/sabbamitta",
@@ -219,6 +223,38 @@
           "pli": 36,
           "de": 35,
           "en": 35
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.78_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn22/sn22.78_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.78_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.78",
+        "lang": "de",
+        "segMap": {
+          "sn22.78:2.2": {
+            "scid": "sn22.78:2.2",
+            "pli": "‘iti rūpaṁ, iti rūpassa samudayo, iti rūpassa atthaṅgamo; ",
+            "de": "‚<span class=\"ebt-matched\">So ist Form</span>, so ist ihr Ursprung, so ihr Enden. ",
+            "en": "‘Such is form, such is the origin of form, such is the ending of form. ",
+            "matched": true
+          }
+        },
+        "score": 1.026,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 22.78\n8. Das Kapitel über Verzehren\nDer Löwe",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 39,
+          "de": 38,
+          "en": 38
         }
       },
       {

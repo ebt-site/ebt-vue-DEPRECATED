@@ -32,7 +32,7 @@
     "pattern": "riese",
     "method": "phrase",
     "resultPattern": "\\briese",
-    "segsMatched": 45,
+    "segsMatched": 46,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an6/an6.43_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.43_translation-de-sabbamitta.json",
@@ -49,6 +49,9 @@
       "root/pli/ms/sutta/sn/sn8/sn8.8_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn8/sn8.8_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn8/sn8.8_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.76_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn22/sn22.76_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.76_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn21/sn21.3_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn21/sn21.3_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn21/sn21.3_translation-en-sujato.json",
@@ -65,6 +68,7 @@
       "an3.80/de/sabbamitta",
       "thag21.1/de/sabbamitta",
       "sn8.8/de/sabbamitta",
+      "sn22.76/de/sabbamitta",
       "sn21.3/de/sabbamitta",
       "ud4.5/de/sabbamitta",
       "ud4.4/de/sabbamitta"
@@ -481,7 +485,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Innige Sprüche\n4.5 Ein Elefantenbulle",
+        "title": "Innige Sprüche 4.5\nEin Elefantenbulle",
         "segsMatched": 1,
         "langSegs": {
           "pli": 33,
@@ -577,12 +581,44 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Innige Sprüche\n4.4 Der Hieb des Geistes",
+        "title": "Innige Sprüche 4.4\nDer Hieb des Geistes",
         "segsMatched": 1,
         "langSegs": {
           "pli": 49,
           "de": 48,
           "en": 48
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.76_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn22/sn22.76_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.76_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.76",
+        "lang": "de",
+        "segMap": {
+          "sn22.76:8.2": {
+            "scid": "sn22.76:8.2",
+            "pli": "mahānāgā samāhitā; ",
+            "de": "besitzen diese <span class=\"ebt-matched\">Riese</span>n Versenkung. ",
+            "en": "those giants have immersion. ",
+            "matched": true
+          }
+        },
+        "score": 1.019,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 22.76\n8. Das Kapitel über Verzehren\nDie Vollendeten",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 54,
+          "de": 53,
+          "en": 53
         }
       }
     ]

@@ -32,14 +32,18 @@
     "pattern": "feuerholz sammel",
     "method": "phrase",
     "resultPattern": "\\bfeuerholz sammel",
-    "segsMatched": 2,
+    "segsMatched": 3,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn7/sn7.18_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn7/sn7.18_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn7/sn7.18_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn7/sn7.18_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn35/sn35.132_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn35/sn35.132_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.132_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "sn7.18/de/sabbamitta"
+      "sn7.18/de/sabbamitta",
+      "sn35.132/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -79,6 +83,38 @@
           "pli": 33,
           "de": 33,
           "en": 33
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn35/sn35.132_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn35/sn35.132_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn35/sn35.132_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn35.132",
+        "lang": "de",
+        "segMap": {
+          "sn35.132:1.2": {
+            "scid": "sn35.132:1.2",
+            "pli": "Atha kho lohiccassa brāhmaṇassa sambahulā antevāsikā kaṭṭhahārakā māṇavakā yenāyasmato mahākaccānassa araññakuṭikā tenupasaṅkamiṁsu; upasaṅkamitvā parito parito kuṭikāya anucaṅkamanti anuvicaranti uccāsaddā mahāsaddā kānici kānici seleyyakāni karonti: ",
+            "de": "Da kamen einige junge Schüler des Brahmanen Lohicca, als sie <span class=\"ebt-matched\">Feuerholz sammel</span>ten, in die Nähe von Mahākaccānas Hütte. Sie zogen und streiften um die Hütte herum, machten einen Höllenlärm und spotteten auf vielerlei Art: ",
+            "en": "Then several youths, students of the brahmin Lohicca, approached Mahākaccāna’s wilderness hut while collecting firewood. They walked and wandered all around the hut, making a dreadful racket and all kinds of jeers: ",
+            "matched": true
+          }
+        },
+        "score": 1.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 35.132\n13. Das Kapitel mit Hausbesitzern\nMit Lohicca",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 88,
+          "de": 87,
+          "en": 87
         }
       }
     ]

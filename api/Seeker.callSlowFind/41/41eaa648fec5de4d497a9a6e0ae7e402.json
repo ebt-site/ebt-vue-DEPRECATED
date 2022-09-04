@@ -32,8 +32,11 @@
     "pattern": "bedingte.* erscheinungen",
     "method": "phrase",
     "resultPattern": "\\bbedingte.* erscheinungen",
-    "segsMatched": 6,
+    "segsMatched": 9,
     "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn22/sn22.79_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn22/sn22.79_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.79_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.47_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.47_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.47_translation-en-sujato.json",
@@ -51,6 +54,7 @@
       "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "sn22.79/de/sabbamitta",
       "an3.47/de/sabbamitta",
       "sn8.4/de/sabbamitta",
       "sn14.11/de/sabbamitta",
@@ -58,6 +62,52 @@
       "dn14/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.79_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn22/sn22.79_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.79_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.79",
+        "lang": "de",
+        "segMap": {
+          "sn22.79:5.2": {
+            "scid": "sn22.79:5.2",
+            "pli": "Saṅkhatamabhisaṅkharontīti kho, bhikkhave, tasmā ‘saṅkhārā’ti vuccati. ",
+            "de": "Entscheidungen erzeugen <span class=\"ebt-matched\">bedingte Erscheinungen</span>; darum nennt man sie ‚Entscheidungen‘. ",
+            "en": "Choices produce conditioned phenomena; that’s why they’re called ‘choices’. ",
+            "matched": true
+          },
+          "sn22.79:5.3": {
+            "scid": "sn22.79:5.3",
+            "pli": "Kiñca saṅkhatamabhisaṅkharonti? ",
+            "de": "Und was sind die <span class=\"ebt-matched\">bedingten Erscheinungen</span>, die sie erzeugen? ",
+            "en": "And what are the conditioned phenomena that they produce? ",
+            "matched": true
+          },
+          "sn22.79:5.5": {
+            "scid": "sn22.79:5.5",
+            "pli": "Saṅkhatamabhisaṅkharontīti kho, bhikkhave, tasmā ‘saṅkhārā’ti vuccati. ",
+            "de": "Entscheidungen erzeugen <span class=\"ebt-matched\">bedingte Erscheinungen</span>; darum nennt man sie ‚Entscheidungen‘. ",
+            "en": "Choices produce conditioned phenomena; that’s why they’re called ‘choices’. ",
+            "matched": true
+          }
+        },
+        "score": 3.02,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 22.79\n8. Das Kapitel über Verzehren\nVerzehren",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 153,
+          "de": 138,
+          "en": 152
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/an/an3/an3.47_root-pli-ms.json",
