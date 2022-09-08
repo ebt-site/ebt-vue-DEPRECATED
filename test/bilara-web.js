@@ -20,6 +20,7 @@
     }
     this.timeout(10*1000);
     const PLI_THIG1_1 = 'Therīgāthā 1.1 ';
+    const DE_THIG1_1 = 'Strophen der altehrwürdigen Nonnen 1.1 ';
     const VERSES_SENIOR_NUNS = "Verses of the Senior Nuns 1.1 ";
     const VERSES_ELDER_BHIKKHUNIS = "Verses of the Elder Bhikkhunīs ";
     const CHAPTER_OF_THE_ONES = "The Chapter of the Ones ";
@@ -584,7 +585,7 @@
         should.deepEqual(sutta.segments[0],{
             scid: 'thig1.1:0.1',
             pli: PLI_THIG1_1,
-            ref: 'Strophen der altehrwürdigen Nonnen ',
+            ref: DE_THIG1_1,
             en: VERSES_SENIOR_NUNS,
         });
     });
@@ -648,7 +649,7 @@
         should.deepEqual(sutta.segments[0],{
             scid: 'thig1.1:0.1',
             pli: PLI_THIG1_1,
-            de: 'Strophen der altehrwürdigen Nonnen ',
+            de: DE_THIG1_1,
         });
     });
     it("loadSuttaRef(...) => thig1.1 (sabbamitta)", async ()=>{
@@ -663,7 +664,7 @@
         should.deepEqual(sutta.segments[0],{
             scid: 'thig1.1:0.1',
             pli: PLI_THIG1_1,
-            de: 'Strophen der altehrwürdigen Nonnen ',
+            de: DE_THIG1_1,
         });
     });
     it("loadSuttaRef(...) => thig1.1 (sabbamitta) ref:de", async ()=>{
@@ -679,8 +680,8 @@
         should.deepEqual(sutta.segments[0],{
             scid: 'thig1.1:0.1',
             pli: PLI_THIG1_1,
-            de: 'Strophen der altehrwürdigen Nonnen ',
-            ref: 'Strophen der altehrwürdigen Nonnen ',
+            de: DE_THIG1_1,
+            ref: DE_THIG1_1,
         });
     });
     it("voices() returns voices", async()=>{
