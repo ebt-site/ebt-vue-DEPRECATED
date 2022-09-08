@@ -25,6 +25,12 @@
           <code>static/{{article.slug}}.png</code> 
         </td>
       </tr>
+      <tr v-if="/pxhere/.test(article.slug)">
+        <td>Source</td>
+        <td>
+          <a :href="pxhereUrl" target="_blank"> <code>{{pxhereUrl}}</code> </a>
+        </td>
+      </tr>
       <tr v-if="/unsplash/.test(article.slug)">
         <td>Source</td>
         <td>
@@ -80,6 +86,12 @@
         let { slug } = this.article;
         let id = slug.replace(/-?pexels-?/, '')
         return `https://pexels.com/photo/${id}`;
+      },
+      pxhereUrl() {
+        let { slug } = this.article;
+        let id = slug
+          .replace(/pxhere.*-/, '')
+        return `https://pxhere.com/en/photo/${id}`;
       },
       unsplashUrl() {
         let { slug } = this.article;
