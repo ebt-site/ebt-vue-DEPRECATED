@@ -32,11 +32,14 @@
     "pattern": "ins leiden verstrickt",
     "method": "phrase",
     "resultPattern": "\\bins leiden verstrickt",
-    "segsMatched": 5,
+    "segsMatched": 6,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an3/an3.40_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.40_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.40_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.80_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn22/sn22.80_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.80_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn10/sn10.7_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn10/sn10.7_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn10/sn10.7_translation-en-sujato.json",
@@ -46,6 +49,7 @@
     ],
     "suttaRefs": [
       "an3.40/de/sabbamitta",
+      "sn22.80/de/sabbamitta",
       "sn10.7/de/sabbamitta",
       "an4.122/de/sabbamitta"
     ],
@@ -88,7 +92,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Nummerierte Lehrreden 3\n4. Das Kapitel über Götterboten\n40. Sich in die Pflicht nehmen",
+        "title": "Nummerierte Lehrreden 3.40\n4. Das Kapitel über Götterboten\nSich in die Pflicht nehmen",
         "segsMatched": 3,
         "langSegs": {
           "pli": 75,
@@ -158,6 +162,38 @@
           "pli": 68,
           "de": 67,
           "en": 67
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.80_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn22/sn22.80_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.80_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.80",
+        "lang": "de",
+        "segMap": {
+          "sn22.80:6.5": {
+            "scid": "sn22.80:6.5",
+            "pli": "api ca kho otiṇṇāmha jātiyā jarāya maraṇena sokehi paridevehi dukkhehi domanassehi upāyāsehi dukkhotiṇṇā dukkhaparetā ",
+            "de": "sondern weil sie in Wiedergeburt, Alter und Tod versunken sind, in Kummer, Klage, Schmerz, Traurigkeit und Bedrängnis; weil sie im Leiden versunken sind, <span class=\"ebt-matched\">ins Leiden verstrickt</span>. ",
+            "en": "But because they’re swamped by rebirth, old age, and death; by sorrow, lamentation, pain, sadness, and distress. They’re swamped by suffering, mired in suffering. ",
+            "matched": true
+          }
+        },
+        "score": 1.012,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 22.80\n8. Das Kapitel über Verzehren\nBettler",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 80,
+          "de": 73,
+          "en": 79
         }
       }
     ]

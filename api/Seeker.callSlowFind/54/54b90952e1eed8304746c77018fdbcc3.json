@@ -32,18 +32,22 @@
     "pattern": "ausdruck für sinnenfreuden",
     "method": "phrase",
     "resultPattern": "\\bausdruck für sinnenfreuden",
-    "segsMatched": 6,
+    "segsMatched": 7,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an8/an8.56_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.56_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an8/an8.56_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an6/an6.23_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.23_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an6/an6.23_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an6/an6.23_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.84_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn22/sn22.84_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.84_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an8.56/de/sabbamitta",
-      "an6.23/de/sabbamitta"
+      "an6.23/de/sabbamitta",
+      "sn22.84/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -136,6 +140,38 @@
           "pli": 35,
           "de": 34,
           "en": 34
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.84_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn22/sn22.84_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.84_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.84",
+        "lang": "de",
+        "segMap": {
+          "sn22.84:10.11": {
+            "scid": "sn22.84:10.11",
+            "pli": "‘Mahantaṁ ninnaṁ pallalan’ti kho, tissa, kāmānametaṁ adhivacanaṁ. ",
+            "de": "‚Eine ausgedehnte Sumpfniederung‘ ist ein <span class=\"ebt-matched\">Ausdruck für Sinnenfreuden</span>. ",
+            "en": "‘An expanse of low-lying marshes’ is a term for sensual pleasures. ",
+            "matched": true
+          }
+        },
+        "score": 1.01,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 22.84\n9. Das Kapitel mit Ordensältesten\nMit Tissa",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 104,
+          "de": 83,
+          "en": 103
         }
       }
     ]

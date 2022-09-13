@@ -32,7 +32,7 @@
     "pattern": "zwei arten von",
     "method": "phrase",
     "resultPattern": "\\bzwei arten von",
-    "segsMatched": 72,
+    "segsMatched": 73,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an9/an9.6_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an9/an9.6_translation-de-sabbamitta.json",
@@ -46,6 +46,9 @@
       "root/pli/ms/sutta/an/an2/an2.64-76_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an2/an2.64-76_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an2/an2.64-76_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.80_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn22/sn22.80_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.80_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn28_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn28_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn28_translation-en-sujato.json",
@@ -70,6 +73,7 @@
       "an10.54/de/sabbamitta",
       "dn21/de/sabbamitta",
       "an2.64-76/de/sabbamitta",
+      "sn22.80/de/sabbamitta",
       "dn28/de/sabbamitta",
       "an4.157/de/sabbamitta",
       "an2.52-63/de/sabbamitta",
@@ -734,6 +738,38 @@
           "pli": 76,
           "de": 75,
           "en": 75
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.80_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn22/sn22.80_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.80_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.80",
+        "lang": "de",
+        "segMap": {
+          "sn22.80:9.1": {
+            "scid": "sn22.80:9.1",
+            "pli": "Dvemā, bhikkhave, diṭṭhiyo—",
+            "de": "Mönche und Nonnen, es gibt <span class=\"ebt-matched\">zwei Arten von</span> Ansichten: ",
+            "en": "There are these two views. ",
+            "matched": true
+          }
+        },
+        "score": 1.012,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 22.80\n8. Das Kapitel über Verzehren\nBettler",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 80,
+          "de": 73,
+          "en": 79
         }
       },
       {

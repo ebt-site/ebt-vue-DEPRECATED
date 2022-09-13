@@ -32,11 +32,14 @@
     "pattern": "cousin des buddha",
     "method": "phrase",
     "resultPattern": "\\bcousin des buddha",
-    "segsMatched": 5,
+    "segsMatched": 6,
     "bilaraPaths": [
       "root/pli/ms/sutta/kn/ud/vagga3/ud3.2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga3/ud3.2_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/ud/vagga3/ud3.2_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.84_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn22/sn22.84_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.84_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn21/sn21.9_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn21/sn21.9_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn21/sn21.9_translation-en-sujato.json",
@@ -46,6 +49,7 @@
     ],
     "suttaRefs": [
       "ud3.2/de/sabbamitta",
+      "sn22.84/de/sabbamitta",
       "sn21.9/de/sabbamitta",
       "sn21.8/de/sabbamitta"
     ],
@@ -158,6 +162,38 @@
           "pli": 18,
           "de": 17,
           "en": 17
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.84_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn22/sn22.84_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.84_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.84",
+        "lang": "de",
+        "segMap": {
+          "sn22.84:1.2": {
+            "scid": "sn22.84:1.2",
+            "pli": "Tena kho pana samayena āyasmā tisso bhagavato pitucchāputto sambahulānaṁ bhikkhūnaṁ evamāroceti: ",
+            "de": "Zu dieser Zeit nun unterrichtete der Ehrwürdige Tissa, der <span class=\"ebt-matched\">Cousin des Buddha</span> von väterlicher Seite, mehrere Mönche: ",
+            "en": "Now at that time Venerable Tissa, the Buddha’s paternal cousin, informed several mendicants: ",
+            "matched": true
+          }
+        },
+        "score": 1.01,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 22.84\n9. Das Kapitel mit Ordensältesten\nMit Tissa",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 104,
+          "de": 83,
+          "en": 103
         }
       }
     ]

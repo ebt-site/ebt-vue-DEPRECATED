@@ -32,14 +32,20 @@
     "pattern": "glaube.* an eine persönlichkeit",
     "method": "phrase",
     "resultPattern": "\\bglaube.* an eine persönlichkeit",
-    "segsMatched": 29,
+    "segsMatched": 37,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an10/an10.76_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.76_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an10/an10.76_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.82_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn22/sn22.82_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.82_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn44_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn44_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn44_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn109_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn109_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn109_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
@@ -89,7 +95,9 @@
     ],
     "suttaRefs": [
       "an10.76/de/sabbamitta",
+      "sn22.82/de/sabbamitta",
       "mn44/de/sabbamitta",
+      "mn109/de/sabbamitta",
       "dn33/de/sabbamitta",
       "an6.89/de/sabbamitta",
       "sn2.16/de/sabbamitta",
@@ -186,6 +194,112 @@
           "pli": 101,
           "de": 100,
           "en": 100
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn109_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn109_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn109_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn109",
+        "lang": "de",
+        "segMap": {
+          "mn109:10.1": {
+            "scid": "mn109:10.1",
+            "pli": "“Kathaṁ pana, bhante, sakkāyadiṭṭhi hotī”ti? ",
+            "de": "„Aber Herr, wie kommt der <span class=\"ebt-matched\">Glaube an eine Persönlichkeit</span> nicht zustande?“ ",
+            "en": "“But sir, how does identity view come about?” ",
+            "matched": true
+          },
+          "mn109:10.8": {
+            "scid": "mn109:10.8",
+            "pli": "Evaṁ kho, bhikkhu, sakkāyadiṭṭhi hotī”ti. ",
+            "de": "So kommt der <span class=\"ebt-matched\">Glaube an eine Persönlichkeit</span> zustande.“ ",
+            "en": "That’s how identity view comes about.” ",
+            "matched": true
+          },
+          "mn109:11.1": {
+            "scid": "mn109:11.1",
+            "pli": "“Kathaṁ pana, bhante, sakkāyadiṭṭhi na hotī”ti? ",
+            "de": "„Aber Herr, wie kommt der <span class=\"ebt-matched\">Glaube an eine Persönlichkeit</span> nicht zustande?“ ",
+            "en": "“But sir, how does identity view not come about?” ",
+            "matched": true
+          },
+          "mn109:11.8": {
+            "scid": "mn109:11.8",
+            "pli": "Evaṁ kho, bhikkhu, sakkāyadiṭṭhi na hotī”ti. ",
+            "de": "So kommt der <span class=\"ebt-matched\">Glaube an eine Persönlichkeit</span> nicht zustande.“ ",
+            "en": "That’s how identity view does not come about.” ",
+            "matched": true
+          }
+        },
+        "score": 4.034,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 109\nDie längere Lehrrede über die Vollmondnacht",
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 117,
+          "de": 115,
+          "en": 116
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.82_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn22/sn22.82_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.82_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.82",
+        "lang": "de",
+        "segMap": {
+          "sn22.82:8.1": {
+            "scid": "sn22.82:8.1",
+            "pli": "“Kathaṁ nu kho, bhante, sakkāyadiṭṭhi hotī”ti? ",
+            "de": "„Herr, wie kommt der <span class=\"ebt-matched\">Glaube an eine Persönlichkeit</span> zustande?“ ",
+            "en": "“Sir, how does identity view come about?” ",
+            "matched": true
+          },
+          "sn22.82:8.8": {
+            "scid": "sn22.82:8.8",
+            "pli": "Evaṁ kho, bhikkhu, sakkāyadiṭṭhi hotī”ti. ",
+            "de": "So kommt der <span class=\"ebt-matched\">Glaube an eine Persönlichkeit</span> zustande.“ ",
+            "en": "That’s how identity view comes about.” ",
+            "matched": true
+          },
+          "sn22.82:9.1": {
+            "scid": "sn22.82:9.1",
+            "pli": "“Kathaṁ pana, bhante, sakkāyadiṭṭhi na hotī”ti? ",
+            "de": "„Aber Herr, wie kommt der <span class=\"ebt-matched\">Glaube an eine Persönlichkeit</span> nicht zustande?“ ",
+            "en": "“But sir, how does identity view not come about?” ",
+            "matched": true
+          },
+          "sn22.82:9.8": {
+            "scid": "sn22.82:9.8",
+            "pli": "Evaṁ kho, bhikkhu, sakkāyadiṭṭhi na hotī”ti. ",
+            "de": "So kommt der <span class=\"ebt-matched\">Glaube an eine Persönlichkeit</span> nicht zustande.“ ",
+            "en": "That’s how identity view does not come about.” ",
+            "matched": true
+          }
+        },
+        "score": 4.033,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 22.82\n8. Das Kapitel über Verzehren\nEine Vollmondnacht",
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 121,
+          "de": 113,
+          "en": 119
         }
       },
       {

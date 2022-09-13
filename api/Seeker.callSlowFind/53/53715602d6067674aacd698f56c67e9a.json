@@ -32,7 +32,7 @@
     "pattern": "grausam",
     "method": "phrase",
     "resultPattern": "\\bgrausam",
-    "segsMatched": 55,
+    "segsMatched": 56,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
@@ -82,6 +82,9 @@
       "root/pli/ms/sutta/sn/sn56/sn56.7_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn56/sn56.7_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn56/sn56.7_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.80_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn22/sn22.80_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.80_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn7_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn7_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn7_translation-en-sujato.json",
@@ -151,6 +154,7 @@
       "an11.17/de/sabbamitta",
       "sn9.11/de/sabbamitta",
       "sn56.7/de/sabbamitta",
+      "sn22.80/de/sabbamitta",
       "mn7/de/sabbamitta",
       "mn2/de/sabbamitta",
       "dn34/de/sabbamitta",
@@ -1180,7 +1184,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Nummerierte Lehrreden 3\n4. Das Kapitel über Götterboten\n40. Sich in die Pflicht nehmen",
+        "title": "Nummerierte Lehrreden 3.40\n4. Das Kapitel über Götterboten\nSich in die Pflicht nehmen",
         "segsMatched": 1,
         "langSegs": {
           "pli": 75,
@@ -1218,6 +1222,38 @@
           "pli": 80,
           "de": 78,
           "en": 78
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.80_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn22/sn22.80_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.80_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.80",
+        "lang": "de",
+        "segMap": {
+          "sn22.80:8.2": {
+            "scid": "sn22.80:8.2",
+            "pli": "kāmavitakko, byāpādavitakko, vihiṁsāvitakko. ",
+            "de": "sinnliche, boshafte und <span class=\"ebt-matched\">grausam</span>e Gedanken. ",
+            "en": "Sensual, malicious, and cruel thoughts. ",
+            "matched": true
+          }
+        },
+        "score": 1.012,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 22.80\n8. Das Kapitel über Verzehren\nBettler",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 80,
+          "de": 73,
+          "en": 79
         }
       },
       {

@@ -32,17 +32,21 @@
     "pattern": "weggabelung",
     "method": "phrase",
     "resultPattern": "\\bweggabelung",
-    "segsMatched": 8,
+    "segsMatched": 10,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn23_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn23_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn23_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.84_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn22/sn22.84_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.84_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/ud/vagga8/ud8.7_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga8/ud8.7_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/ud/vagga8/ud8.7_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "mn23/de/sabbamitta",
+      "sn22.84/de/sabbamitta",
       "ud8.7/de/sabbamitta"
     ],
     "mlDocs": [
@@ -150,6 +154,45 @@
           "pli": 30,
           "de": 27,
           "en": 27
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.84_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn22/sn22.84_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.84_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.84",
+        "lang": "de",
+        "segMap": {
+          "sn22.84:9.7": {
+            "scid": "sn22.84:9.7",
+            "pli": "Tena muhuttaṁ gantvā dakkhissasi dvedhāpathaṁ, tattha vāmaṁ muñcitvā dakkhiṇaṁ gaṇhāhi. ",
+            "de": "und du wirst eine <span class=\"ebt-matched\">Weggabelung</span> sehen. Lass den linken Weg liegen und schlag den rechten ein. ",
+            "en": "and you’ll see a fork in the road. Ignore the left, and take the right-hand path. ",
+            "matched": true
+          },
+          "sn22.84:10.5": {
+            "scid": "sn22.84:10.5",
+            "pli": "‘Dvedhāpatho’ti kho, tissa, vicikicchāyetaṁ adhivacanaṁ. ",
+            "de": "‚Eine <span class=\"ebt-matched\">Weggabelung</span>‘ ist ein Ausdruck für Zweifel. ",
+            "en": "‘A fork in the road’ is a term for doubt. ",
+            "matched": true
+          }
+        },
+        "score": 2.019,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 22.84\n9. Das Kapitel mit Ordensältesten\nMit Tissa",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 104,
+          "de": 83,
+          "en": 103
         }
       }
     ]

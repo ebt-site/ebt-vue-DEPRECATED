@@ -32,7 +32,7 @@
     "pattern": "könnte nicht mein sein",
     "method": "phrase",
     "resultPattern": "\\bkönnte nicht mein sein",
-    "segsMatched": 20,
+    "segsMatched": 22,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an7/an7.55_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an7/an7.55_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/sn/sn22/sn22.55_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.55_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.55_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.81_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn22/sn22.81_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.81_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/ud/vagga7/ud7.8_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga7/ud7.8_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/ud/vagga7/ud7.8_translation-en-sujato.json",
@@ -50,6 +53,7 @@
     "suttaRefs": [
       "an7.55/de/sabbamitta",
       "sn22.55/de/sabbamitta",
+      "sn22.81/de/sabbamitta",
       "ud7.8/de/sabbamitta",
       "an10.29/de/sabbamitta"
     ],
@@ -228,6 +232,45 @@
           "pli": 87,
           "de": 86,
           "en": 86
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.81_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn22/sn22.81_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.81_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.81",
+        "lang": "de",
+        "segMap": {
+          "sn22.81:11.9": {
+            "scid": "sn22.81:11.9",
+            "pli": "‘no cassaṁ no ca me siyā nābhavissaṁ na me bhavissatī’ti. ",
+            "de": "‚Ich könnte nicht sein, und es <span class=\"ebt-matched\">könnte nicht mein sein</span>. Ich werde nicht sein, und es wird nicht mein sein.‘ ",
+            "en": "‘I might not be, and it might not be mine. I will not be, and it will not be mine.’ ",
+            "matched": true
+          },
+          "sn22.81:12.8": {
+            "scid": "sn22.81:12.8",
+            "pli": "‘no cassaṁ no ca me siyā nābhavissaṁ na me bhavissatī’ti; ",
+            "de": "‚Ich könnte nicht sein, und es <span class=\"ebt-matched\">könnte nicht mein sein</span>. Ich werde nicht sein, und es wird nicht mein sein.‘ ",
+            "en": "‘I might not be, and it might not be mine. I will not be, and it will not be mine.’ ",
+            "matched": true
+          }
+        },
+        "score": 2.014,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 22.81\n8. Das Kapitel über Verzehren\nIn Pārileyya",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 140,
+          "de": 108,
+          "en": 139
         }
       },
       {

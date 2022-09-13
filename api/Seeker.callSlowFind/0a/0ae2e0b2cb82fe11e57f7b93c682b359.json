@@ -32,7 +32,7 @@
     "pattern": "hat.* aufgehört",
     "method": "phrase",
     "resultPattern": "\\bhat.* aufgehört",
-    "segsMatched": 29,
+    "segsMatched": 31,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
@@ -43,6 +43,9 @@
       "root/pli/ms/sutta/an/an9/an9.31_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an9/an9.31_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an9/an9.31_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.85_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn22/sn22.85_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.85_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/ud/vagga8/ud8.9_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga8/ud8.9_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/ud/vagga8/ud8.9_translation-en-sujato.json",
@@ -54,6 +57,7 @@
       "dn34/de/sabbamitta",
       "dn33/de/sabbamitta",
       "an9.31/de/sabbamitta",
+      "sn22.85/de/sabbamitta",
       "ud8.9/de/sabbamitta",
       "an9.42/de/sabbamitta"
     ],
@@ -320,6 +324,45 @@
           "pli": 1167,
           "de": 1166,
           "en": 1166
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.85_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn22/sn22.85_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.85_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.85",
+        "lang": "de",
+        "segMap": {
+          "sn22.85:13.9": {
+            "scid": "sn22.85:13.9",
+            "pli": "yaṁ dukkhaṁ taṁ niruddhaṁ tadatthaṅgataṁ. ",
+            "de": "Was Leiden ist, <span class=\"ebt-matched\">hat aufgehört</span> und ist zu Ende gegangen. ",
+            "en": "What’s suffering has ceased and ended. ",
+            "matched": true
+          },
+          "sn22.85:13.15": {
+            "scid": "sn22.85:13.15",
+            "pli": "yaṁ dukkhaṁ taṁ niruddhaṁ tadatthaṅgatan’ti. ",
+            "de": "Was Leiden ist, <span class=\"ebt-matched\">hat aufgehört</span> und ist zu Ende gegangen.‘ ",
+            "en": "What’s suffering has ceased and ended.’ ",
+            "matched": true
+          }
+        },
+        "score": 2.01,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 22.85\n9. Das Kapitel mit Ordensältesten\nMit Yamaka",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 197,
+          "de": 188,
+          "en": 196
         }
       },
       {

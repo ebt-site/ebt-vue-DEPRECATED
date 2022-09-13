@@ -32,11 +32,17 @@
     "pattern": "es war der besinnungstag",
     "method": "phrase",
     "resultPattern": "\\bes war der besinnungstag",
-    "segsMatched": 8,
+    "segsMatched": 10,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn8/sn8.7_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn8/sn8.7_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn8/sn8.7_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.82_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn22/sn22.82_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.82_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn109_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn109_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn109_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/ud/vagga5/ud5.5_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga5/ud5.5_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/ud/vagga5/ud5.5_translation-en-sujato.json",
@@ -61,6 +67,8 @@
     ],
     "suttaRefs": [
       "sn8.7/de/sabbamitta",
+      "sn22.82/de/sabbamitta",
+      "mn109/de/sabbamitta",
       "ud5.5/de/sabbamitta",
       "an8.20/de/sabbamitta",
       "an4.190/de/sabbamitta",
@@ -296,6 +304,38 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn109_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn109_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn109_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn109",
+        "lang": "de",
+        "segMap": {
+          "mn109:2.1": {
+            "scid": "mn109:2.1",
+            "pli": "Tena kho pana samayena bhagavā tadahuposathe pannarase puṇṇāya puṇṇamāya rattiyā bhikkhusaṅghaparivuto abbhokāse nisinno hoti. ",
+            "de": "Zu der Zeit, <span class=\"ebt-matched\">es war der Besinnungstag</span>, der Vollmond am fünfzehnten Tag, saß der Buddha inmitten des Saṅgha der Mönche im Freien. ",
+            "en": "Now, at that time it was the sabbath—the full moon on the fifteenth day—and the Buddha was sitting in the open surrounded by the Saṅgha of monks. ",
+            "matched": true
+          }
+        },
+        "score": 1.009,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 109\nDie längere Lehrrede über die Vollmondnacht",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 117,
+          "de": 115,
+          "en": 116
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/kn/ud/vagga5/ud5.5_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/kn/ud/vagga5/ud5.5_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/kn/ud/vagga5/ud5.5_translation-en-sujato.json"
@@ -324,6 +364,38 @@
           "pli": 109,
           "de": 89,
           "en": 89
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.82_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn22/sn22.82_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.82_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.82",
+        "lang": "de",
+        "segMap": {
+          "sn22.82:1.2": {
+            "scid": "sn22.82:1.2",
+            "pli": "Tena kho pana samayena bhagavā tadahuposathe pannarase puṇṇāya puṇṇamāya rattiyā bhikkhusaṅghaparivuto ajjhokāse nisinno hoti. ",
+            "de": "Zu der Zeit, <span class=\"ebt-matched\">es war der Besinnungstag</span>, der Vollmond am fünfzehnten Tag, saß der Buddha inmitten des Saṅgha der Mönche im Freien. ",
+            "en": "Now, at that time it was the sabbath—the full moon on the fifteenth day—and the Buddha was sitting surrounded by the Saṅgha of monks. ",
+            "matched": true
+          }
+        },
+        "score": 1.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 22.82\n8. Das Kapitel über Verzehren\nEine Vollmondnacht",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 121,
+          "de": 113,
+          "en": 119
         }
       }
     ]
