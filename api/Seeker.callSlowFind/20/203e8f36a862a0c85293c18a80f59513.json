@@ -32,14 +32,18 @@
     "pattern": "真の教えを下落させ消滅させ",
     "method": "phrase",
     "resultPattern": "真の教えを下落させ消滅させ",
-    "segsMatched": 6,
+    "segsMatched": 8,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an1/an1.98-139_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an1/an1.98-139_translation-en-sujato.json",
-      "translation/jpn/kaz/sutta/an/an1/an1.98-139_translation-jpn-kaz.json"
+      "translation/jpn/kaz/sutta/an/an1/an1.98-139_translation-jpn-kaz.json",
+      "root/pli/ms/sutta/an/an2/an2.11-20_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an2/an2.11-20_translation-en-sujato.json",
+      "translation/jpn/kaz/sutta/an/an2/an2.11-20_translation-jpn-kaz.json"
     ],
     "suttaRefs": [
-      "an1.98-139/jpn/kaz"
+      "an1.98-139/jpn/kaz",
+      "an2.11-20/jpn/kaz"
     ],
     "mlDocs": [
       {
@@ -97,16 +101,55 @@
             "matched": true
           }
         },
-        "score": 6.079,
+        "score": 6.08,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "増支部経典 一集\n第十　怠慢さ（第二）（第二放逸等品）\n98–139",
+        "title": "増支部経典 一集\n第十　怠慢さ（第二）（第二放逸等品）",
         "segsMatched": 6,
         "langSegs": {
-          "pli": 76,
-          "en": 75,
-          "jpn": 75
+          "pli": 75,
+          "en": 56,
+          "jpn": 74
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an2/an2.11-20_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an2/an2.11-20_translation-en-sujato.json",
+          "translation/jpn/kaz/sutta/an/an2/an2.11-20_translation-jpn-kaz.json"
+        ],
+        "author_uid": "kaz",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an2.11-20",
+        "lang": "jpn",
+        "segMap": {
+          "an2.20:1.1": {
+            "scid": "an2.20:1.1",
+            "pli": "“Dveme, bhikkhave, dhammā saddhammassa sammosāya antaradhānāya saṁvattanti. ",
+            "en": "“These two things, mendicants, lead to the decline and disappearance of the true teaching. ",
+            "jpn": "「托鉢僧侶たちよ、これら二つは<span class=\"ebt-matched\">真の教えを下落させ消滅させ</span>ます。 ",
+            "matched": true
+          },
+          "an2.20:1.5": {
+            "scid": "an2.20:1.5",
+            "pli": "Ime kho, bhikkhave, dve dhammā saddhammassa sammosāya antaradhānāya saṁvattantī”ti. ",
+            "en": "These two things lead to the decline and disappearance of the true teaching. ",
+            "jpn": "これら二つは<span class=\"ebt-matched\">真の教えを下落させ消滅させ</span>させます。 ",
+            "matched": true
+          }
+        },
+        "score": 2.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "増支部経典 二集\n第二　問題（争論品）",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 175,
+          "en": 170,
+          "jpn": 174
         }
       }
     ]
