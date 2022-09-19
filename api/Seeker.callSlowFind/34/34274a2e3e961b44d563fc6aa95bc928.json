@@ -1,0 +1,138 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "on a leash",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en"
+      ],
+      "maxResults": 1000,
+      "searchLang": "en",
+      "maxDoc": 50,
+      "minLang": 2,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "en",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "on a leash",
+    "method": "phrase",
+    "resultPattern": "\\bon a leash",
+    "segsMatched": 3,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn22/sn22.99_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.99_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.100_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.100_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn102_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn102_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn22.99/en/sujato",
+      "sn22.100/en/sujato",
+      "mn102/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.99_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.99_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.99",
+        "lang": "en",
+        "segMap": {
+          "sn22.99:2.1": {
+            "scid": "sn22.99:2.1",
+            "pli": "Seyyathāpi, bhikkhave, sā gaddulabaddho daḷhe khīle vā thambhe vā upanibaddho tameva khīlaṁ vā thambhaṁ vā anuparidhāvati anuparivattati; ",
+            "en": "Suppose a dog <span class=\"ebt-matched\">on a leash</span> was tethered to a strong post or pillar. It would just keep running and circling around that post or pillar. ",
+            "matched": true
+          }
+        },
+        "score": 1.031,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 22.99\n10. Flowers\nA Leash",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 32,
+          "en": 31
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.100_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.100_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.100",
+        "lang": "en",
+        "segMap": {
+          "sn22.100:1.4": {
+            "scid": "sn22.100:1.4",
+            "pli": "Seyyathāpi, bhikkhave, sā gaddulabaddho daḷhe khīle vā thambhe vā upanibaddho. So gacchati cepi tameva khīlaṁ vā thambhaṁ vā upagacchati; tiṭṭhati cepi tameva khīlaṁ vā thambhaṁ vā upatiṭṭhati; nisīdati cepi tameva khīlaṁ vā thambhaṁ vā upanisīdati; nipajjati cepi tameva khīlaṁ vā thambhaṁ vā upanipajjati. ",
+            "en": "Suppose a dog <span class=\"ebt-matched\">on a leash</span> was tethered to a strong post or pillar. Whether walking, standing, sitting, or lying down, it stays right beside that post or pillar. ",
+            "matched": true
+          }
+        },
+        "score": 1.022,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 22.100\n10. Flowers\nA Leash (2nd)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 46,
+          "en": 45
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn102_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn102_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn102",
+        "lang": "en",
+        "segMap": {
+          "mn102:12.7": {
+            "scid": "mn102:12.7",
+            "pli": "Seyyathāpi nāma sā gaddulabaddho daḷhe thambhe vā khile vā upanibaddho, tameva thambhaṁ vā khilaṁ vā anuparidhāvati anuparivattati; ",
+            "en": "Suppose a dog <span class=\"ebt-matched\">on a leash</span> was tethered to a strong post or pillar. It would just keeping running and circling around that post or pillar. ",
+            "matched": true
+          }
+        },
+        "score": 1.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Middle Discourses 102\nThe Five and Three",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 161,
+          "en": 160
+        }
+      }
+    ]
+  }
+}
