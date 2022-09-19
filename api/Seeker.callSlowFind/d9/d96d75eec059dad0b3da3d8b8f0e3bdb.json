@@ -32,7 +32,7 @@
     "pattern": "bewusstsein verankert",
     "method": "phrase",
     "resultPattern": "\\bbewusstsein verankert",
-    "segsMatched": 21,
+    "segsMatched": 22,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn12/sn12.64_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.64_translation-de-sabbamitta.json",
@@ -48,14 +48,18 @@
       "translation/en/sujato/sutta/sn/sn12/sn12.38_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn4/sn4.23_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn4/sn4.23_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn4/sn4.23_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn4/sn4.23_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.87_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn22/sn22.87_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.87_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "sn12.64/de/sabbamitta",
       "sn12.40/de/sabbamitta",
       "sn12.39/de/sabbamitta",
       "sn12.38/de/sabbamitta",
-      "sn4.23/de/sabbamitta"
+      "sn4.23/de/sabbamitta",
+      "sn22.87/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -328,6 +332,38 @@
           "pli": 70,
           "de": 66,
           "en": 70
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.87_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn22/sn22.87_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.87_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.87",
+        "lang": "de",
+        "segMap": {
+          "sn22.87:11.6": {
+            "scid": "sn22.87:11.6",
+            "pli": "‘kattha vakkalissa kulaputtassa viññāṇaṁ patiṭṭhitan’ti? ",
+            "de": "‚Wo ist Vakkalis <span class=\"ebt-matched\">Bewusstsein verankert</span>?‘ ",
+            "en": "‘Where is Vakkali’s consciousness established?’ ",
+            "matched": true
+          }
+        },
+        "score": 1.007,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 22.87\n9. Das Kapitel mit Ordensältesten\nMit Vakkali",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 144,
+          "de": 110,
+          "en": 143
         }
       }
     ]

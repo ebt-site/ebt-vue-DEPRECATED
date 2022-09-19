@@ -32,7 +32,7 @@
     "pattern": "bedingte.* erscheinungen",
     "method": "phrase",
     "resultPattern": "\\bbedingte.* erscheinungen",
-    "segsMatched": 9,
+    "segsMatched": 10,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn22/sn22.79_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.79_translation-de-sabbamitta.json",
@@ -43,6 +43,9 @@
       "root/pli/ms/sutta/sn/sn8/sn8.4_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn8/sn8.4_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn8/sn8.4_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.96_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn22/sn22.96_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.96_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn14/sn14.11_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn14/sn14.11_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn14/sn14.11_translation-en-sujato.json",
@@ -57,6 +60,7 @@
       "sn22.79/de/sabbamitta",
       "an3.47/de/sabbamitta",
       "sn8.4/de/sabbamitta",
+      "sn22.96/de/sabbamitta",
       "sn14.11/de/sabbamitta",
       "dn17/de/sabbamitta",
       "dn14/de/sabbamitta"
@@ -209,6 +213,38 @@
           "pli": 27,
           "de": 27,
           "en": 27
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.96_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn22/sn22.96_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.96_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.96",
+        "lang": "de",
+        "segMap": {
+          "sn22.96:4.11": {
+            "scid": "sn22.96:4.11",
+            "pli": "Iti kho, bhikkhu, sabbe te saṅkhārā atītā niruddhā vipariṇatā. ",
+            "de": "Und so sind all diese <span class=\"ebt-matched\">bedingten Erscheinungen</span> vergangen, haben aufgehört und sind zugrunde gegangen. ",
+            "en": "And so all those conditioned phenomena have passed, ceased, and perished. ",
+            "matched": true
+          }
+        },
+        "score": 1.02,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 22.96\n10. Das Kapitel über Blumen\nEin Klumpen Kuhmist",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 49,
+          "de": 48,
+          "en": 48
         }
       },
       {

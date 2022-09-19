@@ -32,8 +32,11 @@
     "pattern": "entscheidungen als",
     "method": "phrase",
     "resultPattern": "\\bentscheidungen als",
-    "segsMatched": 20,
+    "segsMatched": 23,
     "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn22/sn22.99_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn22/sn22.99_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.99_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn22/sn22.85_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.85_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.85_translation-en-sujato.json",
@@ -58,6 +61,9 @@
       "root/pli/ms/sutta/an/an4/an4.200_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.200_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.200_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.93_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn22/sn22.93_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.93_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn22/sn22.81_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.81_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.81_translation-en-sujato.json",
@@ -72,6 +78,7 @@
       "translation/en/sujato/sutta/an/an4/an4.16_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "sn22.99/de/sabbamitta",
       "sn22.85/de/sabbamitta",
       "sn22.82/de/sabbamitta",
       "sn22.7/de/sabbamitta",
@@ -80,6 +87,7 @@
       "sn22.1/de/sabbamitta",
       "mn109/de/sabbamitta",
       "an4.200/de/sabbamitta",
+      "sn22.93/de/sabbamitta",
       "sn22.81/de/sabbamitta",
       "sn22.47/de/sabbamitta",
       "sn22.43/de/sabbamitta",
@@ -123,6 +131,45 @@
           "pli": 27,
           "de": 24,
           "en": 26
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.99_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn22/sn22.99_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.99_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.99",
+        "lang": "de",
+        "segMap": {
+          "sn22.99:2.6": {
+            "scid": "sn22.99:2.6",
+            "pli": "saṅkhāre attato samanupassati … ",
+            "de": "Er betrachtet <span class=\"ebt-matched\">Entscheidungen als</span> das Selbst … ",
+            "en": "choices … ",
+            "matched": true
+          },
+          "sn22.99:3.5": {
+            "scid": "sn22.99:3.5",
+            "pli": "na saṅkhāre … ",
+            "de": "Er betrachtet nicht <span class=\"ebt-matched\">Entscheidungen als</span> das Selbst … ",
+            "en": "choices … ",
+            "matched": true
+          }
+        },
+        "score": 2.063,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 22.99\n10. Das Kapitel über Blumen\nDie Leine",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 32,
+          "de": 31,
+          "en": 31
         }
       },
       {
@@ -234,7 +281,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Nummerierte Lehrreden 4\n20. Das große Kapitel\n200. Liebe und Hass",
+        "title": "Nummerierte Lehrreden 4.200\n20. Das große Kapitel\nLiebe und Hass",
         "segsMatched": 2,
         "langSegs": {
           "pli": 91,
@@ -400,6 +447,38 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.93_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn22/sn22.93_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.93_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.93",
+        "lang": "de",
+        "segMap": {
+          "sn22.93:1.9": {
+            "scid": "sn22.93:1.9",
+            "pli": "saṅkhāre … ",
+            "de": "Er betrachtet <span class=\"ebt-matched\">Entscheidungen als</span> das Selbst … ",
+            "en": "choices … ",
+            "matched": true
+          }
+        },
+        "score": 1.036,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 22.93\n10. Das Kapitel über Blumen\nEin Fluss",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 28,
+          "de": 26,
+          "en": 27
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an4/an4.16_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/an/an4/an4.16_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/an/an4/an4.16_translation-en-sujato.json"
@@ -422,7 +501,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Nummerierte Lehrreden 4\n2. Das Kapitel über Gehen\n16. Feinheit",
+        "title": "Nummerierte Lehrreden 4.16\n2. Das Kapitel über Gehen\nFeinheit",
         "segsMatched": 1,
         "langSegs": {
           "pli": 29,

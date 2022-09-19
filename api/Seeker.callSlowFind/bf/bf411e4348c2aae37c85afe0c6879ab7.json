@@ -32,7 +32,7 @@
     "pattern": "eine öllampe, die mithilfe von öl",
     "method": "phrase",
     "resultPattern": "\\beine öllampe, die mithilfe von öl",
-    "segsMatched": 5,
+    "segsMatched": 6,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn12/sn12.54_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.54_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/sn/sn12/sn12.53_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.53_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn12/sn12.53_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.88_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn22/sn22.88_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.88_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn140_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn140_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn140_translation-en-sujato.json"
@@ -47,6 +50,7 @@
     "suttaRefs": [
       "sn12.54/de/sabbamitta",
       "sn12.53/de/sabbamitta",
+      "sn22.88/de/sabbamitta",
       "mn140/de/sabbamitta"
     ],
     "mlDocs": [
@@ -126,6 +130,38 @@
           "pli": 32,
           "de": 31,
           "en": 31
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.88_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn22/sn22.88_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.88_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.88",
+        "lang": "de",
+        "segMap": {
+          "sn22.88:5.1": {
+            "scid": "sn22.88:5.1",
+            "pli": "Seyyathāpi, assaji, telañca paṭicca, vaṭṭiñca paṭicca, telappadīpo jhāyeyya; ",
+            "de": "Wie <span class=\"ebt-matched\">eine Öllampe, die mithilfe von Öl</span> und einem Docht brennt. ",
+            "en": "Suppose an oil lamp depended on oil and a wick to burn. ",
+            "matched": true
+          }
+        },
+        "score": 1.019,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 22.88\n9. Das Kapitel mit Ordensältesten\nMit Assaji",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 54,
+          "de": 51,
+          "en": 53
         }
       },
       {
