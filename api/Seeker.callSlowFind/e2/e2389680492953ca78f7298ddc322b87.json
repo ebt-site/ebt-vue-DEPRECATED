@@ -32,17 +32,23 @@
     "pattern": "krankheit.* eiterherd.* pfeil",
     "method": "phrase",
     "resultPattern": "\\bkrankheit.* eiterherd.* pfeil",
-    "segsMatched": 11,
+    "segsMatched": 15,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an9/an9.36_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an9/an9.36_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an9/an9.36_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.122_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn22/sn22.122_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.122_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.126_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.126_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.126_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.124_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.124_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.124_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.123_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn22/sn22.123_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.123_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn140_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn140_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn140_translation-en-sujato.json",
@@ -52,8 +58,10 @@
     ],
     "suttaRefs": [
       "an9.36/de/sabbamitta",
+      "sn22.122/de/sabbamitta",
       "an4.126/de/sabbamitta",
       "an4.124/de/sabbamitta",
+      "sn22.123/de/sabbamitta",
       "mn140/de/sabbamitta",
       "dn21/de/sabbamitta"
     ],
@@ -116,6 +124,52 @@
           "pli": 86,
           "de": 70,
           "en": 85
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.122_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn22/sn22.122_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.122_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.122",
+        "lang": "de",
+        "segMap": {
+          "sn22.122:1.4": {
+            "scid": "sn22.122:1.4",
+            "pli": "“Sīlavatāvuso, koṭṭhika, bhikkhunā pañcupādānakkhandhā aniccato dukkhato rogato gaṇḍato sallato aghato ābādhato parato palokato suññato anattato yoniso manasi kātabbā. ",
+            "de": "„Werter Koṭṭhita, ein sittlicher Mönch sollte sich den fünf mit Ergreifen verbundenen Aggregaten gründlich zuwenden, und zwar als unbeständig, als Leiden, als <span class=\"ebt-matched\">Krankheit, als Eiterherd, als Pfeil</span>, als Elend, als Beschwerde, als fremd, als zerfallend, als leer, als nicht-selbst. ",
+            "en": "“Reverend Koṭṭhita, an ethical mendicant should properly attend to the five grasping aggregates as impermanent, as suffering, as diseased, as a boil, as a dart, as misery, as an affliction, as alien, as falling apart, as empty, as not-self. ",
+            "matched": true
+          },
+          "sn22.122:1.7": {
+            "scid": "sn22.122:1.7",
+            "pli": "Sīlavatāvuso, koṭṭhika, bhikkhunā ime pañcupādānakkhandhā aniccato dukkhato rogato gaṇḍato sallato aghato ābādhato parato palokato suññato anattato yoniso manasi kātabbā. ",
+            "de": "Ein sittlicher Mönch sollte sich diesen fünf mit Ergreifen verbundenen Aggregaten gründlich zuwenden, und zwar als unbeständig, als Leiden, als <span class=\"ebt-matched\">Krankheit, als Eiterherd, als Pfeil</span>, als Elend, als Beschwerde, als fremd, als zerfallend, als leer, als nicht-selbst. ",
+            "en": "An ethical mendicant should properly attend to these five grasping aggregates as impermanent, as suffering, as diseased, as a boil, as a dart, as misery, as an affliction, as alien, as falling apart, as empty, as not-self. ",
+            "matched": true
+          },
+          "sn22.122:5.2": {
+            "scid": "sn22.122:5.2",
+            "pli": "“Arahatāpi kho, āvuso koṭṭhika, ime pañcupādānakkhandhe aniccato dukkhato rogato gaṇḍato sallato aghato ābādhato parato palokato suññato anattato yoniso manasi kātabbā. ",
+            "de": "„Werter Koṭṭhita, ein Vollendeter sollte sich den fünf mit Ergreifen verbundenen Aggregaten gründlich zuwenden, und zwar als unbeständig, als Leiden, als <span class=\"ebt-matched\">Krankheit, als Eiterherd, als Pfeil</span>, als Elend, als Beschwerde, als fremd, als zerfallend, als leer, als nicht-selbst. ",
+            "en": "“Reverend Koṭṭhita, a perfected one should also properly attend to the five grasping aggregates as impermanent, as suffering, as diseased, as a boil, as a dart, as misery, as an affliction, as alien, as falling apart, as empty, as not-self. ",
+            "matched": true
+          }
+        },
+        "score": 3.12,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 22.122\n12. Das Kapitel über einen Dhammalehrer\nSittlich",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 25,
+          "de": 24,
+          "en": 24
         }
       },
       {
@@ -194,6 +248,38 @@
           "pli": 17,
           "de": 16,
           "en": 16
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.123_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn22/sn22.123_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.123_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.123",
+        "lang": "de",
+        "segMap": {
+          "sn22.123:4.2": {
+            "scid": "sn22.123:4.2",
+            "pli": "“Arahatāpi khvāvuso koṭṭhika, ime pañcupādānakkhandhā aniccato dukkhato rogato gaṇḍato sallato aghato ābādhato parato palokato suññato anattato yoniso manasi kātabbā. ",
+            "de": "„Werter Koṭṭhita, ein Vollendeter sollte sich den fünf mit Ergreifen verbundenen Aggregaten gründlich zuwenden, und zwar als unbeständig, als Leiden, als <span class=\"ebt-matched\">Krankheit, als Eiterherd, als Pfeil</span>, als Elend, als Beschwerde, als fremd, als zerfallend, als leer, als nicht-selbst. ",
+            "en": "“Reverend Koṭṭhita, a perfected one should properly attend to the five grasping aggregates as impermanent, as suffering, as diseased, as a boil, as a dart, as misery, as an affliction, as alien, as falling apart, as empty, as not-self. ",
+            "matched": true
+          }
+        },
+        "score": 1.048,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 22.123\n12. Das Kapitel über einen Dhammalehrer\nGebildet",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 21,
+          "de": 20,
+          "en": 20
         }
       },
       {
