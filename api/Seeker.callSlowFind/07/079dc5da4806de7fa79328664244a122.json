@@ -32,7 +32,7 @@
     "pattern": "erde, wasser, feuer und luft",
     "method": "phrase",
     "resultPattern": "\\berde, wasser, feuer und luft",
-    "segsMatched": 8,
+    "segsMatched": 9,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an3/an3.75_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.75_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/sn/sn35/sn35.238_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn35/sn35.238_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.238_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn24/sn24.8_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn24/sn24.8_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn24/sn24.8_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn14/sn14.38_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn14/sn14.38_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn14/sn14.38_translation-en-sujato.json",
@@ -59,6 +62,7 @@
     "suttaRefs": [
       "an3.75/de/sabbamitta",
       "sn35.238/de/sabbamitta",
+      "sn24.8/de/sabbamitta",
       "sn14.38/de/sabbamitta",
       "sn14.37/de/sabbamitta",
       "sn14.30/de/sabbamitta",
@@ -199,6 +203,38 @@
           "pli": 12,
           "de": 11,
           "en": 11
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn24/sn24.8_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn24/sn24.8_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn24/sn24.8_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn24.8",
+        "lang": "de",
+        "segMap": {
+          "sn24.8:1.6": {
+            "scid": "sn24.8:1.6",
+            "pli": "Pathavīkāyo, āpokāyo, tejokāyo, vāyokāyo, sukhe, dukkhe, jīve sattame. ",
+            "de": "Die Stoffe <span class=\"ebt-matched\">Erde, Wasser, Feuer und Luft</span>; Schmerz, Glück und die Seele als siebter. ",
+            "en": "The substances of earth, water, fire, air; pleasure, pain, and the soul is the seventh. ",
+            "matched": true
+          }
+        },
+        "score": 1.023,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 24.8\n1. Das Kapitel über den Stromeintritt\nDie ausgedehnte Ansicht",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 44,
+          "de": 39,
+          "en": 43
         }
       },
       {

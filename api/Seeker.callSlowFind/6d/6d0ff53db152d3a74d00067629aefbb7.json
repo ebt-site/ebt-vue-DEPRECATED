@@ -32,8 +32,11 @@
     "pattern": "ohne ursache oder bedingung",
     "method": "phrase",
     "resultPattern": "\\bohne ursache oder bedingung",
-    "segsMatched": 3,
+    "segsMatched": 5,
     "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn24/sn24.7_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn24/sn24.7_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn24/sn24.7_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn22/sn22.60_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.60_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.60_translation-en-sujato.json",
@@ -42,10 +45,50 @@
       "translation/en/sujato/sutta/an/an3/an3.61_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "sn24.7/de/sabbamitta",
       "sn22.60/de/sabbamitta",
       "an3.61/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn24/sn24.7_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn24/sn24.7_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn24/sn24.7_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn24.7",
+        "lang": "de",
+        "segMap": {
+          "sn24.7:1.4": {
+            "scid": "sn24.7:1.4",
+            "pli": "Ahetū appaccayā sattā saṅkilissanti. ",
+            "de": "Lebewesen werden <span class=\"ebt-matched\">ohne Ursache oder Bedingung</span> verunreinigt. ",
+            "en": "Sentient beings are corrupted without cause or reason. ",
+            "matched": true
+          },
+          "sn24.7:1.6": {
+            "scid": "sn24.7:1.6",
+            "pli": "Ahetū appaccayā sattā visujjhanti. ",
+            "de": "Lebewesen werden <span class=\"ebt-matched\">ohne Ursache oder Bedingung</span> geläutert. ",
+            "en": "Sentient beings are purified without cause or reason. ",
+            "matched": true
+          }
+        },
+        "score": 2.043,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 24.7\n1. Das Kapitel über den Stromeintritt\nUrsache",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 46,
+          "de": 37,
+          "en": 45
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn22/sn22.60_root-pli-ms.json",

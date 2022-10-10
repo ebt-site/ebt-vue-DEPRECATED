@@ -32,7 +32,7 @@
     "pattern": "krankheit.* eiterherd.* pfeil",
     "method": "phrase",
     "resultPattern": "\\bkrankheit.* eiterherd.* pfeil",
-    "segsMatched": 15,
+    "segsMatched": 17,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an9/an9.36_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an9/an9.36_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/sn/sn22/sn22.122_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.122_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.122_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn23/sn23.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn23/sn23.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn23/sn23.1_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.126_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.126_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.126_translation-en-sujato.json",
@@ -59,6 +62,7 @@
     "suttaRefs": [
       "an9.36/de/sabbamitta",
       "sn22.122/de/sabbamitta",
+      "sn23.1/de/sabbamitta",
       "an4.126/de/sabbamitta",
       "an4.124/de/sabbamitta",
       "sn22.123/de/sabbamitta",
@@ -248,6 +252,45 @@
           "pli": 17,
           "de": 16,
           "en": 16
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn23/sn23.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn23/sn23.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn23/sn23.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn23.1",
+        "lang": "de",
+        "segMap": {
+          "sn23.1:2.4": {
+            "scid": "sn23.1:2.4",
+            "pli": "Tasmātiha tvaṁ, rādha, rūpaṁ māroti passa, māretāti passa, mīyatīti passa, rogoti passa, gaṇḍoti passa, sallanti passa, aghanti passa, aghabhūtanti passa. ",
+            "de": "Daher sollst du Form als Māra betrachten, als den Mörder, als den Ermordeten, als <span class=\"ebt-matched\">Krankheit, als Eiterherd, als Pfeil</span>, als Elend, als den Elenden. ",
+            "en": "So you should see form as Māra, the murderer, the murdered, the diseased, the boil, the dart, the misery, the miserable. ",
+            "matched": true
+          },
+          "sn23.1:2.10": {
+            "scid": "sn23.1:2.10",
+            "pli": "Tasmātiha tvaṁ, rādha, viññāṇaṁ māroti passa, māretāti passa, mīyatīti passa, rogoti passa, gaṇḍoti passa, sallanti passa, aghanti passa, aghabhūtanti passa. ",
+            "de": "Daher sollst du Bewusstsein als Māra betrachten, als den Mörder, als den Ermordeten, als <span class=\"ebt-matched\">Krankheit, als Eiterherd, als Pfeil</span>, als Elend, als den Elenden. ",
+            "en": "So you should see consciousness as Māra, the murderer, the murdered, the diseased, the boil, the dart, the misery, the miserable. ",
+            "matched": true
+          }
+        },
+        "score": 2.071,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 23.1\n1. Das erste Kapitel über Māra\nÜber Māra",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 28,
+          "de": 27,
+          "en": 27
         }
       },
       {

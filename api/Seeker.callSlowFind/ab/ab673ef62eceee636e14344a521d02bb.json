@@ -32,11 +32,14 @@
     "pattern": "bewerte",
     "method": "phrase",
     "resultPattern": "\\bbewerte",
-    "segsMatched": 23,
+    "segsMatched": 26,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn15_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn15_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn15_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn139_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn139_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn139_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn6/sn6.8_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn6/sn6.8_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn6/sn6.8_translation-en-sujato.json",
@@ -88,6 +91,7 @@
     ],
     "suttaRefs": [
       "dn15/de/sabbamitta",
+      "mn139/de/sabbamitta",
       "sn6.8/de/sabbamitta",
       "sn6.7/de/sabbamitta",
       "sn35.132/de/sabbamitta",
@@ -178,6 +182,52 @@
           "pli": 277,
           "de": 254,
           "en": 276
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn139_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn139_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn139_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn139",
+        "lang": "de",
+        "segMap": {
+          "mn139:3.5": {
+            "scid": "mn139:3.5",
+            "pli": "Sukhavinicchayaṁ jaññā; ",
+            "de": "Wisst, wie man verschiedene Arten von Glück <span class=\"ebt-matched\">bewerte</span>t. ",
+            "en": "Know how to assess different kinds of pleasure. ",
+            "matched": true
+          },
+          "mn139:9.1": {
+            "scid": "mn139:9.1",
+            "pli": "‘Sukhavinicchayaṁ jaññā; ",
+            "de": "‚Wisst, wie man verschiedene Arten von Glück <span class=\"ebt-matched\">bewerte</span>t. ",
+            "en": "‘Know how to assess different kinds of pleasure. ",
+            "matched": true
+          },
+          "mn139:9.20": {
+            "scid": "mn139:9.20",
+            "pli": "‘Sukhavinicchayaṁ jaññā; ",
+            "de": "‚Wisst, wie man verschiedene Arten von Glück <span class=\"ebt-matched\">bewerte</span>t. ",
+            "en": "‘Know how to assess different kinds of pleasure. ",
+            "matched": true
+          }
+        },
+        "score": 3.015,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 139\nDie Aufgliederung der Freiheit von Spannungen",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 201,
+          "de": 165,
+          "en": 200
         }
       },
       {

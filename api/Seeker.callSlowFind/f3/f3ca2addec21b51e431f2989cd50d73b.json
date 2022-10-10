@@ -32,7 +32,7 @@
     "pattern": "das allein ist die wahrheit",
     "method": "phrase",
     "resultPattern": "\\bdas allein ist die wahrheit",
-    "segsMatched": 34,
+    "segsMatched": 35,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn29_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn29_translation-de-sabbamitta.json",
@@ -58,6 +58,9 @@
       "root/pli/ms/sutta/an/an2/an2.42-51_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an2/an2.42-51_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an2/an2.42-51_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn139_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn139_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn139_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
@@ -74,6 +77,7 @@
       "ud6.5/de/sabbamitta",
       "ud6.4/de/sabbamitta",
       "an2.42-51/de/sabbamitta",
+      "mn139/de/sabbamitta",
       "dn33/de/sabbamitta",
       "dn21/de/sabbamitta"
     ],
@@ -504,6 +508,38 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn139_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn139_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn139_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn139",
+        "lang": "de",
+        "segMap": {
+          "mn139:12.6": {
+            "scid": "mn139:12.6",
+            "pli": "‘idameva saccaṁ, moghamaññan’ti. ",
+            "de": "‚<span class=\"ebt-matched\">Das allein ist die Wahrheit</span>, alles andere ist Unsinn.‘ ",
+            "en": "‘This is the only truth, other ideas are silly.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 139\nDie Aufgliederung der Freiheit von Spannungen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 201,
+          "de": 165,
+          "en": 200
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/dn/dn21_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/dn/dn21_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/dn/dn21_translation-en-sujato.json"
@@ -549,7 +585,7 @@
           "dn33:1.11.170": {
             "scid": "dn33:1.11.170",
             "pli": "abhijjhā kāyagantho, byāpādo kāyagantho, sīlabbataparāmāso kāyagantho, idaṁsaccābhiniveso kāyagantho. ",
-            "de": "was einen persönlich an Begierde kettet, an bösen Willen, an ein falsches Verständnis von Regeln und Gelübden und an das Festhalten an: ‚<span class=\"ebt-matched\">Das allein ist die Wahrheit</span>‘. ",
+            "de": "was einen persönlich an Begierde kettet, an bösen Willen, an ein falsches Verständnis von Regeln und Gelübden und an das Bestehen auf: ‚<span class=\"ebt-matched\">Das allein ist die Wahrheit</span>‘. ",
             "en": "the personal ties to covetousness, ill will, misapprehension of precepts and observances, and the insistence that this is the only truth. ",
             "matched": true
           }
