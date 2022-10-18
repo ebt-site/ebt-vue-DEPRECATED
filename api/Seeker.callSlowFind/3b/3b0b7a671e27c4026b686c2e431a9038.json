@@ -32,7 +32,7 @@
     "pattern": "bedingungen sind unbeständig",
     "method": "phrase",
     "resultPattern": "\\bbedingungen sind unbeständig",
-    "segsMatched": 16,
+    "segsMatched": 17,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
@@ -61,6 +61,9 @@
       "root/pli/ms/sutta/kn/thag/thag15.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag15.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag15.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/dhp/dhp273-289_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/dhp/dhp273-289_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp273-289_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn17_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn17_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn17_translation-en-sujato.json",
@@ -78,6 +81,7 @@
       "sn15.20/de/sabbamitta",
       "thag20.1/de/sabbamitta",
       "thag15.1/de/sabbamitta",
+      "dhp273-289/de/sabbamitta",
       "dn17/de/sabbamitta",
       "an7.66/de/sabbamitta"
     ],
@@ -339,6 +343,38 @@
           "pli": 71,
           "de": 70,
           "en": 70
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/dhp/dhp273-289_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/dhp/dhp273-289_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/dhp/dhp273-289_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dhp273-289",
+        "lang": "de",
+        "segMap": {
+          "dhp277:1": {
+            "scid": "dhp277:1",
+            "pli": "“Sabbe saṅkhārā aniccā”ti, ",
+            "de": "Alle <span class=\"ebt-matched\">Bedingungen sind unbeständig</span> – ",
+            "en": "All conditions are impermanent—",
+            "matched": true
+          }
+        },
+        "score": 1.012,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Kleinere Sammlung\nDhamma-Sprüche 273–289\n20. Das Kapitel über den Pfad\nPañcasatabhikkhuvatthu",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 86,
+          "de": 73,
+          "en": 86
         }
       },
       {

@@ -30,11 +30,346 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "kanal zur wiedergeburt",
-    "method": "keywords",
-    "resultPattern": "\\bkanal|\\bzur|\\bwiedergeburt",
-    "segsMatched": 0,
-    "bilaraPaths": [],
-    "suttaRefs": [],
-    "mlDocs": []
+    "method": "phrase",
+    "resultPattern": "\\bkanal zur wiedergeburt",
+    "segsMatched": 14,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn23/sn23.3_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn23/sn23.3_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn23/sn23.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn56/sn56.21_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn56/sn56.21_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn56/sn56.21_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thig/thig1.11_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thig/thig1.11_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thig/thig1.11_translation-en-sujato.json",
+      "translation/en/soma/sutta/kn/thig/thig1.11_translation-en-soma.json",
+      "root/pli/ms/sutta/kn/thag/thag20.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag20.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag20.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag15.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag15.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag15.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an7/an7.66_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an7/an7.66_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an7/an7.66_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.1_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn23.3/de/sabbamitta",
+      "dn16/de/sabbamitta",
+      "sn56.21/de/sabbamitta",
+      "thig1.11/de/sabbamitta",
+      "thag20.1/de/sabbamitta",
+      "thag15.1/de/sabbamitta",
+      "an7.66/de/sabbamitta",
+      "an4.1/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn23/sn23.3_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn23/sn23.3_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn23/sn23.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn23.3",
+        "lang": "de",
+        "segMap": {
+          "sn23.3:0.3": {
+            "scid": "sn23.3:0.3",
+            "pli": "Bhavanettisutta ",
+            "de": "Der <span class=\"ebt-matched\">Kanal zur Wiedergeburt</span> ",
+            "en": "The Conduit To Rebirth ",
+            "matched": true
+          },
+          "sn23.3:1.4": {
+            "scid": "sn23.3:1.4",
+            "pli": "Katamā nu kho, bhante, bhavanetti, katamo bhavanettinirodho”ti? ",
+            "de": "Was ist der <span class=\"ebt-matched\">Kanal zur Wiedergeburt</span>? Und was ist das Aufhören des Kanals zur Wiedergeburt?“ ",
+            "en": "What is the conduit to rebirth? And what is the cessation of the conduit to rebirth?” ",
+            "matched": true
+          },
+          "sn23.3:1.6": {
+            "scid": "sn23.3:1.6",
+            "pli": "ayaṁ vuccati bhavanetti. ",
+            "de": "das nennt man den <span class=\"ebt-matched\">Kanal zur Wiedergeburt</span>. ",
+            "en": "this is called the conduit to rebirth. ",
+            "matched": true
+          },
+          "sn23.3:1.12": {
+            "scid": "sn23.3:1.12",
+            "pli": "ayaṁ vuccati bhavanetti. ",
+            "de": "das nennt man den <span class=\"ebt-matched\">Kanal zur Wiedergeburt</span>. ",
+            "en": "this is called the conduit to rebirth. ",
+            "matched": true
+          }
+        },
+        "score": 4.235,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 23.3\n1. Das erste Kapitel über Māra\nDer Kanal zur Wiedergeburt",
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 17,
+          "de": 16,
+          "en": 16
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn16",
+        "lang": "de",
+        "segMap": {
+          "dn16:2.2.8": {
+            "scid": "dn16:2.2.8",
+            "pli": "Tayidaṁ, bhikkhave, dukkhaṁ ariyasaccaṁ anubuddhaṁ paṭividdhaṁ, dukkhasamudayaṁ ariyasaccaṁ anubuddhaṁ paṭividdhaṁ, dukkhanirodhaṁ ariyasaccaṁ anubuddhaṁ paṭividdhaṁ, dukkhanirodhagāminī paṭipadā ariyasaccaṁ anubuddhaṁ paṭividdhaṁ, ucchinnā bhavataṇhā, khīṇā bhavanetti, natthi dāni punabbhavo”ti. ",
+            "de": "Diese edlen Wahrheiten vom Leiden, vom Ursprung des Leidens, vom Aufhören des Leidens und von der Übung, die zum Aufhören des Leidens führt, wurden verstanden und durchdrungen. Das Verlangen nach Fortsetzung des Daseins wurde abgeschnitten, der <span class=\"ebt-matched\">Kanal zur Wiedergeburt</span> ist aufgelöst, künftige Leben wird es jetzt nicht mehr geben.“ ",
+            "en": "These noble truths of suffering, origin, cessation, and the path have been understood and comprehended. Craving for continued existence has been cut off; the conduit to rebirth is ended; now there are no more future lives.” ",
+            "matched": true
+          },
+          "dn16:2.3.8": {
+            "scid": "dn16:2.3.8",
+            "pli": "bhavanetti samūhatā; ",
+            "de": "ist der <span class=\"ebt-matched\">Kanal zur Wiedergeburt</span> entwurzelt. ",
+            "en": "the conduit to rebirth is eradicated. ",
+            "matched": true
+          },
+          "dn16:4.2.10": {
+            "scid": "dn16:4.2.10",
+            "pli": "Tayidaṁ, bhikkhave, ariyaṁ sīlaṁ anubuddhaṁ paṭividdhaṁ, ariyo samādhi anubuddho paṭividdho, ariyā paññā anubuddhā paṭividdhā, ariyā vimutti anubuddhā paṭividdhā, ucchinnā bhavataṇhā, khīṇā bhavanetti, natthi dāni punabbhavo”ti. ",
+            "de": "Diese edle Sittlichkeit, edle Versenkung, edle Weisheit und edle Freiheit wurden verstanden und durchdrungen. Das Verlangen nach Fortsetzung des Daseins wurde abgeschnitten, der <span class=\"ebt-matched\">Kanal zur Wiedergeburt</span> ist aufgelöst, künftige Leben wird es jetzt nicht mehr geben.“ ",
+            "en": "These noble ethics, immersion, wisdom, and freedom have been understood and comprehended. Craving for continued existence has been cut off; the conduit to rebirth is ended; now there are no more future lives.” ",
+            "matched": true
+          }
+        },
+        "score": 3.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 16\nDie große Lehrrede vom Erlöschen des Buddha",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 1665,
+          "de": 1579,
+          "en": 1664
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn56/sn56.21_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn56/sn56.21_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn56/sn56.21_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn56.21",
+        "lang": "de",
+        "segMap": {
+          "sn56.21:2.6": {
+            "scid": "sn56.21:2.6",
+            "pli": "Tayidaṁ, bhikkhave, dukkhaṁ ariyasaccaṁ anubuddhaṁ paṭividdhaṁ, dukkhasamudayaṁ ariyasaccaṁ anubuddhaṁ paṭividdhaṁ, dukkhanirodhaṁ ariyasaccaṁ anubuddhaṁ paṭividdhaṁ, dukkhanirodhagāminī paṭipadā ariyasaccaṁ anubuddhaṁ paṭividdhaṁ; ucchinnā bhavataṇhā, khīṇā bhavanetti; natthi dāni punabbhavo”ti. ",
+            "de": "Diese edlen Wahrheiten vom Leiden, vom Ursprung des Leidens, vom Aufhören des Leidens und von der Übung, die zum Aufhören des Leidens führt, wurden verstanden und durchdrungen. Das Verlangen nach Fortsetzung des Daseins wurde abgeschnitten, der <span class=\"ebt-matched\">Kanal zur Wiedergeburt</span> ist aufgelöst, künftige Leben wird es jetzt nicht mehr geben.“ ",
+            "en": "These noble truths of suffering, origin, cessation, and the path have been understood and comprehended. Craving for continued existence has been cut off; the conduit to rebirth is ended; now there’ll be no more future lives.” ",
+            "matched": true
+          },
+          "sn56.21:5.2": {
+            "scid": "sn56.21:5.2",
+            "pli": "bhavanetti samūhatā; ",
+            "de": "ist der <span class=\"ebt-matched\">Kanal zur Wiedergeburt</span> entwurzelt. ",
+            "en": "the conduit to rebirth is eradicated. ",
+            "matched": true
+          }
+        },
+        "score": 2.087,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 56.21\n3. Das Kapitel beim Dorf Koṭi\nBeim Dorf Koṭi (1)",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 23,
+          "de": 22,
+          "en": 22
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thig/thig1.11_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thig/thig1.11_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thig/thig1.11_translation-en-sujato.json",
+          "translation/en/soma/sutta/kn/thig/thig1.11_translation-en-soma.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thig1.11",
+        "lang": "de",
+        "segMap": {
+          "thig1.11:1.6": {
+            "scid": "thig1.11:1.6",
+            "pli": "bhavanetti samūhatā”ti. ",
+            "de": "der <span class=\"ebt-matched\">Kanal zur Wiedergeburt</span> ist entwurzelt. ",
+            "en": "the conduit to rebirth is eradicated. ",
+            "matched": true
+          }
+        },
+        "score": 1.1,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Nonnen 1.11\nDas Einerbuch\nMuttā (2)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 10,
+          "de": 9,
+          "en": 9
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.1",
+        "lang": "de",
+        "segMap": {
+          "an4.1:2.7": {
+            "scid": "an4.1:2.7",
+            "pli": "Tayidaṁ, bhikkhave, ariyaṁ sīlaṁ anubuddhaṁ paṭividdhaṁ, ariyo samādhi anubuddho paṭividdho, ariyā paññā anubuddhā paṭividdhā, ariyā vimutti anubuddhā paṭividdhā, ucchinnā bhavataṇhā, khīṇā bhavanetti, natthi dāni punabbhavo”ti. ",
+            "de": "Diese edle Sittlichkeit, edle Versenkung, edle Weisheit und edle Freiheit wurden verstanden und durchdrungen. Das Verlangen nach Fortsetzung des Daseins wurde abgeschnitten, der <span class=\"ebt-matched\">Kanal zur Wiedergeburt</span> ist aufgelöst, künftige Leben wird es jetzt nicht mehr geben.“ ",
+            "en": "These noble ethics, immersion, wisdom, and freedom have been understood and comprehended. Craving for continued existence has been cut off; the conduit to rebirth is ended; now there’ll be no more future lives.” ",
+            "matched": true
+          }
+        },
+        "score": 1.037,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 4.1\n1. Das Kapitel beim Dorf Bhaṇḍa\nVerstanden",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 27,
+          "de": 26,
+          "en": 26
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag15.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag15.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag15.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag15.1",
+        "lang": "de",
+        "segMap": {
+          "thag15.1:15.4": {
+            "scid": "thag15.1:15.4",
+            "pli": "bhavanetti samūhatā. ",
+            "de": "der <span class=\"ebt-matched\">Kanal zur Wiedergeburt</span> ist entwurzelt. ",
+            "en": "the conduit to rebirth is eradicated. ",
+            "matched": true
+          }
+        },
+        "score": 1.014,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 15.1\nDas Sechzehnerbuch\n1. Das erste Kapitel\nKoṇḍañña der Versteher",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 71,
+          "de": 70,
+          "en": 70
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an7/an7.66_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an7/an7.66_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an7/an7.66_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an7.66",
+        "lang": "de",
+        "segMap": {
+          "an7.66:14.5": {
+            "scid": "an7.66:14.5",
+            "pli": "Tayidaṁ, bhikkhave, ariyaṁ sīlaṁ anubuddhaṁ paṭividdhaṁ, ariyo samādhi anubodho paṭividdho, ariyā paññā anubodhā paṭividdhā, ariyā vimutti anubodhā paṭividdhā, ucchinnā bhavataṇhā, khīṇā bhavanetti, natthi dāni punabbhavo”ti. ",
+            "de": "Diese edle Sittlichkeit, Versenkung, Weisheit und Freiheit wurden verstanden und durchdrungen. Das Verlangen nach Fortsetzung des Daseins wurde abgeschnitten, der <span class=\"ebt-matched\">Kanal zur Wiedergeburt</span> ist aufgelöst, künftige Leben wird es jetzt nicht mehr geben.“ ",
+            "en": "These noble ethics, immersion, wisdom, and freedom have been understood and comprehended. Craving for continued existence has been cut off; the conduit to rebirth is ended; now there’ll be no more future lives.” ",
+            "matched": true
+          }
+        },
+        "score": 1.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 7.66\n7. Das große Kapitel\nDie sieben Sonnen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 95,
+          "de": 89,
+          "en": 94
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag20.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag20.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag20.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag20.1",
+        "lang": "de",
+        "segMap": {
+          "thag20.1:46.4": {
+            "scid": "thag20.1:46.4",
+            "pli": "bhavanetti samūhatā. ",
+            "de": "der <span class=\"ebt-matched\">Kanal zur Wiedergeburt</span> ist entwurzelt. ",
+            "en": "the conduit to rebirth is eradicated. ",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 20.1\nDas Sechzigerbuch\n1. Das erste Kapitel\nMahāmoggallāna",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 299,
+          "de": 294,
+          "en": 294
+        }
+      }
+    ]
   }
 }

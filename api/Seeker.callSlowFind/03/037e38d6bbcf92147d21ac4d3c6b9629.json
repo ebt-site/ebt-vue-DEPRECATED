@@ -32,8 +32,11 @@
     "pattern": "muss aufgegeben werden",
     "method": "phrase",
     "resultPattern": "\\bmuss aufgegeben werden",
-    "segsMatched": 7,
+    "segsMatched": 13,
     "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn35/sn35.24_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn35/sn35.24_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.24_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn56/sn56.29_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn56/sn56.29_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn56/sn56.29_translation-en-sujato.json",
@@ -46,18 +49,83 @@
       "root/pli/ms/sutta/sn/sn56/sn56.11_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn56/sn56.11_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn56/sn56.11_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn35/sn35.43-51_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn35/sn35.43-51_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.43-51_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.188_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.188_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.188_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "sn35.24/de/sabbamitta",
       "sn56.29/de/sabbamitta",
       "dn34/de/sabbamitta",
       "sn56.12/de/sabbamitta",
       "sn56.11/de/sabbamitta",
+      "sn35.43-51/de/sabbamitta",
       "an4.188/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn35/sn35.24_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn35/sn35.24_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn35/sn35.24_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn35.24",
+        "lang": "de",
+        "segMap": {
+          "sn35.24:1.4": {
+            "scid": "sn35.24:1.4",
+            "pli": "Cakkhuṁ, bhikkhave, pahātabbaṁ, rūpā pahātabbā, cakkhuviññāṇaṁ pahātabbaṁ, cakkhusamphasso pahātabbo, yampidaṁ cakkhusamphassapaccayā uppajjati vedayitaṁ sukhaṁ vā dukkhaṁ vā adukkhamasukhaṁ vā tampi pahātabbaṁ …pe… ",
+            "de": "Das Auge <span class=\"ebt-matched\">muss aufgegeben werden</span>. Bilder müssen aufgegeben werden. Sehbewusstsein <span class=\"ebt-matched\">muss aufgegeben werden</span>. Augenberührung <span class=\"ebt-matched\">muss aufgegeben werden</span>. Das angenehme, schmerzhafte oder neutrale Gefühl, das durch Augenberührung bedingt entsteht, muss ebenso aufgegeben werden. ",
+            "en": "The eye should be given up. Sights should be given up. Eye consciousness should be given up. Eye contact should be given up. The painful, pleasant, or neutral feeling that arises conditioned by eye contact should also be given up. ",
+            "matched": true
+          },
+          "sn35.24:1.5": {
+            "scid": "sn35.24:1.5",
+            "pli": "",
+            "de": "Das Ohr <span class=\"ebt-matched\">muss aufgegeben werden</span> … Die Nase <span class=\"ebt-matched\">muss aufgegeben werden</span> … ",
+            "en": "The ear … nose … ",
+            "matched": true
+          },
+          "sn35.24:1.6": {
+            "scid": "sn35.24:1.6",
+            "pli": "jivhā pahātabbā, rasā pahātabbā, jivhāviññāṇaṁ pahātabbaṁ, jivhāsamphasso pahātabbo, yampidaṁ jivhāsamphassapaccayā uppajjati vedayitaṁ sukhaṁ vā dukkhaṁ vā adukkhamasukhaṁ vā tampi pahātabbaṁ. ",
+            "de": "Die Zunge <span class=\"ebt-matched\">muss aufgegeben werden</span> … ",
+            "en": "tongue … ",
+            "matched": true
+          },
+          "sn35.24:1.7": {
+            "scid": "sn35.24:1.7",
+            "pli": "Kāyo pahātabbo … ",
+            "de": "Der Körper <span class=\"ebt-matched\">muss aufgegeben werden</span> … ",
+            "en": "body … ",
+            "matched": true
+          },
+          "sn35.24:1.8": {
+            "scid": "sn35.24:1.8",
+            "pli": "mano pahātabbo, dhammā pahātabbā, manoviññāṇaṁ pahātabbaṁ, manosamphasso pahātabbo, yampidaṁ manosamphassapaccayā uppajjati vedayitaṁ sukhaṁ vā dukkhaṁ vā adukkhamasukhaṁ vā tampi pahātabbaṁ. ",
+            "de": "Der Geist <span class=\"ebt-matched\">muss aufgegeben werden</span>. Gedanken müssen aufgegeben werden. Geistbewusstsein <span class=\"ebt-matched\">muss aufgegeben werden</span>. Geistberührung <span class=\"ebt-matched\">muss aufgegeben werden</span>. Das angenehme, schmerzhafte oder neutrale Gefühl, das durch Geistberührung bedingt entsteht, muss ebenso aufgegeben werden. ",
+            "en": "mind should be given up. Thoughts should be given up. Mind consciousness should be given up. Mind contact should be given up. The painful, pleasant, or neutral feeling that arises conditioned by mind contact should be given up. ",
+            "matched": true
+          }
+        },
+        "score": 5.385,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 35.24\n3. Das Kapitel über alles\nAufgeben",
+        "segsMatched": 5,
+        "langSegs": {
+          "pli": 13,
+          "de": 12,
+          "en": 12
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn56/sn56.29_root-pli-ms.json",
@@ -198,6 +266,38 @@
           "pli": 29,
           "de": 28,
           "en": 28
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn35/sn35.43-51_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn35/sn35.43-51_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn35/sn35.43-51_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn35.43-51",
+        "lang": "de",
+        "segMap": {
+          "sn35.48:1.1": {
+            "scid": "sn35.48:1.1",
+            "pli": "“Sabbaṁ, bhikkhave, pahātabbaṁ …pe…. ",
+            "de": "„Mönche und Nonnen, alles <span class=\"ebt-matched\">muss aufgegeben werden</span>. …“ ",
+            "en": "“Mendicants, all is to be given up. …” ",
+            "matched": true
+          }
+        },
+        "score": 1.027,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 35.43–51\n5. Das Kapitel über die Unbeständigkeit von allem\nNeun über Unbeständigkeit usw.",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 37,
+          "de": 23,
+          "en": 36
         }
       },
       {

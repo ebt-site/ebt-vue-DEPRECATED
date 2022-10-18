@@ -32,7 +32,7 @@
     "pattern": "vollständig verstanden werden",
     "method": "phrase",
     "resultPattern": "\\bvollständig verstanden werden",
-    "segsMatched": 36,
+    "segsMatched": 38,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
@@ -55,6 +55,9 @@
       "root/pli/ms/sutta/an/an4/an4.254_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.254_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.254_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn35/sn35.43-51_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn35/sn35.43-51_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.43-51_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn56/sn56.12_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn56/sn56.12_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn56/sn56.12_translation-en-sujato.json",
@@ -70,6 +73,7 @@
       "sn22.23/de/sabbamitta",
       "an6.61/de/sabbamitta",
       "an4.254/de/sabbamitta",
+      "sn35.43-51/de/sabbamitta",
       "sn56.12/de/sabbamitta",
       "sn56.11/de/sabbamitta"
     ],
@@ -485,6 +489,45 @@
           "pli": 56,
           "de": 51,
           "en": 55
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn35/sn35.43-51_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn35/sn35.43-51_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn35/sn35.43-51_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn35.43-51",
+        "lang": "de",
+        "segMap": {
+          "sn35.47:1.1": {
+            "scid": "sn35.47:1.1",
+            "pli": "“Sabbaṁ, bhikkhave, pariññeyyaṁ …pe…. ",
+            "de": "„Mönche und Nonnen, alles muss <span class=\"ebt-matched\">vollständig verstanden werden</span>. …“ ",
+            "en": "“Mendicants, all is to be completely understood. …” ",
+            "matched": true
+          },
+          "sn35.50:1.1": {
+            "scid": "sn35.50:1.1",
+            "pli": "“Sabbaṁ, bhikkhave, abhiññāpariññeyyaṁ …pe…. ",
+            "de": "„Mönche und Nonnen, alles muss unmittelbar erkannt und <span class=\"ebt-matched\">vollständig verstanden werden</span>. …“ ",
+            "en": "“Mendicants, all is to be directly known and completely understood. …” ",
+            "matched": true
+          }
+        },
+        "score": 2.054,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 35.43–51\n5. Das Kapitel über die Unbeständigkeit von allem\nNeun über Unbeständigkeit usw.",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 37,
+          "de": 23,
+          "en": 36
         }
       },
       {

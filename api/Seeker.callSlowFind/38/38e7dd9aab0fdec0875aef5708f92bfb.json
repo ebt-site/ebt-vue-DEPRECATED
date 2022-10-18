@@ -32,7 +32,7 @@
     "pattern": "ergreift.* nichts in der welt",
     "method": "phrase",
     "resultPattern": "\\bergreift.* nichts in der welt",
-    "segsMatched": 20,
+    "segsMatched": 22,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn10_translation-de-sabbamitta.json",
@@ -40,6 +40,12 @@
       "root/pli/ms/sutta/dn/dn22_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn22_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn22_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn35/sn35.31_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn35/sn35.31_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.31_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn35/sn35.30_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn35/sn35.30_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.30_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn12/sn12.51_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.51_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn12/sn12.51_translation-en-sujato.json",
@@ -56,6 +62,8 @@
     "suttaRefs": [
       "mn10/de/sabbamitta",
       "dn22/de/sabbamitta",
+      "sn35.31/de/sabbamitta",
+      "sn35.30/de/sabbamitta",
       "sn12.51/de/sabbamitta",
       "mn140/de/sabbamitta",
       "dn15/de/sabbamitta",
@@ -222,6 +230,70 @@
           "pli": 454,
           "de": 359,
           "en": 453
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn35/sn35.30_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn35/sn35.30_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn35/sn35.30_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn35.30",
+        "lang": "de",
+        "segMap": {
+          "sn35.30:1.20": {
+            "scid": "sn35.30:1.20",
+            "pli": "So evaṁ amaññamāno na ca kiñci loke upādiyati. ",
+            "de": "Wenn er sich nicht gleichsetzt, <span class=\"ebt-matched\">ergreift er nichts in der Welt</span>. ",
+            "en": "Not identifying, they don’t grasp at anything in the world. ",
+            "matched": true
+          }
+        },
+        "score": 1.037,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 35.30\n3. Das Kapitel über alles\nZum Entwurzeln geeignet",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 27,
+          "de": 20,
+          "en": 26
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn35/sn35.31_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn35/sn35.31_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn35/sn35.31_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn35.31",
+        "lang": "de",
+        "segMap": {
+          "sn35.31:1.22": {
+            "scid": "sn35.31:1.22",
+            "pli": "So evaṁ amaññamāno na ca kiñci loke upādiyati. ",
+            "de": "Wenn sie sich nicht gleichsetzt, <span class=\"ebt-matched\">ergreift sie nichts in der Welt</span>. ",
+            "en": "Not identifying, they don’t grasp at anything in the world. ",
+            "matched": true
+          }
+        },
+        "score": 1.034,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 35.31\n3. Das Kapitel über alles\nDem Entwurzeln förderlich (1)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 29,
+          "de": 22,
+          "en": 28
         }
       },
       {

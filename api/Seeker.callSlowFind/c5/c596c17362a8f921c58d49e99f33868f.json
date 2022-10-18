@@ -32,18 +32,22 @@
     "pattern": "unmittelbar erkannt werden",
     "method": "phrase",
     "resultPattern": "\\bunmittelbar erkannt werden",
-    "segsMatched": 16,
+    "segsMatched": 17,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an6/an6.61_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.61_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an6/an6.61_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an6/an6.61_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn35/sn35.43-51_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn35/sn35.43-51_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.43-51_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "dn34/de/sabbamitta",
-      "an6.61/de/sabbamitta"
+      "an6.61/de/sabbamitta",
+      "sn35.43-51/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -206,6 +210,38 @@
           "pli": 56,
           "de": 51,
           "en": 55
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn35/sn35.43-51_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn35/sn35.43-51_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn35/sn35.43-51_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn35.43-51",
+        "lang": "de",
+        "segMap": {
+          "sn35.46:1.1": {
+            "scid": "sn35.46:1.1",
+            "pli": "“Sabbaṁ, bhikkhave, abhiññeyyaṁ …pe…. ",
+            "de": "„Mönche und Nonnen, alles muss <span class=\"ebt-matched\">unmittelbar erkannt werden</span>. …“ ",
+            "en": "“Mendicants, all is to be directly known. …” ",
+            "matched": true
+          }
+        },
+        "score": 1.027,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 35.43–51\n5. Das Kapitel über die Unbeständigkeit von allem\nNeun über Unbeständigkeit usw.",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 37,
+          "de": 23,
+          "en": 36
         }
       }
     ]
