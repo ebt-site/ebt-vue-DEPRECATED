@@ -1,0 +1,115 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "das auge ist mein",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "das auge ist mein",
+    "method": "phrase",
+    "resultPattern": "\\bdas auge ist mein",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn35/sn35.31_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn35/sn35.31_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.31_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn35/sn35.30_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn35/sn35.30_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.30_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn35.31/de/sabbamitta",
+      "sn35.30/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn35/sn35.30_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn35/sn35.30_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn35/sn35.30_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn35.30",
+        "lang": "de",
+        "segMap": {
+          "sn35.30:1.4": {
+            "scid": "sn35.30:1.4",
+            "pli": "Idha, bhikkhave, bhikkhu cakkhuṁ na maññati, cakkhusmiṁ na maññati, cakkhuto na maññati, cakkhuṁ meti na maññati. ",
+            "de": "Da setzt sich ein Mönch nicht gleich mit dem Auge, setzt sich nicht gleich in Bezug auf das Auge, setzt sich nicht gleich als das Auge und setzt sich nicht gleich: ‚<span class=\"ebt-matched\">Das Auge ist mein</span>‘. ",
+            "en": "It’s when a mendicant does not identify with the eye, does not identify regarding the eye, does not identify as the eye, and does not identify ‘the eye is mine.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.037,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 35.30\n3. Das Kapitel über alles\nZum Entwurzeln geeignet",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 27,
+          "de": 20,
+          "en": 26
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn35/sn35.31_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn35/sn35.31_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn35/sn35.31_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn35.31",
+        "lang": "de",
+        "segMap": {
+          "sn35.31:1.4": {
+            "scid": "sn35.31:1.4",
+            "pli": "Idha, bhikkhave, bhikkhu cakkhuṁ na maññati, cakkhusmiṁ na maññati, cakkhuto na maññati, cakkhuṁ meti na maññati. ",
+            "de": "Da setzt sich eine Nonne nicht gleich mit dem Auge, setzt sich nicht gleich in Bezug auf das Auge, setzt sich nicht gleich als das Auge und setzt sich nicht gleich: ‚<span class=\"ebt-matched\">Das Auge ist mein</span>‘. ",
+            "en": "It’s when a mendicant does not identify with the eye, does not identify in the eye, does not identify from the eye, and does not identify: ‘The eye is mine.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.034,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 35.31\n3. Das Kapitel über alles\nDem Entwurzeln förderlich (1)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 29,
+          "de": 22,
+          "en": 28
+        }
+      }
+    ]
+  }
+}
