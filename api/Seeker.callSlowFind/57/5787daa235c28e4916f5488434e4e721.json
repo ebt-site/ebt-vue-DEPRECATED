@@ -32,7 +32,7 @@
     "pattern": "den besinnungstag",
     "method": "phrase",
     "resultPattern": "\\bden besinnungstag",
-    "segsMatched": 89,
+    "segsMatched": 91,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an3/an3.70_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.70_translation-de-sabbamitta.json",
@@ -67,6 +67,9 @@
       "root/pli/ms/sutta/kn/ud/vagga5/ud5.5_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga5/ud5.5_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/ud/vagga5/ud5.5_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn26_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn26_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn26_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an9/an9.18_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an9/an9.18_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an9/an9.18_translation-en-sujato.json",
@@ -117,6 +120,7 @@
       "sn10.5/de/sabbamitta",
       "ud5.8/de/sabbamitta",
       "ud5.5/de/sabbamitta",
+      "dn26/de/sabbamitta",
       "an9.18/de/sabbamitta",
       "an8.44/de/sabbamitta",
       "an8.20/de/sabbamitta",
@@ -723,7 +727,7 @@
           "an3.37:1.2": {
             "scid": "an3.37:1.2",
             "pli": "‘kacci bahū manussā manussesu matteyyā petteyyā sāmaññā brahmaññā kule jeṭṭhāpacāyino uposathaṁ upavasanti paṭijāgaronti puññāni karontī’ti. ",
-            "de": "‚Hoffentlich erweisen viele Menschen ihren Eltern sowie Asketen und Brahmanen die gebührende Achtung und ehren die Ältesten in der Familie, halten <span class=\"ebt-matched\">den Besinnungstag</span> ein und schaffen Verdienst.‘ ",
+            "de": "‚Hoffentlich erweisen viele Menschen Mutter und Vater sowie Asketen und Brahmanen die gebührende Achtung und ehren die Ältesten in der Familie, halten <span class=\"ebt-matched\">den Besinnungstag</span> einschließlich der Nachtwache ein und schaffen Verdienst.‘ ",
             "en": "‘Hopefully most humans are paying due respect to their parents, ascetics and brahmins, honoring the elders in their families, observing and keeping vigil on the sabbath, and making merit.’ ",
             "matched": true
           },
@@ -1071,6 +1075,45 @@
           "pli": 109,
           "de": 89,
           "en": 89
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn26_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn26_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn26_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn26",
+        "lang": "de",
+        "segMap": {
+          "dn26:4.9": {
+            "scid": "dn26:4.9",
+            "pli": "Ṭhānaṁ kho panetaṁ vijjati, yaṁ te ariye cakkavattivatte vattamānassa tadahuposathe pannarase sīsaṁnhātassa uposathikassa uparipāsādavaragatassa dibbaṁ cakkaratanaṁ pātubhavissati sahassāraṁ sanemikaṁ sanābhikaṁ sabbākāraparipūran’ti. ",
+            "de": "Wenn du das tust, kann es sein, dass dir an einem Besinnungstag am fünfzehnten Tag, nachdem du dein Haupt gebadet hast und ins königliche Pfahlhaus hinaufgestiegen bist, um <span class=\"ebt-matched\">den Besinnungstag</span> einzuhalten, das himmlische Rad-Juwel erscheint, mit tausend Speichen, mit Felge und Nabe, in allen Einzelheiten vollständig.‘ ",
+            "en": "If you do so, it’s possible that—on a fifteenth day sabbath, having bathed your head and gone upstairs in the royal longhouse to observe the sabbath—the heavenly wheel-treasure will appear to you, with a thousand spokes, with rim and hub, complete in every detail.’ ",
+            "matched": true
+          },
+          "dn26:5.11": {
+            "scid": "dn26:5.11",
+            "pli": "Tassa ariye cakkavattivatte vattamānassa tadahuposathe pannarase sīsaṁnhātassa uposathikassa uparipāsādavaragatassa ",
+            "de": "Und während er sie erfüllte, hatte er an einem Besinnungstag am fünfzehnten Tag sein Haupt gebadet und war ins königliche Pfahlhaus hinaufgestiegen, um <span class=\"ebt-matched\">den Besinnungstag</span> einzuhalten. ",
+            "en": "While he was implementing them, on a fifteenth day sabbath, he had bathed his head and gone upstairs in the royal longhouse to observe the sabbath. ",
+            "matched": true
+          }
+        },
+        "score": 2.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 26\nDer Rad-drehende Herrscher",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 355,
+          "de": 331,
+          "en": 354
         }
       },
       {

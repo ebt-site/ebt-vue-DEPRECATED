@@ -32,7 +32,7 @@
     "pattern": "opferpfahl",
     "method": "phrase",
     "resultPattern": "\\bopferpfahl",
-    "segsMatched": 18,
+    "segsMatched": 19,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an7/an7.47_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an7/an7.47_translation-de-sabbamitta.json",
@@ -45,13 +45,17 @@
       "translation/en/sujato/sutta/sn/sn3/sn3.9_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag2.22_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag2.22_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/kn/thag/thag2.22_translation-en-sujato.json"
+      "translation/en/sujato/sutta/kn/thag/thag2.22_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn26_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn26_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn26_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an7.47/de/sabbamitta",
       "an4.195/de/sabbamitta",
       "sn3.9/de/sabbamitta",
-      "thag2.22/de/sabbamitta"
+      "thag2.22/de/sabbamitta",
+      "dn26/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -278,6 +282,38 @@
           "pli": 31,
           "de": 29,
           "en": 31
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn26_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn26_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn26_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn26",
+        "lang": "de",
+        "segMap": {
+          "dn26:26.1": {
+            "scid": "dn26:26.1",
+            "pli": "Atha kho, bhikkhave, saṅkho nāma rājā yo so yūpo raññā mahāpanādena kārāpito. ",
+            "de": "Dann wird der König Saṅkha den vom König Mahāpanāda erbauten <span class=\"ebt-matched\">Opferpfahl</span> wieder aufrichten lassen. ",
+            "en": "Then King Saṅkha will have the sacrificial post that had been built by King Mahāpanāda raised up. ",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 26\nDer Rad-drehende Herrscher",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 355,
+          "de": 331,
+          "en": 354
         }
       }
     ]
