@@ -32,7 +32,7 @@
     "pattern": "alle[sm] leiden",
     "method": "phrase",
     "resultPattern": "\\balle[sm] leiden",
-    "segsMatched": 33,
+    "segsMatched": 37,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn42/sn42.11_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn42/sn42.11_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/sn/sn56/sn56.22_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn56/sn56.22_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn56/sn56.22_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn35/sn35.83_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn35/sn35.83_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.83_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn1/sn1.59_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn1/sn1.59_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.59_translation-en-sujato.json",
@@ -50,6 +53,9 @@
       "translation/de/sabbamitta/sutta/kn/thig/thig13.4_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thig/thig13.4_translation-en-sujato.json",
       "translation/en/soma/sutta/kn/thig/thig13.4_translation-en-soma.json",
+      "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn14_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn7/sn7.11_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn7/sn7.11_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn7/sn7.11_translation-en-sujato.json",
@@ -118,9 +124,11 @@
     "suttaRefs": [
       "sn42.11/de/sabbamitta",
       "sn56.22/de/sabbamitta",
+      "sn35.83/de/sabbamitta",
       "sn1.59/de/sabbamitta",
       "sn1.30/de/sabbamitta",
       "thig13.4/de/sabbamitta",
+      "dn14/de/sabbamitta",
       "sn7.11/de/sabbamitta",
       "sn5.6/de/sabbamitta",
       "sn2.21/de/sabbamitta",
@@ -244,6 +252,45 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn35/sn35.83_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn35/sn35.83_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn35/sn35.83_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn35.83",
+        "lang": "de",
+        "segMap": {
+          "sn35.83:2.1": {
+            "scid": "sn35.83:2.1",
+            "pli": "“Atthi nu kho, bhante, taṁ cakkhu, yena cakkhunā atīte buddhe parinibbute chinnapapañce chinnavaṭume pariyādinnavaṭṭe sabbadukkhavītivaṭṭe paññāpayamāno paññāpeyya …pe… ",
+            "de": "„Herr, wenn da jemand die Buddhas der Vergangenheit beschreiben wollte, die vollkommen erloschen sind, die das Wuchern abgeschnitten, die Spur abgeschnitten, den Kreislauf zu Ende gebracht haben und über <span class=\"ebt-matched\">alles Leiden</span> hinausgegangen sind – gibt es ein Auge, über das man sie beschreiben könnte? ",
+            "en": "“Sir, suppose someone were to describe the Buddhas of the past who have become completely extinguished, cut off proliferation, cut off the track, finished off the cycle, and transcended suffering. Does the eye exist by which they could be described? ",
+            "matched": true
+          },
+          "sn35.83:3.1": {
+            "scid": "sn35.83:3.1",
+            "pli": "“Natthi kho taṁ, phagguna, cakkhu, yena cakkhunā atīte buddhe parinibbute chinnapapañce chinnavaṭume pariyādinnavaṭṭe sabbadukkhavītivaṭṭe paññāpayamāno paññāpeyya …pe… ",
+            "de": "„Phagguna, wenn da jemand die Buddhas der Vergangenheit beschreiben wollte, die vollkommen erloschen sind, die das Wuchern abgeschnitten, die Spur abgeschnitten, den Kreislauf zu Ende gebracht haben und über <span class=\"ebt-matched\">alles Leiden</span> hinausgegangen sind – ein Auge, über das man sie beschreiben könnte, gibt es nicht. ",
+            "en": "“Phagguna, suppose someone were to describe the Buddhas of the past who have become completely extinguished, cut off proliferation, cut off the track, finished off the cycle, and transcended suffering. The eye does not exist by which they could be described. ",
+            "matched": true
+          }
+        },
+        "score": 2.118,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 35.83\n8. Das Kapitel über Kranke\nPhaggunas Fragen",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 17,
+          "de": 10,
+          "en": 15
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn1/sn1.30_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/sn/sn1/sn1.30_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/sn/sn1/sn1.30_translation-en-sujato.json"
@@ -358,6 +405,45 @@
           "pli": 119,
           "de": 118,
           "en": 118
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn14_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn14",
+        "lang": "de",
+        "segMap": {
+          "dn14:1.13.3": {
+            "scid": "dn14:1.13.3",
+            "pli": "Yatra hi nāma tathāgato atīte buddhe parinibbute chinnapapañce chinnavaṭume pariyādinnavaṭṭe sabbadukkhavītivatte jātitopi anussarissati, nāmatopi anussarissati, gottatopi anussarissati, āyuppamāṇatopi anussarissati, sāvakayugatopi anussarissati, sāvakasannipātatopi anussarissati: ",
+            "de": "Denn er ist in der Lage, sich an Kaste, Namen, Stamm, Lebensdauer, Hauptschüler und Zusammenkünfte von Schülern der Buddhas der Vergangenheit zu erinnern, die vollkommen erloschen sind, die das Wuchern abgeschnitten, die Spur abgeschnitten, den Kreislauf zu Ende gebracht haben und über <span class=\"ebt-matched\">alles Leiden</span> hinausgegangen sind. ",
+            "en": "For he is able to recollect the caste, names, clans, life-span, chief disciples, and gatherings of disciples of the Buddhas of the past who have become completely extinguished, cut off proliferation, cut off the track, finished off the cycle, and transcended suffering. ",
+            "matched": true
+          },
+          "dn14:3.33.1": {
+            "scid": "dn14:3.33.1",
+            "pli": "Iti kho, bhikkhave, tathāgatassevesā dhammadhātu suppaṭividdhā, yassā dhammadhātuyā suppaṭividdhattā tathāgato atīte buddhe parinibbute chinnapapañce chinnavaṭume pariyādinnavaṭṭe sabbadukkhavītivatte jātitopi anussarati, nāmatopi anussarati, gottatopi anussarati, āyuppamāṇatopi anussarati, sāvakayugatopi anussarati, sāvakasannipātatopi anussarati ‘evaṁjaccā te bhagavanto ahesuṁ’ itipi. ",
+            "de": "Und so ist der Klargewordene in der Lage, sich an Kaste, Namen, Stamm, Lebensdauer, Hauptschüler und Zusammenkünfte von Schülern der Buddhas der Vergangenheit zu erinnern, die vollkommen erloschen sind, die das Wuchern abgeschnitten, die Spur abgeschnitten, den Kreislauf zu Ende gebracht haben und über <span class=\"ebt-matched\">alles Leiden</span> hinausgegangen sind. Es ist sowohl, weil ich den Grundsatz der Lehren klar erfasst habe, ",
+            "en": "And that is how the Realized One is able to recollect the caste, names, clans, life-span, chief disciples, and gatherings of disciples of the Buddhas of the past who have become completely extinguished, cut off proliferation, cut off the track, finished off the cycle, and transcended suffering. It is both because I have clearly comprehended the principle of the teachings, ",
+            "matched": true
+          }
+        },
+        "score": 2.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 14\nDie große Lehrrede über die Ernte aus den Taten",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 851,
+          "de": 689,
+          "en": 850
         }
       },
       {

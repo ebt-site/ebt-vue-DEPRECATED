@@ -32,7 +32,7 @@
     "pattern": "giftschlange",
     "method": "phrase",
     "resultPattern": "\\bgiftschlange",
-    "segsMatched": 19,
+    "segsMatched": 21,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn35/sn35.238_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn35/sn35.238_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/an/an4/an4.110_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.110_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.110_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn35/sn35.69_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn35/sn35.69_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.69_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thig/thig14.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thig/thig14.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thig/thig14.1_translation-en-sujato.json",
@@ -51,6 +54,7 @@
     "suttaRefs": [
       "sn35.238/de/sabbamitta",
       "an4.110/de/sabbamitta",
+      "sn35.69/de/sabbamitta",
       "thig14.1/de/sabbamitta",
       "an5.55/de/sabbamitta"
     ],
@@ -222,6 +226,45 @@
           "pli": 48,
           "de": 46,
           "en": 46
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn35/sn35.69_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn35/sn35.69_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn35/sn35.69_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn35.69",
+        "lang": "de",
+        "segMap": {
+          "sn35.69:0.3": {
+            "scid": "sn35.69:0.3",
+            "pli": "Upasenaāsīvisasutta ",
+            "de": "Upasena und die <span class=\"ebt-matched\">Giftschlange</span> ",
+            "en": "Upasena and the Viper ",
+            "matched": true
+          },
+          "sn35.69:1.2": {
+            "scid": "sn35.69:1.2",
+            "pli": "Tena kho pana samayena āyasmato upasenassa kāye āsīviso patito hoti. ",
+            "de": "Zu dieser Zeit nun fiel eine <span class=\"ebt-matched\">Giftschlange</span> auf Upasenas Körper, ",
+            "en": "Now at that time a viper fell on Upasena’s body, ",
+            "matched": true
+          }
+        },
+        "score": 2.059,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 35.69\n7. Das Kapitel mit Migajāla\nUpasena und die Giftschlange",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 34,
+          "de": 29,
+          "en": 33
         }
       },
       {

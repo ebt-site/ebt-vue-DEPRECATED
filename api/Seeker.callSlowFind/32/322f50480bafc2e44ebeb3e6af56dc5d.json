@@ -32,7 +32,7 @@
     "pattern": "was einen anfang hat, hat auch ein ende",
     "method": "phrase",
     "resultPattern": "\\bwas einen anfang hat, hat auch ein ende",
-    "segsMatched": 9,
+    "segsMatched": 10,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn14_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/sn/sn56/sn56.11_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn56/sn56.11_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn56/sn56.11_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn35/sn35.74_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn35/sn35.74_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.74_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/ud/vagga5/ud5.3_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga5/ud5.3_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/ud/vagga5/ud5.3_translation-en-sujato.json",
@@ -59,6 +62,7 @@
     "suttaRefs": [
       "dn14/de/sabbamitta",
       "sn56.11/de/sabbamitta",
+      "sn35.74/de/sabbamitta",
       "ud5.3/de/sabbamitta",
       "dn21/de/sabbamitta",
       "an8.22/de/sabbamitta",
@@ -110,6 +114,38 @@
           "pli": 851,
           "de": 689,
           "en": 850
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn35/sn35.74_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn35/sn35.74_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn35/sn35.74_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn35.74",
+        "lang": "de",
+        "segMap": {
+          "sn35.74:21.4": {
+            "scid": "sn35.74:21.4",
+            "pli": "“yaṁ kiñci samudayadhammaṁ sabbaṁ taṁ nirodhadhamman”ti. ",
+            "de": "„Alles, <span class=\"ebt-matched\">was einen Anfang hat, hat auch ein Ende</span>.“ ",
+            "en": "“Everything that has a beginning has an end.” ",
+            "matched": true
+          }
+        },
+        "score": 1.02,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 35.74\n8. Das Kapitel über Kranke\nKrank (1)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 51,
+          "de": 49,
+          "en": 50
         }
       },
       {
