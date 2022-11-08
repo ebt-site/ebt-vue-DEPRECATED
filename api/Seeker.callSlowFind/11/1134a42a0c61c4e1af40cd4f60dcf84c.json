@@ -32,11 +32,14 @@
     "pattern": "eben das ist das ende des leidens",
     "method": "phrase",
     "resultPattern": "\\beben das ist das ende des leidens",
-    "segsMatched": 9,
+    "segsMatched": 10,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn35/sn35.71_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn35/sn35.71_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.71_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn35/sn35.95_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn35/sn35.95_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.95_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn35/sn35.87_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn35/sn35.87_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.87_translation-en-sujato.json",
@@ -61,6 +64,7 @@
     ],
     "suttaRefs": [
       "sn35.71/de/sabbamitta",
+      "sn35.95/de/sabbamitta",
       "sn35.87/de/sabbamitta",
       "sn12.51/de/sabbamitta",
       "mn144/de/sabbamitta",
@@ -331,6 +335,38 @@
           "pli": 92,
           "de": 91,
           "en": 91
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn35/sn35.95_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn35/sn35.95_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn35/sn35.95_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn35.95",
+        "lang": "de",
+        "segMap": {
+          "sn35.95:10.8": {
+            "scid": "sn35.95:10.8",
+            "pli": "Esevanto dukkhassā”ti. ",
+            "de": "<span class=\"ebt-matched\">Eben das ist das Ende des Leidens</span>.“ ",
+            "en": "Just this is the end of suffering.” ",
+            "matched": true
+          }
+        },
+        "score": 1.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 35.95\n10. Das Kapitel über die Sechser\nMit Māluṅkyaputta",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 181,
+          "de": 176,
+          "en": 180
         }
       }
     ]

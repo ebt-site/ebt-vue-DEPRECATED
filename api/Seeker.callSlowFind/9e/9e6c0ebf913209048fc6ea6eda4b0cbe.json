@@ -32,11 +32,14 @@
     "pattern": "versenkung besitzt",
     "method": "phrase",
     "resultPattern": "\\bversenkung besitzt",
-    "segsMatched": 8,
+    "segsMatched": 10,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn56/sn56.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn56/sn56.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn56/sn56.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn35/sn35.99_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn35/sn35.99_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.99_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn22/sn22.5_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.5_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.5_translation-en-sujato.json",
@@ -58,6 +61,7 @@
     ],
     "suttaRefs": [
       "sn56.1/de/sabbamitta",
+      "sn35.99/de/sabbamitta",
       "sn22.5/de/sabbamitta",
       "sn1.9/de/sabbamitta",
       "sn1.38/de/sabbamitta",
@@ -103,6 +107,45 @@
           "pli": 13,
           "de": 11,
           "en": 12
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn35/sn35.99_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn35/sn35.99_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn35/sn35.99_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn35.99",
+        "lang": "de",
+        "segMap": {
+          "sn35.99:1.2": {
+            "scid": "sn35.99:1.2",
+            "pli": "Samāhito, bhikkhave, bhikkhu yathābhūtaṁ pajānāti. ",
+            "de": "Ein Mönch, der <span class=\"ebt-matched\">Versenkung besitzt</span>, versteht wahrhaftig. ",
+            "en": "A mendicant who has immersion truly understands. ",
+            "matched": true
+          },
+          "sn35.99:1.15": {
+            "scid": "sn35.99:1.15",
+            "pli": "Samāhito, bhikkhave, bhikkhu yathābhūtaṁ pajānātī”ti. ",
+            "de": "Eine Nonne, die <span class=\"ebt-matched\">Versenkung besitzt</span>, versteht wahrhaftig.“ ",
+            "en": "A mendicant who has immersion truly understands.” ",
+            "matched": true
+          }
+        },
+        "score": 2.105,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 35.99\n10. Das Kapitel über die Sechser\nVersenkung",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 19,
+          "de": 18,
+          "en": 18
         }
       },
       {

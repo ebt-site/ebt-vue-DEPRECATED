@@ -32,11 +32,14 @@
     "pattern": "ursprung der welt",
     "method": "phrase",
     "resultPattern": "\\bursprung der welt",
-    "segsMatched": 34,
+    "segsMatched": 38,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn24_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn24_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn24_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn35/sn35.107_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn35/sn35.107_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.107_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn12/sn12.44_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.44_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn12/sn12.44_translation-en-sujato.json",
@@ -64,6 +67,7 @@
     ],
     "suttaRefs": [
       "dn24/de/sabbamitta",
+      "sn35.107/de/sabbamitta",
       "sn12.44/de/sabbamitta",
       "an4.23/de/sabbamitta",
       "sn2.26/de/sabbamitta",
@@ -258,6 +262,59 @@
           "pli": 581,
           "de": 500,
           "en": 580
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn35/sn35.107_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn35/sn35.107_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn35/sn35.107_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn35.107",
+        "lang": "de",
+        "segMap": {
+          "sn35.107:0.3": {
+            "scid": "sn35.107:0.3",
+            "pli": "Lokasamudayasutta ",
+            "de": "Der <span class=\"ebt-matched\">Ursprung der Welt</span> ",
+            "en": "The Origin of the World ",
+            "matched": true
+          },
+          "sn35.107:1.3": {
+            "scid": "sn35.107:1.3",
+            "pli": "Katamo ca, bhikkhave, lokassa samudayo? ",
+            "de": "Und was, Mönche und Nonnen, ist der <span class=\"ebt-matched\">Ursprung der Welt</span>? ",
+            "en": "And what, mendicants, is the origin of the world? ",
+            "matched": true
+          },
+          "sn35.107:1.11": {
+            "scid": "sn35.107:1.11",
+            "pli": "Ayaṁ kho, bhikkhave, lokassa samudayo …pe… ",
+            "de": "Das ist der <span class=\"ebt-matched\">Ursprung der Welt</span>. … ",
+            "en": "This is the origin of the world. … ",
+            "matched": true
+          },
+          "sn35.107:1.20": {
+            "scid": "sn35.107:1.20",
+            "pli": "Ayaṁ kho, bhikkhave, lokassa samudayo. ",
+            "de": "Das ist der <span class=\"ebt-matched\">Ursprung der Welt</span>. ",
+            "en": "This is the origin of the world. ",
+            "matched": true
+          }
+        },
+        "score": 4.095,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 35.107\n11. Das Kapitel über Geborgenheit\nDer Ursprung der Welt",
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 42,
+          "de": 39,
+          "en": 41
         }
       },
       {

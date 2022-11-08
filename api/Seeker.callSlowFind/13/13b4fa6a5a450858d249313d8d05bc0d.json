@@ -32,7 +32,7 @@
     "pattern": "heißt es so",
     "method": "phrase",
     "resultPattern": "\\bheißt es so",
-    "segsMatched": 11,
+    "segsMatched": 12,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn33_translation-de-sabbamitta.json",
@@ -43,6 +43,9 @@
       "root/pli/ms/sutta/an/an11/an11.17_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an11/an11.17_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an11/an11.17_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn146_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn146_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn146_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
@@ -63,6 +66,7 @@
       "mn33/de/sabbamitta",
       "an2.42-51/de/sabbamitta",
       "an11.17/de/sabbamitta",
+      "mn146/de/sabbamitta",
       "dn34/de/sabbamitta",
       "an8.2/de/sabbamitta",
       "an6.51/de/sabbamitta",
@@ -313,6 +317,38 @@
           "pli": 64,
           "de": 56,
           "en": 63
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn146_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn146_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn146_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn146",
+        "lang": "de",
+        "segMap": {
+          "mn146:5.4": {
+            "scid": "mn146:5.4",
+            "pli": "‘idaṁ, bhante, kathaṁ; imassa kvattho’”ti? ",
+            "de": "‚Warum, Herr, <span class=\"ebt-matched\">heißt es so</span>? Was bedeutet das?‘“ ",
+            "en": "‘Why, sir, does it say this? What does that mean?’” ",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 146\nNandakas Rat",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 361,
+          "de": 183,
+          "en": 360
         }
       },
       {

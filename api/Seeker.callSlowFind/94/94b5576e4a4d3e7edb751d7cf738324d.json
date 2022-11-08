@@ -32,8 +32,11 @@
     "pattern": "äußere.* sinnesfelder",
     "method": "phrase",
     "resultPattern": "\\bäußere.* sinnesfelder",
-    "segsMatched": 18,
+    "segsMatched": 22,
     "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn146_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn146_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn146_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn10_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn10_translation-en-sujato.json",
@@ -69,6 +72,7 @@
       "translation/en/sujato/sutta/an/an10/an10.60_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "mn146/de/sabbamitta",
       "mn10/de/sabbamitta",
       "dn22/de/sabbamitta",
       "sn35.18/de/sabbamitta",
@@ -82,6 +86,59 @@
       "an10.60/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn146_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn146_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn146_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn146",
+        "lang": "de",
+        "segMap": {
+          "mn146:7.27": {
+            "scid": "mn146:7.27",
+            "pli": "‘itipime cha bāhirā āyatanā aniccā’”ti. ",
+            "de": "‚Also sind diese sechs <span class=\"ebt-matched\">äußeren Sinnesfelder</span> unbeständig.‘“ ",
+            "en": "‘So these six exterior sense fields are impermanent.’” ",
+            "matched": true
+          },
+          "mn146:10.10": {
+            "scid": "mn146:10.10",
+            "pli": "‘cha khome bāhirā āyatanā aniccā. ",
+            "de": "‚Diese sechs <span class=\"ebt-matched\">äußeren Sinnesfelder</span> sind unbeständig. ",
+            "en": "‘These six exterior sense fields are impermanent. ",
+            "matched": true
+          },
+          "mn146:10.11": {
+            "scid": "mn146:10.11",
+            "pli": "Yañca kho cha bāhire āyatane paṭicca paṭisaṁvedeti sukhaṁ vā dukkhaṁ vā adukkhamasukhaṁ vā taṁ niccaṁ dhuvaṁ sassataṁ avipariṇāmadhamman’ti; ",
+            "de": "Aber das angenehme, schmerzhafte oder neutrale Gefühl, das ich durch diese sechs <span class=\"ebt-matched\">äußeren Sinnesfelder</span> erfahre, ist beständig, immerwährend, ewig und muss nicht zugrunde gehen.‘ ",
+            "en": "But the feeling—whether pleasant, painful, or neutral—that I experience due to these six exterior sense fields is permanent, lasting, eternal, and imperishable.’ ",
+            "matched": true
+          },
+          "mn146:12.4": {
+            "scid": "mn146:12.4",
+            "pli": "‘bāhiro cammakāyo’ti kho, bhaginiyo, channetaṁ bāhirānaṁ āyatanānaṁ adhivacanaṁ; ",
+            "de": "‚Die <span class=\"ebt-matched\">äußere Haut‘ ist ein Ausdruck für die sechs äußeren Sinnesfelder</span>. ",
+            "en": "‘The outer hide’ is a term for the six exterior sense fields. ",
+            "matched": true
+          }
+        },
+        "score": 4.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 146\nNandakas Rat",
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 361,
+          "de": 183,
+          "en": 360
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/mn/mn10_root-pli-ms.json",
@@ -402,7 +459,7 @@
           "an10.60:5.4": {
             "scid": "an10.60:5.4",
             "pli": "Iti imesu chasu ajjhattikabāhiresu āyatanesu anattānupassī viharati. ",
-            "de": "Und so meditiert sie, indem sie bei den sechs inneren und <span class=\"ebt-matched\">äußeren Sinnesfelder</span>n das Nicht-Selbst beobachtet. ",
+            "de": "Und so meditiert sie, indem sie bei den sechs inneren und <span class=\"ebt-matched\">äußeren Sinnesfelder</span>n das Fehlen eines Selbst beobachtet. ",
             "en": "And so they meditate observing not-self in the six interior and exterior sense fields. ",
             "matched": true
           }

@@ -32,8 +32,11 @@
     "pattern": "inneren sinnesfelder",
     "method": "phrase",
     "resultPattern": "\\binneren sinnesfelder",
-    "segsMatched": 9,
+    "segsMatched": 13,
     "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn146_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn146_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn146_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn35/sn35.17_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn35/sn35.17_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.17_translation-en-sujato.json",
@@ -57,6 +60,7 @@
       "translation/en/sujato/sutta/an/an10/an10.27_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "mn146/de/sabbamitta",
       "sn35.17/de/sabbamitta",
       "sn35.13/de/sabbamitta",
       "sn56.14/de/sabbamitta",
@@ -66,6 +70,59 @@
       "an10.27/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn146_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn146_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn146_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn146",
+        "lang": "de",
+        "segMap": {
+          "mn146:6.27": {
+            "scid": "mn146:6.27",
+            "pli": "‘itipime cha ajjhattikā āyatanā aniccā’”ti. ",
+            "de": "‚Also sind diese sechs <span class=\"ebt-matched\">inneren Sinnesfelder</span> unbeständig.‘“ ",
+            "en": "‘So these six interior sense fields are impermanent.’” ",
+            "matched": true
+          },
+          "mn146:9.11": {
+            "scid": "mn146:9.11",
+            "pli": "‘cha khome ajjhattikā āyatanā aniccā; ",
+            "de": "‚Diese sechs <span class=\"ebt-matched\">inneren Sinnesfelder</span> sind unbeständig. ",
+            "en": "‘These six interior sense fields are impermanent. ",
+            "matched": true
+          },
+          "mn146:9.12": {
+            "scid": "mn146:9.12",
+            "pli": "yañca kho cha ajjhattike āyatane paṭicca paṭisaṁvedeti sukhaṁ vā dukkhaṁ vā adukkhamasukhaṁ vā taṁ niccaṁ dhuvaṁ sassataṁ avipariṇāmadhamman’ti; ",
+            "de": "Aber das angenehme, schmerzhafte oder neutrale Gefühl, das ich durch diese sechs <span class=\"ebt-matched\">inneren Sinnesfelder</span> erfahre, ist beständig, immerwährend, ewig und muss nicht zugrunde gehen.‘ ",
+            "en": "But the feeling—whether pleasant, painful, or neutral—that I experience due to these six interior sense fields is permanent, lasting, eternal, and imperishable.’ ",
+            "matched": true
+          },
+          "mn146:12.3": {
+            "scid": "mn146:12.3",
+            "pli": "‘antarā maṁsakāyo’ti kho, bhaginiyo, channetaṁ ajjhattikānaṁ āyatanānaṁ adhivacanaṁ; ",
+            "de": "‚Das innere Fleisch‘ ist ein Ausdruck für die sechs <span class=\"ebt-matched\">inneren Sinnesfelder</span>. ",
+            "en": "‘The inner flesh’ is a term for the six interior sense fields. ",
+            "matched": true
+          }
+        },
+        "score": 4.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 146\nNandakas Rat",
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 361,
+          "de": 183,
+          "en": 360
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn35/sn35.17_root-pli-ms.json",

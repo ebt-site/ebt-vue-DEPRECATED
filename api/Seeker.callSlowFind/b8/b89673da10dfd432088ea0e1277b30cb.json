@@ -32,7 +32,7 @@
     "pattern": "benommenheit",
     "method": "phrase",
     "resultPattern": "\\bbenommenheit",
-    "segsMatched": 65,
+    "segsMatched": 67,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an7/an7.61_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an7/an7.61_translation-de-sabbamitta.json",
@@ -52,6 +52,9 @@
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn54/sn54.12_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn54/sn54.12_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn54/sn54.12_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/ud/vagga4/ud4.2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga4/ud4.2_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/ud/vagga4/ud4.2_translation-en-sujato.json",
@@ -153,6 +156,7 @@
       "an5.193/de/sabbamitta",
       "an1.11-20/de/sabbamitta",
       "dn33/de/sabbamitta",
+      "sn54.12/de/sabbamitta",
       "ud4.2/de/sabbamitta",
       "dn34/de/sabbamitta",
       "an6.73/de/sabbamitta",
@@ -711,6 +715,45 @@
           "pli": 24,
           "de": 23,
           "en": 23
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn54/sn54.12_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn54/sn54.12_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn54/sn54.12_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn54.12",
+        "lang": "de",
+        "segMap": {
+          "sn54.12:2.6": {
+            "scid": "sn54.12:2.6",
+            "pli": "thinamiddhanīvaraṇaṁ … ",
+            "de": "der Dumpfheit und <span class=\"ebt-matched\">Benommenheit</span>, ",
+            "en": "dullness and drowsiness, ",
+            "matched": true
+          },
+          "sn54.12:4.5": {
+            "scid": "sn54.12:4.5",
+            "pli": "thinamiddhanīvaraṇaṁ … ",
+            "de": "der Dumpfheit und <span class=\"ebt-matched\">Benommenheit</span>, ",
+            "en": "dullness and drowsiness, ",
+            "matched": true
+          }
+        },
+        "score": 2.04,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 54.12\n2. Das zweite Kapitel\nIm Zweifel",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 50,
+          "de": 47,
+          "en": 49
         }
       },
       {

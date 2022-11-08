@@ -32,7 +32,7 @@
     "pattern": "bewacht.* die tore der sinne",
     "method": "phrase",
     "resultPattern": "\\bbewacht.* die tore der sinne",
-    "segsMatched": 24,
+    "segsMatched": 26,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn10_translation-de-sabbamitta.json",
@@ -43,6 +43,9 @@
       "root/pli/ms/sutta/sn/sn35/sn35.132_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn35/sn35.132_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.132_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn35/sn35.120_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn35/sn35.120_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.120_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.9_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.9_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an8/an8.9_translation-en-sujato.json",
@@ -75,6 +78,7 @@
       "dn10/de/sabbamitta",
       "an4.37/de/sabbamitta",
       "sn35.132/de/sabbamitta",
+      "sn35.120/de/sabbamitta",
       "an8.9/de/sabbamitta",
       "an8.79/de/sabbamitta",
       "an7.28/de/sabbamitta",
@@ -410,6 +414,45 @@
           "pli": 25,
           "de": 24,
           "en": 24
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn35/sn35.120_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn35/sn35.120_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn35/sn35.120_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn35.120",
+        "lang": "de",
+        "segMap": {
+          "sn35.120:3.1": {
+            "scid": "sn35.120:3.1",
+            "pli": "Kathañcāvuso, indriyesu guttadvāro hoti? ",
+            "de": "Und wie <span class=\"ebt-matched\">bewacht man die Tore der Sinne</span>? ",
+            "en": "And how does someone guard the sense doors? ",
+            "matched": true
+          },
+          "sn35.120:3.10": {
+            "scid": "sn35.120:3.10",
+            "pli": "Evaṁ kho, āvuso, indriyesu guttadvāro hoti. ",
+            "de": "So <span class=\"ebt-matched\">bewacht man die Tore der Sinne</span>. ",
+            "en": "That’s how someone guards the sense doors. ",
+            "matched": true
+          }
+        },
+        "score": 2.059,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 35.120\n12. Das Kapitel über die Welt und die Arten sinnlicher Erregung\nSāriputta und der Schüler",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 34,
+          "de": 33,
+          "en": 33
         }
       },
       {

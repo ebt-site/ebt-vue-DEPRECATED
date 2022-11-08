@@ -32,14 +32,20 @@
     "pattern": "nicht euer",
     "method": "phrase",
     "resultPattern": "\\bnicht euer",
-    "segsMatched": 35,
+    "segsMatched": 63,
     "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn35/sn35.101_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn35/sn35.101_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.101_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn22/sn22.33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.33_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.33_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn22/sn22.34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.34_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.34_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn35/sn35.102_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn35/sn35.102_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.102_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn47/sn47.7_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn47/sn47.7_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn47/sn47.7_translation-en-sujato.json",
@@ -75,8 +81,10 @@
       "translation/en/sujato/sutta/sn/sn12/sn12.37_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "sn35.101/de/sabbamitta",
       "sn22.33/de/sabbamitta",
       "sn22.34/de/sabbamitta",
+      "sn35.102/de/sabbamitta",
       "sn47.7/de/sabbamitta",
       "sn47.6/de/sabbamitta",
       "sn22.42/de/sabbamitta",
@@ -90,6 +98,164 @@
       "sn12.37/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn35/sn35.101_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn35/sn35.101_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn35/sn35.101_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn35.101",
+        "lang": "de",
+        "segMap": {
+          "sn35.101:0.3": {
+            "scid": "sn35.101:0.3",
+            "pli": "Paṭhamanatumhākasutta ",
+            "de": "<span class=\"ebt-matched\">Nicht euer</span> (1) ",
+            "en": "It’s Not Yours (1st) ",
+            "matched": true
+          },
+          "sn35.101:1.1": {
+            "scid": "sn35.101:1.1",
+            "pli": "“Yaṁ, bhikkhave, na tumhākaṁ, taṁ pajahatha. ",
+            "de": "„Mönche und Nonnen, gebt auf, was <span class=\"ebt-matched\">nicht euer</span> ist. ",
+            "en": "“Mendicants, give up what’s not yours. ",
+            "matched": true
+          },
+          "sn35.101:1.3": {
+            "scid": "sn35.101:1.3",
+            "pli": "Kiñca, bhikkhave, na tumhākaṁ? ",
+            "de": "Und was ist <span class=\"ebt-matched\">nicht euer</span>? ",
+            "en": "And what isn’t yours? ",
+            "matched": true
+          },
+          "sn35.101:1.4": {
+            "scid": "sn35.101:1.4",
+            "pli": "Cakkhu, bhikkhave, na tumhākaṁ. ",
+            "de": "Das Auge ist <span class=\"ebt-matched\">nicht euer</span>: Gebt es auf. ",
+            "en": "The eye isn’t yours: give it up. ",
+            "matched": true
+          },
+          "sn35.101:1.7": {
+            "scid": "sn35.101:1.7",
+            "pli": "Rūpā na tumhākaṁ. ",
+            "de": "Bilder sind <span class=\"ebt-matched\">nicht euer</span>: Gebt sie auf. ",
+            "en": "Sights … ",
+            "matched": true
+          },
+          "sn35.101:1.10": {
+            "scid": "sn35.101:1.10",
+            "pli": "Cakkhuviññāṇaṁ na tumhākaṁ. ",
+            "de": "Augenbewusstsein ist <span class=\"ebt-matched\">nicht euer</span>: Gebt es auf. ",
+            "en": "Eye consciousness … ",
+            "matched": true
+          },
+          "sn35.101:1.13": {
+            "scid": "sn35.101:1.13",
+            "pli": "Cakkhusamphasso na tumhākaṁ. ",
+            "de": "Augenberührung ist <span class=\"ebt-matched\">nicht euer</span>: Gebt sie auf. ",
+            "en": "Eye contact … ",
+            "matched": true
+          },
+          "sn35.101:1.16": {
+            "scid": "sn35.101:1.16",
+            "pli": "Yampidaṁ cakkhusamphassapaccayā uppajjati vedayitaṁ sukhaṁ vā dukkhaṁ vā adukkhamasukhaṁ vā tampi na tumhākaṁ. ",
+            "de": "Das angenehme, schmerzhafte oder neutrale Gefühl, das durch Augenberührung bedingt entsteht, ist <span class=\"ebt-matched\">nicht euer</span>: Gebt es auf. ",
+            "en": "The pleasant, painful, or neutral feeling that arises conditioned by eye contact isn’t yours: give it up. ",
+            "matched": true
+          },
+          "sn35.101:2.1": {
+            "scid": "sn35.101:2.1",
+            "pli": "Jivhā na tumhākaṁ. ",
+            "de": "Das Ohr ist <span class=\"ebt-matched\">nicht euer</span> … Die Nase ist <span class=\"ebt-matched\">nicht euer</span> … Die Zunge ist <span class=\"ebt-matched\">nicht euer</span> … Der Körper ist <span class=\"ebt-matched\">nicht euer</span> … ",
+            "en": "The ear … nose … tongue … body … ",
+            "matched": true
+          },
+          "sn35.101:3.1": {
+            "scid": "sn35.101:3.1",
+            "pli": "Mano na tumhākaṁ. ",
+            "de": "Der Geist ist <span class=\"ebt-matched\">nicht euer</span>: Gebt ihn auf. ",
+            "en": "The mind isn’t yours: give it up. ",
+            "matched": true
+          },
+          "sn35.101:3.4": {
+            "scid": "sn35.101:3.4",
+            "pli": "Dhammā na tumhākaṁ. ",
+            "de": "Gedanken sind <span class=\"ebt-matched\">nicht euer</span>: Gebt sie auf. ",
+            "en": "Thoughts … ",
+            "matched": true
+          },
+          "sn35.101:3.7": {
+            "scid": "sn35.101:3.7",
+            "pli": "Manoviññāṇaṁ na tumhākaṁ. ",
+            "de": "Geistbewusstsein ist <span class=\"ebt-matched\">nicht euer</span>: Gebt es auf. ",
+            "en": "Mind consciousness … ",
+            "matched": true
+          },
+          "sn35.101:3.10": {
+            "scid": "sn35.101:3.10",
+            "pli": "Manosamphasso na tumhākaṁ. ",
+            "de": "Geistberührung ist <span class=\"ebt-matched\">nicht euer</span>: Gebt sie auf. ",
+            "en": "Mind contact … ",
+            "matched": true
+          },
+          "sn35.101:3.13": {
+            "scid": "sn35.101:3.13",
+            "pli": "Yampidaṁ manosamphassapaccayā uppajjati vedayitaṁ sukhaṁ vā dukkhaṁ vā adukkhamasukhaṁ vā tampi na tumhākaṁ. ",
+            "de": "Das angenehme, schmerzhafte oder neutrale Gefühl, das durch Geistberührung bedingt entsteht, ist <span class=\"ebt-matched\">nicht euer</span>: Gebt es auf. ",
+            "en": "The pleasant, painful, or neutral feeling that arises conditioned by mind contact isn’t yours: give it up. ",
+            "matched": true
+          },
+          "sn35.101:8.1": {
+            "scid": "sn35.101:8.1",
+            "pli": "“Evameva kho, bhikkhave, cakkhu na tumhākaṁ. ",
+            "de": "„Ebenso, Mönche und Nonnen, ist das Auge <span class=\"ebt-matched\">nicht euer</span>: Gebt es auf. ",
+            "en": "“In the same way, the eye isn’t yours: give it up. ",
+            "matched": true
+          },
+          "sn35.101:8.4": {
+            "scid": "sn35.101:8.4",
+            "pli": "Rūpā na tumhākaṁ … ",
+            "de": "Bilder sind <span class=\"ebt-matched\">nicht euer</span> … ",
+            "en": "",
+            "matched": true
+          },
+          "sn35.101:8.5": {
+            "scid": "sn35.101:8.5",
+            "pli": "cakkhuviññāṇaṁ … ",
+            "de": "Augenbewusstsein ist <span class=\"ebt-matched\">nicht euer</span> … ",
+            "en": "",
+            "matched": true
+          },
+          "sn35.101:8.6": {
+            "scid": "sn35.101:8.6",
+            "pli": "cakkhusamphasso …pe… ",
+            "de": "Augenberührung ist <span class=\"ebt-matched\">nicht euer</span> … ",
+            "en": "",
+            "matched": true
+          },
+          "sn35.101:8.7": {
+            "scid": "sn35.101:8.7",
+            "pli": "yampidaṁ manosamphassapaccayā uppajjati vedayitaṁ sukhaṁ vā dukkhaṁ vā adukkhamasukhaṁ vā tampi na tumhākaṁ. ",
+            "de": "Das angenehme, schmerzhafte oder neutrale Gefühl, das durch Geistberührung bedingt entsteht, ist <span class=\"ebt-matched\">nicht euer</span>: Gebt es auf. ",
+            "en": "The pleasant, painful, or neutral feeling that arises conditioned by mind contact isn’t yours: give it up. ",
+            "matched": true
+          }
+        },
+        "score": 19.284,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 35.101\n10. Das Kapitel über die Sechser\nNicht euer (1)",
+        "segsMatched": 19,
+        "langSegs": {
+          "pli": 67,
+          "de": 40,
+          "en": 66
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn22/sn22.33_root-pli-ms.json",
@@ -306,6 +472,94 @@
           "pli": 17,
           "de": 16,
           "en": 16
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn35/sn35.102_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn35/sn35.102_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn35/sn35.102_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn35.102",
+        "lang": "de",
+        "segMap": {
+          "sn35.102:0.3": {
+            "scid": "sn35.102:0.3",
+            "pli": "Dutiyanatumhākasutta ",
+            "de": "<span class=\"ebt-matched\">Nicht euer</span> (2) ",
+            "en": "It’s Not Yours (2nd) ",
+            "matched": true
+          },
+          "sn35.102:1.1": {
+            "scid": "sn35.102:1.1",
+            "pli": "“Yaṁ, bhikkhave, na tumhākaṁ taṁ pajahatha. ",
+            "de": "„Mönche und Nonnen, gebt auf, was <span class=\"ebt-matched\">nicht euer</span> ist. ",
+            "en": "“Mendicants, give up what’s not yours. ",
+            "matched": true
+          },
+          "sn35.102:1.3": {
+            "scid": "sn35.102:1.3",
+            "pli": "Kiñca, bhikkhave, na tumhākaṁ? ",
+            "de": "Und was ist <span class=\"ebt-matched\">nicht euer</span>? ",
+            "en": "And what isn’t yours? ",
+            "matched": true
+          },
+          "sn35.102:1.4": {
+            "scid": "sn35.102:1.4",
+            "pli": "Cakkhu, bhikkhave, na tumhākaṁ. ",
+            "de": "Das Auge ist <span class=\"ebt-matched\">nicht euer</span>: Gebt es auf. ",
+            "en": "The eye isn’t yours: give it up. ",
+            "matched": true
+          },
+          "sn35.102:1.7": {
+            "scid": "sn35.102:1.7",
+            "pli": "Rūpā na tumhākaṁ. ",
+            "de": "Bilder sind <span class=\"ebt-matched\">nicht euer</span>: Gebt sie auf. ",
+            "en": "Sights … ",
+            "matched": true
+          },
+          "sn35.102:1.10": {
+            "scid": "sn35.102:1.10",
+            "pli": "Cakkhuviññāṇaṁ na tumhākaṁ. ",
+            "de": "Augenbewusstsein ist <span class=\"ebt-matched\">nicht euer</span>: Gebt es auf. ",
+            "en": "Eye consciousness … ",
+            "matched": true
+          },
+          "sn35.102:1.13": {
+            "scid": "sn35.102:1.13",
+            "pli": "Cakkhusamphasso na tumhākaṁ. ",
+            "de": "Augenberührung ist <span class=\"ebt-matched\">nicht euer</span>: Gebt sie auf. ",
+            "en": "Eye contact … ",
+            "matched": true
+          },
+          "sn35.102:1.16": {
+            "scid": "sn35.102:1.16",
+            "pli": "yampidaṁ manosamphassapaccayā uppajjati vedayitaṁ sukhaṁ vā dukkhaṁ vā adukkhamasukhaṁ vā tampi na tumhākaṁ. ",
+            "de": "Das angenehme, schmerzhafte oder neutrale Gefühl, das durch Geistberührung bedingt entsteht, ist <span class=\"ebt-matched\">nicht euer</span>: Gebt es auf. ",
+            "en": "The pleasant, painful, or neutral feeling that arises conditioned by mind contact isn’t yours: give it up. ",
+            "matched": true
+          },
+          "sn35.102:1.19": {
+            "scid": "sn35.102:1.19",
+            "pli": "Yampi, bhikkhave, na tumhākaṁ, taṁ pajahatha. ",
+            "de": "Gebt auf, was <span class=\"ebt-matched\">nicht euer</span> ist. ",
+            "en": "Give up what’s not yours. ",
+            "matched": true
+          }
+        },
+        "score": 9.375,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 35.102\n10. Das Kapitel über die Sechser\nNicht euer (2)",
+        "segsMatched": 9,
+        "langSegs": {
+          "pli": 24,
+          "de": 18,
+          "en": 23
         }
       },
       {

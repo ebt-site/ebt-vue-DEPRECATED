@@ -32,7 +32,7 @@
     "pattern": "herr de[rs]",
     "method": "phrase",
     "resultPattern": "\\bherr de[rs]",
-    "segsMatched": 15,
+    "segsMatched": 17,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn20_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn20_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/dn/dn21_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn21_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn21_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn35/sn35.116_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn35/sn35.116_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.116_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.172_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.172_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an10/an10.172_translation-en-sujato.json",
@@ -62,6 +65,7 @@
     "suttaRefs": [
       "dn20/de/sabbamitta",
       "dn21/de/sabbamitta",
+      "sn35.116/de/sabbamitta",
       "an10.172/de/sabbamitta",
       "an10.115/de/sabbamitta",
       "sn3.1/de/sabbamitta",
@@ -167,6 +171,45 @@
           "pli": 515,
           "de": 477,
           "en": 514
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn35/sn35.116_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn35/sn35.116_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn35/sn35.116_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn35.116",
+        "lang": "de",
+        "segMap": {
+          "sn35.116:5.3": {
+            "scid": "sn35.116:5.3",
+            "pli": "So hāvuso, bhagavā jānaṁ jānāti, passaṁ passati—",
+            "de": "Denn er ist der Buddha, der erkennt und sieht. Er ist das Sehen, er ist das Erkennen, er ist die Wahrheit, er ist die Heiligkeit. Er ist der Lehrer, der Verkünder, der Erheller der Bedeutung, der Gewährer der Unsterblichkeit, der <span class=\"ebt-matched\">Herr der</span> Wahrheit, der Klargewordene. ",
+            "en": "For he is the Buddha, who knows and sees. He is vision, he is knowledge, he is the truth, he is supreme. He is the teacher, the proclaimer, the elucidator of meaning, the bestower of the deathless, the lord of truth, the Realized One. ",
+            "matched": true
+          },
+          "sn35.116:6.1": {
+            "scid": "sn35.116:6.1",
+            "pli": "“Addhāvuso ānanda, bhagavā jānaṁ jānāti, passaṁ passati—",
+            "de": "„Sicherlich ist er der Buddha, der erkennt und sieht. Sicherlich ist er das Sehen, ist er das Erkennen, ist er die Wahrheit, ist er die Heiligkeit. Sicherlich ist er der Lehrer, der Verkünder, der Erheller der Bedeutung, der Gewährer der Unsterblichkeit, der <span class=\"ebt-matched\">Herr der</span> Wahrheit, der Klargewordene. ",
+            "en": "“Certainly he is the Buddha, who knows and sees. He is vision, he is knowledge, he is the truth, he is supreme. He is the teacher, the proclaimer, the elucidator of meaning, the bestower of the deathless, the lord of truth, the Realized One. ",
+            "matched": true
+          }
+        },
+        "score": 2.023,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 35.116\n12. Das Kapitel über die Welt und die Arten sinnlicher Erregung\nAns Ende der Welt gehen",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 86,
+          "de": 58,
+          "en": 85
         }
       },
       {

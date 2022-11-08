@@ -32,13 +32,17 @@
     "pattern": "zu den jungen mönchen sagen",
     "method": "phrase",
     "resultPattern": "\\bzu den jungen mönchen sagen",
-    "segsMatched": 1,
+    "segsMatched": 2,
     "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn35/sn35.95_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn35/sn35.95_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.95_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.257_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.257_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.257_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "sn35.95/de/sabbamitta",
       "an4.257/de/sabbamitta"
     ],
     "mlDocs": [
@@ -72,6 +76,38 @@
           "pli": 21,
           "de": 20,
           "en": 20
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn35/sn35.95_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn35/sn35.95_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn35/sn35.95_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn35.95",
+        "lang": "de",
+        "segMap": {
+          "sn35.95:2.1": {
+            "scid": "sn35.95:2.1",
+            "pli": "“Ettha dāni, mālukyaputta, kiṁ dahare bhikkhū vakkhāma. ",
+            "de": "„Nun, Māluṅkyaputta, was sollen wir da <span class=\"ebt-matched\">zu den jungen Mönchen sagen</span>, ",
+            "en": "“Well now, Māluṅkyaputta, what are we to say to the young monks, ",
+            "matched": true
+          }
+        },
+        "score": 1.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 35.95\n10. Das Kapitel über die Sechser\nMit Māluṅkyaputta",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 181,
+          "de": 176,
+          "en": 180
         }
       }
     ]
