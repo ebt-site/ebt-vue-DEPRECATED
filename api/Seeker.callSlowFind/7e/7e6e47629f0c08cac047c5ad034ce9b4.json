@@ -29,76 +29,104 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "when the six sense fields fade",
-    "method": "phrase",
-    "resultPattern": "\\bwhen the six sense fields fade",
+    "method": "keywords",
+    "resultPattern": "\\bwhen|\\bthe|\\bsix|\\bsense|\\bfields|\\bfade",
     "segsMatched": 2,
     "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn12/sn12.35_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.35_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn12/sn12.36_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.36_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.92_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an10/an10.92_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.61_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an3/an3.61_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga1/ud1.3_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/ud/vagga1/ud1.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn115_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn115_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn148_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn148_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn38_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn38_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn12/sn12.11_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.11_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn12/sn12.12_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.12_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn12/sn12.20_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.20_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn12/sn12.24_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn12/sn12.24_translation-en-sujato.json",
-      "root/pli/ms/sutta/sn/sn12/sn12.12_root-pli-ms.json",
-      "translation/en/sujato/sutta/sn/sn12/sn12.12_translation-en-sujato.json"
+      "root/pli/ms/sutta/sn/sn12/sn12.70_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.70_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn35/sn35.117_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.117_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn55/sn55.28_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn55/sn55.28_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "sn12.24/en/sujato",
-      "sn12.12/en/sujato"
+      "an10.92/en/sujato",
+      "sn55.28/en/sujato"
     ],
     "mlDocs": [
       {
         "bilaraPaths": [
-          "root/pli/ms/sutta/sn/sn12/sn12.12_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn12/sn12.12_translation-en-sujato.json"
+          "root/pli/ms/sutta/sn/sn55/sn55.28_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn55/sn55.28_translation-en-sujato.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
         "category": "sutta",
-        "sutta_uid": "sn12.12",
+        "sutta_uid": "sn55.28",
         "lang": "en",
         "segMap": {
-          "sn12.12:7.1": {
-            "scid": "sn12.12:7.1",
-            "pli": "Channaṁ tveva, phagguna, phassāyatanānaṁ asesavirāganirodhā phassanirodho; ",
-            "en": "<span class=\"ebt-matched\">When the six sense fields fade</span> away and cease with nothing left over, contact ceases. ",
+          "sn55.28:4.7": {
+            "scid": "sn55.28:4.7",
+            "pli": "Avijjāya tveva asesavirāganirodhā saṅkhāranirodho …pe… ",
+            "en": "<span class=\"ebt-matched\">When</span> ignorance <span class=\"ebt-matched\">fade</span>s away and ceases with nothing left over, choices cease. <span class=\"ebt-matched\">When</span> choices cease, consciousness ceases. <span class=\"ebt-matched\">When</span> consciousness ceases, name and form cease. <span class=\"ebt-matched\">When</span> name and form cease, <span class=\"ebt-matched\">the</span> <span class=\"ebt-matched\">six</span> <span class=\"ebt-matched\">sense</span> <span class=\"ebt-matched\">fields</span> cease. <span class=\"ebt-matched\">When</span> <span class=\"ebt-matched\">the</span> <span class=\"ebt-matched\">six</span> <span class=\"ebt-matched\">sense</span> <span class=\"ebt-matched\">fields</span> cease, contact ceases. <span class=\"ebt-matched\">When</span> contact ceases, feeling ceases. <span class=\"ebt-matched\">When</span> feeling ceases, craving ceases. <span class=\"ebt-matched\">When</span> craving ceases, grasping ceases. <span class=\"ebt-matched\">When</span> grasping ceases, continued existence ceases. <span class=\"ebt-matched\">When</span> continued existence ceases, rebirth ceases. <span class=\"ebt-matched\">When</span> rebirth ceases, old age and death, sorrow, lamentation, pain, sadness, and distress cease. ",
             "matched": true
           }
         },
-        "score": 1.014,
+        "score": 1.029,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Linked Discourses 12.12\n2. Fuel\nPhagguna of the Top-Knot",
+        "title": "Linked Discourses 55.28\n3. About Sarakāni\nDangers and Threats (1st)",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 70,
-          "en": 69
+          "pli": 35,
+          "en": 34
         }
       },
       {
         "bilaraPaths": [
-          "root/pli/ms/sutta/sn/sn12/sn12.24_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn12/sn12.24_translation-en-sujato.json"
+          "root/pli/ms/sutta/an/an10/an10.92_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an10/an10.92_translation-en-sujato.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
         "category": "sutta",
-        "sutta_uid": "sn12.24",
+        "sutta_uid": "an10.92",
         "lang": "en",
         "segMap": {
-          "sn12.24:21.9": {
-            "scid": "sn12.24:21.9",
-            "pli": "‘Channaṁ tveva, āvuso, phassāyatanānaṁ asesavirāganirodhā phassanirodho; ",
-            "en": "‘<span class=\"ebt-matched\">When the six sense fields fade</span> away and cease with nothing left over, contact ceases. ",
+          "an10.92:6.17": {
+            "scid": "an10.92:6.17",
+            "pli": "avijjāya tveva asesavirāganirodhā saṅkhāranirodho …pe… ",
+            "en": "<span class=\"ebt-matched\">When</span> ignorance <span class=\"ebt-matched\">fade</span>s away and ceases with nothing left over, choices cease. <span class=\"ebt-matched\">When</span> choices cease, consciousness ceases. <span class=\"ebt-matched\">When</span> consciousness ceases, name and form cease. <span class=\"ebt-matched\">When</span> name and form cease, <span class=\"ebt-matched\">the</span> <span class=\"ebt-matched\">six</span> <span class=\"ebt-matched\">sense</span> <span class=\"ebt-matched\">fields</span> cease. <span class=\"ebt-matched\">When</span> <span class=\"ebt-matched\">the</span> <span class=\"ebt-matched\">six</span> <span class=\"ebt-matched\">sense</span> <span class=\"ebt-matched\">fields</span> cease, contact ceases. <span class=\"ebt-matched\">When</span> contact ceases, feeling ceases. <span class=\"ebt-matched\">When</span> feeling ceases, craving ceases. <span class=\"ebt-matched\">When</span> craving ceases, grasping ceases. <span class=\"ebt-matched\">When</span> grasping ceases, continued existence ceases. <span class=\"ebt-matched\">When</span> continued existence ceases, rebirth ceases. <span class=\"ebt-matched\">When</span> rebirth ceases, old age and death, sorrow, lamentation, pain, sadness, and distress cease. ",
             "matched": true
           }
         },
-        "score": 1.009,
+        "score": 1.022,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Linked Discourses 12.24\n3. The Ten Powers\nFollowers of Other Paths",
+        "title": "Numbered Discourses 10.92\n10. With Upāli\nDangers",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 107,
-          "en": 106
+          "pli": 46,
+          "en": 45
         }
       }
     ]

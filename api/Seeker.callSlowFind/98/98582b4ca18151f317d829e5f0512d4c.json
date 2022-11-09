@@ -31,7 +31,7 @@
     "pattern": "without cause or reason",
     "method": "phrase",
     "resultPattern": "\\bwithout cause or reason",
-    "segsMatched": 12,
+    "segsMatched": 14,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn76_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn76_translation-en-sujato.json",
@@ -43,6 +43,8 @@
       "translation/en/sujato/sutta/mn/mn60_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn9_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn9_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.61_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an3/an3.61_translation-en-sujato.json"
     ],
@@ -52,6 +54,7 @@
       "sn22.60/en/sujato",
       "mn60/en/sujato",
       "dn9/en/sujato",
+      "dn2/en/sujato",
       "an3.61/en/sujato"
     ],
     "mlDocs": [
@@ -234,6 +237,41 @@
         "langSegs": {
           "pli": 473,
           "en": 472
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
+          "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn2",
+        "lang": "en",
+        "segMap": {
+          "dn2:20.2": {
+            "scid": "dn2:20.2",
+            "pli": "‘natthi, mahārāja, hetu natthi paccayo sattānaṁ saṅkilesāya, ahetū apaccayā sattā saṅkilissanti. ",
+            "en": "‘Great king, there is no cause or reason for the corruption of sentient beings. Sentient beings are corrupted <span class=\"ebt-matched\">without cause or reason</span>. ",
+            "matched": true
+          },
+          "dn2:20.4": {
+            "scid": "dn2:20.4",
+            "pli": "ahetū apaccayā sattā visujjhanti. ",
+            "en": "Sentient beings are purified <span class=\"ebt-matched\">without cause or reason</span>. ",
+            "matched": true
+          }
+        },
+        "score": 2.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Long Discourses 2\nThe Fruits of the Ascetic Life",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 650,
+          "en": 633
         }
       },
       {
