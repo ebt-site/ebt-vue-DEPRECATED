@@ -32,7 +32,7 @@
     "pattern": "liebevolle.* herz",
     "method": "phrase",
     "resultPattern": "\\bliebevolle.* herz",
-    "segsMatched": 20,
+    "segsMatched": 21,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an5/an5.167_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.167_translation-de-sabbamitta.json",
@@ -49,6 +49,9 @@
       "root/pli/ms/sutta/sn/sn20/sn20.4_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn20/sn20.4_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn20/sn20.4_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag14.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag14.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag14.1_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
@@ -68,6 +71,7 @@
       "an7.62/de/sabbamitta",
       "an4.67/de/sabbamitta",
       "sn20.4/de/sabbamitta",
+      "thag14.1/de/sabbamitta",
       "dn33/de/sabbamitta",
       "an9.20/de/sabbamitta",
       "an5.198/de/sabbamitta",
@@ -405,6 +409,38 @@
           "pli": 56,
           "de": 42,
           "en": 54
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag14.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag14.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag14.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag14.1",
+        "lang": "de",
+        "segMap": {
+          "thag14.1:4.3": {
+            "scid": "thag14.1:4.3",
+            "pli": "Mettacittañca bhāvemi, ",
+            "de": "Ich entwickle ein <span class=\"ebt-matched\">liebevolles Herz</span>, ",
+            "en": "I develop a mind of love, ",
+            "matched": true
+          }
+        },
+        "score": 1.016,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 14.1\nDas Vierzehnerbuch\n1. Das erste Kapitel\nKhadiravaniyarevata",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 61,
+          "de": 60,
+          "en": 60
         }
       },
       {
