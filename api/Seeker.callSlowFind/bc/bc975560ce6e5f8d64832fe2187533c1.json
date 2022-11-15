@@ -1,0 +1,46 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "i encountered the best",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en"
+      ],
+      "maxResults": 1000,
+      "searchLang": "en",
+      "maxDoc": 50,
+      "minLang": 2,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "en",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "i encountered the best",
+    "method": "keywords",
+    "resultPattern": "\\bi|\\bencountered|\\bthe|\\bbest",
+    "segsMatched": 0,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/kn/snp/vagga3/snp3.4_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga3/snp3.4_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn66_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn66_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn76_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn76_translation-en-sujato.json"
+    ],
+    "suttaRefs": [],
+    "mlDocs": []
+  }
+}

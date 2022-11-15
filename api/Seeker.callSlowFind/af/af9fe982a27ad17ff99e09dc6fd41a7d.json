@@ -1,0 +1,179 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "zwei arten von menschen",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "zwei arten von menschen",
+    "method": "phrase",
+    "resultPattern": "\\bzwei arten von menschen",
+    "segsMatched": 7,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an9/an9.6_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an9/an9.6_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an9/an9.6_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.54_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.54_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.54_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an2/an2.32-41_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an2/an2.32-41_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an2/an2.32-41_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an9.6/de/sabbamitta",
+      "an10.54/de/sabbamitta",
+      "an2.32-41/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an9/an9.6_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an9/an9.6_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an9/an9.6_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an9.6",
+        "lang": "de",
+        "segMap": {
+          "an9.6:2.1": {
+            "scid": "an9.6:2.1",
+            "pli": "“Puggalopi, āvuso, duvidhena veditabbo—",
+            "de": "„Werte Freunde, ihr solltet <span class=\"ebt-matched\">zwei Arten von Menschen</span> unterscheiden: ",
+            "en": "“Reverends, you should distinguish two kinds of people: ",
+            "matched": true
+          },
+          "an9.6:3.1": {
+            "scid": "an9.6:3.1",
+            "pli": "‘Puggalopi, āvuso, duvidhena veditabbo—",
+            "de": "‚Ihr solltet <span class=\"ebt-matched\">zwei Arten von Menschen</span> unterscheiden: ",
+            "en": "You should distinguish two kinds of people: ",
+            "matched": true
+          },
+          "an9.6:6.5": {
+            "scid": "an9.6:6.5",
+            "pli": "‘Puggalopi, āvuso, duvidhena veditabbo—",
+            "de": "‚Ihr solltet <span class=\"ebt-matched\">zwei Arten von Menschen</span> unterscheiden: ",
+            "en": "‘You should distinguish two kinds of people: ",
+            "matched": true
+          }
+        },
+        "score": 3.034,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 9.6\n1. Das Kapitel über das Erwachen\nSich anschließen",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 89,
+          "de": 88,
+          "en": 88
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.54_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.54_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.54_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.54",
+        "lang": "de",
+        "segMap": {
+          "an10.54:7.11": {
+            "scid": "an10.54:7.11",
+            "pli": "Puggalampāhaṁ, bhikkhave, duvidhena vadāmi—",
+            "de": "Es gibt <span class=\"ebt-matched\">zwei Arten von Menschen</span>, sage ich: ",
+            "en": "I say that there are two kinds of people: ",
+            "matched": true
+          },
+          "an10.54:13.1": {
+            "scid": "an10.54:13.1",
+            "pli": "‘Puggalampāhaṁ, bhikkhave, duvidhena vadāmi—",
+            "de": "‚Es gibt <span class=\"ebt-matched\">zwei Arten von Menschen</span>, sage ich: ",
+            "en": "‘I say that there are two kinds of people: ",
+            "matched": true
+          },
+          "an10.54:13.8": {
+            "scid": "an10.54:13.8",
+            "pli": "‘Puggalampāhaṁ, bhikkhave, duvidhena vadāmi—",
+            "de": "‚Es gibt <span class=\"ebt-matched\">zwei Arten von Menschen</span>, sage ich: ",
+            "en": "‘I say that there are two kinds of people: ",
+            "matched": true
+          }
+        },
+        "score": 3.031,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10.54\n6. Das Kapitel über den eigenen Geist\nSammlung",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 98,
+          "de": 96,
+          "en": 97
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an2/an2.32-41_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an2/an2.32-41_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an2/an2.32-41_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an2.32-41",
+        "lang": "de",
+        "segMap": {
+          "an2.35:1.3": {
+            "scid": "an2.35:1.3",
+            "pli": "“Dve kho, gahapati, loke dakkhiṇeyyā—",
+            "de": "„Hausbesitzer, es gibt <span class=\"ebt-matched\">zwei Arten von Menschen</span> in der Welt, die einer religiösen Gabe würdig sind: ",
+            "en": "“Householder, there are two kinds of people in the world who are worthy of a religious donation: ",
+            "matched": true
+          }
+        },
+        "score": 1.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 2.32–41\n4. Das Kapitel über den friedvollen Geist",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 168,
+          "de": 167,
+          "en": 167
+        }
+      }
+    ]
+  }
+}

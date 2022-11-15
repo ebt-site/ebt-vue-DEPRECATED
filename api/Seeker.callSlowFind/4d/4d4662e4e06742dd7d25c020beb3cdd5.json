@@ -1,0 +1,79 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "nach der mitte greifst",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "nach der mitte greifst",
+    "method": "phrase",
+    "resultPattern": "\\bnach der mitte greifst",
+    "segsMatched": 1,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/kn/snp/vagga4/snp4.15_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/snp/vagga4/snp4.15_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/snp/vagga4/snp4.15_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "snp4.15/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga4/snp4.15_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/snp/vagga4/snp4.15_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/snp/vagga4/snp4.15_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp4.15",
+        "lang": "de",
+        "segMap": {
+          "snp4.15:15.3": {
+            "scid": "snp4.15:15.3",
+            "pli": "Majjhe ce no gahessasi, ",
+            "de": "Wenn du nicht <span class=\"ebt-matched\">nach der Mitte greifst</span>, ",
+            "en": "If you don’t grasp at the middle, ",
+            "matched": true
+          }
+        },
+        "score": 1.012,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lehrreden-Sammelband 4.15\nZu den Waffen greifen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 84,
+          "de": 83,
+          "en": 83
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "urteil über menschen",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "urteil über menschen",
+    "method": "phrase",
+    "resultPattern": "\\burteil über menschen",
+    "segsMatched": 4,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an6/an6.44_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an6/an6.44_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an6/an6.44_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.75_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.75_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.75_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an6.44/de/sabbamitta",
+      "an10.75/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an6/an6.44_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an6/an6.44_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an6/an6.44_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an6.44",
+        "lang": "de",
+        "segMap": {
+          "an6.44:9.7": {
+            "scid": "an6.44:9.7",
+            "pli": "mā puggalesu pamāṇaṁ gaṇhittha. ",
+            "de": "Fälle kein <span class=\"ebt-matched\">Urteil über Menschen</span>. ",
+            "en": "Don’t pass judgment on people. ",
+            "matched": true
+          },
+          "an6.44:16.7": {
+            "scid": "an6.44:16.7",
+            "pli": "mā puggalesu pamāṇaṁ gaṇhittha. ",
+            "de": "Fälle kein <span class=\"ebt-matched\">Urteil über Menschen</span>. ",
+            "en": "Don’t pass judgment on people. ",
+            "matched": true
+          }
+        },
+        "score": 2.026,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 6.44\n5. Das Kapitel mit Dhammika\nMit Migasālā",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 77,
+          "de": 66,
+          "en": 76
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.75_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.75_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.75_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.75",
+        "lang": "de",
+        "segMap": {
+          "an10.75:12.9": {
+            "scid": "an10.75:12.9",
+            "pli": "mā puggalesu pamāṇaṁ gaṇhittha. ",
+            "de": "Fälle kein <span class=\"ebt-matched\">Urteil über Menschen</span>. ",
+            "en": "Don’t pass judgment on people. ",
+            "matched": true
+          },
+          "an10.75:25.8": {
+            "scid": "an10.75:25.8",
+            "pli": "mā puggalesu pamāṇaṁ gaṇhittha. ",
+            "de": "Fälle kein <span class=\"ebt-matched\">Urteil über Menschen</span>. ",
+            "en": "Don’t pass judgment on people. ",
+            "matched": true
+          }
+        },
+        "score": 2.017,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10.75\n8. Das Kapitel über das Wünschen\nMit Migasālā",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 117,
+          "de": 106,
+          "en": 116
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,300 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "ich bin besser",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "ich bin besser",
+    "method": "phrase",
+    "resultPattern": "\\bich bin besser",
+    "segsMatched": 16,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn35/sn35.108_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn35/sn35.108_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.108_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.49_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn22/sn22.49_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.49_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.185_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.185_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.185_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag18.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag18.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag18.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn35.108/de/sabbamitta",
+      "sn22.49/de/sabbamitta",
+      "an4.185/de/sabbamitta",
+      "thag18.1/de/sabbamitta",
+      "dn33/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn35/sn35.108_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn35/sn35.108_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn35/sn35.108_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn35.108",
+        "lang": "de",
+        "segMap": {
+          "sn35.108:0.3": {
+            "scid": "sn35.108:0.3",
+            "pli": "Seyyohamasmisutta ",
+            "de": "<span class=\"ebt-matched\">Ich bin besser</span> ",
+            "en": "I’m Better ",
+            "matched": true
+          },
+          "sn35.108:1.1": {
+            "scid": "sn35.108:1.1",
+            "pli": "“Kismiṁ nu kho, bhikkhave, sati kiṁ upādāya kiṁ abhinivissa seyyohamasmīti vā hoti, sadisohamasmīti vā hoti, hīnohamasmīti vā hotī”ti? ",
+            "de": "„Mönche und Nonnen, wenn was besteht, weil man was ergreift und worauf besteht, denken Menschen: ‚<span class=\"ebt-matched\">Ich bin besser</span>‘ oder ‚Ich bin gleich‘ oder ‚Ich bin schlechter‘?“ ",
+            "en": "“Mendicants, when what exists, because of grasping what and insisting on what, do people think ‘I’m better’ or ‘I’m equal’ or ‘I’m worse’?” ",
+            "matched": true
+          },
+          "sn35.108:3.1": {
+            "scid": "sn35.108:3.1",
+            "pli": "“Cakkhusmiṁ kho, bhikkhave, sati cakkhuṁ upādāya cakkhuṁ abhinivissa seyyohamasmīti vā hoti, sadisohamasmīti vā hoti, hīnohamasmīti vā hoti …pe… ",
+            "de": "„Wenn das Auge besteht, Mönche und Nonnen, weil man das Auge ergreift und auf dem Auge besteht, denken Menschen: ‚<span class=\"ebt-matched\">Ich bin besser</span>‘ oder ‚Ich bin gleich‘ oder ‚Ich bin schlechter‘. … ",
+            "en": "“When there’s an eye, because of grasping the eye and insisting on the eye, people think ‘I’m better’ or ‘I’m equal’ or ‘I’m worse’. … ",
+            "matched": true
+          },
+          "sn35.108:3.3": {
+            "scid": "sn35.108:3.3",
+            "pli": "manasmiṁ sati manaṁ upādāya manaṁ abhinivissa seyyohamasmīti vā hoti, sadisohamasmīti vā hoti, hīnohamasmīti vā hoti. ",
+            "de": "Wenn der Geist besteht, weil man den Geist ergreift und auf dem Geist besteht, denken Menschen: ‚<span class=\"ebt-matched\">Ich bin besser</span>‘ oder ‚Ich bin gleich‘ oder ‚Ich bin schlechter‘. ",
+            "en": "When there’s a mind, because of grasping the mind and insisting on the mind, people think ‘I’m better’ or ‘I’m equal’ or ‘I’m worse’. ",
+            "matched": true
+          },
+          "sn35.108:7.1": {
+            "scid": "sn35.108:7.1",
+            "pli": "“Yaṁ panāniccaṁ dukkhaṁ vipariṇāmadhammaṁ, api nu taṁ anupādāya seyyohamasmīti vā assa, sadisohamasmīti vā assa, hīnohamasmīti vā assā”ti? ",
+            "de": "„Aber wenn man nicht ergreifen würde, was unbeständig und Leiden ist und zugrunde gehen muss, würden dadurch Menschen denken: ‚<span class=\"ebt-matched\">Ich bin besser</span>‘ oder ‚Ich bin gleich‘ oder ‚Ich bin schlechter‘?“ ",
+            "en": "“But by not grasping what’s impermanent, suffering, and perishable, would people think ‘I’m better’ or ‘I’m equal’ or ‘I’m worse’?” ",
+            "matched": true
+          },
+          "sn35.108:14.1": {
+            "scid": "sn35.108:14.1",
+            "pli": "“Yaṁ panāniccaṁ dukkhaṁ vipariṇāmadhammaṁ, api nu taṁ anupādāya seyyohamasmīti vā assa, sadisohamasmīti vā assa, hīnohamasmīti vā assā”ti? ",
+            "de": "„Aber wenn man nicht ergreifen würde, was unbeständig und Leiden ist und zugrunde gehen muss, würden dadurch Menschen denken: ‚<span class=\"ebt-matched\">Ich bin besser</span>‘ oder ‚Ich bin gleich‘ oder ‚Ich bin schlechter‘?“ ",
+            "en": "“But by not grasping what’s impermanent, suffering, and perishable, would people think ‘I’m better’ or ‘I’m equal’ or ‘I’m worse’?” ",
+            "matched": true
+          }
+        },
+        "score": 6.214,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 35.108\n11. Das Kapitel über Geborgenheit\nIch bin besser",
+        "segsMatched": 6,
+        "langSegs": {
+          "pli": 28,
+          "de": 23,
+          "en": 27
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.49_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn22/sn22.49_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.49_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.49",
+        "lang": "de",
+        "segMap": {
+          "sn22.49:2.1": {
+            "scid": "sn22.49:2.1",
+            "pli": "“Ye hi keci, soṇa, samaṇā vā brāhmaṇā vā aniccena rūpena dukkhena vipariṇāmadhammena ‘seyyohamasmī’ti vā samanupassanti; ",
+            "de": "„Soṇa, in Bezug auf Form, die unbeständig und Leiden ist und zugrunde gehen muss, betrachten sich manche Asketen und Brahmanen so: ‚<span class=\"ebt-matched\">Ich bin besser</span>‘, ",
+            "en": "“Soṇa, there are ascetics and brahmins who—based on form, which is impermanent, suffering, and perishable—regard themselves thus: ‘I’m better’, ",
+            "matched": true
+          },
+          "sn22.49:2.14": {
+            "scid": "sn22.49:2.14",
+            "pli": "Aniccena viññāṇena dukkhena vipariṇāmadhammena ‘seyyohamasmī’ti vā samanupassanti; ",
+            "de": "In Bezug auf Bewusstsein, das unbeständig und Leiden ist und zugrunde gehen muss, betrachten sie sich so: ‚<span class=\"ebt-matched\">Ich bin besser</span>‘, ",
+            "en": "consciousness, which is impermanent, suffering, and perishable, they regard themselves thus: ‘I’m better’, ",
+            "matched": true
+          },
+          "sn22.49:3.1": {
+            "scid": "sn22.49:3.1",
+            "pli": "Ye ca kho keci, soṇa, samaṇā vā brāhmaṇā vā aniccena rūpena dukkhena vipariṇāmadhammena ‘seyyohamasmī’tipi na samanupassanti; ",
+            "de": "In Bezug auf Form, die unbeständig und Leiden ist und zugrunde gehen muss, betrachten sich manche Asketen nicht so: ‚<span class=\"ebt-matched\">Ich bin besser</span>‘, ",
+            "en": "There are ascetics and brahmins who—based on form, which is impermanent, suffering, and perishable—don’t regard themselves thus: ‘I’m better’, ",
+            "matched": true
+          },
+          "sn22.49:3.8": {
+            "scid": "sn22.49:3.8",
+            "pli": "aniccena viññāṇena dukkhena vipariṇāmadhammena ‘seyyohamasmī’tipi na samanupassanti; ",
+            "de": "In Bezug auf Bewusstsein, das unbeständig und Leiden ist und zugrunde gehen muss, betrachten sie sich nicht so: ‚<span class=\"ebt-matched\">Ich bin besser</span>‘, ",
+            "en": "consciousness, which is impermanent, suffering, and perishable, they don’t regard themselves thus: ‘I’m better’, ",
+            "matched": true
+          }
+        },
+        "score": 4.063,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 22.49\n5. Das Kapitel darüber, als deine eigene Insel zu leben\nMit Soṇa",
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 63,
+          "de": 55,
+          "en": 62
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.185_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.185_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.185_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.185",
+        "lang": "de",
+        "segMap": {
+          "an4.185:4.6": {
+            "scid": "an4.185:4.6",
+            "pli": "So tena na samaṇoti maññati, na brāhmaṇoti maññati, na seyyohamasmīti maññati, na sadisohamasmīti maññati, na hīnohamasmīti maññati. ",
+            "de": "Doch er hält sich deswegen nicht für einen ‚Asketen‘ oder ‚Brahmanen‘, und er denkt auch nicht ‚<span class=\"ebt-matched\">ich bin besser</span>‘, ‚ich bin gleich‘ oder ‚ich bin schlechter‘. ",
+            "en": "But they don’t think of themselves as an ‘ascetic’ or ‘brahmin’ because of that. Nor do they think ‘I’m better’ or ‘I’m equal’ or ‘I’m worse’. ",
+            "matched": true
+          },
+          "an4.185:5.4": {
+            "scid": "an4.185:5.4",
+            "pli": "So tena na samaṇoti maññati, na brāhmaṇoti maññati, na seyyohamasmīti maññati, na sadisohamasmīti maññati, na hīnohamasmīti maññati. ",
+            "de": "Doch er hält sich deswegen nicht für einen ‚Asketen‘ oder ‚Brahmanen‘, und er denkt auch nicht ‚<span class=\"ebt-matched\">ich bin besser</span>‘, ‚ich bin gleich‘ oder ‚ich bin schlechter‘. ",
+            "en": "But they don’t think of themselves as an ‘ascetic’ or ‘brahmin’ because of that. Nor do they think ‘I’m better’ or ‘I’m equal’ or ‘I’m worse’. ",
+            "matched": true
+          },
+          "an4.185:7.4": {
+            "scid": "an4.185:7.4",
+            "pli": "So tena na samaṇoti maññati, na brāhmaṇoti maññati, na seyyohamasmīti maññati, na sadisohamasmīti maññati, na hīnohamasmīti maññati. ",
+            "de": "Doch er hält sich deswegen nicht für einen ‚Asketen‘ oder ‚Brahmanen‘, und er denkt auch nicht ‚<span class=\"ebt-matched\">ich bin besser</span>‘, ‚ich bin gleich‘ oder ‚ich bin schlechter‘. ",
+            "en": "But they don’t think of themselves as an ‘ascetic’ or ‘brahmin’ because of that. Nor do they think ‘I’m better’ or ‘I’m equal’ or ‘I’m worse’. ",
+            "matched": true
+          }
+        },
+        "score": 3.091,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 4.185\n19. Das Kapitel über Brahmanen\nWahrheiten der Brahmanen",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 33,
+          "de": 32,
+          "en": 32
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag18.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag18.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag18.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag18.1",
+        "lang": "de",
+        "segMap": {
+          "thag18.1:24.4": {
+            "scid": "thag18.1:24.4",
+            "pli": "ahaṁ seyyoti maññati. ",
+            "de": "und denkst: ‚<span class=\"ebt-matched\">Ich bin besser</span>!‘ ",
+            "en": "and thinking, ‘I’m better than them.’ ",
+            "matched": true
+          },
+          "thag18.1:26.2": {
+            "scid": "thag18.1:26.2",
+            "pli": "nāhaṁ seyyoti vā pana; ",
+            "de": "‚<span class=\"ebt-matched\">ich bin besser</span>‘, ‚ich bin nicht besser‘, ",
+            "en": "by the modes of conceit—",
+            "matched": true
+          }
+        },
+        "score": 2.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 18.1\nDas Vierzigerbuch\n1. Das erste Kapitel\nMahākassapa",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 177,
+          "de": 171,
+          "en": 171
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn33",
+        "lang": "de",
+        "segMap": {
+          "dn33:1.10.49": {
+            "scid": "dn33:1.10.49",
+            "pli": "seyyohamasmīti vidhā, sadisohamasmīti vidhā, hīnohamasmīti vidhā. ",
+            "de": "‚<span class=\"ebt-matched\">Ich bin besser</span>‘, ‚ich bin gleich‘ und ‚ich bin schlechter‘. ",
+            "en": "‘I’m better’, ‘I’m equal’, and ‘I’m worse’. ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 33\nIm Chor aufsagen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 1167,
+          "de": 1166,
+          "en": 1166
+        }
+      }
+    ]
+  }
+}

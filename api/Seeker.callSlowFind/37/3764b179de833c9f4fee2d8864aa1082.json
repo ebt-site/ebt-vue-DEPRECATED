@@ -1,0 +1,244 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "essen g[ei]b",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "essen g[ei]b",
+    "method": "phrase",
+    "resultPattern": "\\bessen g[ei]b",
+    "segsMatched": 8,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn93_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn93_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn93_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn1/sn1.42_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn1/sn1.42_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn1/sn1.42_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.78_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an5/an5.78_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an5/an5.78_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.59_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.59_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.59_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.58_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.58_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.58_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "mn93/de/sabbamitta",
+      "sn1.42/de/sabbamitta",
+      "an5.78/de/sabbamitta",
+      "an4.59/de/sabbamitta",
+      "an4.58/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn93_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn93_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn93_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn93",
+        "lang": "de",
+        "segMap": {
+          "mn93:15.3": {
+            "scid": "mn93:15.3",
+            "pli": "Kamettha brāhmaṇā paṭhamaṁ bhojeyyuṁ saddhe vā thālipāke vā yaññe vā pāhune vā”ti? ",
+            "de": "Wem würden die Brahmanen bei einer Essensspende für die Ahnen, bei der Spende eines Milchreisgerichts, bei einem Opfer oder einem Festmahl für Gäste zuerst zu <span class=\"ebt-matched\">essen geb</span>en?“ ",
+            "en": "Who would the brahmins feed first at an offering of food for ancestors, an offering of a dish of milk-rice, a sacrifice, or a feast for guests?” ",
+            "matched": true
+          },
+          "mn93:15.4": {
+            "scid": "mn93:15.4",
+            "pli": "“Yo so, bho gotama, māṇavako ajjhāyako upanīto tamettha brāhmaṇā paṭhamaṁ bhojeyyuṁ saddhe vā thālipāke vā yaññe vā pāhune vā. ",
+            "de": "„Sie würden zuerst dem Brahmanenschüler zu <span class=\"ebt-matched\">essen geb</span>en, der ein gebildeter Rezitator ist. ",
+            "en": "“They’d first feed the student who was an educated reciter. ",
+            "matched": true
+          },
+          "mn93:16.3": {
+            "scid": "mn93:16.3",
+            "pli": "Kamettha brāhmaṇā paṭhamaṁ bhojeyyuṁ saddhe vā thālipāke vā yaññe vā pāhune vā”ti? ",
+            "de": "Wem würden die Brahmanen zuerst zu <span class=\"ebt-matched\">essen geb</span>en?“ ",
+            "en": "Who would the brahmins feed first?” ",
+            "matched": true
+          },
+          "mn93:16.4": {
+            "scid": "mn93:16.4",
+            "pli": "“Yo so, bho gotama, māṇavako anajjhāyako anupanīto sīlavā kalyāṇadhammo tamettha brāhmaṇā paṭhamaṁ bhojeyyuṁ saddhe vā thālipāke vā yaññe vā pāhune vā. ",
+            "de": "„Sie würden zuerst dem Brahmanenschüler zu <span class=\"ebt-matched\">essen geb</span>en, der kein gebildeter Rezitator, aber sittlich und von gutem Charakter ist. ",
+            "en": "“They’d first feed the student who was not an educated reciter, but was ethical and of good character. ",
+            "matched": true
+          }
+        },
+        "score": 4.016,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 93\nMit Assalāyana",
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 244,
+          "de": 192,
+          "en": 243
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn1/sn1.42_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn1/sn1.42_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn1/sn1.42_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn1.42",
+        "lang": "de",
+        "segMap": {
+          "sn1.42:2.1": {
+            "scid": "sn1.42:2.1",
+            "pli": "“Annado balado hoti, ",
+            "de": "„Wenn man <span class=\"ebt-matched\">Essen gib</span>t, gibt man Stärke. ",
+            "en": "“Giving food you give strength. ",
+            "matched": true
+          }
+        },
+        "score": 1.059,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 1.42\n5. Das Kapitel über das Inflammenstehen\nWenn man was gibt",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 17,
+          "de": 17,
+          "en": 17
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.59_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.59_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.59_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.59",
+        "lang": "de",
+        "segMap": {
+          "an4.59:2.2": {
+            "scid": "an4.59:2.2",
+            "pli": "Kālena sakkacca dadāti bhojanaṁ; ",
+            "de": "jenen <span class=\"ebt-matched\">Essen geb</span>en, die gezügelt sind und nur essen, was andere geben – ",
+            "en": "",
+            "matched": true
+          }
+        },
+        "score": 1.056,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 4.59\n6. Das Kapitel über überfließendes Verdienst\nSpeise",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 18,
+          "de": 17,
+          "en": 17
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.58_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.58_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.58_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.58",
+        "lang": "de",
+        "segMap": {
+          "an4.58:3.2": {
+            "scid": "an4.58:3.2",
+            "pli": "Kālena sakkacca dadāti bhojanaṁ; ",
+            "de": "jenen <span class=\"ebt-matched\">Essen geb</span>en, die gezügelt sind und nur essen, was andere geben – ",
+            "en": "to those who are disciplined, eating only what others give, ",
+            "matched": true
+          }
+        },
+        "score": 1.053,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 4.58\n6. Das Kapitel über überfließendes Verdienst\nMit Sudatta",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 19,
+          "de": 18,
+          "en": 18
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an5/an5.78_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an5/an5.78_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an5/an5.78_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an5.78",
+        "lang": "de",
+        "segMap": {
+          "an5.78:3.4": {
+            "scid": "an5.78:3.4",
+            "pli": "Dubbhikkhe kho pana manussā yena subhikkhaṁ tena saṅkamanti. ",
+            "de": "In einer Zeit der Hungersnot ziehen die Menschen dahin, wo es reichlich zu <span class=\"ebt-matched\">essen gib</span>t, ",
+            "en": "In a time of famine, people move to where there’s plenty of food, ",
+            "matched": true
+          }
+        },
+        "score": 1.022,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 5.78\n8. Das Kapitel über einen Krieger\nKünftige Gefahren (2)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 46,
+          "de": 45,
+          "en": 45
+        }
+      }
+    ]
+  }
+}

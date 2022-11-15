@@ -1,0 +1,151 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "glück und schmerz sind ewig",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "glück und schmerz sind ewig",
+    "method": "phrase",
+    "resultPattern": "\\bglück und schmerz sind ewig",
+    "segsMatched": 3,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/kn/ud/vagga6/ud6.6_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/ud/vagga6/ud6.6_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/ud/vagga6/ud6.6_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga6/ud6.5_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/ud/vagga6/ud6.5_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/ud/vagga6/ud6.5_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn29_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn29_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn29_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "ud6.6/de/sabbamitta",
+      "ud6.5/de/sabbamitta",
+      "dn29/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga6/ud6.5_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/ud/vagga6/ud6.5_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/ud/vagga6/ud6.5_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud6.5",
+        "lang": "de",
+        "segMap": {
+          "ud6.5:10.2": {
+            "scid": "ud6.5:10.2",
+            "pli": "“sassataṁ sukhadukkhaṁ attā ca loko ca, idameva saccaṁ moghamaññan”ti. ",
+            "de": "„<span class=\"ebt-matched\">Glück und Schmerz sind ewig</span>, und das Selbst und das Weltall.“ ",
+            "en": "“Pleasure and pain are eternal, and the self and the cosmos.” ",
+            "matched": true
+          }
+        },
+        "score": 1.017,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Innige Sprüche 6.5\nAnhänger anderer Lehren (2)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 60,
+          "de": 33,
+          "en": 33
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga6/ud6.6_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/ud/vagga6/ud6.6_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/ud/vagga6/ud6.6_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud6.6",
+        "lang": "de",
+        "segMap": {
+          "ud6.6:10.2": {
+            "scid": "ud6.6:10.2",
+            "pli": "“sassataṁ sukhadukkhaṁ attā ca loko ca, idameva saccaṁ moghamaññan”ti. ",
+            "de": "„<span class=\"ebt-matched\">Glück und Schmerz sind ewig</span>, und das Selbst und das Weltall.“ ",
+            "en": "“Pleasure and pain are eternal, and the self and the cosmos.” ",
+            "matched": true
+          }
+        },
+        "score": 1.015,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Innige Sprüche 6.6\nAnhänger anderer Lehren (3)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 67,
+          "de": 40,
+          "en": 40
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn29_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn29_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn29_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn29",
+        "lang": "de",
+        "segMap": {
+          "dn29:34.17": {
+            "scid": "dn29:34.17",
+            "pli": "‘Sassataṁ sukhadukkhaṁ … ",
+            "de": "<span class=\"ebt-matched\">Glück und Schmerz sind ewig</span>; ",
+            "en": "Pleasure and pain are eternal, ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 29\nEine beeindruckende Lehrrede",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 465,
+          "de": 404,
+          "en": 464
+        }
+      }
+    ]
+  }
+}

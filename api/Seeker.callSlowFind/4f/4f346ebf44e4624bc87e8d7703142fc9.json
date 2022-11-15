@@ -1,0 +1,270 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "eternal truth",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en"
+      ],
+      "maxResults": 1000,
+      "searchLang": "en",
+      "maxDoc": 50,
+      "minLang": 2,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "en",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "eternal truth",
+    "method": "phrase",
+    "resultPattern": "\\beternal truth",
+    "segsMatched": 7,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn8/sn8.5_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn8/sn8.5_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn1/sn1.32_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn1/sn1.32_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn128_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn128_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag21.1_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/thag/thag21.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga3/snp3.3_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga3/snp3.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/dhp/dhp1-20_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp1-20_translation-en-sujato.json",
+      "translation/en/suddhaso/sutta/kn/dhp/dhp1-20_translation-en-suddhaso.json",
+      "root/pli/ms/sutta/kn/dhp/dhp1-20_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp1-20_translation-en-sujato.json",
+      "translation/en/suddhaso/sutta/kn/dhp/dhp1-20_translation-en-suddhaso.json"
+    ],
+    "suttaRefs": [
+      "sn8.5/en/sujato",
+      "sn1.32/en/sujato",
+      "mn128/en/sujato",
+      "thag21.1/en/sujato",
+      "snp3.3/en/sujato",
+      "dhp1-20/en/sujato",
+      "dhp1-20/en/suddhaso"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn8/sn8.5_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn8/sn8.5_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn8.5",
+        "lang": "en",
+        "segMap": {
+          "sn8.5:7.2": {
+            "scid": "sn8.5:7.2",
+            "pli": "esa dhammo sanantano; ",
+            "en": "this is an <span class=\"ebt-matched\">eternal truth</span>. ",
+            "matched": true
+          }
+        },
+        "score": 1.026,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 8.5\n1. With Vaṅgīsa\nWell-Spoken Words",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 38,
+          "en": 38
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga3/snp3.3_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga3/snp3.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp3.3",
+        "lang": "en",
+        "segMap": {
+          "snp3.3:7.2": {
+            "scid": "snp3.3:7.2",
+            "pli": "esa dhammo sanantano; ",
+            "en": "this is an <span class=\"ebt-matched\">eternal truth</span>. ",
+            "matched": true
+          }
+        },
+        "score": 1.026,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses 3.3\nWell-Spoken Words",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 39,
+          "en": 38
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn1/sn1.32_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn1/sn1.32_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn1.32",
+        "lang": "en",
+        "segMap": {
+          "sn1.32:7.4": {
+            "scid": "sn1.32:7.4",
+            "pli": "esa dhammo sanantano. ",
+            "en": "This is an <span class=\"ebt-matched\">eternal truth</span>. ",
+            "matched": true
+          }
+        },
+        "score": 1.018,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 1.32\n4. The Satullapa Group\nStinginess",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 57,
+          "en": 57
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/dhp/dhp1-20_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/dhp/dhp1-20_translation-en-sujato.json",
+          "translation/en/suddhaso/sutta/kn/dhp/dhp1-20_translation-en-suddhaso.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dhp1-20",
+        "lang": "en",
+        "segMap": {
+          "dhp5:4": {
+            "scid": "dhp5:4",
+            "pli": "esa dhammo sanantano. ",
+            "en": "this is an <span class=\"ebt-matched\">eternal truth</span>. ",
+            "matched": true
+          }
+        },
+        "score": 1.009,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Minor Collection\nSayings of the Dhamma 1–20\n1. Pairs\nCakkhupālattheravatthu",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 108,
+          "en": 93
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/dhp/dhp1-20_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/dhp/dhp1-20_translation-en-sujato.json",
+          "translation/en/suddhaso/sutta/kn/dhp/dhp1-20_translation-en-suddhaso.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dhp1-20",
+        "lang": "en",
+        "segMap": {
+          "dhp5:4": {
+            "scid": "dhp5:4",
+            "pli": "esa dhammo sanantano. ",
+            "en": "this is an <span class=\"ebt-matched\">eternal truth</span>. ",
+            "matched": true
+          }
+        },
+        "score": 1.009,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Minor Collection\nSayings of the Dhamma 1–20\n1. Pairs\nCakkhupālattheravatthu",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 108,
+          "en": 93
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn128_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn128_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn128",
+        "lang": "en",
+        "segMap": {
+          "mn128:6.20": {
+            "scid": "mn128:6.20",
+            "pli": "esa dhammo sanantano. ",
+            "en": "this is an <span class=\"ebt-matched\">eternal truth</span>. ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Middle Discourses 128\nCorruptions",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 279,
+          "en": 278
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag21.1_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/thag/thag21.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag21.1",
+        "lang": "en",
+        "segMap": {
+          "thag21.1:21.2": {
+            "scid": "thag21.1:21.2",
+            "pli": "esa dhammo sanantano; ",
+            "en": "this is an <span class=\"ebt-matched\">eternal truth</span>. ",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verses of the Senior Monks 21.1\nThe Great Book\nChapter One\nVaṅgīsa",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 309,
+          "en": 294
+        }
+      }
+    ]
+  }
+}

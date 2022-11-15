@@ -1,0 +1,151 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "der sittlichkeit und der weisheit",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "der sittlichkeit und der weisheit",
+    "method": "phrase",
+    "resultPattern": "\\bder sittlichkeit und der weisheit",
+    "segsMatched": 3,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an8/an8.86_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an8/an8.86_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an8/an8.86_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an6/an6.42_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an6/an6.42_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an6/an6.42_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.30_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an5/an5.30_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an5/an5.30_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an8.86/de/sabbamitta",
+      "an6.42/de/sabbamitta",
+      "an5.30/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an5/an5.30_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an5/an5.30_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an5/an5.30_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an5.30",
+        "lang": "de",
+        "segMap": {
+          "an5.30:3.7": {
+            "scid": "an5.30:3.7",
+            "pli": "Tathā hi, bhante, bhagavato sīlapaññāṇan”ti. ",
+            "de": "Wegen <span class=\"ebt-matched\">der Sittlichkeit und der Weisheit</span> des Buddha.“ ",
+            "en": "Because of the Buddha’s ethics and wisdom.” ",
+            "matched": true
+          }
+        },
+        "score": 1.021,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 5.30\n3. Das Kapitel über fünf Faktoren\nMit Nāgita",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 48,
+          "de": 41,
+          "en": 46
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an6/an6.42_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an6/an6.42_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an6/an6.42_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an6.42",
+        "lang": "de",
+        "segMap": {
+          "an6.42:3.7": {
+            "scid": "an6.42:3.7",
+            "pli": "Tathā hi, bhante, bhagavato sīlapaññāṇan”ti. ",
+            "de": "Wegen <span class=\"ebt-matched\">der Sittlichkeit und der Weisheit</span> des Buddha.“ ",
+            "en": "Because of the Buddha’s ethics and wisdom.” ",
+            "matched": true
+          }
+        },
+        "score": 1.017,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 6.42\n4. Das Kapitel über Gottheiten\nMit Nāgita",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 60,
+          "de": 53,
+          "en": 58
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.86_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an8/an8.86_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an8/an8.86_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an8.86",
+        "lang": "de",
+        "segMap": {
+          "an8.86:3.7": {
+            "scid": "an8.86:3.7",
+            "pli": "Tathā hi, bhante, bhagavato sīlapaññāṇan”ti. ",
+            "de": "Wegen <span class=\"ebt-matched\">der Sittlichkeit und der Weisheit</span> des Buddha.“ ",
+            "en": "Because of the Buddha’s ethics and wisdom.” ",
+            "matched": true
+          }
+        },
+        "score": 1.015,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 8.86\n9. Das Kapitel über Achtsamkeit\nMit Nāgita",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 65,
+          "de": 64,
+          "en": 64
+        }
+      }
+    ]
+  }
+}

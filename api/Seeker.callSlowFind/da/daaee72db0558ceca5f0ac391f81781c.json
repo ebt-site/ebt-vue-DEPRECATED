@@ -1,0 +1,445 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "das ist friedvoll",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "das ist friedvoll",
+    "method": "phrase",
+    "resultPattern": "\\bdas ist friedvoll",
+    "segsMatched": 16,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an9/an9.36_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an9/an9.36_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an9/an9.36_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an11/an11.7_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an11/an11.7_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an11/an11.7_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.60_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.60_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.60_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.32_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an3/an3.32_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an3/an3.32_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an11/an11.8_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an11/an11.8_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an11/an11.8_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an11/an11.21_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an11/an11.21_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an11/an11.21_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an11/an11.20_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an11/an11.20_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an11/an11.20_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an11/an11.19_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an11/an11.19_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an11/an11.19_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an11/an11.18_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an11/an11.18_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an11/an11.18_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.6_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.6_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.6_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an9.36/de/sabbamitta",
+      "an11.7/de/sabbamitta",
+      "an10.60/de/sabbamitta",
+      "an3.32/de/sabbamitta",
+      "an11.8/de/sabbamitta",
+      "an11.21/de/sabbamitta",
+      "an11.20/de/sabbamitta",
+      "an11.19/de/sabbamitta",
+      "an11.18/de/sabbamitta",
+      "an10.6/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an9/an9.36_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an9/an9.36_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an9/an9.36_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an9.36",
+        "lang": "de",
+        "segMap": {
+          "an9.36:2.7": {
+            "scid": "an9.36:2.7",
+            "pli": "‘etaṁ santaṁ etaṁ paṇītaṁ yadidaṁ sabbasaṅkhārasamatho sabbūpadhipaṭinissaggo taṇhākkhayo virāgo nirodho nibbānan’ti. ",
+            "de": "‚<span class=\"ebt-matched\">Das ist friedvoll</span>, das ist erhaben: nämlich das Beruhigen aller Vorgänge, das Loslassen aller Bindungen, das Beenden des Verlangens, das Schwinden, Aufhören, Erlöschen.‘ ",
+            "en": "‘This is peaceful; this is sublime—that is, the stilling of all activities, the letting go of all attachments, the ending of craving, fading away, cessation, extinguishment.’ ",
+            "matched": true
+          },
+          "an9.36:3.6": {
+            "scid": "an9.36:3.6",
+            "pli": "‘etaṁ santaṁ etaṁ paṇītaṁ yadidaṁ sabbasaṅkhārasamatho sabbūpadhipaṭinissaggo taṇhākkhayo virāgo nirodho nibbānan’ti. ",
+            "de": "‚<span class=\"ebt-matched\">Das ist friedvoll</span>, das ist erhaben: nämlich das Beruhigen aller Vorgänge, das Loslassen aller Bindungen, das Beenden des Verlangens, das Schwinden, Aufhören, Erlöschen.‘ ",
+            "en": "‘This is peaceful; this is sublime—that is, the stilling of all activities, the letting go of all attachments, the ending of craving, fading away, cessation, extinguishment.’ ",
+            "matched": true
+          },
+          "an9.36:6.7": {
+            "scid": "an9.36:6.7",
+            "pli": "‘etaṁ santaṁ etaṁ paṇītaṁ yadidaṁ sabbasaṅkhārasamatho sabbūpadhipaṭinissaggo taṇhākkhayo virāgo nirodho nibbānan’ti. ",
+            "de": "‚<span class=\"ebt-matched\">Das ist friedvoll</span>, das ist erhaben: nämlich das Beruhigen aller Vorgänge, das Loslassen aller Bindungen, das Beenden des Verlangens, das Schwinden, Aufhören, Erlöschen.‘ ",
+            "en": "‘This is peaceful; this is sublime—that is, the stilling of all activities, the letting go of all attachments, the ending of craving, fading away, cessation, extinguishment.’ ",
+            "matched": true
+          },
+          "an9.36:8.8": {
+            "scid": "an9.36:8.8",
+            "pli": "‘etaṁ santaṁ etaṁ paṇītaṁ yadidaṁ sabbasaṅkhārasamatho sabbūpadhipaṭinissaggo taṇhākkhayo virāgo nirodho nibbānan’ti. ",
+            "de": "‚<span class=\"ebt-matched\">Das ist friedvoll</span>, das ist erhaben: nämlich das Beruhigen aller Vorgänge, das Loslassen aller Bindungen, das Beenden des Verlangens, das Schwinden, Aufhören, Erlöschen.‘ ",
+            "en": "‘This is peaceful; this is sublime—that is, the stilling of all activities, the letting go of all attachments, the ending of craving, fading away, cessation, extinguishment.’ ",
+            "matched": true
+          },
+          "an9.36:9.6": {
+            "scid": "an9.36:9.6",
+            "pli": "‘etaṁ santaṁ etaṁ paṇītaṁ yadidaṁ sabbasaṅkhārasamatho sabbūpadhipaṭinissaggo taṇhākkhayo virāgo nirodho nibbānan’ti. ",
+            "de": "‚<span class=\"ebt-matched\">Das ist friedvoll</span>, das ist erhaben: nämlich das Beruhigen aller Vorgänge, das Loslassen aller Bindungen, das Beenden des Verlangens, das Schwinden, Aufhören, Erlöschen.‘ ",
+            "en": "‘This is peaceful; this is sublime—that is, the stilling of all activities, the letting go of all attachments, the ending of craving, fading away, cessation, extinguishment.’ ",
+            "matched": true
+          }
+        },
+        "score": 5.058,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 9.36\n4. Das große Kapitel\nAuf Vertiefung gestützt",
+        "segsMatched": 5,
+        "langSegs": {
+          "pli": 86,
+          "de": 70,
+          "en": 85
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an11/an11.7_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an11/an11.7_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an11/an11.7_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an11.7",
+        "lang": "de",
+        "segMap": {
+          "an11.7:5.2": {
+            "scid": "an11.7:5.2",
+            "pli": "‘etaṁ santaṁ etaṁ paṇītaṁ, yadidaṁ sabbasaṅkhārasamatho sabbūpadhipaṭinissaggo taṇhākkhayo virāgo nirodho nibbānan’ti. ",
+            "de": "‚<span class=\"ebt-matched\">Das ist friedvoll</span>, das ist erhaben: nämlich das Beruhigen aller Vorgänge, das Loslassen aller Bindungen, das Beenden des Verlangens, das Schwinden, Aufhören, Erlöschen.‘ ",
+            "en": "‘This is peaceful; this is sublime—that is, the stilling of all activities, the letting go of all attachments, the ending of craving, fading away, cessation, extinguishment.’ ",
+            "matched": true
+          },
+          "an11.7:9.2": {
+            "scid": "an11.7:9.2",
+            "pli": "‘etaṁ santaṁ etaṁ paṇītaṁ, yadidaṁ sabbasaṅkhārasamatho sabbūpadhipaṭinissaggo taṇhākkhayo virāgo nirodho nibbānan’ti. ",
+            "de": "‚<span class=\"ebt-matched\">Das ist friedvoll</span>, das ist erhaben: nämlich das Beruhigen aller Vorgänge, das Loslassen aller Bindungen, das Beenden des Verlangens, das Schwinden, Aufhören, Erlöschen.‘ ",
+            "en": "‘This is peaceful; this is sublime—that is, the stilling of all activities, the letting go of all attachments, the ending of craving, fading away, cessation, extinguishment.’ ",
+            "matched": true
+          }
+        },
+        "score": 2.08,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 11.7\n1. Das Kapitel über Abhängigkeit\nWahrnehmungen",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 25,
+          "de": 24,
+          "en": 24
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.60_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.60_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.60_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.60",
+        "lang": "de",
+        "segMap": {
+          "an10.60:9.3": {
+            "scid": "an10.60:9.3",
+            "pli": "‘etaṁ santaṁ etaṁ paṇītaṁ yadidaṁ sabbasaṅkhārasamatho sabbūpadhippaṭinissaggo taṇhākkhayo virāgo nibbānan’ti. ",
+            "de": "‚<span class=\"ebt-matched\">Das ist friedvoll</span>, das ist erhaben: nämlich das Beruhigen aller Vorgänge, das Loslassen aller Bindungen, das Beenden des Verlangens, das Schwinden, das Erlöschen.‘ ",
+            "en": "‘This is peaceful; this is sublime—that is, the stilling of all activities, the letting go of all attachments, the ending of craving, fading away, extinguishment.’ ",
+            "matched": true
+          },
+          "an10.60:10.3": {
+            "scid": "an10.60:10.3",
+            "pli": "‘etaṁ santaṁ etaṁ paṇītaṁ yadidaṁ sabbasaṅkhārasamatho sabbūpadhippaṭinissaggo taṇhākkhayo nirodho nibbānan’ti. ",
+            "de": "‚<span class=\"ebt-matched\">Das ist friedvoll</span>, das ist erhaben: nämlich das Beruhigen aller Vorgänge, das Loslassen aller Bindungen, das Beenden des Verlangens, das Aufhören, das Erlöschen.‘ ",
+            "en": "‘This is peaceful; this is sublime—that is, the stilling of all activities, the letting go of all attachments, the ending of craving, cessation, extinguishment.’ ",
+            "matched": true
+          }
+        },
+        "score": 2.025,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10.60\n6. Das Kapitel über den eigenen Geist\nMit Girimānanda",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 80,
+          "de": 78,
+          "en": 78
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.6_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.6_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.6_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.6",
+        "lang": "de",
+        "segMap": {
+          "an10.6:3.2": {
+            "scid": "an10.6:3.2",
+            "pli": "‘etaṁ santaṁ etaṁ paṇītaṁ yadidaṁ sabbasaṅkhārasamatho sabbūpadhipaṭinissaggo taṇhākkhayo virāgo nirodho nibbānan’ti. ",
+            "de": "‚<span class=\"ebt-matched\">Das ist friedvoll</span>, das ist erhaben: nämlich das Beruhigen aller Vorgänge, das Loslassen aller Bindungen, das Beenden des Verlangens, das Schwinden, Aufhören, Erlöschen.‘ ",
+            "en": "‘This is peaceful; this is sublime—that is, the stilling of all activities, the letting go of all attachments, the ending of craving, fading away, cessation, extinguishment.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.091,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10.6\n1. Das Kapitel über vorteilhafte Folgen\nVersenkung",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 11,
+          "de": 10,
+          "en": 10
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an11/an11.18_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an11/an11.18_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an11/an11.18_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an11.18",
+        "lang": "de",
+        "segMap": {
+          "an11.18:5.2": {
+            "scid": "an11.18:5.2",
+            "pli": "‘etaṁ santaṁ etaṁ paṇītaṁ, yadidaṁ sabbasaṅkhārasamatho sabbūpadhipaṭinissaggo taṇhākkhayo virāgo nirodho nibbānan’ti. ",
+            "de": "‚<span class=\"ebt-matched\">Das ist friedvoll</span>, das ist erhaben: nämlich das Beruhigen aller Vorgänge, das Loslassen aller Bindungen, das Beenden des Verlangens, das Schwinden, Aufhören, Erlöschen.‘ ",
+            "en": "‘This is peaceful; this is sublime—that is, the stilling of all activities, the letting go of all attachments, the ending of craving, fading away, cessation, extinguishment.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.091,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 11.18\n2. Das Kapitel über Besinnung\nVersenkung (1)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 11,
+          "de": 10,
+          "en": 10
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an11/an11.20_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an11/an11.20_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an11/an11.20_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an11.20",
+        "lang": "de",
+        "segMap": {
+          "an11.20:4.2": {
+            "scid": "an11.20:4.2",
+            "pli": "‘etaṁ santaṁ etaṁ paṇītaṁ, yadidaṁ sabbasaṅkhārasamatho sabbūpadhipaṭinissaggo taṇhākkhayo virāgo nirodho nibbānan’ti. ",
+            "de": "‚<span class=\"ebt-matched\">Das ist friedvoll</span>, das ist erhaben: nämlich das Beruhigen aller Vorgänge, das Loslassen aller Bindungen, das Beenden des Verlangens, das Schwinden, Aufhören, Erlöschen.‘ ",
+            "en": "‘This is peaceful; this is sublime—that is, the stilling of all activities, the letting go of all attachments, the ending of craving, fading away, cessation, extinguishment.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.083,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 11.20\n2. Das Kapitel über Besinnung\nVersenkung (3)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 12,
+          "de": 11,
+          "en": 11
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an11/an11.8_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an11/an11.8_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an11/an11.8_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an11.8",
+        "lang": "de",
+        "segMap": {
+          "an11.8:5.2": {
+            "scid": "an11.8:5.2",
+            "pli": "‘etaṁ santaṁ etaṁ paṇītaṁ, yadidaṁ sabbasaṅkhārasamatho sabbūpadhipaṭinissaggo taṇhākkhayo virāgo nirodho nibbānan’ti. ",
+            "de": "‚<span class=\"ebt-matched\">Das ist friedvoll</span>, das ist erhaben: nämlich das Beruhigen aller Vorgänge, das Loslassen aller Bindungen, das Beenden des Verlangens, das Schwinden, Aufhören, Erlöschen.‘ ",
+            "en": "‘This is peaceful; this is sublime—that is, the stilling of all activities, the letting go of all attachments, the ending of craving, fading away, cessation, extinguishment.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.059,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 11.8\n1. Das Kapitel über Abhängigkeit\nAufmerksamkeit",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 17,
+          "de": 13,
+          "en": 16
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an11/an11.19_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an11/an11.19_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an11/an11.19_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an11.19",
+        "lang": "de",
+        "segMap": {
+          "an11.19:6.2": {
+            "scid": "an11.19:6.2",
+            "pli": "‘etaṁ santaṁ etaṁ paṇītaṁ, yadidaṁ sabbasaṅkhārasamatho sabbūpadhipaṭinissaggo taṇhākkhayo virāgo nirodho nibbānan’ti. ",
+            "de": "‚<span class=\"ebt-matched\">Das ist friedvoll</span>, das ist erhaben: nämlich das Beruhigen aller Vorgänge, das Loslassen aller Bindungen, das Beenden des Verlangens, das Schwinden, Aufhören, Erlöschen.‘ ",
+            "en": "‘This is peaceful; this is sublime—that is, the stilling of all activities, the letting go of all attachments, the ending of craving, fading away, cessation, extinguishment.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.056,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 11.19\n2. Das Kapitel über Besinnung\nVersenkung (2)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 18,
+          "de": 17,
+          "en": 17
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an3/an3.32_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an3/an3.32_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an3/an3.32_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an3.32",
+        "lang": "de",
+        "segMap": {
+          "an3.32:4.2": {
+            "scid": "an3.32:4.2",
+            "pli": "‘etaṁ santaṁ etaṁ paṇītaṁ yadidaṁ sabbasaṅkhārasamatho sabbūpadhipaṭinissaggo taṇhākkhayo virāgo nirodho nibbānan’ti. ",
+            "de": "‚<span class=\"ebt-matched\">Das ist friedvoll</span>, das ist erhaben: nämlich das Beruhigen aller Vorgänge, das Loslassen aller Bindungen, das Beenden des Verlangens, das Schwinden, Aufhören, Erlöschen.‘ ",
+            "en": "‘This is peaceful; this is sublime—that is, the stilling of all activities, the letting go of all attachments, the ending of craving, fading away, cessation, extinguishment.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.05,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 3.32\n4. Das Kapitel über Götterboten\nMit Ānanda",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 20,
+          "de": 19,
+          "en": 19
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an11/an11.21_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an11/an11.21_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an11/an11.21_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an11.21",
+        "lang": "de",
+        "segMap": {
+          "an11.21:6.2": {
+            "scid": "an11.21:6.2",
+            "pli": "‘etaṁ santaṁ etaṁ paṇītaṁ, yadidaṁ sabbasaṅkhārasamatho sabbūpadhipaṭinissaggo taṇhākkhayo virāgo nirodho nibbānan’ti. ",
+            "de": "‚<span class=\"ebt-matched\">Das ist friedvoll</span>, das ist erhaben: nämlich das Beruhigen aller Vorgänge, das Loslassen aller Bindungen, das Beenden des Verlangens, das Schwinden, Aufhören, Erlöschen.‘ ",
+            "en": "‘This is peaceful; this is sublime—that is, the stilling of all activities, the letting go of all attachments, the ending of craving, fading away, cessation, extinguishment.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.043,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 11.21\n2. Das Kapitel über Besinnung\nVersenkung (4)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 23,
+          "de": 16,
+          "en": 21
+        }
+      }
+    ]
+  }
+}

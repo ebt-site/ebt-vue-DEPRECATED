@@ -1,0 +1,115 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "sich vermischen",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "sich vermischen",
+    "method": "phrase",
+    "resultPattern": "\\bsich vermischen",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn26_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn26_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn26_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an2/an2.1-10_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an2/an2.1-10_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an2/an2.1-10_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "dn26/de/sabbamitta",
+      "an2.1-10/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an2/an2.1-10_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an2/an2.1-10_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an2/an2.1-10_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an2.1-10",
+        "lang": "de",
+        "segMap": {
+          "an2.9:1.5": {
+            "scid": "an2.9:1.5",
+            "pli": "Sambhedaṁ loko agamissa, yathā ajeḷakā kukkuṭasūkarā soṇasiṅgālā. ",
+            "de": "Die Welt würde <span class=\"ebt-matched\">sich vermischen</span> wie Ziegen und Schafe, Hühner und Schweine, Hunde und Schakale. ",
+            "en": "The world would become promiscuous, like goats and sheep, chickens and pigs, and dogs and jackals. ",
+            "matched": true
+          }
+        },
+        "score": 1.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 2.1–10\n1. Das Kapitel über Strafen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 125,
+          "de": 123,
+          "en": 99
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn26_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn26_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn26_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn26",
+        "lang": "de",
+        "segMap": {
+          "dn26:20.2": {
+            "scid": "dn26:20.2",
+            "pli": "Sambhedaṁ loko gamissati yathā ajeḷakā kukkuṭasūkarā soṇasiṅgālā. ",
+            "de": "Die Welt wird <span class=\"ebt-matched\">sich vermischen</span> wie Ziegen und Schafe, Hühner und Schweine, Hunde und Schakale. ",
+            "en": "The world will become promiscuous, like goats and sheep, chickens and pigs, and dogs and jackals. ",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 26\nDer Rad-drehende Herrscher",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 355,
+          "de": 331,
+          "en": 354
+        }
+      }
+    ]
+  }
+}

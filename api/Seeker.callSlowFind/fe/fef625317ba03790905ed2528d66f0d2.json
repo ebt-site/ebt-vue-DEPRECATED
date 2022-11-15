@@ -1,0 +1,118 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "stuck in the middle",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en"
+      ],
+      "maxResults": 1000,
+      "searchLang": "en",
+      "maxDoc": 50,
+      "minLang": 2,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "en",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "stuck in the middle",
+    "method": "phrase",
+    "resultPattern": "\\bstuck in the middle",
+    "segsMatched": 4,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/kn/snp/vagga5/snp5.3_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga5/snp5.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an6/an6.61_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an6/an6.61_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "snp5.3/en/sujato",
+      "an6.61/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga5/snp5.3_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga5/snp5.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp5.3",
+        "lang": "en",
+        "segMap": {
+          "snp5.3:1.5": {
+            "scid": "snp5.3:1.5",
+            "pli": "Majjhe mantā na lippati; ",
+            "en": "is not <span class=\"ebt-matched\">stuck in the middle</span>? ",
+            "matched": true
+          },
+          "snp5.3:3.2": {
+            "scid": "snp5.3:3.2",
+            "pli": "Majjhe mantā na lippati; ",
+            "en": "is not <span class=\"ebt-matched\">stuck in the middle</span>. ",
+            "matched": true
+          }
+        },
+        "score": 2.105,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses 5.3\nThe Questions of Tissametteyya",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 19,
+          "en": 18
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an6/an6.61_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an6/an6.61_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an6.61",
+        "lang": "en",
+        "segMap": {
+          "an6.61:2.2": {
+            "scid": "an6.61:2.2",
+            "pli": "majjhe mantā na lippati; ",
+            "en": "and is not <span class=\"ebt-matched\">stuck in the middle</span>: ",
+            "matched": true
+          },
+          "an6.61:11.2": {
+            "scid": "an6.61:11.2",
+            "pli": "majjhe mantā na lippati; ",
+            "en": "and is not <span class=\"ebt-matched\">stuck in the middle</span>. ",
+            "matched": true
+          }
+        },
+        "score": 2.036,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 6.61\n6. The Great Chapter\nIn the Middle",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 56,
+          "en": 55
+        }
+      }
+    ]
+  }
+}

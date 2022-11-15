@@ -1,0 +1,130 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "one taste",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en"
+      ],
+      "maxResults": 1000,
+      "searchLang": "en",
+      "maxDoc": 50,
+      "minLang": 2,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "en",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "one taste",
+    "method": "phrase",
+    "resultPattern": "\\bone taste",
+    "segsMatched": 6,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/kn/ud/vagga5/ud5.5_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/ud/vagga5/ud5.5_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an8/an8.19_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an8/an8.19_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "ud5.5/en/sujato",
+      "an8.19/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.19_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an8/an8.19_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an8.19",
+        "lang": "en",
+        "segMap": {
+          "an8.19:7.1": {
+            "scid": "an8.19:7.1",
+            "pli": "Puna caparaṁ, bhante, mahāsamuddo ekaraso loṇaraso. ",
+            "en": "Furthermore, the ocean has just <span class=\"ebt-matched\">one taste</span>, the taste of salt. ",
+            "matched": true
+          },
+          "an8.19:16.1": {
+            "scid": "an8.19:16.1",
+            "pli": "Seyyathāpi, pahārāda, mahāsamuddo ekaraso loṇaraso; ",
+            "en": "The ocean has just <span class=\"ebt-matched\">one taste</span>, the taste of salt. ",
+            "matched": true
+          },
+          "an8.19:16.2": {
+            "scid": "an8.19:16.2",
+            "pli": "evamevaṁ kho, pahārāda, ayaṁ dhammavinayo ekaraso, vimuttiraso. ",
+            "en": "In the same way, this teaching and training has <span class=\"ebt-matched\">one taste</span>, the taste of freedom. ",
+            "matched": true
+          }
+        },
+        "score": 3.04,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 8.19\n2. The Great Chapter\nWith Pahārāda",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 75,
+          "en": 74
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga5/ud5.5_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/ud/vagga5/ud5.5_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud5.5",
+        "lang": "en",
+        "segMap": {
+          "ud5.5:15.1": {
+            "scid": "ud5.5:15.1",
+            "pli": "Puna caparaṁ, bhikkhave, mahāsamuddo ekaraso loṇaraso. ",
+            "en": "Furthermore, the ocean has just <span class=\"ebt-matched\">one taste</span>, the taste of salt. ",
+            "matched": true
+          },
+          "ud5.5:24.1": {
+            "scid": "ud5.5:24.1",
+            "pli": "Seyyathāpi, bhikkhave, mahāsamuddo ekaraso loṇaraso; ",
+            "en": "The ocean has just <span class=\"ebt-matched\">one taste</span>, the taste of salt. ",
+            "matched": true
+          },
+          "ud5.5:24.2": {
+            "scid": "ud5.5:24.2",
+            "pli": "evamevaṁ kho, bhikkhave, ayaṁ dhammavinayo ekaraso vimuttiraso. ",
+            "en": "In the same way, this teaching and training has <span class=\"ebt-matched\">one taste</span>, the taste of freedom. ",
+            "matched": true
+          }
+        },
+        "score": 3.028,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Heartfelt Sayings 5.5\nSabbath",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 109,
+          "en": 89
+        }
+      }
+    ]
+  }
+}

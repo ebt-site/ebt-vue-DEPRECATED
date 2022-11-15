@@ -1,0 +1,188 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "the owner of",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en"
+      ],
+      "maxResults": 1000,
+      "searchLang": "en",
+      "maxDoc": 50,
+      "minLang": 2,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "en",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "the owner of",
+    "method": "phrase",
+    "resultPattern": "\\bthe owner of",
+    "segsMatched": 7,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an5/an5.57_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an5/an5.57_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn5_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn5_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.161_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an5/an5.161_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.48_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an10/an10.48_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an5.57/en/sujato",
+      "dn5/en/sujato",
+      "an5.161/en/sujato",
+      "an10.48/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an5/an5.57_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an5/an5.57_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an5.57",
+        "lang": "en",
+        "segMap": {
+          "an5.57:1.7": {
+            "scid": "an5.57:1.7",
+            "pli": "‘Kammassakomhi, kammadāyādo kammayoni kammabandhu kammapaṭisaraṇo. ",
+            "en": "‘I am <span class=\"ebt-matched\">the owner of</span> my deeds and heir to my deeds. Deeds are my womb, my relative, and my refuge. ",
+            "matched": true
+          },
+          "an5.57:6.1": {
+            "scid": "an5.57:6.1",
+            "pli": "Kiñca, bhikkhave, atthavasaṁ paṭicca ‘kammassakomhi, kammadāyādo kammayoni kammabandhu kammapaṭisaraṇo, yaṁ kammaṁ karissāmi—",
+            "en": "What is the advantage of often reviewing like this: ‘I am <span class=\"ebt-matched\">the owner of</span> my deeds and heir to my deeds. Deeds are my womb, my relative, and my refuge. ",
+            "matched": true
+          },
+          "an5.57:6.5": {
+            "scid": "an5.57:6.5",
+            "pli": "Idaṁ kho, bhikkhave, atthavasaṁ paṭicca ‘kammassakomhi, kammadāyādo kammayoni kammabandhu kammapaṭisaraṇo, yaṁ kammaṁ karissāmi—",
+            "en": "This is the advantage for a woman or a man, a layperson or a renunciate of often reviewing like this: ‘I am <span class=\"ebt-matched\">the owner of</span> my deeds and heir to my deeds. Deeds are my womb, my relative, and my refuge. ",
+            "matched": true
+          },
+          "an5.57:11.1": {
+            "scid": "an5.57:11.1",
+            "pli": "‘Na kho ahaññeveko kammassako kammadāyādo kammayoni kammabandhu kammapaṭisaraṇo, yaṁ kammaṁ karissāmi—kalyāṇaṁ vā pāpakaṁ vā—tassa dāyādo bhavissāmi; ",
+            "en": "‘It’s not just me who shall be <span class=\"ebt-matched\">the owner of</span> my deeds and heir to my deeds. ",
+            "matched": true
+          }
+        },
+        "score": 4.051,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 5.57\n6. Hindrances\nSubjects for Regular Reviewing",
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 78,
+          "en": 77
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.48_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an10/an10.48_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.48",
+        "lang": "en",
+        "segMap": {
+          "an10.48:8.1": {
+            "scid": "an10.48:8.1",
+            "pli": "‘Kammassakomhi kammadāyādo kammayoni kammabandhu kammapaṭisaraṇo, ",
+            "en": "‘I am <span class=\"ebt-matched\">the owner of</span> my deeds and heir to my deeds. Deeds are my womb, my relative, and my refuge. ",
+            "matched": true
+          }
+        },
+        "score": 1.056,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 10.48\n5. Abuse\nTen Regular Reflections for a Renunciate",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 18,
+          "en": 17
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an5/an5.161_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an5/an5.161_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an5.161",
+        "lang": "en",
+        "segMap": {
+          "an5.161:1.12": {
+            "scid": "an5.161:1.12",
+            "pli": "‘kammassako ayamāyasmā kammadāyādo kammayoni kammabandhu kammapaṭisaraṇo, ",
+            "en": "‘This venerable is <span class=\"ebt-matched\">the owner of</span> their deeds and heir to their deeds. Deeds are their womb, their relative, and their refuge. ",
+            "matched": true
+          }
+        },
+        "score": 1.053,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 5.161\n17. Resentment\nGetting Rid of Resentment (1st)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 19,
+          "en": 18
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn5_root-pli-ms.json",
+          "translation/en/sujato/sutta/dn/dn5_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn5",
+        "lang": "en",
+        "segMap": {
+          "dn5:21.14": {
+            "scid": "dn5:21.14",
+            "pli": "‘addhā samaṇo gotamo tena samayena rājā vā ahosi mahāvijito yaññassāmi purohito vā brāhmaṇo tassa yaññassa yājetā’ti. ",
+            "en": "the ascetic Gotama at that time must have been King Mahāvijita, <span class=\"ebt-matched\">the owner of</span> the sacrifice, or else the brahmin high priest who facilitated the sacrifice for him. ",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Long Discourses 5\nWith Kūṭadanta",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 374,
+          "en": 373
+        }
+      }
+    ]
+  }
+}

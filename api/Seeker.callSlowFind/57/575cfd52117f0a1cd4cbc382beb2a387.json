@@ -1,0 +1,79 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "leiden bringen",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "leiden bringen",
+    "method": "phrase",
+    "resultPattern": "\\bleiden bringen",
+    "segsMatched": 1,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn1/sn1.24_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn1/sn1.24_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn1/sn1.24_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn1.24/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn1/sn1.24_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn1/sn1.24_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn1/sn1.24_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn1.24",
+        "lang": "de",
+        "segMap": {
+          "sn1.24:1.2": {
+            "scid": "sn1.24:1.2",
+            "pli": "Na dukkhameti naṁ tato tato; ",
+            "de": "all das kann dir kein <span class=\"ebt-matched\">Leiden bringen</span>. ",
+            "en": "can’t cause you suffering. ",
+            "matched": true
+          }
+        },
+        "score": 1.091,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 1.24\n3. Das Kapitel über ein Schwert\nDen Geist abschirmen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 11,
+          "de": 11,
+          "en": 11
+        }
+      }
+    ]
+  }
+}

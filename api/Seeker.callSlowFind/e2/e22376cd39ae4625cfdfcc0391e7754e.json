@@ -1,0 +1,118 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "kind of teacher",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en"
+      ],
+      "maxResults": 1000,
+      "searchLang": "en",
+      "maxDoc": 50,
+      "minLang": 2,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "en",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "kind of teacher",
+    "method": "phrase",
+    "resultPattern": "\\bkind of teacher",
+    "segsMatched": 4,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn12_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn12_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.32_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an5/an5.32_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "dn12/en/sujato",
+      "an5.32/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn12_root-pli-ms.json",
+          "translation/en/sujato/sutta/dn/dn12_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn12",
+        "lang": "en",
+        "segMap": {
+          "dn12:16.15": {
+            "scid": "dn12:16.15",
+            "pli": "Ayaṁ kho, lohicca, paṭhamo satthā, yo loke codanāraho; ",
+            "en": "This is the first <span class=\"ebt-matched\">kind of teacher</span> who deserves to be reprimanded. ",
+            "matched": true
+          },
+          "dn12:17.10": {
+            "scid": "dn12:17.10",
+            "pli": "Ayaṁ kho, lohicca, dutiyo satthā, yo, loke codanāraho; ",
+            "en": "This is the second <span class=\"ebt-matched\">kind of teacher</span> who deserves to be reprimanded. ",
+            "matched": true
+          },
+          "dn12:18.12": {
+            "scid": "dn12:18.12",
+            "pli": "Ayaṁ kho, lohicca, tatiyo satthā, yo loke codanāraho; ",
+            "en": "This is the third <span class=\"ebt-matched\">kind of teacher</span> who deserves to be reprimanded. ",
+            "matched": true
+          }
+        },
+        "score": 3.016,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Long Discourses 12\nWith Lohicca",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 189,
+          "en": 188
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an5/an5.32_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an5/an5.32_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an5.32",
+        "lang": "en",
+        "segMap": {
+          "an5.32:2.4": {
+            "scid": "an5.32:2.4",
+            "pli": "‘kathaṁrūpe kho, bhante, satthari pasanno kāyassa bhedā paraṁ maraṇā sugatiṁyeva upapajjati, no duggatiṁ? ",
+            "en": "Sir, what <span class=\"ebt-matched\">kind of teacher</span> should you have confidence in so as to be reborn in a good place, not a bad place, when the body breaks up, after death? ",
+            "matched": true
+          }
+        },
+        "score": 1.022,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 5.32\n4. With Sumanā\nWith Cundī",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 46,
+          "en": 45
+        }
+      }
+    ]
+  }
+}

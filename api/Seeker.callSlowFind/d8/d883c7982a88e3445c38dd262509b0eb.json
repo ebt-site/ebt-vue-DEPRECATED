@@ -1,0 +1,106 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "grasp at the middle",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en"
+      ],
+      "maxResults": 1000,
+      "searchLang": "en",
+      "maxDoc": 50,
+      "minLang": 2,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "en",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "grasp at the middle",
+    "method": "phrase",
+    "resultPattern": "\\bgrasp at the middle",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/kn/snp/vagga5/snp5.12_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga5/snp5.12_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga4/snp4.15_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga4/snp4.15_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "snp5.12/en/sujato",
+      "snp4.15/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga5/snp5.12_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga5/snp5.12_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp5.12",
+        "lang": "en",
+        "segMap": {
+          "snp5.12:4.3": {
+            "scid": "snp5.12:4.3",
+            "pli": "Majjhe ce no gahessasi, ",
+            "en": "If you don’t <span class=\"ebt-matched\">grasp at the middle</span>, ",
+            "matched": true
+          }
+        },
+        "score": 1.038,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses 5.12\nThe Questions of Jatukaṇṇī",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 26,
+          "en": 25
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga4/snp4.15_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga4/snp4.15_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp4.15",
+        "lang": "en",
+        "segMap": {
+          "snp4.15:15.3": {
+            "scid": "snp4.15:15.3",
+            "pli": "Majjhe ce no gahessasi, ",
+            "en": "If you don’t <span class=\"ebt-matched\">grasp at the middle</span>, ",
+            "matched": true
+          }
+        },
+        "score": 1.012,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses 4.15\nTaking Up Arms",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 84,
+          "en": 83
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "lieber hast als dich selbst",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "lieber hast als dich selbst",
+    "method": "phrase",
+    "resultPattern": "\\blieber hast als dich selbst",
+    "segsMatched": 4,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn3/sn3.8_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn3/sn3.8_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn3/sn3.8_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga5/ud5.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/ud/vagga5/ud5.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/ud/vagga5/ud5.1_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn3.8/de/sabbamitta",
+      "ud5.1/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn3/sn3.8_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn3/sn3.8_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn3/sn3.8_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn3.8",
+        "lang": "de",
+        "segMap": {
+          "sn3.8:1.4": {
+            "scid": "sn3.8:1.4",
+            "pli": "“atthi nu kho te, mallike, kocañño attanā piyataro”ti? ",
+            "de": "„Mallikā, gibt es jemanden, den du <span class=\"ebt-matched\">lieber hast als dich selbst</span>?“ ",
+            "en": "“Mallikā, is there anyone more dear to you than yourself?” ",
+            "matched": true
+          },
+          "sn3.8:1.6": {
+            "scid": "sn3.8:1.6",
+            "pli": "Tuyhaṁ pana, mahārāja, atthañño koci attanā piyataro”ti? ",
+            "de": "Aber gibt es jemanden, den du <span class=\"ebt-matched\">lieber hast als dich selbst</span>?“ ",
+            "en": "But is there anyone more dear to you than yourself?” ",
+            "matched": true
+          }
+        },
+        "score": 2.087,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 3.8\n1. Das Kapitel über Fesseln\nMit der Königin Mallikā",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 23,
+          "de": 16,
+          "en": 23
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga5/ud5.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/ud/vagga5/ud5.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/ud/vagga5/ud5.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud5.1",
+        "lang": "de",
+        "segMap": {
+          "ud5.1:1.5": {
+            "scid": "ud5.1:1.5",
+            "pli": "“atthi nu kho te, mallike, kocañño attanā piyataro”ti? ",
+            "de": "„Mallikā, gibt es jemanden, den du <span class=\"ebt-matched\">lieber hast als dich selbst</span>?“ ",
+            "en": "“Mallikā, is there anyone more dear to you than yourself?” ",
+            "matched": true
+          },
+          "ud5.1:2.2": {
+            "scid": "ud5.1:2.2",
+            "pli": "Tuyhaṁ pana, mahārāja, atthañño koci attanā piyataro”ti? ",
+            "de": "Aber gibt es jemanden, den du <span class=\"ebt-matched\">lieber hast als dich selbst</span>?“ ",
+            "en": "But is there anyone more dear to you than yourself?” ",
+            "matched": true
+          }
+        },
+        "score": 2.083,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Innige Sprüche 5.1\nWer ist lieber?",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 24,
+          "de": 16,
+          "en": 15
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "das selbst ist",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "das selbst ist",
+    "method": "phrase",
+    "resultPattern": "\\bdas selbst ist",
+    "segsMatched": 13,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn24/sn24.37_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn24/sn24.37_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn24/sn24.37_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn24/sn24.40_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn24/sn24.40_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn24/sn24.40_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn24/sn24.39_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn24/sn24.39_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn24/sn24.39_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn24/sn24.38_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn24/sn24.38_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn24/sn24.38_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn24.37/de/sabbamitta",
+      "sn24.40/de/sabbamitta",
+      "sn24.39/de/sabbamitta",
+      "sn24.38/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn24/sn24.37_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn24/sn24.37_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn24/sn24.37_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn24.37",
+        "lang": "de",
+        "segMap": {
+          "sn24.37:0.3": {
+            "scid": "sn24.37:0.3",
+            "pli": "Rūpīattāsutta ",
+            "de": "<span class=\"ebt-matched\">Das Selbst ist</span> materiell ",
+            "en": "The Self Has Form ",
+            "matched": true
+          },
+          "sn24.37:1.3": {
+            "scid": "sn24.37:1.3",
+            "pli": "‘rūpī attā hoti arogo paraṁ maraṇā’”ti? ",
+            "de": "‚<span class=\"ebt-matched\">Das Selbst ist</span> nach dem Tod materiell und gesund‘?“ ",
+            "en": "‘The self has form and is well after death’?” … ",
+            "matched": true
+          },
+          "sn24.37:2.2": {
+            "scid": "sn24.37:2.2",
+            "pli": "‘rūpī attā hoti arogo paraṁ maraṇā’ti. ",
+            "de": "‚<span class=\"ebt-matched\">Das Selbst ist</span> nach dem Tod materiell und gesund.‘ ",
+            "en": "",
+            "matched": true
+          },
+          "sn24.37:2.7": {
+            "scid": "sn24.37:2.7",
+            "pli": "‘rūpī attā hoti arogo paraṁ maraṇā’ti. ",
+            "de": "‚<span class=\"ebt-matched\">Das Selbst ist</span> nach dem Tod materiell und gesund.‘ ",
+            "en": "",
+            "matched": true
+          },
+          "sn24.37:3.4": {
+            "scid": "sn24.37:3.4",
+            "pli": "‘rūpī attā hoti arogo paraṁ maraṇā’”ti? ",
+            "de": "‚<span class=\"ebt-matched\">Das Selbst ist</span> nach dem Tod materiell und gesund‘?“ ",
+            "en": "",
+            "matched": true
+          },
+          "sn24.37:3.7": {
+            "scid": "sn24.37:3.7",
+            "pli": "‘rūpī attā hoti arogo paraṁ maraṇā’”ti? ",
+            "de": "‚<span class=\"ebt-matched\">Das Selbst ist</span> nach dem Tod materiell und gesund.‘“ … ",
+            "en": "",
+            "matched": true
+          },
+          "sn24.37:3.11": {
+            "scid": "sn24.37:3.11",
+            "pli": "‘rūpī attā hoti arogo paraṁ maraṇā’”ti. ",
+            "de": "‚<span class=\"ebt-matched\">Das Selbst ist</span> nach dem Tod materiell und gesund.‘“ ",
+            "en": "",
+            "matched": true
+          }
+        },
+        "score": 7.269,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 24.37\n2. Das Kapitel über die zweite Runde\nDas Selbst ist materiell",
+        "segsMatched": 7,
+        "langSegs": {
+          "pli": 26,
+          "de": 24,
+          "en": 25
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn24/sn24.40_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn24/sn24.40_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn24/sn24.40_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn24.40",
+        "lang": "de",
+        "segMap": {
+          "sn24.40:0.3": {
+            "scid": "sn24.40:0.3",
+            "pli": "Nevarūpīnārūpīattāsutta ",
+            "de": "<span class=\"ebt-matched\">Das Selbst ist</span> weder materiell noch immateriell ",
+            "en": "The Self Neither Has Form Nor Is Formless ",
+            "matched": true
+          },
+          "sn24.40:1.1": {
+            "scid": "sn24.40:1.1",
+            "pli": "“Neva rūpī nārūpī attā hoti arogo paraṁ maraṇā”ti …pe…. ",
+            "de": "„… ‚<span class=\"ebt-matched\">Das Selbst ist</span> nach dem Tod weder materiell noch immateriell, und es ist gesund‘?“ … ",
+            "en": "“‘The self neither has form nor is formless, and is well after death’?” … ",
+            "matched": true
+          }
+        },
+        "score": 2.4,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 24.40\n2. Das Kapitel über die zweite Runde\nDas Selbst ist weder materiell noch immateriell",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 5,
+          "de": 4,
+          "en": 4
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn24/sn24.39_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn24/sn24.39_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn24/sn24.39_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn24.39",
+        "lang": "de",
+        "segMap": {
+          "sn24.39:0.3": {
+            "scid": "sn24.39:0.3",
+            "pli": "Rūpīcaarūpīcaattāsutta ",
+            "de": "<span class=\"ebt-matched\">Das Selbst ist</span> sowohl materiell als auch immateriell ",
+            "en": "The Self Has Form and Is Formless ",
+            "matched": true
+          },
+          "sn24.39:1.2": {
+            "scid": "sn24.39:1.2",
+            "pli": "“Rūpī ca arūpī ca attā hoti arogo paraṁ maraṇā”ti …pe…. ",
+            "de": "„… ‚<span class=\"ebt-matched\">Das Selbst ist</span> nach dem Tod sowohl materiell als auch immateriell und gesund‘?“ … ",
+            "en": "“‘The self has form and is formless, and is well after death’?” … ",
+            "matched": true
+          }
+        },
+        "score": 2.333,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 24.39\n2. Das Kapitel über die zweite Runde\nDas Selbst ist sowohl materiell als auch immateriell",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 6,
+          "de": 5,
+          "en": 5
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn24/sn24.38_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn24/sn24.38_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn24/sn24.38_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn24.38",
+        "lang": "de",
+        "segMap": {
+          "sn24.38:0.3": {
+            "scid": "sn24.38:0.3",
+            "pli": "Arūpīattāsutta ",
+            "de": "<span class=\"ebt-matched\">Das Selbst ist</span> immateriell ",
+            "en": "The Self Is Formless ",
+            "matched": true
+          },
+          "sn24.38:1.3": {
+            "scid": "sn24.38:1.3",
+            "pli": "‘arūpī attā hoti arogo paraṁ maraṇā’”ti? ",
+            "de": "‚<span class=\"ebt-matched\">Das Selbst ist</span> nach dem Tod immateriell und gesund‘?“ … ",
+            "en": "‘The self is formless and is well after death’?” … ",
+            "matched": true
+          }
+        },
+        "score": 2.25,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 24.38\n2. Das Kapitel über die zweite Runde\nDas Selbst ist immateriell",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 8,
+          "de": 6,
+          "en": 7
+        }
+      }
+    ]
+  }
+}

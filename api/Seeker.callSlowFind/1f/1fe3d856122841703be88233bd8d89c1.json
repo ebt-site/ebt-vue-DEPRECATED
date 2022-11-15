@@ -1,0 +1,215 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "verloren, wenn er stirbt",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "verloren, wenn er stirbt",
+    "method": "phrase",
+    "resultPattern": "\\bverloren, wenn er stirbt",
+    "segsMatched": 8,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/kn/ud/vagga8/ud8.6_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/ud/vagga8/ud8.6_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/ud/vagga8/ud8.6_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.213_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an5/an5.213_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an5/an5.213_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "ud8.6/de/sabbamitta",
+      "dn33/de/sabbamitta",
+      "dn16/de/sabbamitta",
+      "an5.213/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an5/an5.213_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an5/an5.213_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an5/an5.213_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an5.213",
+        "lang": "de",
+        "segMap": {
+          "an5.213:4.1": {
+            "scid": "an5.213:4.1",
+            "pli": "Puna caparaṁ, bhikkhave, dussīlo sīlavipanno sammūḷho kālaṁ karoti. ",
+            "de": "Dann fühlt sich da ein unmoralischer Mensch <span class=\"ebt-matched\">verloren, wenn er stirbt</span>. ",
+            "en": "Furthermore, an unethical person feels lost when they die. ",
+            "matched": true
+          },
+          "an5.213:9.1": {
+            "scid": "an5.213:9.1",
+            "pli": "Puna caparaṁ, bhikkhave, sīlavā sīlasampanno asammūḷho kālaṁ karoti. ",
+            "de": "Dann fühlt sich da ein sittlicher Mensch nicht <span class=\"ebt-matched\">verloren, wenn er stirbt</span>. ",
+            "en": "Furthermore, an ethical person dies not feeling lost. ",
+            "matched": true
+          }
+        },
+        "score": 2.067,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 5.213\n22. Das Kapitel über Beschimpfung\nSittliches Verhalten",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 30,
+          "de": 29,
+          "en": 29
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga8/ud8.6_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/ud/vagga8/ud8.6_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/ud/vagga8/ud8.6_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud8.6",
+        "lang": "de",
+        "segMap": {
+          "ud8.6:7.1": {
+            "scid": "ud8.6:7.1",
+            "pli": "Puna caparaṁ, gahapatayo, dussīlo sīlavipanno sammūḷho kālaṁ karoti. ",
+            "de": "Dann fühlt sich da ein unmoralischer Mensch <span class=\"ebt-matched\">verloren, wenn er stirbt</span>. ",
+            "en": "Furthermore, an unethical person feels lost when they die. ",
+            "matched": true
+          },
+          "ud8.6:12.1": {
+            "scid": "ud8.6:12.1",
+            "pli": "Puna caparaṁ, gahapatayo, sīlavā sīlasampanno asammūḷho kālaṁ karoti. ",
+            "de": "Dann fühlt sich da ein sittlicher Mensch nicht <span class=\"ebt-matched\">verloren, wenn er stirbt</span>. ",
+            "en": "Furthermore, an ethical person dies not feeling lost. ",
+            "matched": true
+          }
+        },
+        "score": 2.019,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Innige Sprüche 8.6\nDie Laien vom Dorf Pāṭali",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 107,
+          "de": 99,
+          "en": 98
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn33",
+        "lang": "de",
+        "segMap": {
+          "dn33:2.1.43": {
+            "scid": "dn33:2.1.43",
+            "pli": "Puna caparaṁ, āvuso, dussīlo sīlavipanno sammūḷho kālaṁ karoti, ",
+            "de": "Dann fühlt sich da ein unmoralischer Mensch <span class=\"ebt-matched\">verloren, wenn er stirbt</span>. ",
+            "en": "Furthermore, an unethical person feels lost when they die. ",
+            "matched": true
+          },
+          "dn33:2.1.54": {
+            "scid": "dn33:2.1.54",
+            "pli": "Puna caparaṁ, āvuso, sīlavā sīlasampanno asammūḷho kālaṁ karoti, ",
+            "de": "Dann fühlt sich da ein sittlicher Mensch nicht <span class=\"ebt-matched\">verloren, wenn er stirbt</span>. ",
+            "en": "Furthermore, an ethical person dies not feeling lost. ",
+            "matched": true
+          }
+        },
+        "score": 2.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 33\nIm Chor aufsagen",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 1167,
+          "de": 1166,
+          "en": 1166
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn16",
+        "lang": "de",
+        "segMap": {
+          "dn16:1.23.10": {
+            "scid": "dn16:1.23.10",
+            "pli": "Puna caparaṁ, gahapatayo, dussīlo sīlavipanno sammūḷho kālaṁ karoti. ",
+            "de": "Dann fühlt sich da ein unmoralischer Mensch <span class=\"ebt-matched\">verloren, wenn er stirbt</span>. ",
+            "en": "Furthermore, an unethical person feels lost when they die. ",
+            "matched": true
+          },
+          "dn16:1.24.9": {
+            "scid": "dn16:1.24.9",
+            "pli": "Puna caparaṁ, gahapatayo, sīlavā sīlasampanno asammūḷho kālaṁ karoti. ",
+            "de": "Dann fühlt sich da ein sittlicher Mensch nicht <span class=\"ebt-matched\">verloren, wenn er stirbt</span>. ",
+            "en": "Furthermore, an ethical person dies not feeling lost. ",
+            "matched": true
+          }
+        },
+        "score": 2.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 16\nDie große Lehrrede vom Erlöschen des Buddha",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 1665,
+          "de": 1578,
+          "en": 1559
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "achtsamkeit und meine weisheit",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "achtsamkeit und meine weisheit",
+    "method": "phrase",
+    "resultPattern": "\\bachtsamkeit und meine weisheit",
+    "segsMatched": 1,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn4/sn4.22_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn4/sn4.22_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn4/sn4.22_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn4.22/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn4/sn4.22_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn4/sn4.22_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn4/sn4.22_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn4.22",
+        "lang": "de",
+        "segMap": {
+          "sn4.22:4.3": {
+            "scid": "sn4.22:4.3",
+            "pli": "Sati paññā ca me buddhā, ",
+            "de": "Meine <span class=\"ebt-matched\">Achtsamkeit und meine Weisheit</span> sind reif, ",
+            "en": "My mindfulness and wisdom are mature, ",
+            "matched": true
+          }
+        },
+        "score": 1.026,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 4.22\n3. Das Kapitel über Māra\nMit Samiddhi",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 39,
+          "de": 29,
+          "en": 39
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "there are these five hindrances",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en"
+      ],
+      "maxResults": 1000,
+      "searchLang": "en",
+      "maxDoc": 50,
+      "minLang": 2,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "en",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "there are these five hindrances",
+    "method": "phrase",
+    "resultPattern": "\\bthere are these five hindrances",
+    "segsMatched": 3,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn45/sn45.177_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn45/sn45.177_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn99_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn99_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an9/an9.64_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an9/an9.64_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn45.177/en/sujato",
+      "mn99/en/sujato",
+      "an9.64/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn45/sn45.177_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn45/sn45.177_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn45.177",
+        "lang": "en",
+        "segMap": {
+          "sn45.177:1.1": {
+            "scid": "sn45.177:1.1",
+            "pli": "“Pañcimāni, bhikkhave, nīvaraṇāni. ",
+            "en": "“Mendicants, <span class=\"ebt-matched\">there are these five hindrances</span>. ",
+            "matched": true
+          }
+        },
+        "score": 1.111,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 45.177\n14. Floods\nHindrances",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 9,
+          "en": 8
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an9/an9.64_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an9/an9.64_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an9.64",
+        "lang": "en",
+        "segMap": {
+          "an9.64:1.1": {
+            "scid": "an9.64:1.1",
+            "pli": "“Pañcimāni, bhikkhave, nīvaraṇāni. ",
+            "en": "“Mendicants, <span class=\"ebt-matched\">there are these five hindrances</span>. ",
+            "matched": true
+          }
+        },
+        "score": 1.067,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 9.64\n7. Mindfulness Meditation\nHindrances",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 15,
+          "en": 14
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn99_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn99_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn99",
+        "lang": "en",
+        "segMap": {
+          "mn99:15.1": {
+            "scid": "mn99:15.1",
+            "pli": "“Pañca kho ime, māṇava, nīvaraṇā. ",
+            "en": "“Student, <span class=\"ebt-matched\">there are these five hindrances</span>. ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Middle Discourses 99\nWith Subha",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 270,
+          "en": 269
+        }
+      }
+    ]
+  }
+}
