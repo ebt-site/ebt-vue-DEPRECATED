@@ -32,7 +32,7 @@
     "pattern": "leere.* hütten",
     "method": "phrase",
     "resultPattern": "\\bleere.* hütten",
-    "segsMatched": 11,
+    "segsMatched": 12,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an10/an10.71_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.71_translation-de-sabbamitta.json",
@@ -43,6 +43,9 @@
       "root/pli/ms/sutta/sn/sn47/sn47.10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn47/sn47.10_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn47/sn47.10_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn35/sn35.146_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn35/sn35.146_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.146_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an9/an9.19_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an9/an9.19_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an9/an9.19_translation-en-sujato.json",
@@ -63,6 +66,7 @@
       "an10.71/de/sabbamitta",
       "dn25/de/sabbamitta",
       "sn47.10/de/sabbamitta",
+      "sn35.146/de/sabbamitta",
       "an9.19/de/sabbamitta",
       "an7.74/de/sabbamitta",
       "an5.74/de/sabbamitta",
@@ -212,6 +216,38 @@
         "maxWord": 30,
         "minWord": 5,
         "title": "Nummerierte Lehrreden 5.74\n8. Das Kapitel über einen Krieger\nMit der Lehre leben (2)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 24,
+          "de": 23,
+          "en": 23
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn35/sn35.146_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn35/sn35.146_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn35/sn35.146_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn35.146",
+        "lang": "de",
+        "segMap": {
+          "sn35.146:1.20": {
+            "scid": "sn35.146:1.20",
+            "pli": "Etāni, bhikkhave, rukkhamūlāni, etāni suññāgārāni. Jhāyatha, bhikkhave, mā pamādattha; mā pacchāvippaṭisārino ahuvattha. Ayaṁ vo amhākaṁ anusāsanī”ti. ",
+            "de": "Hier sind Plätze am Fuß von Bäumen, und hier sind <span class=\"ebt-matched\">leere Hütten</span>. Übt die Vertiefungen, Mönche und Nonnen! Seid nicht nachlässig! Nicht, dass ihr es später bereut! Das ist meine Anweisung für euch.“ ",
+            "en": "Here are these roots of trees, and here are these empty huts. Practice absorption, mendicants! Don’t be negligent! Don’t regret it later! This is my instruction to you.” ",
+            "matched": true
+          }
+        },
+        "score": 1.042,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 35.146\n15. Das Kapitel über das Alte und das Neue\nDas Aufhören der Taten",
         "segsMatched": 1,
         "langSegs": {
           "pli": 24,

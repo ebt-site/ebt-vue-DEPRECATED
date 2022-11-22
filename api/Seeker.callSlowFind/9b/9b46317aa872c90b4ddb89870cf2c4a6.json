@@ -32,14 +32,18 @@
     "pattern": "in leiden und unbehagen",
     "method": "phrase",
     "resultPattern": "\\bin leiden und unbehagen",
-    "segsMatched": 6,
+    "segsMatched": 10,
     "bilaraPaths": [
       "root/pli/ms/sutta/kn/ud/vagga4/ud4.5_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga4/ud4.5_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/kn/ud/vagga4/ud4.5_translation-en-sujato.json"
+      "translation/en/sujato/sutta/kn/ud/vagga4/ud4.5_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn35/sn35.151_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn35/sn35.151_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.151_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "ud4.5/de/sabbamitta"
+      "ud4.5/de/sabbamitta",
+      "sn35.151/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -107,6 +111,59 @@
           "pli": 33,
           "de": 32,
           "en": 32
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn35/sn35.151_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn35/sn35.151_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn35/sn35.151_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn35.151",
+        "lang": "de",
+        "segMap": {
+          "sn35.151:1.2": {
+            "scid": "sn35.151:1.2",
+            "pli": "Santevāsiko, bhikkhave, bhikkhu sācariyako dukkhaṁ na phāsu viharati. ",
+            "de": "Ein Mönch, der mit einem ansässigen Schüler und einem belehrenden Meister lebt, lebt <span class=\"ebt-matched\">in Leiden und Unbehagen</span>. ",
+            "en": "A mendicant who lives with a resident student and a teaching master lives in suffering and discomfort. ",
+            "matched": true
+          },
+          "sn35.151:1.4": {
+            "scid": "sn35.151:1.4",
+            "pli": "Kathañca, bhikkhu, santevāsiko sācariyako dukkhaṁ na phāsu viharati? ",
+            "de": "Und wie lebt ein Mönch, der mit einem ansässigen Schüler und einem belehrenden Meister lebt, <span class=\"ebt-matched\">in Leiden und Unbehagen</span>? ",
+            "en": "And how does a mendicant who lives with a resident student and a teaching master live in suffering and discomfort? ",
+            "matched": true
+          },
+          "sn35.151:3.6": {
+            "scid": "sn35.151:3.6",
+            "pli": "Evaṁ kho, bhikkhave, bhikkhu santevāsiko sācariyako dukkhaṁ, na phāsu viharati. ",
+            "de": "So lebt ein Mönch, der mit einem ansässigen Schüler und einem belehrenden Meister lebt, <span class=\"ebt-matched\">in Leiden und Unbehagen</span>. ",
+            "en": "That’s how a mendicant who lives with a resident student and a teaching master lives in suffering and discomfort. ",
+            "matched": true
+          },
+          "sn35.151:6.8": {
+            "scid": "sn35.151:6.8",
+            "pli": "Anācariyakaṁ santevāsiko, bhikkhave, bhikkhu sācariyako dukkhaṁ, na phāsu viharati. ",
+            "de": "Ein Mönch, der mit einem ansässigen Schüler und einem belehrenden Meister lebt, lebt <span class=\"ebt-matched\">in Leiden und Unbehagen</span>. ",
+            "en": "A mendicant who lives with a resident student and a teaching master lives in suffering and discomfort. ",
+            "matched": true
+          }
+        },
+        "score": 4.095,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 35.151\n15. Das Kapitel über das Alte und das Neue\nEin Schüler",
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 42,
+          "de": 35,
+          "en": 41
         }
       }
     ]

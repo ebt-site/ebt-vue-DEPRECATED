@@ -32,7 +32,7 @@
     "pattern": "ins leiden verstrickt",
     "method": "phrase",
     "resultPattern": "\\bins leiden verstrickt",
-    "segsMatched": 6,
+    "segsMatched": 7,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an3/an3.40_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.40_translation-de-sabbamitta.json",
@@ -43,6 +43,9 @@
       "root/pli/ms/sutta/sn/sn10/sn10.7_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn10/sn10.7_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn10/sn10.7_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga10/iti91_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/iti/vagga10/iti91_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/iti/vagga10/iti91_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.122_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.122_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.122_translation-en-sujato.json"
@@ -51,6 +54,7 @@
       "an3.40/de/sabbamitta",
       "sn22.80/de/sabbamitta",
       "sn10.7/de/sabbamitta",
+      "iti91/de/sabbamitta",
       "an4.122/de/sabbamitta"
     ],
     "mlDocs": [
@@ -98,6 +102,38 @@
           "pli": 75,
           "de": 73,
           "en": 73
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga10/iti91_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/iti/vagga10/iti91_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/iti/vagga10/iti91_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti91",
+        "lang": "de",
+        "segMap": {
+          "iti91:2.5": {
+            "scid": "iti91:2.5",
+            "pli": "Api ca kho ‘otiṇṇamhā jātiyā jarāya maraṇena sokehi paridevehi dukkhehi domanassehi upāyāsehi dukkhotiṇṇā dukkhaparetā, ",
+            "de": "sondern weil sie in Wiedergeburt, Alter und Tod versunken sind, in Kummer, Klage, Schmerz, Traurigkeit und Bedrängnis; weil sie im Leiden versunken sind, <span class=\"ebt-matched\">ins Leiden verstrickt</span>. ",
+            "en": "Rather, because they think: ‘I’m swamped by rebirth, old age, and death; by sorrow, lamentation, pain, sadness, and distress. I’m swamped by suffering, mired in suffering. ",
+            "matched": true
+          }
+        },
+        "score": 1.032,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So wurde es gesagt 91\nDas Dreierbuch\n5. Das fünfte Kapitel\nLebensstil",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 31,
+          "de": 30,
+          "en": 30
         }
       },
       {
