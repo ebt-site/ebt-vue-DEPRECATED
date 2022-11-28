@@ -32,11 +32,14 @@
     "pattern": "erde, wasser, feuer und luft",
     "method": "phrase",
     "resultPattern": "\\berde, wasser, feuer und luft",
-    "segsMatched": 9,
+    "segsMatched": 10,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an3/an3.75_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.75_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.75_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn35/sn35.245_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn35/sn35.245_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.245_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn35/sn35.238_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn35/sn35.238_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.238_translation-en-sujato.json",
@@ -61,6 +64,7 @@
     ],
     "suttaRefs": [
       "an3.75/de/sabbamitta",
+      "sn35.245/de/sabbamitta",
       "sn35.238/de/sabbamitta",
       "sn24.8/de/sabbamitta",
       "sn14.38/de/sabbamitta",
@@ -299,6 +303,38 @@
           "pli": 58,
           "de": 56,
           "en": 57
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn35/sn35.245_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn35/sn35.245_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn35/sn35.245_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn35.245",
+        "lang": "de",
+        "segMap": {
+          "sn35.245:9.9": {
+            "scid": "sn35.245:9.9",
+            "pli": "pathavīdhātuyā, āpodhātuyā, tejodhātuyā, vāyodhātuyā. ",
+            "de": "die Elemente <span class=\"ebt-matched\">Erde, Wasser, Feuer und Luft</span>. ",
+            "en": "the elements of earth, water, fire, and air. ",
+            "matched": true
+          }
+        },
+        "score": 1.013,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 35.245\n19. Das Kapitel über das Gleichnis von den Giftschlangen\nDas Gleichnis vom Lackbaum",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 76,
+          "de": 48,
+          "en": 75
         }
       },
       {

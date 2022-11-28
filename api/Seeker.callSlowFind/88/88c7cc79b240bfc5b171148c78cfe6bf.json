@@ -32,7 +32,7 @@
     "pattern": "herr de[rs]",
     "method": "phrase",
     "resultPattern": "\\bherr de[rs]",
-    "segsMatched": 17,
+    "segsMatched": 19,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn20_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn20_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/dn/dn21_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn21_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn21_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn35/sn35.245_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn35/sn35.245_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.245_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn35/sn35.116_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn35/sn35.116_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.116_translation-en-sujato.json",
@@ -65,6 +68,7 @@
     "suttaRefs": [
       "dn20/de/sabbamitta",
       "dn21/de/sabbamitta",
+      "sn35.245/de/sabbamitta",
       "sn35.116/de/sabbamitta",
       "an10.172/de/sabbamitta",
       "an10.115/de/sabbamitta",
@@ -171,6 +175,45 @@
           "pli": 515,
           "de": 477,
           "en": 514
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn35/sn35.245_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn35/sn35.245_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn35/sn35.245_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn35.245",
+        "lang": "de",
+        "segMap": {
+          "sn35.245:8.4": {
+            "scid": "sn35.245:8.4",
+            "pli": "‘kahaṁ, bho purisa, imassa nagarassa nagarassāmī’ti? ",
+            "de": "‚Guter Mann, wo ist der <span class=\"ebt-matched\">Herr der</span> Stadt?‘ ",
+            "en": "‘Mister, where is the lord of the city?’ ",
+            "matched": true
+          },
+          "sn35.245:9.7": {
+            "scid": "sn35.245:9.7",
+            "pli": "‘Nagarassāmī’ti kho, bhikkhu, viññāṇassetaṁ adhivacanaṁ. ",
+            "de": "‚Der <span class=\"ebt-matched\">Herr der</span> Stadt‘ ist ein Ausdruck für Bewusstsein. ",
+            "en": "‘The lord of the city’ is a term for consciousness. ",
+            "matched": true
+          }
+        },
+        "score": 2.026,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 35.245\n19. Das Kapitel über das Gleichnis von den Giftschlangen\nDas Gleichnis vom Lackbaum",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 76,
+          "de": 48,
+          "en": 75
         }
       },
       {
