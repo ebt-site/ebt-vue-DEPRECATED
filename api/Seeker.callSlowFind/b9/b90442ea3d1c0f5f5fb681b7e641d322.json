@@ -1,0 +1,79 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "auf das auge geschlagen",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "auf das auge geschlagen",
+    "method": "phrase",
+    "resultPattern": "\\bauf das auge geschlagen",
+    "segsMatched": 1,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn35/sn35.248_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn35/sn35.248_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.248_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn35.248/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn35/sn35.248_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn35/sn35.248_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn35/sn35.248_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn35.248",
+        "lang": "de",
+        "segMap": {
+          "sn35.248:1.8": {
+            "scid": "sn35.248:1.8",
+            "pli": "Evameva kho, bhikkhave, assutavā puthujjano cakkhusmiṁ haññati manāpāmanāpehi rūpehi …pe… ",
+            "de": "Ebenso wird da ein ungebildeter gewöhnlicher Mensch von angenehmen und von unangenehmen Bildern <span class=\"ebt-matched\">auf das Auge geschlagen</span>. ",
+            "en": "In the same way, an unlearned ordinary person is struck in the eye by both pleasant and unpleasant sights. ",
+            "matched": true
+          }
+        },
+        "score": 1.015,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 35.248\n19. Das Kapitel über das Gleichnis von den Giftschlangen\nDas Gerstenbündel",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 65,
+          "de": 47,
+          "en": 63
+        }
+      }
+    ]
+  }
+}
