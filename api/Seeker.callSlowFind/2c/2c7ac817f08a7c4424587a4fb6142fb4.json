@@ -32,8 +32,11 @@
     "pattern": "keinen halt finden",
     "method": "phrase",
     "resultPattern": "\\bkeinen halt finden",
-    "segsMatched": 2,
+    "segsMatched": 3,
     "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn36/sn36.4_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn36/sn36.4_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn36/sn36.4_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn1/sn1.27_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn1/sn1.27_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.27_translation-en-sujato.json",
@@ -42,6 +45,7 @@
       "translation/en/sujato/sutta/kn/ud/vagga1/ud1.10_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "sn36.4/de/sabbamitta",
       "sn1.27/de/sabbamitta",
       "ud1.10/de/sabbamitta"
     ],
@@ -76,6 +80,38 @@
           "pli": 13,
           "de": 13,
           "en": 13
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn36/sn36.4_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn36/sn36.4_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn36/sn36.4_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn36.4",
+        "lang": "de",
+        "segMap": {
+          "sn36.4:3.4": {
+            "scid": "sn36.4:3.4",
+            "pli": "atho gādhampi nājjhagā. ",
+            "de": "und <span class=\"ebt-matched\">keinen Halt finden</span>. ",
+            "en": "and gain a footing. ",
+            "matched": true
+          }
+        },
+        "score": 1.037,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 36.4\n1. Das Kapitel mit Strophen\nDer Abgrund",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 27,
+          "de": 25,
+          "en": 26
         }
       },
       {

@@ -32,7 +32,7 @@
     "pattern": "eine öllampe, die mithilfe von öl",
     "method": "phrase",
     "resultPattern": "\\beine öllampe, die mithilfe von öl",
-    "segsMatched": 6,
+    "segsMatched": 8,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn12/sn12.54_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.54_translation-de-sabbamitta.json",
@@ -40,6 +40,12 @@
       "root/pli/ms/sutta/sn/sn12/sn12.53_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.53_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn12/sn12.53_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn36/sn36.8_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn36/sn36.8_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn36/sn36.8_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn36/sn36.7_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn36/sn36.7_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn36/sn36.7_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn22/sn22.88_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.88_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.88_translation-en-sujato.json",
@@ -50,6 +56,8 @@
     "suttaRefs": [
       "sn12.54/de/sabbamitta",
       "sn12.53/de/sabbamitta",
+      "sn36.8/de/sabbamitta",
+      "sn36.7/de/sabbamitta",
       "sn22.88/de/sabbamitta",
       "mn140/de/sabbamitta"
     ],
@@ -134,6 +142,38 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn36/sn36.8_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn36/sn36.8_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn36/sn36.8_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn36.8",
+        "lang": "de",
+        "segMap": {
+          "sn36.8:7.1": {
+            "scid": "sn36.8:7.1",
+            "pli": "Seyyathāpi, bhikkhave, telañca paṭicca vaṭṭiñca paṭicca telappadīpo jhāyeyya, ",
+            "de": "Wie <span class=\"ebt-matched\">eine Öllampe, die mithilfe von Öl</span> und einem Docht brennt: ",
+            "en": "Suppose an oil lamp depended on oil and a wick to burn. ",
+            "matched": true
+          }
+        },
+        "score": 1.023,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 36.8\n1. Das Kapitel mit Strophen\nDie Krankenstube (2)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 44,
+          "de": 40,
+          "en": 43
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn22/sn22.88_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/sn/sn22/sn22.88_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/sn/sn22/sn22.88_translation-en-sujato.json"
@@ -162,6 +202,38 @@
           "pli": 54,
           "de": 51,
           "en": 53
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn36/sn36.7_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn36/sn36.7_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn36/sn36.7_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn36.7",
+        "lang": "de",
+        "segMap": {
+          "sn36.7:9.1": {
+            "scid": "sn36.7:9.1",
+            "pli": "Seyyathāpi, bhikkhave, telañca paṭicca vaṭṭiñca paṭicca telappadīpo jhāyeyya, ",
+            "de": "Wie <span class=\"ebt-matched\">eine Öllampe, die mithilfe von Öl</span> und einem Docht brennt: ",
+            "en": "Suppose an oil lamp depended on oil and a wick to burn. ",
+            "matched": true
+          }
+        },
+        "score": 1.017,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 36.7\n1. Das Kapitel mit Strophen\nDie Krankenstube (1)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 60,
+          "de": 58,
+          "en": 59
         }
       },
       {

@@ -32,7 +32,7 @@
     "pattern": "bevorzugen und zurückweisen",
     "method": "phrase",
     "resultPattern": "\\bbevorzugen und zurückweisen",
-    "segsMatched": 6,
+    "segsMatched": 7,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an8/an8.6_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.6_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/sn/sn4/sn4.14_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn4/sn4.14_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn4/sn4.14_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn36/sn36.6_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn36/sn36.6_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn36/sn36.6_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.5_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.5_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an8/an8.5_translation-en-sujato.json"
@@ -47,6 +50,7 @@
     "suttaRefs": [
       "an8.6/de/sabbamitta",
       "sn4.14/de/sabbamitta",
+      "sn36.6/de/sabbamitta",
       "an8.5/de/sabbamitta"
     ],
     "mlDocs": [
@@ -165,6 +169,38 @@
           "pli": 20,
           "de": 19,
           "en": 19
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn36/sn36.6_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn36/sn36.6_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn36/sn36.6_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn36.6",
+        "lang": "de",
+        "segMap": {
+          "sn36.6:6.1": {
+            "scid": "sn36.6:6.1",
+            "pli": "Tassānurodhā athavā virodhā, ",
+            "de": "<span class=\"ebt-matched\">Bevorzugen und Zurückweisen</span> ",
+            "en": "Both favoring and opposing ",
+            "matched": true
+          }
+        },
+        "score": 1.016,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 36.6\n1. Das Kapitel mit Strophen\nEin Pfeil",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 63,
+          "de": 62,
+          "en": 62
         }
       }
     ]

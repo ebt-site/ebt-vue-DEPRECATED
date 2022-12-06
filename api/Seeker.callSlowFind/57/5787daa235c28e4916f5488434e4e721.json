@@ -32,7 +32,7 @@
     "pattern": "den besinnungstag",
     "method": "phrase",
     "resultPattern": "\\bden besinnungstag",
-    "segsMatched": 91,
+    "segsMatched": 96,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an3/an3.70_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.70_translation-de-sabbamitta.json",
@@ -58,6 +58,9 @@
       "root/pli/ms/sutta/an/an3/an3.37_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.37_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.37_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn29/sn29.3_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn29/sn29.3_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn29/sn29.3_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn10/sn10.5_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn10/sn10.5_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn10/sn10.5_translation-en-sujato.json",
@@ -82,6 +85,15 @@
       "root/pli/ms/sutta/an/an3/an3.38_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.38_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.38_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn29/sn29.6_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn29/sn29.6_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn29/sn29.6_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn29/sn29.5_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn29/sn29.5_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn29/sn29.5_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn29/sn29.4_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn29/sn29.4_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn29/sn29.4_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thig/thig2.7_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thig/thig2.7_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thig/thig2.7_translation-en-sujato.json",
@@ -117,6 +129,7 @@
       "an10.46/de/sabbamitta",
       "dn30/de/sabbamitta",
       "an3.37/de/sabbamitta",
+      "sn29.3/de/sabbamitta",
       "sn10.5/de/sabbamitta",
       "ud5.8/de/sabbamitta",
       "ud5.5/de/sabbamitta",
@@ -125,6 +138,9 @@
       "an8.44/de/sabbamitta",
       "an8.20/de/sabbamitta",
       "an3.38/de/sabbamitta",
+      "sn29.6/de/sabbamitta",
+      "sn29.5/de/sabbamitta",
+      "sn29.4/de/sabbamitta",
       "thig2.7/de/sabbamitta",
       "dn17/de/sabbamitta",
       "an8.50/de/sabbamitta",
@@ -806,6 +822,45 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn29/sn29.3_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn29/sn29.3_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn29/sn29.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn29.3",
+        "lang": "de",
+        "segMap": {
+          "sn29.3:1.3": {
+            "scid": "sn29.3:1.3",
+            "pli": "“ko nu kho, bhante, hetu, ko paccayo, yena m’idhekacce aṇḍajā nāgā uposathaṁ upavasanti vossaṭṭhakāyā ca bhavantī”ti? ",
+            "de": "„Was ist der Grund, Herr, was ist die Ursache, dass manche Drachen, die aus einem Ei geboren sind, <span class=\"ebt-matched\">den Besinnungstag</span> einhalten, nachdem sie ihren Körper verwandelt haben?“ ",
+            "en": "“Sir, what is the cause, what is the reason why some egg-born dragons keep the sabbath, having transformed their bodies?” ",
+            "matched": true
+          },
+          "sn29.3:2.6": {
+            "scid": "sn29.3:2.6",
+            "pli": "Ayaṁ kho, bhikkhu, hetu, ayaṁ paccayo, yena m’idhekacce aṇḍajā nāgā uposathaṁ upavasanti vossaṭṭhakāyā ca bhavantī”ti. ",
+            "de": "Das ist der Grund, das ist die Ursache, dass manche Drachen, die aus einem Ei geboren sind, <span class=\"ebt-matched\">den Besinnungstag</span> einhalten, nachdem sie ihren Körper verwandelt haben.“ ",
+            "en": "This is the cause, this is the reason why some egg-born dragons keep the sabbath, having transformed their bodies.” ",
+            "matched": true
+          }
+        },
+        "score": 2.154,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 29.3\n1. Das Kapitel über Drachen\nBesinnungstag",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 13,
+          "de": 12,
+          "en": 12
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an8/an8.44_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/an/an8/an8.44_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/an/an8/an8.44_translation-en-sujato.json"
@@ -1114,6 +1169,102 @@
           "pli": 355,
           "de": 331,
           "en": 354
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn29/sn29.4_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn29/sn29.4_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn29/sn29.4_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn29.4",
+        "lang": "de",
+        "segMap": {
+          "sn29.4:1.3": {
+            "scid": "sn29.4:1.3",
+            "pli": "“ko nu kho, bhante, hetu, ko paccayo, yena m’idhekacce jalābujā nāgā uposathaṁ upavasanti vossaṭṭhakāyā ca bhavantī”ti? ",
+            "de": "„Was ist der Grund, Herr, was ist die Ursache, dass manche Drachen, die aus einer Gebärmutter geboren sind, <span class=\"ebt-matched\">den Besinnungstag</span> einhalten, nachdem sie ihren Körper verwandelt haben?“ ",
+            "en": "“Sir, what is the cause, what is the reason why some womb-born dragons keep the sabbath, having transformed their bodies?” ",
+            "matched": true
+          }
+        },
+        "score": 1.111,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 29.4\n1. Das Kapitel über Drachen\nBesinnungstag (2)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 9,
+          "de": 7,
+          "en": 8
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn29/sn29.5_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn29/sn29.5_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn29/sn29.5_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn29.5",
+        "lang": "de",
+        "segMap": {
+          "sn29.5:1.3": {
+            "scid": "sn29.5:1.3",
+            "pli": "“ko nu kho, bhante, hetu, ko paccayo, yena m’idhekacce saṁsedajā nāgā uposathaṁ upavasanti vossaṭṭhakāyā ca bhavantī”ti? ",
+            "de": "„Was ist der Grund, Herr, was ist die Ursache, dass manche Drachen, die aus Feuchtigkeit geboren sind, <span class=\"ebt-matched\">den Besinnungstag</span> einhalten, nachdem sie ihren Körper verwandelt haben?“ ",
+            "en": "“Sir, what is the cause, what is the reason why some moisture-born dragons keep the sabbath, having transformed their bodies?” ",
+            "matched": true
+          }
+        },
+        "score": 1.111,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 29.5\n1. Das Kapitel über Drachen\nBesinnungstag (3)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 9,
+          "de": 7,
+          "en": 8
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn29/sn29.6_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn29/sn29.6_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn29/sn29.6_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn29.6",
+        "lang": "de",
+        "segMap": {
+          "sn29.6:1.3": {
+            "scid": "sn29.6:1.3",
+            "pli": "“ko nu kho, bhante, hetu, ko paccayo, yena m’idhekacce opapātikā nāgā uposathaṁ upavasanti vossaṭṭhakāyā ca bhavantī”ti? ",
+            "de": "„Was ist der Grund, Herr, was ist die Ursache, dass manche Drachen, die durch unmittelbares Erscheinen geboren sind, <span class=\"ebt-matched\">den Besinnungstag</span> einhalten, nachdem sie ihren Körper verwandelt haben?“ ",
+            "en": "“Sir, what is the cause, what is the reason why some spontaneously-born dragons keep the sabbath, having transformed their bodies?” ",
+            "matched": true
+          }
+        },
+        "score": 1.077,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 29.6\n1. Das Kapitel über Drachen\nBesinnungstag (4)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 13,
+          "de": 7,
+          "en": 12
         }
       },
       {

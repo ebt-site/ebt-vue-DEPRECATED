@@ -32,7 +32,7 @@
     "pattern": "das auge ist unbeständig",
     "method": "phrase",
     "resultPattern": "\\bdas auge ist unbeständig",
-    "segsMatched": 5,
+    "segsMatched": 6,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn35/sn35.93_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn35/sn35.93_translation-de-sabbamitta.json",
@@ -48,14 +48,18 @@
       "translation/en/sujato/sutta/sn/sn35/sn35.1_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn35/sn35.140_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn35/sn35.140_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn35/sn35.140_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn35/sn35.140_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn25/sn25.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn25/sn25.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn25/sn25.1_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "sn35.93/de/sabbamitta",
       "sn35.76/de/sabbamitta",
       "sn35.43-51/de/sabbamitta",
       "sn35.1/de/sabbamitta",
-      "sn35.140/de/sabbamitta"
+      "sn35.140/de/sabbamitta",
+      "sn25.1/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -88,6 +92,38 @@
           "pli": 16,
           "de": 13,
           "en": 15
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn25/sn25.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn25/sn25.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn25/sn25.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn25.1",
+        "lang": "de",
+        "segMap": {
+          "sn25.1:1.2": {
+            "scid": "sn25.1:1.2",
+            "pli": "“Cakkhuṁ, bhikkhave, aniccaṁ vipariṇāmi aññathābhāvi; ",
+            "de": "„Mönche und Nonnen, <span class=\"ebt-matched\">das Auge ist unbeständig</span>, verfällt und geht zugrunde. ",
+            "en": "“Mendicants, the eye is impermanent, decaying, and perishing. ",
+            "matched": true
+          }
+        },
+        "score": 1.056,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 25.1\n1. Das Kapitel über das Auge\nDas Auge",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 18,
+          "de": 17,
+          "en": 17
         }
       },
       {
