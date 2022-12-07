@@ -29,46 +29,55 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "i arrived at the best",
-    "method": "keywords",
-    "resultPattern": "\\bi|\\barrived|\\bat|\\bthe|\\bbest",
-    "segsMatched": 3,
+    "method": "phrase",
+    "resultPattern": "\\bi arrived at the best",
+    "segsMatched": 4,
     "bilaraPaths": [
-      "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
-      "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn4_root-pli-ms.json",
-      "translation/en/sujato/sutta/dn/dn4_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn24_root-pli-ms.json",
-      "translation/en/sujato/sutta/dn/dn24_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/thag/thag16.8_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/thag/thag16.8_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn86_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn86_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn19_root-pli-ms.json",
-      "translation/en/sujato/sutta/dn/dn19_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn5_root-pli-ms.json",
-      "translation/en/sujato/sutta/dn/dn5_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/snp/vagga3/snp3.11_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/snp/vagga3/snp3.11_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag21.1_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thag/thag21.1_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/thag/thag5.11_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/thag/thag5.11_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/thig/thig16.1_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/thig/thig16.1_translation-en-sujato.json",
-      "translation/en/soma/sutta/kn/thig/thig16.1_translation-en-soma.json",
-      "root/pli/ms/sutta/kn/ud/vagga3/ud3.3_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/ud/vagga3/ud3.3_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/ud/vagga3/ud3.9_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/ud/vagga3/ud3.9_translation-en-sujato.json",
-      "root/pli/ms/sutta/mn/mn133_root-pli-ms.json",
-      "translation/en/sujato/sutta/mn/mn133_translation-en-sujato.json"
+      "root/pli/ms/sutta/kn/thag/thag1.9_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/thag/thag1.9_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag16.8_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/thag/thag16.8_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "thag16.8/en/sujato",
       "mn86/en/sujato",
-      "thag21.1/en/sujato"
+      "thag21.1/en/sujato",
+      "thag1.9/en/sujato",
+      "thag16.8/en/sujato"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag1.9_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/thag/thag1.9_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag1.9",
+        "lang": "en",
+        "segMap": {
+          "thag1.9:1.4": {
+            "scid": "thag1.9:1.4",
+            "pli": "Yaṁ seṭṭhaṁ tadupāgamin”ti. ",
+            "en": "<span class=\"ebt-matched\">I arrived at the best</span>. ",
+            "matched": true
+          }
+        },
+        "score": 1.111,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verses of the Senior Monks 1.9\nThe Book of the Ones\nChapter One\nPilindavaccha",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 9,
+          "en": 9
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/kn/thag/thag16.8_root-pli-ms.json",
@@ -83,7 +92,7 @@
           "thag16.8:20.4": {
             "scid": "thag16.8:20.4",
             "pli": "yaṁ seṭṭhaṁ tadupāgamaṁ. ",
-            "en": "<span class=\"ebt-matched\">I</span> <span class=\"ebt-matched\">arrived</span> <span class=\"ebt-matched\">at</span> <span class=\"ebt-matched\">the</span> <span class=\"ebt-matched\">the</span> <span class=\"ebt-matched\">best</span>. ",
+            "en": "<span class=\"ebt-matched\">I arrived at the best</span>. ",
             "matched": true
           }
         },
@@ -112,7 +121,7 @@
           "mn86:18.62": {
             "scid": "mn86:18.62",
             "pli": "yaṁ seṭṭhaṁ tadupāgamaṁ. ",
-            "en": "<span class=\"ebt-matched\">I</span> <span class=\"ebt-matched\">arrived</span> <span class=\"ebt-matched\">at</span> <span class=\"ebt-matched\">the</span> <span class=\"ebt-matched\">the</span> <span class=\"ebt-matched\">best</span>. ",
+            "en": "<span class=\"ebt-matched\">I arrived at the best</span>. ",
             "matched": true
           }
         },
@@ -141,7 +150,7 @@
           "thag21.1:53.4": {
             "scid": "thag21.1:53.4",
             "pli": "yaṁ seṭṭhaṁ tadupāgamiṁ. ",
-            "en": "<span class=\"ebt-matched\">I</span> <span class=\"ebt-matched\">arrived</span> <span class=\"ebt-matched\">at</span> <span class=\"ebt-matched\">the</span> <span class=\"ebt-matched\">the</span> <span class=\"ebt-matched\">best</span>. ",
+            "en": "<span class=\"ebt-matched\">I arrived at the best</span>. ",
             "matched": true
           }
         },
