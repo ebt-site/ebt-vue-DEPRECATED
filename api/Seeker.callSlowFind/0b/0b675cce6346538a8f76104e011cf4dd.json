@@ -32,11 +32,14 @@
     "pattern": "aber zum erwachen entschlossen",
     "method": "phrase",
     "resultPattern": "\\baber zum erwachen entschlossen",
-    "segsMatched": 15,
+    "segsMatched": 16,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an5/an5.196_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.196_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.196_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn36/sn36.24_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn36/sn36.24_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn36/sn36.24_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn35/sn35.14_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn35/sn35.14_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.14_translation-en-sujato.json",
@@ -76,6 +79,7 @@
     ],
     "suttaRefs": [
       "an5.196/de/sabbamitta",
+      "sn36.24/de/sabbamitta",
       "sn35.14/de/sabbamitta",
       "sn35.13/de/sabbamitta",
       "sn35.117/de/sabbamitta",
@@ -161,6 +165,38 @@
         "maxWord": 30,
         "minWord": 5,
         "title": "Nummerierte Lehrreden 3.103\n11. Das Kapitel über das Erwachen\nVor dem Erwachen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 14,
+          "de": 13,
+          "en": 13
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn36/sn36.24_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn36/sn36.24_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn36/sn36.24_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn36.24",
+        "lang": "de",
+        "segMap": {
+          "sn36.24:1.1": {
+            "scid": "sn36.24:1.1",
+            "pli": "“Pubbeva me, bhikkhave, sambodhā anabhisambuddhassa bodhisattasseva sato etadahosi: ",
+            "de": "„Mönche und Nonnen, vor meinem Erwachen, als ich noch nicht erwacht war, <span class=\"ebt-matched\">aber zum Erwachen entschlossen</span>, dachte ich: ",
+            "en": "“Mendicants, before my awakening—when I was still unawakened but intent on awakening—I thought: ",
+            "matched": true
+          }
+        },
+        "score": 1.071,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 36.24\n3. Das Kapitel über die Darlegung der Hundertacht\nVorher",
         "segsMatched": 1,
         "langSegs": {
           "pli": 14,
