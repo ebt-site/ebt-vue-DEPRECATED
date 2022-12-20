@@ -32,11 +32,14 @@
     "pattern": "mithilfe eines gleichnisses",
     "method": "phrase",
     "resultPattern": "\\bmithilfe eines gleichnisses",
-    "segsMatched": 12,
+    "segsMatched": 13,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn23_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn23_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn41/sn41.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn41/sn41.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn41/sn41.1_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn12/sn12.67_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.67_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn12/sn12.67_translation-en-sujato.json",
@@ -49,6 +52,7 @@
     ],
     "suttaRefs": [
       "dn23/de/sabbamitta",
+      "sn41.1/de/sabbamitta",
       "sn12.67/de/sabbamitta",
       "an8.8/de/sabbamitta",
       "an10.95/de/sabbamitta"
@@ -140,6 +144,38 @@
           "pli": 715,
           "de": 636,
           "en": 713
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn41/sn41.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn41/sn41.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn41/sn41.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn41.1",
+        "lang": "de",
+        "segMap": {
+          "sn41.1:4.3": {
+            "scid": "sn41.1:4.3",
+            "pli": "Upamāyapidhekacce viññū purisā bhāsitassa atthaṁ ājānanti. ",
+            "de": "Denn <span class=\"ebt-matched\">mithilfe eines Gleichnisses</span> verstehen manche vernünftigen Menschen die Bedeutung des Gesagten. ",
+            "en": "For by means of a simile some sensible people understand the meaning of what is said. ",
+            "matched": true
+          }
+        },
+        "score": 1.022,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 41.1\n1. Das Kapitel mit Citta\nDie Fessel",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 45,
+          "de": 31,
+          "en": 44
         }
       },
       {

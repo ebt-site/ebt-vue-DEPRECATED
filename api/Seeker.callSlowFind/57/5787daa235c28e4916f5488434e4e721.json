@@ -32,7 +32,7 @@
     "pattern": "den besinnungstag",
     "method": "phrase",
     "resultPattern": "\\bden besinnungstag",
-    "segsMatched": 96,
+    "segsMatched": 97,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an3/an3.70_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.70_translation-de-sabbamitta.json",
@@ -58,6 +58,9 @@
       "root/pli/ms/sutta/an/an3/an3.37_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.37_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.37_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn29/sn29.6_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn29/sn29.6_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn29/sn29.6_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn29/sn29.3_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn29/sn29.3_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn29/sn29.3_translation-en-sujato.json",
@@ -85,9 +88,6 @@
       "root/pli/ms/sutta/an/an3/an3.38_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.38_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.38_translation-en-sujato.json",
-      "root/pli/ms/sutta/sn/sn29/sn29.6_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/sn/sn29/sn29.6_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn29/sn29.6_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn29/sn29.5_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn29/sn29.5_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn29/sn29.5_translation-en-sujato.json",
@@ -129,6 +129,7 @@
       "an10.46/de/sabbamitta",
       "dn30/de/sabbamitta",
       "an3.37/de/sabbamitta",
+      "sn29.6/de/sabbamitta",
       "sn29.3/de/sabbamitta",
       "sn10.5/de/sabbamitta",
       "ud5.8/de/sabbamitta",
@@ -138,7 +139,6 @@
       "an8.44/de/sabbamitta",
       "an8.20/de/sabbamitta",
       "an3.38/de/sabbamitta",
-      "sn29.6/de/sabbamitta",
       "sn29.5/de/sabbamitta",
       "sn29.4/de/sabbamitta",
       "thig2.7/de/sabbamitta",
@@ -861,6 +861,45 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn29/sn29.6_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn29/sn29.6_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn29/sn29.6_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn29.6",
+        "lang": "de",
+        "segMap": {
+          "sn29.6:1.3": {
+            "scid": "sn29.6:1.3",
+            "pli": "“ko nu kho, bhante, hetu, ko paccayo, yena m’idhekacce opapātikā nāgā uposathaṁ upavasanti vossaṭṭhakāyā ca bhavantī”ti? ",
+            "de": "„Was ist der Grund, Herr, was ist die Ursache, dass manche Drachen, die durch unmittelbares Erscheinen geboren sind, <span class=\"ebt-matched\">den Besinnungstag</span> einhalten, nachdem sie ihren Körper verwandelt haben?“ ",
+            "en": "“Sir, what is the cause, what is the reason why some spontaneously-born dragons keep the sabbath, having transformed their bodies?” ",
+            "matched": true
+          },
+          "sn29.6:2.6": {
+            "scid": "sn29.6:2.6",
+            "pli": "Ayaṁ kho, bhikkhu, hetu, ayaṁ paccayo, yena m’idhekacce opapātikā nāgā uposathaṁ upavasanti vossaṭṭhakāyā ca bhavantī”ti. ",
+            "de": "Das ist der Grund, das ist die Ursache, dass manche Drachen, die durch unmittelbares Erscheinen geboren sind, <span class=\"ebt-matched\">den Besinnungstag</span> einhalten, nachdem sie ihren Körper verwandelt haben.“ ",
+            "en": "This is the cause, this is the reason why some spontaneously-born\\ dragons keep the sabbath, having transformed their bodies.” ",
+            "matched": true
+          }
+        },
+        "score": 2.154,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 29.6\n1. Das Kapitel über Drachen\nBesinnungstag (4)",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 13,
+          "de": 12,
+          "en": 12
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an8/an8.44_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/an/an8/an8.44_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/an/an8/an8.44_translation-en-sujato.json"
@@ -1233,38 +1272,6 @@
           "pli": 9,
           "de": 7,
           "en": 8
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/sn/sn29/sn29.6_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/sn/sn29/sn29.6_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/sn/sn29/sn29.6_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "sn29.6",
-        "lang": "de",
-        "segMap": {
-          "sn29.6:1.3": {
-            "scid": "sn29.6:1.3",
-            "pli": "“ko nu kho, bhante, hetu, ko paccayo, yena m’idhekacce opapātikā nāgā uposathaṁ upavasanti vossaṭṭhakāyā ca bhavantī”ti? ",
-            "de": "„Was ist der Grund, Herr, was ist die Ursache, dass manche Drachen, die durch unmittelbares Erscheinen geboren sind, <span class=\"ebt-matched\">den Besinnungstag</span> einhalten, nachdem sie ihren Körper verwandelt haben?“ ",
-            "en": "“Sir, what is the cause, what is the reason why some spontaneously-born dragons keep the sabbath, having transformed their bodies?” ",
-            "matched": true
-          }
-        },
-        "score": 1.077,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Verbundene Lehrreden 29.6\n1. Das Kapitel über Drachen\nBesinnungstag (4)",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 13,
-          "de": 7,
-          "en": 12
         }
       },
       {

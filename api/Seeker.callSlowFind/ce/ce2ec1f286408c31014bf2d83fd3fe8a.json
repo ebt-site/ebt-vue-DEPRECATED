@@ -32,11 +32,14 @@
     "pattern": "was ist unwissenheit",
     "method": "phrase",
     "resultPattern": "\\bwas ist unwissenheit",
-    "segsMatched": 10,
+    "segsMatched": 11,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn56/sn56.17_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn56/sn56.17_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn56/sn56.17_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn38/sn38.9_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn38/sn38.9_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn38/sn38.9_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn22/sn22.135_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.135_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.135_translation-en-sujato.json",
@@ -67,6 +70,7 @@
     ],
     "suttaRefs": [
       "sn56.17/de/sabbamitta",
+      "sn38.9/de/sabbamitta",
       "sn22.135/de/sabbamitta",
       "sn22.134/de/sabbamitta",
       "sn22.133/de/sabbamitta",
@@ -203,6 +207,38 @@
         "langSegs": {
           "pli": 16,
           "de": 15,
+          "en": 15
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn38/sn38.9_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn38/sn38.9_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn38/sn38.9_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn38.9",
+        "lang": "de",
+        "segMap": {
+          "sn38.9:1.2": {
+            "scid": "sn38.9:1.2",
+            "pli": "Katamā nu kho, āvuso, avijjā”ti? ",
+            "de": "<span class=\"ebt-matched\">Was ist Unwissenheit</span>?“ ",
+            "en": "What is ignorance?” ",
+            "matched": true
+          }
+        },
+        "score": 1.063,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 38.9\n1. Das Kapitel mit Jambukhādaka\nEine Frage über Unwissenheit",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 16,
+          "de": 9,
           "en": 15
         }
       },
