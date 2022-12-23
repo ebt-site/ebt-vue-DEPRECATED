@@ -31,7 +31,7 @@
     "pattern": "gain and loss",
     "method": "phrase",
     "resultPattern": "\\bgain and loss",
-    "segsMatched": 12,
+    "segsMatched": 13,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an8/an8.6_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an8/an8.6_translation-en-sujato.json",
@@ -41,6 +41,8 @@
       "translation/en/sujato/sutta/an/an4/an4.192_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag1.102_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thag/thag1.102_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/cp/cp35_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/cp/cp35_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
@@ -51,6 +53,7 @@
       "an8.5/en/sujato",
       "an4.192/en/sujato",
       "thag1.102/en/sujato",
+      "cp35/en/sujato",
       "dn34/en/sujato",
       "dn33/en/sujato"
     ],
@@ -205,6 +208,35 @@
         "langSegs": {
           "pli": 9,
           "en": 8
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/cp/cp35_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/cp/cp35_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "cp35",
+        "lang": "en",
+        "segMap": {
+          "cp35:14.1": {
+            "scid": "cp35:14.1",
+            "pli": "Lābhālābhe yasāyase, ",
+            "en": "In <span class=\"ebt-matched\">gain and loss</span>, fame and disgrace, ",
+            "matched": true
+          }
+        },
+        "score": 1.015,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "The Conduct Leading to Buddhahood\nThe Chapter With Yudhañjaya\nThe Perfection of Equanimity\nThe Great Hair-raising Conduct",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 67,
+          "en": 53
         }
       },
       {

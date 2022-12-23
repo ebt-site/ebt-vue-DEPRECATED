@@ -31,7 +31,7 @@
     "pattern": "giving gifts",
     "method": "phrase",
     "resultPattern": "\\bgiving gifts",
-    "segsMatched": 9,
+    "segsMatched": 10,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an5/an5.31_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an5/an5.31_translation-en-sujato.json",
@@ -41,6 +41,8 @@
       "translation/en/sujato/sutta/kn/iti/vagga9/iti83_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/iti/vagga10/iti90_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/iti/vagga10/iti90_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/cp/cp9_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/cp/cp9_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn30_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn30_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.32_root-pli-ms.json",
@@ -55,6 +57,7 @@
       "sn2.23/en/sujato",
       "iti83/en/sujato",
       "iti90/en/sujato",
+      "cp9/en/sujato",
       "dn30/en/sujato",
       "an5.32/en/sujato",
       "an4.34/en/sujato",
@@ -268,6 +271,35 @@
         "langSegs": {
           "pli": 76,
           "en": 76
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/cp/cp9_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/cp/cp9_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "cp9",
+        "lang": "en",
+        "segMap": {
+          "cp9:12.4": {
+            "scid": "cp9:12.4",
+            "pli": "dānaṁ dātuṁ vicintayiṁ. ",
+            "en": "I thought of <span class=\"ebt-matched\">giving gifts</span>. ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "The Conduct Leading to Buddhahood\nThe Chapter With Akitti\nThe Perfection of Giving (9th)\nVessantara’s Conduct",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 239,
+          "en": 238
         }
       },
       {

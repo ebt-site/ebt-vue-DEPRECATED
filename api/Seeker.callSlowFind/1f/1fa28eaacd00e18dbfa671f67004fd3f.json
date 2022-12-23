@@ -31,7 +31,7 @@
     "pattern": "loved one",
     "method": "phrase",
     "resultPattern": "\\bloved one",
-    "segsMatched": 33,
+    "segsMatched": 34,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn87_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn87_translation-en-sujato.json",
@@ -49,6 +49,8 @@
       "translation/en/sujato/sutta/kn/snp/vagga1/snp1.3_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/dhp/dhp209-220_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/dhp/dhp209-220_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/cp/cp9_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/cp/cp9_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn30_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn30_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.44_root-pli-ms.json",
@@ -69,6 +71,7 @@
       "snp4.6/en/sujato",
       "snp1.3/en/sujato",
       "dhp209-220/en/sujato",
+      "cp9/en/sujato",
       "dn30/en/sujato",
       "an8.44/en/sujato",
       "an7.64/en/sujato",
@@ -484,6 +487,35 @@
         "langSegs": {
           "pli": 167,
           "en": 166
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/cp/cp9_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/cp/cp9_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "cp9",
+        "lang": "en",
+        "segMap": {
+          "cp9:53.4": {
+            "scid": "cp9:53.4",
+            "pli": "tasmā piye adāsahaṁ. ",
+            "en": "I gave my <span class=\"ebt-matched\">loved one</span>s away. ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "The Conduct Leading to Buddhahood\nThe Chapter With Akitti\nThe Perfection of Giving (9th)\nVessantara’s Conduct",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 239,
+          "en": 238
         }
       },
       {

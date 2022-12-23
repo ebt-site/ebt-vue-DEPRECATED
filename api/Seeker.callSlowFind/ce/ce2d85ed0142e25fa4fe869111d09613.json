@@ -31,7 +31,7 @@
     "pattern": "cycle of rebirth",
     "method": "phrase",
     "resultPattern": "\\bcycle of rebirth",
-    "segsMatched": 9,
+    "segsMatched": 10,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn22/sn22.57_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.57_translation-en-sujato.json",
@@ -44,7 +44,9 @@
       "root/pli/ms/sutta/mn/mn22_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn22_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/ud/vagga6/ud6.8_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/ud/vagga6/ud6.8_translation-en-sujato.json"
+      "translation/en/sujato/sutta/kn/ud/vagga6/ud6.8_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/cp/cp14_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/cp/cp14_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "sn22.57/en/sujato",
@@ -52,7 +54,8 @@
       "dn15/en/sujato",
       "sn44.6/en/sujato",
       "mn22/en/sujato",
-      "ud6.8/en/sujato"
+      "ud6.8/en/sujato",
+      "cp14/en/sujato"
     ],
     "mlDocs": [
       {
@@ -187,6 +190,35 @@
         "langSegs": {
           "pli": 22,
           "en": 17
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/cp/cp14_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/cp/cp14_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "cp14",
+        "lang": "en",
+        "segMap": {
+          "cp14:2.3": {
+            "scid": "cp14:2.3",
+            "pli": "Sāpi vaṭṭe anapekkhā, ",
+            "en": "expecting nothing in the <span class=\"ebt-matched\">cycle of rebirth</span>s, ",
+            "matched": true
+          }
+        },
+        "score": 1.02,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "The Conduct Leading to Buddhahood\nThe Chapter on an Elephant\nThe Perfection of Ethics (4th)\nCūḷabodhi’s Conduct",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 49,
+          "en": 48
         }
       },
       {

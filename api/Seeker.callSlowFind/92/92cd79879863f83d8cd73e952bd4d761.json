@@ -31,12 +31,14 @@
     "pattern": "fallen from",
     "method": "phrase",
     "resultPattern": "\\bfallen from",
-    "segsMatched": 20,
+    "segsMatched": 22,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an8/an8.77_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an8/an8.77_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.61_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an8/an8.61_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/cp/cp13_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/cp/cp13_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.2_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an4/an4.2_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an9/an9.35_root-pli-ms.json",
@@ -47,6 +49,7 @@
     "suttaRefs": [
       "an8.77/en/sujato",
       "an8.61/en/sujato",
+      "cp13/en/sujato",
       "an4.2/en/sujato",
       "an9.35/en/sujato",
       "an3.15/en/sujato"
@@ -227,6 +230,41 @@
         "langSegs": {
           "pli": 22,
           "en": 21
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/cp/cp13_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/cp/cp13_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "cp13",
+        "lang": "en",
+        "segMap": {
+          "cp13:5.2": {
+            "scid": "cp13:5.2",
+            "pli": "parihāyissāmi sīlato; ",
+            "en": "I would have <span class=\"ebt-matched\">fallen from</span> my ethics. ",
+            "matched": true
+          },
+          "cp13:5.3": {
+            "scid": "cp13:5.3",
+            "pli": "Sīlena parihīnassa, ",
+            "en": "But one who has <span class=\"ebt-matched\">fallen from</span> their ethics ",
+            "matched": true
+          }
+        },
+        "score": 2.069,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "The Conduct Leading to Buddhahood\nThe Chapter on an Elephant\nThe Perfection of Ethics (3rd)\nThe Nāga Campeyyaka’s Conduct",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 29,
+          "en": 28
         }
       },
       {

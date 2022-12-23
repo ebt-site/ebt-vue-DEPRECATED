@@ -31,12 +31,14 @@
     "pattern": "viper",
     "method": "phrase",
     "resultPattern": "\\bviper",
-    "segsMatched": 33,
+    "segsMatched": 36,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn35/sn35.238_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.238_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.110_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an4/an4.110_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/cp/cp31_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/cp/cp31_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn35/sn35.69_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.69_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn105_root-pli-ms.json",
@@ -72,6 +74,7 @@
     "suttaRefs": [
       "sn35.238/en/sujato",
       "an4.110/en/sujato",
+      "cp31/en/sujato",
       "sn35.69/en/sujato",
       "mn105/en/sujato",
       "sn35.248/en/sujato",
@@ -229,6 +232,47 @@
         "langSegs": {
           "pli": 48,
           "en": 46
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/cp/cp31_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/cp/cp31_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "cp31",
+        "lang": "en",
+        "segMap": {
+          "cp31:6.4": {
+            "scid": "cp31:6.4",
+            "pli": "āsīvisamakopayi. ",
+            "en": "and angered a <span class=\"ebt-matched\">viper</span>. ",
+            "matched": true
+          },
+          "cp31:7.3": {
+            "scid": "cp31:7.3",
+            "pli": "Āsīvisassa hatthena, ",
+            "en": "touched the <span class=\"ebt-matched\">viper</span>’s head ",
+            "matched": true
+          },
+          "cp31:9.1": {
+            "scid": "cp31:9.1",
+            "pli": "Sahadaṭṭho āsīvisena, ",
+            "en": "When bitten by the <span class=\"ebt-matched\">viper</span>, ",
+            "matched": true
+          }
+        },
+        "score": 3.052,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "The Conduct Leading to Buddhahood\nThe Chapter With Yudhañjaya\nThe Perfection of Truth (5th)\nDīpāyana the Dark’s Conduct",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 58,
+          "en": 57
         }
       },
       {

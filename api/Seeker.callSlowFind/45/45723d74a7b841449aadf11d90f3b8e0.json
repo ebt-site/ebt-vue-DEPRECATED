@@ -31,12 +31,14 @@
     "pattern": "hair-raising",
     "method": "phrase",
     "resultPattern": "\\bhair-raising",
-    "segsMatched": 14,
+    "segsMatched": 17,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.70_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an8/an8.70_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/cp/cp9_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/cp/cp9_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn51/sn51.10_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn51/sn51.10_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn4_root-pli-ms.json",
@@ -51,18 +53,22 @@
       "root/pli/ms/sutta/kn/thag/thag6.1_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thag/thag6.1_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag16.1_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/thag/thag16.1_translation-en-sujato.json"
+      "translation/en/sujato/sutta/kn/thag/thag16.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/cp/cp35_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/cp/cp35_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "dn16/en/sujato",
       "an8.70/en/sujato",
+      "cp9/en/sujato",
       "sn51.10/en/sujato",
       "mn4/en/sujato",
       "mn12/en/sujato",
       "ud6.1/en/sujato",
       "thig11.1/en/sujato",
       "thag6.1/en/sujato",
-      "thag16.1/en/sujato"
+      "thag16.1/en/sujato",
+      "cp35/en/sujato"
     ],
     "mlDocs": [
       {
@@ -155,6 +161,41 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/kn/cp/cp9_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/cp/cp9_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "cp9",
+        "lang": "en",
+        "segMap": {
+          "cp9:36.2": {
+            "scid": "cp9:36.2",
+            "pli": "abbhutaṁ lomahaṁsanaṁ; ",
+            "en": "so astonishing and <span class=\"ebt-matched\">hair-raising</span>, ",
+            "matched": true
+          },
+          "cp9:37.2": {
+            "scid": "cp9:37.2",
+            "pli": "abbhutaṁ lomahaṁsanaṁ; ",
+            "en": "so astonishing and <span class=\"ebt-matched\">hair-raising</span>, ",
+            "matched": true
+          }
+        },
+        "score": 2.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "The Conduct Leading to Buddhahood\nThe Chapter With Akitti\nThe Perfection of Giving (9th)\nVessantara’s Conduct",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 239,
+          "en": 238
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/kn/thag/thag6.1_root-pli-ms.json",
           "translation/en/sujato/sutta/kn/thag/thag6.1_translation-en-sujato.json"
         ],
@@ -239,6 +280,35 @@
         "langSegs": {
           "pli": 61,
           "en": 56
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/cp/cp35_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/cp/cp35_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "cp35",
+        "lang": "en",
+        "segMap": {
+          "cp35:0.4": {
+            "scid": "cp35:0.4",
+            "pli": "Mahālomahaṁsacariya ",
+            "en": "The Great <span class=\"ebt-matched\">Hair-raising</span> Conduct ",
+            "matched": true
+          }
+        },
+        "score": 1.015,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "The Conduct Leading to Buddhahood\nThe Chapter With Yudhañjaya\nThe Perfection of Equanimity\nThe Great Hair-raising Conduct",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 67,
+          "en": 53
         }
       },
       {

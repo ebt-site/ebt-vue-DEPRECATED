@@ -31,7 +31,7 @@
     "pattern": "conscience and prudence",
     "method": "phrase",
     "resultPattern": "\\bconscience and prudence",
-    "segsMatched": 74,
+    "segsMatched": 75,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an2/an2.180-229_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an2/an2.180-229_translation-en-sujato.json",
@@ -75,6 +75,8 @@
       "translation/en/sujato/sutta/sn/sn16/sn16.11_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/iti/vagga5/iti42_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/iti/vagga5/iti42_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/cp/cp9_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/cp/cp9_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an7/an7.7_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an7/an7.7_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an7/an7.6_root-pli-ms.json",
@@ -116,6 +118,7 @@
       "an10.105/en/sujato",
       "sn16.11/en/sujato",
       "iti42/en/sujato",
+      "cp9/en/sujato",
       "an7.7/en/sujato",
       "an7.6/en/sujato",
       "an7.5/en/sujato",
@@ -1259,6 +1262,35 @@
         "langSegs": {
           "pli": 100,
           "en": 99
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/cp/cp9_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/cp/cp9_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "cp9",
+        "lang": "en",
+        "segMap": {
+          "cp9:55.1": {
+            "scid": "cp9:55.1",
+            "pli": "Hirottappena garunā, ",
+            "en": "With deep <span class=\"ebt-matched\">conscience and prudence</span>, ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "The Conduct Leading to Buddhahood\nThe Chapter With Akitti\nThe Perfection of Giving (9th)\nVessantara’s Conduct",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 239,
+          "en": 238
         }
       }
     ]

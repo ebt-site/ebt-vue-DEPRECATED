@@ -31,7 +31,7 @@
     "pattern": "marks",
     "method": "phrase",
     "resultPattern": "\\bmarks",
-    "segsMatched": 118,
+    "segsMatched": 119,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn30_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn30_translation-en-sujato.json",
@@ -88,6 +88,8 @@
       "translation/en/sujato/sutta/kn/snp/vagga2/snp2.13_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/kp/kp8_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/kp/kp8_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/cp/cp11_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/cp/cp11_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an7/an7.71_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an7/an7.71_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.192_root-pli-ms.json",
@@ -124,6 +126,7 @@
       "snp3.11/en/sujato",
       "snp2.13/en/sujato",
       "kp8/en/sujato",
+      "cp11/en/sujato",
       "an7.71/en/sujato",
       "an5.192/en/sujato",
       "an3.59/en/sujato",
@@ -1178,6 +1181,35 @@
         "langSegs": {
           "pli": 650,
           "en": 633
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/cp/cp11_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/cp/cp11_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "cp11",
+        "lang": "en",
+        "segMap": {
+          "cp11:6.2": {
+            "scid": "cp11:6.2",
+            "pli": "lakkhaṇaṁ upadhārayi; ",
+            "en": "he checked me for <span class=\"ebt-matched\">marks</span>. ",
+            "matched": true
+          }
+        },
+        "score": 1.022,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "The Conduct Leading to Buddhahood\nThe Chapter on an Elephant\nThe Perfection of Ethics (1st)\nThe Conduct of One Who Provided for His Mother",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 45,
+          "en": 44
         }
       },
       {

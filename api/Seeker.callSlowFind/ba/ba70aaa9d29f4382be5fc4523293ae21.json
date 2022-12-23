@@ -31,7 +31,7 @@
     "pattern": "sustained by",
     "method": "phrase",
     "resultPattern": "\\bsustained by",
-    "segsMatched": 22,
+    "segsMatched": 23,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn46/sn46.2_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn46/sn46.2_translation-en-sujato.json",
@@ -55,6 +55,8 @@
       "translation/en/sujato/sutta/kn/thag/thag2.2_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/kp/kp4_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/kp/kp4_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/cp/cp33_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/cp/cp33_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.28_root-pli-ms.json",
@@ -74,6 +76,7 @@
       "sn12.52/en/sujato",
       "thag2.2/en/sujato",
       "kp4/en/sujato",
+      "cp33/en/sujato",
       "dn34/en/sujato",
       "an10.28/en/sujato",
       "an10.27/en/sujato"
@@ -212,6 +215,35 @@
         "langSegs": {
           "pli": 13,
           "en": 13
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/cp/cp33_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/cp/cp33_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "cp33",
+        "lang": "en",
+        "segMap": {
+          "cp33:3.3": {
+            "scid": "cp33:3.3",
+            "pli": "Mettābalenupatthaddho, ",
+            "en": "<span class=\"ebt-matched\">Sustained by</span> the power of love ",
+            "matched": true
+          }
+        },
+        "score": 1.059,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "The Conduct Leading to Buddhahood\nThe Chapter With Yudhañjaya\nThe Perfection of Love (1st)\nGoldblack’s Conduct",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 17,
+          "en": 16
         }
       },
       {

@@ -31,7 +31,7 @@
     "pattern": "farmer",
     "method": "phrase",
     "resultPattern": "\\bfarmer",
-    "segsMatched": 56,
+    "segsMatched": 57,
     "bilaraPaths": [
       "root/pli/ms/sutta/kn/snp/vagga1/snp1.4_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/snp/vagga1/snp1.4_translation-en-sujato.json",
@@ -66,7 +66,9 @@
       "root/pli/ms/sutta/mn/mn86_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn86_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag10.1_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/thag/thag10.1_translation-en-sujato.json"
+      "translation/en/sujato/sutta/kn/thag/thag10.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/cp/cp2_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/cp/cp2_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "snp1.4/en/sujato",
@@ -85,7 +87,8 @@
       "an3.93/en/sujato",
       "sn22.102/en/sujato",
       "mn86/en/sujato",
-      "thag10.1/en/sujato"
+      "thag10.1/en/sujato",
+      "cp2/en/sujato"
     ],
     "mlDocs": [
       {
@@ -726,6 +729,35 @@
         "langSegs": {
           "pli": 1664,
           "en": 1564
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/cp/cp2_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/cp/cp2_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "cp2",
+        "lang": "en",
+        "segMap": {
+          "cp2:4.1": {
+            "scid": "cp2:4.1",
+            "pli": "Yathā kassako puriso, ",
+            "en": "Now suppose a <span class=\"ebt-matched\">farmer</span> ",
+            "matched": true
+          }
+        },
+        "score": 1.024,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "The Conduct Leading to Buddhahood\nThe Chapter With Akitti\nThe Perfection of Giving (2nd)\nSaṅkha’s Conduct",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 41,
+          "en": 40
         }
       },
       {
