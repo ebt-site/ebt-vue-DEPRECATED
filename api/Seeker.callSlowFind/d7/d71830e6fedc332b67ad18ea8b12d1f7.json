@@ -32,11 +32,14 @@
     "pattern": "sammlung und klarsicht",
     "method": "phrase",
     "resultPattern": "\\bsammlung und klarsicht",
-    "segsMatched": 11,
+    "segsMatched": 12,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an2/an2.310-479_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an2/an2.310-479_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an2/an2.310-479_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn41/sn41.6_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn41/sn41.6_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn41/sn41.6_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn35/sn35.245_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn35/sn35.245_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.245_translation-en-sujato.json",
@@ -67,6 +70,7 @@
     ],
     "suttaRefs": [
       "an2.310-479/de/sabbamitta",
+      "sn41.6/de/sabbamitta",
       "sn35.245/de/sabbamitta",
       "dn34/de/sabbamitta",
       "dn33/de/sabbamitta",
@@ -211,6 +215,38 @@
           "pli": 36,
           "de": 34,
           "en": 34
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn41/sn41.6_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn41/sn41.6_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn41/sn41.6_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn41.6",
+        "lang": "de",
+        "segMap": {
+          "sn41.6:10.6": {
+            "scid": "sn41.6:10.6",
+            "pli": "samatho ca vipassanā cā”ti. ",
+            "de": "<span class=\"ebt-matched\">Sammlung und Klarsicht</span>.“ ",
+            "en": "serenity and discernment.” ",
+            "matched": true
+          }
+        },
+        "score": 1.02,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 41.6\n1. Das Kapitel mit Citta\nMit Kāmabhū (2)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 51,
+          "de": 50,
+          "en": 50
         }
       },
       {

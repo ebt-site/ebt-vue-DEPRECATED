@@ -32,8 +32,11 @@
     "pattern": "das stehlen auf",
     "method": "phrase",
     "resultPattern": "\\bdas stehlen auf",
-    "segsMatched": 3,
+    "segsMatched": 4,
     "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn42/sn42.8_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn42/sn42.8_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn42/sn42.8_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.178_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.178_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.178_translation-en-sujato.json",
@@ -45,6 +48,7 @@
       "translation/en/sujato/sutta/an/an10/an10.167_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "sn42.8/de/sabbamitta",
       "an5.178/de/sabbamitta",
       "an10.168/de/sabbamitta",
       "an10.167/de/sabbamitta"
@@ -144,6 +148,38 @@
           "pli": 77,
           "de": 66,
           "en": 76
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn42/sn42.8_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn42/sn42.8_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn42/sn42.8_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn42.8",
+        "lang": "de",
+        "segMap": {
+          "sn42.8:11.2": {
+            "scid": "sn42.8:11.2",
+            "pli": "Adinnādānaṁ pahāya adinnādānā paṭivirato hoti. ",
+            "de": "Er gibt <span class=\"ebt-matched\">das Stehlen auf</span> und stiehlt nicht mehr. ",
+            "en": "They give up stealing. ",
+            "matched": true
+          }
+        },
+        "score": 1.01,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 42.8\n1. Das Kapitel mit Ortsvorstehern\nEin Schneckenhornbläser",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 105,
+          "de": 77,
+          "en": 104
         }
       }
     ]

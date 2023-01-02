@@ -32,7 +32,7 @@
     "pattern": "die ausführliche bedeutung",
     "method": "phrase",
     "resultPattern": "\\bdie ausführliche bedeutung",
-    "segsMatched": 89,
+    "segsMatched": 91,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn1/sn1.20_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn1/sn1.20_translation-de-sabbamitta.json",
@@ -85,6 +85,9 @@
       "root/pli/ms/sutta/sn/sn12/sn12.31_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.31_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn12/sn12.31_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn41/sn41.5_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn41/sn41.5_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn41/sn41.5_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn35/sn35.117_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn35/sn35.117_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.117_translation-en-sujato.json",
@@ -140,6 +143,7 @@
       "an7.35/de/sabbamitta",
       "an6.69/de/sabbamitta",
       "sn12.31/de/sabbamitta",
+      "sn41.5/de/sabbamitta",
       "sn35.117/de/sabbamitta",
       "sn35.116/de/sabbamitta",
       "sn22.4/de/sabbamitta",
@@ -1170,6 +1174,45 @@
           "pli": 38,
           "de": 36,
           "en": 37
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn41/sn41.5_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn41/sn41.5_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn41/sn41.5_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn41.5",
+        "lang": "de",
+        "segMap": {
+          "sn41.5:4.1": {
+            "scid": "sn41.5:4.1",
+            "pli": "Imassa nu kho, gahapati, saṅkhittena bhāsitassa kathaṁ vitthārena attho daṭṭhabbo”ti? ",
+            "de": "Wie ist <span class=\"ebt-matched\">die ausführliche Bedeutung</span> dieser kurzen Aussage zu verstehen?“ ",
+            "en": "How should we see the detailed meaning of this brief statement?” ",
+            "matched": true
+          },
+          "sn41.5:5.16": {
+            "scid": "sn41.5:5.16",
+            "pli": "Iti kho, bhante, yaṁ taṁ bhagavatā vuttaṁ: ",
+            "de": "So, Herr, verstehe ich <span class=\"ebt-matched\">die ausführliche Bedeutung</span> dessen, was der Buddha kurz gesagt hat: ",
+            "en": "So, sir, that’s how I understand the detailed meaning of what the Buddha said in brief: ",
+            "matched": true
+          }
+        },
+        "score": 2.051,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 41.5\n1. Das Kapitel mit Citta\nMit Kāmabhū (1)",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 39,
+          "de": 37,
+          "en": 38
         }
       },
       {

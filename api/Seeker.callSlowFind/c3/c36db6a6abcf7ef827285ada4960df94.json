@@ -32,7 +32,7 @@
     "pattern": "haare.* zu berge",
     "method": "phrase",
     "resultPattern": "\\bhaare.* zu berge",
-    "segsMatched": 30,
+    "segsMatched": 31,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn5/sn5.9_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn5/sn5.9_translation-de-sabbamitta.json",
@@ -73,6 +73,9 @@
       "root/pli/ms/sutta/sn/sn4/sn4.11_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn4/sn4.11_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn4/sn4.11_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn41/sn41.4_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn41/sn41.4_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn41/sn41.4_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn2/sn2.9_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn2/sn2.9_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn2/sn2.9_translation-en-sujato.json",
@@ -118,6 +121,7 @@
       "sn4.3/de/sabbamitta",
       "sn4.2/de/sabbamitta",
       "sn4.11/de/sabbamitta",
+      "sn41.4/de/sabbamitta",
       "sn2.9/de/sabbamitta",
       "sn2.10/de/sabbamitta",
       "sn10.8/de/sabbamitta",
@@ -657,6 +661,38 @@
           "pli": 43,
           "de": 37,
           "en": 42
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn41/sn41.4_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn41/sn41.4_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn41/sn41.4_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn41.4",
+        "lang": "de",
+        "segMap": {
+          "sn41.4:5.6": {
+            "scid": "sn41.4:5.6",
+            "pli": "Atha kho citto gahapati uttarāsaṅgaṁ papphoṭetvā saṁviggo lomahaṭṭhajāto ekamantaṁ aṭṭhāsi. ",
+            "de": "Da schüttelte Citta seine Oberrobe aus und stellte sich zur Seite hin; er war erschüttert und die <span class=\"ebt-matched\">Haare standen ihm zu Berge</span>. ",
+            "en": "Then Citta shook out his upper robe and stood to one side, shocked and awestruck. ",
+            "matched": true
+          }
+        },
+        "score": 1.021,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 41.4\n1. Das Kapitel mit Citta\nMahakas Demonstration",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 47,
+          "de": 45,
+          "en": 46
         }
       },
       {

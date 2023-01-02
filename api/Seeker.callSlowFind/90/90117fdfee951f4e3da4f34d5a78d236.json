@@ -32,8 +32,14 @@
     "pattern": "brach in tränen aus",
     "method": "phrase",
     "resultPattern": "\\bbrach in tränen aus",
-    "segsMatched": 2,
+    "segsMatched": 4,
     "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn42/sn42.3_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn42/sn42.3_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn42/sn42.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn42/sn42.2_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn42/sn42.2_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn42/sn42.2_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thig/thig16.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thig/thig16.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thig/thig16.1_translation-en-sujato.json",
@@ -43,10 +49,76 @@
       "translation/en/sujato/sutta/dn/dn17_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "sn42.3/de/sabbamitta",
+      "sn42.2/de/sabbamitta",
       "thig16.1/de/sabbamitta",
       "dn17/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn42/sn42.3_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn42/sn42.3_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn42/sn42.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn42.3",
+        "lang": "de",
+        "segMap": {
+          "sn42.3:3.1": {
+            "scid": "sn42.3:3.1",
+            "pli": "Evaṁ vutte, yodhājīvo gāmaṇi parodi, assūni pavattesi. ",
+            "de": "Daraufhin weinte der Kriegerhauptmann und <span class=\"ebt-matched\">brach in Tränen aus</span>. ",
+            "en": "When he said this, Dustin the warrior chief cried and burst out in tears. ",
+            "matched": true
+          }
+        },
+        "score": 1.03,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 42.3\n1. Das Kapitel mit Ortsvorstehern\nEin Krieger",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 33,
+          "de": 32,
+          "en": 32
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn42/sn42.2_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn42/sn42.2_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn42/sn42.2_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn42.2",
+        "lang": "de",
+        "segMap": {
+          "sn42.2:3.1": {
+            "scid": "sn42.2:3.1",
+            "pli": "Evaṁ vutte, tālapuṭo naṭagāmaṇi parodi assūni pavattesi. ",
+            "de": "Daraufhin weinte Tālapuṭa und <span class=\"ebt-matched\">brach in Tränen aus</span>. ",
+            "en": "When he said this, Tāḷapuṭa cried and burst out in tears. ",
+            "matched": true
+          }
+        },
+        "score": 1.021,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 42.2\n1. Das Kapitel mit Ortsvorstehern\nMit Tālapuṭa",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 47,
+          "de": 42,
+          "en": 46
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/kn/thig/thig16.1_root-pli-ms.json",
