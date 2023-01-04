@@ -31,7 +31,7 @@
     "pattern": "this is peaceful",
     "method": "phrase",
     "resultPattern": "\\bthis is peaceful",
-    "segsMatched": 30,
+    "segsMatched": 31,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn152_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn152_translation-en-sujato.json",
@@ -59,6 +59,8 @@
       "translation/en/sujato/sutta/an/an11/an11.19_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an11/an11.18_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an11/an11.18_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.99_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an10/an10.99_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.6_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an10/an10.6_translation-en-sujato.json"
     ],
@@ -76,6 +78,7 @@
       "an11.20/en/sujato",
       "an11.19/en/sujato",
       "an11.18/en/sujato",
+      "an10.99/en/sujato",
       "an10.6/en/sujato"
     ],
     "mlDocs": [
@@ -550,6 +553,35 @@
         "langSegs": {
           "pli": 123,
           "en": 122
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.99_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an10/an10.99_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.99",
+        "lang": "en",
+        "segMap": {
+          "an10.99:35.1": {
+            "scid": "an10.99:35.1",
+            "pli": "Sabbaso ākiñcaññāyatanaṁ samatikkamma ‘santametaṁ paṇītametan’ti nevasaññānāsaññāyatanaṁ upasampajja viharati. ",
+            "en": "“Going totally beyond the dimension of nothingness, aware that ‘<span class=\"ebt-matched\">this is peaceful</span>, this is sublime’, they enter and remain in the dimension of neither perception nor non-perception. ",
+            "matched": true
+          }
+        },
+        "score": 1.007,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 10.99\n10. With Upāli\nWith Upāli",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 148,
+          "en": 147
         }
       },
       {
