@@ -32,7 +32,7 @@
     "pattern": "kraft des vertrauens",
     "method": "phrase",
     "resultPattern": "\\bkraft des vertrauens",
-    "segsMatched": 26,
+    "segsMatched": 27,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an7/an7.4_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an7/an7.4_translation-de-sabbamitta.json",
@@ -52,6 +52,9 @@
       "root/pli/ms/sutta/an/an4/an4.152_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.152_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.152_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn43/sn43.12_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn43/sn43.12_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn43/sn43.12_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an7/an7.3_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an7/an7.3_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an7/an7.3_translation-en-sujato.json",
@@ -90,6 +93,7 @@
       "an1.394-574/de/sabbamitta",
       "an5.15/de/sabbamitta",
       "an4.152/de/sabbamitta",
+      "sn43.12/de/sabbamitta",
       "an7.3/de/sabbamitta",
       "an6.4/de/sabbamitta",
       "an5.308-1152/de/sabbamitta",
@@ -682,6 +686,38 @@
           "pli": 82,
           "de": 80,
           "en": 80
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn43/sn43.12_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn43/sn43.12_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn43/sn43.12_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn43.12",
+        "lang": "de",
+        "segMap": {
+          "sn43.12:9.2": {
+            "scid": "sn43.12:9.2",
+            "pli": "Idha, bhikkhave, bhikkhu saddhābalaṁ bhāveti vivekanissitaṁ …pe… ",
+            "de": "Da entwickelt ein Mönch die <span class=\"ebt-matched\">Kraft des Vertrauens</span> … ",
+            "en": "A mendicant develops the power of faith … ",
+            "matched": true
+          }
+        },
+        "score": 1.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 43.12\n2. Das zweite Kapitel\nDas Unbedingte",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 131,
+          "de": 70,
+          "en": 130
         }
       }
     ]

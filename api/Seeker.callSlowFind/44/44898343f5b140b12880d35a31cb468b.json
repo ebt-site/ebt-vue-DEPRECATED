@@ -32,8 +32,11 @@
     "pattern": "schwieg der buddha",
     "method": "phrase",
     "resultPattern": "\\bschwieg der buddha",
-    "segsMatched": 8,
+    "segsMatched": 10,
     "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn44/sn44.10_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn44/sn44.10_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn44/sn44.10_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/ud/vagga5/ud5.5_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga5/ud5.5_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/ud/vagga5/ud5.5_translation-en-sujato.json",
@@ -51,6 +54,7 @@
       "translation/en/sujato/sutta/an/an10/an10.95_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "sn44.10/de/sabbamitta",
       "ud5.5/de/sabbamitta",
       "ud3.3/de/sabbamitta",
       "an8.20/de/sabbamitta",
@@ -58,6 +62,45 @@
       "an10.95/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn44/sn44.10_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn44/sn44.10_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn44/sn44.10_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn44.10",
+        "lang": "de",
+        "segMap": {
+          "sn44.10:1.4": {
+            "scid": "sn44.10:1.4",
+            "pli": "Evaṁ vutte, bhagavā tuṇhī ahosi. ",
+            "de": "Doch darauf <span class=\"ebt-matched\">schwieg der Buddha</span>. ",
+            "en": "But when he said this, the Buddha kept silent. ",
+            "matched": true
+          },
+          "sn44.10:1.6": {
+            "scid": "sn44.10:1.6",
+            "pli": "Dutiyampi kho bhagavā tuṇhī ahosi. ",
+            "de": "Doch zum zweiten Mal <span class=\"ebt-matched\">schwieg der Buddha</span>. ",
+            "en": "But for a second time the Buddha kept silent. ",
+            "matched": true
+          }
+        },
+        "score": 2.1,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 44.10\n1. Das Kapitel über die nicht erklärten Punkte\nMit Ānanda",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 20,
+          "de": 19,
+          "en": 19
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/an/an8/an8.20_root-pli-ms.json",

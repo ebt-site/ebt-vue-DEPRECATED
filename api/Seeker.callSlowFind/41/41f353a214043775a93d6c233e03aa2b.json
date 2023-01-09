@@ -32,8 +32,11 @@
     "pattern": "entscheidungen als",
     "method": "phrase",
     "resultPattern": "\\bentscheidungen als",
-    "segsMatched": 27,
+    "segsMatched": 29,
     "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn44/sn44.8_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn44/sn44.8_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn44/sn44.8_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn41/sn41.3_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn41/sn41.3_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn41/sn41.3_translation-en-sujato.json",
@@ -84,6 +87,7 @@
       "translation/en/sujato/sutta/an/an4/an4.16_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "sn44.8/de/sabbamitta",
       "sn41.3/de/sabbamitta",
       "sn22.99/de/sabbamitta",
       "sn22.85/de/sabbamitta",
@@ -256,6 +260,45 @@
           "pli": 58,
           "de": 40,
           "en": 57
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn44/sn44.8_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn44/sn44.8_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn44/sn44.8_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn44.8",
+        "lang": "de",
+        "segMap": {
+          "sn44.8:3.4": {
+            "scid": "sn44.8:3.4",
+            "pli": "saṅkhāre …pe… ",
+            "de": "Sie betrachten <span class=\"ebt-matched\">Entscheidungen als</span> das Selbst … ",
+            "en": "choices … ",
+            "matched": true
+          },
+          "sn44.8:3.12": {
+            "scid": "sn44.8:3.12",
+            "pli": "na saṅkhāre …pe… ",
+            "de": "Er betrachtet nicht <span class=\"ebt-matched\">Entscheidungen als</span> das Selbst … ",
+            "en": "choices … ",
+            "matched": true
+          }
+        },
+        "score": 2.03,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 44.8\n1. Das Kapitel über die nicht erklärten Punkte\nMit Vacchagotta",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 67,
+          "de": 31,
+          "en": 66
         }
       },
       {

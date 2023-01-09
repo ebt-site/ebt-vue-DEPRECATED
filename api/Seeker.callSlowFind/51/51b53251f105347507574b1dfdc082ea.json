@@ -32,7 +32,7 @@
     "pattern": "kreislauf der wiedergeburten",
     "method": "phrase",
     "resultPattern": "\\bkreislauf der wiedergeburten",
-    "segsMatched": 7,
+    "segsMatched": 8,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn22/sn22.57_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.57_translation-de-sabbamitta.json",
@@ -43,6 +43,9 @@
       "root/pli/ms/sutta/dn/dn15_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn15_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn15_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn44/sn44.6_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn44/sn44.6_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn44/sn44.6_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/ud/vagga6/ud6.8_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga6/ud6.8_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/ud/vagga6/ud6.8_translation-en-sujato.json"
@@ -51,6 +54,7 @@
       "sn22.57/de/sabbamitta",
       "sn22.56/de/sabbamitta",
       "dn15/de/sabbamitta",
+      "sn44.6/de/sabbamitta",
       "ud6.8/de/sabbamitta"
     ],
     "mlDocs": [
@@ -201,6 +205,38 @@
           "pli": 22,
           "de": 17,
           "en": 17
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn44/sn44.6_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn44/sn44.6_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn44/sn44.6_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn44.6",
+        "lang": "de",
+        "segMap": {
+          "sn44.6:7.3": {
+            "scid": "sn44.6:7.3",
+            "pli": "Taṇhāsaṅkhayavimuttassa, āvuso sāriputta, bhikkhuno vaṭṭaṁ natthi paññāpanāyā”ti. ",
+            "de": "Denn für einen, der durch das Beenden des Verlangens befreit ist, ist kein <span class=\"ebt-matched\">Kreislauf der Wiedergeburten</span> zu finden.“ ",
+            "en": "For one who is freed due to the ending of craving, there is no cycle of rebirths to be found.” ",
+            "matched": true
+          }
+        },
+        "score": 1.019,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 44.6\n1. Das Kapitel über die nicht erklärten Punkte\nMit Sāriputta und Koṭṭhita (4)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 53,
+          "de": 49,
+          "en": 52
         }
       }
     ]

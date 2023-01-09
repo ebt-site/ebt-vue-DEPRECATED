@@ -32,7 +32,7 @@
     "pattern": "schwer zu sehen",
     "method": "phrase",
     "resultPattern": "\\bschwer zu sehen",
-    "segsMatched": 9,
+    "segsMatched": 10,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn6/sn6.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn6/sn6.1_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn14_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn43/sn43.14-43_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn43/sn43.14-43_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn43/sn43.14-43_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn11/sn11.13_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn11/sn11.13_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn11/sn11.13_translation-en-sujato.json",
@@ -61,6 +64,7 @@
     "suttaRefs": [
       "sn6.1/de/sabbamitta",
       "dn14/de/sabbamitta",
+      "sn43.14-43/de/sabbamitta",
       "sn11.13/de/sabbamitta",
       "ud8.2/de/sabbamitta",
       "thig6.1/de/sabbamitta",
@@ -274,6 +278,38 @@
           "pli": 36,
           "de": 36,
           "en": 36
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn43/sn43.14-43_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn43/sn43.14-43_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn43/sn43.14-43_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn43.14-43",
+        "lang": "de",
+        "segMap": {
+          "sn43.18:1.1": {
+            "scid": "sn43.18:1.1",
+            "pli": "Sududdasañca vo, bhikkhave, desessāmi sududdasagāmiñca maggaṁ. ",
+            "de": "das äußerst <span class=\"ebt-matched\">schwer zu Sehen</span>de … ",
+            "en": "the very hard to see … ",
+            "matched": true
+          }
+        },
+        "score": 1.015,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 43.14–43\n2. Das zweite Kapitel\nDas Unbefleckte usw.",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 67,
+          "de": 33,
+          "en": 66
         }
       },
       {

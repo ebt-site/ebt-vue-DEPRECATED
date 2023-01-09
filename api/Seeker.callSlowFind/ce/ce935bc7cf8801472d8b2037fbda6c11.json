@@ -32,11 +32,14 @@
     "pattern": "wurde vo.* nicht erklärt",
     "method": "phrase",
     "resultPattern": "\\bwurde vo.* nicht erklärt",
-    "segsMatched": 16,
+    "segsMatched": 26,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn44/sn44.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn44/sn44.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn44/sn44.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn44/sn44.11_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn44/sn44.11_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn44/sn44.11_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn16/sn16.12_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn16/sn16.12_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn16/sn16.12_translation-en-sujato.json",
@@ -45,13 +48,26 @@
       "translation/en/sujato/sutta/dn/dn29_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.95_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.95_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an10/an10.95_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an10/an10.95_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn44/sn44.8_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn44/sn44.8_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn44/sn44.8_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn44/sn44.7_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn44/sn44.7_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn44/sn44.7_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn44/sn44.3_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn44/sn44.3_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn44/sn44.3_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "sn44.1/de/sabbamitta",
+      "sn44.11/de/sabbamitta",
       "sn16.12/de/sabbamitta",
       "dn29/de/sabbamitta",
-      "an10.95/de/sabbamitta"
+      "an10.95/de/sabbamitta",
+      "sn44.8/de/sabbamitta",
+      "sn44.7/de/sabbamitta",
+      "sn44.3/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -169,6 +185,59 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn44/sn44.11_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn44/sn44.11_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn44/sn44.11_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn44.11",
+        "lang": "de",
+        "segMap": {
+          "sn44.11:1.5": {
+            "scid": "sn44.11:1.5",
+            "pli": "“Abyākataṁ kho etaṁ, vaccha, bhagavatā: ",
+            "de": "„Vaccha, das <span class=\"ebt-matched\">wurde vom Buddha nicht erklärt</span>.“ ",
+            "en": "“Vaccha, this has not been declared by the Buddha.” ",
+            "matched": true
+          },
+          "sn44.11:1.8": {
+            "scid": "sn44.11:1.8",
+            "pli": "“Etampi kho, vaccha, abyākataṁ bhagavatā: ",
+            "de": "„Auch das <span class=\"ebt-matched\">wurde vom Buddha nicht erklärt</span>.“ ",
+            "en": "“This too has not been declared by the Buddha.” ",
+            "matched": true
+          },
+          "sn44.11:2.2": {
+            "scid": "sn44.11:2.2",
+            "pli": "“Abyākataṁ kho etaṁ, vaccha, bhagavatā: ",
+            "de": "„Das <span class=\"ebt-matched\">wurde vom Buddha nicht erklärt</span>.“ ",
+            "en": "“This has not been declared by the Buddha.” ",
+            "matched": true
+          },
+          "sn44.11:2.5": {
+            "scid": "sn44.11:2.5",
+            "pli": "“Etampi kho, vaccha, abyākataṁ bhagavatā: ",
+            "de": "„Auch das <span class=\"ebt-matched\">wurde vom Buddha nicht erklärt</span>.“ ",
+            "en": "“This too has not been declared by the Buddha.” ",
+            "matched": true
+          }
+        },
+        "score": 4.075,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 44.11\n1. Das Kapitel über die nicht erklärten Punkte\nMit Sabhiya Kaccāna",
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 53,
+          "de": 23,
+          "en": 51
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/dn/dn29_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/dn/dn29_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/dn/dn29_translation-en-sujato.json"
@@ -264,6 +333,123 @@
           "pli": 57,
           "de": 40,
           "en": 56
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn44/sn44.3_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn44/sn44.3_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn44/sn44.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn44.3",
+        "lang": "de",
+        "segMap": {
+          "sn44.3:2.2": {
+            "scid": "sn44.3:2.2",
+            "pli": "“Abyākataṁ kho etaṁ, āvuso, bhagavatā: ",
+            "de": "„Werter Freund, das <span class=\"ebt-matched\">wurde vom Buddha nicht erklärt</span>.“ ",
+            "en": "“Reverend, this has not been declared by the Buddha.” ",
+            "matched": true
+          },
+          "sn44.3:2.11": {
+            "scid": "sn44.3:2.11",
+            "pli": "“Etampi kho, āvuso, abyākataṁ bhagavatā: ",
+            "de": "„Auch das <span class=\"ebt-matched\">wurde vom Buddha nicht erklärt</span>.“ ",
+            "en": "“This too has not been declared by the Buddha.” ",
+            "matched": true
+          }
+        },
+        "score": 2.043,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 44.3\n1. Das Kapitel über die nicht erklärten Punkte\nMit Sāriputta und Koṭṭhita (1)",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 46,
+          "de": 26,
+          "en": 45
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn44/sn44.8_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn44/sn44.8_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn44/sn44.8_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn44.8",
+        "lang": "de",
+        "segMap": {
+          "sn44.8:1.4": {
+            "scid": "sn44.8:1.4",
+            "pli": "“Abyākataṁ kho etaṁ, vaccha, mayā: ‘sassato loko’ti …pe…. ",
+            "de": "„Das <span class=\"ebt-matched\">wurde von mir nicht erklärt</span>, Vaccha.“ … ",
+            "en": "“This has not been declared by me, Vaccha.” … ",
+            "matched": true
+          },
+          "sn44.8:1.6": {
+            "scid": "sn44.8:1.6",
+            "pli": "“Etampi kho, vaccha, abyākataṁ mayā: ",
+            "de": "„Auch das <span class=\"ebt-matched\">wurde von mir nicht erklärt</span>.“ ",
+            "en": "“This too has not been declared by me.” ",
+            "matched": true
+          }
+        },
+        "score": 2.03,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 44.8\n1. Das Kapitel über die nicht erklärten Punkte\nMit Vacchagotta",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 67,
+          "de": 31,
+          "en": 66
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn44/sn44.7_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn44/sn44.7_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn44/sn44.7_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn44.7",
+        "lang": "de",
+        "segMap": {
+          "sn44.7:2.2": {
+            "scid": "sn44.7:2.2",
+            "pli": "“Abyākataṁ kho etaṁ, vaccha, bhagavatā: ",
+            "de": "„Vaccha, das <span class=\"ebt-matched\">wurde vom Buddha nicht erklärt</span>.“ ",
+            "en": "“Vaccha, this has not been declared by the Buddha.” ",
+            "matched": true
+          },
+          "sn44.7:2.29": {
+            "scid": "sn44.7:2.29",
+            "pli": "“Etampi kho, vaccha, abyākataṁ bhagavatā: ",
+            "de": "„Auch das <span class=\"ebt-matched\">wurde vom Buddha nicht erklärt</span>.“ ",
+            "en": "“This too has not been declared by the Buddha.” ",
+            "matched": true
+          }
+        },
+        "score": 2.024,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 44.7\n1. Das Kapitel über die nicht erklärten Punkte\nMit Moggallāna",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 82,
+          "de": 35,
+          "en": 81
         }
       }
     ]
