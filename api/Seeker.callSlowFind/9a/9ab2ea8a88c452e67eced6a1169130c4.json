@@ -32,7 +32,7 @@
     "pattern": "es ist einfach dieser edle achtfache pfad",
     "method": "phrase",
     "resultPattern": "\\bes ist einfach dieser edle achtfache pfad",
-    "segsMatched": 23,
+    "segsMatched": 25,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn56/sn56.11_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn56/sn56.11_translation-de-sabbamitta.json",
@@ -43,6 +43,12 @@
       "root/pli/ms/sutta/sn/sn47/sn47.40_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn47/sn47.40_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn47/sn47.40_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn45/sn45.5_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn45/sn45.5_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn45/sn45.5_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn45/sn45.27_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn45/sn45.27_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn45/sn45.27_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn42/sn42.12_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn42/sn42.12_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn42/sn42.12_translation-en-sujato.json",
@@ -105,6 +111,8 @@
       "sn56.11/de/sabbamitta",
       "sn56.13/de/sabbamitta",
       "sn47.40/de/sabbamitta",
+      "sn45.5/de/sabbamitta",
+      "sn45.27/de/sabbamitta",
       "sn42.12/de/sabbamitta",
       "sn39.1-15/de/sabbamitta",
       "sn38.3/de/sabbamitta",
@@ -163,6 +171,38 @@
           "pli": 60,
           "de": 59,
           "en": 59
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn45/sn45.27_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn45/sn45.27_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn45/sn45.27_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn45.27",
+        "lang": "de",
+        "segMap": {
+          "sn45.27:1.5": {
+            "scid": "sn45.27:1.5",
+            "pli": "Ayameva ariyo aṭṭhaṅgiko maggo, seyyathidaṁ—",
+            "de": "<span class=\"ebt-matched\">Es ist einfach dieser edle achtfache Pfad</span>: nämlich ",
+            "en": "It is simply this noble eightfold path, that is: ",
+            "matched": true
+          }
+        },
+        "score": 1.077,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 45.27\n3. Das Kapitel über den falschen Weg\nKrüge",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 13,
+          "de": 12,
+          "en": 12
         }
       },
       {
@@ -290,6 +330,38 @@
         "langSegs": {
           "pli": 20,
           "de": 19,
+          "en": 20
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn45/sn45.5_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn45/sn45.5_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn45/sn45.5_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn45.5",
+        "lang": "de",
+        "segMap": {
+          "sn45.5:4.2": {
+            "scid": "sn45.5:4.2",
+            "pli": "Ayameva ariyo aṭṭhaṅgiko maggo, seyyathidaṁ—",
+            "de": "<span class=\"ebt-matched\">Es ist einfach dieser edle achtfache Pfad</span>: nämlich ",
+            "en": "It is simply this noble eightfold path, that is: ",
+            "matched": true
+          }
+        },
+        "score": 1.048,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 45.5\n1. Das Kapitel über Unwissenheit\nWas ist der Zweck?",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 21,
+          "de": 20,
           "en": 20
         }
       },
