@@ -32,11 +32,14 @@
     "pattern": "vorbote und vorläufer",
     "method": "phrase",
     "resultPattern": "\\bvorbote und vorläufer",
-    "segsMatched": 19,
+    "segsMatched": 21,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn56/sn56.37_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn56/sn56.37_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn56/sn56.37_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn46/sn46.48_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn46/sn46.48_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn46/sn46.48_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn46/sn46.13_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn46/sn46.13_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn46/sn46.13_translation-en-sujato.json",
@@ -67,6 +70,7 @@
     ],
     "suttaRefs": [
       "sn56.37/de/sabbamitta",
+      "sn46.48/de/sabbamitta",
       "sn46.13/de/sabbamitta",
       "sn46.12/de/sabbamitta",
       "sn45.57-61/de/sabbamitta",
@@ -422,6 +426,45 @@
         "maxWord": 30,
         "minWord": 5,
         "title": "Verbundene Lehrreden 46.13\n2. Das Kapitel über Kranke\nDas Gleichnis von der Sonne (2)",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 11,
+          "de": 10,
+          "en": 10
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn46/sn46.48_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn46/sn46.48_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn46/sn46.48_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn46.48",
+        "lang": "de",
+        "segMap": {
+          "sn46.48:1.1": {
+            "scid": "sn46.48:1.1",
+            "pli": "“Ādiccassa, bhikkhave, udayato etaṁ pubbaṅgamaṁ etaṁ pubbanimittaṁ, yadidaṁ—aruṇuggaṁ. ",
+            "de": "„Mönche und Nonnen, die Morgendämmerung ist der <span class=\"ebt-matched\">Vorbote und Vorläufer</span> des Sonnenaufgangs. ",
+            "en": "“Mendicants, the dawn is the forerunner and precursor of the sunrise. ",
+            "matched": true
+          },
+          "sn46.48:1.2": {
+            "scid": "sn46.48:1.2",
+            "pli": "Evameva kho, bhikkhave, bhikkhuno sattannaṁ bojjhaṅgānaṁ uppādāya etaṁ pubbaṅgamaṁ etaṁ pubbanimittaṁ, yadidaṁ—kalyāṇamittatā. ",
+            "de": "Ebenso ist gute Freundschaft für einen Mönch der <span class=\"ebt-matched\">Vorbote und Vorläufer</span> für das Erscheinen der sieben Faktoren des Erwachens. ",
+            "en": "In the same way, for a mendicant good friendship is the forerunner and precursor of the arising of the seven awakening factors. ",
+            "matched": true
+          }
+        },
+        "score": 2.182,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 46.48\n5. Das Kapitel über den Rad-drehenden Herrscher\nDie Sonne",
         "segsMatched": 2,
         "langSegs": {
           "pli": 11,
