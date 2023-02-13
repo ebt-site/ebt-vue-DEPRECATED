@@ -32,14 +32,18 @@
     "pattern": "vier.* arten der suche",
     "method": "phrase",
     "resultPattern": "\\bvier.* arten der suche",
-    "segsMatched": 4,
+    "segsMatched": 6,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an4/an4.255_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.255_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an4/an4.255_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an4/an4.255_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn49/sn49.35-44_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn49/sn49.35-44_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn49/sn49.35-44_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "an4.255/de/sabbamitta"
+      "an4.255/de/sabbamitta",
+      "sn49.35-44/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -93,6 +97,45 @@
           "pli": 18,
           "de": 17,
           "en": 17
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn49/sn49.35-44_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn49/sn49.35-44_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn49/sn49.35-44_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn49.35-44",
+        "lang": "de",
+        "segMap": {
+          "sn49.35-44:1.5": {
+            "scid": "sn49.35-44:1.5",
+            "pli": "Imāsaṁ kho, bhikkhave, tissannaṁ esanānaṁ abhiññāya pariññāya parikkhayāya pahānāya cattāro sammappadhānā bhāvetabbā. ",
+            "de": "<span class=\"ebt-matched\">Vier Arten rechten Bemühens sollten entwickelt werden, um diese drei Arten der Suche</span> unmittelbar zu erkennen, vollständig zu verstehen, zu beenden und aufzugeben. ",
+            "en": "The four right efforts should be developed for the direct knowledge, complete understanding, finishing, and giving up of these three searches. ",
+            "matched": true
+          },
+          "sn49.35-44:1.9": {
+            "scid": "sn49.35-44:1.9",
+            "pli": "Imāsaṁ kho, bhikkhave, tissannaṁ esanānaṁ abhiññāya pariññāya parikkhayāya pahānāya ime cattāro sammappadhānā bhāvetabbā”ti. ",
+            "de": "Diese <span class=\"ebt-matched\">vier Arten rechten Bemühens sollten entwickelt werden, um diese drei Arten der Suche</span> unmittelbar zu erkennen, vollständig zu verstehen, zu beenden und aufzugeben.“ ",
+            "en": "These four right efforts should be developed for the direct knowledge, complete understanding, finishing, and giving up of these three searches.” ",
+            "matched": true
+          }
+        },
+        "score": 2.1,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 49.35–44\n4. Das Kapitel über Arten der Suche\nZehn Lehrreden über Arten der Suche usw.",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 20,
+          "de": 17,
+          "en": 19
         }
       }
     ]

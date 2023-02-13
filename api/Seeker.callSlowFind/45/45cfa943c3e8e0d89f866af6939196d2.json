@@ -32,11 +32,14 @@
     "pattern": "marionette",
     "method": "phrase",
     "resultPattern": "\\bmarionette",
-    "segsMatched": 4,
+    "segsMatched": 5,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn5/sn5.9_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn5/sn5.9_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn5/sn5.9_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn48/sn48.41_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn48/sn48.41_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn48/sn48.41_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thig/thig14.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thig/thig14.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thig/thig14.1_translation-en-sujato.json",
@@ -44,6 +47,7 @@
     ],
     "suttaRefs": [
       "sn5.9/de/sabbamitta",
+      "sn48.41/de/sabbamitta",
       "thig14.1/de/sabbamitta"
     ],
     "mlDocs": [
@@ -91,6 +95,38 @@
           "pli": 30,
           "de": 30,
           "en": 30
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn48/sn48.41_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn48/sn48.41_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn48/sn48.41_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn48.41",
+        "lang": "de",
+        "segMap": {
+          "sn48.41:5.3": {
+            "scid": "sn48.41:5.3",
+            "pli": "Tāva manoramaṁ bimbaṁ, ",
+            "de": "So ist diese entzückende <span class=\"ebt-matched\">Marionette</span> ",
+            "en": "That’s how much this delightful puppet ",
+            "matched": true
+          }
+        },
+        "score": 1.04,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 48.41\n5. Das Kapitel über das Alter\nAlter",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 25,
+          "de": 24,
+          "en": 24
         }
       },
       {

@@ -30,172 +30,84 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "fähigkeit zur weisheit",
-    "method": "phrase",
-    "resultPattern": "\\bfähigkeit zur weisheit",
-    "segsMatched": 6,
+    "method": "keywords",
+    "resultPattern": "\\bfähigkeit|\\bzur|\\bweisheit",
+    "segsMatched": 0,
     "bilaraPaths": [
-      "root/pli/ms/sutta/an/an1/an1.394-574_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an1/an1.394-574_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an1/an1.394-574_translation-en-sujato.json",
-      "root/pli/ms/sutta/sn/sn43/sn43.12_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/sn/sn43/sn43.12_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn43/sn43.12_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn14_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.99_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.99_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.99_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.92_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an3/an3.92_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an3/an3.92_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn48/sn48.10_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn48/sn48.10_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn48/sn48.10_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn48/sn48.57_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn48/sn48.57_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn48/sn48.57_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn48/sn48.64_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn48/sn48.64_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn48/sn48.64_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn48/sn48.9_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn48/sn48.9_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn48/sn48.9_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.28_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.28_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.28_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.90_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.90_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.90_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.21_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.21_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.21_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an3/an3.156-162_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an3/an3.156-162_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an3/an3.156-162_translation-en-sujato.json"
+      "root/pli/ms/sutta/an/an4/an4.159_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.159_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.159_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an8/an8.28_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an8/an8.28_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an8/an8.28_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn10_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn10_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn10_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn28_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn28_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn28_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn29_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn29_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn29_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn31_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn31_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn31_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn48/sn48.19_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn48/sn48.19_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn48/sn48.19_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn48/sn48.24_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn48/sn48.24_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn48/sn48.24_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn48/sn48.49_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn48/sn48.49_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn48/sn48.49_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn48/sn48.50_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn48/sn48.50_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn48/sn48.50_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn48/sn48.66_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn48/sn48.66_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn48/sn48.66_translation-en-sujato.json"
     ],
-    "suttaRefs": [
-      "an1.394-574/de/sabbamitta",
-      "sn43.12/de/sabbamitta",
-      "an3.21/de/sabbamitta",
-      "an3.156-162/de/sabbamitta"
-    ],
-    "mlDocs": [
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/an/an1/an1.394-574_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/an/an1/an1.394-574_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/an/an1/an1.394-574_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "an1.394-574",
-        "lang": "de",
-        "segMap": {
-          "an1.418:1.1": {
-            "scid": "an1.418:1.1",
-            "pli": "paññindriyaṁ bhāveti …. ",
-            "de": "wenn er die <span class=\"ebt-matched\">Fähigkeit zur Weisheit</span> entwickelt, und sei es nur für die Dauer eines Fingerschnippens … ",
-            "en": "the faculty of wisdom, even for the time of a finger-snap … ",
-            "matched": true
-          },
-          "an1.499:1.1": {
-            "scid": "an1.499:1.1",
-            "pli": "paññindriyaṁ bhāveti … ",
-            "de": "die <span class=\"ebt-matched\">Fähigkeit zur Weisheit</span> … ",
-            "en": "the faculty of wisdom … ",
-            "matched": true
-          },
-          "an1.569:1.1": {
-            "scid": "an1.569:1.1",
-            "pli": "paññindriyaṁ bhāveti … ",
-            "de": "die <span class=\"ebt-matched\">Fähigkeit zur Weisheit</span> … ",
-            "en": "the faculty of wisdom … ",
-            "matched": true
-          }
-        },
-        "score": 3.017,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Nummerierte Lehrreden 1.394–574\n29. Noch ein Kapitel über ein Fingerschnippen",
-        "segsMatched": 3,
-        "langSegs": {
-          "pli": 175,
-          "de": 174,
-          "en": 166
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/an/an3/an3.21_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/an/an3/an3.21_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/an/an3/an3.21_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "an3.21",
-        "lang": "de",
-        "segMap": {
-          "an3.21:7.7": {
-            "scid": "an3.21:7.7",
-            "pli": "Imassa, āvuso, puggalassa paññindriyaṁ adhimattan”ti. ",
-            "de": "Weil diese Person eine herausragende <span class=\"ebt-matched\">Fähigkeit zur Weisheit</span> besitzt.“ ",
-            "en": "Because this person’s faculty of wisdom is outstanding.” ",
-            "matched": true
-          }
-        },
-        "score": 1.016,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Nummerierte Lehrreden 3.21\n3. Das Kapitel über Menschen\nMit Saviṭṭha",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 64,
-          "de": 63,
-          "en": 63
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/an/an3/an3.156-162_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/an/an3/an3.156-162_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/an/an3/an3.156-162_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "an3.156-162",
-        "lang": "de",
-        "segMap": {
-          "an3.159:1.5": {
-            "scid": "an3.159:1.5",
-            "pli": "paññindriyaṁ bhāveti …pe…. ",
-            "de": "die <span class=\"ebt-matched\">Fähigkeit zur Weisheit</span> … ",
-            "en": "wisdom … ",
-            "matched": true
-          }
-        },
-        "score": 1.012,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Nummerierte Lehrreden 3.156–162\n16. Das Kapitel über Übungen\nLehrreden ohne Titel über drei Übungswege",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 82,
-          "de": 80,
-          "en": 80
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/sn/sn43/sn43.12_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/sn/sn43/sn43.12_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/sn/sn43/sn43.12_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "sn43.12",
-        "lang": "de",
-        "segMap": {
-          "sn43.12:8.14": {
-            "scid": "sn43.12:8.14",
-            "pli": "Idha, bhikkhave, bhikkhu paññindriyaṁ bhāveti vivekanissitaṁ virāganissitaṁ nirodhanissitaṁ vossaggapariṇāmiṁ. Ayaṁ vuccati, bhikkhave, asaṅkhatagāmimaggo …pe…. ",
-            "de": "die <span class=\"ebt-matched\">Fähigkeit zur Weisheit</span>, die aus Abgeschiedenheit, Schwinden und Aufhören erwächst und zum Loslassen heranreift … ",
-            "en": "wisdom, which relies on seclusion, fading away, and cessation, and ripens as letting go. … ",
-            "matched": true
-          }
-        },
-        "score": 1.008,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Verbundene Lehrreden 43.12\n2. Das zweite Kapitel\nDas Unbedingte",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 131,
-          "de": 70,
-          "en": 130
-        }
-      }
-    ]
+    "suttaRefs": [],
+    "mlDocs": []
   }
 }

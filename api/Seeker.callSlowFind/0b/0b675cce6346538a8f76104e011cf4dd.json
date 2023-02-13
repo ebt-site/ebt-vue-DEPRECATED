@@ -32,11 +32,14 @@
     "pattern": "aber zum erwachen entschlossen",
     "method": "phrase",
     "resultPattern": "\\baber zum erwachen entschlossen",
-    "segsMatched": 16,
+    "segsMatched": 17,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an5/an5.196_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.196_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.196_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn51/sn51.11_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn51/sn51.11_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn51/sn51.11_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn36/sn36.24_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn36/sn36.24_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn36/sn36.24_translation-en-sujato.json",
@@ -79,6 +82,7 @@
     ],
     "suttaRefs": [
       "an5.196/de/sabbamitta",
+      "sn51.11/de/sabbamitta",
       "sn36.24/de/sabbamitta",
       "sn35.14/de/sabbamitta",
       "sn35.13/de/sabbamitta",
@@ -426,6 +430,38 @@
           "pli": 56,
           "de": 54,
           "en": 54
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn51/sn51.11_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn51/sn51.11_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn51/sn51.11_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn51.11",
+        "lang": "de",
+        "segMap": {
+          "sn51.11:1.2": {
+            "scid": "sn51.11:1.2",
+            "pli": "“Pubbeva me, bhikkhave, sambodhā anabhisambuddhassa bodhisattasseva sato etadahosi: ",
+            "de": "„Mönche und Nonnen, vor meinem Erwachen, als ich noch nicht erwacht war, <span class=\"ebt-matched\">aber zum Erwachen entschlossen</span>, dachte ich: ",
+            "en": "“Mendicants, before my awakening—when I was still unawakened but intent on awakening—I thought: ",
+            "matched": true
+          }
+        },
+        "score": 1.017,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 51.11\n2. Das Kapitel über das Erzitternlassen des Pfahlhauses\nVorher",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 58,
+          "de": 45,
+          "en": 57
         }
       },
       {

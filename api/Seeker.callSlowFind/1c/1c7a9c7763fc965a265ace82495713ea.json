@@ -32,7 +32,7 @@
     "pattern": "kraft der weisheit",
     "method": "phrase",
     "resultPattern": "\\bkraft der weisheit",
-    "segsMatched": 23,
+    "segsMatched": 25,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an9/an9.5_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an9/an9.5_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/an/an1/an1.394-574_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an1/an1.394-574_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an1/an1.394-574_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn48/sn48.43_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn48/sn48.43_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn48/sn48.43_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an7/an7.4_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an7/an7.4_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an7/an7.4_translation-en-sujato.json",
@@ -71,6 +74,7 @@
     "suttaRefs": [
       "an9.5/de/sabbamitta",
       "an1.394-574/de/sabbamitta",
+      "sn48.43/de/sabbamitta",
       "an7.4/de/sabbamitta",
       "an5.2/de/sabbamitta",
       "an5.16/de/sabbamitta",
@@ -385,6 +389,45 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn48/sn48.43_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn48/sn48.43_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn48/sn48.43_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn48.43",
+        "lang": "de",
+        "segMap": {
+          "sn48.43:4.6": {
+            "scid": "sn48.43:4.6",
+            "pli": "yaṁ paññindriyaṁ taṁ paññābalaṁ, yaṁ paññābalaṁ taṁ paññindriyaṁ. ",
+            "de": "Die Fähigkeit der Weisheit ist die <span class=\"ebt-matched\">Kraft der Weisheit</span>, und die <span class=\"ebt-matched\">Kraft der Weisheit</span> ist die Fähigkeit der Weisheit. ",
+            "en": "The faculty of wisdom is the power of wisdom, and the power of wisdom is the faculty of wisdom. ",
+            "matched": true
+          },
+          "sn48.43:6.8": {
+            "scid": "sn48.43:6.8",
+            "pli": "yaṁ paññindriyaṁ taṁ paññābalaṁ, yaṁ paññābalaṁ taṁ paññindriyaṁ. ",
+            "de": "Die Fähigkeit der Weisheit ist die <span class=\"ebt-matched\">Kraft der Weisheit</span>, und die <span class=\"ebt-matched\">Kraft der Weisheit</span> ist die Fähigkeit der Weisheit. ",
+            "en": "The faculty of wisdom is the power of wisdom, and the power of wisdom is the faculty of wisdom. ",
+            "matched": true
+          }
+        },
+        "score": 2.065,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 48.43\n5. Das Kapitel über das Alter\nIn Sāketa",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 31,
+          "de": 30,
+          "en": 30
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an7/an7.4_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/an/an7/an7.4_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/an/an7/an7.4_translation-en-sujato.json"
@@ -437,7 +480,7 @@
           "an5.15:1.16": {
             "scid": "an5.15:1.16",
             "pli": "Kattha ca, bhikkhave, paññābalaṁ daṭṭhabbaṁ? ",
-            "de": "Und woran ist die <span class=\"ebt-matched\">Kraft der Weisheit</span> zu sehen? ",
+            "de": "Und wo muss die <span class=\"ebt-matched\">Kraft der Weisheit</span> gesehen werden? ",
             "en": "And where should the power of wisdom be seen? ",
             "matched": true
           }
@@ -446,7 +489,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Nummerierte Lehrreden 5.15\n2. Das Kapitel über Kräfte\nZu sehen",
+        "title": "Nummerierte Lehrreden 5.15\n2. Das Kapitel über Kräfte\nMuss gesehen werden",
         "segsMatched": 1,
         "langSegs": {
           "pli": 23,

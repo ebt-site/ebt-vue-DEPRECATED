@@ -32,7 +32,7 @@
     "pattern": "beruhigen.* aller vorgänge",
     "method": "phrase",
     "resultPattern": "\\bberuhigen.* aller vorgänge",
-    "segsMatched": 21,
+    "segsMatched": 22,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an9/an9.36_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an9/an9.36_translation-de-sabbamitta.json",
@@ -46,6 +46,9 @@
       "root/pli/ms/sutta/sn/sn6/sn6.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn6/sn6.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn6/sn6.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn48/sn48.50_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn48/sn48.50_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn48/sn48.50_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn22/sn22.90_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.90_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.90_translation-en-sujato.json",
@@ -85,6 +88,7 @@
       "an11.7/de/sabbamitta",
       "an10.60/de/sabbamitta",
       "sn6.1/de/sabbamitta",
+      "sn48.50/de/sabbamitta",
       "sn22.90/de/sabbamitta",
       "dn14/de/sabbamitta",
       "an5.140/de/sabbamitta",
@@ -490,6 +494,38 @@
           "pli": 40,
           "de": 39,
           "en": 39
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn48/sn48.50_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn48/sn48.50_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn48/sn48.50_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn48.50",
+        "lang": "de",
+        "segMap": {
+          "sn48.50:5.5": {
+            "scid": "sn48.50:5.5",
+            "pli": "sabbasaṅkhārasamatho sabbūpadhipaṭinissaggo taṇhākkhayo virāgo nirodho nibbānaṁ. ",
+            "de": "das <span class=\"ebt-matched\">Beruhigen aller Vorgänge</span>, das Loslassen aller Bindungen, das Auflösen des Verlangens, das Schwinden, Aufhören, Erlöschen.‘ ",
+            "en": "That is, the stilling of all activities, the letting go of all attachments, the ending of craving, fading away, cessation, extinguishment.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.02,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 48.50\n5. Das Kapitel über das Alter\nIn Āpaṇa",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 50,
+          "de": 27,
+          "en": 48
         }
       },
       {
