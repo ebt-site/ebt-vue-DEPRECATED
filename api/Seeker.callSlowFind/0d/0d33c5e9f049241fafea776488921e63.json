@@ -31,7 +31,7 @@
     "pattern": "rose-apple",
     "method": "phrase",
     "resultPattern": "\\brose-apple",
-    "segsMatched": 6,
+    "segsMatched": 7,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn48/sn48.67_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn48/sn48.67_translation-en-sujato.json",
@@ -42,14 +42,17 @@
       "root/pli/ms/sutta/mn/mn100_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn100_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag4.11_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/thag/thag4.11_translation-en-sujato.json"
+      "translation/en/sujato/sutta/kn/thag/thag4.11_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "sn48.67/en/sujato",
       "mn85/en/sujato",
       "mn36/en/sujato",
       "mn100/en/sujato",
-      "thag4.11/en/sujato"
+      "thag4.11/en/sujato",
+      "dn16/en/sujato"
     ],
     "mlDocs": [
       {
@@ -201,6 +204,35 @@
         "langSegs": {
           "pli": 553,
           "en": 552
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
+          "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn16",
+        "lang": "en",
+        "segMap": {
+          "dn16:4.5.4": {
+            "scid": "dn16:4.5.4",
+            "pli": "yena jambugāmo, ",
+            "en": "“Let’s go to <span class=\"ebt-matched\">Rose-apple</span> Village.”… ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Long Discourses 16\nThe Great Discourse on the Buddha’s Extinguishment",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 1664,
+          "en": 1564
         }
       }
     ]

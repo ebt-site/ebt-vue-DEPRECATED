@@ -31,7 +31,7 @@
     "pattern": "fault-finding mind",
     "method": "phrase",
     "resultPattern": "\\bfault-finding mind",
-    "segsMatched": 21,
+    "segsMatched": 23,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an10/an10.76_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an10/an10.76_translation-en-sujato.json",
@@ -39,17 +39,17 @@
       "translation/en/sujato/sutta/kn/thag/thag5.10_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an7/an7.29_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an7/an7.29_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an5/an5.153_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an5/an5.153_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an7/an7.31_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an7/an7.31_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an7/an7.31_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.153_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an5/an5.153_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an10.76/en/sujato",
       "thag5.10/en/sujato",
       "an7.29/en/sujato",
-      "an5.153/en/sujato",
-      "an7.31/en/sujato"
+      "an7.31/en/sujato",
+      "an5.153/en/sujato"
     ],
     "mlDocs": [
       {
@@ -222,11 +222,52 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Numbered Discourses 7.29\n3. The Vajji Seven\nNon-decline for a Lay Follower",
+        "title": "Numbered Discourses 7.29\n3. The Vajjī Seven\nNon-decline for a Lay Follower",
         "segsMatched": 4,
         "langSegs": {
           "pli": 58,
           "en": 57
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an7/an7.31_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an7/an7.31_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an7.31",
+        "lang": "en",
+        "segMap": {
+          "an7.31:1.8": {
+            "scid": "an7.31:1.8",
+            "pli": "bhikkhūsu theresu ceva navesu ca majjhimesu ca anupārambhacitto dhammaṁ suṇāti na randhagavesī, ",
+            "en": "They don’t listen to the teaching with a hostile, <span class=\"ebt-matched\">fault-finding mind</span>. ",
+            "matched": true
+          },
+          "an7.31:3.4": {
+            "scid": "an7.31:3.4",
+            "pli": "saddhammaṁ sotumicchati. ",
+            "en": "with a <span class=\"ebt-matched\">fault-finding mind</span>. ",
+            "matched": true
+          },
+          "an7.31:7.4": {
+            "scid": "an7.31:7.4",
+            "pli": "saddhammaṁ sotumicchati. ",
+            "en": "without a <span class=\"ebt-matched\">fault-finding mind</span>. ",
+            "matched": true
+          }
+        },
+        "score": 3.057,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 7.31\n3. The Vajjī Seven\nDownfalls for a Lay Follower",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 53,
+          "en": 51
         }
       },
       {
@@ -262,35 +303,6 @@
         "langSegs": {
           "pli": 12,
           "en": 11
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/an/an7/an7.31_root-pli-ms.json",
-          "translation/en/sujato/sutta/an/an7/an7.31_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "an7.31",
-        "lang": "en",
-        "segMap": {
-          "an7.31:1.8": {
-            "scid": "an7.31:1.8",
-            "pli": "bhikkhūsu theresu ceva navesu ca majjhimesu ca anupārambhacitto dhammaṁ suṇāti na randhagavesī, ",
-            "en": "They don’t listen to the teaching with a hostile, <span class=\"ebt-matched\">fault-finding mind</span>. ",
-            "matched": true
-          }
-        },
-        "score": 1.019,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Numbered Discourses 7.31\n3. The Vajji Seven\nDownfalls for a Lay Follower",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 53,
-          "en": 51
         }
       }
     ]

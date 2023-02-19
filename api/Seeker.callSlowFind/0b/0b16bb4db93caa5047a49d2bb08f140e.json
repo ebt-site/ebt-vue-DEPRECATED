@@ -31,18 +31,24 @@
     "pattern": "lead the mendicant",
     "method": "phrase",
     "resultPattern": "\\blead the mendicant",
-    "segsMatched": 5,
+    "segsMatched": 7,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn67_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn67_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn51_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn51_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn47/sn47.9_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn47/sn47.9_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.100_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an5/an5.100_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "mn67/en/sujato",
       "mn51/en/sujato",
+      "sn47.9/en/sujato",
+      "dn16/en/sujato",
       "an5.100/en/sujato"
     ],
     "mlDocs": [
@@ -60,7 +66,7 @@
           "mn67:13.5": {
             "scid": "mn67:13.5",
             "pli": "Appossukko dāni bhagavā diṭṭhadhammasukhavihāraṁ anuyutto viharissati, ahañca dāni āyasmā ca sāriputto bhikkhusaṅghaṁ pariharissāmā’”ti. ",
-            "en": "Now he will remain passive, dwelling in blissful meditation in the present life. Meanwhile, Venerable Sāriputta and I will <span class=\"ebt-matched\">lead the mendicant</span> Saṅgha.’” ",
+            "en": "Now he will remain passive, dwelling in blissful meditation in the present life. Meanwhile, Venerable Sāriputta and I shall <span class=\"ebt-matched\">lead the mendicant</span> Saṅgha.’” ",
             "matched": true
           },
           "mn67:13.7": {
@@ -118,6 +124,35 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn47/sn47.9_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn47/sn47.9_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn47.9",
+        "lang": "en",
+        "segMap": {
+          "sn47.9:4.5": {
+            "scid": "sn47.9:4.5",
+            "pli": "‘ahaṁ bhikkhusaṅghaṁ pariharissāmī’ti vā, ‘mamuddesiko bhikkhusaṅgho’ti vā, so nūna, ānanda, bhikkhusaṅghaṁ ārabbha kiñcideva udāhareyya. ",
+            "en": "‘I shall <span class=\"ebt-matched\">lead the mendicant</span> Saṅgha,’ or ‘the Saṅgha of mendicants is meant for me,’ let them bring something up regarding the Saṅgha. ",
+            "matched": true
+          }
+        },
+        "score": 1.021,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 47.9\n1. In Ambapālī’s Wood\nSick",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 47,
+          "en": 46
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an5/an5.100_root-pli-ms.json",
           "translation/en/sujato/sutta/an/an5/an5.100_translation-en-sujato.json"
         ],
@@ -130,7 +165,7 @@
           "an5.100:2.3": {
             "scid": "an5.100:2.3",
             "pli": "‘ahaṁ bhikkhusaṅghaṁ pariharissāmī’ti. ",
-            "en": "‘I will <span class=\"ebt-matched\">lead the mendicant</span> Saṅgha.’ ",
+            "en": "‘I shall <span class=\"ebt-matched\">lead the mendicant</span> Saṅgha.’ ",
             "matched": true
           }
         },
@@ -143,6 +178,35 @@
         "langSegs": {
           "pli": 97,
           "en": 95
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
+          "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn16",
+        "lang": "en",
+        "segMap": {
+          "dn16:2.25.5": {
+            "scid": "dn16:2.25.5",
+            "pli": "‘ahaṁ bhikkhusaṅghaṁ pariharissāmī’ti vā ‘mamuddesiko bhikkhusaṅgho’ti vā, so nūna, ānanda, bhikkhusaṅghaṁ ārabbha kiñcideva udāhareyya. ",
+            "en": "‘I shall <span class=\"ebt-matched\">lead the mendicant</span> Saṅgha,’ or ‘the Saṅgha of mendicants is meant for me,’ let them bring something up regarding the Saṅgha. ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Long Discourses 16\nThe Great Discourse on the Buddha’s Extinguishment",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 1664,
+          "en": 1564
         }
       }
     ]

@@ -31,19 +31,22 @@
     "pattern": "pleasure seeker",
     "method": "phrase",
     "resultPattern": "\\bpleasure seeker",
-    "segsMatched": 74,
+    "segsMatched": 75,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn42/sn42.12_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn42/sn42.12_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.91_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an10/an10.91_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.246_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an4/an4.246_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an4/an4.246_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.15_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an4/an4.15_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "sn42.12/en/sujato",
       "an10.91/en/sujato",
-      "an4.246/en/sujato"
+      "an4.246/en/sujato",
+      "an4.15/en/sujato"
     ],
     "mlDocs": [
       {
@@ -557,6 +560,35 @@
         "langSegs": {
           "pli": 23,
           "en": 22
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.15_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an4/an4.15_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.15",
+        "lang": "en",
+        "segMap": {
+          "an4.15:1.5": {
+            "scid": "an4.15:1.5",
+            "pli": "Etadaggaṁ, bhikkhave, kāmabhogīnaṁ yadidaṁ—",
+            "en": "The foremost <span class=\"ebt-matched\">pleasure seeker</span> is ",
+            "matched": true
+          }
+        },
+        "score": 1.045,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 4.15\n2. Walking\nRegarded as Foremost",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 22,
+          "en": 21
         }
       }
     ]
