@@ -32,7 +32,7 @@
     "pattern": "keinen halt finden",
     "method": "phrase",
     "resultPattern": "\\bkeinen halt finden",
-    "segsMatched": 3,
+    "segsMatched": 4,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn36/sn36.4_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn36/sn36.4_translation-de-sabbamitta.json",
@@ -42,12 +42,16 @@
       "translation/en/sujato/sutta/sn/sn1/sn1.27_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/ud/vagga1/ud1.10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga1/ud1.10_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/kn/ud/vagga1/ud1.10_translation-en-sujato.json"
+      "translation/en/sujato/sutta/kn/ud/vagga1/ud1.10_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn15_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn15_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn15_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "sn36.4/de/sabbamitta",
       "sn1.27/de/sabbamitta",
-      "ud1.10/de/sabbamitta"
+      "ud1.10/de/sabbamitta",
+      "dn15/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -144,6 +148,38 @@
           "pli": 79,
           "de": 72,
           "en": 72
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn15_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn15_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn15_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn15",
+        "lang": "de",
+        "segMap": {
+          "dn15:22.2": {
+            "scid": "dn15:22.2",
+            "pli": "Viññāṇañca hi, ānanda, nāmarūpe patiṭṭhaṁ na labhissatha, api nu kho āyatiṁ jātijarāmaraṇaṁ dukkhasamudayasambhavo paññāyethā”ti? ",
+            "de": "Wenn Bewusstsein in Name und Form <span class=\"ebt-matched\">keinen Halt finden</span> würde, gäbe es dann das Zustandekommen des Ursprungs des Leidens – das Zustandekommen von Wiedergeburt, Alter und Tod in der Zukunft?“ ",
+            "en": "If consciousness were not to gain a footing in name and form, would the coming to be of the origin of suffering—of rebirth, old age, and death in the future—be found?” ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 15\nDie große Lehrrede über das Kausalprinzip",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 277,
+          "de": 254,
+          "en": 276
         }
       }
     ]

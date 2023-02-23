@@ -32,7 +32,7 @@
     "pattern": "benommenheit",
     "method": "phrase",
     "resultPattern": "\\bbenommenheit",
-    "segsMatched": 85,
+    "segsMatched": 87,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an7/an7.61_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an7/an7.61_translation-de-sabbamitta.json",
@@ -55,6 +55,9 @@
       "root/pli/ms/sutta/sn/sn54/sn54.12_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn54/sn54.12_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn54/sn54.12_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn51/sn51.20_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn51/sn51.20_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn51/sn51.20_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn46/sn46.8_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn46/sn46.8_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn46/sn46.8_translation-en-sujato.json",
@@ -199,6 +202,7 @@
       "an1.11-20/de/sabbamitta",
       "dn33/de/sabbamitta",
       "sn54.12/de/sabbamitta",
+      "sn51.20/de/sabbamitta",
       "sn46.8/de/sabbamitta",
       "sn46.52/de/sabbamitta",
       "sn46.2/de/sabbamitta",
@@ -648,7 +652,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Verbundene Lehrreden 46.8\n1. Das Kapitel über Berge\nMit Upavāṇa",
+        "title": "Verbundene Lehrreden 46.8\n1. Das Kapitel über Berge\nMit Upavāna",
         "segsMatched": 2,
         "langSegs": {
           "pli": 12,
@@ -1048,6 +1052,45 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn51/sn51.20_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn51/sn51.20_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn51/sn51.20_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn51.20",
+        "lang": "de",
+        "segMap": {
+          "sn51.20:5.2": {
+            "scid": "sn51.20:5.2",
+            "pli": "Yo, bhikkhave, chando thinamiddhasahagato thinamiddhasampayutto—",
+            "de": "Es ist, wenn Enthusiasmus mit Dumpfheit und <span class=\"ebt-matched\">Benommenheit</span> verbunden ist. ",
+            "en": "It’s when enthusiasm is combined with dullness and drowsiness. ",
+            "matched": true
+          },
+          "sn51.20:22.2": {
+            "scid": "sn51.20:22.2",
+            "pli": "Yā, bhikkhave, vīmaṁsā thinamiddhasahagatā thinamiddhasampayuttā—",
+            "de": "Es ist, wenn Untersuchung mit Dumpfheit und <span class=\"ebt-matched\">Benommenheit</span> verbunden ist. ",
+            "en": "It’s when inquiry is combined with dullness and drowsiness. ",
+            "matched": true
+          }
+        },
+        "score": 2.02,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 51.20\n2. Das Kapitel über das Erzitternlassen des Pfahlhauses\nAufgliederung",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 99,
+          "de": 67,
+          "en": 97
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json"
@@ -1397,7 +1440,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Verbundene Lehrreden 47.5\n1. Das Kapitel bei Ambapālī\nEin Haufen Untaugliches",
+        "title": "Verbundene Lehrreden 47.5\n1. Das Kapitel in Ambapālīs Mangowäldchen\nEin Haufen Untaugliches",
         "segsMatched": 1,
         "langSegs": {
           "pli": 21,
@@ -1717,7 +1760,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Verbundene Lehrreden 46.56\n6. Das Kapitel über Diskutieren\nMit Abhaya",
+        "title": "Verbundene Lehrreden 46.56\n6. Das Kapitel über Diskutieren\nMit dem Prinzen Abhaya",
         "segsMatched": 1,
         "langSegs": {
           "pli": 56,
@@ -2043,38 +2086,6 @@
           "pli": 285,
           "de": 227,
           "en": 227
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/mn/mn10_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/mn/mn10_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/mn/mn10_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "mn10",
-        "lang": "de",
-        "segMap": {
-          "mn10:36.6": {
-            "scid": "mn10:36.6",
-            "pli": "Santaṁ vā ajjhattaṁ thinamiddhaṁ ‘atthi me ajjhattaṁ thinamiddhan’ti pajānāti, asantaṁ vā ajjhattaṁ thinamiddhaṁ ‘natthi me ajjhattaṁ thinamiddhan’ti pajānāti, yathā ca anuppannassa thinamiddhassa uppādo hoti tañca pajānāti, yathā ca uppannassa thinamiddhassa pahānaṁ hoti tañca pajānāti, yathā ca pahīnassa thinamiddhassa āyatiṁ anuppādo hoti tañca pajānāti. ",
-            "de": "Wenn Dumpfheit und <span class=\"ebt-matched\">Benommenheit</span> in ihr sind, versteht sie: ‚In mir sind Dumpfheit und <span class=\"ebt-matched\">Benommenheit</span>‘. Wenn keine Dumpfheit und keine <span class=\"ebt-matched\">Benommenheit</span> in ihr ist, versteht sie: ‚In mir ist keine Dumpfheit und keine <span class=\"ebt-matched\">Benommenheit</span>‘. Sie versteht, wie Dumpfheit und <span class=\"ebt-matched\">Benommenheit</span> aufkommen; wie sie, wenn sie aufgekommen sind, aufgegeben werden; und wie sie, wenn sie aufgegeben wurden, in Zukunft nicht mehr aufkommen. ",
-            "en": "When they have dullness and drowsiness in them, they understand: ‘I have dullness and drowsiness in me.’ When they don’t have dullness and drowsiness in them, they understand: ‘I don’t have dullness and drowsiness in me.’ They understand how dullness and drowsiness arise; how, when they’ve already arisen, they’re given up; and how, once they’re given up, they don’t arise again in the future. ",
-            "matched": true
-          }
-        },
-        "score": 1.004,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Mittlere Lehrreden 10\nAchtsamkeitsmeditation",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 235,
-          "de": 204,
-          "en": 233
         }
       }
     ]

@@ -32,7 +32,7 @@
     "pattern": "rad-drehend.* herrscher",
     "method": "phrase",
     "resultPattern": "\\brad-drehend.* herrscher",
-    "segsMatched": 123,
+    "segsMatched": 125,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn26_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn26_translation-de-sabbamitta.json",
@@ -76,6 +76,9 @@
       "root/pli/ms/sutta/sn/sn8/sn8.7_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn8/sn8.7_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn8/sn8.7_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn55/sn55.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn55/sn55.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn55/sn55.1_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn14_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json",
@@ -149,6 +152,7 @@
       "an5.132/de/sabbamitta",
       "an5.131/de/sabbamitta",
       "sn8.7/de/sabbamitta",
+      "sn55.1/de/sabbamitta",
       "dn14/de/sabbamitta",
       "an7.62/de/sabbamitta",
       "sn46.50/de/sabbamitta",
@@ -675,7 +679,7 @@
         "segsMatched": 18,
         "langSegs": {
           "pli": 1664,
-          "de": 1578,
+          "de": 1579,
           "en": 1564
         }
       },
@@ -1197,6 +1201,45 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn55/sn55.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn55/sn55.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn55/sn55.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn55.1",
+        "lang": "de",
+        "segMap": {
+          "sn55.1:0.3": {
+            "scid": "sn55.1:0.3",
+            "pli": "Cakkavattirājasutta ",
+            "de": "Ein <span class=\"ebt-matched\">Rad-drehender Herrscher</span> ",
+            "en": "A Wheel-Turning Monarch ",
+            "matched": true
+          },
+          "sn55.1:1.3": {
+            "scid": "sn55.1:1.3",
+            "pli": "“kiñcāpi, bhikkhave, rājā cakkavattī catunnaṁ dīpānaṁ issariyādhipaccaṁ rajjaṁ kāretvā kāyassa bhedā paraṁ maraṇā sugatiṁ saggaṁ lokaṁ upapajjati devānaṁ tāvatiṁsānaṁ sahabyataṁ, so tattha nandane vane accharāsaṅghaparivuto dibbehi ca pañcahi kāmaguṇehi samappito samaṅgībhūto paricāreti, so catūhi dhammehi asamannāgato, atha kho so aparimuttova nirayā aparimutto tiracchānayoniyā aparimutto pettivisayā aparimutto apāyaduggativinipātā. ",
+            "de": "„Mönche und Nonnen, angenommen, ein <span class=\"ebt-matched\">Rad-drehender Herrscher würde als Herrscher</span> über diese vier Erdteile gebieten. Und wenn sein Körper auseinanderbräche, nach dem Tod, würde er an einem guten Ort wiedergeboren, in einer himmlischen Welt, unter den Göttern der Dreiunddreißig. Dort vergnügte er sich im Garten des Entzückens in Gesellschaft einer Schar von Nymphen, versorgt und ausgestattet mit den fünf Arten sinnlicher Erregung der Götter. Doch da ihm vier Dinge fehlen, ist er nicht befreit von der Hölle, dem Tierreich und dem Gespensterreich. Er ist nicht befreit von verlorenen Orten, von schlechten Orten, von der Unterwelt. ",
+            "en": "“Mendicants, suppose a wheel-turning monarch were to rule as sovereign lord over these four continents. And when his body breaks up, after death, he’s reborn in a good place, a heavenly realm, in the company of the gods of the Thirty-Three. There he entertains himself in the Garden of Delight, escorted by a band of nymphs, and supplied and provided with the five kinds of heavenly sensual stimulation. Still, as he’s lacking four things, he’s not exempt from hell, the animal realm, or the ghost realm. He’s not exempt from places of loss, bad places, the underworld. ",
+            "matched": true
+          }
+        },
+        "score": 2.111,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 55.1\n1. Das Kapitel beim Bambustor\nEin Rad-drehender Herrscher",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 18,
+          "de": 17,
+          "en": 17
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn8/sn8.7_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/sn/sn8/sn8.7_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/sn/sn8/sn8.7_translation-en-sujato.json"
@@ -1304,7 +1347,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Lange Lehrreden 14\nDie große Lehrrede über die Ernte aus den Taten",
+        "title": "Lange Lehrreden 14\nDie große Lehrrede über Spuren, die man hinterlässt",
         "segsMatched": 2,
         "langSegs": {
           "pli": 851,

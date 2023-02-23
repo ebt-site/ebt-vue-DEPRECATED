@@ -32,7 +32,7 @@
     "pattern": "das widerwärtige in dem wahrn.*, was nicht widerwärtig",
     "method": "phrase",
     "resultPattern": "\\bdas widerwärtige in dem wahrn.*, was nicht widerwärtig",
-    "segsMatched": 8,
+    "segsMatched": 11,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn46/sn46.54_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn46/sn46.54_translation-de-sabbamitta.json",
@@ -40,6 +40,12 @@
       "root/pli/ms/sutta/an/an5/an5.144_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.144_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.144_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn52/sn52.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn52/sn52.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn52/sn52.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn54/sn54.8_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn54/sn54.8_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn54/sn54.8_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn28_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn28_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn28_translation-en-sujato.json"
@@ -47,6 +53,8 @@
     "suttaRefs": [
       "sn46.54/de/sabbamitta",
       "an5.144/de/sabbamitta",
+      "sn52.1/de/sabbamitta",
+      "sn54.8/de/sabbamitta",
       "dn28/de/sabbamitta"
     ],
     "mlDocs": [
@@ -147,6 +155,77 @@
           "pli": 29,
           "de": 25,
           "en": 28
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn52/sn52.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn52/sn52.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn52/sn52.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn52.1",
+        "lang": "de",
+        "segMap": {
+          "sn52.1:4.1": {
+            "scid": "sn52.1:4.1",
+            "pli": "So sace ākaṅkhati: ‘appaṭikūle paṭikūlasaññī vihareyyan’ti, paṭikūlasaññī tattha viharati; ",
+            "de": "Wenn er wünscht: ‚Dass ich doch meditieren könnte, indem ich <span class=\"ebt-matched\">das Widerwärtige in dem wahrnehme, was nicht widerwärtig</span> ist‘, dann tut er es. ",
+            "en": "If they wish: ‘May I meditate perceiving the repulsive in the unrepulsive,’ that’s what they do. ",
+            "matched": true
+          },
+          "sn52.1:10.1": {
+            "scid": "sn52.1:10.1",
+            "pli": "So sace ākaṅkhati: ‘appaṭikūle paṭikūlasaññī vihareyyan’ti, paṭikūlasaññī tattha viharati …pe… ",
+            "de": "Wenn er wünscht: ‚Dass ich doch meditieren könnte, indem ich <span class=\"ebt-matched\">das Widerwärtige in dem wahrnehme, was nicht widerwärtig</span> ist‘, dann tut er es. … ",
+            "en": "If they wish: ‘May I meditate perceiving the repulsive in the unrepulsive,’ that’s what they do. … ",
+            "matched": true
+          }
+        },
+        "score": 2.051,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 52.1\n1. Das Kapitel über die Klausur für sich allein\nFür sich allein (1)",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 39,
+          "de": 31,
+          "en": 38
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn54/sn54.8_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn54/sn54.8_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn54/sn54.8_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn54.8",
+        "lang": "de",
+        "segMap": {
+          "sn54.8:6.2": {
+            "scid": "sn54.8:6.2",
+            "pli": "‘appaṭikūle paṭikūlasaññī vihareyyan’ti, ",
+            "de": "‚Dass ich doch meditieren könnte, indem ich <span class=\"ebt-matched\">das Widerwärtige in dem wahrnehme, was nicht widerwärtig</span> ist‘, ",
+            "en": "‘May I meditate perceiving the repulsive in the unrepulsive.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.014,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 54.8\n1. Das Kapitel über ein Ding\nDas Gleichnis von der Lampe",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 74,
+          "de": 73,
+          "en": 73
         }
       },
       {

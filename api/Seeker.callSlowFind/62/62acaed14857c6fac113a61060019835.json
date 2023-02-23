@@ -32,8 +32,11 @@
     "pattern": "einen gierigen geist",
     "method": "phrase",
     "resultPattern": "\\beinen gierigen geist",
-    "segsMatched": 13,
+    "segsMatched": 14,
     "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn52/sn52.14_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn52/sn52.14_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn52/sn52.14_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn51/sn51.11_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn51/sn51.11_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn51/sn51.11_translation-en-sujato.json",
@@ -75,6 +78,7 @@
       "translation/en/sujato/sutta/an/an10/an10.97_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "sn52.14/de/sabbamitta",
       "sn51.11/de/sabbamitta",
       "sn16.9/de/sabbamitta",
       "sn12.70/de/sabbamitta",
@@ -90,6 +94,38 @@
       "an10.97/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn52/sn52.14_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn52/sn52.14_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn52/sn52.14_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn52.14",
+        "lang": "de",
+        "segMap": {
+          "sn52.14:1.2": {
+            "scid": "sn52.14:1.2",
+            "pli": "sarāgaṁ vā cittaṁ ‘sarāgaṁ cittan’ti pajānāmi …pe… ",
+            "de": "Ich erkenne <span class=\"ebt-matched\">einen gierigen Geist</span> als ‚gierigen Geist‘ … ",
+            "en": "I understand mind with greed as ‘mind with greed’ … ",
+            "matched": true
+          }
+        },
+        "score": 1.143,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 52.14\n2. Das Kapitel über Tausend\nDen Geist erfassen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 7,
+          "de": 6,
+          "en": 6
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/an/an6/an6.70_root-pli-ms.json",
@@ -502,7 +538,7 @@
         "segsMatched": 1,
         "langSegs": {
           "pli": 454,
-          "de": 359,
+          "de": 361,
           "en": 453
         }
       }

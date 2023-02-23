@@ -32,7 +32,7 @@
     "pattern": "nörgelnde[mn] geist",
     "method": "phrase",
     "resultPattern": "\\bnörgelnde[mn] geist",
-    "segsMatched": 21,
+    "segsMatched": 23,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an10/an10.76_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.76_translation-de-sabbamitta.json",
@@ -43,19 +43,19 @@
       "root/pli/ms/sutta/an/an7/an7.29_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an7/an7.29_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an7/an7.29_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an5/an5.153_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an5/an5.153_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an5/an5.153_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an7/an7.31_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an7/an7.31_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an7/an7.31_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an7/an7.31_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.153_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an5/an5.153_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an5/an5.153_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an10.76/de/sabbamitta",
       "thag5.10/de/sabbamitta",
       "an7.29/de/sabbamitta",
-      "an5.153/de/sabbamitta",
-      "an7.31/de/sabbamitta"
+      "an7.31/de/sabbamitta",
+      "an5.153/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -261,6 +261,52 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/an/an7/an7.31_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an7/an7.31_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an7/an7.31_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an7.31",
+        "lang": "de",
+        "segMap": {
+          "an7.31:1.8": {
+            "scid": "an7.31:1.8",
+            "pli": "bhikkhūsu theresu ceva navesu ca majjhimesu ca anupārambhacitto dhammaṁ suṇāti na randhagavesī, ",
+            "de": "Er hört der Lehre nicht mit feindseligem, <span class=\"ebt-matched\">nörgelndem Geist</span> zu. ",
+            "en": "They don’t listen to the teaching with a hostile, fault-finding mind. ",
+            "matched": true
+          },
+          "an7.31:3.4": {
+            "scid": "an7.31:3.4",
+            "pli": "saddhammaṁ sotumicchati. ",
+            "de": "mit <span class=\"ebt-matched\">nörgelndem Geist</span> nur hören. ",
+            "en": "with a fault-finding mind. ",
+            "matched": true
+          },
+          "an7.31:7.4": {
+            "scid": "an7.31:7.4",
+            "pli": "saddhammaṁ sotumicchati. ",
+            "de": "ohne <span class=\"ebt-matched\">nörgelnden Geist</span> nur hören. ",
+            "en": "without a fault-finding mind. ",
+            "matched": true
+          }
+        },
+        "score": 3.057,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 7.31\n3. Das Kapitel über die Sieben der Vajjier\nUntergang eines Laienschülers",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 53,
+          "de": 46,
+          "en": 51
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an5/an5.153_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/an/an5/an5.153_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/an/an5/an5.153_translation-en-sujato.json"
@@ -296,38 +342,6 @@
           "pli": 12,
           "de": 11,
           "en": 11
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/an/an7/an7.31_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/an/an7/an7.31_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/an/an7/an7.31_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "an7.31",
-        "lang": "de",
-        "segMap": {
-          "an7.31:1.8": {
-            "scid": "an7.31:1.8",
-            "pli": "bhikkhūsu theresu ceva navesu ca majjhimesu ca anupārambhacitto dhammaṁ suṇāti na randhagavesī, ",
-            "de": "Er hört der Lehre nicht mit feindseligem, <span class=\"ebt-matched\">nörgelndem Geist</span> zu. ",
-            "en": "They don’t listen to the teaching with a hostile, fault-finding mind. ",
-            "matched": true
-          }
-        },
-        "score": 1.019,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Nummerierte Lehrreden 7.31\n3. Das Kapitel über die Sieben der Vajjier\nUntergang eines Laienschülers",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 53,
-          "de": 22,
-          "en": 51
         }
       }
     ]

@@ -32,11 +32,17 @@
     "pattern": "aber zum erwachen entschlossen",
     "method": "phrase",
     "resultPattern": "\\baber zum erwachen entschlossen",
-    "segsMatched": 17,
+    "segsMatched": 19,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an5/an5.196_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.196_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.196_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn54/sn54.8_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn54/sn54.8_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn54/sn54.8_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn51/sn51.21_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn51/sn51.21_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn51/sn51.21_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn51/sn51.11_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn51/sn51.11_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn51/sn51.11_translation-en-sujato.json",
@@ -82,6 +88,8 @@
     ],
     "suttaRefs": [
       "an5.196/de/sabbamitta",
+      "sn54.8/de/sabbamitta",
+      "sn51.21/de/sabbamitta",
       "sn51.11/de/sabbamitta",
       "sn36.24/de/sabbamitta",
       "sn35.14/de/sabbamitta",
@@ -306,6 +314,38 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn51/sn51.21_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn51/sn51.21_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn51/sn51.21_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn51.21",
+        "lang": "de",
+        "segMap": {
+          "sn51.21:1.2": {
+            "scid": "sn51.21:1.2",
+            "pli": "“Pubbeva me, bhikkhave, sambodhā anabhisambuddhassa bodhisattasseva sato etadahosi: ",
+            "de": "„Mönche und Nonnen, vor meinem Erwachen, als ich noch nicht erwacht war, <span class=\"ebt-matched\">aber zum Erwachen entschlossen</span>, dachte ich: ",
+            "en": "“Mendicants, before my awakening—when I was still unawakened but intent on awakening—I thought: ",
+            "matched": true
+          }
+        },
+        "score": 1.037,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 51.21\n3. Das Kapitel über die Eisenkugel\nDer Pfad",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 27,
+          "de": 26,
+          "en": 27
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn35/sn35.13_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/sn/sn35/sn35.13_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/sn/sn35/sn35.13_translation-en-sujato.json"
@@ -462,6 +502,38 @@
           "pli": 58,
           "de": 45,
           "en": 57
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn54/sn54.8_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn54/sn54.8_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn54/sn54.8_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn54.8",
+        "lang": "de",
+        "segMap": {
+          "sn54.8:3.1": {
+            "scid": "sn54.8:3.1",
+            "pli": "Ahampi sudaṁ, bhikkhave, pubbeva sambodhā anabhisambuddho bodhisattova samāno iminā vihārena bahulaṁ viharāmi. ",
+            "de": "Vor meinem Erwachen, als ich noch nicht erwacht war, <span class=\"ebt-matched\">aber zum Erwachen entschlossen</span>, übte auch ich gewöhnlich diese Art der Meditation. ",
+            "en": "Before my awakening—when I was still unawakened but intent on awakening—I too usually practiced this kind of meditation. ",
+            "matched": true
+          }
+        },
+        "score": 1.014,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 54.8\n1. Das Kapitel über ein Ding\nDas Gleichnis von der Lampe",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 74,
+          "de": 73,
+          "en": 73
         }
       },
       {

@@ -32,7 +32,7 @@
     "pattern": "wie ein vogel",
     "method": "phrase",
     "resultPattern": "\\bwie ein vogel",
-    "segsMatched": 17,
+    "segsMatched": 18,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn10_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/sn/sn9/sn9.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn9/sn9.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn9/sn9.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn51/sn51.17_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn51/sn51.17_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn51/sn51.17_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn51/sn51.11_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn51/sn51.11_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn51/sn51.11_translation-en-sujato.json",
@@ -87,6 +90,7 @@
     "suttaRefs": [
       "dn10/de/sabbamitta",
       "sn9.1/de/sabbamitta",
+      "sn51.17/de/sabbamitta",
       "sn51.11/de/sabbamitta",
       "sn16.9/de/sabbamitta",
       "sn12.70/de/sabbamitta",
@@ -202,6 +206,38 @@
         "segsMatched": 1,
         "langSegs": {
           "pli": 20,
+          "de": 20,
+          "en": 20
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn51/sn51.17_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn51/sn51.17_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn51/sn51.17_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn51.17",
+        "lang": "de",
+        "segMap": {
+          "sn51.17:1.1": {
+            "scid": "sn51.17:1.1",
+            "pli": "“Ye hi keci, bhikkhave, atītamaddhānaṁ samaṇā vā brāhmaṇā vā anekavihitaṁ iddhividhaṁ paccanubhosuṁ—ekopi hutvā bahudhā ahesuṁ, bahudhāpi hutvā eko ahesuṁ; āvibhāvaṁ, tirobhāvaṁ; tirokuṭṭaṁ tiropākāraṁ tiropabbataṁ asajjamānā agamaṁsu, seyyathāpi ākāse; pathaviyāpi ummujjanimujjaṁ akaṁsu, seyyathāpi udake; udakepi abhijjamāne agamaṁsu, seyyathāpi pathaviyaṁ; ākāsepi pallaṅkena kamiṁsu, seyyathāpi pakkhī sakuṇo; imepi candimasūriye evaṁmahiddhike evaṁmahānubhāve pāṇinā parimasiṁsu parimajjiṁsu; yāva brahmalokāpi kāyena vasaṁ vattesuṁ, ",
+            "de": "„Mönche und Nonnen, alle Asketen und Brahmanen der Vergangenheit, die die vielen Arten übersinnlicher Kraft ausübten: sich vervielfältigen und wieder eins werden; erscheinen und verschwinden; ungehindert durch eine Mauer, einen Festungswall oder einen Berg gehen wie durch leeren Raum; in die Erde eintauchen und wieder auftauchen, als wäre sie Wasser; über das Wasser gehen, als wäre es Land; mit gekreuzten Beinen durch die Luft fliegen <span class=\"ebt-matched\">wie ein Vogel</span>; Sonne und Mond, so mächtig und gewaltig, mit der Hand berühren und streicheln; den Körper beherrschen bis hin zur Brahmāwelt – ",
+            "en": "“Mendicants, all the ascetics and brahmins in the past, ",
+            "matched": true
+          }
+        },
+        "score": 1.048,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 51.17\n2. Das Kapitel über das Erzitternlassen des Pfahlhauses\nAsketen und Brahmanen (2)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 21,
           "de": 20,
           "en": 20
         }
