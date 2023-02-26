@@ -31,16 +31,16 @@
     "pattern": "references",
     "method": "phrase",
     "resultPattern": "\\breferences",
-    "segsMatched": 7,
+    "segsMatched": 8,
     "bilaraPaths": [
-      "root/pli/ms/sutta/an/an4/an4.180_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an4/an4.180_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
-      "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json"
+      "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.180_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an4/an4.180_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "an4.180/en/sujato",
-      "dn16/en/sujato"
+      "dn16/en/sujato",
+      "an4.180/en/sujato"
     ],
     "mlDocs": [
       {
@@ -118,14 +118,20 @@
             "pli": "Ime kho, bhikkhave, cattāro mahāpadese dhāreyyāthā”ti. ",
             "en": "These are the four great <span class=\"ebt-matched\">references</span>.” ",
             "matched": true
+          },
+          "dn16:5.27.9": {
+            "scid": "dn16:5.27.9",
+            "pli": "Ñāyassa dhammassa padesavattī, ",
+            "en": "I have taught the <span class=\"ebt-matched\">references</span> for the methodical teaching. ",
+            "matched": true
           }
         },
-        "score": 3.002,
+        "score": 4.002,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Long Discourses 16\nThe Great Discourse on the Buddha’s Extinguishment",
-        "segsMatched": 3,
+        "segsMatched": 4,
         "langSegs": {
           "pli": 1664,
           "en": 1564
