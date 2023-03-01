@@ -30,11 +30,961 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "gewissen und zurückhaltung",
-    "method": "keywords",
-    "resultPattern": "\\bgewissen|\\bund|\\bzurückhaltung",
-    "segsMatched": 0,
-    "bilaraPaths": [],
-    "suttaRefs": [],
-    "mlDocs": []
+    "method": "phrase",
+    "resultPattern": "\\bgewissen und zurückhaltung",
+    "segsMatched": 40,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an8/an8.81_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an8/an8.81_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an8/an8.81_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an2/an2.180-229_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an2/an2.180-229_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an2/an2.180-229_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an8/an8.2_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an8/an8.2_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an8/an8.2_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an7/an7.65_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an7/an7.65_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an7/an7.65_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn46/sn46.30_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn46/sn46.30_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn46/sn46.30_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.73_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.73_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.73_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an2/an2.1-10_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an2/an2.1-10_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an2/an2.1-10_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn45/sn45.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn45/sn45.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn45/sn45.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn16/sn16.11_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn16/sn16.11_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn16/sn16.11_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag18.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag18.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag18.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an8/an8.3_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an8/an8.3_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an8/an8.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an7/an7.7_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an7/an7.7_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an7/an7.7_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an7/an7.6_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an7/an7.6_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an7/an7.6_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an7/an7.5_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an7/an7.5_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an7/an7.5_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an7/an7.4_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an7/an7.4_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an7/an7.4_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an7/an7.3_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an7/an7.3_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an7/an7.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an7/an7.2_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an7/an7.2_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an7/an7.2_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.202_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.202_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.202_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an2/an2.87-97_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an2/an2.87-97_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an2/an2.87-97_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an2/an2.230-279_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an2/an2.230-279_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an2/an2.230-279_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.105_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.105_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.105_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an8.81/de/sabbamitta",
+      "an2.180-229/de/sabbamitta",
+      "an8.2/de/sabbamitta",
+      "an7.65/de/sabbamitta",
+      "sn46.30/de/sabbamitta",
+      "dn34/de/sabbamitta",
+      "an4.73/de/sabbamitta",
+      "an2.1-10/de/sabbamitta",
+      "sn45.1/de/sabbamitta",
+      "sn16.11/de/sabbamitta",
+      "thag18.1/de/sabbamitta",
+      "dn33/de/sabbamitta",
+      "an8.3/de/sabbamitta",
+      "an7.7/de/sabbamitta",
+      "an7.6/de/sabbamitta",
+      "an7.5/de/sabbamitta",
+      "an7.4/de/sabbamitta",
+      "an7.3/de/sabbamitta",
+      "an7.2/de/sabbamitta",
+      "an4.202/de/sabbamitta",
+      "an2.87-97/de/sabbamitta",
+      "an2.230-279/de/sabbamitta",
+      "an10.105/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.81_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an8/an8.81_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an8/an8.81_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an8.81",
+        "lang": "de",
+        "segMap": {
+          "an8.81:1.1": {
+            "scid": "an8.81:1.1",
+            "pli": "“Satisampajaññe, bhikkhave, asati satisampajaññavipannassa hatūpanisaṁ hoti hirottappaṁ. ",
+            "de": "„Mönche und Nonnen, wenn es keine Achtsamkeit und keine Umsicht gibt, hat jemand ohne Achtsamkeit und Umsicht eine wesentliche Bedingung für <span class=\"ebt-matched\">Gewissen und Zurückhaltung</span> zerstört. ",
+            "en": "“Mendicants, when there is no mindfulness and situational awareness, one who lacks mindfulness and situational awareness has destroyed a vital condition for conscience and prudence. ",
+            "matched": true
+          },
+          "an8.81:1.9": {
+            "scid": "an8.81:1.9",
+            "pli": "Evamevaṁ kho, bhikkhave, satisampajaññe asati satisampajaññavipannassa hatūpanisaṁ hoti hirottappaṁ; ",
+            "de": "Ebenso hat, wenn es keine Achtsamkeit und keine Umsicht gibt, jemand ohne Achtsamkeit und Umsicht eine wesentliche Bedingung für <span class=\"ebt-matched\">Gewissen und Zurückhaltung</span> zerstört. ",
+            "en": "In the same way, when there is no mindfulness and situational awareness, one who lacks mindfulness and situational awareness has destroyed a vital condition for conscience and prudence. ",
+            "matched": true
+          },
+          "an8.81:2.1": {
+            "scid": "an8.81:2.1",
+            "pli": "Satisampajaññe, bhikkhave, sati satisampajaññasampannassa upanisasampannaṁ hoti hirottappaṁ. ",
+            "de": "Wenn es Achtsamkeit und Umsicht gibt, hat jemand, der Achtsamkeit und Umsicht vervollkommnet hat, eine wesentliche Bedingung für <span class=\"ebt-matched\">Gewissen und Zurückhaltung</span> erfüllt. ",
+            "en": "When there is mindfulness and situational awareness, one who has fulfilled mindfulness and situational awareness has fulfilled a vital condition for conscience and prudence. ",
+            "matched": true
+          },
+          "an8.81:2.2": {
+            "scid": "an8.81:2.2",
+            "pli": "Hirottappe sati hirottappasampannassa upanisasampanno hoti indriyasaṁvaro. ",
+            "de": "Wenn es <span class=\"ebt-matched\">Gewissen und Zurückhaltung</span> gibt, hat jemand, der <span class=\"ebt-matched\">Gewissen und Zurückhaltung</span> vervollkommnet hat, eine wesentliche Bedingung für die Zügelung der Sinne erfüllt. ",
+            "en": "When there is conscience and prudence, a person who has fulfilled conscience and prudence has fulfilled a vital condition for sense restraint. ",
+            "matched": true
+          },
+          "an8.81:2.9": {
+            "scid": "an8.81:2.9",
+            "pli": "Evamevaṁ kho, bhikkhave, satisampajaññe sati satisampajaññasampannassa upanisasampannaṁ hoti hirottappaṁ; ",
+            "de": "Ebenso hat, wenn es Achtsamkeit und Umsicht gibt, jemand, der Achtsamkeit und Umsicht vervollkommnet hat, eine wesentliche Bedingung für <span class=\"ebt-matched\">Gewissen und Zurückhaltung</span> erfüllt. ",
+            "en": "In the same way, when there is mindfulness and situational awareness, one who has fulfilled mindfulness and situational awareness has fulfilled a vital condition for conscience and prudence. ",
+            "matched": true
+          },
+          "an8.81:2.10": {
+            "scid": "an8.81:2.10",
+            "pli": "hirottappe sati hirottappasampannassa upanisasampanno hoti …pe… ",
+            "de": "Wenn es <span class=\"ebt-matched\">Gewissen und Zurückhaltung</span> gibt … ",
+            "en": "When there is conscience and prudence … ",
+            "matched": true
+          }
+        },
+        "score": 6.231,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 8.81\n9. Das Kapitel über Achtsamkeit\nAchtsamkeit und Umsicht",
+        "segsMatched": 6,
+        "langSegs": {
+          "pli": 26,
+          "de": 25,
+          "en": 25
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an2/an2.180-229_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an2/an2.180-229_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an2/an2.180-229_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an2.180-229",
+        "lang": "de",
+        "segMap": {
+          "an2.185-189:1.3": {
+            "scid": "an2.185-189:1.3",
+            "pli": "Akkodho ca anupanāho ca … amakkho ca apaḷāso ca … anissā ca amacchariyañca … amāyā ca asāṭheyyañca … hirī ca ottappañca. ",
+            "de": "Freiheit von Zorn und Feindseligkeit … Freiheit von Geringschätzung und Verachtung … Freiheit von Eifersucht und Geiz … Freiheit von Betrug und Doppelzüngigkeit … <span class=\"ebt-matched\">Gewissen und Zurückhaltung</span>. ",
+            "en": "Freedom from anger and hostility … freedom from disdain and contempt … freedom from jealousy and stinginess … freedom from deceit and deviousness … conscience and prudence. ",
+            "matched": true
+          },
+          "an2.195-199:1.3": {
+            "scid": "an2.195-199:1.3",
+            "pli": "Akkodhena ca anupanāhena ca … amakkhena ca apaḷāsena ca … anissāya ca amacchariyena ca … amāyāya ca asāṭheyyena ca … hiriyā ca ottappena ca. ",
+            "de": "Freiheit von Zorn und Feindseligkeit … Freiheit von Geringschätzung und Verachtung … Freiheit von Eifersucht und Geiz … Freiheit von Betrug und Doppelzüngigkeit … <span class=\"ebt-matched\">Gewissen und Zurückhaltung</span>. ",
+            "en": "Freedom from anger and hostility … freedom from disdain and contempt … freedom from jealousy and stinginess … freedom from deceit and deviousness … conscience and prudence. ",
+            "matched": true
+          },
+          "an2.205-209:1.3": {
+            "scid": "an2.205-209:1.3",
+            "pli": "Akkodho ca anupanāho ca … amakkho ca apaḷāso ca … anissā ca amacchariyañca … amāyā ca asāṭheyyañca … hirī ca ottappañca. ",
+            "de": "Freiheit von Zorn und Feindseligkeit … Freiheit von Geringschätzung und Verachtung … Freiheit von Eifersucht und Geiz … Freiheit von Betrug und Doppelzüngigkeit … <span class=\"ebt-matched\">Gewissen und Zurückhaltung</span>. ",
+            "en": "Freedom from anger and hostility … freedom from disdain and contempt … freedom from jealousy and stinginess … freedom from deceit and deviousness … conscience and prudence. ",
+            "matched": true
+          },
+          "an2.215-219:1.3": {
+            "scid": "an2.215-219:1.3",
+            "pli": "Akkodhena ca anupanāhena ca … amakkhena ca apaḷāsena ca … anissāya ca amacchariyena ca … amāyāya ca asāṭheyyena ca … hiriyā ca ottappena ca. ",
+            "de": "Freiheit von Zorn und Feindseligkeit … Freiheit von Geringschätzung und Verachtung … Freiheit von Eifersucht und Geiz … Freiheit von Betrug und Doppelzüngigkeit … <span class=\"ebt-matched\">Gewissen und Zurückhaltung</span>. ",
+            "en": "Freedom from anger and hostility … freedom from disdain and contempt … freedom from jealousy and stinginess … freedom from deceit and deviousness … conscience and prudence. ",
+            "matched": true
+          },
+          "an2.225-229:1.3": {
+            "scid": "an2.225-229:1.3",
+            "pli": "Akkodhena ca anupanāhena ca … amakkhena ca apaḷāsena ca … anissāya ca amacchariyena ca … amāyāya ca asāṭheyyena ca … hiriyā ca ottappena ca. ",
+            "de": "Freiheit von Zorn und Feindseligkeit … Freiheit von Geringschätzung und Verachtung … Freiheit von Eifersucht und Geiz … Freiheit von Betrug und Doppelzüngigkeit … <span class=\"ebt-matched\">Gewissen und Zurückhaltung</span>. ",
+            "en": "Freedom from anger and hostility … freedom from disdain and contempt … freedom from jealousy and stinginess … freedom from deceit and deviousness … conscience and prudence. ",
+            "matched": true
+          }
+        },
+        "score": 5.094,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 2.180–229\n16. Das Kapitel mit abgekürzten Texten, die mit Zorn beginnen",
+        "segsMatched": 5,
+        "langSegs": {
+          "pli": 53,
+          "de": 52,
+          "en": 52
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an7/an7.65_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an7/an7.65_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an7/an7.65_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an7.65",
+        "lang": "de",
+        "segMap": {
+          "an7.65:0.3": {
+            "scid": "an7.65:0.3",
+            "pli": "Hirīottappasutta ",
+            "de": "<span class=\"ebt-matched\">Gewissen und Zurückhaltung</span> ",
+            "en": "Conscience and Prudence ",
+            "matched": true
+          },
+          "an7.65:2.1": {
+            "scid": "an7.65:2.1",
+            "pli": "Hirottappe, bhikkhave, sati hirottappasampannassa upanisasampanno hoti indriyasaṁvaro; ",
+            "de": "Wenn es <span class=\"ebt-matched\">Gewissen und Zurückhaltung</span> gibt, hat jemand, der <span class=\"ebt-matched\">Gewissen und Zurückhaltung</span> vervollkommnet hat, eine wesentliche Bedingung für die Zügelung der Sinne erfüllt. ",
+            "en": "When there is conscience and prudence, a person who has fulfilled conscience and prudence has fulfilled a vital condition for sense restraint. ",
+            "matched": true
+          },
+          "an7.65:2.8": {
+            "scid": "an7.65:2.8",
+            "pli": "Evamevaṁ kho, bhikkhave, hirottappe sati hirottappasampannassa upanisasampanno hoti …pe… ",
+            "de": "Ebenso hat, wenn es <span class=\"ebt-matched\">Gewissen und Zurückhaltung</span> gibt, jemand, der <span class=\"ebt-matched\">Gewissen und Zurückhaltung</span> vervollkommnet hat, eine wesentliche Bedingung für die Zügelung der Sinne erfüllt. … ",
+            "en": "In the same way, when there is conscience and prudence, a person who has fulfilled conscience and prudence has fulfilled a vital condition for sense restraint. … ",
+            "matched": true
+          }
+        },
+        "score": 3.111,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 7.65\n7. Das große Kapitel\nGewissen und Zurückhaltung",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 27,
+          "de": 26,
+          "en": 26
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.2_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an8/an8.2_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an8/an8.2_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an8.2",
+        "lang": "de",
+        "segMap": {
+          "an8.2:1.3": {
+            "scid": "an8.2:1.3",
+            "pli": "Idha, bhikkhave, bhikkhu satthāraṁ upanissāya viharati aññataraṁ vā garuṭṭhāniyaṁ sabrahmacāriṁ, yatthassa tibbaṁ hirottappaṁ paccupaṭṭhitaṁ hoti pemañca gāravo ca. ",
+            "de": "Da lebt ein Mönch, indem er sich auf den Lehrer oder einen geistlichen Gefährten in der Lehrerrolle stützt. Und er entwickelt ihnen gegenüber einen ausgeprägten Sinn für <span class=\"ebt-matched\">Gewissen und Zurückhaltung</span> mit Zuneigung und Achtung. ",
+            "en": "It’s when a mendicant lives relying on the Teacher or a spiritual companion in a teacher’s role. And they set up a keen sense of conscience and prudence for them, with warmth and respect. ",
+            "matched": true
+          },
+          "an8.2:2.1": {
+            "scid": "an8.2:2.1",
+            "pli": "So taṁ satthāraṁ upanissāya viharanto aññataraṁ vā garuṭṭhāniyaṁ sabrahmacāriṁ, yatthassa tibbaṁ hirottappaṁ paccupaṭṭhitaṁ hoti pemañca gāravo ca, te kālena kālaṁ upasaṅkamitvā paripucchati paripañhati: ",
+            "de": "Wenn ein Mönch so mit dem Lehrer oder einem geistlichen Gefährten in der Lehrerrolle lebt – mit einem ausgeprägten Sinn für <span class=\"ebt-matched\">Gewissen und Zurückhaltung</span> mit Zuneigung und Achtung –, geht er von Zeit zu Zeit hin und stellt Fragen: ",
+            "en": "When a mendicant lives relying on the Teacher or a spiritual companion in a teacher’s role—with a keen sense of conscience and prudence for them, with warmth and respect—from time to time they go and ask them questions: ",
+            "matched": true
+          },
+          "an8.2:9.2": {
+            "scid": "an8.2:9.2",
+            "pli": "‘ayaṁ kho āyasmā satthāraṁ upanissāya viharati aññataraṁ vā garuṭṭhāniyaṁ sabrahmacāriṁ, yatthassa tibbaṁ hirottappaṁ paccupaṭṭhitaṁ hoti pemañca gāravo ca. ",
+            "de": "‚Dieser Ehrwürdige lebt, indem er sich auf den Lehrer oder einen geistlichen Gefährten in der Lehrerrolle stützt. Und er entwickelt ihnen gegenüber einen ausgeprägten Sinn für <span class=\"ebt-matched\">Gewissen und Zurückhaltung</span> mit Zuneigung und Achtung. ",
+            "en": "‘This venerable lives relying on the Teacher or a spiritual companion in a teacher’s role. They set up a keen sense of conscience and prudence for them, with warmth and respect. ",
+            "matched": true
+          }
+        },
+        "score": 3.047,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 8.2\n1. Das Kapitel über Liebe\nWeisheit",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 64,
+          "de": 56,
+          "en": 63
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn46/sn46.30_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn46/sn46.30_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn46/sn46.30_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn46.30",
+        "lang": "de",
+        "segMap": {
+          "sn46.30:2.2": {
+            "scid": "sn46.30:2.2",
+            "pli": "Yāva bahukatañca me, bhante, bhagavati pemañca gāravo ca hirī ca ottappañca. ",
+            "de": "Wie hilfreich meine Zuneigung zum Buddha und meine Achtung vor ihm gewesen sind, wie auch mein Sinn für <span class=\"ebt-matched\">Gewissen und Zurückhaltung</span>. ",
+            "en": "How helpful my love and respect for the Buddha have been, and my sense of conscience and prudence. ",
+            "matched": true
+          },
+          "sn46.30:2.4": {
+            "scid": "sn46.30:2.4",
+            "pli": "So khvāhaṁ bhagavati pemañca gāravañca hiriñca ottappañca sampassamāno agārasmā anagāriyaṁ pabbajito. ",
+            "de": "Aber als ich meine Zuneigung zum Buddha und meine Achtung vor ihm betrachtete sowie meinen Sinn für <span class=\"ebt-matched\">Gewissen und Zurückhaltung</span>, zog ich aus dem Haus fort ins hauslose Leben. ",
+            "en": "But when I considered my love and respect for the Buddha, and my sense of conscience and prudence, I went forth from the lay life to homelessness. ",
+            "matched": true
+          }
+        },
+        "score": 2.057,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 46.30\n3. Das Kapitel mit Udāyī\nMit Udāyī",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 35,
+          "de": 27,
+          "en": 33
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.73_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.73_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.73_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.73",
+        "lang": "de",
+        "segMap": {
+          "an4.73:9.1": {
+            "scid": "an4.73:9.1",
+            "pli": "Seyyathāpi, bhikkhave, vadhukā yaññadeva rattiṁ vā divaṁ vā ānītā hoti, tāvadevassā tibbaṁ hirottappaṁ paccupaṭṭhitaṁ hoti sassuyāpi sasurepi sāmikepi antamaso dāsakammakaraporisesu. ",
+            "de": "Wie eine Braut an dem Abend oder Tag, an dem sie zum ersten Mal zum Heim ihres Mannes gebracht wird: Sie entwickelt unmittelbar einen ausgeprägten Sinn für <span class=\"ebt-matched\">Gewissen und Zurückhaltung</span> gegenüber ihrer Schwiegermutter, ihrem Schwiegervater, ihrem Mann und sogar den Leibeigenen, Arbeitern und Angestellten. ",
+            "en": "It’s like a bride on the day or night she’s first brought to her husband’s home. Right away she sets up a keen sense of conscience and prudence for her mother and father in law, her husband, and even the bondservants, workers, and staff. ",
+            "matched": true
+          },
+          "an4.73:9.4": {
+            "scid": "an4.73:9.4",
+            "pli": "Evamevaṁ kho, bhikkhave, idhekacco bhikkhu yaññadeva rattiṁ vā divaṁ vā agārasmā anagāriyaṁ pabbajito hoti, tāvadevassa tibbaṁ hirottappaṁ paccupaṭṭhitaṁ hoti bhikkhūsu bhikkhunīsu upāsakesu upāsikāsu antamaso ārāmikasamaṇuddesesu. ",
+            "de": "Ebenso entwickelt eine Nonne an dem Abend oder Tag, an dem sie zuerst aus dem Haus fortzieht ins hauslose Leben, unmittelbar einen ausgeprägten Sinn für <span class=\"ebt-matched\">Gewissen und Zurückhaltung</span> gegenüber den Mönchen, Nonnen, Laienmännern und -frauen und sogar den Klosterarbeitern und Novizinnen. ",
+            "en": "In the same way, on the day or night a mendicant first goes forth from the lay life to homelessness, right away they set up a keen sense of conscience and prudence for the monks, nuns, laymen, and laywomen, and even the monastery workers and novices. ",
+            "matched": true
+          }
+        },
+        "score": 2.047,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 4.73\n8. Das Kapitel über gesicherte Übung\nEin guter Mensch",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 43,
+          "de": 42,
+          "en": 42
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an2/an2.1-10_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an2/an2.1-10_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an2/an2.1-10_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an2.1-10",
+        "lang": "de",
+        "segMap": {
+          "an2.8:1.3": {
+            "scid": "an2.8:1.3",
+            "pli": "Hirī ca ottappañca. ",
+            "de": "<span class=\"ebt-matched\">Gewissen und Zurückhaltung</span>. ",
+            "en": "Conscience and prudence. ",
+            "matched": true
+          },
+          "an2.9:1.3": {
+            "scid": "an2.9:1.3",
+            "pli": "Hirī ca ottappañca. ",
+            "de": "<span class=\"ebt-matched\">Gewissen und Zurückhaltung</span>. ",
+            "en": "Conscience and prudence. ",
+            "matched": true
+          }
+        },
+        "score": 2.016,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 2.1–10\n1. Das Kapitel über Strafen",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 125,
+          "de": 123,
+          "en": 99
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn34",
+        "lang": "de",
+        "segMap": {
+          "dn34:2.1.5": {
+            "scid": "dn34:2.1.5",
+            "pli": "Idhāvuso, bhikkhu satthāraṁ upanissāya viharati aññataraṁ vā garuṭṭhāniyaṁ sabrahmacāriṁ, yatthassa tibbaṁ hirottappaṁ paccupaṭṭhitaṁ hoti pemañca gāravo ca. ",
+            "de": "Da lebt eine Nonne, indem sie sich auf den Lehrer oder einen geistlichen Gefährten in der Lehrerrolle stützt. Und sie entwickelt ihnen gegenüber einen ausgeprägten Sinn für <span class=\"ebt-matched\">Gewissen und Zurückhaltung</span> mit Zuneigung und Achtung. ",
+            "en": "It’s when a mendicant lives relying on the Teacher or a spiritual companion in a teacher’s role. And they set up a keen sense of conscience and prudence for them, with warmth and respect. ",
+            "matched": true
+          },
+          "dn34:2.1.7": {
+            "scid": "dn34:2.1.7",
+            "pli": "Taṁ kho pana satthāraṁ upanissāya viharati aññataraṁ vā garuṭṭhāniyaṁ sabrahmacāriṁ, yatthassa tibbaṁ hirottappaṁ paccupaṭṭhitaṁ hoti pemañca gāravo ca. Te kālena kālaṁ upasaṅkamitvā paripucchati paripañhati: ",
+            "de": "Wenn eine Nonne so mit dem Lehrer oder einem geistlichen Gefährten in der Lehrerrolle lebt – mit einem ausgeprägten Sinn für <span class=\"ebt-matched\">Gewissen und Zurückhaltung</span> mit Zuneigung und Achtung –, geht sie von Zeit zu Zeit hin und stellt Fragen: ",
+            "en": "When a mendicant lives relying on the Teacher or a spiritual companion in a teacher’s role—with a keen sense of conscience and prudence for them, with warmth and respect—from time to time they go and ask them questions: ",
+            "matched": true
+          }
+        },
+        "score": 2.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 34\nBis zu zehn",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 894,
+          "de": 754,
+          "en": 891
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an2/an2.230-279_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an2/an2.230-279_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an2/an2.230-279_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an2.230-279",
+        "lang": "de",
+        "segMap": {
+          "an2.230-279:1.3": {
+            "scid": "an2.230-279:1.3",
+            "pli": "Akkodho ca anupanāho ca … amakkho ca apaḷāso ca … anissā ca amacchariyañca … amāyā ca asāṭheyyañca … hirī ca ottappañca. ",
+            "de": "Freiheit von Zorn und Feindseligkeit … Freiheit von Geringschätzung und Verachtung … Freiheit von Eifersucht und Geiz … Freiheit von Betrug und Doppelzüngigkeit … <span class=\"ebt-matched\">Gewissen und Zurückhaltung</span>. ",
+            "en": "Freedom from anger and hostility … freedom from disdain and contempt … freedom from jealousy and stinginess … freedom from deceit and deviousness … conscience and prudence. ",
+            "matched": true
+          }
+        },
+        "score": 1.143,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 2.230–279\n17. Das Kapitel mit abgekürzten Texten, die mit untauglich beginnen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 7,
+          "de": 6,
+          "en": 6
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.105_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.105_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.105_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.105",
+        "lang": "de",
+        "segMap": {
+          "an10.105:2.1": {
+            "scid": "an10.105:2.1",
+            "pli": "Vijjā, bhikkhave, pubbaṅgamā kusalānaṁ dhammānaṁ samāpattiyā, anvadeva hirottappaṁ. ",
+            "de": "Wissen geht dem Erlangen tauglicher Eigenschaften voraus, und <span class=\"ebt-matched\">Gewissen und Zurückhaltung</span> folgen. ",
+            "en": "Knowledge precedes the attainment of skillful qualities, with conscience and prudence following along. ",
+            "matched": true
+          }
+        },
+        "score": 1.125,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10.105\n11. Das Kapitel über Wahrnehmungen für Asketen\nWissen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 8,
+          "de": 7,
+          "en": 7
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an7/an7.2_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an7/an7.2_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an7/an7.2_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an7.2",
+        "lang": "de",
+        "segMap": {
+          "an7.2:2.3": {
+            "scid": "an7.2:2.3",
+            "pli": "Idha, bhikkhave, bhikkhu na lābhakāmo ca hoti, na sakkārakāmo ca hoti, na anavaññattikāmo ca hoti, hirīmā ca hoti, ottappī ca, anissukī ca, amaccharī ca. ",
+            "de": "Es ist, wenn ein Mönch nicht nach materiellem Besitz, Ehre und Bewunderung verlangt. Er besitzt <span class=\"ebt-matched\">Gewissen und Zurückhaltung</span>. Er ist nicht eifersüchtig und nicht geizig. ",
+            "en": "It’s when a mendicant doesn’t desire material possessions, honor, and to be looked up to. They have conscience and prudence. They’re not jealous or stingy. ",
+            "matched": true
+          }
+        },
+        "score": 1.083,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 7.2\n1. Das Kapitel über Reichtum\nLieb (2)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 12,
+          "de": 11,
+          "en": 11
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.3_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an8/an8.3_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an8/an8.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an8.3",
+        "lang": "de",
+        "segMap": {
+          "an8.3:2.3": {
+            "scid": "an8.3:2.3",
+            "pli": "Idha, bhikkhave, bhikkhu na appiyapasaṁsī ca hoti, na piyagarahī ca, na lābhakāmo ca, na sakkārakāmo ca, hirīmā ca hoti, ottappī ca, appiccho ca, sammādiṭṭhi ca. ",
+            "de": "Da preist eine Nonne nicht, was unerwünscht ist, und tadelt nicht, was erwünscht ist. Sie verlangt nicht nach materiellem Besitz und Ehre. Sie besitzt <span class=\"ebt-matched\">Gewissen und Zurückhaltung</span>. Sie ist genügsam und hat rechte Ansicht. ",
+            "en": "It’s when a mendicant doesn’t praise the disliked and criticize the liked. They don’t desire material possessions and honor. They have conscience and prudence. They have few desires and right view. ",
+            "matched": true
+          }
+        },
+        "score": 1.083,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 8.3\n1. Das Kapitel über Liebe\nUnerwünscht (1)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 12,
+          "de": 11,
+          "en": 11
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an7/an7.3_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an7/an7.3_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an7/an7.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an7.3",
+        "lang": "de",
+        "segMap": {
+          "an7.3:2.2": {
+            "scid": "an7.3:2.2",
+            "pli": "hirī ottappiyaṁ balaṁ; ",
+            "de": "<span class=\"ebt-matched\">Gewissen und Zurückhaltung</span>, ",
+            "en": "conscience and prudence, ",
+            "matched": true
+          }
+        },
+        "score": 1.05,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 7.3\n1. Das Kapitel über Reichtum\nDie Kräfte, kurz",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 20,
+          "de": 19,
+          "en": 19
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an7/an7.5_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an7/an7.5_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an7/an7.5_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an7.5",
+        "lang": "de",
+        "segMap": {
+          "an7.5:2.2": {
+            "scid": "an7.5:2.2",
+            "pli": "hirī ottappiyaṁ dhanaṁ; ",
+            "de": "auch <span class=\"ebt-matched\">Gewissen und Zurückhaltung</span>, ",
+            "en": "as are conscience and prudence, ",
+            "matched": true
+          }
+        },
+        "score": 1.05,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 7.5\n1. Das Kapitel über Reichtum\nReichtum, kurz",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 20,
+          "de": 19,
+          "en": 19
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an7/an7.7_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an7/an7.7_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an7/an7.7_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an7.7",
+        "lang": "de",
+        "segMap": {
+          "an7.7:3.2": {
+            "scid": "an7.7:3.2",
+            "pli": "hirī ottappiyaṁ dhanaṁ; ",
+            "de": "auch <span class=\"ebt-matched\">Gewissen und Zurückhaltung</span>, ",
+            "en": "as are conscience and prudence, ",
+            "matched": true
+          }
+        },
+        "score": 1.037,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 7.7\n1. Das Kapitel über Reichtum\nMit Ugga",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 27,
+          "de": 26,
+          "en": 26
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn45/sn45.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn45/sn45.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn45/sn45.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn45.1",
+        "lang": "de",
+        "segMap": {
+          "sn45.1:3.1": {
+            "scid": "sn45.1:3.1",
+            "pli": "Vijjā ca kho, bhikkhave, pubbaṅgamā kusalānaṁ dhammānaṁ samāpattiyā, anvadeva hirottappaṁ. ",
+            "de": "Wissen geht dem Erlangen tauglicher Eigenschaften voraus, und <span class=\"ebt-matched\">Gewissen und Zurückhaltung</span> folgen. ",
+            "en": "Knowledge precedes the attainment of skillful qualities, with conscience and prudence following along. ",
+            "matched": true
+          }
+        },
+        "score": 1.036,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 45.1\n1. Das Kapitel über Unwissenheit\nUnwissenheit",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 28,
+          "de": 27,
+          "en": 27
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.202_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.202_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.202_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.202",
+        "lang": "de",
+        "segMap": {
+          "an4.202:5.2": {
+            "scid": "an4.202:5.2",
+            "pli": "Idha, bhikkhave, ekacco attanā ca saddhāsampanno hoti, parañca saddhāsampadāya samādapeti; ",
+            "de": "Da hat jemand selbst Vertrauen, <span class=\"ebt-matched\">Gewissen und Zurückhaltung</span>, Gelehrsamkeit, Energie, Achtsamkeit und Weisheit vervollkommnet. Und er ermuntert andere zu ebendiesen Eigenschaften. ",
+            "en": "It’s someone who is personally accomplished in faith, conscience, prudence, learning, energy, mindfulness, and wisdom. And they encourage others in these same qualities. ",
+            "matched": true
+          }
+        },
+        "score": 1.033,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 4.202\n21. Das Kapitel über einen guten Menschen\nOhne Vertrauen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 30,
+          "de": 29,
+          "en": 29
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an7/an7.4_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an7/an7.4_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an7/an7.4_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an7.4",
+        "lang": "de",
+        "segMap": {
+          "an7.4:10.2": {
+            "scid": "an7.4:10.2",
+            "pli": "hirī ottappiyaṁ balaṁ; ",
+            "de": "<span class=\"ebt-matched\">Gewissen und Zurückhaltung</span>, ",
+            "en": "conscience and prudence, ",
+            "matched": true
+          }
+        },
+        "score": 1.024,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 7.4\n1. Das Kapitel über Reichtum\nDie Kräfte, ausführlich",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 42,
+          "de": 40,
+          "en": 41
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an7/an7.6_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an7/an7.6_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an7/an7.6_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an7.6",
+        "lang": "de",
+        "segMap": {
+          "an7.6:10.2": {
+            "scid": "an7.6:10.2",
+            "pli": "hirī ottappiyaṁ dhanaṁ; ",
+            "de": "auch <span class=\"ebt-matched\">Gewissen und Zurückhaltung</span>, ",
+            "en": "as are conscience and prudence, ",
+            "matched": true
+          }
+        },
+        "score": 1.024,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 7.6\n1. Das Kapitel über Reichtum\nReichtum, ausführlich",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 42,
+          "de": 40,
+          "en": 41
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an2/an2.87-97_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an2/an2.87-97_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an2/an2.87-97_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an2.87-97",
+        "lang": "de",
+        "segMap": {
+          "an2.93:1.3": {
+            "scid": "an2.93:1.3",
+            "pli": "Hirī ca ottappañca. ",
+            "de": "<span class=\"ebt-matched\">Gewissen und Zurückhaltung</span>. ",
+            "en": "Conscience and prudence. ",
+            "matched": true
+          }
+        },
+        "score": 1.017,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 2.87–97\n9. Das Kapitel über zwei Dinge",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 58,
+          "de": 57,
+          "en": 57
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn16/sn16.11_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn16/sn16.11_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn16/sn16.11_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn16.11",
+        "lang": "de",
+        "segMap": {
+          "sn16.11:10.2": {
+            "scid": "sn16.11:10.2",
+            "pli": "“tibbaṁ me hirottappaṁ paccupaṭṭhitaṁ bhavissati theresu navesu majjhimesū”ti. ",
+            "de": "„Ich will einen ausgeprägten Sinn für <span class=\"ebt-matched\">Gewissen und Zurückhaltung</span> gegenüber den Älteren, Jüngeren und Mittleren entwickeln.“ ",
+            "en": "“I will set up a keen sense of conscience and prudence for seniors, juniors, and those in the middle.” ",
+            "matched": true
+          }
+        },
+        "score": 1.013,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 16.11\n1. Das Kapitel mit Kassapa\nRoben",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 79,
+          "de": 75,
+          "en": 78
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag18.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag18.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag18.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag18.1",
+        "lang": "de",
+        "segMap": {
+          "thag18.1:29.1": {
+            "scid": "thag18.1:29.1",
+            "pli": "Yesañca hiriottappaṁ, ",
+            "de": "Die, deren <span class=\"ebt-matched\">Gewissen und Zurückhaltung</span> ",
+            "en": "Those whose conscience and shame ",
+            "matched": true
+          }
+        },
+        "score": 1.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 18.1\nDas Vierzigerbuch\n1. Das erste Kapitel\nMahākassapa",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 177,
+          "de": 171,
+          "en": 171
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn33",
+        "lang": "de",
+        "segMap": {
+          "dn33:1.9.8": {
+            "scid": "dn33:1.9.8",
+            "pli": "Hirī ca ottappañca. ",
+            "de": "<span class=\"ebt-matched\">Gewissen und Zurückhaltung</span>. ",
+            "en": "Conscience and prudence. ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 33\nIm Chor aufsagen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 1167,
+          "de": 1166,
+          "en": 1166
+        }
+      }
+    ]
   }
 }

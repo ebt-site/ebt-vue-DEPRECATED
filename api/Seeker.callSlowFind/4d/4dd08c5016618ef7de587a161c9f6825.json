@@ -32,18 +32,18 @@
     "pattern": "bezugspunkte",
     "method": "phrase",
     "resultPattern": "\\bbezugspunkte",
-    "segsMatched": 7,
+    "segsMatched": 8,
     "bilaraPaths": [
-      "root/pli/ms/sutta/an/an4/an4.180_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an4/an4.180_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an4/an4.180_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json"
+      "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.180_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.180_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.180_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "an4.180/de/sabbamitta",
-      "dn16/de/sabbamitta"
+      "dn16/de/sabbamitta",
+      "an4.180/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -131,14 +131,21 @@
             "de": "Das sind die vier großen <span class=\"ebt-matched\">Bezugspunkte</span>.“ ",
             "en": "These are the four great references.” ",
             "matched": true
+          },
+          "dn16:5.27.9": {
+            "scid": "dn16:5.27.9",
+            "pli": "Ñāyassa dhammassa padesavattī, ",
+            "de": "Ich habe die <span class=\"ebt-matched\">Bezugspunkte</span> für die methodische Lehre gelehrt. ",
+            "en": "I have taught the references for the methodical teaching. ",
+            "matched": true
           }
         },
-        "score": 3.002,
+        "score": 4.002,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Lange Lehrreden 16\nDie große Lehrrede vom Erlöschen des Buddha",
-        "segsMatched": 3,
+        "segsMatched": 4,
         "langSegs": {
           "pli": 1664,
           "de": 1579,
