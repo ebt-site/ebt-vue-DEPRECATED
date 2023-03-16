@@ -32,7 +32,7 @@
     "pattern": "eine große hilfe",
     "method": "phrase",
     "resultPattern": "\\beine große hilfe",
-    "segsMatched": 27,
+    "segsMatched": 29,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an3/an3.24_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.24_translation-de-sabbamitta.json",
@@ -49,6 +49,12 @@
       "root/pli/ms/sutta/sn/sn22/sn22.83_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.83_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.83_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga2/iti17_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/iti/vagga2/iti17_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/iti/vagga2/iti17_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga2/iti16_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/iti/vagga2/iti16_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/iti/vagga2/iti16_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/iti/vagga11/iti106_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/iti/vagga11/iti106_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/iti/vagga11/iti106_translation-en-sujato.json",
@@ -89,6 +95,8 @@
       "an4.249/de/sabbamitta",
       "sn46.3/de/sabbamitta",
       "sn22.83/de/sabbamitta",
+      "iti17/de/sabbamitta",
+      "iti16/de/sabbamitta",
       "iti106/de/sabbamitta",
       "dn21/de/sabbamitta",
       "an8.51/de/sabbamitta",
@@ -337,6 +345,70 @@
           "pli": 40,
           "de": 39,
           "en": 39
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga2/iti16_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/iti/vagga2/iti16_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/iti/vagga2/iti16_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti16",
+        "lang": "de",
+        "segMap": {
+          "iti16:2.1": {
+            "scid": "iti16:2.1",
+            "pli": "“Sekhassa, bhikkhave, bhikkhuno appattamānasassa anuttaraṁ yogakkhemaṁ patthayamānassa viharato ajjhattikaṁ aṅganti karitvā nāññaṁ ekaṅgampi samanupassāmi yaṁ evaṁ bahūpakāraṁ yathayidaṁ, bhikkhave, yoniso manasikāro. ",
+            "de": "„Wenn ich innere Faktoren betrachte, Mönche und Nonnen, sehe ich keinen einzigen, der für einen Mönch in Schulung, der seinen Herzenswunsch noch nicht erfüllt hat, aber so lebt, dass er nach der unübertrefflichen Geborgenheit strebt, so <span class=\"ebt-matched\">eine große Hilfe</span> ist wie gründliche Aufmerksamkeit. ",
+            "en": "“Taking into account interior factors, mendicants, I do not see a single one that is so very helpful as proper attention for a trainee mendicant who hasn’t achieved their heart’s desire, but lives aspiring to the supreme sanctuary. ",
+            "matched": true
+          }
+        },
+        "score": 1.059,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So wurde es gesagt 16\nDas Einerbuch\n2. Das zweite Kapitel\nIn Schulung (1)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 17,
+          "de": 16,
+          "en": 16
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga2/iti17_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/iti/vagga2/iti17_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/iti/vagga2/iti17_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti17",
+        "lang": "de",
+        "segMap": {
+          "iti17:2.1": {
+            "scid": "iti17:2.1",
+            "pli": "“Sekhassa, bhikkhave, bhikkhuno appattamānasassa anuttaraṁ yogakkhemaṁ patthayamānassa viharato bāhiraṁ aṅganti karitvā nāññaṁ ekaṅgampi samanupassāmi yaṁ evaṁ bahūpakāraṁ yathayidaṁ, bhikkhave, kalyāṇamittatā. ",
+            "de": "„Wenn ich äußere Faktoren betrachte, Mönche und Nonnen, sehe ich keinen einzigen, der für eine Nonne in Schulung, die ihren Herzenswunsch noch nicht erfüllt hat, aber so lebt, dass sie nach der unübertrefflichen Geborgenheit strebt, so <span class=\"ebt-matched\">eine große Hilfe</span> ist wie gute Freundschaft. ",
+            "en": "“Taking into account exterior factors, mendicants, I do not see a single one that is so very helpful as good friendship for a trainee mendicant who hasn’t achieved their heart’s desire, but lives aspiring to the supreme sanctuary. ",
+            "matched": true
+          }
+        },
+        "score": 1.059,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So wurde es gesagt 17\nDas Einerbuch\n2. Das zweite Kapitel\nIn Schulung (2)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 17,
+          "de": 16,
+          "en": 16
         }
       },
       {

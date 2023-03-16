@@ -32,11 +32,14 @@
     "pattern": "teich mit blauen seerosen",
     "method": "phrase",
     "resultPattern": "\\bteich mit blauen seerosen",
-    "segsMatched": 4,
+    "segsMatched": 5,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn6/sn6.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn6/sn6.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn6/sn6.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn119_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn119_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn119_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn14_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json",
@@ -49,6 +52,7 @@
     ],
     "suttaRefs": [
       "sn6.1/de/sabbamitta",
+      "mn119/de/sabbamitta",
       "dn14/de/sabbamitta",
       "dn10/de/sabbamitta",
       "an5.28/de/sabbamitta"
@@ -116,6 +120,38 @@
           "pli": 85,
           "de": 84,
           "en": 84
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn119_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn119_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn119_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn119",
+        "lang": "de",
+        "segMap": {
+          "mn119:20.3": {
+            "scid": "mn119:20.3",
+            "pli": "Seyyathāpi, bhikkhave, uppaliniyaṁ vā paduminiyaṁ vā puṇḍarīkiniyaṁ vā appekaccāni uppalāni vā padumāni vā puṇḍarīkāni vā udake jātāni udake saṁvaḍḍhāni udakānuggatāni antonimuggaposīni, tāni yāva caggā yāva ca mūlā sītena vārinā abhisannāni parisannāni paripūrāni paripphuṭāni, nāssa kiñci sabbāvataṁ uppalānaṁ vā padumānaṁ vā puṇḍarīkānaṁ vā sītena vārinā apphuṭaṁ assa; ",
+            "de": "Wie ein <span class=\"ebt-matched\">Teich mit blauen Seerosen</span> oder rosa oder weißen Lotusblumen. Manche von ihnen sprießen und wachsen im Wasser, ohne sich darüber zu erheben, und gedeihen unter Wasser. Von der Spitze bis zur Wurzel sind sie getränkt, durchdrungen, angefüllt und durchströmt von kühlem Wasser. Es gibt keinen Teil von ihnen, der nicht von kühlem Wasser durchströmt wäre. ",
+            "en": "It’s like a pool with blue water lilies, or pink or white lotuses. Some of them sprout and grow in the water without rising above it, thriving underwater. From the tip to the root they’re drenched, steeped, filled, and soaked with cool water. There’s no part of them that’s not soaked with cool water. ",
+            "matched": true
+          }
+        },
+        "score": 1.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 119\nAchtsamkeit auf den Körper",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 190,
+          "de": 161,
+          "en": 173
         }
       },
       {

@@ -32,8 +32,11 @@
     "pattern": "es war der besinnungstag",
     "method": "phrase",
     "resultPattern": "\\bes war der besinnungstag",
-    "segsMatched": 10,
+    "segsMatched": 12,
     "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn118_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn118_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn118_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn8/sn8.7_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn8/sn8.7_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn8/sn8.7_translation-en-sujato.json",
@@ -66,6 +69,7 @@
       "translation/en/sujato/sutta/an/an10/an10.119_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "mn118/de/sabbamitta",
       "sn8.7/de/sabbamitta",
       "sn22.82/de/sabbamitta",
       "mn109/de/sabbamitta",
@@ -78,6 +82,45 @@
       "an10.119/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn118_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn118_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn118_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn118",
+        "lang": "de",
+        "segMap": {
+          "mn118:3.1": {
+            "scid": "mn118:3.1",
+            "pli": "Tena kho pana samayena bhagavā tadahuposathe pannarase pavāraṇāya puṇṇāya puṇṇamāya rattiyā bhikkhusaṅghaparivuto abbhokāse nisinno hoti. ",
+            "de": "Zu der Zeit, <span class=\"ebt-matched\">es war der Besinnungstag</span>, der Vollmond am fünfzehnten Tag, saß der Buddha inmitten des Saṅgha der Mönche für die Einladung zum Ermahnen. ",
+            "en": "Now, at that time it was the sabbath—the full moon on the fifteenth day—and the Buddha was sitting surrounded by the Saṅgha of monks for the invitation to admonish. ",
+            "matched": true
+          },
+          "mn118:7.1": {
+            "scid": "mn118:7.1",
+            "pli": "Tena kho pana samayena bhagavā tadahuposathe pannarase komudiyā cātumāsiniyā puṇṇāya puṇṇamāya rattiyā bhikkhusaṅghaparivuto abbhokāse nisinno hoti. ",
+            "de": "Zu der Zeit, <span class=\"ebt-matched\">es war der Besinnungstag</span>, der Komudī-Vollmond am fünfzehnten Tag, saß der Buddha inmitten des Saṅgha der Mönche im Freien. ",
+            "en": "Now, at that time it was the sabbath—the Komudī full moon on the fifteenth day of the fourth month—and the Buddha was sitting in the open surrounded by the Saṅgha of monks. ",
+            "matched": true
+          }
+        },
+        "score": 2.013,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 118\nAchtsamkeit auf den Atem",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 154,
+          "de": 145,
+          "en": 153
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/an/an4/an4.190_root-pli-ms.json",

@@ -32,7 +32,7 @@
     "pattern": "leere.* brahmāpalast",
     "method": "phrase",
     "resultPattern": "\\bleere.* brahmāpalast",
-    "segsMatched": 6,
+    "segsMatched": 7,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn24_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn24_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/an/an7/an7.62_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an7/an7.62_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an7/an7.62_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga3/iti22_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/iti/vagga3/iti22_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/iti/vagga3/iti22_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an7/an7.66_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an7/an7.66_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an7/an7.66_translation-en-sujato.json"
@@ -47,6 +50,7 @@
     "suttaRefs": [
       "dn24/de/sabbamitta",
       "an7.62/de/sabbamitta",
+      "iti22/de/sabbamitta",
       "an7.66/de/sabbamitta"
     ],
     "mlDocs": [
@@ -133,6 +137,38 @@
           "pli": 60,
           "de": 59,
           "en": 59
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga3/iti22_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/iti/vagga3/iti22_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/iti/vagga3/iti22_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti22",
+        "lang": "de",
+        "segMap": {
+          "iti22:2.6": {
+            "scid": "iti22:2.6",
+            "pli": "vivaṭṭamāne kappe suññaṁ brahmavimānaṁ upapajjāmi. ",
+            "de": "Wenn es sich ausdehnte, wurde ich in einem <span class=\"ebt-matched\">leeren Brahmāpalast</span> wiedergeboren. ",
+            "en": "As it expanded I was reborn in an empty mansion of Brahmā. ",
+            "matched": true
+          }
+        },
+        "score": 1.031,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So wurde es gesagt 22\nDas Einerbuch\n3. Das dritte Kapitel\nDie vorteilhaften Folgen der Liebe",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 32,
+          "de": 31,
+          "en": 31
         }
       },
       {

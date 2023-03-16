@@ -32,8 +32,11 @@
     "pattern": "beim einatmen seligkeit",
     "method": "phrase",
     "resultPattern": "\\bbeim einatmen seligkeit",
-    "segsMatched": 4,
+    "segsMatched": 6,
     "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn118_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn118_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn118_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn54/sn54.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn54/sn54.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn54/sn54.1_translation-en-sujato.json",
@@ -48,12 +51,52 @@
       "translation/en/sujato/sutta/an/an10/an10.60_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "mn118/de/sabbamitta",
       "sn54.1/de/sabbamitta",
       "sn54.13/de/sabbamitta",
       "sn54.10/de/sabbamitta",
       "an10.60/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn118_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn118_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn118_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn118",
+        "lang": "de",
+        "segMap": {
+          "mn118:19.2": {
+            "scid": "mn118:19.2",
+            "pli": "‘sukhapaṭisaṁvedī assasissāmī’ti sikkhati, ‘sukhapaṭisaṁvedī passasissāmī’ti sikkhati; ",
+            "de": "Er übt: ‚Ich werde <span class=\"ebt-matched\">beim Einatmen Seligkeit</span> erfahren.‘ Er übt: ‚Ich werde beim Ausatmen Seligkeit erfahren.‘ ",
+            "en": "They practice like this: ‘I’ll breathe in experiencing bliss.’ They practice like this: ‘I’ll breathe out experiencing bliss.’ ",
+            "matched": true
+          },
+          "mn118:25.2": {
+            "scid": "mn118:25.2",
+            "pli": "‘sukhapaṭisaṁvedī assasissāmī’ti sikkhati, ‘sukhapaṭisaṁvedī passasissāmī’ti sikkhati; ",
+            "de": "Er übt: ‚Ich werde <span class=\"ebt-matched\">beim Einatmen Seligkeit</span> erfahren.‘ Er übt: ‚Ich werde beim Ausatmen Seligkeit erfahren.‘ ",
+            "en": "or experiencing bliss, ",
+            "matched": true
+          }
+        },
+        "score": 2.013,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 118\nAchtsamkeit auf den Atem",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 154,
+          "de": 145,
+          "en": 153
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn54/sn54.1_root-pli-ms.json",

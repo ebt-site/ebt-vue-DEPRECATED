@@ -32,7 +32,7 @@
     "pattern": "schwer einatmet, weiß",
     "method": "phrase",
     "resultPattern": "\\bschwer einatmet, weiß",
-    "segsMatched": 7,
+    "segsMatched": 9,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn54/sn54.8_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn54/sn54.8_translation-de-sabbamitta.json",
@@ -46,6 +46,12 @@
       "root/pli/ms/sutta/sn/sn54/sn54.13_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn54/sn54.13_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn54/sn54.13_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn119_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn119_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn119_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn118_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn118_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn118_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn10_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn10_translation-en-sujato.json",
@@ -61,6 +67,8 @@
       "sn54.6/de/sabbamitta",
       "sn54.1/de/sabbamitta",
       "sn54.13/de/sabbamitta",
+      "mn119/de/sabbamitta",
+      "mn118/de/sabbamitta",
       "mn10/de/sabbamitta",
       "dn22/de/sabbamitta",
       "an10.60/de/sabbamitta"
@@ -224,6 +232,70 @@
           "pli": 84,
           "de": 76,
           "en": 83
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn118_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn118_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn118_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn118",
+        "lang": "de",
+        "segMap": {
+          "mn118:18.1": {
+            "scid": "mn118:18.1",
+            "pli": "Dīghaṁ vā assasanto ‘dīghaṁ assasāmī’ti pajānāti, dīghaṁ vā passasanto ‘dīghaṁ passasāmī’ti pajānāti; ",
+            "de": "Wenn er <span class=\"ebt-matched\">schwer einatmet, weiß</span> er: ‚Ich atme schwer ein.‘ Wenn er schwer ausatmet, weiß er: ‚Ich atme schwer aus.‘ ",
+            "en": "Breathing in heavily they know: ‘I’m breathing in heavily.’ Breathing out heavily they know: ‘I’m breathing out heavily.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 118\nAchtsamkeit auf den Atem",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 154,
+          "de": 145,
+          "en": 153
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn119_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn119_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn119_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn119",
+        "lang": "de",
+        "segMap": {
+          "mn119:4.3": {
+            "scid": "mn119:4.3",
+            "pli": "dīghaṁ vā assasanto ‘dīghaṁ assasāmī’ti pajānāti, dīghaṁ vā passasanto ‘dīghaṁ passasāmī’ti pajānāti; ",
+            "de": "Wenn er <span class=\"ebt-matched\">schwer einatmet, weiß</span> er: ‚Ich atme schwer ein.‘ Wenn er schwer ausatmet, weiß er: ‚Ich atme schwer aus.‘ ",
+            "en": "Breathing in heavily they know: ‘I’m breathing in heavily.’ Breathing out heavily they know: ‘I’m breathing out heavily.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 119\nAchtsamkeit auf den Körper",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 190,
+          "de": 161,
+          "en": 173
         }
       },
       {

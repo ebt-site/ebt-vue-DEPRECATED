@@ -32,7 +32,7 @@
     "pattern": "rad-drehend.* herrscher",
     "method": "phrase",
     "resultPattern": "\\brad-drehend.* herrscher",
-    "segsMatched": 125,
+    "segsMatched": 126,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn26_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn26_translation-de-sabbamitta.json",
@@ -124,6 +124,9 @@
       "root/pli/ms/sutta/kn/kp/kp8_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/kp/kp8_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/kp/kp8_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga3/iti22_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/iti/vagga3/iti22_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/iti/vagga3/iti22_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an7/an7.66_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an7/an7.66_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an7/an7.66_translation-en-sujato.json",
@@ -168,6 +171,7 @@
       "sn22.102/de/sabbamitta",
       "thag21.1/de/sabbamitta",
       "kp8/de/sabbamitta",
+      "iti22/de/sabbamitta",
       "an7.66/de/sabbamitta",
       "an6.53/de/sabbamitta",
       "an4.247/de/sabbamitta",
@@ -524,7 +528,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Lange Lehrreden 30\nKennzeichen eines großen Mannes",
+        "title": "Lange Lehrreden 30\nDie Kennzeichen eines großen Mannes",
         "segsMatched": 21,
         "langSegs": {
           "pli": 721,
@@ -1769,6 +1773,38 @@
           "pli": 25,
           "de": 24,
           "en": 24
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga3/iti22_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/iti/vagga3/iti22_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/iti/vagga3/iti22_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti22",
+        "lang": "de",
+        "segMap": {
+          "iti22:3.3": {
+            "scid": "iti22:3.3",
+            "pli": "anekasatakkhattuṁ rājā ahosiṁ cakkavattī dhammiko dhammarājā cāturanto vijitāvī janapadatthāvariyappatto sattaratanasamannāgato. ",
+            "de": "Viele hundert Male war ich ein König, ein <span class=\"ebt-matched\">Rad-drehender Herrscher</span>, ein gerechter und prinzipientreuer König. Mein Herrschaftsgebiet erstreckte sich nach allen vier Seiten, ich hatte für das Land Sicherheit gewonnen und besaß die sieben Juwelen. ",
+            "en": "Many hundreds of times I was a king, a wheel-turning monarch, a just and principled king. My dominion extended to all four sides, I achieved stability in the country, and I possessed the seven treasures. ",
+            "matched": true
+          }
+        },
+        "score": 1.031,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So wurde es gesagt 22\nDas Einerbuch\n3. Das dritte Kapitel\nDie vorteilhaften Folgen der Liebe",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 32,
+          "de": 31,
+          "en": 31
         }
       },
       {

@@ -32,7 +32,7 @@
     "pattern": "was noch nicht erreicht ist",
     "method": "phrase",
     "resultPattern": "\\bwas noch nicht erreicht ist",
-    "segsMatched": 54,
+    "segsMatched": 55,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an8/an8.80_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.80_translation-de-sabbamitta.json",
@@ -79,6 +79,9 @@
       "root/pli/ms/sutta/sn/sn11/sn11.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn11/sn11.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn11/sn11.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn118_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn118_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn118_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an9/an9.4_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an9/an9.4_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an9/an9.4_translation-en-sujato.json"
@@ -99,6 +102,7 @@
       "sn12.22/de/sabbamitta",
       "sn11.2/de/sabbamitta",
       "sn11.1/de/sabbamitta",
+      "mn118/de/sabbamitta",
       "an9.4/de/sabbamitta"
     ],
     "mlDocs": [
@@ -457,7 +461,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Lange Lehrreden 34\nBis zu zehn",
+        "title": "Lange Lehrreden 34\nBis zehn aufwärts",
         "segsMatched": 5,
         "langSegs": {
           "pli": 894,
@@ -878,6 +882,38 @@
           "pli": 81,
           "de": 80,
           "en": 80
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn118_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn118_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn118_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn118",
+        "lang": "de",
+        "segMap": {
+          "mn118:4.3": {
+            "scid": "mn118:4.3",
+            "pli": "Tasmātiha, bhikkhave, bhiyyoso mattāya vīriyaṁ ārabhatha appattassa pattiyā, anadhigatassa adhigamāya, asacchikatassa sacchikiriyāya. ",
+            "de": "Daher sollt ihr eure Energie noch stärker aufrütteln, um zu erreichen, <span class=\"ebt-matched\">was noch nicht erreicht ist</span>, zu erringen, was noch nicht errungen ist, und zu erkennen, was noch nicht erkannt ist. ",
+            "en": "So you should rouse up even more energy for attaining the unattained, achieving the unachieved, and realizing the unrealized. ",
+            "matched": true
+          }
+        },
+        "score": 1.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 118\nAchtsamkeit auf den Atem",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 154,
+          "de": 145,
+          "en": 153
         }
       }
     ]

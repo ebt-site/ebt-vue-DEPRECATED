@@ -32,14 +32,22 @@
     "pattern": "vertrauen und.* liebe",
     "method": "phrase",
     "resultPattern": "\\bvertrauen und.* liebe",
-    "segsMatched": 6,
+    "segsMatched": 8,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an6/an6.30_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.30_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an6/an6.30_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an6/an6.30_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn55/sn55.25_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn55/sn55.25_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn55/sn55.25_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn55/sn55.24_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn55/sn55.24_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn55/sn55.24_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "an6.30/de/sabbamitta"
+      "an6.30/de/sabbamitta",
+      "sn55.25/de/sabbamitta",
+      "sn55.24/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -107,6 +115,70 @@
           "pli": 67,
           "de": 60,
           "en": 65
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn55/sn55.24_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn55/sn55.24_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn55/sn55.24_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn55.24",
+        "lang": "de",
+        "segMap": {
+          "sn55.24:9.7": {
+            "scid": "sn55.24:9.7",
+            "pli": "Tathāgate cassa saddhāmattaṁ hoti pemamattaṁ. ",
+            "de": "Und er hat ein Maß an <span class=\"ebt-matched\">Vertrauen und Liebe</span> zum Buddha. ",
+            "en": "And they have a degree of faith and love for the Buddha. ",
+            "matched": true
+          }
+        },
+        "score": 1.013,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 55.24\n3. Das Kapitel mit Sarakāni\nÜber den Sakyer Sarakāni (1)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 78,
+          "de": 61,
+          "en": 77
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn55/sn55.25_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn55/sn55.25_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn55/sn55.25_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn55.25",
+        "lang": "de",
+        "segMap": {
+          "sn55.25:9.7": {
+            "scid": "sn55.25:9.7",
+            "pli": "Tathāgate cassa saddhāmattaṁ hoti pemamattaṁ. ",
+            "de": "Und er hat ein Maß an <span class=\"ebt-matched\">Vertrauen und Liebe</span> zum Buddha. ",
+            "en": "And they have a degree of faith and love for the Buddha. ",
+            "matched": true
+          }
+        },
+        "score": 1.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 55.25\n3. Das Kapitel mit Sarakāni\nÜber den Sakyer Sarakāni (2)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 91,
+          "de": 73,
+          "en": 90
         }
       }
     ]

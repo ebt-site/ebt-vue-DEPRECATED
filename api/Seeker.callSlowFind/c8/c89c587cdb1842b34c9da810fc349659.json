@@ -32,7 +32,7 @@
     "pattern": "gerechter und prinzipientreuer könig",
     "method": "phrase",
     "resultPattern": "\\bgerechter und prinzipientreuer könig",
-    "segsMatched": 16,
+    "segsMatched": 17,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an5/an5.133_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.133_translation-de-sabbamitta.json",
@@ -49,6 +49,9 @@
       "root/pli/ms/sutta/sn/sn41/sn41.10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn41/sn41.10_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn41/sn41.10_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga3/iti22_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/iti/vagga3/iti22_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/iti/vagga3/iti22_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn18_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn18_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn18_translation-en-sujato.json",
@@ -74,6 +77,7 @@
       "dn26/de/sabbamitta",
       "an3.14/de/sabbamitta",
       "sn41.10/de/sabbamitta",
+      "iti22/de/sabbamitta",
       "dn18/de/sabbamitta",
       "dn17/de/sabbamitta",
       "dn16/de/sabbamitta",
@@ -237,12 +241,44 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Lange Lehrreden 30\nKennzeichen eines großen Mannes",
+        "title": "Lange Lehrreden 30\nDie Kennzeichen eines großen Mannes",
         "segsMatched": 2,
         "langSegs": {
           "pli": 721,
           "de": 716,
           "en": 720
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga3/iti22_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/iti/vagga3/iti22_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/iti/vagga3/iti22_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti22",
+        "lang": "de",
+        "segMap": {
+          "iti22:3.3": {
+            "scid": "iti22:3.3",
+            "pli": "anekasatakkhattuṁ rājā ahosiṁ cakkavattī dhammiko dhammarājā cāturanto vijitāvī janapadatthāvariyappatto sattaratanasamannāgato. ",
+            "de": "Viele hundert Male war ich ein König, ein Rad-drehender Herrscher, ein <span class=\"ebt-matched\">gerechter und prinzipientreuer König</span>. Mein Herrschaftsgebiet erstreckte sich nach allen vier Seiten, ich hatte für das Land Sicherheit gewonnen und besaß die sieben Juwelen. ",
+            "en": "Many hundreds of times I was a king, a wheel-turning monarch, a just and principled king. My dominion extended to all four sides, I achieved stability in the country, and I possessed the seven treasures. ",
+            "matched": true
+          }
+        },
+        "score": 1.031,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So wurde es gesagt 22\nDas Einerbuch\n3. Das dritte Kapitel\nDie vorteilhaften Folgen der Liebe",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 32,
+          "de": 31,
+          "en": 31
         }
       },
       {
