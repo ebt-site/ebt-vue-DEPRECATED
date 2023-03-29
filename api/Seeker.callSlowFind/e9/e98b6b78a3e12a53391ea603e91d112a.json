@@ -32,7 +32,7 @@
     "pattern": "unbedingt",
     "method": "phrase",
     "resultPattern": "\\bunbedingt",
-    "segsMatched": 52,
+    "segsMatched": 57,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn43/sn43.12_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn43/sn43.12_translation-de-sabbamitta.json",
@@ -49,6 +49,9 @@
       "root/pli/ms/sutta/kn/ud/vagga8/ud8.3_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga8/ud8.3_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/ud/vagga8/ud8.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga5/iti43_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/iti/vagga5/iti43_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/iti/vagga5/iti43_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.47_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.47_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.47_translation-en-sujato.json",
@@ -88,6 +91,12 @@
       "root/pli/ms/sutta/mn/mn44_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn44_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn44_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga5/iti44_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/iti/vagga5/iti44_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/iti/vagga5/iti44_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga10/iti90_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/iti/vagga10/iti90_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/iti/vagga10/iti90_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
@@ -104,6 +113,7 @@
       "sn43.2/de/sabbamitta",
       "sn43.11/de/sabbamitta",
       "ud8.3/de/sabbamitta",
+      "iti43/de/sabbamitta",
       "an3.47/de/sabbamitta",
       "sn43.44/de/sabbamitta",
       "an2.11-20/de/sabbamitta",
@@ -117,6 +127,8 @@
       "sn43.13/de/sabbamitta",
       "sn43.10/de/sabbamitta",
       "mn44/de/sabbamitta",
+      "iti44/de/sabbamitta",
+      "iti90/de/sabbamitta",
       "dn34/de/sabbamitta",
       "an5.32/de/sabbamitta",
       "an4.34/de/sabbamitta"
@@ -519,6 +531,52 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga5/iti43_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/iti/vagga5/iti43_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/iti/vagga5/iti43_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti43",
+        "lang": "de",
+        "segMap": {
+          "iti43:2.1": {
+            "scid": "iti43:2.1",
+            "pli": "“Atthi, bhikkhave, ajātaṁ abhūtaṁ akataṁ asaṅkhataṁ. ",
+            "de": "„Es gibt, Mönche und Nonnen, ein Ungeborenes, Ungeschaffenes, Ungemachtes und <span class=\"ebt-matched\">Unbedingt</span>es. ",
+            "en": "“There is, mendicants, an unborn, unproduced, unmade, and unconditioned. ",
+            "matched": true
+          },
+          "iti43:2.2": {
+            "scid": "iti43:2.2",
+            "pli": "No cetaṁ, bhikkhave, abhavissa ajātaṁ abhūtaṁ akataṁ asaṅkhataṁ, nayidha jātassa bhūtassa katassa saṅkhatassa nissaraṇaṁ paññāyetha. ",
+            "de": "Wenn es kein Ungeborenes, Ungeschaffenes, Ungemachtes und <span class=\"ebt-matched\">Unbedingt</span>es gäbe, wäre ein Entrinnen vom Geborenen, Geschaffenen, Gemachten und Bedingten hier nicht zu finden. ",
+            "en": "If there were no unborn, unproduced, unmade, and unconditioned, then you would find no escape here from the born, produced, made, and conditioned. ",
+            "matched": true
+          },
+          "iti43:2.3": {
+            "scid": "iti43:2.3",
+            "pli": "Yasmā ca kho, bhikkhave, atthi ajātaṁ abhūtaṁ akataṁ asaṅkhataṁ, tasmā jātassa bhūtassa katassa saṅkhatassa nissaraṇaṁ paññāyatī”ti. ",
+            "de": "Aber da es ein Ungeborenes, Ungeschaffenes, Ungemachtes und <span class=\"ebt-matched\">Unbedingt</span>es gibt, ist ein Entrinnen vom Geborenen, Geschaffenen, Gemachten und Bedingten zu finden.“ ",
+            "en": "But since there is an unborn, unproduced, unmade, and unconditioned, an escape is found from the born, produced, made, and conditioned.” ",
+            "matched": true
+          }
+        },
+        "score": 3.125,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So wurde es gesagt 43\nDas Zweierbuch\n2. Das zweite Kapitel\nUngeboren",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 24,
+          "de": 23,
+          "en": 23
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn43/sn43.44_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/sn/sn43/sn43.44_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/sn/sn43/sn43.44_translation-en-sujato.json"
@@ -885,6 +943,38 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga5/iti44_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/iti/vagga5/iti44_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/iti/vagga5/iti44_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti44",
+        "lang": "de",
+        "segMap": {
+          "iti44:6.1": {
+            "scid": "iti44:6.1",
+            "pli": "Ye etadaññāya padaṁ asaṅkhataṁ, ",
+            "de": "Die den <span class=\"ebt-matched\">unbedingt</span>en Zustand vollständig verstanden haben – ",
+            "en": "Those who have fully understood <j>the unconditioned state—",
+            "matched": true
+          }
+        },
+        "score": 1.031,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So wurde es gesagt 44\nDas Zweierbuch\n2. Das zweite Kapitel\nElemente des Erlöschens",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 32,
+          "de": 31,
+          "en": 30
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an4/an4.34_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/an/an4/an4.34_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/an/an4/an4.34_translation-en-sujato.json"
@@ -913,6 +1003,38 @@
           "pli": 35,
           "de": 34,
           "en": 34
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga10/iti90_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/iti/vagga10/iti90_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/iti/vagga10/iti90_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti90",
+        "lang": "de",
+        "segMap": {
+          "iti90:3.1": {
+            "scid": "iti90:3.1",
+            "pli": "Yāvatā, bhikkhave, dhammā saṅkhatā vā asaṅkhatā vā, virāgo tesaṁ aggamakkhāyati, yadidaṁ madanimmadano pipāsavinayo ālayasamugghāto vaṭṭupacchedo taṇhakkhayo virāgo nirodho nibbānaṁ. ",
+            "de": "Das Schwinden gilt unter den bedingten und <span class=\"ebt-matched\">unbedingt</span>en Dingen als das beste: nämlich das Überwinden der Eitelkeit, das Löschen des Durstes, das Aufgeben des Anklammerns, das Ausbrechen aus dem Kreislauf, das Auflösen des Verlangens, das Schwinden, Aufhören, Erlöschen. ",
+            "en": "Fading away is said to be the best of all things whether conditioned or unconditioned. That is, the quelling of vanity, the removing of thirst, the abolishing of clinging, the breaking of the round, the ending of craving, fading away, cessation, extinguishment. ",
+            "matched": true
+          }
+        },
+        "score": 1.027,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So wurde es gesagt 90\nDas Dreierbuch\n5. Das fünfte Kapitel\nZuversicht zu den besten Dingen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 37,
+          "de": 36,
+          "en": 36
         }
       },
       {

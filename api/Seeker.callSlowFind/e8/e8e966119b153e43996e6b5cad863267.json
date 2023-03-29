@@ -32,7 +32,7 @@
     "pattern": "hier auf der stelle kühl",
     "method": "phrase",
     "resultPattern": "\\bhier auf der stelle kühl",
-    "segsMatched": 14,
+    "segsMatched": 15,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn54/sn54.8_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn54/sn54.8_translation-de-sabbamitta.json",
@@ -54,7 +54,10 @@
       "translation/en/sujato/sutta/mn/mn140_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.195_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.195_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an4/an4.195_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an4/an4.195_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga5/iti44_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/iti/vagga5/iti44_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/iti/vagga5/iti44_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "sn54.8/de/sabbamitta",
@@ -63,7 +66,8 @@
       "sn22.88/de/sabbamitta",
       "sn12.51/de/sabbamitta",
       "mn140/de/sabbamitta",
-      "an4.195/de/sabbamitta"
+      "an4.195/de/sabbamitta",
+      "iti44/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -337,6 +341,38 @@
           "pli": 239,
           "de": 229,
           "en": 238
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga5/iti44_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/iti/vagga5/iti44_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/iti/vagga5/iti44_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti44",
+        "lang": "de",
+        "segMap": {
+          "iti44:4.3": {
+            "scid": "iti44:4.3",
+            "pli": "Tassa idheva, bhikkhave, sabbavedayitāni anabhinanditāni sīti bhavissanti. ",
+            "de": "Für ihn wird alles Gefühlte, da es nicht länger genossen wird, <span class=\"ebt-matched\">hier auf der Stelle kühl</span> werden. ",
+            "en": "For them, everything that’s felt, being no longer relished, will become cool right here. ",
+            "matched": true
+          }
+        },
+        "score": 1.031,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So wurde es gesagt 44\nDas Zweierbuch\n2. Das zweite Kapitel\nElemente des Erlöschens",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 32,
+          "de": 31,
+          "en": 30
         }
       }
     ]

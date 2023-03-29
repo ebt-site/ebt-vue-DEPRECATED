@@ -32,7 +32,7 @@
     "pattern": "leere.* hütten",
     "method": "phrase",
     "resultPattern": "\\bleere.* hütten",
-    "segsMatched": 17,
+    "segsMatched": 18,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an10/an10.71_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.71_translation-de-sabbamitta.json",
@@ -58,6 +58,9 @@
       "root/pli/ms/sutta/sn/sn35/sn35.146_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn35/sn35.146_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.146_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga5/iti45_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/iti/vagga5/iti45_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/iti/vagga5/iti45_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an9/an9.19_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an9/an9.19_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an9/an9.19_translation-en-sujato.json",
@@ -83,6 +86,7 @@
       "sn43.1/de/sabbamitta",
       "sn43.11/de/sabbamitta",
       "sn35.146/de/sabbamitta",
+      "iti45/de/sabbamitta",
       "an9.19/de/sabbamitta",
       "an7.74/de/sabbamitta",
       "an5.74/de/sabbamitta",
@@ -308,6 +312,38 @@
           "pli": 18,
           "de": 9,
           "en": 16
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga5/iti45_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/iti/vagga5/iti45_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/iti/vagga5/iti45_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti45",
+        "lang": "de",
+        "segMap": {
+          "iti45:2.1": {
+            "scid": "iti45:2.1",
+            "pli": "“Paṭisallānārāmā, bhikkhave, viharatha paṭisallānaratā, ajjhattaṁ cetosamathamanuyuttā, anirākatajjhānā, vipassanāya samannāgatā, brūhetāro suññāgārānaṁ. ",
+            "de": "„Erfreut euch an der Klausur, Mönche und Nonnen. Weiht euch der inneren Sammlung des Herzens, vernachlässigt nicht die Vertiefung, besitzt das klare Sehen und sucht <span class=\"ebt-matched\">leere Hütten</span> auf. ",
+            "en": "“Enjoy retreat, mendicants, love retreat. Be committed to inner serenity of the heart, don’t neglect absorption, be endowed with discernment, and frequent empty huts. ",
+            "matched": true
+          }
+        },
+        "score": 1.05,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So wurde es gesagt 45\nDas Zweierbuch\n2. Das zweite Kapitel\nKlausur",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 20,
+          "de": 19,
+          "en": 19
         }
       },
       {

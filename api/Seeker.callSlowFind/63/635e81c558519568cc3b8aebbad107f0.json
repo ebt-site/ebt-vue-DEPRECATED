@@ -32,7 +32,7 @@
     "pattern": "riese",
     "method": "phrase",
     "resultPattern": "\\briese",
-    "segsMatched": 46,
+    "segsMatched": 48,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an6/an6.43_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.43_translation-de-sabbamitta.json",
@@ -55,12 +55,18 @@
       "root/pli/ms/sutta/sn/sn21/sn21.3_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn21/sn21.3_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn21/sn21.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn1/sn1.37_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn1/sn1.37_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn1/sn1.37_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/ud/vagga4/ud4.5_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga4/ud4.5_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/ud/vagga4/ud4.5_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/ud/vagga4/ud4.4_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga4/ud4.4_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/kn/ud/vagga4/ud4.4_translation-en-sujato.json"
+      "translation/en/sujato/sutta/kn/ud/vagga4/ud4.4_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn20_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn20_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn20_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an6.43/de/sabbamitta",
@@ -70,8 +76,10 @@
       "sn8.8/de/sabbamitta",
       "sn22.76/de/sabbamitta",
       "sn21.3/de/sabbamitta",
+      "sn1.37/de/sabbamitta",
       "ud4.5/de/sabbamitta",
-      "ud4.4/de/sabbamitta"
+      "ud4.4/de/sabbamitta",
+      "dn20/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -463,6 +471,38 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn1/sn1.37_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn1/sn1.37_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn1/sn1.37_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn1.37",
+        "lang": "de",
+        "segMap": {
+          "sn1.37:7.4": {
+            "scid": "sn1.37:7.4",
+            "pli": "Cakkhumatā sudantā susunāgā”ti. ",
+            "de": "die jungen <span class=\"ebt-matched\">Riese</span>n, die der Seher gezähmt hat.“ ",
+            "en": "the young giants tamed by the seer.” ",
+            "matched": true
+          }
+        },
+        "score": 1.031,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 1.37\n4. Das Kapitel über die Satullapa-Gruppe\nDie Zusammenkunft",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 32,
+          "de": 30,
+          "en": 32
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/kn/ud/vagga4/ud4.5_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/kn/ud/vagga4/ud4.5_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/kn/ud/vagga4/ud4.5_translation-en-sujato.json"
@@ -619,6 +659,38 @@
           "pli": 54,
           "de": 53,
           "en": 53
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn20_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn20_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn20_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn20",
+        "lang": "de",
+        "segMap": {
+          "dn20:3.17": {
+            "scid": "dn20:3.17",
+            "pli": "Cakkhumatā sudantā susunāgā”ti. ",
+            "de": "die jungen <span class=\"ebt-matched\">Riese</span>n, die der Seher gezähmt hat.“ ",
+            "en": "the young giants tamed by the seer.” ",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 20\nDie große Zusammenkunft",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 337,
+          "de": 334,
+          "en": 336
         }
       }
     ]

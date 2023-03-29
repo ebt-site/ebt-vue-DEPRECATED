@@ -32,8 +32,11 @@
     "pattern": "drei grundlagen",
     "method": "phrase",
     "resultPattern": "\\bdrei grundlagen",
-    "segsMatched": 4,
+    "segsMatched": 6,
     "bilaraPaths": [
+      "root/pli/ms/sutta/kn/iti/vagga7/iti60_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/iti/vagga7/iti60_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/iti/vagga7/iti60_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
@@ -45,10 +48,50 @@
       "translation/en/sujato/sutta/an/an3/an3.102_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "iti60/de/sabbamitta",
       "an8.36/de/sabbamitta",
       "an3.102/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga7/iti60_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/iti/vagga7/iti60_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/iti/vagga7/iti60_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti60",
+        "lang": "de",
+        "segMap": {
+          "iti60:2.1": {
+            "scid": "iti60:2.1",
+            "pli": "“Tīṇimāni, bhikkhave, puññakiriyavatthūni. ",
+            "de": "„Mönche und Nonnen, es gibt <span class=\"ebt-matched\">drei Grundlagen</span> für das Schaffen von Verdienst. ",
+            "en": "“Mendicants, there are these three grounds for making merit. ",
+            "matched": true
+          },
+          "iti60:2.4": {
+            "scid": "iti60:2.4",
+            "pli": "imāni kho, bhikkhave, tīṇi puññakiriyavatthūnī”ti. ",
+            "de": "Das sind die <span class=\"ebt-matched\">drei Grundlagen</span> für das Schaffen von Verdienst.“ ",
+            "en": "These are the three grounds for making merit.” ",
+            "matched": true
+          }
+        },
+        "score": 2.095,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So wurde es gesagt 60\nDas Dreierbuch\n2. Das zweite Kapitel\nGrundlagen für das Schaffen von Verdienst",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 21,
+          "de": 20,
+          "en": 20
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/an/an3/an3.102_root-pli-ms.json",

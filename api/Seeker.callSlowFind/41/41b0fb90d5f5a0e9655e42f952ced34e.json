@@ -32,11 +32,14 @@
     "pattern": "gegen den strom",
     "method": "phrase",
     "resultPattern": "\\bgegen den strom",
-    "segsMatched": 6,
+    "segsMatched": 8,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an4/an4.5_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.5_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.5_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga11/iti109_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/iti/vagga11/iti109_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/iti/vagga11/iti109_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn6/sn6.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn6/sn6.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn6/sn6.1_translation-en-sujato.json",
@@ -46,6 +49,7 @@
     ],
     "suttaRefs": [
       "an4.5/de/sabbamitta",
+      "iti109/de/sabbamitta",
       "sn6.1/de/sabbamitta",
       "dn14/de/sabbamitta"
     ],
@@ -101,6 +105,45 @@
           "pli": 36,
           "de": 35,
           "en": 35
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga11/iti109_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/iti/vagga11/iti109_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/iti/vagga11/iti109_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti109",
+        "lang": "de",
+        "segMap": {
+          "iti109:2.4": {
+            "scid": "iti109:2.4",
+            "pli": "Atha kho so, bhikkhave, puriso tassa purisassa saddaṁ sutvā hatthehi ca pādehi ca paṭisotaṁ vāyameyya. ",
+            "de": "Dann würde dieser Mensch, wenn er diese Worte gehört hätte, mit Händen und Füßen <span class=\"ebt-matched\">gegen den Strom</span> paddeln. ",
+            "en": "Then, when they heard what was said, they’d paddle against the stream using their hands and feet. ",
+            "matched": true
+          },
+          "iti109:9.1": {
+            "scid": "iti109:9.1",
+            "pli": "‘Paṭisoto’ti kho, bhikkhave, nekkhammassetaṁ adhivacanaṁ. ",
+            "de": "‚<span class=\"ebt-matched\">Gegen den Strom</span>‘ ist ein Ausdruck für Entsagung. ",
+            "en": "‘Against the stream’ is a term for renunciation. ",
+            "matched": true
+          }
+        },
+        "score": 2.067,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So wurde es gesagt 109\nDas Viererbuch\n1. Das Kapitel über das heilige Opfer der Lehre\nEin Fluss",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 30,
+          "de": 29,
+          "en": 29
         }
       },
       {

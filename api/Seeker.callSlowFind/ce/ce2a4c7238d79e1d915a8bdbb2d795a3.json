@@ -32,7 +32,7 @@
     "pattern": "ohne wahrnehmung",
     "method": "phrase",
     "resultPattern": "\\bohne wahrnehmung",
-    "segsMatched": 30,
+    "segsMatched": 31,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn35/sn35.248_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn35/sn35.248_translation-de-sabbamitta.json",
@@ -58,6 +58,9 @@
       "root/pli/ms/sutta/mn/mn140_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn140_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn140_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga10/iti90_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/iti/vagga10/iti90_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/iti/vagga10/iti90_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
@@ -101,6 +104,7 @@
       "sn24.8/de/sabbamitta",
       "sn22.24/de/sabbamitta",
       "mn140/de/sabbamitta",
+      "iti90/de/sabbamitta",
       "dn34/de/sabbamitta",
       "dn33/de/sabbamitta",
       "dn28/de/sabbamitta",
@@ -509,6 +513,38 @@
           "pli": 36,
           "de": 35,
           "en": 35
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga10/iti90_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/iti/vagga10/iti90_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/iti/vagga10/iti90_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti90",
+        "lang": "de",
+        "segMap": {
+          "iti90:2.3": {
+            "scid": "iti90:2.3",
+            "pli": "Yāvatā, bhikkhave, sattā apadā vā dvipadā vā catuppadā vā bahuppadā vā rūpino vā arūpino vā saññino vā asaññino vā nevasaññināsaññino vā, tathāgato tesaṁ aggamakkhāyati arahaṁ sammāsambuddho. ",
+            "de": "Mönche und Nonnen, der Klargewordene, der Vollendete, der vollkommen erwachte Buddha gilt als das beste unter allen Lebewesen: den Wesen ohne Füße, den Zweibeinern, den Vierbeinern, den Vielfüßigen, denen mit Form und den formlosen, denen mit Wahrnehmung, <span class=\"ebt-matched\">ohne Wahrnehmung</span>, weder mit noch <span class=\"ebt-matched\">ohne Wahrnehmung</span>. ",
+            "en": "Mendicants, the Realized One, the perfected one, the fully awakened Buddha, is said to be the best of all sentient beings—be they footless, with two feet, four feet, or many feet; with form or formless; with perception or without perception or with neither perception nor non-perception. ",
+            "matched": true
+          }
+        },
+        "score": 1.027,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So wurde es gesagt 90\nDas Dreierbuch\n5. Das fünfte Kapitel\nZuversicht zu den besten Dingen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 37,
+          "de": 36,
+          "en": 36
         }
       },
       {

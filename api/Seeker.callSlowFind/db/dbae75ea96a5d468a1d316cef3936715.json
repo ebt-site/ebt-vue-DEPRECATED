@@ -32,7 +32,7 @@
     "pattern": "beruhigen.* aller vorgänge",
     "method": "phrase",
     "resultPattern": "\\bberuhigen.* aller vorgänge",
-    "segsMatched": 22,
+    "segsMatched": 24,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an9/an9.36_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an9/an9.36_translation-de-sabbamitta.json",
@@ -52,6 +52,12 @@
       "root/pli/ms/sutta/sn/sn22/sn22.90_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.90_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.90_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga9/iti85_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/iti/vagga9/iti85_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/iti/vagga9/iti85_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga8/iti72_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/iti/vagga8/iti72_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/iti/vagga8/iti72_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn14_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json",
@@ -90,6 +96,8 @@
       "sn6.1/de/sabbamitta",
       "sn48.50/de/sabbamitta",
       "sn22.90/de/sabbamitta",
+      "iti85/de/sabbamitta",
+      "iti72/de/sabbamitta",
       "dn14/de/sabbamitta",
       "an5.140/de/sabbamitta",
       "an4.114/de/sabbamitta",
@@ -434,6 +442,38 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga8/iti72_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/iti/vagga8/iti72_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/iti/vagga8/iti72_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti72",
+        "lang": "de",
+        "segMap": {
+          "iti72:3.4": {
+            "scid": "iti72:3.4",
+            "pli": "phusaṁ ātāpi sabbadā. ",
+            "de": "er rührt an das <span class=\"ebt-matched\">Beruhigen aller Vorgänge</span>. ",
+            "en": "the stilling of all activities. ",
+            "matched": true
+          }
+        },
+        "score": 1.048,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So wurde es gesagt 72\nDas Dreierbuch\n3. Das dritte Kapitel\nElemente des Entrinnens",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 21,
+          "de": 20,
+          "en": 20
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an11/an11.21_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/an/an11/an11.21_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/an/an11/an11.21_translation-en-sujato.json"
@@ -462,6 +502,38 @@
           "pli": 23,
           "de": 16,
           "en": 21
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga9/iti85_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/iti/vagga9/iti85_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/iti/vagga9/iti85_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti85",
+        "lang": "de",
+        "segMap": {
+          "iti85:3.4": {
+            "scid": "iti85:3.4",
+            "pli": "passaṁ ātāpi sabbadā. ",
+            "de": "sieht das <span class=\"ebt-matched\">Beruhigen aller Vorgänge</span>. ",
+            "en": "the stilling of all activities. ",
+            "matched": true
+          }
+        },
+        "score": 1.043,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So wurde es gesagt 85\nDas Dreierbuch\n4. Das vierte Kapitel\nDie unattraktive Natur beobachten",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 23,
+          "de": 22,
+          "en": 22
         }
       },
       {

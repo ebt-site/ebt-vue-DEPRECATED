@@ -32,7 +32,7 @@
     "pattern": "flut.* überquer",
     "method": "phrase",
     "resultPattern": "\\bflut.* überquer",
-    "segsMatched": 24,
+    "segsMatched": 25,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn1/sn1.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn1/sn1.1_translation-de-sabbamitta.json",
@@ -70,6 +70,9 @@
       "root/pli/ms/sutta/kn/snp/vagga2/snp2.5_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/snp/vagga2/snp2.5_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/snp/vagga2/snp2.5_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga11/iti107_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/iti/vagga11/iti107_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/iti/vagga11/iti107_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn21_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn21_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn21_translation-en-sujato.json",
@@ -90,6 +93,7 @@
       "ud7.1/de/sabbamitta",
       "thag21.1/de/sabbamitta",
       "snp2.5/de/sabbamitta",
+      "iti107/de/sabbamitta",
       "dn21/de/sabbamitta",
       "dn20/de/sabbamitta"
     ],
@@ -386,6 +390,38 @@
           "pli": 16,
           "de": 16,
           "en": 16
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga11/iti107_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/iti/vagga11/iti107_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/iti/vagga11/iti107_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti107",
+        "lang": "de",
+        "segMap": {
+          "iti107:2.3": {
+            "scid": "iti107:2.3",
+            "pli": "Evamidaṁ, bhikkhave, aññamaññaṁ nissāya brahmacariyaṁ vussati oghassa nittharaṇatthāya sammā dukkhassa antakiriyāyā”ti. ",
+            "de": "So wird dieses geistliche Leben in wechselseitiger Abhängigkeit geführt, um die <span class=\"ebt-matched\">Flut zu überquer</span>en und das Leiden völlig zu beenden.“ ",
+            "en": "That is how this spiritual path is lived in mutual dependence in order to cross over the flood and make a complete end of suffering.” ",
+            "matched": true
+          }
+        },
+        "score": 1.036,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So wurde es gesagt 107\nDas Viererbuch\n1. Das Kapitel über das heilige Opfer der Lehre\nEine große Hilfe",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 28,
+          "de": 27,
+          "en": 27
         }
       },
       {

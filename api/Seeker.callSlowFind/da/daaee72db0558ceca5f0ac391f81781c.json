@@ -32,7 +32,7 @@
     "pattern": "das ist friedvoll",
     "method": "phrase",
     "resultPattern": "\\bdas ist friedvoll",
-    "segsMatched": 17,
+    "segsMatched": 18,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an9/an9.36_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an9/an9.36_translation-de-sabbamitta.json",
@@ -43,6 +43,9 @@
       "root/pli/ms/sutta/an/an10/an10.60_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.60_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an10/an10.60_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga5/iti49_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/iti/vagga5/iti49_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/iti/vagga5/iti49_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.32_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.32_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.32_translation-en-sujato.json",
@@ -72,6 +75,7 @@
       "an9.36/de/sabbamitta",
       "an11.7/de/sabbamitta",
       "an10.60/de/sabbamitta",
+      "iti49/de/sabbamitta",
       "an3.32/de/sabbamitta",
       "an11.8/de/sabbamitta",
       "an11.21/de/sabbamitta",
@@ -442,6 +446,38 @@
           "pli": 23,
           "de": 16,
           "en": 21
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga5/iti49_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/iti/vagga5/iti49_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/iti/vagga5/iti49_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti49",
+        "lang": "de",
+        "segMap": {
+          "iti49:4.4": {
+            "scid": "iti49:4.4",
+            "pli": "etaṁ santaṁ etaṁ paṇītaṁ etaṁ yāthāvanti. ",
+            "de": "<span class=\"ebt-matched\">das ist friedvoll</span>, das ist erhaben, das ist die Wirklichkeit.‘ ",
+            "en": "that is peaceful, that is sublime, that is reality.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.023,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So wurde es gesagt 49\nDas Zweierbuch\n2. Das zweite Kapitel\nIrrglauben",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 43,
+          "de": 29,
+          "en": 29
         }
       },
       {

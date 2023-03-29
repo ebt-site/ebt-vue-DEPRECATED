@@ -32,8 +32,11 @@
     "pattern": "genießt.*arbeit",
     "method": "phrase",
     "resultPattern": "\\bgenießt.*arbeit",
-    "segsMatched": 22,
+    "segsMatched": 24,
     "bilaraPaths": [
+      "root/pli/ms/sutta/kn/iti/vagga8/iti79_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/iti/vagga8/iti79_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/iti/vagga8/iti79_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.79_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.79_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an8/an8.79_translation-en-sujato.json",
@@ -75,6 +78,7 @@
       "translation/en/sujato/sutta/an/an10/an10.86_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "iti79/de/sabbamitta",
       "an8.79/de/sabbamitta",
       "an7.28/de/sabbamitta",
       "an6.31/de/sabbamitta",
@@ -439,6 +443,45 @@
           "pli": 33,
           "de": 24,
           "en": 32
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga8/iti79_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/iti/vagga8/iti79_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/iti/vagga8/iti79_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti79",
+        "lang": "de",
+        "segMap": {
+          "iti79:2.3": {
+            "scid": "iti79:2.3",
+            "pli": "Idha, bhikkhave, sekho bhikkhu kammārāmo hoti, kammarato, kammārāmatamanuyutto; ",
+            "de": "Da <span class=\"ebt-matched\">genießt ein Mönch oder eine Nonne Arbeit</span>, ",
+            "en": "It’s when a mendicant relishes work, ",
+            "matched": true
+          },
+          "iti79:3.3": {
+            "scid": "iti79:3.3",
+            "pli": "Idha, bhikkhave, sekho bhikkhu na kammārāmo hoti, na kammarato, na kammārāmatamanuyutto; ",
+            "de": "Da <span class=\"ebt-matched\">genießt ein Mönch oder eine Nonne Arbeit</span>, ",
+            "en": "It’s when a mendicant doesn’t relish work, ",
+            "matched": true
+          }
+        },
+        "score": 2.057,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So wurde es gesagt 79\nDas Dreierbuch\n3. Das dritte Kapitel\nNiedergang",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 35,
+          "de": 28,
+          "en": 28
         }
       },
       {

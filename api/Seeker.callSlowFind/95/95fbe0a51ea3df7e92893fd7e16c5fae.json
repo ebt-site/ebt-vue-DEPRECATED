@@ -32,11 +32,14 @@
     "pattern": "dunkelheit.* und licht",
     "method": "phrase",
     "resultPattern": "\\bdunkelheit.* und licht",
-    "segsMatched": 15,
+    "segsMatched": 18,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn10/sn10.8_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn10/sn10.8_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn10/sn10.8_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga10/iti99_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/iti/vagga10/iti99_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/iti/vagga10/iti99_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.11_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.11_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an8/an8.11_translation-en-sujato.json",
@@ -55,6 +58,7 @@
     ],
     "suttaRefs": [
       "sn10.8/de/sabbamitta",
+      "iti99/de/sabbamitta",
       "an8.11/de/sabbamitta",
       "an3.59/de/sabbamitta",
       "an3.58/de/sabbamitta",
@@ -62,6 +66,52 @@
       "dn21/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga10/iti99_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/iti/vagga10/iti99_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/iti/vagga10/iti99_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti99",
+        "lang": "de",
+        "segMap": {
+          "iti99:3.3": {
+            "scid": "iti99:3.3",
+            "pli": "Ayamassa paṭhamā vijjā adhigatā hoti, avijjā vihatā, vijjā uppannā, tamo vihato, āloko uppanno, yathā taṁ appamattassa ātāpino pahitattassa viharato. ",
+            "de": "Das ist das erste Wissen, das er erlangt. Unwissenheit ist zerstört und Wissen ist aufgegangen; <span class=\"ebt-matched\">Dunkelheit ist zerstört und Licht</span> ist aufgegangen, wie es bei jemandem geschieht, der beflissen, eifrig und entschlossen meditiert. ",
+            "en": "This was the first knowledge they achieved. Ignorance was destroyed and knowledge arose; darkness was destroyed and light arose, as happens for a meditator who is diligent, keen, and resolute. ",
+            "matched": true
+          },
+          "iti99:4.2": {
+            "scid": "iti99:4.2",
+            "pli": "Ayamassa dutiyā vijjā adhigatā hoti, avijjā vihatā, vijjā uppannā, tamo vihato, āloko uppanno, yathā taṁ appamattassa ātāpino pahitattassa viharato. ",
+            "de": "Das ist das zweite Wissen, das er erlangt. Unwissenheit ist zerstört und Wissen ist aufgegangen; <span class=\"ebt-matched\">Dunkelheit ist zerstört und Licht</span> ist aufgegangen, wie es bei jemandem geschieht, der beflissen, eifrig und entschlossen meditiert. ",
+            "en": "This was the second knowledge they achieved. Ignorance was destroyed and knowledge arose; darkness was destroyed and light arose, as happens for a meditator who is diligent, keen, and resolute. ",
+            "matched": true
+          },
+          "iti99:5.2": {
+            "scid": "iti99:5.2",
+            "pli": "Ayamassa tatiyā vijjā adhigatā hoti, avijjā vihatā, vijjā uppannā, tamo vihato, āloko uppanno, yathā taṁ appamattassa ātāpino pahitattassa viharato. ",
+            "de": "Das ist das dritte Wissen, das er erlangt. Unwissenheit ist zerstört und Wissen ist aufgegangen; <span class=\"ebt-matched\">Dunkelheit ist zerstört und Licht</span> ist aufgegangen, wie es bei jemandem geschieht, der beflissen, eifrig und entschlossen meditiert. ",
+            "en": "This was the third knowledge which they achieved. Ignorance was destroyed and knowledge arose; darkness was destroyed and light arose, as happens for a meditator who is diligent, keen, and resolute. ",
+            "matched": true
+          }
+        },
+        "score": 3.091,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So wurde es gesagt 99\nDas Dreierbuch\n5. Das fünfte Kapitel\nDas dreifache Wissen",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 33,
+          "de": 25,
+          "en": 25
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/an/an3/an3.59_root-pli-ms.json",

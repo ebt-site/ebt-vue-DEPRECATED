@@ -32,7 +32,7 @@
     "pattern": "durchbruch",
     "method": "phrase",
     "resultPattern": "\\bdurchbruch",
-    "segsMatched": 19,
+    "segsMatched": 21,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn46/sn46.28_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn46/sn46.28_translation-de-sabbamitta.json",
@@ -53,6 +53,12 @@
       "translation/de/sabbamitta/sutta/kn/thig/thig5.4_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thig/thig5.4_translation-en-sujato.json",
       "translation/en/soma/sutta/kn/thig/thig5.4_translation-en-soma.json",
+      "root/pli/ms/sutta/kn/iti/vagga5/iti41_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/iti/vagga5/iti41_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/iti/vagga5/iti41_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga10/iti93_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/iti/vagga10/iti93_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/iti/vagga10/iti93_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
@@ -76,6 +82,8 @@
       "an4.179/de/sabbamitta",
       "ud5.5/de/sabbamitta",
       "thig5.4/de/sabbamitta",
+      "iti41/de/sabbamitta",
+      "iti93/de/sabbamitta",
       "dn34/de/sabbamitta",
       "dn33/de/sabbamitta",
       "an9.36/de/sabbamitta",
@@ -298,6 +306,70 @@
           "pli": 24,
           "de": 23,
           "en": 23
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga5/iti41_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/iti/vagga5/iti41_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/iti/vagga5/iti41_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti41",
+        "lang": "de",
+        "segMap": {
+          "iti41:4.2": {
+            "scid": "iti41:4.2",
+            "pli": "yāyaṁ nibbedhagāminī; ",
+            "de": "denn es führt zum <span class=\"ebt-matched\">Durchbruch</span>, ",
+            "en": "as it leads to penetration, ",
+            "matched": true
+          }
+        },
+        "score": 1.037,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So wurde es gesagt 41\nDas Zweierbuch\n2. Das zweite Kapitel\nDer Weisheit beraubt",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 27,
+          "de": 26,
+          "en": 26
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga10/iti93_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/iti/vagga10/iti93_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/iti/vagga10/iti93_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti93",
+        "lang": "de",
+        "segMap": {
+          "iti93:7.4": {
+            "scid": "iti93:7.4",
+            "pli": "yāyaṁ nibbedhagāminī. ",
+            "de": "die zum <span class=\"ebt-matched\">Durchbruch</span> führt. ",
+            "en": "that leads to penetration. ",
+            "matched": true
+          }
+        },
+        "score": 1.024,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So wurde es gesagt 93\nDas Dreierbuch\n5. Das fünfte Kapitel\nFeuer",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 41,
+          "de": 40,
+          "en": 40
         }
       },
       {

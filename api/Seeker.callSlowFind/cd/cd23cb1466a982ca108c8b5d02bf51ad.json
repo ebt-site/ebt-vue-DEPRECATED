@@ -32,11 +32,14 @@
     "pattern": "eine große hilfe",
     "method": "phrase",
     "resultPattern": "\\beine große hilfe",
-    "segsMatched": 29,
+    "segsMatched": 34,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an3/an3.24_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.24_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.24_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga11/iti107_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/iti/vagga11/iti107_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/iti/vagga11/iti107_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.234_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.234_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.234_translation-en-sujato.json",
@@ -49,6 +52,9 @@
       "root/pli/ms/sutta/sn/sn22/sn22.83_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.83_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.83_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga11/iti104_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/iti/vagga11/iti104_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/iti/vagga11/iti104_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/iti/vagga2/iti17_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/iti/vagga2/iti17_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/iti/vagga2/iti17_translation-en-sujato.json",
@@ -91,10 +97,12 @@
     ],
     "suttaRefs": [
       "an3.24/de/sabbamitta",
+      "iti107/de/sabbamitta",
       "an5.234/de/sabbamitta",
       "an4.249/de/sabbamitta",
       "sn46.3/de/sabbamitta",
       "sn22.83/de/sabbamitta",
+      "iti104/de/sabbamitta",
       "iti17/de/sabbamitta",
       "iti16/de/sabbamitta",
       "iti106/de/sabbamitta",
@@ -199,7 +207,7 @@
           "an4.249:1.1": {
             "scid": "an4.249:1.1",
             "pli": "“Cattārome, bhikkhave, dhammā manussabhūtassa bahukārā honti. ",
-            "de": "„Mönche und Nonnen, diese vier Dinge sind <span class=\"ebt-matched\">eine große Hilfe</span> für einen Menschen. ",
+            "de": "„Mönche und Nonnen, vier Dinge sind <span class=\"ebt-matched\">eine große Hilfe</span> für einen Menschen. ",
             "en": "“Mendicants, these four things are very helpful to a human being. ",
             "matched": true
           },
@@ -271,6 +279,91 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga11/iti107_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/iti/vagga11/iti107_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/iti/vagga11/iti107_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti107",
+        "lang": "de",
+        "segMap": {
+          "iti107:0.4": {
+            "scid": "iti107:0.4",
+            "pli": "Bahukārasutta ",
+            "de": "<span class=\"ebt-matched\">Eine große Hilfe</span> ",
+            "en": "Very Helpful ",
+            "matched": true
+          },
+          "iti107:2.1": {
+            "scid": "iti107:2.1",
+            "pli": "“Bahukārā, bhikkhave, brāhmaṇagahapatikā tumhākaṁ ye vo paccupaṭṭhitā cīvarapiṇḍapātasenāsanagilānapaccayabhesajjaparikkhārehi. ",
+            "de": "„Mönche und Nonnen, Brahmanen und Hausbesitzer sind euch <span class=\"ebt-matched\">eine große Hilfe</span>. Sie versorgen euch mit Roben, Almosen, Unterkunft sowie Arznei und Krankenversorgung. ",
+            "en": "“Mendicants, brahmins and householders are very helpful to you, as they provide you with robes, almsfood, lodgings, and medicines and supplies for the sick. ",
+            "matched": true
+          },
+          "iti107:2.2": {
+            "scid": "iti107:2.2",
+            "pli": "Tumhepi, bhikkhave, bahukārā brāhmaṇagahapatikānaṁ yaṁ nesaṁ dhammaṁ desetha ādikalyāṇaṁ majjhekalyāṇaṁ pariyosānakalyāṇaṁ sātthaṁ sabyañjanaṁ, kevalaparipuṇṇaṁ parisuddhaṁ brahmacariyaṁ pakāsetha. ",
+            "de": "Auch ihr seid Brahmanen und Hausbesitzern <span class=\"ebt-matched\">eine große Hilfe</span>. Ihr lehrt sie den Dhamma, der am Anfang gut, in der Mitte gut und am Ende gut ist, bedeutsam und gut ausgedrückt. Und ihr legt eine geistliche Übung dar, die in sich geschlossen und rein ist. ",
+            "en": "And you are very helpful to brahmins and householders, as you teach them the Dhamma that’s good in the beginning, good in the middle, and good in the end, meaningful and well-phrased. And you reveal a spiritual practice that’s entirely full and pure. ",
+            "matched": true
+          }
+        },
+        "score": 3.107,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So wurde es gesagt 107\nDas Viererbuch\n1. Das Kapitel über das heilige Opfer der Lehre\nEine große Hilfe",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 28,
+          "de": 27,
+          "en": 27
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga11/iti104_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/iti/vagga11/iti104_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/iti/vagga11/iti104_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti104",
+        "lang": "de",
+        "segMap": {
+          "iti104:2.1": {
+            "scid": "iti104:2.1",
+            "pli": "“Ye te, bhikkhave, bhikkhū sīlasampannā samādhisampannā paññāsampannā vimuttisampannā vimuttiñāṇadassanasampannā ovādakā viññāpakā sandassakā samādapakā samuttejakā sampahaṁsakā alaṁsamakkhātāro saddhammassa dassanampahaṁ, bhikkhave, tesaṁ bhikkhūnaṁ bahūpakāraṁ vadāmi; ",
+            "de": "„Mönche und Nonnen, da hat ein Mönch Sittlichkeit, Versenkung, Weisheit, Freiheit sowie Erkennen und Sehen der Freiheit vervollkommnet. Er unterweist und leitet an. Er bildet aus, ermuntert, begeistert und regt an und kann die wahre Lehre richtig erklären. Der bloße Anblick eines solchen Mönchs ist <span class=\"ebt-matched\">eine große Hilfe</span>, sage ich. ",
+            "en": "“Mendicants, take a mendicant who is accomplished in ethics, immersion, wisdom, freedom, and the knowledge and vision of freedom. They advise and instruct. They educate, encourage, fire up, and inspire, and can rightly explain the true teaching. Even the sight of those mendicants is very helpful, I say. ",
+            "matched": true
+          },
+          "iti104:2.6": {
+            "scid": "iti104:2.6",
+            "pli": "anupabbajjampahaṁ, bhikkhave, tesaṁ bhikkhūnaṁ bahūpakāraṁ vadāmi. ",
+            "de": "oder fortzuziehen und ihm zu folgen ist <span class=\"ebt-matched\">eine große Hilfe</span>, sage ich. ",
+            "en": "or go forth after them is very helpful, I say. ",
+            "matched": true
+          }
+        },
+        "score": 2.067,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So wurde es gesagt 104\nDas Viererbuch\n1. Das Kapitel über das heilige Opfer der Lehre\nDas sittliche Verhalten vervollkommnet",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 30,
+          "de": 29,
+          "en": 28
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn22/sn22.83_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/sn/sn22/sn22.83_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/sn/sn22/sn22.83_translation-en-sujato.json"
@@ -323,7 +416,7 @@
           "sn46.3:1.1": {
             "scid": "sn46.3:1.1",
             "pli": "“Ye te, bhikkhave, bhikkhū sīlasampannā samādhisampannā ñāṇasampannā vimuttisampannā vimuttiñāṇadassanasampannā, dassanampāhaṁ, bhikkhave, tesaṁ bhikkhūnaṁ bahukāraṁ vadāmi; ",
-            "de": "„Mönche und Nonnen, wenn ein Mönch in Sittlichkeit, Versenkung, Erkenntnis, Freiheit sowie Erkennen und Sehen der Freiheit vervollkommnet ist, ist der bloße Anblick dieses Mönchs <span class=\"ebt-matched\">eine große Hilfe</span>, sage ich. ",
+            "de": "„Mönche und Nonnen, da hat ein Mönch Sittlichkeit, Versenkung, Erkenntnis, Freiheit sowie Erkennen und Sehen der Freiheit vervollkommnet. Der bloße Anblick eines solchen Mönchs ist <span class=\"ebt-matched\">eine große Hilfe</span>, sage ich. ",
             "en": "“Mendicants, when a mendicant is accomplished in ethics, immersion, knowledge, freedom, or the knowledge and vision of freedom, even the sight of them is very helpful, I say. ",
             "matched": true
           },
@@ -595,7 +688,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "So wurde es gesagt 106\nDas Viererbuch\nDas Kapitel über das heilige Opfer der Lehre\nMit Brahmā",
+        "title": "So wurde es gesagt 106\nDas Viererbuch\n1. Das Kapitel über das heilige Opfer der Lehre\nMit Brahmā",
         "segsMatched": 1,
         "langSegs": {
           "pli": 33,

@@ -32,7 +32,7 @@
     "pattern": "alle[sm] leiden",
     "method": "phrase",
     "resultPattern": "\\balle[sm] leiden",
-    "segsMatched": 39,
+    "segsMatched": 42,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn42/sn42.11_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn42/sn42.11_translation-de-sabbamitta.json",
@@ -53,6 +53,9 @@
       "translation/de/sabbamitta/sutta/kn/thig/thig13.4_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thig/thig13.4_translation-en-sujato.json",
       "translation/en/soma/sutta/kn/thig/thig13.4_translation-en-soma.json",
+      "root/pli/ms/sutta/kn/iti/vagga11/iti103_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/iti/vagga11/iti103_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/iti/vagga11/iti103_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn14_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json",
@@ -96,6 +99,9 @@
       "root/pli/ms/sutta/kn/snp/vagga1/snp1.4_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/snp/vagga1/snp1.4_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/snp/vagga1/snp1.4_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga7/iti61_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/iti/vagga7/iti61_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/iti/vagga7/iti61_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/iti/vagga1/iti8_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/iti/vagga1/iti8_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/iti/vagga1/iti8_translation-en-sujato.json",
@@ -134,6 +140,7 @@
       "sn1.59/de/sabbamitta",
       "sn1.30/de/sabbamitta",
       "thig13.4/de/sabbamitta",
+      "iti103/de/sabbamitta",
       "dn14/de/sabbamitta",
       "sn7.11/de/sabbamitta",
       "sn5.6/de/sabbamitta",
@@ -147,6 +154,7 @@
       "thig13.3/de/sabbamitta",
       "thig10.1/de/sabbamitta",
       "snp1.4/de/sabbamitta",
+      "iti61/de/sabbamitta",
       "iti8/de/sabbamitta",
       "iti7/de/sabbamitta",
       "dn32/de/sabbamitta",
@@ -377,6 +385,45 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga11/iti103_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/iti/vagga11/iti103_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/iti/vagga11/iti103_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti103",
+        "lang": "de",
+        "segMap": {
+          "iti103:4.3": {
+            "scid": "iti103:4.3",
+            "pli": "Yattha ca sabbaso dukkhaṁ, ",
+            "de": "und auch nicht, wo <span class=\"ebt-matched\">alles Leiden</span> ",
+            "en": "and where all suffering ",
+            "matched": true
+          },
+          "iti103:6.3": {
+            "scid": "iti103:6.3",
+            "pli": "Yattha ca sabbaso dukkhaṁ, ",
+            "de": "und wo <span class=\"ebt-matched\">alles Leiden</span> ",
+            "en": "and where all suffering ",
+            "matched": true
+          }
+        },
+        "score": 2.061,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So wurde es gesagt 103\nDas Viererbuch\n1. Das Kapitel über das heilige Opfer der Lehre\nAsketen und Brahmanen",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 33,
+          "de": 32,
+          "en": 29
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/kn/thig/thig13.4_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/kn/thig/thig13.4_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/kn/thig/thig13.4_translation-en-sujato.json",
@@ -580,6 +627,38 @@
           "pli": 20,
           "de": 19,
           "en": 19
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga7/iti61_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/iti/vagga7/iti61_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/iti/vagga7/iti61_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti61",
+        "lang": "de",
+        "segMap": {
+          "iti61:4.6": {
+            "scid": "iti61:4.6",
+            "pli": "sabbadukkhā pamuccatī”ti. ",
+            "de": "von <span class=\"ebt-matched\">allem Leiden</span> erlöst.“ ",
+            "en": "is released from all suffering.” ",
+            "matched": true
+          }
+        },
+        "score": 1.043,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So wurde es gesagt 61\nDas Dreierbuch\n2. Das zweite Kapitel\nDas Auge",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 23,
+          "de": 22,
+          "en": 22
         }
       },
       {

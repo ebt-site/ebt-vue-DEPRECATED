@@ -32,7 +32,7 @@
     "pattern": "nicht anders",
     "method": "phrase",
     "resultPattern": "\\bnicht anders",
-    "segsMatched": 29,
+    "segsMatched": 30,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
@@ -55,6 +55,9 @@
       "root/pli/ms/sutta/sn/sn12/sn12.20_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.20_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn12/sn12.20_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga11/iti112_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/iti/vagga11/iti112_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/iti/vagga11/iti112_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn29_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn29_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn29_translation-en-sujato.json",
@@ -76,6 +79,7 @@
       "sn56.27/de/sabbamitta",
       "sn12.51/de/sabbamitta",
       "sn12.20/de/sabbamitta",
+      "iti112/de/sabbamitta",
       "dn29/de/sabbamitta",
       "an5.100/de/sabbamitta",
       "an4.23/de/sabbamitta",
@@ -415,7 +419,7 @@
           "an4.23:3.1": {
             "scid": "an4.23:3.1",
             "pli": "Yañca, bhikkhave, rattiṁ tathāgato anuttaraṁ sammāsambodhiṁ abhisambujjhati yañca rattiṁ anupādisesāya nibbānadhātuyā parinibbāyati, yaṁ etasmiṁ antare bhāsati lapati niddisati sabbaṁ taṁ tatheva hoti, no aññathā. ",
-            "de": "Von der Nacht an, in der der Klargewordene das unübertreffliche vollkommene Erwachen versteht bis zu der Nacht, in der er durch das Element des restlosen Erlöschens vollkommen erlischt – während dieser Zeit ist alles, was er sagt, redet und ausdrückt, tatsächlich so und <span class=\"ebt-matched\">nicht anders</span>. ",
+            "de": "Von der Nacht an, in der der Klargewordene das unübertreffliche vollkommene Erwachen versteht bis zu der Nacht, in der er durch das Element des Erlöschens ohne Rest vollkommen erlischt – während dieser Zeit ist alles, was er sagt, redet und ausdrückt, tatsächlich so und <span class=\"ebt-matched\">nicht anders</span>. ",
             "en": "From the night when the Realized One understands the supreme perfect awakening until the night he becomes fully extinguished—in the element of extinguishment with nothing left over—everything he speaks, says, and expresses is real, not otherwise. ",
             "matched": true
           }
@@ -462,6 +466,38 @@
           "pli": 64,
           "de": 62,
           "en": 62
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga11/iti112_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/iti/vagga11/iti112_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/iti/vagga11/iti112_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti112",
+        "lang": "de",
+        "segMap": {
+          "iti112:4.1": {
+            "scid": "iti112:4.1",
+            "pli": "Yañca, bhikkhave, rattiṁ tathāgato anuttaraṁ sammāsambodhiṁ abhisambujjhati, yañca rattiṁ anupādisesāya nibbānadhātuyā parinibbāyati, yaṁ etasmiṁ antare bhāsati lapati niddisati, sabbaṁ taṁ tatheva hoti no aññathā, ",
+            "de": "Von der Nacht an, in der der Klargewordene das unübertreffliche vollkommene Erwachen versteht bis zu der Nacht, in der er durch das Element des restlosen Erlöschens vollkommen erlischt – während dieser Zeit ist alles, was er sagt, redet und ausdrückt, tatsächlich so und <span class=\"ebt-matched\">nicht anders</span>. ",
+            "en": "From the night when the Realized One understands the supreme perfect awakening until the night he becomes fully extinguished—in the element of extinguishment with nothing left over—everything he speaks, says, and expresses is real, not otherwise. ",
+            "matched": true
+          }
+        },
+        "score": 1.014,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So wurde es gesagt 112\nDas Viererbuch\n1. Das Kapitel über das heilige Opfer der Lehre\nDie Welt",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 70,
+          "de": 54,
+          "en": 54
         }
       },
       {
@@ -543,7 +579,7 @@
           "dn29:29.3": {
             "scid": "dn29:29.3",
             "pli": "Yañca, cunda, rattiṁ tathāgato anuttaraṁ sammāsambodhiṁ abhisambujjhati, yañca rattiṁ anupādisesāya nibbānadhātuyā parinibbāyati, yaṁ etasmiṁ antare bhāsati lapati niddisati. Sabbaṁ taṁ tatheva hoti no aññathā, ",
-            "de": "Von der Nacht an, in der der Klargewordene das unübertreffliche vollkommene Erwachen versteht bis zu der Nacht, in der er durch das Element des restlosen Erlöschens vollkommen erlischt – während dieser Zeit ist alles, was er sagt, redet und ausdrückt, tatsächlich so und <span class=\"ebt-matched\">nicht anders</span>. ",
+            "de": "Von der Nacht an, in der der Klargewordene das unübertreffliche vollkommene Erwachen versteht bis zu der Nacht, in der er durch das Element des Erlöschens ohne Rest vollkommen erlischt – während dieser Zeit ist alles, was er sagt, redet und ausdrückt, tatsächlich so und <span class=\"ebt-matched\">nicht anders</span>. ",
             "en": "From the night when the Realized One understands the supreme perfect awakening until the night he becomes fully extinguished—in the element of extinguishment with nothing left over—everything he speaks, says, and expresses is real, not otherwise. ",
             "matched": true
           }
