@@ -32,7 +32,7 @@
     "pattern": "ohne wahrnehmung",
     "method": "phrase",
     "resultPattern": "\\bohne wahrnehmung",
-    "segsMatched": 31,
+    "segsMatched": 32,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn35/sn35.248_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn35/sn35.248_translation-de-sabbamitta.json",
@@ -73,6 +73,9 @@
       "root/pli/ms/sutta/dn/dn24_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn24_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn24_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn1_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn15_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn15_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn15_translation-en-sujato.json",
@@ -109,6 +112,7 @@
       "dn33/de/sabbamitta",
       "dn28/de/sabbamitta",
       "dn24/de/sabbamitta",
+      "dn1/de/sabbamitta",
       "dn15/de/sabbamitta",
       "an9.37/de/sabbamitta",
       "an9.24/de/sabbamitta",
@@ -737,6 +741,38 @@
           "pli": 239,
           "de": 229,
           "en": 238
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn1",
+        "lang": "de",
+        "segMap": {
+          "dn1:3.1.0": {
+            "scid": "dn1:3.1.0",
+            "pli": "3.2.2. Asaññīvāda ",
+            "de": "3.2.2. Leben <span class=\"ebt-matched\">ohne Wahrnehmung</span> nach dem Tod ",
+            "en": "3.2.2. Non-Percipient Life After Death ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 1\nDas Hauptnetz",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 662,
+          "de": 163,
+          "en": 661
         }
       },
       {

@@ -32,7 +32,7 @@
     "pattern": "aber zum erwachen entschlossen",
     "method": "phrase",
     "resultPattern": "\\baber zum erwachen entschlossen",
-    "segsMatched": 19,
+    "segsMatched": 20,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an5/an5.196_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.196_translation-de-sabbamitta.json",
@@ -73,6 +73,9 @@
       "root/pli/ms/sutta/sn/sn12/sn12.10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.10_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn12/sn12.10_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn19_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn19_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn19_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an9/an9.41_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an9/an9.41_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an9/an9.41_translation-en-sujato.json",
@@ -100,6 +103,7 @@
       "sn12.65/de/sabbamitta",
       "sn12.4/de/sabbamitta",
       "sn12.10/de/sabbamitta",
+      "mn19/de/sabbamitta",
       "an9.41/de/sabbamitta",
       "an8.64/de/sabbamitta",
       "an5.68/de/sabbamitta",
@@ -630,6 +634,38 @@
           "pli": 106,
           "de": 106,
           "en": 106
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn19_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn19_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn19_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn19",
+        "lang": "de",
+        "segMap": {
+          "mn19:2.1": {
+            "scid": "mn19:2.1",
+            "pli": "“Pubbeva me, bhikkhave, sambodhā anabhisambuddhassa bodhisattasseva sato etadahosi: ",
+            "de": "„Mönche und Nonnen, vor meinem Erwachen, als ich noch nicht erwacht war, <span class=\"ebt-matched\">aber zum Erwachen entschlossen</span>, dachte ich: ",
+            "en": "“Mendicants, before my awakening—when I was still unawakened but intent on awakening—I thought: ",
+            "matched": true
+          }
+        },
+        "score": 1.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 19\nZwei Arten von Gedanken",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 123,
+          "de": 122,
+          "en": 122
         }
       },
       {

@@ -32,7 +32,7 @@
     "pattern": "das stehlen auf",
     "method": "phrase",
     "resultPattern": "\\bdas stehlen auf",
-    "segsMatched": 5,
+    "segsMatched": 7,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn55/sn55.7_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn55/sn55.7_translation-de-sabbamitta.json",
@@ -40,9 +40,15 @@
       "root/pli/ms/sutta/sn/sn42/sn42.8_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn42/sn42.8_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn42/sn42.8_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn1_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.178_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.178_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.178_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.198_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.198_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.198_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.168_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.168_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an10/an10.168_translation-en-sujato.json",
@@ -53,7 +59,9 @@
     "suttaRefs": [
       "sn55.7/de/sabbamitta",
       "sn42.8/de/sabbamitta",
+      "dn1/de/sabbamitta",
       "an5.178/de/sabbamitta",
+      "an4.198/de/sabbamitta",
       "an10.168/de/sabbamitta",
       "an10.167/de/sabbamitta"
     ],
@@ -216,6 +224,70 @@
           "pli": 105,
           "de": 77,
           "en": 104
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.198_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.198_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.198_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.198",
+        "lang": "de",
+        "segMap": {
+          "an4.198:8.2": {
+            "scid": "an4.198:8.2",
+            "pli": "Adinnādānaṁ pahāya adinnādānā paṭivirato hoti dinnādāyī dinnapāṭikaṅkhī, athenena sucibhūtena attanā viharati. ",
+            "de": "Er gibt <span class=\"ebt-matched\">das Stehlen auf</span>. Er nimmt nur, was gegeben wird, erwartet nur, was gegeben wird. Er ist nicht diebisch und ist innerlich rein. ",
+            "en": "They give up stealing. They take only what’s given, and expect only what’s given. They keep themselves clean by not thieving. ",
+            "matched": true
+          }
+        },
+        "score": 1.009,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 4.198\n20. Das große Kapitel\nSelbstquälerei",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 111,
+          "de": 110,
+          "en": 110
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn1",
+        "lang": "de",
+        "segMap": {
+          "dn1:1.8.3": {
+            "scid": "dn1:1.8.3",
+            "pli": "‘Adinnādānaṁ pahāya adinnādānā paṭivirato samaṇo gotamo dinnādāyī dinnapāṭikaṅkhī, athenena sucibhūtena attanā viharatī’ti—",
+            "de": "‚Der Asket Gotama hat <span class=\"ebt-matched\">das Stehlen auf</span>gegeben. Er nimmt nur, was gegeben wird, erwartet nur, was gegeben wird. Er ist nicht diebisch und ist innerlich rein.‘ ",
+            "en": "‘The ascetic Gotama has given up stealing. He takes only what’s given, and expects only what’s given. He keeps himself clean by not thieving.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 1\nDas Hauptnetz",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 662,
+          "de": 163,
+          "en": 661
         }
       }
     ]

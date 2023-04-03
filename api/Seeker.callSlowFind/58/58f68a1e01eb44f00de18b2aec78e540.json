@@ -32,7 +32,7 @@
     "pattern": "leere.* hütten",
     "method": "phrase",
     "resultPattern": "\\bleere.* hütten",
-    "segsMatched": 18,
+    "segsMatched": 19,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an10/an10.71_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.71_translation-de-sabbamitta.json",
@@ -58,6 +58,9 @@
       "root/pli/ms/sutta/sn/sn35/sn35.146_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn35/sn35.146_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.146_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn19_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn19_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn19_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/iti/vagga5/iti45_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/iti/vagga5/iti45_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/iti/vagga5/iti45_translation-en-sujato.json",
@@ -86,6 +89,7 @@
       "sn43.1/de/sabbamitta",
       "sn43.11/de/sabbamitta",
       "sn35.146/de/sabbamitta",
+      "mn19/de/sabbamitta",
       "iti45/de/sabbamitta",
       "an9.19/de/sabbamitta",
       "an7.74/de/sabbamitta",
@@ -568,6 +572,38 @@
           "pli": 76,
           "de": 63,
           "en": 74
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn19_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn19_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn19_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn19",
+        "lang": "de",
+        "segMap": {
+          "mn19:27.2": {
+            "scid": "mn19:27.2",
+            "pli": "Etāni, bhikkhave, rukkhamūlāni, etāni suññāgārāni; jhāyatha, bhikkhave, mā pamādattha; mā pacchā vippaṭisārino ahuvattha. Ayaṁ vo amhākaṁ anusāsanī”ti. ",
+            "de": "Hier sind Plätze am Fuß von Bäumen, und hier sind <span class=\"ebt-matched\">leere Hütten</span>. Übt die Vertiefungen, Mönche und Nonnen! Seid nicht nachlässig! Nicht, dass ihr es später bereut! Das ist meine Anweisung für euch.“ ",
+            "en": "Here are these roots of trees, and here are these empty huts. Practice absorption, mendicants! Don’t be negligent! Don’t regret it later! This is my instruction to you.” ",
+            "matched": true
+          }
+        },
+        "score": 1.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 19\nZwei Arten von Gedanken",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 123,
+          "de": 122,
+          "en": 122
         }
       }
     ]

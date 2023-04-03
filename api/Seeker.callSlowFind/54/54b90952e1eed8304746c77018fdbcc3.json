@@ -32,7 +32,7 @@
     "pattern": "ausdruck für sinnenfreuden",
     "method": "phrase",
     "resultPattern": "\\bausdruck für sinnenfreuden",
-    "segsMatched": 7,
+    "segsMatched": 8,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an8/an8.56_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.56_translation-de-sabbamitta.json",
@@ -42,12 +42,16 @@
       "translation/en/sujato/sutta/an/an6/an6.23_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn22/sn22.84_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.84_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn22/sn22.84_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn22/sn22.84_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn19_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn19_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn19_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an8.56/de/sabbamitta",
       "an6.23/de/sabbamitta",
-      "sn22.84/de/sabbamitta"
+      "sn22.84/de/sabbamitta",
+      "mn19/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -172,6 +176,38 @@
           "pli": 93,
           "de": 82,
           "en": 82
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn19_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn19_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn19_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn19",
+        "lang": "de",
+        "segMap": {
+          "mn19:26.3": {
+            "scid": "mn19:26.3",
+            "pli": "mahantaṁ ninnaṁ pallalanti kho, bhikkhave, kāmānametaṁ adhivacanaṁ. ",
+            "de": "‚Eine ausgedehnte Sumpfniederung‘ ist ein <span class=\"ebt-matched\">Ausdruck für Sinnenfreuden</span>. ",
+            "en": "‘An expanse of low-lying marshes’ is a term for sensual pleasures. ",
+            "matched": true
+          }
+        },
+        "score": 1.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 19\nZwei Arten von Gedanken",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 123,
+          "de": 122,
+          "en": 122
         }
       }
     ]

@@ -32,7 +32,7 @@
     "pattern": "kuhhirt",
     "method": "phrase",
     "resultPattern": "\\bkuhhirt",
-    "segsMatched": 55,
+    "segsMatched": 57,
     "bilaraPaths": [
       "root/pli/ms/sutta/kn/ud/vagga4/ud4.3_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga4/ud4.3_translation-de-sabbamitta.json",
@@ -58,6 +58,9 @@
       "root/pli/ms/sutta/sn/sn35/sn35.241_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn35/sn35.241_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.241_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn19_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn19_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn19_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/dhp/dhp1-20_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/dhp/dhp1-20_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/dhp/dhp1-20_translation-en-sujato.json",
@@ -102,6 +105,7 @@
       "an11.22-29/de/sabbamitta",
       "an11.502-981/de/sabbamitta",
       "sn35.241/de/sabbamitta",
+      "mn19/de/sabbamitta",
       "dhp1-20/de/sabbamitta",
       "an11.70-117/de/sabbamitta",
       "an11.454-501/de/sabbamitta",
@@ -621,6 +625,45 @@
           "pli": 47,
           "de": 45,
           "en": 46
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn19_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn19_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn19_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn19",
+        "lang": "de",
+        "segMap": {
+          "mn19:7.1": {
+            "scid": "mn19:7.1",
+            "pli": "Seyyathāpi, bhikkhave, vassānaṁ pacchime māse saradasamaye kiṭṭhasambādhe gopālako gāvo rakkheyya. ",
+            "de": "Wie im letzten Monat der Regenzeit, wenn die Feldfrucht dicht wächst und ein <span class=\"ebt-matched\">Kuhhirt</span>e auf die Rinder aufpassen muss. ",
+            "en": "Suppose it’s the last month of the rainy season, when the crops grow closely together, and a cowherd must take care of the cattle. ",
+            "matched": true
+          },
+          "mn19:12.1": {
+            "scid": "mn19:12.1",
+            "pli": "Seyyathāpi, bhikkhave, gimhānaṁ pacchime māse sabbasassesu gāmantasambhatesu gopālako gāvo rakkheyya, tassa rukkhamūlagatassa vā abbhokāsagatassa vā satikaraṇīyameva hoti: ",
+            "de": "Wie im letzten Monat des Sommers, wenn alle Feldfrucht im Dorf zusammengetragen ist und ein <span class=\"ebt-matched\">Kuhhirt</span>e auf die Rinder aufpassen muss. Er würde am Fuß eines Baumes oder im Freien sitzen und müsste nur achtsam sein, ",
+            "en": "Suppose it’s the last month of summer, when all the crops have been gathered within a village, and a cowherd must take care of the cattle. While at the root of a tree or in the open he need only be mindful that ",
+            "matched": true
+          }
+        },
+        "score": 2.016,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 19\nZwei Arten von Gedanken",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 123,
+          "de": 122,
+          "en": 122
         }
       },
       {

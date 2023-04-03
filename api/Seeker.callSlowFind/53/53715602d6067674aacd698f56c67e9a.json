@@ -32,11 +32,14 @@
     "pattern": "grausam",
     "method": "phrase",
     "resultPattern": "\\bgrausam",
-    "segsMatched": 78,
+    "segsMatched": 86,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn35/sn35.95_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn35/sn35.95_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.95_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn19_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn19_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn19_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag16.5_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag16.5_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag16.5_translation-en-sujato.json",
@@ -100,6 +103,9 @@
       "root/pli/ms/sutta/sn/sn22/sn22.80_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.80_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.80_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn1/sn1.32_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn1/sn1.32_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn1/sn1.32_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn7_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn7_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn7_translation-en-sujato.json",
@@ -118,6 +124,9 @@
       "root/pli/ms/sutta/dn/dn17_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn17_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn17_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an6/an6.75_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an6/an6.75_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an6/an6.75_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an6/an6.58_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.58_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an6/an6.58_translation-en-sujato.json",
@@ -163,6 +172,7 @@
     ],
     "suttaRefs": [
       "sn35.95/de/sabbamitta",
+      "mn19/de/sabbamitta",
       "thag16.5/de/sabbamitta",
       "dn33/de/sabbamitta",
       "sn14.12/de/sabbamitta",
@@ -184,12 +194,14 @@
       "sn55.42/de/sabbamitta",
       "sn55.41/de/sabbamitta",
       "sn22.80/de/sabbamitta",
+      "sn1.32/de/sabbamitta",
       "mn7/de/sabbamitta",
       "mn2/de/sabbamitta",
       "iti87/de/sabbamitta",
       "dn34/de/sabbamitta",
       "dn32/de/sabbamitta",
       "dn17/de/sabbamitta",
+      "an6.75/de/sabbamitta",
       "an6.58/de/sabbamitta",
       "an5.45/de/sabbamitta",
       "an5.140/de/sabbamitta",
@@ -278,6 +290,73 @@
           "pli": 181,
           "de": 176,
           "en": 180
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn19_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn19_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn19_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn19",
+        "lang": "de",
+        "segMap": {
+          "mn19:2.3": {
+            "scid": "mn19:2.3",
+            "pli": "So kho ahaṁ, bhikkhave, yo cāyaṁ kāmavitakko yo ca byāpādavitakko yo ca vihiṁsāvitakko—",
+            "de": "Und ich wies sinnliche, boshafte und <span class=\"ebt-matched\">grausam</span>e Gedanken ",
+            "en": "So I assigned sensual, malicious, and cruel thoughts ",
+            "matched": true
+          },
+          "mn19:4-5.2": {
+            "scid": "mn19:4-5.2",
+            "pli": "uppajjati vihiṁsāvitakko. ",
+            "de": "ein <span class=\"ebt-matched\">grausam</span>er Gedanke auf. ",
+            "en": "a cruel thought arose. ",
+            "matched": true
+          },
+          "mn19:4-5.4": {
+            "scid": "mn19:4-5.4",
+            "pli": "‘uppanno kho me ayaṁ vihiṁsāvitakko. ",
+            "de": "‚Dieser <span class=\"ebt-matched\">grausam</span>e Gedanke ist in mir aufgekommen. ",
+            "en": "‘This cruel thought has arisen in me. ",
+            "matched": true
+          },
+          "mn19:4-5.10": {
+            "scid": "mn19:4-5.10",
+            "pli": "So kho ahaṁ, bhikkhave, uppannuppannaṁ vihiṁsāvitakkaṁ pajahameva vinodameva byantameva naṁ akāsiṁ. ",
+            "de": "So gab ich jeden <span class=\"ebt-matched\">grausam</span>en Gedanken, der aufkam, auf, machte mich von ihm los und beseitigte ihn. ",
+            "en": "So I gave up, got rid of, and eliminated any cruel thoughts that arose. ",
+            "matched": true
+          },
+          "mn19:6.4": {
+            "scid": "mn19:6.4",
+            "pli": "vihiṁsāvitakkañce, bhikkhave, bhikkhu bahulamanuvitakketi anuvicāreti, pahāsi avihiṁsāvitakkaṁ, vihiṁsāvitakkaṁ bahulamakāsi, tassa taṁ vihiṁsāvitakkāya cittaṁ namati. ",
+            "de": "Wenn er häufig über <span class=\"ebt-matched\">grausam</span>e Gedanken nachdenkt und sie erwägt, hat er den Gedanken an Gutmütigkeit aufgegeben und baut <span class=\"ebt-matched\">grausam</span>e Gedanken aus. Sein Geist neigt sich zu <span class=\"ebt-matched\">grausam</span>en Gedanken. ",
+            "en": "If they often think about and consider cruel thoughts … their mind inclines to cruel thoughts. ",
+            "matched": true
+          },
+          "mn19:11.4": {
+            "scid": "mn19:11.4",
+            "pli": "avihiṁsāvitakkañce, bhikkhave, bhikkhu bahulamanuvitakketi anuvicāreti, pahāsi vihiṁsāvitakkaṁ, avihiṁsāvitakkaṁ bahulamakāsi, tassa taṁ avihiṁsāvitakkāya cittaṁ namati. ",
+            "de": "Wenn er häufig über gutmütige Gedanken nachdenkt und sie erwägt, hat er den Gedanken an <span class=\"ebt-matched\">Grausam</span>keit aufgegeben und baut gutmütige Gedanken aus. Sein Geist neigt sich zu gutmütigen Gedanken. ",
+            "en": "If they often think about and consider thoughts of harmlessness … their mind inclines to thoughts of harmlessness. ",
+            "matched": true
+          }
+        },
+        "score": 6.049,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 19\nZwei Arten von Gedanken",
+        "segsMatched": 6,
+        "langSegs": {
+          "pli": 123,
+          "de": 122,
+          "en": 122
         }
       },
       {
@@ -1036,6 +1115,38 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/an/an6/an6.75_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an6/an6.75_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an6/an6.75_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an6.75",
+        "lang": "de",
+        "segMap": {
+          "an6.75:1.3": {
+            "scid": "an6.75:1.3",
+            "pli": "Kāmavitakkena, byāpādavitakkena, vihiṁsāvitakkena, kāmasaññāya, byāpādasaññāya, vihiṁsāsaññāya—",
+            "de": "Sinnliche, boshafte und <span class=\"ebt-matched\">grausam</span>e Gedanken und sinnliche, boshafte und <span class=\"ebt-matched\">grausam</span>e Wahrnehmungen. ",
+            "en": "Sensual, malicious, and cruel thoughts; and sensual, malicious, and cruel perceptions. ",
+            "matched": true
+          }
+        },
+        "score": 1.083,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 6.75\n8. Das Kapitel über die Vollendung\nLeiden",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 12,
+          "de": 11,
+          "en": 11
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn56/sn56.7_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/sn/sn56/sn56.7_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/sn/sn56/sn56.7_translation-en-sujato.json"
@@ -1480,6 +1591,38 @@
           "pli": 56,
           "de": 47,
           "en": 54
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn1/sn1.32_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn1/sn1.32_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn1/sn1.32_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn1.32",
+        "lang": "de",
+        "segMap": {
+          "sn1.32:17.3": {
+            "scid": "sn1.32:17.3",
+            "pli": "Sā dakkhiṇā assumukhā sadaṇḍā, ",
+            "de": "Eine solche Spende, tränenreich und <span class=\"ebt-matched\">grausam</span>, ",
+            "en": "Such an offering—tearful, violent—",
+            "matched": true
+          }
+        },
+        "score": 1.018,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 1.32\n4. Das Kapitel über die Satullapa-Gruppe\nGeizig",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 57,
+          "de": 57,
+          "en": 57
         }
       },
       {

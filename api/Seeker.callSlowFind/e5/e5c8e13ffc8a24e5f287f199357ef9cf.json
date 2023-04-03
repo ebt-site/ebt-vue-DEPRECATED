@@ -32,7 +32,7 @@
     "pattern": "kennzeichen",
     "method": "phrase",
     "resultPattern": "\\bkennzeichen",
-    "segsMatched": 92,
+    "segsMatched": 94,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn30_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn30_translation-de-sabbamitta.json",
@@ -52,6 +52,9 @@
       "root/pli/ms/sutta/an/an3/an3.3_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.3_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn1_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn22/sn22.59_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.59_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.59_translation-en-sujato.json",
@@ -85,6 +88,7 @@
       "an3.47/de/sabbamitta",
       "dn14/de/sabbamitta",
       "an3.3/de/sabbamitta",
+      "dn1/de/sabbamitta",
       "sn22.59/de/sabbamitta",
       "mn93/de/sabbamitta",
       "thig14.1/de/sabbamitta",
@@ -831,6 +835,45 @@
           "pli": 851,
           "de": 691,
           "en": 850
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn1",
+        "lang": "de",
+        "segMap": {
+          "dn1:1.21.2": {
+            "scid": "dn1:1.21.2",
+            "pli": "seyyathidaṁ—aṅgaṁ nimittaṁ uppātaṁ supinaṁ lakkhaṇaṁ mūsikacchinnaṁ aggihomaṁ dabbihomaṁ thusahomaṁ kaṇahomaṁ taṇḍulahomaṁ sappihomaṁ telahomaṁ mukhahomaṁ lohitahomaṁ aṅgavijjā vatthuvijjā khattavijjā sivavijjā bhūtavijjā bhūrivijjā ahivijjā visavijjā vicchikavijjā mūsikavijjā sakuṇavijjā vāyasavijjā pakkajjhānaṁ saraparittāṇaṁ migacakkaṁ ",
+            "de": "nämlich Deuten der Gliederform, Deuten von Vorzeichen, Vorhersagen himmlischer Omen, Traumdeutung, Deuten körperlicher <span class=\"ebt-matched\">Kennzeichen</span>, Deuten der Knabberspuren von Mäusen, Feueropfer, Löffelopfer, Opfer von Spelzen, Reishäutchen, Reis, Ghee oder Öl, Opfer aus dem Mund, Blutopfer, Handlesen, Geomantik für Bauplätze, Felder und Friedhöfe, Teufelsaustreibungen, Erdmagie, Schlangenbeschwörung, Gift, die Wissenschaft von Skorpionen, Ratten, Vögeln und Krähen, Vorhersage der Lebensdauer, Aufsagen von Schutzversen und Deuten von Tierrufen. ",
+            "en": "This includes such fields as limb-reading, omenology, divining celestial portents, interpreting dreams, divining bodily marks, divining holes in cloth gnawed by mice, fire offerings, ladle offerings, offerings of husks, rice powder, rice, ghee, or oil; offerings from the mouth, blood sacrifices, palmistry; geomancy for building sites, fields, and cemeteries; exorcisms, earth magic, snake charming, poisons; the crafts of the scorpion, the rat, the bird, and the crow; prophesying life span, chanting for protection, and deciphering animal cries. ",
+            "matched": true
+          },
+          "dn1:1.22.2": {
+            "scid": "dn1:1.22.2",
+            "pli": "seyyathidaṁ—maṇilakkhaṇaṁ vatthalakkhaṇaṁ daṇḍalakkhaṇaṁ satthalakkhaṇaṁ asilakkhaṇaṁ usulakkhaṇaṁ dhanulakkhaṇaṁ āvudhalakkhaṇaṁ itthilakkhaṇaṁ purisalakkhaṇaṁ kumāralakkhaṇaṁ kumārilakkhaṇaṁ dāsalakkhaṇaṁ dāsilakkhaṇaṁ hatthilakkhaṇaṁ assalakkhaṇaṁ mahiṁsalakkhaṇaṁ usabhalakkhaṇaṁ golakkhaṇaṁ ajalakkhaṇaṁ meṇḍalakkhaṇaṁ kukkuṭalakkhaṇaṁ vaṭṭakalakkhaṇaṁ godhālakkhaṇaṁ kaṇṇikālakkhaṇaṁ kacchapalakkhaṇaṁ migalakkhaṇaṁ ",
+            "de": "nämlich das Deuten der <span class=\"ebt-matched\">Kennzeichen</span> von Juwelen, Stoffen, Knüppeln, Schwertern, Speeren, Pfeilen, Waffen, Frauen, Männern, Jungen, Mädchen, Leibeigenen beiderlei Geschlechts, Elefanten, Pferden, Büffeln, Stieren, Kühen, Ziegen, Widdern, Hühnern, Wachteln, Waranen, Kaninchen, Schildkröten oder Rotwild. ",
+            "en": "This includes reading the marks of gems, cloth, clubs, swords, spears, arrows, weapons, women, men, boys, girls, male and female bondservants, elephants, horses, buffaloes, bulls, cows, goats, rams, chickens, quails, monitor lizards, rabbits, tortoises, or deer. ",
+            "matched": true
+          }
+        },
+        "score": 2.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 1\nDas Hauptnetz",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 662,
+          "de": 163,
+          "en": 661
         }
       },
       {
