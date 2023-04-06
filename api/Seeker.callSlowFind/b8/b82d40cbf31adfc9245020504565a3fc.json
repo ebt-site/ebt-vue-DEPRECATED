@@ -29,161 +29,293 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "a heart rid of desire",
-    "method": "phrase",
-    "resultPattern": "\\ba heart rid of desire",
-    "segsMatched": 15,
+    "method": "keywords",
+    "resultPattern": "\\b(a|ā)|\\bheart|\\brid|\\bof|\\bdesire",
+    "segsMatched": 10,
     "bilaraPaths": [
-      "root/pli/ms/sutta/mn/mn94_root-pli-ms.json",
-      "translation/en/sujato/sutta/mn/mn94_translation-en-sujato.json",
-      "root/pli/ms/sutta/mn/mn51_root-pli-ms.json",
-      "translation/en/sujato/sutta/mn/mn51_translation-en-sujato.json",
-      "root/pli/ms/sutta/mn/mn39_root-pli-ms.json",
-      "translation/en/sujato/sutta/mn/mn39_translation-en-sujato.json",
-      "root/pli/ms/sutta/mn/mn38_root-pli-ms.json",
-      "translation/en/sujato/sutta/mn/mn38_translation-en-sujato.json",
-      "root/pli/ms/sutta/mn/mn27_root-pli-ms.json",
-      "translation/en/sujato/sutta/mn/mn27_translation-en-sujato.json",
-      "root/pli/ms/sutta/mn/mn112_root-pli-ms.json",
-      "translation/en/sujato/sutta/mn/mn112_translation-en-sujato.json",
-      "root/pli/ms/sutta/mn/mn107_root-pli-ms.json",
-      "translation/en/sujato/sutta/mn/mn107_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn42/sn42.13_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn42/sn42.13_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn26_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn26_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn101_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn101_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
-      "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn25_root-pli-ms.json",
-      "translation/en/sujato/sutta/dn/dn25_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn10_root-pli-ms.json",
-      "translation/en/sujato/sutta/dn/dn10_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an9/an9.40_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an9/an9.40_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an5/an5.75_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an5/an5.75_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn112_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn112_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn38_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn38_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn21_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn21_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn30_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn30_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn21_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn21_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn36_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn36_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn35/sn35.244_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.244_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn42/sn42.8_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn42/sn42.8_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.20_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an10/an10.20_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.219_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an10/an10.219_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.65_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an3/an3.65_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.66_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an3/an3.66_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.198_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an4/an4.198_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an10/an10.99_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an10/an10.99_translation-en-sujato.json"
+      "root/pli/ms/sutta/an/an4/an4.53_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an4/an4.53_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.75_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an5/an5.75_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.76_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an5/an5.76_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an6/an6.13_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an6/an6.13_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an6/an6.29_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an6/an6.29_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn10_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn10_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn19_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn19_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn22_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn22_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn5_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn5_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/dhp/dhp334-359_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp334-359_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/dhp/dhp76-89_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp76-89_translation-en-sujato.json",
+      "translation/en/suddhaso/sutta/kn/dhp/dhp76-89_translation-en-suddhaso.json",
+      "root/pli/ms/sutta/kn/iti/vagga11/iti111_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/iti/vagga11/iti111_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga3/iti26_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/iti/vagga3/iti26_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga9/iti82_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/iti/vagga9/iti82_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga1/snp1.11_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga1/snp1.11_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga2/snp2.5_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga2/snp2.5_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga3/snp3.12_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga3/snp3.12_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thig/thig13.5_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/thig/thig13.5_translation-en-sujato.json",
+      "translation/en/soma/sutta/kn/thig/thig13.5_translation-en-soma.json",
+      "root/pli/ms/sutta/kn/thig/thig14.1_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/thig/thig14.1_translation-en-sujato.json",
+      "translation/en/soma/sutta/kn/thig/thig14.1_translation-en-soma.json",
+      "root/pli/ms/sutta/mn/mn100_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn100_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn107_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn107_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn119_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn119_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn121_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn121_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn125_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn125_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn18_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn18_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn19_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn19_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn27_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn27_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn28_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn28_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn39_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn39_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn51_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn51_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn60_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn60_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn75_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn75_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn76_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn76_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn79_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn79_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn94_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn94_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn10/sn10.3_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn10/sn10.3_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "mn94/en/sujato",
-      "mn51/en/sujato",
-      "mn39/en/sujato",
-      "mn38/en/sujato",
-      "mn27/en/sujato",
-      "mn112/en/sujato",
-      "mn107/en/sujato",
-      "mn101/en/sujato",
-      "dn2/en/sujato",
-      "dn25/en/sujato",
-      "dn10/en/sujato",
-      "an9.40/en/sujato",
-      "an5.75/en/sujato",
-      "an4.198/en/sujato",
-      "an10.99/en/sujato"
+      "sn42.13/en/sujato",
+      "sn42.8/en/sujato",
+      "an10.219/en/sujato",
+      "an3.65/en/sujato",
+      "an3.66/en/sujato"
     ],
     "mlDocs": [
       {
         "bilaraPaths": [
-          "root/pli/ms/sutta/an/an9/an9.40_root-pli-ms.json",
-          "translation/en/sujato/sutta/an/an9/an9.40_translation-en-sujato.json"
+          "root/pli/ms/sutta/sn/sn42/sn42.13_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn42/sn42.13_translation-en-sujato.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
         "category": "sutta",
-        "sutta_uid": "an9.40",
+        "sutta_uid": "sn42.13",
         "lang": "en",
         "segMap": {
-          "an9.40:5.1": {
-            "scid": "an9.40:5.1",
-            "pli": "So abhijjhaṁ loke pahāya vigatābhijjhena cetasā viharati, abhijjhāya cittaṁ parisodheti; ",
-            "en": "Giving up desire for the world, they meditate with <span class=\"ebt-matched\">a heart rid of desire</span>, cleansing the mind of desire. ",
+          "sn42.13:23.1": {
+            "scid": "sn42.13:23.1",
+            "pli": "Sa kho so, gāmaṇi, <span class=\"ebt-matched\">a</span>riyasāvako evaṁ vigatābhijjho vigatabyāpādo <span class=\"ebt-matched\">a</span>sammūḷho sampajāno paṭissato mettāsahagatena cetasā ekaṁ disaṁ pharitvā viharati, tathā dutiyaṁ, tathā tatiyaṁ, tathā catutthaṁ, iti uddhamadho tiriyaṁ sabbadhi sabbattatāya sabbāvantaṁ lokaṁ mettāsahagatena cetasā vipulena mahaggatena <span class=\"ebt-matched\">a</span>ppamāṇena <span class=\"ebt-matched\">a</span>verena <span class=\"ebt-matched\">a</span>byāpajjena pharitvā viharati. ",
+            "en": "Then that noble disciple is <span class=\"ebt-matched\">rid</span> <span class=\"ebt-matched\">of</span> <span class=\"ebt-matched\">desire</span>, <span class=\"ebt-matched\">rid</span> <span class=\"ebt-matched\">of</span> ill will, unconfused, <span class=\"ebt-matched\">a</span>ware, <span class=\"ebt-matched\">a</span>nd mindful. They meditate spreading <span class=\"ebt-matched\">a</span> <span class=\"ebt-matched\">heart</span> full <span class=\"ebt-matched\">of</span> love to one direction, <span class=\"ebt-matched\">a</span>nd to the second, <span class=\"ebt-matched\">a</span>nd to the third, <span class=\"ebt-matched\">a</span>nd to the fourth. In the same way <span class=\"ebt-matched\">a</span>bove, below, <span class=\"ebt-matched\">a</span>cross, everywhere, <span class=\"ebt-matched\">a</span>ll <span class=\"ebt-matched\">a</span>round, they spread <span class=\"ebt-matched\">a</span> <span class=\"ebt-matched\">heart</span> full <span class=\"ebt-matched\">of</span> love to the whole world—abundant, expansive, limitless, free <span class=\"ebt-matched\">of</span> enmity <span class=\"ebt-matched\">a</span>nd ill will. ",
+            "matched": true
+          },
+          "sn42.13:24.1": {
+            "scid": "sn42.13:24.1",
+            "pli": "Sa kho so, gāmaṇi, <span class=\"ebt-matched\">a</span>riyasāvako evaṁ vigatābhijjho vigatabyāpādo <span class=\"ebt-matched\">a</span>sammūḷho sampajāno paṭissato mettāsahagatena cetasā ekaṁ disaṁ pharitvā viharati, tathā dutiyaṁ, tathā tatiyaṁ, tathā catutthaṁ, iti uddhamadho tiriyaṁ sabbadhi sabbattatāya sabbāvantaṁ lokaṁ mettāsahagatena cetasā vipulena mahaggatena <span class=\"ebt-matched\">a</span>ppamāṇena <span class=\"ebt-matched\">a</span>verena <span class=\"ebt-matched\">a</span>byāpajjena pharitvā viharati. ",
+            "en": "Then that noble disciple is <span class=\"ebt-matched\">rid</span> <span class=\"ebt-matched\">of</span> <span class=\"ebt-matched\">desire</span>, <span class=\"ebt-matched\">rid</span> <span class=\"ebt-matched\">of</span> ill will, unconfused, <span class=\"ebt-matched\">a</span>ware, <span class=\"ebt-matched\">a</span>nd mindful. They meditate spreading <span class=\"ebt-matched\">a</span> <span class=\"ebt-matched\">heart</span> full <span class=\"ebt-matched\">of</span> love to one direction, <span class=\"ebt-matched\">a</span>nd to the second, <span class=\"ebt-matched\">a</span>nd to the third, <span class=\"ebt-matched\">a</span>nd to the fourth. In the same way <span class=\"ebt-matched\">a</span>bove, below, <span class=\"ebt-matched\">a</span>cross, everywhere, <span class=\"ebt-matched\">a</span>ll <span class=\"ebt-matched\">a</span>round, they spread <span class=\"ebt-matched\">a</span> <span class=\"ebt-matched\">heart</span> full <span class=\"ebt-matched\">of</span> love to the whole world—abundant, expansive, limitless, free <span class=\"ebt-matched\">of</span> enmity <span class=\"ebt-matched\">a</span>nd ill will. ",
+            "matched": true
+          },
+          "sn42.13:25.1": {
+            "scid": "sn42.13:25.1",
+            "pli": "Sa kho so, gāmaṇi, <span class=\"ebt-matched\">a</span>riyasāvako evaṁ vigatābhijjho vigatabyāpādo <span class=\"ebt-matched\">a</span>sammūḷho sampajāno paṭissato mettāsahagatena cetasā ekaṁ disaṁ pharitvā viharati, tathā dutiyaṁ, tathā tatiyaṁ, tathā catutthaṁ, iti uddhamadho tiriyaṁ sabbadhi sabbattatāya sabbāvantaṁ lokaṁ mettāsahagatena cetasā vipulena mahaggatena <span class=\"ebt-matched\">a</span>ppamāṇena <span class=\"ebt-matched\">a</span>verena <span class=\"ebt-matched\">a</span>byāpajjena pharitvā viharati. ",
+            "en": "Then that noble disciple is <span class=\"ebt-matched\">rid</span> <span class=\"ebt-matched\">of</span> <span class=\"ebt-matched\">desire</span>, <span class=\"ebt-matched\">rid</span> <span class=\"ebt-matched\">of</span> ill will, unconfused, <span class=\"ebt-matched\">a</span>ware, <span class=\"ebt-matched\">a</span>nd mindful. They meditate spreading <span class=\"ebt-matched\">a</span> <span class=\"ebt-matched\">heart</span> full <span class=\"ebt-matched\">of</span> love to one direction, <span class=\"ebt-matched\">a</span>nd to the second, <span class=\"ebt-matched\">a</span>nd to the third, <span class=\"ebt-matched\">a</span>nd to the fourth. In the same way <span class=\"ebt-matched\">a</span>bove, below, <span class=\"ebt-matched\">a</span>cross, everywhere, <span class=\"ebt-matched\">a</span>ll <span class=\"ebt-matched\">a</span>round, they spread <span class=\"ebt-matched\">a</span> <span class=\"ebt-matched\">heart</span> full <span class=\"ebt-matched\">of</span> love to the whole world—abundant, expansive, limitless, free <span class=\"ebt-matched\">of</span> enmity <span class=\"ebt-matched\">a</span>nd ill will. ",
+            "matched": true
+          },
+          "sn42.13:26.1": {
+            "scid": "sn42.13:26.1",
+            "pli": "Sa kho so, gāmaṇi, <span class=\"ebt-matched\">a</span>riyasāvako evaṁ vigatābhijjho vigatabyāpādo <span class=\"ebt-matched\">a</span>sammūḷho sampajāno paṭissato mettāsahagatena cetasā ekaṁ disaṁ pharitvā viharati, tathā dutiyaṁ, tathā tatiyaṁ, tathā catutthaṁ, iti uddhamadho tiriyaṁ sabbadhi sabbattatāya sabbāvantaṁ lokaṁ mettāsahagatena cetasā vipulena mahaggatena <span class=\"ebt-matched\">a</span>ppamāṇena <span class=\"ebt-matched\">a</span>verena <span class=\"ebt-matched\">a</span>byāpajjena pharitvā viharati. ",
+            "en": "Then that noble disciple is <span class=\"ebt-matched\">rid</span> <span class=\"ebt-matched\">of</span> <span class=\"ebt-matched\">desire</span>, <span class=\"ebt-matched\">rid</span> <span class=\"ebt-matched\">of</span> ill will, unconfused, <span class=\"ebt-matched\">a</span>ware, <span class=\"ebt-matched\">a</span>nd mindful. They meditate spreading <span class=\"ebt-matched\">a</span> <span class=\"ebt-matched\">heart</span> full <span class=\"ebt-matched\">of</span> love to one direction, <span class=\"ebt-matched\">a</span>nd to the second, <span class=\"ebt-matched\">a</span>nd to the third, <span class=\"ebt-matched\">a</span>nd to the fourth. In the same way <span class=\"ebt-matched\">a</span>bove, below, <span class=\"ebt-matched\">a</span>cross, everywhere, <span class=\"ebt-matched\">a</span>ll <span class=\"ebt-matched\">a</span>round, they spread <span class=\"ebt-matched\">a</span> <span class=\"ebt-matched\">heart</span> full <span class=\"ebt-matched\">of</span> love to the whole world—abundant, expansive, limitless, free <span class=\"ebt-matched\">of</span> enmity <span class=\"ebt-matched\">a</span>nd ill will. ",
+            "matched": true
+          },
+          "sn42.13:27.1": {
+            "scid": "sn42.13:27.1",
+            "pli": "Sa kho so, gāmaṇi, <span class=\"ebt-matched\">a</span>riyasāvako evaṁ vigatābhijjho vigatabyāpādo <span class=\"ebt-matched\">a</span>sammūḷho sampajāno paṭissato karuṇāsahagatena cetasā ekaṁ disaṁ pharitvā viharati …pe… ",
+            "en": "Then that noble disciple is <span class=\"ebt-matched\">rid</span> <span class=\"ebt-matched\">of</span> <span class=\"ebt-matched\">desire</span>, <span class=\"ebt-matched\">rid</span> <span class=\"ebt-matched\">of</span> ill will, unconfused, <span class=\"ebt-matched\">a</span>ware, <span class=\"ebt-matched\">a</span>nd mindful. They meditate spreading <span class=\"ebt-matched\">a</span> <span class=\"ebt-matched\">heart</span> full <span class=\"ebt-matched\">of</span> compassion … ",
             "matched": true
           }
         },
-        "score": 1.026,
+        "score": 5.017,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Numbered Discourses 9.40\n4. The Great Chapter\nThe Simile of the Bull Elephant in the Forest",
-        "segsMatched": 1,
+        "title": "Linked Discourses 42.13\n1. Chiefs\nWith Pāṭaliya",
+        "segsMatched": 5,
         "langSegs": {
-          "pli": 39,
-          "en": 38
+          "pli": 300,
+          "en": 299
         }
       },
       {
         "bilaraPaths": [
-          "root/pli/ms/sutta/an/an5/an5.75_root-pli-ms.json",
-          "translation/en/sujato/sutta/an/an5/an5.75_translation-en-sujato.json"
+          "root/pli/ms/sutta/sn/sn42/sn42.8_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn42/sn42.8_translation-en-sujato.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
         "category": "sutta",
-        "sutta_uid": "an5.75",
+        "sutta_uid": "sn42.8",
         "lang": "en",
         "segMap": {
-          "an5.75:15.2": {
-            "scid": "an5.75:15.2",
-            "pli": "So abhijjhaṁ loke pahāya vigatābhijjhena cetasā viharati, abhijjhāya cittaṁ parisodheti; ",
-            "en": "Giving up desire for the world, he meditates with <span class=\"ebt-matched\">a heart rid of desire</span>, cleansing the mind of desire. ",
+          "sn42.8:12.1": {
+            "scid": "sn42.8:12.1",
+            "pli": "Sa kho so, gāmaṇi, <span class=\"ebt-matched\">a</span>riyasāvako evaṁ vigatābhijjho vigatabyāpādo <span class=\"ebt-matched\">a</span>sammūḷho sampajāno paṭissato mettāsahagatena cetasā ekaṁ disaṁ pharitvā viharati, tathā dutiyaṁ, tathā tatiyaṁ, tathā catutthaṁ. Iti uddhamadho tiriyaṁ sabbadhi sabbattatāya sabbāvantaṁ lokaṁ mettāsahagatena cetasā vipulena mahaggatena <span class=\"ebt-matched\">a</span>ppamāṇena <span class=\"ebt-matched\">a</span>verena <span class=\"ebt-matched\">a</span>byāpajjena pharitvā viharati. ",
+            "en": "That noble disciple is <span class=\"ebt-matched\">rid</span> <span class=\"ebt-matched\">of</span> <span class=\"ebt-matched\">desire</span>, <span class=\"ebt-matched\">rid</span> <span class=\"ebt-matched\">of</span> ill will, unconfused, <span class=\"ebt-matched\">a</span>ware, <span class=\"ebt-matched\">a</span>nd mindful. They meditate spreading <span class=\"ebt-matched\">a</span> <span class=\"ebt-matched\">heart</span> full <span class=\"ebt-matched\">of</span> love to one direction, <span class=\"ebt-matched\">a</span>nd to the second, <span class=\"ebt-matched\">a</span>nd to the third, <span class=\"ebt-matched\">a</span>nd to the fourth. In the same way <span class=\"ebt-matched\">a</span>bove, below, <span class=\"ebt-matched\">a</span>cross, everywhere, <span class=\"ebt-matched\">a</span>ll <span class=\"ebt-matched\">a</span>round, they spread <span class=\"ebt-matched\">a</span> <span class=\"ebt-matched\">heart</span> full <span class=\"ebt-matched\">of</span> love to the whole world—abundant, expansive, limitless, free <span class=\"ebt-matched\">of</span> enmity <span class=\"ebt-matched\">a</span>nd ill will. ",
+            "matched": true
+          },
+          "sn42.8:13.1": {
+            "scid": "sn42.8:13.1",
+            "pli": "Sa kho so, gāmaṇi, <span class=\"ebt-matched\">a</span>riyasāvako evaṁ vigatābhijjho vigatabyāpādo <span class=\"ebt-matched\">a</span>sammūḷho sampajāno paṭissato karuṇāsahagatena cetasā …pe… ",
+            "en": "Then that noble disciple is <span class=\"ebt-matched\">rid</span> <span class=\"ebt-matched\">of</span> <span class=\"ebt-matched\">desire</span>, <span class=\"ebt-matched\">rid</span> <span class=\"ebt-matched\">of</span> ill will, unconfused, <span class=\"ebt-matched\">a</span>ware, <span class=\"ebt-matched\">a</span>nd mindful. They meditate spreading <span class=\"ebt-matched\">a</span> <span class=\"ebt-matched\">heart</span> full <span class=\"ebt-matched\">of</span> compassion … ",
             "matched": true
           }
         },
-        "score": 1.01,
+        "score": 2.019,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Numbered Discourses 5.75\n8. Warriors\nWarriors (1st)",
-        "segsMatched": 1,
+        "title": "Linked Discourses 42.8\n1. Chiefs\nA Horn Blower",
+        "segsMatched": 2,
         "langSegs": {
-          "pli": 104,
-          "en": 103
+          "pli": 105,
+          "en": 104
         }
       },
       {
         "bilaraPaths": [
-          "root/pli/ms/sutta/mn/mn107_root-pli-ms.json",
-          "translation/en/sujato/sutta/mn/mn107_translation-en-sujato.json"
+          "root/pli/ms/sutta/an/an10/an10.219_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an10/an10.219_translation-en-sujato.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
         "category": "sutta",
-        "sutta_uid": "mn107",
+        "sutta_uid": "an10.219",
         "lang": "en",
         "segMap": {
-          "mn107:9.3": {
-            "scid": "mn107:9.3",
-            "pli": "So abhijjhaṁ loke pahāya vigatābhijjhena cetasā viharati, abhijjhāya cittaṁ parisodheti; ",
-            "en": "Giving up desire for the world, they meditate with <span class=\"ebt-matched\">a heart rid of desire</span>, cleansing the mind of desire. ",
+          "an10.219:2.1": {
+            "scid": "an10.219:2.1",
+            "pli": "Sa kho so, bhikkhave, <span class=\"ebt-matched\">a</span>riyasāvako evaṁ vigatābhijjho vigatabyāpādo <span class=\"ebt-matched\">a</span>sammūḷho sampajāno paṭissato mettāsahagatena cetasā ekaṁ disaṁ pharitvā viharati tathā dutiyaṁ tathā tatiyaṁ tathā catutthaṁ. Iti uddhamadho tiriyaṁ sabbadhi sabbattatāya sabbāvantaṁ lokaṁ mettāsahagatena cetasā vipulena mahaggatena <span class=\"ebt-matched\">a</span>ppamāṇena <span class=\"ebt-matched\">a</span>verena <span class=\"ebt-matched\">a</span>byāpajjena pharitvā viharati. ",
+            "en": "That noble disciple is <span class=\"ebt-matched\">rid</span> <span class=\"ebt-matched\">of</span> <span class=\"ebt-matched\">desire</span>, <span class=\"ebt-matched\">rid</span> <span class=\"ebt-matched\">of</span> ill will, unconfused, <span class=\"ebt-matched\">a</span>ware, <span class=\"ebt-matched\">a</span>nd mindful. They meditate spreading <span class=\"ebt-matched\">a</span> <span class=\"ebt-matched\">heart</span> full <span class=\"ebt-matched\">of</span> love to one direction, <span class=\"ebt-matched\">a</span>nd to the second, <span class=\"ebt-matched\">a</span>nd to the third, <span class=\"ebt-matched\">a</span>nd to the fourth. In the same way <span class=\"ebt-matched\">a</span>bove, below, <span class=\"ebt-matched\">a</span>cross, everywhere, <span class=\"ebt-matched\">a</span>ll <span class=\"ebt-matched\">a</span>round, they spread <span class=\"ebt-matched\">a</span> <span class=\"ebt-matched\">heart</span> full <span class=\"ebt-matched\">of</span> love to the whole world—abundant, expansive, limitless, free <span class=\"ebt-matched\">of</span> enmity <span class=\"ebt-matched\">a</span>nd ill will. ",
             "matched": true
           }
         },
-        "score": 1.01,
+        "score": 1.024,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Middle Discourses 107\nWith Moggallāna the Accountant",
+        "title": "Numbered Discourses 10.219\n21. The Body Born of Deeds\nThe Body Born of Deeds",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 104,
-          "en": 103
+          "pli": 42,
+          "en": 41
         }
       },
       {
         "bilaraPaths": [
-          "root/pli/ms/sutta/an/an4/an4.198_root-pli-ms.json",
-          "translation/en/sujato/sutta/an/an4/an4.198_translation-en-sujato.json"
+          "root/pli/ms/sutta/an/an3/an3.66_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an3/an3.66_translation-en-sujato.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
         "category": "sutta",
-        "sutta_uid": "an4.198",
+        "sutta_uid": "an3.66",
         "lang": "en",
         "segMap": {
-          "an4.198:13.4": {
-            "scid": "an4.198:13.4",
-            "pli": "So abhijjhaṁ loke pahāya vigatābhijjhena cetasā viharati, abhijjhāya cittaṁ parisodheti. ",
-            "en": "Giving up desire for the world, they meditate with <span class=\"ebt-matched\">a heart rid of desire</span>, cleansing the mind of desire. ",
+          "an3.66:46.1": {
+            "scid": "an3.66:46.1",
+            "pli": "Sa kho so, sāḷhā, <span class=\"ebt-matched\">a</span>riyasāvako evaṁ vigatābhijjho vigatabyāpādo <span class=\"ebt-matched\">a</span>sammūḷho sampajāno patissato mettāsahagatena cetasā …pe… ",
+            "en": "Then that noble disciple is <span class=\"ebt-matched\">rid</span> <span class=\"ebt-matched\">of</span> <span class=\"ebt-matched\">desire</span>, <span class=\"ebt-matched\">rid</span> <span class=\"ebt-matched\">of</span> ill will, unconfused, <span class=\"ebt-matched\">a</span>ware, <span class=\"ebt-matched\">a</span>nd mindful. They meditate spreading <span class=\"ebt-matched\">a</span> <span class=\"ebt-matched\">heart</span> full <span class=\"ebt-matched\">of</span> love … ",
+            "matched": true
+          }
+        },
+        "score": 1.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 3.66\n7. The Great Chapter\nWith Sāḷha and His Friend",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 90,
+          "en": 89
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an3/an3.65_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an3/an3.65_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an3.65",
+        "lang": "en",
+        "segMap": {
+          "an3.65:42.1": {
+            "scid": "an3.65:42.1",
+            "pli": "Sa kho so, kālāmā, <span class=\"ebt-matched\">a</span>riyasāvako evaṁ vigatābhijjho vigatabyāpādo <span class=\"ebt-matched\">a</span>sammūḷho sampajāno patissato mettāsahagatena cetasā ekaṁ disaṁ pharitvā viharati, tathā dutiyaṁ, tathā tatiyaṁ, tathā catutthaṁ, iti uddhamadho tiriyaṁ sabbadhi sabbattatāya sabbāvantaṁ lokaṁ mettāsahagatena cetasā vipulena mahaggatena <span class=\"ebt-matched\">a</span>ppamāṇena <span class=\"ebt-matched\">a</span>verena <span class=\"ebt-matched\">a</span>byāpajjhena pharitvā viharati. ",
+            "en": "Then that noble disciple is <span class=\"ebt-matched\">rid</span> <span class=\"ebt-matched\">of</span> <span class=\"ebt-matched\">desire</span>, <span class=\"ebt-matched\">rid</span> <span class=\"ebt-matched\">of</span> ill will, unconfused, <span class=\"ebt-matched\">a</span>ware, <span class=\"ebt-matched\">a</span>nd mindful. They meditate spreading <span class=\"ebt-matched\">a</span> <span class=\"ebt-matched\">heart</span> full <span class=\"ebt-matched\">of</span> love to one direction, <span class=\"ebt-matched\">a</span>nd to the second, <span class=\"ebt-matched\">a</span>nd to the third, <span class=\"ebt-matched\">a</span>nd to the fourth. In the same way <span class=\"ebt-matched\">a</span>bove, below, <span class=\"ebt-matched\">a</span>cross, everywhere, <span class=\"ebt-matched\">a</span>ll <span class=\"ebt-matched\">a</span>round, they spread <span class=\"ebt-matched\">a</span> <span class=\"ebt-matched\">heart</span> full <span class=\"ebt-matched\">of</span> love to the whole world—abundant, expansive, limitless, free <span class=\"ebt-matched\">of</span> enmity <span class=\"ebt-matched\">a</span>nd ill will. ",
             "matched": true
           }
         },
@@ -191,330 +323,11 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Numbered Discourses 4.198\n20. The Great Chapter\nSelf-mortification",
+        "title": "Numbered Discourses 3.65\n7. The Great Chapter\nWith the Kālāmas of Kesamutta",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 111,
-          "en": 110
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/an/an10/an10.99_root-pli-ms.json",
-          "translation/en/sujato/sutta/an/an10/an10.99_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "an10.99",
-        "lang": "en",
-        "segMap": {
-          "an10.99:23.1": {
-            "scid": "an10.99:23.1",
-            "pli": "So abhijjhaṁ loke pahāya vigatābhijjhena cetasā viharati, abhijjhāya cittaṁ parisodheti. ",
-            "en": "Giving up desire for the world, they meditate with <span class=\"ebt-matched\">a heart rid of desire</span>, cleansing the mind of desire. ",
-            "matched": true
-          }
-        },
-        "score": 1.007,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Numbered Discourses 10.99\n10. With Upāli\nWith Upāli",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 148,
-          "en": 147
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/mn/mn112_root-pli-ms.json",
-          "translation/en/sujato/sutta/mn/mn112_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "mn112",
-        "lang": "en",
-        "segMap": {
-          "mn112:17.1": {
-            "scid": "mn112:17.1",
-            "pli": "So abhijjhaṁ loke pahāya vigatābhijjhena cetasā vihāsiṁ, abhijjhāya cittaṁ parisodhesiṁ. ",
-            "en": "Giving up desire for the world, I meditated with <span class=\"ebt-matched\">a heart rid of desire</span>, cleansing the mind of desire. ",
-            "matched": true
-          }
-        },
-        "score": 1.007,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Middle Discourses 112\nThe Sixfold Purification",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 147,
-          "en": 146
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/mn/mn27_root-pli-ms.json",
-          "translation/en/sujato/sutta/mn/mn27_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "mn27",
-        "lang": "en",
-        "segMap": {
-          "mn27:18.2": {
-            "scid": "mn27:18.2",
-            "pli": "So abhijjhaṁ loke pahāya vigatābhijjhena cetasā viharati, abhijjhāya cittaṁ parisodheti. ",
-            "en": "Giving up desire for the world, they meditate with <span class=\"ebt-matched\">a heart rid of desire</span>, cleansing the mind of desire. ",
-            "matched": true
-          }
-        },
-        "score": 1.005,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Middle Discourses 27\nThe Shorter Simile of the Elephant’s Footprint",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 201,
-          "en": 200
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/mn/mn39_root-pli-ms.json",
-          "translation/en/sujato/sutta/mn/mn39_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "mn39",
-        "lang": "en",
-        "segMap": {
-          "mn39:13.2": {
-            "scid": "mn39:13.2",
-            "pli": "So abhijjhaṁ loke pahāya vigatābhijjhena cetasā viharati, abhijjhāya cittaṁ parisodheti; ",
-            "en": "Giving up desire for the world, they meditate with <span class=\"ebt-matched\">a heart rid of desire</span>, cleansing the mind of desire. ",
-            "matched": true
-          }
-        },
-        "score": 1.005,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Middle Discourses 39\nThe Longer Discourse at Assapura",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 191,
-          "en": 190
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/mn/mn51_root-pli-ms.json",
-          "translation/en/sujato/sutta/mn/mn51_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "mn51",
-        "lang": "en",
-        "segMap": {
-          "mn51:19.2": {
-            "scid": "mn51:19.2",
-            "pli": "So abhijjhaṁ loke pahāya vigatābhijjhena cetasā viharati, abhijjhāya cittaṁ parisodheti, ",
-            "en": "Giving up desire for the world, they meditate with <span class=\"ebt-matched\">a heart rid of desire</span>, cleansing the mind of desire. ",
-            "matched": true
-          }
-        },
-        "score": 1.005,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Middle Discourses 51\nWith Kandaraka",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 190,
-          "en": 189
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/mn/mn94_root-pli-ms.json",
-          "translation/en/sujato/sutta/mn/mn94_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "mn94",
-        "lang": "en",
-        "segMap": {
-          "mn94:21.2": {
-            "scid": "mn94:21.2",
-            "pli": "So abhijjhaṁ loke pahāya vigatābhijjhena cetasā viharati, abhijjhāya cittaṁ parisodheti; ",
-            "en": "Giving up desire for the world, they meditate with <span class=\"ebt-matched\">a heart rid of desire</span>, cleansing the mind of desire. ",
-            "matched": true
-          }
-        },
-        "score": 1.005,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Middle Discourses 94\nWith Ghoṭamukha",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 203,
-          "en": 202
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/dn/dn10_root-pli-ms.json",
-          "translation/en/sujato/sutta/dn/dn10_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "dn10",
-        "lang": "en",
-        "segMap": {
-          "dn10:2.6.1": {
-            "scid": "dn10:2.6.1",
-            "pli": "So abhijjhaṁ loke pahāya vigatābhijjhena cetasā viharati abhijjhāya cittaṁ parisodheti. ",
-            "en": "Giving up desire for the world, they meditate with <span class=\"ebt-matched\">a heart rid of desire</span>, cleansing the mind of desire. ",
-            "matched": true
-          }
-        },
-        "score": 1.004,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Long Discourses 10\nWith Subha",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 285,
-          "en": 227
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/dn/dn25_root-pli-ms.json",
-          "translation/en/sujato/sutta/dn/dn25_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "dn25",
-        "lang": "en",
-        "segMap": {
-          "dn25:16.14": {
-            "scid": "dn25:16.14",
-            "pli": "So abhijjhaṁ loke pahāya vigatābhijjhena cetasā viharati, abhijjhāya cittaṁ parisodheti. ",
-            "en": "Giving up desire for the world, they meditate with <span class=\"ebt-matched\">a heart rid of desire</span>, cleansing the mind of desire. ",
-            "matched": true
-          }
-        },
-        "score": 1.003,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Long Discourses 25\nThe Lion’s Roar at Udumbarikā’s Monastery",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 383,
-          "en": 382
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/mn/mn101_root-pli-ms.json",
-          "translation/en/sujato/sutta/mn/mn101_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "mn101",
-        "lang": "en",
-        "segMap": {
-          "mn101:37.1": {
-            "scid": "mn101:37.1",
-            "pli": "So abhijjhaṁ loke pahāya vigatābhijjhena cetasā viharati, abhijjhāya cittaṁ parisodheti. ",
-            "en": "Giving up desire for the world, they meditate with <span class=\"ebt-matched\">a heart rid of desire</span>, cleansing the mind of desire. ",
-            "matched": true
-          }
-        },
-        "score": 1.003,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Middle Discourses 101\nAt Devadaha",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 362,
-          "en": 361
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
-          "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "dn2",
-        "lang": "en",
-        "segMap": {
-          "dn2:68.1": {
-            "scid": "dn2:68.1",
-            "pli": "So abhijjhaṁ loke pahāya vigatābhijjhena cetasā viharati, abhijjhāya cittaṁ parisodheti. ",
-            "en": "Giving up desire for the world, they meditate with <span class=\"ebt-matched\">a heart rid of desire</span>, cleansing the mind of desire. ",
-            "matched": true
-          }
-        },
-        "score": 1.002,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Long Discourses 2\nThe Fruits of the Ascetic Life",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 650,
-          "en": 633
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/mn/mn38_root-pli-ms.json",
-          "translation/en/sujato/sutta/mn/mn38_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "mn38",
-        "lang": "en",
-        "segMap": {
-          "mn38:38.2": {
-            "scid": "mn38:38.2",
-            "pli": "So abhijjhaṁ loke pahāya vigatābhijjhena cetasā viharati, abhijjhāya cittaṁ parisodheti; ",
-            "en": "Giving up desire for the world, they meditate with <span class=\"ebt-matched\">a heart rid of desire</span>, cleansing the mind of desire. ",
-            "matched": true
-          }
-        },
-        "score": 1.002,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Middle Discourses 38\nThe Longer Discourse on the Ending of Craving",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 445,
-          "en": 444
+          "pli": 108,
+          "en": 107
         }
       }
     ]
