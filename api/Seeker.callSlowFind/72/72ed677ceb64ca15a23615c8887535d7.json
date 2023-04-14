@@ -32,7 +32,7 @@
     "pattern": "bangigkeit",
     "method": "phrase",
     "resultPattern": "\\bbangigkeit",
-    "segsMatched": 21,
+    "segsMatched": 23,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn22/sn22.7_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.7_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/sn/sn22/sn22.8_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.8_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.8_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn1_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn22/sn22.43_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.43_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.43_translation-en-sujato.json",
@@ -48,18 +51,15 @@
       "translation/en/sujato/sutta/sn/sn2/sn2.17_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn22/sn22.90_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.90_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn22/sn22.90_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn1_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/dn/dn1_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn1_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn22/sn22.90_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "sn22.7/de/sabbamitta",
       "sn22.8/de/sabbamitta",
+      "dn1/de/sabbamitta",
       "sn22.43/de/sabbamitta",
       "sn2.17/de/sabbamitta",
-      "sn22.90/de/sabbamitta",
-      "dn1/de/sabbamitta"
+      "sn22.90/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -226,6 +226,52 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn1",
+        "lang": "de",
+        "segMap": {
+          "dn1:3.32.0.2": {
+            "scid": "dn1:3.32.0.2",
+            "pli": "4.1. Paritassitavipphanditavāra ",
+            "de": "4.1. <span class=\"ebt-matched\">Bangigkeit</span> und Ausweichmanöver ",
+            "en": "4.1. Anxiety and Evasiveness ",
+            "matched": true
+          },
+          "dn1:3.32.1": {
+            "scid": "dn1:3.32.1",
+            "pli": "Tatra, bhikkhave, ye te samaṇabrāhmaṇā sassatavādā sassataṁ attānañca lokañca paññapenti catūhi vatthūhi, tadapi tesaṁ bhavataṁ samaṇabrāhmaṇānaṁ ajānataṁ apassataṁ vedayitaṁ taṇhāgatānaṁ paritassitavipphanditameva. ",
+            "de": "Nun sind diese Dinge bloß das Gefühl derer, die nicht erkennen und sehen, die <span class=\"ebt-matched\">Bangigkeit</span> und das Ausweichmanöver derer, die im Bann der Begierde stehen: Wenn diese Asketen und Brahmanen auf vier Grundlagen behaupten, das Selbst und das Weltall seien ewig … ",
+            "en": "Now, these things are only the feeling of those who do not know or see, the anxiety and evasiveness of those under the sway of craving. Namely, when those ascetics and brahmins assert that the self and the cosmos are eternal on four grounds … ",
+            "matched": true
+          },
+          "dn1:3.44.1": {
+            "scid": "dn1:3.44.1",
+            "pli": "Tatra, bhikkhave, ye te samaṇabrāhmaṇā pubbantakappikā ca aparantakappikā ca pubbantāparantakappikā ca pubbantāparantānudiṭṭhino pubbantāparantaṁ ārabbha anekavihitāni adhimuttipadāni abhivadanti dvāsaṭṭhiyā vatthūhi, tadapi tesaṁ bhavataṁ samaṇabrāhmaṇānaṁ ajānataṁ apassataṁ vedayitaṁ taṇhāgatānaṁ paritassitavipphanditameva. ",
+            "de": "wenn sie auf diesen 62 Grundlagen verschiedene Hypothesen bezüglich der Vergangenheit und der Zukunft postulieren, dann sind diese Dinge bloß das Gefühl derer, die nicht erkennen und sehen, die <span class=\"ebt-matched\">Bangigkeit</span> und das Ausweichmanöver derer, die im Bann der Begierde stehen. ",
+            "en": "When those ascetics and brahmins theorize about the past and the future on these sixty-two grounds, these things are only the feeling of those who do not know or see, the anxiety and evasiveness of those under the sway of craving. ",
+            "matched": true
+          }
+        },
+        "score": 3.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 1\nDas oberste Netz",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 662,
+          "de": 654,
+          "en": 661
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn22/sn22.43_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/sn/sn22/sn22.43_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/sn/sn22/sn22.43_translation-en-sujato.json"
@@ -325,38 +371,6 @@
           "pli": 100,
           "de": 57,
           "en": 99
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/dn/dn1_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/dn/dn1_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/dn/dn1_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "dn1",
-        "lang": "de",
-        "segMap": {
-          "dn1:3.32.0.2": {
-            "scid": "dn1:3.32.0.2",
-            "pli": "4.1. Paritassitavipphanditavāra ",
-            "de": "4.1. <span class=\"ebt-matched\">Bangigkeit</span> und Ausweichmanöver ",
-            "en": "4.1. Anxiety and Evasiveness ",
-            "matched": true
-          }
-        },
-        "score": 1.002,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Lange Lehrreden 1\nDas Hauptnetz",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 662,
-          "de": 163,
-          "en": 661
         }
       }
     ]

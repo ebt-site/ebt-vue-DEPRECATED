@@ -32,7 +32,7 @@
     "pattern": "weltall sich zusammenzieht",
     "method": "phrase",
     "resultPattern": "\\bweltall sich zusammenzieht",
-    "segsMatched": 7,
+    "segsMatched": 9,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an10/an10.29_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.29_translation-de-sabbamitta.json",
@@ -42,12 +42,16 @@
       "translation/en/sujato/sutta/dn/dn27_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn24_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn24_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn24_translation-en-sujato.json"
+      "translation/en/sujato/sutta/dn/dn24_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn1_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an10.29/de/sabbamitta",
       "dn27/de/sabbamitta",
-      "dn24/de/sabbamitta"
+      "dn24/de/sabbamitta",
+      "dn1/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -133,6 +137,45 @@
           "pli": 323,
           "de": 269,
           "en": 322
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn1",
+        "lang": "de",
+        "segMap": {
+          "dn1:2.2.1": {
+            "scid": "dn1:2.2.1",
+            "pli": "Hoti kho so, bhikkhave, samayo, yaṁ kadāci karahaci dīghassa addhuno accayena ayaṁ loko saṁvaṭṭati. ",
+            "de": "Es kommt eine Zeit, nachdem eine sehr lange Zeitspanne vergangen ist, da dieses <span class=\"ebt-matched\">Weltall sich zusammenzieht</span>. ",
+            "en": "There comes a time when, after a very long period has passed, this cosmos contracts. ",
+            "matched": true
+          },
+          "dn1:2.2.2": {
+            "scid": "dn1:2.2.2",
+            "pli": "Saṁvaṭṭamāne loke yebhuyyena sattā ābhassarasaṁvattanikā honti. ",
+            "de": "Wenn das <span class=\"ebt-matched\">Weltall sich zusammenzieht</span>, gehen die Lebewesen zumeist zum Bereich des strahlenden Glanzes. ",
+            "en": "As the cosmos contracts, sentient beings are mostly headed for the realm of streaming radiance. ",
+            "matched": true
+          }
+        },
+        "score": 2.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 1\nDas oberste Netz",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 662,
+          "de": 654,
+          "en": 661
         }
       },
       {

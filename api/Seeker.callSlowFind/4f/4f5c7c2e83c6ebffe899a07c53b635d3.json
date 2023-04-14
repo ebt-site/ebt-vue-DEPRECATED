@@ -32,7 +32,7 @@
     "pattern": "kanal zur wiedergeburt",
     "method": "phrase",
     "resultPattern": "\\bkanal zur wiedergeburt",
-    "segsMatched": 18,
+    "segsMatched": 20,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn23/sn23.3_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn23/sn23.3_translation-de-sabbamitta.json",
@@ -46,6 +46,9 @@
       "root/pli/ms/sutta/kn/iti/vagga5/iti44_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/iti/vagga5/iti44_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/iti/vagga5/iti44_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn1_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thig/thig1.11_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thig/thig1.11_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thig/thig1.11_translation-en-sujato.json",
@@ -74,6 +77,7 @@
       "dn16/de/sabbamitta",
       "sn56.21/de/sabbamitta",
       "iti44/de/sabbamitta",
+      "dn1/de/sabbamitta",
       "thig1.11/de/sabbamitta",
       "thag20.1/de/sabbamitta",
       "thag15.1/de/sabbamitta",
@@ -258,6 +262,45 @@
           "pli": 32,
           "de": 31,
           "en": 30
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn1",
+        "lang": "de",
+        "segMap": {
+          "dn1:3.73.1": {
+            "scid": "dn1:3.73.1",
+            "pli": "Ucchinnabhavanettiko, bhikkhave, tathāgatassa kāyo tiṭṭhati. ",
+            "de": "Der Körper des Klargewordenen besteht fort, aber sein <span class=\"ebt-matched\">Kanal zur Wiedergeburt</span> wurde abgeschnitten. ",
+            "en": "The Realized One’s body remains, but his conduit to rebirth has been cut off. ",
+            "matched": true
+          },
+          "dn1:3.73.5": {
+            "scid": "dn1:3.73.5",
+            "pli": "evameva kho, bhikkhave, ucchinnabhavanettiko tathāgatassa kāyo tiṭṭhati, ",
+            "de": "Ebenso besteht der Körper des Klargewordenen fort, aber sein <span class=\"ebt-matched\">Kanal zur Wiedergeburt</span> wurde abgeschnitten. ",
+            "en": "In the same way, the Realized One’s body remains, but his conduit to rebirth has been cut off. ",
+            "matched": true
+          }
+        },
+        "score": 2.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 1\nDas oberste Netz",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 662,
+          "de": 654,
+          "en": 661
         }
       },
       {

@@ -32,7 +32,7 @@
     "pattern": "wesen ohne wahrnehmung",
     "method": "phrase",
     "resultPattern": "\\bwesen ohne wahrnehmung",
-    "segsMatched": 5,
+    "segsMatched": 6,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
@@ -43,6 +43,9 @@
       "root/pli/ms/sutta/dn/dn24_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn24_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn24_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn1_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn15_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn15_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn15_translation-en-sujato.json",
@@ -54,6 +57,7 @@
       "dn34/de/sabbamitta",
       "dn33/de/sabbamitta",
       "dn24/de/sabbamitta",
+      "dn1/de/sabbamitta",
       "dn15/de/sabbamitta",
       "an9.24/de/sabbamitta"
     ],
@@ -120,6 +124,38 @@
           "pli": 277,
           "de": 254,
           "en": 276
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn1",
+        "lang": "de",
+        "segMap": {
+          "dn1:2.31.1": {
+            "scid": "dn1:2.31.1",
+            "pli": "Santi, bhikkhave, asaññasattā nāma devā. ",
+            "de": "Es gibt Götter mit Namen ‚<span class=\"ebt-matched\">Wesen ohne Wahrnehmung</span>‘. ",
+            "en": "There are gods named ‘non-percipient beings’. ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 1\nDas oberste Netz",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 662,
+          "de": 654,
+          "en": 661
         }
       },
       {

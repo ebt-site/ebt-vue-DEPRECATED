@@ -30,93 +30,45 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "gehört, dass jemand eine solche",
-    "method": "phrase",
-    "resultPattern": "\\bgehört, dass jemand eine solche",
-    "segsMatched": 3,
+    "method": "keywords",
+    "resultPattern": "\\bgehört,|\\bdass|\\bjemand|\\beine|\\bsolche",
+    "segsMatched": 0,
     "bilaraPaths": [
-      "root/pli/ms/sutta/an/an6/an6.38_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an6/an6.38_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an6/an6.38_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/dn/dn23_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn23_translation-en-sujato.json"
+      "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.178_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an5/an5.178_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an5/an5.178_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn19_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn19_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn19_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn17_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn17_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn17_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn21_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn21_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn21_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn25_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn25_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn25_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag21.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag21.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag21.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn42/sn42.13_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn42/sn42.13_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn42/sn42.13_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn42/sn42.2_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn42/sn42.2_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn42/sn42.2_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn42/sn42.3_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn42/sn42.3_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn42/sn42.3_translation-en-sujato.json"
     ],
-    "suttaRefs": [
-      "an6.38/de/sabbamitta",
-      "dn23/de/sabbamitta"
-    ],
-    "mlDocs": [
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/an/an6/an6.38_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/an/an6/an6.38_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/an/an6/an6.38_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "an6.38",
-        "lang": "de",
-        "segMap": {
-          "an6.38:1.5": {
-            "scid": "an6.38:1.5",
-            "pli": "“Māhaṁ, brāhmaṇa, evaṁvādiṁ evaṁdiṭṭhiṁ addasaṁ vā assosiṁ vā. ",
-            "de": "„Nun, Brahmane, ich habe nie gesehen oder <span class=\"ebt-matched\">gehört, dass jemand eine solche</span> Doktrin, eine solche Ansicht vertrat. ",
-            "en": "“Brahmin, may I never see or hear of anyone holding such a doctrine or view! ",
-            "matched": true
-          },
-          "an6.38:4.1": {
-            "scid": "an6.38:4.1",
-            "pli": "Māhaṁ, brāhmaṇa, evaṁvādiṁ evaṁdiṭṭhiṁ addasaṁ vā assosiṁ vā. ",
-            "de": "Nun, Brahmane, ich habe nie gesehen oder <span class=\"ebt-matched\">gehört, dass jemand eine solche</span> Doktrin, eine solche Ansicht vertrat. ",
-            "en": "Brahmin, may I never see or hear of anyone holding such a doctrine or view! ",
-            "matched": true
-          }
-        },
-        "score": 2.067,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Nummerierte Lehrreden 6.38\n4. Das Kapitel über Gottheiten\nDer eigene Wille",
-        "segsMatched": 2,
-        "langSegs": {
-          "pli": 30,
-          "de": 29,
-          "en": 29
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/dn/dn23_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/dn/dn23_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "dn23",
-        "lang": "de",
-        "segMap": {
-          "dn23:5.4": {
-            "scid": "dn23:5.4",
-            "pli": "“Nāhaṁ, rājañña, evaṁvādiṁ evaṁdiṭṭhiṁ addasaṁ vā assosiṁ vā. ",
-            "de": "„Nun, Stammesfürst, ich habe nie gesehen oder <span class=\"ebt-matched\">gehört, dass jemand eine solche</span> Doktrin, eine solche Ansicht vertrat. ",
-            "en": "“Chieftain, may I never see or hear of anyone holding such a doctrine or view! ",
-            "matched": true
-          }
-        },
-        "score": 1.001,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Lange Lehrreden 23\nMit Pāyāsi",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 715,
-          "de": 636,
-          "en": 713
-        }
-      }
-    ]
+    "suttaRefs": [],
+    "mlDocs": []
   }
 }

@@ -32,7 +32,7 @@
     "pattern": "das ist friedvoll",
     "method": "phrase",
     "resultPattern": "\\bdas ist friedvoll",
-    "segsMatched": 18,
+    "segsMatched": 19,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an9/an9.36_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an9/an9.36_translation-de-sabbamitta.json",
@@ -46,6 +46,9 @@
       "root/pli/ms/sutta/kn/iti/vagga5/iti49_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/iti/vagga5/iti49_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/iti/vagga5/iti49_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn1_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.32_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.32_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.32_translation-en-sujato.json",
@@ -76,6 +79,7 @@
       "an11.7/de/sabbamitta",
       "an10.60/de/sabbamitta",
       "iti49/de/sabbamitta",
+      "dn1/de/sabbamitta",
       "an3.32/de/sabbamitta",
       "an11.8/de/sabbamitta",
       "an11.21/de/sabbamitta",
@@ -510,6 +514,38 @@
           "pli": 148,
           "de": 146,
           "en": 147
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn1",
+        "lang": "de",
+        "segMap": {
+          "dn1:3.16.4": {
+            "scid": "dn1:3.16.4",
+            "pli": "Atthi kho, bho, añño attā sabbaso ākiñcaññāyatanaṁ samatikkamma “santametaṁ paṇītametan”ti nevasaññānāsaññāyatanūpago. ",
+            "de": "Es gibt ein anderes Selbst, das die Dimension des Nichts vollständig überstiegen hat. Im Wissen: „<span class=\"ebt-matched\">das ist friedvoll</span>, das ist erhaben“ wird es in der Dimension wiedergeboren, die weder Wahrnehmung noch keine Wahrnehmung hat. ",
+            "en": "There is another self that has gone totally beyond the dimension of nothingness. Aware that “this is peaceful, this is sublime”, it’s been reborn in the dimension of neither perception nor non-perception. ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 1\nDas oberste Netz",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 662,
+          "de": 654,
+          "en": 661
         }
       }
     ]

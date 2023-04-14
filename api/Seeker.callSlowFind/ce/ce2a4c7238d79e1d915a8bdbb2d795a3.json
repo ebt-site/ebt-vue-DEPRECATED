@@ -32,8 +32,11 @@
     "pattern": "ohne wahrnehmung",
     "method": "phrase",
     "resultPattern": "\\bohne wahrnehmung",
-    "segsMatched": 32,
+    "segsMatched": 39,
     "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn1_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn35/sn35.248_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn35/sn35.248_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.248_translation-en-sujato.json",
@@ -73,9 +76,6 @@
       "root/pli/ms/sutta/dn/dn24_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn24_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn24_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn1_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/dn/dn1_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn1_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn15_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn15_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn15_translation-en-sujato.json",
@@ -99,6 +99,7 @@
       "translation/en/sujato/sutta/an/an10/an10.15_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "dn1/de/sabbamitta",
       "sn35.248/de/sabbamitta",
       "sn45.139/de/sabbamitta",
       "sn22.47/de/sabbamitta",
@@ -112,7 +113,6 @@
       "dn33/de/sabbamitta",
       "dn28/de/sabbamitta",
       "dn24/de/sabbamitta",
-      "dn1/de/sabbamitta",
       "dn15/de/sabbamitta",
       "an9.37/de/sabbamitta",
       "an9.24/de/sabbamitta",
@@ -122,6 +122,87 @@
       "an10.15/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn1",
+        "lang": "de",
+        "segMap": {
+          "dn1:2.31.1": {
+            "scid": "dn1:2.31.1",
+            "pli": "Santi, bhikkhave, asaññasattā nāma devā. ",
+            "de": "Es gibt Götter mit Namen ‚Wesen <span class=\"ebt-matched\">ohne Wahrnehmung</span>‘. ",
+            "en": "There are gods named ‘non-percipient beings’. ",
+            "matched": true
+          },
+          "dn1:3.1.0": {
+            "scid": "dn1:3.1.0",
+            "pli": "3.2.2. Asaññīvāda ",
+            "de": "3.2.2. Leben nach dem Tod <span class=\"ebt-matched\">ohne Wahrnehmung</span> ",
+            "en": "3.2.2. Non-Percipient Life After Death ",
+            "matched": true
+          },
+          "dn1:3.1.1": {
+            "scid": "dn1:3.1.1",
+            "pli": "Santi, bhikkhave, eke samaṇabrāhmaṇā uddhamāghātanikā asaññīvādā uddhamāghātanaṁ asaññiṁ attānaṁ paññapenti aṭṭhahi vatthūhi. ",
+            "de": "Es gibt manche Asketen und Brahmanen, die sagen, es gebe ein Leben nach dem Tod, und die auf acht Grundlagen behaupten, das Selbst lebe nach dem Tod weiter und sei <span class=\"ebt-matched\">ohne Wahrnehmung</span>. ",
+            "en": "There are some ascetics and brahmins who say there is life after death, and assert that the self lives on after death in a non-percipient form on eight grounds. ",
+            "matched": true
+          },
+          "dn1:3.2.1": {
+            "scid": "dn1:3.2.1",
+            "pli": "‘Rūpī attā hoti arogo paraṁ maraṇā asaññī’ti naṁ paññapenti. ",
+            "de": "Sie behaupten: ‚Das Selbst ist nach dem Tod heil und <span class=\"ebt-matched\">ohne Wahrnehmung</span>, und es besitzt Form … ",
+            "en": "They assert: ‘The self is well and non-percipient after death, and it has form … ",
+            "matched": true
+          },
+          "dn1:3.3.1": {
+            "scid": "dn1:3.3.1",
+            "pli": "Imehi kho te, bhikkhave, samaṇabrāhmaṇā uddhamāghātanikā asaññīvādā uddhamāghātanaṁ asaññiṁ attānaṁ paññapenti aṭṭhahi vatthūhi. ",
+            "de": "Das sind die acht Grundlagen, auf denen manche Asketen und Brahmanen, die sagen, es gebe ein Leben nach dem Tod, behaupten, das Selbst lebe nach dem Tod weiter und sei <span class=\"ebt-matched\">ohne Wahrnehmung</span>. ",
+            "en": "These are the eight grounds on which those ascetics and brahmins assert that the self lives on after death in a non-percipient form. ",
+            "matched": true
+          },
+          "dn1:3.3.2": {
+            "scid": "dn1:3.3.2",
+            "pli": "Ye hi keci, bhikkhave, samaṇā vā brāhmaṇā vā uddhamāghātanikā asaññīvādā uddhamāghātanaṁ asaññiṁ attānaṁ paññapenti, sabbe te imeheva aṭṭhahi vatthūhi, etesaṁ vā aññatarena, natthi ito bahiddhā … ",
+            "de": "Jeder Asket oder Brahmane, der behauptet, das Selbst lebe nach dem Tod weiter und sei <span class=\"ebt-matched\">ohne Wahrnehmung</span>, tut das auf der einen oder anderen dieser acht Grundlagen. Außerhalb davon gibt es keine. ",
+            "en": "Any ascetics and brahmins who assert that the self lives on after death in a non-percipient form do so on one or other of these eight grounds. Outside of this there is none. ",
+            "matched": true
+          },
+          "dn1:3.39.1": {
+            "scid": "dn1:3.39.1",
+            "pli": "Tatra, bhikkhave, ye te samaṇabrāhmaṇā uddhamāghātanikā asaññīvādā uddhamāghātanaṁ asaññiṁ attānaṁ paññapenti aṭṭhahi vatthūhi, tadapi tesaṁ bhavataṁ samaṇabrāhmaṇānaṁ ajānataṁ apassataṁ vedayitaṁ taṇhāgatānaṁ paritassitavipphanditameva. ",
+            "de": "wenn sie auf acht Grundlagen behaupten, das Selbst lebe nach dem Tod weiter und sei <span class=\"ebt-matched\">ohne Wahrnehmung</span> … ",
+            "en": "or that the self lives on after death in a non-percipient form on eight grounds … ",
+            "matched": true
+          },
+          "dn1:3.52.1": {
+            "scid": "dn1:3.52.1",
+            "pli": "Tatra, bhikkhave, ye te samaṇabrāhmaṇā uddhamāghātanikā asaññīvādā uddhamāghātanaṁ asaññiṁ attānaṁ paññapenti aṭṭhahi vatthūhi, tadapi phassapaccayā. ",
+            "de": "wenn sie auf acht Grundlagen behaupten, das Selbst lebe nach dem Tod weiter und sei <span class=\"ebt-matched\">ohne Wahrnehmung</span> … ",
+            "en": "or that the self lives on after death in a non-percipient form on eight grounds … ",
+            "matched": true
+          }
+        },
+        "score": 8.012,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 1\nDas oberste Netz",
+        "segsMatched": 8,
+        "langSegs": {
+          "pli": 662,
+          "de": 654,
+          "en": 661
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn35/sn35.248_root-pli-ms.json",
@@ -694,7 +775,7 @@
           "dn28:16.6": {
             "scid": "dn28:16.6",
             "pli": "Api ca yasmiṁ yasmiṁ attabhāve abhinivuṭṭhapubbo hoti yadi vā rūpīsu yadi vā arūpīsu yadi vā saññīsu yadi vā asaññīsu yadi vā nevasaññīnāsaññīsu. ",
-            "de": "Ganz gleich, in welcher Verkörperung sie zuvor geboren worden sind – materiell oder formlos, mit Wahrnehmung oder <span class=\"ebt-matched\">ohne Wahrnehmung</span> oder weder mit noch <span class=\"ebt-matched\">ohne Wahrnehmung</span> – ",
+            "de": "Ganz gleich, in welcher Verkörperung sie zuvor geboren worden sind – mit Form oder formlos, mit Wahrnehmung oder <span class=\"ebt-matched\">ohne Wahrnehmung</span> oder weder mit noch <span class=\"ebt-matched\">ohne Wahrnehmung</span> – ",
             "en": "Still, no matter what incarnation they have previously been reborn in—whether physical or formless or percipient or non-percipient or neither percipient nor non-percipient—",
             "matched": true
           }
@@ -741,38 +822,6 @@
           "pli": 239,
           "de": 229,
           "en": 238
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/dn/dn1_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/dn/dn1_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/dn/dn1_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "dn1",
-        "lang": "de",
-        "segMap": {
-          "dn1:3.1.0": {
-            "scid": "dn1:3.1.0",
-            "pli": "3.2.2. Asaññīvāda ",
-            "de": "3.2.2. Leben <span class=\"ebt-matched\">ohne Wahrnehmung</span> nach dem Tod ",
-            "en": "3.2.2. Non-Percipient Life After Death ",
-            "matched": true
-          }
-        },
-        "score": 1.002,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Lange Lehrreden 1\nDas Hauptnetz",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 662,
-          "de": 163,
-          "en": 661
         }
       },
       {
