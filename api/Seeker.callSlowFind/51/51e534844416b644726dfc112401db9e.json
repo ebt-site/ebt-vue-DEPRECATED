@@ -32,16 +32,52 @@
     "pattern": "bei der besten angekommen",
     "method": "phrase",
     "resultPattern": "\\bbei der besten angekommen",
-    "segsMatched": 1,
+    "segsMatched": 2,
     "bilaraPaths": [
       "root/pli/ms/sutta/kn/thag/thag21.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag21.1_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/kn/thag/thag21.1_translation-en-sujato.json"
+      "translation/en/sujato/sutta/kn/thag/thag21.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag1.9_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag1.9_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag1.9_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "thag21.1/de/sabbamitta"
+      "thag21.1/de/sabbamitta",
+      "thag1.9/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag1.9_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag1.9_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag1.9_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag1.9",
+        "lang": "de",
+        "segMap": {
+          "thag1.9:1.4": {
+            "scid": "thag1.9:1.4",
+            "pli": "Yaṁ seṭṭhaṁ tadupāgamin”ti. ",
+            "de": "bin ich <span class=\"ebt-matched\">bei der besten angekommen</span>. ",
+            "en": "I arrived at the best. ",
+            "matched": true
+          }
+        },
+        "score": 1.111,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 1.9\nDas Einerbuch\n1. Das erste Kapitel\nPilindavaccha",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 9,
+          "de": 9,
+          "en": 9
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/kn/thag/thag21.1_root-pli-ms.json",

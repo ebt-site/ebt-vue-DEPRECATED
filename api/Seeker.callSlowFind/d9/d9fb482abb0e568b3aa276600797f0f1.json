@@ -32,7 +32,7 @@
     "pattern": "schwer zu sehen",
     "method": "phrase",
     "resultPattern": "\\bschwer zu sehen",
-    "segsMatched": 16,
+    "segsMatched": 17,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn1_translation-de-sabbamitta.json",
@@ -60,6 +60,9 @@
       "translation/de/sabbamitta/sutta/kn/thig/thig3.5_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thig/thig3.5_translation-en-sujato.json",
       "translation/en/soma/sutta/kn/thig/thig3.5_translation-en-soma.json",
+      "root/pli/ms/sutta/kn/thag/thag1.4_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag1.4_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag1.4_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/snp/vagga4/snp4.15_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/snp/vagga4/snp4.15_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/snp/vagga4/snp4.15_translation-en-sujato.json"
@@ -73,6 +76,7 @@
       "ud8.2/de/sabbamitta",
       "thig6.1/de/sabbamitta",
       "thig3.5/de/sabbamitta",
+      "thag1.4/de/sabbamitta",
       "snp4.15/de/sabbamitta"
     ],
     "mlDocs": [
@@ -219,6 +223,38 @@
           "pli": 851,
           "de": 691,
           "en": 850
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag1.4_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag1.4_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag1.4_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag1.4",
+        "lang": "de",
+        "segMap": {
+          "thag1.4:1.6": {
+            "scid": "thag1.4:1.6",
+            "pli": "appamattā vicakkhaṇā”ti. ",
+            "de": "<span class=\"ebt-matched\">schwer zu sehen</span>, subtil und erlesen. ",
+            "en": "hard to see, subtle, and fine. ",
+            "matched": true
+          }
+        },
+        "score": 1.091,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 1.4\nDas Einerbuch\n1. Das erste Kapitel\nPuṇṇa (1)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 11,
+          "de": 11,
+          "en": 11
         }
       },
       {
