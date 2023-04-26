@@ -1,0 +1,115 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "ein pfahlhaus an dem platz im zentrum",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "ein pfahlhaus an dem platz im zentrum",
+    "method": "phrase",
+    "resultPattern": "\\bein pfahlhaus an dem platz im zentrum",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn10_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn10_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn10_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "dn2/de/sabbamitta",
+      "dn10/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn10_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn10_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn10_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn10",
+        "lang": "de",
+        "segMap": {
+          "dn10:2.33.1": {
+            "scid": "dn10:2.33.1",
+            "pli": "Seyyathāpi, māṇava, majjhesiṅghāṭake pāsādo, tattha cakkhumā puriso ṭhito passeyya manusse gehaṁ pavisantepi nikkhamantepi rathikāyapi vīthiṁ sañcarante majjhesiṅghāṭake nisinnepi. Tassa evamassa: ‘ete manussā gehaṁ pavisanti, ete nikkhamanti, ete rathikāya vīthiṁ sañcaranti, ete majjhesiṅghāṭake nisinnā’ti. ",
+            "de": "Wie wenn <span class=\"ebt-matched\">ein Pfahlhaus an dem Platz im Zentrum</span> stünde. Ein Mensch mit gutem Sehvermögen, der darauf stünde, könnte sehen, wie Menschen ein Haus betreten oder verlassen, wie sie über die Straßen und Wege gehen und an dem Platz im Zentrum sitzen. Er dächte: ‚Diese Menschen betreten ein Haus oder verlassen es, gehen über die Straßen und Wege und sitzen an dem Platz im Zentrum.‘ ",
+            "en": "Suppose there was a stilt longhouse at the central square. A person with good eyesight standing there might see people entering and leaving a house, walking along the streets and paths, and sitting at the central square. They’d think: ‘These are people entering and leaving a house, walking along the streets and paths, and sitting at the central square.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 10\nMit Subha",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 285,
+          "de": 227,
+          "en": 227
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn2",
+        "lang": "de",
+        "segMap": {
+          "dn2:96.1": {
+            "scid": "dn2:96.1",
+            "pli": "Seyyathāpi, mahārāja, majjhe siṅghāṭake pāsādo. Tattha cakkhumā puriso ṭhito passeyya manusse gehaṁ pavisantepi nikkhamantepi rathikāyapi vīthiṁ sañcarante majjhe siṅghāṭake nisinnepi. Tassa evamassa: ‘ete manussā gehaṁ pavisanti, ete nikkhamanti, ete rathikāya vīthiṁ sañcaranti, ete majjhe siṅghāṭake nisinnā’ti. ",
+            "de": "Wie wenn <span class=\"ebt-matched\">ein Pfahlhaus an dem Platz im Zentrum</span> stünde. Ein Mensch mit gutem Sehvermögen, der darauf stünde, könnte sehen, wie Menschen ein Haus betreten oder verlassen, wie sie über die Straßen und Wege gehen und an dem Platz im Zentrum sitzen. Er dächte: ‚Diese Menschen betreten ein Haus oder verlassen es, gehen über die Straßen und Wege und sitzen an dem Platz im Zentrum.‘ ",
+            "en": "Suppose there was a stilt longhouse at the central square. A person with good eyesight standing there might see people entering and leaving a house, walking along the streets and paths, and sitting at the central square. They’d think: ‘These are people entering and leaving a house, walking along the streets and paths, and sitting at the central square.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 2\nDie Früchte des Asketenlebens",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 650,
+          "de": 589,
+          "en": 633
+        }
+      }
+    ]
+  }
+}
