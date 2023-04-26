@@ -32,7 +32,7 @@
     "pattern": "wiedergeburtsklassen",
     "method": "phrase",
     "resultPattern": "\\bwiedergeburtsklassen",
-    "segsMatched": 14,
+    "segsMatched": 16,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an6/an6.57_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.57_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/sn/sn24/sn24.7_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn24/sn24.7_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn24/sn24.7_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn24/sn24.8_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn24/sn24.8_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn24/sn24.8_translation-en-sujato.json",
@@ -50,6 +53,7 @@
     "suttaRefs": [
       "an6.57/de/sabbamitta",
       "sn24.7/de/sabbamitta",
+      "dn2/de/sabbamitta",
       "sn24.8/de/sabbamitta",
       "dn33/de/sabbamitta"
     ],
@@ -190,6 +194,45 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn2",
+        "lang": "de",
+        "segMap": {
+          "dn2:20.6": {
+            "scid": "dn2:20.6",
+            "pli": "Sabbe sattā sabbe pāṇā sabbe bhūtā sabbe jīvā avasā abalā avīriyā niyatisaṅgatibhāvapariṇatā chasvevābhijātīsu sukhadukkhaṁ paṭisaṁvedenti. ",
+            "de": "Alle Lebewesen, alle lebenden Geschöpfe, alle Wesen, alle Seelen sind ohne Kontrolle, Kraft oder Energie. Vom Schicksal, den Umständen und der Natur getrieben, erfahren sie in den sechs <span class=\"ebt-matched\">Wiedergeburtsklassen</span> Glück und Schmerz. ",
+            "en": "All sentient beings, all living creatures, all beings, all souls lack control, power, and energy. Molded by destiny, circumstance, and nature, they experience pleasure and pain in the six classes of rebirth. ",
+            "matched": true
+          },
+          "dn2:20.7": {
+            "scid": "dn2:20.7",
+            "pli": "Cuddasa kho panimāni yonipamukhasatasahassāni saṭṭhi ca satāni cha ca satāni pañca ca kammuno satāni pañca ca kammāni tīṇi ca kammāni kamme ca aḍḍhakamme ca dvaṭṭhipaṭipadā dvaṭṭhantarakappā chaḷābhijātiyo aṭṭha purisabhūmiyo ekūnapaññāsa ājīvakasate ekūnapaññāsa paribbājakasate ekūnapaññāsa nāgāvāsasate vīse indriyasate tiṁse nirayasate chattiṁsa rajodhātuyo satta saññīgabbhā satta asaññīgabbhā satta nigaṇṭhigabbhā satta devā satta mānusā satta pisācā satta sarā satta pavuṭā satta pavuṭasatāni satta papātā satta papātasatāni satta supinā satta supinasatāni cullāsīti mahākappino satasahassāni, yāni bāle ca paṇḍite ca sandhāvitvā saṁsaritvā dukkhassantaṁ karissanti. ",
+            "de": "Es gibt 1,4 Millionen Haupt-Mutterleibe und 6000 und 600. Es gibt 500 Taten und fünf und drei. Es gibt ganze Taten und halbe Taten. Es gibt 62 Pfade, 62 Unterzeiträume eines Äons, sechs <span class=\"ebt-matched\">Wiedergeburtsklassen</span> und acht Stufen im Leben eines Menschen. Es gibt 4900 Ājīvaka-Asketen, 4900 Wanderer und 4900 nackte Asketen. Es gibt 2000 Fähigkeiten, 3000 Höllen und 36 Staubbereiche. Es gibt sieben Embryonen mit Wahrnehmung, sieben Embryonen ohne Wahrnehmung und sieben Embryonen ohne Bindungen. Es gibt sieben Götter, sieben Menschen und sieben Kobolde. Es gibt sieben Seen, sieben Winde und 700 Winde, sieben Abgründe und 700 Abgründe. Es gibt sieben Träume und 700 Träume. Es gibt 8,4 Millionen große Äonen, durch die Toren und kluge Menschen umherwandern, bevor sie dem Leiden ein Ende machen. ",
+            "en": "There are 1.4 million main wombs, and 6,000, and 600. There are 500 deeds, and five, and three. There are deeds and half-deeds. There are 62 paths, 62 sub-eons, six classes of rebirth, and eight stages in a person’s life. There are 4,900 Ājīvaka ascetics, 4,900 wanderers, and 4,900 naked ascetics. There are 2,000 faculties, 3,000 hells, and 36 realms of dust. There are seven percipient embryos, seven non-percipient embryos, and seven embryos without attachments. There are seven gods, seven humans, and seven goblins. There are seven lakes, seven winds, 700 winds, seven cliffs, and 700 cliffs. There are seven dreams and 700 dreams. There are 8.4 million great eons through which the foolish and the astute transmigrate before making an end of suffering. ",
+            "matched": true
+          }
+        },
+        "score": 2.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 2\nDie Früchte des Asketenlebens",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 650,
+          "de": 589,
+          "en": 633
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn24/sn24.8_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/sn/sn24/sn24.8_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/sn/sn24/sn24.8_translation-en-sujato.json"
@@ -203,7 +246,7 @@
           "sn24.8:1.11": {
             "scid": "sn24.8:1.11",
             "pli": "Cuddasa kho panimāni yonipamukhasatasahassāni saṭṭhi ca satāni cha ca satāni pañca ca kammuno satāni pañca ca kammāni, tīṇi ca kammāni, kamme ca aḍḍhakamme ca dvaṭṭhipaṭipadā, dvaṭṭhantarakappā, chaḷābhijātiyo, aṭṭha purisabhūmiyo, ekūnapaññāsa ājīvakasate, ekūnapaññāsa paribbājakasate, ekūnapaññāsa nāgavāsasate, vīse indriyasate, tiṁse nirayasate, chattiṁsarajodhātuyo, satta saññīgabbhā, satta asaññīgabbhā, satta nigaṇṭhigabbhā, satta devā, satta mānusā, satta pesācā, satta sarā, satta pavuṭā, satta papātā, satta ca papātasatāni, satta supinā, satta supinasatāni, cullāsīti mahākappino satasahassāni, yāni bāle ca paṇḍite ca sandhāvitvā saṁsaritvā dukkhassantaṁ karissanti. ",
-            "de": "Es gibt 1,4 Millionen Haupt-Mutterleibe und 6.000 und 600. Es gibt 500 Taten und fünf und drei. Es gibt ganze Taten und halbe Taten. Es gibt 62 Pfade, 62 Unterzeiträume eines Äons, sechs <span class=\"ebt-matched\">Wiedergeburtsklassen</span> und acht Stufen im Leben eines Menschen. Es gibt 4.900 Ājīvaka-Asketen, 4.900 Wanderer und 4.900 nackte Asketen. Es gibt 2.000 Fähigkeiten, 3.000 Höllen und 36 Staubbereiche. Es gibt sieben Embryonen mit Wahrnehmung, sieben Embryonen ohne Wahrnehmung und sieben Embryonen ohne Bindungen. Es gibt sieben Götter, sieben Menschen und sieben Kobolde. Es gibt sieben Seen, sieben Winde, sieben Abgründe und 700 Abgründe. Es gibt sieben Träume und 700 Träume. Es gibt 8,4 Millionen große Äonen, durch die Toren und kluge Menschen umherwandern, bevor sie dem Leiden ein Ende machen. ",
+            "de": "Es gibt 1,4 Millionen Haupt-Mutterleibe und 6000 und 600. Es gibt 500 Taten und fünf und drei. Es gibt ganze Taten und halbe Taten. Es gibt 62 Pfade, 62 Unterzeiträume eines Äons, sechs <span class=\"ebt-matched\">Wiedergeburtsklassen</span> und acht Stufen im Leben eines Menschen. Es gibt 4900 Ājīvaka-Asketen, 4900 Wanderer und 4900 nackte Asketen. Es gibt 2000 Fähigkeiten, 3000 Höllen und 36 Staubbereiche. Es gibt sieben Embryonen mit Wahrnehmung, sieben Embryonen ohne Wahrnehmung und sieben Embryonen ohne Bindungen. Es gibt sieben Götter, sieben Menschen und sieben Kobolde. Es gibt sieben Seen, sieben Winde, sieben Abgründe und 700 Abgründe. Es gibt sieben Träume und 700 Träume. Es gibt 8,4 Millionen große Äonen, durch die Toren und kluge Menschen umherwandern, bevor sie dem Leiden ein Ende machen. ",
             "en": "There are 1.4 million main wombs, and 6,000, and 600. There are 500 deeds, and five, and three. There are deeds and half-deeds. There are 62 paths, 62 sub-eons, six classes of rebirth, and eight stages in a person’s life. There are 4,900 Ājīvaka ascetics, 4,900 wanderers, and 4,900 naked ascetics. There are 2,000 faculties, 3,000 hells, and 36 realms of dust. There are seven percipient embryos, seven non-percipient embryos, and seven embryos without attachments. There are seven gods, seven humans, and seven goblins. There are seven lakes, seven winds, seven cliffs, and 700 cliffs. There are seven dreams and 700 dreams. There are 8.4 million great eons through which the foolish and the astute transmigrate before making an end of suffering. ",
             "matched": true
           }

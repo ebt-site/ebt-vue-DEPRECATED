@@ -32,7 +32,7 @@
     "pattern": "erde, wasser, feuer und luft",
     "method": "phrase",
     "resultPattern": "\\berde, wasser, feuer und luft",
-    "segsMatched": 12,
+    "segsMatched": 13,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn55/sn55.17_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn55/sn55.17_translation-de-sabbamitta.json",
@@ -61,6 +61,9 @@
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an11/an11.9_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an11/an11.9_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an11/an11.9_translation-en-sujato.json"
@@ -75,6 +78,7 @@
       "sn14.37/de/sabbamitta",
       "sn14.30/de/sabbamitta",
       "dn33/de/sabbamitta",
+      "dn2/de/sabbamitta",
       "an11.9/de/sabbamitta"
     ],
     "mlDocs": [
@@ -378,6 +382,38 @@
           "pli": 76,
           "de": 48,
           "en": 75
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn2",
+        "lang": "de",
+        "segMap": {
+          "dn2:26.5": {
+            "scid": "dn2:26.5",
+            "pli": "Pathavikāyo, āpokāyo, tejokāyo, vāyokāyo, sukhe, dukkhe, jīve sattame—",
+            "de": "Die Stoffe <span class=\"ebt-matched\">Erde, Wasser, Feuer und Luft</span>; Schmerz, Glück und die Seele als siebter. ",
+            "en": "The substances of earth, water, fire, air; pleasure, pain, and the soul is the seventh. ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 2\nDie Früchte des Asketenlebens",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 650,
+          "de": 589,
+          "en": 633
         }
       },
       {

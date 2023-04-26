@@ -32,7 +32,7 @@
     "pattern": "einen gierigen geist",
     "method": "phrase",
     "resultPattern": "\\beinen gierigen geist",
-    "segsMatched": 14,
+    "segsMatched": 15,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn52/sn52.14_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn52/sn52.14_translation-de-sabbamitta.json",
@@ -49,6 +49,9 @@
       "root/pli/ms/sutta/mn/mn10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn10_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn10_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn22_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn22_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn22_translation-en-sujato.json",
@@ -83,6 +86,7 @@
       "sn16.9/de/sabbamitta",
       "sn12.70/de/sabbamitta",
       "mn10/de/sabbamitta",
+      "dn2/de/sabbamitta",
       "dn22/de/sabbamitta",
       "dn10/de/sabbamitta",
       "an9.35/de/sabbamitta",
@@ -508,6 +512,38 @@
           "pli": 235,
           "de": 204,
           "en": 233
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn2",
+        "lang": "de",
+        "segMap": {
+          "dn2:91.3": {
+            "scid": "dn2:91.3",
+            "pli": "sarāgaṁ vā cittaṁ ‘sarāgaṁ cittan’ti pajānāti, ",
+            "de": "Er erkennt <span class=\"ebt-matched\">einen gierigen Geist</span> als ‚gierigen Geist‘ ",
+            "en": "They understand mind with greed as ‘mind with greed’, ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 2\nDie Früchte des Asketenlebens",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 650,
+          "de": 589,
+          "en": 633
         }
       },
       {

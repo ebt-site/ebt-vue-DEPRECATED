@@ -32,7 +32,7 @@
     "pattern": "nimm meinen fehler",
     "method": "phrase",
     "resultPattern": "\\bnimm meinen fehler",
-    "segsMatched": 6,
+    "segsMatched": 7,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn12/sn12.70_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.70_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/mn/mn140_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn140_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn140_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn25_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn25_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn25_translation-en-sujato.json",
@@ -56,6 +59,7 @@
     "suttaRefs": [
       "sn12.70/de/sabbamitta",
       "mn140/de/sabbamitta",
+      "dn2/de/sabbamitta",
       "dn25/de/sabbamitta",
       "an9.11/de/sabbamitta",
       "an4.159/de/sabbamitta",
@@ -252,6 +256,38 @@
           "pli": 383,
           "de": 347,
           "en": 382
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn2",
+        "lang": "de",
+        "segMap": {
+          "dn2:99.7": {
+            "scid": "dn2:99.7",
+            "pli": "Tassa me, bhante bhagavā, accayaṁ accayato paṭiggaṇhātu āyatiṁ saṁvarāyā”ti. ",
+            "de": "Bitte, Herr, <span class=\"ebt-matched\">nimm meinen Fehler</span> als Fehler an, und ich will mich in Zukunft zügeln.“ ",
+            "en": "Please, sir, accept my mistake for what it is, so I will restrain myself in future.” ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 2\nDie Früchte des Asketenlebens",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 650,
+          "de": 589,
+          "en": 633
         }
       }
     ]

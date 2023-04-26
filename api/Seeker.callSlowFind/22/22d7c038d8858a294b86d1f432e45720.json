@@ -32,11 +32,14 @@
     "pattern": "ihr spiegelbild betrachten",
     "method": "phrase",
     "resultPattern": "\\bihr spiegelbild betrachten",
-    "segsMatched": 7,
+    "segsMatched": 8,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn22/sn22.83_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.83_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.83_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn10_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn10_translation-en-sujato.json",
@@ -58,6 +61,7 @@
     ],
     "suttaRefs": [
       "sn22.83/de/sabbamitta",
+      "dn2/de/sabbamitta",
       "dn10/de/sabbamitta",
       "an10.55/de/sabbamitta",
       "an10.54/de/sabbamitta",
@@ -288,6 +292,38 @@
           "pli": 285,
           "de": 227,
           "en": 227
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn2",
+        "lang": "de",
+        "segMap": {
+          "dn2:92.1": {
+            "scid": "dn2:92.1",
+            "pli": "Seyyathāpi, mahārāja, itthī vā puriso vā daharo yuvā maṇḍanajātiko ādāse vā parisuddhe pariyodāte acche vā udakapatte sakaṁ mukhanimittaṁ paccavekkhamāno sakaṇikaṁ vā ‘sakaṇikan’ti jāneyya, akaṇikaṁ vā ‘akaṇikan’ti jāneyya; ",
+            "de": "Wie eine Frau oder ein Mann, jung, jugendlich, in Schmuck vernarrt. Die Person würde in einem blanken Spiegel oder einer Schale klaren Wassers <span class=\"ebt-matched\">ihr Spiegelbild betrachten</span>. Wenn sie einen Fleck hätte, wüsste sie: ‚Ich habe einen Fleck‘, und wenn sie keinen Fleck hätte, wüsste sie: ‚Ich habe keinen Fleck.‘ ",
+            "en": "Suppose there was a woman or man who was young, youthful, and fond of adornments, and they check their own reflection in a clean bright mirror or a clear bowl of water. If they had a spot they’d know ‘I have a spot,’ and if they had no spots they’d know ‘I have no spots.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 2\nDie Früchte des Asketenlebens",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 650,
+          "de": 589,
+          "en": 633
         }
       }
     ]

@@ -32,7 +32,7 @@
     "pattern": "bauer",
     "method": "phrase",
     "resultPattern": "\\bbauer",
-    "segsMatched": 84,
+    "segsMatched": 87,
     "bilaraPaths": [
       "root/pli/ms/sutta/kn/snp/vagga1/snp1.4_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/snp/vagga1/snp1.4_translation-de-sabbamitta.json",
@@ -52,6 +52,9 @@
       "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn23_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn23_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.192_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.192_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.192_translation-en-sujato.json",
@@ -126,6 +129,7 @@
       "mn93/de/sabbamitta",
       "an3.92/de/sabbamitta",
       "dn23/de/sabbamitta",
+      "dn2/de/sabbamitta",
       "an5.192/de/sabbamitta",
       "an3.83/de/sabbamitta",
       "sn4.19/de/sabbamitta",
@@ -747,6 +751,52 @@
           "pli": 120,
           "de": 98,
           "en": 119
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn2",
+        "lang": "de",
+        "segMap": {
+          "dn2:37.5": {
+            "scid": "dn2:37.5",
+            "pli": "idha te assa puriso kassako gahapatiko karakārako rāsivaḍḍhako. ",
+            "de": "Angenommen, du hättest jemanden, der ein <span class=\"ebt-matched\">Bauer</span> wäre, ein Hausbesitzer, der hart arbeitet und sein Vermögen aufbaut. ",
+            "en": "Suppose you had a person who was a farmer, a householder, a hard worker, someone who builds up their capital. ",
+            "matched": true
+          },
+          "dn2:37.10": {
+            "scid": "dn2:37.10",
+            "pli": "Ahaṁ panamhissa kassako gahapatiko karakārako rāsivaḍḍhako. ",
+            "de": "während ich ein <span class=\"ebt-matched\">Bauer</span> bin, ein Hausbesitzer, der hart arbeitet und sein Vermögen aufbaut. ",
+            "en": "Whereas I’m a farmer, a householder, a hard worker, someone who builds up their capital. ",
+            "matched": true
+          },
+          "dn2:37.20": {
+            "scid": "dn2:37.20",
+            "pli": "‘etu me, bho, so puriso, punadeva hotu kassako gahapatiko karakārako rāsivaḍḍhako’”ti? ",
+            "de": "‚Bringt diesen Menschen zu mir! Er soll wieder ein <span class=\"ebt-matched\">Bauer</span> sein, ein Hausbesitzer, der hart arbeitet und sein Vermögen aufbaut!‘?“ ",
+            "en": "‘Bring that person to me! Let them once more be a farmer, a householder, a hard worker, someone who builds up their capital’?” ",
+            "matched": true
+          }
+        },
+        "score": 3.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 2\nDie Früchte des Asketenlebens",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 650,
+          "de": 589,
+          "en": 633
         }
       },
       {

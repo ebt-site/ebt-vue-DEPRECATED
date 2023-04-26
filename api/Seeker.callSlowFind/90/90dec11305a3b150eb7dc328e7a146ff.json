@@ -32,7 +32,7 @@
     "pattern": "unwürdige gespräche",
     "method": "phrase",
     "resultPattern": "\\bunwürdige gespräche",
-    "segsMatched": 9,
+    "segsMatched": 10,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn25_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn25_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/sn/sn56/sn56.10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn56/sn56.10_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn56/sn56.10_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn1_translation-en-sujato.json",
@@ -59,6 +62,7 @@
     "suttaRefs": [
       "dn25/de/sabbamitta",
       "sn56.10/de/sabbamitta",
+      "dn2/de/sabbamitta",
       "dn1/de/sabbamitta",
       "an10.94/de/sabbamitta",
       "an10.93/de/sabbamitta",
@@ -302,6 +306,38 @@
           "pli": 662,
           "de": 654,
           "en": 661
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn2",
+        "lang": "de",
+        "segMap": {
+          "dn2:52.1": {
+            "scid": "dn2:52.1",
+            "pli": "Yathā vā paneke bhonto samaṇabrāhmaṇā saddhādeyyāni bhojanāni bhuñjitvā te evarūpaṁ tiracchānakathaṁ anuyuttā viharanti. ",
+            "de": "Es gibt manche Asketen und Brahmanen, die Speisen genießen, die aus Vertrauen gespendet wurden, und gleichzeitig noch <span class=\"ebt-matched\">unwürdige Gespräche</span> betreiben: ",
+            "en": "There are some ascetics and brahmins who, while enjoying food given in faith, still engage in low talk. ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 2\nDie Früchte des Asketenlebens",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 650,
+          "de": 589,
+          "en": 633
         }
       }
     ]

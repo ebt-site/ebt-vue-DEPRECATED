@@ -32,7 +32,7 @@
     "pattern": "haare.* sträub",
     "method": "phrase",
     "resultPattern": "\\bhaare.* sträub",
-    "segsMatched": 29,
+    "segsMatched": 30,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn5/sn5.9_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn5/sn5.9_translation-de-sabbamitta.json",
@@ -88,6 +88,9 @@
       "root/pli/ms/sutta/kn/snp/vagga1/snp1.4_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/snp/vagga1/snp1.4_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/snp/vagga1/snp1.4_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn24_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn24_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn24_translation-en-sujato.json",
@@ -117,6 +120,7 @@
       "thag1.8/de/sabbamitta",
       "thag1.6/de/sabbamitta",
       "snp1.4/de/sabbamitta",
+      "dn2/de/sabbamitta",
       "dn24/de/sabbamitta",
       "dn21/de/sabbamitta",
       "dn19/de/sabbamitta"
@@ -752,6 +756,38 @@
           "pli": 70,
           "de": 70,
           "en": 70
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn2",
+        "lang": "de",
+        "segMap": {
+          "dn2:10.2": {
+            "scid": "dn2:10.2",
+            "pli": "Atha kho rañño māgadhassa ajātasattussa vedehiputtassa avidūre ambavanassa ahudeva bhayaṁ, ahu chambhitattaṁ, ahu lomahaṁso. ",
+            "de": "Doch als er sich dem Mangowäldchen näherte, wurde der König von Furcht und Entsetzen gepackt und seine <span class=\"ebt-matched\">Haare sträub</span>ten sich. ",
+            "en": "But as he drew near the mango grove, the king became frightened, scared, his hair standing on end. ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 2\nDie Früchte des Asketenlebens",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 650,
+          "de": 589,
+          "en": 633
         }
       },
       {

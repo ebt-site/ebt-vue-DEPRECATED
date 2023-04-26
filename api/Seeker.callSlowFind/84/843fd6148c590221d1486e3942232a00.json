@@ -32,8 +32,11 @@
     "pattern": "eine fleckenlose seligkeit",
     "method": "phrase",
     "resultPattern": "\\beine fleckenlose seligkeit",
-    "segsMatched": 3,
+    "segsMatched": 4,
     "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn10_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn10_translation-en-sujato.json",
@@ -45,6 +48,7 @@
       "translation/en/sujato/sutta/an/an10/an10.99_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "dn2/de/sabbamitta",
       "dn10/de/sabbamitta",
       "an4.198/de/sabbamitta",
       "an10.99/de/sabbamitta"
@@ -97,7 +101,7 @@
           "an10.99:20.9": {
             "scid": "an10.99:20.9",
             "pli": "So iminā ariyena indriyasaṁvarena samannāgato ajjhattaṁ abyāsekasukhaṁ paṭisaṁvedeti. ",
-            "de": "Wenn sie diese edle Zügelung der Sinne besitzt, erfährt sie im Innern <span class=\"ebt-matched\">eine fleckenlose Seligkeit</span>. ",
+            "de": "Wenn er diese edle Zügelung der Sinne besitzt, erfährt er im Innern <span class=\"ebt-matched\">eine fleckenlose Seligkeit</span>. ",
             "en": "When they have this noble sense restraint, they experience an unsullied bliss inside themselves. ",
             "matched": true
           }
@@ -144,6 +148,38 @@
           "pli": 285,
           "de": 227,
           "en": 227
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn2",
+        "lang": "de",
+        "segMap": {
+          "dn2:64.10": {
+            "scid": "dn2:64.10",
+            "pli": "So iminā ariyena indriyasaṁvarena samannāgato ajjhattaṁ abyāsekasukhaṁ paṭisaṁvedeti. ",
+            "de": "Wenn er diese edle Zügelung der Sinne besitzt, erfährt er im Innern <span class=\"ebt-matched\">eine fleckenlose Seligkeit</span>. ",
+            "en": "When they have this noble sense restraint, they experience an unsullied bliss inside themselves. ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 2\nDie Früchte des Asketenlebens",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 650,
+          "de": 589,
+          "en": 633
         }
       }
     ]

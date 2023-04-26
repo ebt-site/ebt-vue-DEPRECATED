@@ -32,7 +32,7 @@
     "pattern": "goldschmied",
     "method": "phrase",
     "resultPattern": "\\bgoldschmied",
-    "segsMatched": 10,
+    "segsMatched": 11,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an3/an3.102_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.102_translation-de-sabbamitta.json",
@@ -47,6 +47,9 @@
       "translation/de/sabbamitta/sutta/kn/thig/thig15.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thig/thig15.1_translation-en-sujato.json",
       "translation/en/soma/sutta/kn/thig/thig15.1_translation-en-soma.json",
+      "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn10_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn10_translation-en-sujato.json",
@@ -59,6 +62,7 @@
       "an3.101/de/sabbamitta",
       "mn140/de/sabbamitta",
       "thig15.1/de/sabbamitta",
+      "dn2/de/sabbamitta",
       "dn10/de/sabbamitta",
       "an5.23/de/sabbamitta"
     ],
@@ -282,6 +286,38 @@
           "pli": 239,
           "de": 229,
           "en": 238
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn2",
+        "lang": "de",
+        "segMap": {
+          "dn2:88.3": {
+            "scid": "dn2:88.3",
+            "pli": "Seyyathā vā pana, mahārāja, dakkho suvaṇṇakāro vā suvaṇṇakārantevāsī vā suparikammakatasmiṁ suvaṇṇasmiṁ yaṁ yadeva suvaṇṇavikatiṁ ākaṅkheyya, taṁ tadeva kareyya abhinipphādeyya. ",
+            "de": "Oder wie ein fachkundiger <span class=\"ebt-matched\">Goldschmied</span> oder <span class=\"ebt-matched\">Goldschmied</span>elehrling, der gut vorbereitetes Gold hätte: Er könnte daraus jeden goldenen Gegenstand herstellen, den er wollte. ",
+            "en": "Or suppose a deft goldsmith or their apprentice had some well-prepared gold. They could produce any kind of gold item that they like. ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 2\nDie Früchte des Asketenlebens",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 650,
+          "de": 589,
+          "en": 633
         }
       }
     ]
