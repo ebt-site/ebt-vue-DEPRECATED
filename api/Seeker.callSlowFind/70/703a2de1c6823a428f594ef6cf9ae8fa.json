@@ -32,7 +32,7 @@
     "pattern": "besser.* erlesener",
     "method": "phrase",
     "resultPattern": "\\bbesser.* erlesener",
-    "segsMatched": 30,
+    "segsMatched": 31,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
@@ -52,6 +52,9 @@
       "root/pli/ms/sutta/an/an10/an10.75_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.75_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an10/an10.75_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn3_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn3_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn3_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn15_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn15_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn15_translation-en-sujato.json",
@@ -72,6 +75,7 @@
       "dn25/de/sabbamitta",
       "an6.44/de/sabbamitta",
       "an10.75/de/sabbamitta",
+      "dn3/de/sabbamitta",
       "dn15/de/sabbamitta",
       "an5.106/de/sabbamitta",
       "an4.24/de/sabbamitta",
@@ -536,6 +540,38 @@
           "pli": 277,
           "de": 254,
           "en": 276
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn3_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn3_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn3_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn3",
+        "lang": "de",
+        "segMap": {
+          "dn3:2.2.23": {
+            "scid": "dn3:2.2.23",
+            "pli": "Imāya ca, ambaṭṭha, vijjāsampadāya caraṇasampadāya ca aññā vijjāsampadā ca caraṇasampadā ca uttaritarā vā paṇītatarā vā natthi. ",
+            "de": "Und, Ambaṭṭha, es gibt keine Vollendung im Wissen und Verhalten, die <span class=\"ebt-matched\">besser oder erlesener</span> wäre als diese. ",
+            "en": "And, Ambaṭṭha, there is no accomplishment in knowledge and conduct that is better or finer than this. ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 3\nMit Ambaṭṭha",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 437,
+          "de": 426,
+          "en": 436
         }
       }
     ]

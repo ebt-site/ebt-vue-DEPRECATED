@@ -32,7 +32,7 @@
     "pattern": "bauer",
     "method": "phrase",
     "resultPattern": "\\bbauer",
-    "segsMatched": 87,
+    "segsMatched": 89,
     "bilaraPaths": [
       "root/pli/ms/sutta/kn/snp/vagga1/snp1.4_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/snp/vagga1/snp1.4_translation-de-sabbamitta.json",
@@ -70,6 +70,9 @@
       "root/pli/ms/sutta/sn/sn3/sn3.24_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn3/sn3.24_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn3/sn3.24_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn3_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn3_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn3_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
@@ -135,6 +138,7 @@
       "sn4.19/de/sabbamitta",
       "sn42.7/de/sabbamitta",
       "sn3.24/de/sabbamitta",
+      "dn3/de/sabbamitta",
       "dn16/de/sabbamitta",
       "an8.44/de/sabbamitta",
       "an4.193/de/sabbamitta",
@@ -1031,6 +1035,45 @@
           "pli": 93,
           "de": 92,
           "en": 92
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn3_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn3_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn3_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn3",
+        "lang": "de",
+        "segMap": {
+          "dn3:1.14.4": {
+            "scid": "dn3:1.14.4",
+            "pli": "khattiyā brāhmaṇā vessā suddā. ",
+            "de": "die Adligen, die Brahmanen, die <span class=\"ebt-matched\">Bauer</span>n und die Hilfsarbeiter. ",
+            "en": "aristocrats, brahmins, peasants, and menials. ",
+            "matched": true
+          },
+          "dn3:1.14.6": {
+            "scid": "dn3:1.14.6",
+            "pli": "khattiyā ca vessā ca suddā ca—",
+            "de": "die Adligen, die <span class=\"ebt-matched\">Bauer</span>n und die Hilfsarbeiter, ",
+            "en": "aristocrats, peasants, and menials—",
+            "matched": true
+          }
+        },
+        "score": 2.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 3\nMit Ambaṭṭha",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 437,
+          "de": 426,
+          "en": 436
         }
       },
       {

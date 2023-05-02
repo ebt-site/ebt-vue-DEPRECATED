@@ -32,11 +32,14 @@
     "pattern": "kennzeichen",
     "method": "phrase",
     "resultPattern": "\\bkennzeichen",
-    "segsMatched": 96,
+    "segsMatched": 106,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn30_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn30_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn30_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn3_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn3_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn3_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn33_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn33_translation-en-sujato.json",
@@ -86,6 +89,7 @@
     ],
     "suttaRefs": [
       "dn30/de/sabbamitta",
+      "dn3/de/sabbamitta",
       "mn33/de/sabbamitta",
       "an11.17/de/sabbamitta",
       "an3.47/de/sabbamitta",
@@ -125,21 +129,21 @@
           "dn30:1.1.7": {
             "scid": "dn30:1.1.7",
             "pli": "“Dvattiṁsimāni, bhikkhave, mahāpurisassa mahāpurisalakkhaṇāni, yehi samannāgatassa mahāpurisassa dveva gatiyo bhavanti anaññā. ",
-            "de": "„Es gibt zweiunddreißig <span class=\"ebt-matched\">Kennzeichen</span> eines großen Mannes. Für einen großen Mann, der diese besitzt, gibt es zwei mögliche Schicksale, kein anderes. ",
+            "de": "„Es gibt 32 <span class=\"ebt-matched\">Kennzeichen</span> eines großen Mannes. Für einen großen Mann, der diese besitzt, gibt es zwei mögliche Schicksale, kein anderes. ",
             "en": "“There are thirty-two marks of a great man. A great man who possesses these has only two possible destinies, no other. ",
             "matched": true
           },
           "dn30:1.2.1": {
             "scid": "dn30:1.2.1",
             "pli": "Katamāni ca tāni, bhikkhave, dvattiṁsa mahāpurisassa mahāpurisalakkhaṇāni, yehi samannāgatassa mahāpurisassa dveva gatiyo bhavanti anaññā? ",
-            "de": "Und was sind die zweiunddreißig <span class=\"ebt-matched\">Kennzeichen</span>? ",
+            "de": "Und was sind die 32 <span class=\"ebt-matched\">Kennzeichen</span>? ",
             "en": "And what are the thirty-two marks? ",
             "matched": true
           },
           "dn30:1.3.1": {
             "scid": "dn30:1.3.1",
             "pli": "Imāni kho tāni, bhikkhave, dvattiṁsa mahāpurisassa mahāpurisalakkhaṇāni, yehi samannāgatassa mahāpurisassa dveva gatiyo bhavanti anaññā. ",
-            "de": "Das sind die zweiunddreißig <span class=\"ebt-matched\">Kennzeichen</span> eines großen Mannes. Für einen großen Mann, der diese besitzt, gibt es zwei mögliche Schicksale, kein anderes. ",
+            "de": "Das sind die 32 <span class=\"ebt-matched\">Kennzeichen</span> eines großen Mannes. Für einen großen Mann, der diese besitzt, gibt es zwei mögliche Schicksale, kein anderes. ",
             "en": "These are the thirty-two marks of a great man. A great man who possesses these has only two possible destinies, no other. ",
             "matched": true
           },
@@ -508,6 +512,101 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn3_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn3_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn3_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn3",
+        "lang": "de",
+        "segMap": {
+          "dn3:1.3.1": {
+            "scid": "dn3:1.3.1",
+            "pli": "Tena kho pana samayena brāhmaṇassa pokkharasātissa ambaṭṭho nāma māṇavo antevāsī hoti ajjhāyako mantadharo tiṇṇaṁ vedānaṁ pāragū sanighaṇḍukeṭubhānaṁ sākkharappabhedānaṁ itihāsapañcamānaṁ padako veyyākaraṇo lokāyatamahāpurisalakkhaṇesu anavayo anuññātapaṭiññāto sake ācariyake tevijjake pāvacane: ",
+            "de": "Nun hatte Pokkharasāti zu dieser Zeit einen Brahmanenschüler namens Ambaṭṭha. Er war einer, der die Hymnen aufsagte und im Gedächtnis hatte und der die drei Veden gemeistert hatte, zusammen mit ihrem Wortschatz, den Riten, den Lauten und der Ableitung der Wörter sowie dem Testament als fünftem. Er kannte die Sprachwissenschaft und die Grammatik und war mit der Kosmologie und mit den <span class=\"ebt-matched\">Kennzeichen</span> eines großen Mannes vertraut. Er war als Meister im geistlichen Erbes der drei Veden seines eigenen Lehrers legitimiert worden mit den Worten: ",
+            "en": "Now at that time Pokkharasāti had a student named Ambaṭṭha. He was one who recited and remembered the hymns, and had mastered in the three Vedas, together with their vocabularies, ritual, phonology and etymology, and the testament as fifth. He knew philology and grammar, and was well versed in cosmology and the marks of a great man. He had been authorized as a master in his own teacher’s scriptural heritage of the three Vedas with the words: ",
+            "matched": true
+          },
+          "dn3:1.5.2": {
+            "scid": "dn3:1.5.2",
+            "pli": "“Āgatāni kho, tāta ambaṭṭha, amhākaṁ mantesu dvattiṁsa mahāpurisalakkhaṇāni, yehi samannāgatassa mahāpurisassa dveyeva gatiyo bhavanti anaññā. ",
+            "de": "„Lieber Ambaṭṭha, die 32 <span class=\"ebt-matched\">Kennzeichen</span> eines großen Mannes wurden in unseren Hymnen überliefert. Für einen großen Mann, der diese besitzt, gibt es zwei mögliche Schicksale, kein anderes: ",
+            "en": "“Dear Ambaṭṭha, the thirty-two marks of a great man have been handed down in our hymns. A great man who possesses these has only two possible destinies, no other. ",
+            "matched": true
+          },
+          "dn3:2.11.0": {
+            "scid": "dn3:2.11.0",
+            "pli": "7. Dvelakkhaṇādassana ",
+            "de": "7. Die zwei <span class=\"ebt-matched\">Kennzeichen</span> sehen ",
+            "en": "7. Seeing the Two Marks ",
+            "matched": true
+          },
+          "dn3:2.11.3": {
+            "scid": "dn3:2.11.3",
+            "pli": "Atha kho ambaṭṭho māṇavo bhagavantaṁ caṅkamantaṁ anucaṅkamamāno bhagavato kāye dvattiṁsamahāpurisalakkhaṇāni samannesi. ",
+            "de": "Und während er neben dem Buddha herging, untersuchte Ambaṭṭha dessen Körper nach den 32 <span class=\"ebt-matched\">Kennzeichen</span> eines großen Mannes. ",
+            "en": "Then while walking beside the Buddha, Ambaṭṭha scrutinized his body for the thirty-two marks of a great man. ",
+            "matched": true
+          },
+          "dn3:2.12.2": {
+            "scid": "dn3:2.12.2",
+            "pli": "“passati kho me ayaṁ ambaṭṭho māṇavo dvattiṁsamahāpurisalakkhaṇāni yebhuyyena ṭhapetvā dve. ",
+            "de": "„Dieser Brahmanenschüler Ambaṭṭha sieht alle <span class=\"ebt-matched\">Kennzeichen</span> mit Ausnahme von zweien, ",
+            "en": "“This brahmin student Ambaṭṭha sees all the marks except for two, ",
+            "matched": true
+          },
+          "dn3:2.12.8": {
+            "scid": "dn3:2.12.8",
+            "pli": "“samannāgato kho samaṇo gotamo dvattiṁsamahāpurisalakkhaṇehi paripuṇṇehi, no aparipuṇṇehī”ti. ",
+            "de": "„Der Asket Gotama besitzt die 32 <span class=\"ebt-matched\">Kennzeichen</span> vollständig, es fehlt keins.“ ",
+            "en": "“The ascetic Gotama possesses the thirty-two marks completely, lacking none.” ",
+            "matched": true
+          },
+          "dn3:2.14.7": {
+            "scid": "dn3:2.14.7",
+            "pli": "Samannāgato ca so bhavaṁ gotamo dvattiṁsamahāpurisalakkhaṇehi paripuṇṇehi no aparipuṇṇehī”ti. ",
+            "de": "Meister Gotama besitzt die 32 <span class=\"ebt-matched\">Kennzeichen</span> vollständig, es fehlt keins.“ ",
+            "en": "Master Gotama possesses the thirty-two marks completely, lacking none.” ",
+            "matched": true
+          },
+          "dn3:2.18.1": {
+            "scid": "dn3:2.18.1",
+            "pli": "Atha kho brāhmaṇo pokkharasāti bhagavato kāye dvattiṁsamahāpurisalakkhaṇāni samannesi. ",
+            "de": "Dann untersuchte Pokkharasāti den Körper des Buddha nach den 32 <span class=\"ebt-matched\">Kennzeichen</span> eines großen Mannes. ",
+            "en": "Then Pokkharasāti scrutinized the Buddha’s body for the thirty-two marks of a great man. ",
+            "matched": true
+          },
+          "dn3:2.18.6": {
+            "scid": "dn3:2.18.6",
+            "pli": "“passati kho me ayaṁ brāhmaṇo pokkharasāti dvattiṁsamahāpurisalakkhaṇāni yebhuyyena ṭhapetvā dve. ",
+            "de": "„Pokkharasāti sieht alle <span class=\"ebt-matched\">Kennzeichen</span> mit Ausnahme von zweien, ",
+            "en": "“Pokkharasāti sees all the marks except for two, ",
+            "matched": true
+          },
+          "dn3:2.19.2": {
+            "scid": "dn3:2.19.2",
+            "pli": "“samannāgato kho samaṇo gotamo dvattiṁsamahāpurisalakkhaṇehi paripuṇṇehi no aparipuṇṇehī”ti. ",
+            "de": "„Der Asket Gotama besitzt die 32 <span class=\"ebt-matched\">Kennzeichen</span> vollständig, es fehlt keins.“ ",
+            "en": "“The ascetic Gotama possesses the thirty-two marks completely, lacking none.” ",
+            "matched": true
+          }
+        },
+        "score": 10.023,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 3\nMit Ambaṭṭha",
+        "segsMatched": 10,
+        "langSegs": {
+          "pli": 437,
+          "de": 426,
+          "en": 436
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an11/an11.17_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/an/an11/an11.17_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/an/an11/an11.17_translation-en-sujato.json"
@@ -810,7 +909,7 @@
           "dn14:1.31.7": {
             "scid": "dn14:1.31.7",
             "pli": "Ayañhi, deva, kumāro dvattiṁsamahāpurisalakkhaṇehi samannāgato, yehi samannāgatassa mahāpurisassa dveva gatiyo bhavanti anaññā. ",
-            "de": "Denn der Prinz besitzt die zweiunddreißig <span class=\"ebt-matched\">Kennzeichen</span> eines großen Mannes. Für einen großen Mann, der diese besitzt, gibt es zwei mögliche Schicksale, kein anderes. ",
+            "de": "Denn der Prinz besitzt die 32 <span class=\"ebt-matched\">Kennzeichen</span> eines großen Mannes. Für einen großen Mann, der diese besitzt, gibt es zwei mögliche Schicksale, kein anderes. ",
             "en": "For the prince has the thirty-two marks of a great man. A great man who possesses these has only two possible destinies, no other. ",
             "matched": true
           },
@@ -824,7 +923,7 @@
           "dn14:1.33.1": {
             "scid": "dn14:1.33.1",
             "pli": "Imehi kho ayaṁ, deva, kumāro dvattiṁsamahāpurisalakkhaṇehi samannāgato, yehi samannāgatassa mahāpurisassa dveva gatiyo bhavanti anaññā. ",
-            "de": "Das sind die zweiunddreißig <span class=\"ebt-matched\">Kennzeichen</span> eines großen Mannes, die der Prinz besitzt. Für einen großen Mann, der diese besitzt, gibt es zwei mögliche Schicksale, kein anderes. ",
+            "de": "Das sind die 32 <span class=\"ebt-matched\">Kennzeichen</span> eines großen Mannes, die der Prinz besitzt. Für einen großen Mann, der diese besitzt, gibt es zwei mögliche Schicksale, kein anderes. ",
             "en": "These are the thirty-two marks of a great man that the prince has. A great man who possesses these has only two possible destinies, no other. ",
             "matched": true
           }
@@ -856,14 +955,14 @@
           "dn1:1.21.2": {
             "scid": "dn1:1.21.2",
             "pli": "seyyathidaṁ—aṅgaṁ nimittaṁ uppātaṁ supinaṁ lakkhaṇaṁ mūsikacchinnaṁ aggihomaṁ dabbihomaṁ thusahomaṁ kaṇahomaṁ taṇḍulahomaṁ sappihomaṁ telahomaṁ mukhahomaṁ lohitahomaṁ aṅgavijjā vatthuvijjā khattavijjā sivavijjā bhūtavijjā bhūrivijjā ahivijjā visavijjā vicchikavijjā mūsikavijjā sakuṇavijjā vāyasavijjā pakkajjhānaṁ saraparittāṇaṁ migacakkaṁ ",
-            "de": "nämlich Deuten der Gliederform, Deuten von Vorzeichen, Deuten himmlischer Omen, Traumdeutung, Deuten körperlicher <span class=\"ebt-matched\">Kennzeichen</span>, Deuten der Knabberspuren von Mäusen, Feueropfer, Löffelopfer, Opfer von Spelzen, Reishäutchen, Reis, Ghee oder Öl, Opfer aus dem Mund, Blutopfer, Handlesen, Geomantik für Bauplätze, Felder und Friedhöfe, Teufelsaustreibungen, Erdmagie, Schlangenbeschwörung, Gift, die Wissenschaft von Skorpionen, Ratten, Vögeln und Krähen, Vorhersage der Lebensdauer, Aufsagen von Schutzversen und Deuten von Tierstimmen. ",
+            "de": "nämlich Deuten der Gliederform, Deuten von Vorzeichen, Aufspüren himmlischer Omen, Traumdeutung, Aufspüren körperlicher <span class=\"ebt-matched\">Kennzeichen</span>, Aufspüren von Löchern, die Mäuse in Stoff geknabbert haben, Feueropfer, Löffelopfer, Opfer von Spelzen, Reishäutchen, Reis, Ghee oder Öl, Opfer aus dem Mund, Blutopfer, Handlesen, Geomantik für Bauplätze, Felder und Friedhöfe, Teufelsaustreibungen, Erdmagie, Schlangenbeschwörung, Gift, die Wissenschaft vom Skorpion, von der Ratte, vom Vogel und von der Krähe, Vorhersage der Lebensdauer, Aufsagen von Schutzversen und Aufspüren von Vorzeichen von wilden Tieren. ",
             "en": "This includes such fields as limb-reading, omenology, divining celestial portents, interpreting dreams, divining bodily marks, divining holes in cloth gnawed by mice, fire offerings, ladle offerings, offerings of husks, rice powder, rice, ghee, or oil; offerings from the mouth, blood sacrifices, palmistry; geomancy for building sites, fields, and cemeteries; exorcisms, earth magic, snake charming, poisons; the crafts of the scorpion, the rat, the bird, and the crow; prophesying life span, chanting for protection, and deciphering animal cries. ",
             "matched": true
           },
           "dn1:1.22.2": {
             "scid": "dn1:1.22.2",
             "pli": "seyyathidaṁ—maṇilakkhaṇaṁ vatthalakkhaṇaṁ daṇḍalakkhaṇaṁ satthalakkhaṇaṁ asilakkhaṇaṁ usulakkhaṇaṁ dhanulakkhaṇaṁ āvudhalakkhaṇaṁ itthilakkhaṇaṁ purisalakkhaṇaṁ kumāralakkhaṇaṁ kumārilakkhaṇaṁ dāsalakkhaṇaṁ dāsilakkhaṇaṁ hatthilakkhaṇaṁ assalakkhaṇaṁ mahiṁsalakkhaṇaṁ usabhalakkhaṇaṁ golakkhaṇaṁ ajalakkhaṇaṁ meṇḍalakkhaṇaṁ kukkuṭalakkhaṇaṁ vaṭṭakalakkhaṇaṁ godhālakkhaṇaṁ kaṇṇikālakkhaṇaṁ kacchapalakkhaṇaṁ migalakkhaṇaṁ ",
-            "de": "nämlich dem Deuten der <span class=\"ebt-matched\">Kennzeichen</span> von Juwelen, Stoffen, Knüppeln, Schwertern, Speeren, Pfeilen, Waffen, Frauen, Männern, Jungen, Mädchen, leibeigenen Männern und Frauen, Elefanten, Pferden, Büffeln, Stieren, Kühen, Ziegen, Widdern, Hühnern, Wachteln, Waranen, Kaninchen, Schildkröten oder Rotwild. ",
+            "de": "nämlich dem Deuten der <span class=\"ebt-matched\">Kennzeichen</span> von Juwelen, Stoffen, Knüppeln, Schwertern, Speeren, Pfeilen, Waffen, Frauen, Männern, Jungen, Mädchen, abhängigen Dienern und Dienerinnen, Elefanten, Pferden, Büffeln, Stieren, Kühen, Ziegen, Widdern, Hühnern, Wachteln, Waranen, Kaninchen, Schildkröten oder Rotwild. ",
             "en": "This includes reading the marks of gems, cloth, clubs, swords, spears, arrows, weapons, women, men, boys, girls, male and female bondservants, elephants, horses, buffaloes, bulls, cows, goats, rams, chickens, quails, monitor lizards, rabbits, tortoises, or deer. ",
             "matched": true
           }
@@ -895,14 +994,14 @@
           "dn2:56.2": {
             "scid": "dn2:56.2",
             "pli": "Seyyathidaṁ—aṅgaṁ nimittaṁ uppātaṁ supinaṁ lakkhaṇaṁ mūsikacchinnaṁ aggihomaṁ dabbihomaṁ thusahomaṁ kaṇahomaṁ taṇḍulahomaṁ sappihomaṁ telahomaṁ mukhahomaṁ lohitahomaṁ aṅgavijjā vatthuvijjā khattavijjā sivavijjā bhūtavijjā bhūrivijjā ahivijjā visavijjā vicchikavijjā mūsikavijjā sakuṇavijjā vāyasavijjā pakkajjhānaṁ saraparittāṇaṁ migacakkaṁ ",
-            "de": "nämlich Deuten der Gliederform, Deuten von Vorzeichen, Deuten himmlischer Omen, Traumdeutung, Deuten körperlicher <span class=\"ebt-matched\">Kennzeichen</span>, Deuten der Knabberspuren von Mäusen, Feueropfer, Löffelopfer, Opfer von Spelzen, Reishäutchen, Reis, Ghee oder Öl, Opfer aus dem Mund, Blutopfer, Handlesen, Geomantik für Bauplätze, Felder und Friedhöfe, Teufelsaustreibungen, Erdmagie, Schlangenbeschwörung, Gift, die Wissenschaft von Skorpionen, Ratten, Vögeln und Krähen, Vorhersage der Lebensdauer, Aufsagen von Schutzversen und Deuten von Tierstimmen. ",
+            "de": "nämlich Deuten der Gliederform, Deuten von Vorzeichen, Aufspüren himmlischer Omen, Traumdeutung, Aufspüren körperlicher <span class=\"ebt-matched\">Kennzeichen</span>, Aufspüren von Löchern, die Mäuse in Stoff geknabbert haben, Feueropfer, Löffelopfer, Opfer von Spelzen, Reishäutchen, Reis, Ghee oder Öl, Opfer aus dem Mund, Blutopfer, Handlesen, Geomantik für Bauplätze, Felder und Friedhöfe, Teufelsaustreibungen, Erdmagie, Schlangenbeschwörung, Gift, die Wissenschaft vom Skorpion, von der Ratte, vom Vogel und von der Krähe, Vorhersage der Lebensdauer, Aufsagen von Schutzversen und Aufspüren von Vorzeichen von wilden Tieren. ",
             "en": "This includes such fields as limb-reading, omenology, divining celestial portents, interpreting dreams, divining bodily marks, divining holes in cloth gnawed by mice, fire offerings, ladle offerings, offerings of husks, rice powder, rice, ghee, or oil; offerings from the mouth, blood sacrifices, palmistry; geomancy for building sites, fields, and cemeteries; exorcisms, earth magic, snake charming, poisons; the crafts of the scorpion, the rat, the bird, and the crow; prophesying life span, chanting for protection, and deciphering animal cries. ",
             "matched": true
           },
           "dn2:57.2": {
             "scid": "dn2:57.2",
             "pli": "Seyyathidaṁ—maṇilakkhaṇaṁ vatthalakkhaṇaṁ daṇḍalakkhaṇaṁ satthalakkhaṇaṁ asilakkhaṇaṁ usulakkhaṇaṁ dhanulakkhaṇaṁ āvudhalakkhaṇaṁ itthilakkhaṇaṁ purisalakkhaṇaṁ kumāralakkhaṇaṁ kumārilakkhaṇaṁ dāsalakkhaṇaṁ dāsilakkhaṇaṁ hatthilakkhaṇaṁ assalakkhaṇaṁ mahiṁsalakkhaṇaṁ usabhalakkhaṇaṁ golakkhaṇaṁ ajalakkhaṇaṁ meṇḍalakkhaṇaṁ kukkuṭalakkhaṇaṁ vaṭṭakalakkhaṇaṁ godhālakkhaṇaṁ kaṇṇikalakkhaṇaṁ kacchapalakkhaṇaṁ migalakkhaṇaṁ ",
-            "de": "nämlich dem Deuten der <span class=\"ebt-matched\">Kennzeichen</span> von Juwelen, Stoffen, Knüppeln, Schwertern, Speeren, Pfeilen, Waffen, Frauen, Männern, Jungen, Mädchen, leibeigenen Männern und Frauen, Elefanten, Pferden, Büffeln, Stieren, Kühen, Ziegen, Widdern, Hühnern, Wachteln, Waranen, Kaninchen, Schildkröten oder Rotwild. ",
+            "de": "nämlich dem Deuten der <span class=\"ebt-matched\">Kennzeichen</span> von Juwelen, Stoffen, Knüppeln, Schwertern, Speeren, Pfeilen, Waffen, Frauen, Männern, Jungen, Mädchen, abhängige Diener und Dienerinnen, Elefanten, Pferden, Büffeln, Stieren, Kühen, Ziegen, Widdern, Hühnern, Wachteln, Waranen, Kaninchen, Schildkröten oder Rotwild. ",
             "en": "This includes reading the marks of gems, cloth, clubs, swords, spears, arrows, weapons, women, men, boys, girls, male and female bondservants, elephants, horses, buffaloes, bulls, cows, goats, rams, chickens, quails, monitor lizards, rabbits, tortoises, or deer. ",
             "matched": true
           }

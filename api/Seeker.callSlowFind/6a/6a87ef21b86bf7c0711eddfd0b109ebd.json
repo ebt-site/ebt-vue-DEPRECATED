@@ -32,7 +32,7 @@
     "pattern": "haare.* sträub",
     "method": "phrase",
     "resultPattern": "\\bhaare.* sträub",
-    "segsMatched": 30,
+    "segsMatched": 32,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn5/sn5.9_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn5/sn5.9_translation-de-sabbamitta.json",
@@ -58,6 +58,9 @@
       "root/pli/ms/sutta/sn/sn11/sn11.3_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn11/sn11.3_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn11/sn11.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn3_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn3_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn3_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn7/sn7.9_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn7/sn7.9_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn7/sn7.9_translation-en-sujato.json",
@@ -110,6 +113,7 @@
       "sn5.1/de/sabbamitta",
       "sn5.10/de/sabbamitta",
       "sn11.3/de/sabbamitta",
+      "dn3/de/sabbamitta",
       "sn7.9/de/sabbamitta",
       "sn4.6/de/sabbamitta",
       "sn4.3/de/sabbamitta",
@@ -436,6 +440,45 @@
           "pli": 51,
           "de": 51,
           "en": 51
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn3_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn3_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn3_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn3",
+        "lang": "de",
+        "segMap": {
+          "dn3:1.21.4": {
+            "scid": "dn3:1.21.4",
+            "pli": "Atha kho ambaṭṭho māṇavo bhīto saṁviggo lomahaṭṭhajāto bhagavantaṁyeva tāṇaṁ gavesī bhagavantaṁyeva leṇaṁ gavesī bhagavantaṁyeva saraṇaṁ gavesī upanisīditvā bhagavantaṁ etadavoca: ",
+            "de": "Ambaṭṭha war panisch und erschüttert und seine <span class=\"ebt-matched\">Haare sträub</span>ten sich. Indem er beim Buddha Schutz, Unterschlupf und Zuflucht suchte, setzte er sich nahe zu ihm und sagte: ",
+            "en": "Ambaṭṭha was terrified, shocked, and awestruck. Looking to the Buddha for shelter, protection, and refuge, he sat down close by the Buddha and said, ",
+            "matched": true
+          },
+          "dn3:1.23.21": {
+            "scid": "dn3:1.23.21",
+            "pli": "Atha kho tassa rājā okkāko bhīto saṁviggo lomahaṭṭhajāto brahmadaṇḍena tajjito maddarūpiṁ dhītaraṁ adāsi. ",
+            "de": "Da war der König panisch und erschüttert und seine <span class=\"ebt-matched\">Haare sträub</span>ten sich. Aus Furcht vor der Höchststrafe gab er die Hand seiner Tochter Maddarūpī. ",
+            "en": "Then the king was terrified, shocked, and awestruck. Scared by the prime punishment, he gave the hand of his daughter Maddarūpī. ",
+            "matched": true
+          }
+        },
+        "score": 2.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 3\nMit Ambaṭṭha",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 437,
+          "de": 426,
+          "en": 436
         }
       },
       {
