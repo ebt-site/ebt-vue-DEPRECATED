@@ -32,7 +32,7 @@
     "pattern": "besser.* erlesener",
     "method": "phrase",
     "resultPattern": "\\bbesser.* erlesener",
-    "segsMatched": 31,
+    "segsMatched": 32,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
@@ -52,6 +52,9 @@
       "root/pli/ms/sutta/an/an10/an10.75_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.75_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an10/an10.75_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn5_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn5_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn5_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn3_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn3_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn3_translation-en-sujato.json",
@@ -75,6 +78,7 @@
       "dn25/de/sabbamitta",
       "an6.44/de/sabbamitta",
       "an10.75/de/sabbamitta",
+      "dn5/de/sabbamitta",
       "dn3/de/sabbamitta",
       "dn15/de/sabbamitta",
       "an5.106/de/sabbamitta",
@@ -540,6 +544,38 @@
           "pli": 277,
           "de": 254,
           "en": 276
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn5_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn5_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn5_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn5",
+        "lang": "de",
+        "segMap": {
+          "dn5:27.16": {
+            "scid": "dn5:27.16",
+            "pli": "Imāya ca, brāhmaṇa, yaññasampadāya aññā yaññasampadā uttaritarā vā paṇītatarā vā natthī”ti. ",
+            "de": "Und, Brahmane, es gibt kein anderes Vollziehen eines Opfers, das <span class=\"ebt-matched\">besser oder erlesener</span> wäre als dieses.“ ",
+            "en": "And, brahmin, there is no other accomplishment of sacrifice which is better and finer than this.” ",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 5\nMit Kūṭadanta",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 374,
+          "de": 331,
+          "en": 373
         }
       },
       {

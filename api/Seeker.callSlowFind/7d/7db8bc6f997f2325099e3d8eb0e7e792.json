@@ -32,7 +32,7 @@
     "pattern": "ist es wirklich wahr",
     "method": "phrase",
     "resultPattern": "\\bist es wirklich wahr",
-    "segsMatched": 29,
+    "segsMatched": 31,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn26_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn26_translation-de-sabbamitta.json",
@@ -76,6 +76,12 @@
       "root/pli/ms/sutta/kn/ud/vagga2/ud2.10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga2/ud2.10_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/ud/vagga2/ud2.10_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn5_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn5_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn5_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn4_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn4_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn4_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn25_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn25_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn25_translation-en-sujato.json",
@@ -110,6 +116,8 @@
       "ud3.6/de/sabbamitta",
       "ud3.2/de/sabbamitta",
       "ud2.10/de/sabbamitta",
+      "dn5/de/sabbamitta",
+      "dn4/de/sabbamitta",
       "dn25/de/sabbamitta",
       "dn23/de/sabbamitta",
       "dn12/de/sabbamitta",
@@ -755,6 +763,70 @@
           "pli": 189,
           "de": 144,
           "en": 188
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn4_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn4_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn4_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn4",
+        "lang": "de",
+        "segMap": {
+          "dn4:4.5": {
+            "scid": "dn4:4.5",
+            "pli": "“saccaṁ kira bhavaṁ soṇadaṇḍo samaṇaṁ gotamaṁ dassanāya upasaṅkamissatī”ti? ",
+            "de": "„<span class=\"ebt-matched\">Ist es wirklich wahr</span>, dass du zum Asketen Gotama gehen willst, um ihn zu sehen?“ ",
+            "en": "“Is it really true that you are going to see the ascetic Gotama?” ",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 4\nMit Soṇadaṇḍa",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 297,
+          "de": 258,
+          "en": 296
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn5_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn5_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn5_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn5",
+        "lang": "de",
+        "segMap": {
+          "dn5:5.6": {
+            "scid": "dn5:5.6",
+            "pli": "“saccaṁ kira bhavaṁ kūṭadanto samaṇaṁ gotamaṁ dassanāya upasaṅkamissatī”ti? ",
+            "de": "„<span class=\"ebt-matched\">Ist es wirklich wahr</span>, dass du zum Asketen Gotama gehen willst, um ihn zu sehen?“ ",
+            "en": "“Is it really true that you are going to see the ascetic Gotama?” ",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 5\nMit Kūṭadanta",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 374,
+          "de": 331,
+          "en": 373
         }
       },
       {

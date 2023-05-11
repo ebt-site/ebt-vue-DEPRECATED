@@ -32,7 +32,7 @@
     "pattern": "gesichert",
     "method": "phrase",
     "resultPattern": "\\bgesichert",
-    "segsMatched": 17,
+    "segsMatched": 19,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an4/an4.72_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.72_translation-de-sabbamitta.json",
@@ -43,6 +43,9 @@
       "root/pli/ms/sutta/an/an3/an3.16_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.16_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.16_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn5_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn5_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn5_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.80_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.80_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.80_translation-en-sujato.json",
@@ -72,6 +75,7 @@
       "an4.72/de/sabbamitta",
       "an4.71/de/sabbamitta",
       "an3.16/de/sabbamitta",
+      "dn5/de/sabbamitta",
       "an4.80/de/sabbamitta",
       "an4.79/de/sabbamitta",
       "an4.78/de/sabbamitta",
@@ -218,6 +222,45 @@
           "pli": 25,
           "de": 24,
           "en": 24
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn5_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn5_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn5_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn5",
+        "lang": "de",
+        "segMap": {
+          "dn5:11.13": {
+            "scid": "dn5:11.13",
+            "pli": "Khemaṭṭhitā janapadā akaṇṭakā anuppīḷā. Manussā mudā modamānā ure putte naccentā apārutagharā maññe viharissantī’ti. ",
+            "de": "Wenn das Land als Schutzgebiet <span class=\"ebt-matched\">gesichert</span> ist, frei von Plünderung und Unterdrückung, sind die Menschen glücklich, mit Freude im Herzen, sie tanzen, während sie die Kinder an der Brust halten, und leben, als stünden ihre Häuser weit offen.‘ ",
+            "en": "When the country is secured as a sanctuary, free of being harried and oppressed, the happy people, with joy in their hearts, dancing with children at their breast, will dwell as if their houses were wide open.’ ",
+            "matched": true
+          },
+          "dn5:11.21": {
+            "scid": "dn5:11.21",
+            "pli": "Khemaṭṭhitā janapadā akaṇṭakā anuppīḷā manussā mudā modamānā ure putte naccentā apārutagharā maññe viharanti. ",
+            "de": "Da das Land als Schutzgebiet <span class=\"ebt-matched\">gesichert</span> ist, frei von Plünderung und Unterdrückung, sind die Menschen glücklich, mit Freude im Herzen, sie tanzen, während sie die Kinder an der Brust halten, und leben, als stünden ihre Häuser weit offen. ",
+            "en": "Since the country is secured as a sanctuary, free of being harried and oppressed, the happy people, with joy in their hearts, dancing with children at their breast, dwell as if their houses were wide open. ",
+            "matched": true
+          }
+        },
+        "score": 2.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 5\nMit Kūṭadanta",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 374,
+          "de": 331,
+          "en": 373
         }
       },
       {

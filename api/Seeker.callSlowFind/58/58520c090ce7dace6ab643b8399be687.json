@@ -32,8 +32,14 @@
     "pattern": "königliches gut",
     "method": "phrase",
     "resultPattern": "\\bkönigliches gut",
-    "segsMatched": 3,
+    "segsMatched": 5,
     "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn5_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn5_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn5_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn4_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn4_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn4_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn3_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn3_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn3_translation-en-sujato.json",
@@ -45,6 +51,8 @@
       "translation/en/sujato/sutta/dn/dn12_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "dn5/de/sabbamitta",
+      "dn4/de/sabbamitta",
       "dn3/de/sabbamitta",
       "dn23/de/sabbamitta",
       "dn12/de/sabbamitta"
@@ -80,6 +88,70 @@
           "pli": 189,
           "de": 144,
           "en": 188
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn4_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn4_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn4_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn4",
+        "lang": "de",
+        "segMap": {
+          "dn4:1.4": {
+            "scid": "dn4:1.4",
+            "pli": "Tena kho pana samayena soṇadaṇḍo brāhmaṇo campaṁ ajjhāvasati sattussadaṁ satiṇakaṭṭhodakaṁ sadhaññaṁ rājabhoggaṁ raññā māgadhena seniyena bimbisārena dinnaṁ rājadāyaṁ brahmadeyyaṁ. ",
+            "de": "Damals lebte der Brahmane Soṇadaṇḍa in Campā. Es war ein <span class=\"ebt-matched\">königliches Gut</span>, von König Seniya Bimbisāra von Magadha verliehen, das von Lebewesen wimmelte und reichlich Heu, Wald, Wasser und Getreide besaß, ein königlicher Park, der einem Brahmanen gewährt war. ",
+            "en": "Now at that time the brahmin Soṇadaṇḍa was living in Campā. It was a crown property given by King Seniya Bimbisāra of Magadha, teeming with living creatures, full of hay, wood, water, and grain, a royal park granted to a brahmin. ",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 4\nMit Soṇadaṇḍa",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 297,
+          "de": 258,
+          "en": 296
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn5_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn5_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn5_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn5",
+        "lang": "de",
+        "segMap": {
+          "dn5:1.4": {
+            "scid": "dn5:1.4",
+            "pli": "Tena kho pana samayena kūṭadanto brāhmaṇo khāṇumataṁ ajjhāvasati sattussadaṁ satiṇakaṭṭhodakaṁ sadhaññaṁ rājabhoggaṁ raññā māgadhena seniyena bimbisārena dinnaṁ rājadāyaṁ brahmadeyyaṁ. ",
+            "de": "Damals lebte der Brahmane Kūṭadanta in Khāṇumata. Es war ein <span class=\"ebt-matched\">königliches Gut</span>, von König Seniya Bimbisāra von Magadha verliehen, das von Lebewesen wimmelte und reichlich Heu, Wald, Wasser und Getreide besaß, ein königlicher Park, der einem Brahmanen gewährt war. ",
+            "en": "Now at that time the brahmin Kūṭadanta was living in Khāṇumata. It was a crown property given by King Seniya Bimbisāra of Magadha, teeming with living creatures, full of hay, wood, water, and grain, a royal park granted to a brahmin. ",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 5\nMit Kūṭadanta",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 374,
+          "de": 331,
+          "en": 373
         }
       },
       {

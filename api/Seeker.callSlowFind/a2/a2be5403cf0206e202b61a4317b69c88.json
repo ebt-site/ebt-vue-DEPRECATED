@@ -32,7 +32,7 @@
     "pattern": "gewürdigt, verehrt und wertgeschätzt",
     "method": "phrase",
     "resultPattern": "\\bgewürdigt, verehrt und wertgeschätzt",
-    "segsMatched": 19,
+    "segsMatched": 25,
     "bilaraPaths": [
       "root/pli/ms/sutta/kn/ud/vagga6/ud6.10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga6/ud6.10_translation-de-sabbamitta.json",
@@ -46,6 +46,12 @@
       "root/pli/ms/sutta/kn/ud/vagga2/ud2.4_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga2/ud2.4_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/ud/vagga2/ud2.4_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn5_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn5_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn5_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn4_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn4_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn4_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/ud/vagga3/ud3.8_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga3/ud3.8_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/ud/vagga3/ud3.8_translation-en-sujato.json",
@@ -61,6 +67,8 @@
       "sn12.70/de/sabbamitta",
       "ud4.8/de/sabbamitta",
       "ud2.4/de/sabbamitta",
+      "dn5/de/sabbamitta",
+      "dn4/de/sabbamitta",
       "ud3.8/de/sabbamitta",
       "sn35.132/de/sabbamitta",
       "ud1.10/de/sabbamitta"
@@ -269,6 +277,98 @@
           "pli": 73,
           "de": 60,
           "en": 60
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn4_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn4_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn4_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn4",
+        "lang": "de",
+        "segMap": {
+          "dn4:5.17": {
+            "scid": "dn4:5.17",
+            "pli": "Bhavañhi soṇadaṇḍo rañño māgadhassa seniyassa bimbisārassa sakkato garukato mānito pūjito apacito …pe… ",
+            "de": "Du bist geehrt, geachtet, <span class=\"ebt-matched\">gewürdigt, verehrt und wertgeschätzt</span> vom König Bimbisāra von Magadha … ",
+            "en": "You’re honored, respected, revered, venerated, and esteemed by King Bimbisāra of Magadha … ",
+            "matched": true
+          },
+          "dn4:6.25": {
+            "scid": "dn4:6.25",
+            "pli": "Samaṇo khalu, bho, gotamo catunnaṁ parisānaṁ sakkato garukato mānito pūjito apacito …pe… ",
+            "de": "Er wird von den vier Versammlungen geehrt, geachtet, <span class=\"ebt-matched\">gewürdigt, verehrt und wertgeschätzt</span>. … ",
+            "en": "He’s honored, respected, revered, venerated, and esteemed by the four assemblies. … ",
+            "matched": true
+          },
+          "dn4:6.33": {
+            "scid": "dn4:6.33",
+            "pli": "Samaṇo khalu, bho, gotamo rañño māgadhassa seniyassa bimbisārassa sakkato garukato mānito pūjito apacito …pe… ",
+            "de": "Er ist geehrt, geachtet, <span class=\"ebt-matched\">gewürdigt, verehrt und wertgeschätzt</span> vom König Bimbisāra von Magadha … ",
+            "en": "He’s honored, respected, revered, venerated, and esteemed by King Bimbisāra of Magadha … ",
+            "matched": true
+          }
+        },
+        "score": 3.01,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 4\nMit Soṇadaṇḍa",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 297,
+          "de": 258,
+          "en": 296
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn5_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn5_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn5_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn5",
+        "lang": "de",
+        "segMap": {
+          "dn5:6.17": {
+            "scid": "dn5:6.17",
+            "pli": "Bhavañhi kūṭadanto rañño māgadhassa seniyassa bimbisārassa sakkato garukato mānito pūjito apacito …pe… ",
+            "de": "Du bist geehrt, geachtet, <span class=\"ebt-matched\">gewürdigt, verehrt und wertgeschätzt</span> vom König Bimbisāra von Magadha … ",
+            "en": "You’re honored, respected, revered, venerated, and esteemed by King Bimbisāra of Magadha … ",
+            "matched": true
+          },
+          "dn5:7.25": {
+            "scid": "dn5:7.25",
+            "pli": "Samaṇo khalu, bho, gotamo catunnaṁ parisānaṁ sakkato garukato mānito pūjito apacito …pe… ",
+            "de": "Er wird von den vier Versammlungen geehrt, geachtet, <span class=\"ebt-matched\">gewürdigt, verehrt und wertgeschätzt</span>. … ",
+            "en": "He’s honored, respected, revered, venerated, and esteemed by the four assemblies. … ",
+            "matched": true
+          },
+          "dn5:7.33": {
+            "scid": "dn5:7.33",
+            "pli": "Samaṇo khalu, bho, gotamo rañño māgadhassa seniyassa bimbisārassa sakkato garukato mānito pūjito apacito …pe… ",
+            "de": "Er ist geehrt, geachtet, <span class=\"ebt-matched\">gewürdigt, verehrt und wertgeschätzt</span> vom König Bimbisāra von Magadha … ",
+            "en": "He’s honored, respected, revered, venerated, and esteemed by King Bimbisāra of Magadha … ",
+            "matched": true
+          }
+        },
+        "score": 3.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 5\nMit Kūṭadanta",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 374,
+          "de": 331,
+          "en": 373
         }
       },
       {
