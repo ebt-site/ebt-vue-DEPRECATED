@@ -31,19 +31,22 @@
     "pattern": "study",
     "method": "phrase",
     "resultPattern": "\\bstudy",
-    "segsMatched": 5,
+    "segsMatched": 6,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an5/an5.73_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an5/an5.73_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.192_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an5/an5.192_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/ud/vagga3/ud3.9_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/ud/vagga3/ud3.9_translation-en-sujato.json"
+      "translation/en/sujato/sutta/kn/ud/vagga3/ud3.9_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga4/snp4.14_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga4/snp4.14_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an5.73/en/sujato",
       "an5.192/en/sujato",
-      "ud3.9/en/sujato"
+      "ud3.9/en/sujato",
+      "snp4.14/en/sujato"
     ],
     "mlDocs": [
       {
@@ -143,6 +146,35 @@
         "langSegs": {
           "pli": 74,
           "en": 35
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga4/snp4.14_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga4/snp4.14_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp4.14",
+        "lang": "en",
+        "segMap": {
+          "snp4.14:13.3": {
+            "scid": "snp4.14:13.3",
+            "pli": "Virutañca gabbhakaraṇaṁ, ",
+            "en": "My followers would not <span class=\"ebt-matched\">study</span> ominous animal cries, ",
+            "matched": true
+          }
+        },
+        "score": 1.012,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses 4.14\nSpeedy",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 84,
+          "en": 83
         }
       }
     ]
