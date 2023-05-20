@@ -31,7 +31,7 @@
     "pattern": "cross.* the flood",
     "method": "phrase",
     "resultPattern": "\\bcross.* the flood",
-    "segsMatched": 45,
+    "segsMatched": 47,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn1/sn1.1_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.1_translation-en-sujato.json",
@@ -43,6 +43,8 @@
       "translation/en/sujato/sutta/kn/snp/vagga1/snp1.9_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn2/sn2.15_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn2/sn2.15_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn1/sn1.5_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn1/sn1.5_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn10/sn10.12_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn10/sn10.12_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn106_root-pli-ms.json",
@@ -101,6 +103,7 @@
       "snp5.8/en/sujato",
       "snp1.9/en/sujato",
       "sn2.15/en/sujato",
+      "sn1.5/en/sujato",
       "sn10.12/en/sujato",
       "mn106/en/sujato",
       "snp1.10/en/sujato",
@@ -317,6 +320,41 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn1/sn1.5_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn1/sn1.5_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn1.5",
+        "lang": "en",
+        "segMap": {
+          "sn1.5:2.4": {
+            "scid": "sn1.5:2.4",
+            "pli": "oghatiṇṇoti vuccatī”ti. ",
+            "en": "are they said to have <span class=\"ebt-matched\">crossed the flood</span>?” ",
+            "matched": true
+          },
+          "sn1.5:3.4": {
+            "scid": "sn1.5:3.4",
+            "pli": "oghatiṇṇoti vuccatī”ti. ",
+            "en": "they’re said to have <span class=\"ebt-matched\">crossed the flood</span>.” ",
+            "matched": true
+          }
+        },
+        "score": 2.154,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 1.5\n1. A Reed\nCut How Many?",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 13,
+          "en": 13
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn2/sn2.15_root-pli-ms.json",
           "translation/en/sujato/sutta/sn/sn2/sn2.15_translation-en-sujato.json"
         ],
@@ -499,7 +537,7 @@
           "thag1.15:1.4": {
             "scid": "thag1.15:1.4",
             "pli": "oghatiṇṇoti vuccatī”ti. ",
-            "en": "is called “One who has <span class=\"ebt-matched\">crossed the flood</span>”. ",
+            "en": "they’re said to have <span class=\"ebt-matched\">crossed the flood</span>. ",
             "matched": true
           }
         },
@@ -789,7 +827,7 @@
           "thag13.1:2.4": {
             "scid": "thag13.1:2.4",
             "pli": "oghatiṇṇoti vuccati. ",
-            "en": "is called “One who has <span class=\"ebt-matched\">crossed the flood</span>”. ",
+            "en": "they’re said to have <span class=\"ebt-matched\">crossed the flood</span>. ",
             "matched": true
           }
         },
@@ -876,7 +914,7 @@
           "dhp370:4": {
             "scid": "dhp370:4",
             "pli": "“oghatiṇṇo”ti vuccati. ",
-            "en": "is said to have <span class=\"ebt-matched\">crossed the flood</span>. ",
+            "en": "they’re said to have <span class=\"ebt-matched\">crossed the flood</span>. ",
             "matched": true
           }
         },
