@@ -32,8 +32,11 @@
     "pattern": "nur einen bissen",
     "method": "phrase",
     "resultPattern": "\\bnur einen bissen",
-    "segsMatched": 3,
+    "segsMatched": 4,
     "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn8_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn8_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn8_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn25_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn25_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn25_translation-en-sujato.json",
@@ -45,6 +48,7 @@
       "translation/en/sujato/sutta/an/an3/an3.156-162_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "dn8/de/sabbamitta",
       "dn25/de/sabbamitta",
       "an4.198/de/sabbamitta",
       "an3.156-162/de/sabbamitta"
@@ -106,12 +110,44 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Nummerierte Lehrreden 4.198\n20. Das große Kapitel\nSelbstquälerei",
+        "title": "Nummerierte Lehrreden 4.198\n20. Das große Kapitel\nInbrünstige Selbstkasteiung",
         "segsMatched": 1,
         "langSegs": {
           "pli": 111,
           "de": 110,
           "en": 110
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn8_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn8_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn8_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn8",
+        "lang": "de",
+        "segMap": {
+          "dn8:14.5": {
+            "scid": "dn8:14.5",
+            "pli": "So ekāgāriko vā hoti ekālopiko, dvāgāriko vā hoti dvālopiko … sattāgāriko vā hoti sattālopiko; ",
+            "de": "Man geht um Almosen nur zu einem Haus und nimmt <span class=\"ebt-matched\">nur einen Bissen</span>, oder zu zwei Häusern und zwei Bissen, bis zu sieben Häusern und sieben Bissen. ",
+            "en": "They go to just one house for alms, taking just one mouthful, or two houses and two mouthfuls, up to seven houses and seven mouthfuls. ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 8\nDas Löwengebrüll vor dem nackten Asketen Kassapa",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 252,
+          "de": 198,
+          "en": 251
         }
       },
       {

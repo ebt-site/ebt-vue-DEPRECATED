@@ -30,86 +30,11 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "unabhängig und frei, und könnte gehen",
-    "method": "phrase",
-    "resultPattern": "\\bunabhängig und frei, und könnte gehen",
-    "segsMatched": 2,
-    "bilaraPaths": [
-      "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn10_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/dn/dn10_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn10_translation-en-sujato.json"
-    ],
-    "suttaRefs": [
-      "dn2/de/sabbamitta",
-      "dn10/de/sabbamitta"
-    ],
-    "mlDocs": [
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/dn/dn10_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/dn/dn10_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/dn/dn10_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "dn10",
-        "lang": "de",
-        "segMap": {
-          "dn10:2.10.2": {
-            "scid": "dn10:2.10.2",
-            "pli": "So aparena samayena tamhā dāsabyā mucceyya, attādhīno aparādhīno bhujisso yenakāmaṅgamo. ",
-            "de": "Doch nach einiger Zeit würde er aus der Knechtschaft befreit und würde sein eigener Herr, <span class=\"ebt-matched\">unabhängig und frei, und könnte gehen</span>, wohin er wollte. ",
-            "en": "But after some time they’d be freed from servitude. They would be their own master, not indentured to another, an emancipated individual able to go where they wish. ",
-            "matched": true
-          }
-        },
-        "score": 1.004,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Lange Lehrreden 10\nMit Subha",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 285,
-          "de": 227,
-          "en": 227
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "dn2",
-        "lang": "de",
-        "segMap": {
-          "dn2:72.2": {
-            "scid": "dn2:72.2",
-            "pli": "So aparena samayena tamhā dāsabyā mucceyya attādhīno aparādhīno bhujisso yenakāmaṅgamo. ",
-            "de": "Doch nach einiger Zeit würde er aus der Knechtschaft befreit und würde sein eigener Herr, <span class=\"ebt-matched\">unabhängig und frei, und könnte gehen</span>, wohin er wollte. ",
-            "en": "But after some time they’d be freed from servitude. They would be their own master, not indentured to another, an emancipated individual able to go where they wish. ",
-            "matched": true
-          }
-        },
-        "score": 1.002,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Lange Lehrreden 2\nDie Früchte des Asketenlebens",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 650,
-          "de": 589,
-          "en": 633
-        }
-      }
-    ]
+    "method": "keywords",
+    "resultPattern": "\\bunabhängig|\\bund|\\bfrei,|\\bund|\\bkönnte|\\bgehen",
+    "segsMatched": 0,
+    "bilaraPaths": [],
+    "suttaRefs": [],
+    "mlDocs": []
   }
 }

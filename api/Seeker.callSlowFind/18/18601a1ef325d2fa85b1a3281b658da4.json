@@ -32,8 +32,11 @@
     "pattern": "von keiner seite etwas zu befürchten",
     "method": "phrase",
     "resultPattern": "\\bvon keiner seite etwas zu befürchten",
-    "segsMatched": 6,
+    "segsMatched": 9,
     "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn8_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn8_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn8_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json",
@@ -42,10 +45,57 @@
       "translation/en/sujato/sutta/dn/dn10_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "dn8/de/sabbamitta",
       "dn2/de/sabbamitta",
       "dn10/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn8_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn8_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn8_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn8",
+        "lang": "de",
+        "segMap": {
+          "dn8:19.5": {
+            "scid": "dn8:19.5",
+            "pli": "Sa kho so, kassapa, bhikkhu evaṁ sīlasampanno na kutoci bhayaṁ samanupassati, yadidaṁ sīlasaṁvarato. ",
+            "de": "Ein Mönch, der so das sittliche Verhalten vervollkommnet hat, hat in Bezug auf seine sittliche Zügelung <span class=\"ebt-matched\">von keiner Seite etwas zu befürchten</span>. ",
+            "en": "A mendicant thus accomplished in ethics sees no danger in any quarter in regards to their ethical restraint. ",
+            "matched": true
+          },
+          "dn8:19.6": {
+            "scid": "dn8:19.6",
+            "pli": "Seyyathāpi, kassapa, rājā khattiyo muddhāvasitto nihatapaccāmitto na kutoci bhayaṁ samanupassati, yadidaṁ paccatthikato; ",
+            "de": "Wie ein König, der seine Feinde besiegt hat: Er hat von seinen Feinden <span class=\"ebt-matched\">von keiner Seite etwas zu befürchten</span>. ",
+            "en": "It’s like a king who has defeated his enemies. He sees no danger from his foes in any quarter. ",
+            "matched": true
+          },
+          "dn8:19.7": {
+            "scid": "dn8:19.7",
+            "pli": "evameva kho, kassapa, bhikkhu evaṁ sīlasampanno na kutoci bhayaṁ samanupassati, yadidaṁ sīlasaṁvarato. ",
+            "de": "Ebenso hat ein Mönch, der so das sittliche Verhalten vervollkommnet hat, in Bezug auf seine sittliche Zügelung <span class=\"ebt-matched\">von keiner Seite etwas zu befürchten</span>. ",
+            "en": "In the same way, a mendicant thus accomplished in ethics sees no danger in any quarter in regards to their ethical restraint. ",
+            "matched": true
+          }
+        },
+        "score": 3.012,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 8\nDas Löwengebrüll vor dem nackten Asketen Kassapa",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 252,
+          "de": 198,
+          "en": 251
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/dn/dn10_root-pli-ms.json",

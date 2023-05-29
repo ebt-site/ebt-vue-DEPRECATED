@@ -32,7 +32,7 @@
     "pattern": "besser.* erlesener",
     "method": "phrase",
     "resultPattern": "\\bbesser.* erlesener",
-    "segsMatched": 32,
+    "segsMatched": 33,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
@@ -52,6 +52,9 @@
       "root/pli/ms/sutta/an/an10/an10.75_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.75_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an10/an10.75_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn8_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn8_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn8_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn5_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn5_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn5_translation-en-sujato.json",
@@ -78,6 +81,7 @@
       "dn25/de/sabbamitta",
       "an6.44/de/sabbamitta",
       "an10.75/de/sabbamitta",
+      "dn8/de/sabbamitta",
       "dn5/de/sabbamitta",
       "dn3/de/sabbamitta",
       "dn15/de/sabbamitta",
@@ -512,6 +516,38 @@
           "pli": 36,
           "de": 35,
           "en": 35
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn8_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn8_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn8_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn8",
+        "lang": "de",
+        "segMap": {
+          "dn8:20.7": {
+            "scid": "dn8:20.7",
+            "pli": "Imāya ca, kassapa, sīlasampadāya cittasampadāya paññāsampadāya aññā sīlasampadā cittasampadā paññāsampadā uttaritarā vā paṇītatarā vā natthi. ",
+            "de": "Und, Kassapa, es gibt keine Vervollkommnung des sittlichen Verhaltens, des Geistes und der Weisheit, die <span class=\"ebt-matched\">besser oder erlesener</span> wäre als diese. ",
+            "en": "And, Kassapa, there is no accomplishment in ethics, mind, and wisdom that is better or finer than this. ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 8\nDas Löwengebrüll vor dem nackten Asketen Kassapa",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 252,
+          "de": 198,
+          "en": 251
         }
       },
       {

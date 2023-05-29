@@ -32,8 +32,11 @@
     "pattern": "verzichtet auf stock und schwert",
     "method": "phrase",
     "resultPattern": "\\bverzichtet auf stock und schwert",
-    "segsMatched": 10,
+    "segsMatched": 11,
     "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn8_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn8_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn8_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json",
@@ -66,6 +69,7 @@
       "translation/en/sujato/sutta/an/an10/an10.176_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "dn8/de/sabbamitta",
       "dn2/de/sabbamitta",
       "dn1/de/sabbamitta",
       "dn10/de/sabbamitta",
@@ -262,7 +266,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Nummerierte Lehrreden 4.198\n20. Das große Kapitel\nSelbstquälerei",
+        "title": "Nummerierte Lehrreden 4.198\n20. Das große Kapitel\nInbrünstige Selbstkasteiung",
         "segsMatched": 1,
         "langSegs": {
           "pli": 111,
@@ -300,6 +304,38 @@
           "pli": 148,
           "de": 146,
           "en": 147
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn8_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn8_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn8_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn8",
+        "lang": "de",
+        "segMap": {
+          "dn8:18.6": {
+            "scid": "dn8:18.6",
+            "pli": "Idha, kassapa, bhikkhu pāṇātipātaṁ pahāya pāṇātipātā paṭivirato hoti nihitadaṇḍo nihitasattho lajjī dayāpanno, sabbapāṇabhūtahitānukampī viharati. ",
+            "de": "Da gibt ein Mönch das Töten lebender Geschöpfe auf und tötet nicht mehr. Er <span class=\"ebt-matched\">verzichtet auf Stock und Schwert</span>. Er ist gewissenhaft und gütig und lebt voller Anteilnahme für alle Lebewesen. ",
+            "en": "It’s when a mendicant gives up killing living creatures. They renounce the rod and the sword. They’re scrupulous and kind, living full of compassion for all living beings. ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 8\nDas Löwengebrüll vor dem nackten Asketen Kassapa",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 252,
+          "de": 198,
+          "en": 251
         }
       },
       {
@@ -358,7 +394,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Lange Lehrreden 1\nDas oberste Netz",
+        "title": "Lange Lehrreden 1\nDas Netz der Göttlichkeit",
         "segsMatched": 1,
         "langSegs": {
           "pli": 662,

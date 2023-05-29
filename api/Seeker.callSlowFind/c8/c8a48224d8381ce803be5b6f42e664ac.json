@@ -32,11 +32,14 @@
     "pattern": "der eigentümer",
     "method": "phrase",
     "resultPattern": "\\bder eigentümer",
-    "segsMatched": 6,
+    "segsMatched": 7,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an5/an5.57_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.57_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.57_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn5_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn5_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn5_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.161_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.161_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.161_translation-en-sujato.json",
@@ -46,6 +49,7 @@
     ],
     "suttaRefs": [
       "an5.57/de/sabbamitta",
+      "dn5/de/sabbamitta",
       "an5.161/de/sabbamitta",
       "an10.48/de/sabbamitta"
     ],
@@ -165,6 +169,38 @@
           "pli": 19,
           "de": 15,
           "en": 18
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn5_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn5_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn5_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn5",
+        "lang": "de",
+        "segMap": {
+          "dn5:21.14": {
+            "scid": "dn5:21.14",
+            "pli": "‘addhā samaṇo gotamo tena samayena rājā vā ahosi mahāvijito yaññassāmi purohito vā brāhmaṇo tassa yaññassa yājetā’ti. ",
+            "de": "dass der Asket Gotama damals der König Mahāvijita gewesen sein muss, <span class=\"ebt-matched\">der Eigentümer</span> des Opfers, oder der brahmanische Hohepriester, der das Opfer für ihn ermöglichte. ",
+            "en": "the ascetic Gotama at that time must have been King Mahāvijita, the owner of the sacrifice, or else the brahmin high priest who facilitated the sacrifice for him. ",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 5\nMit Kūṭadanta",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 374,
+          "de": 331,
+          "en": 373
         }
       }
     ]

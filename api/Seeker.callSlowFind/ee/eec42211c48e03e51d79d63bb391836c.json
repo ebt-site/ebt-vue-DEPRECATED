@@ -32,8 +32,11 @@
     "pattern": "glück, das ohne tadel ist",
     "method": "phrase",
     "resultPattern": "\\bglück, das ohne tadel ist",
-    "segsMatched": 4,
+    "segsMatched": 5,
     "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn8_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn8_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn8_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json",
@@ -48,6 +51,7 @@
       "translation/en/sujato/sutta/an/an10/an10.99_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "dn8/de/sabbamitta",
       "dn2/de/sabbamitta",
       "dn10/de/sabbamitta",
       "an4.198/de/sabbamitta",
@@ -78,7 +82,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Nummerierte Lehrreden 4.198\n20. Das große Kapitel\nSelbstquälerei",
+        "title": "Nummerierte Lehrreden 4.198\n20. Das große Kapitel\nInbrünstige Selbstkasteiung",
         "segsMatched": 1,
         "langSegs": {
           "pli": 111,
@@ -116,6 +120,38 @@
           "pli": 148,
           "de": 146,
           "en": 147
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn8_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn8_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn8_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn8",
+        "lang": "de",
+        "segMap": {
+          "dn8:19.8": {
+            "scid": "dn8:19.8",
+            "pli": "So iminā ariyena sīlakkhandhena samannāgato ajjhattaṁ anavajjasukhaṁ paṭisaṁvedeti. ",
+            "de": "Wenn er diesen ganzen Umfang der edlen Sittlichkeit besitzt, erfährt er im Innern ein <span class=\"ebt-matched\">Glück, das ohne Tadel ist</span>. ",
+            "en": "When they have this entire spectrum of noble ethics, they experience a blameless happiness inside themselves. ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 8\nDas Löwengebrüll vor dem nackten Asketen Kassapa",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 252,
+          "de": 198,
+          "en": 251
         }
       },
       {

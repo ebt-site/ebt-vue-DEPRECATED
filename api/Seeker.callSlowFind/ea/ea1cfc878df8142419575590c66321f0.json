@@ -32,8 +32,11 @@
     "pattern": "roben aus hanf",
     "method": "phrase",
     "resultPattern": "\\broben aus hanf",
-    "segsMatched": 4,
+    "segsMatched": 5,
     "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn8_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn8_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn8_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn25_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn25_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn25_translation-en-sujato.json",
@@ -48,6 +51,7 @@
       "translation/en/sujato/sutta/an/an3/an3.156-162_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "dn8/de/sabbamitta",
       "dn25/de/sabbamitta",
       "an4.198/de/sabbamitta",
       "an3.93/de/sabbamitta",
@@ -142,12 +146,44 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Nummerierte Lehrreden 4.198\n20. Das große Kapitel\nSelbstquälerei",
+        "title": "Nummerierte Lehrreden 4.198\n20. Das große Kapitel\nInbrünstige Selbstkasteiung",
         "segsMatched": 1,
         "langSegs": {
           "pli": 111,
           "de": 110,
           "en": 110
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn8_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn8_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn8_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn8",
+        "lang": "de",
+        "segMap": {
+          "dn8:14.11": {
+            "scid": "dn8:14.11",
+            "pli": "Sāṇānipi dhāreti, masāṇānipi dhāreti, chavadussānipi dhāreti, paṁsukūlānipi dhāreti, tirīṭānipi dhāreti, ajinampi dhāreti, ajinakkhipampi dhāreti, kusacīrampi dhāreti, vākacīrampi dhāreti, phalakacīrampi dhāreti, kesakambalampi dhāreti, vāḷakambalampi dhāreti, ulūkapakkhikampi dhāreti, ",
+            "de": "Man trägt <span class=\"ebt-matched\">Roben aus Hanf</span>, Hanf-Mischgewebe, Leichentuch, Lumpen, Baumrinde, Antilopenhaut, in Streifen geschnittener Antilopenhaut, Gewebe aus Kusagras, Rinden- oder Holzstückchen, Menschenhaar, Pferdehaar oder Eulenflügeln. ",
+            "en": "They wear robes of sunn hemp, mixed hemp, corpse-wrapping cloth, rags, lodh tree bark, antelope hide (whole or in strips), kusa grass, bark, wood-chips, human hair, horse-tail hair, or owls’ wings. ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 8\nDas Löwengebrüll vor dem nackten Asketen Kassapa",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 252,
+          "de": 198,
+          "en": 251
         }
       },
       {
