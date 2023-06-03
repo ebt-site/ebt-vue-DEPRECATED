@@ -32,11 +32,14 @@
     "pattern": "zum töten",
     "method": "phrase",
     "resultPattern": "\\bzum töten",
-    "segsMatched": 5,
+    "segsMatched": 6,
     "bilaraPaths": [
       "root/pli/ms/sutta/kn/iti/vagga3/iti27_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/iti/vagga3/iti27_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/iti/vagga3/iti27_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn25_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn25_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn25_translation-en-sujato.json",
@@ -52,6 +55,7 @@
     ],
     "suttaRefs": [
       "iti27/de/sabbamitta",
+      "dn2/de/sabbamitta",
       "dn25/de/sabbamitta",
       "an8.1/de/sabbamitta",
       "an4.264/de/sabbamitta",
@@ -216,6 +220,38 @@
           "pli": 383,
           "de": 347,
           "en": 382
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn2",
+        "lang": "de",
+        "segMap": {
+          "dn2:26.8": {
+            "scid": "dn2:26.8",
+            "pli": "Tattha natthi hantā vā ghātetā vā, sotā vā sāvetā vā, viññātā vā viññāpetā vā. ",
+            "de": "Und hier gibt es niemanden, der tötet oder andere <span class=\"ebt-matched\">zum Töten</span> anstiftet; niemanden, der lernt oder andere unterrichtet; niemanden, der versteht oder anderen hilft, zu verstehen. ",
+            "en": "And here there is no-one who kills or who makes others kill; no-one who learns or who educates others; no-one who understands or who helps others understand. ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 2\nDie Früchte des Asketenlebens",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 650,
+          "de": 589,
+          "en": 633
         }
       }
     ]

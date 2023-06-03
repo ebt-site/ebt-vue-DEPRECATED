@@ -32,7 +32,7 @@
     "pattern": "mitgenommen, leidend, schwer krank",
     "method": "phrase",
     "resultPattern": "\\bmitgenommen, leidend, schwer krank",
-    "segsMatched": 44,
+    "segsMatched": 47,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn55/sn55.54_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn55/sn55.54_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/sn/sn22/sn22.87_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.87_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.87_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn143_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn143_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn143_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn23_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn23_translation-en-sujato.json",
@@ -131,6 +134,7 @@
     "suttaRefs": [
       "sn55.54/de/sabbamitta",
       "sn22.87/de/sabbamitta",
+      "mn143/de/sabbamitta",
       "dn23/de/sabbamitta",
       "sn55.3/de/sabbamitta",
       "sn55.27/de/sabbamitta",
@@ -252,6 +256,52 @@
           "pli": 144,
           "de": 110,
           "en": 143
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn143_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn143_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn143_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn143",
+        "lang": "de",
+        "segMap": {
+          "mn143:2.1": {
+            "scid": "mn143:2.1",
+            "pli": "Tena kho pana samayena anāthapiṇḍiko gahapati ābādhiko hoti dukkhito bāḷhagilāno. ",
+            "de": "Zu dieser Zeit nun war der Hausbesitzer Anāthapiṇḍika <span class=\"ebt-matched\">mitgenommen, leidend, schwer krank</span>. ",
+            "en": "Now at that time the householder Anāthapiṇḍika was sick, suffering, gravely ill. ",
+            "matched": true
+          },
+          "mn143:2.4": {
+            "scid": "mn143:2.4",
+            "pli": "‘anāthapiṇḍiko, bhante, gahapati ābādhiko dukkhito bāḷhagilāno. ",
+            "de": "‚Herr, der Hausbesitzer Anāthapiṇḍika ist <span class=\"ebt-matched\">mitgenommen, leidend, schwer krank</span>. ",
+            "en": "‘Sir, the householder Anāthapiṇḍika is sick, suffering, gravely ill. ",
+            "matched": true
+          },
+          "mn143:2.7": {
+            "scid": "mn143:2.7",
+            "pli": "‘anāthapiṇḍiko, bhante, gahapati ābādhiko dukkhito bāḷhagilāno. ",
+            "de": "‚Herr, der Hausbesitzer Anāthapiṇḍika ist <span class=\"ebt-matched\">mitgenommen, leidend, schwer krank</span>. ",
+            "en": "‘Sir, the householder Anāthapiṇḍika is sick, suffering, gravely ill. ",
+            "matched": true
+          }
+        },
+        "score": 3.016,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 143\nRat an Anāthapiṇḍika",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 193,
+          "de": 140,
+          "en": 192
         }
       },
       {

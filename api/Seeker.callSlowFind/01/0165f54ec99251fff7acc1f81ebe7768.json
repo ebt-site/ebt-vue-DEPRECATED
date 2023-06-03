@@ -32,7 +32,7 @@
     "pattern": "wenig sand in den augen",
     "method": "phrase",
     "resultPattern": "\\bwenig sand in den augen",
-    "segsMatched": 10,
+    "segsMatched": 11,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn14_translation-de-sabbamitta.json",
@@ -42,12 +42,16 @@
       "translation/en/sujato/sutta/sn/sn6/sn6.1_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn4/sn4.5_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn4/sn4.5_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn4/sn4.5_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn4/sn4.5_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn143_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn143_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn143_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "dn14/de/sabbamitta",
       "sn6.1/de/sabbamitta",
-      "sn4.5/de/sabbamitta"
+      "sn4.5/de/sabbamitta",
+      "mn143/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -193,6 +197,38 @@
           "pli": 26,
           "de": 26,
           "en": 26
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn143_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn143_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn143_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn143",
+        "lang": "de",
+        "segMap": {
+          "mn143:15.10": {
+            "scid": "mn143:15.10",
+            "pli": "Santi hi, bhante, kulaputtā apparajakkhajātikā, assavanatā dhammassa parihāyanti; ",
+            "de": "Es gibt ehrbare Menschen, die <span class=\"ebt-matched\">wenig Sand in den Augen</span> haben. Sie werden verkümmern, weil sie die Lehre nicht gehört haben. ",
+            "en": "There are gentlemen with little dust in their eyes. They’re in decline because they haven’t heard the teaching. ",
+            "matched": true
+          }
+        },
+        "score": 1.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 143\nRat an Anāthapiṇḍika",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 193,
+          "de": 140,
+          "en": 192
         }
       }
     ]

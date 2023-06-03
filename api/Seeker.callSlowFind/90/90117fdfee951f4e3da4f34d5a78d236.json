@@ -32,7 +32,7 @@
     "pattern": "brach in tränen aus",
     "method": "phrase",
     "resultPattern": "\\bbrach in tränen aus",
-    "segsMatched": 4,
+    "segsMatched": 5,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn42/sn42.3_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn42/sn42.3_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/sn/sn42/sn42.2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn42/sn42.2_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn42/sn42.2_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn143_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn143_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn143_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thig/thig16.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thig/thig16.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thig/thig16.1_translation-en-sujato.json",
@@ -51,6 +54,7 @@
     "suttaRefs": [
       "sn42.3/de/sabbamitta",
       "sn42.2/de/sabbamitta",
+      "mn143/de/sabbamitta",
       "thig16.1/de/sabbamitta",
       "dn17/de/sabbamitta"
     ],
@@ -117,6 +121,38 @@
           "pli": 47,
           "de": 42,
           "en": 46
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn143_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn143_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn143_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn143",
+        "lang": "de",
+        "segMap": {
+          "mn143:15.1": {
+            "scid": "mn143:15.1",
+            "pli": "Evaṁ vutte, anāthapiṇḍiko gahapati parodi, assūni pavattesi. ",
+            "de": "Auf diese Worte weinte Anāthapiṇḍika und <span class=\"ebt-matched\">brach in Tränen aus</span>. ",
+            "en": "When he said this, Anāthapiṇḍika cried and burst out in tears. ",
+            "matched": true
+          }
+        },
+        "score": 1.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 143\nRat an Anāthapiṇḍika",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 193,
+          "de": 140,
+          "en": 192
         }
       },
       {
