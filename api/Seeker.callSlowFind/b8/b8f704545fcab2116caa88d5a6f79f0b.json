@@ -32,7 +32,7 @@
     "pattern": "inbrünstige.* bußübung",
     "method": "phrase",
     "resultPattern": "\\binbrünstige.* bußübung",
-    "segsMatched": 47,
+    "segsMatched": 48,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn8_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn8_translation-de-sabbamitta.json",
@@ -45,13 +45,17 @@
       "translation/en/sujato/sutta/an/an10/an10.94_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn42/sn42.12_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn42/sn42.12_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn42/sn42.12_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn42/sn42.12_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn2/sn2.30_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn2/sn2.30_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn2/sn2.30_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "dn8/de/sabbamitta",
       "dn25/de/sabbamitta",
       "an10.94/de/sabbamitta",
-      "sn42.12/de/sabbamitta"
+      "sn42.12/de/sabbamitta",
+      "sn2.30/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -69,7 +73,7 @@
           "dn8:2.2": {
             "scid": "dn8:2.2",
             "pli": "‘samaṇo gotamo sabbaṁ tapaṁ garahati, sabbaṁ tapassiṁ lūkhājīviṁ ekaṁsena upakkosati upavadatī’ti. ",
-            "de": "‚Der Asket Gotama tadelt alle <span class=\"ebt-matched\">inbrünstigen Bußübung</span>en. Er verurteilt ausnahmslos alle diese inbrünstigen Büßer, die ein raues Leben führen, und prangert sie an.‘ ",
+            "de": "‚Der Asket Gotama tadelt alle <span class=\"ebt-matched\">inbrünstigen Bußübung</span>en. Er verurteilt ausnahmslos alle inbrünstigen Büßer, die ein raues Leben führen, und prangert sie an.‘ ",
             "en": "‘The ascetic Gotama criticizes all fervent mortification. He categorically condemns and denounces all fervent mortifiers who live rough.’ ",
             "matched": true
           },
@@ -202,7 +206,7 @@
           "dn8:23.2": {
             "scid": "dn8:23.2",
             "pli": "Tatra maṁ aññataro tapabrahmacārī nigrodho nāma adhijegucche pañhaṁ apucchi. ",
-            "de": "Dort fragte mich ein gewisser keusch lebender brahmanischer Schüler der <span class=\"ebt-matched\">inbrünstigen Bußübung</span> mit Namen Nigrodha nach dem Ekel vor Sünde. ",
+            "de": "Dort fragte mich ein gewisser keusch lebender brahmanischer Schüler der <span class=\"ebt-matched\">inbrünstigen Bußübung</span> mit Namen Nigrodha nach dem hohen Ekel vor Sünde. ",
             "en": "There a certain celibate Brahmanical student of fervent mortification named Nigrodha asked me about the higher disgust of sin. ",
             "matched": true
           }
@@ -449,6 +453,38 @@
           "pli": 63,
           "de": 62,
           "en": 62
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn2/sn2.30_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn2/sn2.30_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn2/sn2.30_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn2.30",
+        "lang": "de",
+        "segMap": {
+          "sn2.30:4.1": {
+            "scid": "sn2.30:4.1",
+            "pli": "“Tapojigucchāya susaṁvutatto, ",
+            "de": "„Durch <span class=\"ebt-matched\">inbrünstige Bußübung</span> aus Ekel vor Sünde wurde er gut gezügelt. ",
+            "en": "“Through fervent mortification in disgust of sin he became well restrained. ",
+            "matched": true
+          }
+        },
+        "score": 1.016,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 2.30\n3. Das Kapitel über Schüler verschiedener Lehrer anderer Konfessionen\nDie Schüler verschiedener Lehrer anderer Konfessionen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 61,
+          "de": 55,
+          "en": 60
         }
       },
       {
