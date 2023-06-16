@@ -32,7 +32,7 @@
     "pattern": "freude und glück",
     "method": "phrase",
     "resultPattern": "\\bfreude und glück",
-    "segsMatched": 19,
+    "segsMatched": 20,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
@@ -49,6 +49,9 @@
       "root/pli/ms/sutta/sn/sn56/sn56.35_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn56/sn56.35_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn56/sn56.35_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn9_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn9_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn9_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.194_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.194_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.194_translation-en-sujato.json"
@@ -59,6 +62,7 @@
       "an4.62/de/sabbamitta",
       "mn81/de/sabbamitta",
       "sn56.35/de/sabbamitta",
+      "dn9/de/sabbamitta",
       "an5.194/de/sabbamitta"
     ],
     "mlDocs": [
@@ -84,7 +88,7 @@
           "dn10:2.8.6": {
             "scid": "dn10:2.8.6",
             "pli": "So tatonidānaṁ labhetha pāmojjaṁ, adhigaccheyya somanassaṁ. ",
-            "de": "wäre sie voller <span class=\"ebt-matched\">Freude und Glück</span>. ",
+            "de": "wäre er voller <span class=\"ebt-matched\">Freude und Glück</span>. ",
             "en": "they’d be filled with joy and happiness. ",
             "matched": true
           },
@@ -144,7 +148,7 @@
           "dn2:70.8": {
             "scid": "dn2:70.8",
             "pli": "So tatonidānaṁ labhetha pāmojjaṁ, adhigaccheyya somanassaṁ. ",
-            "de": "wäre sie voller <span class=\"ebt-matched\">Freude und Glück</span>. ",
+            "de": "wäre er voller <span class=\"ebt-matched\">Freude und Glück</span>. ",
             "en": "they’d be filled with joy and happiness. ",
             "matched": true
           },
@@ -343,6 +347,38 @@
           "pli": 53,
           "de": 52,
           "en": 52
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn9_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn9_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn9_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn9",
+        "lang": "de",
+        "segMap": {
+          "dn9:40.6": {
+            "scid": "dn9:40.6",
+            "pli": "Saṅkilesikā ceva dhammā pahīyissanti, vodāniyā ca dhammā abhivaḍḍhissanti, paññāpāripūriṁ vepullattañca diṭṭheva dhamme sayaṁ abhiññā sacchikatvā upasampajja viharissati, pāmujjañceva bhavissati pīti ca passaddhi ca sati ca sampajaññañca sukho ca vihāro. ",
+            "de": "Verunreinigende Eigenschaften werden aufgegeben und läuternde Eigenschaften nehmen zu. Man wird in die Fülle und den Überfluss der Weisheit eintreten und darin leben, nachdem man sie durch eigene Einsicht in diesem Leben erkannt hat. Und da wird nur <span class=\"ebt-matched\">Freude und Glück</span> sein, Stille, Achtsamkeit und Bewusstsein. Ein solches Leben ist selig. ",
+            "en": "Corrupting qualities will be given up and cleansing qualities will grow. One will enter and remain in the fullness and abundance of wisdom, having realized it with one’s own insight in this very life. And there will be only joy and happiness, tranquility, mindfulness and awareness. Such a life is blissful. ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 9\nMit Poṭṭhapāda",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 474,
+          "de": 378,
+          "en": 375
         }
       }
     ]

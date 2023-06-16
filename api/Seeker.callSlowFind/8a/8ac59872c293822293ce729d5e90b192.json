@@ -32,7 +32,7 @@
     "pattern": "von der kuh stammt die milch",
     "method": "phrase",
     "resultPattern": "\\bvon der kuh stammt die milch",
-    "segsMatched": 7,
+    "segsMatched": 8,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn34/sn34.55_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn34/sn34.55_translation-de-sabbamitta.json",
@@ -43,6 +43,9 @@
       "root/pli/ms/sutta/sn/sn34/sn34.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn34/sn34.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn34/sn34.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn9_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn9_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn9_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.190_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.190_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.190_translation-en-sujato.json",
@@ -60,6 +63,7 @@
       "sn34.55/de/sabbamitta",
       "sn34.2/de/sabbamitta",
       "sn34.1/de/sabbamitta",
+      "dn9/de/sabbamitta",
       "an5.190/de/sabbamitta",
       "an5.181/de/sabbamitta",
       "an4.95/de/sabbamitta",
@@ -288,6 +292,38 @@
           "pli": 89,
           "de": 88,
           "en": 88
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn9_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn9_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn9_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn9",
+        "lang": "de",
+        "segMap": {
+          "dn9:52.1": {
+            "scid": "dn9:52.1",
+            "pli": "Seyyathāpi, citta, gavā khīraṁ, khīramhā dadhi, dadhimhā navanītaṁ, navanītamhā sappi, sappimhā sappimaṇḍo. ",
+            "de": "<span class=\"ebt-matched\">Von der Kuh stammt die Milch</span>, von der Milch die Sauermilch, von der Sauermilch die Butter, von der Butter das Ghee und vom Ghee die Ghee-Crème; und die Ghee-Crème gilt als das Beste unter ihnen. ",
+            "en": "From a cow comes milk, from milk comes curds, from curds come butter, from butter comes ghee, and from ghee comes cream of ghee. And the cream of ghee is said to be the best of these. ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 9\nMit Poṭṭhapāda",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 474,
+          "de": 378,
+          "en": 375
         }
       }
     ]

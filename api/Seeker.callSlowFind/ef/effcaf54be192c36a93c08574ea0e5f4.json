@@ -32,7 +32,7 @@
     "pattern": "kopf in flammen",
     "method": "phrase",
     "resultPattern": "\\bkopf in flammen",
-    "segsMatched": 22,
+    "segsMatched": 23,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn56/sn56.34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn56/sn56.34_translation-de-sabbamitta.json",
@@ -61,6 +61,9 @@
       "root/pli/ms/sutta/sn/sn22/sn22.95_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.95_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.95_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag1.40_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag1.40_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag1.40_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag1.39_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag1.39_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag1.39_translation-en-sujato.json",
@@ -90,6 +93,7 @@
       "an10.55/de/sabbamitta",
       "sn4.9/de/sabbamitta",
       "sn22.95/de/sabbamitta",
+      "thag1.40/de/sabbamitta",
       "thag1.39/de/sabbamitta",
       "an4.93/de/sabbamitta",
       "an10.54/de/sabbamitta",
@@ -399,6 +403,38 @@
         "segsMatched": 1,
         "langSegs": {
           "pli": 9,
+          "de": 8,
+          "en": 8
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag1.40_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag1.40_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag1.40_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag1.40",
+        "lang": "de",
+        "segMap": {
+          "thag1.40:1.2": {
+            "scid": "thag1.40:1.2",
+            "pli": "ḍayhamānova matthake; ",
+            "de": "wie wenn sein <span class=\"ebt-matched\">Kopf in Flammen</span> stünde, ",
+            "en": "like their head was on fire, ",
+            "matched": true
+          }
+        },
+        "score": 1.059,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 1.40\nDas Einerbuch\n4. Das vierte Kapitel\nVaḍḍhamāna",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 17,
           "de": 8,
           "en": 8
         }

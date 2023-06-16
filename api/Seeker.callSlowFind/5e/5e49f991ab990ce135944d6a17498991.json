@@ -32,7 +32,7 @@
     "pattern": "glaubst du",
     "method": "phrase",
     "resultPattern": "\\bglaubst du",
-    "segsMatched": 9,
+    "segsMatched": 10,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
@@ -52,6 +52,9 @@
       "root/pli/ms/sutta/mn/mn140_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn140_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn140_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn9_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn9_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn9_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.166_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.166_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.166_translation-en-sujato.json",
@@ -66,6 +69,7 @@
       "sn48.44/de/sabbamitta",
       "sn41.8/de/sabbamitta",
       "mn140/de/sabbamitta",
+      "dn9/de/sabbamitta",
       "an5.166/de/sabbamitta",
       "an10.176/de/sabbamitta"
     ],
@@ -331,6 +335,38 @@
           "pli": 239,
           "de": 229,
           "en": 238
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn9_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn9_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn9_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn9",
+        "lang": "de",
+        "segMap": {
+          "dn9:21.2": {
+            "scid": "dn9:21.2",
+            "pli": "“Kaṁ pana tvaṁ, poṭṭhapāda, attānaṁ paccesī”ti? ",
+            "de": "„Aber Poṭṭhapāda, <span class=\"ebt-matched\">glaubst du</span> an ein Selbst?“ ",
+            "en": "“But Poṭṭhapāda, do you believe in a self?” ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 9\nMit Poṭṭhapāda",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 474,
+          "de": 378,
+          "en": 375
         }
       }
     ]

@@ -32,7 +32,7 @@
     "pattern": "lodert freude auf",
     "method": "phrase",
     "resultPattern": "\\blodert freude auf",
-    "segsMatched": 21,
+    "segsMatched": 22,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
@@ -52,6 +52,9 @@
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn9_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn9_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn9_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json",
@@ -66,6 +69,7 @@
       "sn47.10/de/sabbamitta",
       "sn35.97/de/sabbamitta",
       "dn33/de/sabbamitta",
+      "dn9/de/sabbamitta",
       "dn2/de/sabbamitta",
       "dn10/de/sabbamitta"
     ],
@@ -415,6 +419,38 @@
           "pli": 650,
           "de": 589,
           "en": 633
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn9_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn9_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn9_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn9",
+        "lang": "de",
+        "segMap": {
+          "dn9:9.1": {
+            "scid": "dn9:9.1",
+            "pli": "tassime pañcanīvaraṇe pahīne attani samanupassato pāmojjaṁ jāyati, pamuditassa pīti jāyati, pītimanassa kāyo passambhati, passaddhakāyo sukhaṁ vedeti, sukhino cittaṁ samādhiyati. ",
+            "de": "Wenn er sieht, dass die Hindernisse in ihm aufgegeben sind, <span class=\"ebt-matched\">lodert Freude auf</span>. Wenn er voller Freude ist, lodert Ekstase auf. Wenn der Geist in Ekstase ist, wird der Körper still. Wenn der Körper still ist, empfindet er Seligkeit. Und wenn er voller Seligkeit ist, versenkt sich der Geist im Samādhi. ",
+            "en": "Seeing that the hindrances have been given up in them, joy springs up. Being joyful, rapture springs up. When the mind is full of rapture, the body becomes tranquil. When the body is tranquil, they feel bliss. And when blissful, the mind becomes immersed. ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 9\nMit Poṭṭhapāda",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 474,
+          "de": 378,
+          "en": 375
         }
       }
     ]

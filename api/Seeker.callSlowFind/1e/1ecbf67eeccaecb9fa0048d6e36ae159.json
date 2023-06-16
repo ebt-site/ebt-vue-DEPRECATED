@@ -32,8 +32,11 @@
     "pattern": "verantwortung",
     "method": "phrase",
     "resultPattern": "\\bverantwortung",
-    "segsMatched": 6,
+    "segsMatched": 8,
     "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn9_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn9_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn9_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an7/an7.28_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an7/an7.28_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an7/an7.28_translation-en-sujato.json",
@@ -48,6 +51,7 @@
       "translation/en/sujato/sutta/kn/snp/vagga1/snp1.10_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "dn9/de/sabbamitta",
       "an7.28/de/sabbamitta",
       "an4.258/de/sabbamitta",
       "sn10.12/de/sabbamitta",
@@ -130,6 +134,45 @@
           "pli": 17,
           "de": 16,
           "en": 16
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn9_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn9_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn9_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn9",
+        "lang": "de",
+        "segMap": {
+          "dn9:17.1": {
+            "scid": "dn9:17.1",
+            "pli": "“Yato kho, poṭṭhapāda, bhikkhu idha sakasaññī hoti, so tato amutra tato amutra anupubbena saññaggaṁ phusati. ",
+            "de": "„Poṭṭhapāda, von dem Augenblick an, in dem ein Mönch die <span class=\"ebt-matched\">Verantwortung</span> für seine Wahrnehmung übernimmt, geht er von einer Stufe zur nächsten voran und erreicht schrittweise den Gipfel der Wahrnehmung. ",
+            "en": "“Poṭṭhapāda, from the time a mendicant here takes charge of their own perception, they proceed from one stage to the next, progressively reaching the peak of perception. ",
+            "matched": true
+          },
+          "dn9:18.5": {
+            "scid": "dn9:18.5",
+            "pli": "‘yato kho, poṭṭhapāda, bhikkhu idha sakasaññī hoti, so tato amutra tato amutra anupubbena saññaggaṁ phusati, ",
+            "de": "‚Von dem Augenblick an, in dem ein Mönch die <span class=\"ebt-matched\">Verantwortung</span> für seine Wahrnehmung übernimmt, geht er von einer Stufe zur nächsten voran und erreicht schrittweise den Gipfel der Wahrnehmung. ",
+            "en": "‘From the time a mendicant here takes charge of their own perception, they proceed from one stage to the next, progressively reaching the peak of perception. ",
+            "matched": true
+          }
+        },
+        "score": 2.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 9\nMit Poṭṭhapāda",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 474,
+          "de": 378,
+          "en": 375
         }
       },
       {

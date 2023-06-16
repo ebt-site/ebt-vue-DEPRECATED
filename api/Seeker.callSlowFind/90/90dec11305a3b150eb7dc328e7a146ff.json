@@ -32,7 +32,7 @@
     "pattern": "unwürdige gespräche",
     "method": "phrase",
     "resultPattern": "\\bunwürdige gespräche",
-    "segsMatched": 10,
+    "segsMatched": 11,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn25_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn25_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/sn/sn56/sn56.10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn56/sn56.10_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn56/sn56.10_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn9_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn9_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn9_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json",
@@ -62,6 +65,7 @@
     "suttaRefs": [
       "dn25/de/sabbamitta",
       "sn56.10/de/sabbamitta",
+      "dn9/de/sabbamitta",
       "dn2/de/sabbamitta",
       "dn1/de/sabbamitta",
       "an10.94/de/sabbamitta",
@@ -338,6 +342,38 @@
           "pli": 650,
           "de": 589,
           "en": 633
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn9_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn9_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn9_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn9",
+        "lang": "de",
+        "segMap": {
+          "dn9:3.1": {
+            "scid": "dn9:3.1",
+            "pli": "Tena kho pana samayena poṭṭhapādo paribbājako mahatiyā paribbājakaparisāya saddhiṁ nisinno hoti unnādiniyā uccāsaddamahāsaddāya anekavihitaṁ tiracchānakathaṁ kathentiyā. ",
+            "de": "Zu dieser Zeit saß Poṭṭhapāda mit einer großen Versammlung von Wanderern beisammen, und sie machten einen Tumult, einen Höllenlärm. Sie hielten sich <span class=\"ebt-matched\">unwürdige Gespräche</span> aller Art, ",
+            "en": "Now at that time, Poṭṭhapāda was sitting together with a large assembly of wanderers making an uproar, a dreadful racket. They engaged in all kinds of low talk, such as ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 9\nMit Poṭṭhapāda",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 474,
+          "de": 378,
+          "en": 375
         }
       }
     ]

@@ -32,7 +32,7 @@
     "pattern": "das weltall ist ewig",
     "method": "phrase",
     "resultPattern": "\\bdas weltall ist ewig",
-    "segsMatched": 21,
+    "segsMatched": 23,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn24/sn24.9_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn24/sn24.9_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/sn/sn41/sn41.3_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn41/sn41.3_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn41/sn41.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn9_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn9_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn9_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.96_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.96_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an10/an10.96_translation-en-sujato.json",
@@ -80,6 +83,7 @@
     "suttaRefs": [
       "sn24.9/de/sabbamitta",
       "sn41.3/de/sabbamitta",
+      "dn9/de/sabbamitta",
       "an10.96/de/sabbamitta",
       "an10.93/de/sabbamitta",
       "sn56.8/de/sabbamitta",
@@ -269,6 +273,45 @@
           "pli": 103,
           "de": 102,
           "en": 102
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn9_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn9_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn9_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn9",
+        "lang": "de",
+        "segMap": {
+          "dn9:25.3": {
+            "scid": "dn9:25.3",
+            "pli": "kiṁ pana, bhante, ‘sassato loko, idameva saccaṁ moghamaññan’”ti? ",
+            "de": "was sagst du dann dazu: ‚<span class=\"ebt-matched\">Das Weltall ist ewig</span>. Das allein ist die Wahrheit, alles andere ist Unsinn‘?“ ",
+            "en": "then what do you make of this: ‘The cosmos is eternal. This is the only truth, anything else is wrong’?” ",
+            "matched": true
+          },
+          "dn9:33.6": {
+            "scid": "dn9:33.6",
+            "pli": "‘Sassato loko’ti kho, poṭṭhapāda, mayā anekaṁsiko dhammo desito paññatto; ",
+            "de": "‚<span class=\"ebt-matched\">Das Weltall ist ewig</span>‘ … ",
+            "en": "‘The cosmos is eternal’ … ",
+            "matched": true
+          }
+        },
+        "score": 2.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 9\nMit Poṭṭhapāda",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 474,
+          "de": 378,
+          "en": 375
         }
       },
       {

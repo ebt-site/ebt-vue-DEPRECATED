@@ -32,7 +32,7 @@
     "pattern": "ist es wirklich wahr",
     "method": "phrase",
     "resultPattern": "\\bist es wirklich wahr",
-    "segsMatched": 31,
+    "segsMatched": 32,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn26_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn26_translation-de-sabbamitta.json",
@@ -76,6 +76,9 @@
       "root/pli/ms/sutta/kn/ud/vagga2/ud2.10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga2/ud2.10_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/ud/vagga2/ud2.10_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn9_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn9_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn9_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn5_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn5_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn5_translation-en-sujato.json",
@@ -116,6 +119,7 @@
       "ud3.6/de/sabbamitta",
       "ud3.2/de/sabbamitta",
       "ud2.10/de/sabbamitta",
+      "dn9/de/sabbamitta",
       "dn5/de/sabbamitta",
       "dn4/de/sabbamitta",
       "dn25/de/sabbamitta",
@@ -859,6 +863,38 @@
           "pli": 383,
           "de": 347,
           "en": 382
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn9_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn9_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn9_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn9",
+        "lang": "de",
+        "segMap": {
+          "dn9:34.4": {
+            "scid": "dn9:34.4",
+            "pli": "‘saccaṁ kira tumhe āyasmanto evaṁvādino evaṁdiṭṭhino: ",
+            "de": "‚<span class=\"ebt-matched\">Ist es wirklich wahr</span>, ist das die Lehre und Ansicht der Ehrwürdigen?‘ ",
+            "en": "‘Is it really true that this is the venerables’ view?’ ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 9\nMit Poṭṭhapāda",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 474,
+          "de": 378,
+          "en": 375
         }
       },
       {

@@ -32,8 +32,11 @@
     "pattern": "sag.* die wahrheit",
     "method": "phrase",
     "resultPattern": "\\bsag.* die wahrheit",
-    "segsMatched": 9,
+    "segsMatched": 11,
     "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn9_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn9_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn9_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.41_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.41_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an8/an8.41_translation-en-sujato.json",
@@ -57,6 +60,7 @@
       "translation/en/sujato/sutta/an/an10/an10.99_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "dn9/de/sabbamitta",
       "an8.41/de/sabbamitta",
       "an3.70/de/sabbamitta",
       "dn30/de/sabbamitta",
@@ -142,6 +146,45 @@
           "pli": 238,
           "de": 232,
           "en": 232
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn9_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn9_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn9_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn9",
+        "lang": "de",
+        "segMap": {
+          "dn9:25.3": {
+            "scid": "dn9:25.3",
+            "pli": "kiṁ pana, bhante, ‘sassato loko, idameva saccaṁ moghamaññan’”ti? ",
+            "de": "was <span class=\"ebt-matched\">sagst du dann dazu: ‚Das Weltall ist ewig. Das allein ist die Wahrheit</span>, alles andere ist Unsinn‘?“ ",
+            "en": "then what do you make of this: ‘The cosmos is eternal. This is the only truth, anything else is wrong’?” ",
+            "matched": true
+          },
+          "dn9:26.1": {
+            "scid": "dn9:26.1",
+            "pli": "“Kiṁ pana, bhante, ‘asassato loko, idameva saccaṁ moghamaññan’”ti? ",
+            "de": "„Was <span class=\"ebt-matched\">sagst du dann dazu: ‚Das Weltall ist zeitlich. Das allein ist die Wahrheit</span>, alles andere ist Unsinn‘?“ ",
+            "en": "“Then what do you make of this: ‘The cosmos is not eternal. This is the only truth, anything else is wrong’?” ",
+            "matched": true
+          }
+        },
+        "score": 2.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 9\nMit Poṭṭhapāda",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 474,
+          "de": 378,
+          "en": 375
         }
       },
       {
