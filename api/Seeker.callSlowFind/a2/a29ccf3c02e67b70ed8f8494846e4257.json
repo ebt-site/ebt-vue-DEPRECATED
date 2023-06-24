@@ -1,0 +1,593 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "drei veden",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 3,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 3,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "drei veden",
+    "method": "phrase",
+    "resultPattern": "\\bdrei veden",
+    "segsMatched": 33,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn13_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn13_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn13_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn4_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn4_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn4_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn11/sn11.18_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn11/sn11.18_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn11/sn11.18_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn5_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn5_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn5_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn3_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn3_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn3_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.58_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an3/an3.58_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an3/an3.58_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn35/sn35.132_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn35/sn35.132_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.132_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn93_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn93_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn93_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag20.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag20.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag20.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.192_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an5/an5.192_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an5/an5.192_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.59_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an3/an3.59_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an3/an3.59_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "dn13/de/sabbamitta",
+      "dn4/de/sabbamitta",
+      "sn11.18/de/sabbamitta",
+      "dn5/de/sabbamitta",
+      "dn3/de/sabbamitta",
+      "an3.58/de/sabbamitta",
+      "sn35.132/de/sabbamitta",
+      "mn93/de/sabbamitta",
+      "thag20.1/de/sabbamitta",
+      "an5.192/de/sabbamitta",
+      "an3.59/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn13_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn13_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn13_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn13",
+        "lang": "de",
+        "segMap": {
+          "dn13:0.2": {
+            "scid": "dn13:0.2",
+            "pli": "Tevijjasutta ",
+            "de": "Die <span class=\"ebt-matched\">drei Veden</span> ",
+            "en": "The Three Knowledges ",
+            "matched": true
+          },
+          "dn13:12.1": {
+            "scid": "dn13:12.1",
+            "pli": "“Kiṁ pana, vāseṭṭha, atthi koci tevijjānaṁ brāhmaṇānaṁ ekabrāhmaṇopi, yena brahmā sakkhidiṭṭho”ti? ",
+            "de": "„Nun, Vāseṭṭha, gibt es unter den Brahmanen, die in den <span class=\"ebt-matched\">drei Veden</span> bewandert sind, auch nur einen einzigen, der Brahmā mit eigenen Augen gesehen hat?“ ",
+            "en": "“Well, of the brahmins who are proficient in the three Vedas, Vāseṭṭha, is there even a single one who has seen Brahmā with their own eyes?” ",
+            "matched": true
+          },
+          "dn13:13.1": {
+            "scid": "dn13:13.1",
+            "pli": "“Kiṁ pana, vāseṭṭha, yepi tevijjānaṁ brāhmaṇānaṁ pubbakā isayo mantānaṁ kattāro mantānaṁ pavattāro, yesamidaṁ etarahi tevijjā brāhmaṇā porāṇaṁ mantapadaṁ gītaṁ pavuttaṁ samihitaṁ, tadanugāyanti, tadanubhāsanti, bhāsitamanubhāsanti, vācitamanuvācenti, seyyathidaṁ—aṭṭhako vāmako vāmadevo vessāmitto yamataggi aṅgīraso bhāradvājo vāseṭṭho kassapo bhagu. ",
+            "de": "„Nun, wie ist es mit den alten Sehern der Brahmanen, die in den <span class=\"ebt-matched\">drei Veden</span> bewandert sind, nämlich Aṭṭhaka, Vāmaka, Vāmadeva, Vessāmitta, Yamadaggi, Aṅgīrasa, Bhāradvāja, Vāseṭṭha, Kassapa und Bhagu? Sie schufen die Hymnen und verbreiteten sie. Ihre Hymnensammlung wurde in alten Zeiten gesungen, verbreitet und zusammengestellt. Bis heute wird sie von Brahmanen gesungen und vorgetragen. Brahmanen tragen weiterhin vor, was vorgetragen wurde, und lehren, was gelehrt wurde. ",
+            "en": "“Well, what of the ancient seers of the brahmins proficient in the three Vedas, namely Aṭṭhaka, Vāmaka, Vāmadeva, Vessāmitta, Yamadaggi, Aṅgīrasa, Bhāradvāja, Vāseṭṭha, Kassapa, and Bhagu? They were the authors and propagators of the hymns. Their hymnal was sung and propagated and compiled in ancient times; and these days, brahmins continue to sing and chant it, chanting what was chanted and teaching what was taught. ",
+            "matched": true
+          },
+          "dn13:14.7": {
+            "scid": "dn13:14.7",
+            "pli": "Teva tevijjā brāhmaṇā evamāhaṁsu: ",
+            "de": "Doch die Brahmanen, die in den <span class=\"ebt-matched\">drei Veden</span> bewandert sind, sagen: ",
+            "en": "Yet the brahmins proficient in the three Vedas say: ",
+            "matched": true
+          },
+          "dn13:16.2": {
+            "scid": "dn13:16.2",
+            "pli": "passanti tevijjā brāhmaṇā candimasūriye, aññe cāpi bahujanā, yato ca candimasūriyā uggacchanti, yattha ca ogacchanti, āyācanti thomayanti pañjalikā namassamānā anuparivattantī”ti? ",
+            "de": "Sehen die Brahmanen, die in den <span class=\"ebt-matched\">drei Veden</span> bewandert sind, den Mond und die Sonne, so wie jeder andere auch? Und beten sie zu ihnen und verherrlichen sie, folgen ihrem Lauf in Verehrung mit zusammengelegten Händen von da, wo sie aufgehen, bis dahin, wo sie untergehen?“ ",
+            "en": "Do the brahmins proficient in the three Vedas see the sun and moon just as other folk do? And do they pray to them and exalt them, following their course from where they rise to where they set with joined palms held in worship?” ",
+            "matched": true
+          },
+          "dn13:17.2": {
+            "scid": "dn13:17.2",
+            "pli": "yaṁ passanti tevijjā brāhmaṇā candimasūriye, aññe cāpi bahujanā, yato ca candimasūriyā uggacchanti, yattha ca ogacchanti, āyācanti thomayanti pañjalikā namassamānā anuparivattanti, pahonti tevijjā brāhmaṇā candimasūriyānaṁ sahabyatāya maggaṁ desetuṁ: ",
+            "de": "Auch wenn das so ist: Sind die Brahmanen, die in den <span class=\"ebt-matched\">drei Veden</span> bewandert sind, in der Lage, den Pfad zur Gemeinschaft mit dem Mond und der Sonne zu lehren: ",
+            "en": "Though this is so, are the brahmins proficient in the three Vedas able to teach the path to the company of the sun and moon, saying: ",
+            "matched": true
+          },
+          "dn13:18.1": {
+            "scid": "dn13:18.1",
+            "pli": "“Iti kira, vāseṭṭha, yaṁ passanti tevijjā brāhmaṇā candimasūriye, aññe cāpi bahujanā, yato ca candimasūriyā uggacchanti, yattha ca ogacchanti, āyācanti thomayanti pañjalikā namassamānā anuparivattanti, tesampi nappahonti candimasūriyānaṁ sahabyatāya maggaṁ desetuṁ: ",
+            "de": "„So scheint es, dass die Brahmanen, die in den <span class=\"ebt-matched\">drei Veden</span> bewandert sind, auch wenn sie den Mond und die Sonne sehen, nicht in der Lage sind, den Pfad zur Gemeinschaft mit dem Mond und der Sonne zu lehren. ",
+            "en": "“So it seems that even though the brahmins proficient in the three Vedas see the sun and moon, they are not able to teach the path to the company of the sun and moon. ",
+            "matched": true
+          },
+          "dn13:20.7": {
+            "scid": "dn13:20.7",
+            "pli": "Taṁ kiṁ maññasi, vāseṭṭha, nanu evaṁ sante tevijjānaṁ brāhmaṇānaṁ appāṭihīrakataṁ bhāsitaṁ sampajjatī”ti? ",
+            "de": "dass die Aussage der Brahmanen, die in den <span class=\"ebt-matched\">drei Veden</span> bewandert sind, keine beweisbare Grundlage hat?“ ",
+            "en": "doesn’t the statement of those brahmins turn out to have no demonstrable basis?” ",
+            "matched": true
+          },
+          "dn13:22.12": {
+            "scid": "dn13:22.12",
+            "pli": "Taṁ kiṁ maññasi, vāseṭṭha, nanu evaṁ sante tevijjānaṁ brāhmaṇānaṁ appāṭihīrakataṁ bhāsitaṁ sampajjatī”ti? ",
+            "de": "dass die Aussage der Brahmanen, die in den <span class=\"ebt-matched\">drei Veden</span> bewandert sind, keine beweisbare Grundlage hat?“ ",
+            "en": "doesn’t the statement of those brahmins turn out to have no demonstrable basis?” ",
+            "matched": true
+          },
+          "dn13:25.1": {
+            "scid": "dn13:25.1",
+            "pli": "“Evameva kho, vāseṭṭha, tevijjā brāhmaṇā ye dhammā brāhmaṇakārakā te dhamme pahāya vattamānā, ye dhammā abrāhmaṇakārakā te dhamme samādāya vattamānā evamāhaṁsu: ",
+            "de": "„Ebenso gehen die Brahmanen, die in den <span class=\"ebt-matched\">drei Veden</span> bewandert sind, vor, indem sie die Dinge, die einen zu einem wahren Brahmanen machen, aufgegeben haben und die Dinge, die einen nicht zu einem wahren Brahmanen machen, aufgenommen haben. Und doch sagen sie: ",
+            "en": "“In the same way, Vāseṭṭha, the brahmins proficient in the three Vedas proceed having given up those things that make one a true brahmin, and having undertaken those things that make one not a true brahmin. Yet they say: ",
+            "matched": true
+          },
+          "dn13:27.9": {
+            "scid": "dn13:27.9",
+            "pli": "Ime kho, vāseṭṭha, pañca kāmaguṇe tevijjā brāhmaṇā gadhitā mucchitā ajjhopannā anādīnavadassāvino anissaraṇapaññā paribhuñjanti. ",
+            "de": "Die Brahmanen, die in den <span class=\"ebt-matched\">drei Veden</span> bewandert sind, genießen diese fünf Arten sinnlicher Erregung gebunden, betört, anhänglich, blind für die nachteiligen Folgen und ohne das Entrinnen zu verstehen. ",
+            "en": "The brahmins proficient in the three Vedas enjoy these five kinds of sensual stimulation tied, infatuated, attached, blind to the drawbacks, and not understanding the escape. ",
+            "matched": true
+          },
+          "dn13:30.5": {
+            "scid": "dn13:30.5",
+            "pli": "Imehi kho, vāseṭṭha, pañcahi nīvaraṇehi tevijjā brāhmaṇā āvuṭā nivutā onaddhā pariyonaddhā. ",
+            "de": "Die Brahmanen, die in den <span class=\"ebt-matched\">drei Veden</span> bewandert sind, sind von diesen fünf Hindernissen gehemmt, gehindert, bedeckt und eingehüllt. ",
+            "en": "The brahmins proficient in the three Vedas are obstructed, shrouded, covered, and engulfed by these five hindrances. ",
+            "matched": true
+          },
+          "dn13:32.2": {
+            "scid": "dn13:32.2",
+            "pli": "sapariggahā vā tevijjā brāhmaṇā apariggahā vā”ti? ",
+            "de": "Sind die Brahmanen, die in den <span class=\"ebt-matched\">drei Veden</span> bewandert sind, mit Besitztümern beladen oder  nicht?“ ",
+            "en": "Are the brahmins proficient in the three Vedas encumbered with possessions or not?” ",
+            "matched": true
+          },
+          "dn13:33.1": {
+            "scid": "dn13:33.1",
+            "pli": "“Iti kira, vāseṭṭha, sapariggahā tevijjā brāhmaṇā apariggaho brahmā. ",
+            "de": "„So scheint es, dass die Brahmanen, die in den <span class=\"ebt-matched\">drei Veden</span> bewandert sind, mit Besitztümern beladen sind, aber Brahmā nicht. ",
+            "en": "“So it seems that the brahmins proficient in the three Vedas are encumbered with possessions, but Brahmā is not. ",
+            "matched": true
+          },
+          "dn13:35.1": {
+            "scid": "dn13:35.1",
+            "pli": "Iti kira, vāseṭṭha, saveracittā tevijjā brāhmaṇā, averacitto brahmā …pe… ",
+            "de": "Und es scheint, dass die Brahmanen, die in den <span class=\"ebt-matched\">drei Veden</span> bewandert sind, in ihren Herzen Feindschaft, ",
+            "en": "And it seems that the brahmins have enmity, ",
+            "matched": true
+          },
+          "dn13:36.2": {
+            "scid": "dn13:36.2",
+            "pli": "Idha kho pana te, vāseṭṭha, tevijjā brāhmaṇā āsīditvā saṁsīdanti, saṁsīditvā visāraṁ pāpuṇanti, sukkhataraṁ maññe taranti. ",
+            "de": "Aber die Brahmanen, die in den <span class=\"ebt-matched\">drei Veden</span> bewandert sind, gehen hier unter, wo sie sich hingesetzt haben, und driften dann auseinander, während sie glauben, zu trockenerem Boden hinüberzukommen. ",
+            "en": "But here the brahmins proficient in the three Vedas sink down where they have sat, only to drift apart, while imagining they’re crossing over to drier ground. ",
+            "matched": true
+          },
+          "dn13:36.3": {
+            "scid": "dn13:36.3",
+            "pli": "Tasmā idaṁ tevijjānaṁ brāhmaṇānaṁ tevijjāiriṇantipi vuccati, tevijjāvivanantipi vuccati, tevijjābyasanantipi vuccatī”ti. ",
+            "de": "Deshalb werden die <span class=\"ebt-matched\">drei Veden</span> der Brahmanen ein ‚salziges Land‘ und ein ‚karges Land‘ und ein ‚Verhängnis‘ genannt.“ ",
+            "en": "That’s why the three Vedas of the brahmins are called a ‘salted land’ and a ‘barren land’ and a ‘disaster’.” ",
+            "matched": true
+          }
+        },
+        "score": 17.061,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 13\nDie drei Veden",
+        "segsMatched": 17,
+        "langSegs": {
+          "pli": 280,
+          "de": 249,
+          "en": 278
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn4_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn4_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn4_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn4",
+        "lang": "de",
+        "segMap": {
+          "dn4:5.10": {
+            "scid": "dn4:5.10",
+            "pli": "Bhavañhi soṇadaṇḍo ajjhāyako mantadharo tiṇṇaṁ vedānaṁ pāragū sanighaṇḍukeṭubhānaṁ sākkharappabhedānaṁ itihāsapañcamānaṁ padako veyyākaraṇo, lokāyatamahāpurisalakkhaṇesu anavayo …pe… ",
+            "de": "Du sagst die Hymnen auf und prägst sie dir ein und hast die <span class=\"ebt-matched\">drei Veden</span> gemeistert, zusammen mit ihrem Wortschatz, den Riten, den Lauten und der Ableitung der Wörter sowie dem Testament als fünftem. Du kennst die Sprachwissenschaft und die Grammatik und bist mit der Kosmologie und mit den Kennzeichen eines großen Mannes vertraut. … ",
+            "en": "You recite and remember the hymns, and have mastered the three Vedas, together with their vocabularies, ritual, phonology and etymology, and the testament as fifth. You know philology and grammar, and are well versed in cosmology and the marks of a great man. … ",
+            "matched": true
+          },
+          "dn4:13.6": {
+            "scid": "dn4:13.6",
+            "pli": "ajjhāyako hoti mantadharo tiṇṇaṁ vedānaṁ pāragū sanighaṇḍukeṭubhānaṁ sākkharappabhedānaṁ itihāsapañcamānaṁ padako veyyākaraṇo lokāyatamahāpurisalakkhaṇesu anavayo; ",
+            "de": "Er sagt die Hymnen auf und prägt sie sich ein und hat die <span class=\"ebt-matched\">drei Veden</span> gemeistert, zusammen mit ihrem Wortschatz, den Riten, den Lauten und der Ableitung der Wörter sowie dem Testament als fünftem. Er kennt die Sprachwissenschaft und die Grammatik und ist mit der Kosmologie und mit den Kennzeichen eines großen Mannes vertraut. ",
+            "en": "He recites and remembers the hymns, and has mastered the three Vedas, together with their vocabularies, ritual, phonology and etymology, and the testament as fifth. He knows philology and grammar, and is well versed in cosmology and the marks of a great man. ",
+            "matched": true
+          },
+          "dn4:20.6": {
+            "scid": "dn4:20.6",
+            "pli": "Aṅgako kho māṇavako ajjhāyako mantadharo, tiṇṇaṁ vedānaṁ pāragū sanighaṇḍukeṭubhānaṁ sākkharappabhedānaṁ itihāsapañcamānaṁ padako veyyākaraṇo lokāyatamahāpurisalakkhaṇesu anavayo. ",
+            "de": "Aṅgaka sagt die Hymnen auf und prägt sie sich ein und hat die <span class=\"ebt-matched\">drei Veden</span> gemeistert, zusammen mit ihrem Wortschatz, den Riten, den Lauten und der Ableitung der Wörter sowie dem Testament als fünftem. Er kennt die Sprachwissenschaft und die Grammatik und ist mit der Kosmologie und mit den Kennzeichen eines großen Mannes vertraut. ",
+            "en": "Aṅgaka recites and remembers the hymns, and has mastered the three Vedas, together with their vocabularies, ritual, phonology and etymology, and the testament as fifth. He knows philology and grammar, and is well versed in cosmology and the marks of a great man. ",
+            "matched": true
+          }
+        },
+        "score": 3.01,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 4\nMit Soṇadaṇḍa",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 297,
+          "de": 258,
+          "en": 296
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn11/sn11.18_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn11/sn11.18_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn11/sn11.18_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn11.18",
+        "lang": "de",
+        "segMap": {
+          "sn11.18:2.1": {
+            "scid": "sn11.18:2.1",
+            "pli": "‘Taṁ namassanti tevijjā, ",
+            "de": "‚Die in den <span class=\"ebt-matched\">drei Veden</span> bewandert sind, verehren dich, ",
+            "en": "‘Those proficient in the three Vedas worship you, ",
+            "matched": true
+          },
+          "sn11.18:3.1": {
+            "scid": "sn11.18:3.1",
+            "pli": "‘Maṁ namassanti tevijjā, ",
+            "de": "‚Die in den <span class=\"ebt-matched\">drei Veden</span> bewandert sind, verehren mich, ",
+            "en": "‘Those proficient in the three Vedas worship me, ",
+            "matched": true
+          }
+        },
+        "score": 2.053,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 11.18\n2. Das zweite Kapitel\nWen Sakka verehrt (1)",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 38,
+          "de": 37,
+          "en": 38
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an3/an3.58_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an3/an3.58_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an3/an3.58_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an3.58",
+        "lang": "de",
+        "segMap": {
+          "an3.58:1.2": {
+            "scid": "an3.58:1.2",
+            "pli": "ekamantaṁ nisinno kho tikaṇṇo brāhmaṇo bhagavato sammukhā tevijjānaṁ sudaṁ brāhmaṇānaṁ vaṇṇaṁ bhāsati: ",
+            "de": "Er setzte sich zur Seite hin und pries vor dem Buddha die Brahmanen, die in den <span class=\"ebt-matched\">drei Veden</span> bewandert waren: ",
+            "en": "Seated to one side, in front of the Buddha, Tikaṇṇa praised the brahmins who were proficient in the three Vedas, ",
+            "matched": true
+          },
+          "an3.58:2.2": {
+            "scid": "an3.58:2.2",
+            "pli": "“Idha, bho gotama, brāhmaṇo ubhato sujāto hoti mātito ca pitito ca, saṁsuddhagahaṇiko yāva sattamā pitāmahayugā, akkhitto anupakkuṭṭho jātivādena, ajjhāyako, mantadharo, tiṇṇaṁ vedānaṁ pāragū sanighaṇḍukeṭubhānaṁ sākkharappabhedānaṁ itihāsapañcamānaṁ, padako, veyyākaraṇo, lokāyatamahāpurisalakkhaṇesu anavayoti. ",
+            "de": "„Meister Gotama, es ist, wenn ein Brahmane von guter Geburt auf mütterlicher und väterlicher Seite ist, von reiner Abkunft, mit unwiderlegbarem und einwandfreiem Stammbaum bis zur siebten väterlichen Generation zurück. Er sagt die Hymnen auf und prägt sie sich ein und hat die <span class=\"ebt-matched\">drei Veden</span> gemeistert, zusammen mit ihrem Wortschatz, den Riten, den Lauten und der Ableitung der Wörter sowie dem Testament als fünftem. Er kennt die Sprachwissenschaft und die Grammatik und ist mit der Kosmologie und mit den Kennzeichen eines großen Mannes vertraut. ",
+            "en": "“Master Gotama, it’s when a brahmin is well born on both his mother’s and father’s side, of pure descent, with irrefutable and impeccable genealogy back to the seventh paternal generation. He recites and remembers the hymns, and has mastered the three Vedas, together with their vocabularies, ritual, phonology and etymology, and the testament as fifth. He knows philology and grammar, and is well versed in cosmology and the marks of a great man. ",
+            "matched": true
+          }
+        },
+        "score": 2.033,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 3.58\n6. Das Kapitel mit Brahmanen\nMit Tikaṇṇa",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 61,
+          "de": 60,
+          "en": 60
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn3_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn3_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn3_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn3",
+        "lang": "de",
+        "segMap": {
+          "dn3:1.3.1": {
+            "scid": "dn3:1.3.1",
+            "pli": "Tena kho pana samayena brāhmaṇassa pokkharasātissa ambaṭṭho nāma māṇavo antevāsī hoti ajjhāyako mantadharo tiṇṇaṁ vedānaṁ pāragū sanighaṇḍukeṭubhānaṁ sākkharappabhedānaṁ itihāsapañcamānaṁ padako veyyākaraṇo lokāyatamahāpurisalakkhaṇesu anavayo anuññātapaṭiññāto sake ācariyake tevijjake pāvacane: ",
+            "de": "Nun hatte Pokkharasādi zu dieser Zeit einen Brahmanenschüler namens Ambaṭṭha. Er war einer, der die Hymnen aufsagte und im Gedächtnis hatte und der die <span class=\"ebt-matched\">drei Veden</span> gemeistert hatte, zusammen mit ihrem Wortschatz, den Riten, den Lauten und der Ableitung der Wörter sowie dem Testament als fünftem. Er kannte die Sprachwissenschaft und die Grammatik und war mit der Kosmologie und mit den Kennzeichen eines großen Mannes vertraut. Er war als Meister im textlichen Erbe der <span class=\"ebt-matched\">drei Veden</span> seines eigenen Lehrers legitimiert worden mit den Worten: ",
+            "en": "Now at that time Pokkharasādi had a student named Ambaṭṭha. He was one who recited and remembered the hymns, and had mastered in the three Vedas, together with their vocabularies, ritual, phonology and etymology, and the testament as fifth. He knew philology and grammar, and was well versed in cosmology and the marks of a great man. He had been authorized as a master in his own teacher’s scriptural heritage of the three Vedas with the words: ",
+            "matched": true
+          },
+          "dn3:2.15.2": {
+            "scid": "dn3:2.15.2",
+            "pli": "“aho vata re amhākaṁ, paṇḍitaka, aho vata re amhākaṁ, bahussutaka, aho vata re amhākaṁ, tevijjaka, evarūpena kira, bho, puriso atthacarakena kāyassa bhedā paraṁ maraṇā apāyaṁ duggatiṁ vinipātaṁ nirayaṁ upapajjeyya. ",
+            "de": "„Oh unser verdammter Schlaumeier, unser falscher gelehrter Mann, der vorgibt, in den <span class=\"ebt-matched\">drei Veden</span> bewandert zu sein! Ein Mann, der sich so benimmt, sollte, wenn sein Körper auseinanderbricht, nach dem Tod, an einem verlorenen Ort wiedergeboren werden, in der Unterwelt, der Hölle. ",
+            "en": "“Oh, our bloody fake scholar, our fake learned man, who pretends to be proficient in the three Vedas! A man who behaves like this ought, when their body breaks up, after death, to be reborn in a place of loss, a bad place, the underworld, hell. ",
+            "matched": true
+          }
+        },
+        "score": 2.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 3\nMit Ambaṭṭha",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 437,
+          "de": 426,
+          "en": 436
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn5_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn5_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn5_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn5",
+        "lang": "de",
+        "segMap": {
+          "dn5:6.10": {
+            "scid": "dn5:6.10",
+            "pli": "Bhavañhi kūṭadanto ajjhāyako mantadharo tiṇṇaṁ vedānaṁ pāragū sanighaṇḍukeṭubhānaṁ sākkharappabhedānaṁ itihāsapañcamānaṁ padako veyyākaraṇo lokāyatamahāpurisalakkhaṇesu anavayo …pe… ",
+            "de": "Du sagst die Hymnen auf und prägst sie dir ein und hast die <span class=\"ebt-matched\">drei Veden</span> gemeistert, zusammen mit ihrem Wortschatz, den Riten, den Lauten und der Ableitung der Wörter sowie dem Testament als fünftem. Du kennst die Sprachwissenschaft und die Grammatik und bist mit der Kosmologie und mit den Kennzeichen eines großen Mannes vertraut. … ",
+            "en": "You recite and remember the hymns, and have mastered the three Vedas, together with their vocabularies, ritual, phonology and etymology, and the testament as fifth. You know philology and grammar, and are well versed in cosmology and the marks of a great man. … ",
+            "matched": true
+          },
+          "dn5:14.3": {
+            "scid": "dn5:14.3",
+            "pli": "ajjhāyako mantadharo tiṇṇaṁ vedānaṁ pāragū sanighaṇḍukeṭubhānaṁ sākkharappabhedānaṁ itihāsapañcamānaṁ padako veyyākaraṇo lokāyatamahāpurisalakkhaṇesu anavayo; ",
+            "de": "Er sagte die Hymnen auf und prägte sie sich ein und hatte die <span class=\"ebt-matched\">drei Veden</span> gemeistert, zusammen mit ihrem Wortschatz, den Riten, den Lauten und der Ableitung der Wörter sowie dem Testament als fünftem. Er kannte die Sprachwissenschaft und die Grammatik und war mit der Kosmologie und mit den Kennzeichen eines großen Mannes vertraut. ",
+            "en": "He recited and remembered the hymns, and had mastered the three Vedas, together with their vocabularies, ritual, phonology and etymology, and the testament as fifth. He knew philology and grammar, and was well versed in cosmology and the marks of a great man. ",
+            "matched": true
+          }
+        },
+        "score": 2.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 5\nMit Kūṭadanta",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 374,
+          "de": 331,
+          "en": 373
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an3/an3.59_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an3/an3.59_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an3/an3.59_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an3.59",
+        "lang": "de",
+        "segMap": {
+          "an3.59:1.4": {
+            "scid": "an3.59:1.4",
+            "pli": "“Idha kho, bho gotama, brāhmaṇo ubhato sujāto hoti mātito ca pitito ca saṁsuddhagahaṇiko yāva sattamā pitāmahayugā akkhitto anupakkuṭṭho jātivādena, ajjhāyako mantadharo, tiṇṇaṁ vedānaṁ pāragū sanighaṇḍukeṭubhānaṁ sākkharappabhedānaṁ itihāsapañcamānaṁ, padako, veyyākaraṇo, lokāyatamahāpurisalakkhaṇesu anavayoti. ",
+            "de": "„Meister Gotama, es ist, wenn ein Brahmane von guter Geburt auf mütterlicher und väterlicher Seite ist, von reiner Abkunft, mit unwiderlegbarem und einwandfreiem Stammbaum bis zur siebten väterlichen Generation zurück. Er sagt die Hymnen auf und prägt sie sich ein und hat die <span class=\"ebt-matched\">drei Veden</span> gemeistert, zusammen mit ihrem Wortschatz, den Riten, den Lauten und der Ableitung der Wörter sowie dem Testament als fünftem. Er kennt die Sprachwissenschaft und die Grammatik und ist mit der Kosmologie und mit den Kennzeichen eines großen Mannes vertraut. ",
+            "en": "“Master Gotama, it’s when a brahmin is well born on both his mother’s and father’s side, of pure descent, with irrefutable and impeccable genealogy back to the seventh paternal generation. He recites and remembers the hymns, and has mastered the three Vedas, together with their vocabularies, ritual, phonology and etymology, and the testament as fifth. He knows philology and grammar, and is well versed in cosmology and the marks of a great man. ",
+            "matched": true
+          }
+        },
+        "score": 1.02,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 3.59\n6. Das Kapitel mit Brahmanen\nMit Jāṇussoṇi",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 50,
+          "de": 49,
+          "en": 49
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn35/sn35.132_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn35/sn35.132_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn35/sn35.132_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn35.132",
+        "lang": "de",
+        "segMap": {
+          "sn35.132:5.4": {
+            "scid": "sn35.132:5.4",
+            "pli": "Pāto sinānañca tayo ca vedā. ",
+            "de": "beim Morgengrauen baden, die <span class=\"ebt-matched\">drei Veden</span>, ",
+            "en": "bathing at dawn, the three Vedas, ",
+            "matched": true
+          }
+        },
+        "score": 1.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 35.132\n13. Das Kapitel mit Hausbesitzern\nMit Lohicca",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 88,
+          "de": 87,
+          "en": 87
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an5/an5.192_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an5/an5.192_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an5/an5.192_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an5.192",
+        "lang": "de",
+        "segMap": {
+          "an5.192:2.11": {
+            "scid": "an5.192:2.11",
+            "pli": "mātito ca pitito ca, saṁsuddhagahaṇiko, yāva sattamā pitāmahayugā akkhitto anupakkuṭṭho jātivādena, ajjhāyako mantadharo, tiṇṇaṁ vedānaṁ pāragū sanighaṇḍukeṭubhānaṁ sākkharappabhedānaṁ itihāsapañcamānaṁ, padako veyyākaraṇo lokāyatamahāpurisalakkhaṇesu anavayo”ti. ",
+            "de": "Denn ich bin von guter Geburt auf mütterlicher und väterlicher Seite, von reiner Abkunft, mit unwiderlegbarem und einwandfreiem Stammbaum bis zur siebten väterlichen Generation zurück. Ich sage die Hymnen auf und präge sie mir ein und habe die <span class=\"ebt-matched\">drei Veden</span> gemeistert, zusammen mit ihrem Wortschatz, den Riten, den Lauten und der Ableitung der Wörter sowie dem Testament als fünftem. Ich kenne die Sprachwissenschaft und die Grammatik und bin mit der Kosmologie und mit den Kennzeichen eines großen Mannes vertraut.“ ",
+            "en": "For I am well born on both my mother’s and father’s side, of pure descent, with irrefutable and impeccable genealogy back to the seventh paternal generation. I recite and remember the hymns, and have mastered the three Vedas, together with their vocabularies, ritual, phonology and etymology, and the testament as fifth. I know philology and grammar, and am well versed in cosmology and the marks of a great man.” ",
+            "matched": true
+          }
+        },
+        "score": 1.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 5.192\n20. Das Kapitel über Brahmanen\nMit dem Brahmanen Doṇa",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 120,
+          "de": 98,
+          "en": 119
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn93_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn93_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn93_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn93",
+        "lang": "de",
+        "segMap": {
+          "mn93:3.1": {
+            "scid": "mn93:3.1",
+            "pli": "Tena kho pana samayena assalāyano nāma māṇavo sāvatthiyaṁ paṭivasati daharo, vuttasiro, soḷasavassuddesiko jātiyā, tiṇṇaṁ vedānaṁ pāragū sanighaṇḍukeṭubhānaṁ sākkharappabhedānaṁ itihāsapañcamānaṁ, padako, veyyākaraṇo, lokāyatamahāpurisalakkhaṇesu anavayo. ",
+            "de": "Nun befand sich zu dieser Zeit der Brahmanenschüler Assalāyana in Sāvatthī. Er war jung, sein Kopf frisch geschoren; er war sechzehn Jahre alt. Er hatte die <span class=\"ebt-matched\">drei Veden</span> gemeistert, zusammen mit ihrem Wortschatz, den Riten, den Lauten und der Ableitung der Wörter sowie dem Testament als fünftem. Er kannte die Sprachwissenschaft und die Grammatik und war mit der Kosmologie und mit den Kennzeichen eines großen Mannes vertraut. ",
+            "en": "Now at that time the brahmin student Assalāyana was residing in Sāvatthī. He was young, newly tonsured; he was sixteen years old. He had mastered the three Vedas, together with their vocabularies, ritual, phonology and etymology, and the testament as fifth. He knew philology and grammar, and was well versed in cosmology and the marks of a great man. ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 93\nMit Assalāyana",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 244,
+          "de": 192,
+          "en": 243
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag20.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag20.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag20.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag20.1",
+        "lang": "de",
+        "segMap": {
+          "thag20.1:32.2": {
+            "scid": "thag20.1:32.2",
+            "pli": "tiṇṇaṁ vedāna pāragū; ",
+            "de": "ein Meister der <span class=\"ebt-matched\">drei Veden</span>: ",
+            "en": "a master of the three Vedas: ",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 20.1\nDas Sechzigerbuch\n1. Das erste Kapitel\nMahāmoggallāna",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 299,
+          "de": 294,
+          "en": 294
+        }
+      }
+    ]
+  }
+}
