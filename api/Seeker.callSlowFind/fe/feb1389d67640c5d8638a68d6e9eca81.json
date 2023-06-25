@@ -31,7 +31,7 @@
     "pattern": "psychic power and might",
     "method": "phrase",
     "resultPattern": "\\bpsychic power and might",
-    "segsMatched": 14,
+    "segsMatched": 16,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn6/sn6.6_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn6/sn6.6_translation-en-sujato.json",
@@ -47,10 +47,14 @@
       "translation/en/sujato/sutta/sn/sn6/sn6.14_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn49_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn49_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn123_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn123_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/ud/vagga2/ud2.8_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/ud/vagga2/ud2.8_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/snp/vagga3/snp3.6_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/snp/vagga3/snp3.6_translation-en-sujato.json"
+      "translation/en/sujato/sutta/kn/snp/vagga3/snp3.6_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "sn6.6/en/sujato",
@@ -60,8 +64,10 @@
       "dn11/en/sujato",
       "sn6.14/en/sujato",
       "mn49/en/sujato",
+      "mn123/en/sujato",
       "ud2.8/en/sujato",
-      "snp3.6/en/sujato"
+      "snp3.6/en/sujato",
+      "dn14/en/sujato"
     ],
     "mlDocs": [
       {
@@ -299,6 +305,35 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn123_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn123_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn123",
+        "lang": "en",
+        "segMap": {
+          "mn123:2.2": {
+            "scid": "mn123:2.2",
+            "pli": "“acchariyaṁ, āvuso, abbhutaṁ, āvuso. Tathāgatassa mahiddhikatā mahānubhāvatā, ",
+            "en": "“It’s incredible, sir, it’s amazing! The Realized One has such <span class=\"ebt-matched\">psychic power and might</span>! ",
+            "matched": true
+          }
+        },
+        "score": 1.009,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Middle Discourses 123\nIncredible and Amazing",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 107,
+          "en": 106
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/mn/mn49_root-pli-ms.json",
           "translation/en/sujato/sutta/mn/mn49_translation-en-sujato.json"
         ],
@@ -353,6 +388,35 @@
         "langSegs": {
           "pli": 223,
           "en": 221
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
+          "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn14",
+        "lang": "en",
+        "segMap": {
+          "dn14:1.13.2": {
+            "scid": "dn14:1.13.2",
+            "pli": "“acchariyaṁ, āvuso, abbhutaṁ, āvuso, tathāgatassa mahiddhikatā mahānubhāvatā. ",
+            "en": "“It’s incredible, reverends, it’s amazing! The Realized One has such <span class=\"ebt-matched\">psychic power and might</span>! ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Long Discourses 14\nThe Great Discourse on Traces Left Behind",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 851,
+          "en": 850
         }
       }
     ]
