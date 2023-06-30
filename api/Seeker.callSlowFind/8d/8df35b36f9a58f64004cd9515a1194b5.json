@@ -30,57 +30,30 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "weg.* zum jenseits",
-    "method": "phrase",
-    "resultPattern": "\\bweg.* zum jenseits",
-    "segsMatched": 2,
+    "method": "keywords",
+    "resultPattern": "\\bweg.*|\\bzum|\\bjenseits",
+    "segsMatched": 0,
     "bilaraPaths": [
-      "root/pli/ms/sutta/an/an7/an7.53_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an7/an7.53_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an7/an7.53_translation-en-sujato.json"
+      "root/pli/ms/sutta/an/an7/an7.55_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an7/an7.55_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an7/an7.55_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.70_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an3/an3.70_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an3/an3.70_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn32_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn32_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn32_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag21.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag21.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag21.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn4/sn4.24_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn4/sn4.24_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn4/sn4.24_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn8/sn8.8_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn8/sn8.8_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn8/sn8.8_translation-en-sujato.json"
     ],
-    "suttaRefs": [
-      "an7.53/de/sabbamitta"
-    ],
-    "mlDocs": [
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/an/an7/an7.53_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/an/an7/an7.53_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/an/an7/an7.53_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "an7.53",
-        "lang": "de",
-        "segMap": {
-          "an7.53:1.3": {
-            "scid": "an7.53:1.3",
-            "pli": "Tena kho pana samayena veḷukaṇḍakī nandamātā upāsikā rattiyā paccūsasamayaṁ paccuṭṭhāya pārāyanaṁ sarena bhāsati. ",
-            "de": "Nun stand da die Laienfrau Veḷukaṇṭakī, Nandas Mutter, beim ersten Morgengrauen auf und sagte die Strophen des ‚<span class=\"ebt-matched\">Weges zum Jenseits</span>‘ auf. ",
-            "en": "Now at that time the laywoman Veḷukaṇṭakī, Nanda’s mother, rose at the crack of dawn and recited the verses of “The Way to the Far Shore”. ",
-            "matched": true
-          },
-          "an7.53:6.1": {
-            "scid": "an7.53:6.1",
-            "pli": "“Idhāhaṁ, bhante, rattiyā paccūsasamayaṁ paccuṭṭhāya pārāyanaṁ sarena bhāsitvā tuṇhī ahosiṁ. ",
-            "de": "„Herr, letzte Nacht bin ich beim ersten Morgengrauen aufgestanden, habe die Strophen des ‚<span class=\"ebt-matched\">Weges zum Jenseits</span>‘ aufgesagt und dann geschwiegen. ",
-            "en": "“Sir, last night I rose at the crack of dawn and recited the verses of ‘The Way to the Far Shore’, and then I fell silent. ",
-            "matched": true
-          }
-        },
-        "score": 2.024,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Nummerierte Lehrreden 7.53\n5. Das Kapitel über ein großes Opfer\nNandas Mutter",
-        "segsMatched": 2,
-        "langSegs": {
-          "pli": 84,
-          "de": 75,
-          "en": 82
-        }
-      }
-    ]
+    "suttaRefs": [],
+    "mlDocs": []
   }
 }
