@@ -1,0 +1,158 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "entscheidungen sind leiden",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 2,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "entscheidungen sind leiden",
+    "method": "phrase",
+    "resultPattern": "\\bentscheidungen sind leiden",
+    "segsMatched": 4,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn22/sn22.67_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn22/sn22.67_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.67_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.19_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn22/sn22.19_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.19_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.16_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn22/sn22.16_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.16_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn22.67/de/sabbamitta",
+      "sn22.19/de/sabbamitta",
+      "sn22.16/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.67_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn22/sn22.67_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.67_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.67",
+        "lang": "de",
+        "segMap": {
+          "sn22.67:2.5": {
+            "scid": "sn22.67:2.5",
+            "pli": "saṅkhārā … ",
+            "de": "<span class=\"ebt-matched\">Entscheidungen sind Leiden</span> … ",
+            "en": "Choices … ",
+            "matched": true
+          },
+          "sn22.67:3.6": {
+            "scid": "sn22.67:3.6",
+            "pli": "saṅkhārā … ",
+            "de": "<span class=\"ebt-matched\">Entscheidungen sind Leiden</span> … ",
+            "en": "Choices … ",
+            "matched": true
+          }
+        },
+        "score": 2.08,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 22.67\n7. Das Kapitel über die Vollendeten\nLeiden",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 25,
+          "de": 24,
+          "en": 24
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.16_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn22/sn22.16_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.16_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.16",
+        "lang": "de",
+        "segMap": {
+          "sn22.16:1.7": {
+            "scid": "sn22.16:1.7",
+            "pli": "saṅkhārā dukkhā … ",
+            "de": "<span class=\"ebt-matched\">Entscheidungen sind Leiden</span> … ",
+            "en": "Choices are suffering … ",
+            "matched": true
+          }
+        },
+        "score": 1.063,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 22.16\n2. Das Kapitel über Unbeständigkeit\nWas Leiden ist",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 16,
+          "de": 15,
+          "en": 15
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.19_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn22/sn22.19_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.19_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.19",
+        "lang": "de",
+        "segMap": {
+          "sn22.19:1.7": {
+            "scid": "sn22.19:1.7",
+            "pli": "saṅkhārā dukkhā … ",
+            "de": "<span class=\"ebt-matched\">Entscheidungen sind Leiden</span> … ",
+            "en": "Choices are suffering … ",
+            "matched": true
+          }
+        },
+        "score": 1.063,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 22.19\n2. Das Kapitel über Unbeständigkeit\nLeiden mit seinem Grund",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 16,
+          "de": 15,
+          "en": 15
+        }
+      }
+    ]
+  }
+}

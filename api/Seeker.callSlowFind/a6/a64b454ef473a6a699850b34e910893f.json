@@ -1,0 +1,321 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "werden von.* erhalten",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 2,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "werden von.* erhalten",
+    "method": "keywords",
+    "resultPattern": "\\bwerden|\\bvon.*|\\berhalten",
+    "segsMatched": 8,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn3_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn3_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn3_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.58_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an5/an5.58_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an5/an5.58_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an1/an1.333-377_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an1/an1.333-377_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an1/an1.333-377_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an2/an2.42-51_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an2/an2.42-51_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an2/an2.42-51_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.180_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an5/an5.180_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an5/an5.180_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an8/an8.80_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an8/an8.80_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an8/an8.80_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn19_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn19_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn19_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn23_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn23_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn8_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn8_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn8_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn12/sn12.11_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn12/sn12.11_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.11_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn12/sn12.12_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn12/sn12.12_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.12_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn12/sn12.63_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn12/sn12.63_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.63_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn12/sn12.64_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn12/sn12.64_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.64_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn35/sn35.241_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn35/sn35.241_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.241_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.27_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.27_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.27_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.28_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.28_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.28_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.75_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.75_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.75_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an2/an2.32-41_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an2/an2.32-41_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an2/an2.32-41_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.57_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an3/an3.57_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an3/an3.57_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.197_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.197_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.197_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an6/an6.44_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an6/an6.44_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an6/an6.44_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an6/an6.58_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an6/an6.58_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an6/an6.58_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an8/an8.63_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an8/an8.63_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an8/an8.63_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn14_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn17_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn17_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn17_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn18_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn18_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn18_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn21_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn21_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn21_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn29_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn29_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn29_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn30_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn30_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn30_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn9_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn9_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn9_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/kp/kp7_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/kp/kp7_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/kp/kp7_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thig/thig13.2_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thig/thig13.2_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thig/thig13.2_translation-en-sujato.json",
+      "translation/en/soma/sutta/kn/thig/thig13.2_translation-en-soma.json",
+      "root/pli/ms/sutta/mn/mn140_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn140_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn140_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn7_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn7_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn7_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn12/sn12.70_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn12/sn12.70_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.70_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn35/sn35.246_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn35/sn35.246_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.246_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn12.11/de/sabbamitta",
+      "sn12.12/de/sabbamitta",
+      "sn12.63/de/sabbamitta",
+      "sn12.64/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn12/sn12.11_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn12/sn12.11_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn12/sn12.11_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn12.11",
+        "lang": "de",
+        "segMap": {
+          "sn12.11:1.3": {
+            "scid": "sn12.11:1.3",
+            "pli": "“cattārome, bhikkhave, āhārā bhūtānaṁ vā sattānaṁ ṭhitiyā sambhavesīnaṁ vā anuggahāya. ",
+            "de": "„Mönche und Nonnen, es gibt vier Arten <span class=\"ebt-matched\">von Nahrung. Sie erhalten Lebewesen, die geboren sind, und helfen denen, die geboren werden müssen. </span>",
+            "en": "“Mendicants, there are these four fuels. They maintain sentient beings that have been born and help those that are about to be born. ",
+            "matched": true
+          },
+          "sn12.11:1.6": {
+            "scid": "sn12.11:1.6",
+            "pli": "Ime kho, bhikkhave, cattāro āhārā bhūtānaṁ vā sattānaṁ ṭhitiyā sambhavesīnaṁ vā anuggahāya. ",
+            "de": "Das sind die vier Arten <span class=\"ebt-matched\">von Nahrung, die Lebewesen, die geboren sind, erhalten und denen helfen, die geboren werden müssen. </span>",
+            "en": "These are the four fuels that maintain sentient beings that have been born and help those that are about to be born. ",
+            "matched": true
+          }
+        },
+        "score": 2.063,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 12.11\n2. Das Kapitel über Nahrung\nNahrung",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 32,
+          "de": 31,
+          "en": 31
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn12/sn12.12_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn12/sn12.12_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn12/sn12.12_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn12.12",
+        "lang": "de",
+        "segMap": {
+          "sn12.12:1.2": {
+            "scid": "sn12.12:1.2",
+            "pli": "“Cattārome, bhikkhave, āhārā bhūtānaṁ vā sattānaṁ ṭhitiyā sambhavesīnaṁ vā anuggahāya. ",
+            "de": "„Mönche und Nonnen, es gibt vier Arten <span class=\"ebt-matched\">von Nahrung. Sie erhalten Lebewesen, die geboren sind, und helfen denen, die geboren werden müssen. </span>",
+            "en": "“Mendicants, there are these four fuels. They maintain sentient beings that have been born and help those that are about to be born. ",
+            "matched": true
+          },
+          "sn12.12:1.5": {
+            "scid": "sn12.12:1.5",
+            "pli": "Ime kho, bhikkhave, cattāro āhārā bhūtānaṁ vā sattānaṁ ṭhitiyā sambhavesīnaṁ vā anuggahāyā”ti. ",
+            "de": "Das sind die vier Arten <span class=\"ebt-matched\">von Nahrung, die Lebewesen, die geboren sind, erhalten und denen helfen, die geboren werden müssen.“ </span>",
+            "en": "These are the four fuels that maintain sentient beings that have been born and help those that are about to be born.” ",
+            "matched": true
+          }
+        },
+        "score": 2.029,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 12.12\n2. Das Kapitel über Nahrung\nPhagguna mit dem Scheitelknoten",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 70,
+          "de": 69,
+          "en": 69
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn12/sn12.64_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn12/sn12.64_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn12/sn12.64_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn12.64",
+        "lang": "de",
+        "segMap": {
+          "sn12.64:1.2": {
+            "scid": "sn12.64:1.2",
+            "pli": "“Cattārome, bhikkhave, āhārā bhūtānaṁ vā sattānaṁ ṭhitiyā sambhavesīnaṁ vā anuggahāya. ",
+            "de": "„Mönche und Nonnen, es gibt vier Arten <span class=\"ebt-matched\">von Nahrung. Sie erhalten Lebewesen, die geboren sind, und helfen denen, die geboren werden müssen. </span>",
+            "en": "“Mendicants, there are these four fuels. They maintain sentient beings that have been born and help those that are about to be born. ",
+            "matched": true
+          },
+          "sn12.64:1.5": {
+            "scid": "sn12.64:1.5",
+            "pli": "Ime kho, bhikkhave, cattāro āhārā bhūtānaṁ vā sattānaṁ ṭhitiyā sambhavesīnaṁ vā anuggahāya. ",
+            "de": "Das sind die vier Arten <span class=\"ebt-matched\">von Nahrung, die Lebewesen, die geboren sind, erhalten und denen helfen, die geboren werden müssen. </span>",
+            "en": "These are the four fuels that maintain sentient beings that have been born and help those that are about to be born. ",
+            "matched": true
+          }
+        },
+        "score": 2.029,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 12.64\n7. Das große Kapitel\nWenn es Gier gibt",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 69,
+          "de": 68,
+          "en": 68
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn12/sn12.63_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn12/sn12.63_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn12/sn12.63_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn12.63",
+        "lang": "de",
+        "segMap": {
+          "sn12.63:1.2": {
+            "scid": "sn12.63:1.2",
+            "pli": "“cattārome, bhikkhave, āhārā bhūtānaṁ vā sattānaṁ ṭhitiyā sambhavesīnaṁ vā anuggahāya. ",
+            "de": "„Mönche und Nonnen, es gibt vier Arten <span class=\"ebt-matched\">von Nahrung. Sie erhalten Lebewesen, die geboren sind, und helfen denen, die geboren werden müssen. </span>",
+            "en": "“Mendicants, there are these four fuels. They maintain sentient beings that have been born and help those that are about to be born. ",
+            "matched": true
+          },
+          "sn12.63:1.5": {
+            "scid": "sn12.63:1.5",
+            "pli": "Ime kho, bhikkhave, cattāro āhārā bhūtānaṁ vā sattānaṁ ṭhitiyā sambhavesīnaṁ vā anuggahāya. ",
+            "de": "Das sind die vier Arten <span class=\"ebt-matched\">von Nahrung, die Lebewesen, die geboren sind, erhalten und denen helfen, die geboren werden müssen. </span>",
+            "en": "These are the four fuels that maintain sentient beings that have been born and help those that are about to be born. ",
+            "matched": true
+          }
+        },
+        "score": 2.027,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 12.63\n7. Das große Kapitel\nFleisch eines Kindes",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 73,
+          "de": 72,
+          "en": 72
+        }
+      }
+    ]
+  }
+}

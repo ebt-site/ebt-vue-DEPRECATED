@@ -1,0 +1,179 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "wurzel des leidens",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 2,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "wurzel des leidens",
+    "method": "phrase",
+    "resultPattern": "\\bwurzel des leidens",
+    "segsMatched": 7,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn42/sn42.11_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn42/sn42.11_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn42/sn42.11_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn56/sn56.21_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn56/sn56.21_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn56/sn56.21_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn42.11/de/sabbamitta",
+      "sn56.21/de/sabbamitta",
+      "dn16/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn42/sn42.11_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn42/sn42.11_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn42/sn42.11_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn42.11",
+        "lang": "de",
+        "segMap": {
+          "sn42.11:2.11": {
+            "scid": "sn42.11:2.11",
+            "pli": "Chando hi mūlaṁ dukkhassa. ",
+            "de": "Denn Sehnen ist die <span class=\"ebt-matched\">Wurzel des Leidens</span>. ",
+            "en": "For desire is the root of suffering. ",
+            "matched": true
+          },
+          "sn42.11:2.13": {
+            "scid": "sn42.11:2.13",
+            "pli": "Chando hi mūlaṁ dukkhassā’”ti. ",
+            "de": "Denn Sehnen ist die <span class=\"ebt-matched\">Wurzel des Leidens</span>.‘“ ",
+            "en": "For desire is the root of suffering.’” ",
+            "matched": true
+          },
+          "sn42.11:2.17": {
+            "scid": "sn42.11:2.17",
+            "pli": "Chando hi mūlaṁ dukkhassā’ti. ",
+            "de": "Denn Sehnen ist die <span class=\"ebt-matched\">Wurzel des Leidens</span>.‘ ",
+            "en": "For desire is the root of suffering.’ ",
+            "matched": true
+          },
+          "sn42.11:3.6": {
+            "scid": "sn42.11:3.6",
+            "pli": "Chando hi mūlaṁ dukkhassā’ti. ",
+            "de": "Denn Sehnen ist die <span class=\"ebt-matched\">Wurzel des Leidens</span>.‘ ",
+            "en": "For desire is the root of suffering.’ ",
+            "matched": true
+          },
+          "sn42.11:5.6": {
+            "scid": "sn42.11:5.6",
+            "pli": "Chando hi mūlaṁ dukkhassā’”ti. ",
+            "de": "Denn Sehnen ist die <span class=\"ebt-matched\">Wurzel des Leidens</span>.‘“ ",
+            "en": "For desire is the root of suffering.’” ",
+            "matched": true
+          }
+        },
+        "score": 5.091,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 42.11\n1. Das Kapitel mit Ortsvorstehern\nMit Bhadraka",
+        "segsMatched": 5,
+        "langSegs": {
+          "pli": 55,
+          "de": 54,
+          "en": 54
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn56/sn56.21_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn56/sn56.21_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn56/sn56.21_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn56.21",
+        "lang": "de",
+        "segMap": {
+          "sn56.21:5.3": {
+            "scid": "sn56.21:5.3",
+            "pli": "Ucchinnaṁ mūlaṁ dukkhassa, ",
+            "de": "Die <span class=\"ebt-matched\">Wurzel des Leidens</span> ist abgeschnitten, ",
+            "en": "The root of suffering is cut off, ",
+            "matched": true
+          }
+        },
+        "score": 1.043,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 56.21\n3. Das Kapitel beim Dorf Koṭi\nBeim Dorf Koṭi (1)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 23,
+          "de": 22,
+          "en": 22
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn16",
+        "lang": "de",
+        "segMap": {
+          "dn16:2.3.9": {
+            "scid": "dn16:2.3.9",
+            "pli": "Ucchinnaṁ mūlaṁ dukkhassa, ",
+            "de": "Die <span class=\"ebt-matched\">Wurzel des Leidens</span> ist abgeschnitten, ",
+            "en": "The root of suffering is cut off, ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 16\nDie große Lehrrede vom Erlöschen des Buddha",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 1664,
+          "de": 1579,
+          "en": 1568
+        }
+      }
+    ]
+  }
+}

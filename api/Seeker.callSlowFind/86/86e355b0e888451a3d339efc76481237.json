@@ -1,0 +1,151 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "kuh.* das leben",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 2,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "kuh.* das leben",
+    "method": "phrase",
+    "resultPattern": "\\bkuh.* das leben",
+    "segsMatched": 3,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn140_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn140_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn140_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga5/ud5.3_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/ud/vagga5/ud5.3_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/ud/vagga5/ud5.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga1/ud1.10_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/ud/vagga1/ud1.10_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/ud/vagga1/ud1.10_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "mn140/de/sabbamitta",
+      "ud5.3/de/sabbamitta",
+      "ud1.10/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga5/ud5.3_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/ud/vagga5/ud5.3_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/ud/vagga5/ud5.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud5.3",
+        "lang": "de",
+        "segMap": {
+          "ud5.3:7.2": {
+            "scid": "ud5.3:7.2",
+            "pli": "Atha kho acirapakkantaṁ suppabuddhaṁ kuṭṭhiṁ gāvī taruṇavacchā adhipatitvā jīvitā voropesi. ",
+            "de": "Aber kurz nachdem Suppabuddha gegangen war, griff ihn eine <span class=\"ebt-matched\">Kuh mit einem kleinen Kälbchen an und nahm ihm das Leben</span>. ",
+            "en": "But soon after Suppabuddha had left, a cow with a baby calf charged at him and took his life. ",
+            "matched": true
+          }
+        },
+        "score": 1.016,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Innige Sprüche 5.3\nMit Suppabuddha dem Aussätzigen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 64,
+          "de": 62,
+          "en": 62
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga1/ud1.10_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/ud/vagga1/ud1.10_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/ud/vagga1/ud1.10_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud1.10",
+        "lang": "de",
+        "segMap": {
+          "ud1.10:10.2": {
+            "scid": "ud1.10:10.2",
+            "pli": "Atha kho acirapakkantassa bhagavato bāhiyaṁ dārucīriyaṁ gāvī taruṇavacchā adhipatitvā jīvitā voropesi. ",
+            "de": "Aber kurz nachdem der Buddha gegangen war, griff eine <span class=\"ebt-matched\">Kuh mit einem kleinen Kälbchen Bāhiya an und nahm ihm das Leben</span>. ",
+            "en": "But soon after the Buddha had left, a cow with a baby calf charged at Bāhiya and took his life. ",
+            "matched": true
+          }
+        },
+        "score": 1.013,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Innige Sprüche 1.10\nMit Bāhiya",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 79,
+          "de": 72,
+          "en": 72
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn140_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn140_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn140_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn140",
+        "lang": "de",
+        "segMap": {
+          "mn140:35.2": {
+            "scid": "mn140:35.2",
+            "pli": "Atha kho āyasmantaṁ pukkusātiṁ pattacīvarapariyesanaṁ carantaṁ vibbhantā gāvī jīvitā voropesi. ",
+            "de": "Aber auf der Suche nach Schale und Roben nahm ihm unterwegs eine verirrte <span class=\"ebt-matched\">Kuh das Leben</span>. ",
+            "en": "But while he was wandering in search of a bowl and robes, a stray cow took his life. ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 140\nDie Aufgliederung der Elemente",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 239,
+          "de": 229,
+          "en": 238
+        }
+      }
+    ]
+  }
+}

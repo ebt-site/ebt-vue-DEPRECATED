@@ -1,0 +1,115 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "jedes bild, das man mit dem auge sieht, unerwünscht",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 2,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "jedes bild, das man mit dem auge sieht, unerwünscht",
+    "method": "phrase",
+    "resultPattern": "\\bjedes bild, das man mit dem auge sieht, unerwünscht",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn56/sn56.43_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn56/sn56.43_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn56/sn56.43_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn35/sn35.135_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn35/sn35.135_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.135_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn56.43/de/sabbamitta",
+      "sn35.135/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn35/sn35.135_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn35/sn35.135_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn35/sn35.135_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn35.135",
+        "lang": "de",
+        "segMap": {
+          "sn35.135:1.4": {
+            "scid": "sn35.135:1.4",
+            "pli": "Tattha yaṁ kiñci cakkhunā rūpaṁ passati aniṭṭharūpaṁyeva passati, no iṭṭharūpaṁ; akantarūpaṁyeva passati, no kantarūpaṁ; amanāparūpaṁyeva passati, no manāparūpaṁ. ",
+            "de": "Dort ist <span class=\"ebt-matched\">jedes Bild, das man mit dem Auge sieht, unerwünscht</span>, nicht erwünscht, unwillkommen, nicht willkommen, unangenehm, nicht angenehm. ",
+            "en": "There, whatever sight you see with your eye is unlikable, not likable; undesirable, not desirable; unpleasant, not pleasant. ",
+            "matched": true
+          }
+        },
+        "score": 1.048,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 35.135\n14. Das Kapitel bei Devadaha\nGelegenheit",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 21,
+          "de": 20,
+          "en": 20
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn56/sn56.43_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn56/sn56.43_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn56/sn56.43_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn56.43",
+        "lang": "de",
+        "segMap": {
+          "sn56.43:1.2": {
+            "scid": "sn56.43:1.2",
+            "pli": "Tattha yaṁ kiñci cakkhunā rūpaṁ passati, aniṭṭharūpaññeva passati no iṭṭharūpaṁ; akantarūpaññeva passati no kantarūpaṁ; amanāparūpaññeva passati no manāparūpaṁ. ",
+            "de": "Dort ist <span class=\"ebt-matched\">jedes Bild, das man mit dem Auge sieht, unerwünscht</span>, nicht erwünscht, unwillkommen, nicht willkommen, unangenehm, nicht angenehm. ",
+            "en": "There, whatever sight you see with your eye is unlikable, not likable; undesirable, not desirable; unpleasant, not pleasant. ",
+            "matched": true
+          }
+        },
+        "score": 1.037,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 56.43\n5. Das Kapitel über einen Abgrund\nDas mächtige Fieber",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 27,
+          "de": 26,
+          "en": 26
+        }
+      }
+    ]
+  }
+}

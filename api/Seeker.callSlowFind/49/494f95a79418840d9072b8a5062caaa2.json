@@ -1,0 +1,461 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "pattern": "gut genug",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 2,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "gut genug",
+    "method": "phrase",
+    "resultPattern": "\\bgut genug",
+    "segsMatched": 39,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an8/an8.78_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an8/an8.78_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an8/an8.78_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an8/an8.62_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an8/an8.62_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an8/an8.62_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn23_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn23_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga4/ud4.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/ud/vagga4/ud4.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/ud/vagga4/ud4.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an9/an9.3_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an9/an9.3_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an9/an9.3_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an8.78/de/sabbamitta",
+      "an8.62/de/sabbamitta",
+      "dn23/de/sabbamitta",
+      "ud4.1/de/sabbamitta",
+      "an9.3/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.62_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an8/an8.62_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an8/an8.62_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an8.62",
+        "lang": "de",
+        "segMap": {
+          "an8.62:0.3": {
+            "scid": "an8.62:0.3",
+            "pli": "Alaṁsutta ",
+            "de": "<span class=\"ebt-matched\">Gut genug</span> ",
+            "en": "Good Enough ",
+            "matched": true
+          },
+          "an8.62:1.1": {
+            "scid": "an8.62:1.1",
+            "pli": "“Chahi, bhikkhave, dhammehi samannāgato bhikkhu alaṁ attano alaṁ paresaṁ. ",
+            "de": "„Mönche und Nonnen, ein Mönch, der sechs Eigenschaften besitzt, ist <span class=\"ebt-matched\">gut genug</span> für sich und andere. ",
+            "en": "“Mendicants, a mendicant with six qualities is good enough for themselves and others. ",
+            "matched": true
+          },
+          "an8.62:1.9": {
+            "scid": "an8.62:1.9",
+            "pli": "Imehi kho, bhikkhave, chahi dhammehi samannāgato bhikkhu alaṁ attano alaṁ paresaṁ. ",
+            "de": "Ein Mönch, der diese sechs Eigenschaften besitzt, ist <span class=\"ebt-matched\">gut genug</span> für sich und andere. ",
+            "en": "A mendicant with these six qualities is good enough for themselves and others. ",
+            "matched": true
+          },
+          "an8.62:2.1": {
+            "scid": "an8.62:2.1",
+            "pli": "Pañcahi, bhikkhave, dhammehi samannāgato bhikkhu alaṁ attano alaṁ paresaṁ. ",
+            "de": "Ein Mönch, der fünf Eigenschaften besitzt, ist <span class=\"ebt-matched\">gut genug</span> für sich und andere. ",
+            "en": "A mendicant with five qualities is good enough for themselves and others. ",
+            "matched": true
+          },
+          "an8.62:2.9": {
+            "scid": "an8.62:2.9",
+            "pli": "Imehi kho, bhikkhave, pañcahi dhammehi samannāgato bhikkhu alaṁ attano alaṁ paresaṁ. ",
+            "de": "Ein Mönch, der diese fünf Eigenschaften besitzt, ist <span class=\"ebt-matched\">gut genug</span> für sich und andere. ",
+            "en": "A mendicant with these five qualities is good enough for themselves and others. ",
+            "matched": true
+          },
+          "an8.62:3.1": {
+            "scid": "an8.62:3.1",
+            "pli": "Catūhi, bhikkhave, dhammehi samannāgato bhikkhu alaṁ attano nālaṁ paresaṁ. ",
+            "de": "Ein Mönch, der vier Eigenschaften besitzt, ist <span class=\"ebt-matched\">gut genug</span> für sich, aber nicht für andere. ",
+            "en": "A mendicant with four qualities is good enough for themselves but not for others. ",
+            "matched": true
+          },
+          "an8.62:3.9": {
+            "scid": "an8.62:3.9",
+            "pli": "Imehi kho, bhikkhave, catūhi dhammehi samannāgato bhikkhu alaṁ attano nālaṁ paresaṁ. ",
+            "de": "Ein Mönch, der diese vier Eigenschaften besitzt, ist <span class=\"ebt-matched\">gut genug</span> für sich, aber nicht für andere. ",
+            "en": "A mendicant with these four qualities is good enough for themselves but not for others. ",
+            "matched": true
+          },
+          "an8.62:4.1": {
+            "scid": "an8.62:4.1",
+            "pli": "Catūhi, bhikkhave, dhammehi samannāgato bhikkhu alaṁ paresaṁ nālaṁ attano. ",
+            "de": "Ein Mönch, der vier Eigenschaften besitzt, ist <span class=\"ebt-matched\">gut genug</span> für andere, aber nicht für sich. ",
+            "en": "A mendicant with four qualities is good enough for others but not for themselves. ",
+            "matched": true
+          },
+          "an8.62:4.9": {
+            "scid": "an8.62:4.9",
+            "pli": "Imehi kho, bhikkhave, catūhi dhammehi samannāgato bhikkhu alaṁ paresaṁ, nālaṁ attano. ",
+            "de": "Ein Mönch, der diese vier Eigenschaften besitzt, ist <span class=\"ebt-matched\">gut genug</span> für andere, aber nicht für sich. ",
+            "en": "A mendicant with these four qualities is good enough for others but not for themselves. ",
+            "matched": true
+          },
+          "an8.62:5.1": {
+            "scid": "an8.62:5.1",
+            "pli": "Tīhi, bhikkhave, dhammehi samannāgato bhikkhu alaṁ attano nālaṁ paresaṁ. ",
+            "de": "Ein Mönch, der drei Eigenschaften besitzt, ist <span class=\"ebt-matched\">gut genug</span> für sich, aber nicht für andere. ",
+            "en": "A mendicant with three qualities is good enough for themselves but not for others. ",
+            "matched": true
+          },
+          "an8.62:5.9": {
+            "scid": "an8.62:5.9",
+            "pli": "Imehi kho, bhikkhave, tīhi dhammehi samannāgato bhikkhu alaṁ attano, nālaṁ paresaṁ. ",
+            "de": "Ein Mönch, der diese drei Eigenschaften besitzt, ist <span class=\"ebt-matched\">gut genug</span> für sich, aber nicht für andere. ",
+            "en": "A mendicant with these three qualities is good enough for themselves but not for others. ",
+            "matched": true
+          },
+          "an8.62:6.1": {
+            "scid": "an8.62:6.1",
+            "pli": "Tīhi, bhikkhave, dhammehi samannāgato bhikkhu alaṁ paresaṁ, nālaṁ attano. ",
+            "de": "Ein Mönch, der drei Eigenschaften besitzt, ist <span class=\"ebt-matched\">gut genug</span> für andere, aber nicht für sich. ",
+            "en": "A mendicant with three qualities is good enough for others but not for themselves. ",
+            "matched": true
+          },
+          "an8.62:6.9": {
+            "scid": "an8.62:6.9",
+            "pli": "Imehi kho, bhikkhave, tīhi dhammehi samannāgato bhikkhu alaṁ paresaṁ, nālaṁ attano. ",
+            "de": "Ein Mönch, der diese drei Eigenschaften besitzt, ist <span class=\"ebt-matched\">gut genug</span> für andere, aber nicht für sich. ",
+            "en": "A mendicant with these three qualities is good enough for others but not for themselves. ",
+            "matched": true
+          },
+          "an8.62:7.1": {
+            "scid": "an8.62:7.1",
+            "pli": "Dvīhi, bhikkhave, dhammehi samannāgato bhikkhu alaṁ attano, nālaṁ paresaṁ. ",
+            "de": "Ein Mönch, der zwei Eigenschaften besitzt, ist <span class=\"ebt-matched\">gut genug</span> für sich, aber nicht für andere. ",
+            "en": "A mendicant with two qualities is good enough for themselves but not for others. ",
+            "matched": true
+          },
+          "an8.62:7.9": {
+            "scid": "an8.62:7.9",
+            "pli": "Imehi kho, bhikkhave, dvīhi dhammehi samannāgato bhikkhu alaṁ attano, nālaṁ paresaṁ. ",
+            "de": "Ein Mönch, der diese zwei Eigenschaften besitzt, ist <span class=\"ebt-matched\">gut genug</span> für sich, aber nicht für andere. ",
+            "en": "A mendicant with these two qualities is good enough for themselves but not for others. ",
+            "matched": true
+          },
+          "an8.62:8.1": {
+            "scid": "an8.62:8.1",
+            "pli": "Dvīhi, bhikkhave, dhammehi samannāgato bhikkhu alaṁ paresaṁ, nālaṁ attano. ",
+            "de": "Ein Mönch, der zwei Eigenschaften besitzt, ist <span class=\"ebt-matched\">gut genug</span> für andere, aber nicht für sich. ",
+            "en": "A mendicant with two qualities is good enough for others but not for themselves. ",
+            "matched": true
+          },
+          "an8.62:8.9": {
+            "scid": "an8.62:8.9",
+            "pli": "Imehi kho, bhikkhave, dvīhi dhammehi samannāgato bhikkhu alaṁ paresaṁ, nālaṁ attano”ti. ",
+            "de": "Ein Mönch, der diese zwei Eigenschaften besitzt, ist <span class=\"ebt-matched\">gut genug</span> für andere, aber nicht für sich.“ ",
+            "en": "A mendicant with these two qualities is good enough for others but not for themselves.” ",
+            "matched": true
+          }
+        },
+        "score": 17.224,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 8.62\n7. Das Kapitel über Erdbeben\nGut genug",
+        "segsMatched": 17,
+        "langSegs": {
+          "pli": 76,
+          "de": 75,
+          "en": 75
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.78_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an8/an8.78_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an8/an8.78_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an8.78",
+        "lang": "de",
+        "segMap": {
+          "an8.78:0.3": {
+            "scid": "an8.78:0.3",
+            "pli": "Alaṁsutta ",
+            "de": "<span class=\"ebt-matched\">Gut genug</span> ",
+            "en": "Good Enough ",
+            "matched": true
+          },
+          "an8.78:1.2": {
+            "scid": "an8.78:1.2",
+            "pli": "chahāvuso, dhammehi samannāgato bhikkhu alaṁ attano, alaṁ paresaṁ. ",
+            "de": "„Geehrte, eine Nonne, die sechs Eigenschaften besitzt, ist <span class=\"ebt-matched\">gut genug</span> für sich und andere. ",
+            "en": "“Reverends, a mendicant with six qualities is good enough for themselves and others. ",
+            "matched": true
+          },
+          "an8.78:1.10": {
+            "scid": "an8.78:1.10",
+            "pli": "Imehi kho, āvuso, chahi dhammehi samannāgato bhikkhu alaṁ attano, alaṁ paresaṁ. ",
+            "de": "Eine Nonne, die diese sechs Eigenschaften besitzt, ist <span class=\"ebt-matched\">gut genug</span> für sich und andere. ",
+            "en": "A mendicant with these six qualities is good enough for themselves and others. ",
+            "matched": true
+          },
+          "an8.78:2.1": {
+            "scid": "an8.78:2.1",
+            "pli": "Pañcahāvuso, dhammehi samannāgato bhikkhu alaṁ attano, alaṁ paresaṁ. ",
+            "de": "Eine Nonne, die fünf Eigenschaften besitzt, ist <span class=\"ebt-matched\">gut genug</span> für sich und andere. ",
+            "en": "A mendicant with five qualities is good enough for themselves and others. ",
+            "matched": true
+          },
+          "an8.78:2.9": {
+            "scid": "an8.78:2.9",
+            "pli": "Imehi kho, āvuso, pañcahi dhammehi samannāgato bhikkhu alaṁ attano, alaṁ paresaṁ. ",
+            "de": "Eine Nonne, die diese fünf Eigenschaften besitzt, ist <span class=\"ebt-matched\">gut genug</span> für sich und andere. ",
+            "en": "A mendicant with these five qualities is good enough for themselves and others. ",
+            "matched": true
+          },
+          "an8.78:3.1": {
+            "scid": "an8.78:3.1",
+            "pli": "Catūhāvuso, dhammehi samannāgato bhikkhu alaṁ attano, nālaṁ paresaṁ. ",
+            "de": "Eine Nonne, die vier Eigenschaften besitzt, ist <span class=\"ebt-matched\">gut genug</span> für sich, aber nicht für andere. ",
+            "en": "A mendicant with four qualities is good enough for themselves but not for others. ",
+            "matched": true
+          },
+          "an8.78:3.9": {
+            "scid": "an8.78:3.9",
+            "pli": "Imehi kho, āvuso, catūhi dhammehi samannāgato bhikkhu alaṁ attano, nālaṁ paresaṁ. ",
+            "de": "Eine Nonne, die diese vier Eigenschaften besitzt, ist <span class=\"ebt-matched\">gut genug</span> für sich, aber nicht für andere. ",
+            "en": "A mendicant with these four qualities is good enough for themselves but not for others. ",
+            "matched": true
+          },
+          "an8.78:4.1": {
+            "scid": "an8.78:4.1",
+            "pli": "Catūhāvuso, dhammehi samannāgato bhikkhu alaṁ paresaṁ, nālaṁ attano. ",
+            "de": "Eine Nonne, die vier Eigenschaften besitzt, ist <span class=\"ebt-matched\">gut genug</span> für andere, aber nicht für sich. ",
+            "en": "A mendicant with four qualities is good enough for others but not for themselves. ",
+            "matched": true
+          },
+          "an8.78:4.9": {
+            "scid": "an8.78:4.9",
+            "pli": "Imehi kho, āvuso, catūhi dhammehi samannāgato bhikkhu alaṁ paresaṁ, nālaṁ attano. ",
+            "de": "Eine Nonne, die diese vier Eigenschaften besitzt, ist <span class=\"ebt-matched\">gut genug</span> für andere, aber nicht für sich. ",
+            "en": "A mendicant with these four qualities is good enough for others but not for themselves. ",
+            "matched": true
+          },
+          "an8.78:5.1": {
+            "scid": "an8.78:5.1",
+            "pli": "Tīhāvuso, dhammehi samannāgato bhikkhu alaṁ attano, nālaṁ paresaṁ. ",
+            "de": "Eine Nonne, die drei Eigenschaften besitzt, ist <span class=\"ebt-matched\">gut genug</span> für sich, aber nicht für andere. ",
+            "en": "A mendicant with three qualities is good enough for themselves but not for others. ",
+            "matched": true
+          },
+          "an8.78:5.9": {
+            "scid": "an8.78:5.9",
+            "pli": "Imehi kho, āvuso, tīhi dhammehi samannāgato bhikkhu alaṁ attano, nālaṁ paresaṁ. ",
+            "de": "Eine Nonne, die diese drei Eigenschaften besitzt, ist <span class=\"ebt-matched\">gut genug</span> für sich, aber nicht für andere. ",
+            "en": "A mendicant with these three qualities is good enough for themselves but not for others. ",
+            "matched": true
+          },
+          "an8.78:6.1": {
+            "scid": "an8.78:6.1",
+            "pli": "Tīhāvuso, dhammehi samannāgato bhikkhu alaṁ paresaṁ, nālaṁ attano. ",
+            "de": "Eine Nonne, die drei Eigenschaften besitzt, ist <span class=\"ebt-matched\">gut genug</span> für andere, aber nicht für sich. ",
+            "en": "A mendicant with three qualities is good enough for others but not for themselves. ",
+            "matched": true
+          },
+          "an8.78:6.9": {
+            "scid": "an8.78:6.9",
+            "pli": "Imehi kho, āvuso, tīhi dhammehi samannāgato bhikkhu alaṁ paresaṁ, nālaṁ attano. ",
+            "de": "Eine Nonne, die diese drei Eigenschaften besitzt, ist <span class=\"ebt-matched\">gut genug</span> für andere, aber nicht für sich. ",
+            "en": "A mendicant with these three qualities is good enough for others but not for themselves. ",
+            "matched": true
+          },
+          "an8.78:7.1": {
+            "scid": "an8.78:7.1",
+            "pli": "Dvīhāvuso, dhammehi samannāgato bhikkhu alaṁ attano, nālaṁ paresaṁ. ",
+            "de": "Eine Nonne, die zwei Eigenschaften besitzt, ist <span class=\"ebt-matched\">gut genug</span> für sich, aber nicht für andere. ",
+            "en": "A mendicant with two qualities is good enough for themselves but not for others. ",
+            "matched": true
+          },
+          "an8.78:7.9": {
+            "scid": "an8.78:7.9",
+            "pli": "Imehi kho, āvuso, dvīhi dhammehi samannāgato bhikkhu alaṁ attano, nālaṁ paresaṁ. ",
+            "de": "Eine Nonne, die diese zwei Eigenschaften besitzt, ist <span class=\"ebt-matched\">gut genug</span> für sich, aber nicht für andere. ",
+            "en": "A mendicant with these two qualities is good enough for themselves but not for others. ",
+            "matched": true
+          },
+          "an8.78:8.1": {
+            "scid": "an8.78:8.1",
+            "pli": "Dvīhāvuso, dhammehi samannāgato bhikkhu alaṁ paresaṁ, nālaṁ attano. ",
+            "de": "Eine Nonne, die zwei Eigenschaften besitzt, ist <span class=\"ebt-matched\">gut genug</span> für andere, aber nicht für sich. ",
+            "en": "A mendicant with two qualities is good enough for others but not for themselves. ",
+            "matched": true
+          },
+          "an8.78:8.9": {
+            "scid": "an8.78:8.9",
+            "pli": "Imehi kho, āvuso, dvīhi dhammehi samannāgato bhikkhu alaṁ paresaṁ, nālaṁ attano”ti. ",
+            "de": "Eine Nonne, die diese zwei Eigenschaften besitzt, ist <span class=\"ebt-matched\">gut genug</span> für andere, aber nicht für sich.“ ",
+            "en": "A mendicant with these two qualities is good enough for others but not for themselves.” ",
+            "matched": true
+          }
+        },
+        "score": 17.221,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 8.78\n8. Das Kapitel mit Paaren\nGut genug",
+        "segsMatched": 17,
+        "langSegs": {
+          "pli": 77,
+          "de": 76,
+          "en": 76
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn23_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn23_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn23",
+        "lang": "de",
+        "segMap": {
+          "dn23:29.13": {
+            "scid": "dn23:29.13",
+            "pli": "‘Ayaṁ kho me, samma, sāṇabhāro dūrābhato ca susannaddho ca, alaṁ me, tvaṁ pajānāhī’ti. ",
+            "de": "‚Ich habe dieses Hanfbündel bereits einen weiten Weg getragen, und es ist gut befestigt. Es ist <span class=\"ebt-matched\">gut genug</span> für mich, du musst es selbst wissen.‘ ",
+            "en": "‘I’ve already carried this bundle of hemp a long way, and it’s well tied up. It’s good enough for me, you understand.’ ",
+            "matched": true
+          },
+          "dn23:29.19": {
+            "scid": "dn23:29.19",
+            "pli": "‘Ayaṁ kho me, samma, sāṇabhāro dūrābhato ca susannaddho ca, alaṁ me, tvaṁ pajānāhī’ti. ",
+            "de": "‚Ich habe dieses Hanfbündel bereits einen weiten Weg getragen, und es ist gut befestigt. Es ist <span class=\"ebt-matched\">gut genug</span> für mich, du musst es selbst wissen.‘ ",
+            "en": "‘I’ve already carried this bundle of hemp a long way, and it’s well tied up. It’s good enough for me, you understand.’ ",
+            "matched": true
+          },
+          "dn23:29.36": {
+            "scid": "dn23:29.36",
+            "pli": "‘Ayaṁ kho me, samma, sāṇabhāro dūrābhato ca susannaddho ca, alaṁ me tvaṁ pajānāhī’ti. ",
+            "de": "‚Ich habe dieses Hanfbündel bereits einen weiten Weg getragen, und es ist gut befestigt. Es ist <span class=\"ebt-matched\">gut genug</span> für mich, du musst es selbst wissen.‘ ",
+            "en": "‘I’ve already carried this bundle of hemp a long way, and it’s well tied up. It’s good enough for me, you understand.’ ",
+            "matched": true
+          }
+        },
+        "score": 3.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 23\nMit Pāyāsi",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 715,
+          "de": 636,
+          "en": 713
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an9/an9.3_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an9/an9.3_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an9/an9.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an9.3",
+        "lang": "de",
+        "segMap": {
+          "an9.3:2.5": {
+            "scid": "an9.3:2.5",
+            "pli": "“pāsādikaṁ vatidaṁ ambavanaṁ ramaṇīyaṁ, alaṁ vatidaṁ kulaputtassa padhānatthikassa padhānāya. ",
+            "de": "„Ach, dieses Mangowäldchen ist anmutig und entzückend! Es ist sicher <span class=\"ebt-matched\">gut genug</span> für einen ehrbaren Menschen, der meditieren will. ",
+            "en": "“Oh, this mango grove is lovely and delightful! It’s truly good enough for meditation for a gentleman who wants to meditate. ",
+            "matched": true
+          }
+        },
+        "score": 1.014,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 9.3\n1. Das Kapitel über das Erwachen\nMit Meghiya",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 74,
+          "de": 59,
+          "en": 73
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga4/ud4.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/ud/vagga4/ud4.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/ud/vagga4/ud4.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud4.1",
+        "lang": "de",
+        "segMap": {
+          "ud4.1:2.5": {
+            "scid": "ud4.1:2.5",
+            "pli": "“pāsādikaṁ vatidaṁ ambavanaṁ manuññaṁ ramaṇīyaṁ. Alaṁ vatidaṁ kulaputtassa padhānatthikassa padhānāya. ",
+            "de": "„Ach, dieses Mangowäldchen ist anmutig und entzückend! Es ist sicher <span class=\"ebt-matched\">gut genug</span> für einen ehrbaren Menschen, der meditieren will. ",
+            "en": "“Oh, this mango grove is lovely and delightful! It’s truly good enough for meditation for a gentleman who wants to meditate. ",
+            "matched": true
+          }
+        },
+        "score": 1.012,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Innige Sprüche 4.1\nMit Meghiya",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 85,
+          "de": 69,
+          "en": 69
+        }
+      }
+    ]
+  }
+}
