@@ -31,19 +31,19 @@
     "pattern": "i feel a pleasant feeling",
     "method": "phrase",
     "resultPattern": "\\bi feel a pleasant feeling",
-    "segsMatched": 3,
+    "segsMatched": 7,
     "bilaraPaths": [
-      "root/pli/ms/sutta/mn/mn140_root-pli-ms.json",
-      "translation/en/sujato/sutta/mn/mn140_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn10_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn10_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn22_root-pli-ms.json",
-      "translation/en/sujato/sutta/dn/dn22_translation-en-sujato.json"
+      "translation/en/sujato/sutta/dn/dn22_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn140_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn140_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "mn140/en/sujato",
       "mn10/en/sujato",
-      "dn22/en/sujato"
+      "dn22/en/sujato",
+      "mn140/en/sujato"
     ],
     "mlDocs": [
       {
@@ -62,17 +62,70 @@
             "pli": "Idha, bhikkhave, bhikkhu sukhaṁ vā vedanaṁ vedayamāno ‘sukhaṁ vedanaṁ vedayāmī’ti pajānāti. ",
             "en": "It’s when a mendicant who feels a pleasant feeling knows: ‘<span class=\"ebt-matched\">I feel a pleasant feeling</span>.’ ",
             "matched": true
+          },
+          "mn10:32.5": {
+            "scid": "mn10:32.5",
+            "pli": "Sāmisaṁ vā sukhaṁ vedanaṁ vedayamāno ‘sāmisaṁ sukhaṁ vedanaṁ vedayāmī’ti pajānāti. ",
+            "en": "When they feel a pleasant feeling of the flesh, they know: ‘<span class=\"ebt-matched\">I feel a pleasant feeling</span> of the flesh.’ ",
+            "matched": true
+          },
+          "mn10:32.6": {
+            "scid": "mn10:32.6",
+            "pli": "Nirāmisaṁ vā sukhaṁ vedanaṁ vedayamāno ‘nirāmisaṁ sukhaṁ vedanaṁ vedayāmī’ti pajānāti. ",
+            "en": "When they feel a pleasant feeling not of the flesh, they know: ‘<span class=\"ebt-matched\">I feel a pleasant feeling</span> not of the flesh.’ ",
+            "matched": true
           }
         },
-        "score": 1.004,
+        "score": 3.013,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Middle Discourses 10\nMindfulness Meditation",
-        "segsMatched": 1,
+        "segsMatched": 3,
         "langSegs": {
           "pli": 235,
           "en": 233
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn22_root-pli-ms.json",
+          "translation/en/sujato/sutta/dn/dn22_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn22",
+        "lang": "en",
+        "segMap": {
+          "dn22:11.2": {
+            "scid": "dn22:11.2",
+            "pli": "Idha, bhikkhave, bhikkhu sukhaṁ vā vedanaṁ vedayamāno ‘sukhaṁ vedanaṁ vedayāmī’ti pajānāti. ",
+            "en": "It’s when a mendicant who feels a pleasant feeling knows: ‘<span class=\"ebt-matched\">I feel a pleasant feeling</span>.’ ",
+            "matched": true
+          },
+          "dn22:11.5": {
+            "scid": "dn22:11.5",
+            "pli": "Sāmisaṁ vā sukhaṁ vedanaṁ vedayamāno ‘sāmisaṁ sukhaṁ vedanaṁ vedayāmī’ti pajānāti. ",
+            "en": "When they feel a pleasant feeling of the flesh, they know: ‘<span class=\"ebt-matched\">I feel a pleasant feeling</span> of the flesh.’ ",
+            "matched": true
+          },
+          "dn22:11.6": {
+            "scid": "dn22:11.6",
+            "pli": "Nirāmisaṁ vā sukhaṁ vedanaṁ vedayamāno ‘nirāmisaṁ sukhaṁ vedanaṁ vedayāmī’ti pajānāti. ",
+            "en": "When they feel a pleasant feeling not of the flesh, they know: ‘<span class=\"ebt-matched\">I feel a pleasant feeling</span> not of the flesh.’ ",
+            "matched": true
+          }
+        },
+        "score": 3.007,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Long Discourses 22\nThe Longer Discourse on Mindfulness Meditation",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 454,
+          "en": 453
         }
       },
       {
@@ -102,35 +155,6 @@
         "langSegs": {
           "pli": 239,
           "en": 238
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/dn/dn22_root-pli-ms.json",
-          "translation/en/sujato/sutta/dn/dn22_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "dn22",
-        "lang": "en",
-        "segMap": {
-          "dn22:11.2": {
-            "scid": "dn22:11.2",
-            "pli": "Idha, bhikkhave, bhikkhu sukhaṁ vā vedanaṁ vedayamāno ‘sukhaṁ vedanaṁ vedayāmī’ti pajānāti. ",
-            "en": "It’s when a mendicant who feels a pleasant feeling knows: ‘<span class=\"ebt-matched\">I feel a pleasant feeling</span>.’ ",
-            "matched": true
-          }
-        },
-        "score": 1.002,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Long Discourses 22\nThe Longer Discourse on Mindfulness Meditation",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 454,
-          "en": 453
         }
       }
     ]
