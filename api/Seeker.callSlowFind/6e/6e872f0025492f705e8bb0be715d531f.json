@@ -32,7 +32,7 @@
     "pattern": "inbrünstige.* bußübung",
     "method": "phrase",
     "resultPattern": "\\binbrünstige.* bußübung",
-    "segsMatched": 48,
+    "segsMatched": 51,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn8_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn8_translation-de-sabbamitta.json",
@@ -43,6 +43,9 @@
       "root/pli/ms/sutta/an/an10/an10.94_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.94_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an10/an10.94_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an8/an8.12_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an8/an8.12_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an8/an8.12_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn42/sn42.12_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn42/sn42.12_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn42/sn42.12_translation-en-sujato.json",
@@ -54,6 +57,7 @@
       "dn8/de/sabbamitta",
       "dn25/de/sabbamitta",
       "an10.94/de/sabbamitta",
+      "an8.12/de/sabbamitta",
       "sn42.12/de/sabbamitta",
       "sn2.30/de/sabbamitta"
     ],
@@ -453,6 +457,52 @@
           "pli": 63,
           "de": 62,
           "en": 62
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.12_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an8/an8.12_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an8/an8.12_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an8.12",
+        "lang": "de",
+        "segMap": {
+          "an8.12:14.2": {
+            "scid": "an8.12:14.2",
+            "pli": "‘tapassī samaṇo gotamo, tapassitāya dhammaṁ deseti, tena ca sāvake vinetī’ti. ",
+            "de": "ich sei ein <span class=\"ebt-matched\">inbrünstiger Büßer, ich lehrte inbrünstige Bußübung</span>en, und so schulte ich meine Schüler. ",
+            "en": "I’m a mortifier, I teach mortification, and I guide my disciples in that way. ",
+            "matched": true
+          },
+          "an8.12:22.2": {
+            "scid": "an8.12:22.2",
+            "pli": "‘tapassī samaṇo gotamo, tapassitāya dhammaṁ deseti, tena ca sāvake vinetī’ti? ",
+            "de": "ich sei ein <span class=\"ebt-matched\">inbrünstiger Büßer, ich lehrte inbrünstige Bußübung</span>en, und so schulte ich meine Schüler? ",
+            "en": "I’m a mortifier, I teach mortification, and I guide my disciples in that way? ",
+            "matched": true
+          },
+          "an8.12:22.7": {
+            "scid": "an8.12:22.7",
+            "pli": "‘tapassī samaṇo gotamo, tapassitāya dhammaṁ deseti, tena ca sāvake vinetī’ti. ",
+            "de": "ich lehrte <span class=\"ebt-matched\">inbrünstige Bußübung</span>en. ",
+            "en": "",
+            "matched": true
+          }
+        },
+        "score": 3.02,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 8.12\n2. Das große Kapitel\nMit Sīha",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 152,
+          "de": 148,
+          "en": 151
         }
       },
       {

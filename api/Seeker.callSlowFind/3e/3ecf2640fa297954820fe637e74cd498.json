@@ -32,7 +32,7 @@
     "pattern": "wurzel des leidens",
     "method": "phrase",
     "resultPattern": "\\bwurzel des leidens",
-    "segsMatched": 7,
+    "segsMatched": 8,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn42/sn42.11_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn42/sn42.11_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/sn/sn56/sn56.21_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn56/sn56.21_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn56/sn56.21_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn116_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn116_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn116_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json"
@@ -47,6 +50,7 @@
     "suttaRefs": [
       "sn42.11/de/sabbamitta",
       "sn56.21/de/sabbamitta",
+      "mn116/de/sabbamitta",
       "dn16/de/sabbamitta"
     ],
     "mlDocs": [
@@ -140,6 +144,38 @@
           "pli": 23,
           "de": 22,
           "en": 22
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn116_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn116_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn116_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn116",
+        "lang": "de",
+        "segMap": {
+          "mn116:6.30": {
+            "scid": "mn116:6.30",
+            "pli": "Usabhacchidā jāliniṁ dukkhamūlaṁ; ",
+            "de": "Usabha durchschnitt das Netz, die <span class=\"ebt-matched\">Wurzel des Leidens</span>. ",
+            "en": "Usabha cut the net, the root of suffering, ",
+            "matched": true
+          }
+        },
+        "score": 1.01,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 116\nBei Isigili",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 96,
+          "de": 95,
+          "en": 95
         }
       },
       {
