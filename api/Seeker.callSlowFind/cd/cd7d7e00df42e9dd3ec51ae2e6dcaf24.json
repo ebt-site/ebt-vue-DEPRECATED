@@ -31,12 +31,16 @@
     "pattern": "cross.* the flood",
     "method": "phrase",
     "resultPattern": "\\bcross.* the flood",
-    "segsMatched": 47,
+    "segsMatched": 52,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn1/sn1.1_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.1_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn1/sn1.1_translation-en-davis.json",
       "root/pli/ms/sutta/an/an4/an4.196_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an4/an4.196_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn1/sn1.1_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn1/sn1.1_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn1/sn1.1_translation-en-davis.json",
       "root/pli/ms/sutta/kn/snp/vagga5/snp5.8_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/snp/vagga5/snp5.8_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/snp/vagga1/snp1.9_root-pli-ms.json",
@@ -45,6 +49,7 @@
       "translation/en/sujato/sutta/sn/sn2/sn2.15_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn1/sn1.5_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.5_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn1/sn1.5_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn10/sn10.12_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn10/sn10.12_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn106_root-pli-ms.json",
@@ -100,6 +105,7 @@
     "suttaRefs": [
       "sn1.1/en/sujato",
       "an4.196/en/sujato",
+      "sn1.1/en/davis",
       "snp5.8/en/sujato",
       "snp1.9/en/sujato",
       "sn2.15/en/sujato",
@@ -133,7 +139,62 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn1/sn1.1_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn1/sn1.1_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn1/sn1.1_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn1/sn1.1_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn1.1",
+        "lang": "en",
+        "segMap": {
+          "sn1.1:0.3": {
+            "scid": "sn1.1:0.3",
+            "pli": "Oghataraṇasutta ",
+            "en": "<span class=\"ebt-matched\">Crossing the Flood</span> ",
+            "matched": true
+          },
+          "sn1.1:1.4": {
+            "scid": "sn1.1:1.4",
+            "pli": "“kathaṁ nu tvaṁ, mārisa, oghamatarī”ti? ",
+            "en": "“Good sir, how did you <span class=\"ebt-matched\">cross the flood</span>?” ",
+            "matched": true
+          },
+          "sn1.1:1.5": {
+            "scid": "sn1.1:1.5",
+            "pli": "“Appatiṭṭhaṁ khvāhaṁ, āvuso, anāyūhaṁ oghamatarin”ti. ",
+            "en": "“Neither standing nor swimming, sir, I <span class=\"ebt-matched\">crossed the flood</span>.” ",
+            "matched": true
+          },
+          "sn1.1:1.6": {
+            "scid": "sn1.1:1.6",
+            "pli": "“Yathākathaṁ pana tvaṁ, mārisa, appatiṭṭhaṁ anāyūhaṁ oghamatarī”ti? ",
+            "en": "“But in what way did you <span class=\"ebt-matched\">cross the flood</span> neither standing nor swimming?” ",
+            "matched": true
+          },
+          "sn1.1:1.9": {
+            "scid": "sn1.1:1.9",
+            "pli": "Evaṁ khvāhaṁ, āvuso, appatiṭṭhaṁ anāyūhaṁ oghamatarin”ti. ",
+            "en": "That’s how I <span class=\"ebt-matched\">crossed the flood</span> neither standing nor swimming.” ",
+            "matched": true
+          }
+        },
+        "score": 5.25,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 1.1\n1. A Reed\nCrossing the Flood",
+        "segsMatched": 5,
+        "langSegs": {
+          "pli": 20,
+          "en": 20
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn1/sn1.1_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn1/sn1.1_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn1/sn1.1_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
@@ -321,7 +382,8 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn1/sn1.5_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn1/sn1.5_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn1/sn1.5_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn1/sn1.5_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

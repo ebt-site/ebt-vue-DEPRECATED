@@ -31,7 +31,7 @@
     "pattern": "hard to find",
     "method": "phrase",
     "resultPattern": "\\bhard to find",
-    "segsMatched": 33,
+    "segsMatched": 36,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an5/an5.60_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an5/an5.60_translation-en-sujato.json",
@@ -39,6 +39,7 @@
       "translation/en/sujato/sutta/an/an5/an5.59_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn3/sn3.21_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn3/sn3.21_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn3/sn3.21_translation-en-davis.json",
       "root/pli/ms/sutta/mn/mn92_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn92_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn4_root-pli-ms.json",
@@ -47,10 +48,14 @@
       "translation/en/sujato/sutta/kn/thag/thag16.6_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/snp/vagga3/snp3.7_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/snp/vagga3/snp3.7_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn3/sn3.21_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn3/sn3.21_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn3/sn3.21_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn2/sn2.6_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn2/sn2.6_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn1/sn1.49_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.49_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn1/sn1.49_translation-en-davis.json",
       "root/pli/ms/sutta/mn/mn129_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn129_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thig/thig16.1_root-pli-ms.json",
@@ -81,7 +86,10 @@
       "root/pli/ms/sutta/an/an3/an3.13_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an3/an3.13_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.99_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an10/an10.99_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an10/an10.99_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn1/sn1.49_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn1/sn1.49_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn1/sn1.49_translation-en-davis.json"
     ],
     "suttaRefs": [
       "an5.60/en/sujato",
@@ -91,6 +99,7 @@
       "mn4/en/sujato",
       "thag16.6/en/sujato",
       "snp3.7/en/sujato",
+      "sn3.21/en/davis",
       "sn2.6/en/sujato",
       "sn1.49/en/sujato",
       "mn129/en/sujato",
@@ -107,7 +116,8 @@
       "an4.157/en/sujato",
       "an3.33/en/sujato",
       "an3.13/en/sujato",
-      "an10.99/en/sujato"
+      "an10.99/en/sujato",
+      "sn1.49/en/davis"
     ],
     "mlDocs": [
       {
@@ -195,7 +205,44 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn3/sn3.21_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn3/sn3.21_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn3/sn3.21_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn3/sn3.21_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn3.21",
+        "lang": "en",
+        "segMap": {
+          "sn3.21:2.2": {
+            "scid": "sn3.21:2.2",
+            "pli": "Idha, mahārāja, ekacco puggalo nīce kule paccājāto hoti, caṇḍālakule vā venakule vā nesādakule vā rathakārakule vā pukkusakule vā dalidde appannapānabhojane kasiravuttike, yattha kasirena ghāsacchādo labbhati. ",
+            "en": "It’s when some person is reborn in a low family—a family of outcastes, bamboo-workers, hunters, chariot-makers, or waste-collectors—poor, with little to eat or drink, where life is tough, and food and shelter are <span class=\"ebt-matched\">hard to find</span>. ",
+            "matched": true
+          },
+          "sn3.21:4.2": {
+            "scid": "sn3.21:4.2",
+            "pli": "Idha, mahārāja, ekacco puggalo nīce kule paccājāto hoti, caṇḍālakule vā venakule vā nesādakule vā rathakārakule vā pukkusakule vā dalidde appannapānabhojane kasiravuttike, yattha kasirena ghāsacchādo labbhati. ",
+            "en": "It’s when some person is reborn in a low family—a family of outcastes, bamboo-workers, hunters, chariot-makers, or waste-collectors—poor, with little to eat or drink, where life is tough, and food and shelter are <span class=\"ebt-matched\">hard to find</span>. ",
+            "matched": true
+          }
+        },
+        "score": 2.02,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 3.21\n3. Kosala\nPersons",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 101,
+          "en": 101
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn3/sn3.21_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn3/sn3.21_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn3/sn3.21_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
@@ -544,7 +591,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn1/sn1.49_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn1/sn1.49_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn1/sn1.49_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn1/sn1.49_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn1.49",
+        "lang": "en",
+        "segMap": {
+          "sn1.49:5.2": {
+            "scid": "sn1.49:5.2",
+            "pli": "yattha kicchena labbhati; ",
+            "en": "are <span class=\"ebt-matched\">hard to find</span>. ",
+            "matched": true
+          }
+        },
+        "score": 1.02,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 1.49\n5. On Fire\nStingy",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 49,
+          "en": 49
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn1/sn1.49_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn1/sn1.49_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn1/sn1.49_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

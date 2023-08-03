@@ -31,14 +31,18 @@
     "pattern": "vital conditions",
     "method": "phrase",
     "resultPattern": "\\bvital conditions",
-    "segsMatched": 17,
+    "segsMatched": 20,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn45/sn45.28_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn45/sn45.28_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn12/sn12.23_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn12/sn12.23_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn12/sn12.23_translation-en-davis.json",
       "root/pli/ms/sutta/mn/mn117_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn117_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn12/sn12.23_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.23_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn12/sn12.23_translation-en-davis.json",
       "root/pli/ms/sutta/dn/dn18_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn18_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an7/an7.45_root-pli-ms.json",
@@ -60,6 +64,7 @@
       "sn45.28/en/sujato",
       "sn12.23/en/sujato",
       "mn117/en/sujato",
+      "sn12.23/en/davis",
       "dn18/en/sujato",
       "an7.45/en/sujato",
       "an11.5/en/sujato",
@@ -114,7 +119,50 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn12/sn12.23_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn12/sn12.23_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn12/sn12.23_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn12/sn12.23_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn12.23",
+        "lang": "en",
+        "segMap": {
+          "sn12.23:0.3": {
+            "scid": "sn12.23:0.3",
+            "pli": "Upanisasutta ",
+            "en": "<span class=\"ebt-matched\">Vital Conditions</span> ",
+            "matched": true
+          },
+          "sn12.23:6.4": {
+            "scid": "sn12.23:6.4",
+            "pli": "nāmarūpūpanisaṁ saḷāyatanaṁ, ",
+            "en": "Name and form are <span class=\"ebt-matched\">vital conditions</span> for the six sense fields. ",
+            "matched": true
+          },
+          "sn12.23:6.5": {
+            "scid": "sn12.23:6.5",
+            "pli": "saḷāyatanūpaniso phasso, ",
+            "en": "The six sense fields are <span class=\"ebt-matched\">vital conditions</span> for contact. ",
+            "matched": true
+          }
+        },
+        "score": 3.032,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 12.23\n3. The Ten Powers\nVital Conditions",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 93,
+          "en": 92
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn12/sn12.23_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn12/sn12.23_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn12/sn12.23_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

@@ -31,7 +31,7 @@
     "pattern": "strive so that",
     "method": "phrase",
     "resultPattern": "\\bstrive so that",
-    "segsMatched": 54,
+    "segsMatched": 61,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn51/sn51.13_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn51/sn51.13_translation-en-sujato.json",
@@ -39,12 +39,17 @@
       "translation/en/sujato/sutta/sn/sn49/sn49.1-12_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn48/sn48.10_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn48/sn48.10_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn48/sn48.10_translation-en-davis.json",
       "root/pli/ms/sutta/an/an4/an4.69_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an4/an4.69_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an1/an1.394-574_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an1/an1.394-574_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn48/sn48.10_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn48/sn48.10_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn48/sn48.10_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn45/sn45.8_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn45/sn45.8_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn45/sn45.8_translation-en-davis.json",
       "root/pli/ms/sutta/mn/mn78_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn78_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn77_root-pli-ms.json",
@@ -61,6 +66,9 @@
       "translation/en/sujato/sutta/an/an4/an4.13_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.156-162_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an3/an3.156-162_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn45/sn45.8_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn45/sn45.8_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn45/sn45.8_translation-en-davis.json",
       "root/pli/ms/sutta/an/an9/an9.82_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an9/an9.82_translation-en-sujato.json"
     ],
@@ -70,6 +78,7 @@
       "sn48.10/en/sujato",
       "an4.69/en/sujato",
       "an1.394-574/en/sujato",
+      "sn48.10/en/davis",
       "sn45.8/en/sujato",
       "mn78/en/sujato",
       "mn77/en/sujato",
@@ -79,6 +88,7 @@
       "an9.73/en/sujato",
       "an4.13/en/sujato",
       "an3.156-162/en/sujato",
+      "sn45.8/en/davis",
       "an9.82/en/sujato"
     ],
     "mlDocs": [
@@ -262,7 +272,56 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn48/sn48.10_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn48/sn48.10_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn48/sn48.10_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn48/sn48.10_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn48.10",
+        "lang": "en",
+        "segMap": {
+          "sn48.10:2.3": {
+            "scid": "sn48.10:2.3",
+            "pli": "So anuppannānaṁ pāpakānaṁ akusalānaṁ dhammānaṁ anuppādāya chandaṁ janeti vāyamati vīriyaṁ ārabhati cittaṁ paggaṇhāti padahati; ",
+            "en": "They generate enthusiasm, try, make an effort, exert the mind, and <span class=\"ebt-matched\">strive so that</span> bad, unskillful qualities don’t arise. ",
+            "matched": true
+          },
+          "sn48.10:2.4": {
+            "scid": "sn48.10:2.4",
+            "pli": "uppannānaṁ pāpakānaṁ akusalānaṁ dhammānaṁ pahānāya chandaṁ janeti vāyamati vīriyaṁ ārabhati cittaṁ paggaṇhāti padahati; ",
+            "en": "They generate enthusiasm, try, make an effort, exert the mind, and <span class=\"ebt-matched\">strive so that</span> bad, unskillful qualities that have arisen are given up. ",
+            "matched": true
+          },
+          "sn48.10:2.5": {
+            "scid": "sn48.10:2.5",
+            "pli": "anuppannānaṁ kusalānaṁ dhammānaṁ uppādāya chandaṁ janeti vāyamati vīriyaṁ ārabhati cittaṁ paggaṇhāti padahati; ",
+            "en": "They generate enthusiasm, try, make an effort, exert the mind, and <span class=\"ebt-matched\">strive so that</span> skillful qualities arise. ",
+            "matched": true
+          },
+          "sn48.10:2.6": {
+            "scid": "sn48.10:2.6",
+            "pli": "uppannānaṁ kusalānaṁ dhammānaṁ ṭhitiyā asammosāya bhiyyobhāvāya vepullāya bhāvanāya pāripūriyā chandaṁ janeti vāyamati vīriyaṁ ārabhati cittaṁ paggaṇhāti padahati—",
+            "en": "They generate enthusiasm, try, make an effort, exert the mind, and <span class=\"ebt-matched\">strive so that</span> skillful qualities that have arisen remain, are not lost, but increase, mature, and are completed by development. ",
+            "matched": true
+          }
+        },
+        "score": 4.093,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 48.10\n1. Plain Version\nAnalysis (2nd)",
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 43,
+          "en": 41
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn48/sn48.10_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn48/sn48.10_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn48/sn48.10_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
@@ -438,7 +497,50 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn45/sn45.8_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn45/sn45.8_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn45/sn45.8_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn45/sn45.8_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn45.8",
+        "lang": "en",
+        "segMap": {
+          "sn45.8:8.3": {
+            "scid": "sn45.8:8.3",
+            "pli": "uppannānaṁ pāpakānaṁ akusalānaṁ dhammānaṁ pahānāya chandaṁ janeti …pe… ",
+            "en": "They generate enthusiasm, try, make an effort, exert the mind, and <span class=\"ebt-matched\">strive so that</span> bad, unskillful qualities that have arisen are given up. ",
+            "matched": true
+          },
+          "sn45.8:8.4": {
+            "scid": "sn45.8:8.4",
+            "pli": "anuppannānaṁ kusalānaṁ dhammānaṁ uppādāya chandaṁ janeti …pe… ",
+            "en": "They generate enthusiasm, try, make an effort, exert the mind, and <span class=\"ebt-matched\">strive so that</span> skillful qualities that have not arisen do arise. ",
+            "matched": true
+          },
+          "sn45.8:8.5": {
+            "scid": "sn45.8:8.5",
+            "pli": "uppannānaṁ kusalānaṁ dhammānaṁ ṭhitiyā asammosāya bhiyyobhāvāya vepullāya bhāvanāya pāripūriyā chandaṁ janeti vāyamati vīriyaṁ ārabhati cittaṁ paggaṇhāti padahati—",
+            "en": "They generate enthusiasm, try, make an effort, exert the mind, and <span class=\"ebt-matched\">strive so that</span> skillful qualities that have arisen remain, are not lost, but increase, mature, and are fulfilled by development. ",
+            "matched": true
+          }
+        },
+        "score": 3.068,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 45.8\n1. Ignorance\nAnalysis",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 44,
+          "en": 43
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn45/sn45.8_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn45/sn45.8_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn45/sn45.8_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

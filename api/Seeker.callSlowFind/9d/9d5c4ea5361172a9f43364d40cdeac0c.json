@@ -31,7 +31,7 @@
     "pattern": "conditions are impermanent",
     "method": "phrase",
     "resultPattern": "\\bconditions are impermanent",
-    "segsMatched": 19,
+    "segsMatched": 21,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
@@ -45,8 +45,10 @@
       "translation/en/sujato/sutta/sn/sn6/sn6.15_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn22/sn22.90_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.90_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn22/sn22.90_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn1/sn1.11_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.11_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn1/sn1.11_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn15/sn15.20_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn15/sn15.20_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag20.1_root-pli-ms.json",
@@ -58,7 +60,13 @@
       "root/pli/ms/sutta/dn/dn17_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn17_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an7/an7.66_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an7/an7.66_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an7/an7.66_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.90_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.90_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn22/sn22.90_translation-en-davis.json",
+      "root/pli/ms/sutta/sn/sn1/sn1.11_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn1/sn1.11_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn1/sn1.11_translation-en-davis.json"
     ],
     "suttaRefs": [
       "dn16/en/sujato",
@@ -73,7 +81,9 @@
       "thag15.1/en/sujato",
       "dhp273-289/en/sujato",
       "dn17/en/sujato",
-      "an7.66/en/sujato"
+      "an7.66/en/sujato",
+      "sn22.90/en/davis",
+      "sn1.11/en/davis"
     ],
     "mlDocs": [
       {
@@ -202,7 +212,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn1/sn1.11_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn1/sn1.11_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn1/sn1.11_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn1/sn1.11_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn1.11",
+        "lang": "en",
+        "segMap": {
+          "sn1.11:5.3": {
+            "scid": "sn1.11:5.3",
+            "pli": "Aniccā sabbasaṅkhārā, ",
+            "en": "All <span class=\"ebt-matched\">conditions are impermanent</span>, ",
+            "matched": true
+          }
+        },
+        "score": 1.048,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 1.11\n2. The Garden of Delight\nThe Garden of Delight",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 21,
+          "en": 21
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn1/sn1.11_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn1/sn1.11_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn1/sn1.11_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
@@ -405,7 +446,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn22/sn22.90_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn22/sn22.90_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn22/sn22.90_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn22/sn22.90_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.90",
+        "lang": "en",
+        "segMap": {
+          "sn22.90:2.12": {
+            "scid": "sn22.90:2.12",
+            "pli": "Sabbe saṅkhārā aniccā; ",
+            "en": "All <span class=\"ebt-matched\">conditions are impermanent</span>. ",
+            "matched": true
+          }
+        },
+        "score": 1.01,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 22.90\n9. Senior Mendicants\nWith Channa",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 100,
+          "en": 99
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.90_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.90_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn22/sn22.90_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

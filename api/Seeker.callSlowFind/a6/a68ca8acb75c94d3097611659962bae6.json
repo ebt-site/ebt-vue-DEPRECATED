@@ -31,7 +31,7 @@
     "pattern": "two feelings",
     "method": "phrase",
     "resultPattern": "\\btwo feelings",
-    "segsMatched": 14,
+    "segsMatched": 16,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn36/sn36.19_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn36/sn36.19_translation-en-sujato.json",
@@ -41,6 +41,10 @@
       "translation/en/sujato/sutta/sn/sn36/sn36.22_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn36/sn36.6_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn36/sn36.6_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn36/sn36.6_translation-en-davis.json",
+      "root/pli/ms/sutta/sn/sn36/sn36.6_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn36/sn36.6_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn36/sn36.6_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn36/sn36.20_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn36/sn36.20_translation-en-sujato.json"
     ],
@@ -49,6 +53,7 @@
       "mn59/en/sujato",
       "sn36.22/en/sujato",
       "sn36.6/en/sujato",
+      "sn36.6/en/davis",
       "sn36.20/en/sujato"
     ],
     "mlDocs": [
@@ -190,7 +195,44 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn36/sn36.6_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn36/sn36.6_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn36/sn36.6_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn36/sn36.6_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn36.6",
+        "lang": "en",
+        "segMap": {
+          "sn36.6:1.6": {
+            "scid": "sn36.6:1.6",
+            "pli": "So dve vedanā vedayati—",
+            "en": "They experience <span class=\"ebt-matched\">two feelings</span>: ",
+            "matched": true
+          },
+          "sn36.6:1.12": {
+            "scid": "sn36.6:1.12",
+            "pli": "So dve vedanā vedayati—",
+            "en": "They experience <span class=\"ebt-matched\">two feelings</span>: ",
+            "matched": true
+          }
+        },
+        "score": 2.032,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 36.6\n1. With Verses\nAn Arrow",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 63,
+          "en": 62
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn36/sn36.6_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn36/sn36.6_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn36/sn36.6_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

@@ -31,7 +31,7 @@
     "pattern": "it is simply this noble eightfold path",
     "method": "phrase",
     "resultPattern": "\\bit is simply this noble eightfold path",
-    "segsMatched": 43,
+    "segsMatched": 47,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn56/sn56.11_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn56/sn56.11_translation-en-sujato.json",
@@ -39,6 +39,7 @@
       "translation/en/sujato/sutta/mn/mn3_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn56/sn56.13_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn56/sn56.13_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn56/sn56.13_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn51/sn51.30_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn51/sn51.30_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn51/sn51.29_root-pli-ms.json",
@@ -83,14 +84,17 @@
       "translation/en/sujato/sutta/sn/sn38/sn38.1_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn35/sn35.146_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.146_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn35/sn35.146_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn22/sn22.105_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.105_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn22/sn22.104_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.104_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn22/sn22.104_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn22/sn22.103_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.103_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn12/sn12.65_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn12/sn12.65_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn12/sn12.65_translation-en-davis.json",
       "root/pli/ms/sutta/mn/mn9_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn9_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn83_root-pli-ms.json",
@@ -114,7 +118,19 @@
       "root/pli/ms/sutta/an/an3/an3.62_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an3/an3.62_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.61_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an3/an3.61_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an3/an3.61_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn56/sn56.13_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn56/sn56.13_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn56/sn56.13_translation-en-davis.json",
+      "root/pli/ms/sutta/sn/sn35/sn35.146_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.146_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn35/sn35.146_translation-en-davis.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.104_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.104_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn22/sn22.104_translation-en-davis.json",
+      "root/pli/ms/sutta/sn/sn12/sn12.65_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.65_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn12/sn12.65_translation-en-davis.json"
     ],
     "suttaRefs": [
       "sn56.11/en/sujato",
@@ -157,7 +173,11 @@
       "dn19/en/sujato",
       "an3.71/en/sujato",
       "an3.62/en/sujato",
-      "an3.61/en/sujato"
+      "an3.61/en/sujato",
+      "sn56.13/en/davis",
+      "sn35.146/en/davis",
+      "sn22.104/en/davis",
+      "sn12.65/en/davis"
     ],
     "mlDocs": [
       {
@@ -610,7 +630,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn22/sn22.104_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn22/sn22.104_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn22/sn22.104_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn22/sn22.104_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.104",
+        "lang": "en",
+        "segMap": {
+          "sn22.104:1.16": {
+            "scid": "sn22.104:1.16",
+            "pli": "Ayameva ariyo aṭṭhaṅgiko maggo. ",
+            "en": "<span class=\"ebt-matched\">It is simply this noble eightfold path</span>, that is: ",
+            "matched": true
+          }
+        },
+        "score": 1.045,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 22.104\n11. Sides\nSuffering",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 22,
+          "en": 21
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.104_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.104_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn22/sn22.104_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
@@ -813,7 +864,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn35/sn35.146_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn35/sn35.146_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn35/sn35.146_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn35/sn35.146_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn35.146",
+        "lang": "en",
+        "segMap": {
+          "sn35.146:1.15": {
+            "scid": "sn35.146:1.15",
+            "pli": "Ayameva ariyo aṭṭhaṅgiko maggo, seyyathidaṁ—",
+            "en": "<span class=\"ebt-matched\">It is simply this noble eightfold path</span>, that is: ",
+            "matched": true
+          }
+        },
+        "score": 1.042,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 35.146\n15. The Old and the New\nThe Cessation of Action",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 24,
+          "en": 23
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn35/sn35.146_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn35/sn35.146_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn35/sn35.146_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
@@ -871,7 +953,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn56/sn56.13_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn56/sn56.13_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn56/sn56.13_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn56/sn56.13_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn56.13",
+        "lang": "en",
+        "segMap": {
+          "sn56.13:5.2": {
+            "scid": "sn56.13:5.2",
+            "pli": "Ayameva ariyo aṭṭhaṅgiko maggo, seyyathidaṁ—",
+            "en": "<span class=\"ebt-matched\">It is simply this noble eightfold path</span>, that is: ",
+            "matched": true
+          }
+        },
+        "score": 1.042,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 56.13\n2. Rolling Forth the Wheel of Dhamma\nAggregates",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 24,
+          "en": 23
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn56/sn56.13_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn56/sn56.13_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn56/sn56.13_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
@@ -1016,7 +1129,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn12/sn12.65_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn12/sn12.65_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn12/sn12.65_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn12/sn12.65_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn12.65",
+        "lang": "en",
+        "segMap": {
+          "sn12.65:8.2": {
+            "scid": "sn12.65:8.2",
+            "pli": "Ayameva ariyo aṭṭhaṅgiko maggo, seyyathidaṁ—",
+            "en": "<span class=\"ebt-matched\">It is simply this noble eightfold path</span>, that is: ",
+            "matched": true
+          }
+        },
+        "score": 1.01,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 12.65\n7. The Great Chapter\nThe City",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 105,
+          "en": 104
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn12/sn12.65_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn12/sn12.65_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn12/sn12.65_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

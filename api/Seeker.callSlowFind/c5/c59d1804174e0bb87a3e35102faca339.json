@@ -31,10 +31,11 @@
     "pattern": "the doors to the deathless",
     "method": "phrase",
     "resultPattern": "\\bthe doors to the deathless",
-    "segsMatched": 5,
+    "segsMatched": 6,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn6/sn6.1_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn6/sn6.1_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn6/sn6.1_translation-en-davis.json",
       "root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn85_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn26_root-pli-ms.json",
@@ -42,20 +43,55 @@
       "root/pli/ms/sutta/dn/dn18_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn18_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
-      "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json"
+      "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn6/sn6.1_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn6/sn6.1_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn6/sn6.1_translation-en-davis.json"
     ],
     "suttaRefs": [
       "sn6.1/en/sujato",
       "mn85/en/sujato",
       "mn26/en/sujato",
       "dn18/en/sujato",
-      "dn14/en/sujato"
+      "dn14/en/sujato",
+      "sn6.1/en/davis"
     ],
     "mlDocs": [
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn6/sn6.1_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn6/sn6.1_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn6/sn6.1_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn6/sn6.1_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn6.1",
+        "lang": "en",
+        "segMap": {
+          "sn6.1:10.1": {
+            "scid": "sn6.1:10.1",
+            "pli": "“Apārutā tesaṁ amatassa dvārā, ",
+            "en": "“Flung open are <span class=\"ebt-matched\">the doors to the deathless</span>! ",
+            "matched": true
+          }
+        },
+        "score": 1.019,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 6.1\n1. The Appeal\nThe Appeal of Brahmā",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 53,
+          "en": 53
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn6/sn6.1_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn6/sn6.1_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn6/sn6.1_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

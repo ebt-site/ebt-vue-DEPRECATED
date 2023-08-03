@@ -31,7 +31,7 @@
     "pattern": "my lasting welfare and happiness",
     "method": "phrase",
     "resultPattern": "\\bmy lasting welfare and happiness",
-    "segsMatched": 19,
+    "segsMatched": 20,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn5_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn5_translation-en-sujato.json",
@@ -45,6 +45,7 @@
       "translation/en/sujato/sutta/an/an7/an7.47_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn22/sn22.1_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.1_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn22/sn22.1_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn16/sn16.11_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn16/sn16.11_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn30_root-pli-ms.json",
@@ -52,7 +53,10 @@
       "root/pli/ms/sutta/dn/dn26_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn26_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
-      "translation/en/sujato/sutta/dn/dn23_translation-en-sujato.json"
+      "translation/en/sujato/sutta/dn/dn23_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.1_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.1_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn22/sn22.1_translation-en-davis.json"
     ],
     "suttaRefs": [
       "dn5/en/sujato",
@@ -64,7 +68,8 @@
       "sn16.11/en/sujato",
       "dn30/en/sujato",
       "dn26/en/sujato",
-      "dn23/en/sujato"
+      "dn23/en/sujato",
+      "sn22.1/en/davis"
     ],
     "mlDocs": [
       {
@@ -298,7 +303,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn22/sn22.1_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn22/sn22.1_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn22/sn22.1_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn22/sn22.1_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.1",
+        "lang": "en",
+        "segMap": {
+          "sn22.1:2.5": {
+            "scid": "sn22.1:2.5",
+            "pli": "yaṁ mamassa dīgharattaṁ hitāya sukhāyā”ti. ",
+            "en": "It will be for <span class=\"ebt-matched\">my lasting welfare and happiness</span>.” ",
+            "matched": true
+          }
+        },
+        "score": 1.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 22.1\n1. Nakula’s Father\nNakula’s Father",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 94,
+          "en": 93
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.1_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.1_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn22/sn22.1_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

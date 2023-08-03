@@ -31,12 +31,16 @@
     "pattern": "unconditioned",
     "method": "phrase",
     "resultPattern": "\\bunconditioned",
-    "segsMatched": 58,
+    "segsMatched": 64,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn43/sn43.12_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn43/sn43.12_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn43/sn43.1_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn43/sn43.1_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn43/sn43.1_translation-en-davis.json",
+      "root/pli/ms/sutta/sn/sn43/sn43.1_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn43/sn43.1_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn43/sn43.1_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn43/sn43.2_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn43/sn43.2_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn43/sn43.11_root-pli-ms.json",
@@ -92,6 +96,7 @@
     "suttaRefs": [
       "sn43.12/en/sujato",
       "sn43.1/en/sujato",
+      "sn43.1/en/davis",
       "sn43.2/en/sujato",
       "sn43.11/en/sujato",
       "ud8.3/en/sujato",
@@ -234,7 +239,68 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn43/sn43.1_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn43/sn43.1_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn43/sn43.1_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn43/sn43.1_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn43.1",
+        "lang": "en",
+        "segMap": {
+          "sn43.1:1.2": {
+            "scid": "sn43.1:1.2",
+            "pli": "“Asaṅkhatañca vo, bhikkhave, desessāmi asaṅkhatagāmiñca maggaṁ. ",
+            "en": "“Mendicants, I will teach you the <span class=\"ebt-matched\">unconditioned</span> and the path that leads to the <span class=\"ebt-matched\">unconditioned</span>. ",
+            "matched": true
+          },
+          "sn43.1:1.4": {
+            "scid": "sn43.1:1.4",
+            "pli": "Katamañca, bhikkhave, asaṅkhataṁ? ",
+            "en": "And what is the <span class=\"ebt-matched\">unconditioned</span>? ",
+            "matched": true
+          },
+          "sn43.1:1.6": {
+            "scid": "sn43.1:1.6",
+            "pli": "idaṁ vuccati, bhikkhave, asaṅkhataṁ. ",
+            "en": "This is called the <span class=\"ebt-matched\">unconditioned</span>. ",
+            "matched": true
+          },
+          "sn43.1:1.7": {
+            "scid": "sn43.1:1.7",
+            "pli": "Katamo ca, bhikkhave, asaṅkhatagāmimaggo? ",
+            "en": "And what is the path that leads to the <span class=\"ebt-matched\">unconditioned</span>? ",
+            "matched": true
+          },
+          "sn43.1:1.9": {
+            "scid": "sn43.1:1.9",
+            "pli": "Ayaṁ vuccati, bhikkhave, asaṅkhatagāmimaggo. ",
+            "en": "This is called the path that leads to the <span class=\"ebt-matched\">unconditioned</span>. ",
+            "matched": true
+          },
+          "sn43.1:2.1": {
+            "scid": "sn43.1:2.1",
+            "pli": "Iti kho, bhikkhave, desitaṁ vo mayā asaṅkhataṁ, desito asaṅkhatagāmimaggo. ",
+            "en": "So, mendicants, I’ve taught you the <span class=\"ebt-matched\">unconditioned</span> and the path that leads to the <span class=\"ebt-matched\">unconditioned</span>. ",
+            "matched": true
+          }
+        },
+        "score": 6.375,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 43.1\nChapter One\nMindfulness of the Body",
+        "segsMatched": 6,
+        "langSegs": {
+          "pli": 16,
+          "en": 15
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn43/sn43.1_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn43/sn43.1_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn43/sn43.1_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

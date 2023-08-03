@@ -31,7 +31,7 @@
     "pattern": "mind with greed",
     "method": "phrase",
     "resultPattern": "\\bmind with greed",
-    "segsMatched": 20,
+    "segsMatched": 21,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn52/sn52.14_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn52/sn52.14_translation-en-sujato.json",
@@ -41,6 +41,7 @@
       "translation/en/sujato/sutta/sn/sn16/sn16.9_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn12/sn12.70_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn12/sn12.70_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn12/sn12.70_translation-en-davis.json",
       "root/pli/ms/sutta/mn/mn77_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn77_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn73_root-pli-ms.json",
@@ -72,7 +73,10 @@
       "root/pli/ms/sutta/an/an3/an3.101_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an3/an3.101_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.97_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an10/an10.97_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an10/an10.97_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn12/sn12.70_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.70_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn12/sn12.70_translation-en-davis.json"
     ],
     "suttaRefs": [
       "sn52.14/en/sujato",
@@ -94,7 +98,8 @@
       "an5.28/en/sujato",
       "an5.23/en/sujato",
       "an3.101/en/sujato",
-      "an10.97/en/sujato"
+      "an10.97/en/sujato",
+      "sn12.70/en/davis"
     ],
     "mlDocs": [
       {
@@ -477,7 +482,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn12/sn12.70_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn12/sn12.70_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn12/sn12.70_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn12/sn12.70_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn12.70",
+        "lang": "en",
+        "segMap": {
+          "sn12.70:7.2": {
+            "scid": "sn12.70:7.2",
+            "pli": "sarāgaṁ vā cittaṁ sarāgaṁ cittanti pajānātha; ",
+            "en": "Do you understand <span class=\"ebt-matched\">mind with greed</span> as ‘<span class=\"ebt-matched\">mind with greed</span>’, ",
+            "matched": true
+          }
+        },
+        "score": 1.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 12.70\n7. The Great Chapter\nThe Wanderer Susīma",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 180,
+          "en": 176
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn12/sn12.70_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn12/sn12.70_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn12/sn12.70_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

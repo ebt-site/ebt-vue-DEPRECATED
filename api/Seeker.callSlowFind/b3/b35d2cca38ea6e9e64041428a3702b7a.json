@@ -31,7 +31,7 @@
     "pattern": "emotional barrenness",
     "method": "phrase",
     "resultPattern": "\\bemotional barrenness",
-    "segsMatched": 48,
+    "segsMatched": 49,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn16_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn16_translation-en-sujato.json",
@@ -46,7 +46,11 @@
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn22/sn22.90_root-pli-ms.json",
-      "translation/en/sujato/sutta/sn/sn22/sn22.90_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn22/sn22.90_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn22/sn22.90_translation-en-davis.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.90_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.90_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn22/sn22.90_translation-en-davis.json"
     ],
     "suttaRefs": [
       "mn16/en/sujato",
@@ -55,7 +59,8 @@
       "an5.205/en/sujato",
       "dn34/en/sujato",
       "dn33/en/sujato",
-      "sn22.90/en/sujato"
+      "sn22.90/en/sujato",
+      "sn22.90/en/davis"
     ],
     "mlDocs": [
       {
@@ -481,7 +486,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn22/sn22.90_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn22/sn22.90_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn22/sn22.90_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn22/sn22.90_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.90",
+        "lang": "en",
+        "segMap": {
+          "sn22.90:8.1": {
+            "scid": "sn22.90:8.1",
+            "pli": "“Ettakenapi mayaṁ āyasmato channassa attamanā api nāma taṁ āyasmā channo āvi akāsi khīlaṁ chindi. ",
+            "en": "“I’m already delighted with Venerable Channa. Hopefully you’ve opened yourself up and cut through your <span class=\"ebt-matched\">emotional barrenness</span>. ",
+            "matched": true
+          }
+        },
+        "score": 1.01,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 22.90\n9. Senior Mendicants\nWith Channa",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 100,
+          "en": 99
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.90_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.90_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn22/sn22.90_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

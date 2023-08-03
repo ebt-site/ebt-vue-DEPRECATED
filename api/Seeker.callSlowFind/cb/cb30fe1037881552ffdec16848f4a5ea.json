@@ -31,16 +31,21 @@
     "pattern": "fork in the road",
     "method": "phrase",
     "resultPattern": "\\bfork in the road",
-    "segsMatched": 4,
+    "segsMatched": 6,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn22/sn22.84_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.84_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn22/sn22.84_translation-en-davis.json",
       "root/pli/ms/sutta/kn/ud/vagga8/ud8.7_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/ud/vagga8/ud8.7_translation-en-sujato.json"
+      "translation/en/sujato/sutta/kn/ud/vagga8/ud8.7_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.84_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.84_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn22/sn22.84_translation-en-davis.json"
     ],
     "suttaRefs": [
       "sn22.84/en/sujato",
-      "ud8.7/en/sujato"
+      "ud8.7/en/sujato",
+      "sn22.84/en/davis"
     ],
     "mlDocs": [
       {
@@ -81,7 +86,44 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn22/sn22.84_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn22/sn22.84_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn22/sn22.84_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn22/sn22.84_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.84",
+        "lang": "en",
+        "segMap": {
+          "sn22.84:9.7": {
+            "scid": "sn22.84:9.7",
+            "pli": "Tena muhuttaṁ gantvā dakkhissasi dvedhāpathaṁ, tattha vāmaṁ muñcitvā dakkhiṇaṁ gaṇhāhi. ",
+            "en": "and you’ll see a <span class=\"ebt-matched\">fork in the road</span>. Ignore the left, and take the right-hand path. ",
+            "matched": true
+          },
+          "sn22.84:10.5": {
+            "scid": "sn22.84:10.5",
+            "pli": "‘Dvedhāpatho’ti kho, tissa, vicikicchāyetaṁ adhivacanaṁ. ",
+            "en": "‘A <span class=\"ebt-matched\">fork in the road</span>’ is a term for doubt. ",
+            "matched": true
+          }
+        },
+        "score": 2.022,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 22.84\n9. Senior Mendicants\nWith Tissa",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 93,
+          "en": 82
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.84_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.84_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn22/sn22.84_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

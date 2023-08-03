@@ -31,7 +31,7 @@
     "pattern": "like a bird",
     "method": "phrase",
     "resultPattern": "\\blike a bird",
-    "segsMatched": 34,
+    "segsMatched": 35,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json",
@@ -45,6 +45,7 @@
       "translation/en/sujato/sutta/sn/sn16/sn16.9_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn12/sn12.70_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn12/sn12.70_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn12/sn12.70_translation-en-davis.json",
       "root/pli/ms/sutta/mn/mn94_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn94_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn77_root-pli-ms.json",
@@ -98,7 +99,10 @@
       "translation/en/sujato/sutta/an/an10/an10.97_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/dhp/dhp167-178_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/dhp/dhp167-178_translation-en-sujato.json",
-      "translation/en/suddhaso/sutta/kn/dhp/dhp167-178_translation-en-suddhaso.json"
+      "translation/en/suddhaso/sutta/kn/dhp/dhp167-178_translation-en-suddhaso.json",
+      "root/pli/ms/sutta/sn/sn12/sn12.70_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.70_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn12/sn12.70_translation-en-davis.json"
     ],
     "suttaRefs": [
       "dn2/en/sujato",
@@ -132,7 +136,8 @@
       "an3.101/en/sujato",
       "an10.99/en/sujato",
       "an10.97/en/sujato",
-      "dhp167-178/en/suddhaso"
+      "dhp167-178/en/suddhaso",
+      "sn12.70/en/davis"
     ],
     "mlDocs": [
       {
@@ -703,7 +708,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn12/sn12.70_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn12/sn12.70_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn12/sn12.70_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn12/sn12.70_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn12.70",
+        "lang": "en",
+        "segMap": {
+          "sn12.70:5.1": {
+            "scid": "sn12.70:5.1",
+            "pli": "“Api pana tumhe āyasmanto evaṁ jānantā evaṁ passantā anekavihitaṁ iddhividhaṁ paccanubhotha—ekopi hutvā bahudhā hotha, bahudhāpi hutvā eko hotha; āvibhāvaṁ, tirobhāvaṁ, tirokuṭṭaṁ tiropākāraṁ tiropabbataṁ asajjamānā gacchatha, seyyathāpi ākāse; pathaviyāpi ummujjanimujjaṁ karotha, seyyathāpi udake; udakepi abhijjamāne gacchatha, seyyathāpi pathaviyaṁ; ākāsepi pallaṅkena kamatha, seyyathāpi pakkhī sakuṇo; imepi candimasūriye evaṁmahiddhike evaṁmahānubhāve pāṇinā parimasatha parimajjatha, yāva brahmalokāpi kāyena vasaṁ vattethā”ti? ",
+            "en": "“But knowing and seeing thus, do you wield the many kinds of psychic power? That is, multiplying yourselves and becoming one again; appearing and disappearing; going unimpeded through a wall, a rampart, or a mountain as if through space; diving in and out of the earth as if it were water; walking on water as if it were earth; flying cross-legged through the sky <span class=\"ebt-matched\">like a bird</span>; touching and stroking with the hand the sun and moon, so mighty and powerful. Do you control the body as far as the Brahmā realm?” ",
+            "matched": true
+          }
+        },
+        "score": 1.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 12.70\n7. The Great Chapter\nThe Wanderer Susīma",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 180,
+          "en": 176
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn12/sn12.70_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn12/sn12.70_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn12/sn12.70_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

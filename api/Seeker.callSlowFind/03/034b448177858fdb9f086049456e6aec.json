@@ -31,7 +31,7 @@
     "pattern": "unification of mind",
     "method": "phrase",
     "resultPattern": "\\bunification of mind",
-    "segsMatched": 26,
+    "segsMatched": 27,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn111_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn111_translation-en-sujato.json",
@@ -51,6 +51,7 @@
       "translation/en/sujato/sutta/sn/sn48/sn48.11_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn48/sn48.10_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn48/sn48.10_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn48/sn48.10_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn45/sn45.28_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn45/sn45.28_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn117_root-pli-ms.json",
@@ -58,7 +59,10 @@
       "root/pli/ms/sutta/dn/dn18_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn18_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an7/an7.45_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an7/an7.45_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an7/an7.45_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn48/sn48.10_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn48/sn48.10_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn48/sn48.10_translation-en-davis.json"
     ],
     "suttaRefs": [
       "mn111/en/sujato",
@@ -73,7 +77,8 @@
       "sn45.28/en/sujato",
       "mn117/en/sujato",
       "dn18/en/sujato",
-      "an7.45/en/sujato"
+      "an7.45/en/sujato",
+      "sn48.10/en/davis"
     ],
     "mlDocs": [
       {
@@ -418,7 +423,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn48/sn48.10_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn48/sn48.10_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn48/sn48.10_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn48/sn48.10_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn48.10",
+        "lang": "en",
+        "segMap": {
+          "sn48.10:4.2": {
+            "scid": "sn48.10:4.2",
+            "pli": "Idha, bhikkhave, ariyasāvako vossaggārammaṇaṁ karitvā labhati samādhiṁ, labhati cittassa ekaggataṁ. ",
+            "en": "It’s when a noble disciple, relying on letting go, gains immersion, gains <span class=\"ebt-matched\">unification of mind</span>. ",
+            "matched": true
+          }
+        },
+        "score": 1.023,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 48.10\n1. Plain Version\nAnalysis (2nd)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 43,
+          "en": 41
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn48/sn48.10_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn48/sn48.10_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn48/sn48.10_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

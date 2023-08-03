@@ -31,7 +31,7 @@
     "pattern": "joy springs up",
     "method": "phrase",
     "resultPattern": "\\bjoy springs up",
-    "segsMatched": 31,
+    "segsMatched": 33,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
@@ -45,8 +45,12 @@
       "translation/en/sujato/sutta/sn/sn47/sn47.10_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn35/sn35.97_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.97_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn35/sn35.97_translation-en-davis.json",
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn35/sn35.97_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.97_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn35/sn35.97_translation-en-davis.json",
       "root/pli/ms/sutta/mn/mn40_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn40_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn9_root-pli-ms.json",
@@ -70,6 +74,7 @@
       "sn47.10/en/sujato",
       "sn35.97/en/sujato",
       "dn33/en/sujato",
+      "sn35.97/en/davis",
       "mn40/en/sujato",
       "dn9/en/sujato",
       "dn2/en/sujato",
@@ -247,7 +252,44 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn35/sn35.97_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn35/sn35.97_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn35/sn35.97_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn35/sn35.97_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn35.97",
+        "lang": "en",
+        "segMap": {
+          "sn35.97:2.3": {
+            "scid": "sn35.97:2.3",
+            "pli": "tassa abyāsittacittassa pāmojjaṁ jāyati. ",
+            "en": "When the mind isn’t polluted, <span class=\"ebt-matched\">joy springs up</span>. ",
+            "matched": true
+          },
+          "sn35.97:2.13": {
+            "scid": "sn35.97:2.13",
+            "pli": "tassa abyāsittacittassa pāmojjaṁ jāyati. ",
+            "en": "When the mind isn’t polluted, <span class=\"ebt-matched\">joy springs up</span>. ",
+            "matched": true
+          }
+        },
+        "score": 2.043,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 35.97\n10. The Sixes\nOne Who Lives Negligently",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 47,
+          "en": 46
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn35/sn35.97_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn35/sn35.97_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn35/sn35.97_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

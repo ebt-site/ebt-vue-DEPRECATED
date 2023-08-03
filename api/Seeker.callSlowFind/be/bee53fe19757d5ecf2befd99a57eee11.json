@@ -31,7 +31,7 @@
     "pattern": "the three times",
     "method": "phrase",
     "resultPattern": "\\bthe three times",
-    "segsMatched": 19,
+    "segsMatched": 22,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn35/sn35.9_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.9_translation-en-sujato.json",
@@ -39,6 +39,7 @@
       "translation/en/sujato/sutta/sn/sn35/sn35.8_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn35/sn35.7_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.7_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn35/sn35.7_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn35/sn35.219-221_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.219-221_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn35/sn35.216-218_root-pli-ms.json",
@@ -65,12 +66,23 @@
       "translation/en/sujato/sutta/sn/sn35/sn35.11_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn35/sn35.10_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.10_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn35/sn35.10_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn22/sn22.9_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.9_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn22/sn22.9_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn22/sn22.11_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.11_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn22/sn22.10_root-pli-ms.json",
-      "translation/en/sujato/sutta/sn/sn22/sn22.10_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn22/sn22.10_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn35/sn35.7_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.7_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn35/sn35.7_translation-en-davis.json",
+      "root/pli/ms/sutta/sn/sn35/sn35.10_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.10_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn35/sn35.10_translation-en-davis.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.9_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.9_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn22/sn22.9_translation-en-davis.json"
     ],
     "suttaRefs": [
       "sn35.9/en/sujato",
@@ -91,7 +103,10 @@
       "sn35.10/en/sujato",
       "sn22.9/en/sujato",
       "sn22.11/en/sujato",
-      "sn22.10/en/sujato"
+      "sn22.10/en/sujato",
+      "sn35.7/en/davis",
+      "sn35.10/en/davis",
+      "sn22.9/en/davis"
     ],
     "mlDocs": [
       {
@@ -445,7 +460,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn35/sn35.10_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn35/sn35.10_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn35/sn35.10_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn35/sn35.10_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn35.10",
+        "lang": "en",
+        "segMap": {
+          "sn35.10:0.3": {
+            "scid": "sn35.10:0.3",
+            "pli": "Bāhirāniccātītānāgatasutta ",
+            "en": "The Exterior as Impermanent in <span class=\"ebt-matched\">the Three Times</span> ",
+            "matched": true
+          }
+        },
+        "score": 1.056,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 35.10\n1. Impermanence\nThe Exterior as Impermanent in the Three Times",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 18,
+          "en": 17
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn35/sn35.10_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn35/sn35.10_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn35/sn35.10_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
@@ -474,7 +520,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn22/sn22.9_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn22/sn22.9_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn22/sn22.9_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn22/sn22.9_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.9",
+        "lang": "en",
+        "segMap": {
+          "sn22.9:0.3": {
+            "scid": "sn22.9:0.3",
+            "pli": "Kālattayaaniccasutta ",
+            "en": "Impermanence in <span class=\"ebt-matched\">the Three Times</span> ",
+            "matched": true
+          }
+        },
+        "score": 1.045,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 22.9\n1. Nakula’s Father\nImpermanence in the Three Times",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 22,
+          "en": 21
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.9_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.9_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn22/sn22.9_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
@@ -503,7 +580,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn35/sn35.7_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn35/sn35.7_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn35/sn35.7_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn35/sn35.7_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn35.7",
+        "lang": "en",
+        "segMap": {
+          "sn35.7:0.3": {
+            "scid": "sn35.7:0.3",
+            "pli": "Ajjhattāniccātītānāgatasutta ",
+            "en": "The Interior as Impermanent in <span class=\"ebt-matched\">the Three Times</span> ",
+            "matched": true
+          }
+        },
+        "score": 1.045,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 35.7\n1. Impermanence\nThe Interior as Impermanent in the Three Times",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 22,
+          "en": 21
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn35/sn35.7_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn35/sn35.7_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn35/sn35.7_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

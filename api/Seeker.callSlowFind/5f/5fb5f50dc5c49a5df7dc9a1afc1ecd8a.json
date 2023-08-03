@@ -31,7 +31,7 @@
     "pattern": "to endure",
     "method": "phrase",
     "resultPattern": "\\bto endure",
-    "segsMatched": 5,
+    "segsMatched": 6,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an7/an7.36_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an7/an7.36_translation-en-sujato.json",
@@ -39,14 +39,19 @@
       "translation/en/sujato/sutta/an/an3/an3.49_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn1/sn1.17_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.17_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn1/sn1.17_translation-en-davis.json",
       "root/pli/ms/sutta/kn/thig/thig16.1_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thig/thig16.1_translation-en-sujato.json",
-      "translation/en/soma/sutta/kn/thig/thig16.1_translation-en-soma.json"
+      "translation/en/soma/sutta/kn/thig/thig16.1_translation-en-soma.json",
+      "root/pli/ms/sutta/sn/sn1/sn1.17_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn1/sn1.17_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn1/sn1.17_translation-en-davis.json"
     ],
     "suttaRefs": [
       "an7.36/en/sujato",
       "an3.49/en/sujato",
-      "sn1.17/en/sujato"
+      "sn1.17/en/sujato",
+      "sn1.17/en/davis"
     ],
     "mlDocs": [
       {
@@ -122,7 +127,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn1/sn1.17_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn1/sn1.17_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn1/sn1.17_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn1/sn1.17_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn1.17",
+        "lang": "en",
+        "segMap": {
+          "sn1.17:1.1": {
+            "scid": "sn1.17:1.1",
+            "pli": "“Dukkaraṁ duttitikkhañca, ",
+            "en": "“Hard to do, hard <span class=\"ebt-matched\">to endure</span>, ",
+            "matched": true
+          }
+        },
+        "score": 1.067,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 1.17\n2. The Garden of Delight\nHard to Do",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 15,
+          "en": 15
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn1/sn1.17_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn1/sn1.17_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn1/sn1.17_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

@@ -31,7 +31,7 @@
     "pattern": "cowherd",
     "method": "phrase",
     "resultPattern": "\\bcowherd",
-    "segsMatched": 52,
+    "segsMatched": 54,
     "bilaraPaths": [
       "root/pli/ms/sutta/kn/ud/vagga4/ud4.3_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/ud/vagga4/ud4.3_translation-en-sujato.json",
@@ -47,6 +47,7 @@
       "translation/en/sujato/sutta/an/an11/an11.22-29_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn35/sn35.241_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.241_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn35/sn35.241_translation-en-davis.json",
       "root/pli/ms/sutta/mn/mn50_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn50_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn19_root-pli-ms.json",
@@ -55,6 +56,9 @@
       "translation/en/sujato/sutta/kn/snp/vagga1/snp1.2_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an11/an11.502-981_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an11/an11.502-981_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn35/sn35.241_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.241_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn35/sn35.241_translation-en-davis.json",
       "root/pli/ms/sutta/mn/mn86_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn86_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn12_root-pli-ms.json",
@@ -84,6 +88,7 @@
       "mn19/en/sujato",
       "snp1.2/en/sujato",
       "an11.502-981/en/sujato",
+      "sn35.241/en/davis",
       "mn86/en/sujato",
       "mn12/en/sujato",
       "dhp129-145/en/sujato",
@@ -484,7 +489,44 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn35/sn35.241_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn35/sn35.241_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn35/sn35.241_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn35/sn35.241_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn35.241",
+        "lang": "en",
+        "segMap": {
+          "sn35.241:7.1": {
+            "scid": "sn35.241:7.1",
+            "pli": "Tena kho pana samayena nando gopālako bhagavato avidūre ṭhito hoti. ",
+            "en": "Now at that time Nanda the <span class=\"ebt-matched\">cowherd</span> was sitting not far from the Buddha. ",
+            "matched": true
+          },
+          "sn35.241:7.11": {
+            "scid": "sn35.241:7.11",
+            "pli": "Alattha kho nando gopālako bhagavato santike pabbajjaṁ, alattha upasampadaṁ. ",
+            "en": "And the <span class=\"ebt-matched\">cowherd</span> Nanda received the going forth, the ordination in the Buddha’s presence. ",
+            "matched": true
+          }
+        },
+        "score": 2.043,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 35.241\n19. The Simile of the Vipers\nThe Simile of the Tree Trunk (1st)",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 47,
+          "en": 46
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn35/sn35.241_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn35/sn35.241_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn35/sn35.241_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

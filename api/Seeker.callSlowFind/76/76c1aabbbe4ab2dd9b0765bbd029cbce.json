@@ -31,25 +31,30 @@
     "pattern": "show.* the way",
     "method": "phrase",
     "resultPattern": "\\bshow.* the way",
-    "segsMatched": 6,
+    "segsMatched": 7,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn107_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn107_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn24/sn24.5_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn24/sn24.5_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn24/sn24.5_translation-en-davis.json",
       "root/pli/ms/sutta/mn/mn76_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn76_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/dhp/dhp273-289_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/dhp/dhp273-289_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
-      "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json"
+      "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn24/sn24.5_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn24/sn24.5_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn24/sn24.5_translation-en-davis.json"
     ],
     "suttaRefs": [
       "mn107/en/sujato",
       "sn24.5/en/sujato",
       "mn76/en/sujato",
       "dhp273-289/en/sujato",
-      "dn2/en/sujato"
+      "dn2/en/sujato",
+      "sn24.5/en/davis"
     ],
     "mlDocs": [
       {
@@ -90,7 +95,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn24/sn24.5_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn24/sn24.5_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn24/sn24.5_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn24/sn24.5_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn24.5",
+        "lang": "en",
+        "segMap": {
+          "sn24.5:1.7": {
+            "scid": "sn24.5:1.7",
+            "pli": "Yāva āḷāhanā padāni paññāyanti. ",
+            "en": "Their footprints <span class=\"ebt-matched\">show the way</span> to the cemetery. ",
+            "matched": true
+          }
+        },
+        "score": 1.02,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 24.5\n1. Stream-Entry\nThere’s No Meaning in Giving",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 51,
+          "en": 50
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn24/sn24.5_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn24/sn24.5_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn24/sn24.5_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

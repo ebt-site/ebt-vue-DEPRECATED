@@ -31,7 +31,7 @@
     "pattern": "end of the world",
     "method": "phrase",
     "resultPattern": "\\bend of the world",
-    "segsMatched": 42,
+    "segsMatched": 50,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an9/an9.38_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an9/an9.38_translation-en-sujato.json",
@@ -41,24 +41,34 @@
       "translation/en/sujato/sutta/an/an4/an4.45_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn35/sn35.116_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.116_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn35/sn35.116_translation-en-davis.json",
+      "root/pli/ms/sutta/sn/sn35/sn35.116_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.116_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn35/sn35.116_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn35/sn35.228_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.228_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn35/sn35.228_translation-en-davis.json",
       "root/pli/ms/sutta/kn/iti/vagga11/iti109_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/iti/vagga11/iti109_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.5_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an4/an4.5_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.46_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an4/an4.46_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an4/an4.46_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn35/sn35.228_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.228_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn35/sn35.228_translation-en-davis.json"
     ],
     "suttaRefs": [
       "an9.38/en/sujato",
       "sn2.26/en/sujato",
       "an4.45/en/sujato",
       "sn35.116/en/sujato",
+      "sn35.116/en/davis",
       "sn35.228/en/sujato",
       "iti109/en/sujato",
       "an4.5/en/sujato",
-      "an4.46/en/sujato"
+      "an4.46/en/sujato",
+      "sn35.228/en/davis"
     ],
     "mlDocs": [
       {
@@ -319,7 +329,74 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn35/sn35.116_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn35/sn35.116_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn35/sn35.116_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn35/sn35.116_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn35.116",
+        "lang": "en",
+        "segMap": {
+          "sn35.116:0.3": {
+            "scid": "sn35.116:0.3",
+            "pli": "Lokantagamanasutta ",
+            "en": "Traveling to the <span class=\"ebt-matched\">End of the World</span> ",
+            "matched": true
+          },
+          "sn35.116:1.1": {
+            "scid": "sn35.116:1.1",
+            "pli": "“Nāhaṁ, bhikkhave, gamanena lokassa antaṁ ñāteyyaṁ, daṭṭheyyaṁ, patteyyanti vadāmi. ",
+            "en": "“Mendicants, I say it’s not possible to know or see or reach the <span class=\"ebt-matched\">end of the world</span> by traveling. ",
+            "matched": true
+          },
+          "sn35.116:1.2": {
+            "scid": "sn35.116:1.2",
+            "pli": "Na ca panāhaṁ, bhikkhave, appatvā lokassa antaṁ dukkhassa antakiriyaṁ vadāmī”ti. ",
+            "en": "But I also say there’s no making an end of suffering without reaching the <span class=\"ebt-matched\">end of the world</span>.” ",
+            "matched": true
+          },
+          "sn35.116:8.2": {
+            "scid": "sn35.116:8.2",
+            "pli": "‘nāhaṁ, bhikkhave, gamanena lokassa antaṁ ñāteyyaṁ, daṭṭheyyaṁ, patteyyanti vadāmi. ",
+            "en": "‘Mendicants, I say it’s not possible to know or see or reach the <span class=\"ebt-matched\">end of the world</span> by traveling. ",
+            "matched": true
+          },
+          "sn35.116:8.3": {
+            "scid": "sn35.116:8.3",
+            "pli": "Na ca panāhaṁ, bhikkhave, appatvā lokassa antaṁ dukkhassa antakiriyaṁ vadāmī’ti, ",
+            "en": "But I also say there’s no making an end of suffering without reaching the <span class=\"ebt-matched\">end of the world</span>.’ ",
+            "matched": true
+          },
+          "sn35.116:8.17": {
+            "scid": "sn35.116:8.17",
+            "pli": "‘nāhaṁ, bhikkhave, gamanena lokassa antaṁ ñāteyyaṁ, daṭṭheyyaṁ, patteyyanti vadāmi. ",
+            "en": "‘Mendicants, I say it’s not possible to know or see or reach the <span class=\"ebt-matched\">end of the world</span> by traveling. ",
+            "matched": true
+          },
+          "sn35.116:8.18": {
+            "scid": "sn35.116:8.18",
+            "pli": "Na ca panāhaṁ, bhikkhave, appatvā lokassa antaṁ dukkhassa antakiriyaṁ vadāmī’ti, ",
+            "en": "But I also say there’s no making an end of suffering without reaching the <span class=\"ebt-matched\">end of the world</span>.’ ",
+            "matched": true
+          }
+        },
+        "score": 7.081,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 35.116\n12. The World and the Kinds of Sensual Stimulation\nTraveling to the End of the World",
+        "segsMatched": 7,
+        "langSegs": {
+          "pli": 86,
+          "en": 85
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn35/sn35.116_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn35/sn35.116_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn35/sn35.116_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
@@ -384,7 +461,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn35/sn35.228_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn35/sn35.228_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn35/sn35.228_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn35/sn35.228_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn35.228",
+        "lang": "en",
+        "segMap": {
+          "sn35.228:3.3": {
+            "scid": "sn35.228:3.3",
+            "pli": "Sa vedagū vusitabrahmacariyo, ",
+            "en": "they’ve completed the spiritual journey, <j>and gone to the <span class=\"ebt-matched\">end of the world</span>, ",
+            "matched": true
+          }
+        },
+        "score": 1.04,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 35.228\n18. The Ocean\nThe Ocean (1st)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 25,
+          "en": 24
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn35/sn35.228_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn35/sn35.228_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn35/sn35.228_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

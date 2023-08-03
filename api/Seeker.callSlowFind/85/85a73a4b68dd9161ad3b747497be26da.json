@@ -31,14 +31,16 @@
     "pattern": "head w.* on fire",
     "method": "phrase",
     "resultPattern": "\\bhead w.* on fire",
-    "segsMatched": 23,
+    "segsMatched": 28,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn56/sn56.34_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn56/sn56.34_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn56/sn56.34_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn2/sn2.16_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn2/sn2.16_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn1/sn1.21_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.21_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn1/sn1.21_translation-en-davis.json",
       "root/pli/ms/sutta/kn/thag/thag20.1_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thag/thag20.1_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.74_root-pli-ms.json",
@@ -47,10 +49,17 @@
       "translation/en/sujato/sutta/an/an6/an6.20_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.55_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an10/an10.55_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn56/sn56.34_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn56/sn56.34_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn56/sn56.34_translation-en-davis.json",
+      "root/pli/ms/sutta/sn/sn1/sn1.21_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn1/sn1.21_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn1/sn1.21_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn4/sn4.9_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn4/sn4.9_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn22/sn22.95_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.95_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn22/sn22.95_translation-en-davis.json",
       "root/pli/ms/sutta/kn/thag/thag1.40_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thag/thag1.40_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag1.39_root-pli-ms.json",
@@ -64,7 +73,10 @@
       "root/pli/ms/sutta/an/an10/an10.52_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an10/an10.52_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.51_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an10/an10.51_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an10/an10.51_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.95_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.95_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn22/sn22.95_translation-en-davis.json"
     ],
     "suttaRefs": [
       "sn56.34/en/sujato",
@@ -74,6 +86,8 @@
       "an8.74/en/sujato",
       "an6.20/en/sujato",
       "an10.55/en/sujato",
+      "sn56.34/en/davis",
+      "sn1.21/en/davis",
       "sn4.9/en/sujato",
       "sn22.95/en/sujato",
       "thag1.40/en/sujato",
@@ -82,13 +96,51 @@
       "an10.54/en/sujato",
       "an10.53/en/sujato",
       "an10.52/en/sujato",
-      "an10.51/en/sujato"
+      "an10.51/en/sujato",
+      "sn22.95/en/davis"
     ],
     "mlDocs": [
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn56/sn56.34_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn56/sn56.34_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn56/sn56.34_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn56/sn56.34_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn56.34",
+        "lang": "en",
+        "segMap": {
+          "sn56.34:1.1": {
+            "scid": "sn56.34:1.1",
+            "pli": "“Āditte, bhikkhave, cele vā sīse vā kimassa karaṇīyan”ti? ",
+            "en": "“Mendicants, if your clothes or <span class=\"ebt-matched\">head were on fire</span>, what would you do about it?” ",
+            "matched": true
+          },
+          "sn56.34:1.2": {
+            "scid": "sn56.34:1.2",
+            "pli": "“Āditte, bhante, cele vā sīse vā, tasseva celassa vā sīsassa vā nibbāpanāya adhimatto chando ca vāyāmo ca ussāho ca ussoḷhī ca appaṭivānī ca sati ca sampajaññañca karaṇīyan”ti. ",
+            "en": "“Sir, if our clothes or <span class=\"ebt-matched\">head were on fire</span>, we’d apply intense enthusiasm, effort, zeal, vigor, perseverance, mindfulness, and situational awareness in order to extinguish it.” ",
+            "matched": true
+          }
+        },
+        "score": 2.2,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 56.34\n4. In a Rosewood Forest\nClothes",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 10,
+          "en": 9
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn56/sn56.34_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn56/sn56.34_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn56/sn56.34_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
@@ -158,7 +210,44 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn1/sn1.21_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn1/sn1.21_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn1/sn1.21_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn1/sn1.21_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn1.21",
+        "lang": "en",
+        "segMap": {
+          "sn1.21:2.2": {
+            "scid": "sn1.21:2.2",
+            "pli": "ḍayhamānova matthake; ",
+            "en": "like their <span class=\"ebt-matched\">head was on fire</span>, ",
+            "matched": true
+          },
+          "sn1.21:3.2": {
+            "scid": "sn1.21:3.2",
+            "pli": "ḍayhamānova matthake; ",
+            "en": "like their <span class=\"ebt-matched\">head was on fire</span>, ",
+            "matched": true
+          }
+        },
+        "score": 2.154,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 1.21\n3. A Sword\nA Sword",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 13,
+          "en": 13
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn1/sn1.21_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn1/sn1.21_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn1/sn1.21_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
@@ -536,7 +625,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn22/sn22.95_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn22/sn22.95_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn22/sn22.95_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn22/sn22.95_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.95",
+        "lang": "en",
+        "segMap": {
+          "sn22.95:15.3": {
+            "scid": "sn22.95:15.3",
+            "pli": "Careyyādittasīsova, ",
+            "en": "They should live as though their <span class=\"ebt-matched\">head was on fire</span>, ",
+            "matched": true
+          }
+        },
+        "score": 1.02,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 22.95\n10. Flowers\nA Lump of Foam",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 51,
+          "en": 50
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.95_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.95_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn22/sn22.95_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

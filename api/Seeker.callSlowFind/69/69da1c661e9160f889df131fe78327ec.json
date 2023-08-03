@@ -31,7 +31,7 @@
     "pattern": "rumor",
     "method": "phrase",
     "resultPattern": "\\brumor",
-    "segsMatched": 10,
+    "segsMatched": 11,
     "bilaraPaths": [
       "root/pli/ms/sutta/kn/ud/vagga4/ud4.8_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/ud/vagga4/ud4.8_translation-en-sujato.json",
@@ -41,12 +41,16 @@
       "translation/en/sujato/sutta/sn/sn7/sn7.3_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn7/sn7.2_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn7/sn7.2_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn7/sn7.2_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn16/sn16.11_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn16/sn16.11_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn10/sn10.8_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn10/sn10.8_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn31_root-pli-ms.json",
-      "translation/en/sujato/sutta/dn/dn31_translation-en-sujato.json"
+      "translation/en/sujato/sutta/dn/dn31_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn7/sn7.2_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn7/sn7.2_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn7/sn7.2_translation-en-davis.json"
     ],
     "suttaRefs": [
       "ud4.8/en/sujato",
@@ -55,7 +59,8 @@
       "sn7.2/en/sujato",
       "sn16.11/en/sujato",
       "sn10.8/en/sujato",
-      "dn31/en/sujato"
+      "dn31/en/sujato",
+      "sn7.2/en/davis"
     ],
     "mlDocs": [
       {
@@ -166,7 +171,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn7/sn7.2_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn7/sn7.2_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn7/sn7.2_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn7/sn7.2_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn7.2",
+        "lang": "en",
+        "segMap": {
+          "sn7.2:1.2": {
+            "scid": "sn7.2:1.2",
+            "pli": "Assosi kho akkosakabhāradvājo brāhmaṇo: ",
+            "en": "The brahmin Bhāradvāja the Rude heard a <span class=\"ebt-matched\">rumor</span> that ",
+            "matched": true
+          }
+        },
+        "score": 1.021,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 7.2\n1. The Perfected Ones\nThe Abuser",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 47,
+          "en": 47
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn7/sn7.2_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn7/sn7.2_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn7/sn7.2_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

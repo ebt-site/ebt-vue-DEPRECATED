@@ -31,10 +31,14 @@
     "pattern": "puppet",
     "method": "phrase",
     "resultPattern": "\\bpuppet",
-    "segsMatched": 15,
+    "segsMatched": 18,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn5/sn5.9_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn5/sn5.9_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn5/sn5.9_translation-en-davis.json",
+      "root/pli/ms/sutta/sn/sn5/sn5.9_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn5/sn5.9_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn5/sn5.9_translation-en-davis.json",
       "root/pli/ms/sutta/kn/thig/thig14.1_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thig/thig14.1_translation-en-sujato.json",
       "translation/en/soma/sutta/kn/thig/thig14.1_translation-en-soma.json",
@@ -60,6 +64,7 @@
     ],
     "suttaRefs": [
       "sn5.9/en/sujato",
+      "sn5.9/en/davis",
       "thig14.1/en/sujato",
       "thag17.3/en/sujato",
       "sn48.41/en/sujato",
@@ -74,7 +79,50 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn5/sn5.9_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn5/sn5.9_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn5/sn5.9_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn5/sn5.9_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn5.9",
+        "lang": "en",
+        "segMap": {
+          "sn5.9:2.1": {
+            "scid": "sn5.9:2.1",
+            "pli": "“Kenidaṁ pakataṁ bimbaṁ, ",
+            "en": "“Who created this <span class=\"ebt-matched\">puppet</span>? ",
+            "matched": true
+          },
+          "sn5.9:2.3": {
+            "scid": "sn5.9:2.3",
+            "pli": "Kvanu bimbaṁ samuppannaṁ, ",
+            "en": "Where has the <span class=\"ebt-matched\">puppet</span> arisen? ",
+            "matched": true
+          },
+          "sn5.9:4.1": {
+            "scid": "sn5.9:4.1",
+            "pli": "“Nayidaṁ attakataṁ bimbaṁ, ",
+            "en": "“This <span class=\"ebt-matched\">puppet</span> isn’t self-made, ",
+            "matched": true
+          }
+        },
+        "score": 3.1,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 5.9\n1. Nuns\nWith Selā",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 30,
+          "en": 30
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn5/sn5.9_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn5/sn5.9_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn5/sn5.9_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

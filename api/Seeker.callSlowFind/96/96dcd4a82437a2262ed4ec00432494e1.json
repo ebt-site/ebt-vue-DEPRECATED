@@ -31,29 +31,65 @@
     "pattern": "dust thrown upwind",
     "method": "phrase",
     "resultPattern": "\\bdust thrown upwind",
-    "segsMatched": 4,
+    "segsMatched": 5,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn7/sn7.4_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn7/sn7.4_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn1/sn1.22_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.22_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn1/sn1.22_translation-en-davis.json",
       "root/pli/ms/sutta/kn/snp/vagga3/snp3.10_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/snp/vagga3/snp3.10_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/dhp/dhp116-128_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/dhp/dhp116-128_translation-en-sujato.json",
-      "translation/en/suddhaso/sutta/kn/dhp/dhp116-128_translation-en-suddhaso.json"
+      "translation/en/suddhaso/sutta/kn/dhp/dhp116-128_translation-en-suddhaso.json",
+      "root/pli/ms/sutta/sn/sn1/sn1.22_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn1/sn1.22_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn1/sn1.22_translation-en-davis.json"
     ],
     "suttaRefs": [
       "sn7.4/en/sujato",
       "sn1.22/en/sujato",
       "snp3.10/en/sujato",
-      "dhp116-128/en/sujato"
+      "dhp116-128/en/sujato",
+      "sn1.22/en/davis"
     ],
     "mlDocs": [
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn1/sn1.22_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn1/sn1.22_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn1/sn1.22_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn1/sn1.22_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn1.22",
+        "lang": "en",
+        "segMap": {
+          "sn1.22:2.4": {
+            "scid": "sn1.22:2.4",
+            "pli": "Sukhumo rajo paṭivātaṁva khitto”ti. ",
+            "en": "like fine <span class=\"ebt-matched\">dust thrown upwind</span>.” ",
+            "matched": true
+          }
+        },
+        "score": 1.091,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 1.22\n3. A Sword\nImpact",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 11,
+          "en": 11
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn1/sn1.22_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn1/sn1.22_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn1/sn1.22_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

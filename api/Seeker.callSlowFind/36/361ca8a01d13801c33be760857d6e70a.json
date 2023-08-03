@@ -31,25 +31,30 @@
     "pattern": "by ear",
     "method": "phrase",
     "resultPattern": "\\bby ear",
-    "segsMatched": 15,
+    "segsMatched": 16,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an4/an4.191_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an4/an4.191_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn35/sn35.65_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.65_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn35/sn35.65_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn35/sn35.235_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.235_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn98_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn98_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/snp/vagga3/snp3.9_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/snp/vagga3/snp3.9_translation-en-sujato.json"
+      "translation/en/sujato/sutta/kn/snp/vagga3/snp3.9_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn35/sn35.65_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.65_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn35/sn35.65_translation-en-davis.json"
     ],
     "suttaRefs": [
       "an4.191/en/sujato",
       "sn35.65/en/sujato",
       "sn35.235/en/sujato",
       "mn98/en/sujato",
-      "snp3.9/en/sujato"
+      "snp3.9/en/sujato",
+      "sn35.65/en/davis"
     ],
     "mlDocs": [
       {
@@ -144,7 +149,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn35/sn35.65_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn35/sn35.65_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn35/sn35.65_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn35/sn35.65_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn35.65",
+        "lang": "en",
+        "segMap": {
+          "sn35.65:2.2": {
+            "scid": "sn35.65:2.2",
+            "pli": "Atthi sotaṁ, atthi saddā, atthi sotaviññāṇaṁ, atthi sotaviññāṇaviññātabbā dhammā, atthi tattha māro vā mārapaññatti vā. ",
+            "en": "Where there is the ear, sounds, ear consciousness, and phenomena to be known <span class=\"ebt-matched\">by ear</span> consciousness, there is Māra or what is known as Māra. ",
+            "matched": true
+          }
+        },
+        "score": 1.048,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 35.65\n7. With Migajāla\nSamiddhi’s Question About Māra",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 21,
+          "en": 20
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn35/sn35.65_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn35/sn35.65_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn35/sn35.65_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

@@ -31,7 +31,7 @@
     "pattern": "actually",
     "method": "phrase",
     "resultPattern": "\\bactually",
-    "segsMatched": 60,
+    "segsMatched": 61,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn60_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn60_translation-en-sujato.json",
@@ -53,6 +53,7 @@
       "translation/en/sujato/sutta/sn/sn6/sn6.4_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn1/sn1.20_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.20_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn1/sn1.20_translation-en-davis.json",
       "root/pli/ms/sutta/mn/mn49_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn49_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thig/thig12.1_root-pli-ms.json",
@@ -64,7 +65,10 @@
       "translation/en/sujato/sutta/an/an10/an10.177_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thig/thig13.3_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thig/thig13.3_translation-en-sujato.json",
-      "translation/en/soma/sutta/kn/thig/thig13.3_translation-en-soma.json"
+      "translation/en/soma/sutta/kn/thig/thig13.3_translation-en-soma.json",
+      "root/pli/ms/sutta/sn/sn1/sn1.20_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn1/sn1.20_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn1/sn1.20_translation-en-davis.json"
     ],
     "suttaRefs": [
       "mn60/en/sujato",
@@ -80,7 +84,8 @@
       "mn49/en/sujato",
       "thig12.1/en/sujato",
       "snp3.4/en/sujato",
-      "an10.177/en/sujato"
+      "an10.177/en/sujato",
+      "sn1.20/en/davis"
     ],
     "mlDocs": [
       {
@@ -682,7 +687,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn1/sn1.20_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn1/sn1.20_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn1/sn1.20_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn1/sn1.20_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn1.20",
+        "lang": "en",
+        "segMap": {
+          "sn1.20:3.1": {
+            "scid": "sn1.20:3.1",
+            "pli": "“Kālaṁ vohaṁ na jānāmi, ",
+            "en": "“I <span class=\"ebt-matched\">actually</span> don’t know the time; ",
+            "matched": true
+          }
+        },
+        "score": 1.009,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 1.20\n2. The Garden of Delight\nWith Samiddhi",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 108,
+          "en": 106
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn1/sn1.20_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn1/sn1.20_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn1/sn1.20_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

@@ -32,7 +32,7 @@
     "pattern": "haarsträubend",
     "method": "phrase",
     "resultPattern": "\\bhaarsträubend",
-    "segsMatched": 10,
+    "segsMatched": 12,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/an/an8/an8.70_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.70_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an8/an8.70_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/cp/cp9_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/cp/cp9_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/cp/cp9_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn51/sn51.10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn51/sn51.10_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn51/sn51.10_translation-en-sujato.json",
@@ -54,6 +57,7 @@
     "suttaRefs": [
       "dn16/de/sabbamitta",
       "an8.70/de/sabbamitta",
+      "cp9/de/sabbamitta",
       "sn51.10/de/sabbamitta",
       "ud6.1/de/sabbamitta",
       "thig11.1/de/sabbamitta"
@@ -156,6 +160,45 @@
           "pli": 87,
           "de": 80,
           "en": 85
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/cp/cp9_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/cp/cp9_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/cp/cp9_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "cp9",
+        "lang": "de",
+        "segMap": {
+          "cp9:36.2": {
+            "scid": "cp9:36.2",
+            "pli": "abbhutaṁ lomahaṁsanaṁ; ",
+            "de": "das so erstaunlich und <span class=\"ebt-matched\">haarsträubend</span> war, ",
+            "en": "so astonishing and hair-raising, ",
+            "matched": true
+          },
+          "cp9:37.2": {
+            "scid": "cp9:37.2",
+            "pli": "abbhutaṁ lomahaṁsanaṁ; ",
+            "de": "so erstaunlich und <span class=\"ebt-matched\">haarsträubend</span>: ",
+            "en": "so astonishing and hair-raising, ",
+            "matched": true
+          }
+        },
+        "score": 2.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Korb des Verhaltens 9\nDas Kapitel mit Akitti\nDie Vollkommenheit des Gebens (9)\nVessantaras Verhalten",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 239,
+          "de": 238,
+          "en": 238
         }
       },
       {

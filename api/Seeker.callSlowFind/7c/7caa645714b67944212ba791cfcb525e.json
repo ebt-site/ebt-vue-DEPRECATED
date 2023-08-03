@@ -31,7 +31,7 @@
     "pattern": "by human strength, energy, and vigor",
     "method": "phrase",
     "resultPattern": "\\bby human strength, energy, and vigor",
-    "segsMatched": 7,
+    "segsMatched": 8,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an2/an2.1-10_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an2/an2.1-10_translation-en-sujato.json",
@@ -39,17 +39,22 @@
       "translation/en/sujato/sutta/sn/sn21/sn21.3_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn12/sn12.22_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn12/sn12.22_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn12/sn12.22_translation-en-davis.json",
       "root/pli/ms/sutta/mn/mn70_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn70_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.13_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an8/an8.13_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an8/an8.13_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn12/sn12.22_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.22_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn12/sn12.22_translation-en-davis.json"
     ],
     "suttaRefs": [
       "an2.1-10/en/sujato",
       "sn21.3/en/sujato",
       "sn12.22/en/sujato",
       "mn70/en/sujato",
-      "an8.13/en/sujato"
+      "an8.13/en/sujato",
+      "sn12.22/en/davis"
     ],
     "mlDocs": [
       {
@@ -96,7 +101,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn12/sn12.22_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn12/sn12.22_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn12/sn12.22_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn12/sn12.22_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn12.22",
+        "lang": "en",
+        "segMap": {
+          "sn12.22:2.3": {
+            "scid": "sn12.22:2.3",
+            "pli": "‘kāmaṁ taco ca nhāru ca aṭṭhi ca avasissatu, sarīre upassussatu maṁsalohitaṁ. Yaṁ taṁ purisathāmena purisavīriyena purisaparakkamena pattabbaṁ, na taṁ apāpuṇitvā vīriyassa saṇṭhānaṁ bhavissatī’ti. ",
+            "en": "‘Gladly, let only skin, sinews, and tendons remain! Let the flesh and blood waste away in my body! I will not stop trying until I have achieved what is possible <span class=\"ebt-matched\">by human strength, energy, and vigor</span>.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.029,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 12.22\n3. The Ten Powers\nThe Ten Powers (2nd)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 34,
+          "en": 33
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn12/sn12.22_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn12/sn12.22_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn12/sn12.22_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

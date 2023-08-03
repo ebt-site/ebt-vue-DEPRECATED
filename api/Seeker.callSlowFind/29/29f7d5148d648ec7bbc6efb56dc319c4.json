@@ -31,12 +31,16 @@
     "pattern": "farmer",
     "method": "phrase",
     "resultPattern": "\\bfarmer",
-    "segsMatched": 57,
+    "segsMatched": 70,
     "bilaraPaths": [
       "root/pli/ms/sutta/kn/snp/vagga1/snp1.4_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/snp/vagga1/snp1.4_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn7/sn7.11_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn7/sn7.11_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn7/sn7.11_translation-en-davis.json",
+      "root/pli/ms/sutta/sn/sn7/sn7.11_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn7/sn7.11_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn7/sn7.11_translation-en-davis.json",
       "root/pli/ms/sutta/an/an3/an3.92_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an3/an3.92_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
@@ -51,6 +55,7 @@
       "translation/en/sujato/sutta/sn/sn4/sn4.19_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn42/sn42.7_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn42/sn42.7_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn42/sn42.7_translation-en-davis.json",
       "root/pli/ms/sutta/mn/mn98_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn98_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn50_root-pli-ms.json",
@@ -61,18 +66,26 @@
       "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.93_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an3/an3.93_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn42/sn42.7_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn42/sn42.7_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn42/sn42.7_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn22/sn22.102_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.102_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn22/sn22.102_translation-en-davis.json",
       "root/pli/ms/sutta/mn/mn86_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn86_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag10.1_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thag/thag10.1_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/cp/cp2_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/cp/cp2_translation-en-sujato.json"
+      "translation/en/sujato/sutta/kn/cp/cp2_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.102_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.102_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn22/sn22.102_translation-en-davis.json"
     ],
     "suttaRefs": [
       "snp1.4/en/sujato",
       "sn7.11/en/sujato",
+      "sn7.11/en/davis",
       "an3.92/en/sujato",
       "dn23/en/sujato",
       "dn2/en/sujato",
@@ -85,10 +98,12 @@
       "snp3.9/en/sujato",
       "dn16/en/sujato",
       "an3.93/en/sujato",
+      "sn42.7/en/davis",
       "sn22.102/en/sujato",
       "mn86/en/sujato",
       "thag10.1/en/sujato",
-      "cp2/en/sujato"
+      "cp2/en/sujato",
+      "sn22.102/en/davis"
     ],
     "mlDocs": [
       {
@@ -189,7 +204,92 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn7/sn7.11_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn7/sn7.11_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn7/sn7.11_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn7/sn7.11_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn7.11",
+        "lang": "en",
+        "segMap": {
+          "sn7.11:0.3": {
+            "scid": "sn7.11:0.3",
+            "pli": "Kasibhāradvājasutta ",
+            "en": "With Bhāradvāja the <span class=\"ebt-matched\">Farmer</span> ",
+            "matched": true
+          },
+          "sn7.11:1.3": {
+            "scid": "sn7.11:1.3",
+            "pli": "Tena kho pana samayena kasibhāradvājassa brāhmaṇassa pañcamattāni naṅgalasatāni payuttāni honti vappakāle. ",
+            "en": "Now at that time the brahmin Bhāradvāja the <span class=\"ebt-matched\">Farmer</span> had harnessed around five hundred plows, it being the season for sowing. ",
+            "matched": true
+          },
+          "sn7.11:1.4": {
+            "scid": "sn7.11:1.4",
+            "pli": "Atha kho bhagavā pubbaṇhasamayaṁ nivāsetvā pattacīvaramādāya yena kasibhāradvājassa brāhmaṇassa kammanto tenupasaṅkami. ",
+            "en": "Then the Buddha robed up in the morning and, taking his bowl and robe, went to where Bhāradvāja the <span class=\"ebt-matched\">Farmer</span> was working. ",
+            "matched": true
+          },
+          "sn7.11:2.1": {
+            "scid": "sn7.11:2.1",
+            "pli": "Tena kho pana samayena kasibhāradvājassa brāhmaṇassa parivesanā vattati. ",
+            "en": "Now at that time Bhāradvāja the <span class=\"ebt-matched\">Farmer</span> was distributing food. ",
+            "matched": true
+          },
+          "sn7.11:2.3": {
+            "scid": "sn7.11:2.3",
+            "pli": "Addasā kho kasibhāradvājo brāhmaṇo bhagavantaṁ piṇḍāya ṭhitaṁ. ",
+            "en": "Bhāradvāja the <span class=\"ebt-matched\">Farmer</span> saw him standing for alms ",
+            "matched": true
+          },
+          "sn7.11:2.10": {
+            "scid": "sn7.11:2.10",
+            "pli": "Atha kho kasibhāradvājo brāhmaṇo bhagavantaṁ gāthāya ajjhabhāsi: ",
+            "en": "Then Bhāradvāja the <span class=\"ebt-matched\">Farmer</span> addressed the Buddha in verse: ",
+            "matched": true
+          },
+          "sn7.11:3.1": {
+            "scid": "sn7.11:3.1",
+            "pli": "“Kassako paṭijānāsi, ",
+            "en": "“You claim to be a <span class=\"ebt-matched\">farmer</span>, ",
+            "matched": true
+          },
+          "sn7.11:3.3": {
+            "scid": "sn7.11:3.3",
+            "pli": "Kassako pucchito brūhi, ",
+            "en": "Tell me how you’re a <span class=\"ebt-matched\">farmer</span> when asked: ",
+            "matched": true
+          },
+          "sn7.11:8.2": {
+            "scid": "sn7.11:8.2",
+            "pli": "Kassako bhavaṁ. ",
+            "en": "you are truly a <span class=\"ebt-matched\">farmer</span>. ",
+            "matched": true
+          },
+          "sn7.11:11.1": {
+            "scid": "sn7.11:11.1",
+            "pli": "Evaṁ vutte, kasibhāradvājo brāhmaṇo bhagavantaṁ etadavoca: ",
+            "en": "When he had spoken, the brahmin Bhāradvāja the <span class=\"ebt-matched\">Farmer</span> said to the Buddha, ",
+            "matched": true
+          }
+        },
+        "score": 10.196,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 7.11\n2. Lay Followers\nWith Bhāradvāja the Farmer",
+        "segsMatched": 10,
+        "langSegs": {
+          "pli": 51,
+          "en": 51
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn7/sn7.11_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn7/sn7.11_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn7/sn7.11_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
@@ -559,7 +659,44 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn42/sn42.7_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn42/sn42.7_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn42/sn42.7_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn42/sn42.7_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn42.7",
+        "lang": "en",
+        "segMap": {
+          "sn42.7:1.7": {
+            "scid": "sn42.7:1.7",
+            "pli": "Taṁ kiṁ maññasi, gāmaṇi, idhassu kassakassa gahapatino tīṇi khettāni—ekaṁ khettaṁ aggaṁ, ekaṁ khettaṁ majjhimaṁ, ekaṁ khettaṁ hīnaṁ jaṅgalaṁ ūsaraṁ pāpabhūmi. ",
+            "en": "What do you think? Suppose a <span class=\"ebt-matched\">farmer</span> has three fields: one’s good, one’s average, and one’s poor—bad ground of sand and salt. ",
+            "matched": true
+          },
+          "sn42.7:1.8": {
+            "scid": "sn42.7:1.8",
+            "pli": "Taṁ kiṁ maññasi, gāmaṇi, asu kassako gahapati bījāni patiṭṭhāpetukāmo kattha paṭhamaṁ patiṭṭhāpeyya, yaṁ vā aduṁ khettaṁ aggaṁ, yaṁ vā aduṁ khettaṁ majjhimaṁ, yaṁ vā aduṁ khettaṁ hīnaṁ jaṅgalaṁ ūsaraṁ pāpabhūmī”ti? ",
+            "en": "What do you think? When that <span class=\"ebt-matched\">farmer</span> wants to plant seeds, where would he plant them first: the good field, the average one, or the poor one?” ",
+            "matched": true
+          }
+        },
+        "score": 2.043,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 42.7\n1. Chiefs\nThe Simile of the Field",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 47,
+          "en": 46
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn42/sn42.7_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn42/sn42.7_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn42/sn42.7_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
@@ -763,7 +900,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn22/sn22.102_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn22/sn22.102_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn22/sn22.102_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn22/sn22.102_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.102",
+        "lang": "en",
+        "segMap": {
+          "sn22.102:2.1": {
+            "scid": "sn22.102:2.1",
+            "pli": "Seyyathāpi, bhikkhave, saradasamaye kassako mahānaṅgalena kasanto sabbāni mūlasantānakāni sampadālento kasati; ",
+            "en": "In the autumn, a <span class=\"ebt-matched\">farmer</span> ploughing with a large plough shears through all the root networks. ",
+            "matched": true
+          }
+        },
+        "score": 1.022,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 22.102\n10. Flowers\nThe Perception of Impermanence",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 45,
+          "en": 42
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.102_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.102_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn22/sn22.102_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

@@ -31,16 +31,21 @@
     "pattern": "not two go by one road",
     "method": "phrase",
     "resultPattern": "\\bnot two go by one road",
-    "segsMatched": 3,
+    "segsMatched": 4,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn4/sn4.5_root-pli-ms.json",
-      "translation/en/sujato/sutta/sn/sn4/sn4.5_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn4/sn4.5_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn4/sn4.5_translation-en-davis.json",
+      "root/pli/ms/sutta/sn/sn4/sn4.5_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn4/sn4.5_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn4/sn4.5_translation-en-davis.json"
     ],
     "suttaRefs": [
       "dn14/en/sujato",
-      "sn4.5/en/sujato"
+      "sn4.5/en/sujato",
+      "sn4.5/en/davis"
     ],
     "mlDocs": [
       {
@@ -81,7 +86,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn4/sn4.5_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn4/sn4.5_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn4/sn4.5_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn4/sn4.5_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn4.5",
+        "lang": "en",
+        "segMap": {
+          "sn4.5:2.4": {
+            "scid": "sn4.5:2.4",
+            "pli": "Mā ekena dve agamittha. ",
+            "en": "Let <span class=\"ebt-matched\">not two go by one road</span>. ",
+            "matched": true
+          }
+        },
+        "score": 1.038,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 4.5\n1. Life Span\nMāra’s Snares (2nd)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 26,
+          "en": 26
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn4/sn4.5_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn4/sn4.5_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn4/sn4.5_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

@@ -31,7 +31,7 @@
     "pattern": "sick, suffering, gravely ill",
     "method": "phrase",
     "resultPattern": "\\bsick, suffering, gravely ill",
-    "segsMatched": 55,
+    "segsMatched": 60,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn97_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn97_translation-en-sujato.json",
@@ -51,12 +51,20 @@
       "translation/en/sujato/sutta/sn/sn47/sn47.29_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn22/sn22.88_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.88_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn22/sn22.88_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn22/sn22.87_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.87_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn22/sn22.87_translation-en-davis.json",
       "root/pli/ms/sutta/mn/mn82_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn82_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.60_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an10/an10.60_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.88_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.88_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn22/sn22.88_translation-en-davis.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.87_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.87_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn22/sn22.87_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn6/sn6.9_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn6/sn6.9_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn52/sn52.10_root-pli-ms.json",
@@ -65,6 +73,7 @@
       "translation/en/sujato/sutta/sn/sn47/sn47.30_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn47/sn47.13_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn47/sn47.13_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn47/sn47.13_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn46/sn46.16_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn46/sn46.16_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn46/sn46.15_root-pli-ms.json",
@@ -106,7 +115,10 @@
       "root/pli/ms/sutta/an/an5/an5.162_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an5/an5.162_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.36_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an3/an3.36_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an3/an3.36_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn47/sn47.13_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn47/sn47.13_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn47/sn47.13_translation-en-davis.json"
     ],
     "suttaRefs": [
       "mn97/en/sujato",
@@ -121,6 +133,8 @@
       "sn22.87/en/sujato",
       "mn82/en/sujato",
       "an10.60/en/sujato",
+      "sn22.88/en/davis",
+      "sn22.87/en/davis",
       "sn6.9/en/sujato",
       "sn52.10/en/sujato",
       "sn47.30/en/sujato",
@@ -145,7 +159,8 @@
       "an6.16/en/sujato",
       "an5.194/en/sujato",
       "an5.162/en/sujato",
-      "an3.36/en/sujato"
+      "an3.36/en/sujato",
+      "sn47.13/en/davis"
     ],
     "mlDocs": [
       {
@@ -397,7 +412,44 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn22/sn22.88_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn22/sn22.88_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn22/sn22.88_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn22/sn22.88_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.88",
+        "lang": "en",
+        "segMap": {
+          "sn22.88:1.2": {
+            "scid": "sn22.88:1.2",
+            "pli": "Tena kho pana samayena āyasmā assaji kassapakārāme viharati ābādhiko dukkhito bāḷhagilāno. ",
+            "en": "Now at that time Venerable Assaji was staying in a monastery built by a Kassapa, and he was <span class=\"ebt-matched\">sick, suffering, gravely ill</span>. ",
+            "matched": true
+          },
+          "sn22.88:1.5": {
+            "scid": "sn22.88:1.5",
+            "pli": "‘assaji, bhante, bhikkhu ābādhiko dukkhito bāḷhagilāno. ",
+            "en": "‘Sir, the mendicant Assaji is <span class=\"ebt-matched\">sick, suffering, gravely ill</span>. ",
+            "matched": true
+          }
+        },
+        "score": 2.037,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 22.88\n9. Senior Mendicants\nWith Assaji",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 54,
+          "en": 53
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.88_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.88_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn22/sn22.88_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
@@ -537,7 +589,44 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn22/sn22.87_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn22/sn22.87_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn22/sn22.87_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn22/sn22.87_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.87",
+        "lang": "en",
+        "segMap": {
+          "sn22.87:1.2": {
+            "scid": "sn22.87:1.2",
+            "pli": "Tena kho pana samayena āyasmā vakkali kumbhakāranivesane viharati ābādhiko dukkhito bāḷhagilāno. ",
+            "en": "Now at that time Venerable Vakkali was staying in a potter’s shed, and he was <span class=\"ebt-matched\">sick, suffering, gravely ill</span>. ",
+            "matched": true
+          },
+          "sn22.87:8.15": {
+            "scid": "sn22.87:8.15",
+            "pli": "‘vakkali, bhante, bhikkhu ābādhiko dukkhito bāḷhagilāno. ",
+            "en": "‘Sir, the mendicant Vakkali is <span class=\"ebt-matched\">sick, suffering, gravely ill</span>. ",
+            "matched": true
+          }
+        },
+        "score": 2.014,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 22.87\n9. Senior Mendicants\nWith Vakkali",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 144,
+          "en": 143
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.87_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.87_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn22/sn22.87_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
@@ -839,7 +928,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn47/sn47.13_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn47/sn47.13_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn47/sn47.13_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn47/sn47.13_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn47.13",
+        "lang": "en",
+        "segMap": {
+          "sn47.13:1.2": {
+            "scid": "sn47.13:1.2",
+            "pli": "Tena kho pana samayena āyasmā sāriputto magadhesu viharati nālakagāmake ābādhiko dukkhito bāḷhagilāno. ",
+            "en": "At that time Venerable Sāriputta was staying in the Magadhan lands near the little village of Nālaka, and he was <span class=\"ebt-matched\">sick, suffering, gravely ill</span>. ",
+            "matched": true
+          }
+        },
+        "score": 1.024,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 47.13\n2. At Nāḷandā\nWith Cunda",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 42,
+          "en": 41
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn47/sn47.13_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn47/sn47.13_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn47/sn47.13_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

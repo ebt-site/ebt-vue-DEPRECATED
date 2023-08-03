@@ -31,10 +31,11 @@
     "pattern": "like a monkey",
     "method": "phrase",
     "resultPattern": "\\blike a monkey",
-    "segsMatched": 7,
+    "segsMatched": 8,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn12/sn12.61_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn12/sn12.61_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn12/sn12.61_translation-en-davis.json",
       "root/pli/ms/sutta/kn/thag/thag6.5_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thag/thag6.5_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag6.14_root-pli-ms.json",
@@ -46,7 +47,10 @@
       "root/pli/ms/sutta/kn/snp/vagga4/snp4.4_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/snp/vagga4/snp4.4_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/dhp/dhp334-359_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/dhp/dhp334-359_translation-en-sujato.json"
+      "translation/en/sujato/sutta/kn/dhp/dhp334-359_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn12/sn12.61_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.61_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn12/sn12.61_translation-en-davis.json"
     ],
     "suttaRefs": [
       "sn12.61/en/sujato",
@@ -55,7 +59,8 @@
       "thag19.1/en/sujato",
       "thag18.1/en/sujato",
       "snp4.4/en/sujato",
-      "dhp334-359/en/sujato"
+      "dhp334-359/en/sujato",
+      "sn12.61/en/davis"
     ],
     "mlDocs": [
       {
@@ -90,7 +95,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn12/sn12.61_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn12/sn12.61_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn12/sn12.61_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn12/sn12.61_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn12.61",
+        "lang": "en",
+        "segMap": {
+          "sn12.61:4.2": {
+            "scid": "sn12.61:4.2",
+            "pli": "Seyyathāpi, bhikkhave, makkaṭo araññe pavane caramāno sākhaṁ gaṇhati, taṁ muñcitvā aññaṁ gaṇhati, taṁ muñcitvā aññaṁ gaṇhati; ",
+            "en": "It’s <span class=\"ebt-matched\">like a monkey</span> moving through the forest. It grabs hold of one branch, lets it go, and grabs another; then it lets that go and grabs yet another. ",
+            "matched": true
+          }
+        },
+        "score": 1.03,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 12.61\n7. The Great Chapter\nUnlearned",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 33,
+          "en": 32
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn12/sn12.61_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn12/sn12.61_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn12/sn12.61_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

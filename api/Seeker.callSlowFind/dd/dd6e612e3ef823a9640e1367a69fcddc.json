@@ -31,10 +31,14 @@
     "pattern": "best of intentions",
     "method": "phrase",
     "resultPattern": "\\bbest of intentions",
-    "segsMatched": 4,
+    "segsMatched": 6,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn3/sn3.21_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn3/sn3.21_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn3/sn3.21_translation-en-davis.json",
+      "root/pli/ms/sutta/sn/sn3/sn3.21_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn3/sn3.21_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn3/sn3.21_translation-en-davis.json",
       "root/pli/ms/sutta/an/an3/an3.30_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an3/an3.30_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.29_root-pli-ms.json",
@@ -42,6 +46,7 @@
     ],
     "suttaRefs": [
       "sn3.21/en/sujato",
+      "sn3.21/en/davis",
       "an3.30/en/sujato",
       "an3.29/en/sujato"
     ],
@@ -49,7 +54,44 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn3/sn3.21_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn3/sn3.21_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn3/sn3.21_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn3/sn3.21_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn3.21",
+        "lang": "en",
+        "segMap": {
+          "sn3.21:13.3": {
+            "scid": "sn3.21:13.3",
+            "pli": "Dadāti seṭṭhasaṅkappo, ",
+            "en": "They give with <span class=\"ebt-matched\">best of intentions</span>, ",
+            "matched": true
+          },
+          "sn3.21:19.3": {
+            "scid": "sn3.21:19.3",
+            "pli": "Dadāti seṭṭhasaṅkappo, ",
+            "en": "They give with <span class=\"ebt-matched\">best of intentions</span>, ",
+            "matched": true
+          }
+        },
+        "score": 2.02,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 3.21\n3. Kosala\nPersons",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 101,
+          "en": 101
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn3/sn3.21_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn3/sn3.21_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn3/sn3.21_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

@@ -31,10 +31,14 @@
     "pattern": "good friends, companions, and associates",
     "method": "phrase",
     "resultPattern": "\\bgood friends, companions, and associates",
-    "segsMatched": 42,
+    "segsMatched": 49,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn3/sn3.18_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn3/sn3.18_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn3/sn3.18_translation-en-davis.json",
+      "root/pli/ms/sutta/sn/sn3/sn3.18_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn3/sn3.18_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn3/sn3.18_translation-en-davis.json",
       "root/pli/ms/sutta/kn/ud/vagga4/ud4.1_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/ud/vagga4/ud4.1_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an9/an9.3_root-pli-ms.json",
@@ -51,6 +55,7 @@
       "translation/en/sujato/sutta/an/an8/an8.54_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn3/sn3.14_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn3/sn3.14_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn3/sn3.14_translation-en-davis.json",
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
@@ -70,10 +75,14 @@
       "root/pli/ms/sutta/an/an10/an10.18_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an10/an10.18_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.17_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an10/an10.17_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an10/an10.17_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn3/sn3.14_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn3/sn3.14_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn3/sn3.14_translation-en-davis.json"
     ],
     "suttaRefs": [
       "sn3.18/en/sujato",
+      "sn3.18/en/davis",
       "ud4.1/en/sujato",
       "an9.3/en/sujato",
       "an9.1/en/sujato",
@@ -91,13 +100,75 @@
       "an10.97/en/sujato",
       "an10.50/en/sujato",
       "an10.18/en/sujato",
-      "an10.17/en/sujato"
+      "an10.17/en/sujato",
+      "sn3.14/en/davis"
     ],
     "mlDocs": [
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn3/sn3.18_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn3/sn3.18_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn3/sn3.18_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn3/sn3.18_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn3.18",
+        "lang": "en",
+        "segMap": {
+          "sn3.18:1.4": {
+            "scid": "sn3.18:1.4",
+            "pli": "‘svākkhāto bhagavatā dhammo, so ca kho kalyāṇamittassa kalyāṇasahāyassa kalyāṇasampavaṅkassa, no pāpamittassa no pāpasahāyassa no pāpasampavaṅkassā’”ti. ",
+            "en": "‘The teaching is well explained by the Buddha. But it’s for someone with <span class=\"ebt-matched\">good friends, companions, and associates</span>, not for someone with bad friends, companions, and associates.’” ",
+            "matched": true
+          },
+          "sn3.18:3.3": {
+            "scid": "sn3.18:3.3",
+            "pli": "‘upaḍḍhamidaṁ, bhante, brahmacariyassa—yadidaṁ kalyāṇamittatā kalyāṇasahāyatā kalyāṇasampavaṅkatā’ti. ",
+            "en": "‘Sir, <span class=\"ebt-matched\">good friends, companions, and associates</span> are half the spiritual life.’ ",
+            "matched": true
+          },
+          "sn3.18:4.3": {
+            "scid": "sn3.18:4.3",
+            "pli": "Sakalameva hidaṁ, ānanda, brahmacariyaṁ—yadidaṁ kalyāṇamittatā kalyāṇasahāyatā kalyāṇasampavaṅkatā. ",
+            "en": "<span class=\"ebt-matched\">Good friends, companions, and associates</span> are the whole of the spiritual life. ",
+            "matched": true
+          },
+          "sn3.18:4.4": {
+            "scid": "sn3.18:4.4",
+            "pli": "Kalyāṇamittassetaṁ, ānanda, bhikkhuno pāṭikaṅkhaṁ kalyāṇasahāyassa kalyāṇasampavaṅkassa ariyaṁ aṭṭhaṅgikaṁ maggaṁ bhāvessati ariyaṁ aṭṭhaṅgikaṁ maggaṁ bahulīkarissati. ",
+            "en": "A mendicant with <span class=\"ebt-matched\">good friends, companions, and associates</span> can expect to develop and cultivate the noble eightfold path. ",
+            "matched": true
+          },
+          "sn3.18:7.2": {
+            "scid": "sn3.18:7.2",
+            "pli": "‘kalyāṇamitto bhavissāmi kalyāṇasahāyo kalyāṇasampavaṅko’ti. ",
+            "en": "‘I will have <span class=\"ebt-matched\">good friends, companions, and associates</span>.’ ",
+            "matched": true
+          },
+          "sn3.18:8.1": {
+            "scid": "sn3.18:8.1",
+            "pli": "Kalyāṇamittassa te, mahārāja, kalyāṇasahāyassa kalyāṇasampavaṅkassa ayaṁ eko dhammo upanissāya vihātabbo—",
+            "en": "When you have <span class=\"ebt-matched\">good friends, companions, and associates</span>, you should live supported by one thing: ",
+            "matched": true
+          }
+        },
+        "score": 6.115,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 3.18\n2. Childless\nGood Friends",
+        "segsMatched": 6,
+        "langSegs": {
+          "pli": 52,
+          "en": 52
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn3/sn3.18_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn3/sn3.18_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn3/sn3.18_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
@@ -525,7 +596,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn3/sn3.14_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn3/sn3.14_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn3/sn3.14_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn3/sn3.14_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn3.14",
+        "lang": "en",
+        "segMap": {
+          "sn3.14:4.2": {
+            "scid": "sn3.14:4.2",
+            "pli": "rājā ca kho, bhikkhave, pasenadi kosalo kalyāṇamitto kalyāṇasahāyo kalyāṇasampavaṅko. ",
+            "en": "But King Pasenadi has <span class=\"ebt-matched\">good friends, companions, and associates</span>. ",
+            "matched": true
+          }
+        },
+        "score": 1.036,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 3.14\n2. Childless\nBattle (1st)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 28,
+          "en": 28
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn3/sn3.14_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn3/sn3.14_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn3/sn3.14_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

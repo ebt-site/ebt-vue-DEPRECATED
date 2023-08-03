@@ -31,7 +31,7 @@
     "pattern": "rafter",
     "method": "phrase",
     "resultPattern": "\\brafter",
-    "segsMatched": 19,
+    "segsMatched": 20,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn48/sn48.52_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn48/sn48.52_translation-en-sujato.json",
@@ -45,6 +45,7 @@
       "translation/en/sujato/sutta/sn/sn45/sn45.141-145_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn22/sn22.102_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.102_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn22/sn22.102_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn20/sn20.1_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn20/sn20.1_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
@@ -66,7 +67,10 @@
       "translation/en/sujato/sutta/an/an10/an10.15_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/dhp/dhp146-156_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/dhp/dhp146-156_translation-en-sujato.json",
-      "translation/en/suddhaso/sutta/kn/dhp/dhp146-156_translation-en-suddhaso.json"
+      "translation/en/suddhaso/sutta/kn/dhp/dhp146-156_translation-en-suddhaso.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.102_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.102_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn22/sn22.102_translation-en-davis.json"
     ],
     "suttaRefs": [
       "sn48.52/en/sujato",
@@ -84,7 +88,8 @@
       "dhp146-156/en/sujato",
       "an6.53/en/sujato",
       "an10.15/en/sujato",
-      "dhp146-156/en/suddhaso"
+      "dhp146-156/en/suddhaso",
+      "sn22.102/en/davis"
     ],
     "mlDocs": [
       {
@@ -369,7 +374,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn22/sn22.102_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn22/sn22.102_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn22/sn22.102_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn22/sn22.102_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.102",
+        "lang": "en",
+        "segMap": {
+          "sn22.102:5.1": {
+            "scid": "sn22.102:5.1",
+            "pli": "Seyyathāpi, bhikkhave, kūṭāgārassa yā kāci gopānasiyo sabbā tā kūṭaṅgamā kūṭaninnā kūṭasamosaraṇā, kūṭaṁ tāsaṁ aggamakkhāyati; ",
+            "en": "The <span class=\"ebt-matched\">rafter</span>s of a bungalow all lean to the peak, slope to the peak, and meet at the peak, so the peak is said to be the topmost of them all. ",
+            "matched": true
+          }
+        },
+        "score": 1.022,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 22.102\n10. Flowers\nThe Perception of Impermanence",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 45,
+          "en": 42
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.102_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.102_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn22/sn22.102_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

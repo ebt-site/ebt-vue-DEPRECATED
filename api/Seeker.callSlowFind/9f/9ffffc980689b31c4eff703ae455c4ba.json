@@ -31,7 +31,7 @@
     "pattern": "a raft",
     "method": "phrase",
     "resultPattern": "\\ba raft",
-    "segsMatched": 12,
+    "segsMatched": 13,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn22_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn22_translation-en-sujato.json",
@@ -44,7 +44,11 @@
       "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn35/sn35.238_root-pli-ms.json",
-      "translation/en/sujato/sutta/sn/sn35/sn35.238_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn35/sn35.238_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn35/sn35.238_translation-en-davis.json",
+      "root/pli/ms/sutta/sn/sn35/sn35.238_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.238_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn35/sn35.238_translation-en-davis.json"
     ],
     "suttaRefs": [
       "mn22/en/sujato",
@@ -52,7 +56,8 @@
       "ud8.6/en/sujato",
       "snp1.2/en/sujato",
       "dn16/en/sujato",
-      "sn35.238/en/sujato"
+      "sn35.238/en/sujato",
+      "sn35.238/en/davis"
     ],
     "mlDocs": [
       {
@@ -239,7 +244,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn35/sn35.238_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn35/sn35.238_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn35/sn35.238_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn35/sn35.238_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn35.238",
+        "lang": "en",
+        "segMap": {
+          "sn35.238:5.6": {
+            "scid": "sn35.238:5.6",
+            "pli": "Yannūnāhaṁ tiṇakaṭṭhasākhāpalāsaṁ saṅkaḍḍhitvā kullaṁ bandhitvā taṁ kullaṁ nissāya hatthehi ca pādehi ca vāyamamāno sotthinā pāraṁ gaccheyyan’ti. ",
+            "en": "‘Why don’t I gather grass, sticks, branches, and leaves and make <span class=\"ebt-matched\">a raft</span>? Riding on the raft, and paddling with my hands and feet, I can safely reach the far shore.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.017,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 35.238\n19. The Simile of the Vipers\nThe Simile of the Vipers",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 58,
+          "en": 57
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn35/sn35.238_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn35/sn35.238_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn35/sn35.238_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

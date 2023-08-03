@@ -31,7 +31,7 @@
     "pattern": "freed by wisdom",
     "method": "phrase",
     "resultPattern": "\\bfreed by wisdom",
-    "segsMatched": 45,
+    "segsMatched": 47,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn106_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn106_translation-en-sujato.json",
@@ -49,12 +49,16 @@
       "translation/en/sujato/sutta/an/an10/an10.20_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn12/sn12.70_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn12/sn12.70_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn12/sn12.70_translation-en-davis.json",
       "root/pli/ms/sutta/mn/mn65_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn65_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an7/an7.56_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an7/an7.56_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an2/an2.42-51_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an2/an2.42-51_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn12/sn12.70_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.70_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn12/sn12.70_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn8/sn8.7_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn8/sn8.7_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/snp/vagga4/snp4.9_root-pli-ms.json",
@@ -84,6 +88,7 @@
       "mn65/en/sujato",
       "an7.56/en/sujato",
       "an2.42-51/en/sujato",
+      "sn12.70/en/davis",
       "sn8.7/en/sujato",
       "snp4.9/en/sujato",
       "dn28/en/sujato",
@@ -502,7 +507,44 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn12/sn12.70_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn12/sn12.70_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn12/sn12.70_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn12/sn12.70_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn12.70",
+        "lang": "en",
+        "segMap": {
+          "sn12.70:11.2": {
+            "scid": "sn12.70:11.2",
+            "pli": "“Paññāvimuttā kho mayaṁ, āvuso susimā”ti. ",
+            "en": "“Reverend Susīma, we are <span class=\"ebt-matched\">freed by wisdom</span>.” ",
+            "matched": true
+          },
+          "sn12.70:12.3": {
+            "scid": "sn12.70:12.3",
+            "pli": "“Ājāneyyāsi vā tvaṁ, āvuso susima, na vā tvaṁ ājāneyyāsi atha kho paññāvimuttā mayan”ti. ",
+            "en": "“Reverend Susīma, whether you understand or not, we are <span class=\"ebt-matched\">freed by wisdom</span>.” ",
+            "matched": true
+          }
+        },
+        "score": 2.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 12.70\n7. The Great Chapter\nThe Wanderer Susīma",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 180,
+          "en": 176
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn12/sn12.70_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn12/sn12.70_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn12/sn12.70_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

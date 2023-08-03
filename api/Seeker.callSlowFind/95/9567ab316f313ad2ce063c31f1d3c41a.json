@@ -31,10 +31,11 @@
     "pattern": "thriving underwater",
     "method": "phrase",
     "resultPattern": "\\bthriving underwater",
-    "segsMatched": 10,
+    "segsMatched": 11,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn6/sn6.1_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn6/sn6.1_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn6/sn6.1_translation-en-davis.json",
       "root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn85_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn77_root-pli-ms.json",
@@ -52,7 +53,10 @@
       "root/pli/ms/sutta/dn/dn10_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn10_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.28_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an5/an5.28_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an5/an5.28_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn6/sn6.1_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn6/sn6.1_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn6/sn6.1_translation-en-davis.json"
     ],
     "suttaRefs": [
       "sn6.1/en/sujato",
@@ -64,13 +68,45 @@
       "dn2/en/sujato",
       "dn14/en/sujato",
       "dn10/en/sujato",
-      "an5.28/en/sujato"
+      "an5.28/en/sujato",
+      "sn6.1/en/davis"
     ],
     "mlDocs": [
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn6/sn6.1_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn6/sn6.1_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn6/sn6.1_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn6/sn6.1_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn6.1",
+        "lang": "en",
+        "segMap": {
+          "sn6.1:9.3": {
+            "scid": "sn6.1:9.3",
+            "pli": "Seyyathāpi nāma uppaliniyaṁ vā paduminiyaṁ vā puṇḍarīkiniyaṁ vā appekaccāni uppalāni vā padumāni vā puṇḍarīkāni vā udake jātāni udake saṁvaḍḍhāni udakānuggatāni anto nimuggaposīni, appekaccāni uppalāni vā padumāni vā puṇḍarīkāni vā udake jātāni udake saṁvaḍḍhāni samodakaṁ ṭhitāni, appekaccāni uppalāni vā padumāni vā puṇḍarīkāni vā udake jātāni udake saṁvaḍḍhāni udakā accuggamma ṭhitāni anupalittāni udakena; ",
+            "en": "It’s like a pool with blue water lilies, or pink or white lotuses. Some of them sprout and grow in the water without rising above it, <span class=\"ebt-matched\">thriving underwater</span>. Some of them sprout and grow in the water reaching the water’s surface. And some of them sprout and grow in the water but rise up above the water and stand with no water clinging to them. ",
+            "matched": true
+          }
+        },
+        "score": 1.019,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 6.1\n1. The Appeal\nThe Appeal of Brahmā",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 53,
+          "en": 53
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn6/sn6.1_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn6/sn6.1_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn6/sn6.1_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

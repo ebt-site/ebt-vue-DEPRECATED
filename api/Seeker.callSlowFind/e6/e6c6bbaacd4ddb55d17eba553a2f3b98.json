@@ -31,16 +31,21 @@
     "pattern": "capable of understanding the teaching",
     "method": "phrase",
     "resultPattern": "\\bcapable of understanding the teaching",
-    "segsMatched": 4,
+    "segsMatched": 6,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn22/sn22.90_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.90_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn22/sn22.90_translation-en-davis.json",
       "root/pli/ms/sutta/kn/ud/vagga5/ud5.3_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/ud/vagga5/ud5.3_translation-en-sujato.json"
+      "translation/en/sujato/sutta/kn/ud/vagga5/ud5.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.90_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.90_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn22/sn22.90_translation-en-davis.json"
     ],
     "suttaRefs": [
       "sn22.90/en/sujato",
-      "ud5.3/en/sujato"
+      "ud5.3/en/sujato",
+      "sn22.90/en/davis"
     ],
     "mlDocs": [
       {
@@ -81,7 +86,44 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn22/sn22.90_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn22/sn22.90_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn22/sn22.90_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn22/sn22.90_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.90",
+        "lang": "en",
+        "segMap": {
+          "sn22.90:8.3": {
+            "scid": "sn22.90:8.3",
+            "pli": "bhabbosi dhammaṁ viññātun”ti. ",
+            "en": "You are <span class=\"ebt-matched\">capable of understanding the teaching</span>.” ",
+            "matched": true
+          },
+          "sn22.90:8.5": {
+            "scid": "sn22.90:8.5",
+            "pli": "“bhabbo kirasmi dhammaṁ viññātun”ti. ",
+            "en": "“It seems I’m <span class=\"ebt-matched\">capable of understanding the teaching</span>!” ",
+            "matched": true
+          }
+        },
+        "score": 2.02,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 22.90\n9. Senior Mendicants\nWith Channa",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 100,
+          "en": 99
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.90_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.90_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn22/sn22.90_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

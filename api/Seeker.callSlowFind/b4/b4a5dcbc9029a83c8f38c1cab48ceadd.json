@@ -31,7 +31,7 @@
     "pattern": "term for sensual pleasures",
     "method": "phrase",
     "resultPattern": "\\bterm for sensual pleasures",
-    "segsMatched": 9,
+    "segsMatched": 10,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an8/an8.56_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an8/an8.56_translation-en-sujato.json",
@@ -39,14 +39,19 @@
       "translation/en/sujato/sutta/an/an6/an6.23_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn22/sn22.84_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.84_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn22/sn22.84_translation-en-davis.json",
       "root/pli/ms/sutta/mn/mn19_root-pli-ms.json",
-      "translation/en/sujato/sutta/mn/mn19_translation-en-sujato.json"
+      "translation/en/sujato/sutta/mn/mn19_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.84_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.84_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn22/sn22.84_translation-en-davis.json"
     ],
     "suttaRefs": [
       "an8.56/en/sujato",
       "an6.23/en/sujato",
       "sn22.84/en/sujato",
-      "mn19/en/sujato"
+      "mn19/en/sujato",
+      "sn22.84/en/davis"
     ],
     "mlDocs": [
       {
@@ -140,7 +145,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn22/sn22.84_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn22/sn22.84_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn22/sn22.84_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn22/sn22.84_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.84",
+        "lang": "en",
+        "segMap": {
+          "sn22.84:10.11": {
+            "scid": "sn22.84:10.11",
+            "pli": "‘Mahantaṁ ninnaṁ pallalan’ti kho, tissa, kāmānametaṁ adhivacanaṁ. ",
+            "en": "‘An expanse of low-lying marshes’ is a <span class=\"ebt-matched\">term for sensual pleasures</span>. ",
+            "matched": true
+          }
+        },
+        "score": 1.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 22.84\n9. Senior Mendicants\nWith Tissa",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 93,
+          "en": 82
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.84_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.84_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn22/sn22.84_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

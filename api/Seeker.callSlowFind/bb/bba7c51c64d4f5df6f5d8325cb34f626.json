@@ -31,7 +31,7 @@
     "pattern": "sorrow and wail",
     "method": "phrase",
     "resultPattern": "\\bsorrow and wail",
-    "segsMatched": 49,
+    "segsMatched": 51,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an5/an5.50_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an5/an5.50_translation-en-sujato.json",
@@ -47,6 +47,7 @@
       "translation/en/sujato/sutta/an/an8/an8.61_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn36/sn36.6_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn36/sn36.6_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn36/sn36.6_translation-en-davis.json",
       "root/pli/ms/sutta/mn/mn14_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn14_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn148_root-pli-ms.json",
@@ -55,6 +56,9 @@
       "translation/en/sujato/sutta/mn/mn13_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn129_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn129_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn36/sn36.6_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn36/sn36.6_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn36/sn36.6_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn36/sn36.4_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn36/sn36.4_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn36_root-pli-ms.json",
@@ -74,6 +78,7 @@
       "mn148/en/sujato",
       "mn13/en/sujato",
       "mn129/en/sujato",
+      "sn36.6/en/davis",
       "sn36.4/en/sujato",
       "mn36/en/sujato",
       "an4.192/en/sujato"
@@ -436,7 +441,44 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn36/sn36.6_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn36/sn36.6_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn36/sn36.6_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn36/sn36.6_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn36.6",
+        "lang": "en",
+        "segMap": {
+          "sn36.6:1.5": {
+            "scid": "sn36.6:1.5",
+            "pli": "assutavā, bhikkhave, puthujjano dukkhāya vedanāya phuṭṭho samāno socati kilamati paridevati urattāḷiṁ kandati sammohaṁ āpajjati. ",
+            "en": "“When an unlearned ordinary person experiences painful physical feelings they <span class=\"ebt-matched\">sorrow and wail</span> and lament, beating their breast and falling into confusion. ",
+            "matched": true
+          },
+          "sn36.6:1.11": {
+            "scid": "sn36.6:1.11",
+            "pli": "Evameva kho, bhikkhave, assutavā puthujjano dukkhāya vedanāya phuṭṭho samāno socati kilamati paridevati urattāḷiṁ kandati sammohaṁ āpajjati. ",
+            "en": "In the same way, when an unlearned ordinary person experiences painful physical feelings they <span class=\"ebt-matched\">sorrow and wail</span> and lament, beating their breast and falling into confusion. ",
+            "matched": true
+          }
+        },
+        "score": 2.032,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 36.6\n1. With Verses\nAn Arrow",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 63,
+          "en": 62
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn36/sn36.6_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn36/sn36.6_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn36/sn36.6_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

@@ -31,17 +31,22 @@
     "pattern": "womanhood",
     "method": "phrase",
     "resultPattern": "\\bwomanhood",
-    "segsMatched": 2,
+    "segsMatched": 3,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn5/sn5.2_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn5/sn5.2_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn5/sn5.2_translation-en-davis.json",
       "root/pli/ms/sutta/kn/thig/thig3.8_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thig/thig3.8_translation-en-sujato.json",
-      "translation/en/soma/sutta/kn/thig/thig3.8_translation-en-soma.json"
+      "translation/en/soma/sutta/kn/thig/thig3.8_translation-en-soma.json",
+      "root/pli/ms/sutta/sn/sn5/sn5.2_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn5/sn5.2_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn5/sn5.2_translation-en-davis.json"
     ],
     "suttaRefs": [
       "sn5.2/en/sujato",
-      "thig3.8/en/sujato"
+      "thig3.8/en/sujato",
+      "sn5.2/en/davis"
     ],
     "mlDocs": [
       {
@@ -77,7 +82,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn5/sn5.2_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn5/sn5.2_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn5/sn5.2_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn5/sn5.2_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn5.2",
+        "lang": "en",
+        "segMap": {
+          "sn5.2:4.1": {
+            "scid": "sn5.2:4.1",
+            "pli": "“Itthibhāvo kiṁ kayirā, ",
+            "en": "“What difference does <span class=\"ebt-matched\">womanhood</span> make ",
+            "matched": true
+          }
+        },
+        "score": 1.038,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 5.2\n1. Nuns\nWith Somā",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 26,
+          "en": 26
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn5/sn5.2_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn5/sn5.2_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn5/sn5.2_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

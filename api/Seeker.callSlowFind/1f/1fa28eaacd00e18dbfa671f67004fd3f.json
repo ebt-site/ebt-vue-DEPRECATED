@@ -31,7 +31,7 @@
     "pattern": "loved one",
     "method": "phrase",
     "resultPattern": "\\bloved one",
-    "segsMatched": 34,
+    "segsMatched": 35,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn87_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn87_translation-en-sujato.json",
@@ -39,6 +39,7 @@
       "translation/en/sujato/sutta/kn/ud/vagga8/ud8.8_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn3/sn3.4_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn3/sn3.4_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn3/sn3.4_translation-en-davis.json",
       "root/pli/ms/sutta/mn/mn56_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn56_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag19.1_root-pli-ms.json",
@@ -60,7 +61,10 @@
       "root/pli/ms/sutta/an/an5/an5.30_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an5/an5.30_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.193_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an4/an4.193_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an4/an4.193_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn3/sn3.4_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn3/sn3.4_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn3/sn3.4_translation-en-davis.json"
     ],
     "suttaRefs": [
       "mn87/en/sujato",
@@ -76,7 +80,8 @@
       "an8.44/en/sujato",
       "an7.64/en/sujato",
       "an5.30/en/sujato",
-      "an4.193/en/sujato"
+      "an4.193/en/sujato",
+      "sn3.4/en/davis"
     ],
     "mlDocs": [
       {
@@ -347,7 +352,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn3/sn3.4_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn3/sn3.4_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn3/sn3.4_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn3/sn3.4_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn3.4",
+        "lang": "en",
+        "segMap": {
+          "sn3.4:1.18": {
+            "scid": "sn3.4:1.18",
+            "pli": "Yañhi piyo piyassa kareyya, taṁ te attanāva attano karonti; ",
+            "en": "It’s because they treat themselves like a <span class=\"ebt-matched\">loved one</span>. ",
+            "matched": true
+          }
+        },
+        "score": 1.017,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 3.4\n1. Shackles\nLoved",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 59,
+          "en": 59
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn3/sn3.4_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn3/sn3.4_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn3/sn3.4_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

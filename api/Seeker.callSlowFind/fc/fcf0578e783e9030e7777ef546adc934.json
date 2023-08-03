@@ -31,7 +31,7 @@
     "pattern": "go mad",
     "method": "phrase",
     "resultPattern": "\\bgo mad",
-    "segsMatched": 6,
+    "segsMatched": 7,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an4/an4.77_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an4/an4.77_translation-en-sujato.json",
@@ -39,14 +39,19 @@
       "translation/en/sujato/sutta/an/an11/an11.6_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn4/sn4.25_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn4/sn4.25_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn4/sn4.25_translation-en-davis.json",
       "root/pli/ms/sutta/an/an10/an10.88_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an10/an10.88_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an10/an10.88_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn4/sn4.25_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn4/sn4.25_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn4/sn4.25_translation-en-davis.json"
     ],
     "suttaRefs": [
       "an4.77/en/sujato",
       "an11.6/en/sujato",
       "sn4.25/en/sujato",
-      "an10.88/en/sujato"
+      "an10.88/en/sujato",
+      "sn4.25/en/davis"
     ],
     "mlDocs": [
       {
@@ -151,7 +156,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn4/sn4.25_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn4/sn4.25_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn4/sn4.25_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn4/sn4.25_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn4.25",
+        "lang": "en",
+        "segMap": {
+          "sn4.25:11.1": {
+            "scid": "sn4.25:11.1",
+            "pli": "Yañhi mayaṁ samaṇaṁ vā brāhmaṇaṁ vā avītarāgaṁ iminā upakkamena upakkameyyāma hadayaṁ vāssa phaleyya, uṇhaṁ lohitaṁ vā mukhato uggaccheyya, ummādaṁ vā pāpuṇeyya cittakkhepaṁ vā. ",
+            "en": "For if we had come on to any ascetic or brahmin like this who was not free of lust, his heart would explode, or he’d spew hot blood from his mouth, or he’d <span class=\"ebt-matched\">go mad</span> and lose his mind. ",
+            "matched": true
+          }
+        },
+        "score": 1.009,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 4.25\n3. Māra\nMāra’s Daughters",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 116,
+          "en": 115
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn4/sn4.25_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn4/sn4.25_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn4/sn4.25_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

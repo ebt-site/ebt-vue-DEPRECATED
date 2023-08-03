@@ -31,7 +31,7 @@
     "pattern": "live for",
     "method": "phrase",
     "resultPattern": "\\blive for",
-    "segsMatched": 48,
+    "segsMatched": 49,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
@@ -53,10 +53,14 @@
       "translation/en/sujato/sutta/sn/sn48/sn48.41_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn46/sn46.6_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn46/sn46.6_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn46/sn46.6_translation-en-davis.json",
       "root/pli/ms/sutta/kn/thag/thag18.1_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thag/thag18.1_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn30_root-pli-ms.json",
-      "translation/en/sujato/sutta/dn/dn30_translation-en-sujato.json"
+      "translation/en/sujato/sutta/dn/dn30_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn46/sn46.6_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn46/sn46.6_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn46/sn46.6_translation-en-davis.json"
     ],
     "suttaRefs": [
       "dn16/en/sujato",
@@ -70,7 +74,8 @@
       "sn48.41/en/sujato",
       "sn46.6/en/sujato",
       "thag18.1/en/sujato",
-      "dn30/en/sujato"
+      "dn30/en/sujato",
+      "sn46.6/en/davis"
     ],
     "mlDocs": [
       {
@@ -553,7 +558,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn46/sn46.6_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn46/sn46.6_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn46/sn46.6_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn46/sn46.6_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn46.6",
+        "lang": "en",
+        "segMap": {
+          "sn46.6:1.8": {
+            "scid": "sn46.6:1.8",
+            "pli": "‘bhavaṁ pana gotamo kimānisaṁso viharatī’”ti? ",
+            "en": "But what benefit does Master Gotama <span class=\"ebt-matched\">live for</span>?” ",
+            "matched": true
+          }
+        },
+        "score": 1.017,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 46.6\n1. Mountains\nKuṇḍaliya",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 59,
+          "en": 58
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn46/sn46.6_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn46/sn46.6_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn46/sn46.6_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

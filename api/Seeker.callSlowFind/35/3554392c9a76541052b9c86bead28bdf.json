@@ -32,7 +32,7 @@
     "pattern": "rad-drehend.* herrscher",
     "method": "phrase",
     "resultPattern": "\\brad-drehend.* herrscher",
-    "segsMatched": 127,
+    "segsMatched": 128,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn26_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn26_translation-de-sabbamitta.json",
@@ -118,6 +118,7 @@
       "root/pli/ms/sutta/sn/sn22/sn22.102_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.102_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.102_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn22/sn22.102_translation-en-davis.json",
       "root/pli/ms/sutta/kn/thag/thag21.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag21.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag21.1_translation-en-sujato.json",
@@ -127,6 +128,9 @@
       "root/pli/ms/sutta/kn/iti/vagga3/iti22_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/iti/vagga3/iti22_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/iti/vagga3/iti22_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/cp/cp4_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/cp/cp4_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/cp/cp4_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn3_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn3_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn3_translation-en-sujato.json",
@@ -175,6 +179,7 @@
       "thag21.1/de/sabbamitta",
       "kp8/de/sabbamitta",
       "iti22/de/sabbamitta",
+      "cp4/de/sabbamitta",
       "dn3/de/sabbamitta",
       "an7.66/de/sabbamitta",
       "an6.53/de/sabbamitta",
@@ -1813,9 +1818,42 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/kn/cp/cp4_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/cp/cp4_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/cp/cp4_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "cp4",
+        "lang": "de",
+        "segMap": {
+          "cp4:1.4": {
+            "scid": "cp4:1.4",
+            "pli": "cakkavattī mahabbalo. ",
+            "de": "ein <span class=\"ebt-matched\">Rad-drehender Herrscher</span> von großer Macht. ",
+            "en": "a wheel-turning monarch of great power. ",
+            "matched": true
+          }
+        },
+        "score": 1.023,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Korb des Verhaltens 4\nDas Kapitel mit Akitti\nDie Vollkommenheit des Gebens (4)\nMahāsudassanas Verhalten",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 43,
+          "de": 42,
+          "en": 36
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn22/sn22.102_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/sn/sn22/sn22.102_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/sn/sn22/sn22.102_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn22/sn22.102_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn22/sn22.102_translation-en-davis.json"
         ],
         "author_uid": "sabbamitta",
         "type": "translation",

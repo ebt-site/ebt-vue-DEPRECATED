@@ -31,7 +31,7 @@
     "pattern": "both ends",
     "method": "phrase",
     "resultPattern": "\\bboth ends",
-    "segsMatched": 22,
+    "segsMatched": 23,
     "bilaraPaths": [
       "root/pli/ms/sutta/kn/snp/vagga5/snp5.3_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/snp/vagga5/snp5.3_translation-en-sujato.json",
@@ -41,6 +41,7 @@
       "translation/en/sujato/sutta/sn/sn22/sn22.96_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn22/sn22.80_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.80_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn22/sn22.80_translation-en-davis.json",
       "root/pli/ms/sutta/mn/mn12_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn12_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn119_root-pli-ms.json",
@@ -72,7 +73,10 @@
       "root/pli/ms/sutta/an/an3/an3.63_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an3/an3.63_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.35_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an3/an3.35_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an3/an3.35_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.80_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.80_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn22/sn22.80_translation-en-davis.json"
     ],
     "suttaRefs": [
       "snp5.3/en/sujato",
@@ -94,7 +98,8 @@
       "an5.44/en/sujato",
       "an4.95/en/sujato",
       "an3.63/en/sujato",
-      "an3.35/en/sujato"
+      "an3.35/en/sujato",
+      "sn22.80/en/davis"
     ],
     "mlDocs": [
       {
@@ -402,7 +407,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn22/sn22.80_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn22/sn22.80_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn22/sn22.80_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn22/sn22.80_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.80",
+        "lang": "en",
+        "segMap": {
+          "sn22.80:7.3": {
+            "scid": "sn22.80:7.3",
+            "pli": "Seyyathāpi, bhikkhave, chavālātaṁ ubhatopadittaṁ majjhe gūthagataṁ, neva gāme kaṭṭhatthaṁ pharati, nāraññe kaṭṭhatthaṁ pharati. ",
+            "en": "Suppose there was a firebrand for lighting a funeral pyre, burning at <span class=\"ebt-matched\">both ends</span>, and smeared with dung in the middle. It couldn’t be used as timber either in the village or the wilderness. ",
+            "matched": true
+          }
+        },
+        "score": 1.012,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 22.80\n8. Itchy\nBeggars",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 80,
+          "en": 79
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.80_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.80_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn22/sn22.80_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

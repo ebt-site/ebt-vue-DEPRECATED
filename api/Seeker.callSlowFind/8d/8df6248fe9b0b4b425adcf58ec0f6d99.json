@@ -31,7 +31,7 @@
     "pattern": "moderation",
     "method": "phrase",
     "resultPattern": "\\bmoderation",
-    "segsMatched": 82,
+    "segsMatched": 88,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an7/an7.68_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an7/an7.68_translation-en-sujato.json",
@@ -39,18 +39,23 @@
       "translation/en/sujato/sutta/mn/mn53_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn35/sn35.120_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.120_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn35/sn35.120_translation-en-davis.json",
       "root/pli/ms/sutta/mn/mn107_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn107_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.9_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an8/an8.9_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.37_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an4/an4.37_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn35/sn35.120_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.120_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn35/sn35.120_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn35/sn35.239_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.239_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.16_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an3/an3.16_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn3/sn3.13_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn3/sn3.13_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn3/sn3.13_translation-en-davis.json",
       "root/pli/ms/sutta/mn/mn69_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn69_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn5_root-pli-ms.json",
@@ -81,6 +86,9 @@
       "translation/en/sujato/sutta/an/an1/an1.316-332_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an11/an11.17_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an11/an11.17_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn3/sn3.13_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn3/sn3.13_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn3/sn3.13_translation-en-davis.json",
       "root/pli/ms/sutta/kn/ud/vagga4/ud4.6_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/ud/vagga4/ud4.6_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag16.10_root-pli-ms.json",
@@ -120,6 +128,7 @@
       "mn107/en/sujato",
       "an8.9/en/sujato",
       "an4.37/en/sujato",
+      "sn35.120/en/davis",
       "sn35.239/en/sujato",
       "an3.16/en/sujato",
       "sn3.13/en/sujato",
@@ -138,6 +147,7 @@
       "an5.123/en/sujato",
       "an1.316-332/en/sujato",
       "an11.17/en/sujato",
+      "sn3.13/en/davis",
       "ud4.6/en/sujato",
       "thag16.10/en/sujato",
       "thag15.1/en/sujato",
@@ -282,7 +292,56 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn35/sn35.120_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn35/sn35.120_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn35/sn35.120_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn35/sn35.120_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn35.120",
+        "lang": "en",
+        "segMap": {
+          "sn35.120:2.3": {
+            "scid": "sn35.120:2.3",
+            "pli": "‘So vatāvuso, bhikkhu indriyesu guttadvāro, bhojane mattaññū, jāgariyaṁ anuyutto yāvajīvaṁ paripuṇṇaṁ parisuddhaṁ brahmacariyaṁ santānessatī’ti ṭhānametaṁ vijjati. ",
+            "en": "But it is quite possible for a mendicant to maintain the full and pure spiritual life for the rest of their life if they guard the sense doors, eat in <span class=\"ebt-matched\">moderation</span>, and are committed to wakefulness. ",
+            "matched": true
+          },
+          "sn35.120:4.1": {
+            "scid": "sn35.120:4.1",
+            "pli": "Kathañcāvuso, bhojane mattaññū hoti? ",
+            "en": "And how does someone eat in <span class=\"ebt-matched\">moderation</span>? ",
+            "matched": true
+          },
+          "sn35.120:4.4": {
+            "scid": "sn35.120:4.4",
+            "pli": "Evaṁ kho, āvuso, bhojane mattaññū hoti. ",
+            "en": "That’s how someone eats in <span class=\"ebt-matched\">moderation</span>. ",
+            "matched": true
+          },
+          "sn35.120:5.8": {
+            "scid": "sn35.120:5.8",
+            "pli": "‘indriyesu guttadvārā bhavissāma, bhojane mattaññuno, jāgariyaṁ anuyuttā’ti. ",
+            "en": "‘We will guard the sense doors, eat in <span class=\"ebt-matched\">moderation</span>, and be committed to wakefulness.’ ",
+            "matched": true
+          }
+        },
+        "score": 4.118,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 35.120\n12. The World and the Kinds of Sensual Stimulation\nSāriputta and the Pupil",
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 34,
+          "en": 33
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn35/sn35.120_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn35/sn35.120_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn35/sn35.120_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
@@ -762,7 +821,44 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn3/sn3.13_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn3/sn3.13_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn3/sn3.13_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn3/sn3.13_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn3.13",
+        "lang": "en",
+        "segMap": {
+          "sn3.13:3.2": {
+            "scid": "sn3.13:3.2",
+            "pli": "Mattaṁ jānato laddhabhojane; ",
+            "en": "knowing <span class=\"ebt-matched\">moderation</span> in eating, ",
+            "matched": true
+          },
+          "sn3.13:5.2": {
+            "scid": "sn3.13:5.2",
+            "pli": "Mattaṁ jānato laddhabhojane; ",
+            "en": "knowing <span class=\"ebt-matched\">moderation</span> in eating, ",
+            "matched": true
+          }
+        },
+        "score": 2.083,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 3.13\n2. Childless\nA Bucket of Rice",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 24,
+          "en": 24
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn3/sn3.13_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn3/sn3.13_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn3/sn3.13_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

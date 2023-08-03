@@ -31,22 +31,27 @@
     "pattern": "for faith",
     "method": "phrase",
     "resultPattern": "\\bfor faith",
-    "segsMatched": 4,
+    "segsMatched": 5,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn12/sn12.23_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn12/sn12.23_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn12/sn12.23_translation-en-davis.json",
       "root/pli/ms/sutta/kn/ud/vagga2/ud2.8_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/ud/vagga2/ud2.8_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.62_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an10/an10.62_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.61_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an10/an10.61_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an10/an10.61_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn12/sn12.23_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.23_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn12/sn12.23_translation-en-davis.json"
     ],
     "suttaRefs": [
       "sn12.23/en/sujato",
       "ud2.8/en/sujato",
       "an10.62/en/sujato",
-      "an10.61/en/sujato"
+      "an10.61/en/sujato",
+      "sn12.23/en/davis"
     ],
     "mlDocs": [
       {
@@ -110,7 +115,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn12/sn12.23_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn12/sn12.23_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn12/sn12.23_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn12/sn12.23_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn12.23",
+        "lang": "en",
+        "segMap": {
+          "sn12.23:6.12": {
+            "scid": "sn12.23:6.12",
+            "pli": "dukkhūpanisā saddhā, ",
+            "en": "Suffering is a vital condition <span class=\"ebt-matched\">for faith</span>. ",
+            "matched": true
+          }
+        },
+        "score": 1.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 12.23\n3. The Ten Powers\nVital Conditions",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 93,
+          "en": 92
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn12/sn12.23_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn12/sn12.23_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn12/sn12.23_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

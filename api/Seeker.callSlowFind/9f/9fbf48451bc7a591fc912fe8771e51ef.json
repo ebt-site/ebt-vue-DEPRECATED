@@ -31,7 +31,7 @@
     "pattern": "stilling of all activities",
     "method": "phrase",
     "resultPattern": "\\bstilling of all activities",
-    "segsMatched": 29,
+    "segsMatched": 31,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an9/an9.36_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an9/an9.36_translation-en-sujato.json",
@@ -43,10 +43,12 @@
       "translation/en/sujato/sutta/an/an10/an10.60_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn6/sn6.1_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn6/sn6.1_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn6/sn6.1_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn48/sn48.50_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn48/sn48.50_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn22/sn22.90_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.90_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn22/sn22.90_translation-en-davis.json",
       "root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn85_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn64_root-pli-ms.json",
@@ -76,7 +78,13 @@
       "root/pli/ms/sutta/an/an11/an11.18_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an11/an11.18_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.6_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an10/an10.6_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an10/an10.6_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn6/sn6.1_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn6/sn6.1_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn6/sn6.1_translation-en-davis.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.90_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.90_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn22/sn22.90_translation-en-davis.json"
     ],
     "suttaRefs": [
       "an9.36/en/sujato",
@@ -100,7 +108,9 @@
       "an11.20/en/sujato",
       "an11.19/en/sujato",
       "an11.18/en/sujato",
-      "an10.6/en/sujato"
+      "an10.6/en/sujato",
+      "sn6.1/en/davis",
+      "sn22.90/en/davis"
     ],
     "mlDocs": [
       {
@@ -583,7 +593,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn6/sn6.1_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn6/sn6.1_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn6/sn6.1_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn6/sn6.1_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn6.1",
+        "lang": "en",
+        "segMap": {
+          "sn6.1:1.7": {
+            "scid": "sn6.1:1.7",
+            "pli": "Idampi kho ṭhānaṁ duddasaṁ yadidaṁ sabbasaṅkhārasamatho sabbūpadhipaṭinissaggo taṇhākkhayo virāgo nirodho nibbānaṁ. ",
+            "en": "It’s also hard for them to see this thing; that is, the <span class=\"ebt-matched\">stilling of all activities</span>, the letting go of all attachments, the ending of craving, fading away, cessation, extinguishment. ",
+            "matched": true
+          }
+        },
+        "score": 1.019,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 6.1\n1. The Appeal\nThe Appeal of Brahmā",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 53,
+          "en": 53
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn6/sn6.1_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn6/sn6.1_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn6/sn6.1_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
@@ -641,7 +682,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn22/sn22.90_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn22/sn22.90_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn22/sn22.90_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn22/sn22.90_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.90",
+        "lang": "en",
+        "segMap": {
+          "sn22.90:3.12": {
+            "scid": "sn22.90:3.12",
+            "pli": "Atha ca pana me sabbasaṅkhārasamathe sabbūpadhipaṭinissagge taṇhākkhaye virāge nirodhe nibbāne cittaṁ na pakkhandati nappasīdati na santiṭṭhati nādhimuccati. ",
+            "en": "And yet my mind isn’t eager, confident, settled, and decided about the <span class=\"ebt-matched\">stilling of all activities</span>, the letting go of all attachments, the ending of craving, fading away, cessation, extinguishment. ",
+            "matched": true
+          }
+        },
+        "score": 1.01,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 22.90\n9. Senior Mendicants\nWith Channa",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 100,
+          "en": 99
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.90_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.90_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn22/sn22.90_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

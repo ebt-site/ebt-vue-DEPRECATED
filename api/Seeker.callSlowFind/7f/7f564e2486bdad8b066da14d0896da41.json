@@ -31,7 +31,7 @@
     "pattern": "identity view",
     "method": "phrase",
     "resultPattern": "\\bidentity view",
-    "segsMatched": 65,
+    "segsMatched": 66,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn64_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn64_translation-en-sujato.json",
@@ -59,6 +59,7 @@
       "translation/en/sujato/sutta/sn/sn2/sn2.16_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn1/sn1.21_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.21_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn1/sn1.21_translation-en-davis.json",
       "root/pli/ms/sutta/mn/mn2_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn2_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thig/thig6.7_root-pli-ms.json",
@@ -81,7 +82,10 @@
       "root/pli/ms/sutta/an/an3/an3.94_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an3/an3.94_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.13_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an10/an10.13_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an10/an10.13_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn1/sn1.21_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn1/sn1.21_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn1/sn1.21_translation-en-davis.json"
     ],
     "suttaRefs": [
       "mn64/en/sujato",
@@ -107,7 +111,8 @@
       "an6.91/en/sujato",
       "an6.90/en/sujato",
       "an3.94/en/sujato",
-      "an10.13/en/sujato"
+      "an10.13/en/sujato",
+      "sn1.21/en/davis"
     ],
     "mlDocs": [
       {
@@ -881,7 +886,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn1/sn1.21_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn1/sn1.21_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn1/sn1.21_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn1/sn1.21_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn1.21",
+        "lang": "en",
+        "segMap": {
+          "sn1.21:3.4": {
+            "scid": "sn1.21:3.4",
+            "pli": "sato bhikkhu paribbaje”ti. ",
+            "en": "to give up <span class=\"ebt-matched\">identity view</span>.” ",
+            "matched": true
+          }
+        },
+        "score": 1.077,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 1.21\n3. A Sword\nA Sword",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 13,
+          "en": 13
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn1/sn1.21_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn1/sn1.21_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn1/sn1.21_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

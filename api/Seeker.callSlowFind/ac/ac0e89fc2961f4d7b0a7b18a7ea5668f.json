@@ -31,18 +31,26 @@
     "pattern": "tangle",
     "method": "phrase",
     "resultPattern": "\\btangle",
-    "segsMatched": 24,
+    "segsMatched": 33,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn1/sn1.23_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.23_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn1/sn1.23_translation-en-davis.json",
+      "root/pli/ms/sutta/sn/sn1/sn1.23_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn1/sn1.23_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn1/sn1.23_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn7/sn7.6_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn7/sn7.6_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn35/sn35.246_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.246_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn35/sn35.229_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.229_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn35/sn35.229_translation-en-davis.json",
       "root/pli/ms/sutta/an/an4/an4.199_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an4/an4.199_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn35/sn35.229_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.229_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn35/sn35.229_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn12/sn12.60_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn12/sn12.60_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn38_root-pli-ms.json",
@@ -59,10 +67,12 @@
     ],
     "suttaRefs": [
       "sn1.23/en/sujato",
+      "sn1.23/en/davis",
       "sn7.6/en/sujato",
       "sn35.246/en/sujato",
       "sn35.229/en/sujato",
       "an4.199/en/sujato",
+      "sn35.229/en/davis",
       "sn12.60/en/sujato",
       "mn38/en/sujato",
       "thag19.1/en/sujato",
@@ -73,7 +83,74 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn1/sn1.23_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn1/sn1.23_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn1/sn1.23_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn1/sn1.23_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn1.23",
+        "lang": "en",
+        "segMap": {
+          "sn1.23:0.3": {
+            "scid": "sn1.23:0.3",
+            "pli": "Jaṭāsutta ",
+            "en": "A <span class=\"ebt-matched\">Tangle</span> ",
+            "matched": true
+          },
+          "sn1.23:1.1": {
+            "scid": "sn1.23:1.1",
+            "pli": "“Antojaṭā bahijaṭā, ",
+            "en": "“<span class=\"ebt-matched\">Tangle</span>d within, <span class=\"ebt-matched\">tangle</span>d without: ",
+            "matched": true
+          },
+          "sn1.23:1.2": {
+            "scid": "sn1.23:1.2",
+            "pli": "Jaṭāya jaṭitā pajā; ",
+            "en": "these people are <span class=\"ebt-matched\">tangle</span>d in <span class=\"ebt-matched\">tangle</span>s. ",
+            "matched": true
+          },
+          "sn1.23:1.4": {
+            "scid": "sn1.23:1.4",
+            "pli": "Ko imaṁ vijaṭaye jaṭan”ti. ",
+            "en": "who can untangle this <span class=\"ebt-matched\">tangle</span>?” ",
+            "matched": true
+          },
+          "sn1.23:2.4": {
+            "scid": "sn1.23:2.4",
+            "pli": "So imaṁ vijaṭaye jaṭaṁ. ",
+            "en": "they can untangle this <span class=\"ebt-matched\">tangle</span>. ",
+            "matched": true
+          },
+          "sn1.23:3.4": {
+            "scid": "sn1.23:3.4",
+            "pli": "tesaṁ vijaṭitā jaṭā. ",
+            "en": "they have untangled the <span class=\"ebt-matched\">tangle</span>. ",
+            "matched": true
+          },
+          "sn1.23:4.4": {
+            "scid": "sn1.23:4.4",
+            "pli": "etthesā chijjate jaṭā”ti. ",
+            "en": "it’s there that the <span class=\"ebt-matched\">tangle</span> is cut.” ",
+            "matched": true
+          }
+        },
+        "score": 7.368,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 1.23\n3. A Sword\nA Tangle",
+        "segsMatched": 7,
+        "langSegs": {
+          "pli": 19,
+          "en": 19
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn1/sn1.23_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn1/sn1.23_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn1/sn1.23_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
@@ -197,7 +274,44 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn35/sn35.229_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn35/sn35.229_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn35/sn35.229_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn35/sn35.229_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn35.229",
+        "lang": "en",
+        "segMap": {
+          "sn35.229:1.6": {
+            "scid": "sn35.229:1.6",
+            "pli": "Etthāyaṁ sadevako loko samārako sabrahmako sassamaṇabrāhmaṇī pajā sadevamanussā yebhuyyena samunnā tantākulakajātā kulagaṇṭhikajātā muñjapabbajabhūtā, apāyaṁ duggatiṁ vinipātaṁ saṁsāraṁ nātivattati …pe…. ",
+            "en": "And it’s here that this world—with its gods, Māras and Brahmās, this population with its ascetics and brahmins, gods and humans—is for the most part sunk. It’s become <span class=\"ebt-matched\">tangle</span>d like string, knotted like a ball of thread, and matted like rushes and reeds, and it doesn’t escape the places of loss, the bad places, the underworld, transmigration. ",
+            "matched": true
+          },
+          "sn35.229:2.3": {
+            "scid": "sn35.229:2.3",
+            "pli": "Etthāyaṁ sadevako loko samārako sabrahmako sassamaṇabrāhmaṇī pajā sadevamanussā yebhuyyena samunnā tantākulakajātā kulagaṇṭhikajātā muñjapabbajabhūtā apāyaṁ duggatiṁ vinipātaṁ saṁsāraṁ nātivattatīti. ",
+            "en": "And it’s here that this world—with its gods, Māras and Brahmās, this population with its ascetics and brahmins, gods and humans—is for the most part sunk. It’s become <span class=\"ebt-matched\">tangle</span>d like string, knotted like a ball of thread, and matted like rushes and reeds, and it doesn’t escape the places of loss, the bad places, the underworld, transmigration. ",
+            "matched": true
+          }
+        },
+        "score": 2.095,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 35.229\n18. The Ocean\nThe Ocean (2nd)",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 21,
+          "en": 20
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn35/sn35.229_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn35/sn35.229_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn35/sn35.229_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

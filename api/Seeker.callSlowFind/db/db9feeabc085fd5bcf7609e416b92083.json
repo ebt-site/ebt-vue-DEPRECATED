@@ -31,7 +31,7 @@
     "pattern": "said and done long ago",
     "method": "phrase",
     "resultPattern": "\\bsaid and done long ago",
-    "segsMatched": 15,
+    "segsMatched": 16,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
@@ -41,6 +41,7 @@
       "translation/en/sujato/sutta/sn/sn48/sn48.50_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn48/sn48.10_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn48/sn48.10_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn48/sn48.10_translation-en-davis.json",
       "root/pli/ms/sutta/mn/mn53_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn53_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
@@ -60,7 +61,10 @@
       "root/pli/ms/sutta/an/an10/an10.18_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an10/an10.18_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.17_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an10/an10.17_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an10/an10.17_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn48/sn48.10_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn48/sn48.10_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn48/sn48.10_translation-en-davis.json"
     ],
     "suttaRefs": [
       "dn34/en/sujato",
@@ -76,7 +80,8 @@
       "an4.35/en/sujato",
       "an10.50/en/sujato",
       "an10.18/en/sujato",
-      "an10.17/en/sujato"
+      "an10.17/en/sujato",
+      "sn48.10/en/davis"
     ],
     "mlDocs": [
       {
@@ -233,7 +238,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn48/sn48.10_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn48/sn48.10_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn48/sn48.10_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn48/sn48.10_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn48.10",
+        "lang": "en",
+        "segMap": {
+          "sn48.10:3.2": {
+            "scid": "sn48.10:3.2",
+            "pli": "Idha, bhikkhave, ariyasāvako satimā hoti paramena satinepakkena samannāgato, cirakatampi cirabhāsitampi saritā anussaritā. ",
+            "en": "It’s when a noble disciple is mindful. They have utmost mindfulness and alertness, and can remember and recall what was <span class=\"ebt-matched\">said and done long ago</span>. ",
+            "matched": true
+          }
+        },
+        "score": 1.023,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 48.10\n1. Plain Version\nAnalysis (2nd)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 43,
+          "en": 41
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn48/sn48.10_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn48/sn48.10_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn48/sn48.10_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

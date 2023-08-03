@@ -31,7 +31,7 @@
     "pattern": "earth, water, fire, and air",
     "method": "phrase",
     "resultPattern": "\\bearth, water, fire, and air",
-    "segsMatched": 16,
+    "segsMatched": 17,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn11_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn11_translation-en-sujato.json",
@@ -43,6 +43,7 @@
       "translation/en/sujato/sutta/sn/sn35/sn35.245_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn35/sn35.238_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.238_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn35/sn35.238_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn14/sn14.38_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn14/sn14.38_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn14/sn14.37_root-pli-ms.json",
@@ -52,7 +53,10 @@
       "root/pli/ms/sutta/mn/mn28_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn28_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
-      "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json"
+      "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn35/sn35.238_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.238_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn35/sn35.238_translation-en-davis.json"
     ],
     "suttaRefs": [
       "dn11/en/sujato",
@@ -63,7 +67,8 @@
       "sn14.37/en/sujato",
       "sn14.30/en/sujato",
       "mn28/en/sujato",
-      "dn33/en/sujato"
+      "dn33/en/sujato",
+      "sn35.238/en/davis"
     ],
     "mlDocs": [
       {
@@ -256,7 +261,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn35/sn35.238_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn35/sn35.238_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn35/sn35.238_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn35/sn35.238_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn35.238",
+        "lang": "en",
+        "segMap": {
+          "sn35.238:7.4": {
+            "scid": "sn35.238:7.4",
+            "pli": "pathavīdhātuyā, āpodhātuyā, tejodhātuyā, vāyodhātuyā. ",
+            "en": "the elements of <span class=\"ebt-matched\">earth, water, fire, and air</span>. ",
+            "matched": true
+          }
+        },
+        "score": 1.017,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 35.238\n19. The Simile of the Vipers\nThe Simile of the Vipers",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 58,
+          "en": 57
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn35/sn35.238_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn35/sn35.238_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn35/sn35.238_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

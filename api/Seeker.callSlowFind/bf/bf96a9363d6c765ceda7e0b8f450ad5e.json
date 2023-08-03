@@ -31,7 +31,7 @@
     "pattern": "empty huts",
     "method": "phrase",
     "resultPattern": "\\bempty huts",
-    "segsMatched": 26,
+    "segsMatched": 28,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn6_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn6_translation-en-sujato.json",
@@ -47,10 +47,12 @@
       "translation/en/sujato/sutta/sn/sn43/sn43.44_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn43/sn43.1_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn43/sn43.1_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn43/sn43.1_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn43/sn43.11_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn43/sn43.11_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn35/sn35.146_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.146_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn35/sn35.146_translation-en-davis.json",
       "root/pli/ms/sutta/mn/mn8_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn8_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn32_root-pli-ms.json",
@@ -72,7 +74,13 @@
       "root/pli/ms/sutta/an/an5/an5.73_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an5/an5.73_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.48_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an10/an10.48_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an10/an10.48_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn43/sn43.1_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn43/sn43.1_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn43/sn43.1_translation-en-davis.json",
+      "root/pli/ms/sutta/sn/sn35/sn35.146_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.146_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn35/sn35.146_translation-en-davis.json"
     ],
     "suttaRefs": [
       "mn6/en/sujato",
@@ -94,7 +102,9 @@
       "an7.74/en/sujato",
       "an5.74/en/sujato",
       "an5.73/en/sujato",
-      "an10.48/en/sujato"
+      "an10.48/en/sujato",
+      "sn43.1/en/davis",
+      "sn35.146/en/davis"
     ],
     "mlDocs": [
       {
@@ -252,7 +262,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn43/sn43.1_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn43/sn43.1_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn43/sn43.1_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn43/sn43.1_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn43.1",
+        "lang": "en",
+        "segMap": {
+          "sn43.1:2.3": {
+            "scid": "sn43.1:2.3",
+            "pli": "Etāni, bhikkhave, rukkhamūlāni, etāni suññāgārāni. Jhāyatha, bhikkhave, mā pamādattha; mā pacchā vippaṭisārino ahuvattha. Ayaṁ vo amhākaṁ anusāsanī”ti. ",
+            "en": "Here are these roots of trees, and here are these <span class=\"ebt-matched\">empty huts</span>. Practice absorption, mendicants! Don’t be negligent! Don’t regret it later! This is my instruction to you.” ",
+            "matched": true
+          }
+        },
+        "score": 1.063,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 43.1\nChapter One\nMindfulness of the Body",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 16,
+          "en": 15
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn43/sn43.1_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn43/sn43.1_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn43/sn43.1_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
@@ -397,7 +438,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn35/sn35.146_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn35/sn35.146_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn35/sn35.146_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn35/sn35.146_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn35.146",
+        "lang": "en",
+        "segMap": {
+          "sn35.146:1.20": {
+            "scid": "sn35.146:1.20",
+            "pli": "Etāni, bhikkhave, rukkhamūlāni, etāni suññāgārāni. Jhāyatha, bhikkhave, mā pamādattha; mā pacchāvippaṭisārino ahuvattha. Ayaṁ vo amhākaṁ anusāsanī”ti. ",
+            "en": "Here are these roots of trees, and here are these <span class=\"ebt-matched\">empty huts</span>. Practice absorption, mendicants! Don’t be negligent! Don’t regret it later! This is my instruction to you.” ",
+            "matched": true
+          }
+        },
+        "score": 1.042,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 35.146\n15. The Old and the New\nThe Cessation of Action",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 24,
+          "en": 23
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn35/sn35.146_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn35/sn35.146_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn35/sn35.146_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

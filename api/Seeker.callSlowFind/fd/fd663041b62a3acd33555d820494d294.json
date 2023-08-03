@@ -31,7 +31,7 @@
     "pattern": "marks",
     "method": "phrase",
     "resultPattern": "\\bmarks",
-    "segsMatched": 119,
+    "segsMatched": 120,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn30_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn30_translation-en-sujato.json",
@@ -73,6 +73,7 @@
       "translation/en/sujato/sutta/an/an4/an4.196_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn22/sn22.101_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.101_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn22/sn22.101_translation-en-davis.json",
       "root/pli/ms/sutta/mn/mn93_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn93_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn100_root-pli-ms.json",
@@ -97,7 +98,10 @@
       "root/pli/ms/sutta/an/an3/an3.59_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an3/an3.59_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.58_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an3/an3.58_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an3/an3.58_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.101_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.101_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn22/sn22.101_translation-en-davis.json"
     ],
     "suttaRefs": [
       "dn30/en/sujato",
@@ -130,7 +134,8 @@
       "an7.71/en/sujato",
       "an5.192/en/sujato",
       "an3.59/en/sujato",
-      "an3.58/en/sujato"
+      "an3.58/en/sujato",
+      "sn22.101/en/davis"
     ],
     "mlDocs": [
       {
@@ -1302,7 +1307,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn22/sn22.101_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn22/sn22.101_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn22/sn22.101_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn22/sn22.101_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.101",
+        "lang": "en",
+        "segMap": {
+          "sn22.101:6.1": {
+            "scid": "sn22.101:6.1",
+            "pli": "Seyyathāpi, bhikkhave, palagaṇḍassa vā palagaṇḍantevāsissa vā vāsijaṭe dissanteva aṅgulipadāni dissati aṅguṭṭhapadaṁ. ",
+            "en": "Suppose a carpenter or their apprentice sees the <span class=\"ebt-matched\">marks</span> of his fingers and thumb on the handle of his adze. ",
+            "matched": true
+          }
+        },
+        "score": 1.016,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 22.101\n10. Flowers\nThe Adze",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 61,
+          "en": 60
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.101_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.101_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn22/sn22.101_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

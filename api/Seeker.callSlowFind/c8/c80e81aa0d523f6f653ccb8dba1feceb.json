@@ -32,7 +32,7 @@
     "pattern": "freude und glück",
     "method": "phrase",
     "resultPattern": "\\bfreude und glück",
-    "segsMatched": 20,
+    "segsMatched": 21,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
@@ -49,6 +49,9 @@
       "root/pli/ms/sutta/sn/sn56/sn56.35_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn56/sn56.35_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn56/sn56.35_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/cp/cp9_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/cp/cp9_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/cp/cp9_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn9_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn9_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn9_translation-en-sujato.json",
@@ -62,6 +65,7 @@
       "an4.62/de/sabbamitta",
       "mn81/de/sabbamitta",
       "sn56.35/de/sabbamitta",
+      "cp9/de/sabbamitta",
       "dn9/de/sabbamitta",
       "an5.194/de/sabbamitta"
     ],
@@ -347,6 +351,38 @@
           "pli": 53,
           "de": 52,
           "en": 52
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/cp/cp9_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/cp/cp9_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/cp/cp9_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "cp9",
+        "lang": "de",
+        "segMap": {
+          "cp9:6.1": {
+            "scid": "cp9:6.1",
+            "pli": "Sakkena sā dinnavarā, ",
+            "de": "Sie nahm voller <span class=\"ebt-matched\">Freude und Glück</span> ",
+            "en": "She accepted the offerings of Sakka, ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Korb des Verhaltens 9\nDas Kapitel mit Akitti\nDie Vollkommenheit des Gebens (9)\nVessantaras Verhalten",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 239,
+          "de": 238,
+          "en": 238
         }
       },
       {

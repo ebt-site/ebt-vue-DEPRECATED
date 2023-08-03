@@ -31,19 +31,29 @@
     "pattern": "what kind of mendicant",
     "method": "phrase",
     "resultPattern": "\\bwhat kind of mendicant",
-    "segsMatched": 8,
+    "segsMatched": 11,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn32_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn32_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn16/sn16.3_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn16/sn16.3_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn16/sn16.3_translation-en-davis.json",
+      "root/pli/ms/sutta/sn/sn16/sn16.3_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn16/sn16.3_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn16/sn16.3_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn16/sn16.4_root-pli-ms.json",
-      "translation/en/sujato/sutta/sn/sn16/sn16.4_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn16/sn16.4_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn16/sn16.4_translation-en-davis.json",
+      "root/pli/ms/sutta/sn/sn16/sn16.4_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn16/sn16.4_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn16/sn16.4_translation-en-davis.json"
     ],
     "suttaRefs": [
       "mn32/en/sujato",
       "sn16.3/en/sujato",
-      "sn16.4/en/sujato"
+      "sn16.3/en/davis",
+      "sn16.4/en/sujato",
+      "sn16.4/en/davis"
     ],
     "mlDocs": [
       {
@@ -102,7 +112,44 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn16/sn16.3_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn16/sn16.3_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn16/sn16.3_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn16/sn16.3_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn16.3",
+        "lang": "en",
+        "segMap": {
+          "sn16.3:2.4": {
+            "scid": "sn16.3:2.4",
+            "pli": "kathaṁrūpo bhikkhu arahati kulāni upasaṅkamitun”ti? ",
+            "en": "<span class=\"ebt-matched\">What kind of mendicant</span> is worthy of approaching families?” ",
+            "matched": true
+          },
+          "sn16.3:5.2": {
+            "scid": "sn16.3:5.2",
+            "pli": "kathaṁrūpassa bhikkhuno aparisuddhā dhammadesanā hoti, kathaṁrūpassa bhikkhuno parisuddhā dhammadesanā hotī”ti? ",
+            "en": "<span class=\"ebt-matched\">What kind of mendicant</span>’s teaching is pure, and what kind is impure?” ",
+            "matched": true
+          }
+        },
+        "score": 2.044,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 16.3\n1. Kassapa\nLike the Moon",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 45,
+          "en": 44
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn16/sn16.3_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn16/sn16.3_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn16/sn16.3_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
@@ -137,7 +184,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn16/sn16.4_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn16/sn16.4_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn16/sn16.4_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn16/sn16.4_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn16.4",
+        "lang": "en",
+        "segMap": {
+          "sn16.4:1.3": {
+            "scid": "sn16.4:1.3",
+            "pli": "kathaṁrūpo bhikkhu arahati kulūpako hotuṁ, kathaṁrūpo bhikkhu na arahati kulūpako hotun”ti? ",
+            "en": "<span class=\"ebt-matched\">What kind of mendicant</span> is worthy of visiting families? And <span class=\"ebt-matched\">what kind of mendicant</span> is not worthy of visiting families?” ",
+            "matched": true
+          }
+        },
+        "score": 1.021,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 16.4\n1. Kassapa\nVisiting Families",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 47,
+          "en": 46
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn16/sn16.4_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn16/sn16.4_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn16/sn16.4_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

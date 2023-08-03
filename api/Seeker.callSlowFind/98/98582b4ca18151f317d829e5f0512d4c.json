@@ -31,20 +31,28 @@
     "pattern": "without cause or reason",
     "method": "phrase",
     "resultPattern": "\\bwithout cause or reason",
-    "segsMatched": 14,
+    "segsMatched": 18,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn76_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn76_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn24/sn24.7_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn24/sn24.7_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn24/sn24.7_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn22/sn22.60_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.60_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn22/sn22.60_translation-en-davis.json",
       "root/pli/ms/sutta/mn/mn60_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn60_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn9_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn9_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn24/sn24.7_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn24/sn24.7_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn24/sn24.7_translation-en-davis.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.60_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.60_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn22/sn22.60_translation-en-davis.json",
       "root/pli/ms/sutta/an/an3/an3.61_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an3/an3.61_translation-en-sujato.json"
     ],
@@ -55,6 +63,8 @@
       "mn60/en/sujato",
       "dn9/en/sujato",
       "dn2/en/sujato",
+      "sn24.7/en/davis",
+      "sn22.60/en/davis",
       "an3.61/en/sujato"
     ],
     "mlDocs": [
@@ -102,7 +112,44 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn24/sn24.7_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn24/sn24.7_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn24/sn24.7_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn24/sn24.7_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn24.7",
+        "lang": "en",
+        "segMap": {
+          "sn24.7:1.4": {
+            "scid": "sn24.7:1.4",
+            "pli": "Ahetū appaccayā sattā saṅkilissanti. ",
+            "en": "Sentient beings are corrupted <span class=\"ebt-matched\">without cause or reason</span>. ",
+            "matched": true
+          },
+          "sn24.7:1.6": {
+            "scid": "sn24.7:1.6",
+            "pli": "Ahetū appaccayā sattā visujjhanti. ",
+            "en": "Sentient beings are purified <span class=\"ebt-matched\">without cause or reason</span>. ",
+            "matched": true
+          }
+        },
+        "score": 2.043,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 24.7\n1. Stream-Entry\nCause",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 46,
+          "en": 45
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn24/sn24.7_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn24/sn24.7_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn24/sn24.7_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
@@ -137,7 +184,44 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn22/sn22.60_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn22/sn22.60_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn22/sn22.60_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn22/sn22.60_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.60",
+        "lang": "en",
+        "segMap": {
+          "sn22.60:2.3": {
+            "scid": "sn22.60:2.3",
+            "pli": "ahetū appaccayā sattā saṅkilissanti. ",
+            "en": "Sentient beings are corrupted <span class=\"ebt-matched\">without cause or reason</span>. ",
+            "matched": true
+          },
+          "sn22.60:2.5": {
+            "scid": "sn22.60:2.5",
+            "pli": "ahetū appaccayā sattā visujjhantī’ti. ",
+            "en": "Sentient beings are purified <span class=\"ebt-matched\">without cause or reason</span>.’ ",
+            "matched": true
+          }
+        },
+        "score": 2.035,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 22.60\n6. Involvement\nWith Mahāli",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 57,
+          "en": 56
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.60_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.60_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn22/sn22.60_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

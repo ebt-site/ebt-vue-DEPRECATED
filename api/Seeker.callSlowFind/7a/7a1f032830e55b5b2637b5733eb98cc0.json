@@ -31,7 +31,7 @@
     "pattern": "mountain top",
     "method": "phrase",
     "resultPattern": "\\bmountain top",
-    "segsMatched": 9,
+    "segsMatched": 10,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an10/an10.62_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an10/an10.62_translation-en-sujato.json",
@@ -41,13 +41,17 @@
       "translation/en/sujato/sutta/sn/sn55/sn55.38_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn12/sn12.23_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn12/sn12.23_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn12/sn12.23_translation-en-davis.json",
       "root/pli/ms/sutta/kn/thig/thig13.3_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thig/thig13.3_translation-en-sujato.json",
       "translation/en/soma/sutta/kn/thig/thig13.3_translation-en-soma.json",
       "root/pli/ms/sutta/an/an4/an4.147_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an4/an4.147_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.95_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an3/an3.95_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an3/an3.95_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn12/sn12.23_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.23_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn12/sn12.23_translation-en-davis.json"
     ],
     "suttaRefs": [
       "an10.62/en/sujato",
@@ -56,7 +60,8 @@
       "sn12.23/en/sujato",
       "thig13.3/en/sujato",
       "an4.147/en/sujato",
-      "an3.95/en/sujato"
+      "an3.95/en/sujato",
+      "sn12.23/en/davis"
     ],
     "mlDocs": [
       {
@@ -219,7 +224,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn12/sn12.23_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn12/sn12.23_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn12/sn12.23_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn12/sn12.23_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn12.23",
+        "lang": "en",
+        "segMap": {
+          "sn12.23:7.1": {
+            "scid": "sn12.23:7.1",
+            "pli": "Seyyathāpi, bhikkhave, uparipabbate thullaphusitake deve vassante taṁ udakaṁ yathāninnaṁ pavattamānaṁ pabbatakandarapadarasākhā paripūreti. Pabbatakandarapadarasākhāparipūrā kusobbhe paripūrenti. Kusobbhā paripūrā mahāsobbhe paripūrenti. Mahāsobbhā paripūrā kunnadiyo paripūrenti. Kunnadiyo paripūrā mahānadiyo paripūrenti. Mahānadiyo paripūrā mahāsamuddaṁ paripūrenti. ",
+            "en": "It’s like when it rains heavily on a <span class=\"ebt-matched\">mountain top</span>, and the water flows downhill to fill the hollows, crevices, and creeks. As they become full, they fill up the pools. The pools fill up the lakes, the lakes fill up the streams, and the streams fill up the rivers. And as the rivers become full, they fill up the ocean. ",
+            "matched": true
+          }
+        },
+        "score": 1.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 12.23\n3. The Ten Powers\nVital Conditions",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 93,
+          "en": 92
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn12/sn12.23_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn12/sn12.23_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn12/sn12.23_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

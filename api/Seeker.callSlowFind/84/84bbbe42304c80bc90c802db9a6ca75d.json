@@ -31,7 +31,7 @@
     "pattern": "manifestation",
     "method": "phrase",
     "resultPattern": "\\bmanifestation",
-    "segsMatched": 64,
+    "segsMatched": 74,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn28_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn28_translation-en-sujato.json",
@@ -43,16 +43,29 @@
       "translation/en/sujato/sutta/sn/sn35/sn35.22_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn35/sn35.21_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.21_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn35/sn35.21_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn26/sn26.2_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn26/sn26.2_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn26/sn26.1_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn26/sn26.1_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn26/sn26.1_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn26/sn26.10_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn26/sn26.10_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn22/sn22.30_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.30_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn22/sn22.30_translation-en-davis.json",
+      "root/pli/ms/sutta/sn/sn35/sn35.21_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.21_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn35/sn35.21_translation-en-davis.json",
+      "root/pli/ms/sutta/sn/sn26/sn26.1_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn26/sn26.1_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn26/sn26.1_translation-en-davis.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.30_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.30_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn22/sn22.30_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn35/sn35.116_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.116_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn35/sn35.116_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn26/sn26.9_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn26/sn26.9_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn18_root-pli-ms.json",
@@ -85,6 +98,7 @@
       "translation/en/sujato/sutta/sn/sn26/sn26.3_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn12/sn12.2_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn12/sn12.2_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn12/sn12.2_translation-en-davis.json",
       "root/pli/ms/sutta/mn/mn9_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn9_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn141_root-pli-ms.json",
@@ -94,7 +108,10 @@
       "root/pli/ms/sutta/dn/dn27_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn27_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn22_root-pli-ms.json",
-      "translation/en/sujato/sutta/dn/dn22_translation-en-sujato.json"
+      "translation/en/sujato/sutta/dn/dn22_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn12/sn12.2_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.2_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn12/sn12.2_translation-en-davis.json"
     ],
     "suttaRefs": [
       "mn28/en/sujato",
@@ -106,6 +123,9 @@
       "sn26.1/en/sujato",
       "sn26.10/en/sujato",
       "sn22.30/en/sujato",
+      "sn35.21/en/davis",
+      "sn26.1/en/davis",
+      "sn22.30/en/davis",
       "sn35.116/en/sujato",
       "sn26.9/en/sujato",
       "mn18/en/sujato",
@@ -127,7 +147,8 @@
       "mn141/en/sujato",
       "iti68/en/sujato",
       "dn27/en/sujato",
-      "dn22/en/sujato"
+      "dn22/en/sujato",
+      "sn12.2/en/davis"
     ],
     "mlDocs": [
       {
@@ -286,7 +307,50 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn22/sn22.30_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn22/sn22.30_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn22/sn22.30_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn22/sn22.30_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.30",
+        "lang": "en",
+        "segMap": {
+          "sn22.30:1.2": {
+            "scid": "sn22.30:1.2",
+            "pli": "“Yo, bhikkhave, rūpassa uppādo ṭhiti abhinibbatti pātubhāvo, dukkhasseso uppādo rogānaṁ ṭhiti jarāmaraṇassa pātubhāvo. ",
+            "en": "“Mendicants, the arising, continuation, rebirth, and <span class=\"ebt-matched\">manifestation</span> of form is the arising of suffering, the continuation of diseases, and the <span class=\"ebt-matched\">manifestation</span> of old age and death. ",
+            "matched": true
+          },
+          "sn22.30:1.3": {
+            "scid": "sn22.30:1.3",
+            "pli": "Yo vedanāya …pe… ",
+            "en": "The arising, continuation, rebirth, and <span class=\"ebt-matched\">manifestation</span> of feeling … ",
+            "matched": true
+          },
+          "sn22.30:1.6": {
+            "scid": "sn22.30:1.6",
+            "pli": "yo viññāṇassa uppādo ṭhiti abhinibbatti pātubhāvo, dukkhasseso uppādo rogānaṁ ṭhiti jarāmaraṇassa pātubhāvo. ",
+            "en": "consciousness is the arising of suffering, the continuation of diseases, and the <span class=\"ebt-matched\">manifestation</span> of old age and death. ",
+            "matched": true
+          }
+        },
+        "score": 3.2,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 22.30\n3. The Burden\nArising",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 15,
+          "en": 14
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.30_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.30_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn22/sn22.30_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
@@ -327,7 +391,50 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn35/sn35.21_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn35/sn35.21_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn35/sn35.21_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn35/sn35.21_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn35.21",
+        "lang": "en",
+        "segMap": {
+          "sn35.21:1.1": {
+            "scid": "sn35.21:1.1",
+            "pli": "“Yo, bhikkhave, cakkhussa uppādo ṭhiti abhinibbatti pātubhāvo, dukkhasseso uppādo, rogānaṁ ṭhiti, jarāmaraṇassa pātubhāvo. ",
+            "en": "“Mendicants, the arising, continuation, rebirth, and <span class=\"ebt-matched\">manifestation</span> of the eye is the arising of suffering, the continuation of diseases, and the <span class=\"ebt-matched\">manifestation</span> of old age and death. ",
+            "matched": true
+          },
+          "sn35.21:1.2": {
+            "scid": "sn35.21:1.2",
+            "pli": "Yo sotassa …pe… ",
+            "en": "The arising, continuation, rebirth, and <span class=\"ebt-matched\">manifestation</span> of the ear … ",
+            "matched": true
+          },
+          "sn35.21:1.6": {
+            "scid": "sn35.21:1.6",
+            "pli": "yo manassa uppādo ṭhiti abhinibbatti pātubhāvo, dukkhasseso uppādo, rogānaṁ ṭhiti, jarāmaraṇassa pātubhāvo. ",
+            "en": "and mind is the arising of suffering, the continuation of diseases, and the <span class=\"ebt-matched\">manifestation</span> of old age and death. ",
+            "matched": true
+          }
+        },
+        "score": 3.188,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 35.21\n2. Pairs\nThe Arising of Suffering (Interior)",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 16,
+          "en": 15
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn35/sn35.21_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn35/sn35.21_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn35/sn35.21_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
@@ -368,7 +475,50 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn26/sn26.1_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn26/sn26.1_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn26/sn26.1_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn26/sn26.1_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn26.1",
+        "lang": "en",
+        "segMap": {
+          "sn26.1:1.2": {
+            "scid": "sn26.1:1.2",
+            "pli": "“Yo kho, bhikkhave, cakkhussa uppādo ṭhiti abhinibbatti pātubhāvo, dukkhasseso uppādo, rogānaṁ ṭhiti, jarāmaraṇassa pātubhāvo. ",
+            "en": "“Mendicants, the arising, continuation, rebirth, and <span class=\"ebt-matched\">manifestation</span> of the eye is the arising of suffering, the continuation of diseases, and the <span class=\"ebt-matched\">manifestation</span> of old age and death. ",
+            "matched": true
+          },
+          "sn26.1:1.3": {
+            "scid": "sn26.1:1.3",
+            "pli": "Yo sotassa uppādo ṭhiti …pe… ",
+            "en": "The arising, continuation, rebirth, and <span class=\"ebt-matched\">manifestation</span> of the ear, ",
+            "matched": true
+          },
+          "sn26.1:1.7": {
+            "scid": "sn26.1:1.7",
+            "pli": "yo manassa uppādo ṭhiti abhinibbatti pātubhāvo, dukkhasseso uppādo, rogānaṁ ṭhiti, jarāmaraṇassa pātubhāvo. ",
+            "en": "and mind is the arising of suffering, the continuation of diseases, and the <span class=\"ebt-matched\">manifestation</span> of old age and death. ",
+            "matched": true
+          }
+        },
+        "score": 3.176,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 26.1\n1. Arising\nThe Eye",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 17,
+          "en": 16
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn26/sn26.1_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn26/sn26.1_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn26/sn26.1_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
@@ -567,7 +717,8 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn35/sn35.116_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn35/sn35.116_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn35/sn35.116_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn35/sn35.116_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
@@ -1085,7 +1236,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn12/sn12.2_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn12/sn12.2_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn12/sn12.2_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn12/sn12.2_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn12.2",
+        "lang": "en",
+        "segMap": {
+          "sn12.2:4.2": {
+            "scid": "sn12.2:4.2",
+            "pli": "Yā tesaṁ tesaṁ sattānaṁ tamhi tamhi sattanikāye jāti sañjāti okkanti abhinibbatti khandhānaṁ pātubhāvo āyatanānaṁ paṭilābho. ",
+            "en": "The rebirth, inception, conception, reincarnation, <span class=\"ebt-matched\">manifestation</span> of the aggregates, and acquisition of the sense fields of the various sentient beings in the various orders of sentient beings. ",
+            "matched": true
+          }
+        },
+        "score": 1.013,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 12.2\n1. The Buddhas\nAnalysis",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 79,
+          "en": 78
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn12/sn12.2_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn12/sn12.2_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn12/sn12.2_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

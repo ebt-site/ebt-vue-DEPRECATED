@@ -31,19 +31,24 @@
     "pattern": "find no footing",
     "method": "phrase",
     "resultPattern": "\\bfind no footing",
-    "segsMatched": 4,
+    "segsMatched": 5,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn11_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn11_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn1/sn1.27_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.27_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn1/sn1.27_translation-en-davis.json",
       "root/pli/ms/sutta/kn/ud/vagga1/ud1.10_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/ud/vagga1/ud1.10_translation-en-sujato.json"
+      "translation/en/sujato/sutta/kn/ud/vagga1/ud1.10_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn1/sn1.27_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn1/sn1.27_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn1/sn1.27_translation-en-davis.json"
     ],
     "suttaRefs": [
       "dn11/en/sujato",
       "sn1.27/en/sujato",
-      "ud1.10/en/sujato"
+      "ud1.10/en/sujato",
+      "sn1.27/en/davis"
     ],
     "mlDocs": [
       {
@@ -84,7 +89,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn1/sn1.27_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn1/sn1.27_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn1/sn1.27_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn1/sn1.27_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn1.27",
+        "lang": "en",
+        "segMap": {
+          "sn1.27:2.2": {
+            "scid": "sn1.27:2.2",
+            "pli": "tejo vāyo na gādhati; ",
+            "en": "fire and air <span class=\"ebt-matched\">find no footing</span>—",
+            "matched": true
+          }
+        },
+        "score": 1.077,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 1.27\n3. A Sword\nStreams",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 13,
+          "en": 13
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn1/sn1.27_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn1/sn1.27_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn1/sn1.27_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

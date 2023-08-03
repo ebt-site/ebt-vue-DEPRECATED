@@ -31,12 +31,16 @@
     "pattern": "keep them warm and incubated",
     "method": "phrase",
     "resultPattern": "\\bkeep them warm and incubated",
-    "segsMatched": 11,
+    "segsMatched": 15,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn22/sn22.101_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.101_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn22/sn22.101_translation-en-davis.json",
       "root/pli/ms/sutta/an/an7/an7.71_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an7/an7.71_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.101_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.101_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn22/sn22.101_translation-en-davis.json",
       "root/pli/ms/sutta/mn/mn53_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn53_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn16_root-pli-ms.json",
@@ -47,6 +51,7 @@
     "suttaRefs": [
       "sn22.101/en/sujato",
       "an7.71/en/sujato",
+      "sn22.101/en/davis",
       "mn53/en/sujato",
       "mn16/en/sujato",
       "an8.11/en/sujato"
@@ -102,7 +107,56 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn22/sn22.101_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn22/sn22.101_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn22/sn22.101_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn22/sn22.101_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.101",
+        "lang": "en",
+        "segMap": {
+          "sn22.101:3.2": {
+            "scid": "sn22.101:3.2",
+            "pli": "Tānassu kukkuṭiyā na sammā adhisayitāni, na sammā pariseditāni, na sammā paribhāvitāni. ",
+            "en": "But she had not properly sat on them to <span class=\"ebt-matched\">keep them warm and incubated</span>. ",
+            "matched": true
+          },
+          "sn22.101:3.8": {
+            "scid": "sn22.101:3.8",
+            "pli": "tāni kukkuṭiyā na sammā adhisayitāni, na sammā pariseditāni, na sammā paribhāvitāni. ",
+            "en": "has not properly sat on them to <span class=\"ebt-matched\">keep them warm and incubated</span>. ",
+            "matched": true
+          },
+          "sn22.101:5.2": {
+            "scid": "sn22.101:5.2",
+            "pli": "Tānassu kukkuṭiyā sammā adhisayitāni, sammā pariseditāni, sammā paribhāvitāni. ",
+            "en": "And she properly sat on them to <span class=\"ebt-matched\">keep them warm and incubated</span>. ",
+            "matched": true
+          },
+          "sn22.101:5.8": {
+            "scid": "sn22.101:5.8",
+            "pli": "tānassu kukkuṭiyā sammā adhisayitāni, sammā pariseditāni, sammā paribhāvitāni. ",
+            "en": "properly sat on them to <span class=\"ebt-matched\">keep them warm and incubated</span>. ",
+            "matched": true
+          }
+        },
+        "score": 4.066,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 22.101\n10. Flowers\nThe Adze",
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 61,
+          "en": 60
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.101_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.101_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn22/sn22.101_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

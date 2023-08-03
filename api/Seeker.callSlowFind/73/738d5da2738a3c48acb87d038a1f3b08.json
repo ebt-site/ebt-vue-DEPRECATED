@@ -31,7 +31,7 @@
     "pattern": "three cravings",
     "method": "phrase",
     "resultPattern": "\\bthree cravings",
-    "segsMatched": 17,
+    "segsMatched": 19,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn45/sn45.170_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn45/sn45.170_translation-en-sujato.json",
@@ -43,8 +43,12 @@
       "translation/en/sujato/sutta/sn/sn38/sn38.10_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn12/sn12.63_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn12/sn12.63_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn12/sn12.63_translation-en-davis.json",
       "root/pli/ms/sutta/kn/iti/vagga6/iti58_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/iti/vagga6/iti58_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn12/sn12.63_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.63_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn12/sn12.63_translation-en-davis.json",
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json"
     ],
@@ -55,6 +59,7 @@
       "sn38.10/en/sujato",
       "sn12.63/en/sujato",
       "iti58/en/sujato",
+      "sn12.63/en/davis",
       "dn34/en/sujato"
     ],
     "mlDocs": [
@@ -225,7 +230,44 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn12/sn12.63_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn12/sn12.63_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn12/sn12.63_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn12/sn12.63_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn12.63",
+        "lang": "en",
+        "segMap": {
+          "sn12.63:5.10": {
+            "scid": "sn12.63:5.10",
+            "pli": "Manosañcetanāya, bhikkhave, āhāre pariññāte tisso taṇhā pariññātā honti. ",
+            "en": "When mental intention as fuel is completely understood, the <span class=\"ebt-matched\">three cravings</span> are completely understood. ",
+            "matched": true
+          },
+          "sn12.63:5.11": {
+            "scid": "sn12.63:5.11",
+            "pli": "Tīsu taṇhāsu pariññātāsu ariyasāvakassa natthi kiñci uttarikaraṇīyanti vadāmi. ",
+            "en": "When the <span class=\"ebt-matched\">three cravings</span> are completely understood, a noble disciple has nothing further to do, I say. ",
+            "matched": true
+          }
+        },
+        "score": 2.027,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 12.63\n7. The Great Chapter\nA Child’s Flesh",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 73,
+          "en": 72
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn12/sn12.63_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn12/sn12.63_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn12/sn12.63_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

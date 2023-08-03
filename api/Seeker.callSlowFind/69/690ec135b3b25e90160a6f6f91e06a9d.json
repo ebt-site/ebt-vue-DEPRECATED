@@ -31,12 +31,13 @@
     "pattern": "far from the madding crowd",
     "method": "phrase",
     "resultPattern": "\\bfar from the madding crowd",
-    "segsMatched": 7,
+    "segsMatched": 8,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn25_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn25_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn35/sn35.63_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.63_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn35/sn35.63_translation-en-davis.json",
       "root/pli/ms/sutta/mn/mn89_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn89_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn108_root-pli-ms.json",
@@ -44,7 +45,10 @@
       "root/pli/ms/sutta/dn/dn32_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn32_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an7/an7.61_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an7/an7.61_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an7/an7.61_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn35/sn35.63_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.63_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn35/sn35.63_translation-en-davis.json"
     ],
     "suttaRefs": [
       "dn25/en/sujato",
@@ -52,7 +56,8 @@
       "mn89/en/sujato",
       "mn108/en/sujato",
       "dn32/en/sujato",
-      "an7.61/en/sujato"
+      "an7.61/en/sujato",
+      "sn35.63/en/davis"
     ],
     "mlDocs": [
       {
@@ -93,7 +98,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn35/sn35.63_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn35/sn35.63_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn35/sn35.63_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn35/sn35.63_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn35.63",
+        "lang": "en",
+        "segMap": {
+          "sn35.63:2.14": {
+            "scid": "sn35.63:2.14",
+            "pli": "Evaṁvihārī ca, migajāla, bhikkhu kiñcāpi araññavanapatthāni pantāni senāsanāni paṭisevati appasaddāni appanigghosāni vijanavātāni manussarāhasseyyakāni paṭisallānasāruppāni; ",
+            "en": "A mendicant who lives like this is said to live with a partner, even if they frequent remote lodgings in the wilderness and the forest that are quiet and still, <span class=\"ebt-matched\">far from the madding crowd</span>, remote from human settlements, and fit for retreat. ",
+            "matched": true
+          }
+        },
+        "score": 1.022,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 35.63\n7. With Migajāla\nWith Migajāla (1st)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 45,
+          "en": 44
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn35/sn35.63_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn35/sn35.63_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn35/sn35.63_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

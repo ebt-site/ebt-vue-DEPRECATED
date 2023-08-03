@@ -31,7 +31,7 @@
     "pattern": "lowlife",
     "method": "phrase",
     "resultPattern": "\\blowlife",
-    "segsMatched": 39,
+    "segsMatched": 41,
     "bilaraPaths": [
       "root/pli/ms/sutta/kn/snp/vagga1/snp1.7_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/snp/vagga1/snp1.7_translation-en-sujato.json",
@@ -39,14 +39,19 @@
       "translation/en/sujato/sutta/kn/ud/vagga3/ud3.6_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn7/sn7.1_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn7/sn7.1_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn7/sn7.1_translation-en-davis.json",
       "root/pli/ms/sutta/mn/mn93_root-pli-ms.json",
-      "translation/en/sujato/sutta/mn/mn93_translation-en-sujato.json"
+      "translation/en/sujato/sutta/mn/mn93_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn7/sn7.1_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn7/sn7.1_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn7/sn7.1_translation-en-davis.json"
     ],
     "suttaRefs": [
       "snp1.7/en/sujato",
       "ud3.6/en/sujato",
       "sn7.1/en/sujato",
-      "mn93/en/sujato"
+      "mn93/en/sujato",
+      "sn7.1/en/davis"
     ],
     "mlDocs": [
       {
@@ -308,7 +313,44 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn7/sn7.1_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn7/sn7.1_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn7/sn7.1_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn7/sn7.1_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn7.1",
+        "lang": "en",
+        "segMap": {
+          "sn7.1:5.2": {
+            "scid": "sn7.1:5.2",
+            "pli": "“evamevaṁ panāyaṁ vasalī yasmiṁ vā tasmiṁ vā tassa muṇḍakassa samaṇassa vaṇṇaṁ bhāsati. ",
+            "en": "“That’d be right. For the slightest thing this <span class=\"ebt-matched\">lowlife</span> woman spouts out praise for that bald ascetic. ",
+            "matched": true
+          },
+          "sn7.1:5.3": {
+            "scid": "sn7.1:5.3",
+            "pli": "Idāni tyāhaṁ, vasali, tassa satthuno vādaṁ āropessāmī”ti. ",
+            "en": "Right now, <span class=\"ebt-matched\">lowlife</span> woman, I’m going to refute your teacher’s doctrine!” ",
+            "matched": true
+          }
+        },
+        "score": 2.054,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 7.1\n1. The Perfected Ones\nWith Dhanañjānī",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 37,
+          "en": 37
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn7/sn7.1_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn7/sn7.1_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn7/sn7.1_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

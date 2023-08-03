@@ -31,7 +31,7 @@
     "pattern": "all suffering",
     "method": "phrase",
     "resultPattern": "\\ball suffering",
-    "segsMatched": 55,
+    "segsMatched": 61,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn101_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn101_translation-en-sujato.json",
@@ -43,6 +43,7 @@
       "translation/en/sujato/sutta/sn/sn1/sn1.59_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn1/sn1.30_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.30_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn1/sn1.30_translation-en-davis.json",
       "root/pli/ms/sutta/mn/mn14_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn14_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thig/thig13.4_root-pli-ms.json",
@@ -57,18 +58,25 @@
       "root/pli/ms/sutta/kn/thig/thig13.4_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thig/thig13.4_translation-en-sujato.json",
       "translation/en/soma/sutta/kn/thig/thig13.4_translation-en-soma.json",
+      "root/pli/ms/sutta/sn/sn1/sn1.30_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn1/sn1.30_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn1/sn1.30_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn7/sn7.11_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn7/sn7.11_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn7/sn7.11_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn5/sn5.6_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn5/sn5.6_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn5/sn5.6_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn2/sn2.21_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn2/sn2.21_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn21/sn21.4_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn21/sn21.4_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn1/sn1.31_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.31_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn1/sn1.31_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn1/sn1.24_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.24_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn1/sn1.24_translation-en-davis.json",
       "root/pli/ms/sutta/mn/mn130_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn130_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thig/thig6.6_root-pli-ms.json",
@@ -126,7 +134,19 @@
       "translation/en/soma/sutta/kn/thig/thig13.3_translation-en-soma.json",
       "root/pli/ms/sutta/kn/thig/thig10.1_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thig/thig10.1_translation-en-sujato.json",
-      "translation/en/soma/sutta/kn/thig/thig10.1_translation-en-soma.json"
+      "translation/en/soma/sutta/kn/thig/thig10.1_translation-en-soma.json",
+      "root/pli/ms/sutta/sn/sn7/sn7.11_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn7/sn7.11_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn7/sn7.11_translation-en-davis.json",
+      "root/pli/ms/sutta/sn/sn5/sn5.6_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn5/sn5.6_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn5/sn5.6_translation-en-davis.json",
+      "root/pli/ms/sutta/sn/sn1/sn1.31_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn1/sn1.31_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn1/sn1.31_translation-en-davis.json",
+      "root/pli/ms/sutta/sn/sn1/sn1.24_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn1/sn1.24_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn1/sn1.24_translation-en-davis.json"
     ],
     "suttaRefs": [
       "mn101/en/sujato",
@@ -140,6 +160,7 @@
       "iti103/en/sujato",
       "dhp334-359/en/sujato",
       "thig13.4/en/soma",
+      "sn1.30/en/davis",
       "sn7.11/en/sujato",
       "sn5.6/en/sujato",
       "sn2.21/en/sujato",
@@ -170,7 +191,11 @@
       "thig6.6/en/soma",
       "thig6.3/en/soma",
       "thig13.3/en/soma",
-      "thig10.1/en/soma"
+      "thig10.1/en/soma",
+      "sn7.11/en/davis",
+      "sn5.6/en/davis",
+      "sn1.31/en/davis",
+      "sn1.24/en/davis"
     ],
     "mlDocs": [
       {
@@ -293,7 +318,44 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn1/sn1.30_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn1/sn1.30_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn1/sn1.30_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn1/sn1.30_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn1.30",
+        "lang": "en",
+        "segMap": {
+          "sn1.30:1.6": {
+            "scid": "sn1.30:1.6",
+            "pli": "kathaṁ dukkhā pamuccatī”ti. ",
+            "en": "How is one released from <span class=\"ebt-matched\">all suffering</span>?” ",
+            "matched": true
+          },
+          "sn1.30:2.4": {
+            "scid": "sn1.30:2.4",
+            "pli": "evaṁ dukkhā pamuccatī”ti. ",
+            "en": "you’re released from <span class=\"ebt-matched\">all suffering</span>.” ",
+            "matched": true
+          }
+        },
+        "score": 2.095,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 1.30\n3. A Sword\nAntelope Calves",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 21,
+          "en": 19
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn1/sn1.30_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn1/sn1.30_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn1/sn1.30_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
@@ -575,7 +637,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn1/sn1.24_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn1/sn1.24_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn1/sn1.24_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn1/sn1.24_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn1.24",
+        "lang": "en",
+        "segMap": {
+          "sn1.24:1.4": {
+            "scid": "sn1.24:1.4",
+            "pli": "Sa sabbato dukkhā pamuccatī”ti. ",
+            "en": "then you’re freed from <span class=\"ebt-matched\">all suffering</span>.” ",
+            "matched": true
+          }
+        },
+        "score": 1.091,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 1.24\n3. A Sword\nShielding the Mind",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 11,
+          "en": 11
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn1/sn1.24_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn1/sn1.24_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn1/sn1.24_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
@@ -720,7 +813,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn5/sn5.6_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn5/sn5.6_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn5/sn5.6_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn5/sn5.6_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn5.6",
+        "lang": "en",
+        "segMap": {
+          "sn5.6:4.3": {
+            "scid": "sn5.6:4.3",
+            "pli": "Sabbadukkhappahānāya, ",
+            "en": "for giving up <span class=\"ebt-matched\">all suffering</span>; ",
+            "matched": true
+          }
+        },
+        "score": 1.038,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 5.6\n1. Nuns\nWith Cālā",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 26,
+          "en": 26
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn5/sn5.6_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn5/sn5.6_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn5/sn5.6_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
@@ -1043,7 +1167,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn1/sn1.31_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn1/sn1.31_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn1/sn1.31_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn1/sn1.31_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn1.31",
+        "lang": "en",
+        "segMap": {
+          "sn1.31:15.4": {
+            "scid": "sn1.31:15.4",
+            "pli": "sabbadukkhā pamuccatī”ti. ",
+            "en": "you’re released from <span class=\"ebt-matched\">all suffering</span>.” ",
+            "matched": true
+          }
+        },
+        "score": 1.022,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 1.31\n4. The Satullapa Group\nVirtuous",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 45,
+          "en": 45
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn1/sn1.31_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn1/sn1.31_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn1/sn1.31_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
@@ -1101,7 +1256,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn7/sn7.11_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn7/sn7.11_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn7/sn7.11_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn7/sn7.11_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn7.11",
+        "lang": "en",
+        "segMap": {
+          "sn7.11:7.4": {
+            "scid": "sn7.11:7.4",
+            "pli": "sabbadukkhā pamuccatī”ti. ",
+            "en": "you’re released from <span class=\"ebt-matched\">all suffering</span>.” ",
+            "matched": true
+          }
+        },
+        "score": 1.02,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 7.11\n2. Lay Followers\nWith Bhāradvāja the Farmer",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 51,
+          "en": 51
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn7/sn7.11_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn7/sn7.11_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn7/sn7.11_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

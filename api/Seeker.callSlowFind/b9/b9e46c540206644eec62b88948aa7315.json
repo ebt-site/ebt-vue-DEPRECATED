@@ -31,18 +31,24 @@
     "pattern": "itch",
     "method": "phrase",
     "resultPattern": "\\bitch",
-    "segsMatched": 24,
+    "segsMatched": 34,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn22/sn22.79_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.79_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn22/sn22.79_translation-en-davis.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.79_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.79_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn22/sn22.79_translation-en-davis.json",
       "root/pli/ms/sutta/an/an9/an9.40_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an9/an9.40_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn22/sn22.82_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.82_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn22/sn22.81_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.81_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn22/sn22.81_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn22/sn22.80_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.80_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn22/sn22.80_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn22/sn22.78_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.78_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn22/sn22.77_root-pli-ms.json",
@@ -58,10 +64,17 @@
       "root/pli/ms/sutta/mn/mn75_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn75_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.60_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an10/an10.60_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an10/an10.60_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.81_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.81_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn22/sn22.81_translation-en-davis.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.80_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.80_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn22/sn22.80_translation-en-davis.json"
     ],
     "suttaRefs": [
       "sn22.79/en/sujato",
+      "sn22.79/en/davis",
       "an9.40/en/sujato",
       "sn22.82/en/sujato",
       "sn22.81/en/sujato",
@@ -73,13 +86,88 @@
       "sn22.74/en/sujato",
       "sn22.73/en/sujato",
       "mn75/en/sujato",
-      "an10.60/en/sujato"
+      "an10.60/en/sujato",
+      "sn22.81/en/davis",
+      "sn22.80/en/davis"
     ],
     "mlDocs": [
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn22/sn22.79_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn22/sn22.79_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn22/sn22.79_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn22/sn22.79_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.79",
+        "lang": "en",
+        "segMap": {
+          "sn22.79:0.2": {
+            "scid": "sn22.79:0.2",
+            "pli": "8. Khajjanīyavagga ",
+            "en": "8. <span class=\"ebt-matched\">Itch</span>y ",
+            "matched": true
+          },
+          "sn22.79:0.3": {
+            "scid": "sn22.79:0.3",
+            "pli": "Khajjanīyasutta ",
+            "en": "<span class=\"ebt-matched\">Itch</span>y ",
+            "matched": true
+          },
+          "sn22.79:7.2": {
+            "scid": "sn22.79:7.2",
+            "pli": "‘ahaṁ kho etarahi rūpena khajjāmi. ",
+            "en": "‘Currently I’m <span class=\"ebt-matched\">itch</span>ed by form. ",
+            "matched": true
+          },
+          "sn22.79:7.3": {
+            "scid": "sn22.79:7.3",
+            "pli": "Atītampāhaṁ addhānaṁ evameva rūpena khajjiṁ, seyyathāpi etarahi paccuppannena rūpena khajjāmi. ",
+            "en": "In the past I was also <span class=\"ebt-matched\">itch</span>ed by form just like now. ",
+            "matched": true
+          },
+          "sn22.79:7.4": {
+            "scid": "sn22.79:7.4",
+            "pli": "Ahañceva kho pana anāgataṁ rūpaṁ abhinandeyyaṁ, anāgatampāhaṁ addhānaṁ evameva rūpena khajjeyyaṁ, seyyathāpi etarahi paccuppannena rūpena khajjāmī’ti. ",
+            "en": "If I were to look forward to enjoying form in the future, I’d be <span class=\"ebt-matched\">itch</span>ed by form in the future just as I am today.’ ",
+            "matched": true
+          },
+          "sn22.79:8.1": {
+            "scid": "sn22.79:8.1",
+            "pli": "‘Ahaṁ kho etarahi vedanāya khajjāmi. ",
+            "en": "‘Currently I’m <span class=\"ebt-matched\">itch</span>ed by feeling … ",
+            "matched": true
+          },
+          "sn22.79:10.2": {
+            "scid": "sn22.79:10.2",
+            "pli": "Atītampi addhānaṁ evameva viññāṇena khajjiṁ, seyyathāpi etarahi paccuppannena viññāṇena khajjāmi. ",
+            "en": "In the past I was also <span class=\"ebt-matched\">itch</span>ed by consciousness just like now. ",
+            "matched": true
+          },
+          "sn22.79:10.3": {
+            "scid": "sn22.79:10.3",
+            "pli": "Ahañceva kho pana anāgataṁ viññāṇaṁ abhinandeyyaṁ; ",
+            "en": "If I were to look forward to enjoying consciousness in the future, I’d be <span class=\"ebt-matched\">itch</span>ed by consciousness in the future just as I am today.’ ",
+            "matched": true
+          }
+        },
+        "score": 8.052,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 22.79\n8. Itchy\nItchy",
+        "segsMatched": 8,
+        "langSegs": {
+          "pli": 153,
+          "en": 152
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.79_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.79_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn22/sn22.79_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
@@ -406,7 +494,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn22/sn22.80_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn22/sn22.80_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn22/sn22.80_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn22/sn22.80_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.80",
+        "lang": "en",
+        "segMap": {
+          "sn22.80:0.2": {
+            "scid": "sn22.80:0.2",
+            "pli": "8. Khajjanīyavagga ",
+            "en": "8. <span class=\"ebt-matched\">Itch</span>y ",
+            "matched": true
+          }
+        },
+        "score": 1.012,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 22.80\n8. Itchy\nBeggars",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 80,
+          "en": 79
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.80_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.80_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn22/sn22.80_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
@@ -464,7 +583,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn22/sn22.81_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn22/sn22.81_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn22/sn22.81_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn22/sn22.81_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.81",
+        "lang": "en",
+        "segMap": {
+          "sn22.81:0.2": {
+            "scid": "sn22.81:0.2",
+            "pli": "8. Khajjanīyavagga ",
+            "en": "8. <span class=\"ebt-matched\">Itch</span>y ",
+            "matched": true
+          }
+        },
+        "score": 1.007,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 22.81\n8. Itchy\nAt Pārileyya",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 140,
+          "en": 139
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.81_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.81_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn22/sn22.81_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

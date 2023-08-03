@@ -31,14 +31,18 @@
     "pattern": "like the moon",
     "method": "phrase",
     "resultPattern": "\\blike the moon",
-    "segsMatched": 50,
+    "segsMatched": 54,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn16/sn16.3_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn16/sn16.3_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn16/sn16.3_translation-en-davis.json",
       "root/pli/ms/sutta/an/an10/an10.68_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an10/an10.68_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.67_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an10/an10.67_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn16/sn16.3_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn16/sn16.3_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn16/sn16.3_translation-en-davis.json",
       "root/pli/ms/sutta/mn/mn86_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn86_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag16.8_root-pli-ms.json",
@@ -104,6 +108,7 @@
       "sn16.3/en/sujato",
       "an10.68/en/sujato",
       "an10.67/en/sujato",
+      "sn16.3/en/davis",
       "mn86/en/sujato",
       "thag16.8/en/sujato",
       "sn16.7/en/sujato",
@@ -136,7 +141,56 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn16/sn16.3_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn16/sn16.3_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn16/sn16.3_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn16/sn16.3_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn16.3",
+        "lang": "en",
+        "segMap": {
+          "sn16.3:0.3": {
+            "scid": "sn16.3:0.3",
+            "pli": "Candūpamāsutta ",
+            "en": "<span class=\"ebt-matched\">Like the Moon</span> ",
+            "matched": true
+          },
+          "sn16.3:1.2": {
+            "scid": "sn16.3:1.2",
+            "pli": "“Candūpamā, bhikkhave, kulāni upasaṅkamatha—",
+            "en": "“Mendicants, you should approach families <span class=\"ebt-matched\">like the moon</span>: ",
+            "matched": true
+          },
+          "sn16.3:1.6": {
+            "scid": "sn16.3:1.6",
+            "pli": "evameva kho, bhikkhave, candūpamā kulāni upasaṅkamatha—",
+            "en": "In the same way, you should approach families <span class=\"ebt-matched\">like the moon</span>: ",
+            "matched": true
+          },
+          "sn16.3:2.1": {
+            "scid": "sn16.3:2.1",
+            "pli": "Kassapo, bhikkhave, candūpamo kulāni upasaṅkamati—",
+            "en": "Kassapa approaches families <span class=\"ebt-matched\">like the moon</span>: ",
+            "matched": true
+          }
+        },
+        "score": 4.089,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 16.3\n1. Kassapa\nLike the Moon",
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 45,
+          "en": 44
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn16/sn16.3_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn16/sn16.3_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn16/sn16.3_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

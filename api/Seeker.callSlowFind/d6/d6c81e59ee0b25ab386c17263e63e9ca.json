@@ -31,7 +31,7 @@
     "pattern": "deity haunting that forest",
     "method": "phrase",
     "resultPattern": "\\bdeity haunting that forest",
-    "segsMatched": 13,
+    "segsMatched": 16,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn9/sn9.9_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn9/sn9.9_translation-en-sujato.json",
@@ -45,12 +45,15 @@
       "translation/en/sujato/sutta/sn/sn9/sn9.4_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn9/sn9.3_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn9/sn9.3_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn9/sn9.3_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn9/sn9.2_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn9/sn9.2_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn9/sn9.2_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn9/sn9.1_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn9/sn9.1_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn9/sn9.14_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn9/sn9.14_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn9/sn9.14_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn9/sn9.13_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn9/sn9.13_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn9/sn9.12_root-pli-ms.json",
@@ -58,7 +61,16 @@
       "root/pli/ms/sutta/sn/sn9/sn9.11_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn9/sn9.11_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn9/sn9.10_root-pli-ms.json",
-      "translation/en/sujato/sutta/sn/sn9/sn9.10_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn9/sn9.10_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn9/sn9.3_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn9/sn9.3_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn9/sn9.3_translation-en-davis.json",
+      "root/pli/ms/sutta/sn/sn9/sn9.2_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn9/sn9.2_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn9/sn9.2_translation-en-davis.json",
+      "root/pli/ms/sutta/sn/sn9/sn9.14_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn9/sn9.14_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn9/sn9.14_translation-en-davis.json"
     ],
     "suttaRefs": [
       "sn9.9/en/sujato",
@@ -73,7 +85,10 @@
       "sn9.13/en/sujato",
       "sn9.12/en/sujato",
       "sn9.11/en/sujato",
-      "sn9.10/en/sujato"
+      "sn9.10/en/sujato",
+      "sn9.3/en/davis",
+      "sn9.2/en/davis",
+      "sn9.14/en/davis"
     ],
     "mlDocs": [
       {
@@ -311,7 +326,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn9/sn9.3_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn9/sn9.3_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn9/sn9.3_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn9/sn9.3_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn9.3",
+        "lang": "en",
+        "segMap": {
+          "sn9.3:1.3": {
+            "scid": "sn9.3:1.3",
+            "pli": "Atha kho yā tasmiṁ vanasaṇḍe adhivatthā devatā āyasmantaṁ kassapagottaṁ saṁvejetukāmā yenāyasmā kassapagotto tenupasaṅkami; upasaṅkamitvā āyasmantaṁ kassapagottaṁ gāthāhi ajjhabhāsi: ",
+            "en": "Then the <span class=\"ebt-matched\">deity haunting that forest</span> approached Kassapagotta wanting to stir him up, and recited these verses: ",
+            "matched": true
+          }
+        },
+        "score": 1.053,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 9.3\n1. In the Woods\nWith Kassapagotta",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 19,
+          "en": 19
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn9/sn9.3_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn9/sn9.3_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn9/sn9.3_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
@@ -398,7 +444,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn9/sn9.2_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn9/sn9.2_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn9/sn9.2_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn9/sn9.2_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn9.2",
+        "lang": "en",
+        "segMap": {
+          "sn9.2:1.3": {
+            "scid": "sn9.2:1.3",
+            "pli": "Atha kho yā tasmiṁ vanasaṇḍe adhivatthā devatā tassa bhikkhuno anukampikā atthakāmā taṁ bhikkhuṁ saṁvejetukāmā yena so bhikkhu tenupasaṅkami; upasaṅkamitvā taṁ bhikkhuṁ gāthāhi ajjhabhāsi: ",
+            "en": "The <span class=\"ebt-matched\">deity haunting that forest</span> had compassion for that mendicant, and wanted what’s best for them. So they approached that mendicant wanting to stir them up, and addressed them in verse: ",
+            "matched": true
+          }
+        },
+        "score": 1.033,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 9.2\n1. In the Woods\nGetting Up",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 30,
+          "en": 30
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn9/sn9.2_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn9/sn9.2_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn9/sn9.2_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
@@ -427,7 +504,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn9/sn9.14_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn9/sn9.14_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn9/sn9.14_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn9/sn9.14_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn9.14",
+        "lang": "en",
+        "segMap": {
+          "sn9.14:1.3": {
+            "scid": "sn9.14:1.3",
+            "pli": "Atha kho yā tasmiṁ vanasaṇḍe adhivatthā devatā tassa bhikkhuno anukampikā atthakāmā taṁ bhikkhuṁ saṁvejetukāmā yena so bhikkhu tenupasaṅkami; upasaṅkamitvā taṁ bhikkhuṁ gāthāya ajjhabhāsi: ",
+            "en": "The <span class=\"ebt-matched\">deity haunting that forest</span> had compassion for that mendicant, and wanted what’s best for them. So they approached that mendicant wanting to stir them up, and addressed them in verse: ",
+            "matched": true
+          }
+        },
+        "score": 1.022,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 9.14\n1. In the Woods\nThe Thief of Scent",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 46,
+          "en": 45
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn9/sn9.14_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn9/sn9.14_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn9/sn9.14_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

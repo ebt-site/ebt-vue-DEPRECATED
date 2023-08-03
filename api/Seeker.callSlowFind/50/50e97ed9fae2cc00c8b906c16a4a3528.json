@@ -31,12 +31,16 @@
     "pattern": "classes of rebirth",
     "method": "phrase",
     "resultPattern": "\\bclasses of rebirth",
-    "segsMatched": 19,
+    "segsMatched": 23,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an6/an6.57_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an6/an6.57_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn24/sn24.7_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn24/sn24.7_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn24/sn24.7_translation-en-davis.json",
+      "root/pli/ms/sutta/sn/sn24/sn24.7_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn24/sn24.7_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn24/sn24.7_translation-en-davis.json",
       "root/pli/ms/sutta/mn/mn76_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn76_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn60_root-pli-ms.json",
@@ -45,17 +49,23 @@
       "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn24/sn24.8_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn24/sn24.8_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn24/sn24.8_translation-en-davis.json",
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
-      "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json"
+      "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn24/sn24.8_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn24/sn24.8_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn24/sn24.8_translation-en-davis.json"
     ],
     "suttaRefs": [
       "an6.57/en/sujato",
       "sn24.7/en/sujato",
+      "sn24.7/en/davis",
       "mn76/en/sujato",
       "mn60/en/sujato",
       "dn2/en/sujato",
       "sn24.8/en/sujato",
-      "dn33/en/sujato"
+      "dn33/en/sujato",
+      "sn24.8/en/davis"
     ],
     "mlDocs": [
       {
@@ -132,7 +142,50 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn24/sn24.7_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn24/sn24.7_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn24/sn24.7_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn24/sn24.7_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn24.7",
+        "lang": "en",
+        "segMap": {
+          "sn24.7:1.8": {
+            "scid": "sn24.7:1.8",
+            "pli": "Sabbe sattā sabbe pāṇā sabbe bhūtā sabbe jīvā avasā abalā avīriyā niyatisaṅgatibhāvapariṇatā chasvevābhijātīsu sukhadukkhaṁ paṭisaṁvedentī’”ti? ",
+            "en": "All sentient beings, all living creatures, all beings, all souls lack control, power, and energy. Molded by destiny, circumstance, and nature, they experience pleasure and pain in the six <span class=\"ebt-matched\">classes of rebirth</span>’?” ",
+            "matched": true
+          },
+          "sn24.7:2.3": {
+            "scid": "sn24.7:2.3",
+            "pli": "sukhadukkhaṁ paṭisaṁvedentī’ti. ",
+            "en": "they experience pleasure and pain in the six <span class=\"ebt-matched\">classes of rebirth</span>.’ ",
+            "matched": true
+          },
+          "sn24.7:2.9": {
+            "scid": "sn24.7:2.9",
+            "pli": "sukhadukkhaṁ paṭisaṁvedentī’ti. ",
+            "en": "they experience pleasure and pain in the six <span class=\"ebt-matched\">classes of rebirth</span>.’ ",
+            "matched": true
+          }
+        },
+        "score": 3.065,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 24.7\n1. Stream-Entry\nCause",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 46,
+          "en": 45
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn24/sn24.7_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn24/sn24.7_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn24/sn24.7_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
@@ -278,7 +331,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn24/sn24.8_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn24/sn24.8_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn24/sn24.8_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn24/sn24.8_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn24.8",
+        "lang": "en",
+        "segMap": {
+          "sn24.8:1.11": {
+            "scid": "sn24.8:1.11",
+            "pli": "Cuddasa kho panimāni yonipamukhasatasahassāni saṭṭhi ca satāni cha ca satāni pañca ca kammuno satāni pañca ca kammāni, tīṇi ca kammāni, kamme ca aḍḍhakamme ca dvaṭṭhipaṭipadā, dvaṭṭhantarakappā, chaḷābhijātiyo, aṭṭha purisabhūmiyo, ekūnapaññāsa ājīvakasate, ekūnapaññāsa paribbājakasate, ekūnapaññāsa nāgavāsasate, vīse indriyasate, tiṁse nirayasate, chattiṁsarajodhātuyo, satta saññīgabbhā, satta asaññīgabbhā, satta nigaṇṭhigabbhā, satta devā, satta mānusā, satta pesācā, satta sarā, satta pavuṭā, satta papātā, satta ca papātasatāni, satta supinā, satta supinasatāni, cullāsīti mahākappino satasahassāni, yāni bāle ca paṇḍite ca sandhāvitvā saṁsaritvā dukkhassantaṁ karissanti. ",
+            "en": "There are 1.4 million main wombs, and 6,000, and 600. There are 500 deeds, and five, and three. There are deeds and half-deeds. There are 62 paths, 62 sub-eons, six <span class=\"ebt-matched\">classes of rebirth</span>, and eight stages in a person’s life. There are 4,900 Ājīvaka ascetics, 4,900 wanderers, and 4,900 naked ascetics. There are 2,000 faculties, 3,000 hells, and 36 realms of dust. There are seven percipient embryos, seven non-percipient embryos, and seven knotless embryos. There are seven gods, seven humans, and seven goblins. There are seven lakes, seven rivers, 700 rivers, seven cliffs, and 700 cliffs. There are seven dreams and 700 dreams. There are 8.4 million great eons through which the foolish and the astute transmigrate before making an end of suffering. ",
+            "matched": true
+          }
+        },
+        "score": 1.023,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 24.8\n1. Stream-Entry\nThe Extensive View",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 44,
+          "en": 43
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn24/sn24.8_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn24/sn24.8_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn24/sn24.8_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

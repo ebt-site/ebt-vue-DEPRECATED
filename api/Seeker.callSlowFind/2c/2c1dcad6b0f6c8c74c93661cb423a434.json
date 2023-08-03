@@ -31,32 +31,42 @@
     "pattern": "is on fire",
     "method": "phrase",
     "resultPattern": "\\bis on fire",
-    "segsMatched": 10,
+    "segsMatched": 13,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn8/sn8.4_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn8/sn8.4_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn1/sn1.41_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.41_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn1/sn1.41_translation-en-davis.json",
       "root/pli/ms/sutta/kn/thag/thag21.1_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thag/thag21.1_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.52_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an3/an3.52_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn1/sn1.41_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn1/sn1.41_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn1/sn1.41_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn5/sn5.7_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn5/sn5.7_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn5/sn5.7_translation-en-davis.json",
       "root/pli/ms/sutta/kn/thig/thig8.1_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thig/thig8.1_translation-en-sujato.json",
       "translation/en/soma/sutta/kn/thig/thig8.1_translation-en-soma.json",
       "root/pli/ms/sutta/kn/thig/thig16.1_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thig/thig16.1_translation-en-sujato.json",
-      "translation/en/soma/sutta/kn/thig/thig16.1_translation-en-soma.json"
+      "translation/en/soma/sutta/kn/thig/thig16.1_translation-en-soma.json",
+      "root/pli/ms/sutta/sn/sn5/sn5.7_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn5/sn5.7_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn5/sn5.7_translation-en-davis.json"
     ],
     "suttaRefs": [
       "sn8.4/en/sujato",
       "sn1.41/en/sujato",
       "thag21.1/en/sujato",
       "an3.52/en/sujato",
+      "sn1.41/en/davis",
       "sn5.7/en/sujato",
-      "thig8.1/en/sujato"
+      "thig8.1/en/sujato",
+      "sn5.7/en/davis"
     ],
     "mlDocs": [
       {
@@ -97,7 +107,44 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn1/sn1.41_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn1/sn1.41_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn1/sn1.41_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn1/sn1.41_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn1.41",
+        "lang": "en",
+        "segMap": {
+          "sn1.41:2.1": {
+            "scid": "sn1.41:2.1",
+            "pli": "“Ādittasmiṁ agārasmiṁ, ",
+            "en": "“When your house <span class=\"ebt-matched\">is on fire</span>, ",
+            "matched": true
+          },
+          "sn1.41:3.1": {
+            "scid": "sn1.41:3.1",
+            "pli": "Evaṁ ādittako loko, ",
+            "en": "And as the world <span class=\"ebt-matched\">is on fire</span> ",
+            "matched": true
+          }
+        },
+        "score": 2.08,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 1.41\n5. On Fire\nOn Fire",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 25,
+          "en": 25
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn1/sn1.41_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn1/sn1.41_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn1/sn1.41_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
@@ -202,7 +249,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn5/sn5.7_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn5/sn5.7_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn5/sn5.7_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn5/sn5.7_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn5.7",
+        "lang": "en",
+        "segMap": {
+          "sn5.7:4.1": {
+            "scid": "sn5.7:4.1",
+            "pli": "Sabbo ādīpito loko, ",
+            "en": "All the world <span class=\"ebt-matched\">is on fire</span>, ",
+            "matched": true
+          }
+        },
+        "score": 1.033,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 5.7\n1. Nuns\nWith Upacālā",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 30,
+          "en": 30
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn5/sn5.7_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn5/sn5.7_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn5/sn5.7_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

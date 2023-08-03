@@ -31,7 +31,7 @@
     "pattern": "again and again",
     "method": "phrase",
     "resultPattern": "\\bagain and again",
-    "segsMatched": 70,
+    "segsMatched": 72,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn7/sn7.12_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn7/sn7.12_translation-en-sujato.json",
@@ -44,6 +44,7 @@
       "translation/en/soma/sutta/kn/thig/thig16.1_translation-en-soma.json",
       "root/pli/ms/sutta/sn/sn35/sn35.134_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.134_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn35/sn35.134_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn1/sn1.77_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.77_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn122_root-pli-ms.json",
@@ -58,6 +59,9 @@
       "root/pli/ms/sutta/kn/dhp/dhp116-128_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/dhp/dhp116-128_translation-en-sujato.json",
       "translation/en/suddhaso/sutta/kn/dhp/dhp116-128_translation-en-suddhaso.json",
+      "root/pli/ms/sutta/sn/sn35/sn35.134_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.134_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn35/sn35.134_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn8/sn8.4_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn8/sn8.4_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn4/sn4.13_root-pli-ms.json",
@@ -133,6 +137,7 @@
       "snp3.12/en/sujato",
       "dhp334-359/en/sujato",
       "dhp116-128/en/sujato",
+      "sn35.134/en/davis",
       "sn8.4/en/sujato",
       "sn4.13/en/sujato",
       "sn48.50/en/sujato",
@@ -446,7 +451,44 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn35/sn35.134_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn35/sn35.134_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn35/sn35.134_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn35/sn35.134_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn35.134",
+        "lang": "en",
+        "segMap": {
+          "sn35.134:1.10": {
+            "scid": "sn35.134:1.10",
+            "pli": "Tyāssa phussa phussa cittaṁ na pariyādāya tiṭṭhanti. ",
+            "en": "Though experiencing them <span class=\"ebt-matched\">again and again</span> they don’t occupy the mind. ",
+            "matched": true
+          },
+          "sn35.134:1.14": {
+            "scid": "sn35.134:1.14",
+            "pli": "Tyāssa phussa phussa cittaṁ na pariyādāya tiṭṭhanti. ",
+            "en": "Though experiencing them <span class=\"ebt-matched\">again and again</span> they don’t occupy the mind. ",
+            "matched": true
+          }
+        },
+        "score": 2.1,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 35.134\n14. At Devadaha\nAt Devadaha",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 20,
+          "en": 19
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn35/sn35.134_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn35/sn35.134_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn35/sn35.134_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

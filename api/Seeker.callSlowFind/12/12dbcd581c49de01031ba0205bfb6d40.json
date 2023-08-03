@@ -31,7 +31,7 @@
     "pattern": "favoring and opposing",
     "method": "phrase",
     "resultPattern": "\\bfavoring and opposing",
-    "segsMatched": 12,
+    "segsMatched": 13,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn38_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn38_translation-en-sujato.json",
@@ -41,10 +41,14 @@
       "translation/en/sujato/sutta/sn/sn4/sn4.14_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn36/sn36.6_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn36/sn36.6_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn36/sn36.6_translation-en-davis.json",
       "root/pli/ms/sutta/kn/snp/vagga2/snp2.13_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/snp/vagga2/snp2.13_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.5_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an8/an8.5_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an8/an8.5_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn36/sn36.6_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn36/sn36.6_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn36/sn36.6_translation-en-davis.json"
     ],
     "suttaRefs": [
       "mn38/en/sujato",
@@ -52,7 +56,8 @@
       "sn4.14/en/sujato",
       "sn36.6/en/sujato",
       "snp2.13/en/sujato",
-      "an8.5/en/sujato"
+      "an8.5/en/sujato",
+      "sn36.6/en/davis"
     ],
     "mlDocs": [
       {
@@ -210,7 +215,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn36/sn36.6_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn36/sn36.6_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn36/sn36.6_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn36/sn36.6_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn36.6",
+        "lang": "en",
+        "segMap": {
+          "sn36.6:6.1": {
+            "scid": "sn36.6:6.1",
+            "pli": "Tassānurodhā athavā virodhā, ",
+            "en": "Both <span class=\"ebt-matched\">favoring and opposing</span> ",
+            "matched": true
+          }
+        },
+        "score": 1.016,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 36.6\n1. With Verses\nAn Arrow",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 63,
+          "en": 62
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn36/sn36.6_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn36/sn36.6_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn36/sn36.6_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

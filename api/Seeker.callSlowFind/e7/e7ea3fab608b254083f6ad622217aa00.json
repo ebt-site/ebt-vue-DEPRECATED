@@ -31,7 +31,7 @@
     "pattern": "should be given up",
     "method": "phrase",
     "resultPattern": "\\bshould be given up",
-    "segsMatched": 103,
+    "segsMatched": 107,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an6/an6.58_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an6/an6.58_translation-en-sujato.json",
@@ -53,14 +53,22 @@
       "translation/en/sujato/sutta/an/an4/an4.254_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn35/sn35.25_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.25_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn35/sn35.25_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn35/sn35.24_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.24_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn35/sn35.24_translation-en-davis.json",
       "root/pli/ms/sutta/mn/mn44_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn44_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.188_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an4/an4.188_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.94_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an10/an10.94_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn35/sn35.25_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.25_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn35/sn35.25_translation-en-davis.json",
+      "root/pli/ms/sutta/sn/sn35/sn35.24_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.24_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn35/sn35.24_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn56/sn56.29_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn56/sn56.29_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn56/sn56.12_root-pli-ms.json",
@@ -93,6 +101,8 @@
       "mn44/en/sujato",
       "an4.188/en/sujato",
       "an10.94/en/sujato",
+      "sn35.25/en/davis",
+      "sn35.24/en/davis",
       "sn56.29/en/sujato",
       "sn56.12/en/sujato",
       "sn56.11/en/sujato",
@@ -823,7 +833,44 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn35/sn35.24_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn35/sn35.24_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn35/sn35.24_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn35/sn35.24_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn35.24",
+        "lang": "en",
+        "segMap": {
+          "sn35.24:1.4": {
+            "scid": "sn35.24:1.4",
+            "pli": "Cakkhuṁ, bhikkhave, pahātabbaṁ, rūpā pahātabbā, cakkhuviññāṇaṁ pahātabbaṁ, cakkhusamphasso pahātabbo, yampidaṁ cakkhusamphassapaccayā uppajjati vedayitaṁ sukhaṁ vā dukkhaṁ vā adukkhamasukhaṁ vā tampi pahātabbaṁ …pe… ",
+            "en": "The eye <span class=\"ebt-matched\">should be given up</span>. Sights <span class=\"ebt-matched\">should be given up</span>. Eye consciousness <span class=\"ebt-matched\">should be given up</span>. Eye contact <span class=\"ebt-matched\">should be given up</span>. The painful, pleasant, or neutral feeling that arises conditioned by eye contact should also be given up. ",
+            "matched": true
+          },
+          "sn35.24:1.8": {
+            "scid": "sn35.24:1.8",
+            "pli": "mano pahātabbo, dhammā pahātabbā, manoviññāṇaṁ pahātabbaṁ, manosamphasso pahātabbo, yampidaṁ manosamphassapaccayā uppajjati vedayitaṁ sukhaṁ vā dukkhaṁ vā adukkhamasukhaṁ vā tampi pahātabbaṁ. ",
+            "en": "mind <span class=\"ebt-matched\">should be given up</span>. Thoughts <span class=\"ebt-matched\">should be given up</span>. Mind consciousness <span class=\"ebt-matched\">should be given up</span>. Mind contact <span class=\"ebt-matched\">should be given up</span>. The painful, pleasant, or neutral feeling that arises conditioned by mind contact <span class=\"ebt-matched\">should be given up</span>. ",
+            "matched": true
+          }
+        },
+        "score": 2.154,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 35.24\n3. All\nGiving Up",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 13,
+          "en": 12
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn35/sn35.24_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn35/sn35.24_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn35/sn35.24_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
@@ -858,7 +905,44 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn35/sn35.25_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn35/sn35.25_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn35/sn35.25_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn35/sn35.25_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn35.25",
+        "lang": "en",
+        "segMap": {
+          "sn35.25:1.4": {
+            "scid": "sn35.25:1.4",
+            "pli": "Cakkhuṁ, bhikkhave, abhiññā pariññā pahātabbaṁ, rūpā abhiññā pariññā pahātabbā, cakkhuviññāṇaṁ abhiññā pariññā pahātabbaṁ, cakkhusamphasso abhiññā pariññā pahātabbo, yampidaṁ cakkhusamphassapaccayā uppajjati vedayitaṁ sukhaṁ vā dukkhaṁ vā adukkhamasukhaṁ vā tampi abhiññā pariññā pahātabbaṁ …pe… ",
+            "en": "The eye <span class=\"ebt-matched\">should be given up</span> by direct knowledge and complete understanding. Sights <span class=\"ebt-matched\">should be given up</span> by direct knowledge and complete understanding. Eye consciousness <span class=\"ebt-matched\">should be given up</span> by direct knowledge and complete understanding. Eye contact <span class=\"ebt-matched\">should be given up</span> by direct knowledge and complete understanding. The painful, pleasant, or neutral feeling that arises conditioned by eye contact <span class=\"ebt-matched\">should be given up</span> by direct knowledge and complete understanding. ",
+            "matched": true
+          },
+          "sn35.25:1.8": {
+            "scid": "sn35.25:1.8",
+            "pli": "mano abhiññā pariññā pahātabbo, dhammā abhiññā pariññā pahātabbā, manoviññāṇaṁ abhiññā pariññā pahātabbaṁ, manosamphasso abhiññā pariññā pahātabbo, yampidaṁ manosamphassapaccayā uppajjati vedayitaṁ sukhaṁ vā dukkhaṁ vā adukkhamasukhaṁ vā tampi abhiññā pariññā pahātabbaṁ. ",
+            "en": "mind <span class=\"ebt-matched\">should be given up</span> by direct knowledge and complete understanding. Thoughts <span class=\"ebt-matched\">should be given up</span> by direct knowledge and complete understanding. Mind consciousness <span class=\"ebt-matched\">should be given up</span> by direct knowledge and complete understanding. Mind contact <span class=\"ebt-matched\">should be given up</span> by direct knowledge and complete understanding. The painful, pleasant, or neutral feeling that arises conditioned by mind contact <span class=\"ebt-matched\">should be given up</span> by direct knowledge and complete understanding. ",
+            "matched": true
+          }
+        },
+        "score": 2.154,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 35.25\n3. All\nGiving Up By Direct Knowledge and Complete Understanding",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 13,
+          "en": 12
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn35/sn35.25_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn35/sn35.25_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn35/sn35.25_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

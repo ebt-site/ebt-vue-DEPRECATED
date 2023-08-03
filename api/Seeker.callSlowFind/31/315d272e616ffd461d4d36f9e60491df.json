@@ -31,16 +31,20 @@
     "pattern": "what is right",
     "method": "phrase",
     "resultPattern": "\\bwhat is right",
-    "segsMatched": 43,
+    "segsMatched": 51,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn117_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn117_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn45/sn45.8_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn45/sn45.8_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn45/sn45.8_translation-en-davis.json",
       "root/pli/ms/sutta/mn/mn141_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn141_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn22_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn22_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn45/sn45.8_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn45/sn45.8_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn45/sn45.8_translation-en-davis.json",
       "root/pli/ms/sutta/an/an5/an5.132_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an5/an5.132_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.131_root-pli-ms.json",
@@ -51,6 +55,7 @@
       "sn45.8/en/sujato",
       "mn141/en/sujato",
       "dn22/en/sujato",
+      "sn45.8/en/davis",
       "an5.132/en/sujato",
       "an5.131/en/sujato"
     ],
@@ -171,7 +176,80 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn45/sn45.8_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn45/sn45.8_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn45/sn45.8_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn45/sn45.8_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn45.8",
+        "lang": "en",
+        "segMap": {
+          "sn45.8:3.1": {
+            "scid": "sn45.8:3.1",
+            "pli": "Katamā ca, bhikkhave, sammādiṭṭhi? ",
+            "en": "And <span class=\"ebt-matched\">what is right</span> view? ",
+            "matched": true
+          },
+          "sn45.8:4.1": {
+            "scid": "sn45.8:4.1",
+            "pli": "Katamo ca, bhikkhave, sammāsaṅkappo? ",
+            "en": "And <span class=\"ebt-matched\">what is right</span> thought? ",
+            "matched": true
+          },
+          "sn45.8:5.1": {
+            "scid": "sn45.8:5.1",
+            "pli": "Katamā ca, bhikkhave, sammāvācā? ",
+            "en": "And <span class=\"ebt-matched\">what is right</span> speech? ",
+            "matched": true
+          },
+          "sn45.8:6.1": {
+            "scid": "sn45.8:6.1",
+            "pli": "Katamo ca, bhikkhave, sammākammanto? ",
+            "en": "And <span class=\"ebt-matched\">what is right</span> action? ",
+            "matched": true
+          },
+          "sn45.8:7.1": {
+            "scid": "sn45.8:7.1",
+            "pli": "Katamo ca, bhikkhave, sammāājīvo? ",
+            "en": "And <span class=\"ebt-matched\">what is right</span> livelihood? ",
+            "matched": true
+          },
+          "sn45.8:8.1": {
+            "scid": "sn45.8:8.1",
+            "pli": "Katamo ca, bhikkhave, sammāvāyāmo? ",
+            "en": "And <span class=\"ebt-matched\">what is right</span> effort? ",
+            "matched": true
+          },
+          "sn45.8:9.1": {
+            "scid": "sn45.8:9.1",
+            "pli": "Katamā ca, bhikkhave, sammāsati? ",
+            "en": "And <span class=\"ebt-matched\">what is right</span> mindfulness? ",
+            "matched": true
+          },
+          "sn45.8:10.1": {
+            "scid": "sn45.8:10.1",
+            "pli": "Katamo ca, bhikkhave, sammāsamādhi? ",
+            "en": "And <span class=\"ebt-matched\">what is right</span> immersion? ",
+            "matched": true
+          }
+        },
+        "score": 8.182,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 45.8\n1. Ignorance\nAnalysis",
+        "segsMatched": 8,
+        "langSegs": {
+          "pli": 44,
+          "en": 43
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn45/sn45.8_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn45/sn45.8_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn45/sn45.8_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

@@ -31,12 +31,13 @@
     "pattern": "accept my mistake",
     "method": "phrase",
     "resultPattern": "\\baccept my mistake",
-    "segsMatched": 10,
+    "segsMatched": 11,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn65_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn65_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn12/sn12.70_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn12/sn12.70_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn12/sn12.70_translation-en-davis.json",
       "root/pli/ms/sutta/mn/mn140_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn140_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
@@ -48,7 +49,10 @@
       "root/pli/ms/sutta/an/an4/an4.159_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an4/an4.159_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.91_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an3/an3.91_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an3/an3.91_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn12/sn12.70_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.70_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn12/sn12.70_translation-en-davis.json"
     ],
     "suttaRefs": [
       "mn65/en/sujato",
@@ -58,7 +62,8 @@
       "dn25/en/sujato",
       "an9.11/en/sujato",
       "an4.159/en/sujato",
-      "an3.91/en/sujato"
+      "an3.91/en/sujato",
+      "sn12.70/en/davis"
     ],
     "mlDocs": [
       {
@@ -192,7 +197,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn12/sn12.70_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn12/sn12.70_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn12/sn12.70_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn12/sn12.70_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn12.70",
+        "lang": "en",
+        "segMap": {
+          "sn12.70:27.3": {
+            "scid": "sn12.70:27.3",
+            "pli": "Tassa me, bhante, bhagavā accayaṁ accayato paṭiggaṇhātu āyatiṁ saṁvarāyā”ti. ",
+            "en": "Please, sir, <span class=\"ebt-matched\">accept my mistake</span> for what it is, so I will restrain myself in future.” ",
+            "matched": true
+          }
+        },
+        "score": 1.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 12.70\n7. The Great Chapter\nThe Wanderer Susīma",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 180,
+          "en": 176
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn12/sn12.70_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn12/sn12.70_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn12/sn12.70_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

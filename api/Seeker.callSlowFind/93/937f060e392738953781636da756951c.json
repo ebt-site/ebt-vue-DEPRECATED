@@ -31,7 +31,7 @@
     "pattern": "very long time",
     "method": "phrase",
     "resultPattern": "\\bvery long time",
-    "segsMatched": 31,
+    "segsMatched": 35,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn27_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn27_translation-en-sujato.json",
@@ -45,14 +45,20 @@
       "translation/en/sujato/sutta/dn/dn1_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn15/sn15.4_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn15/sn15.4_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn15/sn15.4_translation-en-davis.json",
       "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn15/sn15.4_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn15/sn15.4_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn15/sn15.4_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn56/sn56.47_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn56/sn56.47_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn56/sn56.47_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn56/sn56.21_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn56/sn56.21_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn15/sn15.3_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn15/sn15.3_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn15/sn15.3_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn15/sn15.13_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn15/sn15.13_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thig/thig16.1_root-pli-ms.json",
@@ -64,7 +70,13 @@
       "translation/en/sujato/sutta/an/an10/an10.29_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thig/thig13.2_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thig/thig13.2_translation-en-sujato.json",
-      "translation/en/soma/sutta/kn/thig/thig13.2_translation-en-soma.json"
+      "translation/en/soma/sutta/kn/thig/thig13.2_translation-en-soma.json",
+      "root/pli/ms/sutta/sn/sn56/sn56.47_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn56/sn56.47_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn56/sn56.47_translation-en-davis.json",
+      "root/pli/ms/sutta/sn/sn15/sn15.3_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn15/sn15.3_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn15/sn15.3_translation-en-davis.json"
     ],
     "suttaRefs": [
       "dn27/en/sujato",
@@ -74,13 +86,16 @@
       "dn1/en/sujato",
       "sn15.4/en/sujato",
       "dn16/en/sujato",
+      "sn15.4/en/davis",
       "sn56.47/en/sujato",
       "sn56.21/en/sujato",
       "sn15.3/en/sujato",
       "sn15.13/en/sujato",
       "thig16.1/en/sujato",
       "an4.1/en/sujato",
-      "an10.29/en/sujato"
+      "an10.29/en/sujato",
+      "sn56.47/en/davis",
+      "sn15.3/en/davis"
     ],
     "mlDocs": [
       {
@@ -321,7 +336,44 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn15/sn15.4_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn15/sn15.4_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn15/sn15.4_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn15/sn15.4_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn15.4",
+        "lang": "en",
+        "segMap": {
+          "sn15.4:1.4": {
+            "scid": "sn15.4:1.4",
+            "pli": "Taṁ kiṁ maññatha, bhikkhave, katamaṁ nu kho bahutaraṁ, yaṁ vā vo iminā dīghena addhunā sandhāvataṁ saṁsarataṁ mātuthaññaṁ pītaṁ, yaṁ vā catūsu mahāsamuddesu udakan”ti? ",
+            "en": "What do you think? Which is more: the mother’s milk you’ve drunk while roaming and transmigrating for such a <span class=\"ebt-matched\">very long time</span>, or the water in the four oceans?” ",
+            "matched": true
+          },
+          "sn15.4:2.2": {
+            "scid": "sn15.4:2.2",
+            "pli": "Etadeva, bhikkhave, bahutaraṁ yaṁ vo iminā dīghena addhunā sandhāvataṁ saṁsarataṁ mātuthaññaṁ pītaṁ, na tveva catūsu mahāsamuddesu udakaṁ. ",
+            "en": "The mother’s milk you’ve drunk while roaming and transmigrating for such a <span class=\"ebt-matched\">very long time</span> is more than the water in the four oceans. ",
+            "matched": true
+          }
+        },
+        "score": 2.143,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 15.4\nChapter One\nMother’s Milk",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 14,
+          "en": 13
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn15/sn15.4_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn15/sn15.4_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn15/sn15.4_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
@@ -391,7 +443,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn56/sn56.47_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn56/sn56.47_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn56/sn56.47_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn56/sn56.47_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn56.47",
+        "lang": "en",
+        "segMap": {
+          "sn56.47:1.4": {
+            "scid": "sn56.47:1.4",
+            "pli": "“Yadi nūna, bhante, kadāci karahaci dīghassa addhuno accayenā”ti. ",
+            "en": "“Only after a <span class=\"ebt-matched\">very long time</span>, sir, if ever.” ",
+            "matched": true
+          }
+        },
+        "score": 1.059,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 56.47\n5. A Cliff\nA Yoke With a Hole (1st)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 17,
+          "en": 16
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn56/sn56.47_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn56/sn56.47_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn56/sn56.47_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
@@ -449,7 +532,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn15/sn15.3_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn15/sn15.3_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn15/sn15.3_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn15/sn15.3_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn15.3",
+        "lang": "en",
+        "segMap": {
+          "sn15.3:1.4": {
+            "scid": "sn15.3:1.4",
+            "pli": "Taṁ kiṁ maññatha, bhikkhave, katamaṁ nu kho bahutaraṁ, yaṁ vā vo iminā dīghena addhunā sandhāvataṁ saṁsarataṁ amanāpasampayogā manāpavippayogā kandantānaṁ rodantānaṁ assu passannaṁ paggharitaṁ, yaṁ vā catūsu mahāsamuddesu udakan”ti? ",
+            "en": "What do you think? Which is more: the flow of tears you’ve shed while roaming and transmigrating for such a <span class=\"ebt-matched\">very long time</span>—weeping and wailing from being united with the unloved and separated from the loved—or the water in the four oceans?” ",
+            "matched": true
+          }
+        },
+        "score": 1.042,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 15.3\nChapter One\nTears",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 24,
+          "en": 23
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn15/sn15.3_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn15/sn15.3_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn15/sn15.3_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

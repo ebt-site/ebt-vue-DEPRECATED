@@ -31,7 +31,7 @@
     "pattern": "non-percipient",
     "method": "phrase",
     "resultPattern": "\\bnon-percipient",
-    "segsMatched": 50,
+    "segsMatched": 54,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn1_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn1_translation-en-sujato.json",
@@ -43,12 +43,17 @@
       "translation/en/sujato/sutta/dn/dn9_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn22/sn22.47_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.47_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn22/sn22.47_translation-en-davis.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.47_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.47_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn22/sn22.47_translation-en-davis.json",
       "root/pli/ms/sutta/dn/dn29_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn29_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn44/sn44.11_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn44/sn44.11_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn24/sn24.8_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn24/sn24.8_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn24/sn24.8_translation-en-davis.json",
       "root/pli/ms/sutta/mn/mn76_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn76_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn140_root-pli-ms.json",
@@ -70,7 +75,10 @@
       "root/pli/ms/sutta/an/an9/an9.37_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an9/an9.37_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an9/an9.24_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an9/an9.24_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an9/an9.24_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn24/sn24.8_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn24/sn24.8_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn24/sn24.8_translation-en-davis.json"
     ],
     "suttaRefs": [
       "dn1/en/sujato",
@@ -78,6 +86,7 @@
       "sn35.248/en/sujato",
       "dn9/en/sujato",
       "sn22.47/en/sujato",
+      "sn22.47/en/davis",
       "dn29/en/sujato",
       "sn44.11/en/sujato",
       "sn24.8/en/sujato",
@@ -91,7 +100,8 @@
       "dn24/en/sujato",
       "dn15/en/sujato",
       "an9.37/en/sujato",
-      "an9.24/en/sujato"
+      "an9.24/en/sujato",
+      "sn24.8/en/davis"
     ],
     "mlDocs": [
       {
@@ -381,7 +391,50 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn22/sn22.47_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn22/sn22.47_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn22/sn22.47_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn22/sn22.47_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.47",
+        "lang": "en",
+        "segMap": {
+          "sn22.47:2.13": {
+            "scid": "sn22.47:2.13",
+            "pli": "‘nevasaññīnāsaññī bhavissan’tipissa hoti. ",
+            "en": "‘I will be neither percipient nor <span class=\"ebt-matched\">non-percipient</span>’. ",
+            "matched": true
+          },
+          "sn22.47:3.10": {
+            "scid": "sn22.47:3.10",
+            "pli": "asaññī … ",
+            "en": "‘I will be <span class=\"ebt-matched\">non-percipient</span>’, ",
+            "matched": true
+          },
+          "sn22.47:3.11": {
+            "scid": "sn22.47:3.11",
+            "pli": "‘nevasaññīnāsaññī bhavissan’tipissa na hotī”ti. ",
+            "en": "‘I will be neither percipient nor <span class=\"ebt-matched\">non-percipient</span>’.” ",
+            "matched": true
+          }
+        },
+        "score": 3.081,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 22.47\n5. Be Your Own Island\nWays of Regarding",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 37,
+          "en": 36
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.47_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.47_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn22/sn22.47_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
@@ -544,7 +597,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn24/sn24.8_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn24/sn24.8_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn24/sn24.8_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn24/sn24.8_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn24.8",
+        "lang": "en",
+        "segMap": {
+          "sn24.8:1.11": {
+            "scid": "sn24.8:1.11",
+            "pli": "Cuddasa kho panimāni yonipamukhasatasahassāni saṭṭhi ca satāni cha ca satāni pañca ca kammuno satāni pañca ca kammāni, tīṇi ca kammāni, kamme ca aḍḍhakamme ca dvaṭṭhipaṭipadā, dvaṭṭhantarakappā, chaḷābhijātiyo, aṭṭha purisabhūmiyo, ekūnapaññāsa ājīvakasate, ekūnapaññāsa paribbājakasate, ekūnapaññāsa nāgavāsasate, vīse indriyasate, tiṁse nirayasate, chattiṁsarajodhātuyo, satta saññīgabbhā, satta asaññīgabbhā, satta nigaṇṭhigabbhā, satta devā, satta mānusā, satta pesācā, satta sarā, satta pavuṭā, satta papātā, satta ca papātasatāni, satta supinā, satta supinasatāni, cullāsīti mahākappino satasahassāni, yāni bāle ca paṇḍite ca sandhāvitvā saṁsaritvā dukkhassantaṁ karissanti. ",
+            "en": "There are 1.4 million main wombs, and 6,000, and 600. There are 500 deeds, and five, and three. There are deeds and half-deeds. There are 62 paths, 62 sub-eons, six classes of rebirth, and eight stages in a person’s life. There are 4,900 Ājīvaka ascetics, 4,900 wanderers, and 4,900 naked ascetics. There are 2,000 faculties, 3,000 hells, and 36 realms of dust. There are seven percipient embryos, seven <span class=\"ebt-matched\">non-percipient</span> embryos, and seven knotless embryos. There are seven gods, seven humans, and seven goblins. There are seven lakes, seven rivers, 700 rivers, seven cliffs, and 700 cliffs. There are seven dreams and 700 dreams. There are 8.4 million great eons through which the foolish and the astute transmigrate before making an end of suffering. ",
+            "matched": true
+          }
+        },
+        "score": 1.023,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 24.8\n1. Stream-Entry\nThe Extensive View",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 44,
+          "en": 43
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn24/sn24.8_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn24/sn24.8_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn24/sn24.8_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

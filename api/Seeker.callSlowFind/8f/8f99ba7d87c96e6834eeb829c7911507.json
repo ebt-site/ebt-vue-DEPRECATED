@@ -31,7 +31,7 @@
     "pattern": "by means of a simile",
     "method": "phrase",
     "resultPattern": "\\bby means of a simile",
-    "segsMatched": 18,
+    "segsMatched": 19,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn23_translation-en-sujato.json",
@@ -39,6 +39,7 @@
       "translation/en/sujato/sutta/sn/sn41/sn41.1_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn12/sn12.67_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn12/sn12.67_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn12/sn12.67_translation-en-davis.json",
       "root/pli/ms/sutta/mn/mn76_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn76_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn56_root-pli-ms.json",
@@ -52,7 +53,10 @@
       "root/pli/ms/sutta/an/an8/an8.8_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an8/an8.8_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.95_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an10/an10.95_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an10/an10.95_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn12/sn12.67_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.67_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn12/sn12.67_translation-en-davis.json"
     ],
     "suttaRefs": [
       "dn23/en/sujato",
@@ -64,7 +68,8 @@
       "mn24/en/sujato",
       "mn127/en/sujato",
       "an8.8/en/sujato",
-      "an10.95/en/sujato"
+      "an10.95/en/sujato",
+      "sn12.67/en/davis"
     ],
     "mlDocs": [
       {
@@ -205,7 +210,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn12/sn12.67_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn12/sn12.67_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn12/sn12.67_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn12/sn12.67_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn12.67",
+        "lang": "en",
+        "segMap": {
+          "sn12.67:7.3": {
+            "scid": "sn12.67:7.3",
+            "pli": "Upamāyapidhekacce viññū purisā bhāsitassa atthaṁ jānanti. ",
+            "en": "For <span class=\"ebt-matched\">by means of a simile</span> some sensible people understand the meaning of what is said. ",
+            "matched": true
+          }
+        },
+        "score": 1.015,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 12.67\n7. The Great Chapter\nBundles of Reeds",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 67,
+          "en": 66
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn12/sn12.67_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn12/sn12.67_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn12/sn12.67_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

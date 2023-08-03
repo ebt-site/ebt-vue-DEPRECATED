@@ -31,7 +31,7 @@
     "pattern": "disappearance of the true teaching",
     "method": "phrase",
     "resultPattern": "\\bdisappearance of the true teaching",
-    "segsMatched": 26,
+    "segsMatched": 28,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an4/an4.160_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an4/an4.160_translation-en-sujato.json",
@@ -43,10 +43,14 @@
       "translation/en/sujato/sutta/an/an5/an5.155_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn16/sn16.13_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn16/sn16.13_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn16/sn16.13_translation-en-davis.json",
       "root/pli/ms/sutta/an/an5/an5.154_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an5/an5.154_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an2/an2.11-20_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an2/an2.11-20_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an2/an2.11-20_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn16/sn16.13_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn16/sn16.13_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn16/sn16.13_translation-en-davis.json"
     ],
     "suttaRefs": [
       "an4.160/en/sujato",
@@ -55,7 +59,8 @@
       "an5.155/en/sujato",
       "sn16.13/en/sujato",
       "an5.154/en/sujato",
-      "an2.11-20/en/sujato"
+      "an2.11-20/en/sujato",
+      "sn16.13/en/davis"
     ],
     "mlDocs": [
       {
@@ -308,7 +313,44 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn16/sn16.13_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn16/sn16.13_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn16/sn16.13_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn16/sn16.13_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn16.13",
+        "lang": "en",
+        "segMap": {
+          "sn16.13:4.1": {
+            "scid": "sn16.13:4.1",
+            "pli": "Pañca khome, kassapa, okkamaniyā dhammā saddhammassa sammosāya antaradhānāya saṁvattanti. ",
+            "en": "There are five detrimental things that lead to the decline and <span class=\"ebt-matched\">disappearance of the true teaching</span>. ",
+            "matched": true
+          },
+          "sn16.13:4.4": {
+            "scid": "sn16.13:4.4",
+            "pli": "ime kho, kassapa, pañca okkamaniyā dhammā saddhammassa sammosāya antaradhānāya saṁvattanti. ",
+            "en": "These five detrimental things lead to the decline and <span class=\"ebt-matched\">disappearance of the true teaching</span>. ",
+            "matched": true
+          }
+        },
+        "score": 2.054,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 16.13\n1. Kassapa\nThe Counterfeit of the True Teaching",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 37,
+          "en": 36
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn16/sn16.13_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn16/sn16.13_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn16/sn16.13_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

@@ -31,19 +31,24 @@
     "pattern": "no craving at all",
     "method": "phrase",
     "resultPattern": "\\bno craving at all",
-    "segsMatched": 4,
+    "segsMatched": 5,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn15_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn15_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn12/sn12.51_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn12/sn12.51_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn12/sn12.51_translation-en-davis.json",
       "root/pli/ms/sutta/kn/snp/vagga3/snp3.5_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/snp/vagga3/snp3.5_translation-en-sujato.json"
+      "translation/en/sujato/sutta/kn/snp/vagga3/snp3.5_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn12/sn12.51_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.51_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn12/sn12.51_translation-en-davis.json"
     ],
     "suttaRefs": [
       "dn15/en/sujato",
       "sn12.51/en/sujato",
-      "snp3.5/en/sujato"
+      "snp3.5/en/sujato",
+      "sn12.51/en/davis"
     ],
     "mlDocs": [
       {
@@ -84,7 +89,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn12/sn12.51_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn12/sn12.51_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn12/sn12.51_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn12/sn12.51_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn12.51",
+        "lang": "en",
+        "segMap": {
+          "sn12.51:20.1": {
+            "scid": "sn12.51:20.1",
+            "pli": "“Sabbaso vā pana taṇhāya asati, taṇhānirodhā api nu kho upādānaṁ paññāyethā”ti? ",
+            "en": "“And when there’s <span class=\"ebt-matched\">no craving at all</span>, would grasping still be found?” ",
+            "matched": true
+          }
+        },
+        "score": 1.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 12.51\n6. Suffering\nAn Inquiry",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 92,
+          "en": 91
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn12/sn12.51_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn12/sn12.51_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn12/sn12.51_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

@@ -31,7 +31,7 @@
     "pattern": "thief",
     "method": "phrase",
     "resultPattern": "\\bthief",
-    "segsMatched": 49,
+    "segsMatched": 55,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an5/an5.103_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an5/an5.103_translation-en-sujato.json",
@@ -41,10 +41,18 @@
       "translation/en/sujato/sutta/an/an8/an8.84_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn9/sn9.14_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn9/sn9.14_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn9/sn9.14_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn12/sn12.70_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn12/sn12.70_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn12/sn12.70_translation-en-davis.json",
       "root/pli/ms/sutta/an/an7/an7.63_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an7/an7.63_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn9/sn9.14_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn9/sn9.14_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn9/sn9.14_translation-en-davis.json",
+      "root/pli/ms/sutta/sn/sn12/sn12.70_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.70_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn12/sn12.70_translation-en-davis.json",
       "root/pli/ms/sutta/kn/thag/thag6.13_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thag/thag6.13_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/kp/kp8_root-pli-ms.json",
@@ -59,6 +67,8 @@
       "sn9.14/en/sujato",
       "sn12.70/en/sujato",
       "an7.63/en/sujato",
+      "sn9.14/en/davis",
+      "sn12.70/en/davis",
       "thag6.13/en/sujato",
       "kp8/en/sujato",
       "an5.137/en/sujato"
@@ -358,7 +368,50 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn9/sn9.14_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn9/sn9.14_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn9/sn9.14_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn9/sn9.14_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn9.14",
+        "lang": "en",
+        "segMap": {
+          "sn9.14:0.3": {
+            "scid": "sn9.14:0.3",
+            "pli": "Gandhatthenasutta ",
+            "en": "The <span class=\"ebt-matched\">Thief</span> of Scent ",
+            "matched": true
+          },
+          "sn9.14:2.4": {
+            "scid": "sn9.14:2.4",
+            "pli": "gandhatthenosi mārisā”ti. ",
+            "en": "Good sir, you are a <span class=\"ebt-matched\">thief</span> of scent!” ",
+            "matched": true
+          },
+          "sn9.14:3.4": {
+            "scid": "sn9.14:3.4",
+            "pli": "gandhatthenoti vuccati. ",
+            "en": "do you call me a <span class=\"ebt-matched\">thief</span> of scent? ",
+            "matched": true
+          }
+        },
+        "score": 3.065,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 9.14\n1. In the Woods\nThe Thief of Scent",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 46,
+          "en": 45
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn9/sn9.14_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn9/sn9.14_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn9/sn9.14_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
@@ -440,7 +493,50 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn12/sn12.70_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn12/sn12.70_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn12/sn12.70_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn12/sn12.70_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn12.70",
+        "lang": "en",
+        "segMap": {
+          "sn12.70:27.2": {
+            "scid": "sn12.70:27.2",
+            "pli": "“accayo maṁ, bhante, accagamā yathābālaṁ yathāmūḷhaṁ yathāakusalaṁ, yvāhaṁ evaṁ svākkhāte dhammavinaye dhammatthenako pabbajito. ",
+            "en": "“I have made a mistake, sir. It was foolish, stupid, and unskillful of me to go forth as a <span class=\"ebt-matched\">thief</span> in such a well-explained teaching and training. ",
+            "matched": true
+          },
+          "sn12.70:28.1": {
+            "scid": "sn12.70:28.1",
+            "pli": "“Taggha tvaṁ, susima, accayo accagamā yathābālaṁ yathāmūḷhaṁ yathāakusalaṁ, yo tvaṁ evaṁ svākkhāte dhammavinaye dhammatthenako pabbajito. ",
+            "en": "“Indeed, Susīma, you made a mistake. It was foolish, stupid, and unskillful of you to go forth as a <span class=\"ebt-matched\">thief</span> in such a well-explained teaching and training. ",
+            "matched": true
+          },
+          "sn12.70:29.2": {
+            "scid": "sn12.70:29.2",
+            "pli": "Yā evaṁ svākkhāte dhammavinaye dhammatthenakassa pabbajjā, ayaṁ tato dukkhavipākatarā ca kaṭukavipākatarā ca, api ca vinipātāya saṁvattati. ",
+            "en": "going forth as a <span class=\"ebt-matched\">thief</span> in such a well-explained teaching and training has a more painful and bitter result. And it even leads to the underworld. ",
+            "matched": true
+          }
+        },
+        "score": 3.017,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 12.70\n7. The Great Chapter\nThe Wanderer Susīma",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 180,
+          "en": 176
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn12/sn12.70_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn12/sn12.70_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn12/sn12.70_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

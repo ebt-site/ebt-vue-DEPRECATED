@@ -31,12 +31,13 @@
     "pattern": "craving for touches",
     "method": "phrase",
     "resultPattern": "\\bcraving for touches",
-    "segsMatched": 7,
+    "segsMatched": 8,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn27/sn27.8_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn27/sn27.8_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn25/sn25.8_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn25/sn25.8_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn25/sn25.8_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn18/sn18.8_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn18/sn18.8_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn18/sn18.12-20_root-pli-ms.json",
@@ -46,7 +47,10 @@
       "root/pli/ms/sutta/an/an7/an7.96-614_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an7/an7.96-614_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an11/an11.358-405_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an11/an11.358-405_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an11/an11.358-405_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn25/sn25.8_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn25/sn25.8_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn25/sn25.8_translation-en-davis.json"
     ],
     "suttaRefs": [
       "sn27.8/en/sujato",
@@ -55,7 +59,8 @@
       "sn18.12-20/en/sujato",
       "dn22/en/sujato",
       "an7.96-614/en/sujato",
-      "an11.358-405/en/sujato"
+      "an11.358-405/en/sujato",
+      "sn25.8/en/davis"
     ],
     "mlDocs": [
       {
@@ -90,7 +95,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn25/sn25.8_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn25/sn25.8_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn25/sn25.8_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn25/sn25.8_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn25.8",
+        "lang": "en",
+        "segMap": {
+          "sn25.8:1.6": {
+            "scid": "sn25.8:1.6",
+            "pli": "phoṭṭhabbataṇhā … ",
+            "en": "<span class=\"ebt-matched\">craving for touches</span>, ",
+            "matched": true
+          }
+        },
+        "score": 1.077,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 25.8\n1. The Eye\nCraving For Sights",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 13,
+          "en": 12
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn25/sn25.8_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn25/sn25.8_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn25/sn25.8_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

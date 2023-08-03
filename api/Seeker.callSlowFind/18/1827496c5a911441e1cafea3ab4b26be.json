@@ -31,7 +31,7 @@
     "pattern": "exterior sense fields",
     "method": "phrase",
     "resultPattern": "\\bexterior sense fields",
-    "segsMatched": 26,
+    "segsMatched": 28,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn146_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn146_translation-en-sujato.json",
@@ -49,8 +49,10 @@
       "translation/en/sujato/sutta/dn/dn22_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn35/sn35.241_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.241_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn35/sn35.241_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn35/sn35.238_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.238_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn35/sn35.238_translation-en-davis.json",
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn28_root-pli-ms.json",
@@ -58,7 +60,13 @@
       "root/pli/ms/sutta/an/an6/an6.61_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an6/an6.61_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.60_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an10/an10.60_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an10/an10.60_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn35/sn35.241_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.241_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn35/sn35.241_translation-en-davis.json",
+      "root/pli/ms/sutta/sn/sn35/sn35.238_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.238_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn35/sn35.238_translation-en-davis.json"
     ],
     "suttaRefs": [
       "mn146/en/sujato",
@@ -73,7 +81,9 @@
       "dn33/en/sujato",
       "dn28/en/sujato",
       "an6.61/en/sujato",
-      "an10.60/en/sujato"
+      "an10.60/en/sujato",
+      "sn35.241/en/davis",
+      "sn35.238/en/davis"
     ],
     "mlDocs": [
       {
@@ -360,7 +370,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn35/sn35.241_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn35/sn35.241_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn35/sn35.241_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn35/sn35.241_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn35.241",
+        "lang": "en",
+        "segMap": {
+          "sn35.241:3.2": {
+            "scid": "sn35.241:3.2",
+            "pli": "‘Pārimaṁ tīran’ti kho, bhikkhu, channetaṁ bāhirānaṁ āyatanānaṁ adhivacanaṁ. ",
+            "en": "‘The far shore’ is a term for the six <span class=\"ebt-matched\">exterior sense fields</span>. ",
+            "matched": true
+          }
+        },
+        "score": 1.021,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 35.241\n19. The Simile of the Vipers\nThe Simile of the Tree Trunk (1st)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 47,
+          "en": 46
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn35/sn35.241_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn35/sn35.241_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn35/sn35.241_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
@@ -418,7 +459,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn35/sn35.238_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn35/sn35.238_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn35/sn35.238_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn35/sn35.238_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn35.238",
+        "lang": "en",
+        "segMap": {
+          "sn35.238:11.1": {
+            "scid": "sn35.238:11.1",
+            "pli": "Corā gāmaghātakāti kho, bhikkhave, channetaṁ bāhirānaṁ āyatanānaṁ adhivacanaṁ. ",
+            "en": "‘Bandits who raid villages’ is a term for the six <span class=\"ebt-matched\">exterior sense fields</span>. ",
+            "matched": true
+          }
+        },
+        "score": 1.017,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 35.238\n19. The Simile of the Vipers\nThe Simile of the Vipers",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 58,
+          "en": 57
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn35/sn35.238_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn35/sn35.238_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn35/sn35.238_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

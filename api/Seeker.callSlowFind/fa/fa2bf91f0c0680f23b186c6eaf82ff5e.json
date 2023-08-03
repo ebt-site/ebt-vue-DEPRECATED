@@ -31,22 +31,64 @@
     "pattern": "more dear to you than yourself",
     "method": "phrase",
     "resultPattern": "\\bmore dear to you than yourself",
-    "segsMatched": 4,
+    "segsMatched": 6,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn3/sn3.8_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn3/sn3.8_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn3/sn3.8_translation-en-davis.json",
       "root/pli/ms/sutta/kn/ud/vagga5/ud5.1_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/ud/vagga5/ud5.1_translation-en-sujato.json"
+      "translation/en/sujato/sutta/kn/ud/vagga5/ud5.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn3/sn3.8_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn3/sn3.8_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn3/sn3.8_translation-en-davis.json"
     ],
     "suttaRefs": [
       "sn3.8/en/sujato",
-      "ud5.1/en/sujato"
+      "ud5.1/en/sujato",
+      "sn3.8/en/davis"
     ],
     "mlDocs": [
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn3/sn3.8_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn3/sn3.8_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn3/sn3.8_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn3/sn3.8_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn3.8",
+        "lang": "en",
+        "segMap": {
+          "sn3.8:1.4": {
+            "scid": "sn3.8:1.4",
+            "pli": "“atthi nu kho te, mallike, kocañño attanā piyataro”ti? ",
+            "en": "“Mallikā, is there anyone <span class=\"ebt-matched\">more dear to you than yourself</span>?” ",
+            "matched": true
+          },
+          "sn3.8:1.6": {
+            "scid": "sn3.8:1.6",
+            "pli": "Tuyhaṁ pana, mahārāja, atthañño koci attanā piyataro”ti? ",
+            "en": "But is there anyone <span class=\"ebt-matched\">more dear to you than yourself</span>?” ",
+            "matched": true
+          }
+        },
+        "score": 2.087,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 3.8\n1. Shackles\nWith Queen Mallikā",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 23,
+          "en": 23
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn3/sn3.8_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn3/sn3.8_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn3/sn3.8_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

@@ -31,10 +31,11 @@
     "pattern": "beaten, terminator",
     "method": "phrase",
     "resultPattern": "\\bbeaten, terminator",
-    "segsMatched": 13,
+    "segsMatched": 15,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn4/sn4.5_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn4/sn4.5_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn4/sn4.5_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn4/sn4.4_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn4/sn4.4_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn4/sn4.3_root-pli-ms.json",
@@ -43,6 +44,7 @@
       "translation/en/sujato/sutta/sn/sn4/sn4.2_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn4/sn4.1_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn4/sn4.1_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn4/sn4.1_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn4/sn4.15_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn4/sn4.15_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thig/thig8.1_root-pli-ms.json",
@@ -65,7 +67,13 @@
       "translation/en/soma/sutta/kn/thig/thig3.7_translation-en-soma.json",
       "root/pli/ms/sutta/kn/thig/thig11.1_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thig/thig11.1_translation-en-sujato.json",
-      "translation/en/soma/sutta/kn/thig/thig11.1_translation-en-soma.json"
+      "translation/en/soma/sutta/kn/thig/thig11.1_translation-en-soma.json",
+      "root/pli/ms/sutta/sn/sn4/sn4.5_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn4/sn4.5_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn4/sn4.5_translation-en-davis.json",
+      "root/pli/ms/sutta/sn/sn4/sn4.1_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn4/sn4.1_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn4/sn4.1_translation-en-davis.json"
     ],
     "suttaRefs": [
       "sn4.5/en/sujato",
@@ -80,7 +88,9 @@
       "thig6.3/en/sujato",
       "thig3.8/en/sujato",
       "thig3.7/en/sujato",
-      "thig11.1/en/sujato"
+      "thig11.1/en/sujato",
+      "sn4.5/en/davis",
+      "sn4.1/en/davis"
     ],
     "mlDocs": [
       {
@@ -262,7 +272,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn4/sn4.1_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn4/sn4.1_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn4/sn4.1_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn4/sn4.1_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn4.1",
+        "lang": "en",
+        "segMap": {
+          "sn4.1:6.4": {
+            "scid": "sn4.1:6.4",
+            "pli": "Nihato tvamasi antakā”ti. ",
+            "en": "You’re <span class=\"ebt-matched\">beaten, terminator</span>!” ",
+            "matched": true
+          }
+        },
+        "score": 1.042,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 4.1\n1. Life Span\nMortification",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 24,
+          "en": 24
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn4/sn4.1_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn4/sn4.1_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn4/sn4.1_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
@@ -291,7 +332,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn4/sn4.5_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn4/sn4.5_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn4/sn4.5_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn4/sn4.5_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn4.5",
+        "lang": "en",
+        "segMap": {
+          "sn4.5:4.4": {
+            "scid": "sn4.5:4.4",
+            "pli": "Nihato tvamasi antakā”ti. ",
+            "en": "You’re <span class=\"ebt-matched\">beaten, terminator</span>!” ",
+            "matched": true
+          }
+        },
+        "score": 1.038,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 4.5\n1. Life Span\nMāra’s Snares (2nd)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 26,
+          "en": 26
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn4/sn4.5_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn4/sn4.5_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn4/sn4.5_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

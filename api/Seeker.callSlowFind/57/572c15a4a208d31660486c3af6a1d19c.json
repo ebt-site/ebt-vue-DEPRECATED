@@ -31,7 +31,7 @@
     "pattern": "much suffering and distress",
     "method": "phrase",
     "resultPattern": "\\bmuch suffering and distress",
-    "segsMatched": 19,
+    "segsMatched": 21,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn22_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn22_translation-en-sujato.json",
@@ -39,10 +39,14 @@
       "translation/en/sujato/sutta/an/an5/an5.76_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn1/sn1.20_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.20_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn1/sn1.20_translation-en-davis.json",
       "root/pli/ms/sutta/mn/mn54_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn54_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn14_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn14_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn1/sn1.20_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn1/sn1.20_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn1/sn1.20_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn4/sn4.21_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn4/sn4.21_translation-en-sujato.json"
     ],
@@ -52,6 +56,7 @@
       "sn1.20/en/sujato",
       "mn54/en/sujato",
       "mn14/en/sujato",
+      "sn1.20/en/davis",
       "sn4.21/en/sujato"
     ],
     "mlDocs": [
@@ -176,7 +181,44 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn1/sn1.20_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn1/sn1.20_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn1/sn1.20_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn1/sn1.20_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn1.20",
+        "lang": "en",
+        "segMap": {
+          "sn1.20:5.3": {
+            "scid": "sn1.20:5.3",
+            "pli": "Kālikā hi, āvuso, kāmā vuttā bhagavatā bahudukkhā bahupāyāsā; ādīnavo ettha bhiyyo. ",
+            "en": "For the Buddha has said that sensual pleasures take effect over time, with <span class=\"ebt-matched\">much suffering and distress</span>, and they’re all the more full of drawbacks. ",
+            "matched": true
+          },
+          "sn1.20:6.1": {
+            "scid": "sn1.20:6.1",
+            "pli": "“Kathañca, bhikkhu, kālikā kāmā vuttā bhagavatā bahudukkhā bahupāyāsā, ādīnavo ettha bhiyyo? ",
+            "en": "“But in what way, mendicant, has the Buddha said that sensual pleasures take effect over time, with <span class=\"ebt-matched\">much suffering and distress</span>, and they’re all the more full of drawbacks? ",
+            "matched": true
+          }
+        },
+        "score": 2.019,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 1.20\n2. The Garden of Delight\nWith Samiddhi",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 108,
+          "en": 106
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn1/sn1.20_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn1/sn1.20_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn1/sn1.20_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

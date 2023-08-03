@@ -31,7 +31,7 @@
     "pattern": "faculty of wisdom",
     "method": "phrase",
     "resultPattern": "\\bfaculty of wisdom",
-    "segsMatched": 31,
+    "segsMatched": 33,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an1/an1.394-574_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an1/an1.394-574_translation-en-sujato.json",
@@ -57,6 +57,10 @@
       "translation/en/sujato/sutta/sn/sn48/sn48.11_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn48/sn48.10_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn48/sn48.10_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn48/sn48.10_translation-en-davis.json",
+      "root/pli/ms/sutta/sn/sn48/sn48.10_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn48/sn48.10_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn48/sn48.10_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn48/sn48.8_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn48/sn48.8_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn48/sn48.50_root-pli-ms.json",
@@ -83,6 +87,7 @@
       "sn48.43/en/sujato",
       "sn48.11/en/sujato",
       "sn48.10/en/sujato",
+      "sn48.10/en/davis",
       "sn48.8/en/sujato",
       "sn48.50/en/sujato",
       "sn48.46/en/sujato",
@@ -485,7 +490,44 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn48/sn48.10_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn48/sn48.10_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn48/sn48.10_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn48/sn48.10_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn48.10",
+        "lang": "en",
+        "segMap": {
+          "sn48.10:5.1": {
+            "scid": "sn48.10:5.1",
+            "pli": "Katamañca, bhikkhave, paññindriyaṁ? ",
+            "en": "And what is the <span class=\"ebt-matched\">faculty of wisdom</span>? ",
+            "matched": true
+          },
+          "sn48.10:5.4": {
+            "scid": "sn48.10:5.4",
+            "pli": "idaṁ vuccati, bhikkhave, paññindriyaṁ. ",
+            "en": "This is called the <span class=\"ebt-matched\">faculty of wisdom</span>. ",
+            "matched": true
+          }
+        },
+        "score": 2.047,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 48.10\n1. Plain Version\nAnalysis (2nd)",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 43,
+          "en": 41
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn48/sn48.10_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn48/sn48.10_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn48/sn48.10_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

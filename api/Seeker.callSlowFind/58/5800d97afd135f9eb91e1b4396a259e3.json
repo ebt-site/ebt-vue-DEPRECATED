@@ -31,22 +31,27 @@
     "pattern": "cousin",
     "method": "phrase",
     "resultPattern": "\\bcousin",
-    "segsMatched": 6,
+    "segsMatched": 7,
     "bilaraPaths": [
       "root/pli/ms/sutta/kn/ud/vagga3/ud3.2_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/ud/vagga3/ud3.2_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn22/sn22.84_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.84_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn22/sn22.84_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn21/sn21.9_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn21/sn21.9_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn21/sn21.8_root-pli-ms.json",
-      "translation/en/sujato/sutta/sn/sn21/sn21.8_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn21/sn21.8_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.84_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.84_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn22/sn22.84_translation-en-davis.json"
     ],
     "suttaRefs": [
       "ud3.2/en/sujato",
       "sn22.84/en/sujato",
       "sn21.9/en/sujato",
-      "sn21.8/en/sujato"
+      "sn21.8/en/sujato",
+      "sn22.84/en/davis"
     ],
     "mlDocs": [
       {
@@ -151,7 +156,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn22/sn22.84_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn22/sn22.84_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn22/sn22.84_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn22/sn22.84_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.84",
+        "lang": "en",
+        "segMap": {
+          "sn22.84:1.2": {
+            "scid": "sn22.84:1.2",
+            "pli": "Tena kho pana samayena āyasmā tisso bhagavato pitucchāputto sambahulānaṁ bhikkhūnaṁ evamāroceti: ",
+            "en": "Now at that time Venerable Tissa, the Buddha’s paternal <span class=\"ebt-matched\">cousin</span>, informed several mendicants: ",
+            "matched": true
+          }
+        },
+        "score": 1.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 22.84\n9. Senior Mendicants\nWith Tissa",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 93,
+          "en": 82
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.84_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.84_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn22/sn22.84_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

@@ -31,7 +31,7 @@
     "pattern": "not otherwise",
     "method": "phrase",
     "resultPattern": "\\bnot otherwise",
-    "segsMatched": 29,
+    "segsMatched": 31,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
@@ -47,8 +47,10 @@
       "translation/en/sujato/sutta/sn/sn56/sn56.27_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn12/sn12.51_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn12/sn12.51_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn12/sn12.51_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn12/sn12.20_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn12/sn12.20_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn12/sn12.20_translation-en-davis.json",
       "root/pli/ms/sutta/kn/iti/vagga11/iti112_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/iti/vagga11/iti112_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn29_root-pli-ms.json",
@@ -56,7 +58,13 @@
       "root/pli/ms/sutta/an/an5/an5.100_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an5/an5.100_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.23_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an4/an4.23_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an4/an4.23_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn12/sn12.51_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.51_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn12/sn12.51_translation-en-davis.json",
+      "root/pli/ms/sutta/sn/sn12/sn12.20_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.20_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn12/sn12.20_translation-en-davis.json"
     ],
     "suttaRefs": [
       "dn34/en/sujato",
@@ -70,7 +78,9 @@
       "iti112/en/sujato",
       "dn29/en/sujato",
       "an5.100/en/sujato",
-      "an4.23/en/sujato"
+      "an4.23/en/sujato",
+      "sn12.51/en/davis",
+      "sn12.20/en/davis"
     ],
     "mlDocs": [
       {
@@ -381,7 +391,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn12/sn12.20_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn12/sn12.20_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn12/sn12.20_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn12/sn12.20_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn12.20",
+        "lang": "en",
+        "segMap": {
+          "sn12.20:3.16": {
+            "scid": "sn12.20:3.16",
+            "pli": "Iti kho, bhikkhave, yā tatra tathatā avitathatā anaññathatā idappaccayatā—",
+            "en": "So the fact that this is real, not unreal, <span class=\"ebt-matched\">not otherwise</span>; the specific conditionality of it: ",
+            "matched": true
+          }
+        },
+        "score": 1.016,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 12.20\n2. Fuel\nConditions",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 64,
+          "en": 62
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn12/sn12.20_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn12/sn12.20_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn12/sn12.20_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
@@ -439,7 +480,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn12/sn12.51_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn12/sn12.51_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn12/sn12.51_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn12/sn12.51_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn12.51",
+        "lang": "en",
+        "segMap": {
+          "sn12.51:24.1": {
+            "scid": "sn12.51:24.1",
+            "pli": "“Sādhu sādhu, bhikkhave, evametaṁ, bhikkhave, netaṁ aññathā. ",
+            "en": "“Good, good, mendicants! That’s how it is, <span class=\"ebt-matched\">not otherwise</span>. ",
+            "matched": true
+          }
+        },
+        "score": 1.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 12.51\n6. Suffering\nAn Inquiry",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 92,
+          "en": 91
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn12/sn12.51_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn12/sn12.51_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn12/sn12.51_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

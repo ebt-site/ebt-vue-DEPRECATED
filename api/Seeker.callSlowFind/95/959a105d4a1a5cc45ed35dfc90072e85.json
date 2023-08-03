@@ -31,7 +31,7 @@
     "pattern": "encourage others to do the same",
     "method": "phrase",
     "resultPattern": "\\bencourage others to do the same",
-    "segsMatched": 40,
+    "segsMatched": 41,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an8/an8.25_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an8/an8.25_translation-en-sujato.json",
@@ -45,6 +45,7 @@
       "translation/en/sujato/sutta/mn/mn60_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn24/sn24.6_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn24/sn24.6_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn24/sn24.6_translation-en-davis.json",
       "root/pli/ms/sutta/mn/mn76_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn76_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
@@ -56,7 +57,10 @@
       "root/pli/ms/sutta/an/an4/an4.193_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an4/an4.193_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.65_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an3/an3.65_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an3/an3.65_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn24/sn24.6_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn24/sn24.6_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn24/sn24.6_translation-en-davis.json"
     ],
     "suttaRefs": [
       "an8.25/en/sujato",
@@ -70,7 +74,8 @@
       "an4.99/en/sujato",
       "an4.96/en/sujato",
       "an4.193/en/sujato",
-      "an3.65/en/sujato"
+      "an3.65/en/sujato",
+      "sn24.6/en/davis"
     ],
     "mlDocs": [
       {
@@ -447,7 +452,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn24/sn24.6_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn24/sn24.6_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn24/sn24.6_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn24/sn24.6_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn24.6",
+        "lang": "en",
+        "segMap": {
+          "sn24.6:1.3": {
+            "scid": "sn24.6:1.3",
+            "pli": "‘karoto kārayato chindato chedāpayato pacato pācāpayato socato socāpayato kilamato kilamāpayato phandato phandāpayato pāṇamatipātayato adinnaṁ ādiyato sandhiṁ chindato nillopaṁ harato ekāgārikaṁ karoto paripanthe tiṭṭhato paradāraṁ gacchato musā bhaṇato karoto na karīyati pāpaṁ. ",
+            "en": "‘The one who acts does nothing wrong when they punish, mutilate, torture, aggrieve, oppress, intimidate, or when they <span class=\"ebt-matched\">encourage others to do the same</span>. Nothing bad is done when they kill, steal, break into houses, plunder wealth, steal from isolated buildings, commit highway robbery, commit adultery, and lie. ",
+            "matched": true
+          }
+        },
+        "score": 1.022,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 24.6\n1. Stream-Entry\nActing",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 45,
+          "en": 44
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn24/sn24.6_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn24/sn24.6_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn24/sn24.6_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

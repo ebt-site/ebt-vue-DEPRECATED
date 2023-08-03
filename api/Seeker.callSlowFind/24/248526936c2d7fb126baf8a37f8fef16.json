@@ -31,7 +31,7 @@
     "pattern": "be completely understood",
     "method": "phrase",
     "resultPattern": "\\bbe completely understood",
-    "segsMatched": 44,
+    "segsMatched": 47,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
@@ -45,12 +45,16 @@
       "translation/en/sujato/sutta/sn/sn45/sn45.159_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn22/sn22.23_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.23_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn22/sn22.23_translation-en-davis.json",
       "root/pli/ms/sutta/mn/mn149_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn149_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an6/an6.61_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an6/an6.61_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.254_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an4/an4.254_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.23_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.23_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn22/sn22.23_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn56/sn56.12_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn56/sn56.12_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn56/sn56.11_root-pli-ms.json",
@@ -70,6 +74,7 @@
       "mn149/en/sujato",
       "an6.61/en/sujato",
       "an4.254/en/sujato",
+      "sn22.23/en/davis",
       "sn56.12/en/sujato",
       "sn56.11/en/sujato",
       "sn35.43-51/en/sujato",
@@ -321,7 +326,50 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn22/sn22.23_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn22/sn22.23_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn22/sn22.23_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn22/sn22.23_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.23",
+        "lang": "en",
+        "segMap": {
+          "sn22.23:1.2": {
+            "scid": "sn22.23:1.2",
+            "pli": "“Pariññeyye ca, bhikkhave, dhamme desessāmi pariññañca. ",
+            "en": "“Mendicants, I will teach you the things that should <span class=\"ebt-matched\">be completely understood</span>, and complete understanding. ",
+            "matched": true
+          },
+          "sn22.23:1.4": {
+            "scid": "sn22.23:1.4",
+            "pli": "Katame ca, bhikkhave, pariññeyyā dhammā? ",
+            "en": "And what things should <span class=\"ebt-matched\">be completely understood</span>? ",
+            "matched": true
+          },
+          "sn22.23:1.6": {
+            "scid": "sn22.23:1.6",
+            "pli": "Ime vuccanti, bhikkhave, pariññeyyā dhammā. ",
+            "en": "These are called the things that should <span class=\"ebt-matched\">be completely understood</span>. ",
+            "matched": true
+          }
+        },
+        "score": 3.231,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 22.23\n3. The Burden\nComplete Understanding",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 13,
+          "en": 12
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.23_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.23_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn22/sn22.23_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

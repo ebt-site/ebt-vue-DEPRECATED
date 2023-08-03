@@ -31,7 +31,7 @@
     "pattern": "wheel-turning monarch",
     "method": "phrase",
     "resultPattern": "\\bwheel-turning monarch",
-    "segsMatched": 174,
+    "segsMatched": 175,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn129_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn129_translation-en-sujato.json",
@@ -97,6 +97,7 @@
       "translation/en/sujato/sutta/sn/sn45/sn45.141-145_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn22/sn22.102_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.102_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn22/sn22.102_translation-en-davis.json",
       "root/pli/ms/sutta/mn/mn91_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn91_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag16.6_root-pli-ms.json",
@@ -116,7 +117,10 @@
       "root/pli/ms/sutta/an/an4/an4.247_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an4/an4.247_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.15_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an10/an10.15_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an10/an10.15_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.102_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.102_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn22/sn22.102_translation-en-davis.json"
     ],
     "suttaRefs": [
       "mn129/en/sujato",
@@ -160,7 +164,8 @@
       "an7.66/en/sujato",
       "an6.53/en/sujato",
       "an4.247/en/sujato",
-      "an10.15/en/sujato"
+      "an10.15/en/sujato",
+      "sn22.102/en/davis"
     ],
     "mlDocs": [
       {
@@ -2002,7 +2007,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn22/sn22.102_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn22/sn22.102_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn22/sn22.102_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn22/sn22.102_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.102",
+        "lang": "en",
+        "segMap": {
+          "sn22.102:9.1": {
+            "scid": "sn22.102:9.1",
+            "pli": "Seyyathāpi, bhikkhave, ye keci kuṭṭarājāno, sabbete rañño cakkavattissa anuyantā bhavanti, rājā tesaṁ cakkavatti aggamakkhāyati; ",
+            "en": "All lesser kings are vassals of a <span class=\"ebt-matched\">wheel-turning monarch</span>, so the <span class=\"ebt-matched\">wheel-turning monarch</span> is said to be the foremost of them all. ",
+            "matched": true
+          }
+        },
+        "score": 1.022,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 22.102\n10. Flowers\nThe Perception of Impermanence",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 45,
+          "en": 42
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.102_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.102_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn22/sn22.102_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

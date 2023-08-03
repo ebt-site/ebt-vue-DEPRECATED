@@ -31,7 +31,7 @@
     "pattern": "heart’s release by love",
     "method": "phrase",
     "resultPattern": "\\bheart’s release by love",
-    "segsMatched": 44,
+    "segsMatched": 45,
     "bilaraPaths": [
       "root/pli/ms/sutta/kn/iti/vagga3/iti27_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/iti/vagga3/iti27_translation-en-sujato.json",
@@ -63,6 +63,7 @@
       "translation/en/sujato/sutta/sn/sn46/sn46.51_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn42/sn42.8_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn42/sn42.8_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn42/sn42.8_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn20/sn20.4_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn20/sn20.4_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn52_root-pli-ms.json",
@@ -74,7 +75,10 @@
       "root/pli/ms/sutta/an/an1/an1.394-574_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an1/an1.394-574_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an11/an11.16_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an11/an11.16_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an11/an11.16_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn42/sn42.8_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn42/sn42.8_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn42/sn42.8_translation-en-davis.json"
     ],
     "suttaRefs": [
       "iti27/en/sujato",
@@ -97,7 +101,8 @@
       "dn13/en/sujato",
       "an8.63/en/sujato",
       "an1.394-574/en/sujato",
-      "an11.16/en/sujato"
+      "an11.16/en/sujato",
+      "sn42.8/en/davis"
     ],
     "mlDocs": [
       {
@@ -734,7 +739,38 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn42/sn42.8_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn42/sn42.8_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn42/sn42.8_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn42/sn42.8_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn42.8",
+        "lang": "en",
+        "segMap": {
+          "sn42.8:12.3": {
+            "scid": "sn42.8:12.3",
+            "pli": "evameva kho, gāmaṇi, evaṁ bhāvitāya mettāya cetovimuttiyā evaṁ bahulīkatāya yaṁ pamāṇakataṁ kammaṁ, na taṁ tatrāvasissati, na taṁ tatrāvatiṭṭhati. ",
+            "en": "In the same way, when the <span class=\"ebt-matched\">heart’s release by love</span> has been developed and cultivated like this, any limited deeds they’ve done don’t remain or persist there. ",
+            "matched": true
+          }
+        },
+        "score": 1.01,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 42.8\n1. Chiefs\nA Horn Blower",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 105,
+          "en": 104
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn42/sn42.8_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn42/sn42.8_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn42/sn42.8_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",

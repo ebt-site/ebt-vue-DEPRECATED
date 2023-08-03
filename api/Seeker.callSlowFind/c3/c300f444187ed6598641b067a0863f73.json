@@ -31,12 +31,16 @@
     "pattern": "pull the wool",
     "method": "phrase",
     "resultPattern": "\\bpull the wool",
-    "segsMatched": 9,
+    "segsMatched": 11,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn4/sn4.17_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn4/sn4.17_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn4/sn4.17_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn4/sn4.16_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn4/sn4.16_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn4/sn4.17_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn4/sn4.17_translation-en-sujato.json",
+      "translation/en/davis/sutta/sn/sn4/sn4.17_translation-en-davis.json",
       "root/pli/ms/sutta/sn/sn4/sn4.22_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn4/sn4.22_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn4/sn4.21_root-pli-ms.json",
@@ -51,6 +55,7 @@
     "suttaRefs": [
       "sn4.17/en/sujato",
       "sn4.16/en/sujato",
+      "sn4.17/en/davis",
       "sn4.22/en/sujato",
       "sn4.21/en/sujato",
       "sn4.19/en/sujato",
@@ -61,7 +66,44 @@
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn4/sn4.17_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn4/sn4.17_translation-en-sujato.json"
+          "translation/en/sujato/sutta/sn/sn4/sn4.17_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn4/sn4.17_translation-en-davis.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn4.17",
+        "lang": "en",
+        "segMap": {
+          "sn4.17:2.4": {
+            "scid": "sn4.17:2.4",
+            "pli": "Yannūnāhaṁ yena samaṇo gotamo tenupasaṅkameyyaṁ vicakkhukammāyā”ti. ",
+            "en": "Why don’t I go and <span class=\"ebt-matched\">pull the wool</span> over their eyes?” ",
+            "matched": true
+          },
+          "sn4.17:2.9": {
+            "scid": "sn4.17:2.9",
+            "pli": "Māro eso pāpimā tumhākaṁ vicakkhukammāya āgato”ti. ",
+            "en": "That’s Māra the Wicked come to <span class=\"ebt-matched\">pull the wool</span> over your eyes!” ",
+            "matched": true
+          }
+        },
+        "score": 2.08,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 4.17\n2. Rule\nThe Six Fields of Contact",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 25,
+          "en": 25
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn4/sn4.17_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn4/sn4.17_translation-en-sujato.json",
+          "translation/en/davis/sutta/sn/sn4/sn4.17_translation-en-davis.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
