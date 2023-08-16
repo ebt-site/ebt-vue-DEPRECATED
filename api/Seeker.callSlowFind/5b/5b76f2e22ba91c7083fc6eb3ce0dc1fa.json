@@ -31,7 +31,7 @@
     "pattern": "horn blower",
     "method": "phrase",
     "resultPattern": "\\bhorn blower",
-    "segsMatched": 15,
+    "segsMatched": 16,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn23_translation-en-sujato.json",
@@ -46,7 +46,9 @@
       "root/pli/ms/sutta/dn/dn13_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn13_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn77_root-pli-ms.json",
-      "translation/en/sujato/sutta/mn/mn77_translation-en-sujato.json"
+      "translation/en/sujato/sutta/mn/mn77_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/mil/mil3.1.4_root-pli-ms.json",
+      "translation/en/kelly/sutta/kn/mil/mil3.1.4_translation-en-kelly.json"
     ],
     "suttaRefs": [
       "dn23/en/sujato",
@@ -54,7 +56,8 @@
       "sn42.8/en/davis",
       "mn99/en/sujato",
       "dn13/en/sujato",
-      "mn77/en/sujato"
+      "mn77/en/sujato",
+      "mil3.1.4/en/kelly"
     ],
     "mlDocs": [
       {
@@ -256,6 +259,35 @@
         "langSegs": {
           "pli": 270,
           "en": 269
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/mil/mil3.1.4_root-pli-ms.json",
+          "translation/en/kelly/sutta/kn/mil/mil3.1.4_translation-en-kelly.json"
+        ],
+        "author_uid": "kelly",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mil3.1.4",
+        "lang": "en",
+        "segMap": {
+          "mil3.1.4:6.12": {
+            "scid": "mil3.1.4:6.12",
+            "pli": "“Ye panime siṅgadhamakā siṅgaṁ dhamenti, tesaṁ vāto puna pavisatī”ti? ",
+            "en": "Then, when those <span class=\"ebt-matched\">horn blower</span>s sound the horn, does their breath re-enter?” “Indeed not, venerable sir.” ",
+            "matched": true
+          }
+        },
+        "score": 1.019,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Milinda's Questions\nGreat Chapter\nAnantakaya’s Question",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 52,
+          "en": 52
         }
       },
       {

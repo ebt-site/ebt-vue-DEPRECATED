@@ -31,7 +31,7 @@
     "pattern": "tangle",
     "method": "phrase",
     "resultPattern": "\\btangle",
-    "segsMatched": 33,
+    "segsMatched": 34,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn1/sn1.23_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.23_translation-en-sujato.json",
@@ -63,7 +63,9 @@
       "translation/en/sujato/sutta/dn/dn15_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/dhp/dhp129-145_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/dhp/dhp129-145_translation-en-sujato.json",
-      "translation/en/suddhaso/sutta/kn/dhp/dhp129-145_translation-en-suddhaso.json"
+      "translation/en/suddhaso/sutta/kn/dhp/dhp129-145_translation-en-suddhaso.json",
+      "root/pli/ms/sutta/kn/mil/mil3.1.9_root-pli-ms.json",
+      "translation/en/kelly/sutta/kn/mil/mil3.1.9_translation-en-kelly.json"
     ],
     "suttaRefs": [
       "sn1.23/en/sujato",
@@ -77,7 +79,8 @@
       "mn38/en/sujato",
       "thag19.1/en/sujato",
       "dhp383-423/en/sujato",
-      "dn15/en/sujato"
+      "dn15/en/sujato",
+      "mil3.1.9/en/kelly"
     ],
     "mlDocs": [
       {
@@ -411,6 +414,35 @@
         "langSegs": {
           "pli": 61,
           "en": 60
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/mil/mil3.1.9_root-pli-ms.json",
+          "translation/en/kelly/sutta/kn/mil/mil3.1.9_translation-en-kelly.json"
+        ],
+        "author_uid": "kelly",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mil3.1.9",
+        "lang": "en",
+        "segMap": {
+          "mil3.1.9:6.4": {
+            "scid": "mil3.1.9:6.4",
+            "pli": "So imaṁ vijaṭaye jaṭanti. ",
+            "en": "would disentangle the <span class=\"ebt-matched\">tangle</span>. ",
+            "matched": true
+          }
+        },
+        "score": 1.032,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Milinda's Questions\nGreat Chapter\nDistinguishing Characteristic of Virtue Question",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 31,
+          "en": 31
         }
       },
       {

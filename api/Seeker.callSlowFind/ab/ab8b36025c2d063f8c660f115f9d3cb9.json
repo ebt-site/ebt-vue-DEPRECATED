@@ -31,7 +31,7 @@
     "pattern": "all skillful qualities",
     "method": "phrase",
     "resultPattern": "\\ball skillful qualities",
-    "segsMatched": 11,
+    "segsMatched": 12,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn45/sn45.139_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn45/sn45.139_translation-en-sujato.json",
@@ -42,14 +42,17 @@
       "root/pli/ms/sutta/mn/mn8_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn8_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn28_root-pli-ms.json",
-      "translation/en/sujato/sutta/mn/mn28_translation-en-sujato.json"
+      "translation/en/sujato/sutta/mn/mn28_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/mil/mil3.1.9_root-pli-ms.json",
+      "translation/en/kelly/sutta/kn/mil/mil3.1.9_translation-en-kelly.json"
     ],
     "suttaRefs": [
       "sn45.139/en/sujato",
       "an10.15/en/sujato",
       "sn45.140/en/sujato",
       "mn8/en/sujato",
-      "mn28/en/sujato"
+      "mn28/en/sujato",
+      "mil3.1.9/en/kelly"
     ],
     "mlDocs": [
       {
@@ -173,6 +176,35 @@
         "langSegs": {
           "pli": 11,
           "en": 10
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/mil/mil3.1.9_root-pli-ms.json",
+          "translation/en/kelly/sutta/kn/mil/mil3.1.9_translation-en-kelly.json"
+        ],
+        "author_uid": "kelly",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mil3.1.9",
+        "lang": "en",
+        "segMap": {
+          "mil3.1.9:1.5": {
+            "scid": "mil3.1.9:1.5",
+            "pli": "“Patiṭṭhānalakkhaṇaṁ, mahārāja, sīlaṁ sabbesaṁ kusalānaṁ dhammānaṁ, indriyabalabojjhaṅgamaggaṅgasatipaṭṭhānasammappadhānaiddhipādajhānavimokkhasamādhisamāpattīnaṁ sīlaṁ patiṭṭhaṁ, sīle patiṭṭhito kho, mahārāja, yogāvacaro sīlaṁ nissāya sīle patiṭṭhāya pañcindriyāni bhāveti saddhindriyaṁ vīriyindriyaṁ satindriyaṁ samādhindriyaṁ paññindriyanti, sabbe kusalā dhammā na parihāyantī”ti. ",
+            "en": "“Virtue, your majesty, has the distinguishing characteristic of being the ground for <span class=\"ebt-matched\">all skillful qualities</span>.  Virtue is the ground for the faculties, the powers, the enlightenment factors, the path factors, the establishments of mindfulness, the right efforts, the bases of psychic power, meditation, emancipation, absorption, and the attainments. A spiritual aspirant, your majesty, dependent on virtue, grounded in virtue, develops the five faculties of faith, energy, mindfulness, absorption, and wisdom. None of these skillful qualities decrease.” ",
+            "matched": true
+          }
+        },
+        "score": 1.032,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Milinda's Questions\nGreat Chapter\nDistinguishing Characteristic of Virtue Question",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 31,
+          "en": 31
         }
       },
       {

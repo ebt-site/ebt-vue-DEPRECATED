@@ -31,7 +31,7 @@
     "pattern": "actually",
     "method": "phrase",
     "resultPattern": "\\bactually",
-    "segsMatched": 61,
+    "segsMatched": 62,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn60_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn60_translation-en-sujato.json",
@@ -66,6 +66,8 @@
       "root/pli/ms/sutta/kn/thig/thig13.3_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thig/thig13.3_translation-en-sujato.json",
       "translation/en/soma/sutta/kn/thig/thig13.3_translation-en-soma.json",
+      "root/pli/ms/sutta/kn/mil/mil3.1.1_root-pli-ms.json",
+      "translation/en/kelly/sutta/kn/mil/mil3.1.1_translation-en-kelly.json",
       "root/pli/ms/sutta/sn/sn1/sn1.20_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.20_translation-en-sujato.json",
       "translation/en/davis/sutta/sn/sn1/sn1.20_translation-en-davis.json"
@@ -85,6 +87,7 @@
       "thig12.1/en/sujato",
       "snp3.4/en/sujato",
       "an10.177/en/sujato",
+      "mil3.1.1/en/kelly",
       "sn1.20/en/davis"
     ],
     "mlDocs": [
@@ -682,6 +685,35 @@
         "langSegs": {
           "pli": 71,
           "en": 70
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/mil/mil3.1.1_root-pli-ms.json",
+          "translation/en/kelly/sutta/kn/mil/mil3.1.1_translation-en-kelly.json"
+        ],
+        "author_uid": "kelly",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mil3.1.1",
+        "lang": "en",
+        "segMap": {
+          "mil3.1.1:2.3": {
+            "scid": "mil3.1.1:2.3",
+            "pli": "“‘Nāgaseno’ti kho ahaṁ, mahārāja, ñāyāmi, ‘nāgaseno’ti kho maṁ, mahārāja, sabrahmacārī samudācaranti, api ca mātāpitaro nāmaṁ karonti ‘nāgaseno’ti vā ‘sūraseno’ti vā ‘vīraseno’ti vā ‘sīhaseno’ti vā, api ca kho, mahārāja, saṅkhā samaññā paññatti vohāro nāmamattaṁ yadidaṁ nāgasenoti, na hettha puggalo upalabbhatī”ti. ",
+            "en": "“I am called Nāgasena, your majesty, my holy life companions address me as Nāgasena. Though parents make such names as Nāgasena, or Sūrasena, or Vīrasena, or Sīhasena, your majesty, Nāgasena is only a concept, a designation, a label, an appellation, a mere name; no person <span class=\"ebt-matched\">actually</span> obtains here.” ",
+            "matched": true
+          }
+        },
+        "score": 1.009,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Milinda's Questions\nGreat Chapter\nExposition Question",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 108,
+          "en": 108
         }
       },
       {
