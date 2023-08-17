@@ -31,7 +31,7 @@
     "pattern": "fervent mortification",
     "method": "phrase",
     "resultPattern": "\\bfervent mortification",
-    "segsMatched": 37,
+    "segsMatched": 39,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn25_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn25_translation-en-sujato.json",
@@ -43,10 +43,14 @@
       "translation/en/sujato/sutta/mn/mn12_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn2/sn2.30_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn2/sn2.30_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn1/sn1.38_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn1/sn1.38_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn49_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn49_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.198_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an4/an4.198_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an4/an4.198_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.74_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an3/an3.74_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "dn25/en/sujato",
@@ -54,8 +58,10 @@
       "an4.196/en/sujato",
       "mn12/en/sujato",
       "sn2.30/en/sujato",
+      "sn1.38/en/sujato",
       "mn49/en/sujato",
-      "an4.198/en/sujato"
+      "an4.198/en/sujato",
+      "an3.74/en/sujato"
     ],
     "mlDocs": [
       {
@@ -352,6 +358,64 @@
         "langSegs": {
           "pli": 372,
           "en": 371
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an3/an3.74_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an3/an3.74_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an3.74",
+        "lang": "en",
+        "segMap": {
+          "an3.74:1.5": {
+            "scid": "an3.74:1.5",
+            "pli": "So purāṇānaṁ kammānaṁ tapasā byantībhāvaṁ paññāpeti navānaṁ kammānaṁ akaraṇā setughātaṁ. ",
+            "en": "He advocates the elimination of past deeds by <span class=\"ebt-matched\">fervent mortification</span>, and breaking the bridge by not doing any new deeds. ",
+            "matched": true
+          }
+        },
+        "score": 1.036,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 3.74\n8. Ānanda\nJains",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 28,
+          "en": 27
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn1/sn1.38_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn1/sn1.38_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn1.38",
+        "lang": "en",
+        "segMap": {
+          "sn1.38:10.2": {
+            "scid": "sn1.38:10.2",
+            "pli": "Lūkhaṁ tapaṁ vassasataṁ carantā; ",
+            "en": "they practice rough and <span class=\"ebt-matched\">fervent mortification</span> for a hundred years. ",
+            "matched": true
+          }
+        },
+        "score": 1.021,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 1.38\n4. The Satullapa Group\nA Splinter",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 47,
+          "en": 47
         }
       },
       {
