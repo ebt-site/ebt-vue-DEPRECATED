@@ -32,7 +32,7 @@
     "pattern": "den besinnungstag",
     "method": "phrase",
     "resultPattern": "\\bden besinnungstag",
-    "segsMatched": 97,
+    "segsMatched": 99,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an3/an3.70_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.70_translation-de-sabbamitta.json",
@@ -98,6 +98,12 @@
       "translation/de/sabbamitta/sutta/kn/thig/thig2.7_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thig/thig2.7_translation-en-sujato.json",
       "translation/en/soma/sutta/kn/thig/thig2.7_translation-en-soma.json",
+      "root/pli/ms/sutta/kn/cp/cp13_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/cp/cp13_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/cp/cp13_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/cp/cp10_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/cp/cp10_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/cp/cp10_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn17_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn17_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn17_translation-en-sujato.json",
@@ -142,6 +148,8 @@
       "sn29.5/de/sabbamitta",
       "sn29.4/de/sabbamitta",
       "thig2.7/de/sabbamitta",
+      "cp13/de/sabbamitta",
+      "cp10/de/sabbamitta",
       "dn17/de/sabbamitta",
       "an8.50/de/sabbamitta",
       "an8.49/de/sabbamitta",
@@ -1341,6 +1349,38 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/kn/cp/cp13_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/cp/cp13_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/cp/cp13_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "cp13",
+        "lang": "de",
+        "segMap": {
+          "cp13:2.3": {
+            "scid": "cp13:2.3",
+            "pli": "Ahituṇḍiko gahetvāna, ",
+            "de": "hielt <span class=\"ebt-matched\">den Besinnungstag</span> ein ",
+            "en": "observing the Sabbath, ",
+            "matched": true
+          }
+        },
+        "score": 1.034,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Korb des Verhaltens 13\nDas Kapitel über einen Elefanten\nDie Vollkommenheit der Sittlichkeit (3)\nDas Verhalten des Nāga Campeyyaka",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 29,
+          "de": 28,
+          "en": 28
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an8/an8.48_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/an/an8/an8.48_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/an/an8/an8.48_translation-en-sujato.json"
@@ -1497,6 +1537,38 @@
           "pli": 79,
           "de": 58,
           "en": 78
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/cp/cp10_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/cp/cp10_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/cp/cp10_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "cp10",
+        "lang": "de",
+        "segMap": {
+          "cp10:5.4": {
+            "scid": "cp10:5.4",
+            "pli": "upavassathuposathaṁ’. ",
+            "de": "haltet <span class=\"ebt-matched\">den Besinnungstag</span> ein.‘ ",
+            "en": "observe the sabbath day.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.01,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Korb des Verhaltens 10\nDas Kapitel mit Akitti\nDie Vollkommenheit des Gebens (10)\nDas Verhalten des weisen Hasen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 100,
+          "de": 80,
+          "en": 80
         }
       },
       {

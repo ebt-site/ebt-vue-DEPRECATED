@@ -32,7 +32,7 @@
     "pattern": "kreislauf der wiedergeburten",
     "method": "phrase",
     "resultPattern": "\\bkreislauf der wiedergeburten",
-    "segsMatched": 8,
+    "segsMatched": 9,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn22/sn22.57_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.57_translation-de-sabbamitta.json",
@@ -50,14 +50,18 @@
       "translation/en/sujato/sutta/sn/sn44/sn44.6_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/ud/vagga6/ud6.8_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga6/ud6.8_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/kn/ud/vagga6/ud6.8_translation-en-sujato.json"
+      "translation/en/sujato/sutta/kn/ud/vagga6/ud6.8_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/cp/cp14_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/cp/cp14_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/cp/cp14_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "sn22.57/de/sabbamitta",
       "sn22.56/de/sabbamitta",
       "dn15/de/sabbamitta",
       "sn44.6/de/sabbamitta",
-      "ud6.8/de/sabbamitta"
+      "ud6.8/de/sabbamitta",
+      "cp14/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -209,6 +213,38 @@
           "pli": 22,
           "de": 17,
           "en": 17
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/cp/cp14_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/cp/cp14_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/cp/cp14_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "cp14",
+        "lang": "de",
+        "segMap": {
+          "cp14:2.3": {
+            "scid": "cp14:2.3",
+            "pli": "Sāpi vaṭṭe anapekkhā, ",
+            "de": "erwartete nichts im <span class=\"ebt-matched\">Kreislauf der Wiedergeburten</span> ",
+            "en": "expecting nothing in the cycle of rebirths, ",
+            "matched": true
+          }
+        },
+        "score": 1.02,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Korb des Verhaltens 14\nDas Kapitel über einen Elefanten\nDie Vollkommenheit der Sittlichkeit (4)\nCūḷabodhis Verhalten",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 49,
+          "de": 48,
+          "en": 48
         }
       },
       {

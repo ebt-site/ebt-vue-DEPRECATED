@@ -32,7 +32,7 @@
     "pattern": "kennzeichen",
     "method": "phrase",
     "resultPattern": "\\bkennzeichen",
-    "segsMatched": 113,
+    "segsMatched": 114,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn30_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn30_translation-de-sabbamitta.json",
@@ -78,6 +78,9 @@
       "translation/de/sabbamitta/sutta/kn/thig/thig14.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thig/thig14.1_translation-en-sujato.json",
       "translation/en/soma/sutta/kn/thig/thig14.1_translation-en-soma.json",
+      "root/pli/ms/sutta/kn/cp/cp11_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/cp/cp11_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/cp/cp11_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.192_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.192_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.192_translation-en-sujato.json",
@@ -109,6 +112,7 @@
       "sn22.59/de/sabbamitta",
       "mn93/de/sabbamitta",
       "thig14.1/de/sabbamitta",
+      "cp11/de/sabbamitta",
       "an5.192/de/sabbamitta",
       "an3.59/de/sabbamitta",
       "an3.58/de/sabbamitta",
@@ -1083,7 +1087,7 @@
         "segsMatched": 2,
         "langSegs": {
           "pli": 662,
-          "de": 634,
+          "de": 654,
           "en": 661
         }
       },
@@ -1188,6 +1192,38 @@
           "pli": 17,
           "de": 16,
           "en": 17
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/cp/cp11_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/cp/cp11_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/cp/cp11_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "cp11",
+        "lang": "de",
+        "segMap": {
+          "cp11:6.2": {
+            "scid": "cp11:6.2",
+            "pli": "lakkhaṇaṁ upadhārayi; ",
+            "de": "untersuchte er mich auf <span class=\"ebt-matched\">Kennzeichen</span> hin. ",
+            "en": "he checked me for marks. ",
+            "matched": true
+          }
+        },
+        "score": 1.022,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Korb des Verhaltens 11\nDas Kapitel über einen Elefanten\nDie Vollkommenheit der Sittlichkeit (1)\nDas Verhalten von einem, der seine Mutter versorgte",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 45,
+          "de": 44,
+          "en": 44
         }
       },
       {

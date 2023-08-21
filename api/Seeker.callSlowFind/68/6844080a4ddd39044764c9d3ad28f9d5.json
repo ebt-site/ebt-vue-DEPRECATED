@@ -32,7 +32,7 @@
     "pattern": "abgefallen",
     "method": "phrase",
     "resultPattern": "\\babgefallen",
-    "segsMatched": 19,
+    "segsMatched": 21,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an8/an8.77_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.77_translation-de-sabbamitta.json",
@@ -40,6 +40,9 @@
       "root/pli/ms/sutta/an/an8/an8.61_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.61_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an8/an8.61_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/cp/cp13_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/cp/cp13_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/cp/cp13_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.2_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.2_translation-en-sujato.json",
@@ -50,6 +53,7 @@
     "suttaRefs": [
       "an8.77/de/sabbamitta",
       "an8.61/de/sabbamitta",
+      "cp13/de/sabbamitta",
       "an4.2/de/sabbamitta",
       "an3.15/de/sabbamitta"
     ],
@@ -253,6 +257,45 @@
           "pli": 22,
           "de": 21,
           "en": 21
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/cp/cp13_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/cp/cp13_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/cp/cp13_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "cp13",
+        "lang": "de",
+        "segMap": {
+          "cp13:5.2": {
+            "scid": "cp13:5.2",
+            "pli": "parihāyissāmi sīlato; ",
+            "de": "wäre ich von meiner Sittlichkeit <span class=\"ebt-matched\">abgefallen</span>. ",
+            "en": "I would have fallen from my ethics. ",
+            "matched": true
+          },
+          "cp13:5.3": {
+            "scid": "cp13:5.3",
+            "pli": "Sīlena parihīnassa, ",
+            "de": "Aber wer von der Sittlichkeit <span class=\"ebt-matched\">abgefallen</span> ist, ",
+            "en": "But one who has fallen from their ethics ",
+            "matched": true
+          }
+        },
+        "score": 2.069,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Korb des Verhaltens 13\nDas Kapitel über einen Elefanten\nDie Vollkommenheit der Sittlichkeit (3)\nDas Verhalten des Nāga Campeyyaka",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 29,
+          "de": 28,
+          "en": 28
         }
       },
       {
