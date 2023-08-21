@@ -1,0 +1,144 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sujato",
+      "pattern": "references",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en"
+      ],
+      "maxResults": 1000,
+      "searchLang": "en",
+      "maxDoc": 50,
+      "minLang": 2,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "en",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "author": "sujato",
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "references",
+    "method": "phrase",
+    "resultPattern": "\\breferences",
+    "segsMatched": 8,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.180_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an4/an4.180_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "dn16/en/sujato",
+      "an4.180/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.180_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an4/an4.180_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.180",
+        "lang": "en",
+        "segMap": {
+          "an4.180:0.3": {
+            "scid": "an4.180:0.3",
+            "pli": "Mahāpadesasutta ",
+            "en": "The Four Great <span class=\"ebt-matched\">References</span> ",
+            "matched": true
+          },
+          "an4.180:1.6": {
+            "scid": "an4.180:1.6",
+            "pli": "“cattārome, bhikkhave, mahāpadese desessāmi, ",
+            "en": "“Mendicants, I will teach you the four great <span class=\"ebt-matched\">references</span>. ",
+            "matched": true
+          },
+          "an4.180:2.1": {
+            "scid": "an4.180:2.1",
+            "pli": "“Katame, bhikkhave, cattāro mahāpadesā? ",
+            "en": "“Mendicants, what are the four great <span class=\"ebt-matched\">references</span>? ",
+            "matched": true
+          },
+          "an4.180:9.11": {
+            "scid": "an4.180:9.11",
+            "pli": "Ime kho, bhikkhave, cattāro mahāpadesā”ti. ",
+            "en": "These are the four great <span class=\"ebt-matched\">references</span>.” ",
+            "matched": true
+          }
+        },
+        "score": 4.04,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 4.180\n18. Intention\nThe Four Great References",
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 99,
+          "en": 97
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
+          "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn16",
+        "lang": "en",
+        "segMap": {
+          "dn16:4.5.0": {
+            "scid": "dn16:4.5.0",
+            "pli": "22. Catumahāpadesakathā ",
+            "en": "22. The Four Great <span class=\"ebt-matched\">References</span> ",
+            "matched": true
+          },
+          "dn16:4.7.3": {
+            "scid": "dn16:4.7.3",
+            "pli": "“cattārome, bhikkhave, mahāpadese desessāmi, ",
+            "en": "“Mendicants, I will teach you the four great <span class=\"ebt-matched\">references</span>. ",
+            "matched": true
+          },
+          "dn16:4.11.15": {
+            "scid": "dn16:4.11.15",
+            "pli": "Ime kho, bhikkhave, cattāro mahāpadese dhāreyyāthā”ti. ",
+            "en": "These are the four great <span class=\"ebt-matched\">references</span>.” ",
+            "matched": true
+          },
+          "dn16:5.27.9": {
+            "scid": "dn16:5.27.9",
+            "pli": "Ñāyassa dhammassa padesavattī, ",
+            "en": "Teacher of the <span class=\"ebt-matched\">references</span> <j>for the systematic teaching: ",
+            "matched": true
+          }
+        },
+        "score": 4.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Long Discourses 16\nThe Great Discourse on the Buddha’s Extinguishment",
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 1664,
+          "en": 1568
+        }
+      }
+    ]
+  }
+}

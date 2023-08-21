@@ -1,0 +1,152 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sujato",
+      "pattern": "tusker in the wild",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en"
+      ],
+      "maxResults": 1000,
+      "searchLang": "en",
+      "maxDoc": 50,
+      "minLang": 2,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "en",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "author": "sujato",
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "tusker in the wild",
+    "method": "phrase",
+    "resultPattern": "\\btusker in the wild",
+    "segsMatched": 5,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn128_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn128_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/dhp/dhp320-333_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp320-333_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga1/snp1.3_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga1/snp1.3_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "mn128/en/sujato",
+      "dhp320-333/en/sujato",
+      "snp1.3/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/dhp/dhp320-333_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/dhp/dhp320-333_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dhp320-333",
+        "lang": "en",
+        "segMap": {
+          "dhp329:4": {
+            "scid": "dhp329:4",
+            "pli": "Eko care mātaṅgaraññeva nāgo. ",
+            "en": "wander alone like a <span class=\"ebt-matched\">tusker in the wild</span>s. ",
+            "matched": true
+          },
+          "dhp330:4": {
+            "scid": "dhp330:4",
+            "pli": "Appossukko mātaṅgaraññeva nāgo. ",
+            "en": "at ease like a <span class=\"ebt-matched\">tusker in the wild</span>s. ",
+            "matched": true
+          }
+        },
+        "score": 2.029,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Minor Collection\nSayings of the Dhamma 320–333\n23. Elephants\nAttadantavatthu",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 68,
+          "en": 59
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn128_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn128_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn128",
+        "lang": "en",
+        "segMap": {
+          "mn128:6.37": {
+            "scid": "mn128:6.37",
+            "pli": "Eko care mātaṅgaraññeva nāgo. ",
+            "en": "wander alone like a <span class=\"ebt-matched\">tusker in the wild</span>s. ",
+            "matched": true
+          },
+          "mn128:6.41": {
+            "scid": "mn128:6.41",
+            "pli": "Appossukko mātaṅgaraññeva nāgo”ti. ",
+            "en": "at ease like a <span class=\"ebt-matched\">tusker in the wild</span>s.” ",
+            "matched": true
+          }
+        },
+        "score": 2.007,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Middle Discourses 128\nCorruptions",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 279,
+          "en": 278
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga1/snp1.3_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga1/snp1.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp1.3",
+        "lang": "en",
+        "segMap": {
+          "snp1.3:12.4": {
+            "scid": "snp1.3:12.4",
+            "pli": "Eko care mātaṅgaraññeva nāgo”. ",
+            "en": "wander alone like a <span class=\"ebt-matched\">tusker in the wild</span>s. ",
+            "matched": true
+          }
+        },
+        "score": 1.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses 1.3\nThe Horned Rhino",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 167,
+          "en": 166
+        }
+      }
+    ]
+  }
+}

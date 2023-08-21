@@ -1,0 +1,82 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sujato",
+      "pattern": "an obstacle for you alone",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en"
+      ],
+      "maxResults": 1000,
+      "searchLang": "en",
+      "maxDoc": 50,
+      "minLang": 2,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "en",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "author": "sujato",
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "an obstacle for you alone",
+    "method": "phrase",
+    "resultPattern": "\\ban obstacle for you alone",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn1_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn1_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "dn1/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn1_root-pli-ms.json",
+          "translation/en/sujato/sutta/dn/dn1_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn1",
+        "lang": "en",
+        "segMap": {
+          "dn1:1.5.2": {
+            "scid": "dn1:1.5.2",
+            "pli": "Mamaṁ vā, bhikkhave, pare avaṇṇaṁ bhāseyyuṁ, dhammassa vā avaṇṇaṁ bhāseyyuṁ, saṅghassa vā avaṇṇaṁ bhāseyyuṁ, tatra ce tumhe assatha kupitā vā anattamanā vā, tumhaṁ yevassa tena antarāyo. ",
+            "en": "You’ll get angry and upset, which would be <span class=\"ebt-matched\">an obstacle for you alone</span>. ",
+            "matched": true
+          },
+          "dn1:1.6.4": {
+            "scid": "dn1:1.6.4",
+            "pli": "Mamaṁ vā, bhikkhave, pare vaṇṇaṁ bhāseyyuṁ, dhammassa vā vaṇṇaṁ bhāseyyuṁ, saṅghassa vā vaṇṇaṁ bhāseyyuṁ, tatra ce tumhe assatha ānandino sumanā uppilāvitā tumhaṁ yevassa tena antarāyo. ",
+            "en": "You’ll get thrilled, elated, and excited, which would be <span class=\"ebt-matched\">an obstacle for you alone</span>. ",
+            "matched": true
+          }
+        },
+        "score": 2.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Long Discourses 1\nThe Divine Net",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 662,
+          "en": 661
+        }
+      }
+    ]
+  }
+}

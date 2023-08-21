@@ -1,0 +1,538 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sabbamitta",
+      "pattern": "krankheit.* eiterherd.* pfeil",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 2,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "author": "sabbamitta",
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "krankheit.* eiterherd.* pfeil",
+    "method": "phrase",
+    "resultPattern": "\\bkrankheit.* eiterherd.* pfeil",
+    "segsMatched": 24,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn35/sn35.248_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn35/sn35.248_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.248_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an9/an9.36_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an9/an9.36_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an9/an9.36_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.122_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn22/sn22.122_translation-de-sabbamitta.json",
+      "translation/en/davis/sutta/sn/sn22/sn22.122_translation-en-davis.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.122_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn23/sn23.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn23/sn23.1_translation-de-sabbamitta.json",
+      "translation/en/davis/sutta/sn/sn23/sn23.1_translation-en-davis.json",
+      "translation/en/sujato/sutta/sn/sn23/sn23.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.126_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.126_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.126_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.124_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.124_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.124_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn35/sn35.91_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn35/sn35.91_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.91_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn35/sn35.90_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn35/sn35.90_translation-de-sabbamitta.json",
+      "translation/en/davis/sutta/sn/sn35/sn35.90_translation-en-davis.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.90_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.123_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn22/sn22.123_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.123_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn140_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn140_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn140_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn21_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn21_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn21_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn35.248/de/sabbamitta",
+      "an9.36/de/sabbamitta",
+      "sn22.122/de/sabbamitta",
+      "sn23.1/de/sabbamitta",
+      "an4.126/de/sabbamitta",
+      "an4.124/de/sabbamitta",
+      "sn35.91/de/sabbamitta",
+      "sn35.90/de/sabbamitta",
+      "sn22.123/de/sabbamitta",
+      "mn140/de/sabbamitta",
+      "dn21/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn35/sn35.248_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn35/sn35.248_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn35/sn35.248_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn35.248",
+        "lang": "de",
+        "segMap": {
+          "sn35.248:3.2": {
+            "scid": "sn35.248:3.2",
+            "pli": "Maññitaṁ, bhikkhave, rogo, maññitaṁ gaṇḍo, maññitaṁ sallaṁ. ",
+            "de": "Vorstellen ist eine <span class=\"ebt-matched\">Krankheit, ein Eiterherd, ein Pfeil</span>. ",
+            "en": "Conceit is a disease, a boil, a dart. ",
+            "matched": true
+          },
+          "sn35.248:4.2": {
+            "scid": "sn35.248:4.2",
+            "pli": "Iñjitaṁ, bhikkhave, rogo, iñjitaṁ gaṇḍo, iñjitaṁ sallaṁ. ",
+            "de": "Störungen sind eine <span class=\"ebt-matched\">Krankheit, ein Eiterherd, ein Pfeil</span>. ",
+            "en": "Disturbances are a disease, a boil, a dart. ",
+            "matched": true
+          },
+          "sn35.248:5.2": {
+            "scid": "sn35.248:5.2",
+            "pli": "Phanditaṁ, bhikkhave, rogo, phanditaṁ gaṇḍo, phanditaṁ sallaṁ. ",
+            "de": "Zittern ist eine <span class=\"ebt-matched\">Krankheit, ein Eiterherd, ein Pfeil</span>. ",
+            "en": "Trembling is a disease, a boil, a dart. ",
+            "matched": true
+          },
+          "sn35.248:6.2": {
+            "scid": "sn35.248:6.2",
+            "pli": "Papañcitaṁ, bhikkhave, rogo, papañcitaṁ gaṇḍo, papañcitaṁ sallaṁ. ",
+            "de": "Wuchern ist eine <span class=\"ebt-matched\">Krankheit, ein Eiterherd, ein Pfeil</span>. ",
+            "en": "Proliferation is a disease, a boil, a dart. ",
+            "matched": true
+          },
+          "sn35.248:7.2": {
+            "scid": "sn35.248:7.2",
+            "pli": "Mānagataṁ, bhikkhave, rogo, mānagataṁ gaṇḍo, mānagataṁ sallaṁ. ",
+            "de": "Einbildung ist eine <span class=\"ebt-matched\">Krankheit, ein Eiterherd, ein Pfeil</span>. ",
+            "en": "Conceit is a disease, a boil, a dart. ",
+            "matched": true
+          }
+        },
+        "score": 5.077,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 35.248\n19. Das Kapitel über das Gleichnis von den Giftschlangen\nDas Gerstenbündel",
+        "segsMatched": 5,
+        "langSegs": {
+          "pli": 65,
+          "de": 47,
+          "en": 63
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an9/an9.36_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an9/an9.36_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an9/an9.36_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an9.36",
+        "lang": "de",
+        "segMap": {
+          "an9.36:2.4": {
+            "scid": "an9.36:2.4",
+            "pli": "So yadeva tattha hoti rūpagataṁ vedanāgataṁ saññāgataṁ saṅkhāragataṁ viññāṇagataṁ, te dhamme aniccato dukkhato rogato gaṇḍato sallato aghato ābādhato parato palokato suññato anattato samanupassati. ",
+            "de": "Sie betrachtet die Erscheinungen dort, die in Form, Gefühl, Wahrnehmung, Entscheidungen und Bewusstsein enthalten sind, als unbeständig, als Leiden, als <span class=\"ebt-matched\">Krankheit, als Eiterherd, als Pfeil</span>, als Elend, als Beschwerde, als fremd, als zerfallend, als leer, als ohne Selbst. ",
+            "en": "They contemplate the phenomena there—included in form, feeling, perception, choices, and consciousness—as impermanent, as suffering, as diseased, as a boil, as a dart, as misery, as an affliction, as alien, as falling apart, as empty, as not-self. ",
+            "matched": true
+          },
+          "an9.36:3.3": {
+            "scid": "an9.36:3.3",
+            "pli": "So yadeva tattha hoti rūpagataṁ vedanāgataṁ saññāgataṁ saṅkhāragataṁ viññāṇagataṁ, te dhamme aniccato dukkhato rogato gaṇḍato sallato aghato ābādhato parato palokato suññato anattato samanupassati. ",
+            "de": "Sie betrachtet die Erscheinungen dort, die in Form, Gefühl, Wahrnehmung, Entscheidungen und Bewusstsein enthalten sind, als unbeständig, als Leiden, als <span class=\"ebt-matched\">Krankheit, als Eiterherd, als Pfeil</span>, als Elend, als Beschwerde, als fremd, als zerfallend, als leer, als ohne Selbst. ",
+            "en": "They contemplate the phenomena there—included in form, feeling, perception, choices, and consciousness—as impermanent, as suffering, as diseased, as a boil, as a dart, as misery, as an affliction, as alien, as falling apart, as empty, as not-self. ",
+            "matched": true
+          },
+          "an9.36:6.4": {
+            "scid": "an9.36:6.4",
+            "pli": "So yadeva tattha hoti vedanāgataṁ saññāgataṁ saṅkhāragataṁ viññāṇagataṁ, te dhamme aniccato dukkhato rogato gaṇḍato sallato aghato ābādhato parato palokato suññato anattato samanupassati. ",
+            "de": "Er betrachtet die Erscheinungen dort, die in Gefühl, Wahrnehmung, Entscheidungen und Bewusstsein enthalten sind, als unbeständig, als Leiden, als <span class=\"ebt-matched\">Krankheit, als Eiterherd, als Pfeil</span>, als Elend, als Beschwerde, als fremd, als zerfallend, als leer, als ohne Selbst. ",
+            "en": "They contemplate the phenomena there—included in feeling, perception, choices, and consciousness—as impermanent, as suffering, as diseased, as a boil, as a dart, as misery, as an affliction, as alien, as falling apart, as empty, as not-self. ",
+            "matched": true
+          },
+          "an9.36:8.5": {
+            "scid": "an9.36:8.5",
+            "pli": "So yadeva tattha hoti vedanāgataṁ saññāgataṁ saṅkhāragataṁ viññāṇagataṁ, te dhamme aniccato dukkhato rogato gaṇḍato sallato aghato ābādhato parato palokato suññato anattato samanupassati. ",
+            "de": "Sie betrachtet die Erscheinungen dort, die in Gefühl, Wahrnehmung, Entscheidungen und Bewusstsein enthalten sind, als unbeständig, als Leiden, als <span class=\"ebt-matched\">Krankheit, als Eiterherd, als Pfeil</span>, als Elend, als Beschwerde, als fremd, als zerfallend, als leer, als ohne Selbst. ",
+            "en": "They contemplate the phenomena there—included in feeling, perception, choices, and consciousness—as impermanent, as suffering, as diseased, as a boil, as a dart, as misery, as an affliction, as alien, as falling apart, as empty, as not-self. ",
+            "matched": true
+          },
+          "an9.36:9.3": {
+            "scid": "an9.36:9.3",
+            "pli": "So yadeva tattha hoti vedanāgataṁ saññāgataṁ saṅkhāragataṁ viññāṇagataṁ, te dhamme aniccato dukkhato rogato gaṇḍato sallato aghato ābādhato parato palokato suññato anattato samanupassati. ",
+            "de": "Sie betrachtet die Erscheinungen dort, die in Gefühl, Wahrnehmung, Entscheidungen und Bewusstsein enthalten sind, als unbeständig, als Leiden, als <span class=\"ebt-matched\">Krankheit, als Eiterherd, als Pfeil</span>, als Elend, als Beschwerde, als fremd, als zerfallend, als leer, als ohne Selbst. ",
+            "en": "They contemplate the phenomena there—included in feeling, perception, choices, and consciousness—as impermanent, as suffering, as diseased, as a boil, as a dart, as misery, as an affliction, as alien, as falling apart, as empty, as not-self. ",
+            "matched": true
+          }
+        },
+        "score": 5.058,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 9.36\n4. Das große Kapitel\nAuf Vertiefung gestützt",
+        "segsMatched": 5,
+        "langSegs": {
+          "pli": 86,
+          "de": 70,
+          "en": 85
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.122_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn22/sn22.122_translation-de-sabbamitta.json",
+          "translation/en/davis/sutta/sn/sn22/sn22.122_translation-en-davis.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.122_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.122",
+        "lang": "de",
+        "segMap": {
+          "sn22.122:1.4": {
+            "scid": "sn22.122:1.4",
+            "pli": "“Sīlavatāvuso, koṭṭhika, bhikkhunā pañcupādānakkhandhā aniccato dukkhato rogato gaṇḍato sallato aghato ābādhato parato palokato suññato anattato yoniso manasi kātabbā. ",
+            "de": "„Geehrter Koṭṭhita, ein sittlicher Mönch sollte den Geist für die fünf mit Ergreifen verbundenen Aggregate gründlich gebrauchen, die unbeständig sind, Leiden, eine <span class=\"ebt-matched\">Krankheit, ein Eiterherd, ein Pfeil</span>, ein Elend, eine Beschwerde, fremd, zerfallend, leer, ohne Selbst. ",
+            "en": "“Reverend Koṭṭhita, an ethical mendicant should rationally apply the mind to the five grasping aggregates as impermanent, as suffering, as diseased, as a boil, as a dart, as misery, as an affliction, as alien, as falling apart, as empty, as not-self. ",
+            "matched": true
+          },
+          "sn22.122:1.7": {
+            "scid": "sn22.122:1.7",
+            "pli": "Sīlavatāvuso, koṭṭhika, bhikkhunā ime pañcupādānakkhandhā aniccato dukkhato rogato gaṇḍato sallato aghato ābādhato parato palokato suññato anattato yoniso manasi kātabbā. ",
+            "de": "Ein sittlicher Mönch sollte den Geist für diese fünf mit Ergreifen verbundenen Aggregate gründlich gebrauchen, die unbeständig sind, Leiden, eine <span class=\"ebt-matched\">Krankheit, ein Eiterherd, ein Pfeil</span>, ein Elend, eine Beschwerde, fremd, zerfallend, leer, ohne Selbst. ",
+            "en": "An ethical mendicant should rationally apply the mind to these five grasping aggregates as impermanent, as suffering, as diseased, as a boil, as a dart, as misery, as an affliction, as alien, as falling apart, as empty, as not-self. ",
+            "matched": true
+          },
+          "sn22.122:5.2": {
+            "scid": "sn22.122:5.2",
+            "pli": "“Arahatāpi kho, āvuso koṭṭhika, ime pañcupādānakkhandhe aniccato dukkhato rogato gaṇḍato sallato aghato ābādhato parato palokato suññato anattato yoniso manasi kātabbā. ",
+            "de": "„Geehrter Koṭṭhita, ein Vollendeter sollte den Geist für die fünf mit Ergreifen verbundenen Aggregate gründlich gebrauchen, die unbeständig sind, Leiden, eine <span class=\"ebt-matched\">Krankheit, ein Eiterherd, ein Pfeil</span>, ein Elend, eine Beschwerde, fremd, zerfallend, leer, ohne Selbst. ",
+            "en": "“Reverend Koṭṭhita, a perfected one should also rationally apply the mind to the five grasping aggregates as impermanent, as suffering, as diseased, as a boil, as a dart, as misery, as an affliction, as alien, as falling apart, as empty, as not-self. ",
+            "matched": true
+          }
+        },
+        "score": 3.12,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 22.122\n12. Das Kapitel über einen Dhammalehrer\nSittlich",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 25,
+          "de": 24,
+          "en": 24
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.124_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.124_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.124_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.124",
+        "lang": "de",
+        "segMap": {
+          "an4.124:1.4": {
+            "scid": "an4.124:1.4",
+            "pli": "So yadeva tattha hoti rūpagataṁ vedanāgataṁ saññāgataṁ saṅkhāragataṁ viññāṇagataṁ, te dhamme aniccato dukkhato rogato gaṇḍato sallato aghato ābādhato parato palokato suññato anattato samanupassati. ",
+            "de": "Er betrachtet die Erscheinungen dort, die in Form, Gefühl, Wahrnehmung, Entscheidungen und Bewusstsein enthalten sind, als unbeständig, als Leiden, als <span class=\"ebt-matched\">Krankheit, als Eiterherd, als Pfeil</span>, als Elend, als Beschwerde, als fremd, als zerfallend, als leer, als ohne Selbst. ",
+            "en": "They contemplate the phenomena there—included in form, feeling, perception, choices, and consciousness—as impermanent, as suffering, as diseased, as a boil, as a dart, as misery, as an affliction, as alien, as falling apart, as empty, as not-self. ",
+            "matched": true
+          },
+          "an4.124:2.2": {
+            "scid": "an4.124:2.2",
+            "pli": "So yadeva tattha hoti rūpagataṁ vedanāgataṁ saññāgataṁ saṅkhāragataṁ viññāṇagataṁ, te dhamme aniccato dukkhato rogato gaṇḍato sallato aghato ābādhato parato palokato suññato anattato samanupassati. ",
+            "de": "Er betrachtet die Erscheinungen dort, die in Form, Gefühl, Wahrnehmung, Entscheidungen und Bewusstsein enthalten sind, als unbeständig, als Leiden, als <span class=\"ebt-matched\">Krankheit, als Eiterherd, als Pfeil</span>, als Elend, als Beschwerde, als fremd, als zerfallend, als leer, als ohne Selbst. ",
+            "en": "They contemplate the phenomena there—included in form, feeling, perception, choices, and consciousness—as impermanent, as suffering, as diseased, as a boil, as a dart, as misery, as an affliction, as alien, as falling apart, as empty, as not-self. ",
+            "matched": true
+          }
+        },
+        "score": 2.133,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 4.124\n13. Das Kapitel über Furcht\nUnterschied (2)",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 15,
+          "de": 14,
+          "en": 14
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.126_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.126_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.126_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.126",
+        "lang": "de",
+        "segMap": {
+          "an4.126:1.4": {
+            "scid": "an4.126:1.4",
+            "pli": "So yadeva tattha hoti rūpagataṁ vedanāgataṁ saññāgataṁ saṅkhāragataṁ viññāṇagataṁ te dhamme aniccato dukkhato rogato gaṇḍato sallato aghato ābādhato parato palokato suññato anattato samanupassati. ",
+            "de": "Sie betrachtet die Erscheinungen dort, die in Form, Gefühl, Wahrnehmung, Entscheidungen und Bewusstsein enthalten sind, als unbeständig, als Leiden, als <span class=\"ebt-matched\">Krankheit, als Eiterherd, als Pfeil</span>, als Elend, als Beschwerde, als fremd, als zerfallend, als leer, als ohne Selbst. ",
+            "en": "They contemplate the phenomena there—included in form, feeling, perception, choices, and consciousness—as impermanent, as suffering, as diseased, as a boil, as a dart, as misery, as an affliction, as alien, as falling apart, as empty, as not-self. ",
+            "matched": true
+          },
+          "an4.126:2.4": {
+            "scid": "an4.126:2.4",
+            "pli": "So yadeva tattha hoti rūpagataṁ vedanāgataṁ saññāgataṁ saṅkhāragataṁ viññāṇagataṁ te dhamme aniccato dukkhato rogato gaṇḍato sallato aghato ābādhato parato palokato suññato anattato samanupassati. ",
+            "de": "Sie betrachtet die Erscheinungen dort, die in Form, Gefühl, Wahrnehmung, Entscheidungen und Bewusstsein enthalten sind, als unbeständig, als Leiden, als <span class=\"ebt-matched\">Krankheit, als Eiterherd, als Pfeil</span>, als Elend, als Beschwerde, als fremd, als zerfallend, als leer, als ohne Selbst. ",
+            "en": "They contemplate the phenomena there—included in form, feeling, perception, choices, and consciousness—as impermanent, as suffering, as diseased, as a boil, as a dart, as misery, as an affliction, as alien, as falling apart, as empty, as not-self. ",
+            "matched": true
+          }
+        },
+        "score": 2.118,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 4.126\n13. Das Kapitel über Furcht\nLiebe (2)",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 17,
+          "de": 16,
+          "en": 16
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn23/sn23.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn23/sn23.1_translation-de-sabbamitta.json",
+          "translation/en/davis/sutta/sn/sn23/sn23.1_translation-en-davis.json",
+          "translation/en/sujato/sutta/sn/sn23/sn23.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn23.1",
+        "lang": "de",
+        "segMap": {
+          "sn23.1:2.4": {
+            "scid": "sn23.1:2.4",
+            "pli": "Tasmātiha tvaṁ, rādha, rūpaṁ māroti passa, māretāti passa, mīyatīti passa, rogoti passa, gaṇḍoti passa, sallanti passa, aghanti passa, aghabhūtanti passa. ",
+            "de": "Daher sollst du Form als Māra betrachten, als den Mörder, als den Ermordeten, als <span class=\"ebt-matched\">Krankheit, als Eiterherd, als Pfeil</span>, als Elend, als den Elenden. ",
+            "en": "So you should see form as Māra, the murderer, the murdered, the diseased, the boil, the dart, the misery, the miserable. ",
+            "matched": true
+          },
+          "sn23.1:2.10": {
+            "scid": "sn23.1:2.10",
+            "pli": "Tasmātiha tvaṁ, rādha, viññāṇaṁ māroti passa, māretāti passa, mīyatīti passa, rogoti passa, gaṇḍoti passa, sallanti passa, aghanti passa, aghabhūtanti passa. ",
+            "de": "Daher sollst du Bewusstsein als Māra betrachten, als den Mörder, als den Ermordeten, als <span class=\"ebt-matched\">Krankheit, als Eiterherd, als Pfeil</span>, als Elend, als den Elenden. ",
+            "en": "So you should see consciousness as Māra, the murderer, the murdered, the diseased, the boil, the dart, the misery, the miserable. ",
+            "matched": true
+          }
+        },
+        "score": 2.071,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 23.1\n1. Das erste Kapitel über Māra\nÜber Māra",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 28,
+          "de": 27,
+          "en": 27
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.123_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn22/sn22.123_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.123_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.123",
+        "lang": "de",
+        "segMap": {
+          "sn22.123:4.2": {
+            "scid": "sn22.123:4.2",
+            "pli": "“Arahatāpi khvāvuso koṭṭhika, ime pañcupādānakkhandhā aniccato dukkhato rogato gaṇḍato sallato aghato ābādhato parato palokato suññato anattato yoniso manasi kātabbā. ",
+            "de": "„Geehrter Koṭṭhita, ein Vollendeter sollte den Geist für die fünf mit Ergreifen verbundenen Aggregate gründlich gebrauchen, die unbeständig sind, Leiden, eine <span class=\"ebt-matched\">Krankheit, ein Eiterherd, ein Pfeil</span>, ein Elend, eine Beschwerde, fremd, zerfallend, leer, ohne Selbst. ",
+            "en": "“Reverend Koṭṭhita, a perfected one should rationally apply the mind to the five grasping aggregates as impermanent, as suffering, as diseased, as a boil, as a dart, as misery, as an affliction, as alien, as falling apart, as empty, as not-self. ",
+            "matched": true
+          }
+        },
+        "score": 1.048,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 22.123\n12. Das Kapitel über einen Dhammalehrer\nGebildet",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 21,
+          "de": 20,
+          "en": 20
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn35/sn35.90_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn35/sn35.90_translation-de-sabbamitta.json",
+          "translation/en/davis/sutta/sn/sn35/sn35.90_translation-en-davis.json",
+          "translation/en/sujato/sutta/sn/sn35/sn35.90_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn35.90",
+        "lang": "de",
+        "segMap": {
+          "sn35.90:1.1": {
+            "scid": "sn35.90:1.1",
+            "pli": "“Ejā, bhikkhave, rogo, ejā gaṇḍo, ejā sallaṁ. ",
+            "de": "„Erregung, Mönche und Nonnen, ist eine <span class=\"ebt-matched\">Krankheit, ein Eiterherd, ein Pfeil</span>. ",
+            "en": "“Mendicants, turbulence is a disease, a boil, a dart. ",
+            "matched": true
+          }
+        },
+        "score": 1.034,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 35.90\n9. Das Kapitel mit Channa\nErregung (1)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 29,
+          "de": 24,
+          "en": 28
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn35/sn35.91_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn35/sn35.91_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn35/sn35.91_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn35.91",
+        "lang": "de",
+        "segMap": {
+          "sn35.91:1.1": {
+            "scid": "sn35.91:1.1",
+            "pli": "“Ejā, bhikkhave, rogo, ejā gaṇḍo, ejā sallaṁ. ",
+            "de": "„Erregung, Mönche und Nonnen, ist eine <span class=\"ebt-matched\">Krankheit, ein Eiterherd, ein Pfeil</span>. ",
+            "en": "“Mendicants, turbulence is a disease, a boil, a dart. ",
+            "matched": true
+          }
+        },
+        "score": 1.033,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 35.91\n9. Das Kapitel mit Channa\nErregung (2)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 30,
+          "de": 26,
+          "en": 29
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn140_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn140_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn140_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn140",
+        "lang": "de",
+        "segMap": {
+          "mn140:31.2": {
+            "scid": "mn140:31.2",
+            "pli": "Maññitaṁ, bhikkhu, rogo maññitaṁ gaṇḍo maññitaṁ sallaṁ. ",
+            "de": "Sichvorstellen ist eine <span class=\"ebt-matched\">Krankheit, ein Eiterherd, ein Pfeil</span>. ",
+            "en": "Conceiving is a disease, a boil, a dart. ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 140\nDie Aufgliederung der Elemente",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 239,
+          "de": 229,
+          "en": 238
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn21_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn21_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn21_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn21",
+        "lang": "de",
+        "segMap": {
+          "dn21:2.7.1": {
+            "scid": "dn21:2.7.1",
+            "pli": "“Ejā, bhante, rogo, ejā gaṇḍo, ejā sallaṁ, ejā imaṁ purisaṁ parikaḍḍhati tassa tasseva bhavassa abhinibbattiyā. ",
+            "de": "„Erregung, Herr, ist eine <span class=\"ebt-matched\">Krankheit, ein Eiterherd, ein Pfeil</span>. Erregung zieht einen Menschen zur Wiedergeburt von einem Leben zum anderen. ",
+            "en": "“Turbulence, sir, is a disease, a boil, a dart. Turbulence drags a person to be reborn in life after life. ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 21\nSakkas Fragen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 515,
+          "de": 478,
+          "en": 514
+        }
+      }
+    ]
+  }
+}

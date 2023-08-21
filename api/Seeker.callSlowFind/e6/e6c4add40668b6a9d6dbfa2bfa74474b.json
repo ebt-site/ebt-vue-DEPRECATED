@@ -1,0 +1,81 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sabbamitta",
+      "pattern": "den kreislauf des leidens zu beenden",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 2,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "author": "sabbamitta",
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "den kreislauf des leidens zu beenden",
+    "method": "phrase",
+    "resultPattern": "\\bden kreislauf des leidens zu beenden",
+    "segsMatched": 1,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an10/an10.95_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.95_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.95_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an10.95/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.95_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.95_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.95_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.95",
+        "lang": "de",
+        "segMap": {
+          "an10.95:7.1": {
+            "scid": "an10.95:7.1",
+            "pli": "“Abhiññāya kho ahaṁ, uttiya, sāvakānaṁ dhammaṁ desemi sattānaṁ visuddhiyā sokaparidevānaṁ samatikkamāya dukkhadomanassānaṁ atthaṅgamāya ñāyassa adhigamāya nibbānassa sacchikiriyāyā”ti. ",
+            "de": "„Uttiya, ich lehre meine Schüler aus meiner eigenen Einsicht, um die Wesen zu läutern, Kummer und Weinen zu überwinden, Schmerz und Traurigkeit ein Ende zu machen, <span class=\"ebt-matched\">den Kreislauf des Leidens zu beenden</span> und das Erlöschen zu verwirklichen.“ ",
+            "en": "“Uttiya, I teach my disciples from my own insight in order to purify sentient beings, to get past sorrow and crying, to make an end of pain and sadness, to end the cycle of suffering, and to realize extinguishment.” ",
+            "matched": true
+          }
+        },
+        "score": 1.018,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10.95\n10. Das Kapitel mit Upāli\nMit Uttiya",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 57,
+          "de": 40,
+          "en": 56
+        }
+      }
+    ]
+  }
+}

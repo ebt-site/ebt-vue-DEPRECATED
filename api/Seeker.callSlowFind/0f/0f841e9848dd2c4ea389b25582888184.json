@@ -1,0 +1,124 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sabbamitta",
+      "pattern": "rufe alle mönche und nonnen",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 2,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "author": "sabbamitta",
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "rufe alle mönche und nonnen",
+    "method": "phrase",
+    "resultPattern": "\\brufe alle mönche und nonnen",
+    "segsMatched": 3,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn54/sn54.9_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn54/sn54.9_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn54/sn54.9_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "dn16/de/sabbamitta",
+      "sn54.9/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn16",
+        "lang": "de",
+        "segMap": {
+          "dn16:1.6.2": {
+            "scid": "dn16:1.6.2",
+            "pli": "“gaccha tvaṁ, ānanda, yāvatikā bhikkhū rājagahaṁ upanissāya viharanti, te sabbe upaṭṭhānasālāyaṁ sannipātehī”ti. ",
+            "de": "„Geh, Ānanda, <span class=\"ebt-matched\">rufe alle Mönche und Nonnen</span>, die in der Umgebung von Rājagaha leben, in der Versammlungshalle zusammen.“ ",
+            "en": "“Go, Ānanda, gather all the mendicants staying in the vicinity of Rājagaha together in the assembly hall.” ",
+            "matched": true
+          },
+          "dn16:3.49.2": {
+            "scid": "dn16:3.49.2",
+            "pli": "“gaccha tvaṁ, ānanda, yāvatikā bhikkhū vesāliṁ upanissāya viharanti, te sabbe upaṭṭhānasālāyaṁ sannipātehī”ti. ",
+            "de": "„Geh, Ānanda, <span class=\"ebt-matched\">rufe alle Mönche und Nonnen</span>, die in der Umgebung von Vesālī leben, in der Versammlungshalle zusammen.“ ",
+            "en": "“Go, Ānanda, gather all the mendicants staying in the vicinity of Vesālī together in the assembly hall.” ",
+            "matched": true
+          }
+        },
+        "score": 2.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 16\nDie große Lehrrede vom Erlöschen des Buddha",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 1664,
+          "de": 1579,
+          "en": 1568
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn54/sn54.9_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn54/sn54.9_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn54/sn54.9_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn54.9",
+        "lang": "de",
+        "segMap": {
+          "sn54.9:5.1": {
+            "scid": "sn54.9:5.1",
+            "pli": "“Tenahānanda, yāvatikā bhikkhū vesāliṁ upanissāya viharanti te sabbe upaṭṭhānasālāyaṁ sannipātehī”ti. ",
+            "de": "„Nun, Ānanda, <span class=\"ebt-matched\">rufe alle Mönche und Nonnen</span>, die in der Umgebung von Vesālī leben, in der Versammlungshalle zusammen.“ ",
+            "en": "“Well then, Ānanda, gather all the mendicants staying in the vicinity of Vesālī together in the assembly hall.” ",
+            "matched": true
+          }
+        },
+        "score": 1.029,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 54.9\n1. Das Kapitel über ein Ding\nIn Vesālī",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 35,
+          "de": 32,
+          "en": 34
+        }
+      }
+    ]
+  }
+}

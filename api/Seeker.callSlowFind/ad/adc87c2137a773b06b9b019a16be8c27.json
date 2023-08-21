@@ -1,0 +1,117 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sabbamitta",
+      "pattern": "abhängige entstehen tiefgründig ist",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 2,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "author": "sabbamitta",
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "abhängige entstehen tiefgründig ist",
+    "method": "phrase",
+    "resultPattern": "\\babhängige entstehen tiefgründig ist",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn12/sn12.60_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn12/sn12.60_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.60_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn15_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn15_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn15_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn12.60/de/sabbamitta",
+      "dn15/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn12/sn12.60_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn12/sn12.60_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn12/sn12.60_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn12.60",
+        "lang": "de",
+        "segMap": {
+          "sn12.60:1.4": {
+            "scid": "sn12.60:1.4",
+            "pli": "Yāva gambhīro cāyaṁ, bhante, paṭiccasamuppādo gambhīrāvabhāso ca, atha ca pana me uttānakuttānako viya khāyatī”ti. ",
+            "de": "dass dieses <span class=\"ebt-matched\">abhängige Entstehen tiefgründig ist</span> und auch so erscheint, und dennoch erscheint es mir so offensichtlich wie es nur sein kann.“ ",
+            "en": "in that this dependent origination is deep and appears deep, yet to me it seems as plain as can be.” ",
+            "matched": true
+          }
+        },
+        "score": 1.02,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 12.60\n6. Das Kapitel über das Leiden\nQuellen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 49,
+          "de": 38,
+          "en": 47
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn15_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn15_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn15_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn15",
+        "lang": "de",
+        "segMap": {
+          "dn15:1.5": {
+            "scid": "dn15:1.5",
+            "pli": "Yāva gambhīro cāyaṁ, bhante, paṭiccasamuppādo gambhīrāvabhāso ca, atha ca pana me uttānakuttānako viya khāyatī”ti. ",
+            "de": "dass dieses <span class=\"ebt-matched\">abhängige Entstehen tiefgründig ist</span> und auch so erscheint, und dennoch erscheint es mir so offensichtlich wie es nur sein kann.“ ",
+            "en": "in that this dependent origination is deep and appears deep, yet to me it seems as plain as can be.” ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 15\nDie große Lehrrede über das Kausalprinzip",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 277,
+          "de": 254,
+          "en": 276
+        }
+      }
+    ]
+  }
+}

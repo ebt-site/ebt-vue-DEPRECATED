@@ -1,0 +1,82 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sujato",
+      "pattern": "if others criticize",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en"
+      ],
+      "maxResults": 1000,
+      "searchLang": "en",
+      "maxDoc": 50,
+      "minLang": 2,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "en",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "author": "sujato",
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "if others criticize",
+    "method": "phrase",
+    "resultPattern": "\\bif others criticize",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn1_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn1_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "dn1/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn1_root-pli-ms.json",
+          "translation/en/sujato/sutta/dn/dn1_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn1",
+        "lang": "en",
+        "segMap": {
+          "dn1:1.5.1": {
+            "scid": "dn1:1.5.1",
+            "pli": "“Mamaṁ vā, bhikkhave, pare avaṇṇaṁ bhāseyyuṁ, dhammassa vā avaṇṇaṁ bhāseyyuṁ, saṅghassa vā avaṇṇaṁ bhāseyyuṁ, tatra tumhehi na āghāto na appaccayo na cetaso anabhiraddhi karaṇīyā. ",
+            "en": "“Mendicants, <span class=\"ebt-matched\">if others criticize</span> me, the teaching, or the Saṅgha, don’t make yourselves resentful, bitter, and exasperated. ",
+            "matched": true
+          },
+          "dn1:1.6.1": {
+            "scid": "dn1:1.6.1",
+            "pli": "“Mamaṁ vā, bhikkhave, pare avaṇṇaṁ bhāseyyuṁ, dhammassa vā avaṇṇaṁ bhāseyyuṁ, saṅghassa vā avaṇṇaṁ bhāseyyuṁ, tatra tumhehi abhūtaṁ abhūtato nibbeṭhetabbaṁ: ",
+            "en": "“<span class=\"ebt-matched\">If others criticize</span> me, the teaching, or the Saṅgha, you should explain that what is untrue is in fact untrue: ",
+            "matched": true
+          }
+        },
+        "score": 2.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Long Discourses 1\nThe Divine Net",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 662,
+          "en": 661
+        }
+      }
+    ]
+  }
+}

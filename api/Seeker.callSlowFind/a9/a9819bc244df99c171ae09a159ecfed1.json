@@ -1,0 +1,119 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sabbamitta",
+      "pattern": "glück und schmerz sind zugeteilt",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 2,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "author": "sabbamitta",
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "glück und schmerz sind zugeteilt",
+    "method": "phrase",
+    "resultPattern": "\\bglück und schmerz sind zugeteilt",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn24/sn24.8_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn24/sn24.8_translation-de-sabbamitta.json",
+      "translation/en/davis/sutta/sn/sn24/sn24.8_translation-en-davis.json",
+      "translation/en/sujato/sutta/sn/sn24/sn24.8_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn24.8/de/sabbamitta",
+      "dn2/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn24/sn24.8_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn24/sn24.8_translation-de-sabbamitta.json",
+          "translation/en/davis/sutta/sn/sn24/sn24.8_translation-en-davis.json",
+          "translation/en/sujato/sutta/sn/sn24/sn24.8_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn24.8",
+        "lang": "de",
+        "segMap": {
+          "sn24.8:1.13": {
+            "scid": "sn24.8:1.13",
+            "pli": "paripakkaṁ vā kammaṁ phussa phussa byantīkarissāmīti hevaṁ natthi doṇamite sukhadukkhe pariyantakate saṁsāre, natthi hāyanavaḍḍhane, natthi ukkaṁsāvakaṁse. ",
+            "de": "<span class=\"ebt-matched\">Glück und Schmerz sind zugeteilt</span>. Das Umherwandern dauert nur eine begrenzte Zeit, daher gibt es keinen Zuwachs und keine Abnahme, kein Besserwerden und kein Schlechterwerden. ",
+            "en": "Pleasure and pain are allotted. Transmigration lasts only for a limited period, so there’s no increase or decrease, no getting better or worse. ",
+            "matched": true
+          }
+        },
+        "score": 1.023,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 24.8\n1. Das Kapitel über den Stromeintritt\nDie ausgedehnte Ansicht",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 44,
+          "de": 39,
+          "en": 43
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn2",
+        "lang": "de",
+        "segMap": {
+          "dn2:20.9": {
+            "scid": "dn2:20.9",
+            "pli": "Doṇamite sukhadukkhe pariyantakate saṁsāre, natthi hāyanavaḍḍhane, natthi ukkaṁsāvakaṁse. ",
+            "de": "<span class=\"ebt-matched\">Glück und Schmerz sind zugeteilt</span>. Das Umherwandern dauert nur eine begrenzte Zeit, daher gibt es keinen Zuwachs und keine Abnahme, kein Besserwerden und kein Schlechterwerden. ",
+            "en": "Pleasure and pain are allotted. Transmigration lasts only for a limited period, so there’s no increase or decrease, no getting better or worse. ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 2\nDie Früchte des Asketenlebens",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 650,
+          "de": 589,
+          "en": 633
+        }
+      }
+    ]
+  }
+}

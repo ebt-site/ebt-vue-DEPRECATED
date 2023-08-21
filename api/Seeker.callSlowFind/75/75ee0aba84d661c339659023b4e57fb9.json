@@ -1,0 +1,238 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sujato",
+      "pattern": "seized by",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en"
+      ],
+      "maxResults": 1000,
+      "searchLang": "en",
+      "maxDoc": 50,
+      "minLang": 2,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "en",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "author": "sujato",
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "seized by",
+    "method": "phrase",
+    "resultPattern": "\\bseized by",
+    "segsMatched": 6,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn3/sn3.4_root-pli-ms.json",
+      "translation/en/davis/sutta/sn/sn3/sn3.4_translation-en-davis.json",
+      "translation/en/sujato/sutta/sn/sn3/sn3.4_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn2/sn2.9_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn2/sn2.9_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn2/sn2.10_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn2/sn2.10_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn1/sn1.38_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn1/sn1.38_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/dhp/dhp273-289_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp273-289_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.170_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an4/an4.170_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn3.4/en/sujato",
+      "sn2.9/en/sujato",
+      "sn2.10/en/sujato",
+      "sn1.38/en/sujato",
+      "dhp273-289/en/sujato",
+      "an4.170/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn2/sn2.9_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn2/sn2.9_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn2.9",
+        "lang": "en",
+        "segMap": {
+          "sn2.9:1.2": {
+            "scid": "sn2.9:1.2",
+            "pli": "Tena kho pana samayena candimā devaputto rāhunā asurindena gahito hoti. ",
+            "en": "Now at that time the Moon God had been <span class=\"ebt-matched\">seized by</span> Rāhu, lord of titans. ",
+            "matched": true
+          }
+        },
+        "score": 1.04,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 2.9\nChapter One\nThe Moon",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 25,
+          "en": 25
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn2/sn2.10_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn2/sn2.10_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn2.10",
+        "lang": "en",
+        "segMap": {
+          "sn2.10:1.2": {
+            "scid": "sn2.10:1.2",
+            "pli": "Tena kho pana samayena sūriyo devaputto rāhunā asurindena gahito hoti. ",
+            "en": "Now at that time the Sun God had been <span class=\"ebt-matched\">seized by</span> Rāhu, lord of titans. ",
+            "matched": true
+          }
+        },
+        "score": 1.029,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 2.10\nChapter One\nThe Sun",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 35,
+          "en": 33
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.170_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an4/an4.170_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.170",
+        "lang": "en",
+        "segMap": {
+          "an4.170:6.1": {
+            "scid": "an4.170:6.1",
+            "pli": "Puna caparaṁ, āvuso, bhikkhuno dhammuddhaccaviggahitaṁ mānasaṁ hoti. ",
+            "en": "Another mendicant’s mind is <span class=\"ebt-matched\">seized by</span> restlessness to realize the teaching. ",
+            "matched": true
+          }
+        },
+        "score": 1.028,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 4.170\n17. Practice\nIn Conjunction",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 36,
+          "en": 34
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn1/sn1.38_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn1/sn1.38_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn1.38",
+        "lang": "en",
+        "segMap": {
+          "sn1.38:10.1": {
+            "scid": "sn1.38:10.1",
+            "pli": "Taṇhādhipannā vatasīlabaddhā, ",
+            "en": "<span class=\"ebt-matched\">Seized by</span> craving,  <j>attached to precepts and observances, ",
+            "matched": true
+          }
+        },
+        "score": 1.021,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 1.38\n4. The Satullapa Group\nA Splinter",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 47,
+          "en": 47
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn3/sn3.4_root-pli-ms.json",
+          "translation/en/davis/sutta/sn/sn3/sn3.4_translation-en-davis.json",
+          "translation/en/sujato/sutta/sn/sn3/sn3.4_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn3.4",
+        "lang": "en",
+        "segMap": {
+          "sn3.4:4.1": {
+            "scid": "sn3.4:4.1",
+            "pli": "Antakenādhipannassa, ",
+            "en": "When you’re <span class=\"ebt-matched\">seized by</span> the terminator ",
+            "matched": true
+          }
+        },
+        "score": 1.017,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 3.4\n1. Shackles\nLoved",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 59,
+          "en": 59
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/dhp/dhp273-289_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/dhp/dhp273-289_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dhp273-289",
+        "lang": "en",
+        "segMap": {
+          "dhp288:3": {
+            "scid": "dhp288:3",
+            "pli": "Antakenādhipannassa, ",
+            "en": "When you’re <span class=\"ebt-matched\">seized by</span> the terminator, ",
+            "matched": true
+          }
+        },
+        "score": 1.012,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Minor Collection\nSayings of the Dhamma 273–289\n20. The Path\nPañcasatabhikkhuvatthu",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 86,
+          "en": 86
+        }
+      }
+    ]
+  }
+}

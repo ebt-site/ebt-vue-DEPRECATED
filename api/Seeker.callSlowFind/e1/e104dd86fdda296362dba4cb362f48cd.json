@@ -1,0 +1,152 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sujato",
+      "pattern": "spike of rice",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en"
+      ],
+      "maxResults": 1000,
+      "searchLang": "en",
+      "maxDoc": 50,
+      "minLang": 2,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "en",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "author": "sujato",
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "spike of rice",
+    "method": "phrase",
+    "resultPattern": "\\bspike of rice",
+    "segsMatched": 5,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn45/sn45.9_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn45/sn45.9_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an1/an1.41-50_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an1/an1.41-50_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn45/sn45.154_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn45/sn45.154_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn45.9/en/sujato",
+      "an1.41-50/en/sujato",
+      "sn45.154/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn45/sn45.9_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn45/sn45.9_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn45.9",
+        "lang": "en",
+        "segMap": {
+          "sn45.9:1.2": {
+            "scid": "sn45.9:1.2",
+            "pli": "“Seyyathāpi, bhikkhave, sālisūkaṁ vā yavasūkaṁ vā micchāpaṇihitaṁ hatthena vā pādena vā akkantaṁ hatthaṁ vā pādaṁ vā bhindissati, lohitaṁ vā uppādessatīti—netaṁ ṭhānaṁ vijjati. ",
+            "en": "“Mendicants, suppose a <span class=\"ebt-matched\">spike of rice</span> or barley was pointing the wrong way. If you trod on it with hand or foot, there’s no way it could break the skin and produce blood. ",
+            "matched": true
+          },
+          "sn45.9:2.1": {
+            "scid": "sn45.9:2.1",
+            "pli": "Seyyathāpi, bhikkhave, sālisūkaṁ vā yavasūkaṁ vā sammāpaṇihitaṁ hatthena vā pādena vā akkantaṁ hatthaṁ vā pādaṁ vā bhindissati, lohitaṁ vā uppādessatīti—ṭhānametaṁ vijjati. ",
+            "en": "Suppose a <span class=\"ebt-matched\">spike of rice</span> or barley was pointing the right way. If you trod on it with hand or foot, it may well break the skin and produce blood. ",
+            "matched": true
+          }
+        },
+        "score": 2.1,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 45.9\n1. Ignorance\nA Spike",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 20,
+          "en": 19
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an1/an1.41-50_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an1/an1.41-50_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an1.41-50",
+        "lang": "en",
+        "segMap": {
+          "an1.41:1.1": {
+            "scid": "an1.41:1.1",
+            "pli": "“Seyyathāpi, bhikkhave, sālisūkaṁ vā yavasūkaṁ vā micchāpaṇihitaṁ hatthena vā pādena vā akkantaṁ hatthaṁ vā pādaṁ vā bhecchati lohitaṁ vā uppādessatīti netaṁ ṭhānaṁ vijjati. ",
+            "en": "“Mendicants, suppose a <span class=\"ebt-matched\">spike of rice</span> or barley was pointing the wrong way. If you trod on it with hand or foot, there’s no way it could break the skin and produce blood. ",
+            "matched": true
+          },
+          "an1.42:1.1": {
+            "scid": "an1.42:1.1",
+            "pli": "“Seyyathāpi, bhikkhave, sālisūkaṁ vā yavasūkaṁ vā sammāpaṇihitaṁ hatthena vā pādena vā akkantaṁ hatthaṁ vā pādaṁ vā bhecchati lohitaṁ vā uppādessatīti ṭhānametaṁ vijjati. ",
+            "en": "“Mendicants, suppose a <span class=\"ebt-matched\">spike of rice</span> or barley was pointing the right way. If you trod on it with hand or foot, it may well break the skin and produce blood. ",
+            "matched": true
+          }
+        },
+        "score": 2.03,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 1.41–50\nThe Chapter on a Spike",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 66,
+          "en": 55
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn45/sn45.154_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn45/sn45.154_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn45.154",
+        "lang": "en",
+        "segMap": {
+          "sn45.154:1.1": {
+            "scid": "sn45.154:1.1",
+            "pli": "“Seyyathāpi, bhikkhave, sālisūkaṁ vā yavasūkaṁ vā sammāpaṇihitaṁ hatthena vā pādena vā akkantaṁ hatthaṁ vā pādaṁ vā bhindissati lohitaṁ vā uppādessatīti—ṭhānametaṁ vijjati. ",
+            "en": "“Mendicants, suppose a <span class=\"ebt-matched\">spike of rice</span> or barley was pointing the right way. If you trod on it with hand or foot, it may well break the skin and produce blood. ",
+            "matched": true
+          }
+        },
+        "score": 1.077,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 45.154\n12. Hard Work\nA Spike",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 13,
+          "en": 12
+        }
+      }
+    ]
+  }
+}

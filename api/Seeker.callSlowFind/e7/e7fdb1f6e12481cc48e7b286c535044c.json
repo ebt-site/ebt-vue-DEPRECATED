@@ -1,0 +1,83 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sabbamitta",
+      "pattern": "es für dich zu kummer",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 2,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "author": "sabbamitta",
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "es für dich zu kummer",
+    "method": "phrase",
+    "resultPattern": "\\bes für dich zu kummer",
+    "segsMatched": 1,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn42/sn42.11_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn42/sn42.11_translation-de-sabbamitta.json",
+      "translation/en/davis/sutta/sn/sn42/sn42.11_translation-en-davis.json",
+      "translation/en/sujato/sutta/sn/sn42/sn42.11_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn42.11/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn42/sn42.11_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn42/sn42.11_translation-de-sabbamitta.json",
+          "translation/en/davis/sutta/sn/sn42/sn42.11_translation-en-davis.json",
+          "translation/en/sujato/sutta/sn/sn42/sn42.11_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn42.11",
+        "lang": "de",
+        "segMap": {
+          "sn42.11:2.2": {
+            "scid": "sn42.11:2.2",
+            "pli": "atthi te uruvelakappe manussā yesaṁ te vadhena vā bandhena vā jāniyā vā garahāya vā uppajjeyyuṁ sokaparidevadukkhadomanassupāyāsā”ti? ",
+            "de": "Gibt es hier in Uruvelakappa Menschen, bei denen <span class=\"ebt-matched\">es für dich zu Kummer</span>, Klage, Schmerz, Traurigkeit und Bedrängnis käme, wenn sie hingerichtet würden, ins Gefängnis kämen, ihr Besitz eingezogen oder sie anderweitig bestraft würden?“ ",
+            "en": "Are there any people here in Uruvelakappa who, if they were executed, imprisoned, fined, or condemned, it would cause you sorrow, lamentation, pain, sadness, and distress?” ",
+            "matched": true
+          }
+        },
+        "score": 1.018,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 42.11\n1. Das Kapitel mit Ortsvorstehern\nMit Bhadraka",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 55,
+          "de": 54,
+          "en": 54
+        }
+      }
+    ]
+  }
+}

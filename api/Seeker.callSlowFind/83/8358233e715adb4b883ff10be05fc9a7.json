@@ -1,0 +1,96 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sujato",
+      "pattern": "bearer of the burden",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en"
+      ],
+      "maxResults": 1000,
+      "searchLang": "en",
+      "maxDoc": 50,
+      "minLang": 2,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "en",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "author": "sujato",
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "bearer of the burden",
+    "method": "phrase",
+    "resultPattern": "\\bbearer of the burden",
+    "segsMatched": 4,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn22/sn22.22_root-pli-ms.json",
+      "translation/en/davis/sutta/sn/sn22/sn22.22_translation-en-davis.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.22_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn22.22/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.22_root-pli-ms.json",
+          "translation/en/davis/sutta/sn/sn22/sn22.22_translation-en-davis.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.22_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.22",
+        "lang": "en",
+        "segMap": {
+          "sn22.22:1.2": {
+            "scid": "sn22.22:1.2",
+            "pli": "“bhārañca vo, bhikkhave, desessāmi bhārahārañca bhārādānañca bhāranikkhepanañca. ",
+            "en": "“Mendicants, I will teach you the burden, the <span class=\"ebt-matched\">bearer of the burden</span>, the picking up of the burden, and the putting down of the burden. ",
+            "matched": true
+          },
+          "sn22.22:2.1": {
+            "scid": "sn22.22:2.1",
+            "pli": "Katamo ca, bhikkhave, bhārahāro? ",
+            "en": "And who is the <span class=\"ebt-matched\">bearer of the burden</span>? ",
+            "matched": true
+          },
+          "sn22.22:2.4": {
+            "scid": "sn22.22:2.4",
+            "pli": "ayaṁ vuccati, bhikkhave, bhārahāro. ",
+            "en": "This is called the <span class=\"ebt-matched\">bearer of the burden</span>. ",
+            "matched": true
+          },
+          "sn22.22:6.2": {
+            "scid": "sn22.22:6.2",
+            "pli": "bhārahāro ca puggalo; ",
+            "en": "and the person is the <span class=\"ebt-matched\">bearer of the burden</span>. ",
+            "matched": true
+          }
+        },
+        "score": 4.121,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 22.22\n3. The Burden\nThe Burden",
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 33,
+          "en": 32
+        }
+      }
+    ]
+  }
+}

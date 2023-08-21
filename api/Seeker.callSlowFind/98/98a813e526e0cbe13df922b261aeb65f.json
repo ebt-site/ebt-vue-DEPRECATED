@@ -1,0 +1,167 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sabbamitta",
+      "pattern": "verbindlich.* beantwort",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 2,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "author": "sabbamitta",
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "verbindlich.* beantwort",
+    "method": "phrase",
+    "resultPattern": "\\bverbindlich.* beantwort",
+    "segsMatched": 5,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an4/an4.42_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.42_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.42_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.67_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an3/an3.67_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an3/an3.67_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an4.42/de/sabbamitta",
+      "an3.67/de/sabbamitta",
+      "dn33/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.42_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.42_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.42_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.42",
+        "lang": "de",
+        "segMap": {
+          "an4.42:1.3": {
+            "scid": "an4.42:1.3",
+            "pli": "Atthi, bhikkhave, pañho ekaṁsabyākaraṇīyo; ",
+            "de": "Es gibt eine Frage, die mit einer <span class=\"ebt-matched\">verbindlichen Aussage zu beantwort</span>en ist. ",
+            "en": "There is a question that should be answered definitively. ",
+            "matched": true
+          },
+          "an4.42:2.1": {
+            "scid": "an4.42:2.1",
+            "pli": "Ekaṁsavacanaṁ ekaṁ, ",
+            "de": "Eine wird <span class=\"ebt-matched\">verbindlich beantwort</span>et, ",
+            "en": "One is stated definitively, ",
+            "matched": true
+          }
+        },
+        "score": 2.074,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 4.42\n5. Das Kapitel mit Rohitassa\nWie man Fragen beantwortet",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 27,
+          "de": 26,
+          "en": 26
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an3/an3.67_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an3/an3.67_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an3/an3.67_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an3.67",
+        "lang": "de",
+        "segMap": {
+          "an3.67:2.2": {
+            "scid": "an3.67:2.2",
+            "pli": "Sacāyaṁ, bhikkhave, puggalo pañhaṁ puṭṭho samāno ekaṁsabyākaraṇīyaṁ pañhaṁ na ekaṁsena byākaroti, vibhajjabyākaraṇīyaṁ pañhaṁ na vibhajja byākaroti, paṭipucchābyākaraṇīyaṁ pañhaṁ na paṭipucchā byākaroti, ṭhapanīyaṁ pañhaṁ na ṭhapeti, evaṁ santāyaṁ, bhikkhave, puggalo akaccho hoti. ",
+            "de": "Wenn jemand etwas gefragt wird, das mit einer <span class=\"ebt-matched\">verbindlichen Aussage beantwort</span>et werden muss, und er macht keine verbindliche Aussage; oder etwas benötigt eine Aufgliederung und er gliedert es in seiner Antwort nicht auf; oder es muss eine Gegenfrage gestellt werden und er antwortet ohne Gegenfrage; oder eine Frage muss ausgelassen werden und er lässt sie nicht aus – dann ist dieser Mensch nicht zum Diskutieren fähig. ",
+            "en": "When a person is asked a question, if it needs to be answered definitively and they don’t answer it definitively; or if it needs analysis and they answer without analyzing it; or if it needs a counter-question and they answer without a counter-question; or if it should be set aside and they don’t set it aside, then that person is not competent to hold a discussion. ",
+            "matched": true
+          },
+          "an3.67:2.3": {
+            "scid": "an3.67:2.3",
+            "pli": "Sace panāyaṁ, bhikkhave, puggalo pañhaṁ puṭṭho samāno ekaṁsabyākaraṇīyaṁ pañhaṁ ekaṁsena byākaroti, vibhajjabyākaraṇīyaṁ pañhaṁ vibhajja byākaroti, paṭipucchābyākaraṇīyaṁ pañhaṁ paṭipucchā byākaroti, ṭhapanīyaṁ pañhaṁ ṭhapeti, evaṁ santāyaṁ, bhikkhave, puggalo kaccho hoti. ",
+            "de": "Wenn jemand etwas gefragt wird, das mit einer <span class=\"ebt-matched\">verbindlichen Aussage beantwort</span>et werden muss, und er macht eine verbindliche Aussage; oder etwas benötigt eine Aufgliederung und er gliedert es in seiner Antwort auf; oder es muss eine Gegenfrage gestellt werden und er antwortet mit einer Gegenfrage; oder eine Frage muss ausgelassen werden und er lässt sie aus – dann ist dieser Mensch zum Diskutieren fähig. ",
+            "en": "When a person is asked a question, if it needs to be answered definitively and they answer it definitively; or if it needs analysis and they answer after analyzing it; or if it needs a counter-question and they answer with a counter-question; or if it should be set aside and they set it aside, then that person is competent to hold a discussion. ",
+            "matched": true
+          }
+        },
+        "score": 2.032,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 3.67\n7. Das große Kapitel\nDiskussionsthemen",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 62,
+          "de": 61,
+          "en": 61
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn33",
+        "lang": "de",
+        "segMap": {
+          "dn33:1.11.152": {
+            "scid": "dn33:1.11.152",
+            "pli": "ekaṁsabyākaraṇīyo pañho, paṭipucchābyākaraṇīyo pañho, vibhajjabyākaraṇīyo pañho, ṭhapanīyo pañho. ",
+            "de": "Es gibt eine Frage, die mit einer <span class=\"ebt-matched\">verbindlichen Aussage zu beantworten ist. Es gibt eine Frage, die mit einer Gegenfrage zu beantworten ist. Es gibt eine Frage, die durch Aufgliederung zu beantwort</span>en ist. Es gibt eine Frage, die auszulassen ist. ",
+            "en": "There is a question that should be answered definitively. There is a question that should be answered analytically. There is a question that should be answered with a counter-question. There is a question that should be set aside. ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 33\nIm Chor aufsagen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 1167,
+          "de": 1166,
+          "en": 1166
+        }
+      }
+    ]
+  }
+}

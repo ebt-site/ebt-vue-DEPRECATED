@@ -1,0 +1,83 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sabbamitta",
+      "pattern": "mit ungezügeltem sehvermögen",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 2,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "author": "sabbamitta",
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "mit ungezügeltem sehvermögen",
+    "method": "phrase",
+    "resultPattern": "\\bmit ungezügeltem sehvermögen",
+    "segsMatched": 1,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn35/sn35.97_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn35/sn35.97_translation-de-sabbamitta.json",
+      "translation/en/davis/sutta/sn/sn35/sn35.97_translation-en-davis.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.97_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn35.97/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn35/sn35.97_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn35/sn35.97_translation-de-sabbamitta.json",
+          "translation/en/davis/sutta/sn/sn35/sn35.97_translation-en-davis.json",
+          "translation/en/sujato/sutta/sn/sn35/sn35.97_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn35.97",
+        "lang": "de",
+        "segMap": {
+          "sn35.97:1.4": {
+            "scid": "sn35.97:1.4",
+            "pli": "Cakkhundriyaṁ asaṁvutassa, bhikkhave, viharato cittaṁ byāsiñcati cakkhuviññeyyesu rūpesu. ",
+            "de": "Wenn man <span class=\"ebt-matched\">mit ungezügeltem Sehvermögen</span> lebt, wird der Geist verschmutzt in Bezug auf Bilder, die das Auge erkennt. ",
+            "en": "When you live with the eye faculty unrestrained, your mind becomes polluted when it comes to sights known by the eye. ",
+            "matched": true
+          }
+        },
+        "score": 1.021,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 35.97\n10. Das Kapitel über die Sechser\nWer nachlässig lebt",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 47,
+          "de": 43,
+          "en": 46
+        }
+      }
+    ]
+  }
+}

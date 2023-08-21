@@ -1,0 +1,354 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sabbamitta",
+      "pattern": "sag.* die wahrheit",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "maxResults": 1000,
+      "searchLang": "de",
+      "maxDoc": 50,
+      "minLang": 2,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "de",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "author": "sabbamitta",
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "sag.* die wahrheit",
+    "method": "phrase",
+    "resultPattern": "\\bsag.* die wahrheit",
+    "segsMatched": 11,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn9_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn9_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn9_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an8/an8.41_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an8/an8.41_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an8/an8.41_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.70_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an3/an3.70_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an3/an3.70_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn30_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn30_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn30_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn1_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.198_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.198_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.198_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.99_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.99_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.99_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "dn9/de/sabbamitta",
+      "an8.41/de/sabbamitta",
+      "an3.70/de/sabbamitta",
+      "dn30/de/sabbamitta",
+      "dn2/de/sabbamitta",
+      "dn1/de/sabbamitta",
+      "an4.198/de/sabbamitta",
+      "an10.99/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.41_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an8/an8.41_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an8/an8.41_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an8.41",
+        "lang": "de",
+        "segMap": {
+          "an8.41:5.1": {
+            "scid": "an8.41:5.1",
+            "pli": "‘Yāvajīvaṁ arahanto musāvādaṁ pahāya musāvādā paṭiviratā saccavādino saccasandhā thetā paccayikā avisaṁvādako lokassa. ",
+            "de": "‚Solange sie leben, geben die Vollendeten das Lügen auf und lügen nicht mehr. Sie <span class=\"ebt-matched\">sagen die Wahrheit und halten sich an die Wahrheit</span>. Sie sind ehrlich und vertrauenswürdig und legen die Welt nicht mit ihren Worten herein. ",
+            "en": "‘As long as they live, the perfected ones give up lying. They speak the truth and stick to the truth. They’re honest and trustworthy, and don’t trick the world with their words. ",
+            "matched": true
+          },
+          "an8.41:5.2": {
+            "scid": "an8.41:5.2",
+            "pli": "Ahampajja imañca rattiṁ imañca divasaṁ musāvādaṁ pahāya musāvādā paṭivirato saccavādī saccasandho theto paccayiko avisaṁvādako lokassa. ",
+            "de": "Auch ich will für diesen Tag und diese Nacht das Lügen aufgeben und nicht lügen. Ich will die Wahrheit <span class=\"ebt-matched\">sagen und mich an die Wahrheit</span> halten. Ich will ehrlich und vertrauenswürdig sein und will die Welt nicht mit meinen Worten hereinlegen. ",
+            "en": "I, too, for this day and night will give up lying. I’ll speak the truth and stick to the truth. I’ll be honest and trustworthy, and won’t trick the world with my words. ",
+            "matched": true
+          }
+        },
+        "score": 2.043,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 8.41\n5. Das Kapitel über den Besinnungstag\nDer Besinnungstag mit acht Faktoren, kurz",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 46,
+          "de": 45,
+          "en": 45
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an3/an3.70_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an3/an3.70_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an3/an3.70_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an3.70",
+        "lang": "de",
+        "segMap": {
+          "an3.70:22.1": {
+            "scid": "an3.70:22.1",
+            "pli": "Yāvajīvaṁ arahanto musāvādaṁ pahāya musāvādā paṭiviratā saccavādī saccasandhā thetā paccayikā avisaṁvādakā lokassa; ",
+            "de": "Solange sie leben, geben die Vollendeten das Lügen auf und lügen nicht mehr. Sie <span class=\"ebt-matched\">sagen die Wahrheit und halten sich an die Wahrheit</span>. Sie sind ehrlich und vertrauenswürdig und legen die Welt nicht mit ihren Worten herein. ",
+            "en": "As long as they live, the perfected ones give up lying. They speak the truth and stick to the truth. They’re honest and trustworthy, and don’t trick the world with their words. ",
+            "matched": true
+          },
+          "an3.70:22.2": {
+            "scid": "an3.70:22.2",
+            "pli": "ahampajja imañca rattiṁ imañca divasaṁ musāvādaṁ pahāya musāvādā paṭivirato saccavādī saccasandho theto paccayiko avisaṁvādako lokassa. ",
+            "de": "Auch ich will für diesen Tag und diese Nacht das Lügen aufgeben und nicht lügen. Ich will die Wahrheit <span class=\"ebt-matched\">sagen und mich an die Wahrheit</span> halten. Ich will ehrlich und vertrauenswürdig sein und will die Welt nicht mit meinen Worten hereinlegen. ",
+            "en": "I, too, for this day and night will give up lying. I’ll speak the truth and stick to the truth. I’ll be honest and trustworthy, and won’t trick the world with my words. ",
+            "matched": true
+          }
+        },
+        "score": 2.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 3.70\n7. Das große Kapitel\nBesinnungstag",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 238,
+          "de": 232,
+          "en": 232
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn9_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn9_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn9_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn9",
+        "lang": "de",
+        "segMap": {
+          "dn9:25.3": {
+            "scid": "dn9:25.3",
+            "pli": "kiṁ pana, bhante, ‘sassato loko, idameva saccaṁ moghamaññan’”ti? ",
+            "de": "was <span class=\"ebt-matched\">sagst du dann dazu: ‚Das Weltall ist ewig. Das allein ist die Wahrheit</span>, alles andere ist Unsinn‘?“ ",
+            "en": "then what do you make of this: ‘The cosmos is eternal. This is the only truth, anything else is wrong’?” ",
+            "matched": true
+          },
+          "dn9:26.1": {
+            "scid": "dn9:26.1",
+            "pli": "“Kiṁ pana, bhante, ‘asassato loko, idameva saccaṁ moghamaññan’”ti? ",
+            "de": "„Was <span class=\"ebt-matched\">sagst du dann dazu: ‚Das Weltall ist zeitlich. Das allein ist die Wahrheit</span>, alles andere ist Unsinn‘?“ ",
+            "en": "“Then what do you make of this: ‘The cosmos is not eternal. This is the only truth, anything else is wrong’?” ",
+            "matched": true
+          }
+        },
+        "score": 2.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 9\nMit Poṭṭhapāda",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 474,
+          "de": 378,
+          "en": 375
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.198_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.198_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.198_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.198",
+        "lang": "de",
+        "segMap": {
+          "an4.198:8.4": {
+            "scid": "an4.198:8.4",
+            "pli": "Musāvādaṁ pahāya musāvādā paṭivirato hoti saccavādī saccasandho theto paccayiko avisaṁvādako lokassa. ",
+            "de": "Er gibt das Lügen auf und lügt nicht mehr. Er <span class=\"ebt-matched\">sagt die Wahrheit und hält sich an die Wahrheit</span>. Er ist ehrlich und vertrauenswürdig und legt die Welt nicht mit seinen Worten herein. ",
+            "en": "They give up lying. They speak the truth and stick to the truth. They’re honest and trustworthy, and don’t trick the world with their words. ",
+            "matched": true
+          }
+        },
+        "score": 1.009,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 4.198\n20. Das große Kapitel\nInbrünstige Selbstkasteiung",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 111,
+          "de": 110,
+          "en": 110
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.99_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.99_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.99_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.99",
+        "lang": "de",
+        "segMap": {
+          "an10.99:14.1": {
+            "scid": "an10.99:14.1",
+            "pli": "Musāvādaṁ pahāya musāvādā paṭivirato hoti saccavādī saccasandho theto paccayiko avisaṁvādako lokassa. ",
+            "de": "Er gibt das Lügen auf und lügt nicht mehr. Er <span class=\"ebt-matched\">sagt die Wahrheit und hält sich an die Wahrheit</span>. Er ist ehrlich und vertrauenswürdig und legt die Welt nicht mit seinen Worten herein. ",
+            "en": "They give up lying. They speak the truth and stick to the truth. They’re honest and trustworthy, and don’t trick the world with their words. ",
+            "matched": true
+          }
+        },
+        "score": 1.007,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10.99\n10. Das Kapitel mit Upāli\nMit Upāli",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 148,
+          "de": 146,
+          "en": 147
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn1",
+        "lang": "de",
+        "segMap": {
+          "dn1:1.9.1": {
+            "scid": "dn1:1.9.1",
+            "pli": "‘Musāvādaṁ pahāya musāvādā paṭivirato samaṇo gotamo saccavādī saccasandho theto paccayiko avisaṁvādako lokassā’ti—",
+            "de": "‚Der Asket Gotama hat das Lügen aufgegeben und lügt nicht mehr. Er <span class=\"ebt-matched\">sagt die Wahrheit und hält sich an die Wahrheit</span>. Er ist ehrlich und vertrauenswürdig und legt die Welt nicht mit seinen Worten herein.‘ ",
+            "en": "‘The ascetic Gotama has given up lying. He speaks the truth and sticks to the truth. He’s honest and trustworthy, and doesn’t trick the world with his words.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 1\nDas göttliche Netz",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 662,
+          "de": 654,
+          "en": 661
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn2",
+        "lang": "de",
+        "segMap": {
+          "dn2:44.1": {
+            "scid": "dn2:44.1",
+            "pli": "Musāvādaṁ pahāya musāvādā paṭivirato hoti saccavādī saccasandho theto paccayiko avisaṁvādako lokassa. ",
+            "de": "Er gibt das Lügen auf und lügt nicht mehr. Er <span class=\"ebt-matched\">sagt die Wahrheit und hält sich an die Wahrheit</span>. Er ist ehrlich und vertrauenswürdig und legt die Welt nicht mit seinen Worten herein. ",
+            "en": "They give up lying. They speak the truth and stick to the truth. They’re honest and trustworthy, and don’t trick the world with their words. ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 2\nDie Früchte des Asketenlebens",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 650,
+          "de": 589,
+          "en": 633
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn30_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn30_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn30_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn30",
+        "lang": "de",
+        "segMap": {
+          "dn30:2.16.2": {
+            "scid": "dn30:2.16.2",
+            "pli": "musāvādaṁ pahāya musāvādā paṭivirato ahosi, saccavādī saccasandho theto paccayiko avisaṁvādako lokassa. ",
+            "de": "Er gab das Lügen auf und log nicht mehr. Er <span class=\"ebt-matched\">sagte die Wahrheit und hielt sich an die Wahrheit</span>. Er war ehrlich und vertrauenswürdig und legte die Welt nicht mit seinen Worten herein. ",
+            "en": "He refrained from lying. He spoke the truth and stuck to the truth. He was honest and trustworthy, and didn’t trick the world with his words. ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 30\nDie Kennzeichen eines großen Mannes",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 721,
+          "de": 716,
+          "en": 720
+        }
+      }
+    ]
+  }
+}

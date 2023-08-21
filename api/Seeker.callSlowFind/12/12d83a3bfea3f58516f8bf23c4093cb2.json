@@ -1,0 +1,108 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sujato",
+      "pattern": "inspired to answer",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en"
+      ],
+      "maxResults": 1000,
+      "searchLang": "en",
+      "maxDoc": 50,
+      "minLang": 2,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "en",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "author": "sujato",
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "inspired to answer",
+    "method": "phrase",
+    "resultPattern": "\\binspired to answer",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn41/sn41.3_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn41/sn41.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn41/sn41.2_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn41/sn41.2_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn41.3/en/sujato",
+      "sn41.2/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn41/sn41.2_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn41/sn41.2_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn41.2",
+        "lang": "en",
+        "segMap": {
+          "sn41.2:4.4": {
+            "scid": "sn41.2:4.4",
+            "pli": "“sādhu kho taṁ, āvuso isidatta, eso pañho paṭibhāsi, neso pañho maṁ paṭibhāsi. ",
+            "en": "“Isidatta, it’s good that you felt <span class=\"ebt-matched\">inspired to answer</span> that question, because I didn’t. ",
+            "matched": true
+          }
+        },
+        "score": 1.026,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 41.2\n1. With Citta\nIsidatta (1st)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 39,
+          "en": 38
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn41/sn41.3_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn41/sn41.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn41.3",
+        "lang": "en",
+        "segMap": {
+          "sn41.3:8.4": {
+            "scid": "sn41.3:8.4",
+            "pli": "“sādhu kho taṁ, āvuso isidatta, eso pañho paṭibhāsi. ",
+            "en": "“Isidatta, it’s good that you felt <span class=\"ebt-matched\">inspired to answer</span> that question, because I didn’t. ",
+            "matched": true
+          }
+        },
+        "score": 1.014,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 41.3\n1. With Citta\nWith Isidatta (2nd)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 73,
+          "en": 72
+        }
+      }
+    ]
+  }
+}

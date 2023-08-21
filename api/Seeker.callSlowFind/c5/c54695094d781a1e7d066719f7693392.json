@@ -1,0 +1,146 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sujato",
+      "pattern": "conceit and arrogance",
+      "showMatchesOnly": true,
+      "languages": [
+        "pli",
+        "en"
+      ],
+      "maxResults": 1000,
+      "searchLang": "en",
+      "maxDoc": 50,
+      "minLang": 2,
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "lang": "en",
+      "types": [
+        "root",
+        "translation"
+      ],
+      "includeUnpublished": false
+    }
+  ],
+  "value": {
+    "author": "sujato",
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "conceit and arrogance",
+    "method": "phrase",
+    "resultPattern": "\\bconceit and arrogance",
+    "segsMatched": 4,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/kn/snp/vagga4/snp4.11_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga4/snp4.11_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn3_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn3_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga4/snp4.8_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga4/snp4.8_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "snp4.11/en/sujato",
+      "mn3/en/sujato",
+      "snp4.8/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga4/snp4.11_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga4/snp4.11_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp4.11",
+        "lang": "en",
+        "segMap": {
+          "snp4.11:1.3": {
+            "scid": "snp4.11:1.3",
+            "pli": "Mānātimānā sahapesuṇā ca, ",
+            "en": "What of <span class=\"ebt-matched\">conceit and arrogance</span>, and slander too—",
+            "matched": true
+          },
+          "snp4.11:2.3": {
+            "scid": "snp4.11:2.3",
+            "pli": "Mānātimānā sahapesuṇā ca, ",
+            "en": "<span class=\"ebt-matched\">conceit and arrogance</span>. ",
+            "matched": true
+          }
+        },
+        "score": 2.029,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses 4.11\nQuarrels and Disputes",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 69,
+          "en": 68
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga4/snp4.8_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga4/snp4.8_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp4.8",
+        "lang": "en",
+        "segMap": {
+          "snp4.8:7.2": {
+            "scid": "snp4.8:7.2",
+            "pli": "Mānātimānaṁ vadate paneso; ",
+            "en": "yet they speak from <span class=\"ebt-matched\">conceit and arrogance</span>. ",
+            "matched": true
+          }
+        },
+        "score": 1.021,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses 4.8\nWith Pasūra",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 47,
+          "en": 46
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn3_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn3_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn3",
+        "lang": "en",
+        "segMap": {
+          "mn3:9-15.6": {
+            "scid": "mn3:9-15.6",
+            "pli": "māno ca pāpako atimāno ca pāpako, ",
+            "en": "<span class=\"ebt-matched\">conceit and arrogance</span> … ",
+            "matched": true
+          }
+        },
+        "score": 1.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Middle Discourses 3\nHeirs in the Teaching",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 128,
+          "en": 127
+        }
+      }
+    ]
+  }
+}
