@@ -34,7 +34,7 @@
     "pattern": "giftschlange",
     "method": "phrase",
     "resultPattern": "\\bgiftschlange",
-    "segsMatched": 31,
+    "segsMatched": 33,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn35/sn35.238_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn35/sn35.238_translation-de-sabbamitta.json",
@@ -46,6 +46,9 @@
       "root/pli/ms/sutta/sn/sn35/sn35.69_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn35/sn35.69_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.69_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/cp/cp31_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/cp/cp31_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/cp/cp31_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn35/sn35.248_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn35/sn35.248_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.248_translation-en-sujato.json",
@@ -91,6 +94,7 @@
       "sn35.238/de/sabbamitta",
       "an4.110/de/sabbamitta",
       "sn35.69/de/sabbamitta",
+      "cp31/de/sabbamitta",
       "sn35.248/de/sabbamitta",
       "sn35.247/de/sabbamitta",
       "sn35.246/de/sabbamitta",
@@ -312,6 +316,45 @@
           "pli": 34,
           "de": 29,
           "en": 33
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/cp/cp31_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/cp/cp31_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/cp/cp31_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "cp31",
+        "lang": "de",
+        "segMap": {
+          "cp31:6.4": {
+            "scid": "cp31:6.4",
+            "pli": "āsīvisamakopayi. ",
+            "de": "und erzürnte eine <span class=\"ebt-matched\">Giftschlange</span>. ",
+            "en": "and angered a viper. ",
+            "matched": true
+          },
+          "cp31:7.3": {
+            "scid": "cp31:7.3",
+            "pli": "Āsīvisassa hatthena, ",
+            "de": "berührte er den Kopf der <span class=\"ebt-matched\">Giftschlange</span> ",
+            "en": "touched the viper’s head ",
+            "matched": true
+          }
+        },
+        "score": 2.034,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Korb des Verhaltens 31\nDas Kapitel mit Yudhañjaya\nDie Vollkommenheit der Wahrheit (5)\nDunkellichts Verhalten",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 58,
+          "de": 57,
+          "en": 57
         }
       },
       {

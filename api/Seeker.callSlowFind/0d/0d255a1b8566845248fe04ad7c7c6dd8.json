@@ -34,7 +34,7 @@
     "pattern": "filz",
     "method": "phrase",
     "resultPattern": "\\bfilz",
-    "segsMatched": 26,
+    "segsMatched": 27,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn7/sn7.6_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn7/sn7.6_translation-de-sabbamitta.json",
@@ -59,6 +59,9 @@
       "root/pli/ms/sutta/sn/sn4/sn4.21_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn4/sn4.21_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn4/sn4.21_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/cp/cp22_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/cp/cp22_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/cp/cp22_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/cp/cp17_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/cp/cp17_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/cp/cp17_translation-en-sujato.json",
@@ -74,6 +77,7 @@
       "ud6.2/de/sabbamitta",
       "ud1.9/de/sabbamitta",
       "sn4.21/de/sabbamitta",
+      "cp22/de/sabbamitta",
       "cp17/de/sabbamitta",
       "an5.294-302/de/sabbamitta"
     ],
@@ -485,6 +489,38 @@
           "pli": 34,
           "de": 23,
           "en": 34
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/cp/cp22_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/cp/cp22_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/cp/cp22_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "cp22",
+        "lang": "de",
+        "segMap": {
+          "cp22:7.2": {
+            "scid": "cp22:7.2",
+            "pli": "jaṭilaṁ uggatāpanaṁ; ",
+            "de": "den <span class=\"ebt-matched\">Filz</span>haarasketen, der strenge Buße übt. ",
+            "en": "the matted-hair ascetic of severe penance. ",
+            "matched": true
+          }
+        },
+        "score": 1.014,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Korb des Verhaltens 22\nDas Kapitel mit Yudhañjaya\nDie Vollkommenheit der Entsagung (2)\nSomanassas Verhalten",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 73,
+          "de": 72,
+          "en": 72
         }
       }
     ]

@@ -34,7 +34,7 @@
     "pattern": "herr de[rs]",
     "method": "phrase",
     "resultPattern": "\\bherr de[rs]",
-    "segsMatched": 19,
+    "segsMatched": 20,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn20_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn20_translation-de-sabbamitta.json",
@@ -63,6 +63,9 @@
       "translation/de/sabbamitta/sutta/sn/sn3/sn3.16_translation-de-sabbamitta.json",
       "translation/en/davis/sutta/sn/sn3/sn3.16_translation-en-davis.json",
       "translation/en/sujato/sutta/sn/sn3/sn3.16_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/cp/cp22_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/cp/cp22_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/cp/cp22_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn27_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn27_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn27_translation-en-sujato.json",
@@ -79,6 +82,7 @@
       "an10.115/de/sabbamitta",
       "sn3.1/de/sabbamitta",
       "sn3.16/de/sabbamitta",
+      "cp22/de/sabbamitta",
       "dn27/de/sabbamitta",
       "an7.62/de/sabbamitta"
     ],
@@ -402,6 +406,38 @@
           "pli": 60,
           "de": 59,
           "en": 59
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/cp/cp22_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/cp/cp22_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/cp/cp22_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "cp22",
+        "lang": "de",
+        "segMap": {
+          "cp22:11.4": {
+            "scid": "cp22:11.4",
+            "pli": "āṇāpesi mahīpati. ",
+            "de": "befahl der <span class=\"ebt-matched\">Herr der</span> Erde: ",
+            "en": "the Lord of the Earth commanded: ",
+            "matched": true
+          }
+        },
+        "score": 1.014,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Korb des Verhaltens 22\nDas Kapitel mit Yudhañjaya\nDie Vollkommenheit der Entsagung (2)\nSomanassas Verhalten",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 73,
+          "de": 72,
+          "en": 72
         }
       },
       {
