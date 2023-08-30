@@ -1,0 +1,118 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sujato",
+      "docLang": "en",
+      "docAuthor": "sujato",
+      "includeUnpublished": false,
+      "lang": "en",
+      "langAuthor": "sujato",
+      "languages": [
+        "pli",
+        "en"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "three processes",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "en",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sujato",
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "three processes",
+    "method": "phrase",
+    "resultPattern": "\\bthree processes",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn41/sn41.6_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn41/sn41.6_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn44_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn44_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn41.6/en/sujato",
+      "mn44/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn41/sn41.6_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn41/sn41.6_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn41.6",
+        "lang": "en",
+        "segMap": {
+          "sn41.6:1.4": {
+            "scid": "sn41.6:1.4",
+            "pli": "“Tayo kho, gahapati, saṅkhārā—",
+            "en": "“Householder, there are <span class=\"ebt-matched\">three processes</span>. ",
+            "matched": true
+          }
+        },
+        "score": 1.02,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 41.6\n1. With Citta\nWith Kāmabhū (2nd)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 51,
+          "en": 50
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn44_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn44_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn44",
+        "lang": "en",
+        "segMap": {
+          "mn44:13.2": {
+            "scid": "mn44:13.2",
+            "pli": "“Tayome, āvuso visākha, saṅkhārā—",
+            "en": "“There are these <span class=\"ebt-matched\">three processes</span>. ",
+            "matched": true
+          }
+        },
+        "score": 1.007,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Middle Discourses 44\nThe Shorter Classification",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 138,
+          "en": 137
+        }
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "en",
+    "docAuthor": "sujato"
+  }
+}

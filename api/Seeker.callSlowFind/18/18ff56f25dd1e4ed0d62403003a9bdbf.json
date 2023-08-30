@@ -1,0 +1,150 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sujato",
+      "docLang": "en",
+      "docAuthor": "sujato",
+      "includeUnpublished": false,
+      "lang": "en",
+      "langAuthor": "sujato",
+      "languages": [
+        "pli",
+        "en"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "address me",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "en",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sujato",
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "address me",
+    "method": "phrase",
+    "resultPattern": "\\baddress me",
+    "segsMatched": 3,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn85_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn54_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn54_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn26_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn26_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "mn85/en/sujato",
+      "mn54/en/sujato",
+      "mn26/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn54_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn54_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn54",
+        "lang": "en",
+        "segMap": {
+          "mn54:3.9": {
+            "scid": "mn54:3.9",
+            "pli": "“tayidaṁ, bho gotama, nacchannaṁ, tayidaṁ nappatirūpaṁ, yaṁ maṁ tvaṁ gahapativādena samudācarasī”ti. ",
+            "en": "“Master Gotama, it is neither proper nor appropriate for you to <span class=\"ebt-matched\">address me</span> as ‘householder’.” ",
+            "matched": true
+          }
+        },
+        "score": 1.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Middle Discourses 54\nWith Potaliya the Householder",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 209,
+          "en": 208
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn26_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn26_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn26",
+        "lang": "en",
+        "segMap": {
+          "mn26:27.2": {
+            "scid": "mn26:27.2",
+            "pli": "‘mā, bhikkhave, tathāgataṁ nāmena ca āvusovādena ca samudācaratha. ",
+            "en": "‘Mendicants, don’t <span class=\"ebt-matched\">address me</span> by name and as ‘reverend’. ",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Middle Discourses 26\nThe Noble Search",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 365,
+          "en": 364
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn85_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn85",
+        "lang": "en",
+        "segMap": {
+          "mn85:51.2": {
+            "scid": "mn85:51.2",
+            "pli": "‘mā, bhikkhave, tathāgataṁ nāmena ca āvusovādena ca samudācaratha; ",
+            "en": "‘Mendicants, don’t <span class=\"ebt-matched\">address me</span> by name and as “reverend”. ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Middle Discourses 85\nWith Prince Bodhi",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 553,
+          "en": 552
+        }
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "en",
+    "docAuthor": "sujato"
+  }
+}

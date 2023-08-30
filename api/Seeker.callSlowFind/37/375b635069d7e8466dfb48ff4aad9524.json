@@ -1,0 +1,93 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sabbamitta",
+      "docLang": "de",
+      "docAuthor": "sabbamitta",
+      "includeUnpublished": false,
+      "lang": "de",
+      "langAuthor": "sabbamitta",
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "unterweise mich über das leiden",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "de",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sabbamitta",
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "unterweise mich über das leiden",
+    "method": "phrase",
+    "resultPattern": "\\bunterweise mich über das leiden",
+    "segsMatched": 1,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn12/sn12.17_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn12/sn12.17_translation-de-sabbamitta.json",
+      "translation/en/davis/sutta/sn/sn12/sn12.17_translation-en-davis.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.17_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn12.17/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn12/sn12.17_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn12/sn12.17_translation-de-sabbamitta.json",
+          "translation/en/davis/sutta/sn/sn12/sn12.17_translation-en-davis.json",
+          "translation/en/sujato/sutta/sn/sn12/sn12.17_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn12.17",
+        "lang": "de",
+        "segMap": {
+          "sn12.17:4.10": {
+            "scid": "sn12.17:4.10",
+            "pli": "Desetu ca me, bhante, bhagavā dukkhan”ti. ",
+            "de": "<span class=\"ebt-matched\">Unterweise mich über das Leiden</span>!“ ",
+            "en": "Teach me about suffering!” ",
+            "matched": true
+          }
+        },
+        "score": 1.015,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 12.17\n2. Das Kapitel über Nahrung\nMit Kassapa, dem nackten Asketen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 68,
+          "de": 67,
+          "en": 67
+        }
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "de",
+    "docAuthor": "sabbamitta"
+  }
+}

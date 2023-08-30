@@ -1,0 +1,127 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sabbamitta",
+      "docLang": "de",
+      "docAuthor": "sabbamitta",
+      "includeUnpublished": false,
+      "lang": "de",
+      "langAuthor": "sabbamitta",
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "der versenkung förderlich",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "de",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sabbamitta",
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "der versenkung förderlich",
+    "method": "phrase",
+    "resultPattern": "\\bder versenkung förderlich",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn34/sn34.55_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn34/sn34.55_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn34/sn34.55_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn34/sn34.10_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn34/sn34.10_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn34/sn34.10_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn34.55/de/sabbamitta",
+      "sn34.10/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn34/sn34.10_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn34/sn34.10_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn34/sn34.10_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn34.10",
+        "lang": "de",
+        "segMap": {
+          "sn34.10:0.3": {
+            "scid": "sn34.10:0.3",
+            "pli": "Samādhimūlakasappāyakārīsutta ",
+            "de": "<span class=\"ebt-matched\">Der Versenkung förderlich</span> ",
+            "en": "Conducive to Immersion ",
+            "matched": true
+          }
+        },
+        "score": 1.067,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 34.10\n1. Das Kapitel über Vertiefung\nDer Versenkung förderlich",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 15,
+          "de": 7,
+          "en": 7
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn34/sn34.55_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn34/sn34.55_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn34/sn34.55_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn34.55",
+        "lang": "de",
+        "segMap": {
+          "sn34.55:1.5": {
+            "scid": "sn34.55:1.5",
+            "pli": "Idha pana, bhikkhave, ekacco jhāyī samādhismiṁ sappāyakārī hoti, na samādhismiṁ sātaccakārī. ",
+            "de": "Ein Mensch, der meditiert, ist darin bewandert, das zu tun, was <span class=\"ebt-matched\">der Versenkung förderlich</span> ist, aber nicht darin, ausdauernd dafür zu üben. ",
+            "en": "One meditator is skilled in doing what’s conducive to immersion but not in practicing persistently for it. ",
+            "matched": true
+          }
+        },
+        "score": 1.031,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 34.55\n1. Das Kapitel über Vertiefung\nAusdauer und was förderlich ist",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 32,
+          "de": 18,
+          "en": 18
+        }
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "de",
+    "docAuthor": "sabbamitta"
+  }
+}

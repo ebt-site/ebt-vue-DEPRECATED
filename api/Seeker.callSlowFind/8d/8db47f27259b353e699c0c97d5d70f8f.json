@@ -1,0 +1,127 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sabbamitta",
+      "docLang": "de",
+      "docAuthor": "sabbamitta",
+      "includeUnpublished": false,
+      "lang": "de",
+      "langAuthor": "sabbamitta",
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "die erlösung des herzens nicht reif",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "de",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sabbamitta",
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "die erlösung des herzens nicht reif",
+    "method": "phrase",
+    "resultPattern": "\\bdie erlösung des herzens nicht reif",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/kn/ud/vagga4/ud4.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/ud/vagga4/ud4.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/ud/vagga4/ud4.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an9/an9.3_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an9/an9.3_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an9/an9.3_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "ud4.1/de/sabbamitta",
+      "an9.3/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an9/an9.3_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an9/an9.3_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an9/an9.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an9.3",
+        "lang": "de",
+        "segMap": {
+          "an9.3:10.1": {
+            "scid": "an9.3:10.1",
+            "pli": "“Aparipakkāya, meghiya, cetovimuttiyā pañca dhammā paripakkāya saṁvattanti. ",
+            "de": "„Meghiya, wenn <span class=\"ebt-matched\">die Erlösung des Herzens nicht reif</span> ist, helfen fünf Dinge, sie zum Reifen zu bringen. ",
+            "en": "“Meghiya, when the heart’s release is not ripe, five things help it ripen. ",
+            "matched": true
+          }
+        },
+        "score": 1.014,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 9.3\n1. Das Kapitel über das Erwachen\nMit Meghiya",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 74,
+          "de": 59,
+          "en": 73
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga4/ud4.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/ud/vagga4/ud4.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/ud/vagga4/ud4.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud4.1",
+        "lang": "de",
+        "segMap": {
+          "ud4.1:11.1": {
+            "scid": "ud4.1:11.1",
+            "pli": "“Aparipakkāya, meghiya, cetovimuttiyā pañca dhammā paripākāya saṁvattanti. ",
+            "de": "„Meghiya, wenn <span class=\"ebt-matched\">die Erlösung des Herzens nicht reif</span> ist, helfen fünf Dinge, sie zum Reifen zu bringen. ",
+            "en": "“Meghiya, when the heart’s release is not ripe, five things help it ripen. ",
+            "matched": true
+          }
+        },
+        "score": 1.012,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Innige Sprüche 4.1\nMit Meghiya",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 85,
+          "de": 69,
+          "en": 69
+        }
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "de",
+    "docAuthor": "sabbamitta"
+  }
+}

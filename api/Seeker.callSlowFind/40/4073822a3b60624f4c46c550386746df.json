@@ -1,0 +1,120 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sujato",
+      "docLang": "en",
+      "docAuthor": "sujato",
+      "includeUnpublished": false,
+      "lang": "en",
+      "langAuthor": "sujato",
+      "languages": [
+        "pli",
+        "en"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "swamped by sorrow",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "en",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sujato",
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "swamped by sorrow",
+    "method": "phrase",
+    "resultPattern": "\\bswamped by sorrow",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn4/sn4.25_root-pli-ms.json",
+      "translation/en/davis/sutta/sn/sn4/sn4.25_translation-en-davis.json",
+      "translation/en/sujato/sutta/sn/sn4/sn4.25_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn4/sn4.24_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn4/sn4.24_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn4.25/en/sujato",
+      "sn4.24/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn4/sn4.24_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn4/sn4.24_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn4.24",
+        "lang": "en",
+        "segMap": {
+          "sn4.24:2.1": {
+            "scid": "sn4.24:2.1",
+            "pli": "“Sokāvatiṇṇo nu vanamhi jhāyasi, ",
+            "en": "“Are you <span class=\"ebt-matched\">swamped by sorrow</span> <j>that you meditate in the forest? ",
+            "matched": true
+          }
+        },
+        "score": 1.021,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 4.24\n3. Māra\nSeven Years of Following",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 48,
+          "en": 48
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn4/sn4.25_root-pli-ms.json",
+          "translation/en/davis/sutta/sn/sn4/sn4.25_translation-en-davis.json",
+          "translation/en/sujato/sutta/sn/sn4/sn4.25_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn4.25",
+        "lang": "en",
+        "segMap": {
+          "sn4.25:13.1": {
+            "scid": "sn4.25:13.1",
+            "pli": "“Sokāvatiṇṇo nu vanamhi jhāyasi, ",
+            "en": "“Are you <span class=\"ebt-matched\">swamped by sorrow</span> <j>that you meditate in the forest? ",
+            "matched": true
+          }
+        },
+        "score": 1.009,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 4.25\n3. Māra\nMāra’s Daughters",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 116,
+          "en": 115
+        }
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "en",
+    "docAuthor": "sujato"
+  }
+}

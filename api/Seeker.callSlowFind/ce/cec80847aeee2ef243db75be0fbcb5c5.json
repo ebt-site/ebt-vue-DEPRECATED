@@ -1,0 +1,124 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sujato",
+      "docLang": "en",
+      "docAuthor": "sujato",
+      "includeUnpublished": false,
+      "lang": "en",
+      "langAuthor": "sujato",
+      "languages": [
+        "pli",
+        "en"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "should often review this",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "en",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sujato",
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "should often review this",
+    "method": "phrase",
+    "resultPattern": "\\bshould often review this",
+    "segsMatched": 3,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an5/an5.57_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an5/an5.57_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.48_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an10/an10.48_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an5.57/en/sujato",
+      "an10.48/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an5/an5.57_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an5/an5.57_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an5.57",
+        "lang": "en",
+        "segMap": {
+          "an5.57:1.3": {
+            "scid": "an5.57:1.3",
+            "pli": "‘Jarādhammomhi, jaraṁ anatīto’ti abhiṇhaṁ paccavekkhitabbaṁ itthiyā vā purisena vā gahaṭṭhena vā pabbajitena vā. ",
+            "en": "‘I am liable to grow old, I am not exempt from old age.’ A woman or a man, a layperson or a renunciate <span class=\"ebt-matched\">should often review this</span>. ",
+            "matched": true
+          },
+          "an5.57:1.9": {
+            "scid": "an5.57:1.9",
+            "pli": "tassa dāyādo bhavissāmī’ti abhiṇhaṁ paccavekkhitabbaṁ itthiyā vā purisena vā gahaṭṭhena vā pabbajitena vā. ",
+            "en": "A woman or a man, a layperson or a renunciate <span class=\"ebt-matched\">should often review this</span>. ",
+            "matched": true
+          }
+        },
+        "score": 2.026,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 5.57\n6. Hindrances\nSubjects for Regular Reviewing",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 78,
+          "en": 77
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.48_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an10/an10.48_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.48",
+        "lang": "en",
+        "segMap": {
+          "an10.48:2.1": {
+            "scid": "an10.48:2.1",
+            "pli": "‘Vevaṇṇiyamhi ajjhupagato’ti pabbajitena abhiṇhaṁ paccavekkhitabbaṁ. ",
+            "en": "One who has gone forth <span class=\"ebt-matched\">should often review this</span>: ‘I have secured freedom from class.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.056,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 10.48\n5. Abuse\nTen Regular Reflections for a Renunciate",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 18,
+          "en": 17
+        }
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "en",
+    "docAuthor": "sujato"
+  }
+}

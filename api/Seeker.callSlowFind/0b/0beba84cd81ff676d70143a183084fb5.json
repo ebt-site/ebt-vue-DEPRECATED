@@ -1,0 +1,129 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sabbamitta",
+      "docLang": "de",
+      "docAuthor": "sabbamitta",
+      "includeUnpublished": false,
+      "lang": "de",
+      "langAuthor": "sabbamitta",
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "wie ein affe",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "de",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sabbamitta",
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "wie ein affe",
+    "method": "phrase",
+    "resultPattern": "\\bwie ein affe",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn12/sn12.61_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn12/sn12.61_translation-de-sabbamitta.json",
+      "translation/en/davis/sutta/sn/sn12/sn12.61_translation-en-davis.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.61_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag18.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag18.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag18.1_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn12.61/de/sabbamitta",
+      "thag18.1/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn12/sn12.61_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn12/sn12.61_translation-de-sabbamitta.json",
+          "translation/en/davis/sutta/sn/sn12/sn12.61_translation-en-davis.json",
+          "translation/en/sujato/sutta/sn/sn12/sn12.61_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn12.61",
+        "lang": "de",
+        "segMap": {
+          "sn12.61:4.2": {
+            "scid": "sn12.61:4.2",
+            "pli": "Seyyathāpi, bhikkhave, makkaṭo araññe pavane caramāno sākhaṁ gaṇhati, taṁ muñcitvā aññaṁ gaṇhati, taṁ muñcitvā aññaṁ gaṇhati; ",
+            "de": "<span class=\"ebt-matched\">Wie ein Affe</span>, der sich durch den Wald bewegt: Er greift nach einem Ast, lässt ihn los und greift nach einem anderen; lässt diesen los und greift wieder nach einem anderen. ",
+            "en": "It’s like a monkey moving through the forest. It grabs hold of one branch, lets it go, and grabs another; then it lets that go and grabs yet another. ",
+            "matched": true
+          }
+        },
+        "score": 1.03,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 12.61\n7. Das große Kapitel\nUngebildet",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 33,
+          "de": 32,
+          "en": 32
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag18.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag18.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag18.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag18.1",
+        "lang": "de",
+        "segMap": {
+          "thag18.1:30.4": {
+            "scid": "thag18.1:30.4",
+            "pli": "na so tenupasobhati. ",
+            "de": "Er ist <span class=\"ebt-matched\">wie ein Affe</span> im Löwenpelz. ",
+            "en": "they’re like a monkey in a lion skin. ",
+            "matched": true
+          }
+        },
+        "score": 1.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 18.1\nDas Vierzigerbuch\n1. Das erste Kapitel\nMahākassapa",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 177,
+          "de": 171,
+          "en": 171
+        }
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "de",
+    "docAuthor": "sabbamitta"
+  }
+}

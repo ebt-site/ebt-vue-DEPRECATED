@@ -1,0 +1,100 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sujato",
+      "docLang": "en",
+      "docAuthor": "sujato",
+      "includeUnpublished": false,
+      "lang": "en",
+      "langAuthor": "sujato",
+      "languages": [
+        "pli",
+        "en"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "bundles of reeds",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "en",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sujato",
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "bundles of reeds",
+    "method": "phrase",
+    "resultPattern": "\\bbundles of reeds",
+    "segsMatched": 3,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn12/sn12.67_root-pli-ms.json",
+      "translation/en/davis/sutta/sn/sn12/sn12.67_translation-en-davis.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.67_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn12.67/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn12/sn12.67_root-pli-ms.json",
+          "translation/en/davis/sutta/sn/sn12/sn12.67_translation-en-davis.json",
+          "translation/en/sujato/sutta/sn/sn12/sn12.67_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn12.67",
+        "lang": "en",
+        "segMap": {
+          "sn12.67:0.3": {
+            "scid": "sn12.67:0.3",
+            "pli": "Naḷakalāpīsutta ",
+            "en": "<span class=\"ebt-matched\">Bundles of Reeds</span> ",
+            "matched": true
+          },
+          "sn12.67:7.4": {
+            "scid": "sn12.67:7.4",
+            "pli": "Seyyathāpi, āvuso, dve naḷakalāpiyo aññamaññaṁ nissāya tiṭṭheyyuṁ. ",
+            "en": "Suppose there were two <span class=\"ebt-matched\">bundles of reeds</span> leaning up against each other. ",
+            "matched": true
+          },
+          "sn12.67:7.10": {
+            "scid": "sn12.67:7.10",
+            "pli": "Tāsañce, āvuso, naḷakalāpīnaṁ ekaṁ ākaḍḍheyya, ekā papateyya; ",
+            "en": "If the first of those <span class=\"ebt-matched\">bundles of reeds</span> were to be pulled away, the other would collapse. ",
+            "matched": true
+          }
+        },
+        "score": 3.045,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 12.67\n7. The Great Chapter\nBundles of Reeds",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 67,
+          "en": 66
+        }
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "en",
+    "docAuthor": "sujato"
+  }
+}

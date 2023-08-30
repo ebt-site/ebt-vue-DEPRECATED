@@ -1,0 +1,98 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sujato",
+      "docLang": "en",
+      "docAuthor": "sujato",
+      "includeUnpublished": false,
+      "lang": "en",
+      "langAuthor": "sujato",
+      "languages": [
+        "pli",
+        "en"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "how does a child",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "en",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sujato",
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "how does a child",
+    "method": "phrase",
+    "resultPattern": "\\bhow does a child",
+    "segsMatched": 3,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/kn/iti/vagga8/iti74_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/iti/vagga8/iti74_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "iti74/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga8/iti74_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/iti/vagga8/iti74_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti74",
+        "lang": "en",
+        "segMap": {
+          "iti74:3.1": {
+            "scid": "iti74:3.1",
+            "pli": "Kathañca, bhikkhave, putto atijāto hoti? ",
+            "en": "And <span class=\"ebt-matched\">how does a child</span> better their birth? ",
+            "matched": true
+          },
+          "iti74:4.1": {
+            "scid": "iti74:4.1",
+            "pli": "Kathañca, bhikkhave, putto anujāto hoti? ",
+            "en": "And <span class=\"ebt-matched\">how does a child</span> equal their birth? ",
+            "matched": true
+          },
+          "iti74:5.1": {
+            "scid": "iti74:5.1",
+            "pli": "Kathañca, bhikkhave, putto avajāto hoti? ",
+            "en": "And <span class=\"ebt-matched\">how does a child</span> fail their birth? ",
+            "matched": true
+          }
+        },
+        "score": 3.064,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So It Was Said 74\nThe Book of the Threes\nChapter Three\nA Child",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 47,
+          "en": 46
+        }
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "en",
+    "docAuthor": "sujato"
+  }
+}

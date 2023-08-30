@@ -1,0 +1,100 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sabbamitta",
+      "docLang": "de",
+      "docAuthor": "sabbamitta",
+      "includeUnpublished": false,
+      "lang": "de",
+      "langAuthor": "sabbamitta",
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "der hass",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "de",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sabbamitta",
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "der hass",
+    "method": "phrase",
+    "resultPattern": "\\bder hass",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/kn/dhp/dhp1-20_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/dhp/dhp1-20_translation-de-sabbamitta.json",
+      "translation/en/suddhaso/sutta/kn/dhp/dhp1-20_translation-en-suddhaso.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp1-20_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "dhp1-20/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/dhp/dhp1-20_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/dhp/dhp1-20_translation-de-sabbamitta.json",
+          "translation/en/suddhaso/sutta/kn/dhp/dhp1-20_translation-en-suddhaso.json",
+          "translation/en/sujato/sutta/kn/dhp/dhp1-20_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dhp1-20",
+        "lang": "de",
+        "segMap": {
+          "dhp3:4": {
+            "scid": "dhp3:4",
+            "pli": "veraṁ tesaṁ na sammati. ",
+            "de": "hört <span class=\"ebt-matched\">der Hass</span> niemals auf. ",
+            "en": "hatred never ends. ",
+            "matched": true
+          },
+          "dhp4:4": {
+            "scid": "dhp4:4",
+            "pli": "veraṁ tesūpasammati. ",
+            "de": "hat <span class=\"ebt-matched\">der Hass</span> ein Ende. ",
+            "en": "hatred has an end. ",
+            "matched": true
+          }
+        },
+        "score": 2.019,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Kleinere Sammlung\nDhamma-Sprüche 1–20\n1. Das Kapitel mit Paaren\nCakkhupālattheravatthu",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 108,
+          "de": 93,
+          "en": 93
+        }
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "de",
+    "docAuthor": "sabbamitta"
+  }
+}

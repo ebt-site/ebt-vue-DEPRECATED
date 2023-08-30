@@ -1,0 +1,129 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sabbamitta",
+      "docLang": "de",
+      "docAuthor": "sabbamitta",
+      "includeUnpublished": false,
+      "lang": "de",
+      "langAuthor": "sabbamitta",
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "wo entsteht dieses verlangen",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "de",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sabbamitta",
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "wo entsteht dieses verlangen",
+    "method": "phrase",
+    "resultPattern": "\\bwo entsteht dieses verlangen",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn12/sn12.66_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn12/sn12.66_translation-de-sabbamitta.json",
+      "translation/en/davis/sutta/sn/sn12/sn12.66_translation-en-davis.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.66_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn22_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn22_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn22_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn12.66/de/sabbamitta",
+      "dn22/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn12/sn12.66_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn12/sn12.66_translation-de-sabbamitta.json",
+          "translation/en/davis/sutta/sn/sn12/sn12.66_translation-en-davis.json",
+          "translation/en/sujato/sutta/sn/sn12/sn12.66_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn12.66",
+        "lang": "de",
+        "segMap": {
+          "sn12.66:5.2": {
+            "scid": "sn12.66:5.2",
+            "pli": "‘taṇhā panāyaṁ kattha uppajjamānā uppajjati, kattha nivisamānā nivisatī’ti? ",
+            "de": "‚Aber <span class=\"ebt-matched\">wo entsteht dieses Verlangen</span> und setzt sich fest?‘ ",
+            "en": "‘But where does that craving arise and where does it settle?’ ",
+            "matched": true
+          }
+        },
+        "score": 1.009,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 12.66\n7. Das große Kapitel\nSelbstuntersuchung",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 117,
+          "de": 116,
+          "en": 116
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn22_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn22_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn22_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn22",
+        "lang": "de",
+        "segMap": {
+          "dn22:19.4": {
+            "scid": "dn22:19.4",
+            "pli": "Sā kho panesā, bhikkhave, taṇhā kattha uppajjamānā uppajjati, kattha nivisamānā nivisati? ",
+            "de": "Aber <span class=\"ebt-matched\">wo entsteht dieses Verlangen</span> und setzt sich fest? ",
+            "en": "But where does that craving arise and where does it settle? ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 22\nDie längere Lehrrede über Achtsamkeitsmeditation",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 454,
+          "de": 361,
+          "en": 453
+        }
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "de",
+    "docAuthor": "sabbamitta"
+  }
+}

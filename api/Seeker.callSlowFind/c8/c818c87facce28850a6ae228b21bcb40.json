@@ -1,0 +1,118 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sujato",
+      "docLang": "en",
+      "docAuthor": "sujato",
+      "includeUnpublished": false,
+      "lang": "en",
+      "langAuthor": "sujato",
+      "languages": [
+        "pli",
+        "en"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "eats blameless things",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "en",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sujato",
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "eats blameless things",
+    "method": "phrase",
+    "resultPattern": "\\beats blameless things",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/kn/thag/thag15.2_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/thag/thag15.2_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an6/an6.43_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an6/an6.43_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "thag15.2/en/sujato",
+      "an6.43/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag15.2_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/thag/thag15.2_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag15.2",
+        "lang": "en",
+        "segMap": {
+          "thag15.2:10.1": {
+            "scid": "thag15.2:10.1",
+            "pli": "Bhuñjati anavajjāni, ",
+            "en": "He <span class=\"ebt-matched\">eats blameless things</span>, ",
+            "matched": true
+          }
+        },
+        "score": 1.013,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verses of the Senior Monks 15.2\nThe Book of the Sixteens\nChapter One\nUdāyī",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 75,
+          "en": 68
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an6/an6.43_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an6/an6.43_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an6.43",
+        "lang": "en",
+        "segMap": {
+          "an6.43:14.1": {
+            "scid": "an6.43:14.1",
+            "pli": "Bhuñjati anavajjāni, ",
+            "en": "He <span class=\"ebt-matched\">eats blameless things</span>, ",
+            "matched": true
+          }
+        },
+        "score": 1.01,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 6.43\n5. About Dhammika\nThe Giant",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 98,
+          "en": 97
+        }
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "en",
+    "docAuthor": "sujato"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sujato",
+      "docLang": "en",
+      "docAuthor": "sujato",
+      "includeUnpublished": false,
+      "lang": "en",
+      "langAuthor": "sujato",
+      "languages": [
+        "pli",
+        "en"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "train only for peace",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "en",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sujato",
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "train only for peace",
+    "method": "phrase",
+    "resultPattern": "\\btrain only for peace",
+    "segsMatched": 3,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn140_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn140_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "mn140/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn140_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn140_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn140",
+        "lang": "en",
+        "segMap": {
+          "mn140:7.3": {
+            "scid": "mn140:7.3",
+            "pli": "Paññaṁ nappamajjeyya, saccamanurakkheyya, cāgamanubrūheyya, santimeva so sikkheyyā’ti—",
+            "en": "Do not neglect wisdom; preserve truth; foster generosity; and <span class=\"ebt-matched\">train only for peace</span>.’ ",
+            "matched": true
+          },
+          "mn140:12.1": {
+            "scid": "mn140:12.1",
+            "pli": "‘Paññaṁ nappamajjeyya, saccamanurakkheyya, cāgamanubrūheyya, santimeva so sikkheyyā’ti—",
+            "en": "‘Do not neglect wisdom; preserve truth; foster generosity; and <span class=\"ebt-matched\">train only for peace</span>.’ ",
+            "matched": true
+          },
+          "mn140:29.1": {
+            "scid": "mn140:29.1",
+            "pli": "‘Paññaṁ nappamajjeyya, saccamanurakkheyya, cāgamanubrūheyya, santimeva so sikkheyyā’ti—",
+            "en": "‘Do not neglect wisdom; preserve truth; foster generosity; and <span class=\"ebt-matched\">train only for peace</span>.’ ",
+            "matched": true
+          }
+        },
+        "score": 3.013,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Middle Discourses 140\nThe Analysis of the Elements",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 239,
+          "en": 238
+        }
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "en",
+    "docAuthor": "sujato"
+  }
+}

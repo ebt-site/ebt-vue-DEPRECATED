@@ -1,0 +1,93 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sabbamitta",
+      "docLang": "de",
+      "docAuthor": "sabbamitta",
+      "includeUnpublished": false,
+      "lang": "de",
+      "langAuthor": "sabbamitta",
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "mich sehne und die ich liebe",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "de",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sabbamitta",
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "mich sehne und die ich liebe",
+    "method": "phrase",
+    "resultPattern": "\\bmich sehne und die ich liebe",
+    "segsMatched": 1,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn42/sn42.11_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn42/sn42.11_translation-de-sabbamitta.json",
+      "translation/en/davis/sutta/sn/sn42/sn42.11_translation-en-davis.json",
+      "translation/en/sujato/sutta/sn/sn42/sn42.11_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn42.11/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn42/sn42.11_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn42/sn42.11_translation-de-sabbamitta.json",
+          "translation/en/davis/sutta/sn/sn42/sn42.11_translation-en-davis.json",
+          "translation/en/sujato/sutta/sn/sn42/sn42.11_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn42.11",
+        "lang": "de",
+        "segMap": {
+          "sn42.11:2.7": {
+            "scid": "sn42.11:2.7",
+            "pli": "“Yesaṁ me, bhante, uruvelakappiyānaṁ manussānaṁ vadhena vā bandhena vā jāniyā vā garahāya vā uppajjeyyuṁ sokaparidevadukkhadomanassupāyāsā, atthi me tesu chandarāgo. ",
+            "de": "„Die Menschen, bei denen mich das bekümmern würde, sind die, nach denen ich <span class=\"ebt-matched\">mich sehne und die ich liebe</span>. ",
+            "en": "“The people regarding whom this would give rise to sorrow are those I desire and love. ",
+            "matched": true
+          }
+        },
+        "score": 1.018,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 42.11\n1. Das Kapitel mit Ortsvorstehern\nMit Bhadraka",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 55,
+          "de": 54,
+          "en": 54
+        }
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "de",
+    "docAuthor": "sabbamitta"
+  }
+}

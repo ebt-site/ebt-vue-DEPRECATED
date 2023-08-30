@@ -1,0 +1,134 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sabbamitta",
+      "docLang": "de",
+      "docAuthor": "sabbamitta",
+      "includeUnpublished": false,
+      "lang": "de",
+      "langAuthor": "sabbamitta",
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "rosenapfel",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "de",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sabbamitta",
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "rosenapfel",
+    "method": "phrase",
+    "resultPattern": "\\brosenapfel",
+    "segsMatched": 3,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn48/sn48.67_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn48/sn48.67_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn48/sn48.67_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn48.67/de/sabbamitta",
+      "dn16/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn48/sn48.67_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn48/sn48.67_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn48/sn48.67_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn48.67",
+        "lang": "de",
+        "segMap": {
+          "sn48.67:1.1": {
+            "scid": "sn48.67:1.1",
+            "pli": "“Seyyathāpi, bhikkhave, ye keci jambudīpakā rukkhā, jambū tesaṁ aggamakkhāyati; ",
+            "de": "„Mönche und Nonnen, von allem Bäumen des <span class=\"ebt-matched\">Rosenapfel</span>landes Indien gilt der <span class=\"ebt-matched\">Rosenapfel</span>baum als der beste. ",
+            "en": "“Mendicants, of all the trees in India, the rose-apple is said to be the best. ",
+            "matched": true
+          },
+          "sn48.67:1.9": {
+            "scid": "sn48.67:1.9",
+            "pli": "Seyyathāpi, bhikkhave, ye keci jambudīpakā rukkhā, jambū tesaṁ aggamakkhāyati; ",
+            "de": "Von allem Bäumen des <span class=\"ebt-matched\">Rosenapfel</span>landes Indien gilt der <span class=\"ebt-matched\">Rosenapfel</span>baum als der beste. ",
+            "en": "Of all the trees in India, the rose-apple is said to be the best. ",
+            "matched": true
+          }
+        },
+        "score": 2.143,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 48.67\n7. Das Kapitel über das, was zum Erwachen führt\nEin Baum (1)",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 14,
+          "de": 13,
+          "en": 13
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn16",
+        "lang": "de",
+        "segMap": {
+          "dn16:4.5.4": {
+            "scid": "dn16:4.5.4",
+            "pli": "yena jambugāmo, ",
+            "de": "„Lass uns nach <span class=\"ebt-matched\">Rosenapfel</span>dorf gehen.“ … ",
+            "en": "“Let’s go to Rose-apple Village.”… ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 16\nDie große Lehrrede vom Erlöschen des Buddha",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 1664,
+          "de": 1579,
+          "en": 1568
+        }
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "de",
+    "docAuthor": "sabbamitta"
+  }
+}

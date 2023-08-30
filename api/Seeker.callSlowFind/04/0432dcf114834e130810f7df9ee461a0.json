@@ -1,0 +1,91 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sabbamitta",
+      "docLang": "de",
+      "docAuthor": "sabbamitta",
+      "includeUnpublished": false,
+      "lang": "de",
+      "langAuthor": "sabbamitta",
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "für uns getan",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "de",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sabbamitta",
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "für uns getan",
+    "method": "phrase",
+    "resultPattern": "\\bfür uns getan",
+    "segsMatched": 1,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn20/sn20.12_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn20/sn20.12_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn20/sn20.12_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn20.12/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn20/sn20.12_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn20/sn20.12_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn20/sn20.12_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn20.12",
+        "lang": "de",
+        "segMap": {
+          "sn20.12:1.7": {
+            "scid": "sn20.12:1.7",
+            "pli": "na ca no amhesu appakampi kataṁ nassissatī’ti. ",
+            "de": "Selbst eine Kleinigkeit, die <span class=\"ebt-matched\">für uns getan</span> wurde, wollen wir nicht vergessen.‘ ",
+            "en": "We won’t forget even a small thing done for us.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.053,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 20.12\n1. Das Kapitel mit Gleichnissen\nDer Schakal (2)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 19,
+          "de": 12,
+          "en": 18
+        }
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "de",
+    "docAuthor": "sabbamitta"
+  }
+}

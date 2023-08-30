@@ -1,0 +1,91 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sabbamitta",
+      "docLang": "de",
+      "docAuthor": "sabbamitta",
+      "includeUnpublished": false,
+      "lang": "de",
+      "langAuthor": "sabbamitta",
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "erscheinen gedanken",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "de",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sabbamitta",
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "erscheinen gedanken",
+    "method": "phrase",
+    "resultPattern": "\\berscheinen gedanken",
+    "segsMatched": 1,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an9/an9.14_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an9/an9.14_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an9/an9.14_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an9.14/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an9/an9.14_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an9/an9.14_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an9/an9.14_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an9.14",
+        "lang": "de",
+        "segMap": {
+          "an9.14:2.1": {
+            "scid": "an9.14:2.1",
+            "pli": "“Kimārammaṇā, samiddhi, purisassa saṅkappavitakkā uppajjantī”ti? ",
+            "de": "„Samiddhi, auf welcher Grundlage <span class=\"ebt-matched\">erscheinen Gedanken</span> bei einem Menschen?“ ",
+            "en": "“Samiddhi, based on what do thoughts arise in a person?” ",
+            "matched": true
+          }
+        },
+        "score": 1.029,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 9.14\n2. Das Kapitel über das Löwengebrüll\nMit Samiddhi",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 34,
+          "de": 27,
+          "en": 33
+        }
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "de",
+    "docAuthor": "sabbamitta"
+  }
+}

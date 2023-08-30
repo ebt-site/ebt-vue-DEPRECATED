@@ -1,0 +1,134 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sabbamitta",
+      "docLang": "de",
+      "docAuthor": "sabbamitta",
+      "includeUnpublished": false,
+      "lang": "de",
+      "langAuthor": "sabbamitta",
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "bedingungen müssen vergehen",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "de",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sabbamitta",
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "bedingungen müssen vergehen",
+    "method": "phrase",
+    "resultPattern": "\\bbedingungen müssen vergehen",
+    "segsMatched": 3,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn6/sn6.15_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn6/sn6.15_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn6/sn6.15_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "dn16/de/sabbamitta",
+      "sn6.15/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn16",
+        "lang": "de",
+        "segMap": {
+          "dn16:3.51.4": {
+            "scid": "dn16:3.51.4",
+            "pli": "vayadhammā saṅkhārā, appamādena sampādetha. ",
+            "de": "‚<span class=\"ebt-matched\">Bedingungen müssen vergehen</span>. Macht beflissen weiter.‘ ",
+            "en": "‘Conditions fall apart. Persist with diligence.’ ",
+            "matched": true
+          },
+          "dn16:6.7.3": {
+            "scid": "dn16:6.7.3",
+            "pli": "vayadhammā saṅkhārā appamādena sampādethā”ti. ",
+            "de": "‚<span class=\"ebt-matched\">Bedingungen müssen vergehen</span>. Macht beflissen weiter.‘“ ",
+            "en": "‘Conditions fall apart. Persist with diligence.’” ",
+            "matched": true
+          }
+        },
+        "score": 2.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 16\nDie große Lehrrede vom Erlöschen des Buddha",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 1664,
+          "de": 1579,
+          "en": 1568
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn6/sn6.15_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn6/sn6.15_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn6/sn6.15_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn6.15",
+        "lang": "de",
+        "segMap": {
+          "sn6.15:1.4": {
+            "scid": "sn6.15:1.4",
+            "pli": "‘vayadhammā saṅkhārā, appamādena sampādethā’”ti. ",
+            "de": "‚<span class=\"ebt-matched\">Bedingungen müssen vergehen</span>. Macht beflissen weiter.‘“ ",
+            "en": "‘Conditions fall apart. Persist with diligence.’” ",
+            "matched": true
+          }
+        },
+        "score": 1.023,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 6.15\n2. Das zweite Kapitel\nEndgültiges Erlöschen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 43,
+          "de": 37,
+          "en": 42
+        }
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "de",
+    "docAuthor": "sabbamitta"
+  }
+}

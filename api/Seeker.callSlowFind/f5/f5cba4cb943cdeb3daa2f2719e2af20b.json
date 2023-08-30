@@ -1,0 +1,91 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sabbamitta",
+      "docLang": "de",
+      "docAuthor": "sabbamitta",
+      "includeUnpublished": false,
+      "lang": "de",
+      "langAuthor": "sabbamitta",
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "klug, fähig, verständig und gelehrt",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "de",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sabbamitta",
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "klug, fähig, verständig und gelehrt",
+    "method": "phrase",
+    "resultPattern": "\\bklug, fähig, verständig und gelehrt",
+    "segsMatched": 1,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn44/sn44.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn44/sn44.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn44/sn44.1_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn44.1/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn44/sn44.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn44/sn44.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn44/sn44.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn44.1",
+        "lang": "de",
+        "segMap": {
+          "sn44.1:3.4": {
+            "scid": "sn44.1:3.4",
+            "pli": "‘paṇḍitā, viyattā medhāvinī bahussutā cittakathā kalyāṇapaṭibhānā’ti. ",
+            "de": "dass sie <span class=\"ebt-matched\">klug, fähig, verständig und gelehrt</span> ist, eine geistvolle und wortgewandte Rednerin. ",
+            "en": "astute, competent, clever, learned, a brilliant speaker, and eloquent. ",
+            "matched": true
+          }
+        },
+        "score": 1.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 44.1\n1. Das Kapitel über die nicht erklärten Punkte\nMit Khemā",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 120,
+          "de": 61,
+          "en": 119
+        }
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "de",
+    "docAuthor": "sabbamitta"
+  }
+}
