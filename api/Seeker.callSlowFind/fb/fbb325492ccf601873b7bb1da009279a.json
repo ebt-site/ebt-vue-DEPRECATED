@@ -40,7 +40,7 @@
     "pattern": "neigung zur einbildung",
     "method": "phrase",
     "resultPattern": "\\bneigung zur einbildung",
-    "segsMatched": 34,
+    "segsMatched": 35,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an3/an3.32_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.32_translation-de-sabbamitta.json",
@@ -102,7 +102,10 @@
       "translation/en/sujato/sutta/kn/thig/thig2.1_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag21.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag21.1_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/kn/thag/thag21.1_translation-en-sujato.json"
+      "translation/en/sujato/sutta/kn/thag/thag21.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag1.60_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag1.60_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag1.60_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an3.32/de/sabbamitta",
@@ -123,7 +126,8 @@
       "sn28.1/de/sabbamitta",
       "sn21.2/de/sabbamitta",
       "thig2.1/de/sabbamitta",
-      "thag21.1/de/sabbamitta"
+      "thag21.1/de/sabbamitta",
+      "thag1.60/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -680,6 +684,38 @@
           "pli": 14,
           "de": 13,
           "en": 13
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag1.60_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag1.60_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag1.60_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag1.60",
+        "lang": "de",
+        "segMap": {
+          "thag1.60:1.3": {
+            "scid": "thag1.60:1.3",
+            "pli": "Vijjāvimuttiṁ paccesaṁ, ",
+            "de": "Indem ich die <span class=\"ebt-matched\">Neigung zur Einbildung</span> aufgebe, ",
+            "en": "Abandoning the tendency to conceit, ",
+            "matched": true
+          }
+        },
+        "score": 1.059,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 1.60\nDas Einerbuch\n6. Das sechste Kapitel\nSīvali",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 17,
+          "de": 8,
+          "en": 8
         }
       },
       {

@@ -40,7 +40,7 @@
     "pattern": "wieder und wieder",
     "method": "phrase",
     "resultPattern": "\\bwieder und wieder",
-    "segsMatched": 44,
+    "segsMatched": 45,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn7/sn7.12_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn7/sn7.12_translation-de-sabbamitta.json",
@@ -84,6 +84,9 @@
       "root/pli/ms/sutta/kn/thag/thag1.17_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag1.17_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag1.17_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag1.101_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag1.101_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag1.101_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/iti/vagga9/iti83_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/iti/vagga9/iti83_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/iti/vagga9/iti83_translation-en-sujato.json",
@@ -114,6 +117,7 @@
       "thig9.1/de/sabbamitta",
       "thag20.1/de/sabbamitta",
       "thag1.17/de/sabbamitta",
+      "thag1.101/de/sabbamitta",
       "iti83/de/sabbamitta",
       "dn33/de/sabbamitta",
       "an9.5/de/sabbamitta",
@@ -522,6 +526,38 @@
         "maxWord": 30,
         "minWord": 5,
         "title": "Strophen der altehrwürdigen Mönche 1.17\nDas Einerbuch\n2. Das zweite Kapitel\nDāsaka",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 9,
+          "de": 8,
+          "en": 8
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag1.101_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag1.101_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag1.101_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag1.101",
+        "lang": "de",
+        "segMap": {
+          "thag1.101:1.4": {
+            "scid": "thag1.101:1.4",
+            "pli": "Punappunaṁ gabbhamupeti mando”ti. ",
+            "de": "Dieser Dummkopf wird <span class=\"ebt-matched\">wieder und wieder</span> geboren. ",
+            "en": "That idiot is reborn again and again. ",
+            "matched": true
+          }
+        },
+        "score": 1.111,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 1.101\nDas Einerbuch\n11. Das elfte Kapitel\nBelaṭṭhānika",
         "segsMatched": 1,
         "langSegs": {
           "pli": 9,

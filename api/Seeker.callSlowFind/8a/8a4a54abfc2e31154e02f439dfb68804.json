@@ -40,7 +40,7 @@
     "pattern": "sack voll knochen",
     "method": "phrase",
     "resultPattern": "\\bsack voll knochen",
-    "segsMatched": 9,
+    "segsMatched": 10,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn6/sn6.15_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn6/sn6.15_translation-de-sabbamitta.json",
@@ -72,6 +72,9 @@
       "translation/de/sabbamitta/sutta/kn/thig/thig13.1_translation-de-sabbamitta.json",
       "translation/en/soma/sutta/kn/thig/thig13.1_translation-en-soma.json",
       "translation/en/sujato/sutta/kn/thig/thig13.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag1.83_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag1.83_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag1.83_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json"
@@ -85,9 +88,42 @@
       "thig2.2/de/sabbamitta",
       "thig2.1/de/sabbamitta",
       "thig13.1/de/sabbamitta",
+      "thag1.83/de/sabbamitta",
       "dn16/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag1.83_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag1.83_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag1.83_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag1.83",
+        "lang": "de",
+        "segMap": {
+          "thag1.83:1.4": {
+            "scid": "thag1.83:1.4",
+            "pli": "jaha sīghaṁ samussayan”ti. ",
+            "de": "und wirf diesen <span class=\"ebt-matched\">Sack voll Knochen</span> rasch weg. ",
+            "en": "and quickly discard this bag of bones. ",
+            "matched": true
+          }
+        },
+        "score": 1.111,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 1.83\nDas Einerbuch\n9. Das neunte Kapitel\nSīha",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 9,
+          "de": 8,
+          "en": 8
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/kn/thig/thig2.1_root-pli-ms.json",

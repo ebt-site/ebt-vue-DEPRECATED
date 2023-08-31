@@ -40,11 +40,14 @@
     "pattern": "sittlichkeit und.* weisheit",
     "method": "phrase",
     "resultPattern": "\\bsittlichkeit und.* weisheit",
-    "segsMatched": 12,
+    "segsMatched": 13,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn4_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn4_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn4_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag1.70_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag1.70_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag1.70_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.86_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.86_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an8/an8.86_translation-en-sujato.json",
@@ -57,6 +60,7 @@
     ],
     "suttaRefs": [
       "dn4/de/sabbamitta",
+      "thag1.70/de/sabbamitta",
       "an8.86/de/sabbamitta",
       "an6.42/de/sabbamitta",
       "an5.30/de/sabbamitta"
@@ -148,6 +152,38 @@
           "pli": 297,
           "de": 258,
           "en": 296
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag1.70_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag1.70_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag1.70_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag1.70",
+        "lang": "de",
+        "segMap": {
+          "thag1.70:1.3": {
+            "scid": "thag1.70:1.3",
+            "pli": "Manussesu ca devesu, ",
+            "de": "Jemand, der <span class=\"ebt-matched\">Sittlichkeit und auch Weisheit</span> besitzt, ",
+            "en": "Someone with both virtue and wisdom ",
+            "matched": true
+          }
+        },
+        "score": 1.059,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 1.70\nDas Einerbuch\n7. Das siebte Kapitel\nPuṇṇa (2)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 17,
+          "de": 8,
+          "en": 8
         }
       },
       {

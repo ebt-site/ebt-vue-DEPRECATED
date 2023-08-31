@@ -40,7 +40,7 @@
     "pattern": "essen g[ei]b",
     "method": "phrase",
     "resultPattern": "\\bessen g[ei]b",
-    "segsMatched": 12,
+    "segsMatched": 13,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn93_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn93_translation-de-sabbamitta.json",
@@ -52,6 +52,9 @@
       "translation/de/sabbamitta/sutta/sn/sn1/sn1.42_translation-de-sabbamitta.json",
       "translation/en/davis/sutta/sn/sn1/sn1.42_translation-en-davis.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.42_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag1.82_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag1.82_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag1.82_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.78_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.78_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.78_translation-en-sujato.json",
@@ -66,6 +69,7 @@
       "mn93/de/sabbamitta",
       "dn3/de/sabbamitta",
       "sn1.42/de/sabbamitta",
+      "thag1.82/de/sabbamitta",
       "an5.78/de/sabbamitta",
       "an4.59/de/sabbamitta",
       "an4.58/de/sabbamitta"
@@ -175,6 +179,38 @@
           "pli": 437,
           "de": 426,
           "en": 436
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag1.82_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag1.82_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag1.82_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag1.82",
+        "lang": "de",
+        "segMap": {
+          "thag1.82:1.2": {
+            "scid": "thag1.82:1.2",
+            "pli": "sivāni abhayāni ca; ",
+            "de": "wo es reichlich zu <span class=\"ebt-matched\">Essen gib</span>t, ",
+            "en": "where there’s plenty of food, ",
+            "matched": true
+          }
+        },
+        "score": 1.111,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 1.82\nDas Einerbuch\n9. Das neunte Kapitel\nKassapa",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 9,
+          "de": 8,
+          "en": 8
         }
       },
       {
