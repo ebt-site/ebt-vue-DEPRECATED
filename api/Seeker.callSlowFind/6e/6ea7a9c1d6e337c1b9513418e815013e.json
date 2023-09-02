@@ -18,7 +18,7 @@
       "maxDoc": 50,
       "maxResults": 1000,
       "minLang": 2,
-      "pattern": "kleine hütte",
+      "pattern": "kleine.* hütte",
       "refAuthor": "sujato",
       "refLang": "en",
       "searchLang": "de",
@@ -37,15 +37,18 @@
     "minLang": 2,
     "maxDoc": 50,
     "maxResults": 1000,
-    "pattern": "kleine hütte",
+    "pattern": "kleine.* hütte",
     "method": "phrase",
-    "resultPattern": "\\bkleine hütte",
-    "segsMatched": 16,
+    "resultPattern": "\\bkleine.* hütte",
+    "segsMatched": 17,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn1/sn1.19_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn1/sn1.19_translation-de-sabbamitta.json",
       "translation/en/davis/sutta/sn/sn1/sn1.19_translation-en-davis.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.19_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag1.56_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag1.56_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag1.56_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag20.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag20.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag20.1_translation-en-sujato.json",
@@ -55,9 +58,6 @@
       "root/pli/ms/sutta/kn/thag/thag1.58_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag1.58_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag1.58_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/thag/thag1.56_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/kn/thag/thag1.56_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/kn/thag/thag1.56_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag1.55_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag1.55_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag1.55_translation-en-sujato.json",
@@ -79,10 +79,10 @@
     ],
     "suttaRefs": [
       "sn1.19/de/sabbamitta",
+      "thag1.56/de/sabbamitta",
       "thag20.1/de/sabbamitta",
       "thag1.59/de/sabbamitta",
       "thag1.58/de/sabbamitta",
-      "thag1.56/de/sabbamitta",
       "thag1.55/de/sabbamitta",
       "thag1.54/de/sabbamitta",
       "thag1.53/de/sabbamitta",
@@ -157,6 +157,45 @@
           "pli": 23,
           "de": 23,
           "en": 23
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag1.56_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag1.56_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag1.56_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag1.56",
+        "lang": "de",
+        "segMap": {
+          "thag1.56:1.1": {
+            "scid": "thag1.56:1.1",
+            "pli": "“Ko kuṭikāyaṁ bhikkhu kuṭikāyaṁ, ",
+            "de": "„Wer ist in dieser <span class=\"ebt-matched\">kleinen Hütte?“ – „Ein Mönch ist in dieser kleinen Hütte</span>, ",
+            "en": "“Who is in this little hut?” <j>“A monk is in this little hut, ",
+            "matched": true
+          },
+          "thag1.56:1.4": {
+            "scid": "thag1.56:1.4",
+            "pli": "Amoghā te kuṭikā katā”ti. ",
+            "de": "Deine <span class=\"ebt-matched\">kleine Hütte</span> wurde nicht umsonst gebaut!“ ",
+            "en": "your little hut wasn’t built in vain.” ",
+            "matched": true
+          }
+        },
+        "score": 2.222,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 1.56\nDas Einerbuch\n6. Das sechste Kapitel\nKuṭivihārin (1)",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 9,
+          "de": 8,
+          "en": 8
         }
       },
       {
@@ -312,38 +351,6 @@
         "maxWord": 30,
         "minWord": 5,
         "title": "Strophen der altehrwürdigen Mönche 1.55\nDas Einerbuch\n6. Das sechste Kapitel\nAñjanavaniya",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 9,
-          "de": 8,
-          "en": 8
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/kn/thag/thag1.56_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/kn/thag/thag1.56_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/kn/thag/thag1.56_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "thag1.56",
-        "lang": "de",
-        "segMap": {
-          "thag1.56:1.4": {
-            "scid": "thag1.56:1.4",
-            "pli": "Amoghā te kuṭikā katā”ti. ",
-            "de": "Deine <span class=\"ebt-matched\">kleine Hütte</span> wurde nicht umsonst gebaut!“ ",
-            "en": "your little hut wasn’t built in vain.” ",
-            "matched": true
-          }
-        },
-        "score": 1.111,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Strophen der altehrwürdigen Mönche 1.56\nDas Einerbuch\n6. Das sechste Kapitel\nKuṭivihārin (1)",
         "segsMatched": 1,
         "langSegs": {
           "pli": 9,
