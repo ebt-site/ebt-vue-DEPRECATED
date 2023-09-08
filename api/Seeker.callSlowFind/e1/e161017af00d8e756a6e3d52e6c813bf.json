@@ -39,15 +39,53 @@
     "pattern": "if others criticize",
     "method": "phrase",
     "resultPattern": "\\bif others criticize",
-    "segsMatched": 2,
+    "segsMatched": 4,
     "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn21_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn21_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn1_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn1_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "mn21/en/sujato",
       "dn1/en/sujato"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn21_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn21_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn21",
+        "lang": "en",
+        "segMap": {
+          "mn21:15.1": {
+            "scid": "mn21:15.1",
+            "pli": "“Evameva kho, bhikkhave, pañcime vacanapathā yehi vo pare vadamānā vadeyyuṁ kālena vā akālena vā …pe… ",
+            "en": "“In the same way, <span class=\"ebt-matched\">if others criticize</span> you in any of these five ways … you should train like this: ",
+            "matched": true
+          },
+          "mn21:17.1": {
+            "scid": "mn21:17.1",
+            "pli": "“Evameva kho, bhikkhave, pañcime vacanapathā yehi vo pare vadamānā vadeyyuṁ kālena vā akālena vā …pe… ",
+            "en": "“In the same way, <span class=\"ebt-matched\">if others criticize</span> you in any of these five ways … you should train like this: ",
+            "matched": true
+          }
+        },
+        "score": 2.009,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Middle Discourses 21\nThe Simile of the Saw",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 227,
+          "en": 226
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/dn/dn1_root-pli-ms.json",
