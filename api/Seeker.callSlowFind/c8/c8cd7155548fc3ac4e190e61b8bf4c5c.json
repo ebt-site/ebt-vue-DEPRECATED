@@ -40,7 +40,7 @@
     "pattern": "herr de[rs]",
     "method": "phrase",
     "resultPattern": "\\bherr de[rs]",
-    "segsMatched": 20,
+    "segsMatched": 21,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn20_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn20_translation-de-sabbamitta.json",
@@ -69,6 +69,9 @@
       "translation/de/sabbamitta/sutta/sn/sn3/sn3.16_translation-de-sabbamitta.json",
       "translation/en/davis/sutta/sn/sn3/sn3.16_translation-en-davis.json",
       "translation/en/sujato/sutta/sn/sn3/sn3.16_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/cp/cp32_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/cp/cp32_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/cp/cp32_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/cp/cp22_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/cp/cp22_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/cp/cp22_translation-en-sujato.json",
@@ -88,6 +91,7 @@
       "an10.115/de/sabbamitta",
       "sn3.1/de/sabbamitta",
       "sn3.16/de/sabbamitta",
+      "cp32/de/sabbamitta",
       "cp22/de/sabbamitta",
       "dn27/de/sabbamitta",
       "an7.62/de/sabbamitta"
@@ -380,6 +384,38 @@
           "pli": 17,
           "de": 17,
           "en": 17
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/cp/cp32_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/cp/cp32_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/cp/cp32_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "cp32",
+        "lang": "de",
+        "segMap": {
+          "cp32:1.2": {
+            "scid": "cp32:1.2",
+            "pli": "sutasomo mahīpati; ",
+            "de": "Sutasoma war, der <span class=\"ebt-matched\">Herr der</span> Erde, ",
+            "en": "Sutasoma, Lord of the Earth, ",
+            "matched": true
+          }
+        },
+        "score": 1.032,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Korb des Verhaltens 32\nDas Kapitel mit Yudhañjaya\nDie Vollkommenheit der Wahrheit (6)\nSutasomas Verhalten",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 31,
+          "de": 30,
+          "en": 30
         }
       },
       {

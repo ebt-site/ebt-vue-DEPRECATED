@@ -40,7 +40,7 @@
     "pattern": "wieder und wieder",
     "method": "phrase",
     "resultPattern": "\\bwieder und wieder",
-    "segsMatched": 45,
+    "segsMatched": 47,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn7/sn7.12_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn7/sn7.12_translation-de-sabbamitta.json",
@@ -78,6 +78,12 @@
       "translation/de/sabbamitta/sutta/kn/thig/thig9.1_translation-de-sabbamitta.json",
       "translation/en/soma/sutta/kn/thig/thig9.1_translation-en-soma.json",
       "translation/en/sujato/sutta/kn/thig/thig9.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag2.3_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag2.3_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag2.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag2.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag2.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag2.1_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag20.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag20.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag20.1_translation-en-sujato.json",
@@ -115,6 +121,8 @@
       "sn48.50/de/sabbamitta",
       "sn36.2/de/sabbamitta",
       "thig9.1/de/sabbamitta",
+      "thag2.3/de/sabbamitta",
+      "thag2.1/de/sabbamitta",
       "thag20.1/de/sabbamitta",
       "thag1.17/de/sabbamitta",
       "thag1.101/de/sabbamitta",
@@ -563,6 +571,70 @@
           "pli": 9,
           "de": 8,
           "en": 8
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag2.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag2.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag2.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag2.1",
+        "lang": "de",
+        "segMap": {
+          "thag2.1:1.4": {
+            "scid": "thag2.1:1.4",
+            "pli": "cavanti aparāparaṁ. ",
+            "de": "und scheiden ab, <span class=\"ebt-matched\">wieder und wieder</span>. ",
+            "en": "and pass away, again and again. ",
+            "matched": true
+          }
+        },
+        "score": 1.077,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 2.1\nDas Zweierbuch\n1. Das erste Kapitel\nUttara (1)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 13,
+          "de": 13,
+          "en": 13
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag2.3_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag2.3_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag2.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag2.3",
+        "lang": "de",
+        "segMap": {
+          "thag2.3:1.4": {
+            "scid": "thag2.3:1.4",
+            "pli": "ghaṭṭayanto muhuṁ muhuṁ. ",
+            "de": "<span class=\"ebt-matched\">wieder und wieder</span>. ",
+            "en": "on each door, again and again. ",
+            "matched": true
+          }
+        },
+        "score": 1.077,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 2.3\nDas Zweierbuch\n1. Das erste Kapitel\nValliya (2)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 13,
+          "de": 12,
+          "en": 12
         }
       },
       {
