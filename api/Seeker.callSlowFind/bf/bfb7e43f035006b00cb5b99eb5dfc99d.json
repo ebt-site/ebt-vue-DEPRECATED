@@ -40,7 +40,7 @@
     "pattern": "erde, wasser, feuer und luft",
     "method": "phrase",
     "resultPattern": "\\berde, wasser, feuer und luft",
-    "segsMatched": 13,
+    "segsMatched": 14,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn55/sn55.17_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn55/sn55.17_translation-de-sabbamitta.json",
@@ -68,6 +68,9 @@
       "root/pli/ms/sutta/sn/sn14/sn14.30_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn14/sn14.30_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn14/sn14.30_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn28_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn28_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn28_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
@@ -87,6 +90,7 @@
       "sn14.38/de/sabbamitta",
       "sn14.37/de/sabbamitta",
       "sn14.30/de/sabbamitta",
+      "mn28/de/sabbamitta",
       "dn33/de/sabbamitta",
       "dn2/de/sabbamitta",
       "an11.9/de/sabbamitta"
@@ -394,6 +398,38 @@
           "pli": 76,
           "de": 48,
           "en": 75
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn28_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn28_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn28_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn28",
+        "lang": "de",
+        "segMap": {
+          "mn28:5.2": {
+            "scid": "mn28:5.2",
+            "pli": "Pathavīdhātu, āpodhātu, tejodhātu, vāyodhātu. ",
+            "de": "Die Elemente <span class=\"ebt-matched\">Erde, Wasser, Feuer und Luft</span>. ",
+            "en": "The elements of earth, water, fire, and air. ",
+            "matched": true
+          }
+        },
+        "score": 1.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 28\nDas längere Gleichnis von der Elefanten-Fußspur",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 166,
+          "de": 159,
+          "en": 165
         }
       },
       {

@@ -40,8 +40,11 @@
     "pattern": "das innere erdelement",
     "method": "phrase",
     "resultPattern": "\\bdas innere erdelement",
-    "segsMatched": 4,
+    "segsMatched": 7,
     "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn28_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn28_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn28_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn140_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn140_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn140_translation-en-sujato.json",
@@ -50,10 +53,57 @@
       "translation/en/sujato/sutta/an/an4/an4.177_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "mn28/de/sabbamitta",
       "mn140/de/sabbamitta",
       "an4.177/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn28_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn28_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn28_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn28",
+        "lang": "de",
+        "segMap": {
+          "mn28:6.3": {
+            "scid": "mn28:6.3",
+            "pli": "Katamā cāvuso, ajjhattikā pathavīdhātu? ",
+            "de": "Und was ist <span class=\"ebt-matched\">das innere Erdelement</span>? ",
+            "en": "And what is the interior earth element? ",
+            "matched": true
+          },
+          "mn28:6.6": {
+            "scid": "mn28:6.6",
+            "pli": "Ayaṁ vuccatāvuso, ajjhattikā pathavīdhātu. ",
+            "de": "Das nennt man <span class=\"ebt-matched\">das innere Erdelement</span>. ",
+            "en": "This is called the interior earth element. ",
+            "matched": true
+          },
+          "mn28:6.7": {
+            "scid": "mn28:6.7",
+            "pli": "Yā ceva kho pana ajjhattikā pathavīdhātu, yā ca bāhirā pathavīdhātu, pathavīdhāturevesā. ",
+            "de": "<span class=\"ebt-matched\">Das innere Erdelement</span> und das äußere Erdelement sind bloß das Erdelement. ",
+            "en": "The interior earth element and the exterior earth element are just the earth element. ",
+            "matched": true
+          }
+        },
+        "score": 3.018,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 28\nDas längere Gleichnis von der Elefanten-Fußspur",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 166,
+          "de": 159,
+          "en": 165
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/mn/mn140_root-pli-ms.json",

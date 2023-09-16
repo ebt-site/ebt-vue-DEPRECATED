@@ -40,7 +40,7 @@
     "pattern": "versenkung besitzt",
     "method": "phrase",
     "resultPattern": "\\bversenkung besitzt",
-    "segsMatched": 11,
+    "segsMatched": 13,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn56/sn56.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn56/sn56.1_translation-de-sabbamitta.json",
@@ -54,6 +54,9 @@
       "translation/de/sabbamitta/sutta/sn/sn35/sn35.160_translation-de-sabbamitta.json",
       "translation/en/davis/sutta/sn/sn35/sn35.160_translation-en-davis.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.160_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag2.20_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag2.20_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag2.20_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn22/sn22.5_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.5_translation-de-sabbamitta.json",
       "translation/en/davis/sutta/sn/sn22/sn22.5_translation-en-davis.json",
@@ -76,6 +79,7 @@
       "sn56.1/de/sabbamitta",
       "sn35.99/de/sabbamitta",
       "sn35.160/de/sabbamitta",
+      "thag2.20/de/sabbamitta",
       "sn22.5/de/sabbamitta",
       "sn1.9/de/sabbamitta",
       "sn1.38/de/sabbamitta",
@@ -201,6 +205,45 @@
           "pli": 19,
           "de": 18,
           "en": 18
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag2.20_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag2.20_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag2.20_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag2.20",
+        "lang": "de",
+        "segMap": {
+          "thag2.20:2.2": {
+            "scid": "thag2.20:2.2",
+            "pli": "attā ce susamāhito; ",
+            "de": "der <span class=\"ebt-matched\">Versenkung besitzt</span>, ",
+            "en": "who does have immersion, ",
+            "matched": true
+          },
+          "thag2.20:2.4": {
+            "scid": "thag2.20:2.4",
+            "pli": "attā hi susamāhito”ti. ",
+            "de": "da dieser <span class=\"ebt-matched\">Versenkung besitzt</span>. ",
+            "en": "as one does have immersion. ",
+            "matched": true
+          }
+        },
+        "score": 2.095,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 2.20\nDas Zweierbuch\n2. Das zweite Kapitel\nSirima",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 21,
+          "de": 12,
+          "en": 12
         }
       },
       {

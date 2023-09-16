@@ -40,7 +40,7 @@
     "pattern": "kopfhaare, körperhaare",
     "method": "phrase",
     "resultPattern": "\\bkopfhaare, körperhaare",
-    "segsMatched": 11,
+    "segsMatched": 12,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn51/sn51.20_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn51/sn51.20_translation-de-sabbamitta.json",
@@ -52,6 +52,9 @@
       "translation/de/sabbamitta/sutta/sn/sn10/sn10.1_translation-de-sabbamitta.json",
       "translation/en/davis/sutta/sn/sn10/sn10.1_translation-en-davis.json",
       "translation/en/sujato/sutta/sn/sn10/sn10.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn28_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn28_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn28_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn140_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn140_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn140_translation-en-sujato.json",
@@ -81,6 +84,7 @@
       "sn51.20/de/sabbamitta",
       "sn35.127/de/sabbamitta",
       "sn10.1/de/sabbamitta",
+      "mn28/de/sabbamitta",
       "mn140/de/sabbamitta",
       "mn119/de/sabbamitta",
       "mn10/de/sabbamitta",
@@ -282,6 +286,38 @@
           "pli": 99,
           "de": 67,
           "en": 97
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn28_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn28_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn28_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn28",
+        "lang": "de",
+        "segMap": {
+          "mn28:6.5": {
+            "scid": "mn28:6.5",
+            "pli": "kesā lomā nakhā dantā taco maṁsaṁ nhāru aṭṭhi aṭṭhimiñjaṁ vakkaṁ hadayaṁ yakanaṁ kilomakaṁ pihakaṁ papphāsaṁ antaṁ antaguṇaṁ udariyaṁ karīsaṁ, yaṁ vā panaññampi kiñci ajjhattaṁ paccattaṁ kakkhaḷaṁ kharigataṁ upādinnaṁ. ",
+            "de": "<span class=\"ebt-matched\">Kopfhaare, Körperhaare</span>, Nägel, Zähne, Haut, Fleisch, Sehnen, Knochen, Knochenmark, Nieren, Herz, Leber, Zwerchfell, Milz, Lungen, Därme, Gekröse, Speisebrei, Kot oder alles, was sonst hart und fest ist, was man sich zu eigen macht, was innerlich ist und zu einer Person gehört. ",
+            "en": "head hair, body hair, nails, teeth, skin, flesh, sinews, bones, bone marrow, kidneys, heart, liver, diaphragm, spleen, lungs, intestines, mesentery, undigested food, feces, or anything else hard, solid, and appropriated that’s internal, pertaining to an individual. ",
+            "matched": true
+          }
+        },
+        "score": 1.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 28\nDas längere Gleichnis von der Elefanten-Fußspur",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 166,
+          "de": 159,
+          "en": 165
         }
       },
       {

@@ -40,7 +40,7 @@
     "pattern": "kassapa der prinz",
     "method": "phrase",
     "resultPattern": "\\bkassapa der prinz",
-    "segsMatched": 9,
+    "segsMatched": 10,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn23_translation-de-sabbamitta.json",
@@ -48,6 +48,9 @@
       "root/pli/ms/sutta/mn/mn23_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn23_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn23_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag2.41_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag2.41_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag2.41_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an1/an1.209-218_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an1/an1.209-218_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an1/an1.209-218_translation-en-sujato.json"
@@ -55,6 +58,7 @@
     "suttaRefs": [
       "dn23/de/sabbamitta",
       "mn23/de/sabbamitta",
+      "thag2.41/de/sabbamitta",
       "an1.209-218/de/sabbamitta"
     ],
     "mlDocs": [
@@ -156,7 +160,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Mittlere Lehrreden 23\nDer Ameisenhaufen",
+        "title": "Mittlere Lehrreden 23\nDer Termitenhügel",
         "segsMatched": 3,
         "langSegs": {
           "pli": 104,
@@ -194,6 +198,38 @@
           "pli": 13,
           "de": 12,
           "en": 12
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag2.41_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag2.41_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag2.41_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag2.41",
+        "lang": "de",
+        "segMap": {
+          "thag2.41:0.4": {
+            "scid": "thag2.41:0.4",
+            "pli": "Kumārakassapattheragāthā ",
+            "de": "<span class=\"ebt-matched\">Kassapa der Prinz</span> ",
+            "en": "Kassapa the Prince ",
+            "matched": true
+          }
+        },
+        "score": 1.067,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 2.41\nDas Zweierbuch\n5. Das fünfte Kapitel\nKassapa der Prinz",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 15,
+          "de": 14,
+          "en": 14
         }
       }
     ],

@@ -40,7 +40,7 @@
     "pattern": "weberin",
     "method": "phrase",
     "resultPattern": "\\bweberin",
-    "segsMatched": 6,
+    "segsMatched": 7,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an4/an4.199_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.199_translation-de-sabbamitta.json",
@@ -50,12 +50,16 @@
       "translation/en/sujato/sutta/sn/sn9/sn9.6_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn4/sn4.7_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn4/sn4.7_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn4/sn4.7_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn4/sn4.7_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag2.21_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag2.21_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag2.21_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an4.199/de/sabbamitta",
       "sn9.6/de/sabbamitta",
-      "sn4.7/de/sabbamitta"
+      "sn4.7/de/sabbamitta",
+      "thag2.21/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -109,6 +113,38 @@
           "pli": 22,
           "de": 21,
           "en": 21
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag2.21_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag2.21_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag2.21_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag2.21",
+        "lang": "de",
+        "segMap": {
+          "thag2.21:2.2": {
+            "scid": "thag2.21:2.2",
+            "pli": "abbahitvāna jāliniṁ; ",
+            "de": "die <span class=\"ebt-matched\">Weberin</span> des Netzes ausgerissen, ",
+            "en": "having plucked out the weaver of the web, ",
+            "matched": true
+          }
+        },
+        "score": 1.077,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 2.21\nDas Zweierbuch\n3. Das dritte Kapitel\nUttara (2)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 13,
+          "de": 12,
+          "en": 12
         }
       },
       {

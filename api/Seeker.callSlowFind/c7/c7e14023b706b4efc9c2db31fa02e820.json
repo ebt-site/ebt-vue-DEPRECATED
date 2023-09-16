@@ -40,7 +40,7 @@
     "pattern": "schwer zu sehen",
     "method": "phrase",
     "resultPattern": "\\bschwer zu sehen",
-    "segsMatched": 15,
+    "segsMatched": 16,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn1_translation-de-sabbamitta.json",
@@ -66,6 +66,9 @@
       "translation/de/sabbamitta/sutta/kn/thig/thig3.5_translation-de-sabbamitta.json",
       "translation/en/soma/sutta/kn/thig/thig3.5_translation-en-soma.json",
       "translation/en/sujato/sutta/kn/thig/thig3.5_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag2.46_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag2.46_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag2.46_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag1.4_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag1.4_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag1.4_translation-en-sujato.json",
@@ -84,6 +87,7 @@
       "ud8.2/de/sabbamitta",
       "thig6.1/de/sabbamitta",
       "thig3.5/de/sabbamitta",
+      "thag2.46/de/sabbamitta",
       "thag1.4/de/sabbamitta",
       "snp4.15/de/sabbamitta",
       "dn14/de/sabbamitta"
@@ -218,6 +222,38 @@
           "pli": 12,
           "de": 11,
           "en": 11
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag2.46_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag2.46_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag2.46_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag2.46",
+        "lang": "de",
+        "segMap": {
+          "thag2.46:2.4": {
+            "scid": "thag2.46:2.4",
+            "pli": "Phusāhi taṁ uttamamaccutaṁ padan”ti. ",
+            "de": "der so überaus rein, subtil und <span class=\"ebt-matched\">schwer zu sehen</span> ist. ",
+            "en": "so very pure, subtle, and hard to see. ",
+            "matched": true
+          }
+        },
+        "score": 1.077,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 2.46\nDas Zweierbuch\n5. Das fünfte Kapitel\nCūḷaka",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 13,
+          "de": 12,
+          "en": 12
         }
       },
       {

@@ -40,7 +40,7 @@
     "pattern": "schwer zu finden",
     "method": "phrase",
     "resultPattern": "\\bschwer zu finden",
-    "segsMatched": 44,
+    "segsMatched": 45,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an10/an10.73_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.73_translation-de-sabbamitta.json",
@@ -90,6 +90,9 @@
       "root/pli/ms/sutta/kn/thag/thag2.9_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag2.9_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag2.9_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag2.47_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag2.47_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag2.47_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
@@ -125,6 +128,7 @@
       "sn1.49/de/sabbamitta",
       "thig16.1/de/sabbamitta",
       "thag2.9/de/sabbamitta",
+      "thag2.47/de/sabbamitta",
       "dn16/de/sabbamitta",
       "an8.29/de/sabbamitta",
       "an6.57/de/sabbamitta",
@@ -672,6 +676,38 @@
         "maxWord": 30,
         "minWord": 5,
         "title": "Strophen der altehrwürdigen Mönche 2.9\nDas Zweierbuch\n1. Das erste Kapitel\nGotama (1)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 13,
+          "de": 12,
+          "en": 12
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag2.47_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag2.47_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag2.47_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag2.47",
+        "lang": "de",
+        "segMap": {
+          "thag2.47:2.3": {
+            "scid": "thag2.47:2.3",
+            "pli": "Satthā te dullabho laddho, ",
+            "de": "Du hast den Lehrer gefunden, der so <span class=\"ebt-matched\">schwer zu finden</span> ist – ",
+            "en": "You’ve found the teacher so hard to find—",
+            "matched": true
+          }
+        },
+        "score": 1.077,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 2.47\nDas Zweierbuch\n5. Das fünfte Kapitel\nAnūpama",
         "segsMatched": 1,
         "langSegs": {
           "pli": 13,

@@ -40,8 +40,11 @@
     "pattern": "es ist mein pech, mein missgeschick",
     "method": "phrase",
     "resultPattern": "\\bes ist mein pech, mein missgeschick",
-    "segsMatched": 4,
+    "segsMatched": 6,
     "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn28_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn28_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn28_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn8/sn8.3_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn8/sn8.3_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn8/sn8.3_translation-en-sujato.json",
@@ -56,12 +59,52 @@
       "translation/en/sujato/sutta/an/an3/an3.91_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "mn28/de/sabbamitta",
       "sn8.3/de/sabbamitta",
       "sn8.2/de/sabbamitta",
       "sn8.1/de/sabbamitta",
       "an3.91/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn28_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn28_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn28_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn28",
+        "lang": "de",
+        "segMap": {
+          "mn28:10.3": {
+            "scid": "mn28:10.3",
+            "pli": "‘alābhā vata me, na vata me lābhā; dulladdhaṁ vata me, na vata me suladdhaṁ, ",
+            "de": "‚<span class=\"ebt-matched\">Es ist mein Pech, mein Missgeschick</span>, ",
+            "en": "‘It’s my loss, my misfortune, ",
+            "matched": true
+          },
+          "mn28:25.3": {
+            "scid": "mn28:25.3",
+            "pli": "‘alābhā vata me, na vata me lābhā; dulladdhaṁ vata me, na vata me suladdhaṁ. ",
+            "de": "‚<span class=\"ebt-matched\">Es ist mein Pech, mein Missgeschick</span>, ",
+            "en": "‘It’s my loss, my misfortune, ",
+            "matched": true
+          }
+        },
+        "score": 2.012,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 28\nDas längere Gleichnis von der Elefanten-Fußspur",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 166,
+          "de": 159,
+          "en": 165
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn8/sn8.3_root-pli-ms.json",
