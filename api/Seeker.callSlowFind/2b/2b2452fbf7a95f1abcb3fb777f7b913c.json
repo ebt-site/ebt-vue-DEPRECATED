@@ -40,18 +40,22 @@
     "pattern": "maus",
     "method": "phrase",
     "resultPattern": "\\bmaus",
-    "segsMatched": 6,
+    "segsMatched": 7,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn20/sn20.10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn20/sn20.10_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn20/sn20.10_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.107_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.107_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an4/an4.107_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an4/an4.107_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag3.4_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag3.4_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag3.4_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "sn20.10/de/sabbamitta",
-      "an4.107/de/sabbamitta"
+      "an4.107/de/sabbamitta",
+      "thag3.4/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -144,6 +148,38 @@
           "pli": 46,
           "de": 45,
           "en": 45
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag3.4_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag3.4_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag3.4_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag3.4",
+        "lang": "de",
+        "segMap": {
+          "thag3.4:2.4": {
+            "scid": "thag3.4:2.4",
+            "pli": "sevetha sayanāsanaṁ. ",
+            "de": "wie eine Schlange, die im <span class=\"ebt-matched\">Maus</span>eloch lebt. ",
+            "en": "like a snake making use of a mouse’s hole. ",
+            "matched": true
+          }
+        },
+        "score": 1.059,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 3.4\nDas Dreierbuch\n1. Das erste Kapitel\nDhaniya",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 17,
+          "de": 16,
+          "en": 16
         }
       }
     ],

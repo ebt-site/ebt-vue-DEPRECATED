@@ -40,7 +40,7 @@
     "pattern": "hat.* aufgehört",
     "method": "phrase",
     "resultPattern": "\\bhat.* aufgehört",
-    "segsMatched": 45,
+    "segsMatched": 46,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn36/sn36.11_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn36/sn36.11_translation-de-sabbamitta.json",
@@ -66,6 +66,9 @@
       "root/pli/ms/sutta/sn/sn41/sn41.6_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn41/sn41.6_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn41/sn41.6_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn43_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn43_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn43_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/ud/vagga8/ud8.9_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga8/ud8.9_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/ud/vagga8/ud8.9_translation-en-sujato.json",
@@ -81,6 +84,7 @@
       "sn36.15/de/sabbamitta",
       "sn22.85/de/sabbamitta",
       "sn41.6/de/sabbamitta",
+      "mn43/de/sabbamitta",
       "ud8.9/de/sabbamitta",
       "an9.42/de/sabbamitta"
     ],
@@ -626,6 +630,38 @@
           "pli": 63,
           "de": 62,
           "en": 62
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn43_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn43_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn43_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn43",
+        "lang": "de",
+        "segMap": {
+          "mn43:25.3": {
+            "scid": "mn43:25.3",
+            "pli": "Yo cāyaṁ bhikkhu saññāvedayitanirodhaṁ samāpanno tassapi kāyasaṅkhārā niruddhā paṭippassaddhā, vacīsaṅkhārā niruddhā paṭippassaddhā, cittasaṅkhārā niruddhā paṭippassaddhā, āyu na parikkhīṇo, usmā avūpasantā, indriyāni vippasannāni. ",
+            "de": "Wenn ein Mönch das Aufhören von Wahrnehmung und Gefühl erreicht <span class=\"ebt-matched\">hat, haben seine körperlichen, sprachlichen und geistigen Vorgänge aufgehört</span> und sind gestillt. Aber seine Lebensenergie ist nicht aufgebraucht, seine Wärme ist nicht abgekühlt und seine Sinne sind sehr klar. ",
+            "en": "When a mendicant has attained the cessation of perception and feeling, their physical, verbal, and mental processes have ceased and stilled. But their vitality is not spent; their warmth is not dissipated; and their faculties are very clear. ",
+            "matched": true
+          }
+        },
+        "score": 1.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 43\nDie große Einteilung",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 183,
+          "de": 174,
+          "en": 182
         }
       }
     ],

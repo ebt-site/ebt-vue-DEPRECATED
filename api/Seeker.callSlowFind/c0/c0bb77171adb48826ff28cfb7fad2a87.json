@@ -40,7 +40,7 @@
     "pattern": "beim einatmen seligkeit",
     "method": "phrase",
     "resultPattern": "\\bbeim einatmen seligkeit",
-    "segsMatched": 6,
+    "segsMatched": 7,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn118_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn118_translation-de-sabbamitta.json",
@@ -54,6 +54,9 @@
       "root/pli/ms/sutta/sn/sn54/sn54.10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn54/sn54.10_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn54/sn54.10_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn62_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn62_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn62_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.60_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.60_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an10/an10.60_translation-en-sujato.json"
@@ -63,6 +66,7 @@
       "sn54.1/de/sabbamitta",
       "sn54.13/de/sabbamitta",
       "sn54.10/de/sabbamitta",
+      "mn62/de/sabbamitta",
       "an10.60/de/sabbamitta"
     ],
     "mlDocs": [
@@ -231,6 +235,38 @@
           "pli": 84,
           "de": 76,
           "en": 83
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn62_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn62_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn62_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn62",
+        "lang": "de",
+        "segMap": {
+          "mn62:27.2": {
+            "scid": "mn62:27.2",
+            "pli": "‘sukhappaṭisaṁvedī assasissāmī’ti sikkhati; ‘sukhappaṭisaṁvedī passasissāmī’ti sikkhati; ",
+            "de": "Er übt: ‚Ich werde <span class=\"ebt-matched\">beim Einatmen Seligkeit</span> erfahren.‘ Er übt: ‚Ich werde beim Ausatmen Seligkeit erfahren.‘ ",
+            "en": "They practice like this: ‘I’ll breathe in experiencing bliss.’ They practice like this: ‘I’ll breathe out experiencing bliss.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 62\nDer längere Rat für Rāhula",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 122,
+          "de": 121,
+          "en": 121
         }
       }
     ],

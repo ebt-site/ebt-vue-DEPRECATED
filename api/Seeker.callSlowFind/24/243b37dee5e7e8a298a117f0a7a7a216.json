@@ -40,7 +40,7 @@
     "pattern": "vollständig verstanden werden",
     "method": "phrase",
     "resultPattern": "\\bvollständig verstanden werden",
-    "segsMatched": 41,
+    "segsMatched": 42,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
@@ -75,7 +75,10 @@
       "translation/en/sujato/sutta/sn/sn56/sn56.12_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn56/sn56.11_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn56/sn56.11_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn56/sn56.11_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn56/sn56.11_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn43_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn43_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn43_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "dn34/de/sabbamitta",
@@ -88,7 +91,8 @@
       "an4.254/de/sabbamitta",
       "sn35.43-51/de/sabbamitta",
       "sn56.12/de/sabbamitta",
-      "sn56.11/de/sabbamitta"
+      "sn56.11/de/sabbamitta",
+      "mn43/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -652,6 +656,38 @@
           "pli": 60,
           "de": 59,
           "en": 59
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn43_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn43_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn43_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn43",
+        "lang": "de",
+        "segMap": {
+          "mn43:6.4": {
+            "scid": "mn43:6.4",
+            "pli": "imesaṁ dhammānaṁ saṁsaṭṭhānaṁ no visaṁsaṭṭhānaṁ paññā bhāvetabbā, viññāṇaṁ pariññeyyaṁ. ",
+            "de": "„Der Unterschied zwischen diesen Dingen besteht darin, dass Weisheit entwickelt werden muss, während Bewusstsein <span class=\"ebt-matched\">vollständig verstanden werden</span> muss.“ ",
+            "en": "“The difference between these things is that wisdom should be developed, while consciousness should be completely understood.” ",
+            "matched": true
+          }
+        },
+        "score": 1.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 43\nDie große Einteilung",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 183,
+          "de": 174,
+          "en": 182
         }
       }
     ],

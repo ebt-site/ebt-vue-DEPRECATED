@@ -40,7 +40,7 @@
     "pattern": "mithilfe eines gleichnisses",
     "method": "phrase",
     "resultPattern": "\\bmithilfe eines gleichnisses",
-    "segsMatched": 13,
+    "segsMatched": 14,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn23_translation-de-sabbamitta.json",
@@ -52,6 +52,9 @@
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.67_translation-de-sabbamitta.json",
       "translation/en/davis/sutta/sn/sn12/sn12.67_translation-en-davis.json",
       "translation/en/sujato/sutta/sn/sn12/sn12.67_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn43_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn43_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn43_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.8_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.8_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an8/an8.8_translation-en-sujato.json",
@@ -63,6 +66,7 @@
       "dn23/de/sabbamitta",
       "sn41.1/de/sabbamitta",
       "sn12.67/de/sabbamitta",
+      "mn43/de/sabbamitta",
       "an8.8/de/sabbamitta",
       "an10.95/de/sabbamitta"
     ],
@@ -282,6 +286,38 @@
           "pli": 113,
           "de": 86,
           "en": 112
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn43_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn43_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn43_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn43",
+        "lang": "de",
+        "segMap": {
+          "mn43:22.17": {
+            "scid": "mn43:22.17",
+            "pli": "upamāyapidhekacce viññū purisā bhāsitassa atthaṁ ājānanti. ",
+            "de": "Denn <span class=\"ebt-matched\">mithilfe eines Gleichnisses</span> verstehen manche vernünftigen Menschen die Bedeutung des Gesagten. ",
+            "en": "For by means of a simile some sensible people understand the meaning of what is said. ",
+            "matched": true
+          }
+        },
+        "score": 1.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 43\nDie große Einteilung",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 183,
+          "de": 174,
+          "en": 182
         }
       }
     ],

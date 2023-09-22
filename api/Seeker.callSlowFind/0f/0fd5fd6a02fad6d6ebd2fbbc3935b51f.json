@@ -40,11 +40,14 @@
     "pattern": "einheit des geistes",
     "method": "phrase",
     "resultPattern": "\\beinheit des geistes",
-    "segsMatched": 14,
+    "segsMatched": 16,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn51/sn51.13_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn51/sn51.13_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn51/sn51.13_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn43_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn43_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn43_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an1/an1.333-377_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an1/an1.333-377_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an1/an1.333-377_translation-en-sujato.json",
@@ -76,6 +79,7 @@
     ],
     "suttaRefs": [
       "sn51.13/de/sabbamitta",
+      "mn43/de/sabbamitta",
       "an1.333-377/de/sabbamitta",
       "sn48.9/de/sabbamitta",
       "sn48.50/de/sabbamitta",
@@ -177,6 +181,45 @@
           "pli": 84,
           "de": 83,
           "en": 82
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn43_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn43_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn43_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn43",
+        "lang": "de",
+        "segMap": {
+          "mn43:19.3": {
+            "scid": "mn43:19.3",
+            "pli": "Idhāvuso, paṭhamaṁ jhānaṁ samāpannassa bhikkhuno vitakko ca vattati, vicāro ca pīti ca sukhañca cittekaggatā ca. ",
+            "de": "Wenn ein Mönch oder eine Nonne in die erste Vertiefung eingetreten ist, sind Ausrichten und Halten des Geistes, Ekstase, Seligkeit und <span class=\"ebt-matched\">Einheit des Geistes</span> gegenwärtig. ",
+            "en": "When a mendicant has entered the first absorption, placing the mind, keeping it connected, rapture, bliss, and unification of mind are present. ",
+            "matched": true
+          },
+          "mn43:20.4": {
+            "scid": "mn43:20.4",
+            "pli": "vitakko ca vattati, vicāro ca pīti ca sukhañca cittekaggatā ca. ",
+            "de": "Ausrichten und Halten des Geistes, Ekstase, Seligkeit und <span class=\"ebt-matched\">Einheit des Geistes</span> sind gegenwärtig. ",
+            "en": "Placing the mind, keeping it connected, rapture, bliss, and unification of mind are present. ",
+            "matched": true
+          }
+        },
+        "score": 2.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 43\nDie große Einteilung",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 183,
+          "de": 174,
+          "en": 182
         }
       },
       {

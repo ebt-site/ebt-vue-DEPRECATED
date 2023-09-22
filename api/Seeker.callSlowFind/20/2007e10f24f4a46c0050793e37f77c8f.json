@@ -40,7 +40,7 @@
     "pattern": "ohne wahrnehmung",
     "method": "phrase",
     "resultPattern": "\\bohne wahrnehmung",
-    "segsMatched": 44,
+    "segsMatched": 45,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn1_translation-de-sabbamitta.json",
@@ -74,6 +74,9 @@
       "root/pli/ms/sutta/mn/mn140_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn140_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn140_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag3.14_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag3.14_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag3.14_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/iti/vagga10/iti90_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/iti/vagga10/iti90_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/iti/vagga10/iti90_translation-en-sujato.json",
@@ -125,6 +128,7 @@
       "sn24.8/de/sabbamitta",
       "sn22.24/de/sabbamitta",
       "mn140/de/sabbamitta",
+      "thag3.14/de/sabbamitta",
       "iti90/de/sabbamitta",
       "dn34/de/sabbamitta",
       "dn33/de/sabbamitta",
@@ -510,6 +514,38 @@
           "pli": 15,
           "de": 14,
           "en": 14
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag3.14_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag3.14_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag3.14_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag3.14",
+        "lang": "de",
+        "segMap": {
+          "thag3.14:2.4": {
+            "scid": "thag3.14:2.4",
+            "pli": "Nevasaññisu asaññisuṭṭhitaṁ. ",
+            "de": "unter denen, die weder Wahrnehmung noch keine Wahrnehmung haben, und unter denen <span class=\"ebt-matched\">ohne Wahrnehmung</span>. ",
+            "en": "among the neither-percipient-nor-non-percipient, <j>and the non-percipient. ",
+            "matched": true
+          }
+        },
+        "score": 1.059,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 3.14\nDas Dreierbuch\n1. Das erste Kapitel\nGotama (2)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 17,
+          "de": 16,
+          "en": 16
         }
       },
       {

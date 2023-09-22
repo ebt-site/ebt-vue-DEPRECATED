@@ -40,14 +40,18 @@
     "pattern": "worte eines anderen",
     "method": "phrase",
     "resultPattern": "\\bworte eines anderen",
-    "segsMatched": 2,
+    "segsMatched": 3,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an2/an2.118-129_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an2/an2.118-129_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an2/an2.118-129_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an2/an2.118-129_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn43_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn43_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn43_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "an2.118-129/de/sabbamitta"
+      "an2.118-129/de/sabbamitta",
+      "mn43/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -87,6 +91,38 @@
           "pli": 63,
           "de": 62,
           "en": 62
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn43_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn43_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn43_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn43",
+        "lang": "de",
+        "segMap": {
+          "mn43:13.3": {
+            "scid": "mn43:13.3",
+            "pli": "parato ca ghoso, yoniso ca manasikāro. ",
+            "de": "die <span class=\"ebt-matched\">Worte eines anderen</span> und gründlicher Gebrauch des Geistes. ",
+            "en": "the words of another and rational application of mind. ",
+            "matched": true
+          }
+        },
+        "score": 1.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 43\nDie große Einteilung",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 183,
+          "de": 174,
+          "en": 182
         }
       }
     ],

@@ -40,7 +40,7 @@
     "pattern": "liebevolle.* herz",
     "method": "phrase",
     "resultPattern": "\\bliebevolle.* herz",
-    "segsMatched": 28,
+    "segsMatched": 29,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an5/an5.167_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.167_translation-de-sabbamitta.json",
@@ -63,6 +63,9 @@
       "root/pli/ms/sutta/sn/sn20/sn20.4_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn20/sn20.4_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn20/sn20.4_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag3.7_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag3.7_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag3.7_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag14.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag14.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag14.1_translation-en-sujato.json",
@@ -93,6 +96,7 @@
       "an7.62/de/sabbamitta",
       "an4.67/de/sabbamitta",
       "sn20.4/de/sabbamitta",
+      "thag3.7/de/sabbamitta",
       "thag14.1/de/sabbamitta",
       "iti60/de/sabbamitta",
       "iti22/de/sabbamitta",
@@ -454,6 +458,38 @@
           "pli": 9,
           "de": 8,
           "en": 8
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag3.7_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag3.7_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag3.7_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag3.7",
+        "lang": "de",
+        "segMap": {
+          "thag3.7:2.1": {
+            "scid": "thag3.7:2.1",
+            "pli": "Yo ca mettena cittena, ",
+            "de": "Doch der mit <span class=\"ebt-matched\">liebevollem Herz</span>en, ",
+            "en": "But someone with a mind of love, ",
+            "matched": true
+          }
+        },
+        "score": 1.059,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 3.7\nDas Dreierbuch\n1. Das erste Kapitel\nVāraṇa",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 17,
+          "de": 16,
+          "en": 16
         }
       },
       {

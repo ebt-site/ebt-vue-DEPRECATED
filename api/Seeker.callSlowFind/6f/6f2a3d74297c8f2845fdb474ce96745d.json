@@ -40,7 +40,7 @@
     "pattern": "wieder und wieder",
     "method": "phrase",
     "resultPattern": "\\bwieder und wieder",
-    "segsMatched": 48,
+    "segsMatched": 50,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn7/sn7.12_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn7/sn7.12_translation-de-sabbamitta.json",
@@ -78,6 +78,12 @@
       "translation/de/sabbamitta/sutta/kn/thig/thig9.1_translation-de-sabbamitta.json",
       "translation/en/soma/sutta/kn/thig/thig9.1_translation-en-soma.json",
       "translation/en/sujato/sutta/kn/thig/thig9.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag3.14_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag3.14_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag3.14_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag3.13_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag3.13_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag3.13_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag2.3_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag2.3_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag2.3_translation-en-sujato.json",
@@ -124,6 +130,8 @@
       "sn48.50/de/sabbamitta",
       "sn36.2/de/sabbamitta",
       "thig9.1/de/sabbamitta",
+      "thag3.14/de/sabbamitta",
+      "thag3.13/de/sabbamitta",
       "thag2.3/de/sabbamitta",
       "thag2.1/de/sabbamitta",
       "thag2.16/de/sabbamitta",
@@ -703,6 +711,70 @@
           "pli": 16,
           "de": 15,
           "en": 15
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag3.13_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag3.13_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag3.13_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag3.13",
+        "lang": "de",
+        "segMap": {
+          "thag3.13:1.4": {
+            "scid": "thag3.13:1.4",
+            "pli": "dukkhā jāti punappunaṁ. ",
+            "de": "Schmerzhaft ist Geburt, <span class=\"ebt-matched\">wieder und wieder</span>. ",
+            "en": "Painful is birth again and again. ",
+            "matched": true
+          }
+        },
+        "score": 1.059,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 3.13\nDas Dreierbuch\n1. Das erste Kapitel\nAbhibhūta",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 17,
+          "de": 16,
+          "en": 16
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag3.14_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag3.14_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag3.14_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag3.14",
+        "lang": "de",
+        "segMap": {
+          "thag3.14:1.2": {
+            "scid": "thag3.14:1.2",
+            "pli": "Petalokamagamaṁ punappunaṁ; ",
+            "de": "und ins Gespensterreich, <span class=\"ebt-matched\">wieder und wieder</span>. ",
+            "en": "and to the ghost realm time and again. ",
+            "matched": true
+          }
+        },
+        "score": 1.059,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 3.14\nDas Dreierbuch\n1. Das erste Kapitel\nGotama (2)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 17,
+          "de": 16,
+          "en": 16
         }
       },
       {
