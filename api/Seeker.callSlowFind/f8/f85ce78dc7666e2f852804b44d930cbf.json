@@ -40,17 +40,21 @@
     "pattern": "mit den spitzen ohren",
     "method": "phrase",
     "resultPattern": "\\bmit den spitzen ohren",
-    "segsMatched": 2,
+    "segsMatched": 3,
     "bilaraPaths": [
       "root/pli/ms/sutta/kn/ud/vagga5/ud5.6_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga5/ud5.6_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/ud/vagga5/ud5.6_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag5.11_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag5.11_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag5.11_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an1/an1.198-208_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an1/an1.198-208_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an1/an1.198-208_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "ud5.6/de/sabbamitta",
+      "thag5.11/de/sabbamitta",
       "an1.198-208/de/sabbamitta"
     ],
     "mlDocs": [
@@ -84,6 +88,38 @@
           "pli": 14,
           "de": 13,
           "en": 13
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag5.11_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag5.11_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag5.11_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag5.11",
+        "lang": "de",
+        "segMap": {
+          "thag5.11:0.4": {
+            "scid": "thag5.11:0.4",
+            "pli": "Soṇakuṭikaṇṇattheragāthā ",
+            "de": "Soṇa <span class=\"ebt-matched\">mit den spitzen Ohren</span> ",
+            "en": "Soṇa of the Sharp Ears ",
+            "matched": true
+          }
+        },
+        "score": 1.04,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 5.11\nDas Fünferbuch\n1. Das erste Kapitel\nSoṇa mit den spitzen Ohren",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 25,
+          "de": 24,
+          "en": 24
         }
       },
       {

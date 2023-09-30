@@ -40,21 +40,57 @@
     "pattern": "wie ein affe",
     "method": "phrase",
     "resultPattern": "\\bwie ein affe",
-    "segsMatched": 2,
+    "segsMatched": 3,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn12/sn12.61_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.61_translation-de-sabbamitta.json",
       "translation/en/davis/sutta/sn/sn12/sn12.61_translation-en-davis.json",
       "translation/en/sujato/sutta/sn/sn12/sn12.61_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag6.5_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag6.5_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag6.5_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag18.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag18.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag18.1_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "sn12.61/de/sabbamitta",
+      "thag6.5/de/sabbamitta",
       "thag18.1/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag6.5_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag6.5_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag6.5_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag6.5",
+        "lang": "de",
+        "segMap": {
+          "thag6.5:1.4": {
+            "scid": "thag6.5:1.4",
+            "pli": "Phalamicchaṁva vanasmi vānaro. ",
+            "de": "<span class=\"ebt-matched\">wie ein Affe</span>, der im Wald eine Frucht will. ",
+            "en": "greedy for fruit in a forest grove. ",
+            "matched": true
+          }
+        },
+        "score": 1.032,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 6.5\nDas Sechserbuch\n1. Das erste Kapitel\nMāluṅkyaputta (1)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 31,
+          "de": 30,
+          "en": 30
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn12/sn12.61_root-pli-ms.json",

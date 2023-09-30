@@ -40,7 +40,7 @@
     "pattern": "wieder und wieder",
     "method": "phrase",
     "resultPattern": "\\bwieder und wieder",
-    "segsMatched": 50,
+    "segsMatched": 52,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn7/sn7.12_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn7/sn7.12_translation-de-sabbamitta.json",
@@ -78,6 +78,12 @@
       "translation/de/sabbamitta/sutta/kn/thig/thig9.1_translation-de-sabbamitta.json",
       "translation/en/soma/sutta/kn/thig/thig9.1_translation-en-soma.json",
       "translation/en/sujato/sutta/kn/thig/thig9.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag6.5_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag6.5_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag6.5_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag5.9_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag5.9_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag5.9_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag3.14_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag3.14_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag3.14_translation-en-sujato.json",
@@ -130,6 +136,8 @@
       "sn48.50/de/sabbamitta",
       "sn36.2/de/sabbamitta",
       "thig9.1/de/sabbamitta",
+      "thag6.5/de/sabbamitta",
+      "thag5.9/de/sabbamitta",
       "thag3.14/de/sabbamitta",
       "thag3.13/de/sabbamitta",
       "thag2.3/de/sabbamitta",
@@ -811,6 +819,38 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag5.9_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag5.9_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag5.9_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag5.9",
+        "lang": "de",
+        "segMap": {
+          "thag5.9:2.3": {
+            "scid": "thag5.9:2.3",
+            "pli": "Na ca cittakali punappunaṁ, ",
+            "de": "Dämonischer Geist, du wirst nicht <span class=\"ebt-matched\">wieder und wieder</span> wandern ",
+            "en": "Demon-mind, you won’t wander again and again, ",
+            "matched": true
+          }
+        },
+        "score": 1.04,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 5.9\nDas Fünferbuch\n1. Das erste Kapitel\nVijitasena",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 25,
+          "de": 24,
+          "en": 24
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn4/sn4.13_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/sn/sn4/sn4.13_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/sn/sn4/sn4.13_translation-en-sujato.json"
@@ -871,6 +911,38 @@
           "pli": 27,
           "de": 27,
           "en": 27
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag6.5_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag6.5_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag6.5_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag6.5",
+        "lang": "de",
+        "segMap": {
+          "thag6.5:4.5": {
+            "scid": "thag6.5:4.5",
+            "pli": "Mā vo naḷaṁva sotova, ",
+            "de": "Lasst nicht zu, dass Māra euch <span class=\"ebt-matched\">wieder und wieder</span> zerbricht, ",
+            "en": "Don’t let Māra break you again and again, ",
+            "matched": true
+          }
+        },
+        "score": 1.032,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 6.5\nDas Sechserbuch\n1. Das erste Kapitel\nMāluṅkyaputta (1)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 31,
+          "de": 30,
+          "en": 30
         }
       },
       {
