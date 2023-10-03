@@ -39,7 +39,7 @@
     "pattern": "accomplishment in",
     "method": "phrase",
     "resultPattern": "\\baccomplishment in",
-    "segsMatched": 186,
+    "segsMatched": 191,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an8/an8.55_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an8/an8.55_translation-en-sujato.json",
@@ -53,8 +53,12 @@
       "translation/en/sujato/sutta/an/an4/an4.61_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.118_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an3/an3.118_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn30_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn30_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.117_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an3/an3.117_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn29_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn29_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.119_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an3/an3.119_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn45/sn45.85-89_root-pli-ms.json",
@@ -67,10 +71,6 @@
       "translation/en/sujato/sutta/sn/sn45/sn45.64-68_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn45/sn45.57-61_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn45/sn45.57-61_translation-en-sujato.json",
-      "root/pli/ms/sutta/mn/mn30_root-pli-ms.json",
-      "translation/en/sujato/sutta/mn/mn30_translation-en-sujato.json",
-      "root/pli/ms/sutta/mn/mn29_root-pli-ms.json",
-      "translation/en/sujato/sutta/mn/mn29_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.66_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an5/an5.66_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.65_root-pli-ms.json",
@@ -127,15 +127,15 @@
       "dn8/en/sujato",
       "an4.61/en/sujato",
       "an3.118/en/sujato",
+      "mn30/en/sujato",
       "an3.117/en/sujato",
+      "mn29/en/sujato",
       "an3.119/en/sujato",
       "sn45.85-89/en/sujato",
       "sn45.78-82/en/sujato",
       "sn45.71-75/en/sujato",
       "sn45.64-68/en/sujato",
       "sn45.57-61/en/sujato",
-      "mn30/en/sujato",
-      "mn29/en/sujato",
       "an5.66/en/sujato",
       "an5.65/en/sujato",
       "sn45.90/en/sujato",
@@ -889,6 +889,77 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn30_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn30_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn30",
+        "lang": "en",
+        "segMap": {
+          "mn30:9.8": {
+            "scid": "mn30:9.8",
+            "pli": "So sīlasampadaṁ ārādheti. ",
+            "en": "They achieve <span class=\"ebt-matched\">accomplishment in</span> ethics. ",
+            "matched": true
+          },
+          "mn30:9.12": {
+            "scid": "mn30:9.12",
+            "pli": "Sīlasampadāya ca ye aññe dhammā uttaritarā ca paṇītatarā ca tesaṁ dhammānaṁ sacchikiriyāya na chandaṁ janeti, na vāyamati, olīnavuttiko ca hoti sāthaliko. ",
+            "en": "They become lazy and slack regarding their <span class=\"ebt-matched\">accomplishment in</span> ethics, not generating enthusiasm or trying to realize those things that are better and finer. … ",
+            "matched": true
+          },
+          "mn30:10.8": {
+            "scid": "mn30:10.8",
+            "pli": "So sīlasampadaṁ ārādheti. ",
+            "en": "They achieve <span class=\"ebt-matched\">accomplishment in</span> ethics … ",
+            "matched": true
+          },
+          "mn30:10.16": {
+            "scid": "mn30:10.16",
+            "pli": "Samādhisampadāya ca ye aññe dhammā uttaritarā ca paṇītatarā ca, tesaṁ dhammānaṁ sacchikiriyāya na chandaṁ janeti, na vāyamati, olīnavuttiko ca hoti sāthaliko. ",
+            "en": "They become lazy and slack regarding their <span class=\"ebt-matched\">accomplishment in</span> immersion, not generating enthusiasm or trying to realize those things that are better and finer. … ",
+            "matched": true
+          },
+          "mn30:11.8": {
+            "scid": "mn30:11.8",
+            "pli": "So sīlasampadaṁ ārādheti. ",
+            "en": "They achieve <span class=\"ebt-matched\">accomplishment in</span> ethics … ",
+            "matched": true
+          },
+          "mn30:12.11": {
+            "scid": "mn30:12.11",
+            "pli": "Sīlasampadāya ca ye aññe dhammā uttaritarā ca paṇītatarā ca tesaṁ dhammānaṁ sacchikiriyāya chandaṁ janeti, vāyamati, anolīnavuttiko ca hoti asāthaliko. ",
+            "en": "They don’t become lazy and slack regarding their <span class=\"ebt-matched\">accomplishment in</span> ethics, but generate enthusiasm and try to realize those things that are better and finer. ",
+            "matched": true
+          },
+          "mn30:12.15": {
+            "scid": "mn30:12.15",
+            "pli": "Samādhisampadāya ca ye aññe dhammā uttaritarā ca paṇītatarā ca tesaṁ dhammānaṁ sacchikiriyāya chandaṁ janeti, vāyamati, anolīnavuttiko ca hoti asāthaliko. ",
+            "en": "They don’t become lazy and slack regarding their <span class=\"ebt-matched\">accomplishment in</span> immersion, but generate enthusiasm and try to realize those things that are better and finer. ",
+            "matched": true
+          },
+          "mn30:23.1": {
+            "scid": "mn30:23.1",
+            "pli": "Iti kho, brāhmaṇa, nayidaṁ brahmacariyaṁ lābhasakkārasilokānisaṁsaṁ, na sīlasampadānisaṁsaṁ, na samādhisampadānisaṁsaṁ, na ñāṇadassanānisaṁsaṁ. ",
+            "en": "And so, brahmin, this spiritual life is not lived for the sake of possessions, honor, and popularity, or for <span class=\"ebt-matched\">accomplishment in</span> ethics, or for <span class=\"ebt-matched\">accomplishment in</span> immersion, or for knowledge and vision. ",
+            "matched": true
+          }
+        },
+        "score": 8.049,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Middle Discourses 30\nThe Shorter Simile of the Heartwood",
+        "segsMatched": 8,
+        "langSegs": {
+          "pli": 163,
+          "en": 161
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an3/an3.119_root-pli-ms.json",
           "translation/en/sujato/sutta/an/an3/an3.119_translation-en-sujato.json"
         ],
@@ -950,6 +1021,71 @@
         "langSegs": {
           "pli": 32,
           "en": 31
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn29_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn29_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn29",
+        "lang": "en",
+        "segMap": {
+          "mn29:3.8": {
+            "scid": "mn29:3.8",
+            "pli": "Appamatto samāno sīlasampadaṁ ārādheti. ",
+            "en": "Being diligent, they achieve <span class=\"ebt-matched\">accomplishment in</span> ethics. ",
+            "matched": true
+          },
+          "mn29:3.12": {
+            "scid": "mn29:3.12",
+            "pli": "So tāya sīlasampadāya majjati pamajjati pamādaṁ āpajjati, pamatto samāno dukkhaṁ viharati. ",
+            "en": "And so they become indulgent and fall into negligence regarding their <span class=\"ebt-matched\">accomplishment in</span> ethics. And being negligent they live in suffering. ",
+            "matched": true
+          },
+          "mn29:4.29": {
+            "scid": "mn29:4.29",
+            "pli": "So tāya samādhisampadāya majjati pamajjati pamādaṁ āpajjati, pamatto samāno dukkhaṁ viharati. ",
+            "en": "And so they become indulgent and fall into negligence regarding that <span class=\"ebt-matched\">accomplishment in</span> immersion. And being negligent they live in suffering. ",
+            "matched": true
+          },
+          "mn29:6.7": {
+            "scid": "mn29:6.7",
+            "pli": "So tena lābhasakkārasilokena na majjati nappamajjati na pamādaṁ āpajjati, appamatto samāno sīlasampadaṁ ārādheti. ",
+            "en": "Nor do they become indulgent and fall into negligence on account of those possessions, honor, and popularity. Being diligent, they achieve <span class=\"ebt-matched\">accomplishment in</span> ethics. ",
+            "matched": true
+          },
+          "mn29:6.10": {
+            "scid": "mn29:6.10",
+            "pli": "So tāya sīlasampadāya na majjati nappamajjati na pamādaṁ āpajjati, appamatto samāno samādhisampadaṁ ārādheti. ",
+            "en": "Nor do they become indulgent and fall into negligence regarding that <span class=\"ebt-matched\">accomplishment in</span> ethics. Being diligent, they achieve immersion. ",
+            "matched": true
+          },
+          "mn29:6.13": {
+            "scid": "mn29:6.13",
+            "pli": "So tāya samādhisampadāya na majjati nappamajjati na pamādaṁ āpajjati, appamatto samāno ñāṇadassanaṁ ārādheti. ",
+            "en": "Nor do they become indulgent and fall into negligence regarding that <span class=\"ebt-matched\">accomplishment in</span> immersion. Being diligent, they achieve knowledge and vision. ",
+            "matched": true
+          },
+          "mn29:7.1": {
+            "scid": "mn29:7.1",
+            "pli": "Iti kho, bhikkhave, nayidaṁ brahmacariyaṁ lābhasakkārasilokānisaṁsaṁ, na sīlasampadānisaṁsaṁ, na samādhisampadānisaṁsaṁ, na ñāṇadassanānisaṁsaṁ. ",
+            "en": "And so, mendicants, this spiritual life is not lived for the sake of possessions, honor, and popularity, or for <span class=\"ebt-matched\">accomplishment in</span> ethics, or for <span class=\"ebt-matched\">accomplishment in</span> immersion, or for knowledge and vision. ",
+            "matched": true
+          }
+        },
+        "score": 7.039,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Middle Discourses 29\nThe Longer Simile of the Heartwood",
+        "segsMatched": 7,
+        "langSegs": {
+          "pli": 181,
+          "en": 180
         }
       },
       {
@@ -1351,112 +1487,6 @@
         "langSegs": {
           "pli": 12,
           "en": 11
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/mn/mn30_root-pli-ms.json",
-          "translation/en/sujato/sutta/mn/mn30_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "mn30",
-        "lang": "en",
-        "segMap": {
-          "mn30:9.12": {
-            "scid": "mn30:9.12",
-            "pli": "Sīlasampadāya ca ye aññe dhammā uttaritarā ca paṇītatarā ca tesaṁ dhammānaṁ sacchikiriyāya na chandaṁ janeti, na vāyamati, olīnavuttiko ca hoti sāthaliko. ",
-            "en": "They become lazy and slack regarding their <span class=\"ebt-matched\">accomplishment in</span> ethics, not generating enthusiasm or trying to realize those things that are better and finer. … ",
-            "matched": true
-          },
-          "mn30:10.16": {
-            "scid": "mn30:10.16",
-            "pli": "Samādhisampadāya ca ye aññe dhammā uttaritarā ca paṇītatarā ca, tesaṁ dhammānaṁ sacchikiriyāya na chandaṁ janeti, na vāyamati, olīnavuttiko ca hoti sāthaliko. ",
-            "en": "They become lazy and slack regarding their <span class=\"ebt-matched\">accomplishment in</span> immersion, not generating enthusiasm or trying to realize those things that are better and finer. … ",
-            "matched": true
-          },
-          "mn30:12.11": {
-            "scid": "mn30:12.11",
-            "pli": "Sīlasampadāya ca ye aññe dhammā uttaritarā ca paṇītatarā ca tesaṁ dhammānaṁ sacchikiriyāya chandaṁ janeti, vāyamati, anolīnavuttiko ca hoti asāthaliko. ",
-            "en": "They don’t become lazy and slack regarding their <span class=\"ebt-matched\">accomplishment in</span> ethics, but generate enthusiasm and try to realize those things that are better and finer. ",
-            "matched": true
-          },
-          "mn30:12.15": {
-            "scid": "mn30:12.15",
-            "pli": "Samādhisampadāya ca ye aññe dhammā uttaritarā ca paṇītatarā ca tesaṁ dhammānaṁ sacchikiriyāya chandaṁ janeti, vāyamati, anolīnavuttiko ca hoti asāthaliko. ",
-            "en": "They don’t become lazy and slack regarding their <span class=\"ebt-matched\">accomplishment in</span> immersion, but generate enthusiasm and try to realize those things that are better and finer. ",
-            "matched": true
-          },
-          "mn30:23.1": {
-            "scid": "mn30:23.1",
-            "pli": "Iti kho, brāhmaṇa, nayidaṁ brahmacariyaṁ lābhasakkārasilokānisaṁsaṁ, na sīlasampadānisaṁsaṁ, na samādhisampadānisaṁsaṁ, na ñāṇadassanānisaṁsaṁ. ",
-            "en": "And so, brahmin, this spiritual life is not lived for the sake of possessions, honor, and popularity, or for <span class=\"ebt-matched\">accomplishment in</span> ethics, or for <span class=\"ebt-matched\">accomplishment in</span> immersion, or for knowledge and vision. ",
-            "matched": true
-          }
-        },
-        "score": 5.031,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Middle Discourses 30\nThe Shorter Simile of the Heartwood",
-        "segsMatched": 5,
-        "langSegs": {
-          "pli": 163,
-          "en": 161
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/mn/mn29_root-pli-ms.json",
-          "translation/en/sujato/sutta/mn/mn29_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "mn29",
-        "lang": "en",
-        "segMap": {
-          "mn29:3.12": {
-            "scid": "mn29:3.12",
-            "pli": "So tāya sīlasampadāya majjati pamajjati pamādaṁ āpajjati, pamatto samāno dukkhaṁ viharati. ",
-            "en": "And so they become indulgent and fall into negligence regarding their <span class=\"ebt-matched\">accomplishment in</span> ethics. And being negligent they live in suffering. ",
-            "matched": true
-          },
-          "mn29:4.29": {
-            "scid": "mn29:4.29",
-            "pli": "So tāya samādhisampadāya majjati pamajjati pamādaṁ āpajjati, pamatto samāno dukkhaṁ viharati. ",
-            "en": "And so they become indulgent and fall into negligence regarding that <span class=\"ebt-matched\">accomplishment in</span> immersion. And being negligent they live in suffering. ",
-            "matched": true
-          },
-          "mn29:6.10": {
-            "scid": "mn29:6.10",
-            "pli": "So tāya sīlasampadāya na majjati nappamajjati na pamādaṁ āpajjati, appamatto samāno samādhisampadaṁ ārādheti. ",
-            "en": "Nor do they become indulgent and fall into negligence regarding that <span class=\"ebt-matched\">accomplishment in</span> ethics. Being diligent, they achieve immersion. ",
-            "matched": true
-          },
-          "mn29:6.13": {
-            "scid": "mn29:6.13",
-            "pli": "So tāya samādhisampadāya na majjati nappamajjati na pamādaṁ āpajjati, appamatto samāno ñāṇadassanaṁ ārādheti. ",
-            "en": "Nor do they become indulgent and fall into negligence regarding that <span class=\"ebt-matched\">accomplishment in</span> immersion. Being diligent, they achieve knowledge and vision. ",
-            "matched": true
-          },
-          "mn29:7.1": {
-            "scid": "mn29:7.1",
-            "pli": "Iti kho, bhikkhave, nayidaṁ brahmacariyaṁ lābhasakkārasilokānisaṁsaṁ, na sīlasampadānisaṁsaṁ, na samādhisampadānisaṁsaṁ, na ñāṇadassanānisaṁsaṁ. ",
-            "en": "And so, mendicants, this spiritual life is not lived for the sake of possessions, honor, and popularity, or for <span class=\"ebt-matched\">accomplishment in</span> ethics, or for <span class=\"ebt-matched\">accomplishment in</span> immersion, or for knowledge and vision. ",
-            "matched": true
-          }
-        },
-        "score": 5.028,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Middle Discourses 29\nThe Longer Simile of the Heartwood",
-        "segsMatched": 5,
-        "langSegs": {
-          "pli": 181,
-          "en": 180
         }
       },
       {
