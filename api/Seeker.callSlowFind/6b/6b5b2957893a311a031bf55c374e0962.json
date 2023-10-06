@@ -40,7 +40,7 @@
     "pattern": "gut befreit",
     "method": "phrase",
     "resultPattern": "\\bgut befreit",
-    "segsMatched": 82,
+    "segsMatched": 83,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
@@ -140,6 +140,9 @@
       "translation/de/sabbamitta/sutta/kn/thig/thig1.11_translation-de-sabbamitta.json",
       "translation/en/soma/sutta/kn/thig/thig1.11_translation-en-soma.json",
       "translation/en/sujato/sutta/kn/thig/thig1.11_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag7.5_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag7.5_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag7.5_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/iti/vagga11/iti109_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/iti/vagga11/iti109_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/iti/vagga11/iti109_translation-en-sujato.json",
@@ -184,6 +187,7 @@
       "sn1.38/de/sabbamitta",
       "mn116/de/sabbamitta",
       "thig1.11/de/sabbamitta",
+      "thag7.5/de/sabbamitta",
       "iti109/de/sabbamitta",
       "dhp1-20/de/sabbamitta",
       "an7.56/de/sabbamitta",
@@ -1404,6 +1408,38 @@
           "pli": 30,
           "de": 29,
           "en": 29
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag7.5_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag7.5_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag7.5_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag7.5",
+        "lang": "de",
+        "segMap": {
+          "thag7.5:7.6": {
+            "scid": "thag7.5:7.6",
+            "pli": "suvimuttomhi sabbadhī”ti. ",
+            "de": "ich bin in jeder Hinsicht <span class=\"ebt-matched\">gut befreit</span>. ",
+            "en": "I’m everywhere well-freed. ",
+            "matched": true
+          }
+        },
+        "score": 1.023,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 7.5\nDas Siebenerbuch\n1. Das erste Kapitel\nSarabhaṅga",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 43,
+          "de": 34,
+          "en": 34
         }
       },
       {

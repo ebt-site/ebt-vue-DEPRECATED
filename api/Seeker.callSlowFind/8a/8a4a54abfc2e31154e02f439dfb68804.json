@@ -40,7 +40,7 @@
     "pattern": "sack voll knochen",
     "method": "phrase",
     "resultPattern": "\\bsack voll knochen",
-    "segsMatched": 14,
+    "segsMatched": 15,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn6/sn6.15_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn6/sn6.15_translation-de-sabbamitta.json",
@@ -75,6 +75,9 @@
       "root/pli/ms/sutta/kn/thag/thag6.4_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag6.4_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag6.4_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag6.11_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag6.11_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag6.11_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag5.8_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag5.8_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag5.8_translation-en-sujato.json",
@@ -101,6 +104,7 @@
       "thig2.1/de/sabbamitta",
       "thig13.1/de/sabbamitta",
       "thag6.4/de/sabbamitta",
+      "thag6.11/de/sabbamitta",
       "thag5.8/de/sabbamitta",
       "thag5.5/de/sabbamitta",
       "thag2.2/de/sabbamitta",
@@ -426,6 +430,38 @@
         "maxWord": 30,
         "minWord": 5,
         "title": "Strophen der altehrwürdigen Mönche 6.4\nDas Sechserbuch\n1. Das erste Kapitel\nKulla",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 29,
+          "de": 28,
+          "en": 28
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag6.11_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag6.11_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag6.11_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag6.11",
+        "lang": "de",
+        "segMap": {
+          "thag6.11:2.1": {
+            "scid": "thag6.11:2.1",
+            "pli": "“Pītisukhena vipulena, ",
+            "de": "„Indem ich diesen <span class=\"ebt-matched\">Sack voll Knochen</span> ",
+            "en": "“Pervading this bag of bones ",
+            "matched": true
+          }
+        },
+        "score": 1.034,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 6.11\nDas Sechserbuch\n1. Das erste Kapitel\nNhātakamuni",
         "segsMatched": 1,
         "langSegs": {
           "pli": 29,

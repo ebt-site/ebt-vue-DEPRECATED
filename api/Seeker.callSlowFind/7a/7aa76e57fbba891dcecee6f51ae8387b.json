@@ -40,7 +40,7 @@
     "pattern": "diese.* vier edlen wahrheiten",
     "method": "phrase",
     "resultPattern": "\\bdiese.* vier edlen wahrheiten",
-    "segsMatched": 11,
+    "segsMatched": 12,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn56/sn56.11_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn56/sn56.11_translation-de-sabbamitta.json",
@@ -71,7 +71,10 @@
       "translation/en/sujato/sutta/sn/sn56/sn56.24_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn56/sn56.23_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn56/sn56.23_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn56/sn56.23_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn56/sn56.23_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag7.5_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag7.5_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag7.5_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "sn56.11/de/sabbamitta",
@@ -83,7 +86,8 @@
       "sn56.27/de/sabbamitta",
       "sn56.26/de/sabbamitta",
       "sn56.24/de/sabbamitta",
-      "sn56.23/de/sabbamitta"
+      "sn56.23/de/sabbamitta",
+      "thag7.5/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -411,6 +415,38 @@
           "pli": 14,
           "de": 13,
           "en": 13
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag7.5_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag7.5_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag7.5_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag7.5",
+        "lang": "de",
+        "segMap": {
+          "thag7.5:6.4": {
+            "scid": "thag7.5:6.4",
+            "pli": "nirodho dukkhasaṅkhayo. ",
+            "de": "In <span class=\"ebt-matched\">diesen vier edlen Wahrheiten</span> ",
+            "en": "In these four noble truths, ",
+            "matched": true
+          }
+        },
+        "score": 1.023,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 7.5\nDas Siebenerbuch\n1. Das erste Kapitel\nSarabhaṅga",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 43,
+          "de": 34,
+          "en": 34
         }
       }
     ],

@@ -40,15 +40,19 @@
     "pattern": "das war meine ordination",
     "method": "phrase",
     "resultPattern": "\\bdas war meine ordination",
-    "segsMatched": 1,
+    "segsMatched": 2,
     "bilaraPaths": [
       "root/pli/ms/sutta/kn/thig/thig5.9_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thig/thig5.9_translation-de-sabbamitta.json",
       "translation/en/soma/sutta/kn/thig/thig5.9_translation-en-soma.json",
-      "translation/en/sujato/sutta/kn/thig/thig5.9_translation-en-sujato.json"
+      "translation/en/sujato/sutta/kn/thig/thig5.9_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag7.3_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag7.3_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag7.3_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "thig5.9/de/sabbamitta"
+      "thig5.9/de/sabbamitta",
+      "thag7.3/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -82,6 +86,38 @@
           "pli": 24,
           "de": 23,
           "en": 23
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag7.3_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag7.3_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag7.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag7.3",
+        "lang": "de",
+        "segMap": {
+          "thag7.3:6.4": {
+            "scid": "thag7.3:6.4",
+            "pli": "sā me āsūpasampadā. ",
+            "de": "<span class=\"ebt-matched\">Das war meine Ordination</span>. ",
+            "en": "That was my ordination. ",
+            "matched": true
+          }
+        },
+        "score": 1.03,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 7.3\nDas Siebenerbuch\n1. Das erste Kapitel\nBhadda",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 33,
+          "de": 32,
+          "en": 32
         }
       }
     ],

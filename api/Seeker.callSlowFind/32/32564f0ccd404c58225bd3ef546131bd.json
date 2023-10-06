@@ -40,7 +40,7 @@
     "pattern": "pfeil des verlangens",
     "method": "phrase",
     "resultPattern": "\\bpfeil des verlangens",
-    "segsMatched": 6,
+    "segsMatched": 7,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn8/sn8.7_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn8/sn8.7_translation-de-sabbamitta.json",
@@ -49,6 +49,9 @@
       "translation/de/sabbamitta/sutta/sn/sn1/sn1.66_translation-de-sabbamitta.json",
       "translation/en/davis/sutta/sn/sn1/sn1.66_translation-en-davis.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.66_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag6.13_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag6.13_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag6.13_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag4.12_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag4.12_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag4.12_translation-en-sujato.json",
@@ -65,6 +68,7 @@
     "suttaRefs": [
       "sn8.7/de/sabbamitta",
       "sn1.66/de/sabbamitta",
+      "thag6.13/de/sabbamitta",
       "thag4.12/de/sabbamitta",
       "thag3.2/de/sabbamitta",
       "thag21.1/de/sabbamitta",
@@ -134,6 +138,38 @@
           "pli": 17,
           "de": 16,
           "en": 16
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag6.13_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag6.13_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag6.13_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag6.13",
+        "lang": "de",
+        "segMap": {
+          "thag6.13:2.3": {
+            "scid": "thag6.13:2.3",
+            "pli": "Taṇhāsallena otiṇṇo, ",
+            "de": "Der <span class=\"ebt-matched\">Pfeil des Verlangens</span> hat sie niedergestreckt, ",
+            "en": "The dart of craving has struck it down, ",
+            "matched": true
+          }
+        },
+        "score": 1.034,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 6.13\nDas Sechserbuch\n1. Das erste Kapitel\nSirimaṇḍa",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 29,
+          "de": 28,
+          "en": 28
         }
       },
       {
