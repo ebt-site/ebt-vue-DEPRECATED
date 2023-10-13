@@ -39,18 +39,18 @@
     "pattern": "galaxy",
     "method": "phrase",
     "resultPattern": "\\bgalaxy",
-    "segsMatched": 34,
+    "segsMatched": 33,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn120_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn120_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.80_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an3/an3.80_translation-en-sujato.json",
-      "root/pli/ms/sutta/mn/mn32_root-pli-ms.json",
-      "translation/en/sujato/sutta/mn/mn32_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.29_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an10/an10.29_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn6/sn6.14_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn6/sn6.14_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn32_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn32_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn123_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn123_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
@@ -75,9 +75,9 @@
     "suttaRefs": [
       "mn120/en/sujato",
       "an3.80/en/sujato",
-      "mn32/en/sujato",
       "an10.29/en/sujato",
       "sn6.14/en/sujato",
+      "mn32/en/sujato",
       "mn123/en/sujato",
       "dn14/en/sujato",
       "an3.130/en/sujato",
@@ -257,47 +257,6 @@
       },
       {
         "bilaraPaths": [
-          "root/pli/ms/sutta/mn/mn32_root-pli-ms.json",
-          "translation/en/sujato/sutta/mn/mn32_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "mn32",
-        "lang": "en",
-        "segMap": {
-          "mn32:6.6": {
-            "scid": "mn32:6.6",
-            "pli": "“Idhāvuso sāriputta, bhikkhu dibbena cakkhunā visuddhena atikkantamānusakena sahassaṁ lokānaṁ voloketi. ",
-            "en": "“Reverend Sāriputta, it’s a mendicant who surveys the entire <span class=\"ebt-matched\">galaxy</span> with clairvoyance that is purified and surpasses the human, ",
-            "matched": true
-          },
-          "mn32:13.5": {
-            "scid": "mn32:13.5",
-            "pli": "‘idhāvuso sāriputta, bhikkhu dibbena cakkhunā visuddhena atikkantamānusakena sahassaṁ lokānaṁ voloketi. ",
-            "en": "‘It’s a mendicant who surveys the entire <span class=\"ebt-matched\">galaxy</span> with clairvoyance that is purified and surpasses the human … ",
-            "matched": true
-          },
-          "mn32:13.9": {
-            "scid": "mn32:13.9",
-            "pli": "Anuruddho hi, sāriputta, dibbena cakkhunā visuddhena atikkantamānusakena sahassaṁ lokānaṁ voloketī”ti. ",
-            "en": "For Anuruddha surveys the entire <span class=\"ebt-matched\">galaxy</span> with clairvoyance that is purified and surpasses the human.” ",
-            "matched": true
-          }
-        },
-        "score": 3.018,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Middle Discourses 32\nThe Longer Discourse at Gosiṅga",
-        "segsMatched": 3,
-        "langSegs": {
-          "pli": 168,
-          "en": 167
-        }
-      },
-      {
-        "bilaraPaths": [
           "root/pli/ms/sutta/an/an3/an3.130_root-pli-ms.json",
           "translation/en/sujato/sutta/an/an3/an3.130_translation-en-sujato.json"
         ],
@@ -310,7 +269,7 @@
           "an3.130:1.3": {
             "scid": "an3.130:1.3",
             "pli": "“idhāhaṁ, āvuso sāriputta, dibbena cakkhunā visuddhena atikkantamānusakena sahassaṁ lokaṁ olokemi. ",
-            "en": "“Here’s the thing, Reverend Sāriputta. With clairvoyance that is purified and surpasses the human, I survey the entire <span class=\"ebt-matched\">galaxy</span>. ",
+            "en": "“Here’s the thing, Reverend Sāriputta. With clairvoyance that is purified and surpasses the human, I survey the thousandfold <span class=\"ebt-matched\">galaxy</span>. ",
             "matched": true
           },
           "an3.130:2.2": {
@@ -399,6 +358,41 @@
         "langSegs": {
           "pli": 107,
           "en": 106
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn32_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn32_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn32",
+        "lang": "en",
+        "segMap": {
+          "mn32:13.5": {
+            "scid": "mn32:13.5",
+            "pli": "‘idhāvuso sāriputta, bhikkhu dibbena cakkhunā visuddhena atikkantamānusakena sahassaṁ lokānaṁ voloketi. ",
+            "en": "‘It’s a mendicant who surveys the entire <span class=\"ebt-matched\">galaxy</span> with clairvoyance that is purified and surpasses the human … ",
+            "matched": true
+          },
+          "mn32:13.9": {
+            "scid": "mn32:13.9",
+            "pli": "Anuruddho hi, sāriputta, dibbena cakkhunā visuddhena atikkantamānusakena sahassaṁ lokānaṁ voloketī”ti. ",
+            "en": "For Anuruddha surveys the entire <span class=\"ebt-matched\">galaxy</span> with clairvoyance that is purified and surpasses the human.” ",
+            "matched": true
+          }
+        },
+        "score": 2.012,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Middle Discourses 32\nThe Longer Discourse at Gosiṅga",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 168,
+          "en": 167
         }
       },
       {
