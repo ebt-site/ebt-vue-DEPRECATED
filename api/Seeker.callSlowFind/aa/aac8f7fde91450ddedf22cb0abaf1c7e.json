@@ -40,7 +40,7 @@
     "pattern": "bauer",
     "method": "phrase",
     "resultPattern": "\\bbauer",
-    "segsMatched": 48,
+    "segsMatched": 49,
     "bilaraPaths": [
       "root/pli/ms/sutta/kn/snp/vagga1/snp1.4_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/snp/vagga1/snp1.4_translation-de-sabbamitta.json",
@@ -81,6 +81,9 @@
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.102_translation-de-sabbamitta.json",
       "translation/en/davis/sutta/sn/sn22/sn22.102_translation-en-davis.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.102_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag10.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag10.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag10.1_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/cp/cp2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/cp/cp2_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/cp/cp2_translation-en-sujato.json"
@@ -98,6 +101,7 @@
       "an3.93/de/sabbamitta",
       "sn7.12/de/sabbamitta",
       "sn22.102/de/sabbamitta",
+      "thag10.1/de/sabbamitta",
       "cp2/de/sabbamitta"
     ],
     "mlDocs": [
@@ -763,6 +767,38 @@
           "pli": 45,
           "de": 32,
           "en": 42
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag10.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag10.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag10.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag10.1",
+        "lang": "de",
+        "segMap": {
+          "thag10.1:5.3": {
+            "scid": "thag10.1:5.3",
+            "pli": "Punappunaṁ khettaṁ kasanti kassakā, ",
+            "de": "wieder und wieder pflügen <span class=\"ebt-matched\">Bauer</span>n das Feld; ",
+            "en": "again and again, farmers plow the field; ",
+            "matched": true
+          }
+        },
+        "score": 1.021,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 10.1\nDas Zehnerbuch\n1. Das erste Kapitel\nKāḷudāyī",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 47,
+          "de": 46,
+          "en": 46
         }
       }
     ],

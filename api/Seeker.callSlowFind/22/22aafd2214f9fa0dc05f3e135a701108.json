@@ -40,7 +40,7 @@
     "pattern": "durchbruch",
     "method": "phrase",
     "resultPattern": "\\bdurchbruch",
-    "segsMatched": 21,
+    "segsMatched": 22,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn46/sn46.28_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn46/sn46.28_translation-de-sabbamitta.json",
@@ -61,6 +61,9 @@
       "translation/de/sabbamitta/sutta/kn/thig/thig5.4_translation-de-sabbamitta.json",
       "translation/en/soma/sutta/kn/thig/thig5.4_translation-en-soma.json",
       "translation/en/sujato/sutta/kn/thig/thig5.4_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag10.3_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag10.3_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag10.3_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/iti/vagga5/iti41_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/iti/vagga5/iti41_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/iti/vagga5/iti41_translation-en-sujato.json",
@@ -90,6 +93,7 @@
       "an4.179/de/sabbamitta",
       "ud5.5/de/sabbamitta",
       "thig5.4/de/sabbamitta",
+      "thag10.3/de/sabbamitta",
       "iti41/de/sabbamitta",
       "iti93/de/sabbamitta",
       "dn34/de/sabbamitta",
@@ -378,6 +382,38 @@
           "pli": 41,
           "de": 40,
           "en": 40
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag10.3_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag10.3_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag10.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag10.3",
+        "lang": "de",
+        "segMap": {
+          "thag10.3:3.3": {
+            "scid": "thag10.3:3.3",
+            "pli": "Nibbiddhaṁ paggahītañca, ",
+            "de": "er hat den <span class=\"ebt-matched\">Durchbruch</span> erreicht und ist erhoben – ",
+            "en": "it has broken through and been uplifted—",
+            "matched": true
+          }
+        },
+        "score": 1.021,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 10.3\nDas Zehnerbuch\n1. Das erste Kapitel\nMahākappina",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 47,
+          "de": 46,
+          "en": 46
         }
       },
       {

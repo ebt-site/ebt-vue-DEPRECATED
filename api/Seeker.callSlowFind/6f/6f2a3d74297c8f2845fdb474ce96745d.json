@@ -40,11 +40,14 @@
     "pattern": "wieder und wieder",
     "method": "phrase",
     "resultPattern": "\\bwieder und wieder",
-    "segsMatched": 52,
+    "segsMatched": 60,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn7/sn7.12_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn7/sn7.12_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn7/sn7.12_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag10.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag10.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag10.1_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.23_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.23_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an10/an10.23_translation-en-sujato.json",
@@ -126,6 +129,7 @@
     ],
     "suttaRefs": [
       "sn7.12/de/sabbamitta",
+      "thag10.1/de/sabbamitta",
       "an10.23/de/sabbamitta",
       "thig16.1/de/sabbamitta",
       "sn35.134/de/sabbamitta",
@@ -196,7 +200,7 @@
           "sn7.12:2.4": {
             "scid": "sn7.12:2.4",
             "pli": "Punappunaṁ dhaññamupeti raṭṭhaṁ. ",
-            "de": "<span class=\"ebt-matched\">wieder und wieder</span> wird das Getreide für das Land erzeugt. ",
+            "de": "<span class=\"ebt-matched\">wieder und wieder</span> wird Getreide für das Land erzeugt. ",
             "en": "again and again, grain is produced for the nation. ",
             "matched": true
           },
@@ -288,6 +292,87 @@
           "pli": 28,
           "de": 28,
           "en": 28
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag10.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag10.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag10.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag10.1",
+        "lang": "de",
+        "segMap": {
+          "thag10.1:5.1": {
+            "scid": "thag10.1:5.1",
+            "pli": "Punappunaṁ ceva vapanti bījaṁ, ",
+            "de": "<span class=\"ebt-matched\">Wieder und wieder</span> säen sie die Saat; ",
+            "en": "Again and again, they sow the seed; ",
+            "matched": true
+          },
+          "thag10.1:5.2": {
+            "scid": "thag10.1:5.2",
+            "pli": "Punappunaṁ vassati devarājā; ",
+            "de": "<span class=\"ebt-matched\">wieder und wieder</span> schickt Gott der Herr Regen; ",
+            "en": "again and again, the lord god sends rain; ",
+            "matched": true
+          },
+          "thag10.1:5.3": {
+            "scid": "thag10.1:5.3",
+            "pli": "Punappunaṁ khettaṁ kasanti kassakā, ",
+            "de": "<span class=\"ebt-matched\">wieder und wieder</span> pflügen Bauern das Feld; ",
+            "en": "again and again, farmers plow the field; ",
+            "matched": true
+          },
+          "thag10.1:5.4": {
+            "scid": "thag10.1:5.4",
+            "pli": "Punappunaṁ dhaññamupeti raṭṭhaṁ. ",
+            "de": "<span class=\"ebt-matched\">wieder und wieder</span> wird Getreide für das Land erzeugt. ",
+            "en": "again and again, grain is produced for the nation. ",
+            "matched": true
+          },
+          "thag10.1:6.1": {
+            "scid": "thag10.1:6.1",
+            "pli": "Punappunaṁ yācanakā caranti, ",
+            "de": "<span class=\"ebt-matched\">Wieder und wieder</span> wandern die Bettler; ",
+            "en": "Again and again, the beggars wander, ",
+            "matched": true
+          },
+          "thag10.1:6.2": {
+            "scid": "thag10.1:6.2",
+            "pli": "Punappunaṁ dānapatī dadanti; ",
+            "de": "<span class=\"ebt-matched\">wieder und wieder</span> geben die Spender. ",
+            "en": "again and again, the donors give. ",
+            "matched": true
+          },
+          "thag10.1:6.3": {
+            "scid": "thag10.1:6.3",
+            "pli": "Punappunaṁ dānapatī daditvā, ",
+            "de": "Wenn die Spender <span class=\"ebt-matched\">wieder und wieder</span> gegeben haben, ",
+            "en": "Again and again, when the donors have given, ",
+            "matched": true
+          },
+          "thag10.1:6.4": {
+            "scid": "thag10.1:6.4",
+            "pli": "Punappunaṁ saggamupenti ṭhānaṁ. ",
+            "de": "nehmen sie <span class=\"ebt-matched\">wieder und wieder</span> ihren Platz im Himmel ein. ",
+            "en": "again and again, they take their place in heaven. ",
+            "matched": true
+          }
+        },
+        "score": 8.17,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 10.1\nDas Zehnerbuch\n1. Das erste Kapitel\nKāḷudāyī",
+        "segsMatched": 8,
+        "langSegs": {
+          "pli": 47,
+          "de": 46,
+          "en": 46
         }
       },
       {

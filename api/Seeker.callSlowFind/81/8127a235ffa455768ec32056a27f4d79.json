@@ -40,7 +40,7 @@
     "pattern": "wie der mond",
     "method": "phrase",
     "resultPattern": "\\bwie der mond",
-    "segsMatched": 34,
+    "segsMatched": 36,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn16/sn16.3_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn16/sn16.3_translation-de-sabbamitta.json",
@@ -91,6 +91,12 @@
       "root/pli/ms/sutta/kn/thag/thag21.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag21.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag21.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag10.3_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag10.3_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag10.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag10.2_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag10.2_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag10.2_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/iti/vagga8/iti74_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/iti/vagga8/iti74_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/iti/vagga8/iti74_translation-en-sujato.json",
@@ -120,6 +126,8 @@
       "thig1.2/de/sabbamitta",
       "thag5.10/de/sabbamitta",
       "thag21.1/de/sabbamitta",
+      "thag10.3/de/sabbamitta",
+      "thag10.2/de/sabbamitta",
       "iti74/de/sabbamitta",
       "dn20/de/sabbamitta",
       "an4.18/de/sabbamitta",
@@ -749,6 +757,38 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag10.2_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag10.2_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag10.2_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag10.2",
+        "lang": "de",
+        "segMap": {
+          "thag10.2:10.2": {
+            "scid": "thag10.2:10.2",
+            "pli": "cando pannaraso yathā; ",
+            "de": "<span class=\"ebt-matched\">wie der Mond</span> am fünfzehnten Tag. ",
+            "en": "like the moon on the fifteenth day. ",
+            "matched": true
+          }
+        },
+        "score": 1.022,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 10.2\nDas Zehnerbuch\n1. Das erste Kapitel\nEkavihāriya",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 45,
+          "de": 44,
+          "en": 44
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/kn/iti/vagga8/iti74_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/kn/iti/vagga8/iti74_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/kn/iti/vagga8/iti74_translation-en-sujato.json"
@@ -772,6 +812,38 @@
         "maxWord": 30,
         "minWord": 5,
         "title": "So wurde es gesagt 74\nDas Dreierbuch\n3. Das dritte Kapitel\nEin Kind",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 47,
+          "de": 46,
+          "en": 46
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag10.3_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag10.3_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag10.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag10.3",
+        "lang": "de",
+        "segMap": {
+          "thag10.3:2.6": {
+            "scid": "thag10.3:2.6",
+            "pli": "abbhā muttova candimā. ",
+            "de": "<span class=\"ebt-matched\">wie der Mond</span>, von Wolken befreit. ",
+            "en": "like the moon freed from a cloud. ",
+            "matched": true
+          }
+        },
+        "score": 1.021,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 10.3\nDas Zehnerbuch\n1. Das erste Kapitel\nMahākappina",
         "segsMatched": 1,
         "langSegs": {
           "pli": 47,

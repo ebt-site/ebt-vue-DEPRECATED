@@ -40,7 +40,7 @@
     "pattern": "pfeil des verlangens",
     "method": "phrase",
     "resultPattern": "\\bpfeil des verlangens",
-    "segsMatched": 7,
+    "segsMatched": 8,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn8/sn8.7_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn8/sn8.7_translation-de-sabbamitta.json",
@@ -49,6 +49,9 @@
       "translation/de/sabbamitta/sutta/sn/sn1/sn1.66_translation-de-sabbamitta.json",
       "translation/en/davis/sutta/sn/sn1/sn1.66_translation-en-davis.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.66_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag8.3_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag8.3_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag8.3_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag6.13_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag6.13_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag6.13_translation-en-sujato.json",
@@ -68,6 +71,7 @@
     "suttaRefs": [
       "sn8.7/de/sabbamitta",
       "sn1.66/de/sabbamitta",
+      "thag8.3/de/sabbamitta",
       "thag6.13/de/sabbamitta",
       "thag4.12/de/sabbamitta",
       "thag3.2/de/sabbamitta",
@@ -234,6 +238,38 @@
           "pli": 42,
           "de": 42,
           "en": 42
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag8.3_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag8.3_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag8.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag8.3",
+        "lang": "de",
+        "segMap": {
+          "thag8.3:5.4": {
+            "scid": "thag8.3:5.4",
+            "pli": "taṇhāsalle anūhate. ",
+            "de": "ehe der <span class=\"ebt-matched\">Pfeil des Verlangens</span> herausgezogen wäre. ",
+            "en": "until the dart of craving was plucked. ",
+            "matched": true
+          }
+        },
+        "score": 1.023,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 8.3\nDas Achterbuch\n1. Das erste Kapitel\nMahāpanthaka",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 43,
+          "de": 36,
+          "en": 36
         }
       },
       {
