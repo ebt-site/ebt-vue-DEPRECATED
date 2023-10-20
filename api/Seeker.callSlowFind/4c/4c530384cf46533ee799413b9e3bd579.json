@@ -38,51 +38,40 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "auf das auge geschlagen",
-    "method": "phrase",
-    "resultPattern": "\\bauf das auge geschlagen",
-    "segsMatched": 1,
+    "method": "keywords",
+    "resultPattern": "\\bauf|\\bdas|\\bauge|\\bgeschlagen",
+    "segsMatched": 0,
     "bilaraPaths": [
-      "root/pli/ms/sutta/sn/sn35/sn35.248_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/sn/sn35/sn35.248_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn35/sn35.248_translation-en-sujato.json"
+      "root/pli/ms/sutta/an/an9/an9.39_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an9/an9.39_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an9/an9.39_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn30_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn30_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn30_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn31_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn31_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn31_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/cp/cp13_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/cp/cp13_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/cp/cp13_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag21.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag21.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag21.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thig/thig11.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thig/thig11.1_translation-de-sabbamitta.json",
+      "translation/en/soma/sutta/kn/thig/thig11.1_translation-en-soma.json",
+      "translation/en/sujato/sutta/kn/thig/thig11.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thig/thig16.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thig/thig16.1_translation-de-sabbamitta.json",
+      "translation/en/soma/sutta/kn/thig/thig16.1_translation-en-soma.json",
+      "translation/en/sujato/sutta/kn/thig/thig16.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn4/sn4.5_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn4/sn4.5_translation-de-sabbamitta.json",
+      "translation/en/davis/sutta/sn/sn4/sn4.5_translation-en-davis.json",
+      "translation/en/sujato/sutta/sn/sn4/sn4.5_translation-en-sujato.json"
     ],
-    "suttaRefs": [
-      "sn35.248/de/sabbamitta"
-    ],
-    "mlDocs": [
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/sn/sn35/sn35.248_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/sn/sn35/sn35.248_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/sn/sn35/sn35.248_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "sn35.248",
-        "lang": "de",
-        "segMap": {
-          "sn35.248:1.8": {
-            "scid": "sn35.248:1.8",
-            "pli": "Evameva kho, bhikkhave, assutavā puthujjano cakkhusmiṁ haññati manāpāmanāpehi rūpehi …pe… ",
-            "de": "Ebenso wird da ein ungebildeter gewöhnlicher Mensch von angenehmen und von unangenehmen Bildern <span class=\"ebt-matched\">auf das Auge geschlagen</span>. ",
-            "en": "In the same way, an unlearned ordinary person is struck in the eye by both pleasant and unpleasant sights. ",
-            "matched": true
-          }
-        },
-        "score": 1.015,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Verbundene Lehrreden 35.248\n19. Das Kapitel über das Gleichnis von den Giftschlangen\nDas Gerstenbündel",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 65,
-          "de": 47,
-          "en": 63
-        }
-      }
-    ],
+    "suttaRefs": [],
+    "mlDocs": [],
     "refLang": "en",
     "refAuthor": "sujato",
     "docLang": "de",
