@@ -40,7 +40,7 @@
     "pattern": "weberin",
     "method": "phrase",
     "resultPattern": "\\bweberin",
-    "segsMatched": 7,
+    "segsMatched": 8,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an4/an4.199_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.199_translation-de-sabbamitta.json",
@@ -53,13 +53,17 @@
       "translation/en/sujato/sutta/sn/sn4/sn4.7_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag2.21_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag2.21_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/kn/thag/thag2.21_translation-en-sujato.json"
+      "translation/en/sujato/sutta/kn/thag/thag2.21_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag14.2_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag14.2_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag14.2_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an4.199/de/sabbamitta",
       "sn9.6/de/sabbamitta",
       "sn4.7/de/sabbamitta",
-      "thag2.21/de/sabbamitta"
+      "thag2.21/de/sabbamitta",
+      "thag14.2/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -209,6 +213,38 @@
           "pli": 29,
           "de": 29,
           "en": 29
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag14.2_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag14.2_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag14.2_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag14.2",
+        "lang": "de",
+        "segMap": {
+          "thag14.2:5.2": {
+            "scid": "thag14.2:5.2",
+            "pli": "majjhe sibbinimaccagū; ",
+            "de": "und in der Mitte die <span class=\"ebt-matched\">Weberin</span> überwunden haben – ",
+            "en": "and in the middle have overcome the weaver—",
+            "matched": true
+          }
+        },
+        "score": 1.015,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 14.2\nDas Vierzehnerbuch\n1. Das erste Kapitel\nGodatta",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 67,
+          "de": 60,
+          "en": 60
         }
       }
     ],

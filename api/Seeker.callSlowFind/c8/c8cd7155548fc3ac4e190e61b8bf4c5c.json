@@ -40,7 +40,7 @@
     "pattern": "herr de[rs]",
     "method": "phrase",
     "resultPattern": "\\bherr de[rs]",
-    "segsMatched": 21,
+    "segsMatched": 22,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn20_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn20_translation-de-sabbamitta.json",
@@ -69,6 +69,9 @@
       "translation/de/sabbamitta/sutta/sn/sn3/sn3.16_translation-de-sabbamitta.json",
       "translation/en/davis/sutta/sn/sn3/sn3.16_translation-en-davis.json",
       "translation/en/sujato/sutta/sn/sn3/sn3.16_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag16.3_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag16.3_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag16.3_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/cp/cp32_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/cp/cp32_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/cp/cp32_translation-en-sujato.json",
@@ -91,6 +94,7 @@
       "an10.115/de/sabbamitta",
       "sn3.1/de/sabbamitta",
       "sn3.16/de/sabbamitta",
+      "thag16.3/de/sabbamitta",
       "cp32/de/sabbamitta",
       "cp22/de/sabbamitta",
       "dn27/de/sabbamitta",
@@ -513,6 +517,38 @@
           "pli": 74,
           "de": 74,
           "en": 74
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag16.3_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag16.3_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag16.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag16.3",
+        "lang": "de",
+        "segMap": {
+          "thag16.3:12.1": {
+            "scid": "thag16.3:12.1",
+            "pli": "Dhammappati hi so seṭṭho, ",
+            "de": "Er wäre wahrhaftig der <span class=\"ebt-matched\">Herr des</span> Dhamma, ",
+            "en": "He really would be the Lord of the Dhamma, ",
+            "matched": true
+          }
+        },
+        "score": 1.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 16.3\nDas Zwanzigerbuch\n1. Das erste Kapitel\nTelakāni",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 93,
+          "de": 92,
+          "en": 92
         }
       },
       {

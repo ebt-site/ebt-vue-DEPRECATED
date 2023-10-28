@@ -40,7 +40,7 @@
     "pattern": "flut.* überquer",
     "method": "phrase",
     "resultPattern": "\\bflut.* überquer",
-    "segsMatched": 26,
+    "segsMatched": 27,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn1/sn1.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn1/sn1.1_translation-de-sabbamitta.json",
@@ -78,6 +78,9 @@
       "root/pli/ms/sutta/kn/thag/thag21.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag21.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag21.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag13.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag13.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag13.1_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag1.15_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag1.15_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag1.15_translation-en-sujato.json",
@@ -106,6 +109,7 @@
       "ud7.3/de/sabbamitta",
       "ud7.1/de/sabbamitta",
       "thag21.1/de/sabbamitta",
+      "thag13.1/de/sabbamitta",
       "thag1.15/de/sabbamitta",
       "snp2.5/de/sabbamitta",
       "iti107/de/sabbamitta",
@@ -250,14 +254,14 @@
           "sn1.5:2.4": {
             "scid": "sn1.5:2.4",
             "pli": "oghatiṇṇoti vuccatī”ti. ",
-            "de": "bevor man ihn einen nennt, der die <span class=\"ebt-matched\">Flut überquer</span>t hat?“ ",
+            "de": "heißt es, er hat die <span class=\"ebt-matched\">Flut überquer</span>t?“ ",
             "en": "are they said to have crossed the flood?” ",
             "matched": true
           },
           "sn1.5:3.4": {
             "scid": "sn1.5:3.4",
             "pli": "oghatiṇṇoti vuccatī”ti. ",
-            "de": "bevor man ihn einen nennt, der die <span class=\"ebt-matched\">Flut überquer</span>t hat.“ ",
+            "de": "heißt es, er hat die <span class=\"ebt-matched\">Flut überquer</span>t. ",
             "en": "they’re said to have crossed the flood.” ",
             "matched": true
           }
@@ -329,7 +333,7 @@
           "thag1.15:1.4": {
             "scid": "thag1.15:1.4",
             "pli": "oghatiṇṇoti vuccatī”ti. ",
-            "de": "bevor man ihn einen nennt, der die <span class=\"ebt-matched\">Flut überquer</span>t hat. ",
+            "de": "heißt es, er hat die <span class=\"ebt-matched\">Flut überquer</span>t. ",
             "en": "they’re said to have crossed the flood. ",
             "matched": true
           }
@@ -600,6 +604,38 @@
           "pli": 50,
           "de": 50,
           "en": 50
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag13.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag13.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag13.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag13.1",
+        "lang": "de",
+        "segMap": {
+          "thag13.1:2.4": {
+            "scid": "thag13.1:2.4",
+            "pli": "oghatiṇṇoti vuccati. ",
+            "de": "heißt es, er hat die <span class=\"ebt-matched\">Flut überquer</span>t. ",
+            "en": "they’re said to have crossed the flood. ",
+            "matched": true
+          }
+        },
+        "score": 1.015,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 13.1\nDas Dreizehnerbuch\n1. Das erste Kapitel\nSoṇakoḷivisa",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 67,
+          "de": 60,
+          "en": 60
         }
       },
       {

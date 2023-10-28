@@ -40,7 +40,7 @@
     "pattern": "regenwolke",
     "method": "phrase",
     "resultPattern": "\\bregenwolke",
-    "segsMatched": 16,
+    "segsMatched": 17,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn32/sn32.13-52_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn32/sn32.13-52_translation-de-sabbamitta.json",
@@ -60,6 +60,9 @@
       "root/pli/ms/sutta/kn/thag/thag21.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag21.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag21.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag16.3_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag16.3_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag16.3_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/iti/vagga8/iti75_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/iti/vagga8/iti75_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/iti/vagga8/iti75_translation-en-sujato.json",
@@ -83,6 +86,7 @@
       "sn3.24/de/sabbamitta",
       "sn32.1/de/sabbamitta",
       "thag21.1/de/sabbamitta",
+      "thag16.3/de/sabbamitta",
       "iti75/de/sabbamitta",
       "an8.38/de/sabbamitta",
       "an5.42/de/sabbamitta",
@@ -443,6 +447,38 @@
           "pli": 70,
           "de": 70,
           "en": 70
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag16.3_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag16.3_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag16.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag16.3",
+        "lang": "de",
+        "segMap": {
+          "thag16.3:14.2": {
+            "scid": "thag16.3:14.2",
+            "pli": "saṁyojanavalāhakaṁ; ",
+            "de": "eine <span class=\"ebt-matched\">Regenwolke</span> von Fesseln; ",
+            "en": "like a rain-cloud of fetters; ",
+            "matched": true
+          }
+        },
+        "score": 1.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 16.3\nDas Zwanzigerbuch\n1. Das erste Kapitel\nTelakāni",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 93,
+          "de": 92,
+          "en": 92
         }
       },
       {

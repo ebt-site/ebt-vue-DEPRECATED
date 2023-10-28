@@ -40,15 +40,19 @@
     "pattern": "leiden bringen",
     "method": "phrase",
     "resultPattern": "\\bleiden bringen",
-    "segsMatched": 1,
+    "segsMatched": 2,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn1/sn1.24_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn1/sn1.24_translation-de-sabbamitta.json",
       "translation/en/davis/sutta/sn/sn1/sn1.24_translation-en-davis.json",
-      "translation/en/sujato/sutta/sn/sn1/sn1.24_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn1/sn1.24_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag14.2_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag14.2_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag14.2_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "sn1.24/de/sabbamitta"
+      "sn1.24/de/sabbamitta",
+      "thag14.2/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -82,6 +86,38 @@
           "pli": 11,
           "de": 11,
           "en": 11
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag14.2_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag14.2_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag14.2_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag14.2",
+        "lang": "de",
+        "segMap": {
+          "thag14.2:4.2": {
+            "scid": "thag14.2:4.2",
+            "pli": "dukkhadhammena conatā; ",
+            "de": "von <span class=\"ebt-matched\">Leiden bringen</span>den Dingen niedergedrückt: ",
+            "en": "downcast by things that bring suffering: ",
+            "matched": true
+          }
+        },
+        "score": 1.015,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 14.2\nDas Vierzehnerbuch\n1. Das erste Kapitel\nGodatta",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 67,
+          "de": 60,
+          "en": 60
         }
       }
     ],
