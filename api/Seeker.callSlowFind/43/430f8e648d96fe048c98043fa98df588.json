@@ -40,7 +40,7 @@
     "pattern": "geistgeschaffenen körper",
     "method": "phrase",
     "resultPattern": "\\bgeistgeschaffenen körper",
-    "segsMatched": 9,
+    "segsMatched": 10,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn51/sn51.22_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn51/sn51.22_translation-de-sabbamitta.json",
@@ -51,6 +51,9 @@
       "root/pli/ms/sutta/dn/dn10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn10_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn10_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag16.9_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag16.9_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag16.9_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.30_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.30_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an8/an8.30_translation-en-sujato.json",
@@ -65,6 +68,7 @@
       "sn51.22/de/sabbamitta",
       "dn2/de/sabbamitta",
       "dn10/de/sabbamitta",
+      "thag16.9/de/sabbamitta",
       "an8.30/de/sabbamitta",
       "an5.166/de/sabbamitta",
       "an1.198-208/de/sabbamitta"
@@ -281,6 +285,38 @@
           "pli": 119,
           "de": 112,
           "en": 117
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag16.9_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag16.9_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag16.9_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag16.9",
+        "lang": "de",
+        "segMap": {
+          "thag16.9:10.3": {
+            "scid": "thag16.9:10.3",
+            "pli": "Manomayena kāyena, ",
+            "de": "und kam zu mir in einem <span class=\"ebt-matched\">geistgeschaffenen Körper</span> ",
+            "en": "came to me in a mind-made body, ",
+            "matched": true
+          }
+        },
+        "score": 1.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 16.9\nDas Zwanzigerbuch\n1. Das erste Kapitel\nAnuruddha",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 119,
+          "de": 118,
+          "en": 118
         }
       }
     ],

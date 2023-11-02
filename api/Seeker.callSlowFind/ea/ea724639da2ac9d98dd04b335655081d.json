@@ -40,7 +40,7 @@
     "pattern": "aufgegeben werden m[uü]ss",
     "method": "phrase",
     "resultPattern": "\\baufgegeben werden m[uü]ss",
-    "segsMatched": 56,
+    "segsMatched": 57,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn2_translation-de-sabbamitta.json",
@@ -57,6 +57,9 @@
       "root/pli/ms/sutta/an/an4/an4.254_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.254_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.254_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag16.6_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag16.6_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag16.6_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.188_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.188_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.188_translation-en-sujato.json"
@@ -67,6 +70,7 @@
       "an10.23/de/sabbamitta",
       "sn45.159/de/sabbamitta",
       "an4.254/de/sabbamitta",
+      "thag16.6/de/sabbamitta",
       "an4.188/de/sabbamitta"
     ],
     "mlDocs": [
@@ -610,6 +614,38 @@
           "pli": 29,
           "de": 28,
           "en": 28
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag16.6_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag16.6_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag16.6_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag16.6",
+        "lang": "de",
+        "segMap": {
+          "thag16.6:11.3": {
+            "scid": "thag16.6:11.3",
+            "pli": "Pahātabbaṁ pahīnaṁ me, ",
+            "de": "und aufgegeben, was <span class=\"ebt-matched\">aufgegeben werden muss</span>: ",
+            "en": "and given up what should be given up: ",
+            "matched": true
+          }
+        },
+        "score": 1.01,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 16.6\nDas Zwanzigerbuch\n1. Das erste Kapitel\nSela",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 105,
+          "de": 104,
+          "en": 104
         }
       }
     ],

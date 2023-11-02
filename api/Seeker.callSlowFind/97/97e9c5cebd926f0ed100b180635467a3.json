@@ -40,7 +40,7 @@
     "pattern": "weberin",
     "method": "phrase",
     "resultPattern": "\\bweberin",
-    "segsMatched": 8,
+    "segsMatched": 9,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an4/an4.199_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.199_translation-de-sabbamitta.json",
@@ -54,6 +54,9 @@
       "root/pli/ms/sutta/kn/thag/thag2.21_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag2.21_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag2.21_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag16.9_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag16.9_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag16.9_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag14.2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag14.2_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag14.2_translation-en-sujato.json"
@@ -63,6 +66,7 @@
       "sn9.6/de/sabbamitta",
       "sn4.7/de/sabbamitta",
       "thag2.21/de/sabbamitta",
+      "thag16.9/de/sabbamitta",
       "thag14.2/de/sabbamitta"
     ],
     "mlDocs": [
@@ -245,6 +249,38 @@
           "pli": 67,
           "de": 60,
           "en": 60
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag16.9_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag16.9_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag16.9_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag16.9",
+        "lang": "de",
+        "segMap": {
+          "thag16.9:17.1": {
+            "scid": "thag16.9:17.1",
+            "pli": "Natthi dāni punāvāso, ",
+            "de": "Penelope, <span class=\"ebt-matched\">Weberin</span> des Netzes, ",
+            "en": "Weaver of the web in the company of the gods, ",
+            "matched": true
+          }
+        },
+        "score": 1.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 16.9\nDas Zwanzigerbuch\n1. Das erste Kapitel\nAnuruddha",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 119,
+          "de": 118,
+          "en": 118
         }
       }
     ],

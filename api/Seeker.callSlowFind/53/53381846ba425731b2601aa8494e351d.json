@@ -40,7 +40,7 @@
     "pattern": "grausam",
     "method": "phrase",
     "resultPattern": "\\bgrausam",
-    "segsMatched": 87,
+    "segsMatched": 88,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn35/sn35.95_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn35/sn35.95_translation-de-sabbamitta.json",
@@ -127,6 +127,9 @@
       "root/pli/ms/sutta/mn/mn2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn2_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn2_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag16.8_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag16.8_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag16.8_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/iti/vagga9/iti87_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/iti/vagga9/iti87_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/iti/vagga9/iti87_translation-en-sujato.json",
@@ -213,6 +216,7 @@
       "mn7/de/sabbamitta",
       "mn62/de/sabbamitta",
       "mn2/de/sabbamitta",
+      "thag16.8/de/sabbamitta",
       "iti87/de/sabbamitta",
       "dn34/de/sabbamitta",
       "dn32/de/sabbamitta",
@@ -880,14 +884,14 @@
           "an4.138:2.3": {
             "scid": "an4.138:2.3",
             "pli": "So tattha kāmavitakkampi vitakketi byāpādavitakkampi vitakketi vihiṁsāvitakkampi vitakketi. ",
-            "de": "Doch sie denkt sinnliche, boshafte und <span class=\"ebt-matched\">grausam</span>e Gedanken. ",
+            "de": "Doch er denkt sinnliche, boshafte und <span class=\"ebt-matched\">grausam</span>e Gedanken. ",
             "en": "But they think sensual, malicious, and cruel thoughts. ",
             "matched": true
           },
           "an4.138:4.3": {
             "scid": "an4.138:4.3",
             "pli": "So tattha kāmavitakkampi vitakketi byāpādavitakkampi vitakketi vihiṁsāvitakkampi vitakketi. ",
-            "de": "Und sie denkt sinnliche, boshafte und <span class=\"ebt-matched\">grausam</span>e Gedanken. ",
+            "de": "Und er denkt sinnliche, boshafte und <span class=\"ebt-matched\">grausam</span>e Gedanken. ",
             "en": "And they think sensual, malicious, and cruel thoughts. ",
             "matched": true
           }
@@ -1803,6 +1807,38 @@
           "pli": 80,
           "de": 73,
           "en": 79
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag16.8_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag16.8_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag16.8_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag16.8",
+        "lang": "de",
+        "segMap": {
+          "thag16.8:14.2": {
+            "scid": "thag16.8:14.2",
+            "pli": "hiṁsakassa pure sato; ",
+            "de": "doch früher war ich <span class=\"ebt-matched\">grausam</span>. ",
+            "en": "though I used to be harmful. ",
+            "matched": true
+          }
+        },
+        "score": 1.009,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 16.8\nDas Zwanzigerbuch\n1. Das erste Kapitel\nAṅgulimāla",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 109,
+          "de": 108,
+          "en": 108
         }
       },
       {

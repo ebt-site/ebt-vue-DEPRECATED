@@ -40,7 +40,7 @@
     "pattern": "kennzeichen",
     "method": "phrase",
     "resultPattern": "\\bkennzeichen",
-    "segsMatched": 115,
+    "segsMatched": 116,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn30_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn30_translation-de-sabbamitta.json",
@@ -86,6 +86,9 @@
       "translation/de/sabbamitta/sutta/kn/thig/thig14.1_translation-de-sabbamitta.json",
       "translation/en/soma/sutta/kn/thig/thig14.1_translation-en-soma.json",
       "translation/en/sujato/sutta/kn/thig/thig14.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag16.6_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag16.6_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag16.6_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag1.106_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag1.106_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag1.106_translation-en-sujato.json",
@@ -123,6 +126,7 @@
       "sn22.59/de/sabbamitta",
       "mn93/de/sabbamitta",
       "thig14.1/de/sabbamitta",
+      "thag16.6/de/sabbamitta",
       "thag1.106/de/sabbamitta",
       "cp11/de/sabbamitta",
       "an5.192/de/sabbamitta",
@@ -1365,6 +1369,38 @@
           "pli": 61,
           "de": 60,
           "en": 60
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag16.6_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag16.6_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag16.6_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag16.6",
+        "lang": "de",
+        "segMap": {
+          "thag16.6:2.3": {
+            "scid": "thag16.6:2.3",
+            "pli": "Sabbe te tava kāyasmiṁ, ",
+            "de": "die <span class=\"ebt-matched\">Kennzeichen</span> eines großen Mannes, ",
+            "en": "the marks of a great man, ",
+            "matched": true
+          }
+        },
+        "score": 1.01,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 16.6\nDas Zwanzigerbuch\n1. Das erste Kapitel\nSela",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 105,
+          "de": 104,
+          "en": 104
         }
       },
       {

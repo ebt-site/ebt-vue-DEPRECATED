@@ -40,7 +40,7 @@
     "pattern": "feigheit",
     "method": "phrase",
     "resultPattern": "\\bfeigheit",
-    "segsMatched": 26,
+    "segsMatched": 27,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn31_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn31_translation-de-sabbamitta.json",
@@ -63,6 +63,9 @@
       "root/pli/ms/sutta/an/an2/an2.42-51_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an2/an2.42-51_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an2/an2.42-51_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag16.7_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag16.7_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag16.7_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
@@ -87,6 +90,7 @@
       "an4.18/de/sabbamitta",
       "an4.17/de/sabbamitta",
       "an2.42-51/de/sabbamitta",
+      "thag16.7/de/sabbamitta",
       "dn33/de/sabbamitta",
       "dn29/de/sabbamitta",
       "an9.7/de/sabbamitta",
@@ -510,6 +514,38 @@
           "pli": 23,
           "de": 19,
           "en": 22
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag16.7_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag16.7_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag16.7_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag16.7",
+        "lang": "de",
+        "segMap": {
+          "thag16.7:23.1": {
+            "scid": "thag16.7:23.1",
+            "pli": "Sojja bhaddo anutrāsī, ",
+            "de": "Heute bin ich vom Glück gesegnet, frei von <span class=\"ebt-matched\">Feigheit</span>, ",
+            "en": "Today I am fortunate, free of cowardice, ",
+            "matched": true
+          }
+        },
+        "score": 1.01,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 16.7\nDas Zwanzigerbuch\n1. Das erste Kapitel\nKāḷigodhāputtabhaddiya",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 101,
+          "de": 100,
+          "en": 100
         }
       },
       {

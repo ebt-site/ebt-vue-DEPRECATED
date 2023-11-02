@@ -40,7 +40,7 @@
     "pattern": "beschützer",
     "method": "phrase",
     "resultPattern": "\\bbeschützer",
-    "segsMatched": 71,
+    "segsMatched": 72,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an10/an10.18_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.18_translation-de-sabbamitta.json",
@@ -68,6 +68,9 @@
       "translation/de/sabbamitta/sutta/kn/thig/thig11.1_translation-de-sabbamitta.json",
       "translation/en/soma/sutta/kn/thig/thig11.1_translation-en-soma.json",
       "translation/en/sujato/sutta/kn/thig/thig11.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag16.10_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag16.10_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag16.10_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.20_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.20_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an10/an10.20_translation-en-sujato.json",
@@ -102,6 +105,7 @@
       "sn9.13/de/sabbamitta",
       "sn2.25/de/sabbamitta",
       "thig11.1/de/sabbamitta",
+      "thag16.10/de/sabbamitta",
       "an10.20/de/sabbamitta",
       "an10.19/de/sabbamitta",
       "an10.16/de/sabbamitta",
@@ -1009,6 +1013,38 @@
           "pli": 56,
           "de": 47,
           "en": 54
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag16.10_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag16.10_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag16.10_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag16.10",
+        "lang": "de",
+        "segMap": {
+          "thag16.10:2.3": {
+            "scid": "thag16.10:2.3",
+            "pli": "Iriyaṁ āsi bhikkhūnaṁ, ",
+            "de": "als der <span class=\"ebt-matched\">Beschützer</span> der Welt, ",
+            "en": "from when the protector of the world, ",
+            "matched": true
+          }
+        },
+        "score": 1.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 16.10\nDas Zwanzigerbuch\n1. Das erste Kapitel\nPārāpariya (3)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 131,
+          "de": 120,
+          "en": 120
         }
       }
     ],

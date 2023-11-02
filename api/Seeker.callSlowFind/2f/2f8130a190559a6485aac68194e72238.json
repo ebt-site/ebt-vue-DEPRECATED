@@ -40,18 +40,22 @@
     "pattern": "bei der besten angekommen",
     "method": "phrase",
     "resultPattern": "\\bbei der besten angekommen",
-    "segsMatched": 2,
+    "segsMatched": 3,
     "bilaraPaths": [
       "root/pli/ms/sutta/kn/thag/thag21.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag21.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag21.1_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag1.9_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag1.9_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/kn/thag/thag1.9_translation-en-sujato.json"
+      "translation/en/sujato/sutta/kn/thag/thag1.9_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag16.8_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag16.8_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag16.8_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "thag21.1/de/sabbamitta",
-      "thag1.9/de/sabbamitta"
+      "thag1.9/de/sabbamitta",
+      "thag16.8/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -84,6 +88,38 @@
           "pli": 9,
           "de": 9,
           "en": 9
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag16.8_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag16.8_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag16.8_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag16.8",
+        "lang": "de",
+        "segMap": {
+          "thag16.8:20.4": {
+            "scid": "thag16.8:20.4",
+            "pli": "yaṁ seṭṭhaṁ tadupāgamaṁ. ",
+            "de": "bin ich <span class=\"ebt-matched\">bei der besten angekommen</span>. ",
+            "en": "I arrived at the best. ",
+            "matched": true
+          }
+        },
+        "score": 1.009,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 16.8\nDas Zwanzigerbuch\n1. Das erste Kapitel\nAṅgulimāla",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 109,
+          "de": 108,
+          "en": 108
         }
       },
       {

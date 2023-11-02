@@ -40,7 +40,7 @@
     "pattern": "das unübertreffliche rad des dhamma",
     "method": "phrase",
     "resultPattern": "\\bdas unübertreffliche rad des dhamma",
-    "segsMatched": 21,
+    "segsMatched": 22,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn141_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn141_translation-de-sabbamitta.json",
@@ -63,6 +63,9 @@
       "root/pli/ms/sutta/sn/sn8/sn8.7_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn8/sn8.7_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn8/sn8.7_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag16.6_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag16.6_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag16.6_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.70_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.70_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an8/an8.70_translation-en-sujato.json",
@@ -87,6 +90,7 @@
       "an5.131/de/sabbamitta",
       "an1.170-187/de/sabbamitta",
       "sn8.7/de/sabbamitta",
+      "thag16.6/de/sabbamitta",
       "an8.70/de/sabbamitta",
       "an5.133/de/sabbamitta",
       "an4.127/de/sabbamitta",
@@ -539,6 +543,38 @@
           "pli": 87,
           "de": 80,
           "en": 85
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag16.6_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag16.6_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag16.6_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag16.6",
+        "lang": "de",
+        "segMap": {
+          "thag16.6:10.3": {
+            "scid": "thag16.6:10.3",
+            "pli": "Dhammacakkaṁ anuttaraṁ; ",
+            "de": "„<span class=\"ebt-matched\">das unübertreffliche Rad des Dhamma</span>. ",
+            "en": "“the supreme wheel of the teaching. ",
+            "matched": true
+          }
+        },
+        "score": 1.01,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 16.6\nDas Zwanzigerbuch\n1. Das erste Kapitel\nSela",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 105,
+          "de": 104,
+          "en": 104
         }
       }
     ],

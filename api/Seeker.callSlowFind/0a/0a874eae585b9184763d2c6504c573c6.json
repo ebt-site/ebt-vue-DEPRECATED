@@ -40,11 +40,14 @@
     "pattern": "ohne verlangen",
     "method": "phrase",
     "resultPattern": "\\bohne verlangen",
-    "segsMatched": 6,
+    "segsMatched": 7,
     "bilaraPaths": [
       "root/pli/ms/sutta/kn/ud/vagga7/ud7.7_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga7/ud7.7_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/ud/vagga7/ud7.7_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag16.8_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag16.8_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag16.8_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/iti/vagga6/iti58_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/iti/vagga6/iti58_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/iti/vagga6/iti58_translation-en-sujato.json",
@@ -63,6 +66,7 @@
     ],
     "suttaRefs": [
       "ud7.7/de/sabbamitta",
+      "thag16.8/de/sabbamitta",
       "iti58/de/sabbamitta",
       "iti49/de/sabbamitta",
       "iti15/de/sabbamitta",
@@ -260,6 +264,38 @@
           "pli": 43,
           "de": 29,
           "en": 29
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag16.8_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag16.8_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag16.8_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag16.8",
+        "lang": "de",
+        "segMap": {
+          "thag16.8:25.1": {
+            "scid": "thag16.8:25.1",
+            "pli": "Vītataṇho anādāno, ",
+            "de": "Ich bin <span class=\"ebt-matched\">ohne Verlangen</span>, frei von Ergreifen, ",
+            "en": "I am rid of craving, free of grasping, ",
+            "matched": true
+          }
+        },
+        "score": 1.009,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 16.8\nDas Zwanzigerbuch\n1. Das erste Kapitel\nAṅgulimāla",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 109,
+          "de": 108,
+          "en": 108
         }
       }
     ],

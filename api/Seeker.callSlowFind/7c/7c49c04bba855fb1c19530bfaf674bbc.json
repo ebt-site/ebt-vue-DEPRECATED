@@ -40,7 +40,7 @@
     "pattern": "rad-drehend.* herrscher",
     "method": "phrase",
     "resultPattern": "\\brad-drehend.* herrscher",
-    "segsMatched": 128,
+    "segsMatched": 129,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn26_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn26_translation-de-sabbamitta.json",
@@ -130,6 +130,9 @@
       "root/pli/ms/sutta/kn/thag/thag21.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag21.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag21.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag16.6_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag16.6_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag16.6_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/kp/kp8_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/kp/kp8_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/kp/kp8_translation-en-sujato.json",
@@ -185,6 +188,7 @@
       "sn45.141-145/de/sabbamitta",
       "sn22.102/de/sabbamitta",
       "thag21.1/de/sabbamitta",
+      "thag16.6/de/sabbamitta",
       "kp8/de/sabbamitta",
       "iti22/de/sabbamitta",
       "cp4/de/sabbamitta",
@@ -1951,6 +1955,38 @@
           "pli": 95,
           "de": 89,
           "en": 94
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag16.6_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag16.6_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag16.6_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag16.6",
+        "lang": "de",
+        "segMap": {
+          "thag16.6:5.2": {
+            "scid": "thag16.6:5.2",
+            "pli": "cakkavattī rathesabho; ",
+            "de": "ein <span class=\"ebt-matched\">Rad-drehender Herrscher</span>, Erster der Wagenlenker, ",
+            "en": "a wheel-turning monarch, chief of charioteers, ",
+            "matched": true
+          }
+        },
+        "score": 1.01,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 16.6\nDas Zwanzigerbuch\n1. Das erste Kapitel\nSela",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 105,
+          "de": 104,
+          "en": 104
         }
       },
       {

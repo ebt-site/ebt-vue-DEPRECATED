@@ -40,7 +40,7 @@
     "pattern": "manifestation",
     "method": "phrase",
     "resultPattern": "\\bmanifestation",
-    "segsMatched": 55,
+    "segsMatched": 57,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn35/sn35.22_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn35/sn35.22_translation-de-sabbamitta.json",
@@ -82,6 +82,9 @@
       "root/pli/ms/sutta/sn/sn26/sn26.3_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn26/sn26.3_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn26/sn26.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag16.6_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag16.6_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag16.6_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.172_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.172_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an10/an10.172_translation-en-sujato.json",
@@ -130,6 +133,7 @@
       "sn26.9/de/sabbamitta",
       "sn26.4/de/sabbamitta",
       "sn26.3/de/sabbamitta",
+      "thag16.6/de/sabbamitta",
       "an10.172/de/sabbamitta",
       "an10.115/de/sabbamitta",
       "sn26.8/de/sabbamitta",
@@ -777,6 +781,45 @@
         "langSegs": {
           "pli": 105,
           "de": 75,
+          "en": 104
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag16.6_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag16.6_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag16.6_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag16.6",
+        "lang": "de",
+        "segMap": {
+          "thag16.6:14.1": {
+            "scid": "thag16.6:14.1",
+            "pli": "Brahmabhūto atitulo, ",
+            "de": "Eine unvergleichliche <span class=\"ebt-matched\">Manifestation</span> der Göttlichkeit, ",
+            "en": "A <span class=\"ebt-matched\">manifestation</span> of divinity, unequaled, ",
+            "matched": true
+          },
+          "thag16.6:16.1": {
+            "scid": "thag16.6:16.1",
+            "pli": "Brahmabhūtaṁ atitulaṁ, ",
+            "de": "Eine unvergleichliche <span class=\"ebt-matched\">Manifestation</span> der Göttlichkeit, ",
+            "en": "A <span class=\"ebt-matched\">manifestation</span> of divinity, unequaled, ",
+            "matched": true
+          }
+        },
+        "score": 2.019,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 16.6\nDas Zwanzigerbuch\n1. Das erste Kapitel\nSela",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 105,
+          "de": 104,
           "en": 104
         }
       },

@@ -40,17 +40,21 @@
     "pattern": "versenkung mit fünf faktoren",
     "method": "phrase",
     "resultPattern": "\\bversenkung mit fünf faktoren",
-    "segsMatched": 12,
+    "segsMatched": 13,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an5/an5.28_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.28_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.28_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag16.9_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag16.9_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag16.9_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an5.28/de/sabbamitta",
+      "thag16.9/de/sabbamitta",
       "dn34/de/sabbamitta"
     ],
     "mlDocs": [
@@ -154,6 +158,38 @@
           "pli": 85,
           "de": 84,
           "en": 84
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag16.9_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag16.9_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag16.9_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag16.9",
+        "lang": "de",
+        "segMap": {
+          "thag16.9:25.1": {
+            "scid": "thag16.9:25.1",
+            "pli": "Pañcaṅgike samādhimhi, ",
+            "de": "In der <span class=\"ebt-matched\">Versenkung mit fünf Faktoren</span> ",
+            "en": "I have gained complete tranquility ",
+            "matched": true
+          }
+        },
+        "score": 1.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 16.9\nDas Zwanzigerbuch\n1. Das erste Kapitel\nAnuruddha",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 119,
+          "de": 118,
+          "en": 118
         }
       },
       {

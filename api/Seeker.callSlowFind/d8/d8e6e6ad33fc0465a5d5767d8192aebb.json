@@ -40,11 +40,14 @@
     "pattern": "nicht zur last",
     "method": "phrase",
     "resultPattern": "\\bnicht zur last",
-    "segsMatched": 7,
+    "segsMatched": 8,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an8/an8.53_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.53_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an8/an8.53_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag16.10_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag16.10_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag16.10_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/snp/vagga1/snp1.8_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/snp/vagga1/snp1.8_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/snp/vagga1/snp1.8_translation-en-sujato.json",
@@ -63,6 +66,7 @@
     ],
     "suttaRefs": [
       "an8.53/de/sabbamitta",
+      "thag16.10/de/sabbamitta",
       "snp1.8/de/sabbamitta",
       "kp9/de/sabbamitta",
       "an5.98/de/sabbamitta",
@@ -267,6 +271,38 @@
           "pli": 43,
           "de": 42,
           "en": 42
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag16.10_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag16.10_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag16.10_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag16.10",
+        "lang": "de",
+        "segMap": {
+          "thag16.10:7.1": {
+            "scid": "thag16.10:7.1",
+            "pli": "Nīcā niviṭṭhā subharā, ",
+            "de": "Sie waren einfache Dinge gewohnt, fielen <span class=\"ebt-matched\">nicht zur Last</span>, ",
+            "en": "They were used to simple things, unburdensome, ",
+            "matched": true
+          }
+        },
+        "score": 1.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 16.10\nDas Zwanzigerbuch\n1. Das erste Kapitel\nPārāpariya (3)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 131,
+          "de": 120,
+          "en": 120
         }
       }
     ],

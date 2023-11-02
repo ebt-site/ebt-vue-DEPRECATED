@@ -40,7 +40,7 @@
     "pattern": "marionette",
     "method": "phrase",
     "resultPattern": "\\bmarionette",
-    "segsMatched": 5,
+    "segsMatched": 7,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn5/sn5.9_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn5/sn5.9_translation-de-sabbamitta.json",
@@ -52,12 +52,20 @@
       "root/pli/ms/sutta/kn/thig/thig14.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thig/thig14.1_translation-de-sabbamitta.json",
       "translation/en/soma/sutta/kn/thig/thig14.1_translation-en-soma.json",
-      "translation/en/sujato/sutta/kn/thig/thig14.1_translation-en-sujato.json"
+      "translation/en/sujato/sutta/kn/thig/thig14.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag20.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag20.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag20.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag16.4_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag16.4_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag16.4_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "sn5.9/de/sabbamitta",
       "sn48.41/de/sabbamitta",
-      "thig14.1/de/sabbamitta"
+      "thig14.1/de/sabbamitta",
+      "thag20.1/de/sabbamitta",
+      "thag16.4/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -141,6 +149,38 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag16.4_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag16.4_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag16.4_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag16.4",
+        "lang": "de",
+        "segMap": {
+          "thag16.4:1.1": {
+            "scid": "thag16.4:1.1",
+            "pli": "“Passa cittakataṁ bimbaṁ, ",
+            "de": "„Sieh die herausgeputzte <span class=\"ebt-matched\">Marionette</span>, ",
+            "en": "“See this fancy puppet, ",
+            "matched": true
+          }
+        },
+        "score": 1.01,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 16.4\nDas Zwanzigerbuch\n1. Das erste Kapitel\nRaṭṭhapāla",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 105,
+          "de": 104,
+          "en": 104
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/kn/thig/thig14.1_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/kn/thig/thig14.1_translation-de-sabbamitta.json",
           "translation/en/soma/sutta/kn/thig/thig14.1_translation-en-soma.json",
@@ -170,6 +210,38 @@
           "pli": 141,
           "de": 140,
           "en": 140
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag20.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag20.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag20.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag20.1",
+        "lang": "de",
+        "segMap": {
+          "thag20.1:12.1": {
+            "scid": "thag20.1:12.1",
+            "pli": "“Passa cittakataṁ bimbaṁ, ",
+            "de": "„Sieh die herausgeputzte <span class=\"ebt-matched\">Marionette</span>, ",
+            "en": "“See this fancy puppet, ",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 20.1\nDas Sechzigerbuch\n1. Das erste Kapitel\nMahāmoggallāna",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 299,
+          "de": 294,
+          "en": 294
         }
       }
     ],
