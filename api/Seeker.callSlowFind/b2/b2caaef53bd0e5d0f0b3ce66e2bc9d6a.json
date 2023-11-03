@@ -39,7 +39,7 @@
     "pattern": "the detailed meaning",
     "method": "phrase",
     "resultPattern": "\\bthe detailed meaning",
-    "segsMatched": 109,
+    "segsMatched": 110,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn114_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn114_translation-en-sujato.json",
@@ -110,6 +110,8 @@
       "translation/en/sujato/sutta/an/an10/an10.26_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.220_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an10/an10.220_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn42_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn42_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn41_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn41_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.171_root-pli-ms.json",
@@ -151,6 +153,7 @@
       "an10.28/en/sujato",
       "an10.26/en/sujato",
       "an10.220/en/sujato",
+      "mn42/en/sujato",
       "mn41/en/sujato",
       "an4.171/en/sujato",
       "an10.172/en/sujato",
@@ -1617,6 +1620,35 @@
         "maxWord": 30,
         "minWord": 5,
         "title": "Middle Discourses 41\nThe People of Sālā",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 122,
+          "en": 121
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn42_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn42_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn42",
+        "lang": "en",
+        "segMap": {
+          "mn42:6.1": {
+            "scid": "mn42:6.1",
+            "pli": "“Na kho mayaṁ imassa bhoto gotamassa saṅkhittena bhāsitassa, vitthārena atthaṁ avibhattassa, vitthārena atthaṁ ājānāma. ",
+            "en": "“We don’t understand <span class=\"ebt-matched\">the detailed meaning</span> of Master Gotama’s brief statement. …” ",
+            "matched": true
+          }
+        },
+        "score": 1.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Middle Discourses 42\nThe People of Verañjā",
         "segsMatched": 1,
         "langSegs": {
           "pli": 122,

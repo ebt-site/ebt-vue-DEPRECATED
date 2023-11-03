@@ -39,7 +39,7 @@
     "pattern": "actually",
     "method": "phrase",
     "resultPattern": "\\bactually",
-    "segsMatched": 67,
+    "segsMatched": 70,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn60_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn60_translation-en-sujato.json",
@@ -51,6 +51,8 @@
       "translation/en/sujato/sutta/kn/snp/vagga3/snp3.12_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn21_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn21_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn24_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn24_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.61_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an3/an3.61_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn75_root-pli-ms.json",
@@ -90,6 +92,7 @@
       "mn54/en/sujato",
       "snp3.12/en/sujato",
       "mn21/en/sujato",
+      "dn24/en/sujato",
       "an3.61/en/sujato",
       "mn75/en/sujato",
       "dn27/en/sujato",
@@ -548,6 +551,47 @@
         "langSegs": {
           "pli": 227,
           "en": 226
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn24_root-pli-ms.json",
+          "translation/en/sujato/sutta/dn/dn24_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn24",
+        "lang": "en",
+        "segMap": {
+          "dn24:2.8.5": {
+            "scid": "dn24:2.8.5",
+            "pli": "Tatheva so siṅgālakaṁ anadi, ",
+            "en": "But he <span class=\"ebt-matched\">actually</span> only managed to yelp, ",
+            "matched": true
+          },
+          "dn24:2.9.7": {
+            "scid": "dn24:2.9.7",
+            "pli": "Tatheva so siṅgālakaṁ anadi, ",
+            "en": "But he <span class=\"ebt-matched\">actually</span> only managed to yelp, ",
+            "matched": true
+          },
+          "dn24:2.10.7": {
+            "scid": "dn24:2.10.7",
+            "pli": "Tatheva so siṅgālakaṁ anadi, ",
+            "en": "But he <span class=\"ebt-matched\">actually</span> only managed to yelp, ",
+            "matched": true
+          }
+        },
+        "score": 3.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Long Discourses 24\nAbout Pāṭikaputta",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 581,
+          "en": 580
         }
       },
       {

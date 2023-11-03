@@ -39,7 +39,7 @@
     "pattern": "spectrum of wisdom",
     "method": "phrase",
     "resultPattern": "\\bspectrum of wisdom",
-    "segsMatched": 9,
+    "segsMatched": 10,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn10_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn10_translation-en-sujato.json",
@@ -50,6 +50,8 @@
       "translation/en/sujato/sutta/sn/sn6/sn6.2_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn77_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn77_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn44_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn44_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.21_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an4/an4.21_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.26_root-pli-ms.json",
@@ -60,6 +62,7 @@
       "an5.22/en/sujato",
       "sn6.2/en/sujato",
       "mn77/en/sujato",
+      "mn44/en/sujato",
       "an4.21/en/sujato",
       "an3.26/en/sujato"
     ],
@@ -226,6 +229,35 @@
         "langSegs": {
           "pli": 49,
           "en": 48
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn44_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn44_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn44",
+        "lang": "en",
+        "segMap": {
+          "mn44:11.5": {
+            "scid": "mn44:11.5",
+            "pli": "Yā ca sammādiṭṭhi yo ca sammāsaṅkappo, ime dhammā paññākkhandhe saṅgahitā”ti. ",
+            "en": "Right view and right thought: these things are included in the <span class=\"ebt-matched\">spectrum of wisdom</span>.” ",
+            "matched": true
+          }
+        },
+        "score": 1.007,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Middle Discourses 44\nThe Shorter Elaboration",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 138,
+          "en": 137
         }
       },
       {
