@@ -39,10 +39,12 @@
     "pattern": "by ear",
     "method": "phrase",
     "resultPattern": "\\bby ear",
-    "segsMatched": 15,
+    "segsMatched": 17,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an4/an4.191_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an4/an4.191_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn49_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn49_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn35/sn35.65_root-pli-ms.json",
       "translation/en/davis/sutta/sn/sn35/sn35.65_translation-en-davis.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.65_translation-en-sujato.json",
@@ -55,6 +57,7 @@
     ],
     "suttaRefs": [
       "an4.191/en/sujato",
+      "mn49/en/sujato",
       "sn35.65/en/sujato",
       "sn35.235/en/sujato",
       "mn98/en/sujato",
@@ -148,6 +151,41 @@
         "langSegs": {
           "pli": 96,
           "en": 95
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn49_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn49_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn49",
+        "lang": "en",
+        "segMap": {
+          "mn49:11.1": {
+            "scid": "mn49:11.1",
+            "pli": "Pathaviṁ kho ahaṁ, brahme, pathavito abhiññāya yāvatā pathaviyā pathavattena ananubhūtaṁ tadabhiññāya pathaviṁ nāpahosiṁ, pathaviyā nāpahosiṁ, pathavito nāpahosiṁ, pathaviṁ meti nāpahosiṁ, pathaviṁ nābhivadiṁ. ",
+            "en": "Since directly knowing earth as earth, and since directly knowing that which does not fall within the scope of experience characterized <span class=\"ebt-matched\">by ear</span>th, I have not become earth, I have not become in earth, I have not become as earth, I have not become one who thinks ‘earth is mine’, I have not affirmed earth. ",
+            "matched": true
+          },
+          "mn49:25.1": {
+            "scid": "mn49:25.1",
+            "pli": "Viññāṇaṁ anidassanaṁ anantaṁ sabbato pabhaṁ, taṁ pathaviyā pathavattena ananubhūtaṁ, āpassa āpattena ananubhūtaṁ, tejassa tejattena ananubhūtaṁ, vāyassa vāyattena ananubhūtaṁ, bhūtānaṁ bhūtattena ananubhūtaṁ, devānaṁ devattena ananubhūtaṁ, pajāpatissa pajāpatittena ananubhūtaṁ, brahmānaṁ brahmattena ananubhūtaṁ, ābhassarānaṁ ābhassarattena ananubhūtaṁ, subhakiṇhānaṁ subhakiṇhattena ananubhūtaṁ, vehapphalānaṁ vehapphalattena ananubhūtaṁ, abhibhussa abhibhuttena ananubhūtaṁ, sabbassa sabbattena ananubhūtaṁ. ",
+            "en": "Consciousness where nothing appears, infinite, luminous all-round—that is what does not fall within the scope of experience characterized <span class=\"ebt-matched\">by ear</span>th, water, fire, air, creatures, gods, the Progenitor, Brahmā, the gods of streaming radiance, the gods replete with glory, the gods of abundant fruit, the Vanquisher, and the all. ",
+            "matched": true
+          }
+        },
+        "score": 2.012,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Middle Discourses 49\nOn the Invitation of Brahmā",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 162,
+          "en": 161
         }
       },
       {
