@@ -40,7 +40,7 @@
     "pattern": "wenig gelernt",
     "method": "phrase",
     "resultPattern": "\\bwenig gelernt",
-    "segsMatched": 13,
+    "segsMatched": 15,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an4/an4.6_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.6_translation-de-sabbamitta.json",
@@ -48,6 +48,9 @@
       "root/pli/ms/sutta/an/an5/an5.157_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.157_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.157_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag17.3_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag17.3_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag17.3_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.158_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.158_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.158_translation-en-sujato.json",
@@ -58,6 +61,7 @@
     "suttaRefs": [
       "an4.6/de/sabbamitta",
       "an5.157/de/sabbamitta",
+      "thag17.3/de/sabbamitta",
       "an5.158/de/sabbamitta",
       "an5.101/de/sabbamitta"
     ],
@@ -187,6 +191,45 @@
           "pli": 70,
           "de": 69,
           "en": 69
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag17.3_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag17.3_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag17.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag17.3",
+        "lang": "de",
+        "segMap": {
+          "thag17.3:12.1": {
+            "scid": "thag17.3:12.1",
+            "pli": "Appassutāyaṁ puriso, ",
+            "de": "„Ein Mensch, der <span class=\"ebt-matched\">wenig gelernt</span> hat, ",
+            "en": "“A person of little learning ",
+            "matched": true
+          },
+          "thag17.3:13.2": {
+            "scid": "thag17.3:13.2",
+            "pli": "yo sutenātimaññati; ",
+            "de": "auf einen, der <span class=\"ebt-matched\">wenig gelernt</span> hat, herabschaut, ",
+            "en": "looks down on someone of little learning, ",
+            "matched": true
+          }
+        },
+        "score": 2.013,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 17.3\nDas Dreißigerbuch\n1. Das erste Kapitel\nĀnanda",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 159,
+          "de": 152,
+          "en": 152
         }
       },
       {

@@ -40,7 +40,7 @@
     "pattern": "schwer zu sehen",
     "method": "phrase",
     "resultPattern": "\\bschwer zu sehen",
-    "segsMatched": 16,
+    "segsMatched": 17,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn1_translation-de-sabbamitta.json",
@@ -69,6 +69,9 @@
       "root/pli/ms/sutta/kn/thag/thag2.46_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag2.46_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag2.46_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag19.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag19.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag19.1_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag1.4_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag1.4_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag1.4_translation-en-sujato.json",
@@ -88,6 +91,7 @@
       "thig6.1/de/sabbamitta",
       "thig3.5/de/sabbamitta",
       "thag2.46/de/sabbamitta",
+      "thag19.1/de/sabbamitta",
       "thag1.4/de/sabbamitta",
       "snp4.15/de/sabbamitta",
       "dn14/de/sabbamitta"
@@ -449,6 +453,38 @@
           "pli": 84,
           "de": 83,
           "en": 83
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag19.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag19.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag19.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag19.1",
+        "lang": "de",
+        "segMap": {
+          "thag19.1:8.4": {
+            "scid": "thag19.1:8.4",
+            "pli": "Paññāya taṁ taṁ nu kadā bhavissati. ",
+            "de": "und die so <span class=\"ebt-matched\">schwer zu sehen</span> sind? Wann wird das sein? ",
+            "en": "and are so very hard to see? <j>When will it be? ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 19.1\nDas Fünfzigerbuch\n1. Das erste Kapitel\nTālapuṭa",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 231,
+          "de": 224,
+          "en": 224
         }
       },
       {

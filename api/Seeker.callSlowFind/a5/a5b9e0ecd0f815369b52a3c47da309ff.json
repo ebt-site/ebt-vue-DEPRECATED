@@ -40,7 +40,7 @@
     "pattern": "wie ein vogel",
     "method": "phrase",
     "resultPattern": "\\bwie ein vogel",
-    "segsMatched": 21,
+    "segsMatched": 22,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
@@ -64,6 +64,9 @@
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.70_translation-de-sabbamitta.json",
       "translation/en/davis/sutta/sn/sn12/sn12.70_translation-en-davis.json",
       "translation/en/sujato/sutta/sn/sn12/sn12.70_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag17.3_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag17.3_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag17.3_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/dhp/dhp167-178_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/dhp/dhp167-178_translation-de-sabbamitta.json",
       "translation/en/suddhaso/sutta/kn/dhp/dhp167-178_translation-en-suddhaso.json",
@@ -110,6 +113,7 @@
       "sn51.11/de/sabbamitta",
       "sn16.9/de/sabbamitta",
       "sn12.70/de/sabbamitta",
+      "thag17.3/de/sabbamitta",
       "dhp167-178/de/sabbamitta",
       "dn34/de/sabbamitta",
       "dn28/de/sabbamitta",
@@ -650,6 +654,38 @@
           "pli": 180,
           "de": 166,
           "en": 176
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag17.3_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag17.3_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag17.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag17.3",
+        "lang": "de",
+        "segMap": {
+          "thag17.3:23.4": {
+            "scid": "thag17.3:23.4",
+            "pli": "vassupetova pakkhimā”. ",
+            "de": "<span class=\"ebt-matched\">wie ein Vogel</span>, der im Nest festsitzt.“ ",
+            "en": "like a bird snug in its nest.” ",
+            "matched": true
+          }
+        },
+        "score": 1.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 17.3\nDas Dreißigerbuch\n1. Das erste Kapitel\nĀnanda",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 159,
+          "de": 152,
+          "en": 152
         }
       },
       {

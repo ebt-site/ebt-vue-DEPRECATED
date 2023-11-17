@@ -40,7 +40,7 @@
     "pattern": "wie ein affe",
     "method": "phrase",
     "resultPattern": "\\bwie ein affe",
-    "segsMatched": 3,
+    "segsMatched": 4,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn12/sn12.61_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.61_translation-de-sabbamitta.json",
@@ -49,6 +49,9 @@
       "root/pli/ms/sutta/kn/thag/thag6.5_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag6.5_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag6.5_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag19.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag19.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag19.1_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag18.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag18.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag18.1_translation-en-sujato.json"
@@ -56,6 +59,7 @@
     "suttaRefs": [
       "sn12.61/de/sabbamitta",
       "thag6.5/de/sabbamitta",
+      "thag19.1/de/sabbamitta",
       "thag18.1/de/sabbamitta"
     ],
     "mlDocs": [
@@ -154,6 +158,38 @@
           "pli": 177,
           "de": 171,
           "en": 171
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag19.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag19.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag19.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag19.1",
+        "lang": "de",
+        "segMap": {
+          "thag19.1:21.3": {
+            "scid": "thag19.1:21.3",
+            "pli": "‘Cittaṁ calaṁ makkaṭasannibhaṁ iti, ",
+            "de": "„Der Geist zappelt <span class=\"ebt-matched\">wie ein Affe</span>, ",
+            "en": "“The mind fidgets like a monkey, ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 19.1\nDas Fünfzigerbuch\n1. Das erste Kapitel\nTālapuṭa",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 231,
+          "de": 224,
+          "en": 224
         }
       }
     ],
