@@ -18,7 +18,7 @@
       "maxDoc": 50,
       "maxResults": 1000,
       "minLang": 2,
-      "pattern": "wenn ein mensch eine straße entlangwanderte",
+      "pattern": "eine straße entlangwanderte",
       "refAuthor": "sujato",
       "refLang": "en",
       "searchLang": "de",
@@ -37,20 +37,24 @@
     "minLang": 2,
     "maxDoc": 50,
     "maxResults": 1000,
-    "pattern": "wenn ein mensch eine straße entlangwanderte",
+    "pattern": "eine straße entlangwanderte",
     "method": "phrase",
-    "resultPattern": "\\bwenn ein mensch eine straße entlangwanderte",
-    "segsMatched": 2,
+    "resultPattern": "\\beine straße entlangwanderte",
+    "segsMatched": 3,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn10_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn10_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "dn2/de/sabbamitta",
+      "dn16/de/sabbamitta",
       "dn10/de/sabbamitta"
     ],
     "mlDocs": [
@@ -69,7 +73,7 @@
           "dn10:2.27.3": {
             "scid": "dn10:2.27.3",
             "pli": "Seyyathāpi, māṇava, puriso addhānamaggappaṭipanno. So suṇeyya bherisaddampi mudiṅgasaddampi saṅkhapaṇavadindimasaddampi. Tassa evamassa—bherisaddo itipi mudiṅgasaddo itipi saṅkhapaṇavadindimasaddo itipi. ",
-            "de": "Wie <span class=\"ebt-matched\">wenn ein Mensch eine Straße entlangwanderte</span>, und er hörte den Klang von Tontrommeln, Schlaginstrumenten, Schneckenhörnern, Pauken und Tomtoms. Er dächte: ‚Das ist der Klang von Trommeln‘, ‚Das ist der Klang von Schlaginstrumenten‘ und ‚Das ist der Klang von Schneckenhörnern, Pauken und Tomtoms‘. ",
+            "de": "Wie wenn ein Mensch <span class=\"ebt-matched\">eine Straße entlangwanderte</span>, und er hörte den Klang von Tontrommeln, Schlaginstrumenten, Schneckenhörnern, Pauken und Tomtoms. Er dächte: ‚Das ist der Klang von Trommeln‘, ‚Das ist der Klang von Schlaginstrumenten‘ und ‚Das ist der Klang von Schneckenhörnern, Pauken und Tomtoms‘. ",
             "en": "Suppose there was a person traveling along the road. They’d hear the sound of drums, clay drums, horns, kettledrums, and tom-toms. They’d think: ‘That’s the sound of drums,’ and ‘that’s the sound of clay drums,’ and ‘that’s the sound of horns, kettledrums, and tom-toms.’ ",
             "matched": true
           }
@@ -101,7 +105,7 @@
           "dn2:90.1": {
             "scid": "dn2:90.1",
             "pli": "Seyyathāpi, mahārāja, puriso addhānamaggappaṭipanno. So suṇeyya bherisaddampi mudiṅgasaddampi saṅkhapaṇavadindimasaddampi. Tassa evamassa: ‘bherisaddo’ itipi, ‘mudiṅgasaddo’ itipi, ‘saṅkhapaṇavadindimasaddo’ itipi. ",
-            "de": "Wie <span class=\"ebt-matched\">wenn ein Mensch eine Straße entlangwanderte</span>, und er hörte den Klang von Tontrommeln, Schlaginstrumenten, Schneckenhörnern, Pauken und Tomtoms. Er dächte: ‚Das ist der Klang von Trommeln‘, ‚Das ist der Klang von Schlaginstrumenten‘ und ‚Das ist der Klang von Schneckenhörnern, Pauken und Tomtoms‘. ",
+            "de": "Wie wenn ein Mensch <span class=\"ebt-matched\">eine Straße entlangwanderte</span>, und er hörte den Klang von Tontrommeln, Schlaginstrumenten, Schneckenhörnern, Pauken und Tomtoms. Er dächte: ‚Das ist der Klang von Trommeln‘, ‚Das ist der Klang von Schlaginstrumenten‘ und ‚Das ist der Klang von Schneckenhörnern, Pauken und Tomtoms‘. ",
             "en": "Suppose there was a person traveling along the road. They’d hear the sound of drums, clay drums, horns, kettledrums, and tom-toms. They’d think: ‘That’s the sound of drums,’ and ‘that’s the sound of clay drums,’ and ‘that’s the sound of horns, kettledrums, and tom-toms.’ ",
             "matched": true
           }
@@ -116,6 +120,38 @@
           "pli": 650,
           "de": 589,
           "en": 633
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn16",
+        "lang": "de",
+        "segMap": {
+          "dn16:4.27.1": {
+            "scid": "dn16:4.27.1",
+            "pli": "Bhūtapubbaṁ, bhante, āḷāro kālāmo addhānamaggappaṭipanno maggā okkamma avidūre aññatarasmiṁ rukkhamūle divāvihāraṁ nisīdi. ",
+            "de": "Einmal geschah es, dass Āḷāra Kālāma, als er <span class=\"ebt-matched\">eine Straße entlangwanderte</span>, von der Straße abging und sich am Fuß eines nahen Baumes hinsetzte, um den Tag über zu meditieren. ",
+            "en": "Once it so happened that Āḷāra Kālāma, while traveling along a road, left the road and sat at the root of a nearby tree for the day’s meditation. ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 16\nDie große Lehrrede vom Erlöschen des Buddha",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 1664,
+          "de": 1579,
+          "en": 1568
         }
       }
     ],
