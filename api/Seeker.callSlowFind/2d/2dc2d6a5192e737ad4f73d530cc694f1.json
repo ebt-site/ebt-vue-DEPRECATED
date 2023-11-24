@@ -40,8 +40,11 @@
     "pattern": "glück, das ohne tadel ist",
     "method": "phrase",
     "resultPattern": "\\bglück, das ohne tadel ist",
-    "segsMatched": 5,
+    "segsMatched": 6,
     "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn38_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn38_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn38_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn8_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn8_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn8_translation-en-sujato.json",
@@ -59,6 +62,7 @@
       "translation/en/sujato/sutta/an/an10/an10.99_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "mn38/de/sabbamitta",
       "dn8/de/sabbamitta",
       "dn2/de/sabbamitta",
       "dn10/de/sabbamitta",
@@ -224,6 +228,38 @@
           "pli": 650,
           "de": 589,
           "en": 633
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn38_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn38_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn38_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn38",
+        "lang": "de",
+        "segMap": {
+          "mn38:34.4": {
+            "scid": "mn38:34.4",
+            "pli": "So iminā ariyena sīlakkhandhena samannāgato ajjhattaṁ anavajjasukhaṁ paṭisaṁvedeti. ",
+            "de": "Wenn er diesen Umfang der edlen Sittlichkeit besitzt, erfährt er im Innern ein <span class=\"ebt-matched\">Glück, das ohne Tadel ist</span>. ",
+            "en": "When they have this entire spectrum of noble ethics, they experience a blameless happiness inside themselves. ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 38\nDie längere Lehrrede über die Auflösung des Verlangens",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 445,
+          "de": 325,
+          "en": 444
         }
       }
     ],

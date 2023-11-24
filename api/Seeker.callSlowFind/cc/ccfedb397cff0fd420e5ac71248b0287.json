@@ -40,7 +40,7 @@
     "pattern": "wohin er fliegt",
     "method": "keywords",
     "resultPattern": "\\bwohin|\\ber|\\bfliegt",
-    "segsMatched": 3,
+    "segsMatched": 4,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an10/an10.99_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.99_translation-de-sabbamitta.json",
@@ -50,12 +50,16 @@
       "translation/en/sujato/sutta/an/an4/an4.198_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn10_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn10_translation-en-sujato.json"
+      "translation/en/sujato/sutta/dn/dn10_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn38_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn38_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn38_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an10.99/de/sabbamitta",
       "an4.198/de/sabbamitta",
-      "dn10/de/sabbamitta"
+      "dn10/de/sabbamitta",
+      "mn38/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -73,7 +77,7 @@
           "an4.198:10.2": {
             "scid": "an4.198:10.2",
             "pli": "Seyyathāpi nāma pakkhī sakuṇo yena yeneva ḍeti, sapattabhārova ḍeti; ",
-            "de": "Wie ein Vogel: <span class=\"ebt-matched\">Wohin</span> <span class=\"ebt-matched\">er</span> auch <span class=\"ebt-matched\">fliegt</span>, sind die Flügel seine einzige Last. ",
+            "de": "Wie ein Vogel: <span class=\"ebt-matched\">Wohin</span> <span class=\"ebt-matched\">er</span> auch <span class=\"ebt-matched\">fliegt</span>, die Flügel sind seine einzige Last. ",
             "en": "They’re like a bird: wherever it flies, wings are its only burden. ",
             "matched": true
           }
@@ -105,7 +109,7 @@
           "an10.99:19.3": {
             "scid": "an10.99:19.3",
             "pli": "seyyathāpi nāma pakkhī sakuṇo yena yeneva ḍeti sapattabhārova ḍeti. ",
-            "de": "Wie ein Vogel: <span class=\"ebt-matched\">Wohin</span> <span class=\"ebt-matched\">er</span> auch <span class=\"ebt-matched\">fliegt</span>, sind die Flügel seine einzige Last. ",
+            "de": "Wie ein Vogel: <span class=\"ebt-matched\">Wohin</span> <span class=\"ebt-matched\">er</span> auch <span class=\"ebt-matched\">fliegt</span>, die Flügel sind seine einzige Last. ",
             "en": "They’re like a bird: wherever it flies, wings are its only burden. ",
             "matched": true
           }
@@ -137,7 +141,7 @@
           "dn10:2.4.3": {
             "scid": "dn10:2.4.3",
             "pli": "Seyyathāpi, māṇava, pakkhī sakuṇo yena yeneva ḍeti, sapattabhārova ḍeti; ",
-            "de": "Wie ein Vogel: <span class=\"ebt-matched\">Wohin</span> <span class=\"ebt-matched\">er</span> auch <span class=\"ebt-matched\">fliegt</span>, sind die Flügel seine einzige Last. ",
+            "de": "Wie ein Vogel: <span class=\"ebt-matched\">Wohin</span> <span class=\"ebt-matched\">er</span> auch <span class=\"ebt-matched\">fliegt</span>, die Flügel sind seine einzige Last. ",
             "en": "They’re like a bird: wherever it flies, wings are its only burden. ",
             "matched": true
           }
@@ -152,6 +156,38 @@
           "pli": 285,
           "de": 227,
           "en": 227
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn38_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn38_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn38_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn38",
+        "lang": "de",
+        "segMap": {
+          "mn38:34.2": {
+            "scid": "mn38:34.2",
+            "pli": "Seyyathāpi nāma pakkhī sakuṇo yena yeneva ḍeti sapattabhārova ḍeti; ",
+            "de": "Wie ein Vogel: <span class=\"ebt-matched\">Wohin</span> <span class=\"ebt-matched\">er</span> auch <span class=\"ebt-matched\">fliegt</span>, die Flügel sind seine einzige Last. ",
+            "en": "They’re like a bird: wherever it flies, wings are its only burden. ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 38\nDie längere Lehrrede über die Auflösung des Verlangens",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 445,
+          "de": 325,
+          "en": 444
         }
       }
     ],

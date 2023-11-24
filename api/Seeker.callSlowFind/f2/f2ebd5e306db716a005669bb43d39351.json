@@ -40,7 +40,7 @@
     "pattern": "regenwolke",
     "method": "phrase",
     "resultPattern": "\\bregenwolke",
-    "segsMatched": 19,
+    "segsMatched": 18,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn32/sn32.13-52_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn32/sn32.13-52_translation-de-sabbamitta.json",
@@ -48,9 +48,6 @@
       "root/pli/ms/sutta/sn/sn32/sn32.57_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn32/sn32.57_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn32/sn32.57_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/thag/thag19.1_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/kn/thag/thag19.1_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/kn/thag/thag19.1_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn8/sn8.8_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn8/sn8.8_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn8/sn8.8_translation-en-sujato.json",
@@ -63,6 +60,9 @@
       "root/pli/ms/sutta/kn/thag/thag21.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag21.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag21.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag19.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag19.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag19.1_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag16.3_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag16.3_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag16.3_translation-en-sujato.json",
@@ -85,11 +85,11 @@
     "suttaRefs": [
       "sn32.13-52/de/sabbamitta",
       "sn32.57/de/sabbamitta",
-      "thag19.1/de/sabbamitta",
       "sn8.8/de/sabbamitta",
       "sn3.24/de/sabbamitta",
       "sn32.1/de/sabbamitta",
       "thag21.1/de/sabbamitta",
+      "thag19.1/de/sabbamitta",
       "thag16.3/de/sabbamitta",
       "iti75/de/sabbamitta",
       "an8.38/de/sabbamitta",
@@ -195,45 +195,6 @@
           "pli": 19,
           "de": 11,
           "en": 18
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/kn/thag/thag19.1_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/kn/thag/thag19.1_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/kn/thag/thag19.1_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "thag19.1",
-        "lang": "de",
-        "segMap": {
-          "thag19.1:12.1": {
-            "scid": "thag19.1:12.1",
-            "pli": "Kadā nu maṁ pāvusakālamegho, ",
-            "de": "Ach, wann werden die <span class=\"ebt-matched\">Regenwolke</span>n ",
-            "en": "Oh, when will the rain clouds in season ",
-            "matched": true
-          },
-          "thag19.1:54.2": {
-            "scid": "thag19.1:54.2",
-            "pli": "Rammaṁ giriṁ pāvusaabbhamāliniṁ; ",
-            "de": "werde ich den entzückenden, von <span class=\"ebt-matched\">Regenwolke</span>n bekränzten Berg besteigen ",
-            "en": "I’ll ascend the lovely mountain wreathed in cloud, ",
-            "matched": true
-          }
-        },
-        "score": 2.009,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Strophen der altehrwürdigen Mönche 19.1\nDas Fünfzigerbuch\n1. Das erste Kapitel\nTālapuṭa",
-        "segsMatched": 2,
-        "langSegs": {
-          "pli": 231,
-          "de": 224,
-          "en": 224
         }
       },
       {
@@ -522,6 +483,38 @@
           "pli": 93,
           "de": 92,
           "en": 92
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag19.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag19.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag19.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag19.1",
+        "lang": "de",
+        "segMap": {
+          "thag19.1:12.1": {
+            "scid": "thag19.1:12.1",
+            "pli": "Kadā nu maṁ pāvusakālamegho, ",
+            "de": "Ach, wann werden zur rechten Zeit die <span class=\"ebt-matched\">Regenwolke</span>n ",
+            "en": "Oh, when will the rain clouds in season ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 19.1\nDas Fünfzigerbuch\n1. Das erste Kapitel\nTālapuṭa",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 231,
+          "de": 224,
+          "en": 224
         }
       },
       {

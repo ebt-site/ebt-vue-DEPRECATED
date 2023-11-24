@@ -40,7 +40,7 @@
     "pattern": "ist es wirklich wahr",
     "method": "phrase",
     "resultPattern": "\\bist es wirklich wahr",
-    "segsMatched": 32,
+    "segsMatched": 36,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn26_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn26_translation-de-sabbamitta.json",
@@ -55,6 +55,12 @@
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.85_translation-de-sabbamitta.json",
       "translation/en/davis/sutta/sn/sn22/sn22.85_translation-en-davis.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.85_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn38_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn38_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn38_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn22_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn22_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn22_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn7/sn7.21_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn7/sn7.21_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn7/sn7.21_translation-en-sujato.json",
@@ -122,6 +128,8 @@
       "dn24/de/sabbamitta",
       "an3.61/de/sabbamitta",
       "sn22.85/de/sabbamitta",
+      "mn38/de/sabbamitta",
+      "mn22/de/sabbamitta",
       "sn7.21/de/sabbamitta",
       "sn22.84/de/sabbamitta",
       "sn21.4/de/sabbamitta",
@@ -333,6 +341,84 @@
           "pli": 197,
           "de": 188,
           "en": 196
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn22_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn22_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn22_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn22",
+        "lang": "de",
+        "segMap": {
+          "mn22:3.2": {
+            "scid": "mn22:3.2",
+            "pli": "“saccaṁ kira te, āvuso ariṭṭha, evarūpaṁ pāpakaṁ diṭṭhigataṁ uppannaṁ: ",
+            "de": "„<span class=\"ebt-matched\">Ist es wirklich wahr</span>, geehrter Ariṭṭha, dass du solch einen schädlichen Irrglauben hast: ",
+            "en": "“Is it really true, Reverend Ariṭṭha, that you have such a harmful misconception: ",
+            "matched": true
+          },
+          "mn22:5.7": {
+            "scid": "mn22:5.7",
+            "pli": "“saccaṁ kira te, ariṭṭha, evarūpaṁ pāpakaṁ diṭṭhigataṁ uppannaṁ: ",
+            "de": "„<span class=\"ebt-matched\">Ist es wirklich wahr</span>, Ariṭṭha, dass du solch einen schädlichen Irrglauben hast: ",
+            "en": "“Is it really true, Ariṭṭha, that you have such a harmful misconception: ",
+            "matched": true
+          }
+        },
+        "score": 2.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 22\nDas Gleichnis von der Kobra",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 359,
+          "de": 310,
+          "en": 358
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn38_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn38_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn38_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn38",
+        "lang": "de",
+        "segMap": {
+          "mn38:3.5": {
+            "scid": "mn38:3.5",
+            "pli": "“saccaṁ kira te, āvuso sāti, evarūpaṁ pāpakaṁ diṭṭhigataṁ uppannaṁ: ",
+            "de": "„<span class=\"ebt-matched\">Ist es wirklich wahr</span>, geehrter Sāti, dass du solch einen schädlichen Irrglauben hast: ",
+            "en": "“Is it really true, Reverend Sāti, that you have such a harmful misconception: ",
+            "matched": true
+          },
+          "mn38:5.7": {
+            "scid": "mn38:5.7",
+            "pli": "“saccaṁ kira te, sāti, evarūpaṁ pāpakaṁ diṭṭhigataṁ uppannaṁ: ",
+            "de": "„<span class=\"ebt-matched\">Ist es wirklich wahr</span>, Sāti, dass du solch einen schädlichen Irrglauben hast: ",
+            "en": "“Is it really true, Sāti, that you have such a harmful misconception: ",
+            "matched": true
+          }
+        },
+        "score": 2.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 38\nDie längere Lehrrede über die Auflösung des Verlangens",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 445,
+          "de": 325,
+          "en": 444
         }
       },
       {

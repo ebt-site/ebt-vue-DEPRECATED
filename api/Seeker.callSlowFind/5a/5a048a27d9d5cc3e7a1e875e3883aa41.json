@@ -40,7 +40,7 @@
     "pattern": "eine große hilfe",
     "method": "phrase",
     "resultPattern": "\\beine große hilfe",
-    "segsMatched": 34,
+    "segsMatched": 36,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an3/an3.24_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.24_translation-de-sabbamitta.json",
@@ -60,6 +60,9 @@
       "root/pli/ms/sutta/sn/sn22/sn22.83_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.83_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.83_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn22_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn22_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn22_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/iti/vagga11/iti104_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/iti/vagga11/iti104_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/iti/vagga11/iti104_translation-en-sujato.json",
@@ -110,6 +113,7 @@
       "an4.249/de/sabbamitta",
       "sn46.3/de/sabbamitta",
       "sn22.83/de/sabbamitta",
+      "mn22/de/sabbamitta",
       "iti104/de/sabbamitta",
       "iti17/de/sabbamitta",
       "iti16/de/sabbamitta",
@@ -446,6 +450,45 @@
           "pli": 40,
           "de": 39,
           "en": 39
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn22_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn22_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn22_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn22",
+        "lang": "de",
+        "segMap": {
+          "mn22:13.14": {
+            "scid": "mn22:13.14",
+            "pli": "‘bahukāro kho me ayaṁ kullo; ",
+            "de": "‚Dieses Floß war mir <span class=\"ebt-matched\">eine große Hilfe</span>. ",
+            "en": "‘This raft has been very helpful to me. ",
+            "matched": true
+          },
+          "mn22:13.22": {
+            "scid": "mn22:13.22",
+            "pli": "‘bahukāro kho me ayaṁ kullo; ",
+            "de": "‚Dieses Floß war mir <span class=\"ebt-matched\">eine große Hilfe</span>. … ",
+            "en": "‘This raft has been very helpful to me. … ",
+            "matched": true
+          }
+        },
+        "score": 2.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 22\nDas Gleichnis von der Kobra",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 359,
+          "de": 310,
+          "en": 358
         }
       },
       {

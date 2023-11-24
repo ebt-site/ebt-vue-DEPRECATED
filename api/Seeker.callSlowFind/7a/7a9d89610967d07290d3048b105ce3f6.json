@@ -40,8 +40,11 @@
     "pattern": "herzen, das frei von begehren",
     "method": "phrase",
     "resultPattern": "\\bherzen, das frei von begehren",
-    "segsMatched": 7,
+    "segsMatched": 8,
     "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn38_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn38_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn38_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json",
@@ -65,6 +68,7 @@
       "translation/en/sujato/sutta/an/an10/an10.99_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "mn38/de/sabbamitta",
       "dn2/de/sabbamitta",
       "dn25/de/sabbamitta",
       "dn10/de/sabbamitta",
@@ -296,6 +300,38 @@
           "pli": 650,
           "de": 589,
           "en": 633
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn38_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn38_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn38_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn38",
+        "lang": "de",
+        "segMap": {
+          "mn38:38.2": {
+            "scid": "mn38:38.2",
+            "pli": "So abhijjhaṁ loke pahāya vigatābhijjhena cetasā viharati, abhijjhāya cittaṁ parisodheti; ",
+            "de": "Er gibt das Begehren nach der Welt auf, meditiert mit einem <span class=\"ebt-matched\">Herzen, das frei von Begehren</span> ist, und läutert den Geist von Begehren. ",
+            "en": "Giving up covetousness for the world, they meditate with a heart rid of covetousness, cleansing the mind of covetousness. ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 38\nDie längere Lehrrede über die Auflösung des Verlangens",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 445,
+          "de": 325,
+          "en": 444
         }
       }
     ],

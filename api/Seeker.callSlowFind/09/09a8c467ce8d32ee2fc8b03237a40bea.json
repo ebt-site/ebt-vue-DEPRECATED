@@ -40,7 +40,7 @@
     "pattern": "jammer.* und klag",
     "method": "phrase",
     "resultPattern": "\\bjammer.* und klag",
-    "segsMatched": 41,
+    "segsMatched": 45,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an5/an5.50_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.50_translation-de-sabbamitta.json",
@@ -55,6 +55,9 @@
       "translation/de/sabbamitta/sutta/sn/sn36/sn36.6_translation-de-sabbamitta.json",
       "translation/en/davis/sutta/sn/sn36/sn36.6_translation-en-davis.json",
       "translation/en/sujato/sutta/sn/sn36/sn36.6_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn22_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn22_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn22_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.77_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.77_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an8/an8.77_translation-en-sujato.json",
@@ -76,6 +79,7 @@
       "an5.48/de/sabbamitta",
       "an4.184/de/sabbamitta",
       "sn36.6/de/sabbamitta",
+      "mn22/de/sabbamitta",
       "an8.77/de/sabbamitta",
       "an8.61/de/sabbamitta",
       "sn36.4/de/sabbamitta",
@@ -484,6 +488,59 @@
           "pli": 63,
           "de": 62,
           "en": 62
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn22_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn22_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn22_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn22",
+        "lang": "de",
+        "segMap": {
+          "mn22:18.7": {
+            "scid": "mn22:18.7",
+            "pli": "So socati kilamati paridevati urattāḷiṁ kandati sammohaṁ āpajjati. ",
+            "de": "Er ist bekümmert und <span class=\"ebt-matched\">jammert und klag</span>t, schlägt sich an die Brust und stürzt in Verwirrung. ",
+            "en": "They sorrow and wail and lament, beating their breast and falling into confusion. ",
+            "matched": true
+          },
+          "mn22:19.6": {
+            "scid": "mn22:19.6",
+            "pli": "So na socati na kilamati na paridevati na urattāḷiṁ kandati na sammohaṁ āpajjati. ",
+            "de": "Er ist nicht bekümmert, <span class=\"ebt-matched\">jammert und klag</span>t nicht, schlägt sich nicht an die Brust und stürzt nicht in Verwirrung. ",
+            "en": "They don’t sorrow and wail and lament, beating their breast and falling into confusion. ",
+            "matched": true
+          },
+          "mn22:20.8": {
+            "scid": "mn22:20.8",
+            "pli": "So socati kilamati paridevati urattāḷiṁ kandati sammohaṁ āpajjati. ",
+            "de": "Er ist bekümmert und <span class=\"ebt-matched\">jammert und klag</span>t, schlägt sich an die Brust und stürzt in Verwirrung. ",
+            "en": "They sorrow and wail and lament, beating their breast and falling into confusion. ",
+            "matched": true
+          },
+          "mn22:21.8": {
+            "scid": "mn22:21.8",
+            "pli": "So na socati na kilamati na paridevati na urattāḷiṁ kandati na sammohaṁ āpajjati. ",
+            "de": "Er ist nicht bekümmert, <span class=\"ebt-matched\">jammert und klag</span>t nicht, schlägt sich nicht an die Brust und stürzt nicht in Verwirrung. ",
+            "en": "They don’t sorrow and wail and lament, beating their breast and falling into confusion. ",
+            "matched": true
+          }
+        },
+        "score": 4.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 22\nDas Gleichnis von der Kobra",
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 359,
+          "de": 310,
+          "en": 358
         }
       },
       {

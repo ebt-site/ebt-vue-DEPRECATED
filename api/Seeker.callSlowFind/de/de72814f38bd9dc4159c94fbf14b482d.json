@@ -40,7 +40,7 @@
     "pattern": "eine bedingung für alter und tod",
     "method": "phrase",
     "resultPattern": "\\beine bedingung für alter und tod",
-    "segsMatched": 21,
+    "segsMatched": 22,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn12/sn12.34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.34_translation-de-sabbamitta.json",
@@ -83,7 +83,10 @@
       "root/pli/ms/sutta/sn/sn12/sn12.35_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.35_translation-de-sabbamitta.json",
       "translation/en/davis/sutta/sn/sn12/sn12.35_translation-en-davis.json",
-      "translation/en/sujato/sutta/sn/sn12/sn12.35_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn12/sn12.35_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn38_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn38_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn38_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "sn12.34/de/sabbamitta",
@@ -97,7 +100,8 @@
       "sn12.70/de/sabbamitta",
       "sn12.67/de/sabbamitta",
       "sn12.36/de/sabbamitta",
-      "sn12.35/de/sabbamitta"
+      "sn12.35/de/sabbamitta",
+      "mn38/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -551,6 +555,38 @@
           "pli": 180,
           "de": 166,
           "en": 176
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn38_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn38_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn38_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn38",
+        "lang": "de",
+        "segMap": {
+          "mn38:18.1": {
+            "scid": "mn38:18.1",
+            "pli": "Jātipaccayā jarāmaraṇanti iti kho panetaṁ vuttaṁ; ",
+            "de": "‚Wiedergeburt ist <span class=\"ebt-matched\">eine Bedingung für Alter und Tod</span>‘ – das habe ich gesagt. ",
+            "en": "‘Rebirth is a condition for old age and death.’ That’s what I said. ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 38\nDie längere Lehrrede über die Auflösung des Verlangens",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 445,
+          "de": 325,
+          "en": 444
         }
       }
     ],

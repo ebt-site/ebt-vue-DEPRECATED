@@ -40,7 +40,7 @@
     "pattern": "nicht euer",
     "method": "phrase",
     "resultPattern": "\\bnicht euer",
-    "segsMatched": 76,
+    "segsMatched": 90,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn35/sn35.101_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn35/sn35.101_translation-de-sabbamitta.json",
@@ -50,6 +50,9 @@
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.33_translation-de-sabbamitta.json",
       "translation/en/davis/sutta/sn/sn22/sn22.33_translation-en-davis.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.33_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn22_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn22_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn22_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn22/sn22.34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.34_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.34_translation-en-sujato.json",
@@ -102,6 +105,7 @@
     "suttaRefs": [
       "sn35.101/de/sabbamitta",
       "sn22.33/de/sabbamitta",
+      "mn22/de/sabbamitta",
       "sn22.34/de/sabbamitta",
       "sn35.102/de/sabbamitta",
       "sn35.138/de/sabbamitta",
@@ -400,6 +404,129 @@
           "pli": 31,
           "de": 28,
           "en": 30
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn22_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn22_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn22_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn22",
+        "lang": "de",
+        "segMap": {
+          "mn22:40.1": {
+            "scid": "mn22:40.1",
+            "pli": "Tasmātiha, bhikkhave, yaṁ na tumhākaṁ taṁ pajahatha; ",
+            "de": "Daher, Mönche und Nonnen, gebt auf, was <span class=\"ebt-matched\">nicht euer</span> ist. ",
+            "en": "So, mendicants, give up what isn't yours. ",
+            "matched": true
+          },
+          "mn22:41.1": {
+            "scid": "mn22:41.1",
+            "pli": "Kiñca, bhikkhave, na tumhākaṁ? ",
+            "de": "Und was ist <span class=\"ebt-matched\">nicht euer</span>? ",
+            "en": "And what isn’t yours? ",
+            "matched": true
+          },
+          "mn22:41.2": {
+            "scid": "mn22:41.2",
+            "pli": "Rūpaṁ, bhikkhave, na tumhākaṁ, taṁ pajahatha; ",
+            "de": "Form ist <span class=\"ebt-matched\">nicht euer</span>: Gebt sie auf. ",
+            "en": "Form isn’t yours: give it up. ",
+            "matched": true
+          },
+          "mn22:41.4": {
+            "scid": "mn22:41.4",
+            "pli": "Vedanā, bhikkhave, na tumhākaṁ, taṁ pajahatha; ",
+            "de": "Gefühl ist <span class=\"ebt-matched\">nicht euer</span> … ",
+            "en": "Feeling … ",
+            "matched": true
+          },
+          "mn22:41.6": {
+            "scid": "mn22:41.6",
+            "pli": "Saññā, bhikkhave, na tumhākaṁ, taṁ pajahatha; ",
+            "de": "Wahrnehmung ist <span class=\"ebt-matched\">nicht euer</span> … ",
+            "en": "perception … ",
+            "matched": true
+          },
+          "mn22:41.8": {
+            "scid": "mn22:41.8",
+            "pli": "Saṅkhārā, bhikkhave, na tumhākaṁ, te pajahatha; ",
+            "de": "Entscheidungen sind <span class=\"ebt-matched\">nicht euer</span> … ",
+            "en": "choices … ",
+            "matched": true
+          },
+          "mn22:41.10": {
+            "scid": "mn22:41.10",
+            "pli": "Viññāṇaṁ, bhikkhave, na tumhākaṁ, taṁ pajahatha; ",
+            "de": "Bewusstsein ist <span class=\"ebt-matched\">nicht euer</span>: Gebt es auf. ",
+            "en": "consciousness isn’t yours: give it up. ",
+            "matched": true
+          },
+          "mn22:41.19": {
+            "scid": "mn22:41.19",
+            "pli": "“Evameva kho, bhikkhave, yaṁ na tumhākaṁ taṁ pajahatha; ",
+            "de": "„Ebenso, Mönche und Nonnen, gebt auf, was <span class=\"ebt-matched\">nicht euer</span> ist. ",
+            "en": "“In the same way, mendicants, give up what isn't yours. ",
+            "matched": true
+          },
+          "mn22:41.21": {
+            "scid": "mn22:41.21",
+            "pli": "Kiñca, bhikkhave, na tumhākaṁ? ",
+            "de": "Und was ist <span class=\"ebt-matched\">nicht euer</span>? ",
+            "en": "And what isn’t yours? ",
+            "matched": true
+          },
+          "mn22:41.22": {
+            "scid": "mn22:41.22",
+            "pli": "Rūpaṁ, bhikkhave, na tumhākaṁ, taṁ pajahatha; ",
+            "de": "Form ist <span class=\"ebt-matched\">nicht euer</span> … ",
+            "en": "Form … ",
+            "matched": true
+          },
+          "mn22:41.24": {
+            "scid": "mn22:41.24",
+            "pli": "Vedanā, bhikkhave …pe… ",
+            "de": "Gefühl ist <span class=\"ebt-matched\">nicht euer</span> … ",
+            "en": "feeling … ",
+            "matched": true
+          },
+          "mn22:41.25": {
+            "scid": "mn22:41.25",
+            "pli": "saññā, bhikkhave … ",
+            "de": "Wahrnehmung ist <span class=\"ebt-matched\">nicht euer</span> … ",
+            "en": "perception … ",
+            "matched": true
+          },
+          "mn22:41.26": {
+            "scid": "mn22:41.26",
+            "pli": "saṅkhārā, bhikkhave …pe… ",
+            "de": "Entscheidungen sind <span class=\"ebt-matched\">nicht euer</span> … ",
+            "en": "choices … ",
+            "matched": true
+          },
+          "mn22:41.27": {
+            "scid": "mn22:41.27",
+            "pli": "viññāṇaṁ, bhikkhave, na tumhākaṁ, taṁ pajahatha; ",
+            "de": "Bewusstsein ist <span class=\"ebt-matched\">nicht euer</span>: Gebt es auf. ",
+            "en": "consciousness isn’t yours: give it up. ",
+            "matched": true
+          }
+        },
+        "score": 14.039,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 22\nDas Gleichnis von der Kobra",
+        "segsMatched": 14,
+        "langSegs": {
+          "pli": 359,
+          "de": 310,
+          "en": 358
         }
       },
       {

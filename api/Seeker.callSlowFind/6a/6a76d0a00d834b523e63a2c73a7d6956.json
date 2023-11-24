@@ -40,17 +40,21 @@
     "pattern": "ein embryo.* empfangen",
     "method": "phrase",
     "resultPattern": "\\bein embryo.* empfangen",
-    "segsMatched": 3,
+    "segsMatched": 4,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn93_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn93_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn93_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn38_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn38_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn38_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.61_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.61_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.61_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "mn93/de/sabbamitta",
+      "mn38/de/sabbamitta",
       "an3.61/de/sabbamitta"
     ],
     "mlDocs": [
@@ -123,6 +127,38 @@
           "pli": 117,
           "de": 116,
           "en": 116
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn38_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn38_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn38_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn38",
+        "lang": "de",
+        "segMap": {
+          "mn38:26.1": {
+            "scid": "mn38:26.1",
+            "pli": "Tiṇṇaṁ kho pana, bhikkhave, sannipātā gabbhassāvakkanti hoti. ",
+            "de": "Mönche und Nonnen, wenn drei Dinge zusammenkommen, wird <span class=\"ebt-matched\">ein Embryo empfangen</span>. ",
+            "en": "Mendicants, when three things come together an embryo is conceived. ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 38\nDie längere Lehrrede über die Auflösung des Verlangens",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 445,
+          "de": 325,
+          "en": 444
         }
       }
     ],
