@@ -40,8 +40,11 @@
     "pattern": "eine straße entlangwanderte",
     "method": "phrase",
     "resultPattern": "\\beine straße entlangwanderte",
-    "segsMatched": 3,
+    "segsMatched": 4,
     "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn22_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn22_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn22_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json",
@@ -53,6 +56,7 @@
       "translation/en/sujato/sutta/dn/dn10_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "mn22/de/sabbamitta",
       "dn2/de/sabbamitta",
       "dn16/de/sabbamitta",
       "dn10/de/sabbamitta"
@@ -88,6 +92,38 @@
           "pli": 285,
           "de": 227,
           "en": 227
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn22_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn22_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn22_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn22",
+        "lang": "de",
+        "segMap": {
+          "mn22:13.5": {
+            "scid": "mn22:13.5",
+            "pli": "“Seyyathāpi, bhikkhave, puriso addhānamaggappaṭipanno. ",
+            "de": "„Wie wenn da jemand <span class=\"ebt-matched\">eine Straße entlangwanderte</span>, ",
+            "en": "“Suppose there was a person traveling along the road. ",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 22\nDas Gleichnis von der Kobra",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 359,
+          "de": 310,
+          "en": 358
         }
       },
       {

@@ -40,7 +40,7 @@
     "pattern": "schwer zu sehen",
     "method": "phrase",
     "resultPattern": "\\bschwer zu sehen",
-    "segsMatched": 17,
+    "segsMatched": 18,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn1_translation-de-sabbamitta.json",
@@ -78,6 +78,10 @@
       "root/pli/ms/sutta/kn/snp/vagga4/snp4.15_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/snp/vagga4/snp4.15_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/snp/vagga4/snp4.15_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/dhp/dhp33-43_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/dhp/dhp33-43_translation-de-sabbamitta.json",
+      "translation/en/suddhaso/sutta/kn/dhp/dhp33-43_translation-en-suddhaso.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp33-43_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn14_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json"
@@ -94,6 +98,7 @@
       "thag19.1/de/sabbamitta",
       "thag1.4/de/sabbamitta",
       "snp4.15/de/sabbamitta",
+      "dhp33-43/de/sabbamitta",
       "dn14/de/sabbamitta"
     ],
     "mlDocs": [
@@ -389,6 +394,39 @@
           "pli": 53,
           "de": 53,
           "en": 53
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/dhp/dhp33-43_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/dhp/dhp33-43_translation-de-sabbamitta.json",
+          "translation/en/suddhaso/sutta/kn/dhp/dhp33-43_translation-en-suddhaso.json",
+          "translation/en/sujato/sutta/kn/dhp/dhp33-43_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dhp33-43",
+        "lang": "de",
+        "segMap": {
+          "dhp36:1": {
+            "scid": "dhp36:1",
+            "pli": "Sududdasaṁ sunipuṇaṁ, ",
+            "de": "So <span class=\"ebt-matched\">schwer zu sehen</span>, so subtil, ",
+            "en": "So hard to see, so subtle, ",
+            "matched": true
+          }
+        },
+        "score": 1.018,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Kleinere Sammlung\nDhammasprüche 33–43\n3. Das Kapitel über den Geist\nMeghiyattheravatthu",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 57,
+          "de": 47,
+          "en": 47
         }
       },
       {

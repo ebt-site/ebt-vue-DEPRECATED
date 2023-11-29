@@ -38,12 +38,186 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "vierfachen beschränkung",
-    "method": "keywords",
-    "resultPattern": "\\bvierfachen|\\bbeschränkung",
-    "segsMatched": 0,
-    "bilaraPaths": [],
-    "suttaRefs": [],
-    "mlDocs": [],
+    "method": "phrase",
+    "resultPattern": "\\bvierfachen beschränkung",
+    "segsMatched": 12,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn25_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn25_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn25_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn2/sn2.30_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn2/sn2.30_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn2/sn2.30_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "dn25/de/sabbamitta",
+      "dn2/de/sabbamitta",
+      "sn2.30/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn25_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn25_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn25_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn25",
+        "lang": "de",
+        "segMap": {
+          "dn25:16.3": {
+            "scid": "dn25:16.3",
+            "pli": "“Idha, nigrodha, tapassī cātuyāmasaṁvarasaṁvuto hoti. ",
+            "de": "„Nigrodha, da ist ein Büßer mit der <span class=\"ebt-matched\">vierfachen Beschränkung</span> gezügelt. ",
+            "en": "“Nigrodha, take a mortifier who is restrained in the fourfold restraint. ",
+            "matched": true
+          },
+          "dn25:16.4": {
+            "scid": "dn25:16.4",
+            "pli": "Kathañca, nigrodha, tapassī cātuyāmasaṁvarasaṁvuto hoti? ",
+            "de": "Und wie ist ein Büßer mit der <span class=\"ebt-matched\">vierfachen Beschränkung</span> gezügelt? ",
+            "en": "And how is a mortifier restrained in the fourfold restraint? ",
+            "matched": true
+          },
+          "dn25:16.9": {
+            "scid": "dn25:16.9",
+            "pli": "Evaṁ kho, nigrodha, tapassī cātuyāmasaṁvarasaṁvuto hoti. ",
+            "de": "So ist ein Büßer mit der <span class=\"ebt-matched\">vierfachen Beschränkung</span> gezügelt. ",
+            "en": "That’s how a mortifier is restrained in the fourfold restraint. ",
+            "matched": true
+          },
+          "dn25:16.10": {
+            "scid": "dn25:16.10",
+            "pli": "Yato kho, nigrodha, tapassī cātuyāmasaṁvarasaṁvuto hoti, aduṁ cassa hoti tapassitāya. ",
+            "de": "Wenn ein Büßer mit der <span class=\"ebt-matched\">vierfachen Beschränkung</span> gezügelt ist, so ist das seine Bußübung. ",
+            "en": "When a mortifier has the fourfold restraint, that is their mortification. ",
+            "matched": true
+          },
+          "dn25:18.3": {
+            "scid": "dn25:18.3",
+            "pli": "“Idha, nigrodha, tapassī cātuyāmasaṁvarasaṁvuto hoti. ",
+            "de": "„Nigrodha, da ist ein Büßer mit der <span class=\"ebt-matched\">vierfachen Beschränkung</span> gezügelt. ",
+            "en": "“Nigrodha, take a mortifier who is restrained in the fourfold restraint. ",
+            "matched": true
+          },
+          "dn25:19.3": {
+            "scid": "dn25:19.3",
+            "pli": "“Idha, nigrodha, tapassī cātuyāmasaṁvarasaṁvuto hoti. ",
+            "de": "„Nigrodha, da ist ein Büßer mit der <span class=\"ebt-matched\">vierfachen Beschränkung</span> gezügelt. ",
+            "en": "“Nigrodha, take a mortifier who is restrained in the fourfold restraint. ",
+            "matched": true
+          }
+        },
+        "score": 6.016,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 25\nDas Löwengebrüll im Kloster der Dame Udumbarikā",
+        "segsMatched": 6,
+        "langSegs": {
+          "pli": 383,
+          "de": 351,
+          "en": 382
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn2",
+        "lang": "de",
+        "segMap": {
+          "dn2:29.2": {
+            "scid": "dn2:29.2",
+            "pli": "‘idha, mahārāja, nigaṇṭho cātuyāmasaṁvarasaṁvuto hoti. ",
+            "de": "‚Großer König, da ist ein Jaina-Asket mit der <span class=\"ebt-matched\">vierfachen Beschränkung</span> gezügelt. ",
+            "en": "‘Great king, consider a Jain ascetic who is restrained in the fourfold restraint. ",
+            "matched": true
+          },
+          "dn2:29.3": {
+            "scid": "dn2:29.3",
+            "pli": "Kathañca, mahārāja, nigaṇṭho cātuyāmasaṁvarasaṁvuto hoti? ",
+            "de": "Und wie ist ein Jaina-Asket mit der <span class=\"ebt-matched\">vierfachen Beschränkung</span> gezügelt? ",
+            "en": "And how is a Jain ascetic restrained in the fourfold restraint? ",
+            "matched": true
+          },
+          "dn2:29.5": {
+            "scid": "dn2:29.5",
+            "pli": "Evaṁ kho, mahārāja, nigaṇṭho cātuyāmasaṁvarasaṁvuto hoti. ",
+            "de": "So ist ein Jaina-Asket mit der <span class=\"ebt-matched\">vierfachen Beschränkung</span> gezügelt. ",
+            "en": "That’s how a Jain ascetic is restrained in the fourfold restraint. ",
+            "matched": true
+          },
+          "dn2:29.6": {
+            "scid": "dn2:29.6",
+            "pli": "Yato kho, mahārāja, nigaṇṭho evaṁ cātuyāmasaṁvarasaṁvuto hoti; ",
+            "de": "Wenn ein Jaina-Asket mit der <span class=\"ebt-matched\">vierfachen Beschränkung</span> gezügelt ist, ",
+            "en": "When a Jain ascetic is restrained in the fourfold restraint, ",
+            "matched": true
+          },
+          "dn2:30.1": {
+            "scid": "dn2:30.1",
+            "pli": "Itthaṁ kho me, bhante, nigaṇṭho nāṭaputto sandiṭṭhikaṁ sāmaññaphalaṁ puṭṭho samāno cātuyāmasaṁvaraṁ byākāsi. ",
+            "de": "Und als ich so den Jaina Ñātika nach den Früchten des Asketenlebens fragte, die in diesem Leben ersichtlich sind, antwortete er mit der <span class=\"ebt-matched\">vierfachen Beschränkung</span>. ",
+            "en": "And so, when I asked the Jain Ñātika about the fruits of the ascetic life apparent in the present life, he answered with the fourfold restraint. ",
+            "matched": true
+          }
+        },
+        "score": 5.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 2\nDie Früchte des Asketenlebens",
+        "segsMatched": 5,
+        "langSegs": {
+          "pli": 650,
+          "de": 589,
+          "en": 633
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn2/sn2.30_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn2/sn2.30_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn2/sn2.30_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn2.30",
+        "lang": "de",
+        "segMap": {
+          "sn2.30:6.2": {
+            "scid": "sn2.30:6.2",
+            "pli": "Cātuyāmasusaṁvuto; ",
+            "de": "mit der <span class=\"ebt-matched\">vierfachen Beschränkung</span> gut gezügelt; ",
+            "en": "well restrained in the four controls; ",
+            "matched": true
+          }
+        },
+        "score": 1.016,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 2.30\n3. Das Kapitel über Schüler verschiedener Lehrer anderer Konfessionen\nDie Schüler verschiedener Lehrer anderer Konfessionen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 61,
+          "de": 55,
+          "en": 60
+        }
+      }
+    ],
     "refLang": "en",
     "refAuthor": "sujato",
     "docLang": "de",

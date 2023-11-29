@@ -40,7 +40,7 @@
     "pattern": "schaumklumpen",
     "method": "phrase",
     "resultPattern": "\\bschaumklumpen",
-    "segsMatched": 4,
+    "segsMatched": 5,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn22/sn22.95_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.95_translation-de-sabbamitta.json",
@@ -49,11 +49,16 @@
       "root/pli/ms/sutta/kn/thig/thig16.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thig/thig16.1_translation-de-sabbamitta.json",
       "translation/en/soma/sutta/kn/thig/thig16.1_translation-en-soma.json",
-      "translation/en/sujato/sutta/kn/thig/thig16.1_translation-en-sujato.json"
+      "translation/en/sujato/sutta/kn/thig/thig16.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/dhp/dhp44-59_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/dhp/dhp44-59_translation-de-sabbamitta.json",
+      "translation/en/suddhaso/sutta/kn/dhp/dhp44-59_translation-en-suddhaso.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp44-59_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "sn22.95/de/sabbamitta",
-      "thig16.1/de/sabbamitta"
+      "thig16.1/de/sabbamitta",
+      "dhp44-59/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -101,6 +106,39 @@
           "pli": 51,
           "de": 50,
           "en": 50
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/dhp/dhp44-59_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/dhp/dhp44-59_translation-de-sabbamitta.json",
+          "translation/en/suddhaso/sutta/kn/dhp/dhp44-59_translation-en-suddhaso.json",
+          "translation/en/sujato/sutta/kn/dhp/dhp44-59_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dhp44-59",
+        "lang": "de",
+        "segMap": {
+          "dhp46:1": {
+            "scid": "dhp46:1",
+            "pli": "Pheṇūpamaṁ kāyamimaṁ viditvā, ",
+            "de": "Erkenne, dass dieser Körper wie ein <span class=\"ebt-matched\">Schaumklumpen</span> ist, ",
+            "en": "Knowing this body’s like foam, ",
+            "matched": true
+          }
+        },
+        "score": 1.012,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Kleinere Sammlung\nDhammasprüche 44–59\n4. Das Kapitel über Blumen\nPathavikathāpasutapañcasatabhikkhuvatthu",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 80,
+          "de": 67,
+          "en": 67
         }
       },
       {
