@@ -40,7 +40,7 @@
     "pattern": "staub, der gegen den wind",
     "method": "phrase",
     "resultPattern": "\\bstaub, der gegen den wind",
-    "segsMatched": 2,
+    "segsMatched": 3,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn7/sn7.4_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn7/sn7.4_translation-de-sabbamitta.json",
@@ -48,11 +48,16 @@
       "root/pli/ms/sutta/sn/sn1/sn1.22_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn1/sn1.22_translation-de-sabbamitta.json",
       "translation/en/davis/sutta/sn/sn1/sn1.22_translation-en-davis.json",
-      "translation/en/sujato/sutta/sn/sn1/sn1.22_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn1/sn1.22_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/dhp/dhp116-128_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/dhp/dhp116-128_translation-de-sabbamitta.json",
+      "translation/en/suddhaso/sutta/kn/dhp/dhp116-128_translation-en-suddhaso.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp116-128_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "sn7.4/de/sabbamitta",
-      "sn1.22/de/sabbamitta"
+      "sn1.22/de/sabbamitta",
+      "dhp116-128/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -118,6 +123,39 @@
           "pli": 15,
           "de": 14,
           "en": 15
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/dhp/dhp116-128_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/dhp/dhp116-128_translation-de-sabbamitta.json",
+          "translation/en/suddhaso/sutta/kn/dhp/dhp116-128_translation-en-suddhaso.json",
+          "translation/en/sujato/sutta/kn/dhp/dhp116-128_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dhp116-128",
+        "lang": "de",
+        "segMap": {
+          "dhp125:4": {
+            "scid": "dhp125:4",
+            "pli": "Sukhumo rajo paṭivātaṁva khitto. ",
+            "de": "wie feiner <span class=\"ebt-matched\">Staub, der gegen den Wind</span> geworfen wird. ",
+            "en": "like fine dust thrown upwind. ",
+            "matched": true
+          }
+        },
+        "score": 1.014,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Kleinere Sammlung\nDhammasprüche 116–128\n9. Das Kapitel über Böses\nCūḷekasāṭakabrāhmaṇavatthu",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 72,
+          "de": 59,
+          "en": 59
         }
       }
     ],

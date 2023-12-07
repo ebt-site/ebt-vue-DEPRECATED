@@ -40,18 +40,23 @@
     "pattern": "das selbst ist",
     "method": "phrase",
     "resultPattern": "\\bdas selbst ist",
-    "segsMatched": 5,
+    "segsMatched": 6,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn1_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn24/sn24.38_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn24/sn24.38_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn24/sn24.38_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn24/sn24.38_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/dhp/dhp157-166_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/dhp/dhp157-166_translation-de-sabbamitta.json",
+      "translation/en/suddhaso/sutta/kn/dhp/dhp157-166_translation-en-suddhaso.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp157-166_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "dn1/de/sabbamitta",
-      "sn24.38/de/sabbamitta"
+      "sn24.38/de/sabbamitta",
+      "dhp157-166/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -137,6 +142,39 @@
           "pli": 8,
           "de": 6,
           "en": 7
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/dhp/dhp157-166_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/dhp/dhp157-166_translation-de-sabbamitta.json",
+          "translation/en/suddhaso/sutta/kn/dhp/dhp157-166_translation-en-suddhaso.json",
+          "translation/en/sujato/sutta/kn/dhp/dhp157-166_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dhp157-166",
+        "lang": "de",
+        "segMap": {
+          "dhp159:4": {
+            "scid": "dhp159:4",
+            "pli": "attā hi kira duddamo. ",
+            "de": "denn <span class=\"ebt-matched\">das Selbst ist</span> schwer zu zähmen, sagt man. ",
+            "en": "for the self is hard to tame, they say. ",
+            "matched": true
+          }
+        },
+        "score": 1.017,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Kleinere Sammlung\nDhammasprüche 157–166\n12. Das Kapitel über das Selbst\nBodhirājakumāravatthu",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 58,
+          "de": 47,
+          "en": 58
         }
       }
     ],

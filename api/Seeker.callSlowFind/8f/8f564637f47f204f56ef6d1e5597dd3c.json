@@ -40,7 +40,7 @@
     "pattern": "wenig gelernt",
     "method": "phrase",
     "resultPattern": "\\bwenig gelernt",
-    "segsMatched": 15,
+    "segsMatched": 16,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an4/an4.6_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.6_translation-de-sabbamitta.json",
@@ -51,6 +51,10 @@
       "root/pli/ms/sutta/kn/thag/thag17.3_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag17.3_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag17.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/dhp/dhp146-156_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/dhp/dhp146-156_translation-de-sabbamitta.json",
+      "translation/en/suddhaso/sutta/kn/dhp/dhp146-156_translation-en-suddhaso.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp146-156_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.158_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.158_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.158_translation-en-sujato.json",
@@ -62,6 +66,7 @@
       "an4.6/de/sabbamitta",
       "an5.157/de/sabbamitta",
       "thag17.3/de/sabbamitta",
+      "dhp146-156/de/sabbamitta",
       "an5.158/de/sabbamitta",
       "an5.101/de/sabbamitta"
     ],
@@ -294,6 +299,39 @@
           "pli": 18,
           "de": 17,
           "en": 17
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/dhp/dhp146-156_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/dhp/dhp146-156_translation-de-sabbamitta.json",
+          "translation/en/suddhaso/sutta/kn/dhp/dhp146-156_translation-en-suddhaso.json",
+          "translation/en/sujato/sutta/kn/dhp/dhp146-156_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dhp146-156",
+        "lang": "de",
+        "segMap": {
+          "dhp152:1": {
+            "scid": "dhp152:1",
+            "pli": "Appassutāyaṁ puriso, ",
+            "de": "Ein Mensch, der <span class=\"ebt-matched\">wenig gelernt</span> hat, ",
+            "en": "A person of little learning ",
+            "matched": true
+          }
+        },
+        "score": 1.017,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Kleinere Sammlung\nDhammasprüche 146–156\n11. Das Kapitel über das Alter\nVisākhāyasahāyikānaṁvatthu",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 59,
+          "de": 49,
+          "en": 49
         }
       }
     ],

@@ -40,7 +40,7 @@
     "pattern": "leiden bringen",
     "method": "phrase",
     "resultPattern": "\\bleiden bringen",
-    "segsMatched": 2,
+    "segsMatched": 3,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn1/sn1.24_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn1/sn1.24_translation-de-sabbamitta.json",
@@ -48,11 +48,15 @@
       "translation/en/sujato/sutta/sn/sn1/sn1.24_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag14.2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag14.2_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/kn/thag/thag14.2_translation-en-sujato.json"
+      "translation/en/sujato/sutta/kn/thag/thag14.2_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/dhp/dhp179-196_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/dhp/dhp179-196_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp179-196_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "sn1.24/de/sabbamitta",
-      "thag14.2/de/sabbamitta"
+      "thag14.2/de/sabbamitta",
+      "dhp179-196/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -118,6 +122,38 @@
           "pli": 67,
           "de": 60,
           "en": 60
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/dhp/dhp179-196_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/dhp/dhp179-196_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/dhp/dhp179-196_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dhp179-196",
+        "lang": "de",
+        "segMap": {
+          "dhp186:4": {
+            "scid": "dhp186:4",
+            "pli": "iti viññāya paṇḍito. ",
+            "de": "die wenig vorteilhafte Folgen und viel <span class=\"ebt-matched\">Leiden bringen</span>. ",
+            "en": "offer little gratification and much suffering. ",
+            "matched": true
+          }
+        },
+        "score": 1.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Kleinere Sammlung\nDhammasprüche 179–196\n14. Das Kapitel über die Buddhas\nMāradhītaravatthu",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 88,
+          "de": 77,
+          "en": 77
         }
       }
     ],

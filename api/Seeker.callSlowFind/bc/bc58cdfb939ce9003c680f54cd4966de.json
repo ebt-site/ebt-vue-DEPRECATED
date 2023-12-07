@@ -38,180 +38,25 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "verbindlich.* erklär",
-    "method": "phrase",
-    "resultPattern": "\\bverbindlich.* erklär",
-    "segsMatched": 7,
+    "method": "keywords",
+    "resultPattern": "\\bverbindlich.*|\\berklär",
+    "segsMatched": 0,
     "bilaraPaths": [
-      "root/pli/ms/sutta/an/an3/an3.21_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an3/an3.21_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an3/an3.21_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn24_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/dn/dn24_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn24_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an6/an6.62_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an6/an6.62_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an6/an6.62_translation-en-sujato.json"
+      "root/pli/ms/sutta/dn/dn28_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn28_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn28_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga2/snp2.12_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/snp/vagga2/snp2.12_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/snp/vagga2/snp2.12_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag21.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag21.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag21.1_translation-en-sujato.json"
     ],
-    "suttaRefs": [
-      "an3.21/de/sabbamitta",
-      "dn24/de/sabbamitta",
-      "dn16/de/sabbamitta",
-      "an6.62/de/sabbamitta"
-    ],
-    "mlDocs": [
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/an/an3/an3.21_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/an/an3/an3.21_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/an/an3/an3.21_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "an3.21",
-        "lang": "de",
-        "segMap": {
-          "an3.21:9.1": {
-            "scid": "an3.21:9.1",
-            "pli": "“Na khvettha, sāriputta, sukaraṁ ekaṁsena byākātuṁ: ",
-            "de": "„Es ist nicht leicht, Sāriputta, in dieser Sache <span class=\"ebt-matched\">verbindlich zu erklär</span>en, ",
-            "en": "“In this matter, Sāriputta, it’s not easy to categorically declare that ",
-            "matched": true
-          },
-          "an3.21:10.1": {
-            "scid": "an3.21:10.1",
-            "pli": "Na khvettha, sāriputta, sukaraṁ ekaṁsena byākātuṁ: ",
-            "de": "Es ist nicht leicht, in dieser Sache <span class=\"ebt-matched\">verbindlich zu erklär</span>en, ",
-            "en": "In this matter, it’s not easy to categorically declare that ",
-            "matched": true
-          },
-          "an3.21:11.1": {
-            "scid": "an3.21:11.1",
-            "pli": "Na khvettha, sāriputta, sukaraṁ ekaṁsena byākātuṁ: ",
-            "de": "Es ist nicht leicht, in dieser Sache <span class=\"ebt-matched\">verbindlich zu erklär</span>en, ",
-            "en": "In this matter, it’s not easy to categorically declare that ",
-            "matched": true
-          },
-          "an3.21:12.1": {
-            "scid": "an3.21:12.1",
-            "pli": "Na khvettha, sāriputta, sukaraṁ ekaṁsena byākātuṁ: ",
-            "de": "Es ist nicht leicht, in dieser Sache <span class=\"ebt-matched\">verbindlich zu erklär</span>en, ",
-            "en": "In this matter, it’s not easy to categorically declare that ",
-            "matched": true
-          }
-        },
-        "score": 4.063,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Nummerierte Lehrreden 3.21\n3. Das Kapitel über Menschen\nMit Saviṭṭha",
-        "segsMatched": 4,
-        "langSegs": {
-          "pli": 64,
-          "de": 63,
-          "en": 63
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/an/an6/an6.62_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/an/an6/an6.62_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/an/an6/an6.62_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "an6.62",
-        "lang": "de",
-        "segMap": {
-          "an6.62:4.2": {
-            "scid": "an6.62:4.2",
-            "pli": "Kathañhi nāma yaṁ mayā ekaṁsena byākataṁ tattha dvejjhaṁ āpajjissati. ",
-            "de": "Wie in aller Welt kann er etwas, das ich <span class=\"ebt-matched\">verbindlich erklär</span>t habe, für zweideutig halten? ",
-            "en": "How on earth can he take something that I have declared categorically to be ambiguous? ",
-            "matched": true
-          }
-        },
-        "score": 1.006,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Nummerierte Lehrreden 6.62\n6. Das große Kapitel\nErkenntnis der menschlichen Fähigkeiten",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 157,
-          "de": 118,
-          "en": 156
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/dn/dn24_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/dn/dn24_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/dn/dn24_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "dn24",
-        "lang": "de",
-        "segMap": {
-          "dn24:1.17.4": {
-            "scid": "dn24:1.17.4",
-            "pli": "‘Bhagavatā cassa, bhante, esā vācā ekaṁsena odhāritā—",
-            "de": "‚Herr, der Buddha hat <span class=\"ebt-matched\">verbindlich erklär</span>t, ",
-            "en": "‘Sir, the Buddha has categorically asserted that ",
-            "matched": true
-          }
-        },
-        "score": 1.002,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Lange Lehrreden 24\nÜber Pāṭikaputta",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 581,
-          "de": 500,
-          "en": 580
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "dn16",
-        "lang": "de",
-        "segMap": {
-          "dn16:3.48.4": {
-            "scid": "dn16:3.48.4",
-            "pli": "Yaṁ kho panetaṁ, ānanda, tathāgatena cattaṁ vantaṁ muttaṁ pahīnaṁ paṭinissaṭṭhaṁ ossaṭṭho āyusaṅkhāro, ekaṁsena vācā bhāsitā: ",
-            "de": "Der Klargewordene hat die Lebenskraft verworfen, beseitigt, freigemacht, sich davon abgekehrt, davon abgelassen und sie aufgegeben. Er hat <span class=\"ebt-matched\">verbindlich erklär</span>t: ",
-            "en": "The Realized One has discarded, eliminated, released, given up, relinquished, and surrendered the life force. He has categorically stated: ",
-            "matched": true
-          }
-        },
-        "score": 1.001,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Lange Lehrreden 16\nDie große Lehrrede vom Erlöschen des Buddha",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 1664,
-          "de": 1579,
-          "en": 1568
-        }
-      }
-    ],
+    "suttaRefs": [],
+    "mlDocs": [],
     "refLang": "en",
     "refAuthor": "sujato",
     "docLang": "de",

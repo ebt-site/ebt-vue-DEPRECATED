@@ -40,7 +40,7 @@
     "pattern": "maßhalten beim essen",
     "method": "phrase",
     "resultPattern": "\\bmaßhalten beim essen",
-    "segsMatched": 5,
+    "segsMatched": 6,
     "bilaraPaths": [
       "root/pli/ms/sutta/kn/ud/vagga4/ud4.6_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga4/ud4.6_translation-de-sabbamitta.json",
@@ -48,6 +48,9 @@
       "root/pli/ms/sutta/kn/iti/vagga4/iti29_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/iti/vagga4/iti29_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/iti/vagga4/iti29_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/dhp/dhp179-196_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/dhp/dhp179-196_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp179-196_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
@@ -61,6 +64,7 @@
     "suttaRefs": [
       "ud4.6/de/sabbamitta",
       "iti29/de/sabbamitta",
+      "dhp179-196/de/sabbamitta",
       "dn33/de/sabbamitta",
       "dn14/de/sabbamitta",
       "an2.163-179/de/sabbamitta"
@@ -160,6 +164,38 @@
           "pli": 89,
           "de": 88,
           "en": 87
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/dhp/dhp179-196_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/dhp/dhp179-196_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/dhp/dhp179-196_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dhp179-196",
+        "lang": "de",
+        "segMap": {
+          "dhp185:3": {
+            "scid": "dhp185:3",
+            "pli": "Mattaññutā ca bhattasmiṁ, ",
+            "de": "<span class=\"ebt-matched\">Maßhalten beim Essen</span>, ",
+            "en": "moderation in eating; ",
+            "matched": true
+          }
+        },
+        "score": 1.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Kleinere Sammlung\nDhammasprüche 179–196\n14. Das Kapitel über die Buddhas\nMāradhītaravatthu",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 88,
+          "de": 77,
+          "en": 77
         }
       },
       {

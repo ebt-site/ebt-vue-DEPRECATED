@@ -40,7 +40,7 @@
     "pattern": "wieder und wieder",
     "method": "phrase",
     "resultPattern": "\\bwieder und wieder",
-    "segsMatched": 60,
+    "segsMatched": 62,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn7/sn7.12_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn7/sn7.12_translation-de-sabbamitta.json",
@@ -114,6 +114,14 @@
       "root/pli/ms/sutta/kn/iti/vagga9/iti83_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/iti/vagga9/iti83_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/iti/vagga9/iti83_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/dhp/dhp146-156_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/dhp/dhp146-156_translation-de-sabbamitta.json",
+      "translation/en/suddhaso/sutta/kn/dhp/dhp146-156_translation-en-suddhaso.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp146-156_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/dhp/dhp116-128_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/dhp/dhp116-128_translation-de-sabbamitta.json",
+      "translation/en/suddhaso/sutta/kn/dhp/dhp116-128_translation-en-suddhaso.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp116-128_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
@@ -151,6 +159,8 @@
       "thag1.17/de/sabbamitta",
       "thag1.101/de/sabbamitta",
       "iti83/de/sabbamitta",
+      "dhp146-156/de/sabbamitta",
+      "dhp116-128/de/sabbamitta",
       "dn33/de/sabbamitta",
       "an9.5/de/sabbamitta",
       "an4.5/de/sabbamitta",
@@ -1189,6 +1199,72 @@
           "pli": 52,
           "de": 51,
           "en": 51
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/dhp/dhp146-156_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/dhp/dhp146-156_translation-de-sabbamitta.json",
+          "translation/en/suddhaso/sutta/kn/dhp/dhp146-156_translation-en-suddhaso.json",
+          "translation/en/sujato/sutta/kn/dhp/dhp146-156_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dhp146-156",
+        "lang": "de",
+        "segMap": {
+          "dhp153:4": {
+            "scid": "dhp153:4",
+            "pli": "dukkhā jāti punappunaṁ. ",
+            "de": "schmerzhaft ist Geburt, <span class=\"ebt-matched\">wieder und wieder</span>. ",
+            "en": "painful is birth again and again. ",
+            "matched": true
+          }
+        },
+        "score": 1.017,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Kleinere Sammlung\nDhammasprüche 146–156\n11. Das Kapitel über das Alter\nVisākhāyasahāyikānaṁvatthu",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 59,
+          "de": 49,
+          "en": 49
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/dhp/dhp116-128_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/dhp/dhp116-128_translation-de-sabbamitta.json",
+          "translation/en/suddhaso/sutta/kn/dhp/dhp116-128_translation-en-suddhaso.json",
+          "translation/en/sujato/sutta/kn/dhp/dhp116-128_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dhp116-128",
+        "lang": "de",
+        "segMap": {
+          "dhp118:2": {
+            "scid": "dhp118:2",
+            "pli": "kayirā naṁ punappunaṁ; ",
+            "de": "tu es <span class=\"ebt-matched\">wieder und wieder</span>, ",
+            "en": "do it again and again, ",
+            "matched": true
+          }
+        },
+        "score": 1.014,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Kleinere Sammlung\nDhammasprüche 116–128\n9. Das Kapitel über Böses\nCūḷekasāṭakabrāhmaṇavatthu",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 72,
+          "de": 59,
+          "en": 59
         }
       },
       {

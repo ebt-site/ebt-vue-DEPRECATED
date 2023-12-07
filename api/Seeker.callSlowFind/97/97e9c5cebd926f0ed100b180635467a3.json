@@ -40,7 +40,7 @@
     "pattern": "weberin",
     "method": "phrase",
     "resultPattern": "\\bweberin",
-    "segsMatched": 9,
+    "segsMatched": 10,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an4/an4.199_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.199_translation-de-sabbamitta.json",
@@ -59,7 +59,10 @@
       "translation/en/sujato/sutta/kn/thag/thag16.9_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag14.2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag14.2_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/kn/thag/thag14.2_translation-en-sujato.json"
+      "translation/en/sujato/sutta/kn/thag/thag14.2_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/dhp/dhp179-196_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/dhp/dhp179-196_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp179-196_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an4.199/de/sabbamitta",
@@ -67,7 +70,8 @@
       "sn4.7/de/sabbamitta",
       "thag2.21/de/sabbamitta",
       "thag16.9/de/sabbamitta",
-      "thag14.2/de/sabbamitta"
+      "thag14.2/de/sabbamitta",
+      "dhp179-196/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -249,6 +253,38 @@
           "pli": 67,
           "de": 60,
           "en": 60
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/dhp/dhp179-196_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/dhp/dhp179-196_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/dhp/dhp179-196_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dhp179-196",
+        "lang": "de",
+        "segMap": {
+          "dhp180:1": {
+            "scid": "dhp180:1",
+            "pli": "Yassa jālinī visattikā, ",
+            "de": "Verlangen, die <span class=\"ebt-matched\">Weberin</span>, die Klammernde, davon hat er nichts: ",
+            "en": "Of craving, the weaver, the clinger, he has none: ",
+            "matched": true
+          }
+        },
+        "score": 1.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Kleinere Sammlung\nDhammasprüche 179–196\n14. Das Kapitel über die Buddhas\nMāradhītaravatthu",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 88,
+          "de": 77,
+          "en": 77
         }
       },
       {

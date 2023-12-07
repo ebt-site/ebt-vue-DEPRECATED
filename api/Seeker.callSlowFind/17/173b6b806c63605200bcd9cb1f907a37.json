@@ -40,7 +40,7 @@
     "pattern": "filz",
     "method": "phrase",
     "resultPattern": "\\bfilz",
-    "segsMatched": 29,
+    "segsMatched": 30,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn7/sn7.6_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn7/sn7.6_translation-de-sabbamitta.json",
@@ -71,6 +71,10 @@
       "root/pli/ms/sutta/kn/thag/thag6.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag6.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag6.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/dhp/dhp129-145_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/dhp/dhp129-145_translation-de-sabbamitta.json",
+      "translation/en/suddhaso/sutta/kn/dhp/dhp129-145_translation-en-suddhaso.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp129-145_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/cp/cp22_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/cp/cp22_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/cp/cp22_translation-en-sujato.json",
@@ -91,6 +95,7 @@
       "sn4.21/de/sabbamitta",
       "mn38/de/sabbamitta",
       "thag6.1/de/sabbamitta",
+      "dhp129-145/de/sabbamitta",
       "cp22/de/sabbamitta",
       "cp17/de/sabbamitta",
       "an5.294-302/de/sabbamitta"
@@ -567,6 +572,39 @@
           "pli": 73,
           "de": 72,
           "en": 72
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/dhp/dhp129-145_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/dhp/dhp129-145_translation-de-sabbamitta.json",
+          "translation/en/suddhaso/sutta/kn/dhp/dhp129-145_translation-en-suddhaso.json",
+          "translation/en/sujato/sutta/kn/dhp/dhp129-145_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dhp129-145",
+        "lang": "de",
+        "segMap": {
+          "dhp141:1": {
+            "scid": "dhp141:1",
+            "pli": "Na naggacariyā na jaṭā na paṅkā, ",
+            "de": "Nicht Nacktheit, nicht <span class=\"ebt-matched\">Filz</span>haare noch Schlamm, ",
+            "en": "Not nakedness, nor matted hair, nor mud, ",
+            "matched": true
+          }
+        },
+        "score": 1.012,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Kleinere Sammlung\nDhammasprüche 129–145\n10. Das Kapitel über den Stock\nChabbaggiyabhikkhuvatthu",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 85,
+          "de": 73,
+          "en": 74
         }
       },
       {

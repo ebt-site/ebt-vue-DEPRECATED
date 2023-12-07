@@ -40,8 +40,12 @@
     "pattern": "zum töten",
     "method": "phrase",
     "resultPattern": "\\bzum töten",
-    "segsMatched": 6,
+    "segsMatched": 8,
     "bilaraPaths": [
+      "root/pli/ms/sutta/kn/dhp/dhp129-145_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/dhp/dhp129-145_translation-de-sabbamitta.json",
+      "translation/en/suddhaso/sutta/kn/dhp/dhp129-145_translation-en-suddhaso.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp129-145_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/iti/vagga3/iti27_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/iti/vagga3/iti27_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/iti/vagga3/iti27_translation-en-sujato.json",
@@ -62,6 +66,7 @@
       "translation/en/sujato/sutta/an/an3/an3.163-182_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "dhp129-145/de/sabbamitta",
       "iti27/de/sabbamitta",
       "dn2/de/sabbamitta",
       "dn25/de/sabbamitta",
@@ -70,6 +75,46 @@
       "an3.163-182/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/dhp/dhp129-145_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/dhp/dhp129-145_translation-de-sabbamitta.json",
+          "translation/en/suddhaso/sutta/kn/dhp/dhp129-145_translation-en-suddhaso.json",
+          "translation/en/sujato/sutta/kn/dhp/dhp129-145_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dhp129-145",
+        "lang": "de",
+        "segMap": {
+          "dhp129:4": {
+            "scid": "dhp129:4",
+            "pli": "na haneyya na ghātaye. ",
+            "de": "würde nicht töten noch <span class=\"ebt-matched\">zum Töten</span> anstiften. ",
+            "en": "neither kill nor incite to kill. ",
+            "matched": true
+          },
+          "dhp130:4": {
+            "scid": "dhp130:4",
+            "pli": "na haneyya na ghātaye. ",
+            "de": "würde nicht töten noch <span class=\"ebt-matched\">zum Töten</span> anstiften. ",
+            "en": "neither kill nor incite to kill. ",
+            "matched": true
+          }
+        },
+        "score": 2.024,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Kleinere Sammlung\nDhammasprüche 129–145\n10. Das Kapitel über den Stock\nChabbaggiyabhikkhuvatthu",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 85,
+          "de": 73,
+          "en": 74
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/an/an4/an4.264_root-pli-ms.json",

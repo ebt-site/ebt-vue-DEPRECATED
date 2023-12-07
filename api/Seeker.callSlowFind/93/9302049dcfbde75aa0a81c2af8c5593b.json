@@ -40,7 +40,7 @@
     "pattern": "kuhhirt",
     "method": "phrase",
     "resultPattern": "\\bkuhhirt",
-    "segsMatched": 50,
+    "segsMatched": 51,
     "bilaraPaths": [
       "root/pli/ms/sutta/kn/ud/vagga4/ud4.3_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga4/ud4.3_translation-de-sabbamitta.json",
@@ -67,6 +67,10 @@
       "root/pli/ms/sutta/mn/mn19_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn19_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn19_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/dhp/dhp129-145_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/dhp/dhp129-145_translation-de-sabbamitta.json",
+      "translation/en/suddhaso/sutta/kn/dhp/dhp129-145_translation-en-suddhaso.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp129-145_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/dhp/dhp1-20_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/dhp/dhp1-20_translation-de-sabbamitta.json",
       "translation/en/suddhaso/sutta/kn/dhp/dhp1-20_translation-en-suddhaso.json",
@@ -111,6 +115,7 @@
       "an11.502-981/de/sabbamitta",
       "sn35.241/de/sabbamitta",
       "mn19/de/sabbamitta",
+      "dhp129-145/de/sabbamitta",
       "dhp1-20/de/sabbamitta",
       "an11.70-117/de/sabbamitta",
       "an11.454-501/de/sabbamitta",
@@ -916,6 +921,39 @@
           "pli": 18,
           "de": 18,
           "en": 18
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/dhp/dhp129-145_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/dhp/dhp129-145_translation-de-sabbamitta.json",
+          "translation/en/suddhaso/sutta/kn/dhp/dhp129-145_translation-en-suddhaso.json",
+          "translation/en/sujato/sutta/kn/dhp/dhp129-145_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dhp129-145",
+        "lang": "de",
+        "segMap": {
+          "dhp135:1": {
+            "scid": "dhp135:1",
+            "pli": "Yathā daṇḍena gopālo, ",
+            "de": "Wie ein <span class=\"ebt-matched\">Kuhhirt</span>e seine Kühe ",
+            "en": "As a cowherd drives the cows ",
+            "matched": true
+          }
+        },
+        "score": 1.012,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Kleinere Sammlung\nDhammasprüche 129–145\n10. Das Kapitel über den Stock\nChabbaggiyabhikkhuvatthu",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 85,
+          "de": 73,
+          "en": 74
         }
       },
       {

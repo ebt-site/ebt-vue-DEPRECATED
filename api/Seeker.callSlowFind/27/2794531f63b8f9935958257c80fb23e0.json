@@ -40,7 +40,7 @@
     "pattern": "merkmalslos",
     "method": "phrase",
     "resultPattern": "\\bmerkmalslos",
-    "segsMatched": 60,
+    "segsMatched": 62,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn43_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn43_translation-de-sabbamitta.json",
@@ -64,6 +64,10 @@
       "root/pli/ms/sutta/an/an6/an6.60_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.60_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an6/an6.60_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/dhp/dhp90-99_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/dhp/dhp90-99_translation-de-sabbamitta.json",
+      "translation/en/suddhaso/sutta/kn/dhp/dhp90-99_translation-en-suddhaso.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp90-99_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
@@ -121,6 +125,7 @@
       "sn22.80/de/sabbamitta",
       "dn33/de/sabbamitta",
       "an6.60/de/sabbamitta",
+      "dhp90-99/de/sabbamitta",
       "dn34/de/sabbamitta",
       "an6.13/de/sabbamitta",
       "sn8.4/de/sabbamitta",
@@ -652,6 +657,46 @@
           "pli": 49,
           "de": 40,
           "en": 48
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/dhp/dhp90-99_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/dhp/dhp90-99_translation-de-sabbamitta.json",
+          "translation/en/suddhaso/sutta/kn/dhp/dhp90-99_translation-en-suddhaso.json",
+          "translation/en/sujato/sutta/kn/dhp/dhp90-99_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dhp90-99",
+        "lang": "de",
+        "segMap": {
+          "dhp92:4": {
+            "scid": "dhp92:4",
+            "pli": "vimokkho yesaṁ gocaro; ",
+            "de": "des <span class=\"ebt-matched\">Merkmalslos</span>en und Leeren ist: ",
+            "en": "of the signless and the empty: ",
+            "matched": true
+          },
+          "dhp93:4": {
+            "scid": "dhp93:4",
+            "pli": "vimokkho yassa gocaro; ",
+            "de": "des <span class=\"ebt-matched\">Merkmalslos</span>en und Leeren ist: ",
+            "en": "of the signless and the empty: ",
+            "matched": true
+          }
+        },
+        "score": 2.034,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Kleinere Sammlung\nDhammasprüche 90–99\n7. Das Kapitel über die Vollendeten\nJīvakapañhavatthu",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 58,
+          "de": 47,
+          "en": 47
         }
       },
       {
