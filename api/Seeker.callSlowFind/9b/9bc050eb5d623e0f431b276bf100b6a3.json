@@ -1,0 +1,98 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sabbamitta",
+      "docLang": "de",
+      "docAuthor": "sabbamitta",
+      "includeUnpublished": false,
+      "lang": "de",
+      "langAuthor": "sabbamitta",
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "elefant in der wildnis",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "de",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sabbamitta",
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "elefant in der wildnis",
+    "method": "phrase",
+    "resultPattern": "\\belefant in der wildnis",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/kn/dhp/dhp320-333_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/dhp/dhp320-333_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp320-333_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "dhp320-333/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/dhp/dhp320-333_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/dhp/dhp320-333_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/dhp/dhp320-333_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dhp320-333",
+        "lang": "de",
+        "segMap": {
+          "dhp329:4": {
+            "scid": "dhp329:4",
+            "pli": "Eko care mātaṅgaraññeva nāgo. ",
+            "de": "wandere allein wie ein <span class=\"ebt-matched\">Elefant in der Wildnis</span>. ",
+            "en": "wander alone like a tusker in the wilds. ",
+            "matched": true
+          },
+          "dhp330:4": {
+            "scid": "dhp330:4",
+            "pli": "Appossukko mātaṅgaraññeva nāgo. ",
+            "de": "sei unbeschwert wie ein <span class=\"ebt-matched\">Elefant in der Wildnis</span>. ",
+            "en": "at ease like a tusker in the wilds. ",
+            "matched": true
+          }
+        },
+        "score": 2.029,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Kleinere Sammlung\nDhammasprüche 320–333\n23. Das Kapitel über Elefanten\nAttadantavatthu",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 68,
+          "de": 59,
+          "en": 59
+        }
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "de",
+    "docAuthor": "sabbamitta"
+  }
+}
