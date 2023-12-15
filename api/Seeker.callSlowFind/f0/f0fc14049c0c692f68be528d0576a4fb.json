@@ -40,7 +40,7 @@
     "pattern": "beschützer",
     "method": "phrase",
     "resultPattern": "\\bbeschützer",
-    "segsMatched": 74,
+    "segsMatched": 75,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an10/an10.18_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.18_translation-de-sabbamitta.json",
@@ -75,6 +75,9 @@
       "root/pli/ms/sutta/kn/thag/thag16.10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag16.10_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag16.10_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/dhp/dhp360-382_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/dhp/dhp360-382_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp360-382_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.20_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.20_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an10/an10.20_translation-en-sujato.json",
@@ -111,6 +114,7 @@
       "sn2.25/de/sabbamitta",
       "thig11.1/de/sabbamitta",
       "thag16.10/de/sabbamitta",
+      "dhp360-382/de/sabbamitta",
       "an10.20/de/sabbamitta",
       "an10.19/de/sabbamitta",
       "an10.16/de/sabbamitta",
@@ -1058,6 +1062,38 @@
           "pli": 56,
           "de": 47,
           "en": 54
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/dhp/dhp360-382_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/dhp/dhp360-382_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/dhp/dhp360-382_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dhp360-382",
+        "lang": "de",
+        "segMap": {
+          "dhp380:1": {
+            "scid": "dhp380:1",
+            "pli": "Attā hi attano nātho, ",
+            "de": "Man selbst ist wirklich der eigene <span class=\"ebt-matched\">Beschützer</span>, ",
+            "en": "Self is indeed the lord of self, ",
+            "matched": true
+          }
+        },
+        "score": 1.009,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Kleinere Sammlung\nDhammasprüche 360–382\n25. Das Kapitel über Mönche und Nonnen\nPañcabhikkhuvatthu",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 113,
+          "de": 100,
+          "en": 100
         }
       },
       {

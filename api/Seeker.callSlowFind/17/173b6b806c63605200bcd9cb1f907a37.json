@@ -40,7 +40,7 @@
     "pattern": "filz",
     "method": "phrase",
     "resultPattern": "\\bfilz",
-    "segsMatched": 30,
+    "segsMatched": 33,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn7/sn7.6_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn7/sn7.6_translation-de-sabbamitta.json",
@@ -49,6 +49,9 @@
       "translation/de/sabbamitta/sutta/sn/sn1/sn1.23_translation-de-sabbamitta.json",
       "translation/en/davis/sutta/sn/sn1/sn1.23_translation-en-davis.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.23_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/dhp/dhp383-423_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/dhp/dhp383-423_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp383-423_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn23_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn23_translation-en-sujato.json",
@@ -88,6 +91,7 @@
     "suttaRefs": [
       "sn7.6/de/sabbamitta",
       "sn1.23/de/sabbamitta",
+      "dhp383-423/de/sabbamitta",
       "dn23/de/sabbamitta",
       "sn3.11/de/sabbamitta",
       "ud6.2/de/sabbamitta",
@@ -248,6 +252,52 @@
           "pli": 19,
           "de": 19,
           "en": 19
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/dhp/dhp383-423_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/dhp/dhp383-423_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/dhp/dhp383-423_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dhp383-423",
+        "lang": "de",
+        "segMap": {
+          "dhp393:1": {
+            "scid": "dhp393:1",
+            "pli": "Na jaṭāhi na gottena, ",
+            "de": "Nicht durch <span class=\"ebt-matched\">Filz</span>haare oder die Familie, ",
+            "en": "Not by matted hair or family, ",
+            "matched": true
+          },
+          "dhp394:1": {
+            "scid": "dhp394:1",
+            "pli": "Kiṁ te jaṭāhi dummedha, ",
+            "de": "Warum die <span class=\"ebt-matched\">Filz</span>haare, du Dummkopf, ",
+            "en": "Why the matted hair, you fool, ",
+            "matched": true
+          },
+          "dhp394:3": {
+            "scid": "dhp394:3",
+            "pli": "Abbhantaraṁ te gahanaṁ, ",
+            "de": "Das <span class=\"ebt-matched\">Filz</span>geflecht ist in dir, ",
+            "en": "The tangle is inside you, ",
+            "matched": true
+          }
+        },
+        "score": 3.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Kleinere Sammlung\nDhammasprüche 383–423\n26. Das Kapitel über den Brahmanen\nPasādabahulabrāhmaṇavatthu",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 270,
+          "de": 180,
+          "en": 181
         }
       },
       {

@@ -40,7 +40,7 @@
     "pattern": "verlangen aufgegeben",
     "method": "phrase",
     "resultPattern": "\\bverlangen aufgegeben",
-    "segsMatched": 14,
+    "segsMatched": 16,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn46/sn46.26_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn46/sn46.26_translation-de-sabbamitta.json",
@@ -48,6 +48,9 @@
       "root/pli/ms/sutta/dn/dn22_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn22_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn22_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/dhp/dhp383-423_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/dhp/dhp383-423_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp383-423_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn35/sn35.103_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn35/sn35.103_translation-de-sabbamitta.json",
       "translation/en/davis/sutta/sn/sn35/sn35.103_translation-en-davis.json",
@@ -72,6 +75,7 @@
     "suttaRefs": [
       "sn46.26/de/sabbamitta",
       "dn22/de/sabbamitta",
+      "dhp383-423/de/sabbamitta",
       "sn35.103/de/sabbamitta",
       "sn1.28/de/sabbamitta",
       "mn22/de/sabbamitta",
@@ -184,6 +188,45 @@
           "pli": 454,
           "de": 361,
           "en": 453
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/dhp/dhp383-423_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/dhp/dhp383-423_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/dhp/dhp383-423_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dhp383-423",
+        "lang": "de",
+        "segMap": {
+          "dhp416:1": {
+            "scid": "dhp416:1",
+            "pli": "Yodha taṇhaṁ pahantvāna, ",
+            "de": "Er hat das <span class=\"ebt-matched\">Verlangen aufgegeben</span> ",
+            "en": "They’ve given up craving, ",
+            "matched": true
+          },
+          "dhp416:5.1": {
+            "scid": "dhp416:5.1",
+            "pli": "Yodha taṇhaṁ pahantvāna, ",
+            "de": "Er hat das <span class=\"ebt-matched\">Verlangen aufgegeben</span> ",
+            "en": "They’ve given up craving, ",
+            "matched": true
+          }
+        },
+        "score": 2.007,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Kleinere Sammlung\nDhammasprüche 383–423\n26. Das Kapitel über den Brahmanen\nPasādabahulabrāhmaṇavatthu",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 270,
+          "de": 180,
+          "en": 181
         }
       },
       {

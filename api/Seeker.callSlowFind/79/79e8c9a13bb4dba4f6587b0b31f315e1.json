@@ -40,14 +40,18 @@
     "pattern": "friedvoller",
     "method": "phrase",
     "resultPattern": "\\bfriedvoller",
-    "segsMatched": 2,
+    "segsMatched": 3,
     "bilaraPaths": [
       "root/pli/ms/sutta/kn/iti/vagga8/iti73_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/iti/vagga8/iti73_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/kn/iti/vagga8/iti73_translation-en-sujato.json"
+      "translation/en/sujato/sutta/kn/iti/vagga8/iti73_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/dhp/dhp360-382_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/dhp/dhp360-382_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp360-382_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "iti73/de/sabbamitta"
+      "iti73/de/sabbamitta",
+      "dhp360-382/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -87,6 +91,38 @@
           "pli": 24,
           "de": 23,
           "en": 23
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/dhp/dhp360-382_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/dhp/dhp360-382_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/dhp/dhp360-382_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dhp360-382",
+        "lang": "de",
+        "segMap": {
+          "dhp378:4": {
+            "scid": "dhp378:4",
+            "pli": "“upasanto”ti vuccati. ",
+            "de": "ist ein <span class=\"ebt-matched\">Friedvoller</span>, so heißt es. ",
+            "en": "is said to be one at peace. ",
+            "matched": true
+          }
+        },
+        "score": 1.009,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Kleinere Sammlung\nDhammasprüche 360–382\n25. Das Kapitel über Mönche und Nonnen\nPañcabhikkhuvatthu",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 113,
+          "de": 100,
+          "en": 100
         }
       }
     ],

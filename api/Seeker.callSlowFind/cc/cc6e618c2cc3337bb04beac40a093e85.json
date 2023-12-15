@@ -40,7 +40,7 @@
     "pattern": "glück der entsagung",
     "method": "phrase",
     "resultPattern": "\\bglück der entsagung",
-    "segsMatched": 14,
+    "segsMatched": 15,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an8/an8.86_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.86_translation-de-sabbamitta.json",
@@ -56,14 +56,18 @@
       "translation/en/sujato/sutta/an/an5/an5.30_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an2/an2.64-76_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an2/an2.64-76_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an2/an2.64-76_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an2/an2.64-76_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/dhp/dhp256-272_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/dhp/dhp256-272_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp256-272_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an8.86/de/sabbamitta",
       "mn139/de/sabbamitta",
       "an6.42/de/sabbamitta",
       "an5.30/de/sabbamitta",
-      "an2.64-76/de/sabbamitta"
+      "an2.64-76/de/sabbamitta",
+      "dhp256-272/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -287,6 +291,38 @@
           "pli": 201,
           "de": 165,
           "en": 200
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/dhp/dhp256-272_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/dhp/dhp256-272_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/dhp/dhp256-272_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dhp256-272",
+        "lang": "de",
+        "segMap": {
+          "dhp272:1": {
+            "scid": "dhp272:1",
+            "pli": "Phusāmi nekkhammasukhaṁ, ",
+            "de": "erfahre ich das <span class=\"ebt-matched\">Glück der Entsagung</span>, ",
+            "en": "do I experience the bliss of renunciation ",
+            "matched": true
+          }
+        },
+        "score": 1.012,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Kleinere Sammlung\nDhammasprüche 256–272\n19. Das Kapitel über den Gerechten\nVinicchayamahāmattavatthu",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 84,
+          "de": 73,
+          "en": 84
         }
       }
     ],

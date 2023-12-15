@@ -40,8 +40,11 @@
     "pattern": "mörderisch",
     "method": "phrase",
     "resultPattern": "\\bmörderisch",
-    "segsMatched": 2,
+    "segsMatched": 3,
     "bilaraPaths": [
+      "root/pli/ms/sutta/kn/dhp/dhp383-423_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/dhp/dhp383-423_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp383-423_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/cp/cp20_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/cp/cp20_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/cp/cp20_translation-en-sujato.json",
@@ -50,6 +53,7 @@
       "translation/en/sujato/sutta/an/an8/an8.56_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "dhp383-423/de/sabbamitta",
       "cp20/de/sabbamitta",
       "an8.56/de/sabbamitta"
     ],
@@ -116,6 +120,38 @@
           "pli": 48,
           "de": 32,
           "en": 32
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/dhp/dhp383-423_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/dhp/dhp383-423_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/dhp/dhp383-423_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dhp383-423",
+        "lang": "de",
+        "segMap": {
+          "dhp414:1": {
+            "scid": "dhp414:1",
+            "pli": "Yomaṁ palipathaṁ duggaṁ, ",
+            "de": "Über das Umherwandern, diesen <span class=\"ebt-matched\">mörderisch</span>en Sumpf aus Täuschung, ",
+            "en": "They’ve got past this grueling swamp ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Kleinere Sammlung\nDhammasprüche 383–423\n26. Das Kapitel über den Brahmanen\nPasādabahulabrāhmaṇavatthu",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 270,
+          "de": 180,
+          "en": 181
         }
       }
     ],

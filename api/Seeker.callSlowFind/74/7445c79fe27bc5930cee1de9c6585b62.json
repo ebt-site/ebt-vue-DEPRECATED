@@ -40,7 +40,7 @@
     "pattern": "flut.* überquer",
     "method": "phrase",
     "resultPattern": "\\bflut.* überquer",
-    "segsMatched": 28,
+    "segsMatched": 29,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn1/sn1.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn1/sn1.1_translation-de-sabbamitta.json",
@@ -93,6 +93,9 @@
       "root/pli/ms/sutta/kn/iti/vagga11/iti107_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/iti/vagga11/iti107_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/iti/vagga11/iti107_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/dhp/dhp360-382_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/dhp/dhp360-382_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp360-382_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn21_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn21_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn21_translation-en-sujato.json",
@@ -117,6 +120,7 @@
       "thag1.15/de/sabbamitta",
       "snp2.5/de/sabbamitta",
       "iti107/de/sabbamitta",
+      "dhp360-382/de/sabbamitta",
       "dn21/de/sabbamitta",
       "dn20/de/sabbamitta"
     ],
@@ -640,6 +644,38 @@
           "pli": 67,
           "de": 60,
           "en": 60
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/dhp/dhp360-382_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/dhp/dhp360-382_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/dhp/dhp360-382_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dhp360-382",
+        "lang": "de",
+        "segMap": {
+          "dhp370:4": {
+            "scid": "dhp370:4",
+            "pli": "“oghatiṇṇo”ti vuccati. ",
+            "de": "heißt es, er hat die <span class=\"ebt-matched\">Flut überquer</span>t. ",
+            "en": "they’re said to have crossed the flood. ",
+            "matched": true
+          }
+        },
+        "score": 1.009,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Kleinere Sammlung\nDhammasprüche 360–382\n25. Das Kapitel über Mönche und Nonnen\nPañcabhikkhuvatthu",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 113,
+          "de": 100,
+          "en": 100
         }
       },
       {

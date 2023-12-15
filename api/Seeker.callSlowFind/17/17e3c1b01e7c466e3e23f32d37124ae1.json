@@ -40,7 +40,7 @@
     "pattern": "eingeschätzt",
     "method": "phrase",
     "resultPattern": "\\beingeschätzt",
-    "segsMatched": 14,
+    "segsMatched": 15,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn12/sn12.31_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.31_translation-de-sabbamitta.json",
@@ -61,6 +61,9 @@
       "root/pli/ms/sutta/kn/ud/vagga2/ud2.5_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga2/ud2.5_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/ud/vagga2/ud2.5_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/dhp/dhp256-272_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/dhp/dhp256-272_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp256-272_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.41_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.41_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.41_translation-en-sujato.json",
@@ -75,6 +78,7 @@
       "sn7.20/de/sabbamitta",
       "sn36.6/de/sabbamitta",
       "ud2.5/de/sabbamitta",
+      "dhp256-272/de/sabbamitta",
       "an4.41/de/sabbamitta",
       "an3.32/de/sabbamitta"
     ],
@@ -376,6 +380,38 @@
           "pli": 63,
           "de": 62,
           "en": 62
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/dhp/dhp256-272_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/dhp/dhp256-272_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/dhp/dhp256-272_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dhp256-272",
+        "lang": "de",
+        "segMap": {
+          "dhp267:3": {
+            "scid": "dhp267:3",
+            "pli": "Saṅkhāya loke carati, ",
+            "de": "wer wandert, nachdem er die Welt <span class=\"ebt-matched\">eingeschätzt</span> hat, ",
+            "en": "who wanders having appraised the world, ",
+            "matched": true
+          }
+        },
+        "score": 1.012,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Kleinere Sammlung\nDhammasprüche 256–272\n19. Das Kapitel über den Gerechten\nVinicchayamahāmattavatthu",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 84,
+          "de": 73,
+          "en": 84
         }
       }
     ],

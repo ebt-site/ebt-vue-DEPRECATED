@@ -40,7 +40,7 @@
     "pattern": "erbärmlich",
     "method": "phrase",
     "resultPattern": "\\berbärmlich",
-    "segsMatched": 11,
+    "segsMatched": 13,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn24_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn24_translation-de-sabbamitta.json",
@@ -48,6 +48,9 @@
       "root/pli/ms/sutta/kn/thag/thag6.5_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag6.5_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag6.5_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/dhp/dhp334-359_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/dhp/dhp334-359_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp334-359_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an6/an6.24_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.24_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an6/an6.24_translation-en-sujato.json",
@@ -68,6 +71,7 @@
     "suttaRefs": [
       "dn24/de/sabbamitta",
       "thag6.5/de/sabbamitta",
+      "dhp334-359/de/sabbamitta",
       "an6.24/de/sabbamitta",
       "sn48.41/de/sabbamitta",
       "sn2.30/de/sabbamitta",
@@ -197,6 +201,45 @@
           "pli": 31,
           "de": 30,
           "en": 30
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/dhp/dhp334-359_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/dhp/dhp334-359_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/dhp/dhp334-359_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dhp334-359",
+        "lang": "de",
+        "segMap": {
+          "dhp335:1": {
+            "scid": "dhp335:1",
+            "pli": "Yaṁ esā sahate jammī, ",
+            "de": "Jeder, über den dieses <span class=\"ebt-matched\">erbärmlich</span>e Verlangen die Oberhand hat, ",
+            "en": "Whoever is beaten by this wretched craving, ",
+            "matched": true
+          },
+          "dhp336:1": {
+            "scid": "dhp336:1",
+            "pli": "Yo cetaṁ sahate jammiṁ, ",
+            "de": "Doch jeder, der die Oberhand über dieses <span class=\"ebt-matched\">erbärmlich</span>e Verlangen hat, ",
+            "en": "But whoever prevails over this wretched craving, ",
+            "matched": true
+          }
+        },
+        "score": 2.016,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Kleinere Sammlung\nDhammasprüche 334–359\n24. Das Kapitel über Verlangen\nKapilamacchavatthu",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 124,
+          "de": 111,
+          "en": 111
         }
       },
       {

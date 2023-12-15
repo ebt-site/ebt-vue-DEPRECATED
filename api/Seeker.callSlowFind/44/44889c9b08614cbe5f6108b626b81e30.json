@@ -40,7 +40,7 @@
     "pattern": "wiedergeburt im bereich",
     "method": "phrase",
     "resultPattern": "\\bwiedergeburt im bereich",
-    "segsMatched": 20,
+    "segsMatched": 22,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn22/sn22.102_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.102_translation-de-sabbamitta.json",
@@ -49,6 +49,9 @@
       "root/pli/ms/sutta/sn/sn45/sn45.180_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn45/sn45.180_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn45/sn45.180_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an9/an9.26_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an9/an9.26_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an9/an9.26_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an6/an6.67_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.67_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an6/an6.67_translation-en-sujato.json",
@@ -79,15 +82,15 @@
       "root/pli/ms/sutta/sn/sn46/sn46.130_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn46/sn46.130_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn46/sn46.130_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/dhp/dhp383-423_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/dhp/dhp383-423_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp383-423_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an9/an9.70_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an9/an9.70_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an9/an9.70_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an9/an9.26_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an9/an9.26_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an9/an9.26_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.13_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.13_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an10/an10.13_translation-en-sujato.json"
@@ -95,6 +98,7 @@
     "suttaRefs": [
       "sn22.102/de/sabbamitta",
       "sn45.180/de/sabbamitta",
+      "an9.26/de/sabbamitta",
       "an6.67/de/sabbamitta",
       "sn53.45-54/de/sabbamitta",
       "sn51.77-86/de/sabbamitta",
@@ -105,9 +109,9 @@
       "sn48.115-124/de/sabbamitta",
       "sn47.95-104/de/sabbamitta",
       "sn46.130/de/sabbamitta",
+      "dhp383-423/de/sabbamitta",
       "dn33/de/sabbamitta",
       "an9.70/de/sabbamitta",
-      "an9.26/de/sabbamitta",
       "an10.13/de/sabbamitta"
     ],
     "mlDocs": [
@@ -234,6 +238,45 @@
           "pli": 43,
           "de": 22,
           "en": 41
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an9/an9.26_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an9/an9.26_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an9/an9.26_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an9.26",
+        "lang": "de",
+        "segMap": {
+          "an9.26:5.8": {
+            "scid": "an9.26:5.8",
+            "pli": "‘anāvattidhammaṁ me cittaṁ kāmabhavāyā’ti cetasā cittaṁ suparicitaṁ hoti; ",
+            "de": "Wenn sie weiß: ‚Mein Geist muss nicht mehr zur <span class=\"ebt-matched\">Wiedergeburt im Bereich</span>  der Sinne zurückkehren‘ … ",
+            "en": "… ‘My mind is not liable to return to rebirth in the sensual realm.’ ",
+            "matched": true
+          },
+          "an9.26:5.9": {
+            "scid": "an9.26:5.9",
+            "pli": "‘anāvattidhammaṁ me cittaṁ rūpabhavāyā’ti cetasā cittaṁ suparicitaṁ hoti; ",
+            "de": "Wenn sie weiß: ‚Mein Geist muss nicht mehr zur <span class=\"ebt-matched\">Wiedergeburt im Bereich</span> der leuchtenden Form zurückkehren‘ … ",
+            "en": "… ‘My mind is not liable to return to rebirth in the realm of luminous form.’ ",
+            "matched": true
+          }
+        },
+        "score": 2.03,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 9.26\n3. Das Kapitel über Wohnplätze der Lebewesen\nDas Gleichnis von der Steinsäule",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 67,
+          "de": 47,
+          "en": 66
         }
       },
       {
@@ -590,34 +633,34 @@
       },
       {
         "bilaraPaths": [
-          "root/pli/ms/sutta/an/an9/an9.26_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/an/an9/an9.26_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/an/an9/an9.26_translation-en-sujato.json"
+          "root/pli/ms/sutta/kn/dhp/dhp383-423_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/dhp/dhp383-423_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/dhp/dhp383-423_translation-en-sujato.json"
         ],
         "author_uid": "sabbamitta",
         "type": "translation",
         "category": "sutta",
-        "sutta_uid": "an9.26",
+        "sutta_uid": "dhp383-423",
         "lang": "de",
         "segMap": {
-          "an9.26:5.9": {
-            "scid": "an9.26:5.9",
-            "pli": "‘anāvattidhammaṁ me cittaṁ rūpabhavāyā’ti cetasā cittaṁ suparicitaṁ hoti; ",
-            "de": "Wenn sie weiß: ‚Mein Geist muss nicht mehr zur <span class=\"ebt-matched\">Wiedergeburt im Bereich</span> der leuchtenden Form zurückkehren‘ … ",
-            "en": "… ‘My mind is not liable to return to rebirth in the realm of luminous form.’ ",
+          "dhp415:3": {
+            "scid": "dhp415:3",
+            "pli": "Kāmabhavaparikkhīṇaṁ, ",
+            "de": "<span class=\"ebt-matched\">Wiedergeburt im Bereich</span> der Sinne hat er aufgelöst: ",
+            "en": "they’ve ended rebirth in the sensual realm: ",
             "matched": true
           }
         },
-        "score": 1.015,
+        "score": 1.004,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Nummerierte Lehrreden 9.26\n3. Das Kapitel über Wohnplätze der Lebewesen\nDas Gleichnis von der Steinsäule",
+        "title": "Kleinere Sammlung\nDhammasprüche 383–423\n26. Das Kapitel über den Brahmanen\nPasādabahulabrāhmaṇavatthu",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 67,
-          "de": 47,
-          "en": 66
+          "pli": 270,
+          "de": 180,
+          "en": 181
         }
       },
       {

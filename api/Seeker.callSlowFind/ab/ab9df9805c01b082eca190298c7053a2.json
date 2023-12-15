@@ -40,7 +40,7 @@
     "pattern": "zum töten",
     "method": "phrase",
     "resultPattern": "\\bzum töten",
-    "segsMatched": 8,
+    "segsMatched": 9,
     "bilaraPaths": [
       "root/pli/ms/sutta/kn/dhp/dhp129-145_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/dhp/dhp129-145_translation-de-sabbamitta.json",
@@ -49,6 +49,9 @@
       "root/pli/ms/sutta/kn/iti/vagga3/iti27_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/iti/vagga3/iti27_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/iti/vagga3/iti27_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/dhp/dhp383-423_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/dhp/dhp383-423_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp383-423_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json",
@@ -68,6 +71,7 @@
     "suttaRefs": [
       "dhp129-145/de/sabbamitta",
       "iti27/de/sabbamitta",
+      "dhp383-423/de/sabbamitta",
       "dn2/de/sabbamitta",
       "dn25/de/sabbamitta",
       "an8.1/de/sabbamitta",
@@ -241,6 +245,38 @@
           "pli": 47,
           "de": 35,
           "en": 35
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/dhp/dhp383-423_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/dhp/dhp383-423_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/dhp/dhp383-423_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dhp383-423",
+        "lang": "de",
+        "segMap": {
+          "dhp405:3": {
+            "scid": "dhp405:3",
+            "pli": "Yo na hanti na ghāteti, ",
+            "de": "er tötet nicht und stiftet andere nicht <span class=\"ebt-matched\">zum Töten</span> an: ",
+            "en": "not killing or making others kill: ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Kleinere Sammlung\nDhammasprüche 383–423\n26. Das Kapitel über den Brahmanen\nPasādabahulabrāhmaṇavatthu",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 270,
+          "de": 180,
+          "en": 181
         }
       },
       {

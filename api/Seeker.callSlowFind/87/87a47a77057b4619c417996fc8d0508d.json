@@ -40,7 +40,7 @@
     "pattern": "bewerte",
     "method": "phrase",
     "resultPattern": "\\bbewerte",
-    "segsMatched": 27,
+    "segsMatched": 28,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn15_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn15_translation-de-sabbamitta.json",
@@ -57,6 +57,9 @@
       "root/pli/ms/sutta/sn/sn35/sn35.132_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn35/sn35.132_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.132_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/dhp/dhp256-272_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/dhp/dhp256-272_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp256-272_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
@@ -106,6 +109,7 @@
       "sn6.8/de/sabbamitta",
       "sn6.7/de/sabbamitta",
       "sn35.132/de/sabbamitta",
+      "dhp256-272/de/sabbamitta",
       "dn34/de/sabbamitta",
       "dn30/de/sabbamitta",
       "an9.23/de/sabbamitta",
@@ -656,6 +660,38 @@
           "pli": 55,
           "de": 54,
           "en": 54
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/dhp/dhp256-272_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/dhp/dhp256-272_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/dhp/dhp256-272_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dhp256-272",
+        "lang": "de",
+        "segMap": {
+          "dhp256:3": {
+            "scid": "dhp256:3",
+            "pli": "Yo ca atthaṁ anatthañca, ",
+            "de": "Ein kluger Mensch <span class=\"ebt-matched\">bewerte</span>t beides, ",
+            "en": "An astute person evaluates both ",
+            "matched": true
+          }
+        },
+        "score": 1.012,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Kleinere Sammlung\nDhammasprüche 256–272\n19. Das Kapitel über den Gerechten\nVinicchayamahāmattavatthu",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 84,
+          "de": 73,
+          "en": 84
         }
       },
       {

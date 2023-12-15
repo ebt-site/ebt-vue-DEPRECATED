@@ -40,17 +40,53 @@
     "pattern": "allein zu wandern",
     "method": "phrase",
     "resultPattern": "\\ballein zu wandern",
-    "segsMatched": 1,
+    "segsMatched": 2,
     "bilaraPaths": [
       "root/pli/ms/sutta/kn/dhp/dhp60-75_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/dhp/dhp60-75_translation-de-sabbamitta.json",
       "translation/en/suddhaso/sutta/kn/dhp/dhp60-75_translation-en-suddhaso.json",
-      "translation/en/sujato/sutta/kn/dhp/dhp60-75_translation-en-sujato.json"
+      "translation/en/sujato/sutta/kn/dhp/dhp60-75_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/dhp/dhp320-333_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/dhp/dhp320-333_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp320-333_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "dhp60-75/de/sabbamitta"
+      "dhp60-75/de/sabbamitta",
+      "dhp320-333/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/dhp/dhp320-333_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/dhp/dhp320-333_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/dhp/dhp320-333_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dhp320-333",
+        "lang": "de",
+        "segMap": {
+          "dhp330:1": {
+            "scid": "dhp330:1",
+            "pli": "Ekassa caritaṁ seyyo, ",
+            "de": "Es ist besser, <span class=\"ebt-matched\">allein zu wandern</span>; ",
+            "en": "It’s better to wander alone, ",
+            "matched": true
+          }
+        },
+        "score": 1.015,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Kleinere Sammlung\nDhammasprüche 320–333\n23. Das Kapitel über Elefanten\nAttadantavatthu",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 68,
+          "de": 59,
+          "en": 59
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/kn/dhp/dhp60-75_root-pli-ms.json",

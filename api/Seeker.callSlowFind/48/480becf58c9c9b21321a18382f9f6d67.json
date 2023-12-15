@@ -40,7 +40,7 @@
     "pattern": "von allem leiden",
     "method": "phrase",
     "resultPattern": "\\bvon allem leiden",
-    "segsMatched": 17,
+    "segsMatched": 18,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn1/sn1.59_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn1/sn1.59_translation-de-sabbamitta.json",
@@ -88,6 +88,9 @@
       "root/pli/ms/sutta/kn/iti/vagga7/iti61_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/iti/vagga7/iti61_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/iti/vagga7/iti61_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/dhp/dhp360-382_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/dhp/dhp360-382_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp360-382_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.34_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an8/an8.34_translation-en-sujato.json"
@@ -106,6 +109,7 @@
       "thig10.1/de/sabbamitta",
       "snp1.4/de/sabbamitta",
       "iti61/de/sabbamitta",
+      "dhp360-382/de/sabbamitta",
       "an8.34/de/sabbamitta"
     ],
     "mlDocs": [
@@ -550,6 +554,38 @@
           "pli": 66,
           "de": 64,
           "en": 64
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/dhp/dhp360-382_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/dhp/dhp360-382_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/dhp/dhp360-382_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dhp360-382",
+        "lang": "de",
+        "segMap": {
+          "dhp361:6": {
+            "scid": "dhp361:6",
+            "pli": "sabbadukkhā pamuccati. ",
+            "de": "ist <span class=\"ebt-matched\">von allem Leiden</span> erlöst. ",
+            "en": "is released from suffering. ",
+            "matched": true
+          }
+        },
+        "score": 1.009,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Kleinere Sammlung\nDhammasprüche 360–382\n25. Das Kapitel über Mönche und Nonnen\nPañcabhikkhuvatthu",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 113,
+          "de": 100,
+          "en": 100
         }
       },
       {
