@@ -40,15 +40,19 @@
     "pattern": "racine de la souffrance",
     "method": "phrase",
     "resultPattern": "\\bracine de la souffrance",
-    "segsMatched": 5,
+    "segsMatched": 7,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn42/sn42.11_root-pli-ms.json",
       "translation/en/davis/sutta/sn/sn42/sn42.11_translation-en-davis.json",
       "translation/en/sujato/sutta/sn/sn42/sn42.11_translation-en-sujato.json",
-      "translation/fr/noeismet/sutta/sn/sn42/sn42.11_translation-fr-noeismet.json"
+      "translation/fr/noeismet/sutta/sn/sn42/sn42.11_translation-fr-noeismet.json",
+      "root/pli/ms/sutta/mn/mn1_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn1_translation-en-sujato.json",
+      "translation/fr/noeismet/sutta/mn/mn1_translation-fr-noeismet.json"
     ],
     "suttaRefs": [
-      "sn42.11/fr/noeismet"
+      "sn42.11/fr/noeismet",
+      "mn1/fr/noeismet"
     ],
     "mlDocs": [
       {
@@ -110,6 +114,45 @@
           "pli": 55,
           "en": 54,
           "fr": 54
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn1_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn1_translation-en-sujato.json",
+          "translation/fr/noeismet/sutta/mn/mn1_translation-fr-noeismet.json"
+        ],
+        "author_uid": "noeismet",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn1",
+        "lang": "fr",
+        "segMap": {
+          "mn1:171.4": {
+            "scid": "mn1:171.4",
+            "pli": "‘Nandī dukkhassa mūlan’ti—",
+            "en": "Because he has understood that taking pleasure is the root of suffering, ",
+            "fr": "Parce qu’il a compris que prendre plaisir est la <span class=\"ebt-matched\">racine de la souffrance</span>, ",
+            "matched": true
+          },
+          "mn1:194.4": {
+            "scid": "mn1:194.4",
+            "pli": "‘Nandī dukkhassa mūlan’ti—",
+            "en": "Because he has understood that taking pleasure is the root of suffering, ",
+            "fr": "Parce qu’il a compris que prendre plaisir est la <span class=\"ebt-matched\">racine de la souffrance</span>, ",
+            "matched": true
+          }
+        },
+        "score": 2.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Discours de Longueur Moyenne 1\nLa racine de toutes choses",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 334,
+          "en": 325,
+          "fr": 325
         }
       }
     ],
