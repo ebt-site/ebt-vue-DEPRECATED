@@ -40,14 +40,18 @@
     "pattern": "gepresster zunge",
     "method": "phrase",
     "resultPattern": "\\bgepresster zunge",
-    "segsMatched": 3,
+    "segsMatched": 4,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn20_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn20_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/mn/mn20_translation-en-sujato.json"
+      "translation/en/sujato/sutta/mn/mn20_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga3/snp3.11_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/snp/vagga3/snp3.11_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/snp/vagga3/snp3.11_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "mn20/de/sabbamitta"
+      "mn20/de/sabbamitta",
+      "snp3.11/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -94,6 +98,38 @@
           "pli": 87,
           "de": 71,
           "en": 85
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga3/snp3.11_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/snp/vagga3/snp3.11_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/snp/vagga3/snp3.11_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp3.11",
+        "lang": "de",
+        "segMap": {
+          "snp3.11:38.4": {
+            "scid": "snp3.11:38.4",
+            "pli": "Udare saññato siyā. ",
+            "de": "mit gegen den Gaumen <span class=\"ebt-matched\">gepresster Zunge</span>. ",
+            "en": "be restrained regarding your stomach. ",
+            "matched": true
+          }
+        },
+        "score": 1.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lehrreden-Sammelband 3.11\nÜber Nālaka",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 186,
+          "de": 185,
+          "en": 185
         }
       }
     ],

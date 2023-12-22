@@ -38,31 +38,58 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "weg.* zum jenseits",
-    "method": "keywords",
-    "resultPattern": "\\bweg.*|\\bzum|\\bjenseits",
-    "segsMatched": 0,
+    "method": "phrase",
+    "resultPattern": "\\bweg.* zum jenseits",
+    "segsMatched": 2,
     "bilaraPaths": [
-      "root/pli/ms/sutta/an/an7/an7.55_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an7/an7.55_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an7/an7.55_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an3/an3.70_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an3/an3.70_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an3/an3.70_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn32_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/dn/dn32_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn32_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/thag/thag21.1_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/kn/thag/thag21.1_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/kn/thag/thag21.1_translation-en-sujato.json",
-      "root/pli/ms/sutta/sn/sn4/sn4.24_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/sn/sn4/sn4.24_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn4/sn4.24_translation-en-sujato.json",
-      "root/pli/ms/sutta/sn/sn8/sn8.8_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/sn/sn8/sn8.8_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn8/sn8.8_translation-en-sujato.json"
+      "root/pli/ms/sutta/kn/snp/vagga5/snp5.19_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/snp/vagga5/snp5.19_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/snp/vagga5/snp5.19_translation-en-sujato.json"
     ],
-    "suttaRefs": [],
-    "mlDocs": [],
+    "suttaRefs": [
+      "snp5.19/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga5/snp5.19_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/snp/vagga5/snp5.19_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/snp/vagga5/snp5.19_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp5.19",
+        "lang": "de",
+        "segMap": {
+          "snp5.19:0.2": {
+            "scid": "snp5.19:0.2",
+            "pli": "Pārāyanānugītigāthā ",
+            "de": "Den <span class=\"ebt-matched\">Weg zum Jenseits</span> bewahren ",
+            "en": "Preserving the Way to the Far Shore ",
+            "matched": true
+          },
+          "snp5.19:1.1": {
+            "scid": "snp5.19:1.1",
+            "pli": "“Pārāyanamanugāyissaṁ, ",
+            "de": "„Ich werde fortfahren, den <span class=\"ebt-matched\">Weg zum Jenseits</span> aufzusagen“, ",
+            "en": "“I shall keep reciting the Way to the Far Shore,” ",
+            "matched": true
+          }
+        },
+        "score": 2.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lehrreden-Sammelband 5.19\nDen Weg zum Jenseits bewahren",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 174,
+          "de": 82,
+          "en": 82
+        }
+      }
+    ],
     "refLang": "en",
     "refAuthor": "sujato",
     "docLang": "de",

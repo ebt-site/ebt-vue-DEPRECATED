@@ -40,8 +40,11 @@
     "pattern": "über die liebe",
     "method": "phrase",
     "resultPattern": "\\büber die liebe",
-    "segsMatched": 4,
+    "segsMatched": 7,
     "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn62_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn62_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn62_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn118_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn118_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn118_translation-en-sujato.json",
@@ -53,15 +56,59 @@
       "translation/en/sujato/sutta/kn/kp/kp9_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/iti/vagga3/iti27_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/iti/vagga3/iti27_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/kn/iti/vagga3/iti27_translation-en-sujato.json"
+      "translation/en/sujato/sutta/kn/iti/vagga3/iti27_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/dhp/dhp360-382_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/dhp/dhp360-382_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp360-382_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "mn62/de/sabbamitta",
       "mn118/de/sabbamitta",
       "snp1.8/de/sabbamitta",
       "kp9/de/sabbamitta",
-      "iti27/de/sabbamitta"
+      "iti27/de/sabbamitta",
+      "dhp360-382/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn62_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn62_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn62_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn62",
+        "lang": "de",
+        "segMap": {
+          "mn62:18.1": {
+            "scid": "mn62:18.1",
+            "pli": "Mettaṁ, rāhula, bhāvanaṁ bhāvehi. ",
+            "de": "Meditiere <span class=\"ebt-matched\">über die Liebe</span>. ",
+            "en": "Meditate on love. ",
+            "matched": true
+          },
+          "mn62:18.2": {
+            "scid": "mn62:18.2",
+            "pli": "Mettañhi te, rāhula, bhāvanaṁ bhāvayato yo byāpādo so pahīyissati. ",
+            "de": "Denn wenn du <span class=\"ebt-matched\">über die Liebe</span> meditierst, wird jeglicher böser Wille aufgegeben werden. ",
+            "en": "For when you meditate on love any ill will will be given up. ",
+            "matched": true
+          }
+        },
+        "score": 2.016,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 62\nDer längere Rat für Rāhula",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 122,
+          "de": 121,
+          "en": 121
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/kn/kp/kp9_root-pli-ms.json",
@@ -156,6 +203,38 @@
           "pli": 47,
           "de": 35,
           "en": 35
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/dhp/dhp360-382_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/dhp/dhp360-382_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/dhp/dhp360-382_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dhp360-382",
+        "lang": "de",
+        "segMap": {
+          "dhp368:1": {
+            "scid": "dhp368:1",
+            "pli": "Mettāvihārī yo bhikkhu, ",
+            "de": "Ein Mönch, der <span class=\"ebt-matched\">über die Liebe</span> meditiert, ",
+            "en": "A mendicant who meditates on love, ",
+            "matched": true
+          }
+        },
+        "score": 1.009,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Kleinere Sammlung\nDhammasprüche 360–382\n25. Das Kapitel über Mönche und Nonnen\nPañcabhikkhuvatthu",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 113,
+          "de": 100,
+          "en": 100
         }
       },
       {

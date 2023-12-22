@@ -40,7 +40,7 @@
     "pattern": "bangigkeit",
     "method": "phrase",
     "resultPattern": "\\bbangigkeit",
-    "segsMatched": 31,
+    "segsMatched": 32,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn22/sn22.7_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.7_translation-de-sabbamitta.json",
@@ -62,7 +62,10 @@
       "translation/en/sujato/sutta/sn/sn2/sn2.17_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn22/sn22.90_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.90_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn22/sn22.90_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn22/sn22.90_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/dhp/dhp383-423_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/dhp/dhp383-423_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp383-423_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "sn22.7/de/sabbamitta",
@@ -71,7 +74,8 @@
       "dn1/de/sabbamitta",
       "sn22.43/de/sabbamitta",
       "sn2.17/de/sabbamitta",
-      "sn22.90/de/sabbamitta"
+      "sn22.90/de/sabbamitta",
+      "dhp383-423/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -464,6 +468,38 @@
           "pli": 100,
           "de": 57,
           "en": 99
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/dhp/dhp383-423_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/dhp/dhp383-423_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/dhp/dhp383-423_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dhp383-423",
+        "lang": "de",
+        "segMap": {
+          "dhp397:2": {
+            "scid": "dhp397:2",
+            "pli": "yo ve na paritassati; ",
+            "de": "so hat er keine <span class=\"ebt-matched\">Bangigkeit</span>. ",
+            "en": "they have no anxiety. ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Kleinere Sammlung\nDhammasprüche 383–423\n26. Das Kapitel über den Brahmanen\nPasādabahulabrāhmaṇavatthu",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 270,
+          "de": 180,
+          "en": 181
         }
       }
     ],

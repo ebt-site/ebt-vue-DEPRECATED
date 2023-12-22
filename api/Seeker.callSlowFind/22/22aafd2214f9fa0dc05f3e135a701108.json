@@ -40,7 +40,7 @@
     "pattern": "durchbruch",
     "method": "phrase",
     "resultPattern": "\\bdurchbruch",
-    "segsMatched": 22,
+    "segsMatched": 23,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn46/sn46.28_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn46/sn46.28_translation-de-sabbamitta.json",
@@ -64,6 +64,9 @@
       "root/pli/ms/sutta/kn/thag/thag10.3_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag10.3_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag10.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga3/snp3.11_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/snp/vagga3/snp3.11_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/snp/vagga3/snp3.11_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/iti/vagga5/iti41_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/iti/vagga5/iti41_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/iti/vagga5/iti41_translation-en-sujato.json",
@@ -94,6 +97,7 @@
       "ud5.5/de/sabbamitta",
       "thig5.4/de/sabbamitta",
       "thag10.3/de/sabbamitta",
+      "snp3.11/de/sabbamitta",
       "iti41/de/sabbamitta",
       "iti93/de/sabbamitta",
       "dn34/de/sabbamitta",
@@ -542,6 +546,38 @@
           "pli": 109,
           "de": 89,
           "en": 89
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga3/snp3.11_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/snp/vagga3/snp3.11_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/snp/vagga3/snp3.11_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp3.11",
+        "lang": "de",
+        "segMap": {
+          "snp3.11:18.3": {
+            "scid": "snp3.11:18.3",
+            "pli": "Gantvāna tattha samayaṁ paripucchamāno, ",
+            "de": "dann geh und frag ihn nach seinem <span class=\"ebt-matched\">Durchbruch</span>; ",
+            "en": "go there and ask about his breakthrough; ",
+            "matched": true
+          }
+        },
+        "score": 1.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lehrreden-Sammelband 3.11\nÜber Nālaka",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 186,
+          "de": 185,
+          "en": 185
         }
       },
       {

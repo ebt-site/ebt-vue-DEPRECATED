@@ -40,12 +40,15 @@
     "pattern": "zum töten",
     "method": "phrase",
     "resultPattern": "\\bzum töten",
-    "segsMatched": 9,
+    "segsMatched": 10,
     "bilaraPaths": [
       "root/pli/ms/sutta/kn/dhp/dhp129-145_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/dhp/dhp129-145_translation-de-sabbamitta.json",
       "translation/en/suddhaso/sutta/kn/dhp/dhp129-145_translation-en-suddhaso.json",
       "translation/en/sujato/sutta/kn/dhp/dhp129-145_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga3/snp3.11_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/snp/vagga3/snp3.11_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/snp/vagga3/snp3.11_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/iti/vagga3/iti27_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/iti/vagga3/iti27_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/iti/vagga3/iti27_translation-en-sujato.json",
@@ -70,6 +73,7 @@
     ],
     "suttaRefs": [
       "dhp129-145/de/sabbamitta",
+      "snp3.11/de/sabbamitta",
       "iti27/de/sabbamitta",
       "dhp383-423/de/sabbamitta",
       "dn2/de/sabbamitta",
@@ -245,6 +249,38 @@
           "pli": 47,
           "de": 35,
           "en": 35
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga3/snp3.11_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/snp/vagga3/snp3.11_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/snp/vagga3/snp3.11_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp3.11",
+        "lang": "de",
+        "segMap": {
+          "snp3.11:27.4": {
+            "scid": "snp3.11:27.4",
+            "pli": "Na haneyya na ghātaye. ",
+            "de": "und töte weder, noch stifte <span class=\"ebt-matched\">zum Töten</span> an. ",
+            "en": "neither kill nor incite to kill. ",
+            "matched": true
+          }
+        },
+        "score": 1.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lehrreden-Sammelband 3.11\nÜber Nālaka",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 186,
+          "de": 185,
+          "en": 185
         }
       },
       {

@@ -40,7 +40,7 @@
     "pattern": "selbstüberwindung",
     "method": "phrase",
     "resultPattern": "\\bselbstüberwindung",
-    "segsMatched": 18,
+    "segsMatched": 19,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn28_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn28_translation-de-sabbamitta.json",
@@ -60,6 +60,9 @@
       "root/pli/ms/sutta/an/an5/an5.231_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.231_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.231_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn3_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn3_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn3_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.97_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.97_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.97_translation-en-sujato.json",
@@ -80,6 +83,7 @@
       "an9.1/de/sabbamitta",
       "an5.90/de/sabbamitta",
       "an5.231/de/sabbamitta",
+      "mn3/de/sabbamitta",
       "an5.97/de/sabbamitta",
       "an5.190/de/sabbamitta",
       "an5.181/de/sabbamitta",
@@ -460,6 +464,38 @@
           "pli": 49,
           "de": 42,
           "en": 47
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn3_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn3_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn3_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn3",
+        "lang": "de",
+        "segMap": {
+          "mn3:3.25": {
+            "scid": "mn3:3.25",
+            "pli": "Tañhi tassa, bhikkhave, bhikkhuno dīgharattaṁ appicchatāya santuṭṭhiyā sallekhāya subharatāya vīriyārambhāya saṁvattissati. ",
+            "de": "Weil sein Verhalten dazu führen würde, dass dieser Mönch lange Zeit genügsam, zufrieden, voller <span class=\"ebt-matched\">Selbstüberwindung</span> und energisch wäre und nicht zur Last fiele. ",
+            "en": "Because for a long time that will conduce to that mendicant being of few wishes, content, self-effacing, unburdensome, and energetic. ",
+            "matched": true
+          }
+        },
+        "score": 1.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 3\nErben in der Lehre",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 128,
+          "de": 113,
+          "en": 127
         }
       }
     ],

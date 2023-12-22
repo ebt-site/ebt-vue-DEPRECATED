@@ -40,7 +40,7 @@
     "pattern": "augenblick versäum",
     "method": "phrase",
     "resultPattern": "\\baugenblick versäum",
-    "segsMatched": 5,
+    "segsMatched": 6,
     "bilaraPaths": [
       "root/pli/ms/sutta/kn/thig/thig1.5_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thig/thig1.5_translation-de-sabbamitta.json",
@@ -52,6 +52,9 @@
       "root/pli/ms/sutta/kn/thag/thag17.2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag17.2_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag17.2_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga2/snp2.10_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/snp/vagga2/snp2.10_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/snp/vagga2/snp2.10_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/dhp/dhp306-319_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/dhp/dhp306-319_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/dhp/dhp306-319_translation-en-sujato.json",
@@ -63,6 +66,7 @@
       "thig1.5/de/sabbamitta",
       "thag6.5/de/sabbamitta",
       "thag17.2/de/sabbamitta",
+      "snp2.10/de/sabbamitta",
       "dhp306-319/de/sabbamitta",
       "an8.29/de/sabbamitta"
     ],
@@ -98,6 +102,38 @@
           "pli": 8,
           "de": 7,
           "en": 7
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga2/snp2.10_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/snp/vagga2/snp2.10_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/snp/vagga2/snp2.10_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp2.10",
+        "lang": "de",
+        "segMap": {
+          "snp2.10:3.5": {
+            "scid": "snp2.10:3.5",
+            "pli": "Khaṇātītā hi socanti, ",
+            "de": "Denn wenn ihr euren <span class=\"ebt-matched\">Augenblick versäum</span>t, ",
+            "en": "For if you miss your moment ",
+            "matched": true
+          }
+        },
+        "score": 1.048,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lehrreden-Sammelband 2.10\nSteht auf!",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 21,
+          "de": 20,
+          "en": 20
         }
       },
       {

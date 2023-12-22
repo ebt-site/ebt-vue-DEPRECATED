@@ -40,7 +40,7 @@
     "pattern": "filz",
     "method": "phrase",
     "resultPattern": "\\bfilz",
-    "segsMatched": 33,
+    "segsMatched": 34,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn7/sn7.6_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn7/sn7.6_translation-de-sabbamitta.json",
@@ -72,6 +72,9 @@
       "root/pli/ms/sutta/kn/thag/thag6.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag6.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag6.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga3/snp3.11_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/snp/vagga3/snp3.11_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/snp/vagga3/snp3.11_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/dhp/dhp129-145_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/dhp/dhp129-145_translation-de-sabbamitta.json",
       "translation/en/suddhaso/sutta/kn/dhp/dhp129-145_translation-en-suddhaso.json",
@@ -97,6 +100,7 @@
       "sn4.21/de/sabbamitta",
       "mn38/de/sabbamitta",
       "thag6.1/de/sabbamitta",
+      "snp3.11/de/sabbamitta",
       "dhp129-145/de/sabbamitta",
       "cp22/de/sabbamitta",
       "cp17/de/sabbamitta",
@@ -651,6 +655,38 @@
           "pli": 85,
           "de": 73,
           "en": 74
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga3/snp3.11_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/snp/vagga3/snp3.11_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/snp/vagga3/snp3.11_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp3.11",
+        "lang": "de",
+        "segMap": {
+          "snp3.11:11.1": {
+            "scid": "snp3.11:11.1",
+            "pli": "Disvā jaṭī kaṇhasirivhayo isi, ",
+            "de": "Als der <span class=\"ebt-matched\">Filz</span>haar-Seher mit Namen „Dunkler Glanz“ ",
+            "en": "When the dreadlocked seer called “Dark Splendor” ",
+            "matched": true
+          }
+        },
+        "score": 1.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lehrreden-Sammelband 3.11\nÜber Nālaka",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 186,
+          "de": 185,
+          "en": 185
         }
       },
       {

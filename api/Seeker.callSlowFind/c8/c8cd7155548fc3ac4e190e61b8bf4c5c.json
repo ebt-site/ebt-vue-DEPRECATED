@@ -40,7 +40,7 @@
     "pattern": "herr de[rs]",
     "method": "phrase",
     "resultPattern": "\\bherr de[rs]",
-    "segsMatched": 22,
+    "segsMatched": 23,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn20_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn20_translation-de-sabbamitta.json",
@@ -69,6 +69,9 @@
       "root/pli/ms/sutta/kn/thag/thag16.3_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag16.3_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag16.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga3/snp3.11_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/snp/vagga3/snp3.11_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/snp/vagga3/snp3.11_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/cp/cp32_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/cp/cp32_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/cp/cp32_translation-en-sujato.json",
@@ -92,6 +95,7 @@
       "sn3.1/de/sabbamitta",
       "sn3.16/de/sabbamitta",
       "thag16.3/de/sabbamitta",
+      "snp3.11/de/sabbamitta",
       "cp32/de/sabbamitta",
       "cp22/de/sabbamitta",
       "dn27/de/sabbamitta",
@@ -543,6 +547,38 @@
           "pli": 93,
           "de": 92,
           "en": 92
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga3/snp3.11_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/snp/vagga3/snp3.11_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/snp/vagga3/snp3.11_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp3.11",
+        "lang": "de",
+        "segMap": {
+          "snp3.11:9.2": {
+            "scid": "snp3.11:9.2",
+            "pli": "Tārāsabhaṁva nabhasigamaṁ visuddhaṁ; ",
+            "de": "rein wie der Mond, der <span class=\"ebt-matched\">Herr der</span> Sterne, wenn er den Himmel durchquert, ",
+            "en": "pure as the moon, lord of stars traversing the sky, ",
+            "matched": true
+          }
+        },
+        "score": 1.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lehrreden-Sammelband 3.11\nÜber Nālaka",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 186,
+          "de": 185,
+          "en": 185
         }
       },
       {

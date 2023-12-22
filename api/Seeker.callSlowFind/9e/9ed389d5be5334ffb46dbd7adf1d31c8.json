@@ -40,7 +40,7 @@
     "pattern": "haarsträubend",
     "method": "phrase",
     "resultPattern": "\\bhaarsträubend",
-    "segsMatched": 14,
+    "segsMatched": 15,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
@@ -54,6 +54,9 @@
       "root/pli/ms/sutta/sn/sn51/sn51.10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn51/sn51.10_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn51/sn51.10_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn4_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn4_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn4_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/ud/vagga6/ud6.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga6/ud6.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/ud/vagga6/ud6.1_translation-en-sujato.json",
@@ -73,6 +76,7 @@
       "an8.70/de/sabbamitta",
       "cp9/de/sabbamitta",
       "sn51.10/de/sabbamitta",
+      "mn4/de/sabbamitta",
       "ud6.1/de/sabbamitta",
       "thig11.1/de/sabbamitta",
       "thag6.1/de/sabbamitta",
@@ -376,6 +380,38 @@
           "pli": 89,
           "de": 88,
           "en": 88
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn4_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn4_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn4_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn4",
+        "lang": "de",
+        "segMap": {
+          "mn4:20.4": {
+            "scid": "mn4:20.4",
+            "pli": "tathārūpāsu rattīsu yāni tāni ārāmacetiyāni vanacetiyāni rukkhacetiyāni bhiṁsanakāni salomahaṁsāni tathārūpesu senāsanesu vihareyyaṁ appeva nāmāhaṁ bhayabheravaṁ passeyyan’ti. ",
+            "de": "Warum verbringe ich nicht solche Nächte an furchterregenden und <span class=\"ebt-matched\">haarsträubend</span>en Heiligtümern in Parks und Wäldern und an Bäumen? In solchen Unterkünften würde ich hoffentlich diese Angst und diesen Schrecken sehen.‘ ",
+            "en": "On such nights, why don’t I stay in awe-inspiring and hair-raising shrines in parks, forests, and trees? In such lodgings, hopefully I might see that fear and dread.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 4\nAngst und Schrecken",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 165,
+          "de": 111,
+          "en": 110
         }
       }
     ],

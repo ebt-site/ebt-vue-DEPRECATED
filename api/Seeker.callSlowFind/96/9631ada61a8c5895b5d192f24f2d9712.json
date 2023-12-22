@@ -40,7 +40,7 @@
     "pattern": "ende der welt",
     "method": "phrase",
     "resultPattern": "\\bende der welt",
-    "segsMatched": 44,
+    "segsMatched": 45,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an9/an9.38_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an9/an9.38_translation-de-sabbamitta.json",
@@ -57,6 +57,9 @@
       "root/pli/ms/sutta/sn/sn35/sn35.228_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn35/sn35.228_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.228_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga5/snp5.19_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/snp/vagga5/snp5.19_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/snp/vagga5/snp5.19_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/iti/vagga11/iti109_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/iti/vagga11/iti109_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/iti/vagga11/iti109_translation-en-sujato.json",
@@ -73,6 +76,7 @@
       "an4.45/de/sabbamitta",
       "sn35.116/de/sabbamitta",
       "sn35.228/de/sabbamitta",
+      "snp5.19/de/sabbamitta",
       "iti109/de/sabbamitta",
       "an4.5/de/sabbamitta",
       "an4.46/de/sabbamitta"
@@ -584,6 +588,38 @@
           "pli": 36,
           "de": 35,
           "en": 35
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga5/snp5.19_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/snp/vagga5/snp5.19_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/snp/vagga5/snp5.19_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp5.19",
+        "lang": "de",
+        "segMap": {
+          "snp5.19:3.2": {
+            "scid": "snp5.19:3.2",
+            "pli": "Lokantagū sabbabhavātivatto; ",
+            "de": "ist zum <span class=\"ebt-matched\">Ende der Welt</span> gegangen, jenseits aller Wiedergeburten; ",
+            "en": "has gone to world’s end, beyond all rebirths; ",
+            "matched": true
+          }
+        },
+        "score": 1.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lehrreden-Sammelband 5.19\nDen Weg zum Jenseits bewahren",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 174,
+          "de": 82,
+          "en": 82
         }
       }
     ],

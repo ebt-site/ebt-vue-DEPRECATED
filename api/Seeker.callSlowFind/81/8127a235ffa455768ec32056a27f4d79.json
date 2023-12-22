@@ -40,7 +40,7 @@
     "pattern": "wie der mond",
     "method": "phrase",
     "resultPattern": "\\bwie der mond",
-    "segsMatched": 41,
+    "segsMatched": 42,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn16/sn16.3_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn16/sn16.3_translation-de-sabbamitta.json",
@@ -99,6 +99,9 @@
       "root/pli/ms/sutta/kn/thag/thag10.2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag10.2_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag10.2_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga3/snp3.11_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/snp/vagga3/snp3.11_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/snp/vagga3/snp3.11_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/iti/vagga8/iti74_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/iti/vagga8/iti74_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/iti/vagga8/iti74_translation-en-sujato.json",
@@ -137,6 +140,7 @@
       "thag21.1/de/sabbamitta",
       "thag10.3/de/sabbamitta",
       "thag10.2/de/sabbamitta",
+      "snp3.11/de/sabbamitta",
       "iti74/de/sabbamitta",
       "dhp360-382/de/sabbamitta",
       "dhp197-208/de/sabbamitta",
@@ -969,6 +973,38 @@
           "pli": 113,
           "de": 100,
           "en": 100
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga3/snp3.11_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/snp/vagga3/snp3.11_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/snp/vagga3/snp3.11_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp3.11",
+        "lang": "de",
+        "segMap": {
+          "snp3.11:9.2": {
+            "scid": "snp3.11:9.2",
+            "pli": "Tārāsabhaṁva nabhasigamaṁ visuddhaṁ; ",
+            "de": "rein <span class=\"ebt-matched\">wie der Mond</span>, der Herr der Sterne, wenn er den Himmel durchquert, ",
+            "en": "pure as the moon, lord of stars traversing the sky, ",
+            "matched": true
+          }
+        },
+        "score": 1.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lehrreden-Sammelband 3.11\nÜber Nālaka",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 186,
+          "de": 185,
+          "en": 185
         }
       },
       {

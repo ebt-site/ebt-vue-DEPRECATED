@@ -40,7 +40,7 @@
     "pattern": "aber zum erwachen entschlossen",
     "method": "phrase",
     "resultPattern": "\\baber zum erwachen entschlossen",
-    "segsMatched": 20,
+    "segsMatched": 21,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an5/an5.196_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.196_translation-de-sabbamitta.json",
@@ -81,6 +81,9 @@
       "root/pli/ms/sutta/sn/sn12/sn12.10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.10_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn12/sn12.10_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn4_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn4_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn4_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn19_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn19_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn19_translation-en-sujato.json",
@@ -111,6 +114,7 @@
       "sn12.65/de/sabbamitta",
       "sn12.4/de/sabbamitta",
       "sn12.10/de/sabbamitta",
+      "mn4/de/sabbamitta",
       "mn19/de/sabbamitta",
       "an9.41/de/sabbamitta",
       "an8.64/de/sabbamitta",
@@ -706,6 +710,38 @@
           "pli": 177,
           "de": 166,
           "en": 175
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn4_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn4_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn4_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn4",
+        "lang": "de",
+        "segMap": {
+          "mn4:3.1": {
+            "scid": "mn4:3.1",
+            "pli": "Mayhampi kho, brāhmaṇa, pubbeva sambodhā anabhisambuddhassa bodhisattasseva sato etadahosi: ",
+            "de": "Vor meinem Erwachen – als ich noch nicht erwacht war, <span class=\"ebt-matched\">aber zum Erwachen entschlossen</span> – dachte ich auch: ",
+            "en": "Before my awakening—when I was still unawakened but intent on awakening—I too thought, ",
+            "matched": true
+          }
+        },
+        "score": 1.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 4\nAngst und Schrecken",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 165,
+          "de": 111,
+          "en": 110
         }
       }
     ],

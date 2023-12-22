@@ -40,7 +40,7 @@
     "pattern": "wesen, das zum erwachen entschlossen",
     "method": "phrase",
     "resultPattern": "\\bwesen, das zum erwachen entschlossen",
-    "segsMatched": 18,
+    "segsMatched": 19,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn14_translation-de-sabbamitta.json",
@@ -53,13 +53,17 @@
       "translation/en/sujato/sutta/an/an8/an8.70_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.127_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.127_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an4/an4.127_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an4/an4.127_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga3/snp3.11_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/snp/vagga3/snp3.11_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/snp/vagga3/snp3.11_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "dn14/de/sabbamitta",
       "dn16/de/sabbamitta",
       "an8.70/de/sabbamitta",
-      "an4.127/de/sabbamitta"
+      "an4.127/de/sabbamitta",
+      "snp3.11/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -286,6 +290,38 @@
           "pli": 1664,
           "de": 1579,
           "en": 1568
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga3/snp3.11_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/snp/vagga3/snp3.11_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/snp/vagga3/snp3.11_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp3.11",
+        "lang": "de",
+        "segMap": {
+          "snp3.11:5.1": {
+            "scid": "snp3.11:5.1",
+            "pli": "“So bodhisatto ratanavaro atulyo, ",
+            "de": "„Das <span class=\"ebt-matched\">Wesen, das zum Erwachen entschlossen</span> ist, ein unvergleichliches Juwel, ",
+            "en": "“The being intent on awakening, a peerless gem, ",
+            "matched": true
+          }
+        },
+        "score": 1.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lehrreden-Sammelband 3.11\nÜber Nālaka",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 186,
+          "de": 185,
+          "en": 185
         }
       }
     ],

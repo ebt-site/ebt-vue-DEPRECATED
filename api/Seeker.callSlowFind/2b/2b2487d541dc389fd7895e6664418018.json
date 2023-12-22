@@ -40,16 +40,59 @@
     "pattern": "eine große herausforderung",
     "method": "phrase",
     "resultPattern": "\\beine große herausforderung",
-    "segsMatched": 1,
+    "segsMatched": 3,
     "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn4_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn4_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn4_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.99_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.99_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an10/an10.99_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "mn4/de/sabbamitta",
       "an10.99/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn4_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn4_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn4_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn4",
+        "lang": "de",
+        "segMap": {
+          "mn4:2.8": {
+            "scid": "mn4:2.8",
+            "pli": "“Durabhisambhavāni hi kho, bho gotama, araññavanapatthāni pantāni senāsanāni, dukkaraṁ pavivekaṁ, durabhiramaṁ ekatte, ",
+            "de": "„Aber Meister Gotama, abgelegene Unterkünfte in der Wildnis und im Wald sind <span class=\"ebt-matched\">eine große Herausforderung</span>. Es ist schwer, abgeschieden zu leben, und es ist schwer, in der Einsamkeit Freude zu finden. ",
+            "en": "“But Master Gotama, remote lodgings in the wilderness and the forest are challenging. It’s hard to maintain seclusion and hard to find joy in solitude. ",
+            "matched": true
+          },
+          "mn4:3.2": {
+            "scid": "mn4:3.2",
+            "pli": "‘durabhisambhavāni hi kho araññavanapatthāni pantāni senāsanāni, dukkaraṁ pavivekaṁ, durabhiramaṁ ekatte, ",
+            "de": "‚Abgelegene Unterkünfte in der Wildnis und im Wald sind <span class=\"ebt-matched\">eine große Herausforderung</span>. Es ist schwer, abgeschieden zu leben, und es ist schwer, in der Einsamkeit Freude zu finden. ",
+            "en": "‘Remote lodgings in the wilderness and the forest are challenging. It’s hard to maintain seclusion and hard to find joy in solitude. ",
+            "matched": true
+          }
+        },
+        "score": 2.012,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 4\nAngst und Schrecken",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 165,
+          "de": 111,
+          "en": 110
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/an/an10/an10.99_root-pli-ms.json",

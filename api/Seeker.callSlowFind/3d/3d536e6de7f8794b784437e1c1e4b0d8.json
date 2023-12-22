@@ -40,7 +40,7 @@
     "pattern": "vervollkommnung de[sr]",
     "method": "phrase",
     "resultPattern": "\\bvervollkommnung de[sr]",
-    "segsMatched": 191,
+    "segsMatched": 192,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an8/an8.55_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.55_translation-de-sabbamitta.json",
@@ -129,6 +129,9 @@
       "root/pli/ms/sutta/an/an5/an5.213_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.213_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.213_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn4_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn4_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn4_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag15.2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag15.2_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag15.2_translation-en-sujato.json",
@@ -190,6 +193,7 @@
       "dn33/de/sabbamitta",
       "dn16/de/sabbamitta",
       "an5.213/de/sabbamitta",
+      "mn4/de/sabbamitta",
       "thag15.2/de/sabbamitta",
       "kp8/de/sabbamitta",
       "iti111/de/sabbamitta",
@@ -2512,6 +2516,38 @@
           "pli": 98,
           "de": 97,
           "en": 97
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn4_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn4_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn4_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn4",
+        "lang": "de",
+        "segMap": {
+          "mn4:19.6": {
+            "scid": "mn4:19.6",
+            "pli": "Etamahaṁ, brāhmaṇa, paññāsampadaṁ attani sampassamāno bhiyyo pallomamāpādiṁ araññe vihārāya. ",
+            "de": "Als ich diese <span class=\"ebt-matched\">Vervollkommnung der</span> Weisheit in mir sah, fühlte ich mich sogar noch gelassener beim Gedanken, im Wald zu leben. ",
+            "en": "Seeing this accomplishment of wisdom in myself I felt even more unruffled about staying in the forest. ",
+            "matched": true
+          }
+        },
+        "score": 1.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 4\nAngst und Schrecken",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 165,
+          "de": 111,
+          "en": 110
         }
       }
     ],

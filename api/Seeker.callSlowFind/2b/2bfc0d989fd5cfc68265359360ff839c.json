@@ -40,7 +40,7 @@
     "pattern": "alles leiden",
     "method": "phrase",
     "resultPattern": "\\balles leiden",
-    "segsMatched": 29,
+    "segsMatched": 30,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn42/sn42.11_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn42/sn42.11_translation-de-sabbamitta.json",
@@ -54,6 +54,9 @@
       "root/pli/ms/sutta/kn/iti/vagga11/iti103_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/iti/vagga11/iti103_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/iti/vagga11/iti103_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/dhp/dhp334-359_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/dhp/dhp334-359_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp334-359_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn14_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json",
@@ -81,9 +84,6 @@
       "root/pli/ms/sutta/kn/iti/vagga1/iti7_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/iti/vagga1/iti7_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/iti/vagga1/iti7_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/dhp/dhp334-359_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/kn/dhp/dhp334-359_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/kn/dhp/dhp334-359_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/dhp/dhp320-333_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/dhp/dhp320-333_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/dhp/dhp320-333_translation-en-sujato.json",
@@ -114,6 +114,7 @@
       "sn56.22/de/sabbamitta",
       "sn35.83/de/sabbamitta",
       "iti103/de/sabbamitta",
+      "dhp334-359/de/sabbamitta",
       "dn14/de/sabbamitta",
       "sn5.6/de/sabbamitta",
       "mn140/de/sabbamitta",
@@ -122,7 +123,6 @@
       "thig13.3/de/sabbamitta",
       "iti8/de/sabbamitta",
       "iti7/de/sabbamitta",
-      "dhp334-359/de/sabbamitta",
       "dhp320-333/de/sabbamitta",
       "dn32/de/sabbamitta",
       "an6.23/de/sabbamitta",
@@ -308,6 +308,45 @@
           "pli": 33,
           "de": 32,
           "en": 32
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/dhp/dhp334-359_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/dhp/dhp334-359_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/dhp/dhp334-359_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dhp334-359",
+        "lang": "de",
+        "segMap": {
+          "dhp347:4": {
+            "scid": "dhp347:4",
+            "pli": "Anapekkhino sabbadukkhaṁ pahāya. ",
+            "de": "unbesorgt, <span class=\"ebt-matched\">alles Leiden</span> haben sie aufgegeben. ",
+            "en": "unconcerned, having given up all suffering. ",
+            "matched": true
+          },
+          "dhp354:4": {
+            "scid": "dhp354:4",
+            "pli": "Taṇhakkhayo sabbadukkhaṁ jināti. ",
+            "de": "die Auflösung des Verlangens übertrifft <span class=\"ebt-matched\">alles Leiden</span>. ",
+            "en": "the ending of craving surmounts all suffering. ",
+            "matched": true
+          }
+        },
+        "score": 2.016,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Kleinere Sammlung\nDhammasprüche 334–359\n24. Das Kapitel über Verlangen\nKapilamacchavatthu",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 124,
+          "de": 111,
+          "en": 111
         }
       },
       {
@@ -733,38 +772,6 @@
           "pli": 108,
           "de": 107,
           "en": 107
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/kn/dhp/dhp334-359_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/kn/dhp/dhp334-359_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/kn/dhp/dhp334-359_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "dhp334-359",
-        "lang": "de",
-        "segMap": {
-          "dhp354:4": {
-            "scid": "dhp354:4",
-            "pli": "Taṇhakkhayo sabbadukkhaṁ jināti. ",
-            "de": "die Auflösung des Verlangens übertrifft <span class=\"ebt-matched\">alles Leiden</span>. ",
-            "en": "the ending of craving surmounts all suffering. ",
-            "matched": true
-          }
-        },
-        "score": 1.008,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Kleinere Sammlung\nDhammasprüche 334–359\n24. Das Kapitel über Verlangen\nKapilamacchavatthu",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 124,
-          "de": 111,
-          "en": 111
         }
       },
       {

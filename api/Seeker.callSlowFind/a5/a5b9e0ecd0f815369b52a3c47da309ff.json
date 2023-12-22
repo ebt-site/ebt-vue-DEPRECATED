@@ -40,7 +40,7 @@
     "pattern": "wie ein vogel",
     "method": "phrase",
     "resultPattern": "\\bwie ein vogel",
-    "segsMatched": 23,
+    "segsMatched": 24,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
@@ -69,6 +69,9 @@
       "root/pli/ms/sutta/kn/thag/thag17.3_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag17.3_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag17.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga5/snp5.19_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/snp/vagga5/snp5.19_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/snp/vagga5/snp5.19_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/dhp/dhp167-178_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/dhp/dhp167-178_translation-de-sabbamitta.json",
       "translation/en/suddhaso/sutta/kn/dhp/dhp167-178_translation-en-suddhaso.json",
@@ -117,6 +120,7 @@
       "sn12.70/de/sabbamitta",
       "mn38/de/sabbamitta",
       "thag17.3/de/sabbamitta",
+      "snp5.19/de/sabbamitta",
       "dhp167-178/de/sabbamitta",
       "dn34/de/sabbamitta",
       "dn28/de/sabbamitta",
@@ -656,6 +660,38 @@
           "pli": 180,
           "de": 166,
           "en": 176
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga5/snp5.19_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/snp/vagga5/snp5.19_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/snp/vagga5/snp5.19_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp5.19",
+        "lang": "de",
+        "segMap": {
+          "snp5.19:4.1": {
+            "scid": "snp5.19:4.1",
+            "pli": "Dijo yathā kubbanakaṁ pahāya, ",
+            "de": "<span class=\"ebt-matched\">Wie ein Vogel</span>, der ein kleines Unterholz flieht, ",
+            "en": "Like a bird that flees a little copse, ",
+            "matched": true
+          }
+        },
+        "score": 1.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lehrreden-Sammelband 5.19\nDen Weg zum Jenseits bewahren",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 174,
+          "de": 82,
+          "en": 82
         }
       },
       {

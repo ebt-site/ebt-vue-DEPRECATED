@@ -40,18 +40,22 @@
     "pattern": "gründen tadel",
     "method": "phrase",
     "resultPattern": "\\bgründen tadel",
-    "segsMatched": 24,
+    "segsMatched": 27,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn42/sn42.12_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn42/sn42.12_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn42/sn42.12_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.91_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.91_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an10/an10.91_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an10/an10.91_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn3_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn3_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn3_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "sn42.12/de/sabbamitta",
-      "an10.91/de/sabbamitta"
+      "an10.91/de/sabbamitta",
+      "mn3/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -270,6 +274,52 @@
           "pli": 89,
           "de": 88,
           "en": 88
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn3_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn3_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn3_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn3",
+        "lang": "de",
+        "segMap": {
+          "mn3:6.5": {
+            "scid": "mn3:6.5",
+            "pli": "Tatrāvuso, therā bhikkhū tīhi ṭhānehi gārayhā bhavanti. ",
+            "de": "In diesem Fall verdienen die älteren Mönche und Nonnen aus drei <span class=\"ebt-matched\">Gründen Tadel</span>. ",
+            "en": "In this case, the senior mendicants should be criticized on three grounds. ",
+            "matched": true
+          },
+          "mn3:6.12": {
+            "scid": "mn3:6.12",
+            "pli": "Therā, āvuso, bhikkhū imehi tīhi ṭhānehi gārayhā bhavanti. ",
+            "de": "Die älteren Mönche und Nonnen verdienen aus diesen drei <span class=\"ebt-matched\">Gründen Tadel</span>. ",
+            "en": "The senior mendicants should be criticized on these three grounds. ",
+            "matched": true
+          },
+          "mn3:6.14": {
+            "scid": "mn3:6.14",
+            "pli": "navā bhikkhū tīhi ṭhānehi gārayhā bhavanti. ",
+            "de": "und die jüngeren Mönche und Nonnen aus den gleichen drei <span class=\"ebt-matched\">Gründen Tadel</span>. ",
+            "en": "and the junior mendicants should be criticized on the same three grounds. ",
+            "matched": true
+          }
+        },
+        "score": 3.023,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 3\nErben in der Lehre",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 128,
+          "de": 113,
+          "en": 127
         }
       }
     ],
