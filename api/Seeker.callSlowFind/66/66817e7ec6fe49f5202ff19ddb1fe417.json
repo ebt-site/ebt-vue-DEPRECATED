@@ -1,0 +1,88 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sujato",
+      "docLang": "en",
+      "docAuthor": "sujato",
+      "includeUnpublished": false,
+      "lang": "en",
+      "langAuthor": "sujato",
+      "languages": [
+        "pli",
+        "en",
+        "ref"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "basis of immersion",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "en",
+      "searchAuthor": "sujato",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sujato",
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "basis of immersion",
+    "method": "phrase",
+    "resultPattern": "\\bbasis of immersion",
+    "segsMatched": 1,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn122_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn122_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "mn122/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn122_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn122_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn122",
+        "lang": "en",
+        "segMap": {
+          "mn122:10.1": {
+            "scid": "mn122:10.1",
+            "pli": "Tenānanda, bhikkhunā tasmiṁyeva purimasmiṁ samādhinimitte ajjhattameva cittaṁ saṇṭhapetabbaṁ sannisādetabbaṁ ekodi kātabbaṁ samādahātabbaṁ. ",
+            "en": "Then that mendicant should still, settle, unify, and immerse their mind in samādhi internally using the same meditation subject as a <span class=\"ebt-matched\">basis of immersion</span> that they used before. ",
+            "matched": true
+          }
+        },
+        "score": 1.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Middle Discourses 122\nThe Longer Discourse on Emptiness",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 172,
+          "en": 171
+        }
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "en",
+    "docAuthor": "sujato"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sujato",
+      "docLang": "en",
+      "docAuthor": "sujato",
+      "includeUnpublished": false,
+      "lang": "en",
+      "langAuthor": "sujato",
+      "languages": [
+        "pli",
+        "en",
+        "ref"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "the fuel for craving",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "en",
+      "searchAuthor": "sujato",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sujato",
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "the fuel for craving",
+    "method": "phrase",
+    "resultPattern": "\\bthe fuel for craving",
+    "segsMatched": 3,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an10/an10.62_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an10/an10.62_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an10.62/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.62_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an10/an10.62_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.62",
+        "lang": "en",
+        "segMap": {
+          "an10.62:2.2": {
+            "scid": "an10.62:2.2",
+            "pli": "Ko cāhāro bhavataṇhāya? ",
+            "en": "And what is <span class=\"ebt-matched\">the fuel for craving</span> for continued existence? ",
+            "matched": true
+          },
+          "an10.62:3.2": {
+            "scid": "an10.62:3.2",
+            "pli": "evametissā bhavataṇhāya āhāro hoti, evañca pāripūri. ",
+            "en": "That’s <span class=\"ebt-matched\">the fuel for craving</span> for continued existence, and that’s how it’s fulfilled. ",
+            "matched": true
+          },
+          "an10.62:5.2": {
+            "scid": "an10.62:5.2",
+            "pli": "evametissā bhavataṇhāya āhāro hoti, evañca pāripūri. ",
+            "en": "That’s <span class=\"ebt-matched\">the fuel for craving</span> for continued existence, and that’s how it’s fulfilled. ",
+            "matched": true
+          }
+        },
+        "score": 3.042,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 10.62\n7. Pairs\nCraving",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 72,
+          "en": 71
+        }
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "en",
+    "docAuthor": "sujato"
+  }
+}

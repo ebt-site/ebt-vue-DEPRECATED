@@ -1,0 +1,92 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sabbamitta",
+      "docLang": "de",
+      "docAuthor": "sabbamitta",
+      "includeUnpublished": false,
+      "lang": "de",
+      "langAuthor": "sabbamitta",
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "abwägen, bevor du handelst",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "de",
+      "searchAuthor": "sabbamitta",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sabbamitta",
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "abwägen, bevor du handelst",
+    "method": "phrase",
+    "resultPattern": "\\babwägen, bevor du handelst",
+    "segsMatched": 1,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an8/an8.12_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an8/an8.12_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an8/an8.12_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an8.12/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.12_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an8/an8.12_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an8/an8.12_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an8.12",
+        "lang": "de",
+        "segMap": {
+          "an8.12:26.1": {
+            "scid": "an8.12:26.1",
+            "pli": "“Anuviccakāraṁ kho, sīha, karohi. Anuviccakāro tumhādisānaṁ ñātamanussānaṁ sādhu hotī”ti. ",
+            "de": "„Sīha, du solltes sorgfältig <span class=\"ebt-matched\">abwägen, bevor du handelst</span>. Es ist gut, wenn namhafte Persönlichkeiten wie du sorgfältig abwägen, bevor sie handeln.“ ",
+            "en": "“Sīha, you should act after careful consideration. It’s good for well-known people such as yourself to act after careful consideration.” ",
+            "matched": true
+          }
+        },
+        "score": 1.007,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 8.12\n2. Das große Kapitel\nMit Sīha",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 152,
+          "de": 148,
+          "en": 151
+        }
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "de",
+    "docAuthor": "sabbamitta"
+  }
+}

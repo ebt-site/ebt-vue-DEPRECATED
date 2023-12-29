@@ -1,0 +1,92 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sabbamitta",
+      "docLang": "de",
+      "docAuthor": "sabbamitta",
+      "includeUnpublished": false,
+      "lang": "de",
+      "langAuthor": "sabbamitta",
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "fasste ihn an den haaren",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "de",
+      "searchAuthor": "sabbamitta",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sabbamitta",
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "fasste ihn an den haaren",
+    "method": "phrase",
+    "resultPattern": "\\bfasste ihn an den haaren",
+    "segsMatched": 1,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn12_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn12_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn12_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "dn12/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn12_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn12_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn12_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn12",
+        "lang": "de",
+        "segMap": {
+          "dn12:78.2": {
+            "scid": "dn12:78.2",
+            "pli": "“seyyathāpi, bho gotama, puriso purisaṁ narakapapātaṁ patantaṁ kesesu gahetvā uddharitvā thale patiṭṭhapeyya; ",
+            "de": "„Meister Gotama, wie ein Mensch, der dabei wäre, eine Klippe hinabzustürzen, und ein anderer Mensch <span class=\"ebt-matched\">fasste ihn an den Haaren</span>, zöge ihn hoch und stellte ihn auf festen Boden. ",
+            "en": "“Suppose, Master Gotama, a person was falling over a cliff, and another person were to grab them by the hair, pull them up, and place them on firm ground. ",
+            "matched": true
+          }
+        },
+        "score": 1.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 12\nMit Lohicca",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 189,
+          "de": 145,
+          "en": 188
+        }
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "de",
+    "docAuthor": "sabbamitta"
+  }
+}

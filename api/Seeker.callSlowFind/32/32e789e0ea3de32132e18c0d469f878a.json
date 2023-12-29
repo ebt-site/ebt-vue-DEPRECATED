@@ -1,0 +1,120 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sujato",
+      "docLang": "en",
+      "docAuthor": "sujato",
+      "includeUnpublished": false,
+      "lang": "en",
+      "langAuthor": "sujato",
+      "languages": [
+        "pli",
+        "en",
+        "ref"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "be comfortable",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "en",
+      "searchAuthor": "sujato",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sujato",
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "be comfortable",
+    "method": "phrase",
+    "resultPattern": "\\bbe comfortable",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/kn/thag/thag17.3_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/thag/thag17.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.99_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an10/an10.99_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "thag17.3/en/sujato",
+      "an10.99/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.99_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an10/an10.99_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.99",
+        "lang": "en",
+        "segMap": {
+          "an10.99:38.3": {
+            "scid": "an10.99:38.3",
+            "pli": "Saṅghe te viharato phāsu bhavissatī”ti. ",
+            "en": "If you stay with the Saṅgha you’ll <span class=\"ebt-matched\">be comfortable</span>.” ",
+            "matched": true
+          }
+        },
+        "score": 1.007,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 10.99\n10. With Upāli\nWith Upāli",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 148,
+          "en": 147
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag17.3_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/thag/thag17.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag17.3",
+        "lang": "en",
+        "segMap": {
+          "thag17.3:20.4": {
+            "scid": "thag17.3:20.4",
+            "pli": "kuto samaṇaphāsutā. ",
+            "en": "how can you <span class=\"ebt-matched\">be comfortable</span> as an ascetic?” ",
+            "matched": true
+          }
+        },
+        "score": 1.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verses of the Senior Monks 17.3\nThe Book of the Thirties\nChapter One\nĀnanda",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 159,
+          "en": 152
+        }
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "en",
+    "docAuthor": "sujato"
+  }
+}

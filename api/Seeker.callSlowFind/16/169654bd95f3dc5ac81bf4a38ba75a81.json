@@ -1,0 +1,100 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sujato",
+      "docLang": "en",
+      "docAuthor": "sujato",
+      "includeUnpublished": false,
+      "lang": "en",
+      "langAuthor": "sujato",
+      "languages": [
+        "pli",
+        "en",
+        "ref"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "bowl upside down",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "en",
+      "searchAuthor": "sujato",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sujato",
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "bowl upside down",
+    "method": "phrase",
+    "resultPattern": "\\bbowl upside down",
+    "segsMatched": 3,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an8/an8.87_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an8/an8.87_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an8.87/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.87_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an8/an8.87_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an8.87",
+        "lang": "en",
+        "segMap": {
+          "an8.87:0.3": {
+            "scid": "an8.87:0.3",
+            "pli": "Pattanikujjanasutta ",
+            "en": "Turning the <span class=\"ebt-matched\">Bowl Upside Down</span> ",
+            "matched": true
+          },
+          "an8.87:1.1": {
+            "scid": "an8.87:1.1",
+            "pli": "“Aṭṭhahi, bhikkhave, aṅgehi samannāgatassa upāsakassa ākaṅkhamāno saṅgho pattaṁ nikkujjeyya. ",
+            "en": "“Mendicants, the Saṅgha may, if it wishes, turn the <span class=\"ebt-matched\">bowl upside down</span> for a lay follower on eight grounds. ",
+            "matched": true
+          },
+          "an8.87:1.4": {
+            "scid": "an8.87:1.4",
+            "pli": "Imehi kho, bhikkhave, aṭṭhahaṅgehi samannāgatassa upāsakassa ākaṅkhamāno saṅgho pattaṁ nikkujjeyya. ",
+            "en": "The Saṅgha may, if it wishes, turn the <span class=\"ebt-matched\">bowl upside down</span> for a lay follower on these eight grounds. ",
+            "matched": true
+          }
+        },
+        "score": 3.25,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 8.87\n9. Mindfulness\nTurning the Bowl Upside Down",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 12,
+          "en": 11
+        }
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "en",
+    "docAuthor": "sujato"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "laera-quaresma",
+      "docLang": "pt",
+      "docAuthor": "laera-quaresma",
+      "includeUnpublished": false,
+      "lang": "pt",
+      "langAuthor": "laera-quaresma",
+      "languages": [
+        "pli",
+        "en",
+        "pt"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "dardo do anseio",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "pt",
+      "searchAuthor": "laera-quaresma",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "laera-quaresma",
+    "lang": "pt",
+    "searchLang": "pt",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "dardo do anseio",
+    "method": "phrase",
+    "resultPattern": "\\bdardo do anseio",
+    "segsMatched": 1,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn1/sn1.66_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn1/sn1.66_translation-en-sujato.json",
+      "translation/pt/laera-quaresma/sutta/sn/sn1/sn1.66_translation-pt-laera-quaresma.json"
+    ],
+    "suttaRefs": [
+      "sn1.66/pt/laera-quaresma"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn1/sn1.66_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn1/sn1.66_translation-en-sujato.json",
+          "translation/pt/laera-quaresma/sutta/sn/sn1/sn1.66_translation-pt-laera-quaresma.json"
+        ],
+        "author_uid": "laera-quaresma",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn1.66",
+        "lang": "pt",
+        "segMap": {
+          "sn1.66:2.3": {
+            "scid": "sn1.66:2.3",
+            "pli": "Taṇhāsallena otiṇṇo, ",
+            "en": "The dart of craving has struck it down. ",
+            "pt": "O <span class=\"ebt-matched\">dardo do anseio</span> o feriu. ",
+            "matched": true
+          }
+        },
+        "score": 1.091,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Saṃyutta Nikāya 1\n7. Oprimido\n66. Abatido",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 11,
+          "en": 11,
+          "pt": 11
+        }
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "pt",
+    "docAuthor": "laera-quaresma"
+  }
+}

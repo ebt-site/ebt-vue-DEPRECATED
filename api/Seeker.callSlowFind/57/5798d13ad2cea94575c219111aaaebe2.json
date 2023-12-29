@@ -1,0 +1,92 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sabbamitta",
+      "docLang": "de",
+      "docAuthor": "sabbamitta",
+      "includeUnpublished": false,
+      "lang": "de",
+      "langAuthor": "sabbamitta",
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "arten der fortpflanzung",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "de",
+      "searchAuthor": "sabbamitta",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sabbamitta",
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "arten der fortpflanzung",
+    "method": "phrase",
+    "resultPattern": "\\barten der fortpflanzung",
+    "segsMatched": 1,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "dn33/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn33",
+        "lang": "de",
+        "segMap": {
+          "dn33:1.11.173": {
+            "scid": "dn33:1.11.173",
+            "pli": "Catasso yoniyo—",
+            "de": "<em>Vier <span class=\"ebt-matched\">Arten der Fortpflanzung</span>:</em> ",
+            "en": "<em>Four kinds of reproduction:</em> ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 33\nIm Chor aufsagen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 1167,
+          "de": 1166,
+          "en": 1166
+        }
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "de",
+    "docAuthor": "sabbamitta"
+  }
+}
