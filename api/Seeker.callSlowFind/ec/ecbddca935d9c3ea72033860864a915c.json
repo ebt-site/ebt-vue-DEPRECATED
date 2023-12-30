@@ -41,7 +41,7 @@
     "pattern": "schwer zu sehen",
     "method": "phrase",
     "resultPattern": "\\bschwer zu sehen",
-    "segsMatched": 18,
+    "segsMatched": 19,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn1_translation-de-sabbamitta.json",
@@ -55,6 +55,9 @@
       "root/pli/ms/sutta/sn/sn11/sn11.13_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn11/sn11.13_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn11/sn11.13_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn26_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn26_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn26_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/ud/vagga8/ud8.2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga8/ud8.2_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/ud/vagga8/ud8.2_translation-en-sujato.json",
@@ -91,6 +94,7 @@
       "sn6.1/de/sabbamitta",
       "sn43.14-43/de/sabbamitta",
       "sn11.13/de/sabbamitta",
+      "mn26/de/sabbamitta",
       "ud8.2/de/sabbamitta",
       "thig6.1/de/sabbamitta",
       "thig3.5/de/sabbamitta",
@@ -522,6 +526,38 @@
           "pli": 231,
           "de": 224,
           "en": 224
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn26_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn26_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn26_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn26",
+        "lang": "de",
+        "segMap": {
+          "mn26:19.2": {
+            "scid": "mn26:19.2",
+            "pli": "‘adhigato kho myāyaṁ dhammo gambhīro duddaso duranubodho santo paṇīto atakkāvacaro nipuṇo paṇḍitavedanīyo. ",
+            "de": "‚Dieser Grundsatz, den ich entdeckt habe, ist tiefgründig, <span class=\"ebt-matched\">schwer zu sehen</span>, schwer zu verstehen, friedvoll und erhaben, geht über den Rahmen der Logik hinaus, ist subtil, für den Klugen nachvollziehbar. ",
+            "en": "‘This principle I have discovered is deep, hard to see, hard to understand, peaceful, sublime, beyond the scope of logic, subtle, comprehensible to the astute. ",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 26\nDie edle Suche",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 365,
+          "de": 363,
+          "en": 364
         }
       },
       {

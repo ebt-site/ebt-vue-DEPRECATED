@@ -41,7 +41,7 @@
     "pattern": "gut genug",
     "method": "phrase",
     "resultPattern": "\\bgut genug",
-    "segsMatched": 39,
+    "segsMatched": 41,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an8/an8.78_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.78_translation-de-sabbamitta.json",
@@ -52,6 +52,9 @@
       "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn23_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn23_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn26_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn26_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn26_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/ud/vagga4/ud4.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga4/ud4.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/ud/vagga4/ud4.1_translation-en-sujato.json",
@@ -63,6 +66,7 @@
       "an8.78/de/sabbamitta",
       "an8.62/de/sabbamitta",
       "dn23/de/sabbamitta",
+      "mn26/de/sabbamitta",
       "ud4.1/de/sabbamitta",
       "an9.3/de/sabbamitta"
     ],
@@ -399,6 +403,45 @@
           "pli": 715,
           "de": 636,
           "en": 713
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn26_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn26_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn26_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn26",
+        "lang": "de",
+        "segMap": {
+          "mn26:17.5": {
+            "scid": "mn26:17.5",
+            "pli": "Alaṁ vatidaṁ kulaputtassa padhānatthikassa padhānāyā’ti. ",
+            "de": "Das ist sicher <span class=\"ebt-matched\">gut genug</span> zum Streben für einen ehrbaren Menschen, der streben will.‘ ",
+            "en": "This is good enough for striving for a gentleman wanting to strive.’ ",
+            "matched": true
+          },
+          "mn26:17.7": {
+            "scid": "mn26:17.7",
+            "pli": "alamidaṁ padhānāyāti. ",
+            "de": "‚Das ist <span class=\"ebt-matched\">gut genug</span> zum Streben.‘ ",
+            "en": "‘This is good enough for striving.’ ",
+            "matched": true
+          }
+        },
+        "score": 2.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 26\nDie edle Suche",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 365,
+          "de": 363,
+          "en": 364
         }
       },
       {

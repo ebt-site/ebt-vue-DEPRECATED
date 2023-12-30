@@ -41,7 +41,7 @@
     "pattern": "beruhigen.* aller vorgänge",
     "method": "phrase",
     "resultPattern": "\\bberuhigen.* aller vorgänge",
-    "segsMatched": 26,
+    "segsMatched": 27,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an9/an9.36_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an9/an9.36_translation-de-sabbamitta.json",
@@ -64,6 +64,9 @@
       "root/pli/ms/sutta/sn/sn22/sn22.90_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.90_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.90_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn26_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn26_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn26_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/iti/vagga9/iti85_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/iti/vagga9/iti85_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/iti/vagga9/iti85_translation-en-sujato.json",
@@ -109,6 +112,7 @@
       "sn6.1/de/sabbamitta",
       "sn48.50/de/sabbamitta",
       "sn22.90/de/sabbamitta",
+      "mn26/de/sabbamitta",
       "iti85/de/sabbamitta",
       "iti72/de/sabbamitta",
       "dn14/de/sabbamitta",
@@ -746,6 +750,38 @@
           "pli": 100,
           "de": 57,
           "en": 99
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn26_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn26_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn26_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn26",
+        "lang": "de",
+        "segMap": {
+          "mn26:19.5": {
+            "scid": "mn26:19.5",
+            "pli": "Idampi kho ṭhānaṁ duddasaṁ yadidaṁ—sabbasaṅkhārasamatho sabbūpadhipaṭinissaggo taṇhākkhayo virāgo nirodho nibbānaṁ. ",
+            "de": "Und es ist schwer für sie, diesen Gegenstand zu sehen: nämlich das <span class=\"ebt-matched\">Beruhigen aller Vorgänge</span>, das Loslassen aller Bindungen, das Auflösen des Verlangens, das Schwinden, Aufhören, Erlöschen. ",
+            "en": "It’s also hard for them to see this topic; that is, the stilling of all activities, the letting go of all attachments, the ending of craving, fading away, cessation, extinguishment. ",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 26\nDie edle Suche",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 365,
+          "de": 363,
+          "en": 364
         }
       },
       {

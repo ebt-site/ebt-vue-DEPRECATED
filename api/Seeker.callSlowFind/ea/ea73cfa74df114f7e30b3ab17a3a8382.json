@@ -41,7 +41,7 @@
     "pattern": "die tore zur unsterblichkeit",
     "method": "phrase",
     "resultPattern": "\\bdie tore zur unsterblichkeit",
-    "segsMatched": 4,
+    "segsMatched": 5,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn18_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn18_translation-de-sabbamitta.json",
@@ -49,6 +49,9 @@
       "root/pli/ms/sutta/sn/sn6/sn6.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn6/sn6.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn6/sn6.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn26_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn26_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn26_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn14_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json"
@@ -56,6 +59,7 @@
     "suttaRefs": [
       "dn18/de/sabbamitta",
       "sn6.1/de/sabbamitta",
+      "mn26/de/sabbamitta",
       "dn14/de/sabbamitta"
     ],
     "mlDocs": [
@@ -128,6 +132,38 @@
           "pli": 53,
           "de": 53,
           "en": 53
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn26_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn26_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn26_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn26",
+        "lang": "de",
+        "segMap": {
+          "mn26:21.6": {
+            "scid": "mn26:21.6",
+            "pli": "‘Apārutā tesaṁ amatassa dvārā, ",
+            "de": "‚<span class=\"ebt-matched\">Die Tore zur Unsterblichkeit</span> sind aufgestoßen! ",
+            "en": "‘Flung open are the doors to freedom from death! ",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 26\nDie edle Suche",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 365,
+          "de": 363,
+          "en": 364
         }
       },
       {

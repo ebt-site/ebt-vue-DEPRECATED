@@ -41,7 +41,7 @@
     "pattern": "glaubst du",
     "method": "phrase",
     "resultPattern": "\\bglaubst du",
-    "segsMatched": 10,
+    "segsMatched": 11,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
@@ -58,6 +58,9 @@
       "root/pli/ms/sutta/sn/sn41/sn41.8_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn41/sn41.8_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn41/sn41.8_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn26_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn26_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn26_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn140_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn140_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn140_translation-en-sujato.json",
@@ -77,6 +80,7 @@
       "sn5.10/de/sabbamitta",
       "sn48.44/de/sabbamitta",
       "sn41.8/de/sabbamitta",
+      "mn26/de/sabbamitta",
       "mn140/de/sabbamitta",
       "dn9/de/sabbamitta",
       "an5.166/de/sabbamitta",
@@ -344,6 +348,38 @@
           "pli": 239,
           "de": 229,
           "en": 238
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn26_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn26_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn26_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn26",
+        "lang": "de",
+        "segMap": {
+          "mn26:25.4": {
+            "scid": "mn26:25.4",
+            "pli": "Kaṁsi tvaṁ, āvuso, uddissa pabbajito, ko vā te satthā, kassa vā tvaṁ dhammaṁ rocesī’ti? ",
+            "de": "In wessen Namen bist du fortgezogen, Geehrter? Wer ist dein Lehrer? An wessen Lehre <span class=\"ebt-matched\">glaubst du</span>?‘ ",
+            "en": "In whose name have you gone forth, reverend? Who is your Teacher? Whose teaching do you believe in?’ ",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 26\nDie edle Suche",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 365,
+          "de": 363,
+          "en": 364
         }
       },
       {

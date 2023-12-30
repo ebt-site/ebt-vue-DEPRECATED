@@ -41,7 +41,7 @@
     "pattern": "alle tauglichen eigenschaften",
     "method": "phrase",
     "resultPattern": "\\balle tauglichen eigenschaften",
-    "segsMatched": 10,
+    "segsMatched": 11,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn45/sn45.139_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn45/sn45.139_translation-de-sabbamitta.json",
@@ -52,6 +52,9 @@
       "root/pli/ms/sutta/sn/sn45/sn45.140_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn45/sn45.140_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn45/sn45.140_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn8_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn8_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn8_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn28_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn28_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn28_translation-en-sujato.json"
@@ -60,6 +63,7 @@
       "sn45.139/de/sabbamitta",
       "an10.15/de/sabbamitta",
       "sn45.140/de/sabbamitta",
+      "mn8/de/sabbamitta",
       "mn28/de/sabbamitta"
     ],
     "mlDocs": [
@@ -199,6 +203,38 @@
           "pli": 11,
           "de": 10,
           "en": 10
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn8_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn8_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn8_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn8",
+        "lang": "de",
+        "segMap": {
+          "mn8:15.1": {
+            "scid": "mn8:15.1",
+            "pli": "Seyyathāpi, cunda, ye keci akusalā dhammā sabbe te adhobhāgaṅgamanīyā, ye keci kusalā dhammā sabbe te uparibhāgaṅgamanīyā; ",
+            "de": "Cunda, alle untauglichen Eigenschaften führen abwärts, und <span class=\"ebt-matched\">alle tauglichen Eigenschaften</span> führen aufwärts. ",
+            "en": "Cunda, all unskillful qualities lead downwards, while all skillful qualities lead upwards. ",
+            "matched": true
+          }
+        },
+        "score": 1.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 8\nSelbstüberwindung",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 170,
+          "de": 169,
+          "en": 169
         }
       },
       {

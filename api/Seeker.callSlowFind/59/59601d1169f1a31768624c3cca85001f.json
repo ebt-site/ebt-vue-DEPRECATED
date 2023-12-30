@@ -41,7 +41,7 @@
     "pattern": "gegen den strom",
     "method": "phrase",
     "resultPattern": "\\bgegen den strom",
-    "segsMatched": 8,
+    "segsMatched": 9,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an4/an4.5_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.5_translation-de-sabbamitta.json",
@@ -52,6 +52,9 @@
       "root/pli/ms/sutta/sn/sn6/sn6.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn6/sn6.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn6/sn6.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn26_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn26_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn26_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn14_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json"
@@ -60,6 +63,7 @@
       "an4.5/de/sabbamitta",
       "iti109/de/sabbamitta",
       "sn6.1/de/sabbamitta",
+      "mn26/de/sabbamitta",
       "dn14/de/sabbamitta"
     ],
     "mlDocs": [
@@ -185,6 +189,38 @@
           "pli": 53,
           "de": 53,
           "en": 53
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn26_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn26_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn26_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn26",
+        "lang": "de",
+        "segMap": {
+          "mn26:19.12": {
+            "scid": "mn26:19.12",
+            "pli": "Paṭisotagāmiṁ nipuṇaṁ, ",
+            "de": "Sie geht <span class=\"ebt-matched\">gegen den Strom</span>, ist subtil, ",
+            "en": "It goes against the stream, subtle, ",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 26\nDie edle Suche",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 365,
+          "de": 363,
+          "en": 364
         }
       },
       {

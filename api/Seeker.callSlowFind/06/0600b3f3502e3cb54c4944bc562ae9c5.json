@@ -41,11 +41,14 @@
     "pattern": "teich mit blauen seerosen",
     "method": "phrase",
     "resultPattern": "\\bteich mit blauen seerosen",
-    "segsMatched": 6,
+    "segsMatched": 7,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn6/sn6.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn6/sn6.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn6/sn6.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn26_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn26_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn26_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn119_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn119_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn119_translation-en-sujato.json",
@@ -64,6 +67,7 @@
     ],
     "suttaRefs": [
       "sn6.1/de/sabbamitta",
+      "mn26/de/sabbamitta",
       "mn119/de/sabbamitta",
       "dn2/de/sabbamitta",
       "dn14/de/sabbamitta",
@@ -197,6 +201,38 @@
           "pli": 285,
           "de": 227,
           "en": 227
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn26_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn26_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn26_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn26",
+        "lang": "de",
+        "segMap": {
+          "mn26:21.3": {
+            "scid": "mn26:21.3",
+            "pli": "Seyyathāpi nāma uppaliniyaṁ vā paduminiyaṁ vā puṇḍarīkiniyaṁ vā appekaccāni uppalāni vā padumāni vā puṇḍarīkāni vā udake jātāni udake saṁvaḍḍhāni udakānuggatāni antonimuggaposīni, appekaccāni uppalāni vā padumāni vā puṇḍarīkāni vā udake jātāni udake saṁvaḍḍhāni udakānuggatāni samodakaṁ ṭhitāni, appekaccāni uppalāni vā padumāni vā puṇḍarīkāni vā udake jātāni udake saṁvaḍḍhāni udakaṁ accuggamma ṭhitāni anupalittāni udakena; ",
+            "de": "Wie ein <span class=\"ebt-matched\">Teich mit blauen Seerosen</span> oder rosa oder weißen Lotusblumen. Manche von ihnen sprießen und wachsen im Wasser, ohne sich darüber zu erheben, und gedeihen unter Wasser. Manche sprießen und wachsen im Wasser und erreichen die Wasseroberfläche. Und manche sprießen und wachsen im Wasser, doch sie erheben sich über das Wasser und stehen da, ohne dass Wasser an ihnen haftet. ",
+            "en": "It’s like a pool with blue water lilies, or pink or white lotuses. Some of them sprout and grow in the water without rising above it, thriving underwater. Some of them sprout and grow in the water reaching the water’s surface. And some of them sprout and grow in the water but rise up above the water and stand with no water clinging to them. ",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 26\nDie edle Suche",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 365,
+          "de": 363,
+          "en": 364
         }
       },
       {

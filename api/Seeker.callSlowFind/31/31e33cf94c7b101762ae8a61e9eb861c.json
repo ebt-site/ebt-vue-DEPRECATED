@@ -41,7 +41,7 @@
     "pattern": "alt werden m[uü]ss",
     "method": "phrase",
     "resultPattern": "\\balt werden m[uü]ss",
-    "segsMatched": 27,
+    "segsMatched": 29,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an5/an5.50_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.50_translation-de-sabbamitta.json",
@@ -49,6 +49,9 @@
       "root/pli/ms/sutta/an/an5/an5.48_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.48_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.48_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn26_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn26_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn26_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.255_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.255_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.255_translation-en-sujato.json",
@@ -74,6 +77,7 @@
     "suttaRefs": [
       "an5.50/de/sabbamitta",
       "an5.48/de/sabbamitta",
+      "mn26/de/sabbamitta",
       "an4.255/de/sabbamitta",
       "an3.39/de/sabbamitta",
       "mn141/de/sabbamitta",
@@ -274,14 +278,14 @@
           "an4.255:1.3": {
             "scid": "an4.255:1.3",
             "pli": "Idha, bhikkhave, ekacco attanā jarādhammo samāno jarādhammaṁyeva pariyesati; ",
-            "de": "Jemand, der <span class=\"ebt-matched\">alt werden muss</span>, sucht nur nach dem, was alt wird. ",
+            "de": "Jemand, der <span class=\"ebt-matched\">alt werden muss</span>, sucht nur nach dem, was <span class=\"ebt-matched\">alt werden muss</span>. ",
             "en": "Someone liable to old age searches only for what grows old. ",
             "matched": true
           },
           "an4.255:2.3": {
             "scid": "an4.255:2.3",
             "pli": "Idha, bhikkhave, ekacco attanā jarādhammo samāno jarādhamme ādīnavaṁ viditvā ajaraṁ anuttaraṁ yogakkhemaṁ nibbānaṁ pariyesati; ",
-            "de": "Jemand, der <span class=\"ebt-matched\">alt werden muss</span>, versteht die nachteiligen Folgen dessen, was alt wird, und sucht nach dem, was vom Altern frei ist, dem unübertrefflichen Schutzgebiet, dem Erlöschen. ",
+            "de": "Jemand, der <span class=\"ebt-matched\">alt werden muss</span>, versteht die nachteiligen Folgen davon, alt werden zu müssen, und sucht nach dem, was vom Altern frei ist, dem unübertrefflichen Schutzgebiet, dem Erlöschen. ",
             "en": "Someone who is liable to grow old, knowing the drawback in what grows old, searches for that which is free of old age, the supreme sanctuary from the yoke, extinguishment. ",
             "matched": true
           }
@@ -335,6 +339,45 @@
           "pli": 54,
           "de": 53,
           "en": 53
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn26_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn26_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn26_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn26",
+        "lang": "de",
+        "segMap": {
+          "mn26:7.1": {
+            "scid": "mn26:7.1",
+            "pli": "Kiñca, bhikkhave, jarādhammaṁ vadetha? ",
+            "de": "Und was soll als etwas beschrieben werden, das <span class=\"ebt-matched\">alt werden muss</span>? ",
+            "en": "And what should be described as liable to grow old? ",
+            "matched": true
+          },
+          "mn26:7.4": {
+            "scid": "mn26:7.4",
+            "pli": "Etthāyaṁ gathito mucchito ajjhāpanno attanā jarādhammo samāno jarādhammaṁyeva pariyesati. ",
+            "de": "Jemand, der bezüglich dieser Dinge gebunden, betört, anhänglich ist, der selbst <span class=\"ebt-matched\">alt werden muss</span>, sucht nach dem, was <span class=\"ebt-matched\">alt werden muss</span>. ",
+            "en": "Someone who is tied, infatuated, and attached to such things, themselves liable to grow old, seeks what is also liable to grow old. ",
+            "matched": true
+          }
+        },
+        "score": 2.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 26\nDie edle Suche",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 365,
+          "de": 363,
+          "en": 364
         }
       },
       {
