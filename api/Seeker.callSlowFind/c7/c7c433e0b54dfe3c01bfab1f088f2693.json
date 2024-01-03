@@ -1,0 +1,126 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sujato",
+      "docLang": "en",
+      "docAuthor": "sujato",
+      "includeUnpublished": false,
+      "lang": "en",
+      "langAuthor": "sujato",
+      "languages": [
+        "pli",
+        "en",
+        "ref"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "may i never see or hear",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "en",
+      "searchAuthor": "sujato",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sujato",
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "may i never see or hear",
+    "method": "phrase",
+    "resultPattern": "\\bmay i never see or hear",
+    "segsMatched": 3,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an6/an6.38_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an6/an6.38_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn23_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an6.38/en/sujato",
+      "dn23/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an6/an6.38_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an6/an6.38_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an6.38",
+        "lang": "en",
+        "segMap": {
+          "an6.38:1.5": {
+            "scid": "an6.38:1.5",
+            "pli": "“Māhaṁ, brāhmaṇa, evaṁvādiṁ evaṁdiṭṭhiṁ addasaṁ vā assosiṁ vā. ",
+            "en": "“Brahmin, <span class=\"ebt-matched\">may I never see or hear</span> of anyone holding such a doctrine or view! ",
+            "matched": true
+          },
+          "an6.38:4.1": {
+            "scid": "an6.38:4.1",
+            "pli": "Māhaṁ, brāhmaṇa, evaṁvādiṁ evaṁdiṭṭhiṁ addasaṁ vā assosiṁ vā. ",
+            "en": "Brahmin, <span class=\"ebt-matched\">may I never see or hear</span> of anyone holding such a doctrine or view! ",
+            "matched": true
+          }
+        },
+        "score": 2.067,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 6.38\n4. Deities\nOne’s Own Volition",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 30,
+          "en": 29
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
+          "translation/en/sujato/sutta/dn/dn23_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn23",
+        "lang": "en",
+        "segMap": {
+          "dn23:5.4": {
+            "scid": "dn23:5.4",
+            "pli": "“Nāhaṁ, rājañña, evaṁvādiṁ evaṁdiṭṭhiṁ addasaṁ vā assosiṁ vā. ",
+            "en": "“Chieftain, <span class=\"ebt-matched\">may I never see or hear</span> of anyone holding such a doctrine or view! ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Long Discourses 23\nWith Pāyāsi",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 715,
+          "en": 713
+        }
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "en",
+    "docAuthor": "sujato"
+  }
+}
