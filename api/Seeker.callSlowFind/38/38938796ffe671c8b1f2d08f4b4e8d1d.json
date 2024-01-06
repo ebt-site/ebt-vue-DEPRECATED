@@ -1,0 +1,998 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sabbamitta",
+      "docLang": "de",
+      "docAuthor": "sabbamitta",
+      "includeUnpublished": false,
+      "lang": "de",
+      "langAuthor": "sabbamitta",
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "das gleiche zu tun",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "de",
+      "searchAuthor": "sabbamitta",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sabbamitta",
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "das gleiche zu tun",
+    "method": "phrase",
+    "resultPattern": "\\bdas gleiche zu tun",
+    "segsMatched": 60,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an8/an8.25_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an8/an8.25_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an8/an8.25_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an8/an8.26_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an8/an8.26_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an8/an8.26_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn42/sn42.13_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn42/sn42.13_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn42/sn42.13_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.66_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an3/an3.66_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an3/an3.66_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.65_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an3/an3.65_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an3/an3.65_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.99_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.99_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.99_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.96_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.96_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.96_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.209_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.209_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.209_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.207_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.207_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.207_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.204_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.204_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.204_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.203_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.203_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.203_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.201_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.201_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.201_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.193_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.193_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.193_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.224_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.224_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.224_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.223_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.223_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.223_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.222_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.222_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.222_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn24/sn24.6_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn24/sn24.6_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn24/sn24.6_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an8.25/de/sabbamitta",
+      "an8.26/de/sabbamitta",
+      "sn42.13/de/sabbamitta",
+      "an3.66/de/sabbamitta",
+      "an3.65/de/sabbamitta",
+      "an4.99/de/sabbamitta",
+      "an4.96/de/sabbamitta",
+      "an4.209/de/sabbamitta",
+      "an4.207/de/sabbamitta",
+      "an4.204/de/sabbamitta",
+      "an4.203/de/sabbamitta",
+      "an4.201/de/sabbamitta",
+      "an4.193/de/sabbamitta",
+      "an10.224/de/sabbamitta",
+      "an10.223/de/sabbamitta",
+      "an10.222/de/sabbamitta",
+      "sn24.6/de/sabbamitta",
+      "dn2/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.25_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an8/an8.25_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an8/an8.25_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an8.25",
+        "lang": "de",
+        "segMap": {
+          "an8.25:3.2": {
+            "scid": "an8.25:3.2",
+            "pli": "“Yato kho, mahānāma, upāsako attanāva saddhāsampanno hoti, no paraṁ saddhāsampadāya samādapeti; ",
+            "de": "„Da hat ein Laienschüler das Vertrauen vervollkommnet, aber ermuntert andere nicht, <span class=\"ebt-matched\">das Gleiche zu tun</span>. ",
+            "en": "“A lay follower is accomplished in faith, but doesn’t encourage others to do the same. ",
+            "matched": true
+          },
+          "an8.25:3.3": {
+            "scid": "an8.25:3.3",
+            "pli": "attanāva sīlasampanno hoti, no paraṁ sīlasampadāya samādapeti; ",
+            "de": "Er hat das sittliche Verhalten vervollkommnet, aber ermuntert andere nicht, <span class=\"ebt-matched\">das Gleiche zu tun</span>. ",
+            "en": "They’re accomplished in ethical conduct, but don’t encourage others to do the same. ",
+            "matched": true
+          },
+          "an8.25:3.4": {
+            "scid": "an8.25:3.4",
+            "pli": "attanāva cāgasampanno hoti, no paraṁ cāgasampadāya samādapeti; ",
+            "de": "Er hat die Großzügigkeit vervollkommnet, aber ermuntert andere nicht, <span class=\"ebt-matched\">das Gleiche zu tun</span>. ",
+            "en": "They’re accomplished in generosity, but don’t encourage others to do the same. ",
+            "matched": true
+          },
+          "an8.25:3.5": {
+            "scid": "an8.25:3.5",
+            "pli": "attanāva bhikkhūnaṁ dassanakāmo hoti, no paraṁ bhikkhūnaṁ dassane samādapeti; ",
+            "de": "Er sieht gerne Mönche  und Nonnen, aber ermuntert andere nicht, <span class=\"ebt-matched\">das Gleiche zu tun</span>. ",
+            "en": "They like to see the mendicants, but don’t encourage others to do the same. ",
+            "matched": true
+          },
+          "an8.25:3.6": {
+            "scid": "an8.25:3.6",
+            "pli": "attanāva saddhammaṁ sotukāmo hoti, no paraṁ saddhammassavane samādapeti; ",
+            "de": "Er hört gerne die wahre Lehre, aber ermuntert andere nicht, <span class=\"ebt-matched\">das Gleiche zu tun</span>. ",
+            "en": "They like to hear the true teaching, but don’t encourage others to do the same. ",
+            "matched": true
+          },
+          "an8.25:3.7": {
+            "scid": "an8.25:3.7",
+            "pli": "attanāva sutānaṁ dhammānaṁ dhāraṇajātiko hoti, no paraṁ dhammadhāraṇāya samādapeti; ",
+            "de": "Lehren, die er gehört hat, behält er leicht, aber ermuntert andere nicht, <span class=\"ebt-matched\">das Gleiche zu tun</span>. ",
+            "en": "They readily memorize the teachings they’ve heard, but don’t encourage others to do the same. ",
+            "matched": true
+          },
+          "an8.25:3.8": {
+            "scid": "an8.25:3.8",
+            "pli": "attanāva sutānaṁ dhammānaṁ atthūpaparikkhitā hoti, no paraṁ atthūpaparikkhāya samādapeti; ",
+            "de": "Er untersucht die Bedeutung der Lehren, die er sich eingeprägt hat, aber ermuntert andere nicht, <span class=\"ebt-matched\">das Gleiche zu tun</span>. ",
+            "en": "They examine the meaning of the teachings they’ve memorized, but don’t encourage others to do the same. ",
+            "matched": true
+          },
+          "an8.25:3.9": {
+            "scid": "an8.25:3.9",
+            "pli": "attanāva atthamaññāya dhammamaññāya dhammānudhammappaṭipanno hoti, no paraṁ dhammānudhammappaṭipattiyā samādapeti. ",
+            "de": "Er versteht die Bedeutung und die Lehre und übt im Einklang damit, aber ermuntert andere nicht, <span class=\"ebt-matched\">das Gleiche zu tun</span>. ",
+            "en": "Understanding the meaning and the teaching, they practice accordingly, but they don’t encourage others to do the same. ",
+            "matched": true
+          },
+          "an8.25:4.2": {
+            "scid": "an8.25:4.2",
+            "pli": "“Yato kho, mahānāma, upāsako attanā ca saddhāsampanno hoti, parañca saddhāsampadāya samādapeti; ",
+            "de": "„Da hat ein Laienschüler das Vertrauen vervollkommnet und ermuntert andere, <span class=\"ebt-matched\">das Gleiche zu tun</span>. ",
+            "en": "“A lay follower is accomplished in faith and encourages others to do the same. ",
+            "matched": true
+          },
+          "an8.25:4.3": {
+            "scid": "an8.25:4.3",
+            "pli": "attanā ca sīlasampanno hoti, parañca sīlasampadāya samādapeti; ",
+            "de": "Er hat das sittliche Verhalten vervollkommnet und ermuntert andere, <span class=\"ebt-matched\">das Gleiche zu tun</span>. ",
+            "en": "They’re accomplished in ethical conduct and encourage others to do the same. ",
+            "matched": true
+          },
+          "an8.25:4.4": {
+            "scid": "an8.25:4.4",
+            "pli": "attanā ca cāgasampanno hoti, parañca cāgasampadāya samādapeti; ",
+            "de": "Er hat die Großzügigkeit vervollkommnet und ermuntert andere, <span class=\"ebt-matched\">das Gleiche zu tun</span>. ",
+            "en": "They’re accomplished in generosity and encourage others to do the same. ",
+            "matched": true
+          },
+          "an8.25:4.5": {
+            "scid": "an8.25:4.5",
+            "pli": "attanā ca bhikkhūnaṁ dassanakāmo hoti, parañca bhikkhūnaṁ dassane samādapeti; ",
+            "de": "Er sieht gerne Mönche und Nonnen und ermuntert andere, <span class=\"ebt-matched\">das Gleiche zu tun</span>. ",
+            "en": "They like to see the mendicants and encourage others to do the same. ",
+            "matched": true
+          },
+          "an8.25:4.6": {
+            "scid": "an8.25:4.6",
+            "pli": "attanā ca saddhammaṁ sotukāmo hoti, parañca saddhammassavane samādapeti; ",
+            "de": "Er hört gerne die wahre Lehre und ermuntert andere, <span class=\"ebt-matched\">das Gleiche zu tun</span>. ",
+            "en": "They like to hear the true teaching and encourage others to do the same. ",
+            "matched": true
+          },
+          "an8.25:4.7": {
+            "scid": "an8.25:4.7",
+            "pli": "attanā ca sutānaṁ dhammānaṁ dhāraṇajātiko hoti, parañca dhammadhāraṇāya samādapeti; ",
+            "de": "Lehren, die er gehört hat, behält er leicht und ermuntert andere, <span class=\"ebt-matched\">das Gleiche zu tun</span>. ",
+            "en": "They readily memorize the teachings they’ve heard and encourage others to do the same. ",
+            "matched": true
+          },
+          "an8.25:4.8": {
+            "scid": "an8.25:4.8",
+            "pli": "attanā ca sutānaṁ dhammānaṁ atthūpaparikkhitā hoti, parañca atthūpaparikkhāya samādapeti, ",
+            "de": "Er untersucht die Bedeutung der Lehren, die er sich eingeprägt hat, und ermuntert andere, <span class=\"ebt-matched\">das Gleiche zu tun</span>. ",
+            "en": "They examine the meaning of the teachings they’ve memorized and encourage others to do the same. ",
+            "matched": true
+          },
+          "an8.25:4.9": {
+            "scid": "an8.25:4.9",
+            "pli": "attanā ca atthamaññāya dhammamaññāya dhammānudhammappaṭipanno hoti, parañca dhammānudhammappaṭipattiyā samādapeti. ",
+            "de": "Er versteht die Bedeutung und die Lehre und übt im Einklang damit und ermuntert andere, <span class=\"ebt-matched\">das Gleiche zu tun</span>. ",
+            "en": "Understanding the meaning and the teaching, they practice accordingly and they encourage others to do the same. ",
+            "matched": true
+          }
+        },
+        "score": 16.5,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 8.25\n3. Das Kapitel mit Hausbesitzern\nMit Mahānāma",
+        "segsMatched": 16,
+        "langSegs": {
+          "pli": 32,
+          "de": 31,
+          "en": 31
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.26_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an8/an8.26_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an8/an8.26_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an8.26",
+        "lang": "de",
+        "segMap": {
+          "an8.26:3.2": {
+            "scid": "an8.26:3.2",
+            "pli": "“Yato kho, jīvaka, upāsako attanāva saddhāsampanno hoti, no paraṁ saddhāsampadāya samādapeti …pe… ",
+            "de": "„Da hat ein Laienschüler das Vertrauen vervollkommnet, aber ermuntert andere nicht, <span class=\"ebt-matched\">das Gleiche zu tun</span>; er hat das sittliche Verhalten vervollkommnet … er hat die Großzügigkeit vervollkommnet … er sieht gerne Mönche  und Nonnen … er hört gerne die wahre Lehre … Lehren, die er gehört hat, behält er leicht … er untersucht die Bedeutung der Lehren, die er sich eingeprägt hat, aber ermuntert andere nicht, <span class=\"ebt-matched\">das Gleiche zu tun</span>. ",
+            "en": "“A lay follower is accomplished in faith, but doesn’t encourage others to do the same. They’re accomplished in ethical conduct … they’re accomplished in generosity … they like to see the mendicants … they like to hear the true teaching … they memorize the teachings … they examine the meaning … ",
+            "matched": true
+          },
+          "an8.26:3.3": {
+            "scid": "an8.26:3.3",
+            "pli": "attanāva atthamaññāya dhammamaññāya dhammānudhammappaṭipanno hoti, no paraṁ dhammānudhammappaṭipattiyā samādapeti. ",
+            "de": "Er versteht die Bedeutung und die Lehre und übt im Einklang damit, aber ermuntert andere nicht, <span class=\"ebt-matched\">das Gleiche zu tun</span>. ",
+            "en": "Understanding the meaning and the teaching, they practice accordingly, but they don’t encourage others to do the same. ",
+            "matched": true
+          },
+          "an8.26:4.2": {
+            "scid": "an8.26:4.2",
+            "pli": "“Yato kho, jīvaka, upāsako attanā ca saddhāsampanno hoti, parañca saddhāsampadāya samādapeti; ",
+            "de": "„Da hat ein Laienschüler das Vertrauen vervollkommnet und ermuntert andere, <span class=\"ebt-matched\">das Gleiche zu tun</span>. ",
+            "en": "“A lay follower is accomplished in faith and encourages others to do the same. ",
+            "matched": true
+          },
+          "an8.26:4.3": {
+            "scid": "an8.26:4.3",
+            "pli": "attanā ca sīlasampanno hoti, parañca sīlasampadāya samādapeti; ",
+            "de": "Er hat das sittliche Verhalten vervollkommnet und ermuntert andere, <span class=\"ebt-matched\">das Gleiche zu tun</span>. ",
+            "en": "They’re accomplished in ethical conduct and encourage others to do the same. ",
+            "matched": true
+          },
+          "an8.26:4.4": {
+            "scid": "an8.26:4.4",
+            "pli": "attanā ca cāgasampanno hoti, parañca cāgasampadāya samādapeti; ",
+            "de": "Er hat die Großzügigkeit vervollkommnet und ermuntert andere, <span class=\"ebt-matched\">das Gleiche zu tun</span>. ",
+            "en": "They’re accomplished in generosity and encourage others to do the same. ",
+            "matched": true
+          },
+          "an8.26:4.5": {
+            "scid": "an8.26:4.5",
+            "pli": "attanā ca bhikkhūnaṁ dassanakāmo hoti, parañca bhikkhūnaṁ dassane samādapeti; ",
+            "de": "Er sieht gerne Mönche und Nonnen und ermuntert andere, <span class=\"ebt-matched\">das Gleiche zu tun</span>. ",
+            "en": "They like to see the mendicants and encourage others to do the same. ",
+            "matched": true
+          },
+          "an8.26:4.6": {
+            "scid": "an8.26:4.6",
+            "pli": "attanā ca saddhammaṁ sotukāmo hoti, parañca saddhammassavane samādapeti; ",
+            "de": "Er hört gerne die wahre Lehre und ermuntert andere, <span class=\"ebt-matched\">das Gleiche zu tun</span>. ",
+            "en": "They like to hear the true teaching and encourage others to do the same. ",
+            "matched": true
+          },
+          "an8.26:4.7": {
+            "scid": "an8.26:4.7",
+            "pli": "attanā ca sutānaṁ dhammānaṁ dhāraṇajātiko hoti, parañca dhammadhāraṇāya samādapeti; ",
+            "de": "Lehren, die er gehört hat, behält er leicht und ermuntert andere, <span class=\"ebt-matched\">das Gleiche zu tun</span>. ",
+            "en": "They readily memorize the teachings they’ve heard and encourage others to do the same. ",
+            "matched": true
+          },
+          "an8.26:4.8": {
+            "scid": "an8.26:4.8",
+            "pli": "attanā ca sutānaṁ dhammānaṁ atthūpaparikkhitā hoti, parañca atthūpaparikkhāya samādapeti; ",
+            "de": "Er untersucht die Bedeutung der Lehren, die er sich eingeprägt hat, und ermuntert andere, <span class=\"ebt-matched\">das Gleiche zu tun</span>. ",
+            "en": "They examine the meaning of the teachings they’ve memorized and encourage others to do the same. ",
+            "matched": true
+          },
+          "an8.26:4.9": {
+            "scid": "an8.26:4.9",
+            "pli": "attanā ca atthamaññāya dhammamaññāya dhammānudhammappaṭipanno hoti, parañca dhammānudhammappaṭipattiyā samādapeti. ",
+            "de": "Er versteht die Bedeutung und die Lehre und übt im Einklang damit und ermuntert andere, <span class=\"ebt-matched\">das Gleiche zu tun</span>. ",
+            "en": "Understanding the meaning and the teaching, they practice accordingly and they encourage others to do the same. ",
+            "matched": true
+          }
+        },
+        "score": 10.385,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 8.26\n3. Das Kapitel mit Hausbesitzern\nMit Jīvaka",
+        "segsMatched": 10,
+        "langSegs": {
+          "pli": 26,
+          "de": 25,
+          "en": 25
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn42/sn42.13_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn42/sn42.13_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn42/sn42.13_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn42.13",
+        "lang": "de",
+        "segMap": {
+          "sn42.13:18.5": {
+            "scid": "sn42.13:18.5",
+            "pli": "Uttarañcepi gaṅgāya tīraṁ gaccheyya dadanto dāpento yajanto yajāpento, natthi tatonidānaṁ puññaṁ, natthi puññassa āgamo. ",
+            "de": "Wenn man am nördlichen Ufer des Ganges entlangginge und spenden und opfern würde und andere ermuntern würde, <span class=\"ebt-matched\">das Gleiche zu tun</span>, würde daraus kein Verdienst entstehen und auch keine Auswirkung von Verdienst. ",
+            "en": "If you were to go along the north bank of the Ganges giving and sacrificing and encouraging others to do the same, no merit comes of that, and no outcome of merit. ",
+            "matched": true
+          },
+          "sn42.13:19.5": {
+            "scid": "sn42.13:19.5",
+            "pli": "Uttarañcepi gaṅgāya tīraṁ gaccheyya dadanto dāpento, yajanto yajāpento, atthi tatonidānaṁ puññaṁ, atthi puññassa āgamo. ",
+            "de": "Wenn man am nördlichen Ufer des Ganges entlangginge und spenden und opfern würde und andere ermuntern würde, <span class=\"ebt-matched\">das Gleiche zu tun</span>, würde daraus Verdienst entstehen und auch eine Auswirkung von Verdienst. ",
+            "en": "If you were to go along the north bank of the Ganges giving and sacrificing and encouraging others to do the same, merit comes of that, and an outcome of merit. ",
+            "matched": true
+          },
+          "sn42.13:25.7": {
+            "scid": "sn42.13:25.7",
+            "pli": "Uttarañcepi gaṅgāya tīraṁ gaccheyya dadanto dāpento, yajanto yajāpento, natthi tatonidānaṁ puññaṁ, natthi puññassa āgamo. ",
+            "de": "Wenn man am nördlichen Ufer des Ganges entlangginge und spenden und opfern würde und andere ermuntern würde, <span class=\"ebt-matched\">das Gleiche zu tun</span>, würde daraus kein Verdienst entstehen und auch keine Auswirkung von Verdienst. ",
+            "en": "If you were to go along the north bank of the Ganges giving and sacrificing and encouraging others to do the same, no merit comes of that, and no outcome of merit. ",
+            "matched": true
+          },
+          "sn42.13:26.7": {
+            "scid": "sn42.13:26.7",
+            "pli": "Uttarañcepi gaṅgāya tīraṁ gaccheyya dadanto dāpento, yajanto yajāpento, atthi tatonidānaṁ puññaṁ, atthi puññassa āgamo. ",
+            "de": "Wenn man am nördlichen Ufer des Ganges entlangginge und spenden und opfern würde und andere ermuntern würde, <span class=\"ebt-matched\">das Gleiche zu tun</span>, würde daraus Verdienst entstehen und auch eine Auswirkung von Verdienst. ",
+            "en": "If you were to go along the north bank of the Ganges giving and sacrificing and encouraging others to do the same, merit comes of that, and an outcome of merit. ",
+            "matched": true
+          }
+        },
+        "score": 4.013,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 42.13\n1. Das Kapitel mit Ortsvorstehern\nMit Pāṭaliya",
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 300,
+          "de": 224,
+          "en": 299
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an3/an3.66_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an3/an3.66_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an3/an3.66_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an3.66",
+        "lang": "de",
+        "segMap": {
+          "an3.66:5.2": {
+            "scid": "an3.66:5.2",
+            "pli": "Luddho kho ayaṁ, sāḷhā, abhijjhālu pāṇampi hanati, adinnampi ādiyati, paradārampi gacchati, musāpi bhaṇati, parampi tathattāya samādapeti, yaṁ sa hoti dīgharattaṁ ahitāya dukkhāyā”ti. ",
+            "de": "Ein gieriger und begehrlicher Mensch tötet lebende Geschöpfe, stiehlt, begeht Ehebruch, lügt und stiftet andere an, <span class=\"ebt-matched\">das Gleiche zu tun</span>. Ist das zu seinem langanhaltenden Unglück und Leiden?“ ",
+            "en": "A person who is greedy and covetous kills living creatures, steals, commits adultery, lies, and encourages others to do the same. Is that for their lasting harm and suffering?” ",
+            "matched": true
+          },
+          "an3.66:9.2": {
+            "scid": "an3.66:9.2",
+            "pli": "Duṭṭho kho ayaṁ, sāḷhā, byāpannacitto pāṇampi hanati, adinnampi ādiyati, paradārampi gacchati, musāpi bhaṇati, parampi tathattāya samādapeti, yaṁ sa hoti dīgharattaṁ ahitāya dukkhāyā”ti. ",
+            "de": "Ein hasserfüllter und böser Mensch tötet lebende Geschöpfe, stiehlt, begeht Ehebruch, lügt und stiftet andere an, <span class=\"ebt-matched\">das Gleiche zu tun</span>. Ist das zu seinem langanhaltenden Unglück und Leiden?“ ",
+            "en": "A hateful and malicious person kills living creatures, steals, commits adultery, lies, and encourages others to do the same. Is that for their lasting harm and suffering?” ",
+            "matched": true
+          },
+          "an3.66:13.2": {
+            "scid": "an3.66:13.2",
+            "pli": "Mūḷho kho ayaṁ, sāḷhā, avijjāgato pāṇampi hanati, adinnampi ādiyati, paradārampi gacchati, musāpi bhaṇati, parampi tathattāya samādapeti, yaṁ sa hoti dīgharattaṁ ahitāya dukkhāyā”ti. ",
+            "de": "Ein Mensch, der sich täuscht und unwissend ist, tötet lebende Geschöpfe, stiehlt, begeht Ehebruch, lügt und stiftet andere an, <span class=\"ebt-matched\">das Gleiche zu tun</span>. Ist das zu seinem langanhaltenden Unglück und Leiden?“ ",
+            "en": "A person who is deluded and ignorant kills living creatures, steals, commits adultery, lies, and encourages others to do the same. Is that for their lasting harm and suffering?” ",
+            "matched": true
+          }
+        },
+        "score": 3.033,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 3.66\n7. Das große Kapitel\nMit Sāḷha",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 90,
+          "de": 89,
+          "en": 89
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an3/an3.65_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an3/an3.65_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an3/an3.65_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an3.65",
+        "lang": "de",
+        "segMap": {
+          "an3.65:7.1": {
+            "scid": "an3.65:7.1",
+            "pli": "“Luddho panāyaṁ, kālāmā, purisapuggalo lobhena abhibhūto pariyādinnacitto pāṇampi hanati, adinnampi ādiyati, paradārampi gacchati, musāpi bhaṇati, parampi tathattāya samādapeti, yaṁ sa hoti dīgharattaṁ ahitāya dukkhāyā”ti. ",
+            "de": "„Ein gieriger Mensch, von Gier überwältigt, tötet lebende Geschöpfe, stiehlt, begeht Ehebruch, lügt und stiftet andere an, <span class=\"ebt-matched\">das Gleiche zu tun</span>. Ist das zu seinem langanhaltenden Unglück und Leiden?“ ",
+            "en": "“A greedy individual, overcome by greed, kills living creatures, steals, commits adultery, lies, and encourages others to do the same. Is that for their lasting harm and suffering?” ",
+            "matched": true
+          },
+          "an3.65:11.1": {
+            "scid": "an3.65:11.1",
+            "pli": "“Duṭṭho panāyaṁ, kālāmā, purisapuggalo dosena abhibhūto pariyādinnacitto pāṇampi hanati, adinnampi ādiyati, paradārampi gacchati, musāpi bhaṇati, parampi tathattāya samādapeti, yaṁ sa hoti dīgharattaṁ ahitāya dukkhāyā”ti. ",
+            "de": "„Ein hasserfüllter Mensch, von Hass überwältigt, tötet lebende Geschöpfe, stiehlt, begeht Ehebruch, lügt und stiftet andere an, <span class=\"ebt-matched\">das Gleiche zu tun</span>. Ist das zu seinem langanhaltenden Unglück und Leiden?“ ",
+            "en": "“A hateful individual, overcome by hate, kills living creatures, steals, commits adultery, lies, and encourages others to do the same. Is that for their lasting harm and suffering?” ",
+            "matched": true
+          },
+          "an3.65:15.1": {
+            "scid": "an3.65:15.1",
+            "pli": "“Mūḷho panāyaṁ, kālāmā, purisapuggalo mohena abhibhūto pariyādinnacitto pāṇampi hanati, adinnampi ādiyati, paradārampi gacchati, musāpi bhaṇati, parampi tathattāya samādapeti, yaṁ sa hoti dīgharattaṁ ahitāya dukkhāyā”ti. ",
+            "de": "„Ein Mensch, der sich täuscht, von Täuschung überwältigt, tötet lebende Geschöpfe, stiehlt, begeht Ehebruch, lügt und stiftet andere an, <span class=\"ebt-matched\">das Gleiche zu tun</span>. Ist das zu seinem langanhaltenden Unglück und Leiden?“ ",
+            "en": "“A deluded individual, overcome by delusion, kills living creatures, steals, commits adultery, lies, and encourages others to do the same. Is that for their lasting harm and suffering?” ",
+            "matched": true
+          }
+        },
+        "score": 3.028,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 3.65\n7. Das große Kapitel\nMit den Kālāmern von Kesamutta",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 108,
+          "de": 107,
+          "en": 107
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.207_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.207_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.207_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.207",
+        "lang": "de",
+        "segMap": {
+          "an4.207:3.2": {
+            "scid": "an4.207:3.2",
+            "pli": "Idha, bhikkhave, ekacco attanā ca pāṇātipātī hoti, parañca pāṇātipāte samādapeti …pe… attanā ca micchādiṭṭhiko hoti, parañca micchādiṭṭhiyā samādapeti. ",
+            "de": "Da tötet jemand lebende Geschöpfe, stiehlt und begeht sexuelle Verfehlungen. Er gebraucht falsche oder entzweiende Rede oder redet Unsinn. Er ist begehrlich und böswillig und hat falsche Ansicht. Und er stiftet andere an, <span class=\"ebt-matched\">das Gleiche zu tun</span>. ",
+            "en": "It’s someone who kills living creatures, steals, and commits sexual misconduct. They use speech that’s false, divisive, harsh, or nonsensical. They’re covetous, malicious, with wrong view. And they encourage others to do these things. ",
+            "matched": true
+          },
+          "an4.207:5.2": {
+            "scid": "an4.207:5.2",
+            "pli": "Idha, bhikkhave, ekacco attanā ca pāṇātipātā paṭivirato hoti, parañca pāṇātipātā veramaṇiyā samādapeti …pe… attanā ca sammādiṭṭhiko hoti, parañca sammādiṭṭhiyā samādapeti. ",
+            "de": "Da tötet jemand keine lebenden Geschöpfe, stiehlt nicht und begeht keine sexuellen Verfehlungen. Er gebraucht keine falsche oder entzweiende Rede und redet keinen Unsinn. Er ist zufrieden und gütig ist und hat rechte Ansicht. Und er ermuntert andere, <span class=\"ebt-matched\">das Gleiche zu tun</span>. ",
+            "en": "It’s someone who doesn’t kill living creatures, steal, or commit sexual misconduct. They don’t use speech that’s false, divisive, harsh, or nonsensical. They’re contented, kind-hearted, with right view. And they encourage others to do these things. ",
+            "matched": true
+          }
+        },
+        "score": 2.111,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 4.207\n21. Das Kapitel über einen wahren Menschen\nSchlechter Charakter (1)",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 18,
+          "de": 17,
+          "en": 17
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.209_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.209_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.209_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.209",
+        "lang": "de",
+        "segMap": {
+          "an4.209:3.2": {
+            "scid": "an4.209:3.2",
+            "pli": "Idha bhikkhave, ekacco attanā ca pāṇātipātī hoti, parañca pāṇātipāte samādapeti …pe… attanā ca micchādiṭṭhiko hoti, parañca micchādiṭṭhiyā samādapeti. ",
+            "de": "Da tötet jemand lebende Geschöpfe, stiehlt und begeht sexuelle Verfehlungen. Er gebraucht falsche oder entzweiende Rede oder redet Unsinn. Er ist begehrlich und böswillig und hat falsche Ansicht. Und er stiftet andere an, <span class=\"ebt-matched\">das Gleiche zu tun</span>. ",
+            "en": "It’s someone who kills living creatures, steals, and commits sexual misconduct. They use speech that’s false, divisive, harsh, or nonsensical. They’re covetous, malicious, with wrong view. And they encourage others to do these things. ",
+            "matched": true
+          },
+          "an4.209:5.2": {
+            "scid": "an4.209:5.2",
+            "pli": "Idha, bhikkhave, ekacco attanā ca pāṇātipātā paṭivirato hoti, parañca pāṇātipātā veramaṇiyā samādapeti …pe… attanā ca sammādiṭṭhiko hoti, parañca sammādiṭṭhiyā samādapeti. ",
+            "de": "Da tötet jemand keine lebenden Geschöpfe, stiehlt nicht und begeht keine sexuellen Verfehlungen. Er gebraucht keine falsche oder entzweiende Rede und redet keinen Unsinn. Er ist zufrieden und gütig ist und hat rechte Ansicht. Und er ermuntert andere, <span class=\"ebt-matched\">das Gleiche zu tun</span>. ",
+            "en": "It’s someone who doesn’t kill living creatures, steal, or commit sexual misconduct. They don’t use speech that’s false, divisive, harsh, or nonsensical. They’re contented, kind-hearted, with right view. And they encourage others to do these things. ",
+            "matched": true
+          }
+        },
+        "score": 2.111,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 4.209\n21. Das Kapitel über einen wahren Menschen\nSchlechter Charakter (3)",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 18,
+          "de": 17,
+          "en": 17
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.204_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.204_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.204_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.204",
+        "lang": "de",
+        "segMap": {
+          "an4.204:3.2": {
+            "scid": "an4.204:3.2",
+            "pli": "Idha, bhikkhave, ekacco attanā ca pāṇātipātī hoti, parañca pāṇātipāte samādapeti …pe… attanā ca abhijjhālu hoti, parañca abhijjhāya samādapeti; ",
+            "de": "Da tötet jemand lebende Geschöpfe, stiehlt und begeht sexuelle Verfehlungen. Er gebraucht falsche, entzweiende, harte oder unsinnige Rede. Er ist begehrlich und böswillig und hat falsche Ansicht. Und er stiftet andere an, <span class=\"ebt-matched\">das Gleiche zu tun</span>. ",
+            "en": "It’s someone who kills living creatures, steals, and commits sexual misconduct. They use speech that’s false, divisive, harsh, or nonsensical. They’re covetous, malicious, with wrong view. And they encourage others to do these things. ",
+            "matched": true
+          },
+          "an4.204:5.2": {
+            "scid": "an4.204:5.2",
+            "pli": "Idha, bhikkhave, ekacco attanā ca pāṇātipātā paṭivirato hoti, parañca pāṇātipātā veramaṇiyā samādapeti …pe… attanā ca anabhijjhālu hoti, parañca anabhijjhāya samādapeti; ",
+            "de": "Da tötet jemand keine lebenden Geschöpfe, stiehlt nicht und begeht keine sexuellen Verfehlungen. Er gebraucht keine falsche, entzweiende, harte oder unsinnige Rede. Er ist zufrieden und gütig ist und hat rechte Ansicht. Und er ermuntert andere, <span class=\"ebt-matched\">das Gleiche zu tun</span>. ",
+            "en": "It’s someone who doesn’t kill living creatures, steal, or commit sexual misconduct. They don’t use speech that’s false, divisive, harsh, or nonsensical. They’re contented, kind-hearted, with right view. And they encourage others to do these things. ",
+            "matched": true
+          }
+        },
+        "score": 2.095,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 4.204\n21. Das Kapitel über einen wahren Menschen\nZehn Taten",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 21,
+          "de": 20,
+          "en": 20
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.201_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.201_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.201_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.201",
+        "lang": "de",
+        "segMap": {
+          "an4.201:3.2": {
+            "scid": "an4.201:3.2",
+            "pli": "Idha, bhikkhave, ekacco attanā ca pāṇātipātī hoti, parañca pāṇātipāte samādapeti; ",
+            "de": "Da tötet jemand lebende Geschöpfe, stiehlt, begeht sexuelle Verfehlungen, lügt und trinkt Alkohol, der nachlässig macht. Und er stiftet andere an, <span class=\"ebt-matched\">das Gleiche zu tun</span>. ",
+            "en": "It’s someone who kills living creatures, steals, commits sexual misconduct, lies, and uses alcoholic drinks that cause negligence. And they encourage others to do these things. ",
+            "matched": true
+          },
+          "an4.201:5.2": {
+            "scid": "an4.201:5.2",
+            "pli": "Idha, bhikkhave, ekacco attanā ca pāṇātipātā paṭivirato hoti, parañca pāṇātipātā veramaṇiyā samādapeti; ",
+            "de": "Da tötet jemand keine lebenden Geschöpfe, stiehlt nicht, begeht keine sexuellen Verfehlungen, lügt nicht und trinkt keinen Alkohol, der nachlässig macht. Und er ermuntert andere, <span class=\"ebt-matched\">das Gleiche zu tun</span>. ",
+            "en": "It’s someone who doesn’t kill living creatures, steal, commit sexual misconduct, lie, or use alcoholic drinks that cause negligence. And they encourage others to avoid these things. ",
+            "matched": true
+          }
+        },
+        "score": 2.069,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 4.201\n21. Das Kapitel über einen wahren Menschen\nSchulungsregeln",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 29,
+          "de": 28,
+          "en": 28
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.222_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.222_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.222_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.222",
+        "lang": "de",
+        "segMap": {
+          "an10.222:1.3": {
+            "scid": "an10.222:1.3",
+            "pli": "Attanā ca pāṇātipātī hoti, parañca pāṇātipāte samādapeti; ",
+            "de": "Er tötet lebende Geschöpfe, stiehlt und begeht sexuelle Verfehlungen. Er gebraucht falsche, entzweiende, harte oder unsinnige Rede. Und er ist begehrlich und böswillig und hat falsche Ansicht. Und er stiftet andere an, <span class=\"ebt-matched\">das Gleiche zu tun</span>. ",
+            "en": "They kill living creatures, steal, and commit sexual misconduct. They use speech that’s false, divisive, harsh, or nonsensical. They’re covetous, malicious, with wrong view. And they encourage others to do these things. ",
+            "matched": true
+          },
+          "an10.222:2.3": {
+            "scid": "an10.222:2.3",
+            "pli": "Attanā ca pāṇātipātā paṭivirato hoti, parañca pāṇātipātā veramaṇiyā samādapeti; ",
+            "de": "Er unterlässt das Töten lebender Geschöpfe, das Stehlen und sexuelle Verfehlungen. Er unterlässt falsche, entzweiende, harte oder unsinnige Rede. Und er ist zufrieden und gütig und hat rechte Ansicht. Und er ermuntert andere, <span class=\"ebt-matched\">das Gleiche zu tun</span>. ",
+            "en": "They don’t kill living creatures, steal, or commit sexual misconduct. They don’t use speech that’s false, divisive, harsh, or nonsensical. They’re contented, kind-hearted, with right view. And they encourage others to do these things. ",
+            "matched": true
+          }
+        },
+        "score": 2.069,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10.222\n22. Das Kapitel über Ähnlichkeit\nLehrrede ohne Titel über zwanzig Eigenschaften",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 29,
+          "de": 11,
+          "en": 29
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.223_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.223_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.223_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.223",
+        "lang": "de",
+        "segMap": {
+          "an10.223:1.3": {
+            "scid": "an10.223:1.3",
+            "pli": "Attanā ca pāṇātipātī hoti, parañca pāṇātipāte samādapeti, pāṇātipāte ca samanuñño hoti; ",
+            "de": "Er tötet lebende Geschöpfe, stiehlt und begeht sexuelle Verfehlungen. Er gebraucht falsche, entzweiende, harte oder unsinnige Rede. Und er ist begehrlich und böswillig und hat falsche Ansicht. Er stiftet andere an, <span class=\"ebt-matched\">das Gleiche zu tun</span>. Und er heißt diese Dinge gut. ",
+            "en": "They kill living creatures, steal, and commit sexual misconduct. They use speech that’s false, divisive, harsh, or nonsensical. They’re covetous, malicious, with wrong view. They encourage others to do these things. And they approve of these things. ",
+            "matched": true
+          },
+          "an10.223:2.3": {
+            "scid": "an10.223:2.3",
+            "pli": "Attanā ca pāṇātipātā paṭivirato hoti, parañca pāṇātipātā veramaṇiyā samādapeti, pāṇātipātā veramaṇiyā ca samanuñño hoti; ",
+            "de": "Er unterlässt das Töten lebender Geschöpfe, das Stehlen und sexuelle Verfehlungen. Er unterlässt falsche, entzweiende, harte oder unsinnige Rede. Und er ist zufrieden und gütig und hat rechte Ansicht. Er ermuntert andere, <span class=\"ebt-matched\">das Gleiche zu tun</span>. Und er heißt diese Dinge gut. ",
+            "en": "They don’t kill living creatures, steal, or commit sexual misconduct. They don’t use speech that’s false, divisive, harsh, or nonsensical. They’re contented, kind-hearted, with right view. They encourage others to do these things. And they approve of these things. ",
+            "matched": true
+          }
+        },
+        "score": 2.069,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10.223\n22. Das Kapitel über Ähnlichkeit\nLehrrede ohne Titel über dreißig Eigenschaften",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 29,
+          "de": 11,
+          "en": 29
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.224_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.224_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.224_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an10.224",
+        "lang": "de",
+        "segMap": {
+          "an10.224:1.3": {
+            "scid": "an10.224:1.3",
+            "pli": "Attanā ca pāṇātipātī hoti, parañca pāṇātipāte samādapeti, pāṇātipāte ca samanuñño hoti, pāṇātipātassa ca vaṇṇaṁ bhāsati; ",
+            "de": "Er tötet lebende Geschöpfe, stiehlt und begeht sexuelle Verfehlungen. Er gebraucht falsche, entzweiende, harte oder unsinnige Rede. Und er ist begehrlich und böswillig und hat falsche Ansicht. Er stiftet andere an, <span class=\"ebt-matched\">das Gleiche zu tun</span>. Er heißt diese Dinge gut. Und er preist diese Dinge. ",
+            "en": "They kill living creatures, steal, and commit sexual misconduct. They use speech that’s false, divisive, harsh, or nonsensical. They’re covetous, malicious, with wrong view. They encourage others to do these things. They approve of these things. And they praise these things. ",
+            "matched": true
+          },
+          "an10.224:2.3": {
+            "scid": "an10.224:2.3",
+            "pli": "Attanā ca pāṇātipātā paṭivirato hoti, parañca pāṇātipātā veramaṇiyā samādapeti, pāṇātipātā veramaṇiyā ca samanuñño hoti, pāṇātipātā veramaṇiyā ca vaṇṇaṁ bhāsati; ",
+            "de": "Er unterlässt das Töten lebender Geschöpfe, das Stehlen und sexuelle Verfehlungen. Er unterlässt falsche, entzweiende, harte oder unsinnige Rede. Und er ist zufrieden und gütig und hat rechte Ansicht. Er ermuntert andere, <span class=\"ebt-matched\">das Gleiche zu tun</span>. Er heißt diese Dinge gut. Und er preist diese Dinge. ",
+            "en": "They don’t kill living creatures, steal, or commit sexual misconduct. They don’t use speech that’s false, divisive, harsh, or nonsensical. They’re contented, kind-hearted, with right view. They encourage others to do these things. They approve of these things. And they praise these things. ",
+            "matched": true
+          }
+        },
+        "score": 2.069,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 10.224\n22. Das Kapitel über Ähnlichkeit\nLehrrede ohne Titel über vierzig Eigenschaften",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 29,
+          "de": 11,
+          "en": 29
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.203_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.203_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.203_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.203",
+        "lang": "de",
+        "segMap": {
+          "an4.203:3.2": {
+            "scid": "an4.203:3.2",
+            "pli": "Idha, bhikkhave, ekacco attanā ca pāṇātipātī hoti, parañca pāṇātipāte samādapeti; ",
+            "de": "Da tötet jemand lebende Geschöpfe, stiehlt, begeht sexuelle Verfehlungen und gebraucht falsche, entzweiende, harte oder unsinnige Rede. Und er stiftet andere an, <span class=\"ebt-matched\">das Gleiche zu tun</span>. ",
+            "en": "It’s someone who kills living creatures, steals, commits sexual misconduct, and uses speech that’s false, divisive, harsh, or nonsensical. And they encourage others to do these things. ",
+            "matched": true
+          },
+          "an4.203:5.2": {
+            "scid": "an4.203:5.2",
+            "pli": "Idha, bhikkhave, ekacco attanā ca pāṇātipātā paṭivirato hoti, parañca pāṇātipātā veramaṇiyā samādapeti; ",
+            "de": "Da tötet jemand keine lebenden Geschöpfe, stiehlt nicht, begeht keine sexuellen Verfehlungen und gebraucht keine keine falsche, entzweiende, harte oder unsinnige Rede. Und er ermuntert andere, <span class=\"ebt-matched\">das Gleiche zu tun</span>. ",
+            "en": "It’s someone who doesn’t kill living creatures, steal, commit sexual misconduct, or use speech that’s false, divisive, harsh, or nonsensical. And they encourage others to avoid these things. ",
+            "matched": true
+          }
+        },
+        "score": 2.067,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 4.203\n21. Das Kapitel über einen wahren Menschen\nSieben Taten",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 30,
+          "de": 29,
+          "en": 29
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.96_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.96_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.96_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.96",
+        "lang": "de",
+        "segMap": {
+          "an4.96:2.2": {
+            "scid": "an4.96:2.2",
+            "pli": "Idha, bhikkhave, ekacco puggalo attanā rāgavinayāya paṭipanno hoti, no paraṁ rāgavinayāya samādapeti; ",
+            "de": "Es ist, wenn jemand übt, um seine eigene Gier, seinen Hass und seine Täuschung zu beseitigen, doch er ermuntert andere nicht, <span class=\"ebt-matched\">das Gleiche zu tun</span>. ",
+            "en": "It’s when a person practices to remove their own greed, hate, and delusion, but doesn’t encourage others to do the same. ",
+            "matched": true
+          },
+          "an4.96:5.2": {
+            "scid": "an4.96:5.2",
+            "pli": "Idha, bhikkhave, ekacco puggalo attanā ca rāgavinayāya paṭipanno hoti, parañca rāgavinayāya samādapeti; ",
+            "de": "Es ist, wenn jemand übt, um seine eigene Gier, seinen Hass und seine Täuschung zu beseitigen, und er ermuntert andere, <span class=\"ebt-matched\">das Gleiche zu tun</span>. ",
+            "en": "It’s when a person practices to remove their own greed, hate, and delusion, and encourages others to remove theirs. ",
+            "matched": true
+          }
+        },
+        "score": 2.065,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 4.96\n10. Das Kapitel über Titanen\nGier beseitigen",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 31,
+          "de": 30,
+          "en": 30
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.99_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.99_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.99_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.99",
+        "lang": "de",
+        "segMap": {
+          "an4.99:2.2": {
+            "scid": "an4.99:2.2",
+            "pli": "Idha, bhikkhave, ekacco puggalo attanā pāṇātipātā paṭivirato hoti, no paraṁ pāṇātipātā veramaṇiyā samādapeti; ",
+            "de": "Es ist, wenn jemand selbst keine lebenden Geschöpfe tötet, nicht stiehlt, keine sexuellen Verfehlungen begeht, nicht lügt und keinen Alkohol trinkt, der nachlässig macht. Doch er ermuntert andere nicht, <span class=\"ebt-matched\">das Gleiche zu tun</span>. ",
+            "en": "It’s when a person doesn’t kill living creatures, steal, commit sexual misconduct, lie, or use alcoholic drinks that cause negligence. But they don’t encourage others to do the same. ",
+            "matched": true
+          },
+          "an4.99:5.2": {
+            "scid": "an4.99:5.2",
+            "pli": "Idha, bhikkhave, ekacco puggalo attanā ca pāṇātipātā paṭivirato hoti, parañca pāṇātipātā veramaṇiyā samādapeti …pe… attanā ca surāmerayamajjapamādaṭṭhānā paṭivirato hoti, parañca surāmerayamajjapamādaṭṭhānā veramaṇiyā samādapeti. ",
+            "de": "Es ist, wenn jemand selbst keine lebenden Geschöpfe tötet, usw. … Und er ermuntert andere, <span class=\"ebt-matched\">das Gleiche zu tun</span>. ",
+            "en": "It’s when a person doesn’t kill, etc. … and encourages others to do the same. ",
+            "matched": true
+          }
+        },
+        "score": 2.065,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 4.99\n10. Das Kapitel über Titanen\nSchulungsregeln",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 31,
+          "de": 30,
+          "en": 30
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.193_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.193_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.193_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.193",
+        "lang": "de",
+        "segMap": {
+          "an4.193:4.4": {
+            "scid": "an4.193:4.4",
+            "pli": "“Luddho panāyaṁ, bhaddiya, purisapuggalo lobhena abhibhūto pariyādinnacitto pāṇampi hanati, adinnampi ādiyati, paradārampi gacchati, musāpi bhaṇati, parampi tathattāya samādapeti yaṁsa hoti dīgharattaṁ ahitāya dukkhāyā”ti. ",
+            "de": "„Ein gieriger Mensch, von Gier überwältigt, tötet lebende Geschöpfe, stiehlt, begeht Ehebruch, lügt und stiftet andere an, <span class=\"ebt-matched\">das Gleiche zu tun</span>. Ist das zu seinem langanhaltenden Unglück und Leiden?“ ",
+            "en": "“A greedy individual—overcome by greed—kills living creatures, steals, commits adultery, lies, and encourages others to do the same. Is that for their lasting harm and suffering?” ",
+            "matched": true
+          },
+          "an4.193:5.4": {
+            "scid": "an4.193:5.4",
+            "pli": "“Sāraddho panāyaṁ, bhaddiya, purisapuggalo sārambhena abhibhūto pariyādinnacitto pāṇampi hanati, adinnampi ādiyati, paradārampi gacchati, musāpi bhaṇati, parampi tathattāya samādapeti yaṁsa hoti dīgharattaṁ ahitāya dukkhāyā”ti. ",
+            "de": "„Ein angriffslustiger Mensch, von Angriffslust überwältigt, tötet lebende Geschöpfe, stiehlt, begeht Ehebruch, lügt und stiftet andere an, <span class=\"ebt-matched\">das Gleiche zu tun</span>. Ist das zu seinem langanhaltenden Unglück und Leiden?“ ",
+            "en": "“An aggressive individual kills living creatures, steals, commits adultery, lies, and encourages others to do the same. Is that for their lasting harm and suffering?” ",
+            "matched": true
+          }
+        },
+        "score": 2.022,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 4.193\n20. Das große Kapitel\nMit Bhaddiya",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 93,
+          "de": 92,
+          "en": 92
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn24/sn24.6_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn24/sn24.6_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn24/sn24.6_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn24.6",
+        "lang": "de",
+        "segMap": {
+          "sn24.6:1.6": {
+            "scid": "sn24.6:1.6",
+            "pli": "Uttarañcepi gaṅgāya tīraṁ gaccheyya; dadanto dāpento yajanto yajāpento, natthi tatonidānaṁ puññaṁ, natthi puññassa āgamo. ",
+            "de": "Wenn man am nördlichen Ufer des Ganges entlangginge und spenden und opfern würde und andere ermuntern würde, <span class=\"ebt-matched\">das Gleiche zu tun</span>, würde daraus kein Verdienst entstehen und auch keine Auswirkung von Verdienst. ",
+            "en": "If you were to go along the north bank of the Ganges giving and sacrificing and encouraging others to do the same, no merit comes of that, and no outcome of merit. ",
+            "matched": true
+          }
+        },
+        "score": 1.022,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 24.6\n1. Das Kapitel über den Stromeintritt\nHandeln",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 45,
+          "de": 36,
+          "en": 44
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn2",
+        "lang": "de",
+        "segMap": {
+          "dn2:17.4": {
+            "scid": "dn2:17.4",
+            "pli": "Uttarañcepi gaṅgāya tīraṁ gaccheyya dadanto dāpento yajanto yajāpento, natthi tatonidānaṁ puññaṁ, natthi puññassa āgamo. ",
+            "de": "Wenn man am nördlichen Ufer des Ganges entlangginge und spenden und opfern würde und andere ermuntern würde, <span class=\"ebt-matched\">das Gleiche zu tun</span>, würde daraus kein Verdienst entstehen und auch keine Auswirkung von Verdienst. ",
+            "en": "If you were to go along the north bank of the Ganges giving and sacrificing and encouraging others to do the same, no merit comes of that, and no outcome of merit. ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 2\nDie Früchte des Asketenlebens",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 650,
+          "de": 589,
+          "en": 633
+        }
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "de",
+    "docAuthor": "sabbamitta"
+  }
+}
