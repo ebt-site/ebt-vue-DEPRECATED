@@ -41,7 +41,7 @@
     "pattern": "spenden haben keinen sinn",
     "method": "phrase",
     "resultPattern": "\\bspenden haben keinen sinn",
-    "segsMatched": 17,
+    "segsMatched": 18,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn24/sn24.5_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn24/sn24.5_translation-de-sabbamitta.json",
@@ -49,6 +49,9 @@
       "root/pli/ms/sutta/sn/sn42/sn42.13_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn42/sn42.13_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn42/sn42.13_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn60_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn60_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn60_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
@@ -86,6 +89,7 @@
     "suttaRefs": [
       "sn24.5/de/sabbamitta",
       "sn42.13/de/sabbamitta",
+      "mn60/de/sabbamitta",
       "dn34/de/sabbamitta",
       "dn33/de/sabbamitta",
       "dn2/de/sabbamitta",
@@ -445,6 +449,38 @@
           "pli": 88,
           "de": 87,
           "en": 87
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn60_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn60_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn60_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn60",
+        "lang": "de",
+        "segMap": {
+          "mn60:5.2": {
+            "scid": "mn60:5.2",
+            "pli": "‘natthi dinnaṁ, natthi yiṭṭhaṁ, natthi hutaṁ; natthi sukatadukkaṭānaṁ kammānaṁ phalaṁ vipāko, natthi ayaṁ loko, natthi paro loko; natthi mātā, natthi pitā; natthi sattā opapātikā; natthi loke samaṇabrāhmaṇā sammaggatā sammā paṭipannā ye imañca lokaṁ parañca lokaṁ sayaṁ abhiññā sacchikatvā pavedentī’ti. ",
+            "de": "‚Geben, Opfer oder <span class=\"ebt-matched\">Spenden haben keinen Sinn</span>. Es gibt keine Frucht und kein Ergebnis von guten und schlechten Taten. Es gibt kein Leben nach dem Tod. So etwas wie Mutter und Vater oder Wesen, die durch unmittelbares Erscheinen wiedergeboren werden, gibt es nicht. Und es gibt keinen Asketen oder Brahmanen, der richtig verwirklicht ist, richtig geübt hat, und der das Leben nach dem Tod erklärt, nachdem er es durch eigene Einsicht erkannt hat.‘ ",
+            "en": "‘There’s no meaning in giving, sacrifice, or offerings. There’s no fruit or result of good and bad deeds. There’s no afterlife. There’s no such thing as mother and father, or beings that are reborn spontaneously. And there’s no ascetic or brahmin who is rightly comported and rightly practiced, and who describes the afterlife after realizing it with their own insight.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 60\nUnfehlbar",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 294,
+          "de": 274,
+          "en": 292
         }
       },
       {

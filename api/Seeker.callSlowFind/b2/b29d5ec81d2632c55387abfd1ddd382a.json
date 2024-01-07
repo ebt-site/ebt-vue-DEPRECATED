@@ -41,8 +41,11 @@
     "pattern": "in einem gefängnis eingesperrt",
     "method": "phrase",
     "resultPattern": "\\bin einem gefängnis eingesperrt",
-    "segsMatched": 2,
+    "segsMatched": 3,
     "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn39_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn39_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn39_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json",
@@ -51,10 +54,43 @@
       "translation/en/sujato/sutta/dn/dn10_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "mn39/de/sabbamitta",
       "dn2/de/sabbamitta",
       "dn10/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn39_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn39_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn39_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn39",
+        "lang": "de",
+        "segMap": {
+          "mn39:14.13": {
+            "scid": "mn39:14.13",
+            "pli": "Seyyathāpi, bhikkhave, puriso bandhanāgāre baddho assa. ",
+            "de": "Wie ein Mensch, der <span class=\"ebt-matched\">in einem Gefängnis eingesperrt</span> wäre. ",
+            "en": "Suppose a person was imprisoned in a jail. ",
+            "matched": true
+          }
+        },
+        "score": 1.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 39\nDie längere Lehrrede bei Assapura",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 191,
+          "de": 160,
+          "en": 190
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/dn/dn10_root-pli-ms.json",

@@ -41,7 +41,7 @@
     "pattern": "mitgenommen, leidend, schwer krank",
     "method": "phrase",
     "resultPattern": "\\bmitgenommen, leidend, schwer krank",
-    "segsMatched": 47,
+    "segsMatched": 48,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn55/sn55.54_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn55/sn55.54_translation-de-sabbamitta.json",
@@ -115,6 +115,9 @@
       "root/pli/ms/sutta/sn/sn11/sn11.23_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn11/sn11.23_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn11/sn11.23_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn39_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn39_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn39_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn144_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn144_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn144_translation-en-sujato.json",
@@ -165,6 +168,7 @@
       "sn35.74/de/sabbamitta",
       "sn22.89/de/sabbamitta",
       "sn11.23/de/sabbamitta",
+      "mn39/de/sabbamitta",
       "mn144/de/sabbamitta",
       "ud1.6/de/sabbamitta",
       "dn2/de/sabbamitta",
@@ -1238,6 +1242,38 @@
           "pli": 131,
           "de": 102,
           "en": 130
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn39_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn39_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn39_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn39",
+        "lang": "de",
+        "segMap": {
+          "mn39:14.8": {
+            "scid": "mn39:14.8",
+            "pli": "Seyyathāpi, bhikkhave, puriso ābādhiko assa dukkhito bāḷhagilāno, bhattañcassa nacchādeyya, na cassa kāye balamattā. ",
+            "de": "Wie ein Mensch, der <span class=\"ebt-matched\">mitgenommen, leidend, schwer krank</span> wäre. Er verlöre den Appetit und käme von Kräften. ",
+            "en": "Suppose a person was sick, suffering, and gravely ill. They’d lose their appetite and get physically weak. ",
+            "matched": true
+          }
+        },
+        "score": 1.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 39\nDie längere Lehrrede bei Assapura",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 191,
+          "de": 160,
+          "en": 190
         }
       },
       {

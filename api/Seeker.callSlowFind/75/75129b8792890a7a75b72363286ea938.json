@@ -41,7 +41,7 @@
     "pattern": "ohne grund oder ursache",
     "method": "phrase",
     "resultPattern": "\\bohne grund oder ursache",
-    "segsMatched": 10,
+    "segsMatched": 12,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn24/sn24.7_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn24/sn24.7_translation-de-sabbamitta.json",
@@ -49,6 +49,9 @@
       "root/pli/ms/sutta/sn/sn22/sn22.60_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.60_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.60_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn60_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn60_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn60_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn9_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn9_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn9_translation-en-sujato.json",
@@ -65,6 +68,7 @@
     "suttaRefs": [
       "sn24.7/de/sabbamitta",
       "sn22.60/de/sabbamitta",
+      "mn60/de/sabbamitta",
       "dn9/de/sabbamitta",
       "dn2/de/sabbamitta",
       "sn46.56/de/sabbamitta",
@@ -147,6 +151,45 @@
           "pli": 57,
           "de": 46,
           "en": 56
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn60_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn60_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn60_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn60",
+        "lang": "de",
+        "segMap": {
+          "mn60:21.3": {
+            "scid": "mn60:21.3",
+            "pli": "ahetū appaccayā sattā saṅkilissanti. ",
+            "de": "Lebewesen werden <span class=\"ebt-matched\">ohne Grund oder Ursache</span> verunreinigt. ",
+            "en": "Sentient beings are corrupted without cause or reason. ",
+            "matched": true
+          },
+          "mn60:21.5": {
+            "scid": "mn60:21.5",
+            "pli": "ahetū appaccayā sattā visujjhanti. ",
+            "de": "Lebewesen werden <span class=\"ebt-matched\">ohne Grund oder Ursache</span> geläutert. ",
+            "en": "Sentient beings are purified without cause or reason. ",
+            "matched": true
+          }
+        },
+        "score": 2.007,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 60\nUnfehlbar",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 294,
+          "de": 274,
+          "en": 292
         }
       },
       {

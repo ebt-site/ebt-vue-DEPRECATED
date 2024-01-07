@@ -41,7 +41,7 @@
     "pattern": "um die wesen zu läutern",
     "method": "phrase",
     "resultPattern": "\\bum die wesen zu läutern",
-    "segsMatched": 23,
+    "segsMatched": 24,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn47/sn47.43_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn47/sn47.43_translation-de-sabbamitta.json",
@@ -67,6 +67,9 @@
       "root/pli/ms/sutta/an/an4/an4.194_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.194_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.194_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn51_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn51_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn51_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an9/an9.37_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an9/an9.37_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an9/an9.37_translation-en-sujato.json",
@@ -86,6 +89,7 @@
       "an6.30/de/sabbamitta",
       "an6.26/de/sabbamitta",
       "an4.194/de/sabbamitta",
+      "mn51/de/sabbamitta",
       "an9.37/de/sabbamitta",
       "an3.74/de/sabbamitta",
       "an10.95/de/sabbamitta"
@@ -525,6 +529,38 @@
           "pli": 57,
           "de": 40,
           "en": 56
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn51_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn51_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn51_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn51",
+        "lang": "de",
+        "segMap": {
+          "mn51:4.3": {
+            "scid": "mn51:4.3",
+            "pli": "Yāva supaññattā cime, bhante, bhagavatā cattāro satipaṭṭhānā sattānaṁ visuddhiyā sokaparidevānaṁ samatikkamāya dukkhadomanassānaṁ atthaṅgamāya ñāyassa adhigamāya nibbānassa sacchikiriyāya. ",
+            "de": "Wie gut die vier Arten der Achtsamkeitsmeditation vom Buddha beschrieben sind – <span class=\"ebt-matched\">um die Wesen zu läutern</span>, Kummer und Weinen zu überwinden, Schmerz und Traurigkeit ein Ende zu machen, das System zu entdecken und das Erlöschen zu verwirklichen! ",
+            "en": "How well described by the Buddha are the four kinds of mindfulness meditation! They are in order to purify sentient beings, to get past sorrow and crying, to make an end of pain and sadness, to discover the system, and to realize extinguishment. ",
+            "matched": true
+          }
+        },
+        "score": 1.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 51\nMit Kandaraka",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 190,
+          "de": 184,
+          "en": 189
         }
       }
     ],

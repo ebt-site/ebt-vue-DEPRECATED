@@ -41,8 +41,14 @@
     "pattern": "herzen, das frei von begehren",
     "method": "phrase",
     "resultPattern": "\\bherzen, das frei von begehren",
-    "segsMatched": 8,
+    "segsMatched": 10,
     "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn51_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn51_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn51_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn39_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn39_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn39_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn38_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn38_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn38_translation-en-sujato.json",
@@ -69,6 +75,8 @@
       "translation/en/sujato/sutta/an/an10/an10.99_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "mn51/de/sabbamitta",
+      "mn39/de/sabbamitta",
       "mn38/de/sabbamitta",
       "dn2/de/sabbamitta",
       "dn25/de/sabbamitta",
@@ -205,6 +213,70 @@
           "pli": 148,
           "de": 146,
           "en": 147
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn39_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn39_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn39_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn39",
+        "lang": "de",
+        "segMap": {
+          "mn39:13.2": {
+            "scid": "mn39:13.2",
+            "pli": "So abhijjhaṁ loke pahāya vigatābhijjhena cetasā viharati, abhijjhāya cittaṁ parisodheti; ",
+            "de": "Er gibt das Begehren nach der Welt auf, meditiert mit einem <span class=\"ebt-matched\">Herzen, das frei von Begehren</span> ist, und läutert den Geist von Begehren. ",
+            "en": "Giving up covetousness for the world, they meditate with a heart rid of covetousness, cleansing the mind of covetousness. ",
+            "matched": true
+          }
+        },
+        "score": 1.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 39\nDie längere Lehrrede bei Assapura",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 191,
+          "de": 160,
+          "en": 190
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn51_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn51_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn51_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn51",
+        "lang": "de",
+        "segMap": {
+          "mn51:19.2": {
+            "scid": "mn51:19.2",
+            "pli": "So abhijjhaṁ loke pahāya vigatābhijjhena cetasā viharati, abhijjhāya cittaṁ parisodheti, ",
+            "de": "Er gibt das Begehren nach der Welt auf, meditiert mit einem <span class=\"ebt-matched\">Herzen, das frei von Begehren</span> ist, und läutert den Geist von Begehren. ",
+            "en": "Giving up covetousness for the world, they meditate with a heart rid of covetousness, cleansing the mind of covetousness. ",
+            "matched": true
+          }
+        },
+        "score": 1.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 51\nMit Kandaraka",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 190,
+          "de": 184,
+          "en": 189
         }
       },
       {

@@ -41,8 +41,11 @@
     "pattern": "ein tiefer see, der von einer quelle gespeist",
     "method": "phrase",
     "resultPattern": "\\bein tiefer see, der von einer quelle gespeist",
-    "segsMatched": 4,
+    "segsMatched": 5,
     "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn39_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn39_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn39_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn119_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn119_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn119_translation-en-sujato.json",
@@ -57,6 +60,7 @@
       "translation/en/sujato/sutta/an/an5/an5.28_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "mn39/de/sabbamitta",
       "mn119/de/sabbamitta",
       "dn2/de/sabbamitta",
       "dn10/de/sabbamitta",
@@ -93,6 +97,38 @@
           "pli": 85,
           "de": 84,
           "en": 84
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn39_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn39_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn39_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn39",
+        "lang": "de",
+        "segMap": {
+          "mn39:16.3": {
+            "scid": "mn39:16.3",
+            "pli": "Seyyathāpi, bhikkhave, udakarahado ubbhidodako. Tassa nevassa puratthimāya disāya udakassa āyamukhaṁ, na pacchimāya disāya udakassa āyamukhaṁ, na uttarāya disāya udakassa āyamukhaṁ, na dakkhiṇāya disāya udakassa āyamukhaṁ, devo ca na kālena kālaṁ sammādhāraṁ anuppaveccheyya. Atha kho tamhāva udakarahadā sītā vāridhārā ubbhijjitvā tameva udakarahadaṁ sītena vārinā abhisandeyya parisandeyya paripūreyya paripphareyya, nāssa kiñci sabbāvato udakarahadassa sītena vārinā apphuṭaṁ assa. ",
+            "de": "Wie <span class=\"ebt-matched\">ein tiefer See, der von einer Quelle gespeist</span> wird und der weder von Osten noch von Westen, weder von Norden noch von Süden einen Zufluss hat und auch nicht von Zeit zu Zeit vom Regen aufgefüllt wird. Doch der Strom kühlen Wassers, der im See aufwallt, tränkt, durchdringt, füllt und durchströmt den ganzen See. Es gibt keinen Teil des Sees, der nicht von kühlem Wasser durchströmt wäre. ",
+            "en": "It’s like a deep lake fed by spring water. There’s no inlet to the east, west, north, or south, and no rainfall to replenish it from time to time. But the stream of cool water welling up in the lake drenches, steeps, fills, and spreads throughout the lake. There’s no part of the lake that’s not spread through with cool water. ",
+            "matched": true
+          }
+        },
+        "score": 1.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 39\nDie längere Lehrrede bei Assapura",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 191,
+          "de": 160,
+          "en": 190
         }
       },
       {

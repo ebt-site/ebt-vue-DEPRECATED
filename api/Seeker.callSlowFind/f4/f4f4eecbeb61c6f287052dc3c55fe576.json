@@ -41,11 +41,14 @@
     "pattern": "weg zum anderen ufer",
     "method": "phrase",
     "resultPattern": "\\bweg zum anderen ufer",
-    "segsMatched": 7,
+    "segsMatched": 9,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn12/sn12.31_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.31_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn12/sn12.31_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga5/snp5.19_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/snp/vagga5/snp5.19_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/snp/vagga5/snp5.19_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an6/an6.61_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.61_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an6/an6.61_translation-en-sujato.json",
@@ -61,6 +64,7 @@
     ],
     "suttaRefs": [
       "sn12.31/de/sabbamitta",
+      "snp5.19/de/sabbamitta",
       "an6.61/de/sabbamitta",
       "an4.41/de/sabbamitta",
       "an3.33/de/sabbamitta",
@@ -143,6 +147,45 @@
           "pli": 66,
           "de": 65,
           "en": 65
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga5/snp5.19_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/snp/vagga5/snp5.19_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/snp/vagga5/snp5.19_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp5.19",
+        "lang": "de",
+        "segMap": {
+          "snp5.19:0.2": {
+            "scid": "snp5.19:0.2",
+            "pli": "Pārāyanānugītigāthā ",
+            "de": "Den <span class=\"ebt-matched\">Weg zum anderen Ufer</span> bewahren ",
+            "en": "Preserving the Way to the Far Shore ",
+            "matched": true
+          },
+          "snp5.19:1.1": {
+            "scid": "snp5.19:1.1",
+            "pli": "“Pārāyanamanugāyissaṁ, ",
+            "de": "„Ich werde fortfahren, den <span class=\"ebt-matched\">Weg zum anderen Ufer</span> aufzusagen“, ",
+            "en": "“I shall keep reciting the Way to the Far Shore,” ",
+            "matched": true
+          }
+        },
+        "score": 2.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lehrreden-Sammelband 5.19\nDen Weg zum anderen Ufer bewahren",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 174,
+          "de": 82,
+          "en": 82
         }
       },
       {

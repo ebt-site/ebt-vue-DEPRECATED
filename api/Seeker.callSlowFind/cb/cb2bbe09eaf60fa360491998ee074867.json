@@ -41,8 +41,11 @@
     "pattern": "nur einen bissen",
     "method": "phrase",
     "resultPattern": "\\bnur einen bissen",
-    "segsMatched": 4,
+    "segsMatched": 5,
     "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn51_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn51_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn51_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn8_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn8_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn8_translation-en-sujato.json",
@@ -57,6 +60,7 @@
       "translation/en/sujato/sutta/an/an3/an3.156-162_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "mn51/de/sabbamitta",
       "dn8/de/sabbamitta",
       "dn25/de/sabbamitta",
       "an4.198/de/sabbamitta",
@@ -125,6 +129,38 @@
           "pli": 111,
           "de": 110,
           "en": 110
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn51_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn51_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn51_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn51",
+        "lang": "de",
+        "segMap": {
+          "mn51:8.3": {
+            "scid": "mn51:8.3",
+            "pli": "So ekāgāriko vā hoti ekālopiko, dvāgāriko vā hoti dvālopiko …pe… sattāgāriko vā hoti sattālopiko; ",
+            "de": "Er geht um Almosen nur zu einem Haus und nimmt <span class=\"ebt-matched\">nur einen Bissen</span>, oder zu zwei Häusern und zwei Bissen, bis zu sieben Häusern und sieben Bissen. ",
+            "en": "They go to just one house for alms, taking just one mouthful, or two houses and two mouthfuls, up to seven houses and seven mouthfuls. ",
+            "matched": true
+          }
+        },
+        "score": 1.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 51\nMit Kandaraka",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 190,
+          "de": 184,
+          "en": 189
         }
       },
       {

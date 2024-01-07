@@ -41,8 +41,11 @@
     "pattern": "die kugel aus seifenpulver",
     "method": "phrase",
     "resultPattern": "\\bdie kugel aus seifenpulver",
-    "segsMatched": 4,
+    "segsMatched": 5,
     "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn39_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn39_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn39_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn119_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn119_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn119_translation-en-sujato.json",
@@ -57,6 +60,7 @@
       "translation/en/sujato/sutta/an/an5/an5.28_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "mn39/de/sabbamitta",
       "mn119/de/sabbamitta",
       "dn2/de/sabbamitta",
       "dn10/de/sabbamitta",
@@ -93,6 +97,38 @@
           "pli": 85,
           "de": 84,
           "en": 84
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn39_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn39_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn39_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn39",
+        "lang": "de",
+        "segMap": {
+          "mn39:15.4": {
+            "scid": "mn39:15.4",
+            "pli": "Seyyathāpi, bhikkhave, dakkho nhāpako vā nhāpakantevāsī vā kaṁsathāle nhānīyacuṇṇāni ākiritvā udakena paripphosakaṁ paripphosakaṁ sanneyya. Sāyaṁ nhānīyapiṇḍi snehānugatā snehaparetā santarabāhirā, phuṭā snehena na ca pagghariṇī. ",
+            "de": "Wie ein geschickter Bader oder Baderlehrling, der Seifenpulver in eine Bronzeschale gibt und es nach und nach mit Wasser benetzt. Er knetet es, bis <span class=\"ebt-matched\">die Kugel aus Seifenpulver</span> mit Feuchtigkeit vollgesogen und gesättigt ist, innen und außen durchtränkt, und doch keine Feuchtigkeit herausquillt. ",
+            "en": "It’s like when a deft bathroom attendant or their apprentice pours bath powder into a bronze dish, sprinkling it little by little with water. They knead it until the ball of bath powder is soaked and saturated with moisture, spread through inside and out; yet no moisture oozes out. ",
+            "matched": true
+          }
+        },
+        "score": 1.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 39\nDie längere Lehrrede bei Assapura",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 191,
+          "de": 160,
+          "en": 190
         }
       },
       {

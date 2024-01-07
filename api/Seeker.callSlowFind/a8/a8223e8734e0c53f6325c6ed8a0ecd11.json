@@ -41,7 +41,7 @@
     "pattern": "wohin er fliegt",
     "method": "keywords",
     "resultPattern": "\\bwohin|\\ber|\\bfliegt",
-    "segsMatched": 4,
+    "segsMatched": 5,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an10/an10.99_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.99_translation-de-sabbamitta.json",
@@ -54,13 +54,17 @@
       "translation/en/sujato/sutta/dn/dn10_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn38_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn38_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/mn/mn38_translation-en-sujato.json"
+      "translation/en/sujato/sutta/mn/mn38_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn51_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn51_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn51_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an10.99/de/sabbamitta",
       "an4.198/de/sabbamitta",
       "dn10/de/sabbamitta",
-      "mn38/de/sabbamitta"
+      "mn38/de/sabbamitta",
+      "mn51/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -125,6 +129,38 @@
           "pli": 148,
           "de": 146,
           "en": 147
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn51_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn51_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn51_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn51",
+        "lang": "de",
+        "segMap": {
+          "mn51:15.2": {
+            "scid": "mn51:15.2",
+            "pli": "Seyyathāpi nāma pakkhī sakuṇo yena yeneva ḍeti, sapattabhārova ḍeti; ",
+            "de": "Wie ein Vogel: <span class=\"ebt-matched\">Wohin</span> <span class=\"ebt-matched\">er</span> auch <span class=\"ebt-matched\">fliegt</span>, die Flügel sind seine einzige Last. ",
+            "en": "They’re like a bird: wherever it flies, wings are its only burden. ",
+            "matched": true
+          }
+        },
+        "score": 1.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 51\nMit Kandaraka",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 190,
+          "de": 184,
+          "en": 189
         }
       },
       {

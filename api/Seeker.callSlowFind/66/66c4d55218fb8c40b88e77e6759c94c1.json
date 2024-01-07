@@ -41,18 +41,22 @@
     "pattern": "falsche wendung",
     "method": "phrase",
     "resultPattern": "\\bfalsche wendung",
-    "segsMatched": 4,
+    "segsMatched": 5,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn35/sn35.246_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn35/sn35.246_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.246_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.14_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.14_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an8/an8.14_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an8/an8.14_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn26_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn26_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn26_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "sn35.246/de/sabbamitta",
-      "an8.14/de/sabbamitta"
+      "an8.14/de/sabbamitta",
+      "mn26/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -131,6 +135,38 @@
           "pli": 90,
           "de": 81,
           "en": 89
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn26_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn26_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn26_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn26",
+        "lang": "de",
+        "segMap": {
+          "mn26:25.27": {
+            "scid": "mn26:25.27",
+            "pli": "Evaṁ vutte, bhikkhave, upako ājīvako ‘hupeyyapāvuso’ti vatvā sīsaṁ okampetvā ummaggaṁ gahetvā pakkāmi. ",
+            "de": "Daraufhin sagte Upaka: ‚Wenn du das sagst, Geehrter.‘ Er schüttelte den Kopf, nahm eine <span class=\"ebt-matched\">falsche Wendung</span> und ging. ",
+            "en": "When I had spoken, Upaka said: ‘If you say so, reverend.’ Shaking his head, he took a wrong turn and left. ",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 26\nDie edle Suche",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 365,
+          "de": 363,
+          "en": 364
         }
       }
     ],

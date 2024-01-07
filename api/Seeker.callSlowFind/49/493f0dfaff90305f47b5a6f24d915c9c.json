@@ -41,7 +41,7 @@
     "pattern": "wie ein vogel",
     "method": "phrase",
     "resultPattern": "\\bwie ein vogel",
-    "segsMatched": 24,
+    "segsMatched": 25,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
@@ -64,6 +64,9 @@
       "root/pli/ms/sutta/sn/sn12/sn12.70_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.70_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn12/sn12.70_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn51_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn51_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn51_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn38_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn38_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn38_translation-en-sujato.json",
@@ -119,6 +122,7 @@
       "sn51.11/de/sabbamitta",
       "sn16.9/de/sabbamitta",
       "sn12.70/de/sabbamitta",
+      "mn51/de/sabbamitta",
       "mn38/de/sabbamitta",
       "thag17.3/de/sabbamitta",
       "snp5.19/de/sabbamitta",
@@ -687,7 +691,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Lehrreden-Sammelband 5.19\nDen Weg zum Jenseits bewahren",
+        "title": "Lehrreden-Sammelband 5.19\nDen Weg zum anderen Ufer bewahren",
         "segsMatched": 1,
         "langSegs": {
           "pli": 174,
@@ -757,6 +761,38 @@
           "pli": 199,
           "de": 161,
           "en": 198
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn51_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn51_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn51_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn51",
+        "lang": "de",
+        "segMap": {
+          "mn51:15.2": {
+            "scid": "mn51:15.2",
+            "pli": "Seyyathāpi nāma pakkhī sakuṇo yena yeneva ḍeti, sapattabhārova ḍeti; ",
+            "de": "<span class=\"ebt-matched\">Wie ein Vogel</span>: Wohin er auch fliegt, die Flügel sind seine einzige Last. ",
+            "en": "They’re like a bird: wherever it flies, wings are its only burden. ",
+            "matched": true
+          }
+        },
+        "score": 1.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 51\nMit Kandaraka",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 190,
+          "de": 184,
+          "en": 189
         }
       },
       {

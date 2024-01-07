@@ -41,7 +41,7 @@
     "pattern": "das allein ist die wahrheit",
     "method": "phrase",
     "resultPattern": "\\bdas allein ist die wahrheit",
-    "segsMatched": 39,
+    "segsMatched": 41,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn29_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn29_translation-de-sabbamitta.json",
@@ -58,6 +58,9 @@
       "root/pli/ms/sutta/an/an10/an10.95_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.95_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an10/an10.95_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn60_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn60_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn60_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/ud/vagga6/ud6.6_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga6/ud6.6_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/ud/vagga6/ud6.6_translation-en-sujato.json",
@@ -89,6 +92,7 @@
       "an10.93/de/sabbamitta",
       "dn9/de/sabbamitta",
       "an10.95/de/sabbamitta",
+      "mn60/de/sabbamitta",
       "ud6.6/de/sabbamitta",
       "ud6.5/de/sabbamitta",
       "ud6.4/de/sabbamitta",
@@ -567,6 +571,45 @@
           "pli": 145,
           "de": 143,
           "en": 138
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn60_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn60_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn60_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn60",
+        "lang": "de",
+        "segMap": {
+          "mn60:31.7": {
+            "scid": "mn60:31.7",
+            "pli": "idameva saccaṁ, moghamaññanti, na metaṁ assa patirūpaṁ. ",
+            "de": "‚<span class=\"ebt-matched\">Das allein ist die Wahrheit</span>, andere Vorstellungen sind einfältig.‘ ",
+            "en": "‘This is the only truth, other ideas are silly.’ ",
+            "matched": true
+          },
+          "mn60:34.7": {
+            "scid": "mn60:34.7",
+            "pli": "idameva saccaṁ, moghamaññanti, na metaṁ assa patirūpaṁ. ",
+            "de": "‚<span class=\"ebt-matched\">Das allein ist die Wahrheit</span>, andere Vorstellungen sind einfältig.‘ ",
+            "en": "‘This is the only truth, other ideas are silly.’ ",
+            "matched": true
+          }
+        },
+        "score": 2.007,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 60\nUnfehlbar",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 294,
+          "de": 274,
+          "en": 292
         }
       },
       {

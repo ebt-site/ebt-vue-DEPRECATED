@@ -41,8 +41,14 @@
     "pattern": "selbst und setz.* andere herab",
     "method": "phrase",
     "resultPattern": "\\bselbst und setz.* andere herab",
-    "segsMatched": 3,
+    "segsMatched": 10,
     "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn29_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn29_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn29_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn60_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn60_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn60_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn25_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn25_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn25_translation-en-sujato.json",
@@ -51,10 +57,111 @@
       "translation/en/sujato/sutta/an/an10/an10.78_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "mn29/de/sabbamitta",
+      "mn60/de/sabbamitta",
       "dn25/de/sabbamitta",
       "an10.78/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn29_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn29_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn29_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn29",
+        "lang": "de",
+        "segMap": {
+          "mn29:2.6": {
+            "scid": "mn29:2.6",
+            "pli": "So tena lābhasakkārasilokena attānukkaṁseti paraṁ vambheti: ",
+            "de": "Er verherrlicht sich deshalb <span class=\"ebt-matched\">selbst und setzt andere herab</span>: ",
+            "en": "And they glorify themselves and put others down because of that: ",
+            "matched": true
+          },
+          "mn29:3.10": {
+            "scid": "mn29:3.10",
+            "pli": "So tāya sīlasampadāya attānukkaṁseti, paraṁ vambheti: ",
+            "de": "Er verherrlicht sich deshalb <span class=\"ebt-matched\">selbst und setzt andere herab</span>: ",
+            "en": "And they glorify themselves and put others down on account of that: ",
+            "matched": true
+          },
+          "mn29:4.27": {
+            "scid": "mn29:4.27",
+            "pli": "So tāya samādhisampadāya attānukkaṁseti, paraṁ vambheti: ",
+            "de": "Er verherrlicht sich deshalb <span class=\"ebt-matched\">selbst und setzt andere herab</span>: ",
+            "en": "And they glorify themselves and put others down on account of that: ",
+            "matched": true
+          },
+          "mn29:5.16": {
+            "scid": "mn29:5.16",
+            "pli": "So tena ñāṇadassanena attānukkaṁseti, paraṁ vambheti: ",
+            "de": "Er verherrlicht sich deshalb <span class=\"ebt-matched\">selbst und setzt andere herab</span>: ",
+            "en": "And they glorify themselves and put others down on account of that, ",
+            "matched": true
+          }
+        },
+        "score": 4.022,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 29\nDas längere Gleichnis vom Kernholz",
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 181,
+          "de": 116,
+          "en": 180
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn60_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn60_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn60_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn60",
+        "lang": "de",
+        "segMap": {
+          "mn60:8.6": {
+            "scid": "mn60:8.6",
+            "pli": "Tāya ca pana asaddhammasaññattiyā attānukkaṁseti, paraṁ vambheti. ",
+            "de": "Und sie verherrlichen sich deshalb <span class=\"ebt-matched\">selbst und setzen andere herab</span>. ",
+            "en": "And on account of that they glorify themselves and put others down. ",
+            "matched": true
+          },
+          "mn60:16.6": {
+            "scid": "mn60:16.6",
+            "pli": "Tāya ca pana asaddhammasaññattiyā attānukkaṁseti, paraṁ vambheti. ",
+            "de": "Und sie verherrlichen sich deshalb <span class=\"ebt-matched\">selbst und setzen andere herab</span>. ",
+            "en": "And on account of that they glorify themselves and put others down. ",
+            "matched": true
+          },
+          "mn60:24.6": {
+            "scid": "mn60:24.6",
+            "pli": "Tāya ca pana asaddhammasaññattiyā attānukkaṁseti, paraṁ vambheti. ",
+            "de": "Und sie verherrlichen sich deshalb <span class=\"ebt-matched\">selbst und setzen andere herab</span>. ",
+            "en": "And on account of that they glorify themselves and put others down. ",
+            "matched": true
+          }
+        },
+        "score": 3.01,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 60\nUnfehlbar",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 294,
+          "de": 274,
+          "en": 292
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/dn/dn25_root-pli-ms.json",

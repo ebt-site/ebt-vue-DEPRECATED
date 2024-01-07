@@ -41,7 +41,7 @@
     "pattern": "wiedergeburtsklassen",
     "method": "phrase",
     "resultPattern": "\\bwiedergeburtsklassen",
-    "segsMatched": 16,
+    "segsMatched": 18,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an6/an6.57_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.57_translation-de-sabbamitta.json",
@@ -49,6 +49,9 @@
       "root/pli/ms/sutta/sn/sn24/sn24.7_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn24/sn24.7_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn24/sn24.7_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn60_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn60_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn60_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json",
@@ -62,6 +65,7 @@
     "suttaRefs": [
       "an6.57/de/sabbamitta",
       "sn24.7/de/sabbamitta",
+      "mn60/de/sabbamitta",
       "dn2/de/sabbamitta",
       "sn24.8/de/sabbamitta",
       "dn33/de/sabbamitta"
@@ -199,6 +203,45 @@
           "pli": 46,
           "de": 37,
           "en": 45
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn60_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn60_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn60_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn60",
+        "lang": "de",
+        "segMap": {
+          "mn60:21.7": {
+            "scid": "mn60:21.7",
+            "pli": "sabbe sattā sabbe pāṇā sabbe bhūtā sabbe jīvā avasā abalā avīriyā niyatisaṅgatibhāvapariṇatā chasvevābhijātīsu sukhadukkhaṁ paṭisaṁvedentī’ti. ",
+            "de": "Alle Lebewesen, alle lebenden Geschöpfe, alle Wesen, alle Seelen sind ohne Kontrolle, Kraft oder Energie. Vom Schicksal, den Umständen und der Natur getrieben, erfahren sie in den sechs <span class=\"ebt-matched\">Wiedergeburtsklassen</span> Glück und Schmerz.‘ ",
+            "en": "All sentient beings, all living creatures, all beings, all souls lack control, power, and energy. Molded by destiny, circumstance, and nature, they experience pleasure and pain in the six classes of rebirth.’ ",
+            "matched": true
+          },
+          "mn60:22.8": {
+            "scid": "mn60:22.8",
+            "pli": "na sabbe sattā sabbe pāṇā sabbe bhūtā sabbe jīvā avasā abalā avīriyā niyatisaṅgatibhāvapariṇatā chasvevābhijātīsu sukhadukkhaṁ paṭisaṁvedentī’ti. ",
+            "de": "Es ist nicht so, dass alle Lebewesen, alle lebenden Geschöpfe, alle Wesen, alle Seelen ohne Kontrolle, Kraft oder Energie wären oder dass sie, vom Schicksal, den Umständen und der Natur getrieben, in den sechs <span class=\"ebt-matched\">Wiedergeburtsklassen</span> Glück und Schmerz erfahren würden.‘ ",
+            "en": "It is not the case that all sentient beings, all living creatures, all beings, all souls lack control, power, and energy, or that, molded by destiny, circumstance, and nature, they experience pleasure and pain in the six classes of rebirth.’ ",
+            "matched": true
+          }
+        },
+        "score": 2.007,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 60\nUnfehlbar",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 294,
+          "de": 274,
+          "en": 292
         }
       },
       {

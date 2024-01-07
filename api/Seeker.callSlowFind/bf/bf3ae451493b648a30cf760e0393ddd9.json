@@ -41,11 +41,14 @@
     "pattern": "in schulden geraten",
     "method": "phrase",
     "resultPattern": "\\bin schulden geraten",
-    "segsMatched": 6,
+    "segsMatched": 7,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an6/an6.45_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.45_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an6/an6.45_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn39_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn39_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn39_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json",
@@ -55,6 +58,7 @@
     ],
     "suttaRefs": [
       "an6.45/de/sabbamitta",
+      "mn39/de/sabbamitta",
       "dn2/de/sabbamitta",
       "dn10/de/sabbamitta"
     ],
@@ -110,6 +114,38 @@
           "pli": 100,
           "de": 99,
           "en": 99
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn39_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn39_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn39_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn39",
+        "lang": "de",
+        "segMap": {
+          "mn39:14.1": {
+            "scid": "mn39:14.1",
+            "pli": "Seyyathāpi, bhikkhave, puriso iṇaṁ ādāya kammante payojeyya. ",
+            "de": "Wie ein Mann, der <span class=\"ebt-matched\">in Schulden geraten</span> wäre und sich der Arbeit widmete ",
+            "en": "Suppose a man who has gotten into debt were to apply himself to work, ",
+            "matched": true
+          }
+        },
+        "score": 1.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 39\nDie längere Lehrrede bei Assapura",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 191,
+          "de": 160,
+          "en": 190
         }
       },
       {

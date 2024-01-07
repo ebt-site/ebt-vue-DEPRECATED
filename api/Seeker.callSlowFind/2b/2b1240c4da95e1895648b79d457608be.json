@@ -41,7 +41,7 @@
     "pattern": "liebevolle.* herz",
     "method": "phrase",
     "resultPattern": "\\bliebevolle.* herz",
-    "segsMatched": 29,
+    "segsMatched": 30,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an5/an5.167_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.167_translation-de-sabbamitta.json",
@@ -55,6 +55,9 @@
       "root/pli/ms/sutta/mn/mn93_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn93_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn93_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga3/iti22_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/iti/vagga3/iti22_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/iti/vagga3/iti22_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an7/an7.62_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an7/an7.62_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an7/an7.62_translation-en-sujato.json",
@@ -73,9 +76,6 @@
       "root/pli/ms/sutta/kn/iti/vagga7/iti60_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/iti/vagga7/iti60_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/iti/vagga7/iti60_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/iti/vagga3/iti22_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/kn/iti/vagga3/iti22_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/kn/iti/vagga3/iti22_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
@@ -94,13 +94,13 @@
       "dn8/de/sabbamitta",
       "an1.51-60/de/sabbamitta",
       "mn93/de/sabbamitta",
+      "iti22/de/sabbamitta",
       "an7.62/de/sabbamitta",
       "an4.67/de/sabbamitta",
       "sn20.4/de/sabbamitta",
       "thag3.7/de/sabbamitta",
       "thag14.1/de/sabbamitta",
       "iti60/de/sabbamitta",
-      "iti22/de/sabbamitta",
       "dn33/de/sabbamitta",
       "an9.20/de/sabbamitta",
       "an5.198/de/sabbamitta",
@@ -278,6 +278,45 @@
           "pli": 252,
           "de": 198,
           "en": 251
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga3/iti22_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/iti/vagga3/iti22_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/iti/vagga3/iti22_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti22",
+        "lang": "de",
+        "segMap": {
+          "iti22:2.4": {
+            "scid": "iti22:2.4",
+            "pli": "Satta vassāni mettacittaṁ bhāvetvā satta saṁvaṭṭavivaṭṭakappe nayimaṁ lokaṁ punarāgamāsiṁ. ",
+            "de": "Nachdem ich sieben Jahre lang ein <span class=\"ebt-matched\">liebevolles Herz</span> entwickelt hatte, kehrte ich sieben Äonen lang, in denen sich das Weltall ausdehnte und zusammenzog, nicht in diese Welt zurück. ",
+            "en": "As a result, for seven eons of the cosmos contracting and expanding I didn’t return to this world again. ",
+            "matched": true
+          },
+          "iti22:5.4": {
+            "scid": "iti22:5.4",
+            "pli": "mettacittañca bhāvaye. ",
+            "de": "ein <span class=\"ebt-matched\">liebevolles Herz</span> entwickeln: ",
+            "en": "developing a mind of love: ",
+            "matched": true
+          }
+        },
+        "score": 2.063,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So wurde es gesagt 22\nDas Einerbuch\n3. Das dritte Kapitel\nDie vorteilhaften Folgen der Liebe",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 32,
+          "de": 31,
+          "en": 31
         }
       },
       {
@@ -523,38 +562,6 @@
           "pli": 21,
           "de": 20,
           "en": 20
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/kn/iti/vagga3/iti22_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/kn/iti/vagga3/iti22_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/kn/iti/vagga3/iti22_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "iti22",
-        "lang": "de",
-        "segMap": {
-          "iti22:5.4": {
-            "scid": "iti22:5.4",
-            "pli": "mettacittañca bhāvaye. ",
-            "de": "ein <span class=\"ebt-matched\">liebevolles Herz</span> entwickeln: ",
-            "en": "developing a mind of love: ",
-            "matched": true
-          }
-        },
-        "score": 1.031,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "So wurde es gesagt 22\nDas Einerbuch\n3. Das dritte Kapitel\nDie vorteilhaften Folgen der Liebe",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 32,
-          "de": 31,
-          "en": 31
         }
       },
       {

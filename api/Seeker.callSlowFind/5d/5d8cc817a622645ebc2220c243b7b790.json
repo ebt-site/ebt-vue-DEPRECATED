@@ -41,8 +41,11 @@
     "pattern": "von kopf bis fuß in ein weißes tuch",
     "method": "phrase",
     "resultPattern": "\\bvon kopf bis fuß in ein weißes tuch",
-    "segsMatched": 4,
+    "segsMatched": 5,
     "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn39_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn39_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn39_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn119_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn119_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn119_translation-en-sujato.json",
@@ -57,6 +60,7 @@
       "translation/en/sujato/sutta/an/an5/an5.28_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "mn39/de/sabbamitta",
       "mn119/de/sabbamitta",
       "dn2/de/sabbamitta",
       "dn10/de/sabbamitta",
@@ -93,6 +97,38 @@
           "pli": 85,
           "de": 84,
           "en": 84
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn39_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn39_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn39_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn39",
+        "lang": "de",
+        "segMap": {
+          "mn39:18.3": {
+            "scid": "mn39:18.3",
+            "pli": "Seyyathāpi, bhikkhave, puriso odātena vatthena sasīsaṁ pārupetvā nisinno assa, nāssa kiñci sabbāvato kāyassa odātena vatthena apphuṭaṁ assa. ",
+            "de": "Wie wenn jemand dasitzt, der <span class=\"ebt-matched\">von Kopf bis Fuß in ein weißes Tuch</span> gehüllt ist. Es gibt keinen Teil des Körpers, der nicht von dem weißen Tuch bedeckt wäre. ",
+            "en": "It’s like someone sitting wrapped from head to foot with white cloth. There’s no part of the body that’s not spread over with white cloth. ",
+            "matched": true
+          }
+        },
+        "score": 1.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 39\nDie längere Lehrrede bei Assapura",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 191,
+          "de": 160,
+          "en": 190
         }
       },
       {

@@ -41,8 +41,11 @@
     "pattern": "kräuter, hirse",
     "method": "phrase",
     "resultPattern": "\\bkräuter, hirse",
-    "segsMatched": 5,
+    "segsMatched": 6,
     "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn51_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn51_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn51_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn8_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn8_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn8_translation-en-sujato.json",
@@ -60,6 +63,7 @@
       "translation/en/sujato/sutta/an/an3/an3.156-162_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "mn51/de/sabbamitta",
       "dn8/de/sabbamitta",
       "dn25/de/sabbamitta",
       "an4.198/de/sabbamitta",
@@ -161,6 +165,38 @@
           "pli": 111,
           "de": 110,
           "en": 110
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn51_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn51_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn51_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn51",
+        "lang": "de",
+        "segMap": {
+          "mn51:8.6": {
+            "scid": "mn51:8.6",
+            "pli": "So sākabhakkho vā hoti, sāmākabhakkho vā hoti, nīvārabhakkho vā hoti, daddulabhakkho vā hoti, haṭabhakkho vā hoti, kaṇabhakkho vā hoti, ācāmabhakkho vā hoti, piññākabhakkho vā hoti, tiṇabhakkho vā hoti, gomayabhakkho vā hoti; vanamūlaphalāhāro yāpeti pavattaphalabhojī. ",
+            "de": "Er isst <span class=\"ebt-matched\">Kräuter, Hirse</span>, wilden Reis, mageren Reis, Wasserlattich, Reiskleie, Schaum von gekochtem Reis, Sesammehl, Gras oder Kuhmist. Er überlebt mit Wurzeln und Waldbeeren oder isst herabgefallene Früchte. ",
+            "en": "They eat herbs, millet, wild rice, poor rice, water lettuce, rice bran, scum from boiling rice, sesame flour, grass, or cow dung. They survive on forest roots and fruits, or eating fallen fruit. ",
+            "matched": true
+          }
+        },
+        "score": 1.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 51\nMit Kandaraka",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 190,
+          "de": 184,
+          "en": 189
         }
       },
       {

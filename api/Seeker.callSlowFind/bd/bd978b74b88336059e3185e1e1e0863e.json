@@ -41,8 +41,14 @@
     "pattern": "nackt, wahrt den anstand nicht",
     "method": "phrase",
     "resultPattern": "\\bnackt, wahrt den anstand nicht",
-    "segsMatched": 4,
+    "segsMatched": 6,
     "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn60_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn60_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn60_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn51_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn51_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn51_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn8_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn8_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn8_translation-en-sujato.json",
@@ -57,6 +63,8 @@
       "translation/en/sujato/sutta/an/an3/an3.156-162_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "mn60/de/sabbamitta",
+      "mn51/de/sabbamitta",
       "dn8/de/sabbamitta",
       "dn25/de/sabbamitta",
       "an4.198/de/sabbamitta",
@@ -129,6 +137,38 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn51_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn51_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn51_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn51",
+        "lang": "de",
+        "segMap": {
+          "mn51:8.1": {
+            "scid": "mn51:8.1",
+            "pli": "“Katamo ca, bhikkhave, puggalo attantapo attaparitāpanānuyogamanuyutto? Idha, bhikkhave, ekacco puggalo acelako hoti muttācāro hatthāpalekhano naehibhaddantiko natiṭṭhabhaddantiko; nābhihaṭaṁ na uddissakataṁ na nimantanaṁ sādiyati; ",
+            "de": "„Und was ist das für ein Mensch, der sich selbst kasteit, sich der Übung der Selbstkasteiung verschreibt? Da geht jemand <span class=\"ebt-matched\">nackt, wahrt den Anstand nicht</span>. Er leckt die Hände ab und kommt oder wartet nicht, wenn er gerufen wird. Er nimmt keine Speise an, die ihm gebracht wird oder eigens für ihn zubereitet wurde, auch keine Einladung zum Essen. ",
+            "en": "“And what person mortifies themselves, committed to the practice of mortifying themselves? It’s when someone goes naked, ignoring conventions. They lick their hands, and don’t come or wait when called. They don’t consent to food brought to them, or food prepared for them, or an invitation for a meal. ",
+            "matched": true
+          }
+        },
+        "score": 1.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 51\nMit Kandaraka",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 190,
+          "de": 184,
+          "en": 189
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/dn/dn8_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/dn/dn8_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/dn/dn8_translation-en-sujato.json"
@@ -189,6 +229,38 @@
           "pli": 383,
           "de": 351,
           "en": 382
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn60_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn60_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn60_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn60",
+        "lang": "de",
+        "segMap": {
+          "mn60:36.2": {
+            "scid": "mn60:36.2",
+            "pli": "Idha, gahapatayo, ekacco puggalo acelako hoti muttācāro hatthāpalekhano …pe… ",
+            "de": "Da geht jemand <span class=\"ebt-matched\">nackt, wahrt den Anstand nicht</span> … ",
+            "en": "It’s when someone goes naked, ignoring conventions. … ",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 60\nUnfehlbar",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 294,
+          "de": 274,
+          "en": 292
         }
       }
     ],

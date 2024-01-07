@@ -41,11 +41,14 @@
     "pattern": "ins leiden verstrickt",
     "method": "phrase",
     "resultPattern": "\\bins leiden verstrickt",
-    "segsMatched": 7,
+    "segsMatched": 9,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an3/an3.40_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.40_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.40_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn29_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn29_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn29_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn22/sn22.80_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.80_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.80_translation-en-sujato.json",
@@ -61,6 +64,7 @@
     ],
     "suttaRefs": [
       "an3.40/de/sabbamitta",
+      "mn29/de/sabbamitta",
       "sn22.80/de/sabbamitta",
       "sn10.7/de/sabbamitta",
       "iti91/de/sabbamitta",
@@ -111,6 +115,45 @@
           "pli": 75,
           "de": 73,
           "en": 73
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn29_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn29_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn29_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn29",
+        "lang": "de",
+        "segMap": {
+          "mn29:2.2": {
+            "scid": "mn29:2.2",
+            "pli": "‘otiṇṇomhi jātiyā jarāya maraṇena sokehi paridevehi dukkhehi domanassehi upāyāsehi, dukkhotiṇṇo dukkhapareto, ",
+            "de": "‚Ich bin in Wiedergeburt, Alter und Tod versunken, in Kummer, Klage, Schmerz, Traurigkeit und Bedrängnis. Ich bin im Leiden versunken, <span class=\"ebt-matched\">ins Leiden verstrickt</span>. ",
+            "en": "‘I’m swamped by rebirth, old age, and death; by sorrow, lamentation, pain, sadness, and distress. I’m swamped by suffering, mired in suffering. ",
+            "matched": true
+          },
+          "mn29:6.2": {
+            "scid": "mn29:6.2",
+            "pli": "‘otiṇṇomhi jātiyā jarāya maraṇena sokehi paridevehi dukkhehi domanassehi upāyāsehi, dukkhotiṇṇo dukkhapareto, ",
+            "de": "‚Ich bin in Wiedergeburt, Alter und Tod versunken, in Kummer, Klage, Schmerz, Traurigkeit und Bedrängnis. Ich bin im Leiden versunken, <span class=\"ebt-matched\">ins Leiden verstrickt</span>. ",
+            "en": "‘I’m swamped by rebirth, old age, and death; by sorrow, lamentation, pain, sadness, and distress. I’m swamped by suffering, mired in suffering. ",
+            "matched": true
+          }
+        },
+        "score": 2.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 29\nDas längere Gleichnis vom Kernholz",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 181,
+          "de": 116,
+          "en": 180
         }
       },
       {
