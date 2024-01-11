@@ -41,7 +41,7 @@
     "pattern": "ach!",
     "method": "phrase",
     "resultPattern": "\\bach!",
-    "segsMatched": 21,
+    "segsMatched": 22,
     "bilaraPaths": [
       "root/pli/ms/sutta/kn/ud/vagga2/ud2.8_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga2/ud2.8_translation-de-sabbamitta.json",
@@ -58,6 +58,9 @@
       "root/pli/ms/sutta/sn/sn15/sn15.20_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn15/sn15.20_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn15/sn15.20_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn82_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn82_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn82_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn26_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn26_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn26_translation-en-sujato.json",
@@ -92,6 +95,7 @@
       "sn6.1/de/sabbamitta",
       "sn6.15/de/sabbamitta",
       "sn15.20/de/sabbamitta",
+      "mn82/de/sabbamitta",
       "mn26/de/sabbamitta",
       "thag3.3/de/sabbamitta",
       "thag3.15/de/sabbamitta",
@@ -534,6 +538,38 @@
           "pli": 515,
           "de": 478,
           "en": 514
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn82_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn82_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn82_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn82",
+        "lang": "de",
+        "segMap": {
+          "mn82:42.16": {
+            "scid": "mn82:42.16",
+            "pli": "Ahovatā no amarāti cāhu; ",
+            "de": "‚Oh! <span class=\"ebt-matched\">Ach!</span> Er ist nicht unsterblich!‘ ",
+            "en": "saying ‘Ah! Alas! They’re not immortal!’ ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 82\nMit Raṭṭhapāla",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 434,
+          "de": 392,
+          "en": 433
         }
       },
       {

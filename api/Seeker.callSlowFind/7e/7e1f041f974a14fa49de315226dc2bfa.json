@@ -41,20 +41,60 @@
     "pattern": "wie bewacht ein mönch",
     "method": "phrase",
     "resultPattern": "\\bwie bewacht ein mönch",
-    "segsMatched": 2,
+    "segsMatched": 4,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn35/sn35.239_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn35/sn35.239_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.239_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json"
+      "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.37_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.37_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.37_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.16_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an3/an3.16_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an3/an3.16_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "sn35.239/de/sabbamitta",
-      "dn2/de/sabbamitta"
+      "dn2/de/sabbamitta",
+      "an4.37/de/sabbamitta",
+      "an3.16/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an3/an3.16_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an3/an3.16_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an3/an3.16_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an3.16",
+        "lang": "de",
+        "segMap": {
+          "an3.16:2.1": {
+            "scid": "an3.16:2.1",
+            "pli": "Kathañca, bhikkhave, bhikkhu indriyesu guttadvāro hoti? ",
+            "de": "Und <span class=\"ebt-matched\">wie bewacht ein Mönch</span> die Tore der Sinne? ",
+            "en": "And how does a mendicant guard the sense doors? ",
+            "matched": true
+          }
+        },
+        "score": 1.04,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 3.16\n2. Das Kapitel über den Wagenbauer\nUnfehlbar",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 25,
+          "de": 24,
+          "en": 24
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn35/sn35.239_root-pli-ms.json",
@@ -85,6 +125,38 @@
           "pli": 33,
           "de": 31,
           "en": 32
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.37_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.37_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.37_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.37",
+        "lang": "de",
+        "segMap": {
+          "an4.37:3.1": {
+            "scid": "an4.37:3.1",
+            "pli": "Kathañca, bhikkhave, bhikkhu indriyesu guttadvāro hoti? ",
+            "de": "Und <span class=\"ebt-matched\">wie bewacht ein Mönch</span> die Tore der Sinne? ",
+            "en": "And how does a mendicant guard the sense doors? ",
+            "matched": true
+          }
+        },
+        "score": 1.023,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 4.37\n4. Das Kapitel über Umstände\nKein Niedergang",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 43,
+          "de": 42,
+          "en": 42
         }
       },
       {

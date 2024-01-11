@@ -41,18 +41,22 @@
     "pattern": "unterrichtet angeleitet",
     "method": "keywords",
     "resultPattern": "\\bunterrichtet|\\bangeleitet",
-    "segsMatched": 13,
+    "segsMatched": 14,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an10/an10.18_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.18_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an10/an10.18_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.111_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.111_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an4/an4.111_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an4/an4.111_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an10.18/de/sabbamitta",
-      "an4.111/de/sabbamitta"
+      "an4.111/de/sabbamitta",
+      "dn16/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -194,6 +198,38 @@
           "pli": 35,
           "de": 34,
           "en": 34
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn16",
+        "lang": "de",
+        "segMap": {
+          "dn16:6.4.4": {
+            "scid": "dn16:6.4.4",
+            "pli": "So bhikkhūhi neva vattabbo, na ovaditabbo, na anusāsitabbo”ti. ",
+            "de": "aber er soll von den Mönchen und Nonnen nicht <span class=\"ebt-matched\">unterrichtet</span>, unterwiesen oder <span class=\"ebt-matched\">angeleitet</span> werden.“ ",
+            "en": "but the mendicants should not correct, advise, or instruct him.” ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 16\nDie große Lehrrede vom Erlöschen des Buddha",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 1664,
+          "de": 1579,
+          "en": 1568
         }
       }
     ],

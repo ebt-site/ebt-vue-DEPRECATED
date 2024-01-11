@@ -41,7 +41,7 @@
     "pattern": "puppe",
     "method": "phrase",
     "resultPattern": "\\bpuppe",
-    "segsMatched": 11,
+    "segsMatched": 12,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn5/sn5.9_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn5/sn5.9_translation-de-sabbamitta.json",
@@ -56,6 +56,9 @@
       "root/pli/ms/sutta/sn/sn48/sn48.41_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn48/sn48.41_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn48/sn48.41_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn82_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn82_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn82_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag20.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag20.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag20.1_translation-en-sujato.json",
@@ -72,6 +75,7 @@
       "thig14.1/de/sabbamitta",
       "thag17.3/de/sabbamitta",
       "sn48.41/de/sabbamitta",
+      "mn82/de/sabbamitta",
       "thag20.1/de/sabbamitta",
       "thag16.4/de/sabbamitta",
       "dhp146-156/de/sabbamitta"
@@ -329,6 +333,38 @@
           "pli": 299,
           "de": 294,
           "en": 294
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn82_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn82_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn82_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn82",
+        "lang": "de",
+        "segMap": {
+          "mn82:25.1": {
+            "scid": "mn82:25.1",
+            "pli": "“Passa cittīkataṁ bimbaṁ, ",
+            "de": "„Sieh die herausgeputzte <span class=\"ebt-matched\">Puppe</span>, ",
+            "en": "“See this fancy <span class=\"ebt-matched\">puppe</span>t, ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 82\nMit Raṭṭhapāla",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 434,
+          "de": 392,
+          "en": 433
         }
       }
     ],

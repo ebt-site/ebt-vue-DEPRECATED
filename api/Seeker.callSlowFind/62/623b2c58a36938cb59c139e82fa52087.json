@@ -41,7 +41,7 @@
     "pattern": "mitgenommen, leidend, schwer krank",
     "method": "phrase",
     "resultPattern": "\\bmitgenommen, leidend, schwer krank",
-    "segsMatched": 48,
+    "segsMatched": 50,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn55/sn55.54_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn55/sn55.54_translation-de-sabbamitta.json",
@@ -70,6 +70,9 @@
       "root/pli/ms/sutta/sn/sn22/sn22.88_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.88_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.88_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn82_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn82_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn82_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an6/an6.56_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.56_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an6/an6.56_translation-en-sujato.json",
@@ -153,6 +156,7 @@
       "sn55.26/de/sabbamitta",
       "sn47.29/de/sabbamitta",
       "sn22.88/de/sabbamitta",
+      "mn82/de/sabbamitta",
       "an6.56/de/sabbamitta",
       "an10.60/de/sabbamitta",
       "sn6.9/de/sabbamitta",
@@ -634,6 +638,45 @@
           "pli": 88,
           "de": 67,
           "en": 87
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn82_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn82_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn82_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn82",
+        "lang": "de",
+        "segMap": {
+          "mn82:31.2": {
+            "scid": "mn82:31.2",
+            "pli": "Idha, bho raṭṭhapāla, ekacco ābādhiko hoti dukkhito bāḷhagilāno. ",
+            "de": "Da ist jemand <span class=\"ebt-matched\">mitgenommen, leidend, schwer krank</span>. ",
+            "en": "It’s when someone is sick, suffering, gravely ill. ",
+            "matched": true
+          },
+          "mn82:31.4": {
+            "scid": "mn82:31.4",
+            "pli": "‘ahaṁ khomhi etarahi ābādhiko dukkhito bāḷhagilāno. ",
+            "de": "‚Ich bin jetzt <span class=\"ebt-matched\">mitgenommen, leidend, schwer krank</span>. ",
+            "en": "‘I’m now sick, suffering, gravely ill. ",
+            "matched": true
+          }
+        },
+        "score": 2.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 82\nMit Raṭṭhapāla",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 434,
+          "de": 392,
+          "en": 433
         }
       },
       {
