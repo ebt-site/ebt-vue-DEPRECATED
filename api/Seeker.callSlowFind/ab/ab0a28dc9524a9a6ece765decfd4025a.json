@@ -41,18 +41,22 @@
     "pattern": "sonnenschirm-orchideenbaum",
     "method": "phrase",
     "resultPattern": "\\bsonnenschirm-orchideenbaum",
-    "segsMatched": 19,
+    "segsMatched": 20,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an7/an7.69_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an7/an7.69_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an7/an7.69_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn48/sn48.68_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn48/sn48.68_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn48/sn48.68_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn48/sn48.68_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn134_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn134_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn134_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an7.69/de/sabbamitta",
-      "sn48.68/de/sabbamitta"
+      "sn48.68/de/sabbamitta",
+      "mn134/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -236,6 +240,38 @@
           "pli": 14,
           "de": 13,
           "en": 13
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn134_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn134_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn134_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn134",
+        "lang": "de",
+        "segMap": {
+          "mn134:2.11": {
+            "scid": "mn134:2.11",
+            "pli": "“Ekamidaṁ, bhikkhu, samayaṁ bhagavā devesu tāvatiṁsesu viharati pāricchattakamūle paṇḍukambalasilāyaṁ. ",
+            "de": "„Dieses eine Mal hielt sich der Buddha unter den Göttern der Dreiunddreißig am Fuß des <span class=\"ebt-matched\">Sonnenschirm-Orchideenbaum</span>s auf, auf dem Stein, der mit einem hellen Tuch gepolstert ist. ",
+            "en": "“This one time, the Buddha was staying among the gods of the Thirty-Three at the root of the Shady Orchid Tree on the stone spread with a cream rug. ",
+            "matched": true
+          }
+        },
+        "score": 1.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 134\nLomasakaṅgiya und eine erlesene Nacht",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 122,
+          "de": 82,
+          "en": 69
         }
       }
     ],

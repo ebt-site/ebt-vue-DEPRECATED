@@ -41,7 +41,7 @@
     "pattern": "herr de[rs]",
     "method": "phrase",
     "resultPattern": "\\bherr de[rs]",
-    "segsMatched": 23,
+    "segsMatched": 25,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn20_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn20_translation-de-sabbamitta.json",
@@ -55,6 +55,9 @@
       "root/pli/ms/sutta/sn/sn35/sn35.116_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn35/sn35.116_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.116_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn133_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn133_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn133_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.172_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.172_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an10/an10.172_translation-en-sujato.json",
@@ -91,6 +94,7 @@
       "dn21/de/sabbamitta",
       "sn35.245/de/sabbamitta",
       "sn35.116/de/sabbamitta",
+      "mn133/de/sabbamitta",
       "an10.172/de/sabbamitta",
       "an10.115/de/sabbamitta",
       "sn3.1/de/sabbamitta",
@@ -356,6 +360,45 @@
           "pli": 122,
           "de": 94,
           "en": 121
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn133_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn133_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn133_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn133",
+        "lang": "de",
+        "segMap": {
+          "mn133:9.3": {
+            "scid": "mn133:9.3",
+            "pli": "So hāvuso, bhagavā jānaṁ jānāti, passaṁ passati, cakkhubhūto ñāṇabhūto dhammabhūto brahmabhūto vattā pavattā atthassa ninnetā amatassa dātā dhammassāmī tathāgato. ",
+            "de": "Denn er ist der Buddha, der erkennt und sieht. Er ist das Sehen, er ist das Erkennen, er ist die Manifestation des Grundsatzes, er ist die Manifestation der Göttlichkeit. Er ist der Lehrer, der Verkünder, der Erheller der Bedeutung, der Gewährer der Unsterblichkeit, der <span class=\"ebt-matched\">Herr der</span> Wahrheit, der Klargewordene. ",
+            "en": "For he is the Buddha, the one who knows and sees. He is vision, he is knowledge, he is the manifestation of principle, he is the manifestation of divinity. He is the teacher, the proclaimer, the elucidator of meaning, the bestower of freedom from death, the lord of truth, the Realized One. ",
+            "matched": true
+          },
+          "mn133:10.1": {
+            "scid": "mn133:10.1",
+            "pli": "“Addhāvuso kaccāna, bhagavā jānaṁ jānāti, passaṁ passati, cakkhubhūto ñāṇabhūto dhammabhūto brahmabhūto vattā pavattā atthassa ninnetā amatassa dātā dhammassāmī tathāgato. ",
+            "de": "„Sicherlich ist er der Buddha, der erkennt und sieht. Sicherlich ist er das Sehen, ist er die Manifestation des Grundsatzes, ist er die Manifestation der Göttlichkeit. Sicherlich ist er der Lehrer, der Verkünder, der Erheller der Bedeutung, der Gewährer der Unsterblichkeit, der <span class=\"ebt-matched\">Herr der</span> Wahrheit, der Klargewordene. ",
+            "en": "“Certainly he is the Buddha, the one who knows and sees. He is vision, he is knowledge, he is the manifestation of principle, he is the manifestation of divinity. He is the teacher, the proclaimer, the elucidator of meaning, the bestower of freedom from death, the lord of truth, the Realized One. ",
+            "matched": true
+          }
+        },
+        "score": 2.009,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 133\nMahākaccāna und eine erlesene Nacht",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 232,
+          "de": 146,
+          "en": 231
         }
       },
       {

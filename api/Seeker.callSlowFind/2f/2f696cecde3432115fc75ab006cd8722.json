@@ -41,14 +41,18 @@
     "pattern": "schüler.* wollen nicht zuhören",
     "method": "phrase",
     "resultPattern": "\\bschüler.* wollen nicht zuhören",
-    "segsMatched": 2,
+    "segsMatched": 3,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn12_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn12_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn12_translation-en-sujato.json"
+      "translation/en/sujato/sutta/dn/dn12_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn122_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn122_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn122_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "dn12/de/sabbamitta"
+      "dn12/de/sabbamitta",
+      "mn122/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -88,6 +92,38 @@
           "pli": 189,
           "de": 145,
           "en": 188
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn122_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn122_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn122_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn122",
+        "lang": "de",
+        "segMap": {
+          "mn122:25.6": {
+            "scid": "mn122:25.6",
+            "pli": "Tassa sāvakā na sussūsanti, na sotaṁ odahanti, na aññā cittaṁ upaṭṭhapenti, vokkamma ca satthusāsanā vattanti. ",
+            "de": "Aber seine <span class=\"ebt-matched\">Schüler wollen nicht zuhören</span>. Sie spitzen nicht die Ohren und versuchen nicht, zu verstehen. Sie wenden sich von der Anleitung des Lehrers ab und gehen weiter. ",
+            "en": "But their disciples don’t want to listen. They don’t actively listen or try to understand. They proceed having turned away from the Teacher’s instruction. ",
+            "matched": true
+          }
+        },
+        "score": 1.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 122\nDie längere Lehrrede über die Leerheit",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 172,
+          "de": 170,
+          "en": 171
         }
       }
     ],

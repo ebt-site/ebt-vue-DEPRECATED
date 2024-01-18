@@ -41,7 +41,7 @@
     "pattern": "mit ganzem herzen",
     "method": "phrase",
     "resultPattern": "\\bmit ganzem herzen",
-    "segsMatched": 24,
+    "segsMatched": 25,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn8/sn8.8_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn8/sn8.8_translation-de-sabbamitta.json",
@@ -76,6 +76,9 @@
       "root/pli/ms/sutta/sn/sn10/sn10.7_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn10/sn10.7_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn10/sn10.7_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn134_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn134_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn134_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/ud/vagga8/ud8.4_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga8/ud8.4_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/ud/vagga8/ud8.4_translation-en-sujato.json",
@@ -104,6 +107,7 @@
       "sn4.19/de/sabbamitta",
       "sn16.11/de/sabbamitta",
       "sn10.7/de/sabbamitta",
+      "mn134/de/sabbamitta",
       "ud8.4/de/sabbamitta",
       "ud8.3/de/sabbamitta",
       "ud8.2/de/sabbamitta",
@@ -677,6 +681,38 @@
           "pli": 79,
           "de": 75,
           "en": 78
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn134_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn134_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn134_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn134",
+        "lang": "de",
+        "segMap": {
+          "mn134:6.4": {
+            "scid": "mn134:6.4",
+            "pli": "Candano, bhikkhu, devaputto aṭṭhiṁ katvā manasikatvā sabbacetasā samannāharitvā ohitasoto dhammaṁ suṇāti. ",
+            "de": "Candana gibt acht, gebraucht den Geist, ist <span class=\"ebt-matched\">mit ganzem Herzen</span> dabei und spitzt die Ohren für die Lehre. ",
+            "en": "Candana pays attention, applies the mind, concentrates wholeheartedly, and actively listens to the teaching. ",
+            "matched": true
+          }
+        },
+        "score": 1.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 134\nLomasakaṅgiya und eine erlesene Nacht",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 122,
+          "de": 82,
+          "en": 69
         }
       }
     ],

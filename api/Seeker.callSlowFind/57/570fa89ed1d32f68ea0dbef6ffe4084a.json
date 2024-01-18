@@ -41,7 +41,7 @@
     "pattern": "die ausführliche bedeutung",
     "method": "phrase",
     "resultPattern": "\\bdie ausführliche bedeutung",
-    "segsMatched": 91,
+    "segsMatched": 93,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn1/sn1.20_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn1/sn1.20_translation-de-sabbamitta.json",
@@ -109,6 +109,9 @@
       "root/pli/ms/sutta/sn/sn22/sn22.3_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.3_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn133_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn133_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn133_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn21_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn21_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn21_translation-en-sujato.json",
@@ -157,6 +160,7 @@
       "sn35.116/de/sabbamitta",
       "sn22.4/de/sabbamitta",
       "sn22.3/de/sabbamitta",
+      "mn133/de/sabbamitta",
       "dn21/de/sabbamitta",
       "an7.63/de/sabbamitta",
       "an10.28/de/sabbamitta",
@@ -1417,6 +1421,45 @@
           "pli": 86,
           "de": 58,
           "en": 85
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn133_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn133_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn133_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn133",
+        "lang": "de",
+        "segMap": {
+          "mn133:12.6": {
+            "scid": "mn133:12.6",
+            "pli": "Imassa kho ahaṁ, āvuso, bhagavatā saṅkhittena uddesassa uddiṭṭhassa vitthārena atthaṁ avibhattassa evaṁ vitthārena atthaṁ ājānāmi—",
+            "de": "Ich verstehe <span class=\"ebt-matched\">die ausführliche Bedeutung</span> dieses kurzen Merksatzes zum Aufsagen, der vom Buddha vorgestellt wurde, so: ",
+            "en": "And this is how I understand the detailed meaning of this passage for recitation. ",
+            "matched": true
+          },
+          "mn133:19.1": {
+            "scid": "mn133:19.1",
+            "pli": "Yaṁ kho no, āvuso, bhagavā saṅkhittena uddesaṁ uddisitvā vitthārena atthaṁ avibhajitvā uṭṭhāyāsanā vihāraṁ paviṭṭho: ",
+            "de": "So verstehe ich <span class=\"ebt-matched\">die ausführliche Bedeutung</span> dieses kurzen Merksatzes zum Aufsagen, der vom Buddha vorgestellt wurde. ",
+            "en": "This is how I understand the detailed meaning of that brief passage for recitation given by the Buddha. ",
+            "matched": true
+          }
+        },
+        "score": 2.009,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 133\nMahākaccāna und eine erlesene Nacht",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 232,
+          "de": 146,
+          "en": 231
         }
       },
       {
