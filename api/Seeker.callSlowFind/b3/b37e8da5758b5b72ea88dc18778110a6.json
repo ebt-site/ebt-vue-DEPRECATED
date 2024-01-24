@@ -1,0 +1,152 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sujato",
+      "docLang": "en",
+      "docAuthor": "sujato",
+      "includeUnpublished": false,
+      "lang": "en",
+      "langAuthor": "sujato",
+      "languages": [
+        "pli",
+        "en",
+        "ref"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "dark bound for light",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "en",
+      "searchAuthor": "sujato",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sujato",
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "dark bound for light",
+    "method": "phrase",
+    "resultPattern": "\\bdark bound for light",
+    "segsMatched": 3,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn3/sn3.21_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn3/sn3.21_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.85_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an4/an4.85_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn3.21/en/sujato",
+      "dn33/en/sujato",
+      "an4.85/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.85_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an4/an4.85_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.85",
+        "lang": "en",
+        "segMap": {
+          "an4.85:1.4": {
+            "scid": "an4.85:1.4",
+            "pli": "tamo jotiparāyaṇo, ",
+            "en": "the <span class=\"ebt-matched\">dark bound for light</span>, ",
+            "matched": true
+          }
+        },
+        "score": 1.029,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 4.85\n9. Confirmed\nFrom Darkness to Darkness",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 35,
+          "en": 34
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn3/sn3.21_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn3/sn3.21_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn3.21",
+        "lang": "en",
+        "segMap": {
+          "sn3.21:1.6": {
+            "scid": "sn3.21:1.6",
+            "pli": "tamojotiparāyano, ",
+            "en": "the <span class=\"ebt-matched\">dark bound for light</span>, ",
+            "matched": true
+          }
+        },
+        "score": 1.01,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 3.21\n3. Kosala\nPersons",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 101,
+          "en": 101
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+          "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn33",
+        "lang": "en",
+        "segMap": {
+          "dn33:1.11.216": {
+            "scid": "dn33:1.11.216",
+            "pli": "tamo tamaparāyano, tamo jotiparāyano, joti tamaparāyano, joti jotiparāyano. ",
+            "en": "the dark bound for darkness, the <span class=\"ebt-matched\">dark bound for light</span>, the light bound for darkness, and the light bound for light. ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Long Discourses 33\nReciting in Concert",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 1167,
+          "en": 1166
+        }
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "en",
+    "docAuthor": "sujato"
+  }
+}

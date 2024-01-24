@@ -1,0 +1,128 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sabbamitta",
+      "docLang": "de",
+      "docAuthor": "sabbamitta",
+      "includeUnpublished": false,
+      "lang": "de",
+      "langAuthor": "sabbamitta",
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "den buddha nie persönlich getroffen",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "de",
+      "searchAuthor": "sabbamitta",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sabbamitta",
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "den buddha nie persönlich getroffen",
+    "method": "phrase",
+    "resultPattern": "\\bden buddha nie persönlich getroffen",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/kn/ud/vagga5/ud5.6_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/ud/vagga5/ud5.6_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/ud/vagga5/ud5.6_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn21_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn21_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn21_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "ud5.6/de/sabbamitta",
+      "dn21/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga5/ud5.6_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/ud/vagga5/ud5.6_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/ud/vagga5/ud5.6_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud5.6",
+        "lang": "de",
+        "segMap": {
+          "ud5.6:10.2": {
+            "scid": "ud5.6:10.2",
+            "pli": "“na kho me so bhagavā sammukhā diṭṭho, api ca sutoyeva me: ",
+            "de": "„Ich habe <span class=\"ebt-matched\">den Buddha nie persönlich getroffen</span>. Ich habe nur gehört, ",
+            "en": "“I have not personally seen the Buddha. I have only heard reports that ",
+            "matched": true
+          }
+        },
+        "score": 1.012,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Innige Sprüche 5.6\nMit Soṇa",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 82,
+          "de": 63,
+          "en": 63
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn21_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn21_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn21_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn21",
+        "lang": "de",
+        "segMap": {
+          "dn21:1.7.11": {
+            "scid": "dn21:1.7.11",
+            "pli": "‘na kho me, mārisa, so bhagavā sammukhā diṭṭho, api ca sutoyeva me so bhagavā devānaṁ tāvatiṁsānaṁ sudhammāyaṁ sabhāyaṁ upanaccantiyā. ",
+            "de": "‚Lieber Herr, ich habe <span class=\"ebt-matched\">den Buddha nie persönlich getroffen</span>. Aber ich habe von ihm gehört, als ich in der Halle der Gerechtigkeit für die Götter der Dreiunddreißig getanzt habe. ",
+            "en": "‘Dear sir, I have not personally seen the Buddha. But I did hear about him when I went to dance for the gods of the Thirty-Three in the Hall of Justice. ",
+            "matched": true
+          }
+        },
+        "score": 1.002,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 21\nSakkas Fragen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 515,
+          "de": 478,
+          "en": 514
+        }
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "de",
+    "docAuthor": "sabbamitta"
+  }
+}

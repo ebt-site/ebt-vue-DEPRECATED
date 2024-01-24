@@ -1,0 +1,135 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sabbamitta",
+      "docLang": "de",
+      "docAuthor": "sabbamitta",
+      "includeUnpublished": false,
+      "lang": "de",
+      "langAuthor": "sabbamitta",
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "aufgrund bloßen vertrauens",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "de",
+      "searchAuthor": "sabbamitta",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sabbamitta",
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "aufgrund bloßen vertrauens",
+    "method": "phrase",
+    "resultPattern": "\\baufgrund bloßen vertrauens",
+    "segsMatched": 3,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn26_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn26_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn26_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an6/an6.55_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an6/an6.55_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an6/an6.55_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "mn26/de/sabbamitta",
+      "an6.55/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn26_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn26_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn26_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn26",
+        "lang": "de",
+        "segMap": {
+          "mn26:15.9": {
+            "scid": "mn26:15.9",
+            "pli": "‘na kho āḷāro kālāmo imaṁ dhammaṁ kevalaṁ saddhāmattakena sayaṁ abhiññā sacchikatvā upasampajja viharāmīti pavedeti; ",
+            "de": "‚Es ist nicht nur <span class=\"ebt-matched\">aufgrund bloßen Vertrauens</span>, dass Āḷāra Kālāma erklärt: „Ich erkenne diese Lehre durch eigene Einsicht und lebe mit dieser Errungenschaft.“ ",
+            "en": "‘It is not solely by mere faith that Āḷāra Kālāma declares: “I realize this teaching with my own insight, and live having achieved it.” ",
+            "matched": true
+          },
+          "mn26:16.9": {
+            "scid": "mn26:16.9",
+            "pli": "‘na kho rāmo imaṁ dhammaṁ kevalaṁ saddhāmattakena sayaṁ abhiññā sacchikatvā upasampajja viharāmīti pavedesi; ",
+            "de": "‚Es ist nicht nur <span class=\"ebt-matched\">aufgrund bloßen Vertrauens</span>, dass Rāma erklärte: „Ich erkenne diese Lehre durch eigene Einsicht und lebe mit dieser Errungenschaft.“ ",
+            "en": "‘It is not solely by mere faith that Rāma declared: “I realize this teaching with my own insight, and live having achieved it.” ",
+            "matched": true
+          }
+        },
+        "score": 2.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 26\nDie edle Suche",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 365,
+          "de": 363,
+          "en": 364
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an6/an6.55_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an6/an6.55_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an6/an6.55_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an6.55",
+        "lang": "de",
+        "segMap": {
+          "an6.55:11.2": {
+            "scid": "an6.55:11.2",
+            "pli": "‘kevalaṁsaddhāmattakaṁ nūna ayamāyasmā nissāya nekkhammādhimutto’ti. ",
+            "de": "‚Vielleicht weiht sich dieser Ehrwürdige der Entsagung nur <span class=\"ebt-matched\">aufgrund bloßen Vertrauens</span>.‘ ",
+            "en": "‘Maybe this venerable is dedicated to renunciation solely out of mere faith.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.01,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 6.55\n6. Das große Kapitel\nMit Soṇa",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 97,
+          "de": 87,
+          "en": 96
+        }
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "de",
+    "docAuthor": "sabbamitta"
+  }
+}

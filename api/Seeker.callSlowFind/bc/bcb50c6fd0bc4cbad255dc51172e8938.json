@@ -1,0 +1,128 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sabbamitta",
+      "docLang": "de",
+      "docAuthor": "sabbamitta",
+      "includeUnpublished": false,
+      "lang": "de",
+      "langAuthor": "sabbamitta",
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "licht der weisheit",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "de",
+      "searchAuthor": "sabbamitta",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sabbamitta",
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "licht der weisheit",
+    "method": "phrase",
+    "resultPattern": "\\blicht der weisheit",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn1/sn1.13_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn1/sn1.13_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn1/sn1.13_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.143_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.143_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.143_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn1.13/de/sabbamitta",
+      "an4.143/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.143_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.143_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.143_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.143",
+        "lang": "de",
+        "segMap": {
+          "an4.143:1.5": {
+            "scid": "an4.143:1.5",
+            "pli": "Etadaggaṁ, bhikkhave, imesaṁ catunnaṁ ālokānaṁ yadidaṁ paññāloko”ti. ",
+            "de": "Das beste unter den vier ist das <span class=\"ebt-matched\">Licht der Weisheit</span>.“ ",
+            "en": "The best of these four lights is the light of wisdom.” ",
+            "matched": true
+          }
+        },
+        "score": 1.111,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 4.143\n15. Das Kapitel über Helligkeit\nLicht",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 9,
+          "de": 8,
+          "en": 8
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn1/sn1.13_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn1/sn1.13_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn1/sn1.13_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn1.13",
+        "lang": "de",
+        "segMap": {
+          "sn1.13:3.3": {
+            "scid": "sn1.13:3.3",
+            "pli": "Natthi paññāsamā ābhā, ",
+            "de": "kein Licht kommt dem <span class=\"ebt-matched\">Licht der Weisheit</span> gleich, ",
+            "en": "no light like that of wisdom, ",
+            "matched": true
+          }
+        },
+        "score": 1.077,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 1.13\n2. Das Kapitel über den Garten des Entzückens\nNichts kommt einem Kind gleich",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 13,
+          "de": 13,
+          "en": 13
+        }
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "de",
+    "docAuthor": "sabbamitta"
+  }
+}

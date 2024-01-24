@@ -1,0 +1,99 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sabbamitta",
+      "docLang": "de",
+      "docAuthor": "sabbamitta",
+      "includeUnpublished": false,
+      "lang": "de",
+      "langAuthor": "sabbamitta",
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "isst wissentlich fleisch",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "de",
+      "searchAuthor": "sabbamitta",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sabbamitta",
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "isst wissentlich fleisch",
+    "method": "phrase",
+    "resultPattern": "\\bisst wissentlich fleisch",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an8/an8.12_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an8/an8.12_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an8/an8.12_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an8.12/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.12_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an8/an8.12_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an8/an8.12_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an8.12",
+        "lang": "de",
+        "segMap": {
+          "an8.12:31.4": {
+            "scid": "an8.12:31.4",
+            "pli": "Taṁ samaṇo gotamo jānaṁ uddissakataṁ maṁsaṁ paribhuñjati paṭiccakamman”ti. ",
+            "de": "Der Asket Gotama <span class=\"ebt-matched\">isst wissentlich Fleisch</span>, das eigens für ihn zubereitet wurde. Das ist eine Tat, die er verursacht hat.“ ",
+            "en": "The ascetic Gotama knowingly eats meat prepared specially for him: this is a deed he caused.” ",
+            "matched": true
+          },
+          "an8.12:32.5": {
+            "scid": "an8.12:32.5",
+            "pli": "Taṁ samaṇo gotamo jānaṁ uddissakataṁ maṁsaṁ paribhuñjati paṭiccakamman’ti. ",
+            "de": "Der Asket Gotama <span class=\"ebt-matched\">isst wissentlich Fleisch</span>, das eigens für ihn zubereitet wurde. Das ist eine Tat, die er verursacht hat.‘“ ",
+            "en": "The ascetic Gotama knowingly eats meat prepared specially for him: this is a deed he caused.’” ",
+            "matched": true
+          }
+        },
+        "score": 2.013,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 8.12\n2. Das große Kapitel\nMit Sīha",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 152,
+          "de": 148,
+          "en": 151
+        }
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "de",
+    "docAuthor": "sabbamitta"
+  }
+}

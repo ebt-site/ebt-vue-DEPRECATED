@@ -1,0 +1,92 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "laera-quaresma",
+      "docLang": "pt",
+      "docAuthor": "laera-quaresma",
+      "includeUnpublished": false,
+      "lang": "pt",
+      "langAuthor": "laera-quaresma",
+      "languages": [
+        "pli",
+        "en",
+        "pt"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "este nobre caminho óctuplo",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "pt",
+      "searchAuthor": "laera-quaresma",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "laera-quaresma",
+    "lang": "pt",
+    "searchLang": "pt",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "este nobre caminho óctuplo",
+    "method": "phrase",
+    "resultPattern": "\\beste nobre caminho óctuplo",
+    "segsMatched": 1,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an3/an3.62_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an3/an3.62_translation-en-sujato.json",
+      "translation/pt/laera-quaresma/sutta/an/an3/an3.62_translation-pt-laera-quaresma.json"
+    ],
+    "suttaRefs": [
+      "an3.62/pt/laera-quaresma"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an3/an3.62_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an3/an3.62_translation-en-sujato.json",
+          "translation/pt/laera-quaresma/sutta/an/an3/an3.62_translation-pt-laera-quaresma.json"
+        ],
+        "author_uid": "laera-quaresma",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an3.62",
+        "lang": "pt",
+        "segMap": {
+          "an3.62:10.3": {
+            "scid": "an3.62:10.3",
+            "pli": "Ayameva ariyo aṭṭhaṅgiko maggo, seyyathidaṁ—",
+            "pt": "É simplesmente <span class=\"ebt-matched\">este nobre caminho óctuplo</span>, ou seja: ",
+            "en": "It is simply this noble eightfold path, that is: ",
+            "matched": true
+          }
+        },
+        "score": 1.018,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Aṅguttara Nikāya 3\n7. O Grande Capítulo\n62. Perigos",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 55,
+          "pt": 54,
+          "en": 54
+        }
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "pt",
+    "docAuthor": "laera-quaresma"
+  }
+}

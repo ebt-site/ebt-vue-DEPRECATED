@@ -1,0 +1,92 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sabbamitta",
+      "docLang": "de",
+      "docAuthor": "sabbamitta",
+      "includeUnpublished": false,
+      "lang": "de",
+      "langAuthor": "sabbamitta",
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "dich bekümmern",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "de",
+      "searchAuthor": "sabbamitta",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sabbamitta",
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "dich bekümmern",
+    "method": "phrase",
+    "resultPattern": "\\bdich bekümmern",
+    "segsMatched": 1,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn42/sn42.11_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn42/sn42.11_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn42/sn42.11_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn42.11/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn42/sn42.11_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn42/sn42.11_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn42/sn42.11_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn42.11",
+        "lang": "de",
+        "segMap": {
+          "sn42.11:2.6": {
+            "scid": "sn42.11:2.6",
+            "pli": "“Ko nu kho, gāmaṇi, hetu, ko paccayo yena te ekaccānaṁ uruvelakappiyānaṁ manussānaṁ vadhena vā bandhena vā jāniyā vā garahāya vā uppajjeyyuṁ sokaparidevadukkhadomanassupāyāsā”ti? ",
+            "de": "„Was ist der Grund, was ist die Ursache, dass es <span class=\"ebt-matched\">dich bekümmern</span> kann, wenn diese Dinge manchen Menschen widerfahren, und wenn sie anderen widerfahren, bekümmert es dich nicht?“ ",
+            "en": "“What’s the cause, chief, what’s the reason why, if this was to happen to some people it could cause you sorrow, while if it happens to others it does not?” ",
+            "matched": true
+          }
+        },
+        "score": 1.018,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 42.11\n1. Das Kapitel mit Ortsvorstehern\nMit Bhadraka",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 55,
+          "de": 54,
+          "en": 54
+        }
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "de",
+    "docAuthor": "sabbamitta"
+  }
+}

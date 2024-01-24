@@ -1,0 +1,113 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sabbamitta",
+      "docLang": "de",
+      "docAuthor": "sabbamitta",
+      "includeUnpublished": false,
+      "lang": "de",
+      "langAuthor": "sabbamitta",
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "gehört immer noch",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "de",
+      "searchAuthor": "sabbamitta",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sabbamitta",
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "gehört immer noch",
+    "method": "phrase",
+    "resultPattern": "\\bgehört immer noch",
+    "segsMatched": 4,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn7/sn7.2_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn7/sn7.2_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn7/sn7.2_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn7.2/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn7/sn7.2_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn7/sn7.2_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn7/sn7.2_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn7.2",
+        "lang": "de",
+        "segMap": {
+          "sn7.2:2.10": {
+            "scid": "sn7.2:2.10",
+            "pli": "Tavevetaṁ, brāhmaṇa, hoti; ",
+            "de": "Es <span class=\"ebt-matched\">gehört immer noch</span> dir, Brahmane, ",
+            "en": "It still belongs to you, brahmin, ",
+            "matched": true
+          },
+          "sn7.2:2.11": {
+            "scid": "sn7.2:2.11",
+            "pli": "tavevetaṁ, brāhmaṇa, hoti. ",
+            "de": "es <span class=\"ebt-matched\">gehört immer noch</span> dir! ",
+            "en": "it still belongs to you! ",
+            "matched": true
+          },
+          "sn7.2:3.3": {
+            "scid": "sn7.2:3.3",
+            "pli": "Tavevetaṁ, brāhmaṇa, hoti; ",
+            "de": "Es <span class=\"ebt-matched\">gehört immer noch</span> dir, Brahmane, ",
+            "en": "It still belongs to you, brahmin, ",
+            "matched": true
+          },
+          "sn7.2:3.4": {
+            "scid": "sn7.2:3.4",
+            "pli": "tavevetaṁ, brāhmaṇa, hotī”ti. ",
+            "de": "es <span class=\"ebt-matched\">gehört immer noch</span> dir!“ ",
+            "en": "it still belongs to you!” ",
+            "matched": true
+          }
+        },
+        "score": 4.085,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 7.2\n1. Das Kapitel über die Vollendeten\nMit Bhāradvāja dem Ruppigen",
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 47,
+          "de": 47,
+          "en": 47
+        }
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "de",
+    "docAuthor": "sabbamitta"
+  }
+}

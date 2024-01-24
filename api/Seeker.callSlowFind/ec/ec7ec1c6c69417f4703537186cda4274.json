@@ -1,0 +1,92 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sabbamitta",
+      "docLang": "de",
+      "docAuthor": "sabbamitta",
+      "includeUnpublished": false,
+      "lang": "de",
+      "langAuthor": "sabbamitta",
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "soll nach meinem ende euer lehrer sein",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "de",
+      "searchAuthor": "sabbamitta",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sabbamitta",
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "soll nach meinem ende euer lehrer sein",
+    "method": "phrase",
+    "resultPattern": "\\bsoll nach meinem ende euer lehrer sein",
+    "segsMatched": 1,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "dn16/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn16",
+        "lang": "de",
+        "segMap": {
+          "dn16:6.1.5": {
+            "scid": "dn16:6.1.5",
+            "pli": "Yo vo, ānanda, mayā dhammo ca vinayo ca desito paññatto, so vo mamaccayena satthā. ",
+            "de": "Die Lehre und Schulung, die ich euch gelehrt und aufgezeigt habe, <span class=\"ebt-matched\">soll nach meinem Ende euer Lehrer sein</span>. ",
+            "en": "The teaching and training that I have taught and pointed out for you shall be your Teacher after my passing. ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 16\nDie große Lehrrede vom Erlöschen des Buddha",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 1664,
+          "de": 1579,
+          "en": 1568
+        }
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "de",
+    "docAuthor": "sabbamitta"
+  }
+}
