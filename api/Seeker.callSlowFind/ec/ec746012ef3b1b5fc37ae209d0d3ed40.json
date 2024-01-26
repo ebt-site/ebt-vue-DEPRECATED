@@ -41,7 +41,7 @@
     "pattern": "erlesenste",
     "method": "phrase",
     "resultPattern": "\\berlesenste",
-    "segsMatched": 76,
+    "segsMatched": 79,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an3/an3.21_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.21_translation-de-sabbamitta.json",
@@ -64,6 +64,9 @@
       "root/pli/ms/sutta/an/an4/an4.100_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.100_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.100_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn5_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn5_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn5_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/ud/vagga3/ud3.2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga3/ud3.2_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/ud/vagga3/ud3.2_translation-en-sujato.json",
@@ -134,6 +137,7 @@
       "dn16/de/sabbamitta",
       "dn13/de/sabbamitta",
       "an4.100/de/sabbamitta",
+      "mn5/de/sabbamitta",
       "ud3.2/de/sabbamitta",
       "dn9/de/sabbamitta",
       "dn14/de/sabbamitta",
@@ -648,6 +652,52 @@
           "pli": 62,
           "de": 58,
           "en": 58
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn5_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn5_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn5_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn5",
+        "lang": "de",
+        "segMap": {
+          "mn5:25.2": {
+            "scid": "mn5:25.2",
+            "pli": "‘aho vata ahameva lābhī assaṁ paṇītānaṁ cīvarānaṁ, na añño bhikkhu lābhī assa paṇītānaṁ cīvarānan’ti. ",
+            "de": "‚Ach! Dass doch ich allein die <span class=\"ebt-matched\">erlesenste</span>n Roben, das <span class=\"ebt-matched\">erlesenste</span> Almosen, die <span class=\"ebt-matched\">erlesenste</span>n Unterkünfte und <span class=\"ebt-matched\">erlesenste</span> Arzneien und Krankenversorgung bekomme, nicht ein anderer Mönch!‘ ",
+            "en": "‘I hope I get the nicest robes, almsfood, lodgings, and medicines and supplies for the sick, not some other mendicant.’ ",
+            "matched": true
+          },
+          "mn5:25.3": {
+            "scid": "mn5:25.3",
+            "pli": "Ṭhānaṁ kho panetaṁ, āvuso, vijjati yaṁ añño bhikkhu lābhī assa paṇītānaṁ cīvarānaṁ, na so bhikkhu lābhī assa paṇītānaṁ cīvarānaṁ. ",
+            "de": "Aber es ist möglich, dass ein anderer Mönch die <span class=\"ebt-matched\">erlesenste</span>n Roben, das <span class=\"ebt-matched\">erlesenste</span> Almosen, die <span class=\"ebt-matched\">erlesenste</span>n Unterkünfte und <span class=\"ebt-matched\">erlesenste</span> Arzneien und Krankenversorgung bekommt … ",
+            "en": "But it’s possible that some other mendicant gets the nicest robes, almsfood, lodgings, and medicines and supplies for the sick … ",
+            "matched": true
+          },
+          "mn5:26-27.6": {
+            "scid": "mn5:26-27.6",
+            "pli": "‘Añño bhikkhu lābhī paṇītānaṁ gilānappaccayabhesajjaparikkhārānaṁ, nāhaṁ lābhī paṇītānaṁ gilānappaccayabhesajjaparikkhārānan’ti—",
+            "de": "Im Gedanken: ‚Ein anderer Mönch hat die <span class=\"ebt-matched\">erlesenste</span>n Roben, das <span class=\"ebt-matched\">erlesenste</span> Almosen, die <span class=\"ebt-matched\">erlesenste</span>n Unterkünfte und <span class=\"ebt-matched\">erlesenste</span> Arzneien und Krankenversorgung bekommen‘ ",
+            "en": "Thinking, ‘Some other mendicant has got the nicest robes, almsfood, lodgings, and medicines and supplies for the sick’, ",
+            "matched": true
+          }
+        },
+        "score": 3.015,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 5\nMakellos",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 203,
+          "de": 143,
+          "en": 202
         }
       },
       {
@@ -1347,7 +1397,7 @@
           "mn82:28.1": {
             "scid": "mn82:28.1",
             "pli": "Atha kho rājā korabyo “yaṁ tattha khādanīyaṁ bhojanīyaṁ paṭiyattaṁ taṁ sabbaṁ vissajjethā”ti vatvā bhadrāni bhadrāni yānāni yojāpetvā bhadraṁ yānaṁ abhiruhitvā bhadrehi bhadrehi yānehi thullakoṭṭhikamhā niyyāsi mahaccarājānubhāvena āyasmantaṁ raṭṭhapālaṁ dassanāya. ",
-            "de": "Darauf sagte König Koravya: „Gebt die frischen und gekochten Speisen weg, die da zubereitet wurden.“ Er ließ die <span class=\"ebt-matched\">erlesenste</span>n Kutschen anspannen. Dann bestieg er eine erlesene Kutsche und machte sich zusammen mit anderen erlesenen Kutschen in vollem königlichem Prunk von Thullakoṭṭhita auf, um den Ehrwürdigen Raṭṭhapāla zu sehen. ",
+            "de": "Darauf sagte König Koravya: „Gebt die frischen und gekochten Speisen weg, die da zubereitet wurden.“ Er ließ die <span class=\"ebt-matched\">erlesenste</span>n Kutschen anspannen. Dann bestieg er eine erlesene Kutsche und machte sich zusammen mit anderen erlesenen Kutschen in vollem königlichem Prunk von Thullakoṭṭhika auf, um den Ehrwürdigen Raṭṭhapāla zu sehen. ",
             "en": "And then King Koravya said, “Give away the fresh and cooked foods that have been prepared there.” He had the finest carriages harnessed. Then he mounted a fine carriage and, along with other fine carriages, set out in full royal pomp from Thullakoṭṭhika to see Raṭṭhapāla. ",
             "matched": true
           }

@@ -41,7 +41,7 @@
     "pattern": "was ist unwissenheit",
     "method": "phrase",
     "resultPattern": "\\bwas ist unwissenheit",
-    "segsMatched": 11,
+    "segsMatched": 12,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn56/sn56.17_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn56/sn56.17_translation-de-sabbamitta.json",
@@ -75,7 +75,10 @@
       "translation/en/sujato/sutta/sn/sn22/sn22.113_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn12/sn12.2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.2_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn12/sn12.2_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn12/sn12.2_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn9_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn9_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn9_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "sn56.17/de/sabbamitta",
@@ -88,7 +91,8 @@
       "sn22.127/de/sabbamitta",
       "sn22.126/de/sabbamitta",
       "sn22.113/de/sabbamitta",
-      "sn12.2/de/sabbamitta"
+      "sn12.2/de/sabbamitta",
+      "mn9/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -441,6 +445,38 @@
           "pli": 79,
           "de": 78,
           "en": 78
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn9_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn9_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn9_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn9",
+        "lang": "de",
+        "segMap": {
+          "mn9:65.3": {
+            "scid": "mn9:65.3",
+            "pli": "Katamā panāvuso, avijjā, katamo avijjāsamudayo, katamo avijjānirodho, katamā avijjānirodhagāminī paṭipadā? ",
+            "de": "Aber <span class=\"ebt-matched\">was ist Unwissenheit</span>? Was ist der Ursprung der Unwissenheit? Was ist das Aufhören der Unwissenheit? Und was ist die Übung, die zum Aufhören der Unwissenheit führt? ",
+            "en": "But what is ignorance? What is its origin, its cessation, and the practice that leads to its cessation? ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 9\nRechte Ansicht",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 234,
+          "de": 176,
+          "en": 174
         }
       }
     ],

@@ -41,7 +41,7 @@
     "pattern": "selbst glücklich und froh",
     "method": "phrase",
     "resultPattern": "\\bselbst glücklich und froh",
-    "segsMatched": 69,
+    "segsMatched": 72,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an10/an10.91_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.91_translation-de-sabbamitta.json",
@@ -49,6 +49,9 @@
       "root/pli/ms/sutta/sn/sn42/sn42.12_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn42/sn42.12_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn42/sn42.12_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn29_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn29_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn29_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn3/sn3.19_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn3/sn3.19_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn3/sn3.19_translation-en-sujato.json",
@@ -68,6 +71,7 @@
     "suttaRefs": [
       "an10.91/de/sabbamitta",
       "sn42.12/de/sabbamitta",
+      "dn29/de/sabbamitta",
       "sn3.19/de/sabbamitta",
       "dn2/de/sabbamitta",
       "an5.41/de/sabbamitta",
@@ -557,6 +561,52 @@
           "pli": 169,
           "de": 168,
           "en": 168
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn29_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn29_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn29_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn29",
+        "lang": "de",
+        "segMap": {
+          "dn29:23.8": {
+            "scid": "dn29:23.8",
+            "pli": "Idha, cunda, ekacco bālo pāṇe vadhitvā vadhitvā attānaṁ sukheti pīṇeti. ",
+            "de": "Da macht sich ein Tor durch das Töten lebender Geschöpfe <span class=\"ebt-matched\">selbst glücklich und froh</span>. ",
+            "en": "It’s when some fool makes themselves happy and pleased by killing living creatures. ",
+            "matched": true
+          },
+          "dn29:23.10": {
+            "scid": "dn29:23.10",
+            "pli": "Puna caparaṁ, cunda, idhekacco adinnaṁ ādiyitvā ādiyitvā attānaṁ sukheti pīṇeti. ",
+            "de": "Dann macht sich da jemand durch Diebstahl <span class=\"ebt-matched\">selbst glücklich und froh</span>. ",
+            "en": "Furthermore, someone makes themselves happy and pleased by theft. ",
+            "matched": true
+          },
+          "dn29:23.12": {
+            "scid": "dn29:23.12",
+            "pli": "Puna caparaṁ, cunda, idhekacco musā bhaṇitvā bhaṇitvā attānaṁ sukheti pīṇeti. ",
+            "de": "Dann macht sich da jemand durch Lügen <span class=\"ebt-matched\">selbst glücklich und froh</span>. ",
+            "en": "Furthermore, someone makes themselves happy and pleased by lying. ",
+            "matched": true
+          }
+        },
+        "score": 3.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 29\nEine beeindruckende Lehrrede",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 465,
+          "de": 404,
+          "en": 464
         }
       },
       {

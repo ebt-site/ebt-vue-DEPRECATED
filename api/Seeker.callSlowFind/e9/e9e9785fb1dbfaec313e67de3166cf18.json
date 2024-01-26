@@ -41,7 +41,7 @@
     "pattern": "es ist einfach dieser edle achtfache pfad",
     "method": "phrase",
     "resultPattern": "\\bes ist einfach dieser edle achtfache pfad",
-    "segsMatched": 41,
+    "segsMatched": 42,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn56/sn56.11_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn56/sn56.11_translation-de-sabbamitta.json",
@@ -130,6 +130,9 @@
       "root/pli/ms/sutta/sn/sn12/sn12.65_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.65_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn12/sn12.65_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn9_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn9_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn9_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn44_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn44_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn44_translation-en-sujato.json",
@@ -191,6 +194,7 @@
       "sn22.104/de/sabbamitta",
       "sn22.103/de/sabbamitta",
       "sn12.65/de/sabbamitta",
+      "mn9/de/sabbamitta",
       "mn44/de/sabbamitta",
       "mn141/de/sabbamitta",
       "mn139/de/sabbamitta",
@@ -1399,6 +1403,38 @@
           "pli": 252,
           "de": 198,
           "en": 251
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn9_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn9_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn9_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn9",
+        "lang": "de",
+        "segMap": {
+          "mn9:18.2": {
+            "scid": "mn9:18.2",
+            "pli": "Ayameva ariyo aṭṭhaṅgiko maggo, seyyathidaṁ—",
+            "de": "<span class=\"ebt-matched\">Es ist einfach dieser edle achtfache Pfad</span>: nämlich ",
+            "en": "It is simply this noble eightfold path, that is: ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 9\nRechte Ansicht",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 234,
+          "de": 176,
+          "en": 174
         }
       },
       {

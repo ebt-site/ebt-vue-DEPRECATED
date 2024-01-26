@@ -41,11 +41,14 @@
     "pattern": "wurzel des leidens",
     "method": "phrase",
     "resultPattern": "\\bwurzel des leidens",
-    "segsMatched": 8,
+    "segsMatched": 10,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn42/sn42.11_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn42/sn42.11_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn42/sn42.11_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn1_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn56/sn56.21_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn56/sn56.21_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn56/sn56.21_translation-en-sujato.json",
@@ -58,6 +61,7 @@
     ],
     "suttaRefs": [
       "sn42.11/de/sabbamitta",
+      "mn1/de/sabbamitta",
       "sn56.21/de/sabbamitta",
       "mn116/de/sabbamitta",
       "dn16/de/sabbamitta"
@@ -121,6 +125,45 @@
           "pli": 55,
           "de": 54,
           "en": 54
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn1",
+        "lang": "de",
+        "segMap": {
+          "mn1:171.4": {
+            "scid": "mn1:171.4",
+            "pli": "‘Nandī dukkhassa mūlan’ti—",
+            "de": "Weil er verstanden hat, dass das Vergnügenfinden die <span class=\"ebt-matched\">Wurzel des Leidens</span> ist, ",
+            "en": "Because he has understood that taking pleasure is the root of suffering, ",
+            "matched": true
+          },
+          "mn1:194.4": {
+            "scid": "mn1:194.4",
+            "pli": "‘Nandī dukkhassa mūlan’ti—",
+            "de": "Weil er verstanden hat, dass das Vergnügenfinden die <span class=\"ebt-matched\">Wurzel des Leidens</span> ist, ",
+            "en": "Because he has understood that taking pleasure is the root of suffering, ",
+            "matched": true
+          }
+        },
+        "score": 2.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 1\nDie Wurzel aller Dinge",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 334,
+          "de": 331,
+          "en": 325
         }
       },
       {
