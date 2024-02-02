@@ -41,7 +41,7 @@
     "pattern": "inbrünstige.* bußübung",
     "method": "phrase",
     "resultPattern": "\\binbrünstige.* bußübung",
-    "segsMatched": 62,
+    "segsMatched": 65,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn8_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn8_translation-de-sabbamitta.json",
@@ -55,6 +55,9 @@
       "root/pli/ms/sutta/an/an4/an4.196_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.196_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.196_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn12_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn12_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn12_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.12_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.12_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an8/an8.12_translation-en-sujato.json",
@@ -85,6 +88,7 @@
       "dn25/de/sabbamitta",
       "an10.94/de/sabbamitta",
       "an4.196/de/sabbamitta",
+      "mn12/de/sabbamitta",
       "an8.12/de/sabbamitta",
       "sn1.38/de/sabbamitta",
       "sn42.12/de/sabbamitta",
@@ -596,6 +600,52 @@
           "pli": 152,
           "de": 148,
           "en": 151
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn12_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn12_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn12_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn12",
+        "lang": "de",
+        "segMap": {
+          "mn12:45.1": {
+            "scid": "mn12:45.1",
+            "pli": "Tatrāssu me idaṁ, sāriputta, tapassitāya hoti—acelako homi muttācāro hatthāpalekhano, naehibhaddantiko natiṭṭhabhaddantiko; nābhihaṭaṁ na uddissakataṁ na nimantanaṁ sādiyāmi. ",
+            "de": "Und so war meine <span class=\"ebt-matched\">inbrünstige Bußübung</span>: Ich ging nackt, wahrte den Anstand nicht. Ich leckte die Hände ab und kam oder wartete nicht, wenn ich gerufen wurde. Ich nahm keine Speise an, die mir gebracht oder eigens für mich zubereitet wurde, auch keine Einladung zum Essen. ",
+            "en": "And this is what my fervent mortification was like. I went naked, ignoring conventions. I licked my hands, and didn’t come or stop when asked. I didn’t consent to food brought to me, or food prepared specially for me, or an invitation for a meal. ",
+            "matched": true
+          },
+          "mn12:45.13": {
+            "scid": "mn12:45.13",
+            "pli": "iti evarūpaṁ anekavihitaṁ kāyassa ātāpanaparitāpanānuyogamanuyutto viharāmi. ",
+            "de": "Und so lebte ich und betrieb diese verschiedenen Arten der <span class=\"ebt-matched\">inbrünstigen Bußübung</span> und Kasteiung des Körpers. ",
+            "en": "And so I lived committed to practicing these various ways of mortifying and tormenting the body. ",
+            "matched": true
+          },
+          "mn12:45.14": {
+            "scid": "mn12:45.14",
+            "pli": "Idaṁsu me, sāriputta, tapassitāya hoti. ",
+            "de": "So war meine <span class=\"ebt-matched\">inbrünstige Bußübung</span>. ",
+            "en": "Such was my practice of fervent mortification. ",
+            "matched": true
+          }
+        },
+        "score": 3.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 12\nDie längere Lehrrede über das Löwengebrüll",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 372,
+          "de": 320,
+          "en": 371
         }
       },
       {

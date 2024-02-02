@@ -41,11 +41,14 @@
     "pattern": "fünf bestimmungsorte",
     "method": "phrase",
     "resultPattern": "\\bfünf bestimmungsorte",
-    "segsMatched": 16,
+    "segsMatched": 18,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an9/an9.68_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an9/an9.68_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an9/an9.68_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn12_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn12_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn12_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn56/sn56.131_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn56/sn56.131_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn56/sn56.131_translation-en-sujato.json",
@@ -91,6 +94,7 @@
     ],
     "suttaRefs": [
       "an9.68/de/sabbamitta",
+      "mn12/de/sabbamitta",
       "sn56.131/de/sabbamitta",
       "sn56.129-130/de/sabbamitta",
       "sn56.126-128/de/sabbamitta",
@@ -150,6 +154,45 @@
           "pli": 9,
           "de": 8,
           "en": 8
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn12_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn12_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn12_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn12",
+        "lang": "de",
+        "segMap": {
+          "mn12:35.1": {
+            "scid": "mn12:35.1",
+            "pli": "Pañca kho imā, sāriputta, gatiyo. ",
+            "de": "Es gibt <span class=\"ebt-matched\">fünf Bestimmungsorte</span>. ",
+            "en": "There are these five destinations. ",
+            "matched": true
+          },
+          "mn12:42.13": {
+            "scid": "mn12:42.13",
+            "pli": "Imā kho, sāriputta, pañca gatiyo. ",
+            "de": "Das sind die <span class=\"ebt-matched\">fünf Bestimmungsorte</span>. ",
+            "en": "These are the five destinations. ",
+            "matched": true
+          }
+        },
+        "score": 2.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 12\nDie längere Lehrrede über das Löwengebrüll",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 372,
+          "de": 320,
+          "en": 371
         }
       },
       {

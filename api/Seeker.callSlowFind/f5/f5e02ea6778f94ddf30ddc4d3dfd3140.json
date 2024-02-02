@@ -41,7 +41,7 @@
     "pattern": "zwei arten von",
     "method": "phrase",
     "resultPattern": "\\bzwei arten von",
-    "segsMatched": 73,
+    "segsMatched": 74,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an9/an9.6_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an9/an9.6_translation-de-sabbamitta.json",
@@ -61,6 +61,9 @@
       "root/pli/ms/sutta/mn/mn19_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn19_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn19_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn11_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn11_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn11_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/iti/vagga5/iti49_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/iti/vagga5/iti49_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/iti/vagga5/iti49_translation-en-sujato.json",
@@ -84,6 +87,7 @@
       "an2.64-76/de/sabbamitta",
       "sn22.80/de/sabbamitta",
       "mn19/de/sabbamitta",
+      "mn11/de/sabbamitta",
       "iti49/de/sabbamitta",
       "an4.157/de/sabbamitta",
       "an2.52-63/de/sabbamitta",
@@ -843,6 +847,38 @@
           "pli": 87,
           "de": 86,
           "en": 82
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn11_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn11_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn11_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn11",
+        "lang": "de",
+        "segMap": {
+          "mn11:6.1": {
+            "scid": "mn11:6.1",
+            "pli": "Dvemā, bhikkhave, diṭṭhiyo—",
+            "de": "Mönche und Nonnen, es gibt <span class=\"ebt-matched\">zwei Arten von</span> Ansichten: ",
+            "en": "Mendicants, there are these two views: ",
+            "matched": true
+          }
+        },
+        "score": 1.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 11\nDie kürzere Lehrrede über das Löwengebrüll",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 132,
+          "de": 118,
+          "en": 131
         }
       },
       {

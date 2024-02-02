@@ -41,7 +41,7 @@
     "pattern": "haarsträubend",
     "method": "phrase",
     "resultPattern": "\\bhaarsträubend",
-    "segsMatched": 15,
+    "segsMatched": 16,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
@@ -58,6 +58,9 @@
       "root/pli/ms/sutta/mn/mn4_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn4_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn4_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn12_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn12_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn12_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/ud/vagga6/ud6.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga6/ud6.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/ud/vagga6/ud6.1_translation-en-sujato.json",
@@ -78,6 +81,7 @@
       "cp9/de/sabbamitta",
       "sn51.10/de/sabbamitta",
       "mn4/de/sabbamitta",
+      "mn12/de/sabbamitta",
       "ud6.1/de/sabbamitta",
       "thig11.1/de/sabbamitta",
       "thag6.1/de/sabbamitta",
@@ -413,6 +417,38 @@
           "pli": 165,
           "de": 111,
           "en": 110
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn12_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn12_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn12_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn12",
+        "lang": "de",
+        "segMap": {
+          "mn12:64.6": {
+            "scid": "mn12:64.6",
+            "pli": "“Tasmātiha tvaṁ, nāgasamāla, imaṁ dhammapariyāyaṁ lomahaṁsanapariyāyotveva naṁ dhārehī”ti. ",
+            "de": "„Nun, Nāgasamāla, du sollst diese Lehrdarlegung als ‚die <span class=\"ebt-matched\">haarsträubend</span>e Lehrrede‘ in Erinnerung behalten.“ ",
+            "en": "“Well then, Nāgasamāla, you may remember this exposition of the teaching as ‘The Hair-raising Discourse’.” ",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 12\nDie längere Lehrrede über das Löwengebrüll",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 372,
+          "de": 320,
+          "en": 371
         }
       }
     ],

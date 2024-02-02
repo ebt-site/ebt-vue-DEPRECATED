@@ -41,11 +41,14 @@
     "pattern": "nur einen bissen",
     "method": "phrase",
     "resultPattern": "\\bnur einen bissen",
-    "segsMatched": 5,
+    "segsMatched": 6,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn51_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn51_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn51_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn12_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn12_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn12_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn8_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn8_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn8_translation-en-sujato.json",
@@ -61,6 +64,7 @@
     ],
     "suttaRefs": [
       "mn51/de/sabbamitta",
+      "mn12/de/sabbamitta",
       "dn8/de/sabbamitta",
       "dn25/de/sabbamitta",
       "an4.198/de/sabbamitta",
@@ -225,6 +229,38 @@
           "pli": 383,
           "de": 351,
           "en": 382
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn12_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn12_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn12_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn12",
+        "lang": "de",
+        "segMap": {
+          "mn12:45.3": {
+            "scid": "mn12:45.3",
+            "pli": "so ekāgāriko vā homi ekālopiko, dvāgāriko vā homi dvālopiko …pe… sattāgāriko vā homi sattālopiko; ",
+            "de": "Ich ging um Almosen nur zu einem Haus und nahm <span class=\"ebt-matched\">nur einen Bissen</span>, oder zu zwei Häusern und zwei Bissen, bis zu sieben Häusern und sieben Bissen. ",
+            "en": "I went to just one house for alms, taking just one mouthful, or two houses and two mouthfuls, up to seven houses and seven mouthfuls. ",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 12\nDie längere Lehrrede über das Löwengebrüll",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 372,
+          "de": 320,
+          "en": 371
         }
       }
     ],

@@ -41,7 +41,7 @@
     "pattern": "wieder und wieder",
     "method": "phrase",
     "resultPattern": "\\bwieder und wieder",
-    "segsMatched": 69,
+    "segsMatched": 70,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn7/sn7.12_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn7/sn7.12_translation-de-sabbamitta.json",
@@ -87,6 +87,9 @@
       "root/pli/ms/sutta/sn/sn36/sn36.2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn36/sn36.2_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn36/sn36.2_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn12_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn12_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn12_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thig/thig9.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thig/thig9.1_translation-de-sabbamitta.json",
       "translation/en/soma/sutta/kn/thig/thig9.1_translation-en-soma.json",
@@ -159,6 +162,7 @@
       "sn4.13/de/sabbamitta",
       "sn48.50/de/sabbamitta",
       "sn36.2/de/sabbamitta",
+      "mn12/de/sabbamitta",
       "thig9.1/de/sabbamitta",
       "thag6.5/de/sabbamitta",
       "thag5.9/de/sabbamitta",
@@ -1400,6 +1404,38 @@
           "pli": 68,
           "de": 59,
           "en": 59
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn12_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn12_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn12_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn12",
+        "lang": "de",
+        "segMap": {
+          "mn12:62.9": {
+            "scid": "mn12:62.9",
+            "pli": "Te maṁ catunnaṁ satipaṭṭhānānaṁ upādāyupādāya pañhaṁ puccheyyuṁ, puṭṭho puṭṭho cāhaṁ tesaṁ byākareyyaṁ, byākatañca me byākatato dhāreyyuṁ, na ca maṁ dutiyakaṁ uttari paṭipuccheyyuṁ. ",
+            "de": "Sie würden <span class=\"ebt-matched\">wieder und wieder</span> Fragen über die vier Arten der Achtsamkeitsmeditation stellen, und ich würde jede Frage beantworten. Sie würden die Antworten behalten und keine Frage zweimal stellen. ",
+            "en": "They’d bring up questions about the four kinds of mindfulness meditation again and again, and I would answer each question. They’d remember the answers and not ask the same question twice. ",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 12\nDie längere Lehrrede über das Löwengebrüll",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 372,
+          "de": 320,
+          "en": 371
         }
       },
       {

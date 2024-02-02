@@ -41,11 +41,14 @@
     "pattern": "roben aus hanf",
     "method": "phrase",
     "resultPattern": "\\broben aus hanf",
-    "segsMatched": 6,
+    "segsMatched": 7,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn51_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn51_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn51_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn12_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn12_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn12_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn8_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn8_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn8_translation-en-sujato.json",
@@ -64,6 +67,7 @@
     ],
     "suttaRefs": [
       "mn51/de/sabbamitta",
+      "mn12/de/sabbamitta",
       "dn8/de/sabbamitta",
       "dn25/de/sabbamitta",
       "an4.198/de/sabbamitta",
@@ -261,6 +265,38 @@
           "pli": 383,
           "de": 351,
           "en": 382
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn12_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn12_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn12_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn12",
+        "lang": "de",
+        "segMap": {
+          "mn12:45.7": {
+            "scid": "mn12:45.7",
+            "pli": "So sāṇānipi dhāremi, masāṇānipi dhāremi, chavadussānipi dhāremi, paṁsukūlānipi dhāremi, tirīṭānipi dhāremi, ajinampi dhāremi, ajinakkhipampi dhāremi, kusacīrampi dhāremi, vākacīrampi dhāremi, phalakacīrampi dhāremi, kesakambalampi dhāremi, vāḷakambalampi dhāremi, ulūkapakkhampi dhāremi; ",
+            "de": "Ich trug <span class=\"ebt-matched\">Roben aus Hanf</span>, Hanf-Mischgewebe, Leichentuch, Lumpen, Baumrinde, Antilopenhaut, in Streifen geschnittener Antilopenhaut, Gewebe aus Kusagras, Rinden- oder Holzstückchen, Menschenhaar, Pferdehaar oder Eulenflügeln. ",
+            "en": "I wore robes of sunn hemp, mixed hemp, corpse-wrapping cloth, rags, lodh tree bark, antelope hide (whole or in strips), kusa grass, bark, wood-chips, human hair, horse-tail hair, or owls’ wings. ",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 12\nDie längere Lehrrede über das Löwengebrüll",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 372,
+          "de": 320,
+          "en": 371
         }
       }
     ],

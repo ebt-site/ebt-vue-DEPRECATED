@@ -41,7 +41,7 @@
     "pattern": "mörderisch",
     "method": "phrase",
     "resultPattern": "\\bmörderisch",
-    "segsMatched": 7,
+    "segsMatched": 8,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn4/sn4.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn4/sn4.1_translation-de-sabbamitta.json",
@@ -49,6 +49,9 @@
       "root/pli/ms/sutta/mn/mn26_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn26_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn26_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn12_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn12_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn12_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/dhp/dhp383-423_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/dhp/dhp383-423_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/dhp/dhp383-423_translation-en-sujato.json",
@@ -62,6 +65,7 @@
     "suttaRefs": [
       "sn4.1/de/sabbamitta",
       "mn26/de/sabbamitta",
+      "mn12/de/sabbamitta",
       "dhp383-423/de/sabbamitta",
       "cp20/de/sabbamitta",
       "an8.56/de/sabbamitta"
@@ -239,6 +243,38 @@
           "pli": 270,
           "de": 180,
           "en": 181
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn12_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn12_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn12_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn12",
+        "lang": "de",
+        "segMap": {
+          "mn12:56.1": {
+            "scid": "mn12:56.1",
+            "pli": "Tāyapi kho ahaṁ, sāriputta, iriyāya tāya paṭipadāya tāya dukkarakārikāya nājjhagamaṁ uttariṁ manussadhammā alamariyañāṇadassanavisesaṁ. ",
+            "de": "Aber Sāriputta, durch dieses Verhalten, diese Übung, dieses <span class=\"ebt-matched\">mörderisch</span>e Treiben erlangte ich keinen erhabenen Zustand übermenschlichen Erkennens und Sehens, der der Edlen würdig ist. ",
+            "en": "But Sāriputta, I did not achieve any superhuman distinction in knowledge and vision worthy of the noble ones by that conduct, that practice, that grueling work. ",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 12\nDie längere Lehrrede über das Löwengebrüll",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 372,
+          "de": 320,
+          "en": 371
         }
       }
     ],

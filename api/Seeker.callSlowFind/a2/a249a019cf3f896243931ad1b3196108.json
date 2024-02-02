@@ -41,7 +41,7 @@
     "pattern": "kuhhirt",
     "method": "phrase",
     "resultPattern": "\\bkuhhirt",
-    "segsMatched": 51,
+    "segsMatched": 52,
     "bilaraPaths": [
       "root/pli/ms/sutta/kn/ud/vagga4/ud4.3_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga4/ud4.3_translation-de-sabbamitta.json",
@@ -67,6 +67,9 @@
       "root/pli/ms/sutta/mn/mn19_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn19_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn19_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn12_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn12_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn12_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/dhp/dhp129-145_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/dhp/dhp129-145_translation-de-sabbamitta.json",
       "translation/en/suddhaso/sutta/kn/dhp/dhp129-145_translation-en-suddhaso.json",
@@ -115,6 +118,7 @@
       "an11.502-981/de/sabbamitta",
       "sn35.241/de/sabbamitta",
       "mn19/de/sabbamitta",
+      "mn12/de/sabbamitta",
       "dhp129-145/de/sabbamitta",
       "dhp1-20/de/sabbamitta",
       "an11.70-117/de/sabbamitta",
@@ -585,7 +589,7 @@
           "mn19:12.1": {
             "scid": "mn19:12.1",
             "pli": "Seyyathāpi, bhikkhave, gimhānaṁ pacchime māse sabbasassesu gāmantasambhatesu gopālako gāvo rakkheyya, tassa rukkhamūlagatassa vā abbhokāsagatassa vā satikaraṇīyameva hoti: ",
-            "de": "Wie im letzten Monat des Sommers, wenn alle Feldfrucht im Dorf zusammengetragen ist und ein <span class=\"ebt-matched\">Kuhhirt</span>e auf die Rinder aufpassen muss. Er würde am Fuß eines Baumes oder unter freiem Himmel sitzen und müsste nur achtsam sein, ",
+            "de": "Wie im letzten Sommermonat, wenn alle Feldfrucht im Dorf zusammengetragen ist und ein <span class=\"ebt-matched\">Kuhhirt</span>e auf die Rinder aufpassen muss. Er würde am Fuß eines Baumes oder im offenen Gelände sitzen und müsste nur achtsam sein, ",
             "en": "Suppose it’s the last month of summer, when all the crops have been gathered within a village, and a cowherd must take care of the cattle. While at the root of a tree or in the open he need only be mindful that ",
             "matched": true
           }
@@ -986,6 +990,38 @@
           "pli": 108,
           "de": 93,
           "en": 93
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn12_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn12_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn12_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn12",
+        "lang": "de",
+        "segMap": {
+          "mn12:48.3": {
+            "scid": "mn12:48.3",
+            "pli": "Yadā passāmi gopālakaṁ vā pasupālakaṁ vā tiṇahārakaṁ vā kaṭṭhahārakaṁ vā vanakammikaṁ vā, vanena vanaṁ gahanena gahanaṁ ninnena ninnaṁ thalena thalaṁ sampatāmi. ",
+            "de": "Wenn ich einen <span class=\"ebt-matched\">Kuhhirt</span>en oder Schafhirten sah oder jemanden, der Gras oder Zweige sammelte, floh ich von Wald zu Wald, von Dickicht zu Dickicht, von Niederung zu Niederung, von Hochland zu Hochland. ",
+            "en": "When I saw a cowherd or a shepherd, or someone gathering grass or sticks, or a lumberjack, I’d flee from forest to forest, from thicket to thicket, from valley to valley, from uplands to uplands. ",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 12\nDie längere Lehrrede über das Löwengebrüll",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 372,
+          "de": 320,
+          "en": 371
         }
       }
     ],
