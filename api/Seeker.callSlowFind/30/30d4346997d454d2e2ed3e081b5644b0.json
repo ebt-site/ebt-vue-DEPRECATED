@@ -41,7 +41,7 @@
     "pattern": "unterrichtet angeleitet",
     "method": "keywords",
     "resultPattern": "\\bunterrichtet|\\bangeleitet",
-    "segsMatched": 14,
+    "segsMatched": 16,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an10/an10.18_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.18_translation-de-sabbamitta.json",
@@ -49,6 +49,9 @@
       "root/pli/ms/sutta/an/an4/an4.111_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.111_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.111_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn15_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn15_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn15_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json"
@@ -56,6 +59,7 @@
     "suttaRefs": [
       "an10.18/de/sabbamitta",
       "an4.111/de/sabbamitta",
+      "mn15/de/sabbamitta",
       "dn16/de/sabbamitta"
     ],
     "mlDocs": [
@@ -198,6 +202,45 @@
           "pli": 35,
           "de": 34,
           "en": 34
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn15_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn15_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn15_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn15",
+        "lang": "de",
+        "segMap": {
+          "mn15:2.2": {
+            "scid": "mn15:2.2",
+            "pli": "‘vadantu maṁ āyasmanto, vacanīyomhi āyasmantehī’ti, so ca hoti dubbaco, dovacassakaraṇehi dhammehi samannāgato, akkhamo appadakkhiṇaggāhī anusāsaniṁ, atha kho naṁ sabrahmacārī na ceva vattabbaṁ maññanti, na ca anusāsitabbaṁ maññanti, na ca tasmiṁ puggale vissāsaṁ āpajjitabbaṁ maññanti. ",
+            "de": "ihn zu ermahnen. Aber er ist schwer zu ermahnen, er hat Eigenschaften, durch die er schwer zu ermahnen ist. Er ist ungeduldig und nimmt die Anleitung nicht respektvoll an. Dann denken seine geistlichen Gefährten, er sei es nicht wert, <span class=\"ebt-matched\">unterrichtet</span> und <span class=\"ebt-matched\">angeleitet</span> zu werden, und dieser Mensch gewinnt nicht ihr Vertrauen. ",
+            "en": "other mendicants to admonish them. But they’re hard to admonish, having qualities that make them hard to admonish. They're impatient, and don't take instruction respectfully. So their spiritual companions don’t think it’s worth advising and instructing them, and that person doesn’t gain their trust. ",
+            "matched": true
+          },
+          "mn15:4.2": {
+            "scid": "mn15:4.2",
+            "pli": "‘vadantu maṁ āyasmanto, vacanīyomhi āyasmantehī’ti, so ca hoti suvaco, sovacassakaraṇehi dhammehi samannāgato, khamo padakkhiṇaggāhī anusāsaniṁ, atha kho naṁ sabrahmacārī vattabbañceva maññanti, anusāsitabbañca maññanti, tasmiñca puggale vissāsaṁ āpajjitabbaṁ maññanti. ",
+            "de": "ihn zu ermahnen. Aber er ist leicht zu ermahnen, er hat Eigenschaften, durch die er leicht zu ermahnen ist. Er ist geduldig und nimmt die Anleitung respektvoll an. Dann denken seine geistlichen Gefährten, er sei es wert, <span class=\"ebt-matched\">unterrichtet</span> und <span class=\"ebt-matched\">angeleitet</span> zu werden, und dieser Mensch gewinnt ihr Vertrauen. ",
+            "en": "other mendicants to admonish them. But they’re easy to admonish, having qualities that make them easy to admonish. They're accepting, and take instruction respectfully. So their spiritual companions think it’s worth advising and instructing them, and that person gains their trust. ",
+            "matched": true
+          }
+        },
+        "score": 2.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 15\nMessen",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 263,
+          "de": 110,
+          "en": 262
         }
       },
       {

@@ -41,7 +41,7 @@
     "pattern": "viel leiden und bedrängnis",
     "method": "phrase",
     "resultPattern": "\\bviel leiden und bedrängnis",
-    "segsMatched": 15,
+    "segsMatched": 17,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn22_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn22_translation-de-sabbamitta.json",
@@ -52,6 +52,9 @@
       "root/pli/ms/sutta/sn/sn1/sn1.20_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn1/sn1.20_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.20_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn14_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn14_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn14_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn4/sn4.21_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn4/sn4.21_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn4/sn4.21_translation-en-sujato.json"
@@ -60,6 +63,7 @@
       "mn22/de/sabbamitta",
       "an5.76/de/sabbamitta",
       "sn1.20/de/sabbamitta",
+      "mn14/de/sabbamitta",
       "sn4.21/de/sabbamitta"
     ],
     "mlDocs": [
@@ -234,6 +238,45 @@
           "pli": 108,
           "de": 68,
           "en": 106
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn14_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn14_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn14_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn14",
+        "lang": "de",
+        "segMap": {
+          "mn14:4.1": {
+            "scid": "mn14:4.1",
+            "pli": "‘Appassādā kāmā bahudukkhā bahupāyāsā, ādīnavo ettha bhiyyo’ti—",
+            "de": "Sinnenfreuden führen zu wenig vorteilhaften Folgen und <span class=\"ebt-matched\">viel Leiden und Bedrängnis</span>, und mehr noch, sie haben viele nachteilige Folgen. ",
+            "en": "Sensual pleasures give little gratification and much suffering and distress, and they are all the more full of drawbacks. ",
+            "matched": true
+          },
+          "mn14:5.2": {
+            "scid": "mn14:5.2",
+            "pli": "‘appassādā kāmā bahudukkhā bahupāyāsā, ādīnavo ettha bhiyyo’ti—evametaṁ yathābhūtaṁ sammappaññāya sudiṭṭhaṁ hoti, ",
+            "de": "‚Sinnenfreuden führen zu wenig vorteilhaften Folgen und <span class=\"ebt-matched\">viel Leiden und Bedrängnis</span>, und mehr noch, sie haben viele nachteilige Folgen.‘ ",
+            "en": "‘Sensual pleasures give little gratification and much suffering and distress, and they are all the more full of drawbacks.’ ",
+            "matched": true
+          }
+        },
+        "score": 2.014,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 14\nDie kürzere Lehrrede über die Masse des Leidens",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 144,
+          "de": 136,
+          "en": 143
         }
       },
       {

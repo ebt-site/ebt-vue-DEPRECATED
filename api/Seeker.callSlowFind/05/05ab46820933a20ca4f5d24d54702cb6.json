@@ -41,7 +41,7 @@
     "pattern": "damit zufrieden",
     "method": "phrase",
     "resultPattern": "\\bdamit zufrieden",
-    "segsMatched": 21,
+    "segsMatched": 23,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn29_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn29_translation-de-sabbamitta.json",
@@ -55,6 +55,12 @@
       "root/pli/ms/sutta/dn/dn10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn10_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn10_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn15_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn15_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn15_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn14_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn14_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn14_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn21_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn21_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn21_translation-en-sujato.json",
@@ -79,6 +85,8 @@
       "mn28/de/sabbamitta",
       "dn25/de/sabbamitta",
       "dn10/de/sabbamitta",
+      "mn15/de/sabbamitta",
+      "mn14/de/sabbamitta",
       "dn21/de/sabbamitta",
       "an10.55/de/sabbamitta",
       "an10.54/de/sabbamitta",
@@ -450,6 +458,70 @@
           "pli": 98,
           "de": 96,
           "en": 97
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn14_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn14_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn14_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn14",
+        "lang": "de",
+        "segMap": {
+          "mn14:17.9": {
+            "scid": "mn14:17.9",
+            "pli": "Tañca panamhākaṁ ruccati ceva khamati ca, tena camha attamanā’ti. ",
+            "de": "Wir billigen das und stimmen ihm zu, und wir sind <span class=\"ebt-matched\">damit zufrieden</span>.‘ ",
+            "en": "We endorse and accept this, and we are satisfied with it.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.007,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 14\nDie kürzere Lehrrede über die Masse des Leidens",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 144,
+          "de": 136,
+          "en": 143
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn15_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn15_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn15_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn15",
+        "lang": "de",
+        "segMap": {
+          "mn15:8.4": {
+            "scid": "mn15:8.4",
+            "pli": "no ce tattha passati rajaṁ vā aṅgaṇaṁ vā, teneva attamano hoti: ",
+            "de": "Aber wenn sie keine Unreinheit und keinen Makel sähe, wäre sie <span class=\"ebt-matched\">damit zufrieden</span>: ",
+            "en": "But if they don’t see any dirt or blemish there, they’re happy, thinking: ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 15\nMessen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 263,
+          "de": 110,
+          "en": 262
         }
       },
       {

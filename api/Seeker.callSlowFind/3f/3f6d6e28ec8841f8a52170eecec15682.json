@@ -41,7 +41,7 @@
     "pattern": "selbst und setz.* andere herab",
     "method": "phrase",
     "resultPattern": "\\bselbst und setz.* andere herab",
-    "segsMatched": 18,
+    "segsMatched": 21,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn113_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn113_translation-de-sabbamitta.json",
@@ -52,6 +52,9 @@
       "root/pli/ms/sutta/mn/mn60_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn60_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn60_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn15_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn15_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn15_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn25_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn25_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn25_translation-en-sujato.json",
@@ -63,6 +66,7 @@
       "mn113/de/sabbamitta",
       "mn29/de/sabbamitta",
       "mn60/de/sabbamitta",
+      "mn15/de/sabbamitta",
       "dn25/de/sabbamitta",
       "an10.78/de/sabbamitta"
     ],
@@ -199,6 +203,52 @@
           "pli": 181,
           "de": 116,
           "en": 180
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn15_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn15_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn15_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn15",
+        "lang": "de",
+        "segMap": {
+          "mn15:3.5": {
+            "scid": "mn15:3.5",
+            "pli": "Puna caparaṁ, āvuso, bhikkhu attukkaṁsako hoti paravambhī. ",
+            "de": "Dann verherrlicht da ein Mönch sich <span class=\"ebt-matched\">selbst und setzt andere herab</span>. ",
+            "en": "Furthermore, a mendicant glorifies themselves and puts others down. … ",
+            "matched": true
+          },
+          "mn15:6.5": {
+            "scid": "mn15:6.5",
+            "pli": "‘Yo khvāyaṁ puggalo attukkaṁsako paravambhī, ayaṁ me puggalo appiyo amanāpo; ",
+            "de": "‚Dieser Mensch verherrlicht sich <span class=\"ebt-matched\">selbst und setzt andere herab</span>. …‘ ",
+            "en": "",
+            "matched": true
+          },
+          "mn15:7.8": {
+            "scid": "mn15:7.8",
+            "pli": "‘kiṁ nu khomhi attukkaṁsako paravambhī’ti? ",
+            "de": "‚Verherrliche ich mich <span class=\"ebt-matched\">selbst und setze ich andere herab</span>?‘ … ",
+            "en": "",
+            "matched": true
+          }
+        },
+        "score": 3.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 15\nMessen",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 263,
+          "de": 110,
+          "en": 262
         }
       },
       {

@@ -41,11 +41,14 @@
     "pattern": "ärger, hass und unmut",
     "method": "phrase",
     "resultPattern": "\\bärger, hass und unmut",
-    "segsMatched": 16,
+    "segsMatched": 18,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an3/an3.64_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.64_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.64_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn15_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn15_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn15_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn24_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn24_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn24_translation-en-sujato.json",
@@ -73,6 +76,7 @@
     ],
     "suttaRefs": [
       "an3.64/de/sabbamitta",
+      "mn15/de/sabbamitta",
       "dn24/de/sabbamitta",
       "an5.157/de/sabbamitta",
       "an4.197/de/sabbamitta",
@@ -287,6 +291,45 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn15_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn15_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn15_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn15",
+        "lang": "de",
+        "segMap": {
+          "mn15:3.29": {
+            "scid": "mn15:3.29",
+            "pli": "Puna caparaṁ, āvuso, bhikkhu codito codakena aññenaññaṁ paṭicarati, bahiddhā kathaṁ apanāmeti, kopañca dosañca appaccayañca pātukaroti. ",
+            "de": "Wenn er angeklagt wird, weicht er dem Problem aus, lenkt das Gespräch auf Nebensächlichkeiten und zeigt <span class=\"ebt-matched\">Ärger, Hass und Unmut</span> … ",
+            "en": "When accused, they dodge the issue, distract the discussion with irrelevant points, and display annoyance, hate, and bitterness … ",
+            "matched": true
+          },
+          "mn15:7.52": {
+            "scid": "mn15:7.52",
+            "pli": "‘kiṁ nu khomhi codito codakena aññenaññaṁ paṭicarāmi, bahiddhā kathaṁ apanāmemi, kopañca dosañca appaccayañca pātukaromī’ti? ",
+            "de": "‚Weiche ich dem Problem aus, lenke das Gespräch auf Nebensächlichkeiten und zeige <span class=\"ebt-matched\">Ärger, Hass und Unmut</span>, wenn ich angeklagt werde?‘ … ",
+            "en": "",
+            "matched": true
+          }
+        },
+        "score": 2.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 15\nMessen",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 263,
+          "de": 110,
+          "en": 262
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/dn/dn24_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/dn/dn24_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/dn/dn24_translation-en-sujato.json"
@@ -403,7 +446,7 @@
           "an8.14:13.2": {
             "scid": "an8.14:13.2",
             "pli": "So bhikkhu bhikkhūhi āpattiyā codiyamāno aññenāññaṁ paṭicarati, bahiddhā kathaṁ apanāmeti, kopañca dosañca appaccayañca pātukaroti. ",
-            "de": "Doch die beschuldigte Nonne weicht dem Problem aus, lenkt das Gespräch auf Nebensächlichkeiten und zeigt <span class=\"ebt-matched\">Ärger, Hass und Unmut</span>. ",
+            "de": "Doch der beschuldigte Mönch weicht dem Problem aus, lenkt das Gespräch auf Nebensächlichkeiten und zeigt <span class=\"ebt-matched\">Ärger, Hass und Unmut</span>. ",
             "en": "But the accused mendicant dodges the issue, distracts the discussion with irrelevant points, and displays annoyance, hate, and bitterness. ",
             "matched": true
           }

@@ -41,7 +41,7 @@
     "pattern": "mörderisch",
     "method": "phrase",
     "resultPattern": "\\bmörderisch",
-    "segsMatched": 8,
+    "segsMatched": 9,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn4/sn4.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn4/sn4.1_translation-de-sabbamitta.json",
@@ -49,6 +49,9 @@
       "root/pli/ms/sutta/mn/mn26_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn26_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn26_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn14_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn14_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn14_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn12_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn12_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn12_translation-en-sujato.json",
@@ -65,6 +68,7 @@
     "suttaRefs": [
       "sn4.1/de/sabbamitta",
       "mn26/de/sabbamitta",
+      "mn14/de/sabbamitta",
       "mn12/de/sabbamitta",
       "dhp383-423/de/sabbamitta",
       "cp20/de/sabbamitta",
@@ -211,6 +215,38 @@
           "pli": 48,
           "de": 32,
           "en": 32
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn14_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn14_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn14_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn14",
+        "lang": "de",
+        "segMap": {
+          "mn14:17.5": {
+            "scid": "mn14:17.5",
+            "pli": "“atthi kho vo, nigaṇṭhā, pubbe pāpakammaṁ kataṁ, taṁ imāya kaṭukāya dukkarakārikāya nijjīretha; ",
+            "de": "„Ihr Jaina-Asketen, ihr habt in einem früheren Leben schlechte Taten getan. Tragt sie ab mit diesem strengen <span class=\"ebt-matched\">mörderisch</span>en Treiben. ",
+            "en": "“O Jain ascetics, you have done bad deeds in a past life. Wear them away with these severe and grueling austerities. ",
+            "matched": true
+          }
+        },
+        "score": 1.007,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 14\nDie kürzere Lehrrede über die Masse des Leidens",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 144,
+          "de": 136,
+          "en": 143
         }
       },
       {

@@ -41,11 +41,14 @@
     "pattern": "heißt es so",
     "method": "phrase",
     "resultPattern": "\\bheißt es so",
-    "segsMatched": 12,
+    "segsMatched": 13,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn33_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn33_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an6/an6.51_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an6/an6.51_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an6/an6.51_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an2/an2.42-51_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an2/an2.42-51_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an2/an2.42-51_translation-en-sujato.json",
@@ -61,9 +64,6 @@
       "root/pli/ms/sutta/an/an8/an8.2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.2_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an8/an8.2_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an6/an6.51_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an6/an6.51_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an6/an6.51_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.20_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.20_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.20_translation-en-sujato.json",
@@ -73,16 +73,55 @@
     ],
     "suttaRefs": [
       "mn33/de/sabbamitta",
+      "an6.51/de/sabbamitta",
       "an2.42-51/de/sabbamitta",
       "an11.17/de/sabbamitta",
       "mn146/de/sabbamitta",
       "dn34/de/sabbamitta",
       "an8.2/de/sabbamitta",
-      "an6.51/de/sabbamitta",
       "an3.20/de/sabbamitta",
       "an10.11/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an6/an6.51_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an6/an6.51_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an6/an6.51_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an6.51",
+        "lang": "de",
+        "segMap": {
+          "an6.51:3.6": {
+            "scid": "an6.51:3.6",
+            "pli": "‘idaṁ, bhante, kathaṁ; imassa kvattho’ti? ",
+            "de": "‚Warum, Herr, <span class=\"ebt-matched\">heißt es so</span>? Was bedeutet das?‘ ",
+            "en": "‘Why, sir, does it say this? What does that mean?’ ",
+            "matched": true
+          },
+          "an6.51:4.8": {
+            "scid": "an6.51:4.8",
+            "pli": "‘idaṁ, bhante, kathaṁ; imassa kvattho’ti? ",
+            "de": "‚Warum, Herr, <span class=\"ebt-matched\">heißt es so</span>? Was bedeutet das?‘ ",
+            "en": "",
+            "matched": true
+          }
+        },
+        "score": 2.069,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 6.51\n5. Das Kapitel mit Dhammika\nMit Ānanda",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 29,
+          "de": 28,
+          "en": 28
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/an/an11/an11.17_root-pli-ms.json",
@@ -234,38 +273,6 @@
       },
       {
         "bilaraPaths": [
-          "root/pli/ms/sutta/an/an6/an6.51_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/an/an6/an6.51_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/an/an6/an6.51_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "an6.51",
-        "lang": "de",
-        "segMap": {
-          "an6.51:3.6": {
-            "scid": "an6.51:3.6",
-            "pli": "‘idaṁ, bhante, kathaṁ; imassa kvattho’ti? ",
-            "de": "‚Warum, Herr, <span class=\"ebt-matched\">heißt es so</span>? Was bedeutet das?‘ ",
-            "en": "‘Why, sir, does it say this? What does that mean?’ ",
-            "matched": true
-          }
-        },
-        "score": 1.034,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Nummerierte Lehrreden 6.51\n5. Das Kapitel mit Dhammika\nMit Ānanda",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 29,
-          "de": 24,
-          "en": 28
-        }
-      },
-      {
-        "bilaraPaths": [
           "root/pli/ms/sutta/an/an3/an3.20_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/an/an3/an3.20_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/an/an3/an3.20_translation-en-sujato.json"
@@ -352,7 +359,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Mittlere Lehrreden 146\nNandakas Rat",
+        "title": "Mittlere Lehrreden 146\nNandakas Unterweisung",
         "segsMatched": 1,
         "langSegs": {
           "pli": 361,

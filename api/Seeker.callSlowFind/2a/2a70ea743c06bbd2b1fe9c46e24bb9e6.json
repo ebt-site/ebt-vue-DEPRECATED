@@ -41,7 +41,7 @@
     "pattern": "jammer.* und klag",
     "method": "phrase",
     "resultPattern": "\\bjammer.* und klag",
-    "segsMatched": 45,
+    "segsMatched": 49,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an5/an5.50_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.50_translation-de-sabbamitta.json",
@@ -67,6 +67,12 @@
       "root/pli/ms/sutta/sn/sn36/sn36.4_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn36/sn36.4_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn36/sn36.4_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn14_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn14_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn14_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn13_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn13_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn13_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.192_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.192_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.192_translation-en-sujato.json",
@@ -83,6 +89,8 @@
       "an8.77/de/sabbamitta",
       "an8.61/de/sabbamitta",
       "sn36.4/de/sabbamitta",
+      "mn14/de/sabbamitta",
+      "mn13/de/sabbamitta",
       "an4.192/de/sabbamitta",
       "an6.63/de/sabbamitta"
     ],
@@ -398,28 +406,28 @@
           "an8.61:1.6": {
             "scid": "an8.61:1.6",
             "pli": "So tena alābhena socati kilamati paridevati, urattāḷiṁ kandati, sammohaṁ āpajjati. ",
-            "de": "Sie ist deshalb bekümmert und <span class=\"ebt-matched\">jammert und klag</span>t, schlägt sich an die Brust und stürzt in Verwirrung, weil sie diesen materiellen Besitz nicht bekommt. ",
+            "de": "Er ist deshalb bekümmert und <span class=\"ebt-matched\">jammert und klag</span>t, schlägt sich an die Brust und stürzt in Verwirrung, weil er diesen materiellen Besitz nicht bekommt. ",
             "en": "And so they sorrow and wail and lament, beating their breast and falling into confusion because they don’t get those material possessions. ",
             "matched": true
           },
           "an8.61:3.4": {
             "scid": "an8.61:3.4",
             "pli": "So tena alābhena socati, kilamati, paridevati, urattāḷiṁ kandati, sammohaṁ āpajjati. ",
-            "de": "Sie ist deshalb bekümmert und <span class=\"ebt-matched\">jammert und klag</span>t, schlägt sich an die Brust und stürzt in Verwirrung, weil sie diesen materiellen Besitz nicht bekommt. ",
+            "de": "Er ist deshalb bekümmert und <span class=\"ebt-matched\">jammert und klag</span>t, schlägt sich an die Brust und stürzt in Verwirrung, weil er diesen materiellen Besitz nicht bekommt. ",
             "en": "And so they sorrow and wail and lament, beating their breast and falling into confusion because they don’t get those material possessions. ",
             "matched": true
           },
           "an8.61:5.4": {
             "scid": "an8.61:5.4",
             "pli": "So tena alābhena na socati na kilamati na paridevati, na urattāḷiṁ kandati, na sammohaṁ āpajjati. ",
-            "de": "Sie ist deshalb nicht bekümmert und <span class=\"ebt-matched\">jammert und klag</span>t nicht, schlägt sich nicht an die Brust und stürzt nicht in Verwirrung, weil sie diesen materiellen Besitz nicht bekommt. ",
+            "de": "Er ist deshalb nicht bekümmert und <span class=\"ebt-matched\">jammert und klag</span>t nicht, schlägt sich nicht an die Brust und stürzt nicht in Verwirrung, weil er diesen materiellen Besitz nicht bekommt. ",
             "en": "But they don’t sorrow and wail and lament, beating their breast and falling into confusion because they don’t get those material possessions. ",
             "matched": true
           },
           "an8.61:7.4": {
             "scid": "an8.61:7.4",
             "pli": "So tena alābhena na socati, na kilamati, na paridevati, na urattāḷiṁ kandati, na sammohaṁ āpajjati. ",
-            "de": "Sie ist deshalb nicht bekümmert und <span class=\"ebt-matched\">jammert und klag</span>t nicht, schlägt sich nicht an die Brust und stürzt nicht in Verwirrung, weil sie diesen materiellen Besitz nicht bekommt. ",
+            "de": "Er ist deshalb nicht bekümmert und <span class=\"ebt-matched\">jammert und klag</span>t nicht, schlägt sich nicht an die Brust und stürzt nicht in Verwirrung, weil er diesen materiellen Besitz nicht bekommt. ",
             "en": "But they don’t sorrow and wail and lament, beating their breast and falling into confusion because they don’t get those material possessions. ",
             "matched": true
           }
@@ -618,6 +626,84 @@
           "pli": 76,
           "de": 75,
           "en": 75
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn14_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn14_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn14_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn14",
+        "lang": "de",
+        "segMap": {
+          "mn14:8.2": {
+            "scid": "mn14:8.2",
+            "pli": "so socati kilamati paridevati urattāḷiṁ kandati sammohaṁ āpajjati ‘moghaṁ vata me uṭṭhānaṁ, aphalo vata me vāyāmo’ti. ",
+            "de": "Dann ist er bekümmert und <span class=\"ebt-matched\">jammert und klag</span>t, schlägt sich an die Brust und stürzt in Verwirrung: ‚Ach, meine harte Arbeit ist vergebens! Meine Bemühungen sind fruchtlos!‘ ",
+            "en": "If this happens, they sorrow and wail and lament, beating their breast and falling into confusion, saying: ‘Oh, my hard work is wasted. My efforts are fruitless!’ ",
+            "matched": true
+          },
+          "mn14:9.5": {
+            "scid": "mn14:9.5",
+            "pli": "So socati kilamati paridevati urattāḷiṁ kandati sammohaṁ āpajjati: ",
+            "de": "Er ist bekümmert und <span class=\"ebt-matched\">jammert und klag</span>t, schlägt sich an die Brust und stürzt in Verwirrung: ",
+            "en": "They sorrow and wail and lament, beating their breast and falling into confusion: ",
+            "matched": true
+          }
+        },
+        "score": 2.014,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 14\nDie kürzere Lehrrede über die Masse des Leidens",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 144,
+          "de": 136,
+          "en": 143
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn13_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn13_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn13_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn13",
+        "lang": "de",
+        "segMap": {
+          "mn13:9.2": {
+            "scid": "mn13:9.2",
+            "pli": "So socati kilamati paridevati urattāḷiṁ kandati, sammohaṁ āpajjati: ",
+            "de": "Dann ist er bekümmert und <span class=\"ebt-matched\">jammert und klag</span>t, schlägt sich an die Brust und stürzt in Verwirrung: ",
+            "en": "If this happens, they sorrow and wail and lament, beating their breast and falling into confusion, saying: ",
+            "matched": true
+          },
+          "mn13:10.5": {
+            "scid": "mn13:10.5",
+            "pli": "So socati kilamati paridevati urattāḷiṁ kandati, sammohaṁ āpajjati: ",
+            "de": "Er ist bekümmert und <span class=\"ebt-matched\">jammert und klag</span>t, schlägt sich an die Brust und stürzt in Verwirrung: ",
+            "en": "They sorrow and wail and lament, beating their breast and falling into confusion: ",
+            "matched": true
+          }
+        },
+        "score": 2.013,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 13\nDie längere Lehrrede über die Masse des Leidens",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 152,
+          "de": 135,
+          "en": 151
         }
       },
       {

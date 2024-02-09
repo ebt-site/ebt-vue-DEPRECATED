@@ -41,7 +41,7 @@
     "pattern": "warm gehalten und bebrütet",
     "method": "phrase",
     "resultPattern": "\\bwarm gehalten und bebrütet",
-    "segsMatched": 9,
+    "segsMatched": 10,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn22/sn22.101_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.101_translation-de-sabbamitta.json",
@@ -49,6 +49,9 @@
       "root/pli/ms/sutta/an/an7/an7.71_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an7/an7.71_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an7/an7.71_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn16_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn16_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn16_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.11_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.11_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an8/an8.11_translation-en-sujato.json"
@@ -56,6 +59,7 @@
     "suttaRefs": [
       "sn22.101/de/sabbamitta",
       "an7.71/de/sabbamitta",
+      "mn16/de/sabbamitta",
       "an8.11/de/sabbamitta"
     ],
     "mlDocs": [
@@ -163,6 +167,38 @@
           "pli": 61,
           "de": 60,
           "en": 60
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn16_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn16_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn16_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn16",
+        "lang": "de",
+        "segMap": {
+          "mn16:27.3": {
+            "scid": "mn16:27.3",
+            "pli": "Tānassu kukkuṭiyā sammā adhisayitāni sammā pariseditāni sammā paribhāvitāni. ",
+            "de": "und sie hätte richtig darauf gesessen, sie <span class=\"ebt-matched\">warm gehalten und bebrütet</span>. ",
+            "en": "And she properly sat on them to keep them warm and incubated. ",
+            "matched": true
+          }
+        },
+        "score": 1.012,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 16\nSeelische Kargheit",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 83,
+          "de": 80,
+          "en": 82
         }
       },
       {

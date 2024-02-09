@@ -41,7 +41,7 @@
     "pattern": "spiegelbild",
     "method": "phrase",
     "resultPattern": "\\bspiegelbild",
-    "segsMatched": 28,
+    "segsMatched": 30,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn46/sn46.55_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn46/sn46.55_translation-de-sabbamitta.json",
@@ -52,6 +52,12 @@
       "root/pli/ms/sutta/sn/sn22/sn22.83_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.83_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.83_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn61_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn61_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn61_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn15_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn15_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn15_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json",
@@ -78,6 +84,8 @@
       "sn46.55/de/sabbamitta",
       "an5.193/de/sabbamitta",
       "sn22.83/de/sabbamitta",
+      "mn61/de/sabbamitta",
+      "mn15/de/sabbamitta",
       "dn2/de/sabbamitta",
       "dn10/de/sabbamitta",
       "an10.55/de/sabbamitta",
@@ -471,6 +479,38 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn61_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn61_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn61_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn61",
+        "lang": "de",
+        "segMap": {
+          "mn61:8.3": {
+            "scid": "mn61:8.3",
+            "pli": "“Paccavekkhaṇattho, bhante”ti. ",
+            "de": "„Er dient dazu, sein <span class=\"ebt-matched\">Spiegelbild</span> zu prüfen, Herr.“ ",
+            "en": "“It’s for checking your reflection, sir.” ",
+            "matched": true
+          }
+        },
+        "score": 1.007,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 61\nDie Unterweisung Rāhulas bei Ambalaṭṭhika",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 134,
+          "de": 133,
+          "en": 133
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/dn/dn10_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/dn/dn10_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/dn/dn10_translation-en-sujato.json"
@@ -499,6 +539,38 @@
           "pli": 285,
           "de": 227,
           "en": 227
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn15_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn15_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn15_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn15",
+        "lang": "de",
+        "segMap": {
+          "mn15:8.3": {
+            "scid": "mn15:8.3",
+            "pli": "Seyyathāpi, āvuso, itthī vā puriso vā, daharo yuvā maṇḍanajātiko, ādāse vā parisuddhe pariyodāte, acche vā udakapatte, sakaṁ mukhanimittaṁ paccavekkhamāno, sace tattha passati rajaṁ vā aṅgaṇaṁ vā, tasseva rajassa vā aṅgaṇassa vā pahānāya vāyamati; ",
+            "de": "Wie eine Frau oder ein Mann, jung, jugendlich, in Schmuck vernarrt. Die Person würde in einem blanken Spiegel oder einer Schale klaren Wassers ihr <span class=\"ebt-matched\">Spiegelbild</span> betrachten. Wenn sie dort eine Unreinheit oder einen Makel sähe, würde sie versuchen, das zu entfernen. ",
+            "en": "Suppose there was a woman or man who was young, youthful, and fond of adornments, and they check their own reflection in a clean bright mirror or a clear bowl of water. If they see any dirt or blemish there, they’d try to remove it. ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 15\nMessen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 263,
+          "de": 110,
+          "en": 262
         }
       },
       {
