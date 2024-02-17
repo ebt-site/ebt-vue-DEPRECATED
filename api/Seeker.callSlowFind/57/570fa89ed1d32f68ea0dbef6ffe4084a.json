@@ -41,7 +41,7 @@
     "pattern": "die ausführliche bedeutung",
     "method": "phrase",
     "resultPattern": "\\bdie ausführliche bedeutung",
-    "segsMatched": 93,
+    "segsMatched": 95,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn1/sn1.20_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn1/sn1.20_translation-de-sabbamitta.json",
@@ -109,6 +109,9 @@
       "root/pli/ms/sutta/sn/sn22/sn22.3_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.3_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn18_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn18_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn18_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn133_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn133_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn133_translation-en-sujato.json",
@@ -160,6 +163,7 @@
       "sn35.116/de/sabbamitta",
       "sn22.4/de/sabbamitta",
       "sn22.3/de/sabbamitta",
+      "mn18/de/sabbamitta",
       "mn133/de/sabbamitta",
       "dn21/de/sabbamitta",
       "an7.63/de/sabbamitta",
@@ -1421,6 +1425,45 @@
           "pli": 86,
           "de": 58,
           "en": 85
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn18_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn18_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn18_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn18",
+        "lang": "de",
+        "segMap": {
+          "mn18:15.4": {
+            "scid": "mn18:15.4",
+            "pli": "etthete pāpakā akusalā dhammā aparisesā nirujjhantī’ti, imassa kho ahaṁ, āvuso, bhagavatā saṅkhittena uddesassa uddiṭṭhassa vitthārena atthaṁ avibhattassa evaṁ vitthārena atthaṁ ājānāmi—",
+            "de": "Eben das ist das Ende der zugrunde liegenden Neigung zu sinnlicher Begierde, zu Ablehnung, zu Ansichten, zu Zweifel, zu Einbildung, zu dem Wunsch, wiedergeboren zu werden, und zu Unwissenheit. Es ist das Ende des Greifens zu Stock und Schwert, das Ende von Zank und Streit, von Zwist, Anschuldigungen, entzweiender Rede und Lügen. Das ist es, wo diese entstandenen schlechten, untauglichen Eigenschaften restlos aufhören.‘ Ich verstehe <span class=\"ebt-matched\">die ausführliche Bedeutung</span> dieses kurzen Merksatzes zum Aufsagen, der vom Buddha vorgestellt wurde, so: ",
+            "en": "just this is the end of the underlying tendencies to desire, repulsion, views, doubt, conceit, the desire to be reborn, and ignorance. This is the end of taking up the rod and the sword, the end of quarrels, arguments, and disputes, of accusations, divisive speech, and lies. This is where these bad, unskillful qualities cease without anything left over.’ This is how I understand the detailed meaning of this passage for recitation. ",
+            "matched": true
+          },
+          "mn18:19.1": {
+            "scid": "mn18:19.1",
+            "pli": "Yaṁ kho no, āvuso, bhagavā saṅkhittena uddesaṁ uddisitvā vitthārena atthaṁ avibhajitvā uṭṭhāyāsanā vihāraṁ paviṭṭho: ",
+            "de": "So verstehe ich <span class=\"ebt-matched\">die ausführliche Bedeutung</span> dieses kurzen Merksatzes zum Aufsagen, der vom Buddha vorgestellt wurde. ",
+            "en": "This is how I understand the detailed meaning of that brief passage for recitation given by the Buddha. ",
+            "matched": true
+          }
+        },
+        "score": 2.013,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 18\nDer Honigkuchen",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 150,
+          "de": 102,
+          "en": 149
         }
       },
       {

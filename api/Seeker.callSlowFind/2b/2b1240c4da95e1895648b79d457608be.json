@@ -41,8 +41,11 @@
     "pattern": "liebevolle.* herz",
     "method": "phrase",
     "resultPattern": "\\bliebevolle.* herz",
-    "segsMatched": 30,
+    "segsMatched": 42,
     "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn21_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn21_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn21_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.167_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.167_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.167_translation-en-sujato.json",
@@ -90,6 +93,7 @@
       "translation/en/sujato/sutta/an/an10/an10.44_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "mn21/de/sabbamitta",
       "an5.167/de/sabbamitta",
       "dn8/de/sabbamitta",
       "an1.51-60/de/sabbamitta",
@@ -107,6 +111,115 @@
       "an10.44/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn21_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn21_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn21_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn21",
+        "lang": "de",
+        "segMap": {
+          "mn21:6.4": {
+            "scid": "mn21:6.4",
+            "pli": "‘na ceva me cittaṁ vipariṇataṁ bhavissati, na ca pāpikaṁ vācaṁ nicchāressāmi, hitānukampī ca viharissāmi mettacitto, na dosantaro’ti. ",
+            "de": "‚Mein Geist wird unberührt sein. Es werden mir keine bösen Worte entfahren. Ich werde voller Anteilnahme bleiben, mit einem <span class=\"ebt-matched\">liebevollen Herz</span>en, nicht mit verstecktem Hass.‘ ",
+            "en": "‘My mind will be unaffected. I will blurt out no bad words. I will remain full of compassion, with a heart of love and no secret hate.’ ",
+            "matched": true
+          },
+          "mn21:6.8": {
+            "scid": "mn21:6.8",
+            "pli": "‘na ceva me cittaṁ vipariṇataṁ bhavissati, na ca pāpikaṁ vācaṁ nicchāressāmi, hitānukampī ca viharissāmi mettacitto, na dosantaro’ti. ",
+            "de": "‚Mein Geist wird unberührt sein. Es werden mir keine bösen Worte entfahren. Ich werde voller Anteilnahme bleiben, mit einem <span class=\"ebt-matched\">liebevollen Herz</span>en, nicht mit verstecktem Hass.‘ ",
+            "en": "‘My mind will be unaffected. I will blurt out no bad words. I will remain full of compassion, with a heart of love and no secret hate.’ ",
+            "matched": true
+          },
+          "mn21:6.11": {
+            "scid": "mn21:6.11",
+            "pli": "Tatrāpi te, phagguna, evaṁ sikkhitabbaṁ ‘na ceva me cittaṁ vipariṇataṁ bhavissati, na ca pāpikaṁ vācaṁ nicchāressāmi, hitānukampī ca viharissāmi mettacitto, na dosantaro’ti. ",
+            "de": "Wenn das geschieht, sollst du dich so schulen: ‚Mein Geist wird unberührt sein. Es werden mir keine bösen Worte entfahren. Ich werde voller Anteilnahme bleiben, mit einem <span class=\"ebt-matched\">liebevollen Herz</span>en, nicht mit verstecktem Hass.‘ ",
+            "en": "If that happens, you should train like this: ‘My mind will be unaffected. I will blurt out no bad words. I will remain full of compassion, with a heart of love and no secret hate.’ ",
+            "matched": true
+          },
+          "mn21:6.14": {
+            "scid": "mn21:6.14",
+            "pli": "Tatrāpi te, phagguna, evaṁ sikkhitabbaṁ ‘na ceva me cittaṁ vipariṇataṁ bhavissati, na ca pāpikaṁ vācaṁ nicchāressāmi, hitānukampī ca viharissāmi mettacitto, na dosantaro’ti. ",
+            "de": "Wenn das geschieht, sollst du dich so schulen: ‚Mein Geist wird unberührt sein. Es werden mir keine bösen Worte entfahren. Ich werde voller Anteilnahme bleiben, mit einem <span class=\"ebt-matched\">liebevollen Herz</span>en, nicht mit verstecktem Hass.‘ ",
+            "en": "If that happens, you should train like this: ‘My mind will be unaffected. I will blurt out no bad words. I will remain full of compassion, with a heart of love and no secret hate.’ ",
+            "matched": true
+          },
+          "mn21:11.6": {
+            "scid": "mn21:11.6",
+            "pli": "mettacittā vā dosantarā vā. ",
+            "de": "mit <span class=\"ebt-matched\">liebevollem Herz</span>en oder mit verstecktem Hass. ",
+            "en": "from a heart of love or from secret hate. ",
+            "matched": true
+          },
+          "mn21:11.11": {
+            "scid": "mn21:11.11",
+            "pli": "mettacittā vā, bhikkhave, pare vadamānā vadeyyuṁ dosantarā vā. ",
+            "de": "mit <span class=\"ebt-matched\">liebevollem Herz</span>en oder mit verstecktem Hass. ",
+            "en": "",
+            "matched": true
+          },
+          "mn21:11.13": {
+            "scid": "mn21:11.13",
+            "pli": "‘na ceva no cittaṁ vipariṇataṁ bhavissati, na ca pāpikaṁ vācaṁ nicchāressāma, hitānukampī ca viharissāma mettacittā, na dosantarā. ",
+            "de": "‚Unser Geist wird unberührt sein. Es werden uns keine bösen Worte entfahren. Wir werden voller Anteilnahme bleiben, mit einem <span class=\"ebt-matched\">liebevollen Herz</span>en, nicht mit verstecktem Hass. ",
+            "en": "‘Our minds will remain unaffected. We will blurt out no bad words. We will remain full of compassion, with a heart of love and no secret hate. ",
+            "matched": true
+          },
+          "mn21:13.6": {
+            "scid": "mn21:13.6",
+            "pli": "mettacittā vā dosantarā vā. ",
+            "de": "mit <span class=\"ebt-matched\">liebevollem Herz</span>en oder mit verstecktem Hass. ",
+            "en": "from a heart of love or from secret hate. ",
+            "matched": true
+          },
+          "mn21:13.13": {
+            "scid": "mn21:13.13",
+            "pli": "‘na ceva no cittaṁ vipariṇataṁ bhavissati, na ca pāpikaṁ vācaṁ nicchāressāma, hitānukampī ca viharissāma mettacittā na dosantarā. ",
+            "de": "‚Unser Geist wird unberührt sein. Es werden uns keine bösen Worte entfahren. Wir werden voller Anteilnahme bleiben, mit einem <span class=\"ebt-matched\">liebevollen Herz</span>en, nicht mit verstecktem Hass. ",
+            "en": "‘Our minds will remain unaffected. We will blurt out no bad words. We will remain full of compassion, with a heart of love and no secret hate. ",
+            "matched": true
+          },
+          "mn21:19.6": {
+            "scid": "mn21:19.6",
+            "pli": "mettacittā vā dosantarā vā. ",
+            "de": "mit <span class=\"ebt-matched\">liebevollem Herz</span>en oder mit verstecktem Hass. ",
+            "en": "from a heart of love or from secret hate. ",
+            "matched": true
+          },
+          "mn21:19.13": {
+            "scid": "mn21:19.13",
+            "pli": "‘na ceva no cittaṁ vipariṇataṁ bhavissati, na ca pāpikaṁ vācaṁ nicchāressāma hitānukampī ca viharissāma mettacittā na dosantarā. ",
+            "de": "‚Unser Geist wird unberührt sein. Es werden uns keine bösen Worte entfahren. Wir werden voller Anteilnahme bleiben, mit einem <span class=\"ebt-matched\">liebevollen Herz</span>en, nicht mit verstecktem Hass. ",
+            "en": "‘Our minds will remain unaffected. We will blurt out no bad words. We will remain full of compassion, with a heart of love and no secret hate. ",
+            "matched": true
+          },
+          "mn21:20.3": {
+            "scid": "mn21:20.3",
+            "pli": "‘na ceva no cittaṁ vipariṇataṁ bhavissati, na ca pāpikaṁ vācaṁ nicchāressāma, hitānukampī ca viharissāma mettacittā na dosantarā. ",
+            "de": "‚Unser Geist wird unberührt sein. Es werden uns keine bösen Worte entfahren. Wir werden voller Anteilnahme bleiben, mit einem <span class=\"ebt-matched\">liebevollen Herz</span>en, nicht mit verstecktem Hass. ",
+            "en": "‘Our minds will remain unaffected. We will blurt out no bad words. We will remain full of compassion, with a heart of love and no secret hate. ",
+            "matched": true
+          }
+        },
+        "score": 12.053,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 21\nDas Gleichnis von der Säge",
+        "segsMatched": 12,
+        "langSegs": {
+          "pli": 227,
+          "de": 213,
+          "en": 226
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/an/an5/an5.167_root-pli-ms.json",
@@ -129,7 +242,7 @@
           "an5.167:3.1": {
             "scid": "an5.167:3.1",
             "pli": "Idhāhaṁ, āvuso, ekaccaṁ puggalaṁ passāmi akālena codiyamānaṁ no kālena kupitaṁ, abhūtena codiyamānaṁ no bhūtena kupitaṁ, pharusena codiyamānaṁ no saṇhena kupitaṁ, anatthasaṁhitena codiyamānaṁ no atthasaṁhitena kupitaṁ, dosantarena codiyamānaṁ no mettacittena kupitaṁ. ",
-            "de": "Nehmen wir an, ich sehe, wie eine gewisse Person zur falschen Zeit angeklagt wird, sie wird nicht zur rechten Zeit gestört. Sie wird mit der Unwahrheit angeklagt, nicht mit der Wahrheit gestört. Sie wird hart angeklagt, nicht sanft gestört. Sie wird zum Schaden angeklagt, nicht zum Segen gestört. Sie wird mit verstecktem Hass angeklagt, nicht mit <span class=\"ebt-matched\">liebevollem Herz</span>en gestört. ",
+            "de": "Nehmen wir an, ich sehe, wie ein gewisser Mensch zur falschen Zeit angeklagt wird, er wird nicht zur rechten Zeit gestört. Er wird mit der Unwahrheit angeklagt, nicht mit der Wahrheit gestört. Er wird hart angeklagt, nicht sanft gestört. Er wird zum Schaden angeklagt, nicht zum Segen gestört. Er wird mit verstecktem Hass angeklagt, nicht mit <span class=\"ebt-matched\">liebevollem Herz</span>en gestört. ",
             "en": "Take a case where I see a certain person being accused at the wrong time, not being disturbed at the right time. They’re accused falsely, not disturbed truthfully. They’re accused harshly, not disturbed gently. They’re accused harmfully, not disturbed beneficially. They’re accused with secret hate, not disturbed lovingly. ",
             "matched": true
           },
@@ -150,7 +263,7 @@
           "an5.167:6.1": {
             "scid": "an5.167:6.1",
             "pli": "Idha panāhaṁ, āvuso, ekaccaṁ puggalaṁ passāmi kālena codiyamānaṁ no akālena kupitaṁ, bhūtena codiyamānaṁ no abhūtena kupitaṁ, saṇhena codiyamānaṁ no pharusena kupitaṁ, atthasaṁhitena codiyamānaṁ no anatthasaṁhitena kupitaṁ, mettacittena codiyamānaṁ no dosantarena kupitaṁ. ",
-            "de": "Nehmen wir an, ich sehe, wie eine gewisse Person zur rechten Zeit angeklagt wird, sie wird nicht zur falschen Zeit gestört. Sie wird mit der Wahrheit angeklagt, nicht mit der Unwahrheit gestört. Sie wird sanft angeklagt, nicht hart gestört. Sie wird zum Segen angeklagt, nicht zum Schaden gestört. Sie wird mit <span class=\"ebt-matched\">liebevollem Herz</span>en angeklagt, nicht mit verstecktem Hass gestört. ",
+            "de": "Nehmen wir an, ich sehe, wie ein gewisser Mensch zur rechten Zeit angeklagt wird, er wird nicht zur falschen Zeit gestört. Er wird mit der Wahrheit angeklagt, nicht mit der Unwahrheit gestört. Er wird sanft angeklagt, nicht hart gestört. Er wird zum Segen angeklagt, nicht zum Schaden gestört. Er wird mit <span class=\"ebt-matched\">liebevollem Herz</span>en angeklagt, nicht mit verstecktem Hass gestört. ",
             "en": "Take a case where I see a certain person being accused at the right time, not being disturbed at the wrong time. They’re accused truthfully, not disturbed falsely. They’re accused gently, not disturbed harshly. They’re accused beneficially, not disturbed harmfully. They’re accused lovingly, not disturbed with secret hate. ",
             "matched": true
           },

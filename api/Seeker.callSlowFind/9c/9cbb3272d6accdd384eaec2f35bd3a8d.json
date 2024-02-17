@@ -41,11 +41,14 @@
     "pattern": "mit einem stock",
     "method": "phrase",
     "resultPattern": "\\bmit einem stock",
-    "segsMatched": 10,
+    "segsMatched": 12,
     "bilaraPaths": [
       "root/pli/ms/sutta/kn/ud/vagga2/ud2.3_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga2/ud2.3_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/ud/vagga2/ud2.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn21_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn21_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn21_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/dhp/dhp129-145_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/dhp/dhp129-145_translation-de-sabbamitta.json",
       "translation/en/suddhaso/sutta/kn/dhp/dhp129-145_translation-en-suddhaso.json",
@@ -66,6 +69,7 @@
     ],
     "suttaRefs": [
       "ud2.3/de/sabbamitta",
+      "mn21/de/sabbamitta",
       "dhp129-145/de/sabbamitta",
       "an3.27/de/sabbamitta",
       "sn4.25/de/sabbamitta",
@@ -196,6 +200,45 @@
           "pli": 85,
           "de": 73,
           "en": 74
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn21_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn21_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn21_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn21",
+        "lang": "de",
+        "segMap": {
+          "mn21:18.2": {
+            "scid": "mn21:18.2",
+            "pli": "Atha puriso āgaccheyya kaṭṭhaṁ vā kathalaṁ vā ādāya. ",
+            "de": "und es käme jemand <span class=\"ebt-matched\">mit einem Stock</span> oder einem Stein ",
+            "en": "Then a person comes along carrying a stick or a stone, ",
+            "matched": true
+          },
+          "mn21:18.10": {
+            "scid": "mn21:18.10",
+            "pli": "Sā na sukarā kaṭṭhena vā kathalena vā sarasaraṁ kātuṁ bharabharaṁ kātuṁ; ",
+            "de": "Es ist nicht leicht, ihn <span class=\"ebt-matched\">mit einem Stock</span> oder einem Stein zum Rascheln und Knistern zu bringen. ",
+            "en": "It’s not easy to make it rustle or crackle with a stick or stone. ",
+            "matched": true
+          }
+        },
+        "score": 2.009,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 21\nDas Gleichnis von der Säge",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 227,
+          "de": 213,
+          "en": 226
         }
       },
       {

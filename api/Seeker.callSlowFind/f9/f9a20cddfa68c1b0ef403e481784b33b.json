@@ -41,7 +41,7 @@
     "pattern": "herr de[rs]",
     "method": "phrase",
     "resultPattern": "\\bherr de[rs]",
-    "segsMatched": 25,
+    "segsMatched": 27,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn20_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn20_translation-de-sabbamitta.json",
@@ -55,6 +55,9 @@
       "root/pli/ms/sutta/sn/sn35/sn35.116_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn35/sn35.116_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.116_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn18_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn18_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn18_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn133_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn133_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn133_translation-en-sujato.json",
@@ -94,6 +97,7 @@
       "dn21/de/sabbamitta",
       "sn35.245/de/sabbamitta",
       "sn35.116/de/sabbamitta",
+      "mn18/de/sabbamitta",
       "mn133/de/sabbamitta",
       "an10.172/de/sabbamitta",
       "an10.115/de/sabbamitta",
@@ -360,6 +364,45 @@
           "pli": 122,
           "de": 94,
           "en": 121
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn18_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn18_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn18_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn18",
+        "lang": "de",
+        "segMap": {
+          "mn18:12.3": {
+            "scid": "mn18:12.3",
+            "pli": "So hāvuso, bhagavā jānaṁ jānāti, passaṁ passati, cakkhubhūto ñāṇabhūto dhammabhūto brahmabhūto, vattā pavattā, atthassa ninnetā, amatassa dātā, dhammassāmī tathāgato. ",
+            "de": "Denn er ist der Buddha, der erkennt und sieht. Er ist das Sehen, er ist das Erkennen, er ist die Manifestation des Grundsatzes, er ist die Manifestation der Göttlichkeit. Er ist der Lehrer, der Verkünder, der Erheller der Bedeutung, der Gewährer der Unsterblichkeit, der <span class=\"ebt-matched\">Herr der</span> Wahrheit, der Klargewordene. ",
+            "en": "For he is the Buddha, the one who knows and sees. He is vision, he is knowledge, he is the manifestation of principle, he is the manifestation of divinity. He is the teacher, the proclaimer, the elucidator of meaning, the bestower of freedom from death, the lord of truth, the Realized One. ",
+            "matched": true
+          },
+          "mn18:13.1": {
+            "scid": "mn18:13.1",
+            "pli": "“Addhāvuso kaccāna, bhagavā jānaṁ jānāti, passaṁ passati, cakkhubhūto ñāṇabhūto dhammabhūto brahmabhūto, vattā pavattā, atthassa ninnetā, amatassa dātā, dhammassāmī tathāgato. ",
+            "de": "„Sicherlich ist er der Buddha, der erkennt und sieht. Sicherlich ist er das Sehen, ist er die Manifestation des Grundsatzes, ist er die Manifestation der Göttlichkeit. Sicherlich ist er der Lehrer, der Verkünder, der Erheller der Bedeutung, der Gewährer der Unsterblichkeit, der <span class=\"ebt-matched\">Herr der</span> Wahrheit, der Klargewordene. ",
+            "en": "“Certainly he is the Buddha, the one who knows and sees. He is vision, he is knowledge, he is the manifestation of principle, he is the manifestation of divinity. He is the teacher, the proclaimer, the elucidator of meaning, the bestower of freedom from death, the lord of truth, the Realized One. ",
+            "matched": true
+          }
+        },
+        "score": 2.013,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 18\nDer Honigkuchen",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 150,
+          "de": 102,
+          "en": 149
         }
       },
       {
