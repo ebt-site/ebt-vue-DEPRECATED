@@ -41,7 +41,7 @@
     "pattern": "fünf bestimmungsorte",
     "method": "phrase",
     "resultPattern": "\\bfünf bestimmungsorte",
-    "segsMatched": 18,
+    "segsMatched": 19,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an9/an9.68_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an9/an9.68_translation-de-sabbamitta.json",
@@ -107,7 +107,8 @@
       "sn56.105-107/de/sabbamitta",
       "sn56.104/de/sabbamitta",
       "sn56.103/de/sabbamitta",
-      "sn56.102/de/sabbamitta"
+      "sn56.102/de/sabbamitta",
+      "dn33/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -609,6 +610,38 @@
           "pli": 29,
           "de": 14,
           "en": 27
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn33",
+        "lang": "de",
+        "segMap": {
+          "dn33:2.1.14": {
+            "scid": "dn33:2.1.14",
+            "pli": "Pañca gatiyo—",
+            "de": "<span class=\"ebt-matched\">Fünf Bestimmungsorte</span>: ",
+            "en": "<em>Five destinations:</em> ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 33\nIm Chor aufsagen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 1167,
+          "de": 1166,
+          "en": 1166
         }
       }
     ],

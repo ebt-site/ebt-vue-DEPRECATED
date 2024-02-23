@@ -41,7 +41,7 @@
     "pattern": "drei arten der versenkung",
     "method": "phrase",
     "resultPattern": "\\bdrei arten der versenkung",
-    "segsMatched": 2,
+    "segsMatched": 3,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
@@ -67,20 +67,27 @@
         "sutta_uid": "dn33",
         "lang": "de",
         "segMap": {
+          "dn33:1.10.120": {
+            "scid": "dn33:1.10.120",
+            "pli": "Tayo samādhī—",
+            "de": "<span class=\"ebt-matched\">Drei Arten der Versenkung</span>: ",
+            "en": "<em>Three kinds of immersion:</em> ",
+            "matched": true
+          },
           "dn33:1.10.122": {
             "scid": "dn33:1.10.122",
             "pli": "Aparepi tayo samādhī—",
-            "de": "<em>Weitere <span class=\"ebt-matched\">drei Arten der Versenkung</span>:</em> ",
+            "de": "Weitere <span class=\"ebt-matched\">drei Arten der Versenkung</span>: ",
             "en": "<em>Another three kinds of immersion:</em> ",
             "matched": true
           }
         },
-        "score": 1.001,
+        "score": 2.002,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Lange Lehrreden 33\nIm Chor aufsagen",
-        "segsMatched": 1,
+        "segsMatched": 2,
         "langSegs": {
           "pli": 1167,
           "de": 1166,

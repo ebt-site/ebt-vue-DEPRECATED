@@ -41,7 +41,7 @@
     "pattern": "vervollkommnung de[sr]",
     "method": "phrase",
     "resultPattern": "\\bvervollkommnung de[sr]",
-    "segsMatched": 210,
+    "segsMatched": 218,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an8/an8.55_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.55_translation-de-sabbamitta.json",
@@ -67,6 +67,9 @@
       "root/pli/ms/sutta/an/an3/an3.118_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.118_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.118_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn30_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn30_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn30_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.119_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.119_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.119_translation-en-sujato.json",
@@ -176,6 +179,7 @@
       "an3.117/de/sabbamitta",
       "an4.61/de/sabbamitta",
       "an3.118/de/sabbamitta",
+      "mn30/de/sabbamitta",
       "an3.119/de/sabbamitta",
       "sn45.85-89/de/sabbamitta",
       "sn45.78-82/de/sabbamitta",
@@ -1218,6 +1222,87 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn30_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn30_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn30_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn30",
+        "lang": "de",
+        "segMap": {
+          "mn30:9.8": {
+            "scid": "mn30:9.8",
+            "pli": "So sīlasampadaṁ ārādheti. ",
+            "de": "So erlangt er <span class=\"ebt-matched\">Vervollkommnung des</span> sittlichen Verhaltens. ",
+            "en": "They achieve accomplishment in ethics. ",
+            "matched": true
+          },
+          "mn30:10.8": {
+            "scid": "mn30:10.8",
+            "pli": "So sīlasampadaṁ ārādheti. ",
+            "de": "So erlangt er <span class=\"ebt-matched\">Vervollkommnung des</span> sittlichen Verhaltens. ",
+            "en": "They achieve accomplishment in ethics … ",
+            "matched": true
+          },
+          "mn30:10.12": {
+            "scid": "mn30:10.12",
+            "pli": "So samādhisampadaṁ ārādheti. ",
+            "de": "So erlangt er <span class=\"ebt-matched\">Vervollkommnung der</span> Versenkung. ",
+            "en": "and immersion. … ",
+            "matched": true
+          },
+          "mn30:11.8": {
+            "scid": "mn30:11.8",
+            "pli": "So sīlasampadaṁ ārādheti. ",
+            "de": "So erlangt er <span class=\"ebt-matched\">Vervollkommnung des</span> sittlichen Verhaltens. ",
+            "en": "They achieve accomplishment in ethics … ",
+            "matched": true
+          },
+          "mn30:11.12": {
+            "scid": "mn30:11.12",
+            "pli": "So samādhisampadaṁ ārādheti. ",
+            "de": "So erlangt er <span class=\"ebt-matched\">Vervollkommnung der</span> Versenkung. ",
+            "en": "immersion … ",
+            "matched": true
+          },
+          "mn30:12.8": {
+            "scid": "mn30:12.8",
+            "pli": "So sīlasampadaṁ ārādheti. ",
+            "de": "So erlangt er <span class=\"ebt-matched\">Vervollkommnung des</span> sittlichen Verhaltens. ",
+            "en": "They become accomplished in ethics. ",
+            "matched": true
+          },
+          "mn30:12.12": {
+            "scid": "mn30:12.12",
+            "pli": "So samādhisampadaṁ ārādheti. ",
+            "de": "So erlangt er <span class=\"ebt-matched\">Vervollkommnung der</span> Versenkung. ",
+            "en": "They become accomplished in immersion. ",
+            "matched": true
+          },
+          "mn30:23.1": {
+            "scid": "mn30:23.1",
+            "pli": "Iti kho, brāhmaṇa, nayidaṁ brahmacariyaṁ lābhasakkārasilokānisaṁsaṁ, na sīlasampadānisaṁsaṁ, na samādhisampadānisaṁsaṁ, na ñāṇadassanānisaṁsaṁ. ",
+            "de": "Und so, Brahmane, führt man dieses geistliche Leben nicht für Besitz, Ehre und Beliebtheit, nicht für die <span class=\"ebt-matched\">Vervollkommnung des</span> sittlichen Verhaltens, nicht für die <span class=\"ebt-matched\">Vervollkommnung der</span> Versenkung oder für das Erkennen und Sehen. ",
+            "en": "And so, brahmin, this spiritual life is not lived for the sake of possessions, honor, and popularity, or for accomplishment in ethics, or for accomplishment in immersion, or for knowledge and vision. ",
+            "matched": true
+          }
+        },
+        "score": 8.049,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 30\nDas kürzere Gleichnis vom Kernholz",
+        "segsMatched": 8,
+        "langSegs": {
+          "pli": 163,
+          "de": 155,
+          "en": 161
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an3/an3.119_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/an/an3/an3.119_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/an/an3/an3.119_translation-en-sujato.json"
@@ -1446,7 +1531,7 @@
           "sn45.57-61:1.2": {
             "scid": "sn45.57-61:1.2",
             "pli": "evameva kho, bhikkhave, bhikkhuno ariyassa aṭṭhaṅgikassa maggassa uppādāya etaṁ pubbaṅgamaṁ etaṁ pubbanimittaṁ, yadidaṁ—sīlasampadā …pe… ",
-            "de": "Ebenso ist <span class=\"ebt-matched\">Vervollkommnung des</span> sittlichen Verhaltens für einen Mönch oder eine Nonne der Vorbote und Vorläufer des edlen achtfachen Pfades. …“ ",
+            "de": "Ebenso ist <span class=\"ebt-matched\">Vervollkommnung des</span> sittlichen Verhaltens für einen Mönch der Vorbote und Vorläufer des edlen achtfachen Pfades. …“ ",
             "en": "In the same way accomplishment in ethics is the forerunner and precursor of the noble eightfold path for a mendicant. …” ",
             "matched": true
           },
@@ -2025,7 +2110,7 @@
           "sn45.55:1.2": {
             "scid": "sn45.55:1.2",
             "pli": "evameva kho, bhikkhave, bhikkhuno ariyassa aṭṭhaṅgikassa maggassa uppādāya etaṁ pubbaṅgamaṁ etaṁ pubbanimittaṁ, yadidaṁ—yonisomanasikārasampadā. ",
-            "de": "Ebenso ist <span class=\"ebt-matched\">Vervollkommnung des</span> gründlichen Gebrauchs des Geistes für einen Mönch oder eine Nonne der Vorbote und Vorläufer des edlen achtfachen Pfades. ",
+            "de": "Ebenso ist <span class=\"ebt-matched\">Vervollkommnung des</span> gründlichen Gebrauchs des Geistes für einen Mönch der Vorbote und Vorläufer des edlen achtfachen Pfades. ",
             "en": "In the same way accomplishment in rational application of mind is the forerunner and precursor of the noble eightfold path for a mendicant. ",
             "matched": true
           }
@@ -2064,7 +2149,7 @@
           "sn45.50-54:1.2": {
             "scid": "sn45.50-54:1.2",
             "pli": "evameva kho, bhikkhave, bhikkhuno ariyassa aṭṭhaṅgikassa maggassa uppādāya etaṁ pubbaṅgamaṁ etaṁ pubbanimittaṁ, yadidaṁ—sīlasampadā. ",
-            "de": "Ebenso ist <span class=\"ebt-matched\">Vervollkommnung des</span> sittlichen Verhaltens für einen Mönch oder eine Nonne der Vorbote und Vorläufer des edlen achtfachen Pfades. ",
+            "de": "Ebenso ist <span class=\"ebt-matched\">Vervollkommnung des</span> sittlichen Verhaltens für einen Mönch der Vorbote und Vorläufer des edlen achtfachen Pfades. ",
             "en": "In the same way accomplishment in ethics is the forerunner and precursor of the noble eightfold path for a mendicant. ",
             "matched": true
           }
@@ -2103,7 +2188,7 @@
           "sn45.62:1.1": {
             "scid": "sn45.62:1.1",
             "pli": "“Yadidaṁ—yonisomanasikārasampadā. ",
-            "de": "„… Ebenso ist <span class=\"ebt-matched\">Vervollkommnung des</span> gründlichen Gebrauchs des Geistes für einen Mönch oder eine Nonne der Vorbote und Vorläufer des edlen achtfachen Pfades. ",
+            "de": "„… Ebenso ist <span class=\"ebt-matched\">Vervollkommnung des</span> gründlichen Gebrauchs des Geistes für einen Mönch der Vorbote und Vorläufer des edlen achtfachen Pfades. ",
             "en": "“… accomplishment in rational application of mind. ",
             "matched": true
           }
@@ -2298,7 +2383,7 @@
           "dn33:2.1.47": {
             "scid": "dn33:2.1.47",
             "pli": "Pañca ānisaṁsā sīlavato sīlasampadāya. ",
-            "de": "<em>Fünf vorteilhafte Folgen, die die <span class=\"ebt-matched\">Vervollkommnung des</span> sittlichen Verhaltens für einen sittlichen Menschen haben:</em> ",
+            "de": "Fünf vorteilhafte Folgen, die die <span class=\"ebt-matched\">Vervollkommnung des</span> sittlichen Verhaltens für einen sittlichen Menschen haben: ",
             "en": "<em>Five benefits for an ethical person because of their accomplishment in ethics:</em> ",
             "matched": true
           }

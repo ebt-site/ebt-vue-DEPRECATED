@@ -41,7 +41,7 @@
     "pattern": "überquer",
     "method": "phrase",
     "resultPattern": "\\büberquer",
-    "segsMatched": 91,
+    "segsMatched": 92,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an4/an4.196_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.196_translation-de-sabbamitta.json",
@@ -127,6 +127,9 @@
       "root/pli/ms/sutta/mn/mn26_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn26_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn26_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn25_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn25_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn25_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/ud/vagga8/ud8.10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga8/ud8.10_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/ud/vagga8/ud8.10_translation-en-sujato.json",
@@ -224,6 +227,7 @@
       "sn1.35/de/sabbamitta",
       "sn1.33/de/sabbamitta",
       "mn26/de/sabbamitta",
+      "mn25/de/sabbamitta",
       "ud8.10/de/sabbamitta",
       "ud7.8/de/sabbamitta",
       "ud7.3/de/sabbamitta",
@@ -1978,6 +1982,38 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn25_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn25_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn25_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn25",
+        "lang": "de",
+        "segMap": {
+          "mn25:20.2": {
+            "scid": "mn25:20.2",
+            "pli": "Ayaṁ vuccati, bhikkhave, bhikkhu andhamakāsi māraṁ, apadaṁ vadhitvā māracakkhuṁ adassanaṁ gato pāpimato tiṇṇo loke visattikan”ti. ",
+            "de": "Das nennt man einen Mönch, der Māra geblendet hat, der Māras Auge spurlos ausgelöscht hat und der dorthin gegangen ist, wo der Böse ihn nicht sehen kann. Und er hat das Klammern an der Welt <span class=\"ebt-matched\">überquer</span>t.“ ",
+            "en": "This is called a mendicant who has blinded Māra, put out his eyes without a trace, and gone where the Wicked One cannot see. And they’ve crossed over clinging to the world.” ",
+            "matched": true
+          }
+        },
+        "score": 1.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 25\nSäen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 199,
+          "de": 126,
+          "en": 198
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/kn/snp/vagga3/snp3.11_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/kn/snp/vagga3/snp3.11_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/kn/snp/vagga3/snp3.11_translation-en-sujato.json"
@@ -2102,38 +2138,6 @@
           "pli": 365,
           "de": 363,
           "en": 364
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/dn/dn21_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/dn/dn21_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/dn/dn21_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "dn21",
-        "lang": "de",
-        "segMap": {
-          "dn21:1.12.68": {
-            "scid": "dn21:1.12.68",
-            "pli": "Buddhaṁ namassāma jinaṁ janindaṁ. ",
-            "de": "der die Flut <span class=\"ebt-matched\">überquer</span>t und den Zweifel abgeschnitten hat. ",
-            "en": "who has crossed the flood and cut off doubt. ",
-            "matched": true
-          }
-        },
-        "score": 1.002,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Lange Lehrreden 21\nSakkas Fragen",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 515,
-          "de": 478,
-          "en": 514
         }
       }
     ],

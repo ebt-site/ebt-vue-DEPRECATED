@@ -41,7 +41,7 @@
     "pattern": "glück, das ohne tadel ist",
     "method": "phrase",
     "resultPattern": "\\bglück, das ohne tadel ist",
-    "segsMatched": 7,
+    "segsMatched": 8,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn51_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn51_translation-de-sabbamitta.json",
@@ -49,6 +49,9 @@
       "root/pli/ms/sutta/mn/mn38_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn38_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn38_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn27_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn27_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn27_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn8_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn8_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn8_translation-en-sujato.json",
@@ -68,6 +71,7 @@
     "suttaRefs": [
       "mn51/de/sabbamitta",
       "mn38/de/sabbamitta",
+      "mn27/de/sabbamitta",
       "dn8/de/sabbamitta",
       "dn2/de/sabbamitta",
       "dn10/de/sabbamitta",
@@ -137,6 +141,38 @@
           "pli": 148,
           "de": 146,
           "en": 147
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn27_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn27_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn27_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn27",
+        "lang": "de",
+        "segMap": {
+          "mn27:14.4": {
+            "scid": "mn27:14.4",
+            "pli": "So iminā ariyena sīlakkhandhena samannāgato ajjhattaṁ anavajjasukhaṁ paṭisaṁvedeti. ",
+            "de": "Wenn er diesen Umfang der edlen Sittlichkeit besitzt, erfährt er im Innern ein <span class=\"ebt-matched\">Glück, das ohne Tadel ist</span>. ",
+            "en": "When they have this entire spectrum of noble ethics, they experience a blameless happiness inside themselves. ",
+            "matched": true
+          }
+        },
+        "score": 1.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 27\nDas kürzere Gleichnis von der Elefanten-Fußspur",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 201,
+          "de": 189,
+          "en": 200
         }
       },
       {

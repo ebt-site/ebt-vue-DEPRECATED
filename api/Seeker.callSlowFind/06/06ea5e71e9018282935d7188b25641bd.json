@@ -41,7 +41,7 @@
     "pattern": "das weltall ist ewig",
     "method": "phrase",
     "resultPattern": "\\bdas weltall ist ewig",
-    "segsMatched": 23,
+    "segsMatched": 24,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn24/sn24.9_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn24/sn24.9_translation-de-sabbamitta.json",
@@ -76,6 +76,9 @@
       "root/pli/ms/sutta/sn/sn33/sn33.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn33/sn33.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn33/sn33.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn25_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn25_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn25_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/ud/vagga6/ud6.4_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga6/ud6.4_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/ud/vagga6/ud6.4_translation-en-sujato.json",
@@ -101,6 +104,7 @@
       "sn44.7/de/sabbamitta",
       "sn33.2/de/sabbamitta",
       "sn33.1/de/sabbamitta",
+      "mn25/de/sabbamitta",
       "ud6.4/de/sabbamitta",
       "an4.38/de/sabbamitta",
       "an10.95/de/sabbamitta",
@@ -641,6 +645,38 @@
           "pli": 106,
           "de": 90,
           "en": 88
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn25_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn25_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn25_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn25",
+        "lang": "de",
+        "segMap": {
+          "mn25:10.21": {
+            "scid": "mn25:10.21",
+            "pli": "sassato loko itipi, asassato loko itipi; ",
+            "de": "‚<span class=\"ebt-matched\">Das Weltall ist ewig</span>‘ oder ‚Das Weltall ist zeitlich‘; ",
+            "en": "‘The cosmos is eternal’ or ‘The cosmos is not eternal’; ",
+            "matched": true
+          }
+        },
+        "score": 1.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 25\nSäen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 199,
+          "de": 126,
+          "en": 198
         }
       }
     ],

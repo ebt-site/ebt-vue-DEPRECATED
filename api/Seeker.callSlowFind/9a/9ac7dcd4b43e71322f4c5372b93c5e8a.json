@@ -41,8 +41,11 @@
     "pattern": "besser.* erlesener",
     "method": "phrase",
     "resultPattern": "\\bbesser.* erlesener",
-    "segsMatched": 33,
+    "segsMatched": 58,
     "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn30_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn30_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn30_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json",
@@ -84,6 +87,7 @@
       "translation/en/sujato/sutta/an/an10/an10.22_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "mn30/de/sabbamitta",
       "dn2/de/sabbamitta",
       "an4.16/de/sabbamitta",
       "sn3.12/de/sabbamitta",
@@ -99,6 +103,206 @@
       "an10.22/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn30_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn30_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn30_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn30",
+        "lang": "de",
+        "segMap": {
+          "mn30:8.8": {
+            "scid": "mn30:8.8",
+            "pli": "Lābhasakkārasilokena ca ye aññe dhammā uttaritarā ca paṇītatarā ca tesaṁ dhammānaṁ sacchikiriyāya na chandaṁ janeti, na vāyamati, olīnavuttiko ca hoti sāthaliko. ",
+            "de": "Er wird wegen dieses Besitzes, dieser Ehre und dieser Beliebtheit träge und lasch, entwickelt keinen Enthusiasmus, setzt sich nicht ein, rüttelt seine Energie nicht auf, um diese Dinge zu verwirklichen, die <span class=\"ebt-matched\">besser und erlesener</span> sind. ",
+            "en": "They become lazy and slack on account of their possessions, honor, and popularity, not generating enthusiasm or trying to realize those things that are better and finer. … ",
+            "matched": true
+          },
+          "mn30:9.7": {
+            "scid": "mn30:9.7",
+            "pli": "Lābhasakkārasilokena ca ye aññe dhammā uttaritarā ca paṇītatarā ca tesaṁ dhammānaṁ sacchikiriyāya chandaṁ janeti, vāyamati, anolīnavuttiko ca hoti asāthaliko. ",
+            "de": "Er wird wegen dieses Besitzes, dieser Ehre und dieser Beliebtheit nicht träge und lasch, sondern entwickelt Enthusiasmus, setzt sich ein und rüttelt seine Energie auf, um diese Dinge zu verwirklichen, die <span class=\"ebt-matched\">besser und erlesener</span> sind. ",
+            "en": "They don’t become lazy and slack regarding their possessions, honor, and popularity, but generate enthusiasm and try to realize those things that are better and finer. ",
+            "matched": true
+          },
+          "mn30:9.12": {
+            "scid": "mn30:9.12",
+            "pli": "Sīlasampadāya ca ye aññe dhammā uttaritarā ca paṇītatarā ca tesaṁ dhammānaṁ sacchikiriyāya na chandaṁ janeti, na vāyamati, olīnavuttiko ca hoti sāthaliko. ",
+            "de": "Er wird wegen der Vervollkommnung seines sittlichen Verhaltens träge und lasch, entwickelt keinen Enthusiasmus, setzt sich nicht ein, rüttelt seine Energie nicht auf, um diese Dinge zu verwirklichen, die <span class=\"ebt-matched\">besser und erlesener</span> sind. ",
+            "en": "They become lazy and slack regarding their accomplishment in ethics, not generating enthusiasm or trying to realize those things that are better and finer. … ",
+            "matched": true
+          },
+          "mn30:10.7": {
+            "scid": "mn30:10.7",
+            "pli": "Lābhasakkārasilokena ca ye aññe dhammā uttaritarā ca paṇītatarā ca tesaṁ dhammānaṁ sacchikiriyāya chandaṁ janeti, vāyamati, anolīnavuttiko ca hoti asāthaliko. ",
+            "de": "Er wird wegen dieses Besitzes, dieser Ehre und dieser Beliebtheit nicht träge und lasch, sondern entwickelt Enthusiasmus, setzt sich ein und rüttelt seine Energie auf, um diese Dinge zu verwirklichen, die <span class=\"ebt-matched\">besser und erlesener</span> sind. ",
+            "en": "",
+            "matched": true
+          },
+          "mn30:10.11": {
+            "scid": "mn30:10.11",
+            "pli": "Sīlasampadāya ca ye aññe dhammā uttaritarā ca paṇītatarā ca tesaṁ dhammānaṁ sacchikiriyāya chandaṁ janeti, vāyamati, anolīnavuttiko ca hoti asāthaliko. ",
+            "de": "Er wird wegen der Vervollkommnung seines sittlichen Verhaltens nicht träge und lasch, sondern entwickelt Enthusiasmus, setzt sich ein und rüttelt seine Energie auf, um diese Dinge zu verwirklichen, die <span class=\"ebt-matched\">besser und erlesener</span> sind. ",
+            "en": "",
+            "matched": true
+          },
+          "mn30:10.16": {
+            "scid": "mn30:10.16",
+            "pli": "Samādhisampadāya ca ye aññe dhammā uttaritarā ca paṇītatarā ca, tesaṁ dhammānaṁ sacchikiriyāya na chandaṁ janeti, na vāyamati, olīnavuttiko ca hoti sāthaliko. ",
+            "de": "Er wird wegen der Vervollkommnung seiner Versenkung träge und lasch, entwickelt keinen Enthusiasmus, setzt sich nicht ein, rüttelt seine Energie nicht auf, um diese Dinge zu verwirklichen, die <span class=\"ebt-matched\">besser und erlesener</span> sind. ",
+            "en": "They become lazy and slack regarding their accomplishment in immersion, not generating enthusiasm or trying to realize those things that are better and finer. … ",
+            "matched": true
+          },
+          "mn30:11.7": {
+            "scid": "mn30:11.7",
+            "pli": "Lābhasakkārasilokena ca ye aññe dhammā uttaritarā ca paṇītatarā ca tesaṁ dhammānaṁ sacchikiriyāya chandaṁ janeti, vāyamati, anolīnavuttiko ca hoti asāthaliko. ",
+            "de": "Er wird wegen dieses Besitzes, dieser Ehre und dieser Beliebtheit nicht träge und lasch, sondern entwickelt Enthusiasmus, setzt sich ein und rüttelt seine Energie auf, um diese Dinge zu verwirklichen, die <span class=\"ebt-matched\">besser und erlesener</span> sind. ",
+            "en": "",
+            "matched": true
+          },
+          "mn30:11.11": {
+            "scid": "mn30:11.11",
+            "pli": "Sīlasampadāya ca ye aññe dhammā uttaritarā ca paṇītatarā ca tesaṁ dhammānaṁ sacchikiriyāya chandaṁ janeti, vāyamati, anolīnavuttiko ca hoti asāthaliko. ",
+            "de": "Er wird wegen der Vervollkommnung seines sittlichen Verhaltens nicht träge und lasch, sondern entwickelt Enthusiasmus, setzt sich ein und rüttelt seine Energie auf, um diese Dinge zu verwirklichen, die <span class=\"ebt-matched\">besser und erlesener</span> sind. ",
+            "en": "",
+            "matched": true
+          },
+          "mn30:11.15": {
+            "scid": "mn30:11.15",
+            "pli": "Samādhisampadāya ca ye aññe dhammā uttaritarā ca paṇītatarā ca tesaṁ dhammānaṁ sacchikiriyāya chandaṁ janeti, vāyamati, anolīnavuttiko ca hoti asāthaliko. ",
+            "de": "Er wird wegen der Vervollkommnung seiner Versenkung nicht träge und lasch, sondern entwickelt Enthusiasmus, setzt sich ein und rüttelt seine Energie auf, um diese Dinge zu verwirklichen, die <span class=\"ebt-matched\">besser und erlesener</span> sind. ",
+            "en": "",
+            "matched": true
+          },
+          "mn30:11.20": {
+            "scid": "mn30:11.20",
+            "pli": "Ñāṇadassanena ca ye aññe dhammā uttaritarā ca paṇītatarā ca tesaṁ dhammānaṁ sacchikiriyāya na chandaṁ janeti, na vāyamati, olīnavuttiko ca hoti sāthaliko. ",
+            "de": "Er wird wegen seines Erkennens und Sehens träge und lasch, entwickelt keinen Enthusiasmus, setzt sich nicht ein, rüttelt seine Energie nicht auf, um diese Dinge zu verwirklichen, die <span class=\"ebt-matched\">besser und erlesener</span> sind. ",
+            "en": "They become lazy and slack regarding their knowledge and vision, not generating enthusiasm or trying to realize those things that are better and finer. … ",
+            "matched": true
+          },
+          "mn30:12.7": {
+            "scid": "mn30:12.7",
+            "pli": "Lābhasakkārasilokena ca ye aññe dhammā uttaritarā ca paṇītatarā ca tesaṁ dhammānaṁ sacchikiriyāya chandaṁ janeti, vāyamati, anolīnavuttiko ca hoti asāthaliko. ",
+            "de": "Er wird wegen dieses Besitzes, dieser Ehre und dieser Beliebtheit nicht träge und lasch, sondern entwickelt Enthusiasmus, setzt sich ein und rüttelt seine Energie auf, um diese Dinge zu verwirklichen, die <span class=\"ebt-matched\">besser und erlesener</span> sind. ",
+            "en": "They don’t become lazy and slack on account of their possessions, honor, and popularity, but generate enthusiasm and try to realize those things that are better and finer. ",
+            "matched": true
+          },
+          "mn30:12.11": {
+            "scid": "mn30:12.11",
+            "pli": "Sīlasampadāya ca ye aññe dhammā uttaritarā ca paṇītatarā ca tesaṁ dhammānaṁ sacchikiriyāya chandaṁ janeti, vāyamati, anolīnavuttiko ca hoti asāthaliko. ",
+            "de": "Er wird wegen der Vervollkommnung seines sittlichen Verhaltens nicht träge und lasch, sondern entwickelt Enthusiasmus, setzt sich ein und rüttelt seine Energie auf, um diese Dinge zu verwirklichen, die <span class=\"ebt-matched\">besser und erlesener</span> sind. ",
+            "en": "They don’t become lazy and slack regarding their accomplishment in ethics, but generate enthusiasm and try to realize those things that are better and finer. ",
+            "matched": true
+          },
+          "mn30:12.15": {
+            "scid": "mn30:12.15",
+            "pli": "Samādhisampadāya ca ye aññe dhammā uttaritarā ca paṇītatarā ca tesaṁ dhammānaṁ sacchikiriyāya chandaṁ janeti, vāyamati, anolīnavuttiko ca hoti asāthaliko. ",
+            "de": "Er wird wegen der Vervollkommnung seiner Versenkung nicht träge und lasch, sondern entwickelt Enthusiasmus, setzt sich ein und rüttelt seine Energie auf, um diese Dinge zu verwirklichen, die <span class=\"ebt-matched\">besser und erlesener</span> sind. ",
+            "en": "They don’t become lazy and slack regarding their accomplishment in immersion, but generate enthusiasm and try to realize those things that are better and finer. ",
+            "matched": true
+          },
+          "mn30:12.19": {
+            "scid": "mn30:12.19",
+            "pli": "Ñāṇadassanena ca ye aññe dhammā uttaritarā ca paṇītatarā ca tesaṁ dhammānaṁ sacchikiriyāya chandaṁ janeti, vāyamati, anolīnavuttiko ca hoti asāthaliko. ",
+            "de": "Er wird wegen seines Erkennens und Sehens nicht träge und lasch, sondern entwickelt Enthusiasmus, setzt sich ein und rüttelt seine Energie auf, um diese Dinge zu verwirklichen, die <span class=\"ebt-matched\">besser und erlesener</span> sind. ",
+            "en": "They don’t become lazy and slack regarding their knowledge and vision, but generate enthusiasm and try to realize those things that are better and finer. ",
+            "matched": true
+          },
+          "mn30:12.20": {
+            "scid": "mn30:12.20",
+            "pli": "Katame ca, brāhmaṇa, dhammā ñāṇadassanena uttaritarā ca paṇītatarā ca? ",
+            "de": "Und was sind diese Dinge, die <span class=\"ebt-matched\">besser und erlesener</span> sind als Erkennen und Sehen? ",
+            "en": "And what are those things that are better and finer than knowledge and vision? ",
+            "matched": true
+          },
+          "mn30:13.2": {
+            "scid": "mn30:13.2",
+            "pli": "Ayampi kho, brāhmaṇa, dhammo ñāṇadassanena uttaritaro ca paṇītataro ca. ",
+            "de": "Das ist ein Ding, das <span class=\"ebt-matched\">besser und erlesener</span> ist als Erkennen und Sehen. ",
+            "en": "This is something better and finer than knowledge and vision. ",
+            "matched": true
+          },
+          "mn30:14.2": {
+            "scid": "mn30:14.2",
+            "pli": "Ayampi kho, brāhmaṇa, dhammo ñāṇadassanena uttaritaro ca paṇītataro ca. ",
+            "de": "Auch das ist ein Ding, das <span class=\"ebt-matched\">besser und erlesener</span> ist als Erkennen und Sehen. ",
+            "en": "This too is something better and finer than knowledge and vision. ",
+            "matched": true
+          },
+          "mn30:15.2": {
+            "scid": "mn30:15.2",
+            "pli": "Ayampi kho, brāhmaṇa, dhammo ñāṇadassanena uttaritaro ca paṇītataro ca. ",
+            "de": "Auch das ist ein Ding, das <span class=\"ebt-matched\">besser und erlesener</span> ist als Erkennen und Sehen. ",
+            "en": "This too is something better and finer than knowledge and vision. ",
+            "matched": true
+          },
+          "mn30:16.2": {
+            "scid": "mn30:16.2",
+            "pli": "Ayampi kho, brāhmaṇa, dhammo ñāṇadassanena uttaritaro ca paṇītataro ca. ",
+            "de": "Auch das ist ein Ding, das <span class=\"ebt-matched\">besser und erlesener</span> ist als Erkennen und Sehen. ",
+            "en": "This too is something better and finer than knowledge and vision. ",
+            "matched": true
+          },
+          "mn30:17.2": {
+            "scid": "mn30:17.2",
+            "pli": "Ayampi kho, brāhmaṇa, dhammo ñāṇadassanena uttaritaro ca paṇītataro ca. ",
+            "de": "Auch das ist ein Ding, das <span class=\"ebt-matched\">besser und erlesener</span> ist als Erkennen und Sehen. ",
+            "en": "This too is something better and finer than knowledge and vision. ",
+            "matched": true
+          },
+          "mn30:18.2": {
+            "scid": "mn30:18.2",
+            "pli": "Ayampi kho, brāhmaṇa, dhammo ñāṇadassanena uttaritaro ca paṇītataro ca. ",
+            "de": "Auch das ist ein Ding, das <span class=\"ebt-matched\">besser und erlesener</span> ist als Erkennen und Sehen. ",
+            "en": "This too is something better and finer than knowledge and vision. ",
+            "matched": true
+          },
+          "mn30:19.2": {
+            "scid": "mn30:19.2",
+            "pli": "Ayampi kho, brāhmaṇa, dhammo ñāṇadassanena uttaritaro ca paṇītataro ca. ",
+            "de": "Auch das ist ein Ding, das <span class=\"ebt-matched\">besser und erlesener</span> ist als Erkennen und Sehen. ",
+            "en": "This too is something better and finer than knowledge and vision. ",
+            "matched": true
+          },
+          "mn30:20.2": {
+            "scid": "mn30:20.2",
+            "pli": "Ayampi kho, brāhmaṇa, dhammo ñāṇadassanena uttaritaro ca paṇītataro ca. ",
+            "de": "Auch das ist ein Ding, das <span class=\"ebt-matched\">besser und erlesener</span> ist als Erkennen und Sehen. ",
+            "en": "This too is something better and finer than knowledge and vision. ",
+            "matched": true
+          },
+          "mn30:21.2": {
+            "scid": "mn30:21.2",
+            "pli": "Ayampi kho, brāhmaṇa, dhammo ñāṇadassanena uttaritaro ca paṇītataro ca. ",
+            "de": "Auch das ist ein Ding, das <span class=\"ebt-matched\">besser und erlesener</span> ist als Erkennen und Sehen. ",
+            "en": "This too is something better and finer than knowledge and vision. ",
+            "matched": true
+          },
+          "mn30:21.3": {
+            "scid": "mn30:21.3",
+            "pli": "Ime kho, brāhmaṇa, dhammā ñāṇadassanena uttaritarā ca paṇītatarā ca. ",
+            "de": "Das sind diese Dinge, die <span class=\"ebt-matched\">besser und erlesener</span> sind als Erkennen und Sehen. ",
+            "en": "These are the things that are better and finer than knowledge and vision. ",
+            "matched": true
+          }
+        },
+        "score": 25.153,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 30\nDas kürzere Gleichnis vom Kernholz",
+        "segsMatched": 25,
+        "langSegs": {
+          "pli": 163,
+          "de": 155,
+          "en": 161
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",

@@ -41,7 +41,7 @@
     "pattern": "drei demonstrationen",
     "method": "phrase",
     "resultPattern": "\\bdrei demonstrationen",
-    "segsMatched": 9,
+    "segsMatched": 10,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an3/an3.60_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.60_translation-de-sabbamitta.json",
@@ -55,7 +55,8 @@
     ],
     "suttaRefs": [
       "an3.60/de/sabbamitta",
-      "dn11/de/sabbamitta"
+      "dn11/de/sabbamitta",
+      "dn33/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -169,6 +170,38 @@
           "pli": 199,
           "de": 161,
           "en": 198
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn33",
+        "lang": "de",
+        "segMap": {
+          "dn33:1.10.145": {
+            "scid": "dn33:1.10.145",
+            "pli": "Tīṇi pāṭihāriyāni—",
+            "de": "<span class=\"ebt-matched\">Drei Demonstrationen</span>: ",
+            "en": "<em>Three demonstrations:</em> ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 33\nIm Chor aufsagen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 1167,
+          "de": 1166,
+          "en": 1166
         }
       }
     ],

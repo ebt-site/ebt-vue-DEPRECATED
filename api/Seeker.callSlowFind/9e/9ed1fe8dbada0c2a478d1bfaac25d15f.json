@@ -41,7 +41,7 @@
     "pattern": "eine fleckenlose seligkeit",
     "method": "phrase",
     "resultPattern": "\\beine fleckenlose seligkeit",
-    "segsMatched": 6,
+    "segsMatched": 7,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn51_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn51_translation-de-sabbamitta.json",
@@ -49,6 +49,9 @@
       "root/pli/ms/sutta/mn/mn38_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn38_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn38_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn27_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn27_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn27_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json",
@@ -65,6 +68,7 @@
     "suttaRefs": [
       "mn51/de/sabbamitta",
       "mn38/de/sabbamitta",
+      "mn27/de/sabbamitta",
       "dn2/de/sabbamitta",
       "dn10/de/sabbamitta",
       "an4.198/de/sabbamitta",
@@ -133,6 +137,38 @@
           "pli": 148,
           "de": 146,
           "en": 147
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn27_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn27_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn27_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn27",
+        "lang": "de",
+        "segMap": {
+          "mn27:15.9": {
+            "scid": "mn27:15.9",
+            "pli": "So iminā ariyena indriyasaṁvarena samannāgato ajjhattaṁ abyāsekasukhaṁ paṭisaṁvedeti. ",
+            "de": "Wenn er diese edle Zügelung der Sinne besitzt, erfährt er im Innern <span class=\"ebt-matched\">eine fleckenlose Seligkeit</span>. ",
+            "en": "When they have this noble sense restraint, they experience an unsullied bliss inside themselves. ",
+            "matched": true
+          }
+        },
+        "score": 1.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 27\nDas kürzere Gleichnis von der Elefanten-Fußspur",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 201,
+          "de": 189,
+          "en": 200
         }
       },
       {

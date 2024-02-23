@@ -41,7 +41,7 @@
     "pattern": "das stehlen auf",
     "method": "phrase",
     "resultPattern": "\\bdas stehlen auf",
-    "segsMatched": 20,
+    "segsMatched": 21,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an8/an8.41_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.41_translation-de-sabbamitta.json",
@@ -61,6 +61,9 @@
       "root/pli/ms/sutta/mn/mn38_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn38_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn38_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn27_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn27_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn27_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json",
@@ -105,6 +108,7 @@
       "sn42.8/de/sabbamitta",
       "mn51/de/sabbamitta",
       "mn38/de/sabbamitta",
+      "mn27/de/sabbamitta",
       "dn2/de/sabbamitta",
       "dn1/de/sabbamitta",
       "an8.39/de/sabbamitta",
@@ -579,6 +583,38 @@
           "pli": 148,
           "de": 146,
           "en": 147
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn27_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn27_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn27_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn27",
+        "lang": "de",
+        "segMap": {
+          "mn27:13.2": {
+            "scid": "mn27:13.2",
+            "pli": "Adinnādānaṁ pahāya adinnādānā paṭivirato hoti dinnādāyī dinnapāṭikaṅkhī. Athenena sucibhūtena attanā viharati. ",
+            "de": "Er gibt <span class=\"ebt-matched\">das Stehlen auf</span> und stiehlt nicht mehr. Er nimmt nur, was gegeben wird, erwartet nur, was gegeben wird. Er hält sich selbst rein, indem er nicht stiehlt. ",
+            "en": "They give up stealing. They take only what’s given, and expect only what’s given. They keep themselves clean by not thieving. ",
+            "matched": true
+          }
+        },
+        "score": 1.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 27\nDas kürzere Gleichnis von der Elefanten-Fußspur",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 201,
+          "de": 189,
+          "en": 200
         }
       },
       {
