@@ -41,7 +41,7 @@
     "pattern": "raiva",
     "method": "phrase",
     "resultPattern": "\\braiva",
-    "segsMatched": 39,
+    "segsMatched": 44,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an3/an3.69_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an3/an3.69_translation-en-sujato.json",
@@ -55,12 +55,19 @@
       "root/pli/ms/sutta/sn/sn1/sn1.71_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.71_translation-en-sujato.json",
       "translation/pt/laera-quaresma/sutta/sn/sn1/sn1.71_translation-pt-laera-quaresma.json",
+      "root/pli/ms/sutta/an/an1/an1.11-20_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an1/an1.11-20_translation-en-sujato.json",
+      "translation/pt/ebt-deepl/sutta/an/an1/an1.11-20_translation-pt-ebt-deepl.json",
+      "translation/pt/laera-quaresma/sutta/an/an1/an1.11-20_translation-pt-laera-quaresma.json",
       "root/pli/ms/sutta/sn/sn2/sn2.29_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn2/sn2.29_translation-en-sujato.json",
       "translation/pt/laera-quaresma/sutta/sn/sn2/sn2.29_translation-pt-laera-quaresma.json",
       "root/pli/ms/sutta/sn/sn1/sn1.35_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.35_translation-en-sujato.json",
       "translation/pt/laera-quaresma/sutta/sn/sn1/sn1.35_translation-pt-laera-quaresma.json",
+      "root/pli/ms/sutta/mn/mn119_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn119_translation-en-sujato.json",
+      "translation/pt/laera-quaresma/sutta/mn/mn119_translation-pt-laera-quaresma.json",
       "root/pli/ms/sutta/an/an3/an3.37_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an3/an3.37_translation-en-sujato.json",
       "translation/pt/laera-quaresma/sutta/an/an3/an3.37_translation-pt-laera-quaresma.json",
@@ -88,8 +95,10 @@
       "an3.72/pt/laera-quaresma",
       "sn2.3/pt/laera-quaresma",
       "sn1.71/pt/laera-quaresma",
+      "an1.11-20/pt/laera-quaresma",
       "sn2.29/pt/laera-quaresma",
       "sn1.35/pt/laera-quaresma",
+      "mn119/pt/laera-quaresma",
       "an3.37/pt/laera-quaresma",
       "sn1.77/pt/laera-quaresma",
       "sn1.36/pt/laera-quaresma",
@@ -390,6 +399,53 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/an/an1/an1.11-20_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an1/an1.11-20_translation-en-sujato.json",
+          "translation/pt/ebt-deepl/sutta/an/an1/an1.11-20_translation-pt-ebt-deepl.json",
+          "translation/pt/laera-quaresma/sutta/an/an1/an1.11-20_translation-pt-laera-quaresma.json"
+        ],
+        "author_uid": "laera-quaresma",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an1.11-20",
+        "lang": "pt",
+        "segMap": {
+          "an1.12:1.1": {
+            "scid": "an1.12:1.1",
+            "pli": "“Nāhaṁ, bhikkhave, aññaṁ ekadhammampi samanupassāmi yena anuppanno vā byāpādo uppajjati uppanno vā byāpādo bhiyyobhāvāya vepullāya saṁvattati yathayidaṁ, bhikkhave, paṭighanimittaṁ. ",
+            "pt": "“Bhikkhus, não há algo que se compara ao aspecto da repulsividade em termos de fazer surgir a <span class=\"ebt-matched\">raiva</span> e mal querer, ou de fazer este crescer e aumentar quando já presente. ",
+            "en": "“Mendicants, I do not see a single thing that gives rise to ill will, or, when it has arisen, makes it increase and grow like the feature of harshness. ",
+            "matched": true
+          },
+          "an1.17:1.1": {
+            "scid": "an1.17:1.1",
+            "pli": "“Nāhaṁ, bhikkhave, aññaṁ ekadhammampi samanupassāmi yena anuppanno vā byāpādo nuppajjati uppanno vā byāpādo pahīyati yathayidaṁ, bhikkhave, mettā cetovimutti. ",
+            "pt": "“Bhikkhus, não há algo que se compara à libertação da mente através do bem-querer em termos de se impedir o surgimento da <span class=\"ebt-matched\">raiva</span>, ou de se abandonar esta quando já presente. ",
+            "en": "“Mendicants, I do not see a single thing that prevents ill will from arising, or, when it has arisen, abandons it like the heart’s release by love. ",
+            "matched": true
+          },
+          "an1.17:1.2": {
+            "scid": "an1.17:1.2",
+            "pli": "Mettaṁ, bhikkhave, cetovimuttiṁ yoniso manasi karoto anuppanno ceva byāpādo nuppajjati uppanno ca byāpādo pahīyatī”ti. ",
+            "pt": "Quando a mente é voltada racionalmente para a libertação da mente através do bem-querer, a <span class=\"ebt-matched\">raiva</span> não surge, e caso já surgida esta é abandonada.” ",
+            "en": "When you apply the mind rationally on the heart’s release by love, ill will does not arise, or, if it has already arisen, it’s given up.” ",
+            "matched": true
+          }
+        },
+        "score": 3.07,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Discursos Numerados 1.11–20\nO Capítulo sobre o Abandono dos Obstáculos",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 43,
+          "pt": 32,
+          "en": 32
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an3/an3.37_root-pli-ms.json",
           "translation/en/sujato/sutta/an/an3/an3.37_translation-en-sujato.json",
           "translation/pt/laera-quaresma/sutta/an/an3/an3.37_translation-pt-laera-quaresma.json"
@@ -503,6 +559,43 @@
           "pli": 72,
           "pt": 51,
           "en": 72
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn119_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn119_translation-en-sujato.json",
+          "translation/pt/laera-quaresma/sutta/mn/mn119_translation-pt-laera-quaresma.json"
+        ],
+        "author_uid": "laera-quaresma",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn119",
+        "lang": "pt",
+        "segMap": {
+          "mn119:39.4": {
+            "scid": "mn119:39.4",
+            "pli": "sadosaṁ vā cittaṁ … ",
+            "pt": "Ele compreende uma mente afetada pela <span class=\"ebt-matched\">raiva</span> … ",
+            "matched": true
+          },
+          "mn119:39.5": {
+            "scid": "mn119:39.5",
+            "pli": "vītadosaṁ vā cittaṁ … ",
+            "pt": "Ele compreende uma mente não afetada pela <span class=\"ebt-matched\">raiva</span> … ",
+            "matched": true
+          }
+        },
+        "score": 2.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Majjhima Nikaya 119\nA atenção plena no corpo",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 190,
+          "pt": 190,
+          "en": 173
         }
       },
       {
