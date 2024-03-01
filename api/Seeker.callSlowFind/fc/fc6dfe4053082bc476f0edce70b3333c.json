@@ -41,7 +41,7 @@
     "pattern": "aber zum erwachen entschlossen",
     "method": "phrase",
     "resultPattern": "\\baber zum erwachen entschlossen",
-    "segsMatched": 23,
+    "segsMatched": 24,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an5/an5.196_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.196_translation-de-sabbamitta.json",
@@ -94,6 +94,9 @@
       "root/pli/ms/sutta/mn/mn14_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn14_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn14_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn128_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn128_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn128_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an9/an9.41_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an9/an9.41_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an9/an9.41_translation-en-sujato.json",
@@ -125,6 +128,7 @@
       "mn26/de/sabbamitta",
       "mn19/de/sabbamitta",
       "mn14/de/sabbamitta",
+      "mn128/de/sabbamitta",
       "an9.41/de/sabbamitta",
       "an8.64/de/sabbamitta",
       "an5.68/de/sabbamitta",
@@ -448,7 +452,7 @@
           "an8.64:1.3": {
             "scid": "an8.64:1.3",
             "pli": "“pubbāhaṁ, bhikkhave, sambodhā anabhisambuddho bodhisattova samāno obhāsaññeva kho sañjānāmi, no ca rūpāni passāmi. ",
-            "de": "„Mönche und Nonnen, vor meinem Erwachen, als ich noch nicht erwacht war, <span class=\"ebt-matched\">aber zum Erwachen entschlossen</span>, nahm ich Licht wahr, aber sah keine Formen. ",
+            "de": "„Mönche und Nonnen, vor meinem Erwachen, als ich noch nicht erwacht war, <span class=\"ebt-matched\">aber zum Erwachen entschlossen</span>, nahm ich Licht wahr, aber sah keine Bilder. ",
             "en": "“Mendicants, before my awakening—when I was still not awake but intent on awakening—I perceived light but did not see forms. ",
             "matched": true
           }
@@ -783,6 +787,38 @@
           "pli": 165,
           "de": 111,
           "en": 110
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn128_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn128_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn128_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn128",
+        "lang": "de",
+        "segMap": {
+          "mn128:16.2": {
+            "scid": "mn128:16.2",
+            "pli": "Ahampi sudaṁ, anuruddhā, pubbeva sambodhā anabhisambuddho bodhisattova samāno obhāsañceva sañjānāmi dassanañca rūpānaṁ. ",
+            "de": "Vor meinem Erwachen, als ich noch nicht erwacht war, <span class=\"ebt-matched\">aber zum Erwachen entschlossen</span>, nahm auch ich Licht wahr und sah Bilder. ",
+            "en": "Before my awakening—when I was still unawakened but intent on awakening—I too perceived both light and vision of forms. ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 128\nVerunreinigungen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 279,
+          "de": 251,
+          "en": 278
         }
       },
       {

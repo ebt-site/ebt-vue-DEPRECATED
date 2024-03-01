@@ -41,7 +41,7 @@
     "pattern": "leere.* hütten",
     "method": "phrase",
     "resultPattern": "\\bleere.* hütten",
-    "segsMatched": 23,
+    "segsMatched": 24,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn6_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn6_translation-de-sabbamitta.json",
@@ -73,6 +73,9 @@
       "root/pli/ms/sutta/mn/mn8_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn8_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn8_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn32_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn32_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn32_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn19_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn19_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn19_translation-en-sujato.json",
@@ -106,6 +109,7 @@
       "sn43.11/de/sabbamitta",
       "sn35.146/de/sabbamitta",
       "mn8/de/sabbamitta",
+      "mn32/de/sabbamitta",
       "mn19/de/sabbamitta",
       "iti45/de/sabbamitta",
       "an9.19/de/sabbamitta",
@@ -699,6 +703,38 @@
           "pli": 170,
           "de": 169,
           "en": 169
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn32_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn32_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn32_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn32",
+        "lang": "de",
+        "segMap": {
+          "mn32:5.6": {
+            "scid": "mn32:5.6",
+            "pli": "“Idhāvuso sāriputta, bhikkhu paṭisallānārāmo hoti paṭisallānarato, ajjhattaṁ cetosamathamanuyutto anirākatajjhāno, vipassanāya samannāgato, brūhetā suññāgārānaṁ. ",
+            "de": "„Geehrter Sāriputta, da genießt ein Mönch die Klausur und liebt die Klausur. Er weiht sich der inneren Sammlung des Herzens, vernachlässigt die Vertiefung nicht, besitzt Klarsicht und sucht <span class=\"ebt-matched\">leere Hütten</span> auf. ",
+            "en": "“Reverend Sāriputta, it’s a mendicant who enjoys retreat and loves retreat. They’re committed to inner serenity of the heart, they don’t neglect absorption, they’re endowed with discernment, and they frequent empty huts. ",
+            "matched": true
+          }
+        },
+        "score": 1.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 32\nDie längere Lehrrede bei Gosiṅga",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 168,
+          "de": 122,
+          "en": 167
         }
       }
     ],

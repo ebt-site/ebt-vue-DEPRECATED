@@ -41,7 +41,7 @@
     "pattern": "herr de[rs]",
     "method": "phrase",
     "resultPattern": "\\bherr de[rs]",
-    "segsMatched": 27,
+    "segsMatched": 29,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn20_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn20_translation-de-sabbamitta.json",
@@ -61,6 +61,9 @@
       "root/pli/ms/sutta/mn/mn133_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn133_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn133_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn128_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn128_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn128_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.172_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.172_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an10/an10.172_translation-en-sujato.json",
@@ -99,6 +102,7 @@
       "sn35.116/de/sabbamitta",
       "mn18/de/sabbamitta",
       "mn133/de/sabbamitta",
+      "mn128/de/sabbamitta",
       "an10.172/de/sabbamitta",
       "an10.115/de/sabbamitta",
       "sn3.1/de/sabbamitta",
@@ -442,6 +446,45 @@
           "pli": 232,
           "de": 146,
           "en": 231
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn128_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn128_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn128_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn128",
+        "lang": "de",
+        "segMap": {
+          "mn128:4.5": {
+            "scid": "mn128:4.5",
+            "pli": "Bhagavā dhammassāmī; ",
+            "de": "Der Buddha, der <span class=\"ebt-matched\">Herr der</span> Lehre, ",
+            "en": "Let the Buddha, the Lord of the Dhamma, ",
+            "matched": true
+          },
+          "mn128:4.19": {
+            "scid": "mn128:4.19",
+            "pli": "Bhagavā dhammassāmī; ",
+            "de": "Der Buddha, der <span class=\"ebt-matched\">Herr der</span> Lehre, ",
+            "en": "Let the Buddha, the Lord of the Dhamma, ",
+            "matched": true
+          }
+        },
+        "score": 2.007,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 128\nVerunreinigungen",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 279,
+          "de": 251,
+          "en": 278
         }
       },
       {

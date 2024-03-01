@@ -41,7 +41,7 @@
     "pattern": "besser.* erlesener",
     "method": "phrase",
     "resultPattern": "\\bbesser.* erlesener",
-    "segsMatched": 58,
+    "segsMatched": 60,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn30_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn30_translation-de-sabbamitta.json",
@@ -55,6 +55,9 @@
       "root/pli/ms/sutta/sn/sn3/sn3.12_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn3/sn3.12_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn3/sn3.12_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn31_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn31_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn31_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn25_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn25_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn25_translation-en-sujato.json",
@@ -91,6 +94,7 @@
       "dn2/de/sabbamitta",
       "an4.16/de/sabbamitta",
       "sn3.12/de/sabbamitta",
+      "mn31/de/sabbamitta",
       "dn25/de/sabbamitta",
       "an6.44/de/sabbamitta",
       "an10.75/de/sabbamitta",
@@ -594,6 +598,45 @@
           "pli": 117,
           "de": 106,
           "en": 116
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn31_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn31_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn31_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn31",
+        "lang": "de",
+        "segMap": {
+          "mn31:18.6": {
+            "scid": "mn31:18.6",
+            "pli": "Imamhā ca mayaṁ, bhante, phāsuvihārā aññaṁ phāsuvihāraṁ uttaritaraṁ vā paṇītataraṁ vā na samanupassāmā”ti. ",
+            "de": "Und wir sehen keine <span class=\"ebt-matched\">bessere oder erlesener</span>e Art, unbeschwert zu meditieren, als diese.“ ",
+            "en": "And we don’t see any better or finer way of meditating at ease than this.” ",
+            "matched": true
+          },
+          "mn31:18.8": {
+            "scid": "mn31:18.8",
+            "pli": "Imamhā phāsuvihārā uttaritaro vā paṇītataro vā phāsuvihāro natthī”ti. ",
+            "de": "Es gibt keine <span class=\"ebt-matched\">bessere oder erlesener</span>e Art, unbeschwert zu meditieren, als diese.“ ",
+            "en": "There is no better or finer way of meditating at ease than this.” ",
+            "matched": true
+          }
+        },
+        "score": 2.014,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 31\nDie kürzere Lehrrede bei Gosiṅga",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 147,
+          "de": 128,
+          "en": 146
         }
       },
       {

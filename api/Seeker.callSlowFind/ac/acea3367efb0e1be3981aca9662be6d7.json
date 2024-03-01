@@ -41,14 +41,18 @@
     "pattern": "zu fest",
     "method": "phrase",
     "resultPattern": "\\bzu fest",
-    "segsMatched": 2,
+    "segsMatched": 3,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an6/an6.55_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.55_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an6/an6.55_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an6/an6.55_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn128_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn128_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn128_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "an6.55/de/sabbamitta"
+      "an6.55/de/sabbamitta",
+      "mn128/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -88,6 +92,38 @@
           "pli": 97,
           "de": 87,
           "en": 96
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn128_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn128_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn128_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn128",
+        "lang": "de",
+        "segMap": {
+          "mn128:22.5": {
+            "scid": "mn128:22.5",
+            "pli": "Seyyathāpi, anuruddhā, puriso ubhohi hatthehi vaṭṭakaṁ gāḷhaṁ gaṇheyya, so tattheva patameyya; ",
+            "de": "Wie wenn jemand eine Wachtel <span class=\"ebt-matched\">zu fest</span> in seinen Händen hielte: Sie würde eben da sterben. ",
+            "en": "Suppose a person was to grip a quail too tightly in their hands—it would die right there. ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 128\nVerunreinigungen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 279,
+          "de": 251,
+          "en": 278
         }
       }
     ],

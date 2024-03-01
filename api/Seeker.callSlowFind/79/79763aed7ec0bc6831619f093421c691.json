@@ -39,24 +39,24 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "etwas nicht geringes, das ich bereue",
-    "method": "phrase",
-    "resultPattern": "\\betwas nicht geringes, das ich bereue",
+    "method": "keywords",
+    "resultPattern": "\\betwas|\\bnicht|\\bgeringes,|\\bdas|\\bich|\\bbereue",
     "segsMatched": 3,
     "bilaraPaths": [
-      "root/pli/ms/sutta/sn/sn35/sn35.74_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/sn/sn35/sn35.74_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn35/sn35.74_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.87_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn22/sn22.87_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.87_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn22/sn22.88_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.88_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.88_translation-en-sujato.json",
-      "root/pli/ms/sutta/sn/sn22/sn22.87_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/sn/sn22/sn22.87_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn22/sn22.87_translation-en-sujato.json"
+      "root/pli/ms/sutta/sn/sn35/sn35.74_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn35/sn35.74_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.74_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "sn35.74/de/sabbamitta",
+      "sn22.87/de/sabbamitta",
       "sn22.88/de/sabbamitta",
-      "sn22.87/de/sabbamitta"
+      "sn35.74/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -74,7 +74,7 @@
           "sn35.74:5.1": {
             "scid": "sn35.74:5.1",
             "pli": "“Taggha me, bhante, anappakaṁ kukkuccaṁ, anappako vippaṭisāro”ti. ",
-            "de": "„Doch, Herr, es gibt <span class=\"ebt-matched\">etwas nicht Geringes, das ich bereue</span> und bedauere.“ ",
+            "de": "„Es gibt tatsächlich <span class=\"ebt-matched\">etwas</span> <span class=\"ebt-matched\">nicht</span> <span class=\"ebt-matched\">Geringes,</span> Herr, <span class=\"ebt-matched\">das</span> <span class=\"ebt-matched\">ich</span> <span class=\"ebt-matched\">bereue</span> und bedauere.“ ",
             "en": "“Indeed, sir, I have no little remorse and regret.” ",
             "matched": true
           }
@@ -106,7 +106,7 @@
           "sn22.88:3.3": {
             "scid": "sn22.88:3.3",
             "pli": "“Taggha me, bhante, anappakaṁ kukkuccaṁ anappako vippaṭisāro”ti. ",
-            "de": "„Doch, Herr, es gibt <span class=\"ebt-matched\">etwas nicht Geringes, das ich bereue</span> und bedauere.“ ",
+            "de": "„Es gibt tatsächlich <span class=\"ebt-matched\">etwas</span> <span class=\"ebt-matched\">nicht</span> <span class=\"ebt-matched\">Geringes,</span> Herr, <span class=\"ebt-matched\">das</span> <span class=\"ebt-matched\">ich</span> <span class=\"ebt-matched\">bereue</span> und bedauere.“ ",
             "en": "“Indeed, sir, I have no little remorse and regret.” ",
             "matched": true
           }
@@ -138,7 +138,7 @@
           "sn22.87:2.10": {
             "scid": "sn22.87:2.10",
             "pli": "“Taggha me, bhante, anappakaṁ kukkuccaṁ, anappako vippaṭisāro”ti. ",
-            "de": "„Doch, Herr, es gibt <span class=\"ebt-matched\">etwas nicht Geringes, das ich bereue</span> und bedauere.“ ",
+            "de": "„Es gibt tatsächlich <span class=\"ebt-matched\">etwas</span> <span class=\"ebt-matched\">nicht</span> <span class=\"ebt-matched\">Geringes,</span> Herr, <span class=\"ebt-matched\">das</span> <span class=\"ebt-matched\">ich</span> <span class=\"ebt-matched\">bereue</span> und bedauere.“ ",
             "en": "“Indeed, sir, I have no little remorse and regret.” ",
             "matched": true
           }

@@ -41,14 +41,18 @@
     "pattern": "der hass",
     "method": "phrase",
     "resultPattern": "\\bder hass",
-    "segsMatched": 2,
+    "segsMatched": 4,
     "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn128_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn128_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn128_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/dhp/dhp1-20_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/dhp/dhp1-20_translation-de-sabbamitta.json",
       "translation/en/suddhaso/sutta/kn/dhp/dhp1-20_translation-en-suddhaso.json",
       "translation/en/sujato/sutta/kn/dhp/dhp1-20_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "mn128/de/sabbamitta",
       "dhp1-20/de/sabbamitta"
     ],
     "mlDocs": [
@@ -90,6 +94,45 @@
           "pli": 108,
           "de": 93,
           "en": 93
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn128_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn128_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn128_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn128",
+        "lang": "de",
+        "segMap": {
+          "mn128:6.12": {
+            "scid": "mn128:6.12",
+            "pli": "veraṁ tesaṁ na sammati. ",
+            "de": "hört <span class=\"ebt-matched\">der Hass</span> niemals auf. ",
+            "en": "hatred never ends. ",
+            "matched": true
+          },
+          "mn128:6.16": {
+            "scid": "mn128:6.16",
+            "pli": "veraṁ tesūpasammati. ",
+            "de": "hat <span class=\"ebt-matched\">der Hass</span> ein Ende. ",
+            "en": "hatred has an end. ",
+            "matched": true
+          }
+        },
+        "score": 2.007,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 128\nVerunreinigungen",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 279,
+          "de": 251,
+          "en": 278
         }
       }
     ],

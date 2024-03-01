@@ -41,11 +41,14 @@
     "pattern": "eine straße entlangwanderte",
     "method": "phrase",
     "resultPattern": "\\beine straße entlangwanderte",
-    "segsMatched": 4,
+    "segsMatched": 5,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn22_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn22_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn22_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn128_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn128_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn128_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json",
@@ -58,6 +61,7 @@
     ],
     "suttaRefs": [
       "mn22/de/sabbamitta",
+      "mn128/de/sabbamitta",
       "dn2/de/sabbamitta",
       "dn16/de/sabbamitta",
       "dn10/de/sabbamitta"
@@ -93,6 +97,38 @@
           "pli": 285,
           "de": 227,
           "en": 227
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn128_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn128_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn128_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn128",
+        "lang": "de",
+        "segMap": {
+          "mn128:19.5": {
+            "scid": "mn128:19.5",
+            "pli": "Seyyathāpi, anuruddhā, puriso addhānamaggappaṭipanno, tassa ubhatopasse vaṭṭakā uppateyyuṁ, tassa tatonidānaṁ chambhitattaṁ uppajjeyya; ",
+            "de": "Wie wenn da jemand <span class=\"ebt-matched\">eine Straße entlangwanderte</span>, und von beiden Seiten sprängen Mörder auf ihn zu. Er würde deshalb von Schrecken gepackt. ",
+            "en": "Suppose a person was traveling along a road, and killers were to spring out at them from both sides. They’d feel terrified because of that. ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 128\nVerunreinigungen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 279,
+          "de": 251,
+          "en": 278
         }
       },
       {
