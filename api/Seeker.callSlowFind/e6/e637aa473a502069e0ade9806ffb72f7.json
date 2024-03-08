@@ -41,7 +41,7 @@
     "pattern": "schädlichen irrglauben",
     "method": "phrase",
     "resultPattern": "\\bschädlichen irrglauben",
-    "segsMatched": 39,
+    "segsMatched": 40,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn23_translation-de-sabbamitta.json",
@@ -70,6 +70,9 @@
       "root/pli/ms/sutta/sn/sn6/sn6.4_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn6/sn6.4_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn6/sn6.4_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn35_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn35_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn35_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.95_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.95_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an10/an10.95_translation-en-sujato.json"
@@ -84,6 +87,7 @@
       "dn24/de/sabbamitta",
       "sn6.5/de/sabbamitta",
       "sn6.4/de/sabbamitta",
+      "mn35/de/sabbamitta",
       "an10.95/de/sabbamitta"
     ],
     "mlDocs": [
@@ -608,6 +612,38 @@
           "pli": 61,
           "de": 49,
           "en": 61
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn35_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn35_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn35_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn35",
+        "lang": "de",
+        "segMap": {
+          "mn35:4.8": {
+            "scid": "mn35:4.8",
+            "pli": "Appeva nāma mayaṁ kadāci karahaci tena bhotā gotamena saddhiṁ samāgaccheyyāma, appeva nāma siyā kocideva kathāsallāpo, appeva nāma tasmā pāpakā diṭṭhigatā viveceyyāmā”ti. ",
+            "de": "Hoffentlich werde ich irgendwann dem Meister Gotama begegnen, und wir können ein Gespräch miteinander haben. Und hoffentlich kann ich ihn von diesem <span class=\"ebt-matched\">schädlichen Irrglauben</span> abbringen.“ ",
+            "en": "Hopefully, some time or other I’ll get to meet Master Gotama, and we can have a discussion. And hopefully I can dissuade him from this harmful misconception.” ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 35\nDie kürzere Lehrrede mit Saccaka",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 235,
+          "de": 223,
+          "en": 234
         }
       }
     ],

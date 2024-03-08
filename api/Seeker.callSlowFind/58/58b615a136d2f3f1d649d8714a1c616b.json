@@ -41,11 +41,14 @@
     "pattern": "bedingungen sind unbeständig",
     "method": "phrase",
     "resultPattern": "\\bbedingungen sind unbeständig",
-    "segsMatched": 17,
+    "segsMatched": 19,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn35_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn35_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn35_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.136_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.136_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.136_translation-en-sujato.json",
@@ -82,6 +85,7 @@
     ],
     "suttaRefs": [
       "dn16/de/sabbamitta",
+      "mn35/de/sabbamitta",
       "an3.136/de/sabbamitta",
       "sn9.6/de/sabbamitta",
       "sn6.15/de/sabbamitta",
@@ -192,6 +196,45 @@
           "pli": 19,
           "de": 18,
           "en": 18
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn35_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn35_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn35_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn35",
+        "lang": "de",
+        "segMap": {
+          "mn35:4.5": {
+            "scid": "mn35:4.5",
+            "pli": "Sabbe saṅkhārā aniccā, sabbe dhammā anattā’ti. ",
+            "de": "Alle <span class=\"ebt-matched\">Bedingungen sind unbeständig</span>. Alle Dinge sind ohne Selbst.‘ ",
+            "en": "All conditions are impermanent. All things are not-self.’ ",
+            "matched": true
+          },
+          "mn35:9.8": {
+            "scid": "mn35:9.8",
+            "pli": "Sabbe saṅkhārā aniccā, sabbe dhammā anattā’ti. ",
+            "de": "Alle <span class=\"ebt-matched\">Bedingungen sind unbeständig</span>. Alle Dinge sind ohne Selbst.‘ ",
+            "en": "All conditions are impermanent. All things are not-self.’ ",
+            "matched": true
+          }
+        },
+        "score": 2.009,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 35\nDie kürzere Lehrrede mit Saccaka",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 235,
+          "de": 223,
+          "en": 234
         }
       },
       {

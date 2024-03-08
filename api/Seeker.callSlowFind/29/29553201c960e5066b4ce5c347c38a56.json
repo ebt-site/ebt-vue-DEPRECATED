@@ -41,7 +41,7 @@
     "pattern": "krankheit.* eiterherd.* pfeil",
     "method": "phrase",
     "resultPattern": "\\bkrankheit.* eiterherd.* pfeil",
-    "segsMatched": 24,
+    "segsMatched": 25,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn35/sn35.248_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn35/sn35.248_translation-de-sabbamitta.json",
@@ -70,6 +70,9 @@
       "root/pli/ms/sutta/sn/sn22/sn22.123_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.123_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.123_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn74_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn74_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn74_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn140_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn140_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn140_translation-en-sujato.json",
@@ -87,6 +90,7 @@
       "sn35.91/de/sabbamitta",
       "sn35.90/de/sabbamitta",
       "sn22.123/de/sabbamitta",
+      "mn74/de/sabbamitta",
       "mn140/de/sabbamitta",
       "dn21/de/sabbamitta"
     ],
@@ -226,21 +230,21 @@
           "sn22.122:1.4": {
             "scid": "sn22.122:1.4",
             "pli": "“Sīlavatāvuso, koṭṭhika, bhikkhunā pañcupādānakkhandhā aniccato dukkhato rogato gaṇḍato sallato aghato ābādhato parato palokato suññato anattato yoniso manasi kātabbā. ",
-            "de": "„Geehrter Koṭṭhita, ein sittlicher Mönch sollte den Geist für die fünf mit Ergreifen verbundenen Aggregate gründlich gebrauchen, die unbeständig sind, Leiden, eine <span class=\"ebt-matched\">Krankheit, ein Eiterherd, ein Pfeil</span>, ein Elend, eine Beschwerde, fremd, zerfallend, leer, ohne Selbst. ",
+            "de": "„Geehrter Koṭṭhita, ein sittlicher Mönch soll den Geist für die fünf mit Ergreifen verbundenen Aggregate gründlich gebrauchen, die unbeständig sind, Leiden, eine <span class=\"ebt-matched\">Krankheit, ein Eiterherd, ein Pfeil</span>, ein Elend, eine Beschwerde, fremd, zerfallend, leer, ohne Selbst. ",
             "en": "“Reverend Koṭṭhita, an ethical mendicant should rationally apply the mind to the five grasping aggregates as impermanent, as suffering, as diseased, as a boil, as a dart, as misery, as an affliction, as alien, as falling apart, as empty, as not-self. ",
             "matched": true
           },
           "sn22.122:1.7": {
             "scid": "sn22.122:1.7",
             "pli": "Sīlavatāvuso, koṭṭhika, bhikkhunā ime pañcupādānakkhandhā aniccato dukkhato rogato gaṇḍato sallato aghato ābādhato parato palokato suññato anattato yoniso manasi kātabbā. ",
-            "de": "Ein sittlicher Mönch sollte den Geist für diese fünf mit Ergreifen verbundenen Aggregate gründlich gebrauchen, die unbeständig sind, Leiden, eine <span class=\"ebt-matched\">Krankheit, ein Eiterherd, ein Pfeil</span>, ein Elend, eine Beschwerde, fremd, zerfallend, leer, ohne Selbst. ",
+            "de": "Ein sittlicher Mönch soll den Geist für diese fünf mit Ergreifen verbundenen Aggregate gründlich gebrauchen, die unbeständig sind, Leiden, eine <span class=\"ebt-matched\">Krankheit, ein Eiterherd, ein Pfeil</span>, ein Elend, eine Beschwerde, fremd, zerfallend, leer, ohne Selbst. ",
             "en": "An ethical mendicant should rationally apply the mind to these five grasping aggregates as impermanent, as suffering, as diseased, as a boil, as a dart, as misery, as an affliction, as alien, as falling apart, as empty, as not-self. ",
             "matched": true
           },
           "sn22.122:5.2": {
             "scid": "sn22.122:5.2",
             "pli": "“Arahatāpi kho, āvuso koṭṭhika, ime pañcupādānakkhandhe aniccato dukkhato rogato gaṇḍato sallato aghato ābādhato parato palokato suññato anattato yoniso manasi kātabbā. ",
-            "de": "„Geehrter Koṭṭhita, ein Vollendeter sollte den Geist für die fünf mit Ergreifen verbundenen Aggregate gründlich gebrauchen, die unbeständig sind, Leiden, eine <span class=\"ebt-matched\">Krankheit, ein Eiterherd, ein Pfeil</span>, ein Elend, eine Beschwerde, fremd, zerfallend, leer, ohne Selbst. ",
+            "de": "„Geehrter Koṭṭhita, ein Vollendeter soll den Geist für die fünf mit Ergreifen verbundenen Aggregate gründlich gebrauchen, die unbeständig sind, Leiden, eine <span class=\"ebt-matched\">Krankheit, ein Eiterherd, ein Pfeil</span>, ein Elend, eine Beschwerde, fremd, zerfallend, leer, ohne Selbst. ",
             "en": "“Reverend Koṭṭhita, a perfected one should also rationally apply the mind to the five grasping aggregates as impermanent, as suffering, as diseased, as a boil, as a dart, as misery, as an affliction, as alien, as falling apart, as empty, as not-self. ",
             "matched": true
           }
@@ -468,6 +472,38 @@
           "pli": 30,
           "de": 26,
           "en": 29
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn74_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn74_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn74_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn74",
+        "lang": "de",
+        "segMap": {
+          "mn74:9.1": {
+            "scid": "mn74:9.1",
+            "pli": "Ayaṁ kho panaggivessana, kāyo rūpī cātumahābhūtiko mātāpettikasambhavo odanakummāsūpacayo aniccucchādanaparimaddanabhedanaviddhaṁsanadhammo, aniccato dukkhato rogato gaṇḍato sallato aghato ābādhato parato palokato suññato anattato samanupassitabbo. ",
+            "de": "Aggivessana, dieser Körper ist von materieller Natur, besteht aus den vier Grundelementen, wurde von Mutter und Vater gezeugt, mit Reis und Brei aufgebaut und muss vergehen, sich abnutzen und dahinschwinden, muss aufgelöst und zerstört werden. Du sollst ihn als unbeständig betrachten, als Leiden, als <span class=\"ebt-matched\">Krankheit, als Eiterherd, als Pfeil</span>, als Elend, als Beschwerde, als fremd, als zerfallend, als leer, als ohne Selbst. ",
+            "en": "Aggivessana, this body is physical. It’s made up of the four primary elements, produced by mother and father, built up from rice and porridge, liable to impermanence, to wearing away and erosion, to breaking up and destruction. You should see it as impermanent, as suffering, as diseased, as a boil, as a dart, as misery, as an affliction, as alien, as falling apart, as empty, as not-self. ",
+            "matched": true
+          }
+        },
+        "score": 1.01,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 74\nMit Dīghanakha",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 104,
+          "de": 98,
+          "en": 103
         }
       },
       {

@@ -41,7 +41,7 @@
     "pattern": "tor zur unsterblichkeit",
     "method": "phrase",
     "resultPattern": "\\btor zur unsterblichkeit",
-    "segsMatched": 11,
+    "segsMatched": 12,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn12/sn12.33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.33_translation-de-sabbamitta.json",
@@ -64,6 +64,9 @@
       "root/pli/ms/sutta/mn/mn52_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn52_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn52_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn34_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn34_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn34_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn26_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn26_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn26_translation-en-sujato.json",
@@ -82,6 +85,7 @@
       "sn12.28/de/sabbamitta",
       "sn12.27/de/sabbamitta",
       "mn52/de/sabbamitta",
+      "mn34/de/sabbamitta",
       "mn26/de/sabbamitta",
       "iti84/de/sabbamitta",
       "an11.16/de/sabbamitta"
@@ -252,6 +256,38 @@
           "pli": 48,
           "de": 35,
           "en": 46
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn34_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn34_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn34_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn34",
+        "lang": "de",
+        "segMap": {
+          "mn34:12.9": {
+            "scid": "mn34:12.9",
+            "pli": "Vivaṭaṁ amatadvāraṁ, ",
+            "de": "das <span class=\"ebt-matched\">Tor zur Unsterblichkeit</span> geöffnet, ",
+            "en": "has opened the door to freedom from death, ",
+            "matched": true
+          }
+        },
+        "score": 1.019,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 34\nDie kürzere Lehrrede über den Kuhhirten",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 52,
+          "de": 51,
+          "en": 51
         }
       },
       {

@@ -41,7 +41,7 @@
     "pattern": "kuhhirt",
     "method": "phrase",
     "resultPattern": "\\bkuhhirt",
-    "segsMatched": 52,
+    "segsMatched": 57,
     "bilaraPaths": [
       "root/pli/ms/sutta/kn/ud/vagga4/ud4.3_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga4/ud4.3_translation-de-sabbamitta.json",
@@ -52,6 +52,9 @@
       "root/pli/ms/sutta/an/an11/an11.17_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an11/an11.17_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an11/an11.17_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn34_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn34_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn34_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.70_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.70_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.70_translation-en-sujato.json",
@@ -113,6 +116,7 @@
       "ud4.3/de/sabbamitta",
       "mn33/de/sabbamitta",
       "an11.17/de/sabbamitta",
+      "mn34/de/sabbamitta",
       "an3.70/de/sabbamitta",
       "an11.22-29/de/sabbamitta",
       "an11.502-981/de/sabbamitta",
@@ -310,7 +314,7 @@
           "mn33:0.2": {
             "scid": "mn33:0.2",
             "pli": "Mahāgopālakasutta ",
-            "de": "Die längere Lehrrede vom <span class=\"ebt-matched\">Kuhhirt</span>en ",
+            "de": "Die längere Lehrrede über den <span class=\"ebt-matched\">Kuhhirt</span>en ",
             "en": "The Longer Discourse on the Cowherd ",
             "matched": true
           },
@@ -361,12 +365,72 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Mittlere Lehrreden 33\nDie längere Lehrrede vom Kuhhirten",
+        "title": "Mittlere Lehrreden 33\nDie längere Lehrrede über den Kuhhirten",
         "segsMatched": 7,
         "langSegs": {
           "pli": 118,
           "de": 117,
           "en": 117
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn34_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn34_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn34_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn34",
+        "lang": "de",
+        "segMap": {
+          "mn34:0.2": {
+            "scid": "mn34:0.2",
+            "pli": "Cūḷagopālakasutta ",
+            "de": "Die kürzere Lehrrede über den <span class=\"ebt-matched\">Kuhhirt</span>en ",
+            "en": "The Shorter Discourse on the Cowherd ",
+            "matched": true
+          },
+          "mn34:2.1": {
+            "scid": "mn34:2.1",
+            "pli": "“Bhūtapubbaṁ, bhikkhave, māgadhako gopālako duppaññajātiko, vassānaṁ pacchime māse saradasamaye, asamavekkhitvā gaṅgāya nadiyā orimaṁ tīraṁ, asamavekkhitvā pārimaṁ tīraṁ, atittheneva gāvo patāresi uttaraṁ tīraṁ suvidehānaṁ. ",
+            "de": "„Es war einmal, Mönche und Nonnen, ein unverständiger <span class=\"ebt-matched\">Kuhhirt</span>e aus Magadha. Der trieb im letzten Monat der Regenzeit seine Rinder an einer Stelle ohne Furt über den Ganges ans nördliche Ufer zu den Suvidehern, ohne dieses Ufer oder das andere Ufer zu überprüfen. ",
+            "en": "“Once upon a time, mendicants, there was an unintelligent Magadhan cowherd. In the last month of the rainy season, without inspecting the near shore or the far shore, he drove his cattle across a place with no ford on the Ganges river to the the northern shore among the Suvidehans. ",
+            "matched": true
+          },
+          "mn34:3.3": {
+            "scid": "mn34:3.3",
+            "pli": "Tathā hi so, bhikkhave, māgadhako gopālako duppaññajātiko, vassānaṁ pacchime māse saradasamaye, asamavekkhitvā gaṅgāya nadiyā orimaṁ tīraṁ, asamavekkhitvā pārimaṁ tīraṁ, atittheneva gāvo patāresi uttaraṁ tīraṁ suvidehānaṁ. ",
+            "de": "Weil der unverständige <span class=\"ebt-matched\">Kuhhirt</span>e die Rinder an einer Stelle ohne Furt hinübertrieb, ohne die Ufer zu überprüfen. ",
+            "en": "Because the unintelligent cowherd failed to inspect the shores before driving the cattle across at a place with no ford. ",
+            "matched": true
+          },
+          "mn34:4.1": {
+            "scid": "mn34:4.1",
+            "pli": "Bhūtapubbaṁ, bhikkhave, māgadhako gopālako sappaññajātiko, vassānaṁ pacchime māse saradasamaye, samavekkhitvā gaṅgāya nadiyā orimaṁ tīraṁ, samavekkhitvā pārimaṁ tīraṁ, tittheneva gāvo patāresi uttaraṁ tīraṁ suvidehānaṁ. ",
+            "de": "Es war einmal, Mönche und Nonnen, ein verständiger <span class=\"ebt-matched\">Kuhhirt</span>e aus Magadha. Der trieb im letzten Monat der Regenzeit seine Rinder durch eine Furt über den Ganges ans nördliche Ufer zu den Suvidehern, nachdem er dieses Ufer und das andere Ufer überprüft hatte. ",
+            "en": "Once upon a time, mendicants, there was an intelligent Magadhan cowherd. In the last month of the rainy season, after inspecting the near shore and the far shore, he drove his cattle across a ford on the Ganges river to the northern shore among the Suvidehans. ",
+            "matched": true
+          },
+          "mn34:5.11": {
+            "scid": "mn34:5.11",
+            "pli": "Tathā hi so, bhikkhave, māgadhako gopālako sappaññajātiko, vassānaṁ pacchime māse saradasamaye, samavekkhitvā gaṅgāya nadiyā orimaṁ tīraṁ, samavekkhitvā pārimaṁ tīraṁ, tittheneva gāvo patāresi uttaraṁ tīraṁ suvidehānaṁ. ",
+            "de": "Weil der verständige <span class=\"ebt-matched\">Kuhhirt</span>e die Rinder durch eine Furt hinübertrieb, nachdem er beide Ufer überprüft hatte. ",
+            "en": "Because the intelligent cowherd inspected both shores before driving the cattle across at a ford. ",
+            "matched": true
+          }
+        },
+        "score": 5.096,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 34\nDie kürzere Lehrrede über den Kuhhirten",
+        "segsMatched": 5,
+        "langSegs": {
+          "pli": 52,
+          "de": 51,
+          "en": 51
         }
       },
       {

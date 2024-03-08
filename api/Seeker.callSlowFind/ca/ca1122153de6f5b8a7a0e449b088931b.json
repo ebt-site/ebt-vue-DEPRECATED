@@ -41,7 +41,7 @@
     "pattern": "was einen anfang hat, hat auch ein ende",
     "method": "phrase",
     "resultPattern": "\\bwas einen anfang hat, hat auch ein ende",
-    "segsMatched": 13,
+    "segsMatched": 14,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn14_translation-de-sabbamitta.json",
@@ -55,6 +55,9 @@
       "root/pli/ms/sutta/sn/sn35/sn35.121_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn35/sn35.121_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.121_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn74_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn74_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn74_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/ud/vagga5/ud5.3_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga5/ud5.3_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/ud/vagga5/ud5.3_translation-en-sujato.json",
@@ -82,6 +85,7 @@
       "sn56.11/de/sabbamitta",
       "sn35.74/de/sabbamitta",
       "sn35.121/de/sabbamitta",
+      "mn74/de/sabbamitta",
       "ud5.3/de/sabbamitta",
       "dn5/de/sabbamitta",
       "dn3/de/sabbamitta",
@@ -327,6 +331,38 @@
           "pli": 82,
           "de": 65,
           "en": 81
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn74_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn74_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn74_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn74",
+        "lang": "de",
+        "segMap": {
+          "mn74:15.2": {
+            "scid": "mn74:15.2",
+            "pli": "“yaṁ kiñci samudayadhammaṁ sabbaṁ taṁ nirodhadhamman”ti. ",
+            "de": "„Alles, <span class=\"ebt-matched\">was einen Anfang hat, hat auch ein Ende</span>.“ ",
+            "en": "“Everything that has a beginning has an end.” ",
+            "matched": true
+          }
+        },
+        "score": 1.01,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 74\nMit Dīghanakha",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 104,
+          "de": 98,
+          "en": 103
         }
       },
       {

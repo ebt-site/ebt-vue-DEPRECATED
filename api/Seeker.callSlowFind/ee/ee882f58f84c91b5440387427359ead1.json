@@ -41,7 +41,7 @@
     "pattern": "nachfolger durch vertrauen",
     "method": "phrase",
     "resultPattern": "\\bnachfolger durch vertrauen",
-    "segsMatched": 25,
+    "segsMatched": 26,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an2/an2.42-51_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an2/an2.42-51_translation-de-sabbamitta.json",
@@ -97,6 +97,9 @@
       "root/pli/ms/sutta/sn/sn25/sn25.10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn25/sn25.10_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn25/sn25.10_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn34_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn34_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn34_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn22_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn22_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn22_translation-en-sujato.json",
@@ -135,6 +138,7 @@
       "sn25.2/de/sabbamitta",
       "sn25.1/de/sabbamitta",
       "sn25.10/de/sabbamitta",
+      "mn34/de/sabbamitta",
       "mn22/de/sabbamitta",
       "dn33/de/sabbamitta",
       "dn28/de/sabbamitta",
@@ -788,6 +792,38 @@
           "pli": 25,
           "de": 18,
           "en": 24
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn34_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn34_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn34_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn34",
+        "lang": "de",
+        "segMap": {
+          "mn34:10.2": {
+            "scid": "mn34:10.2",
+            "pli": "evameva kho, bhikkhave, ye te bhikkhū dhammānusārino saddhānusārino, tepi tiriyaṁ mārassa sotaṁ chetvā sotthinā pāraṁ gamissanti. ",
+            "de": "so sind die Mönche und Nonnen, die Nachfolger der Lehren oder <span class=\"ebt-matched\">Nachfolger durch Vertrauen</span> sind. Auch sie werden, indem sie sich gegen Māras Strömung stemmen, sicher das andere Ufer erreichen. ",
+            "en": "are the mendicants who are followers of teachings, followers by faith. They too, having breasted Māra’s stream, will safely cross over to the far shore. ",
+            "matched": true
+          }
+        },
+        "score": 1.019,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 34\nDie kürzere Lehrrede über den Kuhhirten",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 52,
+          "de": 51,
+          "en": 51
         }
       },
       {

@@ -41,7 +41,7 @@
     "pattern": "mit einem stock",
     "method": "phrase",
     "resultPattern": "\\bmit einem stock",
-    "segsMatched": 11,
+    "segsMatched": 12,
     "bilaraPaths": [
       "root/pli/ms/sutta/kn/ud/vagga2/ud2.3_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga2/ud2.3_translation-de-sabbamitta.json",
@@ -59,6 +59,9 @@
       "root/pli/ms/sutta/sn/sn4/sn4.24_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn4/sn4.24_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn4/sn4.24_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn35_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn35_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn35_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn21_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn21_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn21_translation-en-sujato.json",
@@ -73,6 +76,7 @@
       "an3.27/de/sabbamitta",
       "sn4.25/de/sabbamitta",
       "sn4.24/de/sabbamitta",
+      "mn35/de/sabbamitta",
       "mn21/de/sabbamitta",
       "thig13.3/de/sabbamitta"
     ],
@@ -329,6 +333,38 @@
           "pli": 227,
           "de": 213,
           "en": 226
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn35_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn35_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn35_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn35",
+        "lang": "de",
+        "segMap": {
+          "mn35:23.7": {
+            "scid": "mn35:23.7",
+            "pli": "Yaññadeva hi so, bhante, kakkaṭako aḷaṁ abhininnāmeyya taṁ tadeva te kumārakā vā kumārikā vā kaṭṭhena vā kathalena vā sañchindeyyuṁ sambhañjeyyuṁ sampalibhañjeyyuṁ. ",
+            "de": "Immer, wenn die Krabbe eine Schere ausstreckte, würden diese Jungen oder Mädchen sie <span class=\"ebt-matched\">mit einem Stock</span> oder einem Stein ausreißen, umknicken oder abbrechen. ",
+            "en": "Whenever that crab extended a claw, those boys or girls would snap, crack, and break it off with a stick or a stone. ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 35\nDie kürzere Lehrrede mit Saccaka",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 235,
+          "de": 223,
+          "en": 234
         }
       }
     ],

@@ -41,7 +41,7 @@
     "pattern": "haare.* sträub",
     "method": "phrase",
     "resultPattern": "\\bhaare.* sträub",
-    "segsMatched": 32,
+    "segsMatched": 33,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn5/sn5.9_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn5/sn5.9_translation-de-sabbamitta.json",
@@ -88,6 +88,9 @@
       "root/pli/ms/sutta/sn/sn10/sn10.8_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn10/sn10.8_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn10/sn10.8_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn35_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn35_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn35_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/ud/vagga1/ud1.7_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga1/ud1.7_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/ud/vagga1/ud1.7_translation-en-sujato.json",
@@ -129,6 +132,7 @@
       "sn4.2/de/sabbamitta",
       "sn4.11/de/sabbamitta",
       "sn10.8/de/sabbamitta",
+      "mn35/de/sabbamitta",
       "ud1.7/de/sabbamitta",
       "thag1.8/de/sabbamitta",
       "thag1.6/de/sabbamitta",
@@ -808,6 +812,38 @@
           "pli": 70,
           "de": 70,
           "en": 70
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn35_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn35_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn35_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn35",
+        "lang": "de",
+        "segMap": {
+          "mn35:14.4": {
+            "scid": "mn35:14.4",
+            "pli": "Atha kho saccako nigaṇṭhaputto bhīto saṁviggo lomahaṭṭhajāto bhagavantaṁyeva tāṇaṁ gavesī bhagavantaṁyeva leṇaṁ gavesī bhagavantaṁyeva saraṇaṁ gavesī bhagavantaṁ etadavoca: ",
+            "de": "Saccaka war panisch und erschüttert und seine <span class=\"ebt-matched\">Haare sträub</span>ten sich. Indem er beim Buddha Schutz, Unterschlupf und Zuflucht suchte, sagte er: ",
+            "en": "Saccaka was terrified, shocked, and awestruck. Looking to the Buddha for shelter, protection, and refuge, he said, ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 35\nDie kürzere Lehrrede mit Saccaka",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 235,
+          "de": 223,
+          "en": 234
         }
       },
       {
