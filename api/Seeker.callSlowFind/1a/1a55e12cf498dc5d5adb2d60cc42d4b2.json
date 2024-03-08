@@ -1,0 +1,92 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sabbamitta",
+      "docLang": "de",
+      "docAuthor": "sabbamitta",
+      "includeUnpublished": false,
+      "lang": "de",
+      "langAuthor": "sabbamitta",
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "macht über diese entscheidungen",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "de",
+      "searchAuthor": "sabbamitta",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sabbamitta",
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "macht über diese entscheidungen",
+    "method": "phrase",
+    "resultPattern": "\\bmacht über diese entscheidungen",
+    "segsMatched": 1,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn35_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn35_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn35_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "mn35/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn35_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn35_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn35_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn35",
+        "lang": "de",
+        "segMap": {
+          "mn35:18.6": {
+            "scid": "mn35:18.6",
+            "pli": "‘saṅkhārā me attā’ti, vattati te tesu saṅkhāresu vaso—",
+            "de": "‚Entscheidungen sind mein Selbst‘, hast du <span class=\"ebt-matched\">Macht über diese Entscheidungen</span>, sodass du sagen kannst: ",
+            "en": "‘Choices are my self,’ do you have power over those choices to say: ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 35\nDie kürzere Lehrrede mit Saccaka",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 235,
+          "de": 223,
+          "en": 234
+        }
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "de",
+    "docAuthor": "sabbamitta"
+  }
+}
