@@ -39,16 +39,123 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "suche nach befriedigung",
-    "method": "keywords",
-    "resultPattern": "\\bsuche|\\bnach|\\bbefriedigung",
-    "segsMatched": 0,
+    "method": "phrase",
+    "resultPattern": "\\bsuche nach befriedigung",
+    "segsMatched": 3,
     "bilaraPaths": [
-      "root/pli/ms/sutta/kn/cp/cp10_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/kn/cp/cp10_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/kn/cp/cp10_translation-en-sujato.json"
+      "root/pli/ms/sutta/sn/sn35/sn35.16_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn35/sn35.16_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.16_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn35/sn35.15_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn35/sn35.15_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.15_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn14/sn14.32_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn14/sn14.32_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn14/sn14.32_translation-en-sujato.json"
     ],
-    "suttaRefs": [],
-    "mlDocs": [],
+    "suttaRefs": [
+      "sn35.16/de/sabbamitta",
+      "sn35.15/de/sabbamitta",
+      "sn14.32/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn14/sn14.32_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn14/sn14.32_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn14/sn14.32_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn14.32",
+        "lang": "de",
+        "segMap": {
+          "sn14.32:0.3": {
+            "scid": "sn14.32:0.3",
+            "pli": "Acariṁsutta ",
+            "de": "Auf der <span class=\"ebt-matched\">Suche nach Befriedigung</span> ",
+            "en": "In Search of Gratification ",
+            "matched": true
+          }
+        },
+        "score": 1.059,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 14.32\n4. Das vierte Kapitel\nAuf der Suche nach Befriedigung",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 17,
+          "de": 14,
+          "en": 16
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn35/sn35.16_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn35/sn35.16_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn35/sn35.16_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn35.16",
+        "lang": "de",
+        "segMap": {
+          "sn35.16:0.3": {
+            "scid": "sn35.16:0.3",
+            "pli": "Dutiyaassādapariyesanasutta ",
+            "de": "Auf der <span class=\"ebt-matched\">Suche nach Befriedigung</span> (2) ",
+            "en": "In Search of Gratification (Exterior) ",
+            "matched": true
+          }
+        },
+        "score": 1.034,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 35.16\n2. Das Kapitel mit Paaren\nAuf der Suche nach Befriedigung (2)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 29,
+          "de": 28,
+          "en": 28
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn35/sn35.15_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn35/sn35.15_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn35/sn35.15_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn35.15",
+        "lang": "de",
+        "segMap": {
+          "sn35.15:0.3": {
+            "scid": "sn35.15:0.3",
+            "pli": "Paṭhamaassādapariyesanasutta ",
+            "de": "Auf der <span class=\"ebt-matched\">Suche nach Befriedigung</span> (1) ",
+            "en": "In Search of Gratification (Interior) ",
+            "matched": true
+          }
+        },
+        "score": 1.027,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 35.15\n2. Das Kapitel mit Paaren\nAuf der Suche nach Befriedigung (1)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 37,
+          "de": 30,
+          "en": 36
+        }
+      }
+    ],
     "refLang": "en",
     "refAuthor": "sujato",
     "docLang": "de",
