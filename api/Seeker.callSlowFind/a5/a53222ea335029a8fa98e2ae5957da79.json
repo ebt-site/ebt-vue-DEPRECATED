@@ -41,7 +41,7 @@
     "pattern": "haare.* sträub",
     "method": "phrase",
     "resultPattern": "\\bhaare.* sträub",
-    "segsMatched": 33,
+    "segsMatched": 34,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn5/sn5.9_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn5/sn5.9_translation-de-sabbamitta.json",
@@ -88,6 +88,9 @@
       "root/pli/ms/sutta/sn/sn10/sn10.8_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn10/sn10.8_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn10/sn10.8_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn37_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn37_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn37_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn35_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn35_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn35_translation-en-sujato.json",
@@ -132,6 +135,7 @@
       "sn4.2/de/sabbamitta",
       "sn4.11/de/sabbamitta",
       "sn10.8/de/sabbamitta",
+      "mn37/de/sabbamitta",
       "mn35/de/sabbamitta",
       "ud1.7/de/sabbamitta",
       "thag1.8/de/sabbamitta",
@@ -431,7 +435,7 @@
           "sn11.3:3.1": {
             "scid": "sn11.3:3.1",
             "pli": "‘Sace, mārisā, devānaṁ saṅgāmagatānaṁ uppajjeyya bhayaṁ vā chambhitattaṁ vā lomahaṁso vā, mameva tasmiṁ samaye dhajaggaṁ ullokeyyātha. ",
-            "de": "‚Ihr Herren, wenn die Götter kämpfen, wenn ihr von Furcht und Entsetzen gepackt werdet und eure <span class=\"ebt-matched\">Haare sich sträub</span>en, schaut einfach zu meiner Fahnenspitze auf. ",
+            "de": "‚Ihr Herren, wenn die Götter kämpfen, wenn ihr von Furcht und Entsetzen gepackt werdet und eure <span class=\"ebt-matched\">Haare sich sträub</span>en, schaut einfach auf zu meiner Fahnenspitze. ",
             "en": "‘Good sirs, when the gods are fighting, if you get scared or terrified, just look up at my banner’s crest. ",
             "matched": true
           },
@@ -812,6 +816,38 @@
           "pli": 70,
           "de": 70,
           "en": 70
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn37_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn37_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn37_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn37",
+        "lang": "de",
+        "segMap": {
+          "mn37:12.1": {
+            "scid": "mn37:12.1",
+            "pli": "Atha kho āyasmā mahāmoggallāno sakkaṁ devānamindaṁ saṁviggaṁ lomahaṭṭhajātaṁ viditvā sakkaṁ devānamindaṁ etadavoca: ",
+            "de": "Als er erkannte, dass Sakka erschüttert war und seine <span class=\"ebt-matched\">Haare sich sträub</span>ten, sagte Moggallāna zu ihm: ",
+            "en": "Knowing that Sakka was shocked and awestruck, Moggallāna said to him, ",
+            "matched": true
+          }
+        },
+        "score": 1.009,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 37\nDie kürzere Lehrrede über die Auflösung des Verlangens",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 110,
+          "de": 95,
+          "en": 109
         }
       },
       {

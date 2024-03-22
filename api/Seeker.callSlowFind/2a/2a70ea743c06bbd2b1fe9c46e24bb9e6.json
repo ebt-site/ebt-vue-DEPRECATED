@@ -41,7 +41,7 @@
     "pattern": "jammer.* und klag",
     "method": "phrase",
     "resultPattern": "\\bjammer.* und klag",
-    "segsMatched": 49,
+    "segsMatched": 51,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an5/an5.50_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.50_translation-de-sabbamitta.json",
@@ -67,6 +67,9 @@
       "root/pli/ms/sutta/sn/sn36/sn36.4_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn36/sn36.4_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn36/sn36.4_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn36_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn36_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn36_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn14_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn14_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn14_translation-en-sujato.json",
@@ -89,6 +92,7 @@
       "an8.77/de/sabbamitta",
       "an8.61/de/sabbamitta",
       "sn36.4/de/sabbamitta",
+      "mn36/de/sabbamitta",
       "mn14/de/sabbamitta",
       "mn13/de/sabbamitta",
       "an4.192/de/sabbamitta",
@@ -704,6 +708,45 @@
           "pli": 152,
           "de": 135,
           "en": 151
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn36_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn36_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn36_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn36",
+        "lang": "de",
+        "segMap": {
+          "mn36:8.6": {
+            "scid": "mn36:8.6",
+            "pli": "So dukkhāya vedanāya phuṭṭho samāno socati kilamati paridevati urattāḷiṁ kandati sammohaṁ āpajjati. ",
+            "de": "Wenn er ein schmerzhaftes Gefühl erfährt, ist er bekümmert und <span class=\"ebt-matched\">jammert und klag</span>t, schlägt sich an die Brust und stürzt in Verwirrung. ",
+            "en": "When they suffer painful feeling, they sorrow and wail and lament, beating their breast and falling into confusion. ",
+            "matched": true
+          },
+          "mn36:9.6": {
+            "scid": "mn36:9.6",
+            "pli": "So dukkhāya vedanāya phuṭṭho samāno na socati na kilamati na paridevati na urattāḷiṁ kandati na sammohaṁ āpajjati. ",
+            "de": "Wenn er ein schmerzhaftes Gefühl erfährt, ist er nicht bekümmert, <span class=\"ebt-matched\">jammert und klag</span>t nicht, schlägt sich nicht an die Brust und stürzt nicht in Verwirrung. ",
+            "en": "When they suffer painful feelings they don’t sorrow or wail or lament, beating their breast and falling into confusion. ",
+            "matched": true
+          }
+        },
+        "score": 2.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 36\nDie längere Lehrrede mit Saccaka",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 360,
+          "de": 353,
+          "en": 359
         }
       },
       {

@@ -41,11 +41,14 @@
     "pattern": "solche macht und stärke",
     "method": "phrase",
     "resultPattern": "\\bsolche macht und stärke",
-    "segsMatched": 10,
+    "segsMatched": 12,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn28_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn28_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn28_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn37_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn37_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn37_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.80_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.80_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.80_translation-en-sujato.json",
@@ -64,6 +67,7 @@
     ],
     "suttaRefs": [
       "dn28/de/sabbamitta",
+      "mn37/de/sabbamitta",
       "an3.80/de/sabbamitta",
       "sn51.32/de/sabbamitta",
       "sn51.31/de/sabbamitta",
@@ -161,6 +165,45 @@
           "pli": 51,
           "de": 50,
           "en": 49
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn37_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn37_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn37_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn37",
+        "lang": "de",
+        "segMap": {
+          "mn37:11.7": {
+            "scid": "mn37:11.7",
+            "pli": "Samaṇassa mahiddhikatā mahānubhāvatā, yatra hi nāma dibbabhavanaṁ pādaṅguṭṭhakena saṅkampessati sampakampessati sampavedhessatī”ti. ",
+            "de": "Der Asket besitzt <span class=\"ebt-matched\">solche Macht und Stärke</span>, dass er das Heim der Götter mit seiner Zehe zittern und schwanken und beben lässt!“ ",
+            "en": "The ascetic has such power and might that he makes the god’s home shake and rock and tremble with his big toe!” ",
+            "matched": true
+          },
+          "mn37:14.7": {
+            "scid": "mn37:14.7",
+            "pli": "yassa te sabrahmacārī evaṁmahiddhiko evaṁmahānubhāvo. ",
+            "de": "dass du einen geistlichen Gefährten hast, der <span class=\"ebt-matched\">solche Macht und Stärke</span> besitzt! ",
+            "en": "to have a spiritual companion of such power and might! ",
+            "matched": true
+          }
+        },
+        "score": 2.018,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 37\nDie kürzere Lehrrede über die Auflösung des Verlangens",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 110,
+          "de": 95,
+          "en": 109
         }
       },
       {

@@ -41,11 +41,14 @@
     "pattern": "rosenapfel",
     "method": "phrase",
     "resultPattern": "\\brosenapfel",
-    "segsMatched": 4,
+    "segsMatched": 5,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn48/sn48.67_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn48/sn48.67_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn48/sn48.67_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn36_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn36_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn36_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag4.11_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag4.11_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag4.11_translation-en-sujato.json",
@@ -55,6 +58,7 @@
     ],
     "suttaRefs": [
       "sn48.67/de/sabbamitta",
+      "mn36/de/sabbamitta",
       "thag4.11/de/sabbamitta",
       "dn16/de/sabbamitta"
     ],
@@ -128,6 +132,38 @@
           "pli": 21,
           "de": 20,
           "en": 20
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn36_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn36_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn36_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn36",
+        "lang": "de",
+        "segMap": {
+          "mn36:31.2": {
+            "scid": "mn36:31.2",
+            "pli": "‘abhijānāmi kho panāhaṁ pitu sakkassa kammante sītāya jambucchāyāya nisinno vivicceva kāmehi vivicca akusalehi dhammehi savitakkaṁ savicāraṁ vivekajaṁ pītisukhaṁ paṭhamaṁ jhānaṁ upasampajja viharitā. ",
+            "de": "‚Ich erinnere mich, wie ich im kühlen Schatten des <span class=\"ebt-matched\">Rosenapfel</span>baumes saß, während mein Vater, der Sakyer, bei der Arbeit war. Ganz abgeschieden von den Sinnenfreuden, abgeschieden von untauglichen Eigenschaften, trat ich in die erste Vertiefung ein und verweilte darin; da gibt es aus Abgeschiedenheit geborene Ekstase und Seligkeit, während man den Geist ausrichtet und hält. ",
+            "en": "‘I recall sitting in the cool shade of the rose-apple tree while my father the Sakyan was off working. Quite secluded from sensual pleasures, secluded from unskillful qualities, I entered and remained in the first absorption, which has the rapture and bliss born of seclusion, while placing the mind and keeping it connected. ",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 36\nDie längere Lehrrede mit Saccaka",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 360,
+          "de": 353,
+          "en": 359
         }
       },
       {

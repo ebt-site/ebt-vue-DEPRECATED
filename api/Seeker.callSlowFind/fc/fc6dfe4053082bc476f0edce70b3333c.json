@@ -41,7 +41,7 @@
     "pattern": "aber zum erwachen entschlossen",
     "method": "phrase",
     "resultPattern": "\\baber zum erwachen entschlossen",
-    "segsMatched": 24,
+    "segsMatched": 25,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an5/an5.196_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.196_translation-de-sabbamitta.json",
@@ -85,6 +85,9 @@
       "root/pli/ms/sutta/mn/mn4_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn4_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn4_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn36_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn36_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn36_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn26_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn26_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn26_translation-en-sujato.json",
@@ -125,6 +128,7 @@
       "sn12.4/de/sabbamitta",
       "sn12.10/de/sabbamitta",
       "mn4/de/sabbamitta",
+      "mn36/de/sabbamitta",
       "mn26/de/sabbamitta",
       "mn19/de/sabbamitta",
       "mn14/de/sabbamitta",
@@ -851,6 +855,38 @@
           "pli": 365,
           "de": 363,
           "en": 364
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn36_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn36_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn36_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn36",
+        "lang": "de",
+        "segMap": {
+          "mn36:12.2": {
+            "scid": "mn36:12.2",
+            "pli": "Idha me, aggivessana, pubbeva sambodhā anabhisambuddhassa bodhisattasseva sato etadahosi: ",
+            "de": "Vor meinem Erwachen, als ich noch nicht erwacht war, <span class=\"ebt-matched\">aber zum Erwachen entschlossen</span>, dachte ich: ",
+            "en": "Before my awakening—when I was still unawakened but intent on awakening—I thought: ",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 36\nDie längere Lehrrede mit Saccaka",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 360,
+          "de": 353,
+          "en": 359
         }
       }
     ],

@@ -41,7 +41,7 @@
     "pattern": "dachsparren",
     "method": "phrase",
     "resultPattern": "\\bdachsparren",
-    "segsMatched": 15,
+    "segsMatched": 16,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn48/sn48.52_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn48/sn48.52_translation-de-sabbamitta.json",
@@ -64,6 +64,9 @@
       "root/pli/ms/sutta/sn/sn20/sn20.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn20/sn20.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn20/sn20.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn36_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn36_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn36_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn12_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn12_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn12_translation-en-sujato.json",
@@ -89,6 +92,7 @@
       "sn45.141-145/de/sabbamitta",
       "sn22.102/de/sabbamitta",
       "sn20.1/de/sabbamitta",
+      "mn36/de/sabbamitta",
       "mn12/de/sabbamitta",
       "thag2.32/de/sabbamitta",
       "dhp146-156/de/sabbamitta",
@@ -500,6 +504,38 @@
           "pli": 372,
           "de": 320,
           "en": 371
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn36_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn36_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn36_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn36",
+        "lang": "de",
+        "segMap": {
+          "mn36:28.8": {
+            "scid": "mn36:28.8",
+            "pli": "Seyyathāpi nāma jarasālāya gopānasiyo oluggaviluggā bhavanti; evamevassu me phāsuḷiyo oluggaviluggā bhavanti tāyevappāhāratāya. ",
+            "de": "und meine Rippen waren so eingefallen wie die zusammengefallenen <span class=\"ebt-matched\">Dachsparren</span> einer alten Scheune. ",
+            "en": "and my ribs were as gaunt as the broken-down rafters on an old barn. ",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 36\nDie längere Lehrrede mit Saccaka",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 360,
+          "de": 353,
+          "en": 359
         }
       }
     ],

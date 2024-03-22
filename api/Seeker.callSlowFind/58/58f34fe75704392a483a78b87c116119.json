@@ -41,7 +41,7 @@
     "pattern": "ergreift.* nichts in der welt",
     "method": "phrase",
     "resultPattern": "\\bergreift.* nichts in der welt",
-    "segsMatched": 25,
+    "segsMatched": 27,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn10_translation-de-sabbamitta.json",
@@ -49,6 +49,9 @@
       "root/pli/ms/sutta/dn/dn22_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn22_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn22_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn37_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn37_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn37_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn35/sn35.91_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn35/sn35.91_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.91_translation-en-sujato.json",
@@ -80,6 +83,7 @@
     "suttaRefs": [
       "mn10/de/sabbamitta",
       "dn22/de/sabbamitta",
+      "mn37/de/sabbamitta",
       "sn35.91/de/sabbamitta",
       "sn35.90/de/sabbamitta",
       "sn35.31/de/sabbamitta",
@@ -251,6 +255,45 @@
           "pli": 454,
           "de": 361,
           "en": 453
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn37_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn37_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn37_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn37",
+        "lang": "de",
+        "segMap": {
+          "mn37:3.7": {
+            "scid": "mn37:3.7",
+            "pli": "So tāsu vedanāsu aniccānupassī viharanto, virāgānupassī viharanto, nirodhānupassī viharanto, paṭinissaggānupassī viharanto na kiñci loke upādiyati. ",
+            "de": "Wenn er so meditiert, <span class=\"ebt-matched\">ergreift er nichts in der Welt</span>. ",
+            "en": "Meditating in this way, they don’t grasp at anything in the world. ",
+            "matched": true
+          },
+          "mn37:13.8": {
+            "scid": "mn37:13.8",
+            "pli": "So tāsu vedanāsu aniccānupassī viharanto, virāgānupassī viharanto, nirodhānupassī viharanto, paṭinissaggānupassī viharanto na kiñci loke upādiyati, ",
+            "de": "Wenn er so meditiert, <span class=\"ebt-matched\">ergreift er nichts in der Welt</span>. ",
+            "en": "Meditating in this way, they don’t grasp at anything in the world. ",
+            "matched": true
+          }
+        },
+        "score": 2.018,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 37\nDie kürzere Lehrrede über die Auflösung des Verlangens",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 110,
+          "de": 95,
+          "en": 109
         }
       },
       {

@@ -41,8 +41,11 @@
     "pattern": "aufgrund bloßen vertrauens",
     "method": "phrase",
     "resultPattern": "\\baufgrund bloßen vertrauens",
-    "segsMatched": 3,
+    "segsMatched": 5,
     "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn36_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn36_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn36_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn26_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn26_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn26_translation-en-sujato.json",
@@ -51,10 +54,50 @@
       "translation/en/sujato/sutta/an/an6/an6.55_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "mn36/de/sabbamitta",
       "mn26/de/sabbamitta",
       "an6.55/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn36_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn36_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn36_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn36",
+        "lang": "de",
+        "segMap": {
+          "mn36:13.10": {
+            "scid": "mn36:13.10",
+            "pli": "‘na kho āḷāro kālāmo imaṁ dhammaṁ kevalaṁ saddhāmattakena sayaṁ abhiññā sacchikatvā upasampajja viharāmīti pavedeti, ",
+            "de": "‚Es ist nicht nur <span class=\"ebt-matched\">aufgrund bloßen Vertrauens</span>, dass Āḷāra Kālāma erklärt: „Ich erkenne diese Lehre durch eigene Einsicht und lebe mit dieser Errungenschaft.“ ",
+            "en": "‘It is not solely by mere faith that Āḷāra Kālāma declares: “I realize this teaching with my own insight, and live having achieved it.” ",
+            "matched": true
+          },
+          "mn36:15.9": {
+            "scid": "mn36:15.9",
+            "pli": "‘na kho rāmo imaṁ dhammaṁ kevalaṁ saddhāmattakena sayaṁ abhiññā sacchikatvā upasampajja viharāmīti pavedesi. ",
+            "de": "‚Es ist nicht nur <span class=\"ebt-matched\">aufgrund bloßen Vertrauens</span>, dass Rāma erklärte: „Ich erkenne diese Lehre durch eigene Einsicht und lebe mit dieser Errungenschaft.“ ",
+            "en": "‘It is not solely by mere faith that Rāma declared: “I realize this teaching with my own insight, and live having achieved it.” ",
+            "matched": true
+          }
+        },
+        "score": 2.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 36\nDie längere Lehrrede mit Saccaka",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 360,
+          "de": 353,
+          "en": 359
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/mn/mn26_root-pli-ms.json",

@@ -41,8 +41,11 @@
     "pattern": "nichts ist es wert, darauf zu bestehen",
     "method": "phrase",
     "resultPattern": "\\bnichts ist es wert, darauf zu bestehen",
-    "segsMatched": 2,
+    "segsMatched": 4,
     "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn37_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn37_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn37_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn35/sn35.80_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn35/sn35.80_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.80_translation-en-sujato.json",
@@ -51,10 +54,50 @@
       "translation/en/sujato/sutta/an/an7/an7.61_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "mn37/de/sabbamitta",
       "sn35.80/de/sabbamitta",
       "an7.61/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn37_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn37_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn37_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn37",
+        "lang": "de",
+        "segMap": {
+          "mn37:3.2": {
+            "scid": "mn37:3.2",
+            "pli": "‘sabbe dhammā nālaṁ abhinivesāyā’ti. ",
+            "de": "‚<span class=\"ebt-matched\">Nichts ist es wert, darauf zu bestehen</span>.‘ ",
+            "en": "‘Nothing is worth insisting on.’ ",
+            "matched": true
+          },
+          "mn37:13.3": {
+            "scid": "mn37:13.3",
+            "pli": "“sabbe dhammā nālaṁ abhinivesāyā”ti. ",
+            "de": "„<span class=\"ebt-matched\">Nichts ist es wert, darauf zu bestehen</span>.“ ",
+            "en": "“Nothing is worth insisting on” ",
+            "matched": true
+          }
+        },
+        "score": 2.018,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 37\nDie kürzere Lehrrede über die Auflösung des Verlangens",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 110,
+          "de": 95,
+          "en": 109
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn35/sn35.80_root-pli-ms.json",

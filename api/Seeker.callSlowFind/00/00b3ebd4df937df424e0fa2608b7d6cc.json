@@ -41,11 +41,14 @@
     "pattern": "ärger, hass und unmut",
     "method": "phrase",
     "resultPattern": "\\bärger, hass und unmut",
-    "segsMatched": 18,
+    "segsMatched": 20,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an3/an3.64_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.64_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.64_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn36_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn36_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn36_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn15_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn15_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn15_translation-en-sujato.json",
@@ -76,6 +79,7 @@
     ],
     "suttaRefs": [
       "an3.64/de/sabbamitta",
+      "mn36/de/sabbamitta",
       "mn15/de/sabbamitta",
       "dn24/de/sabbamitta",
       "an5.157/de/sabbamitta",
@@ -326,6 +330,45 @@
           "pli": 263,
           "de": 110,
           "en": 262
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn36_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn36_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn36_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn36",
+        "lang": "de",
+        "segMap": {
+          "mn36:48.5": {
+            "scid": "mn36:48.5",
+            "pli": "Sopi mayā vādena vādaṁ samāraddho aññenaññaṁ paṭicari, bahiddhā kathaṁ apanāmesi, kopañca dosañca appaccayañca pātvākāsi. ",
+            "de": "Er wich dem Problem aus, lenkte das Gespräch auf Nebensächlichkeiten und zeigte <span class=\"ebt-matched\">Ärger, Hass und Unmut</span>. ",
+            "en": "He dodged the issue, distracting the discussion with irrelevant points, and displaying annoyance, hate, and bitterness. ",
+            "matched": true
+          },
+          "mn36:48.12": {
+            "scid": "mn36:48.12",
+            "pli": "Sopi mayā vādena vādaṁ samāraddho aññenaññaṁ paṭicari, bahiddhā kathaṁ apanāmesi, kopañca dosañca appaccayañca pātvākāsi. ",
+            "de": "Sie alle wichen dem Problem aus, lenkten das Gespräch auf Nebensächlichkeiten und zeigten <span class=\"ebt-matched\">Ärger, Hass und Unmut</span>. ",
+            "en": "They all dodged the issue, distracting the discussion with irrelevant points, and displaying annoyance, hate, and bitterness. ",
+            "matched": true
+          }
+        },
+        "score": 2.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 36\nDie längere Lehrrede mit Saccaka",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 360,
+          "de": 353,
+          "en": 359
         }
       },
       {
