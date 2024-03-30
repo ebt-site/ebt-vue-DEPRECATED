@@ -41,7 +41,7 @@
     "pattern": "das stehlen auf",
     "method": "phrase",
     "resultPattern": "\\bdas stehlen auf",
-    "segsMatched": 21,
+    "segsMatched": 23,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an8/an8.41_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.41_translation-de-sabbamitta.json",
@@ -58,6 +58,12 @@
       "root/pli/ms/sutta/mn/mn51_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn51_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn51_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn42_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn42_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn42_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn41_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn41_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn41_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn38_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn38_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn38_translation-en-sujato.json",
@@ -107,6 +113,8 @@
       "sn55.7/de/sabbamitta",
       "sn42.8/de/sabbamitta",
       "mn51/de/sabbamitta",
+      "mn42/de/sabbamitta",
+      "mn41/de/sabbamitta",
       "mn38/de/sabbamitta",
       "mn27/de/sabbamitta",
       "dn2/de/sabbamitta",
@@ -551,6 +559,70 @@
           "pli": 111,
           "de": 110,
           "en": 110
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn41_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn41_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn41_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn41",
+        "lang": "de",
+        "segMap": {
+          "mn41:12.3": {
+            "scid": "mn41:12.3",
+            "pli": "Adinnādānaṁ pahāya adinnādānā paṭivirato hoti. Yaṁ taṁ parassa paravittūpakaraṇaṁ, gāmagataṁ vā araññagataṁ vā, taṁ nādinnaṁ theyyasaṅkhātaṁ ādātā hoti. ",
+            "de": "Er gibt <span class=\"ebt-matched\">das Stehlen auf</span> und stiehlt nicht mehr. Er nimmt nicht in diebischer Absicht Vermögen oder Besitz anderer aus einem Dorf oder aus der Wildnis. ",
+            "en": "They give up stealing. They don’t, with the intention to commit theft, take the wealth or belongings of others from village or wilderness. ",
+            "matched": true
+          }
+        },
+        "score": 1.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 41\nDie Leute von Sālā",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 122,
+          "de": 111,
+          "en": 121
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn42_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn42_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn42_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn42",
+        "lang": "de",
+        "segMap": {
+          "mn42:12.3": {
+            "scid": "mn42:12.3",
+            "pli": "Adinnādānaṁ pahāya adinnādānā paṭivirato hoti, yaṁ taṁ parassa … taṁ nādinnaṁ theyyasaṅkhātaṁ ādātā hoti. ",
+            "de": "Er gibt <span class=\"ebt-matched\">das Stehlen auf</span> und stiehlt nicht mehr. Er nimmt nicht in diebischer Absicht Vermögen oder Besitz anderer aus einem Dorf oder aus der Wildnis. ",
+            "en": "",
+            "matched": true
+          }
+        },
+        "score": 1.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 42\nDie Leute von Verañja",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 122,
+          "de": 109,
+          "en": 121
         }
       },
       {

@@ -41,7 +41,7 @@
     "pattern": "äußere.* dinge",
     "method": "phrase",
     "resultPattern": "\\bäußere.* dinge",
-    "segsMatched": 6,
+    "segsMatched": 7,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn46/sn46.52_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn46/sn46.52_translation-de-sabbamitta.json",
@@ -49,6 +49,9 @@
       "root/pli/ms/sutta/sn/sn9/sn9.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn9/sn9.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn9/sn9.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn40_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn40_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn40_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.128_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.128_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.128_translation-en-sujato.json"
@@ -56,6 +59,7 @@
     "suttaRefs": [
       "sn46.52/de/sabbamitta",
       "sn9.1/de/sabbamitta",
+      "mn40/de/sabbamitta",
       "an3.128/de/sabbamitta"
     ],
     "mlDocs": [
@@ -174,6 +178,38 @@
           "pli": 42,
           "de": 41,
           "en": 41
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn40_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn40_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn40_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn40",
+        "lang": "de",
+        "segMap": {
+          "mn40:6.1": {
+            "scid": "mn40:6.1",
+            "pli": "Saṅghāṭikassa ce, bhikkhave, saṅghāṭidhāraṇamattena abhijjhālussa abhijjhā pahīyetha, byāpannacittassa byāpādo pahīyetha, kodhanassa kodho pahīyetha, upanāhissa upanāho pahīyetha, makkhissa makkho pahīyetha, paḷāsissa paḷāso pahīyetha, issukissa issā pahīyetha, maccharissa macchariyaṁ pahīyetha, saṭhassa sāṭheyyaṁ pahīyetha, māyāvissa māyā pahīyetha, pāpicchassa pāpikā icchā pahīyetha, micchādiṭṭhikassa micchādiṭṭhi pahīyetha, tamenaṁ mittāmaccā ñātisālohitā jātameva naṁ saṅghāṭikaṁ kareyyuṁ, saṅghāṭikattameva samādapeyyuṁ: ",
+            "de": "Angenommen, jemand mit Begehrlichkeit, bösem Willen, Zorn, Feindseligkeit, Geringschätzung, Verachtung, Eifersucht, Geiz, Doppelzüngigkeit, Betrug, unlauteren Wünschen und falscher Ansicht könnte durch bloßes Tragen der <span class=\"ebt-matched\">äußeren Robe diese Dinge</span> aufgeben. Wenn das so wäre, würden die Freunde und Kollegen, Verwandten und Sippenangehörigen einen zu einem Träger der äußeren Robe machen, sobald man geboren wäre. Sie würden einen ermuntern: ",
+            "en": "Imagine that just by wearing an outer robe someone with covetousness, ill will, irritability, hostility, disdain, contempt, jealousy, stinginess, deviousness, deceit, corrupt wishes, and wrong view could give up these things. If that were the case, your friends and colleagues, relatives and kin would make you an outer robe wearer as soon as you were born. They’d encourage you: ",
+            "matched": true
+          }
+        },
+        "score": 1.014,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 40\nDie kürzere Lehrrede bei Assapura",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 71,
+          "de": 62,
+          "en": 69
         }
       }
     ],

@@ -41,7 +41,7 @@
     "pattern": "nackt, wahrt den anstand nicht",
     "method": "phrase",
     "resultPattern": "\\bnackt, wahrt den anstand nicht",
-    "segsMatched": 6,
+    "segsMatched": 7,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn60_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn60_translation-de-sabbamitta.json",
@@ -49,6 +49,9 @@
       "root/pli/ms/sutta/mn/mn51_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn51_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn51_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn45_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn45_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn45_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn8_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn8_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn8_translation-en-sujato.json",
@@ -65,6 +68,7 @@
     "suttaRefs": [
       "mn60/de/sabbamitta",
       "mn51/de/sabbamitta",
+      "mn45/de/sabbamitta",
       "dn8/de/sabbamitta",
       "dn25/de/sabbamitta",
       "an4.198/de/sabbamitta",
@@ -101,6 +105,38 @@
           "pli": 82,
           "de": 80,
           "en": 80
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn45_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn45_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn45_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn45",
+        "lang": "de",
+        "segMap": {
+          "mn45:5.2": {
+            "scid": "mn45:5.2",
+            "pli": "Idha, bhikkhave, ekacco acelako hoti muttācāro hatthāpalekhano, naehibhaddantiko, natiṭṭhabhaddantiko, nābhihaṭaṁ, na uddissakataṁ, na nimantanaṁ sādiyati, ",
+            "de": "Da geht jemand <span class=\"ebt-matched\">nackt, wahrt den Anstand nicht</span>. Er leckt die Hände ab und kommt oder wartet nicht, wenn er gerufen wird. Er nimmt keine Speise an, die ihm gebracht wird oder eigens für ihn zubereitet wurde, auch keine Einladung zum Essen. ",
+            "en": "It’s when someone goes naked, ignoring conventions. They lick their hands, and don’t come or wait when called. They don’t consent to food brought to them, or food prepared on their behalf, or an invitation for a meal. ",
+            "matched": true
+          }
+        },
+        "score": 1.01,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 45\nDie kürzere Lehrrede über das Aufnehmen von Übungen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 97,
+          "de": 82,
+          "en": 96
         }
       },
       {

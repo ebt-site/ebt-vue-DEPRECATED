@@ -41,7 +41,7 @@
     "pattern": "filz",
     "method": "phrase",
     "resultPattern": "\\bfilz",
-    "segsMatched": 34,
+    "segsMatched": 38,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn7/sn7.6_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn7/sn7.6_translation-de-sabbamitta.json",
@@ -49,6 +49,9 @@
       "root/pli/ms/sutta/sn/sn1/sn1.23_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn1/sn1.23_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.23_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn40_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn40_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn40_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/dhp/dhp383-423_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/dhp/dhp383-423_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/dhp/dhp383-423_translation-en-sujato.json",
@@ -93,6 +96,7 @@
     "suttaRefs": [
       "sn7.6/de/sabbamitta",
       "sn1.23/de/sabbamitta",
+      "mn40/de/sabbamitta",
       "dhp383-423/de/sabbamitta",
       "dn23/de/sabbamitta",
       "sn3.11/de/sabbamitta",
@@ -254,6 +258,59 @@
           "pli": 19,
           "de": 19,
           "en": 19
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn40_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn40_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn40_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn40",
+        "lang": "de",
+        "segMap": {
+          "mn40:5.10": {
+            "scid": "mn40:5.10",
+            "pli": "Nāhaṁ, bhikkhave, jaṭilakassa jaṭādhāraṇamattena sāmaññaṁ vadāmi. ",
+            "de": "Die Bezeichnung ‚<span class=\"ebt-matched\">Filz</span>haarasket‘ verdient man nicht, bloß weil man verfilzte Haare hat, sage ich. ",
+            "en": "You don’t deserve the label ‘matted-hair ascetic’ just because you have matted hair. ",
+            "matched": true
+          },
+          "mn40:6.12": {
+            "scid": "mn40:6.12",
+            "pli": "jaṭilakassa ce, bhikkhave, jaṭādhāraṇamattena abhijjhālussa abhijjhā pahīyetha, byāpannacittassa byāpādo pahīyetha, kodhanassa kodho pahīyetha, upanāhissa upanāho pahīyetha, makkhissa makkho pahīyetha, paḷāsissa paḷāso pahīyetha, issukissa issā pahīyetha, maccharissa macchariyaṁ pahīyetha, saṭhassa sāṭheyyaṁ pahīyetha, māyāvissa māyā pahīyetha, pāpicchassa pāpikā icchā pahīyetha, micchādiṭṭhikassa micchādiṭṭhi pahīyetha, tamenaṁ mittāmaccā ñātisālohitā jātameva naṁ jaṭilakaṁ kareyyuṁ, jaṭilakattameva samādapeyyuṁ: ",
+            "de": "durch bloßes Verfilzen der Haare diese Dinge aufgeben. Wenn das so wäre, würden die Freunde und Kollegen, Verwandten und Sippenangehörigen einen zu einem <span class=\"ebt-matched\">Filz</span>haarasketen machen, sobald man geboren wäre. Sie würden einen ermuntern: ",
+            "en": "having matted hair someone with covetousness, ill will, irritability, hostility, disdain, contempt, jealousy, stinginess, deviousness, deceit, corrupt wishes, and wrong view could give up these things. If that were the case, your friends and colleagues, relatives and kin would make you a matted-hair ascetic as soon as you were born. They’d encourage you: ",
+            "matched": true
+          },
+          "mn40:6.13": {
+            "scid": "mn40:6.13",
+            "pli": "‘ehi tvaṁ, bhadramukha, jaṭilako hohi, jaṭilakassa te sato jaṭādhāraṇamattena abhijjhālussa abhijjhā pahīyissati byāpannacittassa byāpādo pahīyissati, kodhanassa kodho pahīyissati …pe… pāpicchassa pāpikā icchā pahīyissati micchādiṭṭhikassa micchādiṭṭhi pahīyissatī’ti. ",
+            "de": "‚Bitte, Liebster, werde ein <span class=\"ebt-matched\">Filz</span>haarasket! Dadurch wirst du Begehrlichkeit, bösen Willen, Zorn, Feindseligkeit, Geringschätzung, Verachtung, Eifersucht, Geiz, Doppelzüngigkeit, Betrug, unlautere Wünsche und falsche Ansicht aufgeben.‘ ",
+            "en": "‘Please, my dear, become a matted-hair ascetic! By doing so you will give up covetousness, ill will, irritability, hostility, disdain, contempt, jealousy, stinginess, deviousness, deceit, corrupt wishes, and wrong view.’ ",
+            "matched": true
+          },
+          "mn40:6.14": {
+            "scid": "mn40:6.14",
+            "pli": "Yasmā ca kho ahaṁ, bhikkhave, jaṭilakampi idhekaccaṁ passāmi abhijjhāluṁ byāpannacittaṁ kodhanaṁ upanāhiṁ makkhiṁ palāsiṁ issukiṁ macchariṁ saṭhaṁ māyāviṁ pāpicchaṁ micchādiṭṭhiṁ, tasmā na jaṭilakassa jaṭādhāraṇamattena sāmaññaṁ vadāmi. ",
+            "de": "Aber ich sehe manchmal jemanden, der diese schlechten Eigenschaften hat und der ein <span class=\"ebt-matched\">Filz</span>haarasket ist. Darum sage ich, dass man die Bezeichnung ‚<span class=\"ebt-matched\">Filz</span>haarasket‘ nicht verdient, bloß weil man verfilzte Haare hat. ",
+            "en": "But sometimes I see someone with these bad qualities who is a matted-hair ascetic. That’s why I say that you don’t deserve the label ‘matted-hair ascetic’ just because you have matted hair. ",
+            "matched": true
+          }
+        },
+        "score": 4.056,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 40\nDie kürzere Lehrrede bei Assapura",
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 71,
+          "de": 62,
+          "en": 69
         }
       },
       {

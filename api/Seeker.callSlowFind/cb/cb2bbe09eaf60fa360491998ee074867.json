@@ -41,11 +41,14 @@
     "pattern": "nur einen bissen",
     "method": "phrase",
     "resultPattern": "\\bnur einen bissen",
-    "segsMatched": 7,
+    "segsMatched": 8,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn51_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn51_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn51_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn45_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn45_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn45_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn36_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn36_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn36_translation-en-sujato.json",
@@ -67,6 +70,7 @@
     ],
     "suttaRefs": [
       "mn51/de/sabbamitta",
+      "mn45/de/sabbamitta",
       "mn36/de/sabbamitta",
       "mn12/de/sabbamitta",
       "dn8/de/sabbamitta",
@@ -105,6 +109,38 @@
           "pli": 82,
           "de": 80,
           "en": 80
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn45_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn45_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn45_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn45",
+        "lang": "de",
+        "segMap": {
+          "mn45:5.4": {
+            "scid": "mn45:5.4",
+            "pli": "So ekāgāriko vā hoti ekālopiko, dvāgāriko vā hoti dvālopiko …pe… sattāgāriko vā hoti sattālopiko. ",
+            "de": "Er geht um Almosen nur zu einem Haus und nimmt <span class=\"ebt-matched\">nur einen Bissen</span>, oder zu zwei Häusern und zwei Bissen, bis zu sieben Häusern und sieben Bissen. ",
+            "en": "They go to just one house for alms, taking just one mouthful, or two houses and two mouthfuls, up to seven houses and seven mouthfuls. ",
+            "matched": true
+          }
+        },
+        "score": 1.01,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 45\nDie kürzere Lehrrede über das Aufnehmen von Übungen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 97,
+          "de": 82,
+          "en": 96
         }
       },
       {

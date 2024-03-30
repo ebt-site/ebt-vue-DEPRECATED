@@ -41,8 +41,14 @@
     "pattern": "ein abgebrühter mörder",
     "method": "phrase",
     "resultPattern": "\\bein abgebrühter mörder",
-    "segsMatched": 5,
+    "segsMatched": 7,
     "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn42_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn42_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn42_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn41_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn41_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn41_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.217_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.217_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an10/an10.217_translation-en-sujato.json",
@@ -60,6 +66,8 @@
       "translation/en/sujato/sutta/an/an10/an10.176_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "mn42/de/sabbamitta",
+      "mn41/de/sabbamitta",
       "an10.217/de/sabbamitta",
       "an10.216/de/sabbamitta",
       "an10.212/de/sabbamitta",
@@ -225,6 +233,70 @@
           "pli": 88,
           "de": 87,
           "en": 87
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn41_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn41_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn41_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn41",
+        "lang": "de",
+        "segMap": {
+          "mn41:8.2": {
+            "scid": "mn41:8.2",
+            "pli": "Idha, gahapatayo, ekacco pāṇātipātī hoti, luddo lohitapāṇi hatappahate niviṭṭho adayāpanno pāṇabhūtesu. ",
+            "de": "Da tötet jemand lebende Geschöpfe. Er ist unbarmherzig, hat Blut an den Händen, <span class=\"ebt-matched\">ein abgebrühter Mörder</span>, mitleidlos gegenüber allen Lebewesen. ",
+            "en": "It’s when a certain person kills living creatures. They’re violent, bloody-handed, a hardened killer, merciless to living beings. ",
+            "matched": true
+          }
+        },
+        "score": 1.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 41\nDie Leute von Sālā",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 122,
+          "de": 111,
+          "en": 121
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn42_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn42_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn42_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn42",
+        "lang": "de",
+        "segMap": {
+          "mn42:8.2": {
+            "scid": "mn42:8.2",
+            "pli": "Idha, gahapatayo, ekacco pāṇātipātī hoti. Luddo lohitapāṇi hatappahate niviṭṭho adayāpanno pāṇabhūtesu. ",
+            "de": "Da tötet jemand lebende Geschöpfe. Er ist unbarmherzig, hat Blut an den Händen, <span class=\"ebt-matched\">ein abgebrühter Mörder</span>, mitleidlos gegenüber allen Lebewesen. ",
+            "en": "",
+            "matched": true
+          }
+        },
+        "score": 1.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 42\nDie Leute von Verañja",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 122,
+          "de": 109,
+          "en": 121
         }
       }
     ],

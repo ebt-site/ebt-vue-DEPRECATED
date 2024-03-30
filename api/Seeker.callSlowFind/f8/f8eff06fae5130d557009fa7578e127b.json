@@ -41,11 +41,14 @@
     "pattern": "kräuter, hirse",
     "method": "phrase",
     "resultPattern": "\\bkräuter, hirse",
-    "segsMatched": 8,
+    "segsMatched": 9,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn51_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn51_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn51_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn45_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn45_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn45_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn25_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn25_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn25_translation-en-sujato.json",
@@ -70,6 +73,7 @@
     ],
     "suttaRefs": [
       "mn51/de/sabbamitta",
+      "mn45/de/sabbamitta",
       "mn25/de/sabbamitta",
       "mn12/de/sabbamitta",
       "dn8/de/sabbamitta",
@@ -141,6 +145,38 @@
           "pli": 82,
           "de": 80,
           "en": 80
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn45_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn45_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn45_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn45",
+        "lang": "de",
+        "segMap": {
+          "mn45:5.7": {
+            "scid": "mn45:5.7",
+            "pli": "So sākabhakkho vā hoti, sāmākabhakkho vā hoti, nīvārabhakkho vā hoti, daddulabhakkho vā hoti, haṭabhakkho vā hoti, kaṇabhakkho vā hoti, ācāmabhakkho vā hoti, piññākabhakkho vā hoti, tiṇabhakkho vā hoti, gomayabhakkho vā hoti, vanamūlaphalāhāro yāpeti pavattaphalabhojī. ",
+            "de": "Er isst <span class=\"ebt-matched\">Kräuter, Hirse</span>, wilden Reis, mageren Reis, Wasserlattich, Reiskleie, Schaum von gekochtem Reis, Sesammehl, Gras oder Kuhmist. Er überlebt mit Wurzeln und Waldbeeren oder isst herabgefallene Früchte. ",
+            "en": "They eat herbs, millet, wild rice, poor rice, water lettuce, rice bran, scum from boiling rice, sesame flour, grass, or cow dung. They survive on forest roots and fruits, or eating fallen fruit. ",
+            "matched": true
+          }
+        },
+        "score": 1.01,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 45\nDie kürzere Lehrrede über das Aufnehmen von Übungen",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 97,
+          "de": 82,
+          "en": 96
         }
       },
       {

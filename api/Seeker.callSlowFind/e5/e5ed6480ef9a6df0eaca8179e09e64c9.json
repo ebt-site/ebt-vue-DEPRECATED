@@ -41,7 +41,7 @@
     "pattern": "stock und schwert",
     "method": "phrase",
     "resultPattern": "\\bstock und schwert",
-    "segsMatched": 36,
+    "segsMatched": 38,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn18_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn18_translation-de-sabbamitta.json",
@@ -76,6 +76,12 @@
       "root/pli/ms/sutta/mn/mn51_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn51_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn51_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn42_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn42_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn42_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn41_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn41_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn41_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn38_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn38_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn38_translation-en-sujato.json",
@@ -137,6 +143,8 @@
       "an3.70/de/sabbamitta",
       "mn60/de/sabbamitta",
       "mn51/de/sabbamitta",
+      "mn42/de/sabbamitta",
+      "mn41/de/sabbamitta",
       "mn38/de/sabbamitta",
       "mn27/de/sabbamitta",
       "dn8/de/sabbamitta",
@@ -728,6 +736,70 @@
           "pli": 111,
           "de": 110,
           "en": 110
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn41_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn41_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn41_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn41",
+        "lang": "de",
+        "segMap": {
+          "mn41:12.2": {
+            "scid": "mn41:12.2",
+            "pli": "Idha, gahapatayo, ekacco pāṇātipātaṁ pahāya pāṇātipātā paṭivirato hoti, nihitadaṇḍo nihitasattho lajjī dayāpanno sabbapāṇabhūtahitānukampī viharati. ",
+            "de": "Da gibt jemand das Töten lebender Geschöpfe auf und tötet nicht mehr. Er verzichtet auf <span class=\"ebt-matched\">Stock und Schwert</span>. Er ist gewissenhaft und gütig und lebt voller Anteilnahme für alle Lebewesen. ",
+            "en": "It’s when a certain person gives up killing living creatures. They renounce the rod and the sword. They’re scrupulous and kind, living full of compassion for all living beings. ",
+            "matched": true
+          }
+        },
+        "score": 1.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 41\nDie Leute von Sālā",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 122,
+          "de": 111,
+          "en": 121
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn42_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn42_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn42_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn42",
+        "lang": "de",
+        "segMap": {
+          "mn42:12.2": {
+            "scid": "mn42:12.2",
+            "pli": "Idha, gahapatayo, ekacco pāṇātipātaṁ pahāya pāṇātipātā paṭivirato hoti, nihitadaṇḍo nihitasattho lajjī dayāpanno sabbapāṇabhūtahitānukampī viharati. ",
+            "de": "Da gibt jemand das Töten lebender Geschöpfe auf und tötet nicht mehr. Er verzichtet auf <span class=\"ebt-matched\">Stock und Schwert</span>. Er ist gewissenhaft und gütig und lebt voller Anteilnahme für alle Lebewesen. ",
+            "en": "",
+            "matched": true
+          }
+        },
+        "score": 1.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 42\nDie Leute von Verañja",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 122,
+          "de": 109,
+          "en": 121
         }
       },
       {

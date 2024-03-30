@@ -41,17 +41,21 @@
     "pattern": "bodensatz",
     "method": "phrase",
     "resultPattern": "\\bbodensatz",
-    "segsMatched": 4,
+    "segsMatched": 6,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an2/an2.42-51_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an2/an2.42-51_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an2/an2.42-51_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn40_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn40_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn40_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.20_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.20_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.20_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an2.42-51/de/sabbamitta",
+      "mn40/de/sabbamitta",
       "an4.20/de/sabbamitta"
     ],
     "mlDocs": [
@@ -99,6 +103,45 @@
           "pli": 145,
           "de": 143,
           "en": 138
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn40_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn40_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn40_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn40",
+        "lang": "de",
+        "segMap": {
+          "mn40:3.3": {
+            "scid": "mn40:3.3",
+            "pli": "imesaṁ kho ahaṁ, bhikkhave, samaṇamalānaṁ samaṇadosānaṁ samaṇakasaṭānaṁ āpāyikānaṁ ṭhānānaṁ duggativedaniyānaṁ appahānā ‘na samaṇasāmīcippaṭipadaṁ paṭipanno’ti vadāmi. ",
+            "de": "Diese Flecken, diese Fehler, dieser <span class=\"ebt-matched\">Bodensatz</span> eines Asketen sind der Grund für Wiedergeburt an verlorenen Orten und werden an schlechten Orten erfahren. Solange jemand sie nicht aufgegeben hat, übt er nicht so, wie es für einen Asketen angebracht ist, sage ich. ",
+            "en": "These stains, defects, and dregs of an ascetic are grounds for rebirth in places of loss, and are experienced in bad places. As long as they have not given these up, they do not practice in the way that is proper for an ascetic, I say. ",
+            "matched": true
+          },
+          "mn40:7.3": {
+            "scid": "mn40:7.3",
+            "pli": "imesaṁ kho ahaṁ, bhikkhave, samaṇamalānaṁ samaṇadosānaṁ samaṇakasaṭānaṁ āpāyikānaṁ ṭhānānaṁ duggativedaniyānaṁ pahānā ‘samaṇasāmīcippaṭipadaṁ paṭipanno’ti vadāmi. ",
+            "de": "Diese Flecken, diese Fehler, dieser <span class=\"ebt-matched\">Bodensatz</span> eines Asketen sind der Grund für Wiedergeburt an verlorenen Orten und werden an schlechten Orten erfahren. Wenn jemand sie aufgegeben hat, übt er so, wie es für einen Asketen angebracht ist, sage ich. ",
+            "en": "These stains, defects, and dregs of an ascetic are grounds for rebirth in places of loss, and are experienced in bad places. When they have given these up, they are practicing in the way that is proper for an ascetic, I say. ",
+            "matched": true
+          }
+        },
+        "score": 2.028,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 40\nDie kürzere Lehrrede bei Assapura",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 71,
+          "de": 62,
+          "en": 69
         }
       },
       {
