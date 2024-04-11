@@ -41,7 +41,7 @@
     "pattern": "die ausführliche bedeutung",
     "method": "phrase",
     "resultPattern": "\\bdie ausführliche bedeutung",
-    "segsMatched": 95,
+    "segsMatched": 97,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn1/sn1.20_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn1/sn1.20_translation-de-sabbamitta.json",
@@ -130,6 +130,12 @@
       "root/pli/ms/sutta/an/an10/an10.220_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.220_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an10/an10.220_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn42_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn42_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn42_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn41_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn41_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn41_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.171_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.171_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.171_translation-en-sujato.json",
@@ -170,6 +176,8 @@
       "an10.28/de/sabbamitta",
       "an10.26/de/sabbamitta",
       "an10.220/de/sabbamitta",
+      "mn42/de/sabbamitta",
+      "mn41/de/sabbamitta",
       "an4.171/de/sabbamitta",
       "an10.172/de/sabbamitta",
       "an10.115/de/sabbamitta"
@@ -1637,6 +1645,70 @@
         "langSegs": {
           "pli": 122,
           "de": 94,
+          "en": 121
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn41_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn41_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn41_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn41",
+        "lang": "de",
+        "segMap": {
+          "mn41:6.1": {
+            "scid": "mn41:6.1",
+            "pli": "“Na kho mayaṁ imassa bhoto gotamassa saṅkhittena bhāsitassa, vitthārena atthaṁ avibhattassa, vitthārena atthaṁ ājānāma. ",
+            "de": "„Wir verstehen die Bedeutung dessen nicht, was Meister Gotama kurz gesagt hat, ohne <span class=\"ebt-matched\">die ausführliche Bedeutung</span> zu erklären. ",
+            "en": "“We don’t understand the detailed meaning of Master Gotama’s brief statement. ",
+            "matched": true
+          }
+        },
+        "score": 1.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 41\nDie Leute von Sālā",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 122,
+          "de": 111,
+          "en": 121
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn42_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn42_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn42_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn42",
+        "lang": "de",
+        "segMap": {
+          "mn42:6.1": {
+            "scid": "mn42:6.1",
+            "pli": "“Na kho mayaṁ imassa bhoto gotamassa saṅkhittena bhāsitassa, vitthārena atthaṁ avibhattassa, vitthārena atthaṁ ājānāma. ",
+            "de": "„Wir verstehen die Bedeutung dessen nicht, was Meister Gotama kurz gesagt hat, ohne <span class=\"ebt-matched\">die ausführliche Bedeutung</span> zu erklären. ",
+            "en": "“We don’t understand the detailed meaning of Master Gotama’s brief statement. …” ",
+            "matched": true
+          }
+        },
+        "score": 1.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 42\nDie Leute von Verañja",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 122,
+          "de": 109,
           "en": 121
         }
       }

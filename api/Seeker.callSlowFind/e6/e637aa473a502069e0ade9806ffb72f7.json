@@ -41,7 +41,7 @@
     "pattern": "schädlichen irrglauben",
     "method": "phrase",
     "resultPattern": "\\bschädlichen irrglauben",
-    "segsMatched": 40,
+    "segsMatched": 41,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn23_translation-de-sabbamitta.json",
@@ -70,6 +70,9 @@
       "root/pli/ms/sutta/sn/sn6/sn6.4_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn6/sn6.4_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn6/sn6.4_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn49_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn49_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn49_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn35_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn35_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn35_translation-en-sujato.json",
@@ -87,6 +90,7 @@
       "dn24/de/sabbamitta",
       "sn6.5/de/sabbamitta",
       "sn6.4/de/sabbamitta",
+      "mn49/de/sabbamitta",
       "mn35/de/sabbamitta",
       "an10.95/de/sabbamitta"
     ],
@@ -612,6 +616,38 @@
           "pli": 61,
           "de": 49,
           "en": 61
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn49_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn49_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn49_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn49",
+        "lang": "de",
+        "segMap": {
+          "mn49:2.2": {
+            "scid": "mn49:2.2",
+            "pli": "Tena kho pana, bhikkhave, samayena bakassa brahmuno evarūpaṁ pāpakaṁ diṭṭhigataṁ uppannaṁ hoti: ",
+            "de": "Nun hatte der Brahmā Baka zu dieser Zeit den folgenden <span class=\"ebt-matched\">schädlichen Irrglauben</span>: ",
+            "en": "Now at that time Baka the Brahmā had the following harmful misconception: ",
+            "matched": true
+          }
+        },
+        "score": 1.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 49\nÜber Brahmās Einladung",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 162,
+          "de": 159,
+          "en": 161
         }
       },
       {

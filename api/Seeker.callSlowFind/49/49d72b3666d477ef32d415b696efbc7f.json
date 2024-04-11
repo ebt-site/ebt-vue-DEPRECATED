@@ -41,17 +41,21 @@
     "pattern": "wie ein.* katze",
     "method": "phrase",
     "resultPattern": "\\bwie ein.* katze",
-    "segsMatched": 3,
+    "segsMatched": 4,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn21_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn21_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn21_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn50_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn50_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn50_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag19.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag19.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag19.1_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "mn21/de/sabbamitta",
+      "mn50/de/sabbamitta",
       "thag19.1/de/sabbamitta"
     ],
     "mlDocs": [
@@ -92,6 +96,38 @@
           "pli": 227,
           "de": 213,
           "en": 226
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn50_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn50_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn50_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn50",
+        "lang": "de",
+        "segMap": {
+          "mn50:13.7": {
+            "scid": "mn50:13.7",
+            "pli": "Seyyathāpi nāma biḷāro sandhisamalasaṅkaṭīre mūsikaṁ maggayamāno jhāyati pajjhāyati nijjhāyati apajjhāyati; ",
+            "de": "<span class=\"ebt-matched\">Wie eine Katze</span> an einer Gasse oder einem Abfluss oder einer Mülltonne, die meditiert und sich konzentriert und sinnt und betrachtet, wenn sie einer Maus auflauert, ",
+            "en": "They’re just like a cat by an alley or a drain or a dustbin, which meditates and concentrates and contemplates and ruminates as it hunts a mouse. ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 50\nDie Zurechtweisung Māras",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 239,
+          "de": 210,
+          "en": 236
         }
       },
       {

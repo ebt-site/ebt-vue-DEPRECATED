@@ -41,7 +41,7 @@
     "pattern": "mit einem stock",
     "method": "phrase",
     "resultPattern": "\\bmit einem stock",
-    "segsMatched": 12,
+    "segsMatched": 13,
     "bilaraPaths": [
       "root/pli/ms/sutta/kn/ud/vagga2/ud2.3_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga2/ud2.3_translation-de-sabbamitta.json",
@@ -59,6 +59,9 @@
       "root/pli/ms/sutta/sn/sn4/sn4.24_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn4/sn4.24_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn4/sn4.24_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn49_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn49_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn49_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn35_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn35_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn35_translation-en-sujato.json",
@@ -76,6 +79,7 @@
       "an3.27/de/sabbamitta",
       "sn4.25/de/sabbamitta",
       "sn4.24/de/sabbamitta",
+      "mn49/de/sabbamitta",
       "mn35/de/sabbamitta",
       "mn21/de/sabbamitta",
       "thig13.3/de/sabbamitta"
@@ -286,7 +290,7 @@
           "sn4.25:1.1": {
             "scid": "sn4.25:1.1",
             "pli": "Atha kho māro pāpimā bhagavato santike imā nibbejanīyā gāthāyo abhāsitvā tamhā ṭhānā apakkamma bhagavato avidūre pathaviyaṁ pallaṅkena nisīdi tuṇhībhūto maṅkubhūto pattakkhandho adhomukho pajjhāyanto appaṭibhāno kaṭṭhena bhūmiṁ vilikhanto. ",
-            "de": "Und als Māra der Böse vor dem Buddha diese Strophen über seine Enttäuschung aufgesagt hatte, verließ er diesen Ort. Er saß nicht weit vom Buddha schweigend und betroffen mit gekreuzten Beinen auf dem Boden, mit hängenden Schultern und gesenktem Kopf, gedrückt, niedergeschlagen, und konnte nichts sagen; er kritzelte <span class=\"ebt-matched\">mit einem Stock</span> auf dem Boden herum. ",
+            "de": "Und als Māra der Böse vor dem Buddha diese Strophen über seine Enttäuschung aufgesagt hatte, verließ er diesen Ort. Er saß nicht weit vom Buddha schweigend und betroffen mit gekreuzten Beinen auf dem Boden, mit hängenden Schultern und gesenktem Kopf, niedergeschlagen, und konnte nichts sagen; er kritzelte <span class=\"ebt-matched\">mit einem Stock</span> auf dem Boden herum. ",
             "en": "And then Māra the Wicked, after reciting these verses of disillusionment in the Buddha’s presence, left that place. He sat cross-legged on the ground not far from the Buddha, silent, dismayed, shoulders drooping, downcast, depressed, with nothing to say, scratching the ground with a stick. ",
             "matched": true
           }
@@ -301,6 +305,38 @@
           "pli": 116,
           "de": 94,
           "en": 115
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn49_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn49_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn49_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn49",
+        "lang": "de",
+        "segMap": {
+          "mn49:5.9": {
+            "scid": "mn49:5.9",
+            "pli": "Sace kho tvaṁ, bhikkhu, brahmuno vacanaṁ upātivattissasi, seyyathāpi nāma puriso siriṁ āgacchantiṁ daṇḍena paṭippaṇāmeyya, seyyathāpi vā pana, bhikkhu, puriso narakappapāte papatanto hatthehi ca pādehi ca pathaviṁ virādheyya, evaṁ sampadamidaṁ, bhikkhu, tuyhaṁ bhavissati. ",
+            "de": "Andernfalls wird es dir ergehen wie einem Menschen, der die Glücksgöttin, wenn sie zu ihm kommt, <span class=\"ebt-matched\">mit einem Stock</span> abwehrt; oder wie einem, der, wenn er dabei ist, eine Klippe hinabzustürzen, mit Händen und Füßen am Boden den Halt verliert. ",
+            "en": "If you do, then you’ll end up like a person who, when approached by Lady Luck, would ward her off with a staff; or who, as they are falling over a cliff, would lose grip of the ground with their hands and feet. ",
+            "matched": true
+          }
+        },
+        "score": 1.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 49\nÜber Brahmās Einladung",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 162,
+          "de": 159,
+          "en": 161
         }
       },
       {

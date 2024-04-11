@@ -39,58 +39,12 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "als ‚teller‘, als ‚schale‘, als ‚häferl‘",
-    "method": "phrase",
-    "resultPattern": "\\bals ‚teller‘, als ‚schale‘, als ‚häferl‘",
-    "segsMatched": 2,
-    "bilaraPaths": [
-      "root/pli/ms/sutta/mn/mn139_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/mn/mn139_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/mn/mn139_translation-en-sujato.json"
-    ],
-    "suttaRefs": [
-      "mn139/de/sabbamitta"
-    ],
-    "mlDocs": [
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/mn/mn139_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/mn/mn139_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/mn/mn139_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "mn139",
-        "lang": "de",
-        "segMap": {
-          "mn139:12.4": {
-            "scid": "mn139:12.4",
-            "pli": "Idha, bhikkhave, tadevekaccesu janapadesu ‘pātī’ti sañjānanti, ‘pattan’ti sañjānanti, ‘vittan’ti sañjānanti, ‘sarāvan’ti sañjānanti ‘dhāropan’ti sañjānanti, ‘poṇan’ti sañjānanti, ‘pisīlavan’ti sañjānanti. ",
-            "de": "Da ist das gleiche Ding in verschiedenen Gegenden <span class=\"ebt-matched\">als ‚Teller‘, als ‚Schale‘, als ‚Häferl‘</span>, als ‚Schüssel‘, als ‚Tiegel‘, als ‚Terrine‘ oder als ‚Napf‘ bekannt. ",
-            "en": "It’s when in different localities the same thing is known as a ‘plate’, a ‘bowl’, a ‘cup’, a ‘dish’, a ‘basin’, a ‘tureen’, or a ‘porringer’. ",
-            "matched": true
-          },
-          "mn139:12.9": {
-            "scid": "mn139:12.9",
-            "pli": "Idha, bhikkhave, tadevekaccesu janapadesu ‘pātī’ti sañjānanti, ‘pattan’ti sañjānanti, ‘vittan’ti sañjānanti, ‘sarāvan’ti sañjānanti, ‘dhāropan’ti sañjānanti, ‘poṇan’ti sañjānanti, ‘pisīlavan’ti sañjānanti. ",
-            "de": "Da ist das gleiche Ding in verschiedenen Gegenden <span class=\"ebt-matched\">als ‚Teller‘, als ‚Schale‘, als ‚Häferl‘</span>, als ‚Schüssel‘, als ‚Tiegel‘, als ‚Terrine‘ oder als ‚Napf‘ bekannt. ",
-            "en": "It’s when in different localities the same thing is known as a ‘plate’, a ‘bowl’, a ‘cup’, a ‘dish’, a ‘basin’, a ‘tureen’, or a ‘porringer’. ",
-            "matched": true
-          }
-        },
-        "score": 2.01,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Mittlere Lehrreden 139\nDie Aufgliederung der Freiheit von Spannungen",
-        "segsMatched": 2,
-        "langSegs": {
-          "pli": 201,
-          "de": 165,
-          "en": 200
-        }
-      }
-    ],
+    "method": "keywords",
+    "resultPattern": "\\bals|\\b‚teller‘,|\\bals|\\b‚schale‘,|\\bals|\\b‚häferl‘",
+    "segsMatched": 0,
+    "bilaraPaths": [],
+    "suttaRefs": [],
+    "mlDocs": [],
     "refLang": "en",
     "refAuthor": "sujato",
     "docLang": "de",

@@ -41,7 +41,7 @@
     "pattern": "kuhhirt",
     "method": "phrase",
     "resultPattern": "\\bkuhhirt",
-    "segsMatched": 57,
+    "segsMatched": 59,
     "bilaraPaths": [
       "root/pli/ms/sutta/kn/ud/vagga4/ud4.3_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga4/ud4.3_translation-de-sabbamitta.json",
@@ -67,6 +67,9 @@
       "root/pli/ms/sutta/sn/sn35/sn35.241_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn35/sn35.241_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.241_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn50_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn50_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn50_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn19_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn19_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn19_translation-en-sujato.json",
@@ -121,6 +124,7 @@
       "an11.22-29/de/sabbamitta",
       "an11.502-981/de/sabbamitta",
       "sn35.241/de/sabbamitta",
+      "mn50/de/sabbamitta",
       "mn19/de/sabbamitta",
       "mn12/de/sabbamitta",
       "dhp129-145/de/sabbamitta",
@@ -668,6 +672,45 @@
           "pli": 123,
           "de": 122,
           "en": 122
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn50_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn50_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn50_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn50",
+        "lang": "de",
+        "segMap": {
+          "mn50:10.3": {
+            "scid": "mn50:10.3",
+            "pli": "Addasaṁsu kho, pāpima, gopālakā pasupālakā kassakā pathāvino āyasmantaṁ sañjīvaṁ aññatarasmiṁ rukkhamūle saññāvedayitanirodhaṁ samāpannaṁ nisinnaṁ; ",
+            "de": "Ein paar <span class=\"ebt-matched\">Kuhhirt</span>en, Schafhirten, Bauern und Reisende sahen ihn dort sitzen ",
+            "en": "Some cowherds, shepherds, farmers, and passers-by saw him sitting there ",
+            "matched": true
+          },
+          "mn50:11.2": {
+            "scid": "mn50:11.2",
+            "pli": "Addasaṁsu kho te, pāpima, gopālakā pasupālakā kassakā pathāvino āyasmantaṁ sañjīvaṁ piṇḍāya carantaṁ; ",
+            "de": "Diese <span class=\"ebt-matched\">Kuhhirt</span>en, Schafhirten, Bauern und Reisenden sahen ihn um Almosen umherziehen ",
+            "en": "Those cowherds, shepherds, farmers, and passers-by saw him wandering for alms ",
+            "matched": true
+          }
+        },
+        "score": 2.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 50\nDie Zurechtweisung Māras",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 239,
+          "de": 210,
+          "en": 236
         }
       },
       {

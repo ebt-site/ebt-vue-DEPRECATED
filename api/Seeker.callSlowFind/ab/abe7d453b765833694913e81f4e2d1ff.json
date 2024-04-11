@@ -41,11 +41,14 @@
     "pattern": "maus",
     "method": "phrase",
     "resultPattern": "\\bmaus",
-    "segsMatched": 7,
+    "segsMatched": 9,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn20/sn20.10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn20/sn20.10_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn20/sn20.10_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn50_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn50_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn50_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.107_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.107_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.107_translation-en-sujato.json",
@@ -55,6 +58,7 @@
     ],
     "suttaRefs": [
       "sn20.10/de/sabbamitta",
+      "mn50/de/sabbamitta",
       "an4.107/de/sabbamitta",
       "thag3.4/de/sabbamitta"
     ],
@@ -149,6 +153,45 @@
           "pli": 46,
           "de": 45,
           "en": 45
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn50_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn50_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn50_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn50",
+        "lang": "de",
+        "segMap": {
+          "mn50:13.3": {
+            "scid": "mn50:13.3",
+            "pli": "Seyyathāpi nāma ulūko rukkhasākhāyaṁ mūsikaṁ maggayamāno jhāyati pajjhāyati nijjhāyati apajjhāyati; ",
+            "de": "Wie eine Eule, die auf einem Ast sitzt und meditiert und sich konzentriert und sinnt und betrachtet, wenn sie einer <span class=\"ebt-matched\">Maus</span> auflauert, ",
+            "en": "They’re just like an owl on a branch, which meditates and concentrates and contemplates and ruminates as it hunts a mouse. ",
+            "matched": true
+          },
+          "mn50:13.7": {
+            "scid": "mn50:13.7",
+            "pli": "Seyyathāpi nāma biḷāro sandhisamalasaṅkaṭīre mūsikaṁ maggayamāno jhāyati pajjhāyati nijjhāyati apajjhāyati; ",
+            "de": "Wie eine Katze an einer Gasse oder einem Abfluss oder einer Mülltonne, die meditiert und sich konzentriert und sinnt und betrachtet, wenn sie einer <span class=\"ebt-matched\">Maus</span> auflauert, ",
+            "en": "They’re just like a cat by an alley or a drain or a dustbin, which meditates and concentrates and contemplates and ruminates as it hunts a mouse. ",
+            "matched": true
+          }
+        },
+        "score": 2.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 50\nDie Zurechtweisung Māras",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 239,
+          "de": 210,
+          "en": 236
         }
       },
       {

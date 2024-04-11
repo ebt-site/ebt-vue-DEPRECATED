@@ -41,7 +41,7 @@
     "pattern": "inbrünstige.* bußübung",
     "method": "phrase",
     "resultPattern": "\\binbrünstige.* bußübung",
-    "segsMatched": 78,
+    "segsMatched": 79,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn8_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn8_translation-de-sabbamitta.json",
@@ -88,6 +88,9 @@
       "root/pli/ms/sutta/mn/mn51_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn51_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn51_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn49_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn49_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn49_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn45_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn45_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn45_translation-en-sujato.json",
@@ -132,6 +135,7 @@
       "sn24.8/de/sabbamitta",
       "mn60/de/sabbamitta",
       "mn51/de/sabbamitta",
+      "mn49/de/sabbamitta",
       "mn45/de/sabbamitta",
       "mn14/de/sabbamitta",
       "dn33/de/sabbamitta",
@@ -1127,6 +1131,38 @@
           "pli": 144,
           "de": 137,
           "en": 143
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn49_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn49_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn49_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn49",
+        "lang": "de",
+        "segMap": {
+          "mn49:7.5": {
+            "scid": "mn49:7.5",
+            "pli": "Ahesuṁ kho, bhikkhu, tayā pubbe samaṇabrāhmaṇā lokasmiṁ yāvatakaṁ tuyhaṁ kasiṇaṁ āyu tāvatakaṁ tesaṁ tapokammameva ahosi. ",
+            "de": "Es gab vor dir Asketen und Brahmanen in der Welt, Mönch, deren Taten <span class=\"ebt-matched\">inbrünstiger Bußübung</span> so lange anhielten wie dein ganzes Leben. ",
+            "en": "There have been ascetics and brahmins in the world before you, mendicant, whose deeds of fervent mortification lasted as long as your entire life. ",
+            "matched": true
+          }
+        },
+        "score": 1.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 49\nÜber Brahmās Einladung",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 162,
+          "de": 159,
+          "en": 161
         }
       },
       {

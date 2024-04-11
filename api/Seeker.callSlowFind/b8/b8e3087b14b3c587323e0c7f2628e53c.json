@@ -41,7 +41,7 @@
     "pattern": "nymphen",
     "method": "phrase",
     "resultPattern": "\\bnymphen",
-    "segsMatched": 21,
+    "segsMatched": 22,
     "bilaraPaths": [
       "root/pli/ms/sutta/kn/ud/vagga3/ud3.2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga3/ud3.2_translation-de-sabbamitta.json",
@@ -58,6 +58,9 @@
       "root/pli/ms/sutta/sn/sn1/sn1.11_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn1/sn1.11_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.11_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn50_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn50_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn50_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn37_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn37_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn37_translation-en-sujato.json",
@@ -71,6 +74,7 @@
       "mn82/de/sabbamitta",
       "sn55.1/de/sabbamitta",
       "sn1.11/de/sabbamitta",
+      "mn50/de/sabbamitta",
       "mn37/de/sabbamitta",
       "thag20.1/de/sabbamitta"
     ],
@@ -118,7 +122,7 @@
           "ud3.2:9.3": {
             "scid": "ud3.2:9.3",
             "pli": "evamevaṁ kho, bhante, sākiyānī janapadakalyāṇī imesaṁ pañcannaṁ accharāsatānaṁ upanidhāya saṅkhyampi nopeti kalabhāgampi nopeti upanidhimpi nopeti. ",
-            "de": "Im Vergleich zu diesen fünfhundert taubenfüßigen <span class=\"ebt-matched\">Nymphen</span> zählt sie nicht, da ist kein Vergleich, sie ist nicht einen Bruchteil wert. ",
+            "de": "Im Vergleich zu diesen fünfhundert taubenfüßigen <span class=\"ebt-matched\">Nymphen</span> zählt sie nicht, da gibt es keinen Vergleich, sie ist nicht einen Bruchteil wert. ",
             "en": "She doesn’t count, there’s no comparison, she’s not worth a fraction. ",
             "matched": true
           },
@@ -363,6 +367,38 @@
           "pli": 110,
           "de": 95,
           "en": 109
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn50_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn50_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn50_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn50",
+        "lang": "de",
+        "segMap": {
+          "mn50:25.5": {
+            "scid": "mn50:25.5",
+            "pli": "Accharā tattha naccanti, ",
+            "de": "Dort tanzen <span class=\"ebt-matched\">Nymphen</span>, ",
+            "en": "Dancing there are nymphs ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 50\nDie Zurechtweisung Māras",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 239,
+          "de": 210,
+          "en": 236
         }
       },
       {

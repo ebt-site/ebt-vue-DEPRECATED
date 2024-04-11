@@ -41,18 +41,22 @@
     "pattern": "unbeständigkeit aller bedingungen beobachte",
     "method": "phrase",
     "resultPattern": "\\bunbeständigkeit aller bedingungen beobachte",
-    "segsMatched": 4,
+    "segsMatched": 5,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn55/sn55.3_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn55/sn55.3_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn55/sn55.3_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/iti/vagga9/iti85_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/iti/vagga9/iti85_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/kn/iti/vagga9/iti85_translation-en-sujato.json"
+      "translation/en/sujato/sutta/kn/iti/vagga9/iti85_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn50_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn50_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn50_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "sn55.3/de/sabbamitta",
-      "iti85/de/sabbamitta"
+      "iti85/de/sabbamitta",
+      "mn50/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -131,6 +135,38 @@
           "pli": 48,
           "de": 43,
           "en": 47
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn50_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn50_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn50_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn50",
+        "lang": "de",
+        "segMap": {
+          "mn50:19.1": {
+            "scid": "mn50:19.1",
+            "pli": "Atha kho te, pāpima, bhikkhū kakusandhena bhagavatā arahatā sammāsambuddhena evaṁ ovadiyamānā evaṁ anusāsiyamānā araññagatāpi rukkhamūlagatāpi suññāgāragatāpi asubhānupassino kāye vihariṁsu, āhāre paṭikūlasaññino, sabbaloke anabhiratisaññino, sabbasaṅkhāresu aniccānupassino. ",
+            "de": "Als diese Mönche und Nonnen so vom Buddha Kakusandha unterwiesen und angeleitet wurden, gingen sie in die Wildnis, zum Fuß eines Baumes oder in eine leere Hütte und meditierten, indem sie das Abstoßende am Körper beobachteten, die Widerwärtigkeit der Nahrung wahrnahmen, die Entfremdung von der ganzen Welt wahrnahmen und die <span class=\"ebt-matched\">Unbeständigkeit aller Bedingungen beobachte</span>ten. ",
+            "en": "When those mendicants were instructed and advised by the Buddha Kakusandha in this way, they went to a wilderness, or to the root of a tree, or to an empty hut, where they meditated observing the ugliness of the body, perceiving the repulsiveness of food, perceiving dissatisfaction with the whole world, and observing the impermanence of all conditions. ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 50\nDie Zurechtweisung Māras",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 239,
+          "de": 210,
+          "en": 236
         }
       }
     ],

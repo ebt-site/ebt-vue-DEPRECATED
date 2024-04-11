@@ -41,7 +41,7 @@
     "pattern": "mit ganzem herzen",
     "method": "phrase",
     "resultPattern": "\\bmit ganzem herzen",
-    "segsMatched": 25,
+    "segsMatched": 26,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn8/sn8.8_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn8/sn8.8_translation-de-sabbamitta.json",
@@ -76,6 +76,9 @@
       "root/pli/ms/sutta/sn/sn10/sn10.7_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn10/sn10.7_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn10/sn10.7_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn48_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn48_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn48_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn134_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn134_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn134_translation-en-sujato.json",
@@ -107,6 +110,7 @@
       "sn4.19/de/sabbamitta",
       "sn16.11/de/sabbamitta",
       "sn10.7/de/sabbamitta",
+      "mn48/de/sabbamitta",
       "mn134/de/sabbamitta",
       "ud8.4/de/sabbamitta",
       "ud8.3/de/sabbamitta",
@@ -681,6 +685,38 @@
           "pli": 79,
           "de": 75,
           "en": 78
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn48_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn48_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn48_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn48",
+        "lang": "de",
+        "segMap": {
+          "mn48:13.4": {
+            "scid": "mn48:13.4",
+            "pli": "Balatā esā, bhikkhave, diṭṭhisampannassa puggalassa yaṁ tathāgatappavedite dhammavinaye desiyamāne aṭṭhiṁ katvā manasikatvā sabbacetasā samannāharitvā ohitasoto dhammaṁ suṇāti. ",
+            "de": "Die Stärke eines Menschen, der die Ansicht vervollkommnet hat, besteht darin, dass er achtgibt, den Geist gebraucht, <span class=\"ebt-matched\">mit ganzem Herzen</span> dabei ist und die Ohren spitzt, wenn die Lehre und Schulung, die von einem Klargewordenen verkündet wurde, gelehrt wird. ",
+            "en": "The strength of a person accomplished in view is that, when the teaching and training proclaimed by the Realized One are being taught, they pay attention, apply the mind, concentrate wholeheartedly, and actively listen. ",
+            "matched": true
+          }
+        },
+        "score": 1.009,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 48\nDie Mönche von Kosambī",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 110,
+          "de": 108,
+          "en": 109
         }
       },
       {
