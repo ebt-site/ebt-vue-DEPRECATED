@@ -39,27 +39,197 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "does a realized one exist",
-    "method": "phrase",
-    "resultPattern": "\\bdoes a realized one exist",
-    "segsMatched": 7,
+    "method": "keywords",
+    "resultPattern": "\\bdoes|\\b(a|ā)|\\brealized|\\bone|\\bexist",
+    "segsMatched": 28,
     "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn30_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn30_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn44/sn44.3_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn44/sn44.3_translation-en-sujato.json",
-      "root/pli/ms/sutta/sn/sn44/sn44.6_root-pli-ms.json",
-      "translation/en/sujato/sutta/sn/sn44/sn44.6_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn24_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn24_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn9_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn9_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an7/an7.54_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an7/an7.54_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn79_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn79_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn15_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn15_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn29_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn29_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn22_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn22_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn21_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn21_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn38_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn38_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn49_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn49_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn72_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn72_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn12/sn12.35_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.35_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn16/sn16.12_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn16/sn16.12_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.85_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.85_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn44/sn44.1_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn44/sn44.1_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn44/sn44.11_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn44/sn44.11_translation-en-sujato.json",
-      "root/pli/ms/sutta/sn/sn16/sn16.12_root-pli-ms.json",
-      "translation/en/sujato/sutta/sn/sn16/sn16.12_translation-en-sujato.json"
+      "root/pli/ms/sutta/an/an10/an10.95_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an10/an10.95_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.94_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.94_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.86_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an10/an10.86_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn8_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn8_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn1_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn1_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn101_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn101_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn112_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn112_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn60_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn60_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn63_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn63_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn99_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn99_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn12/sn12.17_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.17_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn41/sn41.3_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn41/sn41.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn44/sn44.7_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn44/sn44.7_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.20_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an10/an10.20_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.84_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an10/an10.84_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.198_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an4/an4.198_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.56_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an5/an5.56_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an6/an6.55_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an6/an6.55_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an8/an8.30_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an8/an8.30_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn10_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn10_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn12_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn12_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn25_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn25_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn3_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn3_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn4_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn4_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn5_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn5_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga1/snp1.4_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga1/snp1.4_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag19.1_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/thag/thag19.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga3/ud3.2_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/ud/vagga3/ud3.2_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn100_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn100_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn105_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn105_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn115_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn115_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn122_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn122_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn125_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn125_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn140_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn140_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn19_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn19_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn25_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn25_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn27_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn27_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn36_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn36_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn51_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn51_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn57_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn57_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn7_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn7_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn76_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn76_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn77_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn77_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn82_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn82_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn85_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn90_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn90_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn94_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn94_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn12/sn12.15_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.15_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn12/sn12.18_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.18_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn12/sn12.21_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.21_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn12/sn12.22_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.22_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn12/sn12.47_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.47_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn12/sn12.48_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.48_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.90_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.90_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn24/sn24.15_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn24/sn24.15_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn24/sn24.16_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn24/sn24.16_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn24/sn24.17_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn24/sn24.17_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn24/sn24.18_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn24/sn24.18_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn24/sn24.36_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn24/sn24.36_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn35/sn35.136_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.136_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn35/sn35.64_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.64_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn44/sn44.4_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn44/sn44.4_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn44/sn44.6_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn44/sn44.6_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn44/sn44.8_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn44/sn44.8_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn56/sn56.41_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn56/sn56.41_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn6/sn6.3_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn6/sn6.3_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "sn44.3/en/sujato",
-      "sn44.6/en/sujato",
+      "an7.54/en/sujato",
+      "sn16.12/en/sujato",
       "sn44.1/en/sujato",
       "sn44.11/en/sujato",
-      "sn16.12/en/sujato"
+      "sn44.4/en/sujato",
+      "sn44.6/en/sujato"
     ],
     "mlDocs": [
       {
@@ -75,29 +245,83 @@
         "segMap": {
           "sn44.3:2.1": {
             "scid": "sn44.3:2.1",
-            "pli": "“Kiṁ nu kho, āvuso sāriputta, hoti tathāgato paraṁ maraṇā”ti? ",
-            "en": "“Reverend Sāriputta, <span class=\"ebt-matched\">does a realized one exist</span> after death?” ",
+            "pli": "“Kiṁ nu kho, āvuso s<span class=\"ebt-matched\">ā</span>riputta, hoti tath<span class=\"ebt-matched\">ā</span>gato paraṁ maraṇā”ti? ",
+            "en": "“Reverend S<span class=\"ebt-matched\">ā</span>riputta, <span class=\"ebt-matched\">does</span> <span class=\"ebt-matched\">a</span> <span class=\"ebt-matched\">realized</span> <span class=\"ebt-matched\">one</span> still <span class=\"ebt-matched\">exist</span> <span class=\"ebt-matched\">a</span>fter death?” ",
+            "matched": true
+          },
+          "sn44.3:2.4": {
+            "scid": "sn44.3:2.4",
+            "pli": "“Kiṁ pan<span class=\"ebt-matched\">ā</span>vuso, na hoti tath<span class=\"ebt-matched\">ā</span>gato paraṁ maraṇā”ti? ",
+            "en": "“Well then, <span class=\"ebt-matched\">does</span> <span class=\"ebt-matched\">a</span> <span class=\"ebt-matched\">realized</span> <span class=\"ebt-matched\">one</span> no longer <span class=\"ebt-matched\">exist</span> <span class=\"ebt-matched\">a</span>fter death? … ",
+            "matched": true
+          },
+          "sn44.3:2.7": {
+            "scid": "sn44.3:2.7",
+            "pli": "“Kiṁ nu kho, āvuso, hoti ca na ca hoti tath<span class=\"ebt-matched\">ā</span>gato paraṁ maraṇā”ti? ",
+            "en": "<span class=\"ebt-matched\">Does</span> <span class=\"ebt-matched\">a</span> <span class=\"ebt-matched\">realized</span> <span class=\"ebt-matched\">one</span> both <span class=\"ebt-matched\">exist</span> <span class=\"ebt-matched\">a</span>nd not <span class=\"ebt-matched\">exist</span> <span class=\"ebt-matched\">a</span>fter death? … ",
+            "matched": true
+          },
+          "sn44.3:2.10": {
+            "scid": "sn44.3:2.10",
+            "pli": "“Kiṁ pan<span class=\"ebt-matched\">ā</span>vuso, neva hoti na na hoti tath<span class=\"ebt-matched\">ā</span>gato paraṁ maraṇā”ti? ",
+            "en": "<span class=\"ebt-matched\">Does</span> <span class=\"ebt-matched\">a</span> <span class=\"ebt-matched\">realized</span> <span class=\"ebt-matched\">one</span> neither <span class=\"ebt-matched\">exist</span> nor not <span class=\"ebt-matched\">exist</span> <span class=\"ebt-matched\">a</span>fter death?” ",
             "matched": true
           },
           "sn44.3:4.1": {
             "scid": "sn44.3:4.1",
-            "pli": "“Hoti tathāgato paraṁ maraṇāti kho, āvuso, rūpagatametaṁ. ",
-            "en": "“Reverend, ‘<span class=\"ebt-matched\">does a realized one exist</span> after death?’ is included in form. ",
+            "pli": "“Hoti tath<span class=\"ebt-matched\">ā</span>gato paraṁ maraṇāti kho, āvuso, rūpagatametaṁ. ",
+            "en": "“Reverend, ‘<span class=\"ebt-matched\">does</span> <span class=\"ebt-matched\">a</span> <span class=\"ebt-matched\">realized</span> <span class=\"ebt-matched\">one</span> still <span class=\"ebt-matched\">exist</span> <span class=\"ebt-matched\">a</span>fter death?’ is included in form. ",
+            "matched": true
+          },
+          "sn44.3:4.2": {
+            "scid": "sn44.3:4.2",
+            "pli": "Na hoti tath<span class=\"ebt-matched\">ā</span>gato paraṁ maraṇāti, rūpagatametaṁ. ",
+            "en": "‘<span class=\"ebt-matched\">Does</span> <span class=\"ebt-matched\">a</span> <span class=\"ebt-matched\">realized</span> <span class=\"ebt-matched\">one</span> no longer <span class=\"ebt-matched\">exist</span> <span class=\"ebt-matched\">a</span>fter death?’ is included in form. ",
+            "matched": true
+          },
+          "sn44.3:4.3": {
+            "scid": "sn44.3:4.3",
+            "pli": "Hoti ca na ca hoti tath<span class=\"ebt-matched\">ā</span>gato paraṁ maraṇāti, rūpagatametaṁ. ",
+            "en": "‘<span class=\"ebt-matched\">Does</span> <span class=\"ebt-matched\">a</span> <span class=\"ebt-matched\">realized</span> <span class=\"ebt-matched\">one</span> both still <span class=\"ebt-matched\">exist</span> <span class=\"ebt-matched\">a</span>nd no longer <span class=\"ebt-matched\">exist</span> <span class=\"ebt-matched\">a</span>fter death?’ is included in form. ",
+            "matched": true
+          },
+          "sn44.3:4.4": {
+            "scid": "sn44.3:4.4",
+            "pli": "Neva hoti na na hoti tath<span class=\"ebt-matched\">ā</span>gato paraṁ maraṇāti, rūpagatametaṁ. ",
+            "en": "‘<span class=\"ebt-matched\">Does</span> <span class=\"ebt-matched\">a</span> <span class=\"ebt-matched\">realized</span> <span class=\"ebt-matched\">one</span> neither still <span class=\"ebt-matched\">exist</span> nor no longer <span class=\"ebt-matched\">exist</span> <span class=\"ebt-matched\">a</span>fter death?’ is included in form. ",
             "matched": true
           },
           "sn44.3:4.5": {
             "scid": "sn44.3:4.5",
-            "pli": "Hoti tathāgato paraṁ maraṇāti kho, āvuso, vedanāgatametaṁ. ",
-            "en": "‘<span class=\"ebt-matched\">Does a realized one exist</span> after death?’ is included in feeling … ",
+            "pli": "Hoti tath<span class=\"ebt-matched\">ā</span>gato paraṁ maraṇāti kho, āvuso, vedan<span class=\"ebt-matched\">ā</span>gatametaṁ. ",
+            "en": "‘<span class=\"ebt-matched\">does</span> <span class=\"ebt-matched\">a</span> <span class=\"ebt-matched\">realized</span> <span class=\"ebt-matched\">one</span> still <span class=\"ebt-matched\">exist</span> <span class=\"ebt-matched\">a</span>fter death?’ is included in feeling … ",
+            "matched": true
+          },
+          "sn44.3:4.18": {
+            "scid": "sn44.3:4.18",
+            "pli": "Na hoti tath<span class=\"ebt-matched\">ā</span>gato paraṁ maraṇāti, viññāṇ<span class=\"ebt-matched\">a</span>gatametaṁ. ",
+            "en": "‘<span class=\"ebt-matched\">Does</span> <span class=\"ebt-matched\">a</span> <span class=\"ebt-matched\">realized</span> <span class=\"ebt-matched\">one</span> no longer <span class=\"ebt-matched\">exist</span> <span class=\"ebt-matched\">a</span>fter death?’ is included in consciousness. ",
+            "matched": true
+          },
+          "sn44.3:4.19": {
+            "scid": "sn44.3:4.19",
+            "pli": "Hoti ca na ca hoti tath<span class=\"ebt-matched\">ā</span>gato paraṁ maraṇāti, viññāṇ<span class=\"ebt-matched\">a</span>gatametaṁ. ",
+            "en": "‘<span class=\"ebt-matched\">Does</span> <span class=\"ebt-matched\">a</span> <span class=\"ebt-matched\">realized</span> <span class=\"ebt-matched\">one</span> both still <span class=\"ebt-matched\">exist</span> <span class=\"ebt-matched\">a</span>nd no longer <span class=\"ebt-matched\">exist</span> <span class=\"ebt-matched\">a</span>fter death?’ is included in consciousness. ",
+            "matched": true
+          },
+          "sn44.3:4.20": {
+            "scid": "sn44.3:4.20",
+            "pli": "Neva hoti na na hoti tath<span class=\"ebt-matched\">ā</span>gato paraṁ maraṇāti, viññāṇ<span class=\"ebt-matched\">a</span>gatametaṁ. ",
+            "en": "‘<span class=\"ebt-matched\">Does</span> <span class=\"ebt-matched\">a</span> <span class=\"ebt-matched\">realized</span> <span class=\"ebt-matched\">one</span> neither still <span class=\"ebt-matched\">exist</span> nor no longer <span class=\"ebt-matched\">exist</span> <span class=\"ebt-matched\">a</span>fter death?’ is included in consciousness. ",
             "matched": true
           }
         },
-        "score": 3.065,
+        "score": 12.261,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Linked Discourses 44.3\n1. The Undeclared Points\nWith Sāriputta and Koṭṭhita (1st)",
-        "segsMatched": 3,
+        "segsMatched": 12,
         "langSegs": {
           "pli": 46,
           "en": 45
@@ -116,49 +340,38 @@
         "segMap": {
           "sn16.12:1.4": {
             "scid": "sn16.12:1.4",
-            "pli": "“kiṁ nu kho, āvuso kassapa, hoti tathāgato paraṁ maraṇā”ti? ",
-            "en": "“Reverend Kassapa, <span class=\"ebt-matched\">does a realized one exist</span> after death?” ",
+            "pli": "“kiṁ nu kho, āvuso kassapa, hoti tath<span class=\"ebt-matched\">ā</span>gato paraṁ maraṇā”ti? ",
+            "en": "“Reverend Kassapa, <span class=\"ebt-matched\">does</span> <span class=\"ebt-matched\">a</span> <span class=\"ebt-matched\">realized</span> <span class=\"ebt-matched\">one</span> still <span class=\"ebt-matched\">exist</span> <span class=\"ebt-matched\">a</span>fter death?” ",
+            "matched": true
+          },
+          "sn16.12:1.7": {
+            "scid": "sn16.12:1.7",
+            "pli": "“Kiṁ pan<span class=\"ebt-matched\">ā</span>vuso, na hoti tath<span class=\"ebt-matched\">ā</span>gato paraṁ maraṇā”ti? ",
+            "en": "“Well then, <span class=\"ebt-matched\">does</span> <span class=\"ebt-matched\">a</span> <span class=\"ebt-matched\">realized</span> <span class=\"ebt-matched\">one</span> no longer <span class=\"ebt-matched\">exist</span> <span class=\"ebt-matched\">a</span>fter death?” ",
+            "matched": true
+          },
+          "sn16.12:1.10": {
+            "scid": "sn16.12:1.10",
+            "pli": "“Kiṁ nu kho, āvuso, hoti ca na ca hoti tath<span class=\"ebt-matched\">ā</span>gato paraṁ maraṇā”ti? ",
+            "en": "“Well then, <span class=\"ebt-matched\">does</span> <span class=\"ebt-matched\">a</span> <span class=\"ebt-matched\">realized</span> <span class=\"ebt-matched\">one</span> both still <span class=\"ebt-matched\">exist</span> <span class=\"ebt-matched\">a</span>nd no longer <span class=\"ebt-matched\">exist</span> <span class=\"ebt-matched\">a</span>fter death?” ",
+            "matched": true
+          },
+          "sn16.12:1.13": {
+            "scid": "sn16.12:1.13",
+            "pli": "“Kiṁ pan<span class=\"ebt-matched\">ā</span>vuso, neva hoti, na na hoti tath<span class=\"ebt-matched\">ā</span>gato paraṁ maraṇā”ti? ",
+            "en": "“Well then, <span class=\"ebt-matched\">does</span> <span class=\"ebt-matched\">a</span> <span class=\"ebt-matched\">realized</span> <span class=\"ebt-matched\">one</span> neither still <span class=\"ebt-matched\">exist</span> nor no longer <span class=\"ebt-matched\">exist</span> <span class=\"ebt-matched\">a</span>fter death?” ",
             "matched": true
           }
         },
-        "score": 1.033,
+        "score": 4.133,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Linked Discourses 16.12\n1. Kassapa\nThe Realized One After Death",
-        "segsMatched": 1,
+        "segsMatched": 4,
         "langSegs": {
           "pli": 30,
           "en": 29
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/sn/sn44/sn44.6_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn44/sn44.6_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "sn44.6",
-        "lang": "en",
-        "segMap": {
-          "sn44.6:1.4": {
-            "scid": "sn44.6:1.4",
-            "pli": "“‘kiṁ nu kho, āvuso koṭṭhika, hoti tathāgato paraṁ maraṇā’ti …pe… ",
-            "en": "“Reverend Koṭṭhita, <span class=\"ebt-matched\">does a realized one exist</span> after death?” … ",
-            "matched": true
-          }
-        },
-        "score": 1.019,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Linked Discourses 44.6\n1. The Undeclared Points\nWith Sāriputta and Koṭṭhita (4th)",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 53,
-          "en": 52
         }
       },
       {
@@ -174,17 +387,35 @@
         "segMap": {
           "sn44.11:1.4": {
             "scid": "sn44.11:1.4",
-            "pli": "“kiṁ nu kho bho, kaccāna, hoti tathāgato paraṁ maraṇā”ti? ",
-            "en": "“Master Kaccāna, <span class=\"ebt-matched\">does a realized one exist</span> after death?” ",
+            "pli": "“kiṁ nu kho bho, kacc<span class=\"ebt-matched\">ā</span>na, hoti tath<span class=\"ebt-matched\">ā</span>gato paraṁ maraṇā”ti? ",
+            "en": "“Mister Kacc<span class=\"ebt-matched\">ā</span>na, <span class=\"ebt-matched\">does</span> <span class=\"ebt-matched\">a</span> <span class=\"ebt-matched\">realized</span> <span class=\"ebt-matched\">one</span> still <span class=\"ebt-matched\">exist</span> <span class=\"ebt-matched\">a</span>fter death?” ",
+            "matched": true
+          },
+          "sn44.11:1.7": {
+            "scid": "sn44.11:1.7",
+            "pli": "“Kiṁ pana, bho kacc<span class=\"ebt-matched\">ā</span>na, na hoti tath<span class=\"ebt-matched\">ā</span>gato paraṁ maraṇā”ti? ",
+            "en": "“Well then, <span class=\"ebt-matched\">does</span> <span class=\"ebt-matched\">a</span> <span class=\"ebt-matched\">realized</span> <span class=\"ebt-matched\">one</span> no longer <span class=\"ebt-matched\">exist</span> <span class=\"ebt-matched\">a</span>fter death?” ",
+            "matched": true
+          },
+          "sn44.11:2.1": {
+            "scid": "sn44.11:2.1",
+            "pli": "“Kiṁ nu kho, bho kacc<span class=\"ebt-matched\">ā</span>na, hoti ca na ca hoti tath<span class=\"ebt-matched\">ā</span>gato paraṁ maraṇā”ti? ",
+            "en": "“Well then, <span class=\"ebt-matched\">does</span> <span class=\"ebt-matched\">a</span> <span class=\"ebt-matched\">realized</span> <span class=\"ebt-matched\">one</span> both <span class=\"ebt-matched\">exist</span> <span class=\"ebt-matched\">a</span>nd not <span class=\"ebt-matched\">exist</span> <span class=\"ebt-matched\">a</span>fter death?” ",
+            "matched": true
+          },
+          "sn44.11:2.4": {
+            "scid": "sn44.11:2.4",
+            "pli": "“Kiṁ pana, bho kacc<span class=\"ebt-matched\">ā</span>na, neva hoti na na hoti tath<span class=\"ebt-matched\">ā</span>gato paraṁ maraṇā”ti? ",
+            "en": "“Well then, <span class=\"ebt-matched\">does</span> <span class=\"ebt-matched\">a</span> <span class=\"ebt-matched\">realized</span> <span class=\"ebt-matched\">one</span> neither <span class=\"ebt-matched\">exist</span> nor not <span class=\"ebt-matched\">exist</span> <span class=\"ebt-matched\">a</span>fter death?” ",
             "matched": true
           }
         },
-        "score": 1.019,
+        "score": 4.075,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Linked Discourses 44.11\n1. The Undeclared Points\nWith Sabhiya Kaccāna",
-        "segsMatched": 1,
+        "segsMatched": 4,
         "langSegs": {
           "pli": 53,
           "en": 51
@@ -203,20 +434,131 @@
         "segMap": {
           "sn44.1:4.2": {
             "scid": "sn44.1:4.2",
-            "pli": "“kiṁ nu kho, ayye, hoti tathāgato paraṁ maraṇā”ti? ",
-            "en": "“Ma’am, <span class=\"ebt-matched\">does a realized one exist</span> after death?” ",
+            "pli": "“kiṁ nu kho, <span class=\"ebt-matched\">a</span>yye, hoti tath<span class=\"ebt-matched\">ā</span>gato paraṁ maraṇā”ti? ",
+            "en": "“Ma’<span class=\"ebt-matched\">a</span>m, <span class=\"ebt-matched\">does</span> <span class=\"ebt-matched\">a</span> <span class=\"ebt-matched\">realized</span> <span class=\"ebt-matched\">one</span> still <span class=\"ebt-matched\">exist</span> <span class=\"ebt-matched\">a</span>fter death?” ",
+            "matched": true
+          },
+          "sn44.1:4.5": {
+            "scid": "sn44.1:4.5",
+            "pli": "“Kiṁ panayye, na hoti tath<span class=\"ebt-matched\">ā</span>gato paraṁ maraṇā”ti? ",
+            "en": "“Well then, <span class=\"ebt-matched\">does</span> <span class=\"ebt-matched\">a</span> <span class=\"ebt-matched\">realized</span> <span class=\"ebt-matched\">one</span> no longer <span class=\"ebt-matched\">exist</span> <span class=\"ebt-matched\">a</span>fter death?” ",
+            "matched": true
+          },
+          "sn44.1:4.8": {
+            "scid": "sn44.1:4.8",
+            "pli": "“Kiṁ nu kho, <span class=\"ebt-matched\">a</span>yye, hoti ca na ca hoti tath<span class=\"ebt-matched\">ā</span>gato paraṁ maraṇā”ti? ",
+            "en": "“Well then, <span class=\"ebt-matched\">does</span> <span class=\"ebt-matched\">a</span> <span class=\"ebt-matched\">realized</span> <span class=\"ebt-matched\">one</span> both <span class=\"ebt-matched\">exist</span> <span class=\"ebt-matched\">a</span>nd not <span class=\"ebt-matched\">exist</span> <span class=\"ebt-matched\">a</span>fter death?” ",
+            "matched": true
+          },
+          "sn44.1:4.11": {
+            "scid": "sn44.1:4.11",
+            "pli": "“Kiṁ panayye, neva hoti na na hoti tath<span class=\"ebt-matched\">ā</span>gato paraṁ maraṇā”ti. ",
+            "en": "“Well then, <span class=\"ebt-matched\">does</span> <span class=\"ebt-matched\">a</span> <span class=\"ebt-matched\">realized</span> <span class=\"ebt-matched\">one</span> neither <span class=\"ebt-matched\">exist</span> nor not <span class=\"ebt-matched\">exist</span> <span class=\"ebt-matched\">a</span>fter death?” ",
             "matched": true
           }
         },
-        "score": 1.008,
+        "score": 4.033,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Linked Discourses 44.1\n1. The Undeclared Points\nWith Khemā",
-        "segsMatched": 1,
+        "segsMatched": 4,
         "langSegs": {
           "pli": 120,
           "en": 119
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an7/an7.54_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an7/an7.54_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an7.54",
+        "lang": "en",
+        "segMap": {
+          "an7.54:3.3": {
+            "scid": "an7.54:3.3",
+            "pli": "Evaṁ j<span class=\"ebt-matched\">ā</span>naṁ kho, bhikkhu, sutav<span class=\"ebt-matched\">ā</span> <span class=\"ebt-matched\">a</span>riyas<span class=\"ebt-matched\">ā</span>vako evaṁ passaṁ ‘hoti tath<span class=\"ebt-matched\">ā</span>gato paraṁ maraṇā’tipi na by<span class=\"ebt-matched\">ā</span>karoti; ",
+            "en": "Knowing <span class=\"ebt-matched\">a</span>nd seeing this, <span class=\"ebt-matched\">a</span> learned noble disciple <span class=\"ebt-matched\">does</span> not <span class=\"ebt-matched\">a</span>nswer: ‘<span class=\"ebt-matched\">A</span> <span class=\"ebt-matched\">realized</span> <span class=\"ebt-matched\">one</span> still <span class=\"ebt-matched\">exist</span>s <span class=\"ebt-matched\">a</span>fter death’, ",
+            "matched": true
+          },
+          "an7.54:5.3": {
+            "scid": "an7.54:5.3",
+            "pli": "Evaṁ j<span class=\"ebt-matched\">ā</span>naṁ kho, bhikkhu, sutav<span class=\"ebt-matched\">ā</span> <span class=\"ebt-matched\">a</span>riyas<span class=\"ebt-matched\">ā</span>vako evaṁ passaṁ ‘hoti tath<span class=\"ebt-matched\">ā</span>gato paraṁ maraṇā’tipi na by<span class=\"ebt-matched\">ā</span>karoti …pe… ",
+            "en": "Knowing <span class=\"ebt-matched\">a</span>nd seeing this, <span class=\"ebt-matched\">a</span> learned noble disciple <span class=\"ebt-matched\">does</span> not <span class=\"ebt-matched\">a</span>nswer: ‘<span class=\"ebt-matched\">A</span> <span class=\"ebt-matched\">realized</span> <span class=\"ebt-matched\">one</span> still <span class=\"ebt-matched\">exist</span>s <span class=\"ebt-matched\">a</span>fter death’ … ",
+            "matched": true
+          }
+        },
+        "score": 2.051,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 7.54\n6. The Undeclared Points\nThe Undeclared Points",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 39,
+          "en": 38
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn44/sn44.4_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn44/sn44.4_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn44.4",
+        "lang": "en",
+        "segMap": {
+          "sn44.4:2.6": {
+            "scid": "sn44.4:2.6",
+            "pli": "viññāṇ<span class=\"ebt-matched\">a</span>ṁ j<span class=\"ebt-matched\">ā</span>nato passato yath<span class=\"ebt-matched\">ā</span>bhūtaṁ, viññāṇ<span class=\"ebt-matched\">a</span>samudayaṁ j<span class=\"ebt-matched\">ā</span>nato passato yath<span class=\"ebt-matched\">ā</span>bhūtaṁ, viññāṇ<span class=\"ebt-matched\">a</span>nirodhaṁ j<span class=\"ebt-matched\">ā</span>nato passato yath<span class=\"ebt-matched\">ā</span>bhūtaṁ, viññāṇ<span class=\"ebt-matched\">a</span>nirodhag<span class=\"ebt-matched\">ā</span>miniṁ paṭipadaṁ j<span class=\"ebt-matched\">ā</span>nato passato yath<span class=\"ebt-matched\">ā</span>bhūtaṁ, ‘hoti tath<span class=\"ebt-matched\">ā</span>gato paraṁ maraṇā’tipissa na hoti; ",
+            "en": "consciousness, its origin, its cessation, <span class=\"ebt-matched\">a</span>nd the practice that leads to its cessation, <span class=\"ebt-matched\">one</span> <span class=\"ebt-matched\">does</span>n’t think ‘<span class=\"ebt-matched\">a</span> <span class=\"ebt-matched\">realized</span> <span class=\"ebt-matched\">one</span> still <span class=\"ebt-matched\">exist</span>s <span class=\"ebt-matched\">a</span>fter death’ or ",
+            "matched": true
+          }
+        },
+        "score": 1.036,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 44.4\n1. The Undeclared Points\nWith Sāriputta and Koṭṭhita (2nd)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 28,
+          "en": 27
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn44/sn44.6_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn44/sn44.6_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn44.6",
+        "lang": "en",
+        "segMap": {
+          "sn44.6:1.4": {
+            "scid": "sn44.6:1.4",
+            "pli": "“‘kiṁ nu kho, āvuso koṭṭhika, hoti tath<span class=\"ebt-matched\">ā</span>gato paraṁ maraṇā’ti …pe… ",
+            "en": "“Reverend Koṭṭhita, <span class=\"ebt-matched\">does</span> <span class=\"ebt-matched\">a</span> <span class=\"ebt-matched\">realized</span> <span class=\"ebt-matched\">one</span> still <span class=\"ebt-matched\">exist</span> <span class=\"ebt-matched\">a</span>fter death?” … ",
+            "matched": true
+          }
+        },
+        "score": 1.019,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 44.6\n1. The Undeclared Points\nWith Sāriputta and Koṭṭhita (4th)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 53,
+          "en": 52
         }
       }
     ],
