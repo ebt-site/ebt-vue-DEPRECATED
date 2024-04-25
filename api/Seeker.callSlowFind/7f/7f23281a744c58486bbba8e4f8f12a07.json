@@ -41,7 +41,7 @@
     "pattern": "warm gehalten und bebrütet",
     "method": "phrase",
     "resultPattern": "\\bwarm gehalten und bebrütet",
-    "segsMatched": 10,
+    "segsMatched": 11,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn22/sn22.101_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.101_translation-de-sabbamitta.json",
@@ -49,6 +49,9 @@
       "root/pli/ms/sutta/an/an7/an7.71_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an7/an7.71_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an7/an7.71_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn53_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn53_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn53_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn16_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn16_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn16_translation-en-sujato.json",
@@ -59,6 +62,7 @@
     "suttaRefs": [
       "sn22.101/de/sabbamitta",
       "an7.71/de/sabbamitta",
+      "mn53/de/sabbamitta",
       "mn16/de/sabbamitta",
       "an8.11/de/sabbamitta"
     ],
@@ -231,6 +235,38 @@
           "pli": 102,
           "de": 101,
           "en": 101
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn53_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn53_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn53_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn53",
+        "lang": "de",
+        "segMap": {
+          "mn53:19.2": {
+            "scid": "mn53:19.2",
+            "pli": "Seyyathāpi, mahānāma, kukkuṭiyā aṇḍāni aṭṭha vā dasa vā dvādasa vā tānāssu kukkuṭiyā sammā adhisayitāni sammā pariseditāni sammā paribhāvitāni, kiñcāpi tassā kukkuṭiyā na evaṁ icchā uppajjeyya: ",
+            "de": "Wie wenn eine Henne acht, zehn oder zwölf Eier hätte, und sie hätte richtig darauf gesessen, sie <span class=\"ebt-matched\">warm gehalten und bebrütet</span>. Selbst wenn diese Henne nicht wünscht: ",
+            "en": "Suppose there was a chicken with eight or ten or twelve eggs. And she properly sat on them to keep them warm and incubated. Even if that chicken doesn’t wish, ",
+            "matched": true
+          }
+        },
+        "score": 1.01,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 53\nEiner in Schulung",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 100,
+          "de": 98,
+          "en": 99
         }
       }
     ],

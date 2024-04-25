@@ -41,11 +41,14 @@
     "pattern": "durchbruch",
     "method": "phrase",
     "resultPattern": "\\bdurchbruch",
-    "segsMatched": 23,
+    "segsMatched": 26,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn46/sn46.28_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn46/sn46.28_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn46/sn46.28_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn53_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn53_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn53_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.11_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.11_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an8/an8.11_translation-en-sujato.json",
@@ -92,6 +95,7 @@
     ],
     "suttaRefs": [
       "sn46.28/de/sabbamitta",
+      "mn53/de/sabbamitta",
       "an8.11/de/sabbamitta",
       "an6.71/de/sabbamitta",
       "an4.179/de/sabbamitta",
@@ -166,6 +170,52 @@
           "pli": 22,
           "de": 20,
           "en": 21
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn53_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn53_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn53_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn53",
+        "lang": "de",
+        "segMap": {
+          "mn53:20.3": {
+            "scid": "mn53:20.3",
+            "pli": "ayamassa paṭhamābhinibbhidā hoti kukkuṭacchāpakasseva aṇḍakosamhā. ",
+            "de": "Das ist sein erster <span class=\"ebt-matched\">Durchbruch</span>, wie ein Küken, das die Eierschale durchbricht. ",
+            "en": "This is their first breaking out, like a chick from an eggshell. ",
+            "matched": true
+          },
+          "mn53:21.2": {
+            "scid": "mn53:21.2",
+            "pli": "ayamassa dutiyābhinibbhidā hoti kukkuṭacchāpakasseva aṇḍakosamhā. ",
+            "de": "Das ist sein zweiter <span class=\"ebt-matched\">Durchbruch</span>, wie ein Küken, das die Eierschale durchbricht. ",
+            "en": "This is their second breaking out, like a chick from an eggshell. ",
+            "matched": true
+          },
+          "mn53:22.2": {
+            "scid": "mn53:22.2",
+            "pli": "ayamassa tatiyābhinibbhidā hoti kukkuṭacchāpakasseva aṇḍakosamhā. ",
+            "de": "Das ist sein dritter <span class=\"ebt-matched\">Durchbruch</span>, wie ein Küken, das die Eierschale durchbricht. ",
+            "en": "This is their third breaking out, like a chick from an eggshell. ",
+            "matched": true
+          }
+        },
+        "score": 3.03,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 53\nEiner in Schulung",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 100,
+          "de": 98,
+          "en": 99
         }
       },
       {

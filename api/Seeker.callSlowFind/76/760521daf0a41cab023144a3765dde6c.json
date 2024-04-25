@@ -41,7 +41,7 @@
     "pattern": "vor langer zeit getan oder gesagt",
     "method": "phrase",
     "resultPattern": "\\bvor langer zeit getan oder gesagt",
-    "segsMatched": 14,
+    "segsMatched": 15,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
@@ -55,6 +55,9 @@
       "root/pli/ms/sutta/sn/sn48/sn48.10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn48/sn48.10_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn48/sn48.10_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn53_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn53_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn53_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
@@ -88,6 +91,7 @@
       "sn48.9/de/sabbamitta",
       "sn48.50/de/sabbamitta",
       "sn48.10/de/sabbamitta",
+      "mn53/de/sabbamitta",
       "dn33/de/sabbamitta",
       "an8.30/de/sabbamitta",
       "an7.67/de/sabbamitta",
@@ -456,6 +460,38 @@
           "pli": 97,
           "de": 95,
           "en": 96
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn53_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn53_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn53_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn53",
+        "lang": "de",
+        "segMap": {
+          "mn53:16.1": {
+            "scid": "mn53:16.1",
+            "pli": "Satimā hoti, paramena satinepakkena samannāgato, cirakatampi cirabhāsitampi saritā anussaritā. ",
+            "de": "Er ist achtsam. Er besitzt äußerste Achtsamkeit und Wachheit, und an Dinge, die <span class=\"ebt-matched\">vor langer Zeit getan oder gesagt</span> wurden, kann er sich erinnern und sie sich ins Gedächtnis rufen. ",
+            "en": "They’re mindful. They have utmost mindfulness and alertness, and can remember and recall what was said and done long ago. ",
+            "matched": true
+          }
+        },
+        "score": 1.01,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 53\nEiner in Schulung",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 100,
+          "de": 98,
+          "en": 99
         }
       },
       {
