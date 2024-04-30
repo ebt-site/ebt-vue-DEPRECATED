@@ -41,7 +41,7 @@
     "pattern": "essen g[ei]b",
     "method": "phrase",
     "resultPattern": "\\bessen g[ei]b",
-    "segsMatched": 13,
+    "segsMatched": 15,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn93_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn93_translation-de-sabbamitta.json",
@@ -49,6 +49,9 @@
       "root/pli/ms/sutta/dn/dn3_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn3_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn3_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn54_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn54_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn54_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn1/sn1.42_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn1/sn1.42_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.42_translation-en-sujato.json",
@@ -68,6 +71,7 @@
     "suttaRefs": [
       "mn93/de/sabbamitta",
       "dn3/de/sabbamitta",
+      "mn54/de/sabbamitta",
       "sn1.42/de/sabbamitta",
       "thag1.82/de/sabbamitta",
       "an5.78/de/sabbamitta",
@@ -179,6 +183,45 @@
           "pli": 437,
           "de": 426,
           "en": 436
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn54_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn54_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn54_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn54",
+        "lang": "de",
+        "segMap": {
+          "mn54:25.8": {
+            "scid": "mn54:25.8",
+            "pli": "idāni pana mayaṁ, bhante, aññatitthiye paribbājake anājānīyeva samāne anājānīyāti jānissāma, anājānīyeva samāne anājānīyabhojanaṁ bhojessāma, anājānīyeva samāne anājānīyaṭhāne ṭhapessāma. ",
+            "de": "Aber jetzt werde ich verstehen, dass die Wanderer anderer Konfessionen keine Vollblüter sind, und dementsprechend werde ich ihnen zu <span class=\"ebt-matched\">essen geb</span>en und sie behandeln. ",
+            "en": "But now I shall understand that the wanderers following other religions are not actually thoroughbreds, and I will feed them and treat them accordingly. ",
+            "matched": true
+          },
+          "mn54:25.9": {
+            "scid": "mn54:25.9",
+            "pli": "Bhikkhū pana mayaṁ, bhante, ājānīyeva samāne ājānīyāti jānissāma, ājānīyeva samāne ājānīyabhojanaṁ bhojessāma, ājānīyeva samāne ājānīyaṭhāne ṭhapessāma. ",
+            "de": "Und ich werde verstehen, dass die Mönche und Nonnen Vollblüter sind, und dementsprechend werde ich ihnen zu <span class=\"ebt-matched\">essen geb</span>en und sie behandeln. ",
+            "en": "And I shall understand that the mendicants actually are thoroughbreds, and I will feed them and treat them accordingly. ",
+            "matched": true
+          }
+        },
+        "score": 2.01,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 54\nMit dem Hausbesitzer Potaliya",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 209,
+          "de": 166,
+          "en": 208
         }
       },
       {

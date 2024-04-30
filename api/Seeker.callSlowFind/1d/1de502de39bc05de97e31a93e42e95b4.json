@@ -41,7 +41,7 @@
     "pattern": "ist etwas anderes",
     "method": "phrase",
     "resultPattern": "\\bist etwas anderes",
-    "segsMatched": 9,
+    "segsMatched": 10,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an3/an3.59_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.59_translation-de-sabbamitta.json",
@@ -55,6 +55,9 @@
       "root/pli/ms/sutta/an/an10/an10.119_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.119_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an10/an10.119_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn54_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn54_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn54_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.176_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.176_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an10/an10.176_translation-en-sujato.json"
@@ -64,6 +67,7 @@
       "an3.58/de/sabbamitta",
       "an10.167/de/sabbamitta",
       "an10.119/de/sabbamitta",
+      "mn54/de/sabbamitta",
       "an10.176/de/sabbamitta"
     ],
     "mlDocs": [
@@ -253,6 +257,38 @@
           "pli": 88,
           "de": 87,
           "en": 87
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn54_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn54_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn54_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn54",
+        "lang": "de",
+        "segMap": {
+          "mn54:3.15": {
+            "scid": "mn54:3.15",
+            "pli": "“Aññathā kho tvaṁ, gahapati, vohārasamucchedaṁ vadasi, aññathā ca pana ariyassa vinaye vohārasamucchedo hotī”ti. ",
+            "de": "„Das Abschneiden der Geschäfte, wie du es beschreibst, <span class=\"ebt-matched\">ist etwas anderes</span> als das Abschneiden der Geschäfte in der Schulung des Edlen.“ ",
+            "en": "“The cutting off of business as you describe it is one thing, householder, but the cutting off of business in the noble one’s training is quite different.” ",
+            "matched": true
+          }
+        },
+        "score": 1.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 54\nMit dem Hausbesitzer Potaliya",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 209,
+          "de": 166,
+          "en": 208
         }
       }
     ],
