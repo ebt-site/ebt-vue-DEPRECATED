@@ -41,7 +41,7 @@
     "pattern": "verlasse.* darauf",
     "method": "phrase",
     "resultPattern": "\\bverlasse.* darauf",
-    "segsMatched": 15,
+    "segsMatched": 16,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an8/an8.8_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.8_translation-de-sabbamitta.json",
@@ -58,6 +58,9 @@
       "root/pli/ms/sutta/sn/sn22/sn22.2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.2_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.2_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn55_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn55_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn55_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn28_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn28_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn28_translation-en-sujato.json",
@@ -92,6 +95,7 @@
       "sn42.10/de/sabbamitta",
       "sn35.81/de/sabbamitta",
       "sn22.2/de/sabbamitta",
+      "mn55/de/sabbamitta",
       "dn28/de/sabbamitta",
       "dn23/de/sabbamitta",
       "an9.8/de/sabbamitta",
@@ -396,6 +400,38 @@
           "pli": 77,
           "de": 76,
           "en": 76
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn55_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn55_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn55_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn55",
+        "lang": "de",
+        "segMap": {
+          "mn55:3.3": {
+            "scid": "mn55:3.3",
+            "pli": "Ye te, bhante, evamāhaṁsu: ‘samaṇaṁ gotamaṁ uddissa pāṇaṁ ārabhanti, taṁ samaṇo gotamo jānaṁ uddissakataṁ maṁsaṁ paribhuñjati paṭiccakamman’ti, kacci te, bhante, bhagavato vuttavādino, na ca bhagavantaṁ abhūtena abbhācikkhanti, dhammassa cānudhammaṁ byākaronti, na ca koci sahadhammiko vādānuvādo gārayhaṁ ṭhānaṁ āgacchatī”ti? ",
+            "de": "Ich <span class=\"ebt-matched\">verlasse mich darauf</span>, dass die, die das sagen, die Worte des Buddha wiedergeben und ihn nicht mit einer Unwahrheit falsch darstellen. Ist ihre Erklärung im Einklang mit der Lehre? Gibt es berechtigte Gründe, sie zu tadeln und zu kritisieren?“ ",
+            "en": "I trust that those who say this repeat what the Buddha has said, and do not misrepresent him with an untruth? Is their explanation in line with the teaching? Are there any legitimate grounds for rebuke and criticism?” ",
+            "matched": true
+          }
+        },
+        "score": 1.012,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 55\nMit Jīvaka",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 80,
+          "de": 79,
+          "en": 79
         }
       },
       {

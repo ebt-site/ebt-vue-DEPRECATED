@@ -41,7 +41,7 @@
     "pattern": "grausam",
     "method": "phrase",
     "resultPattern": "\\bgrausam",
-    "segsMatched": 107,
+    "segsMatched": 108,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
@@ -127,6 +127,9 @@
       "root/pli/ms/sutta/mn/mn62_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn62_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn62_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn55_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn55_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn55_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn2_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn2_translation-en-sujato.json",
@@ -223,6 +226,7 @@
       "sn1.32/de/sabbamitta",
       "mn7/de/sabbamitta",
       "mn62/de/sabbamitta",
+      "mn55/de/sabbamitta",
       "mn2/de/sabbamitta",
       "mn122/de/sabbamitta",
       "thag16.8/de/sabbamitta",
@@ -1960,6 +1964,38 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn55_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn55_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn55_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn55",
+        "lang": "de",
+        "segMap": {
+          "mn55:11.6": {
+            "scid": "mn55:11.6",
+            "pli": "“Yena kho, jīvaka, rāgena yena dosena yena mohena vihesavā assa arativā assa paṭighavā assa so rāgo so doso so moho tathāgatassa pahīno ucchinnamūlo tālāvatthukato anabhāvaṅkato āyatiṁ anuppādadhammo. ",
+            "de": "„Jegliche Gier, jeglicher Hass und jegliche Täuschung, die <span class=\"ebt-matched\">Grausam</span>keit, Widerwillen oder Abwehr hervorbringen könnten, wurden vom Klargewordenen aufgegeben, an der Wurzel abgeschnitten, sodass sie wie der Stumpf einer Palme sind, dass sie ausgelöscht sind und sich in Zukunft nicht mehr erheben können. ",
+            "en": "“Any greed, hate, or delusion that might give rise to cruelty, discontent, or repulsion has been given up by the Realized One, cut off at the root, made like a palm stump, obliterated, and is unable to arise in the future. ",
+            "matched": true
+          }
+        },
+        "score": 1.012,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 55\nMit Jīvaka",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 80,
+          "de": 79,
+          "en": 79
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn22/sn22.80_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/sn/sn22/sn22.80_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/sn/sn22/sn22.80_translation-en-sujato.json"
@@ -2212,38 +2248,6 @@
           "pli": 444,
           "de": 360,
           "en": 443
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/dn/dn32_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/dn/dn32_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/dn/dn32_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "dn32",
-        "lang": "de",
-        "segMap": {
-          "dn32:9.1": {
-            "scid": "dn32:9.1",
-            "pli": "Santi hi, mārisa, amanussā caṇḍā ruddhā rabhasā, te neva mahārājānaṁ ādiyanti, na mahārājānaṁ purisakānaṁ ādiyanti, na mahārājānaṁ purisakānaṁ purisakānaṁ ādiyanti. ",
-            "de": "Denn, lieber Herr, es gibt nicht-menschliche Wesen, die grimmig, <span class=\"ebt-matched\">grausam</span> und gewalttätig sind. Sie gehorchen den Großen Königen oder ihren Männern oder den Männern ihrer Männer nicht. ",
-            "en": "For there are, dear sir, non-humans who are fierce, cruel, and violent. They don’t obey the Great Kings or their men or their men’s men. ",
-            "matched": true
-          }
-        },
-        "score": 1.002,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Lange Lehrreden 32\nDer Āṭānāṭiya-Schutz",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 574,
-          "de": 291,
-          "en": 573
         }
       }
     ],
