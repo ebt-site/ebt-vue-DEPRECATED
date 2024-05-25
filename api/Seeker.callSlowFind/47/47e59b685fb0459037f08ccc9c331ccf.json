@@ -41,7 +41,7 @@
     "pattern": "einfältige.* mann",
     "method": "phrase",
     "resultPattern": "\\beinfältige.* mann",
-    "segsMatched": 27,
+    "segsMatched": 28,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn24_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn24_translation-de-sabbamitta.json",
@@ -61,6 +61,9 @@
       "root/pli/ms/sutta/sn/sn17/sn17.5_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn17/sn17.5_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn17/sn17.5_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn63_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn63_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn63_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn12_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn12_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn12_translation-en-sujato.json",
@@ -90,6 +93,7 @@
       "an3.137/de/sabbamitta",
       "an1.316-332/de/sabbamitta",
       "sn17.5/de/sabbamitta",
+      "mn63/de/sabbamitta",
       "mn12/de/sabbamitta",
       "ud5.5/de/sabbamitta",
       "an9.11/de/sabbamitta",
@@ -579,6 +583,38 @@
           "pli": 109,
           "de": 89,
           "en": 89
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn63_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn63_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn63_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn63",
+        "lang": "de",
+        "segMap": {
+          "mn63:4.17": {
+            "scid": "mn63:4.17",
+            "pli": "Evaṁ sante, moghapurisa, ko santo kaṁ paccācikkhasi? ",
+            "de": "Wenn das so ist, du <span class=\"ebt-matched\">einfältiger Mann</span>, wer bist du und was willst du abbrechen? ",
+            "en": "In that case, you silly man, who are you and what are you rejecting? ",
+            "matched": true
+          }
+        },
+        "score": 1.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 63\nDie kürzere Lehrrede mit Māluṅkyaputta",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 182,
+          "de": 133,
+          "en": 181
         }
       },
       {

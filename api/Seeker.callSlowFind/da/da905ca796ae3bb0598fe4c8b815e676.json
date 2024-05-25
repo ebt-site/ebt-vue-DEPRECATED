@@ -41,7 +41,7 @@
     "pattern": "inbrünstige.* bußübung",
     "method": "phrase",
     "resultPattern": "\\binbrünstige.* bußübung",
-    "segsMatched": 79,
+    "segsMatched": 81,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn8_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn8_translation-de-sabbamitta.json",
@@ -64,6 +64,9 @@
       "root/pli/ms/sutta/sn/sn1/sn1.38_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn1/sn1.38_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.38_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn57_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn57_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn57_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn16_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn16_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn16_translation-en-sujato.json",
@@ -127,6 +130,7 @@
       "mn12/de/sabbamitta",
       "an8.12/de/sabbamitta",
       "sn1.38/de/sabbamitta",
+      "mn57/de/sabbamitta",
       "mn16/de/sabbamitta",
       "an10.14/de/sabbamitta",
       "sn42.12/de/sabbamitta",
@@ -815,6 +819,45 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn57_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn57_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn57_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn57",
+        "lang": "de",
+        "segMap": {
+          "mn57:3.3": {
+            "scid": "mn57:3.3",
+            "pli": "Sace kho panassa evaṁdiṭṭhi hoti: ‘imināhaṁ sīlena vā vatena vā tapena vā brahmacariyena vā devo vā bhavissāmi devaññataro vā’ti, sāssa hoti micchādiṭṭhi. ",
+            "de": "Aber wenn er eine solche Ansicht hat: ‚Dass ich doch durch diese Regel, dieses Gelübde, diese <span class=\"ebt-matched\">inbrünstige Bußübung</span> oder dieses geistliche Leben einer der Götter werde‘, dann ist das seine falsche Ansicht. ",
+            "en": "But if they have such a view: ‘By this precept or observance or fervent austerity or spiritual life, may I become one of the gods!’ This is their wrong view. ",
+            "matched": true
+          },
+          "mn57:5.3": {
+            "scid": "mn57:5.3",
+            "pli": "Sace kho panassa evaṁdiṭṭhi hoti: ‘imināhaṁ sīlena vā vatena vā tapena vā brahmacariyena vā devo vā bhavissāmi devaññataro vā’ti, sāssa hoti micchādiṭṭhi. ",
+            "de": "Aber wenn er eine solche Ansicht hat: ‚Dass ich doch durch diese Regel, dieses Gelübde, diese <span class=\"ebt-matched\">inbrünstige Bußübung</span> oder dieses geistliche Leben einer der Götter werde‘, dann ist das seine falsche Ansicht. ",
+            "en": "But if they have such a view: ‘By this precept or observance or fervent austerity or spiritual life, may I become one of the gods!’ This is their wrong view. ",
+            "matched": true
+          }
+        },
+        "score": 2.018,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 57\nDer Asket, der sich wie ein Hund benahm",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 114,
+          "de": 113,
+          "en": 113
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an5/an5.206_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/an/an5/an5.206_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/an/an5/an5.206_translation-en-sujato.json"
@@ -860,7 +903,7 @@
           "an3.74:1.5": {
             "scid": "an3.74:1.5",
             "pli": "So purāṇānaṁ kammānaṁ tapasā byantībhāvaṁ paññāpeti navānaṁ kammānaṁ akaraṇā setughātaṁ. ",
-            "de": "Er plädiert dafür, alte Taten mittels <span class=\"ebt-matched\">inbrünstiger Bußübung</span> zu vernichten und dadurch, dass man keine neuen Taten tut, die Brücke abzubrechen. ",
+            "de": "Er verficht das Vernichten alter Taten mittels <span class=\"ebt-matched\">inbrünstiger Bußübung</span> und das Abbrechen der Brücke, indem man keine neuen Taten tut. ",
             "en": "He advocates the elimination of past deeds by fervent mortification, and breaking the bridge by not doing any new deeds. ",
             "matched": true
           }

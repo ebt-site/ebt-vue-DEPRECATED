@@ -41,8 +41,11 @@
     "pattern": "brach in tränen aus",
     "method": "phrase",
     "resultPattern": "\\bbrach in tränen aus",
-    "segsMatched": 5,
+    "segsMatched": 7,
     "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn57_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn57_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn57_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn42/sn42.3_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn42/sn42.3_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn42/sn42.3_translation-en-sujato.json",
@@ -61,6 +64,7 @@
       "translation/en/sujato/sutta/dn/dn17_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "mn57/de/sabbamitta",
       "sn42.3/de/sabbamitta",
       "sn42.2/de/sabbamitta",
       "mn143/de/sabbamitta",
@@ -68,6 +72,45 @@
       "dn17/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn57_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn57_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn57_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn57",
+        "lang": "de",
+        "segMap": {
+          "mn57:4.1": {
+            "scid": "mn57:4.1",
+            "pli": "Evaṁ vutte, acelo seniyo kukkuravatiko parodi, assūni pavattesi. ",
+            "de": "Daraufhin weinte Seniya und <span class=\"ebt-matched\">brach in Tränen aus</span>. ",
+            "en": "When he said this, Seniya cried and burst out in tears. ",
+            "matched": true
+          },
+          "mn57:6.1": {
+            "scid": "mn57:6.1",
+            "pli": "Evaṁ vutte, puṇṇo koliyaputto govatiko parodi, assūni pavattesi. ",
+            "de": "Daraufhin weinte Puṇṇa und <span class=\"ebt-matched\">brach in Tränen aus</span>. ",
+            "en": "When he said this, Puṇṇa cried and burst out in tears. ",
+            "matched": true
+          }
+        },
+        "score": 2.018,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 57\nDer Asket, der sich wie ein Hund benahm",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 114,
+          "de": 113,
+          "en": 113
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn42/sn42.3_root-pli-ms.json",

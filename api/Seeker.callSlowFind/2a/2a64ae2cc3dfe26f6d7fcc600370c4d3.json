@@ -41,8 +41,11 @@
     "pattern": "wie eine kuh",
     "method": "phrase",
     "resultPattern": "\\bwie eine kuh",
-    "segsMatched": 8,
+    "segsMatched": 11,
     "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn57_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn57_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn57_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn12/sn12.63_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.63_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn12/sn12.63_translation-en-sujato.json",
@@ -69,6 +72,7 @@
       "translation/en/sujato/sutta/an/an3/an3.82_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "mn57/de/sabbamitta",
       "sn12.63/de/sabbamitta",
       "sn11.5/de/sabbamitta",
       "sn11.4/de/sabbamitta",
@@ -79,6 +83,52 @@
       "an3.82/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn57_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn57_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn57_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn57",
+        "lang": "de",
+        "segMap": {
+          "mn57:4.8": {
+            "scid": "mn57:4.8",
+            "pli": "Tassa taṁ govataṁ dīgharattaṁ samattaṁ samādinnaṁ. ",
+            "de": "Lange Zeit schon hat er das Gelübde aufgenommen, sich <span class=\"ebt-matched\">wie eine Kuh</span> zu benehmen. ",
+            "en": "For a long time he has undertaken that observance to behave like a cow. ",
+            "matched": true
+          },
+          "mn57:4.14": {
+            "scid": "mn57:4.14",
+            "pli": "Tassa taṁ govataṁ dīgharattaṁ samattaṁ samādinnaṁ. ",
+            "de": "Lange Zeit schon hat er das Gelübde aufgenommen, sich <span class=\"ebt-matched\">wie eine Kuh</span> zu benehmen. ",
+            "en": "For a long time he has undertaken that observance to behave like a cow. ",
+            "matched": true
+          },
+          "mn57:6.6": {
+            "scid": "mn57:6.6",
+            "pli": "api ca me idaṁ, bhante, govataṁ dīgharattaṁ samattaṁ samādinnaṁ. ",
+            "de": "Aber Herr, lange Zeit schon habe ich dieses Gelübde aufgenommen, mich <span class=\"ebt-matched\">wie eine Kuh</span> zu benehmen. ",
+            "en": "But, sir, for a long time I have undertaken this observance to behave like a cow. ",
+            "matched": true
+          }
+        },
+        "score": 3.026,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 57\nDer Asket, der sich wie ein Hund benahm",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 114,
+          "de": 113,
+          "en": 113
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/an/an3/an3.82_root-pli-ms.json",
