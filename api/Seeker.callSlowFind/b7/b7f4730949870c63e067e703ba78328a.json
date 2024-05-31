@@ -41,7 +41,7 @@
     "pattern": "überquer",
     "method": "phrase",
     "resultPattern": "\\büberquer",
-    "segsMatched": 92,
+    "segsMatched": 94,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an4/an4.196_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.196_translation-de-sabbamitta.json",
@@ -82,6 +82,9 @@
       "root/pli/ms/sutta/sn/sn10/sn10.3_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn10/sn10.3_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn10/sn10.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn65_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn65_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn65_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/ud/vagga8/ud8.6_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga8/ud8.6_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/ud/vagga8/ud8.6_translation-en-sujato.json",
@@ -212,6 +215,7 @@
       "sn2.15/de/sabbamitta",
       "sn1.5/de/sabbamitta",
       "sn10.3/de/sabbamitta",
+      "mn65/de/sabbamitta",
       "ud8.6/de/sabbamitta",
       "ud7.1/de/sabbamitta",
       "thag21.1/de/sabbamitta",
@@ -1067,6 +1071,45 @@
           "pli": 119,
           "de": 118,
           "en": 118
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn65_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn65_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn65_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn65",
+        "lang": "de",
+        "segMap": {
+          "mn65:11.3": {
+            "scid": "mn65:11.3",
+            "pli": "‘ehi me tvaṁ, bhikkhu, paṅke saṅkamo hohī’ti, api nu kho so saṅkameyya vā aññena vā kāyaṁ sannāmeyya, ‘no’ti vā vadeyyā”ti? ",
+            "de": "‚Bitte, Mönch, sei eine Brücke, damit ich den Schlamm <span class=\"ebt-matched\">überquer</span>en kann.‘ Würde er selbst hinübergehen oder versuchen, sich aus der Affäre zu ziehen, oder einfach ‚Nein‘ sagen?“ ",
+            "en": "‘Please, mendicant, be a bridge for me to cross over the mud.’ Would they cross over themselves, or struggle to get out of it, or just say no?” ",
+            "matched": true
+          },
+          "mn65:11.12": {
+            "scid": "mn65:11.12",
+            "pli": "‘ehi me tvaṁ, bhikkhu, paṅke saṅkamo hohī’ti, api nu kho so saṅkameyya vā aññena vā kāyaṁ sannāmeyya, ‘no’ti vā vadeyyā”ti? ",
+            "de": "‚Bitte, Mönch, sei eine Brücke, damit ich den Schlamm <span class=\"ebt-matched\">überquer</span>en kann.‘ Würde er selbst hinübergehen oder versuchen, sich aus der Affäre zu ziehen, oder einfach ‚Nein‘ sagen?“ ",
+            "en": "‘Please, mendicant, be a bridge for me to cross over the mud.’ Would they cross over themselves, or struggle to get out of it, or just say no?” ",
+            "matched": true
+          }
+        },
+        "score": 2.009,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 65\nMit Bhaddāli",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 211,
+          "de": 197,
+          "en": 210
         }
       },
       {
@@ -2106,38 +2149,6 @@
           "pli": 337,
           "de": 334,
           "en": 336
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/mn/mn26_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/mn/mn26_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/mn/mn26_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "mn26",
-        "lang": "de",
-        "segMap": {
-          "mn26:42.3": {
-            "scid": "mn26:42.3",
-            "pli": "Tiṇṇo loke visattikaṁ vissattho gacchati, vissattho tiṭṭhati, vissattho nisīdati, vissattho seyyaṁ kappeti. ",
-            "de": "Er hat das Klammern an der Welt <span class=\"ebt-matched\">überquer</span>t. Und er geht furchtlos, steht furchtlos, setzt sich furchtlos und legt sich furchtlos nieder. ",
-            "en": "They’ve crossed over clinging to the world. And they walk, stand, sit, and lie down in confidence. ",
-            "matched": true
-          }
-        },
-        "score": 1.003,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Mittlere Lehrreden 26\nDie edle Suche",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 365,
-          "de": 363,
-          "en": 364
         }
       }
     ],

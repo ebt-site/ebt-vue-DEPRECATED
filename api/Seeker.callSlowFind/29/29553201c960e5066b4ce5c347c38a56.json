@@ -41,7 +41,7 @@
     "pattern": "krankheit.* eiterherd.* pfeil",
     "method": "phrase",
     "resultPattern": "\\bkrankheit.* eiterherd.* pfeil",
-    "segsMatched": 25,
+    "segsMatched": 26,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn35/sn35.248_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn35/sn35.248_translation-de-sabbamitta.json",
@@ -73,6 +73,9 @@
       "root/pli/ms/sutta/mn/mn74_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn74_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn74_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn64_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn64_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn64_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn140_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn140_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn140_translation-en-sujato.json",
@@ -91,6 +94,7 @@
       "sn35.90/de/sabbamitta",
       "sn22.123/de/sabbamitta",
       "mn74/de/sabbamitta",
+      "mn64/de/sabbamitta",
       "mn140/de/sabbamitta",
       "dn21/de/sabbamitta"
     ],
@@ -504,6 +508,38 @@
           "pli": 104,
           "de": 98,
           "en": 103
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn64_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn64_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn64_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn64",
+        "lang": "de",
+        "segMap": {
+          "mn64:9.3": {
+            "scid": "mn64:9.3",
+            "pli": "So yadeva tattha hoti rūpagataṁ vedanāgataṁ saññāgataṁ saṅkhāragataṁ viññāṇagataṁ te dhamme aniccato dukkhato rogato gaṇḍato sallato aghato ābādhato parato palokato suññato anattato samanupassati. ",
+            "de": "Er betrachtet die Erscheinungen dort, die in Form, Gefühl, Wahrnehmung, Willensbildungsprozessen und Bewusstsein enthalten sind, als unbeständig, als Leiden, als <span class=\"ebt-matched\">Krankheit, als Eiterherd, als Pfeil</span>, als Elend, als Beschwerde, als fremd, als zerfallend, als leer, als ohne Selbst. ",
+            "en": "They contemplate the phenomena there—included in form, feeling, perception, choices, and consciousness—as impermanent, as suffering, as diseased, as a boil, as a dart, as misery, as an affliction, as alien, as falling apart, as empty, as not-self. ",
+            "matched": true
+          }
+        },
+        "score": 1.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 64\nDie längere Lehrrede mit Māluṅkyaputta",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 123,
+          "de": 121,
+          "en": 122
         }
       },
       {

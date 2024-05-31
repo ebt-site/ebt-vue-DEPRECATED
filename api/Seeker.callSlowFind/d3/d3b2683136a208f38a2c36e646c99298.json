@@ -41,7 +41,7 @@
     "pattern": "mit ganzem herzen",
     "method": "phrase",
     "resultPattern": "\\bmit ganzem herzen",
-    "segsMatched": 26,
+    "segsMatched": 27,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn8/sn8.8_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn8/sn8.8_translation-de-sabbamitta.json",
@@ -76,6 +76,9 @@
       "root/pli/ms/sutta/sn/sn10/sn10.7_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn10/sn10.7_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn10/sn10.7_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn65_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn65_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn65_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn48_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn48_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn48_translation-en-sujato.json",
@@ -110,6 +113,7 @@
       "sn4.19/de/sabbamitta",
       "sn16.11/de/sabbamitta",
       "sn10.7/de/sabbamitta",
+      "mn65/de/sabbamitta",
       "mn48/de/sabbamitta",
       "mn134/de/sabbamitta",
       "ud8.4/de/sabbamitta",
@@ -749,6 +753,38 @@
           "pli": 122,
           "de": 82,
           "en": 69
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn65_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn65_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn65_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn65",
+        "lang": "de",
+        "segMap": {
+          "mn65:32.8": {
+            "scid": "mn65:32.8",
+            "pli": "‘na cāyaṁ moghapuriso mayā dhamme desiyamāne aṭṭhiṁ katvā manasi katvā sabbacetaso samannāharitvā ohitasoto dhammaṁ suṇātī’ti. ",
+            "de": "‚Während ich lehre, gibt dieser törichte Mann nicht acht, gebraucht den Geist nicht, ist nicht <span class=\"ebt-matched\">mit ganzem Herzen</span> dabei und spitzt nicht die Ohren.‘ ",
+            "en": "‘While I’m teaching, this silly man doesn’t pay attention, apply the mind, concentrate wholeheartedly, or actively listen.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 65\nMit Bhaddāli",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 211,
+          "de": 197,
+          "en": 210
         }
       }
     ],

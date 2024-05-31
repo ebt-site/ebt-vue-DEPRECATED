@@ -41,7 +41,7 @@
     "pattern": "beruhigen.* aller vorgänge",
     "method": "phrase",
     "resultPattern": "\\bberuhigen.* aller vorgänge",
-    "segsMatched": 27,
+    "segsMatched": 28,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an9/an9.36_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an9/an9.36_translation-de-sabbamitta.json",
@@ -64,6 +64,9 @@
       "root/pli/ms/sutta/sn/sn22/sn22.90_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.90_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.90_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn64_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn64_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn64_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn26_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn26_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn26_translation-en-sujato.json",
@@ -112,6 +115,7 @@
       "sn6.1/de/sabbamitta",
       "sn48.50/de/sabbamitta",
       "sn22.90/de/sabbamitta",
+      "mn64/de/sabbamitta",
       "mn26/de/sabbamitta",
       "iti85/de/sabbamitta",
       "iti72/de/sabbamitta",
@@ -750,6 +754,38 @@
           "pli": 100,
           "de": 57,
           "en": 99
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn64_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn64_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn64_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn64",
+        "lang": "de",
+        "segMap": {
+          "mn64:9.6": {
+            "scid": "mn64:9.6",
+            "pli": "‘etaṁ santaṁ etaṁ paṇītaṁ yadidaṁ sabbasaṅkhārasamatho sabbūpadhipaṭinissaggo taṇhākkhayo virāgo nirodho nibbānan’ti. ",
+            "de": "‚Das ist friedvoll, das ist erhaben: nämlich das <span class=\"ebt-matched\">Beruhigen aller Vorgänge</span>, das Loslassen aller Bindungen, das Auflösen des Verlangens, das Schwinden, Aufhören, Erlöschen.‘ ",
+            "en": "‘This is peaceful; this is sublime—that is, the stilling of all activities, the letting go of all attachments, the ending of craving, fading away, cessation, extinguishment.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 64\nDie längere Lehrrede mit Māluṅkyaputta",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 123,
+          "de": 121,
+          "en": 122
         }
       },
       {

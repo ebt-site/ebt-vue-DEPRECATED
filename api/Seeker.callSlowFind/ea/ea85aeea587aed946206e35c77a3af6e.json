@@ -41,11 +41,14 @@
     "pattern": "durch vertrauen befreit",
     "method": "phrase",
     "resultPattern": "\\bdurch vertrauen befreit",
-    "segsMatched": 18,
+    "segsMatched": 20,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an3/an3.21_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.21_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.21_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn65_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn65_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn65_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an2/an2.42-51_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an2/an2.42-51_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an2/an2.42-51_translation-en-sujato.json",
@@ -70,6 +73,7 @@
     ],
     "suttaRefs": [
       "an3.21/de/sabbamitta",
+      "mn65/de/sabbamitta",
       "an2.42-51/de/sabbamitta",
       "dn33/de/sabbamitta",
       "dn28/de/sabbamitta",
@@ -189,14 +193,14 @@
           "an2.48:1.6": {
             "scid": "an2.48:1.6",
             "pli": "‘asuko bhikkhu ubhatobhāgavimutto, asuko paññāvimutto, asuko kāyasakkhī, asuko diṭṭhippatto, asuko saddhāvimutto, asuko dhammānusārī, asuko saddhānusārī, asuko sīlavā kalyāṇadhammo, asuko dussīlo pāpadhammo’ti. ",
-            "de": "‚Der Mönch Soundso ist auf beide Arten befreit; die Nonne Soundso ist durch Weisheit befreit; Soundso ist ein unmittelbarer Zeuge; Soundso ist zur Ansicht gelangt; Soundso ist <span class=\"ebt-matched\">durch Vertrauen befreit</span>; Soundso ist eine Nachfolgerin der Lehren; Soundso ist ein Nachfolger durch Vertrauen; Soundso ist ein sittlicher Mensch, von gutem Charakter; Soundso ist unmoralisch, von schlechtem Charakter.‘ ",
+            "de": "‚Der Mönch Soundso ist auf beide Arten befreit; Soundso ist durch Weisheit befreit; Soundso ist ein unmittelbarer Zeuge; Soundso ist zur Ansicht gelangt; Soundso ist <span class=\"ebt-matched\">durch Vertrauen befreit</span>; Soundso ist ein Nachfolger der Lehren; Soundso ist ein Nachfolger durch Vertrauen; Soundso ist ein sittlicher Mensch, von gutem Charakter; Soundso ist unmoralisch, von schlechtem Charakter.‘ ",
             "en": "‘The mendicant so-and-so is freed both ways; so-and-so is freed by wisdom; so-and-so is a direct witness; so-and-so is attained to view; so-and-so is freed by faith; so-and-so is a follower of teachings; so-and-so is a follower by faith; so-and-so is ethical, of good character; so-and-so is unethical, of bad character.’ ",
             "matched": true
           },
           "an2.48:2.3": {
             "scid": "an2.48:2.3",
             "pli": "‘asuko bhikkhu ubhatobhāgavimutto, asuko paññāvimutto, asuko kāyasakkhī, asuko diṭṭhippatto, asuko saddhāvimutto, asuko dhammānusārī, asuko saddhānusārī, asuko sīlavā kalyāṇadhammo, asuko dussīlo pāpadhammo’ti. ",
-            "de": "‚Der Mönch Soundso ist auf beide Arten befreit; die Nonne Soundso ist durch Weisheit befreit; Soundso ist ein unmittelbarer Zeuge; Soundso ist zur Ansicht gelangt; Soundso ist <span class=\"ebt-matched\">durch Vertrauen befreit</span>; Soundso ist eine Nachfolgerin der Lehren; Soundso ist ein Nachfolger durch Vertrauen; Soundso ist ein sittlicher Mensch, von gutem Charakter; Soundso ist unmoralisch, von schlechtem Charakter.‘ ",
+            "de": "‚Der Mönch Soundso ist auf beide Arten befreit; Soundso ist durch Weisheit befreit; Soundso ist ein unmittelbarer Zeuge; Soundso ist zur Ansicht gelangt; Soundso ist <span class=\"ebt-matched\">durch Vertrauen befreit</span>; Soundso ist ein Nachfolger der Lehren; Soundso ist ein Nachfolger durch Vertrauen; Soundso ist ein sittlicher Mensch, von gutem Charakter; Soundso ist unmoralisch, von schlechtem Charakter.‘ ",
             "en": "‘The mendicant so-and-so is freed both ways; so-and-so is freed by wisdom; so-and-so is a direct witness; so-and-so is attained to view; so-and-so is freed by faith; so-and-so is a follower of teachings; so-and-so is a follower by faith; so-and-so is ethical, of good character; so-and-so is unethical, of bad character.’ ",
             "matched": true
           }
@@ -215,6 +219,45 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn65_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn65_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn65_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn65",
+        "lang": "de",
+        "segMap": {
+          "mn65:11.9": {
+            "scid": "mn65:11.9",
+            "pli": "saddhāvimutto … ",
+            "de": "oder zu einem, der <span class=\"ebt-matched\">durch Vertrauen befreit</span> ist, ",
+            "en": "or freed by faith, ",
+            "matched": true
+          },
+          "mn65:12.2": {
+            "scid": "mn65:12.2",
+            "pli": "api nu tvaṁ, bhaddāli, tasmiṁ samaye ubhatobhāgavimutto vā hosi paññāvimutto vā kāyasakkhi vā diṭṭhippatto vā saddhāvimutto vā dhammānusārī vā saddhānusārī vā”ti? ",
+            "de": "Warst du zu dieser Zeit auf beide Arten befreit, durch Weisheit befreit, ein unmittelbarer Zeuge, zur Ansicht gelangt, <span class=\"ebt-matched\">durch Vertrauen befreit</span>, ein Nachfolger der Lehren oder ein Nachfolger durch Vertrauen?“ ",
+            "en": "At that time were you freed both ways, freed by wisdom, a direct witness, attained to view, freed by faith, a follower of teachings, or a follower by faith?” ",
+            "matched": true
+          }
+        },
+        "score": 2.009,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 65\nMit Bhaddāli",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 211,
+          "de": 197,
+          "en": 210
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an7/an7.14_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/an/an7/an7.14_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/an/an7/an7.14_translation-en-sujato.json"
@@ -228,7 +271,7 @@
           "an7.14:1.3": {
             "scid": "an7.14:1.3",
             "pli": "Ubhatobhāgavimutto, paññāvimutto, kāyasakkhī, diṭṭhippatto, saddhāvimutto, dhammānusārī, saddhānusārī. ",
-            "de": "Jemand, der auf beide Arten befreit ist, jemand, der durch Weisheit befreit ist, eine unmittelbare Zeugin, jemand, der zur Ansicht gelangt ist, jemand, der <span class=\"ebt-matched\">durch Vertrauen befreit</span> ist, eine Nachfolgerin der Lehren und ein Nachfolger durch Vertrauen. ",
+            "de": "Jemand, der auf beide Arten befreit ist, jemand, der durch Weisheit befreit ist, ein unmittelbarer Zeuge, jemand, der zur Ansicht gelangt ist, jemand, der <span class=\"ebt-matched\">durch Vertrauen befreit</span> ist, ein Nachfolger der Lehren und ein Nachfolger durch Vertrauen. ",
             "en": "The one freed both ways, the one freed by wisdom, the direct witness, the one attained to view, the one freed by faith, the follower of teachings, and the follower by faith. ",
             "matched": true
           }
@@ -260,7 +303,7 @@
           "an10.16:1.3": {
             "scid": "an10.16:1.3",
             "pli": "Tathāgato arahaṁ sammāsambuddho, paccekabuddho, ubhatobhāgavimutto, paññāvimutto, kāyasakkhī, diṭṭhippatto, saddhāvimutto, saddhānusārī, dhammānusārī, gotrabhū—",
-            "de": "Ein Klargewordener, ein Vollendeter, ein vollkommen erwachter Buddha; ein isolierter Buddha; jemand, der auf beide Arten befreit ist; jemand, der durch Weisheit befreit ist; ein unmittelbarer Zeuge; jemand, der zur Ansicht gelangt ist; jemand, der <span class=\"ebt-matched\">durch Vertrauen befreit</span> ist; ein Nachfolger durch Vertrauen; eine Nachfolgerin der Lehren; und ein Mitglied der spirituellen Familie. ",
+            "de": "Ein Klargewordener, ein Vollendeter, ein vollkommen erwachter Buddha; ein isolierter Buddha; jemand, der auf beide Arten befreit ist; jemand, der durch Weisheit befreit ist; ein unmittelbarer Zeuge; jemand, der zur Ansicht gelangt ist; jemand, der <span class=\"ebt-matched\">durch Vertrauen befreit</span> ist; ein Nachfolger durch Vertrauen; ein Nachfolger der Lehren; und ein Mitglied der spirituellen Familie. ",
             "en": "A Realized One, a perfected one, a fully awakened Buddha; an Independent Buddha; one freed both ways; one freed by wisdom; a direct witness; one attained to view; one freed by faith; a follower by faith; a follower of teachings; a member of the spiritual family. ",
             "matched": true
           }
@@ -356,7 +399,7 @@
           "dn28:8.3": {
             "scid": "dn28:8.3",
             "pli": "Ubhatobhāgavimutto paññāvimutto kāyasakkhi diṭṭhippatto saddhāvimutto dhammānusārī saddhānusārī. ",
-            "de": "einen, der auf beide Arten befreit ist, eine, die durch Weisheit befreit ist, einen unmittelbaren Zeugen, eine, die zur Ansicht gelangt ist, einen, der <span class=\"ebt-matched\">durch Vertrauen befreit</span> ist, eine Nachfolgerin der Lehren und einen Nachfolger durch Vertrauen. ",
+            "de": "einen, der auf beide Arten befreit ist, einen, der durch Weisheit befreit ist, einen unmittelbaren Zeugen, einen, der zur Ansicht gelangt ist, einen, der <span class=\"ebt-matched\">durch Vertrauen befreit</span> ist, einen Nachfolger der Lehren und einen Nachfolger durch Vertrauen. ",
             "en": "One freed both ways, one freed by wisdom, a direct witness, one attained to view, one freed by faith, a follower of teachings, a follower by faith. ",
             "matched": true
           }
@@ -388,7 +431,7 @@
           "dn33:2.3.44": {
             "scid": "dn33:2.3.44",
             "pli": "ubhatobhāgavimutto, paññāvimutto, kāyasakkhi, diṭṭhippatto, saddhāvimutto, dhammānusārī, saddhānusārī. ",
-            "de": "jemand, der auf beide Arten befreit ist, jemand, der durch Weisheit befreit ist, ein persönlicher Zeuge, jemand, der zur Ansicht gelangt ist, jemand, der <span class=\"ebt-matched\">durch Vertrauen befreit</span> ist, eine Nachfolgerin der Lehren und ein Nachfolger durch Vertrauen. ",
+            "de": "jemand, der auf beide Arten befreit ist, jemand, der durch Weisheit befreit ist, ein unmittelbarer Zeuge, jemand, der zur Ansicht gelangt ist, jemand, der <span class=\"ebt-matched\">durch Vertrauen befreit</span> ist, ein Nachfolger der Lehren und ein Nachfolger durch Vertrauen. ",
             "en": "one freed both ways, one freed by wisdom, a direct witness, one attained to view, one freed by faith, a follower of teachings, and a follower by faith. ",
             "matched": true
           }

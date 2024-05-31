@@ -41,8 +41,11 @@
     "pattern": "nimm meinen fehler",
     "method": "phrase",
     "resultPattern": "\\bnimm meinen fehler",
-    "segsMatched": 7,
+    "segsMatched": 10,
     "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn65_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn65_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn65_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn12/sn12.70_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.70_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn12/sn12.70_translation-en-sujato.json",
@@ -66,6 +69,7 @@
       "translation/en/sujato/sutta/an/an3/an3.91_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "mn65/de/sabbamitta",
       "sn12.70/de/sabbamitta",
       "mn140/de/sabbamitta",
       "dn2/de/sabbamitta",
@@ -75,6 +79,52 @@
       "an3.91/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn65_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn65_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn65_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn65",
+        "lang": "de",
+        "segMap": {
+          "mn65:7.3": {
+            "scid": "mn65:7.3",
+            "pli": "Tassa me, bhante, bhagavā accayaṁ accayato paṭiggaṇhātu āyatiṁ saṁvarāyā”ti. ",
+            "de": "Bitte, Herr, <span class=\"ebt-matched\">nimm meinen Fehler</span> als Fehler an, und ich will mich in Zukunft zügeln.“ ",
+            "en": "Please, sir, accept my mistake for what it is, so I will restrain myself in future.” ",
+            "matched": true
+          },
+          "mn65:10.2": {
+            "scid": "mn65:10.2",
+            "pli": "Tassa me, bhante, bhagavā accayaṁ accayato paṭiggaṇhātu āyatiṁ saṁvarāyā”ti. ",
+            "de": "Bitte, Herr, <span class=\"ebt-matched\">nimm meinen Fehler</span> als Fehler an, und ich will mich in Zukunft zügeln.“ ",
+            "en": "Please, sir, accept my mistake for what it is, so I will restrain myself in future.” ",
+            "matched": true
+          },
+          "mn65:13.3": {
+            "scid": "mn65:13.3",
+            "pli": "Tassa me, bhante, bhagavā accayaṁ accayato paṭiggaṇhātu āyatiṁ saṁvarāyā”ti. ",
+            "de": "Bitte, Herr, <span class=\"ebt-matched\">nimm meinen Fehler</span> als Fehler an, und ich will mich in Zukunft zügeln.“ ",
+            "en": "Please, sir, accept my mistake for what it is, so I will restrain myself in future.” ",
+            "matched": true
+          }
+        },
+        "score": 3.014,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 65\nMit Bhaddāli",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 211,
+          "de": 197,
+          "en": 210
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/an/an3/an3.91_root-pli-ms.json",
