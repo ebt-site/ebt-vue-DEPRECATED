@@ -1,0 +1,99 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sabbamitta",
+      "docLang": "de",
+      "docAuthor": "sabbamitta",
+      "includeUnpublished": false,
+      "lang": "de",
+      "langAuthor": "sabbamitta",
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "kleine maß an vertrauen und zuneigung",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "de",
+      "searchAuthor": "sabbamitta",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sabbamitta",
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "kleine maß an vertrauen und zuneigung",
+    "method": "phrase",
+    "resultPattern": "\\bkleine maß an vertrauen und zuneigung",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn65_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn65_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn65_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "mn65/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn65_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn65_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn65_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn65",
+        "lang": "de",
+        "segMap": {
+          "mn65:27.5": {
+            "scid": "mn65:27.5",
+            "pli": "mā yampissa taṁ saddhāmattakaṁ pemamattakaṁ tamhāpi parihāyī’ti. ",
+            "de": "nein, er soll das <span class=\"ebt-matched\">kleine Maß an Vertrauen und Zuneigung</span>, das er hat, nicht verlieren!‘ ",
+            "en": "no, let him not lose what little faith and love he has!’ ",
+            "matched": true
+          },
+          "mn65:28.7": {
+            "scid": "mn65:28.7",
+            "pli": "mā yampissa taṁ saddhāmattakaṁ pemamattakaṁ tamhāpi parihāyī’ti. ",
+            "de": "nein, er soll das <span class=\"ebt-matched\">kleine Maß an Vertrauen und Zuneigung</span>, das er hat, nicht verlieren!‘ ",
+            "en": "no, let him not lose what little faith and love he has!’ ",
+            "matched": true
+          }
+        },
+        "score": 2.009,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 65\nMit Bhaddāli",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 211,
+          "de": 197,
+          "en": 210
+        }
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "de",
+    "docAuthor": "sabbamitta"
+  }
+}
