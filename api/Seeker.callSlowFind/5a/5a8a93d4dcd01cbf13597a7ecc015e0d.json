@@ -39,136 +39,331 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "eternal truth",
-    "method": "phrase",
-    "resultPattern": "\\beternal truth",
-    "segsMatched": 6,
+    "method": "keywords",
+    "resultPattern": "\\beternal|\\btruth",
+    "segsMatched": 19,
     "bilaraPaths": [
-      "root/pli/ms/sutta/sn/sn8/sn8.5_root-pli-ms.json",
-      "translation/en/sujato/sutta/sn/sn8/sn8.5_translation-en-sujato.json",
-      "root/pli/ms/sutta/sn/sn1/sn1.32_root-pli-ms.json",
-      "translation/en/sujato/sutta/sn/sn1/sn1.32_translation-en-sujato.json",
-      "root/pli/ms/sutta/mn/mn128_root-pli-ms.json",
-      "translation/en/sujato/sutta/mn/mn128_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/thag/thag21.1_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/thag/thag21.1_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/snp/vagga3/snp3.3_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/snp/vagga3/snp3.3_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/dhp/dhp1-20_root-pli-ms.json",
-      "translation/en/suddhaso/sutta/kn/dhp/dhp1-20_translation-en-suddhaso.json",
-      "translation/en/sujato/sutta/kn/dhp/dhp1-20_translation-en-sujato.json"
+      "root/pli/ms/sutta/dn/dn29_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn29_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.93_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an10/an10.93_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.96_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an10/an10.96_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn9_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn9_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga6/ud6.5_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/ud/vagga6/ud6.5_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga6/ud6.6_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/ud/vagga6/ud6.6_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.95_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an10/an10.95_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thig/thig16.1_root-pli-ms.json",
+      "translation/en/soma/sutta/kn/thig/thig16.1_translation-en-soma.json",
+      "translation/en/sujato/sutta/kn/thig/thig16.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ud/vagga6/ud6.4_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/ud/vagga6/ud6.4_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn102_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn102_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn72_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn72_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.20_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an10/an10.20_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.38_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an4/an4.38_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/cp/cp30_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/cp/cp30_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag20.1_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/thag/thag20.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn50_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn50_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn82_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn82_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "sn8.5/en/sujato",
-      "sn1.32/en/sujato",
-      "mn128/en/sujato",
-      "thag21.1/en/sujato",
-      "snp3.3/en/sujato",
-      "dhp1-20/en/sujato"
+      "dn29/en/sujato",
+      "an10.93/en/sujato",
+      "an10.96/en/sujato",
+      "dn9/en/sujato",
+      "ud6.5/en/sujato",
+      "ud6.6/en/sujato",
+      "an10.95/en/sujato",
+      "ud6.4/en/sujato",
+      "mn102/en/sujato",
+      "mn72/en/sujato"
     ],
     "mlDocs": [
       {
         "bilaraPaths": [
-          "root/pli/ms/sutta/sn/sn8/sn8.5_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn8/sn8.5_translation-en-sujato.json"
+          "root/pli/ms/sutta/an/an10/an10.96_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an10/an10.96_translation-en-sujato.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
         "category": "sutta",
-        "sutta_uid": "sn8.5",
+        "sutta_uid": "an10.96",
         "lang": "en",
         "segMap": {
-          "sn8.5:7.2": {
-            "scid": "sn8.5:7.2",
-            "pli": "esa dhammo sanantano; ",
-            "en": "this is an <span class=\"ebt-matched\">eternal truth</span>. ",
+          "an10.96:5.1": {
+            "scid": "an10.96:5.1",
+            "pli": "“Kiṁ nu kho, bho, ‘sassato loko, idameva saccaṁ moghamaññan’ti—evaṁdiṭṭhi bhavan”ti? ",
+            "en": "“Is this your view: ‘The cosmos is <span class=\"ebt-matched\">eternal</span>. This is the only <span class=\"ebt-matched\">truth</span>, other ideas are silly’?” ",
+            "matched": true
+          },
+          "an10.96:6.1": {
+            "scid": "an10.96:6.1",
+            "pli": "“Kiṁ pana, bho, ‘asassato loko, idameva saccaṁ moghamaññan’ti—evaṁdiṭṭhi bhavan”ti? ",
+            "en": "“Then is this your view: ‘The cosmos is not <span class=\"ebt-matched\">eternal</span>. This is the only <span class=\"ebt-matched\">truth</span>, other ideas are silly’?” ",
+            "matched": true
+          },
+          "an10.96:13.1": {
+            "scid": "an10.96:13.1",
+            "pli": "“‘Sassato loko, idameva saccaṁ moghamaññan’ti kho, āvuso, diṭṭhigatametaṁ. ",
+            "en": "“‘The cosmos is <span class=\"ebt-matched\">eternal</span>. This is the only <span class=\"ebt-matched\">truth</span>, other ideas are silly:’ that’s a misconception. ",
+            "matched": true
+          },
+          "an10.96:13.2": {
+            "scid": "an10.96:13.2",
+            "pli": "‘Asassato loko, idameva saccaṁ moghamaññan’ti kho, āvuso, diṭṭhigatametaṁ. ",
+            "en": "‘The cosmos is not <span class=\"ebt-matched\">eternal</span>. This is the only <span class=\"ebt-matched\">truth</span>, other ideas are silly:’ that’s a misconception. ",
             "matched": true
           }
         },
-        "score": 1.026,
+        "score": 4.05,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Linked Discourses 8.5\n1. With Vaṅgīsa\nWell-Spoken Words",
-        "segsMatched": 1,
+        "title": "Numbered Discourses 10.96\n10. With Upāli\nWith Kokanada",
+        "segsMatched": 4,
         "langSegs": {
-          "pli": 38,
-          "en": 38
+          "pli": 80,
+          "en": 79
         }
       },
       {
         "bilaraPaths": [
-          "root/pli/ms/sutta/kn/snp/vagga3/snp3.3_root-pli-ms.json",
-          "translation/en/sujato/sutta/kn/snp/vagga3/snp3.3_translation-en-sujato.json"
+          "root/pli/ms/sutta/an/an10/an10.93_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an10/an10.93_translation-en-sujato.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
         "category": "sutta",
-        "sutta_uid": "snp3.3",
+        "sutta_uid": "an10.93",
         "lang": "en",
         "segMap": {
-          "snp3.3:7.2": {
-            "scid": "snp3.3:7.2",
-            "pli": "esa dhammo sanantano; ",
-            "en": "this is an <span class=\"ebt-matched\">eternal truth</span>. ",
+          "an10.93:6.2": {
+            "scid": "an10.93:6.2",
+            "pli": "“sassato loko, idameva saccaṁ moghamaññanti—",
+            "en": "“The cosmos is <span class=\"ebt-matched\">eternal</span>. This is the only <span class=\"ebt-matched\">truth</span>, other ideas are silly. ",
+            "matched": true
+          },
+          "an10.93:7.2": {
+            "scid": "an10.93:7.2",
+            "pli": "“asassato loko, idameva saccaṁ moghamaññanti—",
+            "en": "“The cosmos is not <span class=\"ebt-matched\">eternal</span>. This is the only <span class=\"ebt-matched\">truth</span>, other ideas are silly. ",
+            "matched": true
+          },
+          "an10.93:9.3": {
+            "scid": "an10.93:9.3",
+            "pli": "‘sassato loko, idameva saccaṁ moghamaññanti—",
+            "en": "‘The cosmos is <span class=\"ebt-matched\">eternal</span>. This is the only <span class=\"ebt-matched\">truth</span>, other ideas are silly. ",
+            "matched": true
+          },
+          "an10.93:10.2": {
+            "scid": "an10.93:10.2",
+            "pli": "‘asassato loko, idameva saccaṁ moghamaññanti—",
+            "en": "‘The cosmos is not <span class=\"ebt-matched\">eternal</span>. This is the only <span class=\"ebt-matched\">truth</span>, other ideas are silly. ",
             "matched": true
           }
         },
-        "score": 1.026,
+        "score": 4.039,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Anthology of Discourses 3.3\nWell-Spoken Words",
-        "segsMatched": 1,
+        "title": "Numbered Discourses 10.93\n10. With Upāli\nWhat Is Your View?",
+        "segsMatched": 4,
         "langSegs": {
-          "pli": 39,
-          "en": 38
+          "pli": 103,
+          "en": 102
         }
       },
       {
         "bilaraPaths": [
-          "root/pli/ms/sutta/sn/sn1/sn1.32_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn1/sn1.32_translation-en-sujato.json"
+          "root/pli/ms/sutta/an/an10/an10.95_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an10/an10.95_translation-en-sujato.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
         "category": "sutta",
-        "sutta_uid": "sn1.32",
+        "sutta_uid": "an10.95",
         "lang": "en",
         "segMap": {
-          "sn1.32:7.4": {
-            "scid": "sn1.32:7.4",
-            "pli": "esa dhammo sanantano. ",
-            "en": "This is an <span class=\"ebt-matched\">eternal truth</span>. ",
+          "an10.95:1.3": {
+            "scid": "an10.95:1.3",
+            "pli": "“kiṁ nu kho, bho gotama, sassato loko, idameva saccaṁ moghamaññan”ti? ",
+            "en": "“Mister Gotama, is this right: ‘The cosmos is <span class=\"ebt-matched\">eternal</span>. This is the only <span class=\"ebt-matched\">truth</span>, other ideas are silly’?” ",
+            "matched": true
+          },
+          "an10.95:2.1": {
+            "scid": "an10.95:2.1",
+            "pli": "“Kiṁ pana, bho gotama, asassato loko, idameva saccaṁ moghamaññan”ti? ",
+            "en": "“Then is this right: ‘The cosmos is not <span class=\"ebt-matched\">eternal</span>. This is the only <span class=\"ebt-matched\">truth</span>, other ideas are silly’?” ",
             "matched": true
           }
         },
-        "score": 1.018,
+        "score": 2.035,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Linked Discourses 1.32\n4. The Satullapa Group\nStinginess",
-        "segsMatched": 1,
+        "title": "Numbered Discourses 10.95\n10. With Upāli\nWith Uttiya",
+        "segsMatched": 2,
         "langSegs": {
           "pli": 57,
-          "en": 57
+          "en": 56
         }
       },
       {
         "bilaraPaths": [
-          "root/pli/ms/sutta/kn/dhp/dhp1-20_root-pli-ms.json",
-          "translation/en/suddhaso/sutta/kn/dhp/dhp1-20_translation-en-suddhaso.json",
-          "translation/en/sujato/sutta/kn/dhp/dhp1-20_translation-en-sujato.json"
+          "root/pli/ms/sutta/mn/mn72_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn72_translation-en-sujato.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
         "category": "sutta",
-        "sutta_uid": "dhp1-20",
+        "sutta_uid": "mn72",
         "lang": "en",
         "segMap": {
-          "dhp5:4": {
-            "scid": "dhp5:4",
-            "pli": "esa dhammo sanantano. ",
-            "en": "this is an <span class=\"ebt-matched\">eternal truth</span>. ",
+          "mn72:3.1": {
+            "scid": "mn72:3.1",
+            "pli": "“Kiṁ nu kho, bho gotama, ‘sassato loko, idameva saccaṁ moghamaññan’ti—",
+            "en": "“Mister Gotama, is this your view: ‘The cosmos is <span class=\"ebt-matched\">eternal</span>. This is the only <span class=\"ebt-matched\">truth</span>, other ideas are silly’?” ",
+            "matched": true
+          },
+          "mn72:4.1": {
+            "scid": "mn72:4.1",
+            "pli": "“Kiṁ pana, bho gotama, ‘asassato loko, idameva saccaṁ moghamaññan’ti—",
+            "en": "“Then is this your view: ‘The cosmos is not <span class=\"ebt-matched\">eternal</span>. This is the only <span class=\"ebt-matched\">truth</span>, other ideas are silly’?” ",
+            "matched": true
+          }
+        },
+        "score": 2.012,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Middle Discourses 72\nWith Vacchagotta on Fire",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 161,
+          "en": 160
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn9_root-pli-ms.json",
+          "translation/en/sujato/sutta/dn/dn9_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn9",
+        "lang": "en",
+        "segMap": {
+          "dn9:25.3": {
+            "scid": "dn9:25.3",
+            "pli": "kiṁ pana, bhante, ‘sassato loko, idameva saccaṁ moghamaññan’”ti? ",
+            "en": "then what do you make of this: ‘The cosmos is <span class=\"ebt-matched\">eternal</span>. This is the only <span class=\"ebt-matched\">truth</span>, anything else is wrong’?” ",
+            "matched": true
+          },
+          "dn9:26.1": {
+            "scid": "dn9:26.1",
+            "pli": "“Kiṁ pana, bhante, ‘asassato loko, idameva saccaṁ moghamaññan’”ti? ",
+            "en": "“Then what do you make of this: ‘The cosmos is not <span class=\"ebt-matched\">eternal</span>. This is the only <span class=\"ebt-matched\">truth</span>, anything else is wrong’?” ",
+            "matched": true
+          }
+        },
+        "score": 2.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Long Discourses 9\nWith Poṭṭhapāda",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 474,
+          "en": 375
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga6/ud6.5_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/ud/vagga6/ud6.5_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud6.5",
+        "lang": "en",
+        "segMap": {
+          "ud6.5:2.2": {
+            "scid": "ud6.5:2.2",
+            "pli": "“sassato attā ca loko ca, idameva saccaṁ moghamaññan”ti. ",
+            "en": "“The self and the cosmos are <span class=\"ebt-matched\">eternal</span>. This is the only <span class=\"ebt-matched\">truth</span>, other ideas are silly.” ",
+            "matched": true
+          }
+        },
+        "score": 1.017,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Heartfelt Sayings 6.5\nFollowers of Various Other Religions (2nd)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 60,
+          "en": 33
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga6/ud6.6_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/ud/vagga6/ud6.6_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud6.6",
+        "lang": "en",
+        "segMap": {
+          "ud6.6:2.2": {
+            "scid": "ud6.6:2.2",
+            "pli": "“sassato attā ca loko ca, idameva saccaṁ moghamaññan”ti. ",
+            "en": "“The self and the cosmos are <span class=\"ebt-matched\">eternal</span>. This is the only <span class=\"ebt-matched\">truth</span>, other ideas are silly.” ",
+            "matched": true
+          }
+        },
+        "score": 1.015,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Heartfelt Sayings 6.6\nFollowers of Various Other Religions (3rd)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 67,
+          "en": 40
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga6/ud6.4_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/ud/vagga6/ud6.4_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ud6.4",
+        "lang": "en",
+        "segMap": {
+          "ud6.4:2.2": {
+            "scid": "ud6.4:2.2",
+            "pli": "“sassato loko, idameva saccaṁ moghamaññan”ti. ",
+            "en": "“The cosmos is <span class=\"ebt-matched\">eternal</span>. This is the only <span class=\"ebt-matched\">truth</span>, other ideas are silly.” ",
             "matched": true
           }
         },
@@ -176,69 +371,69 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Minor Collection\nSayings of the Dhamma 1–20\n1. Pairs\nCakkhupālattheravatthu",
+        "title": "Heartfelt Sayings 6.4\nFollowers of Various Other Religions (1st)",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 108,
-          "en": 93
+          "pli": 106,
+          "en": 88
         }
       },
       {
         "bilaraPaths": [
-          "root/pli/ms/sutta/mn/mn128_root-pli-ms.json",
-          "translation/en/sujato/sutta/mn/mn128_translation-en-sujato.json"
+          "root/pli/ms/sutta/mn/mn102_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn102_translation-en-sujato.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
         "category": "sutta",
-        "sutta_uid": "mn128",
+        "sutta_uid": "mn102",
         "lang": "en",
         "segMap": {
-          "mn128:6.20": {
-            "scid": "mn128:6.20",
-            "pli": "esa dhammo sanantano. ",
-            "en": "this is an <span class=\"ebt-matched\">eternal truth</span>. ",
+          "mn102:15.2": {
+            "scid": "mn102:15.2",
+            "pli": "‘sassato attā ca loko ca, idameva saccaṁ moghamaññan’ti, tesaṁ vata aññatreva saddhāya aññatra ruciyā aññatra anussavā aññatra ākāraparivitakkā aññatra diṭṭhinijjhānakkhantiyā paccattaṁyeva ñāṇaṁ bhavissati parisuddhaṁ pariyodātanti—netaṁ ṭhānaṁ vijjati. ",
+            "en": "‘The self and the cosmos are <span class=\"ebt-matched\">eternal</span>. This is the only <span class=\"ebt-matched\">truth</span>, other ideas are silly.’ It’s simply not possible for them to have personal knowledge of this that is pure and bright, apart from faith, endorsement, oral transmission, reasoned train of thought, or acceptance of a view after deliberation. ",
             "matched": true
           }
         },
-        "score": 1.004,
+        "score": 1.006,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Middle Discourses 128\nCorruptions",
+        "title": "Middle Discourses 102\nThe Five and Three",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 279,
-          "en": 278
+          "pli": 161,
+          "en": 160
         }
       },
       {
         "bilaraPaths": [
-          "root/pli/ms/sutta/kn/thag/thag21.1_root-pli-ms.json",
-          "translation/en/sujato/sutta/kn/thag/thag21.1_translation-en-sujato.json"
+          "root/pli/ms/sutta/dn/dn29_root-pli-ms.json",
+          "translation/en/sujato/sutta/dn/dn29_translation-en-sujato.json"
         ],
         "author_uid": "sujato",
         "type": "translation",
         "category": "sutta",
-        "sutta_uid": "thag21.1",
+        "sutta_uid": "dn29",
         "lang": "en",
         "segMap": {
-          "thag21.1:21.2": {
-            "scid": "thag21.1:21.2",
-            "pli": "esa dhammo sanantano; ",
-            "en": "this is an <span class=\"ebt-matched\">eternal truth</span>. ",
+          "dn29:34.8": {
+            "scid": "dn29:34.8",
+            "pli": "‘sassato attā ca loko ca, idameva saccaṁ moghamaññan’ti. ",
+            "en": "‘The self and the cosmos are <span class=\"ebt-matched\">eternal</span>. This is the only <span class=\"ebt-matched\">truth</span>, other ideas are silly.’ ",
             "matched": true
           }
         },
-        "score": 1.003,
+        "score": 1.002,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Verses of the Senior Monks 21.1\nThe Great Book\nChapter One\nVaṅgīsa",
+        "title": "Long Discourses 29\nAn Impressive Discourse",
         "segsMatched": 1,
         "langSegs": {
-          "pli": 309,
-          "en": 294
+          "pli": 465,
+          "en": 464
         }
       }
     ],
