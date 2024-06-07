@@ -41,11 +41,14 @@
     "pattern": "verdammt",
     "method": "phrase",
     "resultPattern": "\\bverdammt",
-    "segsMatched": 7,
+    "segsMatched": 8,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn14_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn66_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn66_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn66_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag4.4_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag4.4_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag4.4_translation-en-sujato.json",
@@ -61,6 +64,7 @@
     ],
     "suttaRefs": [
       "dn14/de/sabbamitta",
+      "mn66/de/sabbamitta",
       "thag4.4/de/sabbamitta",
       "thag20.1/de/sabbamitta",
       "dn3/de/sabbamitta",
@@ -143,6 +147,38 @@
           "pli": 21,
           "de": 20,
           "en": 20
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn66_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn66_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn66_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn66",
+        "lang": "de",
+        "segMap": {
+          "mn66:6.23": {
+            "scid": "mn66:6.23",
+            "pli": "‘abhumme pisāco vata man’ti. ",
+            "de": "‚Wehe mir! Es ist ein <span class=\"ebt-matched\">verdammt</span>er Kobold!‘ ",
+            "en": "‘Woe is me! It’s a damn goblin!’ ",
+            "matched": true
+          }
+        },
+        "score": 1.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 66\nDas Gleichnis von der Wachtel",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 202,
+          "de": 197,
+          "en": 201
         }
       },
       {

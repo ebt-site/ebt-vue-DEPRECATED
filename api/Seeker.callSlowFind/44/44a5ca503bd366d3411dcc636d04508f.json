@@ -41,7 +41,7 @@
     "pattern": "wurzel des leidens",
     "method": "phrase",
     "resultPattern": "\\bwurzel des leidens",
-    "segsMatched": 10,
+    "segsMatched": 11,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn42/sn42.11_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn42/sn42.11_translation-de-sabbamitta.json",
@@ -52,6 +52,9 @@
       "root/pli/ms/sutta/sn/sn56/sn56.21_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn56/sn56.21_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn56/sn56.21_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn66_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn66_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn66_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn116_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn116_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn116_translation-en-sujato.json",
@@ -63,6 +66,7 @@
       "sn42.11/de/sabbamitta",
       "mn1/de/sabbamitta",
       "sn56.21/de/sabbamitta",
+      "mn66/de/sabbamitta",
       "mn116/de/sabbamitta",
       "dn16/de/sabbamitta"
     ],
@@ -228,6 +232,38 @@
           "pli": 96,
           "de": 95,
           "en": 95
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn66_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn66_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn66_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn66",
+        "lang": "de",
+        "segMap": {
+          "mn66:17.1": {
+            "scid": "mn66:17.1",
+            "pli": "Idha panudāyi, ekacco puggalo ‘upadhi dukkhassa mūlan’ti—",
+            "de": "Da versteht ein gewisser anderer Mensch, dass Bindung die <span class=\"ebt-matched\">Wurzel des Leidens</span> ist ",
+            "en": "Take another person who, understanding that attachment is the root of suffering, ",
+            "matched": true
+          }
+        },
+        "score": 1.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 66\nDas Gleichnis von der Wachtel",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 202,
+          "de": 197,
+          "en": 201
         }
       },
       {

@@ -41,7 +41,7 @@
     "pattern": "einfältige.* mann",
     "method": "phrase",
     "resultPattern": "\\beinfältige.* mann",
-    "segsMatched": 28,
+    "segsMatched": 29,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn24_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn24_translation-de-sabbamitta.json",
@@ -61,6 +61,9 @@
       "root/pli/ms/sutta/sn/sn17/sn17.5_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn17/sn17.5_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn17/sn17.5_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn65_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn65_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn65_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn63_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn63_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn63_translation-en-sujato.json",
@@ -93,6 +96,7 @@
       "an3.137/de/sabbamitta",
       "an1.316-332/de/sabbamitta",
       "sn17.5/de/sabbamitta",
+      "mn65/de/sabbamitta",
       "mn63/de/sabbamitta",
       "mn12/de/sabbamitta",
       "ud5.5/de/sabbamitta",
@@ -615,6 +619,38 @@
           "pli": 182,
           "de": 133,
           "en": 181
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn65_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn65_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn65_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn65",
+        "lang": "de",
+        "segMap": {
+          "mn65:32.8": {
+            "scid": "mn65:32.8",
+            "pli": "‘na cāyaṁ moghapuriso mayā dhamme desiyamāne aṭṭhiṁ katvā manasi katvā sabbacetaso samannāharitvā ohitasoto dhammaṁ suṇātī’ti. ",
+            "de": "‚Während ich lehre, gibt dieser <span class=\"ebt-matched\">einfältige Mann</span> nicht acht, gebraucht den Geist nicht, ist nicht mit ganzem Herzen dabei und spitzt nicht die Ohren.‘ ",
+            "en": "‘While I’m teaching, this silly man doesn’t pay attention, apply the mind, concentrate wholeheartedly, or actively listen.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 65\nMit Bhaddāli",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 211,
+          "de": 197,
+          "en": 210
         }
       },
       {

@@ -41,8 +41,11 @@
     "pattern": "leiden bringen",
     "method": "phrase",
     "resultPattern": "\\bleiden bringen",
-    "segsMatched": 3,
+    "segsMatched": 6,
     "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn66_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn66_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn66_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn1/sn1.24_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn1/sn1.24_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.24_translation-en-sujato.json",
@@ -54,11 +57,58 @@
       "translation/en/sujato/sutta/kn/dhp/dhp179-196_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "mn66/de/sabbamitta",
       "sn1.24/de/sabbamitta",
       "thag14.2/de/sabbamitta",
       "dhp179-196/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn66_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn66_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn66_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn66",
+        "lang": "de",
+        "segMap": {
+          "mn66:4.1": {
+            "scid": "mn66:4.1",
+            "pli": "“bahūnaṁ vata no bhagavā dukkhadhammānaṁ apahattā, bahūnaṁ vata no bhagavā sukhadhammānaṁ upahattā; ",
+            "de": "„Der Buddha hat uns von so vielen Dingen befreit, die <span class=\"ebt-matched\">Leiden bringen</span>, und uns mit so vielen Dingen bedacht, die Glück bringen! ",
+            "en": "“The Buddha has rid us of so many things that bring suffering and gifted us so many things that bring happiness! ",
+            "matched": true
+          },
+          "mn66:6.2": {
+            "scid": "mn66:6.2",
+            "pli": "‘bahūnaṁ vata no bhagavā dukkhadhammānaṁ apahattā, bahūnaṁ vata no bhagavā sukhadhammānaṁ upahattā; ",
+            "de": "‚Der Buddha hat uns von so vielen Dingen befreit, die <span class=\"ebt-matched\">Leiden bringen</span>, und uns mit so vielen Dingen bedacht, die Glück bringen! ",
+            "en": "‘The Buddha has rid us of so many things that bring suffering and gifted us so many things that bring happiness! ",
+            "matched": true
+          },
+          "mn66:6.30": {
+            "scid": "mn66:6.30",
+            "pli": "‘bahūnaṁ vata no bhagavā dukkhadhammānaṁ apahattā, bahūnaṁ vata no bhagavā sukhadhammānaṁ upahattā; ",
+            "de": "‚Der Buddha hat uns von so vielen Dingen befreit, die <span class=\"ebt-matched\">Leiden bringen</span>, und uns mit so vielen Dingen bedacht, die Glück bringen! ",
+            "en": "‘The Buddha has rid us of so many things that bring suffering and gifted us so many things that bring happiness! ",
+            "matched": true
+          }
+        },
+        "score": 3.015,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 66\nDas Gleichnis von der Wachtel",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 202,
+          "de": 197,
+          "en": 201
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn1/sn1.24_root-pli-ms.json",
