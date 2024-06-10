@@ -41,7 +41,7 @@
     "pattern": "alas",
     "method": "phrase",
     "resultPattern": "\\balas",
-    "segsMatched": 16,
+    "segsMatched": 17,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json",
@@ -67,6 +67,8 @@
       "translation/en/sujato/sutta/mn/mn49_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn26_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn26_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn129_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn129_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag16.4_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thag/thag16.4_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/snp/vagga4/snp4.6_root-pli-ms.json",
@@ -87,6 +89,7 @@
       "mn82/en/sujato",
       "mn49/en/sujato",
       "mn26/en/sujato",
+      "mn129/en/sujato",
       "thag16.4/en/sujato",
       "snp4.6/en/sujato",
       "snp3.10/en/sujato"
@@ -473,6 +476,35 @@
         "langSegs": {
           "pli": 365,
           "en": 364
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn129_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn129_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn129",
+        "lang": "en",
+        "segMap": {
+          "mn129:5.5": {
+            "scid": "mn129:5.5",
+            "pli": "‘akataṁ vata me kalyāṇaṁ, akataṁ kusalaṁ, akataṁ bhīruttāṇaṁ; ",
+            "en": "‘<span class=\"ebt-matched\">Alas</span>, I haven’t done good and skillful things that keep me safe. ",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Middle Discourses 129\nThe Foolish and the Astute",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 303,
+          "en": 302
         }
       },
       {
