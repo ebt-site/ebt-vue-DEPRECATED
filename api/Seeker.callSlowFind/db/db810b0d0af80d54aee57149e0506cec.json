@@ -41,7 +41,7 @@
     "pattern": "strudel",
     "method": "phrase",
     "resultPattern": "\\bstrudel",
-    "segsMatched": 20,
+    "segsMatched": 25,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an4/an4.122_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.122_translation-de-sabbamitta.json",
@@ -49,6 +49,9 @@
       "root/pli/ms/sutta/sn/sn35/sn35.241_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn35/sn35.241_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.241_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn67_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn67_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn67_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn35/sn35.228_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn35/sn35.228_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.228_translation-en-sujato.json",
@@ -68,6 +71,7 @@
     "suttaRefs": [
       "an4.122/de/sabbamitta",
       "sn35.241/de/sabbamitta",
+      "mn67/de/sabbamitta",
       "sn35.228/de/sabbamitta",
       "iti69/de/sabbamitta",
       "iti109/de/sabbamitta",
@@ -90,14 +94,14 @@
           "an4.122:1.3": {
             "scid": "an4.122:1.3",
             "pli": "Ūmibhayaṁ, kumbhīlabhayaṁ, āvaṭṭabhayaṁ, susukābhayaṁ—",
-            "de": "Auf die Gefahr durch Wellen, durch Gaviale, durch <span class=\"ebt-matched\">Strudel</span> und durch Haie. ",
+            "de": "Auf die Gefahr durch Wellen, durch Ghariale, durch <span class=\"ebt-matched\">Strudel</span> und durch Haie. ",
             "en": "The dangers of waves, gharials, whirlpools, and sharks. ",
             "matched": true
           },
           "an4.122:1.7": {
             "scid": "an4.122:1.7",
             "pli": "Ūmibhayaṁ, kumbhīlabhayaṁ, āvaṭṭabhayaṁ, susukābhayaṁ. ",
-            "de": "Auf die Gefahr durch Wellen, durch Gaviale, durch <span class=\"ebt-matched\">Strudel</span> und durch Haie. ",
+            "de": "Auf die Gefahr durch Wellen, durch Ghariale, durch <span class=\"ebt-matched\">Strudel</span> und durch Haie. ",
             "en": "The dangers of waves, gharials, whirlpools, and sharks. ",
             "matched": true
           },
@@ -200,6 +204,66 @@
           "pli": 47,
           "de": 45,
           "en": 46
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn67_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn67_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn67_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn67",
+        "lang": "de",
+        "segMap": {
+          "mn67:14.4": {
+            "scid": "mn67:14.4",
+            "pli": "Ūmibhayaṁ, kumbhīlabhayaṁ, āvaṭṭabhayaṁ, susukābhayaṁ—",
+            "de": "Auf die Gefahr durch Wellen, durch Ghariale, durch <span class=\"ebt-matched\">Strudel</span> und durch Haie. ",
+            "en": "The dangers of waves, gharials, whirlpools, and sharks. ",
+            "matched": true
+          },
+          "mn67:15.3": {
+            "scid": "mn67:15.3",
+            "pli": "Ūmibhayaṁ, kumbhīlabhayaṁ, āvaṭṭabhayaṁ, susukābhayaṁ. ",
+            "de": "Auf die Gefahr durch Wellen, durch Ghariale, durch <span class=\"ebt-matched\">Strudel</span> und durch Haie. ",
+            "en": "The dangers of waves, gharials, whirlpools, and sharks. ",
+            "matched": true
+          },
+          "mn67:18.1": {
+            "scid": "mn67:18.1",
+            "pli": "Katamañca, bhikkhave, āvaṭṭabhayaṁ? ",
+            "de": "Und was, Mönche und Nonnen, ist die Gefahr durch <span class=\"ebt-matched\">Strudel</span>? ",
+            "en": "And what, mendicants, is the danger of whirlpools? ",
+            "matched": true
+          },
+          "mn67:18.12": {
+            "scid": "mn67:18.12",
+            "pli": "Ayaṁ vuccati, bhikkhave, āvaṭṭabhayassa bhīto sikkhaṁ paccakkhāya hīnāyāvatto. ",
+            "de": "Das nennt man einen Mönch, der aus Furcht vor der Gefahr durch <span class=\"ebt-matched\">Strudel</span> die Schulung abbricht und sich wieder einem geringeren Leben zuwendet. ",
+            "en": "This is called one who rejects the training and returns to a lesser life for fear of the danger of whirlpools. ",
+            "matched": true
+          },
+          "mn67:18.13": {
+            "scid": "mn67:18.13",
+            "pli": "‘Āvaṭṭabhayan’ti kho, bhikkhave, pañcannetaṁ kāmaguṇānaṁ adhivacanaṁ. ",
+            "de": "‚Gefahr durch <span class=\"ebt-matched\">Strudel</span>‘ ist ein Ausdruck für die fünf Arten sinnlicher Erregung. ",
+            "en": "‘Danger of whirlpools’ is a term for the five kinds of sensual stimulation. ",
+            "matched": true
+          }
+        },
+        "score": 5.039,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 67\nBei Cātumā",
+        "segsMatched": 5,
+        "langSegs": {
+          "pli": 129,
+          "de": 128,
+          "en": 128
         }
       },
       {

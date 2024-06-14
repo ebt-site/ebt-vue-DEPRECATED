@@ -41,8 +41,11 @@
     "pattern": "mönche und nonnen leiten",
     "method": "phrase",
     "resultPattern": "\\bmönche und nonnen leiten",
-    "segsMatched": 3,
+    "segsMatched": 5,
     "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn67_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn67_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn67_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn47/sn47.9_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn47/sn47.9_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn47/sn47.9_translation-en-sujato.json",
@@ -54,11 +57,51 @@
       "translation/en/sujato/sutta/an/an5/an5.100_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "mn67/de/sabbamitta",
       "sn47.9/de/sabbamitta",
       "dn16/de/sabbamitta",
       "an5.100/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn67_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn67_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn67_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn67",
+        "lang": "de",
+        "segMap": {
+          "mn67:13.5": {
+            "scid": "mn67:13.5",
+            "pli": "Appossukko dāni bhagavā diṭṭhadhammasukhavihāraṁ anuyutto viharissati, ahañca dāni āyasmā ca sāriputto bhikkhusaṅghaṁ pariharissāmā’”ti. ",
+            "de": "Nun wird er untätig bleiben, in seliger Meditation in diesem Leben verweilen. In der Zwischenzeit werden der Ehrwürdige Sāriputta und ich den Saṅgha der <span class=\"ebt-matched\">Mönche und Nonnen leiten</span>.‘“ ",
+            "en": "Now he will remain passive, dwelling in blissful meditation in the present life. Meanwhile, Venerable Sāriputta and I shall lead the mendicant Saṅgha.’” ",
+            "matched": true
+          },
+          "mn67:13.7": {
+            "scid": "mn67:13.7",
+            "pli": "Ahaṁ vā hi, moggallāna, bhikkhusaṅghaṁ parihareyyaṁ sāriputtamoggallānā vā”ti. ",
+            "de": "Denn entweder sollte ich den Saṅgha der <span class=\"ebt-matched\">Mönche und Nonnen leiten</span> oder Sāriputta und Moggallāna.“ ",
+            "en": "For either I should lead the mendicant Saṅgha, or else Sāriputta and Moggallāna.” ",
+            "matched": true
+          }
+        },
+        "score": 2.016,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 67\nBei Cātumā",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 129,
+          "de": 128,
+          "en": 128
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn47/sn47.9_root-pli-ms.json",
