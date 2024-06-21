@@ -41,14 +41,18 @@
     "pattern": "streitet man",
     "method": "phrase",
     "resultPattern": "\\bstreitet man",
-    "segsMatched": 4,
+    "segsMatched": 5,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn22/sn22.3_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.3_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn22/sn22.3_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn22/sn22.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga4/snp4.3_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/snp/vagga4/snp4.3_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/snp/vagga4/snp4.3_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "sn22.3/de/sabbamitta"
+      "sn22.3/de/sabbamitta",
+      "snp4.3/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -102,6 +106,38 @@
           "pli": 83,
           "de": 81,
           "en": 82
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga4/snp4.3_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/snp/vagga4/snp4.3_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/snp/vagga4/snp4.3_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp4.3",
+        "lang": "de",
+        "segMap": {
+          "snp4.3:8.2": {
+            "scid": "snp4.3:8.2",
+            "pli": "Anūpayaṁ kena kathaṁ vadeyya; ",
+            "de": "doch wie <span class=\"ebt-matched\">streitet man</span> mit dem, der nicht verwickelt ist? Uns worüber? ",
+            "en": "but how to dispute with the uninvolved? <j>About what? ",
+            "matched": true
+          }
+        },
+        "score": 1.029,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lehrreden-Sammelband 4.3\nAcht über Gehässigkeit",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 35,
+          "de": 34,
+          "en": 34
         }
       }
     ],
