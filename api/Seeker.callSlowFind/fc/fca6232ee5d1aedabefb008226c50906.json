@@ -41,7 +41,7 @@
     "pattern": "ins leiden verstrickt",
     "method": "phrase",
     "resultPattern": "\\bins leiden verstrickt",
-    "segsMatched": 21,
+    "segsMatched": 22,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn30_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn30_translation-de-sabbamitta.json",
@@ -64,6 +64,9 @@
       "root/pli/ms/sutta/sn/sn10/sn10.7_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn10/sn10.7_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn10/sn10.7_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn68_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn68_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn68_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/iti/vagga10/iti91_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/iti/vagga10/iti91_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/iti/vagga10/iti91_translation-en-sujato.json"
@@ -76,6 +79,7 @@
       "mn29/de/sabbamitta",
       "sn22.80/de/sabbamitta",
       "sn10.7/de/sabbamitta",
+      "mn68/de/sabbamitta",
       "iti91/de/sabbamitta"
     ],
     "mlDocs": [
@@ -424,6 +428,38 @@
           "pli": 80,
           "de": 79,
           "en": 79
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn68_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn68_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn68_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn68",
+        "lang": "de",
+        "segMap": {
+          "mn68:5.5": {
+            "scid": "mn68:5.5",
+            "pli": "Api ca khomhi otiṇṇo jātiyā jarāya maraṇena sokehi paridevehi dukkhehi domanassehi upāyāsehi, dukkhotiṇṇo dukkhapareto; ",
+            "de": "Seid ihr nicht vielmehr im Gedanken fortgezogen: ‚Ich bin in Wiedergeburt, Alter und Tod versunken, in Kummer, Klage, Schmerz, Traurigkeit und Bedrängnis. Ich bin im Leiden versunken, <span class=\"ebt-matched\">ins Leiden verstrickt</span>. ",
+            "en": "Rather, didn’t you go forth thinking: ‘I’m swamped by rebirth, old age, and death; by sorrow, lamentation, pain, sadness, and distress. I’m swamped by suffering, mired in suffering. ",
+            "matched": true
+          }
+        },
+        "score": 1.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 68\nBei Naḷakapāna",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 177,
+          "de": 169,
+          "en": 176
         }
       }
     ],
