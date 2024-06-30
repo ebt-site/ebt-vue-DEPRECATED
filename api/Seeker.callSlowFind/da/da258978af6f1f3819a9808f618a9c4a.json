@@ -3,26 +3,26 @@
   "volume": "Seeker.callSlowFind",
   "args": [
     {
-      "author": "sabbamitta",
-      "docLang": "de",
-      "docAuthor": "sabbamitta",
+      "author": "sujato",
+      "docLang": "en",
+      "docAuthor": "sujato",
       "includeUnpublished": false,
-      "lang": "de",
-      "langAuthor": "sabbamitta",
+      "lang": "en",
+      "langAuthor": "sujato",
       "languages": [
         "pli",
         "en",
-        "de"
+        "ref"
       ],
       "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
       "maxDoc": 50,
       "maxResults": 1000,
       "minLang": 2,
-      "pattern": "als ‚teller‘, als ‚schale‘, als ‚häferl‘",
+      "pattern": "a ‘pot’, a ‘bowl’, a ‘jar’",
       "refAuthor": "sujato",
       "refLang": "en",
-      "searchLang": "de",
-      "searchAuthor": "sabbamitta",
+      "searchLang": "en",
+      "searchAuthor": "sujato",
       "showMatchesOnly": true,
       "trilingual": false,
       "types": [
@@ -32,22 +32,22 @@
     }
   ],
   "value": {
-    "author": "sabbamitta",
-    "lang": "de",
-    "searchLang": "de",
+    "author": "sujato",
+    "lang": "en",
+    "searchLang": "en",
     "minLang": 2,
     "maxDoc": 50,
     "maxResults": 1000,
-    "pattern": "als ‚teller‘, als ‚schale‘, als ‚häferl‘",
+    "pattern": "a ‘pot’, a ‘bowl’, a ‘jar’",
     "method": "keywords",
-    "resultPattern": "\\bals|\\b‚teller‘,|\\bals|\\b‚schale‘,|\\bals|\\b‚häferl‘",
+    "resultPattern": "\\b(a|ā)|\\b‘pot’,|\\b(a|ā)|\\b‘bowl’,|\\b(a|ā)|\\b‘jar’",
     "segsMatched": 0,
     "bilaraPaths": [],
     "suttaRefs": [],
     "mlDocs": [],
     "refLang": "en",
     "refAuthor": "sujato",
-    "docLang": "de",
-    "docAuthor": "sabbamitta"
+    "docLang": "en",
+    "docAuthor": "sujato"
   }
 }
