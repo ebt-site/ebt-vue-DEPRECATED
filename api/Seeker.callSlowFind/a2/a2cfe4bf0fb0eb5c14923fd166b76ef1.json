@@ -41,10 +41,12 @@
     "pattern": "silly man",
     "method": "phrase",
     "resultPattern": "\\bsilly man",
-    "segsMatched": 26,
+    "segsMatched": 29,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn24_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn24_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn136_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn136_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn38_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn38_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn22_root-pli-ms.json",
@@ -74,6 +76,7 @@
     ],
     "suttaRefs": [
       "dn24/en/sujato",
+      "mn136/en/sujato",
       "mn38/en/sujato",
       "mn22/en/sujato",
       "an3.137/en/sujato",
@@ -164,6 +167,47 @@
         "langSegs": {
           "pli": 581,
           "en": 580
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn136_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn136_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn136",
+        "lang": "en",
+        "segMap": {
+          "mn136:5.3": {
+            "scid": "mn136:5.3",
+            "pli": "Iminā ca, ānanda, samiddhinā moghapurisena potaliputtassa paribbājakassa vibhajjabyākaraṇīyo pañho ekaṁsena byākato”ti. ",
+            "en": "The wanderer Potaliputta’s question should have been answered after analyzing it, but this <span class=\"ebt-matched\">silly man</span> answered categorically.” ",
+            "matched": true
+          },
+          "mn136:6.5": {
+            "scid": "mn136:6.5",
+            "pli": "“passasi no tvaṁ, ānanda, imassa udāyissa moghapurisassa ummaṅgaṁ? ",
+            "en": "“See what this <span class=\"ebt-matched\">silly man</span> Udāyī comes up with? ",
+            "matched": true
+          },
+          "mn136:6.9": {
+            "scid": "mn136:6.9",
+            "pli": "Sacāyaṁ, ānanda, samiddhi moghapuriso potaliputtassa paribbājakassa evaṁ puṭṭho evaṁ byākareyya: ",
+            "en": "Suppose the <span class=\"ebt-matched\">silly man</span> Samiddhi had answered the wanderer Potaliputta’s question like this: ",
+            "matched": true
+          }
+        },
+        "score": 3.019,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Middle Discourses 136\nThe Longer Analysis of Deeds",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 161,
+          "en": 160
         }
       },
       {
