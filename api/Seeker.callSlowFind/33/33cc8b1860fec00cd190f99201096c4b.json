@@ -41,7 +41,7 @@
     "pattern": "was einen anfang hat",
     "method": "phrase",
     "resultPattern": "\\bwas einen anfang hat",
-    "segsMatched": 16,
+    "segsMatched": 17,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn14_translation-de-sabbamitta.json",
@@ -64,6 +64,9 @@
       "root/pli/ms/sutta/mn/mn56_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn56_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn56_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn147_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn147_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn147_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/ud/vagga5/ud5.3_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga5/ud5.3_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/ud/vagga5/ud5.3_translation-en-sujato.json",
@@ -94,6 +97,7 @@
       "sn35.121/de/sabbamitta",
       "mn74/de/sabbamitta",
       "mn56/de/sabbamitta",
+      "mn147/de/sabbamitta",
       "ud5.3/de/sabbamitta",
       "dn5/de/sabbamitta",
       "dn3/de/sabbamitta",
@@ -403,6 +407,38 @@
           "pli": 104,
           "de": 98,
           "en": 103
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn147_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn147_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn147_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn147",
+        "lang": "de",
+        "segMap": {
+          "mn147:9.13": {
+            "scid": "mn147:9.13",
+            "pli": "“yaṁ kiñci samudayadhammaṁ sabbaṁ taṁ nirodhadhamman”ti. ",
+            "de": "„Alles, <span class=\"ebt-matched\">was einen Anfang hat</span>, hat auch ein Ende.“ ",
+            "en": "“Everything that has a beginning has an end.” ",
+            "matched": true
+          }
+        },
+        "score": 1.009,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 147\nDie kürzere Unterweisung Rāhulas",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 115,
+          "de": 110,
+          "en": 114
         }
       },
       {

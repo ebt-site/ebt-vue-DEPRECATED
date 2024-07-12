@@ -41,7 +41,7 @@
     "pattern": "durch weisheit befreit",
     "method": "phrase",
     "resultPattern": "\\bdurch weisheit befreit",
-    "segsMatched": 25,
+    "segsMatched": 28,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an9/an9.44_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an9/an9.44_translation-de-sabbamitta.json",
@@ -49,6 +49,9 @@
       "root/pli/ms/sutta/sn/sn22/sn22.58_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.58_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.58_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn70_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn70_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn70_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn12/sn12.70_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.70_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn12/sn12.70_translation-en-sujato.json",
@@ -89,6 +92,7 @@
     "suttaRefs": [
       "an9.44/de/sabbamitta",
       "sn22.58/de/sabbamitta",
+      "mn70/de/sabbamitta",
       "sn12.70/de/sabbamitta",
       "mn65/de/sabbamitta",
       "an7.56/de/sabbamitta",
@@ -214,6 +218,52 @@
           "pli": 21,
           "de": 19,
           "en": 20
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn70_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn70_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn70_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn70",
+        "lang": "de",
+        "segMap": {
+          "mn70:14.3": {
+            "scid": "mn70:14.3",
+            "pli": "Ubhatobhāgavimutto, paññāvimutto, kāyasakkhi, diṭṭhippatto, saddhāvimutto, dhammānusārī, saddhānusārī. ",
+            "de": "Einer, der auf beide Arten befreit ist, einer, der <span class=\"ebt-matched\">durch Weisheit befreit</span> ist, ein unmittelbarer Zeuge, einer, der zur Ansicht gelangt ist, einer, der durch Vertrauen befreit ist, ein Nachfolger der Lehren und ein Nachfolger durch Vertrauen. ",
+            "en": "One freed both ways, one freed by wisdom, a direct witness, one attained to view, one freed by faith, a follower of teachings, and a follower by faith. ",
+            "matched": true
+          },
+          "mn70:16.1": {
+            "scid": "mn70:16.1",
+            "pli": "Katamo ca, bhikkhave, puggalo paññāvimutto? ",
+            "de": "Und welcher Mensch ist <span class=\"ebt-matched\">durch Weisheit befreit</span>? ",
+            "en": "And what person is freed by wisdom? ",
+            "matched": true
+          },
+          "mn70:16.3": {
+            "scid": "mn70:16.3",
+            "pli": "Ayaṁ vuccati, bhikkhave, puggalo paññāvimutto. ",
+            "de": "Diesen Menschen nennt man einen, der <span class=\"ebt-matched\">durch Weisheit befreit</span> ist. ",
+            "en": "This person is called freed by wisdom. ",
+            "matched": true
+          }
+        },
+        "score": 3.015,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 70\nBei Kīṭāgiri",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 203,
+          "de": 185,
+          "en": 201
         }
       },
       {
@@ -387,7 +437,7 @@
           "an7.14:1.3": {
             "scid": "an7.14:1.3",
             "pli": "Ubhatobhāgavimutto, paññāvimutto, kāyasakkhī, diṭṭhippatto, saddhāvimutto, dhammānusārī, saddhānusārī. ",
-            "de": "Jemand, der auf beide Arten befreit ist, jemand, der <span class=\"ebt-matched\">durch Weisheit befreit</span> ist, ein unmittelbarer Zeuge, jemand, der zur Ansicht gelangt ist, jemand, der durch Vertrauen befreit ist, ein Nachfolger der Lehren und ein Nachfolger durch Vertrauen. ",
+            "de": "Einer, der auf beide Arten befreit ist, einer, der <span class=\"ebt-matched\">durch Weisheit befreit</span> ist, ein unmittelbarer Zeuge, einer, der zur Ansicht gelangt ist, einer, der durch Vertrauen befreit ist, ein Nachfolger der Lehren und ein Nachfolger durch Vertrauen. ",
             "en": "The one freed both ways, the one freed by wisdom, the direct witness, the one attained to view, the one freed by faith, the follower of teachings, and the follower by faith. ",
             "matched": true
           }
@@ -419,7 +469,7 @@
           "an10.16:1.3": {
             "scid": "an10.16:1.3",
             "pli": "Tathāgato arahaṁ sammāsambuddho, paccekabuddho, ubhatobhāgavimutto, paññāvimutto, kāyasakkhī, diṭṭhippatto, saddhāvimutto, saddhānusārī, dhammānusārī, gotrabhū—",
-            "de": "Ein Klargewordener, ein Vollendeter, ein vollkommen erwachter Buddha; ein unabhängiger Buddha; jemand, der auf beide Arten befreit ist; jemand, der <span class=\"ebt-matched\">durch Weisheit befreit</span> ist; ein unmittelbarer Zeuge; jemand, der zur Ansicht gelangt ist; jemand, der durch Vertrauen befreit ist; ein Nachfolger durch Vertrauen; ein Nachfolger der Lehren; und ein Mitglied der spirituellen Familie. ",
+            "de": "Ein Klargewordener, ein Vollendeter, ein vollkommen erwachter Buddha, ein unabhängiger Buddha, einer, der auf beide Arten befreit ist, einer, der <span class=\"ebt-matched\">durch Weisheit befreit</span> ist, ein unmittelbarer Zeuge, einer, der zur Ansicht gelangt ist, einer, der durch Vertrauen befreit ist, ein Nachfolger durch Vertrauen, ein Nachfolger der Lehren und ein Lamm aus der Herde. ",
             "en": "A Realized One, a perfected one, a fully awakened Buddha; an Independent Buddha; one freed both ways; one freed by wisdom; a direct witness; one attained to view; one freed by faith; a follower by faith; a follower of teachings; a lamb of the flock. ",
             "matched": true
           }
@@ -611,7 +661,7 @@
           "dn33:2.3.44": {
             "scid": "dn33:2.3.44",
             "pli": "ubhatobhāgavimutto, paññāvimutto, kāyasakkhi, diṭṭhippatto, saddhāvimutto, dhammānusārī, saddhānusārī. ",
-            "de": "jemand, der auf beide Arten befreit ist, jemand, der <span class=\"ebt-matched\">durch Weisheit befreit</span> ist, ein unmittelbarer Zeuge, jemand, der zur Ansicht gelangt ist, jemand, der durch Vertrauen befreit ist, ein Nachfolger der Lehren und ein Nachfolger durch Vertrauen. ",
+            "de": "einer, der auf beide Arten befreit ist, einer, der <span class=\"ebt-matched\">durch Weisheit befreit</span> ist, ein unmittelbarer Zeuge, einer, der zur Ansicht gelangt ist, einer, der durch Vertrauen befreit ist, ein Nachfolger der Lehren und ein Nachfolger durch Vertrauen. ",
             "en": "one freed both ways, one freed by wisdom, a direct witness, one attained to view, one freed by faith, a follower of teachings, and a follower by faith. ",
             "matched": true
           }

@@ -41,7 +41,7 @@
     "pattern": "vertrauen und.* liebe",
     "method": "phrase",
     "resultPattern": "\\bvertrauen und.* liebe",
-    "segsMatched": 9,
+    "segsMatched": 10,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an6/an6.30_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.30_translation-de-sabbamitta.json",
@@ -52,6 +52,9 @@
       "root/pli/ms/sutta/sn/sn55/sn55.24_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn55/sn55.24_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn55/sn55.24_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn70_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn70_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn70_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn22_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn22_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn22_translation-en-sujato.json"
@@ -60,6 +63,7 @@
       "an6.30/de/sabbamitta",
       "sn55.25/de/sabbamitta",
       "sn55.24/de/sabbamitta",
+      "mn70/de/sabbamitta",
       "mn22/de/sabbamitta"
     ],
     "mlDocs": [
@@ -145,7 +149,7 @@
           "sn55.24:9.7": {
             "scid": "sn55.24:9.7",
             "pli": "Tathāgate cassa saddhāmattaṁ hoti pemamattaṁ. ",
-            "de": "Und er hat ein Maß an <span class=\"ebt-matched\">Vertrauen und Liebe</span> zum Buddha. ",
+            "de": "Und er hat ein Maß an <span class=\"ebt-matched\">Vertrauen und Liebe</span> zum Klargewordenen. ",
             "en": "And they have a degree of faith and love for the Buddha. ",
             "matched": true
           }
@@ -177,7 +181,7 @@
           "sn55.25:9.7": {
             "scid": "sn55.25:9.7",
             "pli": "Tathāgate cassa saddhāmattaṁ hoti pemamattaṁ. ",
-            "de": "Und er hat ein Maß an <span class=\"ebt-matched\">Vertrauen und Liebe</span> zum Buddha. ",
+            "de": "Und er hat ein Maß an <span class=\"ebt-matched\">Vertrauen und Liebe</span> zum Klargewordenen. ",
             "en": "And they have a degree of faith and love for the Buddha. ",
             "matched": true
           }
@@ -192,6 +196,38 @@
           "pli": 91,
           "de": 73,
           "en": 90
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn70_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn70_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn70_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn70",
+        "lang": "de",
+        "segMap": {
+          "mn70:21.2": {
+            "scid": "mn70:21.2",
+            "pli": "Idha, bhikkhave, ekacco puggalo ye te santā vimokkhā atikkamma rūpe āruppā te na kāyena phusitvā viharati, paññāya cassa disvā ekacce āsavā parikkhīṇā honti, tathāgate cassa saddhāmattaṁ hoti pemamattaṁ, api cassa ime dhammā honti, seyyathidaṁ—",
+            "de": "Da hat ein Mensch die friedvollen Befreiungen, die formlos sind, über die Form hinausgehen, nicht unmittelbar in der Meditation erfahren. Und obwohl er mit Weisheit gesehen hat, lösen sich seine Befleckungen nicht auf. Und er hat ein Maß an <span class=\"ebt-matched\">Vertrauen und Liebe</span> zum Klargewordenen. Und er besitzt diese Eigenschaften: ",
+            "en": "It’s a person who doesn’t have direct meditative experience of the peaceful liberations that are formless, transcending form. And having seen with wisdom, their defilements have not come to an end. And they have a degree of faith and love for the Realized One. And they have the following qualities: ",
+            "matched": true
+          }
+        },
+        "score": 1.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 70\nBei Kīṭāgiri",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 203,
+          "de": 185,
+          "en": 201
         }
       },
       {

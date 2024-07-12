@@ -41,7 +41,7 @@
     "pattern": "mit menschlicher stärke, energie und tatkraft",
     "method": "phrase",
     "resultPattern": "\\bmit menschlicher stärke, energie und tatkraft",
-    "segsMatched": 6,
+    "segsMatched": 7,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an2/an2.1-10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an2/an2.1-10_translation-de-sabbamitta.json",
@@ -52,6 +52,9 @@
       "root/pli/ms/sutta/sn/sn12/sn12.22_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.22_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn12/sn12.22_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn70_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn70_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn70_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.13_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.13_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an8/an8.13_translation-en-sujato.json"
@@ -60,6 +63,7 @@
       "an2.1-10/de/sabbamitta",
       "sn21.3/de/sabbamitta",
       "sn12.22/de/sabbamitta",
+      "mn70/de/sabbamitta",
       "an8.13/de/sabbamitta"
     ],
     "mlDocs": [
@@ -203,6 +207,38 @@
           "pli": 42,
           "de": 39,
           "en": 41
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn70_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn70_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn70_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn70",
+        "lang": "de",
+        "segMap": {
+          "mn70:27.6": {
+            "scid": "mn70:27.6",
+            "pli": "‘kāmaṁ taco ca nhāru ca aṭṭhi ca avasissatu, sarīre upassussatu maṁsalohitaṁ, yaṁ taṁ purisathāmena purisavīriyena purisaparakkamena pattabbaṁ na taṁ apāpuṇitvā vīriyassa saṇṭhānaṁ bhavissatī’ti. ",
+            "de": "‚Gerne sollen nur Haut, Sehnen und Knochen übrig bleiben! Sollen Fleisch und Blut in meinem Körper vertrocknen! Ich werde nicht aufgeben, bevor ich nicht erreicht habe, was <span class=\"ebt-matched\">mit menschlicher Stärke, Energie und Tatkraft</span> möglich ist.‘ ",
+            "en": "‘Gladly, let only skin, sinews, and bones remain! Let the flesh and blood waste away in my body! I will not relax my energy until I have achieved what is possible by human strength, energy, and vigor.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 70\nBei Kīṭāgiri",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 203,
+          "de": 185,
+          "en": 201
         }
       }
     ],

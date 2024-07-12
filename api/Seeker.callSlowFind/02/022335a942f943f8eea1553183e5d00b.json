@@ -41,8 +41,11 @@
     "pattern": "stufenweise schulung",
     "method": "phrase",
     "resultPattern": "\\bstufenweise schulung",
-    "segsMatched": 3,
+    "segsMatched": 5,
     "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn70_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn70_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn70_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/ud/vagga5/ud5.5_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga5/ud5.5_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/ud/vagga5/ud5.5_translation-en-sujato.json",
@@ -54,11 +57,51 @@
       "translation/en/sujato/sutta/an/an8/an8.19_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "mn70/de/sabbamitta",
       "ud5.5/de/sabbamitta",
       "an8.20/de/sabbamitta",
       "an8.19/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn70_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn70_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn70_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn70",
+        "lang": "de",
+        "segMap": {
+          "mn70:22.2": {
+            "scid": "mn70:22.2",
+            "pli": "api ca, bhikkhave, anupubbasikkhā anupubbakiriyā anupubbapaṭipadā aññārādhanā hoti. ",
+            "de": "Vielmehr wird die Erleuchtung durch <span class=\"ebt-matched\">stufenweise Schulung</span>, stufenweisen Fortschritt, stufenweise Übung erlangt. ",
+            "en": "Rather, enlightenment is achieved by gradual training, progress, and practice. ",
+            "matched": true
+          },
+          "mn70:23.1": {
+            "scid": "mn70:23.1",
+            "pli": "Kathañca, bhikkhave, anupubbasikkhā anupubbakiriyā anupubbapaṭipadā aññārādhanā hoti? ",
+            "de": "Und wie wird die Erleuchtung durch <span class=\"ebt-matched\">stufenweise Schulung</span>, stufenweisen Fortschritt, stufenweise Übung erlangt? ",
+            "en": "And how is enlightenment achieved by gradual training, progress, and practice? ",
+            "matched": true
+          }
+        },
+        "score": 2.01,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 70\nBei Kīṭāgiri",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 203,
+          "de": 185,
+          "en": 201
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/an/an8/an8.20_root-pli-ms.json",

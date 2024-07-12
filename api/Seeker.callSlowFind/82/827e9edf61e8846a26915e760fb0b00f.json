@@ -41,7 +41,7 @@
     "pattern": "ein rest",
     "method": "phrase",
     "resultPattern": "\\bein rest",
-    "segsMatched": 28,
+    "segsMatched": 29,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an7/an7.56_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an7/an7.56_translation-de-sabbamitta.json",
@@ -79,6 +79,9 @@
       "root/pli/ms/sutta/sn/sn46/sn46.57_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn46/sn46.57_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn46/sn46.57_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn70_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn70_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn70_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/iti/vagga5/iti47_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/iti/vagga5/iti47_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/iti/vagga5/iti47_translation-en-sujato.json",
@@ -105,6 +108,7 @@
       "sn48.65/de/sabbamitta",
       "sn47.36/de/sabbamitta",
       "sn46.57/de/sabbamitta",
+      "mn70/de/sabbamitta",
       "iti47/de/sabbamitta",
       "iti46/de/sabbamitta",
       "iti45/de/sabbamitta",
@@ -705,6 +709,38 @@
           "pli": 40,
           "de": 19,
           "en": 35
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn70_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn70_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn70_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn70",
+        "lang": "de",
+        "segMap": {
+          "mn70:27.8": {
+            "scid": "mn70:27.8",
+            "pli": "diṭṭheva dhamme aññā, sati vā upādisese anāgāmitā”ti. ",
+            "de": "Erleuchtung in diesem Leben, oder, wenn <span class=\"ebt-matched\">ein Rest</span> da ist, Nichtwiederkehr.“ ",
+            "en": "enlightenment in the present life, or if there’s something left over, non-return.” ",
+            "matched": true
+          }
+        },
+        "score": 1.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 70\nBei Kīṭāgiri",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 203,
+          "de": 185,
+          "en": 201
         }
       }
     ],
