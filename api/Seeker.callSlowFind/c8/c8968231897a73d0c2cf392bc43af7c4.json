@@ -39,129 +39,28 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "richtig eingeprägt",
-    "method": "phrase",
-    "resultPattern": "\\brichtig eingeprägt",
-    "segsMatched": 8,
+    "method": "keywords",
+    "resultPattern": "\\brichtig|\\beingeprägt",
+    "segsMatched": 0,
     "bilaraPaths": [
-      "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an4/an4.180_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an4/an4.180_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an4/an4.180_translation-en-sujato.json"
+      "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn22_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn22_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn22_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.26_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an5/an5.26_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an5/an5.26_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn12/sn12.70_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn12/sn12.70_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.70_translation-en-sujato.json"
     ],
-    "suttaRefs": [
-      "dn16/de/sabbamitta",
-      "an4.180/de/sabbamitta"
-    ],
-    "mlDocs": [
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/an/an4/an4.180_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/an/an4/an4.180_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/an/an4/an4.180_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "an4.180",
-        "lang": "de",
-        "segMap": {
-          "an4.180:3.8": {
-            "scid": "an4.180:3.8",
-            "pli": "imassa ca bhikkhuno suggahitan’ti. ",
-            "de": "Dieser Mönch hat sich das <span class=\"ebt-matched\">richtig eingeprägt</span>.‘ ",
-            "en": "It has been correctly memorized by that mendicant.’ ",
-            "matched": true
-          },
-          "an4.180:5.9": {
-            "scid": "an4.180:5.9",
-            "pli": "tassa ca saṅghassa suggahitan’ti. ",
-            "de": "Dieser Saṅgha hat sich das <span class=\"ebt-matched\">richtig eingeprägt</span>.‘ ",
-            "en": "It has been correctly memorized by that Saṅgha.’ ",
-            "matched": true
-          },
-          "an4.180:7.9": {
-            "scid": "an4.180:7.9",
-            "pli": "tesañca therānaṁ suggahitan’ti. ",
-            "de": "Diese altehrwürdigen Mönche und Nonnen haben sich das <span class=\"ebt-matched\">richtig eingeprägt</span>.‘ ",
-            "en": "It has been correctly memorized by those senior mendicants.’ ",
-            "matched": true
-          },
-          "an4.180:9.9": {
-            "scid": "an4.180:9.9",
-            "pli": "tassa ca therassa suggahitan’ti. ",
-            "de": "Dieser altehrwürdige Mönch hat sich das <span class=\"ebt-matched\">richtig eingeprägt</span>.‘ ",
-            "en": "It has been correctly memorized by that senior mendicant.’ ",
-            "matched": true
-          }
-        },
-        "score": 4.04,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Nummerierte Lehrreden 4.180\n18. Das Kapitel über Absicht\nDie vier großen Bezugspunkte",
-        "segsMatched": 4,
-        "langSegs": {
-          "pli": 99,
-          "de": 97,
-          "en": 97
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "dn16",
-        "lang": "de",
-        "segMap": {
-          "dn16:4.8.12": {
-            "scid": "dn16:4.8.12",
-            "pli": "imassa ca bhikkhuno suggahitan’ti. ",
-            "de": "Dieser Mönch hat sich das <span class=\"ebt-matched\">richtig eingeprägt</span>.‘ ",
-            "en": "It has been correctly memorized by that mendicant.’ ",
-            "matched": true
-          },
-          "dn16:4.9.13": {
-            "scid": "dn16:4.9.13",
-            "pli": "tassa ca saṅghassa suggahitan’ti. ",
-            "de": "Dieser Saṅgha hat sich das <span class=\"ebt-matched\">richtig eingeprägt</span>.‘ ",
-            "en": "It has been correctly memorized by that Saṅgha.’ ",
-            "matched": true
-          },
-          "dn16:4.10.14": {
-            "scid": "dn16:4.10.14",
-            "pli": "tesañca therānaṁ suggahitan’ti. ",
-            "de": "Diese altehrwürdigen Mönche und Nonnen haben sich das <span class=\"ebt-matched\">richtig eingeprägt</span>.‘ ",
-            "en": "It has been correctly memorized by those senior mendicants.’ ",
-            "matched": true
-          },
-          "dn16:4.11.13": {
-            "scid": "dn16:4.11.13",
-            "pli": "tassa ca therassa suggahitan’ti. ",
-            "de": "Dieser altehrwürdige Mönch hat sich das <span class=\"ebt-matched\">richtig eingeprägt</span>.‘ ",
-            "en": "It has been correctly memorized by that senior mendicant.’ ",
-            "matched": true
-          }
-        },
-        "score": 4.002,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Lange Lehrreden 16\nDie große Lehrrede vom Erlöschen des Buddha",
-        "segsMatched": 4,
-        "langSegs": {
-          "pli": 1664,
-          "de": 1579,
-          "en": 1568
-        }
-      }
-    ],
+    "suttaRefs": [],
+    "mlDocs": [],
     "refLang": "en",
     "refAuthor": "sujato",
     "docLang": "de",

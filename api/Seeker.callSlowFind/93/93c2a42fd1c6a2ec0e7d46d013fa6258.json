@@ -41,7 +41,7 @@
     "pattern": "einen gierigen geist",
     "method": "phrase",
     "resultPattern": "\\beinen gierigen geist",
-    "segsMatched": 17,
+    "segsMatched": 18,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn52/sn52.14_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn52/sn52.14_translation-de-sabbamitta.json",
@@ -55,6 +55,9 @@
       "root/pli/ms/sutta/sn/sn12/sn12.70_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.70_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn12/sn12.70_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn73_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn73_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn73_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn6_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn6_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn6_translation-en-sujato.json",
@@ -100,6 +103,7 @@
       "sn51.11/de/sabbamitta",
       "sn16.9/de/sabbamitta",
       "sn12.70/de/sabbamitta",
+      "mn73/de/sabbamitta",
       "mn6/de/sabbamitta",
       "mn12/de/sabbamitta",
       "mn10/de/sabbamitta",
@@ -465,6 +469,38 @@
           "pli": 95,
           "de": 92,
           "en": 94
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn73_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn73_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn73_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn73",
+        "lang": "de",
+        "segMap": {
+          "mn73:21.3": {
+            "scid": "mn73:21.3",
+            "pli": "sarāgaṁ vā cittaṁ sarāgaṁ cittanti pajāneyyaṁ, ",
+            "de": "Dass ich <span class=\"ebt-matched\">einen gierigen Geist</span> als „gierigen Geist“ erkennen könnte, ",
+            "en": "May I understand mind with greed as “mind with greed”, ",
+            "matched": true
+          }
+        },
+        "score": 1.007,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 73\nDie längere Lehrrede mit Vacchagotta",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 140,
+          "de": 138,
+          "en": 138
         }
       },
       {
