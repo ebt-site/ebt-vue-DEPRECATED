@@ -41,7 +41,7 @@
     "pattern": "lord of the",
     "method": "phrase",
     "resultPattern": "\\blord of the",
-    "segsMatched": 24,
+    "segsMatched": 23,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn35/sn35.245_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.245_translation-en-sujato.json",
@@ -51,12 +51,12 @@
       "translation/en/sujato/sutta/dn/dn20_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn128_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn128_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/cp/cp4_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/cp/cp4_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn3/sn3.16_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn3/sn3.16_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag16.3_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thag/thag16.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/cp/cp4_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/cp/cp4_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/cp/cp32_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/cp/cp32_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/cp/cp22_root-pli-ms.json",
@@ -79,9 +79,9 @@
       "dn32/en/sujato",
       "dn20/en/sujato",
       "mn128/en/sujato",
-      "cp4/en/sujato",
       "sn3.16/en/sujato",
       "thag16.3/en/sujato",
+      "cp4/en/sujato",
       "cp32/en/sujato",
       "cp22/en/sujato",
       "dn27/en/sujato",
@@ -219,41 +219,6 @@
         "langSegs": {
           "pli": 574,
           "en": 573
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/kn/cp/cp4_root-pli-ms.json",
-          "translation/en/sujato/sutta/kn/cp/cp4_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "cp4",
-        "lang": "en",
-        "segMap": {
-          "cp4:1.1": {
-            "scid": "cp4:1.1",
-            "pli": "“Kusāvatimhi nagare, ",
-            "en": "“When I was <span class=\"ebt-matched\">Lord of the</span> Earth ",
-            "matched": true
-          },
-          "cp4:1.2": {
-            "scid": "cp4:1.2",
-            "pli": "yadā āsiṁ mahīpati; ",
-            "en": "when I was <span class=\"ebt-matched\">Lord of the</span> Earth, ",
-            "matched": true
-          }
-        },
-        "score": 2.047,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "The Conduct Leading to Buddhahood\nThe Chapter With Akitti\nThe Perfection of Giving (4th)\nMahāsudassana’s Conduct",
-        "segsMatched": 2,
-        "langSegs": {
-          "pli": 43,
-          "en": 36
         }
       },
       {
@@ -404,6 +369,35 @@
         "segsMatched": 1,
         "langSegs": {
           "pli": 44,
+          "en": 42
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/cp/cp4_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/cp/cp4_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "cp4",
+        "lang": "en",
+        "segMap": {
+          "cp4:1.2": {
+            "scid": "cp4:1.2",
+            "pli": "yadā āsiṁ mahīpati; ",
+            "en": "when I was <span class=\"ebt-matched\">Lord of the</span> Earth, ",
+            "matched": true
+          }
+        },
+        "score": 1.023,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "The Conduct Leading to Buddhahood\nThe Chapter With Akitti\nThe Perfection of Giving (4th)\nMahāsudassana’s Conduct",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 43,
           "en": 42
         }
       },

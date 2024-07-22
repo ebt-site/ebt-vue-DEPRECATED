@@ -41,10 +41,12 @@
     "pattern": "mind of love",
     "method": "phrase",
     "resultPattern": "\\bmind of love",
-    "segsMatched": 11,
+    "segsMatched": 12,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an1/an1.51-60_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an1/an1.51-60_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga3/iti22_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/iti/vagga3/iti22_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an7/an7.62_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an7/an7.62_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.67_root-pli-ms.json",
@@ -54,18 +56,16 @@
       "root/pli/ms/sutta/kn/thag/thag14.1_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thag/thag14.1_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/iti/vagga7/iti60_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/iti/vagga7/iti60_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/iti/vagga3/iti22_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/iti/vagga3/iti22_translation-en-sujato.json"
+      "translation/en/sujato/sutta/kn/iti/vagga7/iti60_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an1.51-60/en/sujato",
+      "iti22/en/sujato",
       "an7.62/en/sujato",
       "an4.67/en/sujato",
       "thag3.7/en/sujato",
       "thag14.1/en/sujato",
-      "iti60/en/sujato",
-      "iti22/en/sujato"
+      "iti60/en/sujato"
     ],
     "mlDocs": [
       {
@@ -107,6 +107,41 @@
         "langSegs": {
           "pli": 53,
           "en": 42
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga3/iti22_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/iti/vagga3/iti22_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti22",
+        "lang": "en",
+        "segMap": {
+          "iti22:2.4": {
+            "scid": "iti22:2.4",
+            "pli": "Satta vassāni mettacittaṁ bhāvetvā satta saṁvaṭṭavivaṭṭakappe nayimaṁ lokaṁ punarāgamāsiṁ. ",
+            "en": "Having developed a <span class=\"ebt-matched\">mind of love</span> for seven years, for seven eons of the cosmos contracting and expanding I didn’t return to this world again. ",
+            "matched": true
+          },
+          "iti22:5.4": {
+            "scid": "iti22:5.4",
+            "pli": "mettacittañca bhāvaye. ",
+            "en": "developing a <span class=\"ebt-matched\">mind of love</span>: ",
+            "matched": true
+          }
+        },
+        "score": 2.063,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So It Was Said 22\nThe Book of the Ones\nChapter Three\nThe Benefits of Love",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 32,
+          "en": 31
         }
       },
       {
@@ -235,35 +270,6 @@
         "langSegs": {
           "pli": 21,
           "en": 20
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/kn/iti/vagga3/iti22_root-pli-ms.json",
-          "translation/en/sujato/sutta/kn/iti/vagga3/iti22_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "iti22",
-        "lang": "en",
-        "segMap": {
-          "iti22:5.4": {
-            "scid": "iti22:5.4",
-            "pli": "mettacittañca bhāvaye. ",
-            "en": "developing a <span class=\"ebt-matched\">mind of love</span>: ",
-            "matched": true
-          }
-        },
-        "score": 1.031,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "So It Was Said 22\nThe Book of the Ones\nChapter Three\nThe Benefits of Love",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 32,
-          "en": 31
         }
       },
       {
