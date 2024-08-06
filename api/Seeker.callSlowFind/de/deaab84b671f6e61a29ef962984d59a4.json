@@ -41,7 +41,7 @@
     "pattern": "entire spectrum",
     "method": "phrase",
     "resultPattern": "\\bentire spectrum",
-    "segsMatched": 57,
+    "segsMatched": 58,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn10_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn10_translation-en-sujato.json",
@@ -53,6 +53,8 @@
       "translation/en/sujato/sutta/an/an4/an4.21_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.26_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an3/an3.26_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn94_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn94_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn77_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn77_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn51_root-pli-ms.json",
@@ -75,8 +77,6 @@
       "translation/en/sujato/sutta/sn/sn47/sn47.13_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn3/sn3.24_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn3/sn3.24_translation-en-sujato.json",
-      "root/pli/ms/sutta/mn/mn94_root-pli-ms.json",
-      "translation/en/sujato/sutta/mn/mn94_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag16.7_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thag/thag16.7_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/iti/vagga6/iti59_root-pli-ms.json",
@@ -106,6 +106,7 @@
       "sn6.2/en/sujato",
       "an4.21/en/sujato",
       "an3.26/en/sujato",
+      "mn94/en/sujato",
       "mn77/en/sujato",
       "mn51/en/sujato",
       "mn38/en/sujato",
@@ -117,7 +118,6 @@
       "an10.99/en/sujato",
       "sn47.13/en/sujato",
       "sn3.24/en/sujato",
-      "mn94/en/sujato",
       "thag16.7/en/sujato",
       "iti59/en/sujato",
       "dn8/en/sujato",
@@ -416,7 +416,7 @@
           "an4.198:13.1": {
             "scid": "an4.198:13.1",
             "pli": "So iminā ca ariyena sīlakkhandhena samannāgato, imāya ca ariyāya santuṭṭhiyā samannāgato, iminā ca ariyena indriyasaṁvarena samannāgato, iminā ca ariyena satisampajaññena samannāgato ",
-            "en": "When they have this <span class=\"ebt-matched\">entire spectrum</span> of noble ethics, this noble sense restraint, and this noble mindfulness and situational awareness, ",
+            "en": "When they have this <span class=\"ebt-matched\">entire spectrum</span> of noble ethics, this noble contentment, this noble sense restraint, and this noble mindfulness and situational awareness, ",
             "matched": true
           }
         },
@@ -486,7 +486,7 @@
           "mn112:16.2": {
             "scid": "mn112:16.2",
             "pli": "So iminā ca ariyena sīlakkhandhena samannāgato, imāya ca ariyāya santuṭṭhiyā samannāgato, iminā ca ariyena indriyasaṁvarena samannāgato, iminā ca ariyena satisampajaññena samannāgato ",
-            "en": "When I had this <span class=\"ebt-matched\">entire spectrum</span> of noble ethics, this noble sense restraint, and this noble mindfulness and situational awareness, ",
+            "en": "When I had this <span class=\"ebt-matched\">entire spectrum</span> of noble ethics, this noble contentment, this noble sense restraint, and this noble mindfulness and situational awareness, ",
             "matched": true
           }
         },
@@ -573,6 +573,41 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn94_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn94_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn94",
+        "lang": "en",
+        "segMap": {
+          "mn94:17.4": {
+            "scid": "mn94:17.4",
+            "pli": "So iminā ariyena sīlakkhandhena samannāgato ajjhattaṁ anavajjasukhaṁ paṭisaṁvedeti. ",
+            "en": "When they have this <span class=\"ebt-matched\">entire spectrum</span> of noble ethics, they experience a blameless happiness inside themselves. ",
+            "matched": true
+          },
+          "mn94:20.1": {
+            "scid": "mn94:20.1",
+            "pli": "So iminā ca ariyena sīlakkhandhena samannāgato, imāya ca ariyāya santuṭṭhiyā samannāgato, iminā ca ariyena indriyasaṁvarena samannāgato, iminā ca ariyena satisampajaññena samannāgato ",
+            "en": "When they have this <span class=\"ebt-matched\">entire spectrum</span> of noble ethics, this noble contentment, this noble sense restraint, and this noble mindfulness and situational awareness, ",
+            "matched": true
+          }
+        },
+        "score": 2.01,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Middle Discourses 94\nWith Ghoṭamukha",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 203,
+          "en": 202
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/mn/mn101_root-pli-ms.json",
           "translation/en/sujato/sutta/mn/mn101_translation-en-sujato.json"
         ],
@@ -591,7 +626,7 @@
           "mn101:36.1": {
             "scid": "mn101:36.1",
             "pli": "So iminā ca ariyena sīlakkhandhena samannāgato, imāya ca ariyāya santuṭṭhiyā samannāgato, iminā ca ariyena indriyasaṁvarena samannāgato, iminā ca ariyena satisampajaññena samannāgato ",
-            "en": "When they have this <span class=\"ebt-matched\">entire spectrum</span> of noble ethics, this noble sense restraint, and this noble mindfulness and situational awareness, ",
+            "en": "When they have this <span class=\"ebt-matched\">entire spectrum</span> of noble ethics, this noble contentment, this noble sense restraint, and this noble mindfulness and situational awareness, ",
             "matched": true
           }
         },
@@ -661,7 +696,7 @@
           "mn38:37.1": {
             "scid": "mn38:37.1",
             "pli": "So iminā ca ariyena sīlakkhandhena samannāgato, imāya ca ariyāya santuṭṭhiyā samannāgato, iminā ca ariyena indriyasaṁvarena samannāgato, iminā ca ariyena satisampajaññena samannāgato, ",
-            "en": "When they have this <span class=\"ebt-matched\">entire spectrum</span> of noble ethics, this noble sense restraint, and this noble mindfulness and situational awareness, ",
+            "en": "When they have this <span class=\"ebt-matched\">entire spectrum</span> of noble ethics, this noble contentment, this noble sense restraint, and this noble mindfulness and situational awareness, ",
             "matched": true
           }
         },
@@ -725,7 +760,7 @@
           "an5.108:2.2": {
             "scid": "an5.108:2.2",
             "pli": "Idha, bhikkhave, bhikkhu asekhena sīlakkhandhena samannāgato hoti, asekhena samādhikkhandhena samannāgato hoti, asekhena paññākkhandhena samannāgato hoti, asekhena vimuttikkhandhena samannāgato hoti, asekhena vimuttiñāṇadassanakkhandhena samannāgato hoti. ",
-            "en": "It’s when they have the <span class=\"ebt-matched\">entire spectrum</span> of the master’s ethics, immersion, wisdom, freedom, and knowledge and vision of freedom. ",
+            "en": "It’s when they have the <span class=\"ebt-matched\">entire spectrum</span> of the adept’s ethics, immersion, wisdom, freedom, and knowledge and vision of freedom. ",
             "matched": true
           }
         },
@@ -870,7 +905,7 @@
           "iti59:2.3": {
             "scid": "iti59:2.3",
             "pli": "Idha, bhikkhave, bhikkhu asekhena sīlakkhandhena samannāgato hoti, asekhena samādhikkhandhena samannāgato hoti, asekhena paññākkhandhena samannāgato hoti—",
-            "en": "It’s when they have the <span class=\"ebt-matched\">entire spectrum</span> of the master’s ethics, immersion, and wisdom. ",
+            "en": "It’s when they have the <span class=\"ebt-matched\">entire spectrum</span> of the adept’s ethics, immersion, and wisdom. ",
             "matched": true
           }
         },
@@ -957,7 +992,7 @@
           "sn47.13:5.1": {
             "scid": "sn47.13:5.1",
             "pli": "“Kiṁ nu kho te, ānanda, sāriputto sīlakkhandhaṁ vā ādāya parinibbuto, samādhikkhandhaṁ vā ādāya parinibbuto, paññākkhandhaṁ vā ādāya parinibbuto, vimuttikkhandhaṁ vā ādāya parinibbuto, vimuttiñāṇadassanakkhandhaṁ vā ādāya parinibbuto”ti? ",
-            "en": "“Well, Ānanda, when Sāriputta became fully extinguished, did he take away your <span class=\"ebt-matched\">entire spectrum</span> of ethical conduct, of immersion, of wisdom, of freedom, or of the knowledge and vision of freedom?” ",
+            "en": "“Well, Ānanda, when Sāriputta became fully quenched, did he take away your <span class=\"ebt-matched\">entire spectrum</span> of ethical conduct, of immersion, of wisdom, of freedom, or of the knowledge and vision of freedom?” ",
             "matched": true
           }
         },
@@ -1057,35 +1092,6 @@
         "langSegs": {
           "pli": 101,
           "en": 100
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/mn/mn94_root-pli-ms.json",
-          "translation/en/sujato/sutta/mn/mn94_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "mn94",
-        "lang": "en",
-        "segMap": {
-          "mn94:17.4": {
-            "scid": "mn94:17.4",
-            "pli": "So iminā ariyena sīlakkhandhena samannāgato ajjhattaṁ anavajjasukhaṁ paṭisaṁvedeti. ",
-            "en": "When they have this <span class=\"ebt-matched\">entire spectrum</span> of noble ethics, they experience a blameless happiness inside themselves. ",
-            "matched": true
-          }
-        },
-        "score": 1.005,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Middle Discourses 94\nWith Ghoṭamukha",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 203,
-          "en": 202
         }
       },
       {

@@ -41,7 +41,7 @@
     "pattern": "well freed",
     "method": "phrase",
     "resultPattern": "\\bwell freed",
-    "segsMatched": 76,
+    "segsMatched": 81,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json",
@@ -71,6 +71,8 @@
       "translation/en/sujato/sutta/sn/sn35/sn35.156_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn22/sn22.92_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.92_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.87_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.87_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn22/sn22.72_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.72_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn22/sn22.52_root-pli-ms.json",
@@ -101,8 +103,15 @@
       "root/pli/ms/sutta/kn/thig/thig1.11_root-pli-ms.json",
       "translation/en/soma/sutta/kn/thig/thig1.11_translation-en-soma.json",
       "translation/en/sujato/sutta/kn/thig/thig1.11_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag7.5_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/thag/thag7.5_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/snp/vagga4/snp4.16_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/snp/vagga4/snp4.16_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga11/iti109_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/iti/vagga11/iti109_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/dhp/dhp1-20_root-pli-ms.json",
+      "translation/en/suddhaso/sutta/kn/dhp/dhp1-20_translation-en-suddhaso.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp1-20_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an7/an7.56_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an7/an7.56_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.19_root-pli-ms.json",
@@ -123,6 +132,7 @@
       "sn35.157/en/sujato",
       "sn35.156/en/sujato",
       "sn22.92/en/sujato",
+      "sn22.87/en/sujato",
       "sn22.72/en/sujato",
       "sn22.52/en/sujato",
       "sn22.51/en/sujato",
@@ -137,7 +147,10 @@
       "sn1.38/en/sujato",
       "mn116/en/sujato",
       "thig1.11/en/sujato",
+      "thag7.5/en/sujato",
       "snp4.16/en/sujato",
+      "iti109/en/sujato",
+      "dhp1-20/en/sujato",
       "an7.56/en/sujato",
       "an10.19/en/sujato"
     ],
@@ -418,7 +431,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Linked Discourses 22.56\n6. Involvement\nPerspectives",
+        "title": "Linked Discourses 22.56\n6. Involvement\nRounds of the Grasping Aggregates",
         "segsMatched": 4,
         "langSegs": {
           "pli": 76,
@@ -1082,6 +1095,41 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.87_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.87_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.87",
+        "lang": "en",
+        "segMap": {
+          "sn22.87:5.11": {
+            "scid": "sn22.87:5.11",
+            "pli": "“so hi nūna, bhante, suvimutto vimuccissatī”ti. ",
+            "en": "“He’ll definitely be <span class=\"ebt-matched\">well freed</span>!” ",
+            "matched": true
+          },
+          "sn22.87:7.6": {
+            "scid": "sn22.87:7.6",
+            "pli": "so hi nūna, bhante, suvimutto vimuccissatīti. ",
+            "en": "“He’ll definitely be <span class=\"ebt-matched\">well freed</span>!” ",
+            "matched": true
+          }
+        },
+        "score": 2.014,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 22.87\n9. Senior Mendicants\nWith Vakkali",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 144,
+          "en": 143
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an10/an10.19_root-pli-ms.json",
           "translation/en/sujato/sutta/an/an10/an10.19_translation-en-sujato.json"
         ],
@@ -1137,6 +1185,64 @@
         "langSegs": {
           "pli": 10,
           "en": 9
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga11/iti109_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/iti/vagga11/iti109_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti109",
+        "lang": "en",
+        "segMap": {
+          "iti109:12.3": {
+            "scid": "iti109:12.3",
+            "pli": "Sammappajāno suvimuttacitto, ",
+            "en": "With deep understanding and heart <span class=\"ebt-matched\">well freed</span>, ",
+            "matched": true
+          }
+        },
+        "score": 1.033,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So It Was Said 109\nThe Book of the Fours\nThe Chapter on the Brahmin’s Offering of the Teaching\nA River",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 30,
+          "en": 29
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag7.5_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/thag/thag7.5_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag7.5",
+        "lang": "en",
+        "segMap": {
+          "thag7.5:7.6": {
+            "scid": "thag7.5:7.6",
+            "pli": "suvimuttomhi sabbadhī”ti. ",
+            "en": "I’m everywhere <span class=\"ebt-matched\">well freed</span>. ",
+            "matched": true
+          }
+        },
+        "score": 1.023,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verses of the Senior Monks 7.5\nThe Book of the Sevens\nChapter One\nSarabhaṅga",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 43,
+          "en": 34
         }
       },
       {
@@ -1211,7 +1317,7 @@
           "an7.56:1.6": {
             "scid": "an7.56:1.6",
             "pli": "“etā, bhante, bhikkhuniyo anupādisesā suvimuttā”ti. ",
-            "en": "“Sir, these nuns are <span class=\"ebt-matched\">well freed</span> without anything left over!” ",
+            "en": "“Sir, these nuns are <span class=\"ebt-matched\">well freed</span> with no residue!” ",
             "matched": true
           }
         },
@@ -1282,6 +1388,36 @@
         "langSegs": {
           "pli": 101,
           "en": 88
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/dhp/dhp1-20_root-pli-ms.json",
+          "translation/en/suddhaso/sutta/kn/dhp/dhp1-20_translation-en-suddhaso.json",
+          "translation/en/sujato/sutta/kn/dhp/dhp1-20_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dhp1-20",
+        "lang": "en",
+        "segMap": {
+          "dhp20:4": {
+            "scid": "dhp20:4",
+            "pli": "Sammappajāno suvimuttacitto; ",
+            "en": "with deep understanding and heart <span class=\"ebt-matched\">well freed</span>, ",
+            "matched": true
+          }
+        },
+        "score": 1.009,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Minor Collection\nSayings of the Dhamma 1–20\n1. Pairs\nCakkhupālattheravatthu",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 108,
+          "en": 93
         }
       },
       {

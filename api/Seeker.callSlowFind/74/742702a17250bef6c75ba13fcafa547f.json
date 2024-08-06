@@ -41,7 +41,7 @@
     "pattern": "ending of deeds",
     "method": "phrase",
     "resultPattern": "\\bending of deeds",
-    "segsMatched": 25,
+    "segsMatched": 26,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn57_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn57_translation-en-sujato.json",
@@ -64,7 +64,9 @@
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.232_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an4/an4.232_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an4/an4.232_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.74_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an3/an3.74_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "mn57/en/sujato",
@@ -77,7 +79,8 @@
       "an4.238/en/sujato",
       "mn14/en/sujato",
       "dn33/en/sujato",
-      "an4.232/en/sujato"
+      "an4.232/en/sujato",
+      "an3.74/en/sujato"
     ],
     "mlDocs": [
       {
@@ -423,6 +426,35 @@
         "langSegs": {
           "pli": 11,
           "en": 10
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an3/an3.74_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an3/an3.74_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an3.74",
+        "lang": "en",
+        "segMap": {
+          "an3.74:1.6": {
+            "scid": "an3.74:1.6",
+            "pli": "Iti kammakkhayā dukkhakkhayo, dukkhakkhayā vedanākkhayo, vedanākkhayā sabbaṁ dukkhaṁ nijjiṇṇaṁ bhavissati—",
+            "en": "So with the <span class=\"ebt-matched\">ending of deeds</span>, suffering ends; with the ending of suffering, feeling ends; and with the ending of feeling, all suffering will have been worn away. ",
+            "matched": true
+          }
+        },
+        "score": 1.036,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 3.74\n8. Ānanda\nJains",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 28,
+          "en": 27
         }
       },
       {

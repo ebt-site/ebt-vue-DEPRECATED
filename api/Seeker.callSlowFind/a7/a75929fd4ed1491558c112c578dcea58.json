@@ -41,7 +41,7 @@
     "pattern": "concept",
     "method": "phrase",
     "resultPattern": "\\bconcept",
-    "segsMatched": 33,
+    "segsMatched": 37,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn28_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn28_translation-en-sujato.json",
@@ -53,6 +53,10 @@
       "translation/en/sujato/sutta/mn/mn78_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.200_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an4/an4.200_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.90_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.90_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn12/sn12.15_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.15_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.199_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an4/an4.199_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn12/sn12.2_root-pli-ms.json",
@@ -72,6 +76,8 @@
       "dn33/en/sujato",
       "mn78/en/sujato",
       "an4.200/en/sujato",
+      "sn22.90/en/sujato",
+      "sn12.15/en/sujato",
       "an4.199/en/sujato",
       "sn12.2/en/sujato",
       "mn9/en/sujato",
@@ -384,6 +390,76 @@
         "langSegs": {
           "pli": 22,
           "en": 21
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn12/sn12.15_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn12/sn12.15_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn12.15",
+        "lang": "en",
+        "segMap": {
+          "sn12.15:2.2": {
+            "scid": "sn12.15:2.2",
+            "pli": "Lokasamudayaṁ kho, kaccāna, yathābhūtaṁ sammappaññāya passato yā loke natthitā sā na hoti. ",
+            "en": "But when you truly see the origin of the world with right understanding, the <span class=\"ebt-matched\">concept</span> of non-existence regarding the world does not occur. ",
+            "matched": true
+          },
+          "sn12.15:2.3": {
+            "scid": "sn12.15:2.3",
+            "pli": "Lokanirodhaṁ kho, kaccāna, yathābhūtaṁ sammappaññāya passato yā loke atthitā sā na hoti. ",
+            "en": "And when you truly see the cessation of the world with right understanding, the <span class=\"ebt-matched\">concept</span> of existence regarding the world does not occur. ",
+            "matched": true
+          }
+        },
+        "score": 2.083,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 12.15\n2. Fuel\nKaccānagotta",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 24,
+          "en": 23
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.90_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.90_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.90",
+        "lang": "en",
+        "segMap": {
+          "sn22.90:9.3": {
+            "scid": "sn22.90:9.3",
+            "pli": "Lokasamudayaṁ kho, kaccāna, yathābhūtaṁ sammappaññāya passato yā loke natthitā, sā na hoti. ",
+            "en": "But when you truly see the origin of the world with right understanding, the <span class=\"ebt-matched\">concept</span> of non-existence regarding the world does not occur. ",
+            "matched": true
+          },
+          "sn22.90:9.4": {
+            "scid": "sn22.90:9.4",
+            "pli": "Lokanirodhaṁ kho, kaccāna, yathābhūtaṁ sammappaññāya passato yā loke atthitā, sā na hoti. ",
+            "en": "And when you truly see the cessation of the world with right understanding, the <span class=\"ebt-matched\">concept</span> of existence regarding the world does not occur. ",
+            "matched": true
+          }
+        },
+        "score": 2.02,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 22.90\n9. Senior Mendicants\nWith Channa",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 100,
+          "en": 99
         }
       },
       {

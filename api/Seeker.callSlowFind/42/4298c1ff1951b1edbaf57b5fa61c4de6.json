@@ -41,7 +41,7 @@
     "pattern": "unbound",
     "method": "phrase",
     "resultPattern": "\\bunbound",
-    "segsMatched": 8,
+    "segsMatched": 9,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn41/sn41.5_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn41/sn41.5_translation-en-sujato.json",
@@ -50,13 +50,16 @@
       "root/pli/ms/sutta/kn/ud/vagga7/ud7.5_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/ud/vagga7/ud7.5_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag1.38_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/thag/thag1.38_translation-en-sujato.json"
+      "translation/en/sujato/sutta/kn/thag/thag1.38_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga5/snp5.6_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga5/snp5.6_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "sn41.5/en/sujato",
       "dn1/en/sujato",
       "ud7.5/en/sujato",
-      "thag1.38/en/sujato"
+      "thag1.38/en/sujato",
+      "snp5.6/en/sujato"
     ],
     "mlDocs": [
       {
@@ -197,6 +200,35 @@
         "langSegs": {
           "pli": 17,
           "en": 16
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga5/snp5.6_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga5/snp5.6_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp5.6",
+        "lang": "en",
+        "segMap": {
+          "snp5.6:5.4": {
+            "scid": "snp5.6:5.4",
+            "pli": "Idheva santo asito careyyaṁ”. ",
+            "en": "as <span class=\"ebt-matched\">unbound</span>ed as space.” ",
+            "matched": true
+          }
+        },
+        "score": 1.026,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses 5.6\nThe Questions of Dhotaka",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 39,
+          "en": 38
         }
       }
     ],

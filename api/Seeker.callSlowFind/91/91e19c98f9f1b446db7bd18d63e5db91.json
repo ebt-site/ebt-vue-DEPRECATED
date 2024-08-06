@@ -41,15 +41,18 @@
     "pattern": "mindfulness and wisdom",
     "method": "phrase",
     "resultPattern": "\\bmindfulness and wisdom",
-    "segsMatched": 2,
+    "segsMatched": 3,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn4/sn4.22_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn4/sn4.22_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag16.7_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/thag/thag16.7_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag1.46_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thag/thag1.46_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "sn4.22/en/sujato",
+      "thag16.7/en/sujato",
       "thag1.46/en/sujato"
     ],
     "mlDocs": [
@@ -109,6 +112,35 @@
         "langSegs": {
           "pli": 39,
           "en": 39
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag16.7_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/thag/thag16.7_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag16.7",
+        "lang": "en",
+        "segMap": {
+          "thag16.7:24.2": {
+            "scid": "thag16.7:24.2",
+            "pli": "satiṁ paññañca bhāvayaṁ; ",
+            "en": "developing <span class=\"ebt-matched\">mindfulness and wisdom</span>, ",
+            "matched": true
+          }
+        },
+        "score": 1.01,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verses of the Senior Monks 16.7\nThe Book of the Twenties\nChapter One\nKāḷigodhāputtabhaddiya",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 101,
+          "en": 100
         }
       }
     ],

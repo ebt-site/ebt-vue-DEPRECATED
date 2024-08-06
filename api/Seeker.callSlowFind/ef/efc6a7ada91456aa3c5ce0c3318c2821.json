@@ -41,7 +41,7 @@
     "pattern": "inflict",
     "method": "phrase",
     "resultPattern": "\\binflict",
-    "segsMatched": 19,
+    "segsMatched": 20,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn55/sn55.7_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn55/sn55.7_translation-en-sujato.json",
@@ -52,14 +52,17 @@
       "root/pli/ms/sutta/mn/mn129_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn129_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn3_root-pli-ms.json",
-      "translation/en/sujato/sutta/dn/dn3_translation-en-sujato.json"
+      "translation/en/sujato/sutta/dn/dn3_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/dhp/dhp235-255_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp235-255_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "sn55.7/en/sujato",
       "sn42.13/en/sujato",
       "mn105/en/sujato",
       "mn129/en/sujato",
-      "dn3/en/sujato"
+      "dn3/en/sujato",
+      "dhp235-255/en/sujato"
     ],
     "mlDocs": [
       {
@@ -289,6 +292,35 @@
         "langSegs": {
           "pli": 437,
           "en": 436
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/dhp/dhp235-255_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/dhp/dhp235-255_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dhp235-255",
+        "lang": "en",
+        "segMap": {
+          "dhp248:4": {
+            "scid": "dhp248:4",
+            "pli": "ciraṁ dukkhāya randhayuṁ. ",
+            "en": "<span class=\"ebt-matched\">inflict</span> pain on you for long. ",
+            "matched": true
+          }
+        },
+        "score": 1.01,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Minor Collection\nSayings of the Dhamma 235–255\n18. Stains\nGoghātakaputtavatthu",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 104,
+          "en": 104
         }
       }
     ],

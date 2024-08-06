@@ -41,7 +41,7 @@
     "pattern": "sick, suffering, gravely ill",
     "method": "phrase",
     "resultPattern": "\\bsick, suffering, gravely ill",
-    "segsMatched": 55,
+    "segsMatched": 56,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn97_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn97_translation-en-sujato.json",
@@ -105,6 +105,8 @@
       "translation/en/sujato/sutta/kn/ud/vagga1/ud1.6_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn10_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn10_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an6/an6.56_root-pli-ms.json",
@@ -150,6 +152,7 @@
       "mn130/en/sujato",
       "ud1.6/en/sujato",
       "dn2/en/sujato",
+      "dn14/en/sujato",
       "dn10/en/sujato",
       "an6.56/en/sujato",
       "an6.16/en/sujato",
@@ -1337,6 +1340,35 @@
         "langSegs": {
           "pli": 650,
           "en": 633
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
+          "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn14",
+        "lang": "en",
+        "segMap": {
+          "dn14:2.6.1": {
+            "scid": "dn14:2.6.1",
+            "pli": "Addasā kho, bhikkhave, vipassī kumāro uyyānabhūmiṁ niyyanto purisaṁ ābādhikaṁ dukkhitaṁ bāḷhagilānaṁ sake muttakarīse palipannaṁ semānaṁ aññehi vuṭṭhāpiyamānaṁ aññehi saṁvesiyamānaṁ. ",
+            "en": "Along the way he saw a man who was <span class=\"ebt-matched\">sick, suffering, gravely ill</span>, collapsed in his own urine and feces, being picked up by some and put down by others. ",
+            "matched": true
+          }
+        },
+        "score": 1.001,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Long Discourses 14\nThe Great Discourse on Traces Left Behind",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 851,
+          "en": 850
         }
       }
     ],

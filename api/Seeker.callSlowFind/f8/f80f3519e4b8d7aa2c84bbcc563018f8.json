@@ -41,10 +41,12 @@
     "pattern": "shoulders drooping",
     "method": "phrase",
     "resultPattern": "\\bshoulders drooping",
-    "segsMatched": 15,
+    "segsMatched": 17,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an3/an3.64_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an3/an3.64_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn50_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn50_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn25_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn25_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn4/sn4.25_root-pli-ms.json",
@@ -68,6 +70,7 @@
     ],
     "suttaRefs": [
       "an3.64/en/sujato",
+      "mn50/en/sujato",
       "dn25/en/sujato",
       "sn4.25/en/sujato",
       "mn93/en/sujato",
@@ -125,6 +128,41 @@
         "langSegs": {
           "pli": 61,
           "en": 60
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn50_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn50_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn50",
+        "lang": "en",
+        "segMap": {
+          "mn50:13.2": {
+            "scid": "mn50:13.2",
+            "pli": "‘ime pana muṇḍakā samaṇakā ibbhā kiṇhā bandhupādāpaccā “jhāyinosmā jhāyinosmā”ti pattakkhandhā adhomukhā madhurakajātā jhāyanti pajjhāyanti nijjhāyanti apajjhāyanti. ",
+            "en": "‘These shavelings, fake ascetics, primitives, black spawn from the feet of our kinsman, say, “We practice absorption meditation! We practice absorption meditation!” <span class=\"ebt-matched\">Shoulders drooping</span>, downcast, and dopey, they meditate and concentrate and contemplate and ruminate. ",
+            "matched": true
+          },
+          "mn50:13.10": {
+            "scid": "mn50:13.10",
+            "pli": "evamevime muṇḍakā samaṇakā ibbhā kiṇhā bandhupādāpaccā “jhāyinosmā jhāyinosmā”ti pattakkhandhā adhomukhā madhurakajātā jhāyanti pajjhāyanti nijjhāyanti apajjhāyantī’ti. ",
+            "en": "In the same way, these shavelings, fake ascetics, primitives, black spawn from the feet of our kinsman, say, “We practice absorption meditation! We practice absorption meditation!” <span class=\"ebt-matched\">Shoulders drooping</span>, downcast, and dopey, they meditate and concentrate and contemplate and ruminate.’ ",
+            "matched": true
+          }
+        },
+        "score": 2.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Middle Discourses 50\nThe Condemnation of Māra",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 239,
+          "en": 236
         }
       },
       {

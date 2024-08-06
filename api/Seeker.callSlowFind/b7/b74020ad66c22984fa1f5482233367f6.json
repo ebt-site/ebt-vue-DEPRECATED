@@ -41,7 +41,7 @@
     "pattern": "conscience and prudence",
     "method": "phrase",
     "resultPattern": "\\bconscience and prudence",
-    "segsMatched": 75,
+    "segsMatched": 78,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an2/an2.180-229_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an2/an2.180-229_translation-en-sujato.json",
@@ -51,6 +51,8 @@
       "translation/en/sujato/sutta/an/an8/an8.81_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an7/an7.65_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an7/an7.65_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga5/iti42_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/iti/vagga5/iti42_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.2_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an8/an8.2_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an2/an2.1-10_root-pli-ms.json",
@@ -83,8 +85,8 @@
       "translation/en/sujato/sutta/an/an10/an10.105_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn16/sn16.11_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn16/sn16.11_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/iti/vagga5/iti42_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/iti/vagga5/iti42_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag18.1_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/thag/thag18.1_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/cp/cp9_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/cp/cp9_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an7/an7.7_root-pli-ms.json",
@@ -111,6 +113,7 @@
       "mn39/en/sujato",
       "an8.81/en/sujato",
       "an7.65/en/sujato",
+      "iti42/en/sujato",
       "an8.2/en/sujato",
       "an2.1-10/en/sujato",
       "sn46.30/en/sujato",
@@ -127,7 +130,7 @@
       "an10.76/en/sujato",
       "an10.105/en/sujato",
       "sn16.11/en/sujato",
-      "iti42/en/sujato",
+      "thag18.1/en/sujato",
       "cp9/en/sujato",
       "an7.7/en/sujato",
       "an7.6/en/sujato",
@@ -314,7 +317,7 @@
           "mn39:3.4": {
             "scid": "mn39:3.4",
             "pli": "‘hirottappenamha samannāgatā, alamettāvatā katamettāvatā, anuppatto no sāmaññattho, natthi no kiñci uttariṁ karaṇīyan’ti tāvatakeneva tuṭṭhiṁ āpajjeyyātha. ",
-            "en": "‘We have <span class=\"ebt-matched\">conscience and prudence</span>. Just this much is enough. We have achieved the goal of life as an ascetic. There is nothing more to do.’ And you might rest content with just that much. ",
+            "en": "‘We have <span class=\"ebt-matched\">conscience and prudence</span>. This is sufficient; enough has been done. We have achieved the goal of life as an ascetic. There is nothing more to do.’ And you might rest content with just that much. ",
             "matched": true
           },
           "mn39:4.5": {
@@ -416,6 +419,47 @@
         "langSegs": {
           "pli": 27,
           "en": 26
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga5/iti42_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/iti/vagga5/iti42_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "iti42",
+        "lang": "en",
+        "segMap": {
+          "iti42:2.3": {
+            "scid": "iti42:2.3",
+            "pli": "Hirī ca, ottappañca. ",
+            "en": "<span class=\"ebt-matched\">Conscience and prudence</span>. ",
+            "matched": true
+          },
+          "iti42:3.1": {
+            "scid": "iti42:3.1",
+            "pli": "“Yesañce hiriottappaṁ, ",
+            "en": "“Those in whom <span class=\"ebt-matched\">conscience and prudence</span> ",
+            "matched": true
+          },
+          "iti42:4.1": {
+            "scid": "iti42:4.1",
+            "pli": "Yesañca hiriottappaṁ, ",
+            "en": "Those in whom <span class=\"ebt-matched\">conscience and prudence</span> ",
+            "matched": true
+          }
+        },
+        "score": 3.13,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "So It Was Said 42\nThe Book of the Twos\nChapter Two\nBright Things",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 23,
+          "en": 22
         }
       },
       {
@@ -549,13 +593,13 @@
           "an7.2:1.3": {
             "scid": "an7.2:1.3",
             "pli": "Idha, bhikkhave, bhikkhu lābhakāmo ca hoti, sakkārakāmo ca hoti, anavaññattikāmo ca hoti, ahiriko ca hoti, anottappī ca, issukī ca, maccharī ca. ",
-            "en": "It’s when a mendicant desires material possessions, honor, and to be looked up to. They lack <span class=\"ebt-matched\">conscience and prudence</span>. They’re jealous and stingy. ",
+            "en": "It’s when a mendicant desires material things, honor, and to be looked up to. They lack <span class=\"ebt-matched\">conscience and prudence</span>. They’re jealous and stingy. ",
             "matched": true
           },
           "an7.2:2.3": {
             "scid": "an7.2:2.3",
             "pli": "Idha, bhikkhave, bhikkhu na lābhakāmo ca hoti, na sakkārakāmo ca hoti, na anavaññattikāmo ca hoti, hirīmā ca hoti, ottappī ca, anissukī ca, amaccharī ca. ",
-            "en": "It’s when a mendicant doesn’t desire material possessions, honor, and to be looked up to. They have <span class=\"ebt-matched\">conscience and prudence</span>. They’re not jealous or stingy. ",
+            "en": "It’s when a mendicant doesn’t desire material things, honor, and to be looked up to. They have <span class=\"ebt-matched\">conscience and prudence</span>. They’re not jealous or stingy. ",
             "matched": true
           }
         },
@@ -584,13 +628,13 @@
           "an8.3:1.3": {
             "scid": "an8.3:1.3",
             "pli": "Idha, bhikkhave, bhikkhu appiyapasaṁsī ca hoti, piyagarahī ca, lābhakāmo ca, sakkārakāmo ca, ahiriko ca, anottappī ca, pāpiccho ca, micchādiṭṭhi ca. ",
-            "en": "It’s when a mendicant praises the disliked and criticizes the liked. They desire material possessions and honor. They lack <span class=\"ebt-matched\">conscience and prudence</span>. They have corrupt wishes and wrong view. ",
+            "en": "It’s when a mendicant praises the disliked and criticizes the liked. They desire material things and honor. They lack <span class=\"ebt-matched\">conscience and prudence</span>. They have corrupt wishes and wrong view. ",
             "matched": true
           },
           "an8.3:2.3": {
             "scid": "an8.3:2.3",
             "pli": "Idha, bhikkhave, bhikkhu na appiyapasaṁsī ca hoti, na piyagarahī ca, na lābhakāmo ca, na sakkārakāmo ca, hirīmā ca hoti, ottappī ca, appiccho ca, sammādiṭṭhi ca. ",
-            "en": "It’s when a mendicant doesn’t praise the disliked and criticize the liked. They don’t desire material possessions and honor. They have <span class=\"ebt-matched\">conscience and prudence</span>. They have few desires and right view. ",
+            "en": "It’s when a mendicant doesn’t praise the disliked and criticize the liked. They don’t desire material things and honor. They have <span class=\"ebt-matched\">conscience and prudence</span>. They have few desires and right view. ",
             "matched": true
           }
         },
@@ -619,13 +663,13 @@
           "an7.1:2.3": {
             "scid": "an7.1:2.3",
             "pli": "Idha, bhikkhave, bhikkhu lābhakāmo ca hoti, sakkārakāmo ca hoti, anavaññattikāmo ca hoti, ahiriko ca hoti, anottappī ca, pāpiccho ca, micchādiṭṭhi ca. ",
-            "en": "It’s when a mendicant desires material possessions, honor, and to be looked up to. They lack <span class=\"ebt-matched\">conscience and prudence</span>. They have corrupt wishes and wrong view. ",
+            "en": "It’s when a mendicant desires material things, honor, and to be looked up to. They lack <span class=\"ebt-matched\">conscience and prudence</span>. They have corrupt wishes and wrong view. ",
             "matched": true
           },
           "an7.1:3.3": {
             "scid": "an7.1:3.3",
             "pli": "Idha, bhikkhave, bhikkhu na lābhakāmo ca hoti, na sakkārakāmo ca hoti, na anavaññattikāmo ca hoti, hirīmā ca hoti, ottappī ca, appiccho ca, sammādiṭṭhi ca. ",
-            "en": "It’s when a mendicant doesn’t desire material possessions, honor, and to be looked up to. They have <span class=\"ebt-matched\">conscience and prudence</span>. They have few desires and right view. ",
+            "en": "It’s when a mendicant doesn’t desire material things, honor, and to be looked up to. They have <span class=\"ebt-matched\">conscience and prudence</span>. They have few desires and right view. ",
             "matched": true
           }
         },
@@ -1102,35 +1146,6 @@
       },
       {
         "bilaraPaths": [
-          "root/pli/ms/sutta/kn/iti/vagga5/iti42_root-pli-ms.json",
-          "translation/en/sujato/sutta/kn/iti/vagga5/iti42_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "iti42",
-        "lang": "en",
-        "segMap": {
-          "iti42:2.3": {
-            "scid": "iti42:2.3",
-            "pli": "Hirī ca, ottappañca. ",
-            "en": "<span class=\"ebt-matched\">Conscience and prudence</span>. ",
-            "matched": true
-          }
-        },
-        "score": 1.043,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "So It Was Said 42\nThe Book of the Twos\nChapter Two\nBright Things",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 23,
-          "en": 22
-        }
-      },
-      {
-        "bilaraPaths": [
           "root/pli/ms/sutta/an/an7/an7.7_root-pli-ms.json",
           "translation/en/sujato/sutta/an/an7/an7.7_translation-en-sujato.json"
         ],
@@ -1272,6 +1287,35 @@
         "langSegs": {
           "pli": 100,
           "en": 99
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag18.1_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/thag/thag18.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag18.1",
+        "lang": "en",
+        "segMap": {
+          "thag18.1:29.1": {
+            "scid": "thag18.1:29.1",
+            "pli": "Yesañca hiriottappaṁ, ",
+            "en": "Those whose <span class=\"ebt-matched\">conscience and prudence</span> ",
+            "matched": true
+          }
+        },
+        "score": 1.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verses of the Senior Monks 18.1\nThe Book of the Forties\nChapter One\nMahākassapa",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 177,
+          "en": 171
         }
       },
       {
