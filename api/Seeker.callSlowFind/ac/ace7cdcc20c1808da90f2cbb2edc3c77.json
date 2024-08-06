@@ -41,7 +41,7 @@
     "pattern": "lord of the",
     "method": "phrase",
     "resultPattern": "\\blord of the",
-    "segsMatched": 23,
+    "segsMatched": 29,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn35/sn35.245_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.245_translation-en-sujato.json",
@@ -49,12 +49,22 @@
       "translation/en/sujato/sutta/dn/dn32_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn20_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn20_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an7/an7.62_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an7/an7.62_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn128_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn128_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn3/sn3.16_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn3/sn3.16_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn92_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn92_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag16.9_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/thag/thag16.9_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag16.6_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/thag/thag16.6_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag16.3_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thag/thag16.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga3/snp3.7_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga3/snp3.7_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/cp/cp4_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/cp/cp4_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/cp/cp32_root-pli-ms.json",
@@ -67,8 +77,6 @@
       "translation/en/sujato/sutta/dn/dn21_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn19_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn19_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an7/an7.62_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an7/an7.62_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.40_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an5/an5.40_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.48_root-pli-ms.json",
@@ -78,16 +86,20 @@
       "sn35.245/en/sujato",
       "dn32/en/sujato",
       "dn20/en/sujato",
+      "an7.62/en/sujato",
       "mn128/en/sujato",
       "sn3.16/en/sujato",
+      "mn92/en/sujato",
+      "thag16.9/en/sujato",
+      "thag16.6/en/sujato",
       "thag16.3/en/sujato",
+      "snp3.7/en/sujato",
       "cp4/en/sujato",
       "cp32/en/sujato",
       "cp22/en/sujato",
       "dn27/en/sujato",
       "dn21/en/sujato",
       "dn19/en/sujato",
-      "an7.62/en/sujato",
       "an5.40/en/sujato",
       "an3.48/en/sujato"
     ],
@@ -137,6 +149,47 @@
         "langSegs": {
           "pli": 76,
           "en": 75
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an7/an7.62_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an7/an7.62_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an7.62",
+        "lang": "en",
+        "segMap": {
+          "an7.62:6.2": {
+            "scid": "an7.62:6.2",
+            "pli": "jambumaṇḍassa issaro; ",
+            "en": "<span class=\"ebt-matched\">lord of the</span> Black Plum Tree Land. ",
+            "matched": true
+          },
+          "an7.62:10.2": {
+            "scid": "an7.62:10.2",
+            "pli": "pathabyo me na vipajjati; ",
+            "en": "by which one is called a <span class=\"ebt-matched\">lord of the</span> land. ",
+            "matched": true
+          },
+          "an7.62:11.2": {
+            "scid": "an7.62:11.2",
+            "pli": "jambumaṇḍassa issaro; ",
+            "en": "<span class=\"ebt-matched\">lord of the</span> Black Plum Tree Land. ",
+            "matched": true
+          }
+        },
+        "score": 3.05,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Numbered Discourses 7.62\n6. The Undeclared Points\nDon’t Fear Good Deeds",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 60,
+          "en": 59
         }
       },
       {
@@ -403,35 +456,6 @@
       },
       {
         "bilaraPaths": [
-          "root/pli/ms/sutta/an/an7/an7.62_root-pli-ms.json",
-          "translation/en/sujato/sutta/an/an7/an7.62_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "an7.62",
-        "lang": "en",
-        "segMap": {
-          "an7.62:10.2": {
-            "scid": "an7.62:10.2",
-            "pli": "pathabyo me na vipajjati; ",
-            "en": "by which one is called a <span class=\"ebt-matched\">lord of the</span> land. ",
-            "matched": true
-          }
-        },
-        "score": 1.017,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Numbered Discourses 7.62\n6. The Undeclared Points\nDon’t Fear Good Deeds",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 60,
-          "en": 59
-        }
-      },
-      {
-        "bilaraPaths": [
           "root/pli/ms/sutta/kn/cp/cp22_root-pli-ms.json",
           "translation/en/sujato/sutta/kn/cp/cp22_translation-en-sujato.json"
         ],
@@ -486,6 +510,122 @@
         "langSegs": {
           "pli": 93,
           "en": 92
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag16.6_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/thag/thag16.6_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag16.6",
+        "lang": "en",
+        "segMap": {
+          "thag16.6:5.4": {
+            "scid": "thag16.6:5.4",
+            "pli": "jambusaṇḍassa issaro. ",
+            "en": "<span class=\"ebt-matched\">lord of the</span> Black Plum Tree Land. ",
+            "matched": true
+          }
+        },
+        "score": 1.01,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verses of the Senior Monks 16.6\nThe Book of the Twenties\nChapter One\nSela",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 105,
+          "en": 104
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag16.9_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/thag/thag16.9_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag16.9",
+        "lang": "en",
+        "segMap": {
+          "thag16.9:23.4": {
+            "scid": "thag16.9:23.4",
+            "pli": "jambusaṇḍassa issaro; ",
+            "en": "<span class=\"ebt-matched\">lord of the</span> Black Plum Tree Land. ",
+            "matched": true
+          }
+        },
+        "score": 1.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verses of the Senior Monks 16.9\nThe Book of the Twenties\nChapter One\nAnuruddha",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 119,
+          "en": 118
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn92_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn92_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn92",
+        "lang": "en",
+        "segMap": {
+          "mn92:16.20": {
+            "scid": "mn92:16.20",
+            "pli": "jambusaṇḍassa issaro. ",
+            "en": "<span class=\"ebt-matched\">lord of the</span> Black Plum Tree Land. ",
+            "matched": true
+          }
+        },
+        "score": 1.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Middle Discourses 92\nWith Sela",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 205,
+          "en": 204
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga3/snp3.7_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga3/snp3.7_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "snp3.7",
+        "lang": "en",
+        "segMap": {
+          "snp3.7:17.4": {
+            "scid": "snp3.7:17.4",
+            "pli": "jambusaṇḍassa issaro. ",
+            "en": "<span class=\"ebt-matched\">lord of the</span> Black Plum Tree Land. ",
+            "matched": true
+          }
+        },
+        "score": 1.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Anthology of Discourses 3.7\nWith Sela",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 206,
+          "en": 204
         }
       },
       {
