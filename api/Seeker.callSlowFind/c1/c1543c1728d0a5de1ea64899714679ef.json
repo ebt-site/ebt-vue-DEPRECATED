@@ -39,143 +39,16 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "in den sinn, zu lehren",
-    "method": "phrase",
-    "resultPattern": "\\bin den sinn, zu lehren",
-    "segsMatched": 10,
+    "method": "keywords",
+    "resultPattern": "\\bin|\\bden|\\bsinn,|\\bzu|\\blehren",
+    "segsMatched": 0,
     "bilaraPaths": [
-      "root/pli/ms/sutta/an/an8/an8.82_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an8/an8.82_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an8/an8.82_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an10/an10.83_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an10/an10.83_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an10/an10.83_translation-en-sujato.json"
+      "root/pli/ms/sutta/an/an4/an4.191_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.191_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.191_translation-en-sujato.json"
     ],
-    "suttaRefs": [
-      "an8.82/de/sabbamitta",
-      "an10.83/de/sabbamitta"
-    ],
-    "mlDocs": [
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/an/an10/an10.83_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/an/an10/an10.83_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/an/an10/an10.83_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "an10.83",
-        "lang": "de",
-        "segMap": {
-          "an10.83:2.1": {
-            "scid": "an10.83:2.1",
-            "pli": "“Saddho ca, puṇṇiya, bhikkhu hoti, no ca upasaṅkamitā; neva tāva tathāgataṁ dhammadesanā paṭibhāti. ",
-            "de": "„Puṇṇiya, wenn ein Mönch Vertrauen hat, aber nicht herkommt, kommt es dem Klargewordenen nicht <span class=\"ebt-matched\">in den Sinn, zu lehren</span>. ",
-            "en": "“Puṇṇiya, when a mendicant has faith but doesn’t approach, the Realized One doesn’t feel inspired to teach. ",
-            "matched": true
-          },
-          "an10.83:2.2": {
-            "scid": "an10.83:2.2",
-            "pli": "Yato ca kho, puṇṇiya, bhikkhu saddho ca hoti upasaṅkamitā ca, evaṁ tathāgataṁ dhammadesanā paṭibhāti. ",
-            "de": "Aber wenn ein Mönch Vertrauen hat und herkommt, kommt es dem Klargewordenen <span class=\"ebt-matched\">in den Sinn, zu lehren</span>. ",
-            "en": "But when a mendicant has faith and approaches, the Realized One feels inspired to teach. ",
-            "matched": true
-          },
-          "an10.83:3.8": {
-            "scid": "an10.83:3.8",
-            "pli": "kalyāṇavāco ca hoti kalyāṇavākkaraṇo poriyā vācāya samannāgato vissaṭṭhāya anelagaḷāya atthassa viññāpaniyā, no ca sandassako hoti samādapako samuttejako sampahaṁsako sabrahmacārīnaṁ, neva tāva tathāgataṁ dhammadesanā paṭibhāti. ",
-            "de": "wenn er ein guter Redner ist, aber seine geistlichen Gefährten nicht anleitet, ermuntert, begeistert und anregt, kommt es dem Klargewordenen nicht <span class=\"ebt-matched\">in den Sinn, zu lehren</span>. ",
-            "en": "They’re a good speaker, but they don’t educate, encourage, fire up, and inspire their spiritual companions. The Realized One doesn’t feel inspired to teach. ",
-            "matched": true
-          },
-          "an10.83:4.2": {
-            "scid": "an10.83:4.2",
-            "pli": "evaṁ tathāgataṁ dhammadesanā paṭibhāti. ",
-            "de": "dann kommt es dem Klargewordenen <span class=\"ebt-matched\">in den Sinn, zu lehren</span>. ",
-            "en": "the Realized One feels inspired to teach. ",
-            "matched": true
-          },
-          "an10.83:4.3": {
-            "scid": "an10.83:4.3",
-            "pli": "Imehi kho, puṇṇiya, dasahi dhammehi samannāgatā ekantapaṭibhānā tathāgataṁ dhammadesanā hotī”ti. ",
-            "de": "Wenn jemand diese zehn Eigenschaften besitzt, kommt es dem Klargewordenen sicherlich <span class=\"ebt-matched\">in den Sinn, zu lehren</span>.“ ",
-            "en": "When someone has these ten qualities, the Realized One feels totally inspired to teach.” ",
-            "matched": true
-          }
-        },
-        "score": 5.263,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Nummerierte Lehrreden 10.83\n9. Das Kapitel mit Ordensältesten\nMit Puṇṇiya",
-        "segsMatched": 5,
-        "langSegs": {
-          "pli": 19,
-          "de": 18,
-          "en": 18
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/an/an8/an8.82_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/an/an8/an8.82_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/an/an8/an8.82_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "an8.82",
-        "lang": "de",
-        "segMap": {
-          "an8.82:1.4": {
-            "scid": "an8.82:1.4",
-            "pli": "neva tathāgataṁ dhammadesanā paṭibhāti. ",
-            "de": "kommt es dem Klargewordenen nicht <span class=\"ebt-matched\">in den Sinn, zu lehren</span>. ",
-            "en": "the Realized One doesn’t feel inspired to teach. ",
-            "matched": true
-          },
-          "an8.82:1.6": {
-            "scid": "an8.82:1.6",
-            "pli": "evaṁ tathāgataṁ dhammadesanā paṭibhāti. ",
-            "de": "kommt es dem Klargewordenen <span class=\"ebt-matched\">in den Sinn, zu lehren</span>. ",
-            "en": "the Realized One feels inspired to teach. ",
-            "matched": true
-          },
-          "an8.82:1.13": {
-            "scid": "an8.82:1.13",
-            "pli": "Neva tāva tathāgataṁ dhammadesanā paṭibhāti. ",
-            "de": "kommt es dem Klargewordenen nicht <span class=\"ebt-matched\">in den Sinn, zu lehren</span>. ",
-            "en": "The Realized One doesn’t feel inspired to teach. ",
-            "matched": true
-          },
-          "an8.82:2.2": {
-            "scid": "an8.82:2.2",
-            "pli": "evaṁ tathāgataṁ dhammadesanā paṭibhāti. ",
-            "de": "dann kommt es dem Klargewordenen <span class=\"ebt-matched\">in den Sinn, zu lehren</span>. ",
-            "en": "the Realized One feels inspired to teach. ",
-            "matched": true
-          },
-          "an8.82:2.3": {
-            "scid": "an8.82:2.3",
-            "pli": "Imehi kho, puṇṇiya, aṭṭhahi dhammehi samannāgatā ekantapaṭibhānā tathāgataṁ dhammadesanā hotī”ti. ",
-            "de": "Wenn jemand diese acht Eigenschaften besitzt, kommt es dem Klargewordenen sicherlich <span class=\"ebt-matched\">in den Sinn, zu lehren</span>.“ ",
-            "en": "When someone has these eight qualities, the Realized One feels totally inspired to teach.” ",
-            "matched": true
-          }
-        },
-        "score": 5.25,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Nummerierte Lehrreden 8.82\n9. Das Kapitel über Achtsamkeit\nMit Puṇṇiya",
-        "segsMatched": 5,
-        "langSegs": {
-          "pli": 20,
-          "de": 19,
-          "en": 19
-        }
-      }
-    ],
+    "suttaRefs": [],
+    "mlDocs": [],
     "refLang": "en",
     "refAuthor": "sujato",
     "docLang": "de",

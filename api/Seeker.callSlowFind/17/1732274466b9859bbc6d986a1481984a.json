@@ -41,7 +41,7 @@
     "pattern": "gesträubten haare",
     "method": "phrase",
     "resultPattern": "\\bgesträubten haare",
-    "segsMatched": 18,
+    "segsMatched": 19,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn11/sn11.3_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn11/sn11.3_translation-de-sabbamitta.json",
@@ -63,7 +63,10 @@
       "translation/en/sujato/sutta/sn/sn2/sn2.9_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn2/sn2.10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn2/sn2.10_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn2/sn2.10_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn2/sn2.10_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn75_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn75_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn75_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "sn11.3/de/sabbamitta",
@@ -72,7 +75,8 @@
       "thag2.35/de/sabbamitta",
       "sn41.4/de/sabbamitta",
       "sn2.9/de/sabbamitta",
-      "sn2.10/de/sabbamitta"
+      "sn2.10/de/sabbamitta",
+      "mn75/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -374,6 +378,38 @@
           "pli": 47,
           "de": 45,
           "en": 46
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn75_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn75_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn75_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn75",
+        "lang": "de",
+        "segMap": {
+          "mn75:6.6": {
+            "scid": "mn75:6.6",
+            "pli": "Evaṁ vutte, bhāradvājagotto brāhmaṇo saṁviggo lomahaṭṭhajāto bhagavantaṁ etadavoca: ",
+            "de": "Daraufhin sagte der Brahmane aus dem Bhāradvāja-Stamm, erschüttert und mit <span class=\"ebt-matched\">gesträubten Haare</span>n, zum Buddha: ",
+            "en": "When he said this, the brahmin, shocked and awestruck, said to the Buddha, ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 75\nMit Māgaṇḍiya",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 263,
+          "de": 259,
+          "en": 262
         }
       }
     ],

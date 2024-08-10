@@ -41,8 +41,11 @@
     "pattern": "von geburt an blind",
     "method": "phrase",
     "resultPattern": "\\bvon geburt an blind",
-    "segsMatched": 4,
+    "segsMatched": 8,
     "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn75_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn75_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn75_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn23_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn23_translation-en-sujato.json",
@@ -51,10 +54,64 @@
       "translation/en/sujato/sutta/kn/ud/vagga6/ud6.4_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "mn75/de/sabbamitta",
       "dn23/de/sabbamitta",
       "ud6.4/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn75_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn75_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn75_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn75",
+        "lang": "de",
+        "segMap": {
+          "mn75:20.1": {
+            "scid": "mn75:20.1",
+            "pli": "“Seyyathāpi, māgaṇḍiya, jaccandho puriso; ",
+            "de": "„Māgaṇḍiya, wie wenn da ein Mensch <span class=\"ebt-matched\">von Geburt an blind</span> wäre. ",
+            "en": "“Māgaṇḍiya, suppose a person was born blind. ",
+            "matched": true
+          },
+          "mn75:20.11": {
+            "scid": "mn75:20.11",
+            "pli": "api nu so jaccandho puriso jānanto passanto amuṁ telamalikataṁ sāhuḷicīraṁ paṭiggaṇheyya, paṭiggahetvā pārupeyya, pārupetvā attamano attamanavācaṁ nicchāreyya: ",
+            "de": "Täte dieser <span class=\"ebt-matched\">von Geburt an Blind</span>e das wissend und sehend ",
+            "en": "Did that person blind from birth do this knowing and seeing, ",
+            "matched": true
+          },
+          "mn75:22.3": {
+            "scid": "mn75:22.3",
+            "pli": "“Seyyathāpi, māgaṇḍiya, jaccandho puriso; ",
+            "de": "„Māgaṇḍiya, wie wenn da ein Mensch <span class=\"ebt-matched\">von Geburt an blind</span> wäre. ",
+            "en": "“Māgaṇḍiya, suppose a person was born blind. ",
+            "matched": true
+          },
+          "mn75:23.3": {
+            "scid": "mn75:23.3",
+            "pli": "“Seyyathāpi, māgaṇḍiya, jaccandho puriso; ",
+            "de": "„Māgaṇḍiya, wie wenn da ein Mensch <span class=\"ebt-matched\">von Geburt an blind</span> wäre. ",
+            "en": "“Māgaṇḍiya, suppose a person was born blind. ",
+            "matched": true
+          }
+        },
+        "score": 4.015,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 75\nMit Māgaṇḍiya",
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 263,
+          "de": 259,
+          "en": 262
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",

@@ -41,7 +41,7 @@
     "pattern": "ohne verlangen",
     "method": "phrase",
     "resultPattern": "\\bohne verlangen",
-    "segsMatched": 11,
+    "segsMatched": 12,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn18_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn18_translation-de-sabbamitta.json",
@@ -49,6 +49,9 @@
       "root/pli/ms/sutta/kn/dhp/dhp334-359_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/dhp/dhp334-359_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/dhp/dhp334-359_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn75_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn75_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn75_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/ud/vagga7/ud7.7_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga7/ud7.7_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/ud/vagga7/ud7.7_translation-en-sujato.json",
@@ -74,6 +77,7 @@
     "suttaRefs": [
       "mn18/de/sabbamitta",
       "dhp334-359/de/sabbamitta",
+      "mn75/de/sabbamitta",
       "ud7.7/de/sabbamitta",
       "thag16.8/de/sabbamitta",
       "iti58/de/sabbamitta",
@@ -383,6 +387,38 @@
           "pli": 109,
           "de": 108,
           "en": 108
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn75_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn75_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn75_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn75",
+        "lang": "de",
+        "segMap": {
+          "mn75:18.2": {
+            "scid": "mn75:18.2",
+            "pli": "api nu te diṭṭho vā suto vā rājā vā rājamahāmatto vā pañcahi kāmaguṇehi samappito samaṅgībhūto paricārayamāno kāmataṇhaṁ appahāya kāmapariḷāhaṁ appaṭivinodetvā vigatapipāso ajjhattaṁ vūpasantacitto vihāsi vā viharati vā viharissati vā”ti? ",
+            "de": "Hast du einen König oder einen königlichen Minister der Vergangenheit, der Zukunft oder der Gegenwart gesehen oder davon gehört, der sich mit den fünf Arten sinnlicher Erregung vergnügt, mit denen er versorgt und ausgestattet ist, der, <span class=\"ebt-matched\">ohne Verlangen</span> nach Sinnenfreuden aufzugeben und Leidenschaft für Sinnenfreuden zu vertreiben, frei von Durst lebt, mit innerlich friedvollem Geist?“ ",
+            "en": "Have you seen or heard of a king or a royal minister of the past, future, or present, amusing themselves supplied and provided with the five kinds of sensual stimulation, who—without giving up craving for sensual pleasures and dispelling passion for sensual pleasures—lives rid of thirst, their mind peaceful inside?” ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 75\nMit Māgaṇḍiya",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 263,
+          "de": 259,
+          "en": 262
         }
       }
     ],

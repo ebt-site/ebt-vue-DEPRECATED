@@ -41,7 +41,7 @@
     "pattern": "krankheit.* eiterherd.* pfeil",
     "method": "phrase",
     "resultPattern": "\\bkrankheit.* eiterherd.* pfeil",
-    "segsMatched": 27,
+    "segsMatched": 30,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an9/an9.36_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an9/an9.36_translation-de-sabbamitta.json",
@@ -52,6 +52,9 @@
       "root/pli/ms/sutta/sn/sn22/sn22.122_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.122_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.122_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn75_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn75_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn75_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn23/sn23.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn23/sn23.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn23/sn23.1_translation-en-sujato.json",
@@ -87,6 +90,7 @@
       "an9.36/de/sabbamitta",
       "sn35.248/de/sabbamitta",
       "sn22.122/de/sabbamitta",
+      "mn75/de/sabbamitta",
       "sn23.1/de/sabbamitta",
       "an4.126/de/sabbamitta",
       "an4.124/de/sabbamitta",
@@ -270,6 +274,52 @@
           "pli": 25,
           "de": 24,
           "en": 24
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn75_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn75_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn75_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn75",
+        "lang": "de",
+        "segMap": {
+          "mn75:21.9": {
+            "scid": "mn75:21.9",
+            "pli": "Ayaṁ kho pana, māgaṇḍiya, kāyo rogabhūto gaṇḍabhūto sallabhūto aghabhūto ābādhabhūto, so tvaṁ imaṁ kāyaṁ rogabhūtaṁ gaṇḍabhūtaṁ sallabhūtaṁ aghabhūtaṁ ābādhabhūtaṁ: ",
+            "de": "Aber Māgaṇḍiya, dieser Körper ist eine <span class=\"ebt-matched\">Krankheit, ein Eiterherd, ein Pfeil</span>, ein Elend, eine Beschwerde. Dennoch sagst du über diesen Körper: ",
+            "en": "But Māgaṇḍiya, this body is a disease, a boil, a dart, a misery, an affliction. Yet you say of this body: ",
+            "matched": true
+          },
+          "mn75:25.7": {
+            "scid": "mn75:25.7",
+            "pli": "ime rogā gaṇḍā sallā; ",
+            "de": "‚Das sind <span class=\"ebt-matched\">Krankheiten, Eiterherde und Pfeil</span>e. ",
+            "en": "‘These are diseases, boils, and darts. ",
+            "matched": true
+          },
+          "mn75:25.8": {
+            "scid": "mn75:25.8",
+            "pli": "idha rogā gaṇḍā sallā aparisesā nirujjhanti. ",
+            "de": "Und hier ist es, wo <span class=\"ebt-matched\">Krankheiten, Eiterherde und Pfeil</span>e restlos aufhören.‘ ",
+            "en": "And here is where diseases, boils, and darts cease without anything left over.’ ",
+            "matched": true
+          }
+        },
+        "score": 3.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 75\nMit Māgaṇḍiya",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 263,
+          "de": 259,
+          "en": 262
         }
       },
       {
