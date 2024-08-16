@@ -41,11 +41,14 @@
     "pattern": "brach in tränen aus",
     "method": "phrase",
     "resultPattern": "\\bbrach in tränen aus",
-    "segsMatched": 7,
+    "segsMatched": 8,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn57_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn57_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn57_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn42/sn42.5_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn42/sn42.5_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn42/sn42.5_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn42/sn42.3_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn42/sn42.3_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn42/sn42.3_translation-en-sujato.json",
@@ -65,6 +68,7 @@
     ],
     "suttaRefs": [
       "mn57/de/sabbamitta",
+      "sn42.5/de/sabbamitta",
       "sn42.3/de/sabbamitta",
       "sn42.2/de/sabbamitta",
       "mn143/de/sabbamitta",
@@ -109,6 +113,38 @@
           "pli": 114,
           "de": 113,
           "en": 113
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn42/sn42.5_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn42/sn42.5_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn42/sn42.5_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn42.5",
+        "lang": "de",
+        "segMap": {
+          "sn42.5:4.1": {
+            "scid": "sn42.5:4.1",
+            "pli": "Evaṁ vutte, assāroho gāmaṇi parodi, assūni pavattesi. ",
+            "de": "Daraufhin weinte der Hauptmann der Reitertruppen und <span class=\"ebt-matched\">brach in Tränen aus</span>. ",
+            "en": "",
+            "matched": true
+          }
+        },
+        "score": 1.031,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 42.5\n1. Das Kapitel mit Ortsvorstehern\nEin Kavallerist",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 32,
+          "de": 31,
+          "en": 31
         }
       },
       {
