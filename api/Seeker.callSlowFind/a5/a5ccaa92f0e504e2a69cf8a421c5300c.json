@@ -41,7 +41,7 @@
     "pattern": "eight people",
     "method": "phrase",
     "resultPattern": "\\beight people",
-    "segsMatched": 10,
+    "segsMatched": 11,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an8/an8.60_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an8/an8.60_translation-en-sujato.json",
@@ -193,6 +193,12 @@
         "sutta_uid": "an8.61",
         "lang": "en",
         "segMap": {
+          "an8.61:1.1": {
+            "scid": "an8.61:1.1",
+            "pli": "“Aṭṭhime, bhikkhave, puggalā santo saṁvijjamānā lokasmiṁ. ",
+            "en": "“Mendicants, these <span class=\"ebt-matched\">eight people</span> are found in the world. ",
+            "matched": true
+          },
           "an8.61:9.1": {
             "scid": "an8.61:9.1",
             "pli": "Ime kho, bhikkhave, aṭṭha puggalā santo saṁvijjamānā lokasmin”ti. ",
@@ -200,12 +206,12 @@
             "matched": true
           }
         },
-        "score": 1.018,
+        "score": 2.036,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Numbered Discourses 8.61\n7. Earthquakes\nDesire",
-        "segsMatched": 1,
+        "segsMatched": 2,
         "langSegs": {
           "pli": 55,
           "en": 54
