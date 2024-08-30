@@ -41,7 +41,7 @@
     "pattern": "galaxie",
     "method": "phrase",
     "resultPattern": "\\bgalaxie",
-    "segsMatched": 27,
+    "segsMatched": 29,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an3/an3.80_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.80_translation-de-sabbamitta.json",
@@ -73,6 +73,12 @@
       "root/pli/ms/sutta/mn/mn49_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn49_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn49_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag20.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag20.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag20.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag16.9_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag16.9_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag16.9_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn1_translation-en-sujato.json",
@@ -91,6 +97,8 @@
       "sn52.6/de/sabbamitta",
       "sn47.28/de/sabbamitta",
       "mn49/de/sabbamitta",
+      "thag20.1/de/sabbamitta",
+      "thag16.9/de/sabbamitta",
       "dn1/de/sabbamitta",
       "an3.125/de/sabbamitta"
     ],
@@ -522,6 +530,38 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag16.9_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag16.9_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag16.9_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag16.9",
+        "lang": "de",
+        "segMap": {
+          "thag16.9:18.1": {
+            "scid": "thag16.9:18.1",
+            "pli": "Yassa muhuttena sahassadhā, ",
+            "de": "Dieser Mönch, der die <span class=\"ebt-matched\">Galaxie</span> ",
+            "en": "“The mendicant by whom the galaxy ",
+            "matched": true
+          }
+        },
+        "score": 1.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 16.9\nDas Zwanzigerbuch\n1. Das erste Kapitel\nAnuruddha",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 119,
+          "de": 118,
+          "en": 118
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/mn/mn49_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/mn/mn49_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/mn/mn49_translation-en-sujato.json"
@@ -550,6 +590,38 @@
           "pli": 164,
           "de": 159,
           "en": 161
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag20.1_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag20.1_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag20.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thag20.1",
+        "lang": "de",
+        "segMap": {
+          "thag20.1:42.1": {
+            "scid": "thag20.1:42.1",
+            "pli": "Yassa muhuttena sahassadhā loko, ",
+            "de": "„Dieser Mönch, der die <span class=\"ebt-matched\">Galaxie</span> ",
+            "en": "“The mendicant by whom the galaxy ",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Strophen der altehrwürdigen Mönche 20.1\nDas Sechzigerbuch\n1. Das erste Kapitel\nMahāmoggallāna",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 299,
+          "de": 294,
+          "en": 294
         }
       },
       {

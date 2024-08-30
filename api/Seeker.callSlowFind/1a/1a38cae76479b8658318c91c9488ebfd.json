@@ -41,7 +41,7 @@
     "pattern": "hausbesitzer.* aus stadt und land",
     "method": "phrase",
     "resultPattern": "\\bhausbesitzer.* aus stadt und land",
-    "segsMatched": 6,
+    "segsMatched": 13,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn122_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn122_translation-de-sabbamitta.json",
@@ -49,6 +49,15 @@
       "root/pli/ms/sutta/dn/dn5_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn5_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn5_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an8/an8.86_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an8/an8.86_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an8/an8.86_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an6/an6.42_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an6/an6.42_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an6/an6.42_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.30_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an5/an5.30_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an5/an5.30_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn18_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn18_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn18_translation-en-sujato.json"
@@ -56,6 +65,9 @@
     "suttaRefs": [
       "mn122/de/sabbamitta",
       "dn5/de/sabbamitta",
+      "an8.86/de/sabbamitta",
+      "an6.42/de/sabbamitta",
+      "an5.30/de/sabbamitta",
       "dn18/de/sabbamitta"
     ],
     "mlDocs": [
@@ -74,28 +86,28 @@
           "mn122:22.3": {
             "scid": "mn122:22.3",
             "pli": "Tassa tathāvūpakaṭṭhassa viharato anvāvattanti brāhmaṇagahapatikā negamā ceva jānapadā ca. ",
-            "de": "Während er dort zurückgezogen meditiert, wird er von einem Strom von Brahmanen und <span class=\"ebt-matched\">Hausbesitzern aus Stadt und Land</span> besucht. ",
+            "de": "Während er dort zurückgezogen meditiert, wird er von einem Strom von Brahmanen und <span class=\"ebt-matched\">Hausbesitzern besucht, und ebenso von Menschen aus Stadt und Land</span>. ",
             "en": "While meditating withdrawn, they’re visited by a stream of brahmins and householders, and people of town and country. ",
             "matched": true
           },
           "mn122:23.4": {
             "scid": "mn122:23.4",
             "pli": "Tassa tathāvūpakaṭṭhassa viharato anvāvattanti brāhmaṇagahapatikā negamā ceva jānapadā ca. ",
-            "de": "Während er dort zurückgezogen meditiert, wird er von einem Strom von Brahmanen und <span class=\"ebt-matched\">Hausbesitzern aus Stadt und Land</span> besucht. ",
+            "de": "Während er dort zurückgezogen meditiert, wird er von einem Strom von Brahmanen und <span class=\"ebt-matched\">Hausbesitzern besucht, und ebenso von Menschen aus Stadt und Land</span>. ",
             "en": "While meditating withdrawn, they’re visited by a stream of brahmins and householders, and people of town and country. ",
             "matched": true
           },
           "mn122:24.4": {
             "scid": "mn122:24.4",
             "pli": "Tassa tathāvūpakaṭṭhassa viharato anvāvattanti brāhmaṇagahapatikā negamā ceva jānapadā ca. ",
-            "de": "Während er dort zurückgezogen meditiert, wird er von einem Strom von Brahmanen und <span class=\"ebt-matched\">Hausbesitzern aus Stadt und Land</span> besucht. ",
+            "de": "Während er dort zurückgezogen meditiert, wird er von einem Strom von Brahmanen und <span class=\"ebt-matched\">Hausbesitzern besucht, und ebenso von Menschen aus Stadt und Land</span>. ",
             "en": "While meditating withdrawn, he’s visited by a stream of brahmins and householders, and people of town and country. ",
             "matched": true
           },
           "mn122:24.8": {
             "scid": "mn122:24.8",
             "pli": "Tassa tathāvūpakaṭṭhassa viharato anvāvattanti brāhmaṇagahapatikā negamā ceva jānapadā ca. ",
-            "de": "Während er dort zurückgezogen meditiert, wird er von einem Strom von Brahmanen und <span class=\"ebt-matched\">Hausbesitzern aus Stadt und Land</span> besucht. ",
+            "de": "Während er dort zurückgezogen meditiert, wird er von einem Strom von Brahmanen und <span class=\"ebt-matched\">Hausbesitzern besucht, und ebenso von Menschen aus Stadt und Land</span>. ",
             "en": "While meditating withdrawn, they’re visited by a stream of brahmins and householders, and people of town and country. ",
             "matched": true
           }
@@ -114,6 +126,123 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/an/an5/an5.30_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an5/an5.30_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an5/an5.30_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an5.30",
+        "lang": "de",
+        "segMap": {
+          "an5.30:3.3": {
+            "scid": "an5.30:3.3",
+            "pli": "Yena yeneva dāni bhagavā gamissati taṁninnāva gamissanti brāhmaṇagahapatikā negamā ceva jānapadā ca. ",
+            "de": "Ganz gleich, wo der Buddha jetzt hingeht, dahin werden auch die Brahmanen und <span class=\"ebt-matched\">Hausbesitzer neigen, und ebenso die Menschen aus Stadt und Land</span>. ",
+            "en": "Wherever the Buddha now goes, the brahmins and householders, and people of town and country will incline the same way. ",
+            "matched": true
+          },
+          "an5.30:3.5": {
+            "scid": "an5.30:3.5",
+            "pli": "evamevaṁ kho, bhante, yena yeneva dāni bhagavā gamissati, taṁninnāva gamissanti brāhmaṇagahapatikā negamā ceva jānapadā ca. ",
+            "de": "Ebenso werden diese Brahmanen und <span class=\"ebt-matched\">Hausbesitzer dahin neigen, wo der Buddha jetzt hingeht, und ebenso die Menschen aus Stadt und Land</span>. ",
+            "en": "In the same way, wherever the Buddha now goes, the brahmins and householders, and people of town and country will incline the same way. ",
+            "matched": true
+          }
+        },
+        "score": 2.042,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 5.30\n3. Das Kapitel über fünf Faktoren\nMit Nāgita",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 48,
+          "de": 41,
+          "en": 46
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an6/an6.42_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an6/an6.42_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an6/an6.42_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an6.42",
+        "lang": "de",
+        "segMap": {
+          "an6.42:3.3": {
+            "scid": "an6.42:3.3",
+            "pli": "Yena yeneva dāni, bhante, bhagavā gamissati, tanninnāva bhavissanti brāhmaṇagahapatikā negamā ceva jānapadā ca. ",
+            "de": "Ganz gleich, wo der Buddha jetzt hingeht, dahin werden auch die Brahmanen und <span class=\"ebt-matched\">Hausbesitzer neigen, und ebenso die Menschen aus Stadt und Land</span>. ",
+            "en": "Wherever the Buddha now goes, the brahmins and householders, and people of town and country will incline the same way. ",
+            "matched": true
+          },
+          "an6.42:3.5": {
+            "scid": "an6.42:3.5",
+            "pli": "evamevaṁ kho, bhante, yena yeneva dāni bhagavā gamissati, tanninnāva bhavissanti brāhmaṇagahapatikā negamā ceva jānapadā ca. ",
+            "de": "Ebenso werden diese Brahmanen und <span class=\"ebt-matched\">Hausbesitzer dahin neigen, wo der Buddha jetzt hingeht, und ebenso die Menschen aus Stadt und Land</span>. ",
+            "en": "In the same way, wherever the Buddha now goes, the brahmins and householders, and people of town and country will incline the same way. ",
+            "matched": true
+          }
+        },
+        "score": 2.033,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 6.42\n4. Das Kapitel über Gottheiten\nMit Nāgita",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 60,
+          "de": 53,
+          "en": 58
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.86_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an8/an8.86_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an8/an8.86_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an8.86",
+        "lang": "de",
+        "segMap": {
+          "an8.86:3.3": {
+            "scid": "an8.86:3.3",
+            "pli": "Yena yeneva dāni, bhante, bhagavā gamissati tanninnāva bhavissanti brāhmaṇagahapatikā negamā ceva jānapadā ca. ",
+            "de": "Ganz gleich, wo der Buddha jetzt hingeht, dahin werden auch die Brahmanen und <span class=\"ebt-matched\">Hausbesitzer neigen, und ebenso die Menschen aus Stadt und Land</span>. ",
+            "en": "Wherever the Buddha now goes, the brahmins and householders, and people of town and country will incline the same way. ",
+            "matched": true
+          },
+          "an8.86:3.5": {
+            "scid": "an8.86:3.5",
+            "pli": "evamevaṁ kho, bhante, yena yeneva dāni bhagavā gamissati tanninnāva bhavissanti brāhmaṇagahapatikā negamā ceva jānapadā ca. ",
+            "de": "Ebenso werden diese Brahmanen und <span class=\"ebt-matched\">Hausbesitzer dahin neigen, wo der Buddha jetzt hingeht, und ebenso die Menschen aus Stadt und Land</span>. ",
+            "en": "In the same way, wherever the Buddha now goes, the brahmins and householders, and people of town and country will incline the same way. ",
+            "matched": true
+          }
+        },
+        "score": 2.031,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 8.86\n9. Das Kapitel über Achtsamkeit\nMit Nāgita",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 65,
+          "de": 64,
+          "en": 64
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/dn/dn5_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/dn/dn5_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/dn/dn5_translation-en-sujato.json"
@@ -124,20 +253,27 @@
         "sutta_uid": "dn5",
         "lang": "de",
         "segMap": {
+          "dn5:19.1": {
+            "scid": "dn5:19.1",
+            "pli": "Atha kho, brāhmaṇa, khattiyā ānuyantā negamā ceva jānapadā ca, amaccā pārisajjā negamā ceva jānapadā ca, brāhmaṇamahāsālā negamā ceva jānapadā ca, gahapatinecayikā negamā ceva jānapadā ca pahūtaṁ sāpateyyaṁ ādāya rājānaṁ mahāvijitaṁ upasaṅkamitvā evamāhaṁsu: ",
+            "de": "Dann kamen die adligen Lehnsleute, die Minister und Berater, die reichen Brahmanen und die gutsituierten <span class=\"ebt-matched\">Hausbesitzer aus Stadt und Land</span> zum König, brachten eine Fülle an Reichtümern und sagten: ",
+            "en": "Then the aristocrat vassals, ministers and councillors, well-to-do brahmins, and well-off householders came to the king bringing abundant wealth and said, ",
+            "matched": true
+          },
           "dn5:20.4": {
             "scid": "dn5:20.4",
             "pli": "Uttarena yaññavāṭassa gahapatinecayikā negamā ceva jānapadā ca dānāni paṭṭhapesuṁ. ",
-            "de": "Die gutsituierten <span class=\"ebt-matched\">Hausbesitzer aus Stadt und Land</span> bauten nördlich der Opfergrube ihre Spenden auf. ",
+            "de": "Die gutsituierten <span class=\"ebt-matched\">Hausbesitzer aus Stadt und Land</span> bauten nördlich der Opferanlage ihre Spenden auf. ",
             "en": "The well-off householders of town and country set up gifts to the north of the sacrificial enclosure. ",
             "matched": true
           }
         },
-        "score": 1.003,
+        "score": 2.005,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Lange Lehrreden 5\nMit Kūṭadanta",
-        "segsMatched": 1,
+        "segsMatched": 2,
         "langSegs": {
           "pli": 374,
           "de": 331,
@@ -159,7 +295,7 @@
           "dn18:4.7": {
             "scid": "dn18:4.7",
             "pli": "Ayaṁ kho panāpi ahosi rājā māgadho seniyo bimbisāro dhammiko dhammarājā hito brāhmaṇagahapatikānaṁ negamānañceva jānapadānañca. ",
-            "de": "Dieser König Seniya Bimbisāra von Magadha war ein gerechter und prinzipientreuer König, der den Brahmanen und <span class=\"ebt-matched\">Hausbesitzern aus Stadt und Land</span> Gutes tat. ",
+            "de": "Dieser König Seniya Bimbisāra von Magadha war ein gerechter und prinzipientreuer König, der den Brahmanen und <span class=\"ebt-matched\">Hausbesitzern Gutes tat, und ebenso den Menschen aus Stadt und Land</span>. ",
             "en": "That King Seniya Bimbisāra of Magadha was a just and principled king who benefited the brahmins and householders, and people of town and country. ",
             "matched": true
           }

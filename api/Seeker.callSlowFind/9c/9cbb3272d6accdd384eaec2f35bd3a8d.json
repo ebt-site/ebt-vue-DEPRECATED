@@ -41,18 +41,18 @@
     "pattern": "mit einem stock",
     "method": "phrase",
     "resultPattern": "\\bmit einem stock",
-    "segsMatched": 13,
+    "segsMatched": 15,
     "bilaraPaths": [
       "root/pli/ms/sutta/kn/ud/vagga2/ud2.3_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga2/ud2.3_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/ud/vagga2/ud2.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.27_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an3/an3.27_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an3/an3.27_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/dhp/dhp129-145_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/dhp/dhp129-145_translation-de-sabbamitta.json",
       "translation/en/suddhaso/sutta/kn/dhp/dhp129-145_translation-en-suddhaso.json",
       "translation/en/sujato/sutta/kn/dhp/dhp129-145_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an3/an3.27_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an3/an3.27_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an3/an3.27_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn4/sn4.25_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn4/sn4.25_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn4/sn4.25_translation-en-sujato.json",
@@ -71,18 +71,22 @@
       "root/pli/ms/sutta/kn/thig/thig13.3_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thig/thig13.3_translation-de-sabbamitta.json",
       "translation/en/soma/sutta/kn/thig/thig13.3_translation-en-soma.json",
-      "translation/en/sujato/sutta/kn/thig/thig13.3_translation-en-sujato.json"
+      "translation/en/sujato/sutta/kn/thig/thig13.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.25_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an3/an3.25_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an3/an3.25_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "ud2.3/de/sabbamitta",
-      "dhp129-145/de/sabbamitta",
       "an3.27/de/sabbamitta",
+      "dhp129-145/de/sabbamitta",
       "sn4.25/de/sabbamitta",
       "sn4.24/de/sabbamitta",
       "mn49/de/sabbamitta",
       "mn35/de/sabbamitta",
       "mn21/de/sabbamitta",
-      "thig13.3/de/sabbamitta"
+      "thig13.3/de/sabbamitta",
+      "an3.25/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -107,14 +111,14 @@
           "ud2.3:3.3": {
             "scid": "ud2.3:3.3",
             "pli": "Attano sukhamesāno, ",
-            "de": "<span class=\"ebt-matched\">mit einem Stock</span> verletzt, ",
+            "de": "<span class=\"ebt-matched\">mit einem Stock</span> wehtut, ",
             "en": "in search of your own happiness, ",
             "matched": true
           },
           "ud2.3:4.3": {
             "scid": "ud2.3:4.3",
             "pli": "Attano sukhamesāno, ",
-            "de": "nicht <span class=\"ebt-matched\">mit einem Stock</span> verletzt, ",
+            "de": "nicht <span class=\"ebt-matched\">mit einem Stock</span> wehtut, ",
             "en": "in search of your own happiness, ",
             "matched": true
           }
@@ -143,6 +147,13 @@
         "sutta_uid": "an3.27",
         "lang": "de",
         "segMap": {
+          "an3.27:2.4": {
+            "scid": "an3.27:2.4",
+            "pli": "Seyyathāpi, bhikkhave, duṭṭhāruko kaṭṭhena vā kaṭhalāya vā ghaṭṭito bhiyyoso mattāya āsavaṁ deti; ",
+            "de": "Wie eine eiternde Wunde: Wenn man <span class=\"ebt-matched\">mit einem Stock</span> oder Stein darauf drückt, entleert sie noch mehr Eiter. ",
+            "en": "They’re like a festering sore, which, when you hit it with a stick or a stone, discharges even more. ",
+            "matched": true
+          },
           "an3.27:2.6": {
             "scid": "an3.27:2.6",
             "pli": "seyyathāpi, bhikkhave, tindukālātaṁ kaṭṭhena vā kaṭhalāya vā ghaṭṭitaṁ bhiyyoso mattāya cicciṭāyati ciṭiciṭāyati; ",
@@ -158,12 +169,12 @@
             "matched": true
           }
         },
-        "score": 2.044,
+        "score": 3.067,
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
         "title": "Nummerierte Lehrreden 3.27\n3. Das Kapitel über Menschen\nAngewidert",
-        "segsMatched": 2,
+        "segsMatched": 3,
         "langSegs": {
           "pli": 45,
           "de": 44,
@@ -186,14 +197,14 @@
           "dhp131:3": {
             "scid": "dhp131:3",
             "pli": "Attano sukhamesāno, ",
-            "de": "<span class=\"ebt-matched\">mit einem Stock</span> verletzt, ",
+            "de": "<span class=\"ebt-matched\">mit einem Stock</span> wehtut, ",
             "en": "in search of your own happiness, ",
             "matched": true
           },
           "dhp132:3": {
             "scid": "dhp132:3",
             "pli": "Attano sukhamesāno, ",
-            "de": "nicht <span class=\"ebt-matched\">mit einem Stock</span> verletzt, ",
+            "de": "nicht <span class=\"ebt-matched\">mit einem Stock</span> wehtut, ",
             "en": "in search of your own happiness, ",
             "matched": true
           }
@@ -208,6 +219,38 @@
           "pli": 85,
           "de": 73,
           "en": 74
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an3/an3.25_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an3/an3.25_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an3/an3.25_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an3.25",
+        "lang": "de",
+        "segMap": {
+          "an3.25:1.7": {
+            "scid": "an3.25:1.7",
+            "pli": "Seyyathāpi, bhikkhave, duṭṭhāruko kaṭṭhena vā kaṭhalāya vā ghaṭṭito bhiyyoso mattāya āsavaṁ deti; ",
+            "de": "Wie eine eiternde Wunde: Wenn man <span class=\"ebt-matched\">mit einem Stock</span> oder Stein darauf drückt, entleert sie noch mehr Eiter. ",
+            "en": "They’re like a festering sore, which, when you hit it with a stick or a stone, discharges even more. ",
+            "matched": true
+          }
+        },
+        "score": 1.04,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 3.25\n3. Das Kapitel über Menschen\nWie Diamant",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 25,
+          "de": 24,
+          "en": 24
         }
       },
       {
