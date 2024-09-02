@@ -41,7 +41,7 @@
     "pattern": "conscience and prudence",
     "method": "phrase",
     "resultPattern": "\\bconscience and prudence",
-    "segsMatched": 78,
+    "segsMatched": 79,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an2/an2.180-229_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an2/an2.180-229_translation-en-sujato.json",
@@ -87,6 +87,8 @@
       "translation/en/sujato/sutta/sn/sn16/sn16.11_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag18.1_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thag/thag18.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ja/ja6_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/ja/ja6_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/cp/cp9_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/cp/cp9_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an7/an7.7_root-pli-ms.json",
@@ -131,6 +133,7 @@
       "an10.105/en/sujato",
       "sn16.11/en/sujato",
       "thag18.1/en/sujato",
+      "ja6/en/sujato",
       "cp9/en/sujato",
       "an7.7/en/sujato",
       "an7.6/en/sujato",
@@ -1030,6 +1033,35 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ja/ja6_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/ja/ja6_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ja6",
+        "lang": "en",
+        "segMap": {
+          "ja6:1.1": {
+            "scid": "ja6:1.1",
+            "pli": "“Hiriottappasampannā, ",
+            "en": "Endowed with <span class=\"ebt-matched\">conscience and prudence</span>, ",
+            "matched": true
+          }
+        },
+        "score": 1.111,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Stories of Past Lives\nThe Book of the Ones\nUnfailing\nGodly Qualities",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 9,
+          "en": 8
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an6/an6.33_root-pli-ms.json",
           "translation/en/sujato/sutta/an/an6/an6.33_translation-en-sujato.json"
         ],
@@ -1042,7 +1074,7 @@
           "an6.33:2.3": {
             "scid": "an6.33:2.3",
             "pli": "Hiriottappasampanno, ",
-            "en": "having both <span class=\"ebt-matched\">conscience and prudence</span>, ",
+            "en": "endowed with <span class=\"ebt-matched\">conscience and prudence</span>, ",
             "matched": true
           }
         },
@@ -1071,7 +1103,7 @@
           "an7.33:3.1": {
             "scid": "an7.33:3.1",
             "pli": "Hiriottappasampanno, ",
-            "en": "One with both <span class=\"ebt-matched\">conscience and prudence</span>, ",
+            "en": "endowed with <span class=\"ebt-matched\">conscience and prudence</span>, ",
             "matched": true
           }
         },
