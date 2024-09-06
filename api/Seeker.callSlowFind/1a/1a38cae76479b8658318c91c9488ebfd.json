@@ -41,8 +41,11 @@
     "pattern": "hausbesitzer.* aus stadt und land",
     "method": "phrase",
     "resultPattern": "\\bhausbesitzer.* aus stadt und land",
-    "segsMatched": 13,
+    "segsMatched": 23,
     "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn30_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn30_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn30_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn122_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn122_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn122_translation-en-sujato.json",
@@ -63,6 +66,7 @@
       "translation/en/sujato/sutta/dn/dn18_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "dn30/de/sabbamitta",
       "mn122/de/sabbamitta",
       "dn5/de/sabbamitta",
       "an8.86/de/sabbamitta",
@@ -71,6 +75,87 @@
       "dn18/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn30_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn30_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn30_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn30",
+        "lang": "de",
+        "segMap": {
+          "dn30:1.8.4": {
+            "scid": "dn30:1.8.4",
+            "pli": "mahāssa honti parivārā brāhmaṇagahapatikā negamajānapadā gaṇakamahāmattā anīkaṭṭhā dovārikā amaccā pārisajjā rājāno bhogiyā kumārā. ",
+            "de": "von Brahmanen und <span class=\"ebt-matched\">Hausbesitzern, Menschen aus Stadt und Land</span>, Schatzmeistern, Offizieren, Wachleuten, Ministern, Räten, Herrschern, Nutznießern von Steuern und Prinzen. ",
+            "en": "of brahmins and householders, people of town and country, finance ministers, military officers, guardsmen, ministers, councillors, rulers, tax beneficiaries, and princes. ",
+            "matched": true
+          },
+          "dn30:1.17.3": {
+            "scid": "dn30:1.17.3",
+            "pli": "Susaṅgahitaparijano hoti, susaṅgahitāssa honti brāhmaṇagahapatikā negamajānapadā gaṇakamahāmattā anīkaṭṭhā dovārikā amaccā pārisajjā rājāno bhogiyā kumārā. ",
+            "de": "Er hat eine Gefolgschaft von Brahmanen und <span class=\"ebt-matched\">Hausbesitzern, von Menschen aus Stadt und Land</span>, Schatzmeistern, Offizieren, Wachleuten, Minister, Räten, Herrschern, Nutznießern von Steuern und Prinzen – diese Gefolgschaft bildet eine Gemeinschaft, fühlt sich verbunden und ist gut geführt. ",
+            "en": "His retinue is inclusive, cohesive, and well-managed. This includes brahmins and householders, people of town and country, finance ministers, military officers, guardsmen, ministers, councillors, rulers, tax beneficiaries, and princes. ",
+            "matched": true
+          },
+          "dn30:2.11.3": {
+            "scid": "dn30:2.11.3",
+            "pli": "Piyadassano hoti bahuno janassa, piyo hoti manāpo brāhmaṇagahapatikānaṁ negamajānapadānaṁ gaṇakamahāmattānaṁ anīkaṭṭhānaṁ dovārikānaṁ amaccānaṁ pārisajjānaṁ rājūnaṁ bhogiyānaṁ kumārānaṁ. ",
+            "de": "Viele Menschen betrachten ihn mit freundlichen Augen. Er ist den Brahmanen und <span class=\"ebt-matched\">Hausbesitzern, den Menschen aus Stadt und Land</span>, den Schatzmeistern, Offizieren, Wachleuten, Ministern, Räten, Herrschern, Nutznießern von Steuern und Prinzen lieb und teuer. ",
+            "en": "The people look on him with kindly eyes. He is dear and beloved to the brahmins and householders, people of town and country, finance ministers, military officers, guardsmen, ministers, councillors, rulers, tax beneficiaries, and princes. ",
+            "matched": true
+          },
+          "dn30:2.14.3": {
+            "scid": "dn30:2.14.3",
+            "pli": "Mahāssa jano anvāyiko hoti, brāhmaṇagahapatikā negamajānapadā gaṇakamahāmattā anīkaṭṭhā dovārikā amaccā pārisajjā rājāno bhogiyā kumārā. ",
+            "de": "Er hat eine Gefolgschaft von Brahmanen und <span class=\"ebt-matched\">Hausbesitzern, von Menschen aus Stadt und Land</span>, Schatzmeistern, Offizieren, Wachleuten, Ministern, Räten, Herrschern, Nutznießern von Steuern und Prinzen. ",
+            "en": "He has a large following of brahmins and householders, people of town and country, finance ministers, military officers, guardsmen, ministers, councillors, rulers, tax beneficiaries, and princes. ",
+            "matched": true
+          },
+          "dn30:2.17.3": {
+            "scid": "dn30:2.17.3",
+            "pli": "Mahāssa jano upavattati, brāhmaṇagahapatikā negamajānapadā gaṇakamahāmattā anīkaṭṭhā dovārikā amaccā pārisajjā rājāno bhogiyā kumārā. ",
+            "de": "Er hat unter den Brahmanen und <span class=\"ebt-matched\">Hausbesitzern, den Menschen aus Stadt und Land</span>, Schatzmeistern, Offizieren, Wachleuten, Ministern, Räten, Herrschern, Nutznießern von Steuern und Prinzen viele enge Anhänger. ",
+            "en": "He has many close adherents among the brahmins and householders, people of town and country, finance ministers, military officers, guardsmen, ministers, councillors, rulers, tax beneficiaries, and princes. ",
+            "matched": true
+          },
+          "dn30:2.20.3": {
+            "scid": "dn30:2.20.3",
+            "pli": "Abhejjapariso hoti, abhejjāssa honti parisā, brāhmaṇagahapatikā negamajānapadā gaṇakamahāmattā anīkaṭṭhā dovārikā amaccā pārisajjā rājāno bhogiyā kumārā. ",
+            "de": "Seine Gefolgschaft von Brahmanen und <span class=\"ebt-matched\">Hausbesitzern, von Menschen aus Stadt und Land</span>, Schatzmeistern, Offizieren, Wachleuten, Ministern, Räten, Herrschern, Nutznießern von Steuern und Prinzen – diese Gefolgschaft kann nicht gespalten werden. ",
+            "en": "His retinue cannot be divided. This includes brahmins and householders, people of town and country, finance ministers, military officers, guardsmen, ministers, councillors, rulers, tax beneficiaries, and princes. ",
+            "matched": true
+          },
+          "dn30:2.23.3": {
+            "scid": "dn30:2.23.3",
+            "pli": "Ādeyyavāco hoti, ādiyantissa vacanaṁ brāhmaṇagahapatikā negamajānapadā gaṇakamahāmattā anīkaṭṭhā dovārikā amaccā pārisajjā rājāno bhogiyā kumārā. ",
+            "de": "Er hat eine überzeugende Stimme. Seine Stimme überzeugt  Brahmanen und <span class=\"ebt-matched\">Hausbesitzer, Menschen aus Stadt und Land</span>, Schatzmeister, Offiziere, Wachleute, Minister, Räte, Herrscher, Nutznießer von Steuern und Prinzen. ",
+            "en": "He has a persuasive voice. His words are persuasive to brahmins and householders, people of town and country, finance ministers, military officers, guardsmen, ministers, councillors, rulers, tax beneficiaries, and princes. ",
+            "matched": true
+          },
+          "dn30:2.29.7": {
+            "scid": "dn30:2.29.7",
+            "pli": "Suciparivāro hoti sucissa honti parivārā brāhmaṇagahapatikā negamajānapadā gaṇakamahāmattā anīkaṭṭhā dovārikā amaccā pārisajjā rājāno bhogiyā kumārā. ",
+            "de": "Seine Gefolgschaft von Brahmanen und <span class=\"ebt-matched\">Hausbesitzern, von Menschen aus Stadt und Land</span>, Schatzmeistern, Offizieren, Wachleuten, Ministern, Räten, Herrschern, Nutznießern von Steuern und Prinzen – diese Gefolgschaft ist rein. ",
+            "en": "His retinue is pure. This includes brahmins and householders, people of town and country, finance ministers, military officers, guardsmen, ministers, councillors, rulers, tax beneficiaries, and princes. ",
+            "matched": true
+          }
+        },
+        "score": 8.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 30\nDie Kennzeichen eines großen Mannes",
+        "segsMatched": 8,
+        "langSegs": {
+          "pli": 721,
+          "de": 716,
+          "en": 720
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/mn/mn122_root-pli-ms.json",
@@ -122,6 +207,59 @@
           "pli": 172,
           "de": 170,
           "en": 171
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn5_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn5_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn5_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn5",
+        "lang": "de",
+        "segMap": {
+          "dn5:12.1": {
+            "scid": "dn5:12.1",
+            "pli": "Tena hi bhavaṁ rājā ye bhoto rañño janapade khattiyā ānuyantā negamā ceva jānapadā ca te bhavaṁ rājā āmantayataṁ: ‘icchāmahaṁ, bho, mahāyaññaṁ yajituṁ, anujānantu me bhavanto yaṁ mama assa dīgharattaṁ hitāya sukhāyā’ti. Ye bhoto rañño janapade amaccā pārisajjā negamā ceva jānapadā ca …pe… brāhmaṇamahāsālā negamā ceva jānapadā ca …pe… gahapatinecayikā negamā ceva jānapadā ca, te bhavaṁ rājā āmantayataṁ: ",
+            "de": "‚In diesem Fall kündige der König im ganzen Reich den adligen Lehnsleuten, den Ministern und Räten, den reichen Brahmanen und den gutsituierten <span class=\"ebt-matched\">Hausbesitzern aus Stadt und Land</span> an: ",
+            "en": "‘In that case, let the king announce this throughout the realm to the aristocrat vassals of both town and country; the ministers and councillors of both town and country; the well-to-do brahmins of both town and country; and the well-off householders of both town and country. ",
+            "matched": true
+          },
+          "dn5:17.9": {
+            "scid": "dn5:17.9",
+            "pli": "‘rājā kho mahāvijito mahāyaññaṁ yajati, no ca kho tassa āmantitā amaccā pārisajjā negamā ceva jānapadā ca …pe… brāhmaṇamahāsālā negamā ceva jānapadā ca …pe… gahapatinecayikā negamā ceva jānapadā ca, atha ca pana bhavaṁ rājā evarūpaṁ mahāyaññaṁ yajatī’ti. ",
+            "de": "„Der König Mahāvijita begeht ein großes Opfer, aber er hat es nicht den Ministern und Räten, den reichen Brahmanen und den gutsituierten <span class=\"ebt-matched\">Hausbesitzern aus Stadt und Land</span> angekündigt. Das ist die Art von großem Opfer, die der König begeht.“ ",
+            "en": "“King Mahāvijita performs a great sacrifice, but he did not announce it to the aristocrat vassals; the ministers and councillors; the well-to-do brahmins; and the well-off householders. That’s the kind of great sacrifice that this king performs.” ",
+            "matched": true
+          },
+          "dn5:19.1": {
+            "scid": "dn5:19.1",
+            "pli": "Atha kho, brāhmaṇa, khattiyā ānuyantā negamā ceva jānapadā ca, amaccā pārisajjā negamā ceva jānapadā ca, brāhmaṇamahāsālā negamā ceva jānapadā ca, gahapatinecayikā negamā ceva jānapadā ca pahūtaṁ sāpateyyaṁ ādāya rājānaṁ mahāvijitaṁ upasaṅkamitvā evamāhaṁsu: ",
+            "de": "Dann kamen die adligen Lehnsleute, die Minister und Räte, die reichen Brahmanen und die gutsituierten <span class=\"ebt-matched\">Hausbesitzer aus Stadt und Land</span> zum König, brachten eine Fülle an Reichtümern und sagten: ",
+            "en": "Then the aristocrat vassals, ministers and councillors, well-to-do brahmins, and well-off householders came to the king bringing abundant wealth and said, ",
+            "matched": true
+          },
+          "dn5:20.4": {
+            "scid": "dn5:20.4",
+            "pli": "Uttarena yaññavāṭassa gahapatinecayikā negamā ceva jānapadā ca dānāni paṭṭhapesuṁ. ",
+            "de": "Die gutsituierten <span class=\"ebt-matched\">Hausbesitzer aus Stadt und Land</span> bauten nördlich der Opferanlage ihre Spenden auf. ",
+            "en": "The well-off householders of town and country set up gifts to the north of the sacrificial enclosure. ",
+            "matched": true
+          }
+        },
+        "score": 4.011,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Lange Lehrreden 5\nMit Kūṭadanta",
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 374,
+          "de": 331,
+          "en": 373
         }
       },
       {
@@ -239,45 +377,6 @@
           "pli": 65,
           "de": 64,
           "en": 64
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/dn/dn5_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/dn/dn5_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/dn/dn5_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "dn5",
-        "lang": "de",
-        "segMap": {
-          "dn5:19.1": {
-            "scid": "dn5:19.1",
-            "pli": "Atha kho, brāhmaṇa, khattiyā ānuyantā negamā ceva jānapadā ca, amaccā pārisajjā negamā ceva jānapadā ca, brāhmaṇamahāsālā negamā ceva jānapadā ca, gahapatinecayikā negamā ceva jānapadā ca pahūtaṁ sāpateyyaṁ ādāya rājānaṁ mahāvijitaṁ upasaṅkamitvā evamāhaṁsu: ",
-            "de": "Dann kamen die adligen Lehnsleute, die Minister und Berater, die reichen Brahmanen und die gutsituierten <span class=\"ebt-matched\">Hausbesitzer aus Stadt und Land</span> zum König, brachten eine Fülle an Reichtümern und sagten: ",
-            "en": "Then the aristocrat vassals, ministers and councillors, well-to-do brahmins, and well-off householders came to the king bringing abundant wealth and said, ",
-            "matched": true
-          },
-          "dn5:20.4": {
-            "scid": "dn5:20.4",
-            "pli": "Uttarena yaññavāṭassa gahapatinecayikā negamā ceva jānapadā ca dānāni paṭṭhapesuṁ. ",
-            "de": "Die gutsituierten <span class=\"ebt-matched\">Hausbesitzer aus Stadt und Land</span> bauten nördlich der Opferanlage ihre Spenden auf. ",
-            "en": "The well-off householders of town and country set up gifts to the north of the sacrificial enclosure. ",
-            "matched": true
-          }
-        },
-        "score": 2.005,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Lange Lehrreden 5\nMit Kūṭadanta",
-        "segsMatched": 2,
-        "langSegs": {
-          "pli": 374,
-          "de": 331,
-          "en": 373
         }
       },
       {
