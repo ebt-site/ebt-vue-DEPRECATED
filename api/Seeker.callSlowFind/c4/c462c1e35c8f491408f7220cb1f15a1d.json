@@ -41,7 +41,7 @@
     "pattern": "schneckenhornbläser",
     "method": "phrase",
     "resultPattern": "\\bschneckenhornbläser",
-    "segsMatched": 9,
+    "segsMatched": 10,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn23_translation-de-sabbamitta.json",
@@ -51,12 +51,16 @@
       "translation/en/sujato/sutta/sn/sn42/sn42.8_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn13_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn13_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn13_translation-en-sujato.json"
+      "translation/en/sujato/sutta/dn/dn13_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn77_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn77_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn77_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "dn23/de/sabbamitta",
       "sn42.8/de/sabbamitta",
-      "dn13/de/sabbamitta"
+      "dn13/de/sabbamitta",
+      "mn77/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -195,6 +199,38 @@
           "pli": 280,
           "de": 249,
           "en": 278
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn77_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn77_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn77_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn77",
+        "lang": "de",
+        "segMap": {
+          "mn77:32.2": {
+            "scid": "mn77:32.2",
+            "pli": "Seyyathāpi, udāyi, balavā saṅkhadhamo appakasireneva cātuddisā viññāpeyya; ",
+            "de": "Wie wenn da ein machtvoller <span class=\"ebt-matched\">Schneckenhornbläser</span> wäre: Er würde sich mühelos in allen vier Himmelsrichtungen Gehör verschaffen. ",
+            "en": "Suppose there was a powerful horn blower. They’d easily make themselves heard in the four quarters. ",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 77\nDie längere Lehrrede mit Sakuludāyī",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 390,
+          "de": 360,
+          "en": 373
         }
       }
     ],

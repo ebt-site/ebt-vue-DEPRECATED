@@ -41,7 +41,7 @@
     "pattern": "werden von.* erhalten",
     "method": "keywords",
     "resultPattern": "\\bwerden|\\bvon.*|\\berhalten",
-    "segsMatched": 9,
+    "segsMatched": 10,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
@@ -176,9 +176,9 @@
       "root/pli/ms/sutta/mn/mn53_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn53_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn53_translation-en-sujato.json",
-      "root/pli/ms/sutta/mn/mn7_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/mn/mn7_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/mn/mn7_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn76_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn76_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn76_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn82_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn82_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn82_translation-en-sujato.json",
@@ -194,7 +194,8 @@
       "sn12.12/de/sabbamitta",
       "sn12.63/de/sabbamitta",
       "sn12.64/de/sabbamitta",
-      "mn38/de/sabbamitta"
+      "mn38/de/sabbamitta",
+      "mn76/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -351,6 +352,38 @@
           "pli": 73,
           "de": 72,
           "en": 72
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn76_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn76_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn76_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn76",
+        "lang": "de",
+        "segMap": {
+          "mn76:21.4": {
+            "scid": "mn76:21.4",
+            "pli": "So ‘kimidan’ti puṭṭho samāno ‘suññaṁ me agāraṁ pavisitabbaṁ ahosi’, tena pāvisiṁ; ‘piṇḍampi aladdhabbaṁ ahosi’, tena nālatthaṁ; ‘kukkurena ḍaṁsitabbaṁ ahosi’, tenamhi daṭṭho; ‘caṇḍena hatthinā samāgantabbaṁ ahosi’, tena samāgamiṁ; ‘caṇḍena assena samāgantabbaṁ ahosi’, tena samāgamiṁ; ‘caṇḍena goṇena samāgantabbaṁ ahosi’, tena samāgamiṁ; ‘itthiyāpi purisassapi nāmampi gottampi pucchitabbaṁ ahosi’, tena pucchiṁ; ‘gāmassapi nigamassapi nāmampi maggampi pucchitabbaṁ ahosi’, tena pucchinti. ",
+            "de": "Wenn er gefragt wird: ‚Warum ist das so?‘, antwortet er: ‚Ich musste ein leeres Haus betreten, daher betrat ich es. Ich musste kein Almosen <span class=\"ebt-matched\">erhalten</span>, daher erhielt ich keins. Ich musste <span class=\"ebt-matched\">von einem Hund gebissen werden, daher wurde ich gebissen. Ich musste einem wilden Elefanten begegnen, einem wilden Pferd, einer wilden Kuh, daher begegnete ich ihnen. Ich musste nach dem Namen und Stamm einer Frau oder eines Mannes fragen, daher fragte ich. Ich musste nach dem Namen eines Dorfes oder einer Stadt fragen und nach dem Weg dorthin, daher fragte ich.‘ </span>",
+            "en": "When asked, ‘Why is this?’ they answer: ‘I had to enter an empty house, that’s why I entered it. I had to get no almsfood, that’s why I got none. I had to get bitten by a dog, that’s why I was bitten. I had to encounter a wild elephant, a wild horse, and a wild cow, that’s why I encountered them. I had to ask the name and clan of a woman or man, that’s why I asked. I had to ask the name and path to a village or town, that’s why I asked.’ ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 76\nMit Sandaka",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 240,
+          "de": 233,
+          "en": 239
         }
       },
       {

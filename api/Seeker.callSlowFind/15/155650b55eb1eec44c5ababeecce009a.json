@@ -41,11 +41,14 @@
     "pattern": "schmuckstück aus beryll von natürlicher",
     "method": "phrase",
     "resultPattern": "\\bschmuckstück aus beryll von natürlicher",
-    "segsMatched": 5,
+    "segsMatched": 6,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn2/sn2.29_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn2/sn2.29_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn2/sn2.29_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn77_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn77_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn77_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json",
@@ -61,6 +64,7 @@
     ],
     "suttaRefs": [
       "sn2.29/de/sabbamitta",
+      "mn77/de/sabbamitta",
       "dn2/de/sabbamitta",
       "dn17/de/sabbamitta",
       "dn14/de/sabbamitta",
@@ -129,6 +133,38 @@
           "pli": 285,
           "de": 227,
           "en": 227
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn77_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn77_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn77_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn77",
+        "lang": "de",
+        "segMap": {
+          "mn77:29.4": {
+            "scid": "mn77:29.4",
+            "pli": "Seyyathāpi, udāyi, maṇi veḷuriyo subho jātimā aṭṭhaṁso suparikammakato accho vippasanno sabbākārasampanno; ",
+            "de": "Wie ein <span class=\"ebt-matched\">Schmuckstück aus Beryll von natürlicher</span> Schönheit, mit acht Facetten, gut gearbeitet, durchsichtig, klar und ungetrübt, mit allen guten Eigenschaften versehen, ",
+            "en": "Suppose there was a beryl gem that was naturally beautiful, eight-faceted, well-worked, transparent and clear, endowed with all good qualities. ",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 77\nDie längere Lehrrede mit Sakuludāyī",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 390,
+          "de": 360,
+          "en": 373
         }
       },
       {

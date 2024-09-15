@@ -41,7 +41,7 @@
     "pattern": "bemüht.*, damit",
     "method": "phrase",
     "resultPattern": "\\bbemüht.*, damit",
-    "segsMatched": 65,
+    "segsMatched": 69,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn49/sn49.1-12_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn49/sn49.1-12_translation-de-sabbamitta.json",
@@ -58,6 +58,9 @@
       "root/pli/ms/sutta/sn/sn43/sn43.12_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn43/sn43.12_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn43/sn43.12_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn77_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn77_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn77_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn141_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn141_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn141_translation-en-sujato.json",
@@ -104,6 +107,7 @@
       "sn48.10/de/sabbamitta",
       "sn45.8/de/sabbamitta",
       "sn43.12/de/sabbamitta",
+      "mn77/de/sabbamitta",
       "mn141/de/sabbamitta",
       "dn33/de/sabbamitta",
       "dn22/de/sabbamitta",
@@ -749,6 +753,59 @@
           "pli": 175,
           "de": 174,
           "en": 166
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn77_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn77_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn77_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn77",
+        "lang": "de",
+        "segMap": {
+          "mn77:16.2": {
+            "scid": "mn77:16.2",
+            "pli": "Idhudāyi, bhikkhu anuppannānaṁ pāpakānaṁ akusalānaṁ dhammānaṁ anuppādāya chandaṁ janeti, vāyamati, vīriyaṁ ārabhati, cittaṁ paggaṇhāti, padahati; ",
+            "de": "Da entwickelt ein Mönch Enthusiasmus, setzt sich ein, rüttelt seine Energie auf, gebraucht seinen Geist und <span class=\"ebt-matched\">bemüht sich, damit</span> schlechte, untaugliche Eigenschaften nicht aufkommen. ",
+            "en": "It’s when a mendicant generates enthusiasm, tries, makes an effort, exerts the mind, and strives so that bad, unskillful qualities don’t arise. ",
+            "matched": true
+          },
+          "mn77:16.3": {
+            "scid": "mn77:16.3",
+            "pli": "uppannānaṁ pāpakānaṁ akusalānaṁ dhammānaṁ pahānāya chandaṁ janeti, vāyamati, vīriyaṁ ārabhati, cittaṁ paggaṇhāti, padahati; ",
+            "de": "Er entwickelt Enthusiasmus, setzt sich ein, rüttelt seine Energie auf, gebraucht seinen Geist und <span class=\"ebt-matched\">bemüht sich, damit</span> schlechte, untaugliche Eigenschaften, die aufgekommen sind, aufgegeben werden. ",
+            "en": "They generate enthusiasm, try, make an effort, exert the mind, and strive so that bad, unskillful qualities that have arisen are given up. ",
+            "matched": true
+          },
+          "mn77:16.4": {
+            "scid": "mn77:16.4",
+            "pli": "anuppannānaṁ kusalānaṁ dhammānaṁ uppādāya chandaṁ janeti, vāyamati, vīriyaṁ ārabhati, cittaṁ paggaṇhāti, padahati; ",
+            "de": "Er entwickelt Enthusiasmus, setzt sich ein, rüttelt seine Energie auf, gebraucht seinen Geist und <span class=\"ebt-matched\">bemüht sich, damit</span> taugliche Eigenschaften aufkommen. ",
+            "en": "They generate enthusiasm, try, make an effort, exert the mind, and strive so that skillful qualities arise. ",
+            "matched": true
+          },
+          "mn77:16.5": {
+            "scid": "mn77:16.5",
+            "pli": "uppannānaṁ kusalānaṁ dhammānaṁ ṭhitiyā asammosāya bhiyyobhāvāya vepullāya bhāvanāya pāripūriyā chandaṁ janeti, vāyamati, vīriyaṁ ārabhati, cittaṁ paggaṇhāti, padahati. ",
+            "de": "Er entwickelt Enthusiasmus, setzt sich ein, rüttelt seine Energie auf, gebraucht seinen Geist und <span class=\"ebt-matched\">bemüht sich, damit</span> taugliche Eigenschaften, die aufgekommen sind, bleiben, nicht verloren gehen, sondern anwachsen, reifen und sich vollständig entwickeln. ",
+            "en": "They generate enthusiasm, try, make an effort, exert the mind, and strive so that skillful qualities that have arisen remain, are not lost, but increase, mature, and are fulfilled by development. ",
+            "matched": true
+          }
+        },
+        "score": 4.01,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 77\nDie längere Lehrrede mit Sakuludāyī",
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 390,
+          "de": 360,
+          "en": 373
         }
       },
       {

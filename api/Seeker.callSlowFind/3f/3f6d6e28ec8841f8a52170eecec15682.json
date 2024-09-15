@@ -41,7 +41,7 @@
     "pattern": "selbst und setz.* andere herab",
     "method": "phrase",
     "resultPattern": "\\bselbst und setz.* andere herab",
-    "segsMatched": 25,
+    "segsMatched": 26,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn113_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn113_translation-de-sabbamitta.json",
@@ -61,6 +61,9 @@
       "root/pli/ms/sutta/dn/dn25_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn25_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn25_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn76_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn76_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn76_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.78_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.78_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an10/an10.78_translation-en-sujato.json"
@@ -72,6 +75,7 @@
       "mn60/de/sabbamitta",
       "mn15/de/sabbamitta",
       "dn25/de/sabbamitta",
+      "mn76/de/sabbamitta",
       "an10.78/de/sabbamitta"
     ],
     "mlDocs": [
@@ -423,6 +427,38 @@
           "pli": 17,
           "de": 16,
           "en": 16
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn76_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn76_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn76_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn76",
+        "lang": "de",
+        "segMap": {
+          "mn76:53.5": {
+            "scid": "mn76:53.5",
+            "pli": "Ime panājīvakā puttamatāya puttā attānañceva ukkaṁsenti, pare ca vambhenti tayo ceva niyyātāro paññapenti, seyyathidaṁ—",
+            "de": "Aber diese Ājīvakas, die Söhne von ihr, deren Söhne tot sind, verherrlichen sich <span class=\"ebt-matched\">selbst und setzen andere herab</span>. Und sie erkennen nur drei Mündige an: ",
+            "en": "But these Ājīvakas, sons of she whose sons are dead, glorify themselves and put others down. And they only recognize three who have been emancipated: ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 76\nMit Sandaka",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 240,
+          "de": 233,
+          "en": 239
         }
       }
     ],

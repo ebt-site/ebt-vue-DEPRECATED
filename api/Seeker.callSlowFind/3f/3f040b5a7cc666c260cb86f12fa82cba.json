@@ -41,7 +41,7 @@
     "pattern": "acht befreiungen",
     "method": "phrase",
     "resultPattern": "\\bacht befreiungen",
-    "segsMatched": 20,
+    "segsMatched": 21,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn15_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn15_translation-de-sabbamitta.json",
@@ -64,6 +64,9 @@
       "root/pli/ms/sutta/an/an4/an4.87_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.87_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.87_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn77_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn77_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn77_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag20.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag20.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag20.1_translation-en-sujato.json",
@@ -82,6 +85,7 @@
       "an4.90/de/sabbamitta",
       "an4.89/de/sabbamitta",
       "an4.87/de/sabbamitta",
+      "mn77/de/sabbamitta",
       "thag20.1/de/sabbamitta",
       "dn34/de/sabbamitta",
       "an4.189/de/sabbamitta"
@@ -411,6 +415,38 @@
           "pli": 19,
           "de": 18,
           "en": 18
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn77_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn77_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn77_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn77",
+        "lang": "de",
+        "segMap": {
+          "mn77:22.1": {
+            "scid": "mn77:22.1",
+            "pli": "Puna caparaṁ, udāyi, akkhātā mayā sāvakānaṁ paṭipadā, yathāpaṭipannā me sāvakā aṭṭha vimokkhe bhāventi. ",
+            "de": "Dann habe ich da meinen Schülern eine Übung erklärt, die sie benutzen, um die <span class=\"ebt-matched\">acht Befreiungen</span> zu entwickeln: ",
+            "en": "Furthermore, I have explained to my disciples a practice that they use to develop the eight liberations. ",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 77\nDie längere Lehrrede mit Sakuludāyī",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 390,
+          "de": 360,
+          "en": 373
         }
       },
       {

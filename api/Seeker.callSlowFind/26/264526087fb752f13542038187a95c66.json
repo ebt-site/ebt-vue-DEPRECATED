@@ -41,11 +41,14 @@
     "pattern": "zeig.* den weg",
     "method": "phrase",
     "resultPattern": "\\bzeig.* den weg",
-    "segsMatched": 3,
+    "segsMatched": 4,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn24/sn24.5_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn24/sn24.5_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn24/sn24.5_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn76_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn76_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn76_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/dhp/dhp273-289_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/dhp/dhp273-289_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/dhp/dhp273-289_translation-en-sujato.json",
@@ -55,6 +58,7 @@
     ],
     "suttaRefs": [
       "sn24.5/de/sabbamitta",
+      "mn76/de/sabbamitta",
       "dhp273-289/de/sabbamitta",
       "dn2/de/sabbamitta"
     ],
@@ -121,6 +125,38 @@
           "pli": 86,
           "de": 73,
           "en": 86
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn76_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn76_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn76_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn76",
+        "lang": "de",
+        "segMap": {
+          "mn76:7.5": {
+            "scid": "mn76:7.5",
+            "pli": "yāvāḷāhanā padāni paññāyanti. ",
+            "de": "Ihre Fußspuren <span class=\"ebt-matched\">zeigen den Weg</span> zum Friedhof. ",
+            "en": "Their footprints show the way to the cemetery. ",
+            "matched": true
+          }
+        },
+        "score": 1.004,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 76\nMit Sandaka",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 240,
+          "de": 233,
+          "en": 239
         }
       },
       {

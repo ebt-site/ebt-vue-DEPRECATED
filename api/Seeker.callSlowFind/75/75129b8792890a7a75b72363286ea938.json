@@ -41,8 +41,11 @@
     "pattern": "ohne grund oder ursache",
     "method": "phrase",
     "resultPattern": "\\bohne grund oder ursache",
-    "segsMatched": 12,
+    "segsMatched": 17,
     "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn76_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn76_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn76_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn24/sn24.7_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn24/sn24.7_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn24/sn24.7_translation-en-sujato.json",
@@ -66,6 +69,7 @@
       "translation/en/sujato/sutta/an/an3/an3.61_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "mn76/de/sabbamitta",
       "sn24.7/de/sabbamitta",
       "sn22.60/de/sabbamitta",
       "mn60/de/sabbamitta",
@@ -75,6 +79,66 @@
       "an3.61/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn76_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn76_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn76_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn76",
+        "lang": "de",
+        "segMap": {
+          "mn76:13.3": {
+            "scid": "mn76:13.3",
+            "pli": "ahetū appaccayā sattā saṅkilissanti; ",
+            "de": "Lebewesen werden <span class=\"ebt-matched\">ohne Grund oder Ursache</span> verunreinigt. ",
+            "en": "Sentient beings are corrupted without cause or reason. ",
+            "matched": true
+          },
+          "mn76:13.5": {
+            "scid": "mn76:13.5",
+            "pli": "ahetū appaccayā sattā visujjhanti; ",
+            "de": "Lebewesen werden <span class=\"ebt-matched\">ohne Grund oder Ursache</span> geläutert. ",
+            "en": "Sentient beings are purified without cause or reason. ",
+            "matched": true
+          },
+          "mn76:14.3": {
+            "scid": "mn76:14.3",
+            "pli": "natthi hetu, natthi paccayo sattānaṁ saṅkilesāya, ahetū appaccayā sattā saṅkilissanti. ",
+            "de": "‚Es gibt keinen Grund und keine Ursache für die Verunreinigung der Lebewesen. Lebewesen werden <span class=\"ebt-matched\">ohne Grund oder Ursache</span> verunreinigt. ",
+            "en": "",
+            "matched": true
+          },
+          "mn76:14.4": {
+            "scid": "mn76:14.4",
+            "pli": "Natthi hetu natthi paccayo sattānaṁ visuddhiyā, ahetū appaccayā sattā visujjhanti. ",
+            "de": "Es gibt keinen Grund und keine Ursache für die Läuterung der Lebewesen. Lebewesen werden <span class=\"ebt-matched\">ohne Grund oder Ursache</span> geläutert. ",
+            "en": "",
+            "matched": true
+          },
+          "mn76:14.7": {
+            "scid": "mn76:14.7",
+            "pli": "Ubhopi mayaṁ ettha samasamā sāmaññaṁ pattā, yo cāhaṁ na vadāmi ‘ubho ahetū appaccayā visujjhissāmā’ti. ",
+            "de": "Dennoch bin ich keiner, der sagt, wir würden beide <span class=\"ebt-matched\">ohne Grund oder Ursache</span> geläutert. ",
+            "en": "have attained exactly the same level. Yet I’m not one who says that both of us are purified without cause or reason. ",
+            "matched": true
+          }
+        },
+        "score": 5.021,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 76\nMit Sandaka",
+        "segsMatched": 5,
+        "langSegs": {
+          "pli": 240,
+          "de": 233,
+          "en": 239
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn24/sn24.7_root-pli-ms.json",

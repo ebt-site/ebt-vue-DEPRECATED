@@ -41,8 +41,11 @@
     "pattern": "von kopf bis fuß in ein weißes tuch",
     "method": "phrase",
     "resultPattern": "\\bvon kopf bis fuß in ein weißes tuch",
-    "segsMatched": 5,
+    "segsMatched": 6,
     "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn77_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn77_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn77_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn39_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn39_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn39_translation-en-sujato.json",
@@ -60,6 +63,7 @@
       "translation/en/sujato/sutta/an/an5/an5.28_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "mn77/de/sabbamitta",
       "mn39/de/sabbamitta",
       "mn119/de/sabbamitta",
       "dn2/de/sabbamitta",
@@ -193,6 +197,38 @@
           "pli": 285,
           "de": 227,
           "en": 227
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn77_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn77_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn77_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn77",
+        "lang": "de",
+        "segMap": {
+          "mn77:28.3": {
+            "scid": "mn77:28.3",
+            "pli": "Seyyathāpi, udāyi, puriso odātena vatthena sasīsaṁ pārupitvā nisinno assa, nāssa kiñci sabbāvato kāyassa odātena vatthena apphuṭaṁ assa; ",
+            "de": "Wie wenn jemand dasitzt, der <span class=\"ebt-matched\">von Kopf bis Fuß in ein weißes Tuch</span> gehüllt ist. Es gibt keinen Teil des Körpers, der nicht von dem weißen Tuch bedeckt wäre. ",
+            "en": "It’s like someone sitting wrapped from head to foot with white cloth. There’s no part of the body that’s not spread over with white cloth. ",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 77\nDie längere Lehrrede mit Sakuludāyī",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 390,
+          "de": 360,
+          "en": 373
         }
       },
       {

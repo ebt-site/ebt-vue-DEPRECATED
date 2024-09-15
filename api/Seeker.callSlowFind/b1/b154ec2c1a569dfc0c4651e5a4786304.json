@@ -41,7 +41,7 @@
     "pattern": "kraft des vertrauens",
     "method": "phrase",
     "resultPattern": "\\bkraft des vertrauens",
-    "segsMatched": 34,
+    "segsMatched": 35,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an7/an7.4_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an7/an7.4_translation-de-sabbamitta.json",
@@ -79,6 +79,9 @@
       "root/pli/ms/sutta/sn/sn43/sn43.12_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn43/sn43.12_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn43/sn43.12_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn77_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn77_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn77_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an7/an7.3_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an7/an7.3_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an7/an7.3_translation-en-sujato.json",
@@ -123,6 +126,7 @@
       "sn50.55-66/de/sabbamitta",
       "sn50.45-54/de/sabbamitta",
       "sn43.12/de/sabbamitta",
+      "mn77/de/sabbamitta",
       "an7.3/de/sabbamitta",
       "an6.4/de/sabbamitta",
       "an5.308-1152/de/sabbamitta",
@@ -921,6 +925,38 @@
           "pli": 131,
           "de": 70,
           "en": 130
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn77_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn77_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn77_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn77",
+        "lang": "de",
+        "segMap": {
+          "mn77:19.2": {
+            "scid": "mn77:19.2",
+            "pli": "Idhudāyi, bhikkhu saddhābalaṁ bhāveti upasamagāmiṁ sambodhagāmiṁ; ",
+            "de": "Da entwickelt ein Mönch die <span class=\"ebt-matched\">Kraft des Vertrauens</span>, ",
+            "en": "It’s when a mendicant develops the powers of faith, ",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 77\nDie längere Lehrrede mit Sakuludāyī",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 390,
+          "de": 360,
+          "en": 373
         }
       }
     ],

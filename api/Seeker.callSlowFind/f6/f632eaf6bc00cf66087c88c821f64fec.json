@@ -41,8 +41,11 @@
     "pattern": "zum töten",
     "method": "phrase",
     "resultPattern": "\\bzum töten",
-    "segsMatched": 10,
+    "segsMatched": 12,
     "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn76_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn76_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn76_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/dhp/dhp129-145_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/dhp/dhp129-145_translation-de-sabbamitta.json",
       "translation/en/suddhaso/sutta/kn/dhp/dhp129-145_translation-en-suddhaso.json",
@@ -73,6 +76,7 @@
       "translation/en/sujato/sutta/an/an3/an3.163-182_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "mn76/de/sabbamitta",
       "dhp129-145/de/sabbamitta",
       "snp3.11/de/sabbamitta",
       "iti27/de/sabbamitta",
@@ -122,6 +126,45 @@
           "pli": 85,
           "de": 73,
           "en": 74
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn76_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn76_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn76_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn76",
+        "lang": "de",
+        "segMap": {
+          "mn76:16.8": {
+            "scid": "mn76:16.8",
+            "pli": "Tattha natthi hantā vā ghātetā vā sotā vā sāvetā vā viññātā vā viññāpetā vā. ",
+            "de": "Und hier gibt es niemanden, der tötet oder andere <span class=\"ebt-matched\">zum Töten</span> anstiftet; niemanden, der lernt oder andere unterrichtet; niemanden, der versteht oder anderen hilft, zu verstehen. ",
+            "en": "And here there is no-one who kills or who makes others kill; no-one who learns or who educates others; no-one who understands or who helps others understand. ",
+            "matched": true
+          },
+          "mn76:17.11": {
+            "scid": "mn76:17.11",
+            "pli": "Tattha natthi hantā vā ghātetā vā sotā vā sāvetā vā viññātā vā viññāpetā vā. ",
+            "de": "Und hier gibt es niemanden, der tötet oder andere <span class=\"ebt-matched\">zum Töten</span> anstiftet; niemanden, der lernt oder andere unterrichtet; niemanden, der versteht oder anderen hilft, zu verstehen. ",
+            "en": "",
+            "matched": true
+          }
+        },
+        "score": 2.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 76\nMit Sandaka",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 240,
+          "de": 233,
+          "en": 239
         }
       },
       {

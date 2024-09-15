@@ -41,7 +41,7 @@
     "pattern": "spenden haben keinen sinn",
     "method": "phrase",
     "resultPattern": "\\bspenden haben keinen sinn",
-    "segsMatched": 20,
+    "segsMatched": 22,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn24/sn24.5_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn24/sn24.5_translation-de-sabbamitta.json",
@@ -49,6 +49,9 @@
       "root/pli/ms/sutta/sn/sn42/sn42.13_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn42/sn42.13_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn42/sn42.13_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn76_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn76_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn76_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn60_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn60_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn60_translation-en-sujato.json",
@@ -95,6 +98,7 @@
     "suttaRefs": [
       "sn24.5/de/sabbamitta",
       "sn42.13/de/sabbamitta",
+      "mn76/de/sabbamitta",
       "mn60/de/sabbamitta",
       "mn42/de/sabbamitta",
       "mn41/de/sabbamitta",
@@ -162,6 +166,45 @@
           "pli": 51,
           "de": 41,
           "en": 50
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn76_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn76_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn76_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn76",
+        "lang": "de",
+        "segMap": {
+          "mn76:7.2": {
+            "scid": "mn76:7.2",
+            "pli": "‘natthi dinnaṁ, natthi yiṭṭhaṁ, natthi hutaṁ, natthi sukatadukkaṭānaṁ kammānaṁ phalaṁ vipāko, natthi ayaṁ loko, natthi paroloko, natthi mātā, natthi pitā, natthi sattā opapātikā, natthi loke samaṇabrāhmaṇā sammaggatā sammāpaṭipannā ye imañca lokaṁ parañca lokaṁ sayaṁ abhiññā sacchikatvā pavedenti. ",
+            "de": "‚Geben, Opfer oder <span class=\"ebt-matched\">Spenden haben keinen Sinn</span>. Es gibt keine Frucht und kein Ergebnis von guten und schlechten Taten. Es gibt kein Leben nach dem Tod. So etwas wie Mutter und Vater oder Wesen, die durch unmittelbares Erscheinen wiedergeboren werden, gibt es nicht. Und es gibt keinen Asketen oder Brahmanen, der sich richtig benimmt, richtig übt, und der das Leben nach dem Tod erklärt, nachdem er es durch eigene Einsicht erkannt hat. ",
+            "en": "‘There’s no meaning in giving, sacrifice, or offerings. There’s no fruit or result of good and bad deeds. There’s no afterlife. There’s no such thing as mother and father, or beings that are reborn spontaneously. And there’s no ascetic or brahmin who is rightly comported and rightly practiced, and who describes the afterlife after realizing it with their own insight. ",
+            "matched": true
+          },
+          "mn76:8.3": {
+            "scid": "mn76:8.3",
+            "pli": "natthi dinnaṁ, natthi yiṭṭhaṁ, natthi hutaṁ, natthi sukatadukkaṭānaṁ kammānaṁ phalaṁ vipāko, natthi ayaṁ loko, natthi paroloko, natthi mātā, natthi pitā, natthi sattā opapātikā, natthi loke samaṇabrāhmaṇā sammaggatā sammāpaṭipannā ye imañca lokaṁ parañca lokaṁ sayaṁ abhiññā sacchikatvā pavedenti. ",
+            "de": "‚Geben, Opfer oder <span class=\"ebt-matched\">Spenden haben keinen Sinn</span>. Es gibt keine Frucht und kein Ergebnis von guten und schlechten Taten. Es gibt kein Leben nach dem Tod. So etwas wie Mutter und Vater oder Wesen, die durch unmittelbares Erscheinen wiedergeboren werden, gibt es nicht. Und es gibt keinen Asketen oder Brahmanen, der sich richtig benimmt, richtig übt, und der das Leben nach dem Tod erklärt, nachdem er es durch eigene Einsicht erkannt hat. ",
+            "en": "",
+            "matched": true
+          }
+        },
+        "score": 2.008,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 76\nMit Sandaka",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 240,
+          "de": 233,
+          "en": 239
         }
       },
       {

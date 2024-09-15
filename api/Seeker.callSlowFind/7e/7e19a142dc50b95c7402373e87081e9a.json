@@ -41,7 +41,7 @@
     "pattern": "konzept",
     "method": "phrase",
     "resultPattern": "\\bkonzept",
-    "segsMatched": 11,
+    "segsMatched": 15,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn64_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn64_translation-de-sabbamitta.json",
@@ -49,6 +49,12 @@
       "root/pli/ms/sutta/an/an4/an4.200_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.200_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.200_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.90_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn22/sn22.90_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.90_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn12/sn12.15_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn12/sn12.15_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.15_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.199_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.199_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.199_translation-en-sujato.json"
@@ -56,6 +62,8 @@
     "suttaRefs": [
       "mn64/de/sabbamitta",
       "an4.200/de/sabbamitta",
+      "sn22.90/de/sabbamitta",
+      "sn12.15/de/sabbamitta",
       "an4.199/de/sabbamitta"
     ],
     "mlDocs": [
@@ -209,6 +217,84 @@
           "pli": 22,
           "de": 21,
           "en": 21
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn12/sn12.15_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn12/sn12.15_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn12/sn12.15_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn12.15",
+        "lang": "de",
+        "segMap": {
+          "sn12.15:2.2": {
+            "scid": "sn12.15:2.2",
+            "pli": "Lokasamudayaṁ kho, kaccāna, yathābhūtaṁ sammappaññāya passato yā loke natthitā sā na hoti. ",
+            "de": "Wenn du jedoch den Ursprung der Welt wahrhaftig mit rechter Weisheit siehst, kommt das <span class=\"ebt-matched\">Konzept</span> des Nicht-Seins in Bezug auf die Welt nicht auf. ",
+            "en": "But when you truly see the origin of the world with right understanding, the concept of non-existence regarding the world does not occur. ",
+            "matched": true
+          },
+          "sn12.15:2.3": {
+            "scid": "sn12.15:2.3",
+            "pli": "Lokanirodhaṁ kho, kaccāna, yathābhūtaṁ sammappaññāya passato yā loke atthitā sā na hoti. ",
+            "de": "Und wenn du das Aufhören der Welt wahrhaftig mit rechter Weisheit siehst, kommt das <span class=\"ebt-matched\">Konzept</span> des Seins in Bezug auf die Welt nicht auf. ",
+            "en": "And when you truly see the cessation of the world with right understanding, the concept of existence regarding the world does not occur. ",
+            "matched": true
+          }
+        },
+        "score": 2.083,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 12.15\n2. Das Kapitel über Nahrung\nKaccānagotta",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 24,
+          "de": 23,
+          "en": 23
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.90_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn22/sn22.90_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.90_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn22.90",
+        "lang": "de",
+        "segMap": {
+          "sn22.90:9.3": {
+            "scid": "sn22.90:9.3",
+            "pli": "Lokasamudayaṁ kho, kaccāna, yathābhūtaṁ sammappaññāya passato yā loke natthitā, sā na hoti. ",
+            "de": "Wenn du jedoch den Ursprung der Welt wahrhaftig mit rechter Weisheit siehst, kommt das <span class=\"ebt-matched\">Konzept</span> des Nicht-Seins in Bezug auf die Welt nicht auf. ",
+            "en": "But when you truly see the origin of the world with right understanding, the concept of non-existence regarding the world does not occur. ",
+            "matched": true
+          },
+          "sn22.90:9.4": {
+            "scid": "sn22.90:9.4",
+            "pli": "Lokanirodhaṁ kho, kaccāna, yathābhūtaṁ sammappaññāya passato yā loke atthitā, sā na hoti. ",
+            "de": "Und wenn du das Aufhören der Welt wahrhaftig mit rechter Weisheit siehst, kommt das <span class=\"ebt-matched\">Konzept</span> des Seins in Bezug auf die Welt nicht auf. ",
+            "en": "And when you truly see the cessation of the world with right understanding, the concept of existence regarding the world does not occur. ",
+            "matched": true
+          }
+        },
+        "score": 2.02,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 22.90\n9. Das Kapitel mit Altehrwürdigen\nMit Channa",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 100,
+          "de": 57,
+          "en": 99
         }
       }
     ],

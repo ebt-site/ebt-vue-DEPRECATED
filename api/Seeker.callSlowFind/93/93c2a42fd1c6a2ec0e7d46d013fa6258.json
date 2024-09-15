@@ -41,7 +41,7 @@
     "pattern": "einen gierigen geist",
     "method": "phrase",
     "resultPattern": "\\beinen gierigen geist",
-    "segsMatched": 18,
+    "segsMatched": 19,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn52/sn52.14_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn52/sn52.14_translation-de-sabbamitta.json",
@@ -55,6 +55,9 @@
       "root/pli/ms/sutta/sn/sn12/sn12.70_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.70_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn12/sn12.70_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn77_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn77_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn77_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn73_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn73_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn73_translation-en-sujato.json",
@@ -103,6 +106,7 @@
       "sn51.11/de/sabbamitta",
       "sn16.9/de/sabbamitta",
       "sn12.70/de/sabbamitta",
+      "mn77/de/sabbamitta",
       "mn73/de/sabbamitta",
       "mn6/de/sabbamitta",
       "mn12/de/sabbamitta",
@@ -629,6 +633,38 @@
           "pli": 372,
           "de": 320,
           "en": 371
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn77_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn77_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn77_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn77",
+        "lang": "de",
+        "segMap": {
+          "mn77:33.2": {
+            "scid": "mn77:33.2",
+            "pli": "sarāgaṁ vā cittaṁ ‘sarāgaṁ cittan’ti pajānanti, ",
+            "de": "Sie erkennen <span class=\"ebt-matched\">einen gierigen Geist</span> als ‚gierigen Geist‘ ",
+            "en": "They understand mind with greed as ‘mind with greed’, ",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 77\nDie längere Lehrrede mit Sakuludāyī",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 390,
+          "de": 360,
+          "en": 373
         }
       },
       {
