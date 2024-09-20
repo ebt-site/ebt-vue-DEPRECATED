@@ -41,11 +41,14 @@
     "pattern": "achtsamkeit verankert",
     "method": "phrase",
     "resultPattern": "\\bachtsamkeit verankert",
-    "segsMatched": 15,
+    "segsMatched": 17,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn17_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn17_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn17_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn54/sn54.16_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn54/sn54.16_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn54/sn54.16_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn54/sn54.13_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn54/sn54.13_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn54/sn54.13_translation-en-sujato.json",
@@ -65,6 +68,7 @@
     ],
     "suttaRefs": [
       "mn17/de/sabbamitta",
+      "sn54.16/de/sabbamitta",
       "sn54.13/de/sabbamitta",
       "mn118/de/sabbamitta",
       "thig7.2/de/sabbamitta",
@@ -155,6 +159,45 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn54/sn54.16_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn54/sn54.16_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn54/sn54.16_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn54.16",
+        "lang": "de",
+        "segMap": {
+          "sn54.16:9.2": {
+            "scid": "sn54.16:9.2",
+            "pli": "Yasmiṁ samaye, bhikkhave, bhikkhu kāye kāyānupassī viharati—upaṭṭhitāssa tasmiṁ samaye bhikkhuno sati hoti asammuṭṭhā. ",
+            "de": "Wann immer ein Mönch meditiert, indem er einen Aspekt des Körpers beobachtet, ist seine <span class=\"ebt-matched\">Achtsamkeit verankert</span> und klar. ",
+            "en": "",
+            "matched": true
+          },
+          "sn54.16:16.3": {
+            "scid": "sn54.16:16.3",
+            "pli": "dhammesu dhammānupassī viharati—upaṭṭhitāssa tasmiṁ samaye bhikkhuno sati hoti asammuṭṭhā. ",
+            "de": "indem er einen Aspekt der natürlichen Gesetzmäßigkeiten beobachtet, ist seine <span class=\"ebt-matched\">Achtsamkeit verankert</span> und klar. ",
+            "en": "",
+            "matched": true
+          }
+        },
+        "score": 2.025,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 54.16\n2. Das zweite Kapitel\nMehrere Mönche (2)",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 81,
+          "de": 80,
+          "en": 80
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn54/sn54.13_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/sn/sn54/sn54.13_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/sn/sn54/sn54.13_translation-en-sujato.json"
@@ -188,7 +231,7 @@
         "segsMatched": 2,
         "langSegs": {
           "pli": 84,
-          "de": 76,
+          "de": 83,
           "en": 83
         }
       },

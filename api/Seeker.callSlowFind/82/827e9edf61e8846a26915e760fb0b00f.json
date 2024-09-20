@@ -41,7 +41,7 @@
     "pattern": "ein rest",
     "method": "phrase",
     "resultPattern": "\\bein rest",
-    "segsMatched": 29,
+    "segsMatched": 30,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an7/an7.56_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an7/an7.56_translation-de-sabbamitta.json",
@@ -49,6 +49,9 @@
       "root/pli/ms/sutta/sn/sn46/sn46.76_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn46/sn46.76_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn46/sn46.76_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn46/sn46.57_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn46/sn46.57_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn46/sn46.57_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn10_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn10_translation-en-sujato.json",
@@ -76,9 +79,6 @@
       "root/pli/ms/sutta/sn/sn47/sn47.36_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn47/sn47.36_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn47/sn47.36_translation-en-sujato.json",
-      "root/pli/ms/sutta/sn/sn46/sn46.57_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/sn/sn46/sn46.57_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn46/sn46.57_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn70_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn70_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn70_translation-en-sujato.json",
@@ -98,6 +98,7 @@
     "suttaRefs": [
       "an7.56/de/sabbamitta",
       "sn46.76/de/sabbamitta",
+      "sn46.57/de/sabbamitta",
       "mn10/de/sabbamitta",
       "dn22/de/sabbamitta",
       "an9.12/de/sabbamitta",
@@ -107,7 +108,6 @@
       "sn51.25/de/sabbamitta",
       "sn48.65/de/sabbamitta",
       "sn47.36/de/sabbamitta",
-      "sn46.57/de/sabbamitta",
       "mn70/de/sabbamitta",
       "iti47/de/sabbamitta",
       "iti46/de/sabbamitta",
@@ -304,6 +304,45 @@
           "pli": 28,
           "de": 20,
           "en": 26
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn46/sn46.57_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn46/sn46.57_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn46/sn46.57_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn46.57",
+        "lang": "de",
+        "segMap": {
+          "sn46.57:2.1": {
+            "scid": "sn46.57:2.1",
+            "pli": "“Aṭṭhikasaññāya, bhikkhave, bhāvitāya bahulīkatāya dvinnaṁ phalānaṁ aññataraṁ phalaṁ pāṭikaṅkhaṁ—diṭṭheva dhamme aññā, sati vā upādisese anāgāmitā. ",
+            "de": "„Mönche und Nonnen, wenn die Wahrnehmung eines Skeletts entwickelt und gemehrt wird, kann man eins von zwei Ergebnissen erwarten: Erleuchtung in diesem Leben, oder, wenn <span class=\"ebt-matched\">ein Rest</span> da ist, Nichtwiederkehr. ",
+            "en": "“When the perception of a skeleton is developed and cultivated you can expect one of two results: enlightenment in the present life, or if there’s something left over, non-return. ",
+            "matched": true
+          },
+          "sn46.57:2.5": {
+            "scid": "sn46.57:2.5",
+            "pli": "Evaṁ bhāvitāya kho, bhikkhave, aṭṭhikasaññāya evaṁ bahulīkatāya dvinnaṁ phalānaṁ aññataraṁ phalaṁ pāṭikaṅkhaṁ—diṭṭheva dhamme aññā, sati vā upādisese anāgāmitā”ti. ",
+            "de": "So kann man, wenn die Wahrnehmung eines Skeletts entwickelt und gemehrt wird, eins von zwei Ergebnissen erwarten: Erleuchtung in diesem Leben, oder, wenn <span class=\"ebt-matched\">ein Rest</span> da ist, Nichtwiederkehr.“ ",
+            "en": "",
+            "matched": true
+          }
+        },
+        "score": 2.05,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 46.57\n7. Das Kapitel über den Atem\nEin Skelett",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 40,
+          "de": 24,
+          "en": 35
         }
       },
       {
@@ -677,38 +716,6 @@
           "pli": 24,
           "de": 23,
           "en": 23
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/sn/sn46/sn46.57_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/sn/sn46/sn46.57_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/sn/sn46/sn46.57_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "sn46.57",
-        "lang": "de",
-        "segMap": {
-          "sn46.57:2.1": {
-            "scid": "sn46.57:2.1",
-            "pli": "“Aṭṭhikasaññāya, bhikkhave, bhāvitāya bahulīkatāya dvinnaṁ phalānaṁ aññataraṁ phalaṁ pāṭikaṅkhaṁ—diṭṭheva dhamme aññā, sati vā upādisese anāgāmitā. ",
-            "de": "„Mönche und Nonnen, wenn die Wahrnehmung eines Skeletts entwickelt und ausgebaut wird, kann man eins von zwei Ergebnissen erwarten: Erleuchtung in diesem Leben, oder, wenn <span class=\"ebt-matched\">ein Rest</span> da ist, Nichtwiederkehr. ",
-            "en": "“When the perception of a skeleton is developed and cultivated you can expect one of two results: enlightenment in the present life, or if there’s something left over, non-return. ",
-            "matched": true
-          }
-        },
-        "score": 1.025,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Verbundene Lehrreden 46.57\n7. Das Kapitel über den Atem\nEin Skelett",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 40,
-          "de": 19,
-          "en": 35
         }
       },
       {

@@ -41,7 +41,7 @@
     "pattern": "beim einatmen seligkeit",
     "method": "phrase",
     "resultPattern": "\\bbeim einatmen seligkeit",
-    "segsMatched": 7,
+    "segsMatched": 8,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn118_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn118_translation-de-sabbamitta.json",
@@ -49,6 +49,9 @@
       "root/pli/ms/sutta/sn/sn54/sn54.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn54/sn54.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn54/sn54.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn54/sn54.16_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn54/sn54.16_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn54/sn54.16_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn54/sn54.13_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn54/sn54.13_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn54/sn54.13_translation-en-sujato.json",
@@ -65,6 +68,7 @@
     "suttaRefs": [
       "mn118/de/sabbamitta",
       "sn54.1/de/sabbamitta",
+      "sn54.16/de/sabbamitta",
       "sn54.13/de/sabbamitta",
       "sn54.10/de/sabbamitta",
       "mn62/de/sabbamitta",
@@ -234,8 +238,40 @@
         "segsMatched": 1,
         "langSegs": {
           "pli": 84,
-          "de": 76,
+          "de": 83,
           "en": 83
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn54/sn54.16_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn54/sn54.16_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn54/sn54.16_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn54.16",
+        "lang": "de",
+        "segMap": {
+          "sn54.16:5.2": {
+            "scid": "sn54.16:5.2",
+            "pli": "sukhappaṭisaṁvedī … ",
+            "de": "‚Ich werde <span class=\"ebt-matched\">beim Einatmen Seligkeit</span> erfahren.‘ … ",
+            "en": "",
+            "matched": true
+          }
+        },
+        "score": 1.012,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 54.16\n2. Das zweite Kapitel\nMehrere Mönche (2)",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 81,
+          "de": 80,
+          "en": 80
         }
       },
       {
