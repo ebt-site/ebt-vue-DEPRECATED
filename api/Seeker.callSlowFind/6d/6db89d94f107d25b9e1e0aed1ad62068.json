@@ -41,7 +41,7 @@
     "pattern": "grausam",
     "method": "phrase",
     "resultPattern": "\\bgrausam",
-    "segsMatched": 113,
+    "segsMatched": 115,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
@@ -73,6 +73,9 @@
       "root/pli/ms/sutta/an/an4/an4.11_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.11_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.11_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn78_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn78_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn78_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn33_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn33_translation-en-sujato.json",
@@ -211,6 +214,7 @@
       "sn14.12/de/sabbamitta",
       "iti110/de/sabbamitta",
       "an4.11/de/sabbamitta",
+      "mn78/de/sabbamitta",
       "mn33/de/sabbamitta",
       "ud4.1/de/sabbamitta",
       "an9.3/de/sabbamitta",
@@ -1356,6 +1360,45 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn78_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn78_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn78_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn78",
+        "lang": "de",
+        "segMap": {
+          "mn78:12.2": {
+            "scid": "mn78:12.2",
+            "pli": "Kāmasaṅkappo, byāpādasaṅkappo, vihiṁsāsaṅkappo—",
+            "de": "Sinnliche, böswillige und <span class=\"ebt-matched\">grausam</span>e Gedanken; ",
+            "en": "Thoughts of sensuality, of malice, and of cruelty. ",
+            "matched": true
+          },
+          "mn78:12.9": {
+            "scid": "mn78:12.9",
+            "pli": "Kāmasaññā, byāpādasaññā, vihiṁsāsaññā—",
+            "de": "Sinnliche, böswillige und <span class=\"ebt-matched\">grausam</span>e Wahrnehmungen; ",
+            "en": "Perceptions of sensuality, malice, and cruelty—",
+            "matched": true
+          }
+        },
+        "score": 2.012,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 78\nMit Uggāhamāna Samaṇamaṇḍikāputta",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 162,
+          "de": 161,
+          "en": 161
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an4/an4.262_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/an/an4/an4.262_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/an/an4/an4.262_translation-en-sujato.json"
@@ -2248,38 +2291,6 @@
           "pli": 172,
           "de": 170,
           "en": 171
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/kn/dhp/dhp383-423_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/kn/dhp/dhp383-423_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/kn/dhp/dhp383-423_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "dhp383-423",
-        "lang": "de",
-        "segMap": {
-          "dhp390:3": {
-            "scid": "dhp390:3",
-            "pli": "Yato yato hiṁsamano nivattati, ",
-            "de": "So wie allmählich <span class=\"ebt-matched\">Grausam</span>keit im Geist abklingt, ",
-            "en": "As cruelty in the mind gradually subsides, ",
-            "matched": true
-          }
-        },
-        "score": 1.004,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Kleinere Sammlung\nDhammasprüche 383–423\n26. Das Kapitel über den Brahmanen\nPasādabahulabrāhmaṇavatthu",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 270,
-          "de": 180,
-          "en": 181
         }
       }
     ],
