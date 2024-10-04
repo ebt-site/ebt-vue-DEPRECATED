@@ -41,16 +41,19 @@
     "pattern": "crab",
     "method": "phrase",
     "resultPattern": "\\bcrab",
-    "segsMatched": 8,
+    "segsMatched": 9,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn4/sn4.24_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn4/sn4.24_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn35_root-pli-ms.json",
-      "translation/en/sujato/sutta/mn/mn35_translation-en-sujato.json"
+      "translation/en/sujato/sutta/mn/mn35_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ja/ja38_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/ja/ja38_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "sn4.24/en/sujato",
-      "mn35/en/sujato"
+      "mn35/en/sujato",
+      "ja38/en/sujato"
     ],
     "mlDocs": [
       {
@@ -145,6 +148,35 @@
         "langSegs": {
           "pli": 235,
           "en": 234
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ja/ja38_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/ja/ja38_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ja38",
+        "lang": "en",
+        "segMap": {
+          "ja38:1.4": {
+            "scid": "ja38:1.4",
+            "pli": "bako kakkaṭakāmivā”ti. ",
+            "en": "in getting what the crane did from the <span class=\"ebt-matched\">crab</span>. ",
+            "matched": true
+          }
+        },
+        "score": 1.111,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Stories of Past Lives 38\nThe Book of the Ones\nNests\nThe Crane: a past life story",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 9,
+          "en": 8
         }
       }
     ],

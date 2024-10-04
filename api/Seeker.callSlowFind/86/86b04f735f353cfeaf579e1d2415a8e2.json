@@ -41,7 +41,7 @@
     "pattern": "wretched",
     "method": "phrase",
     "resultPattern": "\\bwretched",
-    "segsMatched": 11,
+    "segsMatched": 12,
     "bilaraPaths": [
       "root/pli/ms/sutta/kn/thag/thag6.5_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thag/thag6.5_translation-en-sujato.json",
@@ -58,6 +58,8 @@
       "root/pli/ms/sutta/kn/thig/thig5.8_root-pli-ms.json",
       "translation/en/soma/sutta/kn/thig/thig5.8_translation-en-soma.json",
       "translation/en/sujato/sutta/kn/thig/thig5.8_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ja/ja45_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/ja/ja45_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.36_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an3/an3.36_translation-en-sujato.json"
     ],
@@ -69,6 +71,7 @@
       "sn2.30/en/sujato",
       "mn130/en/sujato",
       "thig5.8/en/sujato",
+      "ja45/en/sujato",
       "an3.36/en/sujato"
     ],
     "mlDocs": [
@@ -175,6 +178,35 @@
         "langSegs": {
           "pli": 124,
           "en": 111
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ja/ja45_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/ja/ja45_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ja45",
+        "lang": "en",
+        "segMap": {
+          "ja45:1.3": {
+            "scid": "ja45:1.3",
+            "pli": "Passa rohiṇikaṁ jammiṁ, ",
+            "en": "See that <span class=\"ebt-matched\">wretched</span> Rohinī, ",
+            "matched": true
+          }
+        },
+        "score": 1.111,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Stories of Past Lives 45\nThe Book of the Ones\nDesiring the Good\nAbout Rohinī: a past life story",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 9,
+          "en": 8
         }
       },
       {

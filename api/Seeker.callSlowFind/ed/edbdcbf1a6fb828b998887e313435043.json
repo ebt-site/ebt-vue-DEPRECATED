@@ -41,15 +41,47 @@
     "pattern": "red silk-cotton wood",
     "method": "phrase",
     "resultPattern": "\\bred silk-cotton wood",
-    "segsMatched": 1,
+    "segsMatched": 2,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn11/sn11.6_root-pli-ms.json",
-      "translation/en/sujato/sutta/sn/sn11/sn11.6_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn11/sn11.6_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ja/ja31_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/ja/ja31_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "sn11.6/en/sujato"
+      "sn11.6/en/sujato",
+      "ja31/en/sujato"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ja/ja31_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/ja/ja31_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ja31",
+        "lang": "en",
+        "segMap": {
+          "ja31:1.2": {
+            "scid": "ja31:1.2",
+            "pli": "Īsāmukhena parivajjayassu; ",
+            "en": "in the <span class=\"ebt-matched\">red silk-cotton wood</span>s with your chariot pole. ",
+            "matched": true
+          }
+        },
+        "score": 1.111,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Stories of Past Lives 31\nThe Book of the Ones\nNests\nNests: a past life story",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 9,
+          "en": 8
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn11/sn11.6_root-pli-ms.json",

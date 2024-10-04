@@ -41,16 +41,16 @@
     "pattern": "the self is",
     "method": "phrase",
     "resultPattern": "\\bthe self is",
-    "segsMatched": 31,
+    "segsMatched": 38,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn24/sn24.70_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn24/sn24.70_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn24/sn24.96_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn24/sn24.96_translation-en-sujato.json",
-      "root/pli/ms/sutta/mn/mn102_root-pli-ms.json",
-      "translation/en/sujato/sutta/mn/mn102_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn29_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn29_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn102_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn102_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn1_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn1_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn24/sn24.44_root-pli-ms.json",
@@ -59,8 +59,14 @@
       "translation/en/sujato/sutta/sn/sn24/sn24.43_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn24/sn24.41_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn24/sn24.41_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn24/sn24.40_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn24/sn24.40_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn24/sn24.39_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn24/sn24.39_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn24/sn24.38_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn24/sn24.38_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn24/sn24.37_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn24/sn24.37_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn24/sn24.42_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn24/sn24.42_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn9_root-pli-ms.json",
@@ -73,13 +79,16 @@
     "suttaRefs": [
       "sn24.70/en/sujato",
       "sn24.96/en/sujato",
-      "mn102/en/sujato",
       "dn29/en/sujato",
+      "mn102/en/sujato",
       "dn1/en/sujato",
       "sn24.44/en/sujato",
       "sn24.43/en/sujato",
       "sn24.41/en/sujato",
+      "sn24.40/en/sujato",
+      "sn24.39/en/sujato",
       "sn24.38/en/sujato",
+      "sn24.37/en/sujato",
       "sn24.42/en/sujato",
       "dn9/en/sujato",
       "an6.49/en/sujato",
@@ -194,6 +203,53 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn29_root-pli-ms.json",
+          "translation/en/sujato/sutta/dn/dn29_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "dn29",
+        "lang": "en",
+        "segMap": {
+          "dn29:37.4": {
+            "scid": "dn29:37.4",
+            "pli": "‘rūpī attā hoti arogo paraṁ maraṇā, idameva saccaṁ moghamaññan’ti. ",
+            "en": "‘<span class=\"ebt-matched\">The self is</span> free of disease after death, and formed … ",
+            "matched": true
+          },
+          "dn29:37.12": {
+            "scid": "dn29:37.12",
+            "pli": "attā ucchijjati vinassati na hoti paraṁ maraṇā, idameva saccaṁ moghamaññan’ti. ",
+            "en": "or <span class=\"ebt-matched\">the self is</span> annihilated and destroyed when the body breaks up, and doesn’t exist after death. This is the only truth, anything else is futile.’ ",
+            "matched": true
+          },
+          "dn29:38.2": {
+            "scid": "dn29:38.2",
+            "pli": "‘rūpī attā hoti arogo paraṁ maraṇā, idameva saccaṁ moghamaññan’ti. ",
+            "en": "‘<span class=\"ebt-matched\">The self is</span> formed and free of disease after death,’ ",
+            "matched": true
+          },
+          "dn29:38.5": {
+            "scid": "dn29:38.5",
+            "pli": "“rūpī attā hoti arogo paraṁ maraṇā”’ti? ",
+            "en": "“<span class=\"ebt-matched\">The self is</span> formed and free of disease after death”?’ ",
+            "matched": true
+          }
+        },
+        "score": 4.009,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Long Discourses 29\nAn Impressive Discourse",
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 465,
+          "en": 464
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/mn/mn102_root-pli-ms.json",
           "translation/en/sujato/sutta/mn/mn102_translation-en-sujato.json"
         ],
@@ -235,47 +291,6 @@
       },
       {
         "bilaraPaths": [
-          "root/pli/ms/sutta/dn/dn29_root-pli-ms.json",
-          "translation/en/sujato/sutta/dn/dn29_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "dn29",
-        "lang": "en",
-        "segMap": {
-          "dn29:37.12": {
-            "scid": "dn29:37.12",
-            "pli": "attā ucchijjati vinassati na hoti paraṁ maraṇā, idameva saccaṁ moghamaññan’ti. ",
-            "en": "or <span class=\"ebt-matched\">the self is</span> annihilated and destroyed when the body breaks up, and doesn’t exist after death. This is the only truth, anything else is futile.’ ",
-            "matched": true
-          },
-          "dn29:38.2": {
-            "scid": "dn29:38.2",
-            "pli": "‘rūpī attā hoti arogo paraṁ maraṇā, idameva saccaṁ moghamaññan’ti. ",
-            "en": "<span class=\"ebt-matched\">The self is</span> has form and is free of disease after death, ",
-            "matched": true
-          },
-          "dn29:38.5": {
-            "scid": "dn29:38.5",
-            "pli": "“rūpī attā hoti arogo paraṁ maraṇā”’ti? ",
-            "en": "“<span class=\"ebt-matched\">The self is</span> has form and is free of disease after death”?’ ",
-            "matched": true
-          }
-        },
-        "score": 3.006,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Long Discourses 29\nAn Impressive Discourse",
-        "segsMatched": 3,
-        "langSegs": {
-          "pli": 465,
-          "en": 464
-        }
-      },
-      {
-        "bilaraPaths": [
           "root/pli/ms/sutta/dn/dn1_root-pli-ms.json",
           "translation/en/sujato/sutta/dn/dn1_translation-en-sujato.json"
         ],
@@ -288,19 +303,19 @@
           "dn1:2.38.3": {
             "scid": "dn1:2.38.3",
             "pli": "‘Rūpī attā hoti arogo paraṁ maraṇā saññī’ti naṁ paññapenti. ",
-            "en": "They assert: ‘<span class=\"ebt-matched\">The self is</span> free of disease and percipient after death, and it has form … ",
+            "en": "They assert: ‘<span class=\"ebt-matched\">The self is</span> free of disease and percipient after death, and it is formed … ",
             "matched": true
           },
           "dn1:3.2.1": {
             "scid": "dn1:3.2.1",
             "pli": "‘Rūpī attā hoti arogo paraṁ maraṇā asaññī’ti naṁ paññapenti. ",
-            "en": "They assert: ‘<span class=\"ebt-matched\">The self is</span> free of disease and non-percipient after death, and it has form … ",
+            "en": "They assert: ‘<span class=\"ebt-matched\">The self is</span> free of disease and non-percipient after death, and it is formed … ",
             "matched": true
           },
           "dn1:3.6.1": {
             "scid": "dn1:3.6.1",
             "pli": "‘Rūpī attā hoti arogo paraṁ maraṇā nevasaññīnāsaññī’ti naṁ paññapenti. ",
-            "en": "They assert: ‘<span class=\"ebt-matched\">The self is</span> free of disease and neither percipient nor non-percipient after death, and it has form … ",
+            "en": "They assert: ‘<span class=\"ebt-matched\">The self is</span> free of disease and neither percipient nor non-percipient after death, and it is formed … ",
             "matched": true
           }
         },
@@ -313,6 +328,41 @@
         "langSegs": {
           "pli": 662,
           "en": 661
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn24/sn24.40_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn24/sn24.40_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn24.40",
+        "lang": "en",
+        "segMap": {
+          "sn24.40:0.3": {
+            "scid": "sn24.40:0.3",
+            "pli": "Nevarūpīnārūpīattāsutta ",
+            "en": "<span class=\"ebt-matched\">The Self is</span> Neither Formed Nor Formless ",
+            "matched": true
+          },
+          "sn24.40:1.1": {
+            "scid": "sn24.40:1.1",
+            "pli": "“Neva rūpī nārūpī attā hoti arogo paraṁ maraṇā”ti …pe…. ",
+            "en": "“‘<span class=\"ebt-matched\">The self is</span> neither formed nor formless, and is free of disease after death’?” … ",
+            "matched": true
+          }
+        },
+        "score": 2.4,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 24.40\n2. The Second Round\nThe Self is Neither Formed Nor Formless",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 5,
+          "en": 4
         }
       },
       {
@@ -387,6 +437,41 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn24/sn24.39_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn24/sn24.39_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn24.39",
+        "lang": "en",
+        "segMap": {
+          "sn24.39:0.3": {
+            "scid": "sn24.39:0.3",
+            "pli": "Rūpīcaarūpīcaattāsutta ",
+            "en": "<span class=\"ebt-matched\">The Self is</span> Formed and Formless ",
+            "matched": true
+          },
+          "sn24.39:1.2": {
+            "scid": "sn24.39:1.2",
+            "pli": "“Rūpī ca arūpī ca attā hoti arogo paraṁ maraṇā”ti …pe…. ",
+            "en": "“‘<span class=\"ebt-matched\">The self is</span> formed and formless, and is free of disease after death’?” … ",
+            "matched": true
+          }
+        },
+        "score": 2.333,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 24.39\n2. The Second Round\nThe Self is Formed and Formless",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 6,
+          "en": 5
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn24/sn24.38_root-pli-ms.json",
           "translation/en/sujato/sutta/sn/sn24/sn24.38_translation-en-sujato.json"
         ],
@@ -418,6 +503,41 @@
         "langSegs": {
           "pli": 8,
           "en": 7
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn24/sn24.37_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn24/sn24.37_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn24.37",
+        "lang": "en",
+        "segMap": {
+          "sn24.37:0.3": {
+            "scid": "sn24.37:0.3",
+            "pli": "Rūpīattāsutta ",
+            "en": "<span class=\"ebt-matched\">The Self is</span> Formed ",
+            "matched": true
+          },
+          "sn24.37:1.3": {
+            "scid": "sn24.37:1.3",
+            "pli": "‘rūpī attā hoti arogo paraṁ maraṇā’”ti? ",
+            "en": "‘<span class=\"ebt-matched\">The self is</span> formed and is free of disease after death’?” … ",
+            "matched": true
+          }
+        },
+        "score": 2.077,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Linked Discourses 24.37\n2. The Second Round\nThe Self is Formed",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 26,
+          "en": 25
         }
       },
       {

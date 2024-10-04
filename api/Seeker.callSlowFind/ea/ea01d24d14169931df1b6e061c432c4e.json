@@ -41,7 +41,7 @@
     "pattern": "revered, venerated, and esteemed",
     "method": "phrase",
     "resultPattern": "\\brevered, venerated, and esteemed",
-    "segsMatched": 29,
+    "segsMatched": 28,
     "bilaraPaths": [
       "root/pli/ms/sutta/kn/ud/vagga6/ud6.10_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/ud/vagga6/ud6.10_translation-en-sujato.json",
@@ -55,14 +55,14 @@
       "translation/en/sujato/sutta/dn/dn5_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn4_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn4_translation-en-sujato.json",
-      "root/pli/ms/sutta/mn/mn77_root-pli-ms.json",
-      "translation/en/sujato/sutta/mn/mn77_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/ud/vagga3/ud3.8_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/ud/vagga3/ud3.8_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn35/sn35.132_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.132_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn95_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn95_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn77_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn77_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/ud/vagga1/ud1.10_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/ud/vagga1/ud1.10_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
@@ -75,10 +75,10 @@
       "ud2.4/en/sujato",
       "dn5/en/sujato",
       "dn4/en/sujato",
-      "mn77/en/sujato",
       "ud3.8/en/sujato",
       "sn35.132/en/sujato",
       "mn95/en/sujato",
+      "mn77/en/sujato",
       "ud1.10/en/sujato",
       "dn16/en/sujato"
     ],
@@ -384,41 +384,6 @@
       },
       {
         "bilaraPaths": [
-          "root/pli/ms/sutta/mn/mn77_root-pli-ms.json",
-          "translation/en/sujato/sutta/mn/mn77_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "mn77",
-        "lang": "en",
-        "segMap": {
-          "mn77:6.19": {
-            "scid": "mn77:6.19",
-            "pli": "so ca kho sāvakānaṁ na sakkato na garukato na mānito na pūjito, na ca pana pūraṇaṁ kassapaṁ sāvakā sakkatvā garuṁ katvā upanissāya viharanti. ",
-            "en": "But he’s not honored, respected, <span class=\"ebt-matched\">revered, venerated, and esteemed</span> by his disciples. And his disciples, not honoring and respecting him, don’t remain loyal to him. ",
-            "matched": true
-          },
-          "mn77:6.32": {
-            "scid": "mn77:6.32",
-            "pli": "Iti pūraṇo kassapo sāvakānaṁ na sakkato na garukato na mānito na pūjito, na ca pana pūraṇaṁ kassapaṁ sāvakā sakkatvā garuṁ katvā upanissāya viharanti. ",
-            "en": "That’s how Pūraṇa Kassapa is not honored, respected, <span class=\"ebt-matched\">revered, venerated, and esteemed</span> by his disciples. On the contrary, his disciples, not honoring and respecting him, don’t remain loyal to him. ",
-            "matched": true
-          }
-        },
-        "score": 2.005,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Middle Discourses 77\nThe Longer Discourse with Sakuludāyī",
-        "segsMatched": 2,
-        "langSegs": {
-          "pli": 390,
-          "en": 373
-        }
-      },
-      {
-        "bilaraPaths": [
           "root/pli/ms/sutta/kn/ud/vagga1/ud1.10_root-pli-ms.json",
           "translation/en/sujato/sutta/kn/ud/vagga1/ud1.10_translation-en-sujato.json"
         ],
@@ -473,6 +438,35 @@
         "langSegs": {
           "pli": 88,
           "en": 87
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn77_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn77_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn77",
+        "lang": "en",
+        "segMap": {
+          "mn77:6.32": {
+            "scid": "mn77:6.32",
+            "pli": "Iti pūraṇo kassapo sāvakānaṁ na sakkato na garukato na mānito na pūjito, na ca pana pūraṇaṁ kassapaṁ sāvakā sakkatvā garuṁ katvā upanissāya viharanti. ",
+            "en": "That’s how Pūraṇa Kassapa is not honored, respected, <span class=\"ebt-matched\">revered, venerated, and esteemed</span> by his disciples. On the contrary, his disciples, not honoring and respecting him, don’t remain loyal to him. ",
+            "matched": true
+          }
+        },
+        "score": 1.003,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Middle Discourses 77\nThe Longer Discourse with Sakuludāyī",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 390,
+          "en": 373
         }
       },
       {
