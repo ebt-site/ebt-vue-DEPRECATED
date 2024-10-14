@@ -41,7 +41,7 @@
     "pattern": "lord of the",
     "method": "phrase",
     "resultPattern": "\\blord of the",
-    "segsMatched": 29,
+    "segsMatched": 30,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn35/sn35.245_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.245_translation-en-sujato.json",
@@ -65,6 +65,8 @@
       "translation/en/sujato/sutta/kn/thag/thag16.3_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/snp/vagga3/snp3.7_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/snp/vagga3/snp3.7_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ja/ja74_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/ja/ja74_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/cp/cp4_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/cp/cp4_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/cp/cp32_root-pli-ms.json",
@@ -94,6 +96,7 @@
       "thag16.6/en/sujato",
       "thag16.3/en/sujato",
       "snp3.7/en/sujato",
+      "ja74/en/sujato",
       "cp4/en/sujato",
       "cp32/en/sujato",
       "cp22/en/sujato",
@@ -307,6 +310,35 @@
         "langSegs": {
           "pli": 279,
           "en": 278
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ja/ja74_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/ja/ja74_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "ja74",
+        "lang": "en",
+        "segMap": {
+          "ja74:1.4": {
+            "scid": "ja74:1.4",
+            "pli": "brahantampi vanappatin”ti. ",
+            "en": "even the enormous <span class=\"ebt-matched\">lord of the</span> forest. ",
+            "matched": true
+          }
+        },
+        "score": 1.111,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Stories of Past Lives 74\nThe Book of the Ones\nThe Warding Tree\nThe Law of Trees: a past life story",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 9,
+          "en": 8
         }
       },
       {
