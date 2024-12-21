@@ -39,12 +39,58 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "queixa",
-    "method": "keywords",
+    "method": "phrase",
     "resultPattern": "\\bqueixa",
-    "segsMatched": 0,
-    "bilaraPaths": [],
-    "suttaRefs": [],
-    "mlDocs": [],
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an4/an4.188_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an4/an4.188_translation-en-sujato.json",
+      "translation/pt/laera-quaresma/sutta/an/an4/an4.188_translation-pt-laera-quaresma.json"
+    ],
+    "suttaRefs": [
+      "an4.188/pt/laera-quaresma"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.188_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an4/an4.188_translation-en-sujato.json",
+          "translation/pt/laera-quaresma/sutta/an/an4/an4.188_translation-pt-laera-quaresma.json"
+        ],
+        "author_uid": "laera-quaresma",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.188",
+        "lang": "pt",
+        "segMap": {
+          "an4.188:2.2": {
+            "scid": "an4.188:2.2",
+            "pli": "‘yo koci parūpārambhaṁ vatteti, parūpārambhaṁ vattento sabbo so na upapādeti. ",
+            "pt": "Quem se <span class=\"ebt-matched\">queixa</span> dos outros sem dar razões",
+            "en": "‘Whoever goes on complaining about others without giving any reasons ",
+            "matched": true
+          },
+          "an4.188:2.4": {
+            "scid": "an4.188:2.4",
+            "pli": "“Parūpārambhañce, upaka, vatteti parūpārambhaṁ vattento na upapādeti, anupapādento gārayho hoti upavajjo. ",
+            "pt": "“Upaka, se alguém continua a <span class=\"ebt-matched\">queixa</span>r-se dos outros sem dar uma razão, é repreensível e culpado.",
+            "en": "“Upaka, if someone goes on complaining about others without giving a reason, they’re reprehensible and at fault. ",
+            "matched": true
+          }
+        },
+        "score": 2.069,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Discursos numerados 4.188\n19. Brâmanes\nCom Upaka",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 29,
+          "pt": 28,
+          "en": 28
+        }
+      }
+    ],
     "refLang": "en",
     "refAuthor": "sujato",
     "docLang": "pt",

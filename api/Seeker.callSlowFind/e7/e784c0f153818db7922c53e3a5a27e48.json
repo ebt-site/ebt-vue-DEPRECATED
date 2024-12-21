@@ -39,28 +39,58 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "devem? ser abandonad.s?",
-    "method": "keywords",
-    "resultPattern": "\\bdevem?|\\bser|\\babandonad.s?",
-    "segsMatched": 0,
+    "method": "phrase",
+    "resultPattern": "\\bdevem? ser abandonad.s?",
+    "segsMatched": 2,
     "bilaraPaths": [
-      "root/pli/ms/sutta/an/an2/an2.1-10_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an2/an2.1-10_translation-en-sujato.json",
-      "translation/pt/laera-quaresma/sutta/an/an2/an2.1-10_translation-pt-laera-quaresma.json",
-      "root/pli/ms/sutta/an/an3/an3.70_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an3/an3.70_translation-en-sujato.json",
-      "translation/pt/laera-quaresma/sutta/an/an3/an3.70_translation-pt-laera-quaresma.json",
-      "root/pli/ms/sutta/sn/sn1/sn1.20_root-pli-ms.json",
-      "translation/en/sujato/sutta/sn/sn1/sn1.20_translation-en-sujato.json",
-      "translation/pt/laera-quaresma/sutta/sn/sn1/sn1.20_translation-pt-laera-quaresma.json",
-      "root/pli/ms/sutta/an/an3/an3.40_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an3/an3.40_translation-en-sujato.json",
-      "translation/pt/laera-quaresma/sutta/an/an3/an3.40_translation-pt-laera-quaresma.json",
-      "root/pli/ms/sutta/sn/sn1/sn1.40_root-pli-ms.json",
-      "translation/en/sujato/sutta/sn/sn1/sn1.40_translation-en-sujato.json",
-      "translation/pt/laera-quaresma/sutta/sn/sn1/sn1.40_translation-pt-laera-quaresma.json"
+      "root/pli/ms/sutta/an/an4/an4.188_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an4/an4.188_translation-en-sujato.json",
+      "translation/pt/laera-quaresma/sutta/an/an4/an4.188_translation-pt-laera-quaresma.json"
     ],
-    "suttaRefs": [],
-    "mlDocs": [],
+    "suttaRefs": [
+      "an4.188/pt/laera-quaresma"
+    ],
+    "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.188_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an4/an4.188_translation-en-sujato.json",
+          "translation/pt/laera-quaresma/sutta/an/an4/an4.188_translation-pt-laera-quaresma.json"
+        ],
+        "author_uid": "laera-quaresma",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.188",
+        "lang": "pt",
+        "segMap": {
+          "an4.188:3.4": {
+            "scid": "an4.188:3.4",
+            "pli": "Taṁ kho panidaṁ akusalaṁ pahātabbanti kho, upaka, mayā paññattaṁ. ",
+            "pt": "Eu declarei: ‘O inábil <span class=\"ebt-matched\">deve ser abandonado</span>’.",
+            "en": "I’ve declared: ‘The unskillful should be given up.’ ",
+            "matched": true
+          },
+          "an4.188:3.6": {
+            "scid": "an4.188:3.6",
+            "pli": "itipidaṁ akusalaṁ pahātabbanti. ",
+            "pt": "‘Esta é uma outra forma de dizer que os inábeis <span class=\"ebt-matched\">devem ser abandonados</span>’.",
+            "en": "‘This is another way of saying that the unskillful should be given up.’ ",
+            "matched": true
+          }
+        },
+        "score": 2.069,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Discursos numerados 4.188\n19. Brâmanes\nCom Upaka",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 29,
+          "pt": 28,
+          "en": 28
+        }
+      }
+    ],
     "refLang": "en",
     "refAuthor": "sujato",
     "docLang": "pt",
