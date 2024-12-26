@@ -41,11 +41,8 @@
     "pattern": "erlesenste",
     "method": "phrase",
     "resultPattern": "\\berlesenste",
-    "segsMatched": 82,
+    "segsMatched": 70,
     "bilaraPaths": [
-      "root/pli/ms/sutta/an/an3/an3.21_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an3/an3.21_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an3/an3.21_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn1/sn1.74_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn1/sn1.74_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.74_translation-en-sujato.json",
@@ -61,9 +58,12 @@
       "root/pli/ms/sutta/dn/dn13_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn13_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn13_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an4/an4.100_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an4/an4.100_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an4/an4.100_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn80_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn80_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn80_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn79_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn79_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn79_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn5_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn5_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn5_translation-en-sujato.json",
@@ -103,12 +103,6 @@
       "root/pli/ms/sutta/an/an5/an5.181_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.181_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.181_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an4/an4.95_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an4/an4.95_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an4/an4.95_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an3/an3.60_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an3/an3.60_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an3/an3.60_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.91_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.91_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an10/an10.91_translation-en-sujato.json",
@@ -133,13 +127,13 @@
       "translation/en/sujato/sutta/dn/dn21_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "an3.21/de/sabbamitta",
       "sn1.74/de/sabbamitta",
       "dn30/de/sabbamitta",
       "sn47.20/de/sabbamitta",
       "dn16/de/sabbamitta",
       "dn13/de/sabbamitta",
-      "an4.100/de/sabbamitta",
+      "mn80/de/sabbamitta",
+      "mn79/de/sabbamitta",
       "mn5/de/sabbamitta",
       "mn56/de/sabbamitta",
       "ud3.2/de/sabbamitta",
@@ -153,8 +147,6 @@
       "an5.50/de/sabbamitta",
       "an5.190/de/sabbamitta",
       "an5.181/de/sabbamitta",
-      "an4.95/de/sabbamitta",
-      "an3.60/de/sabbamitta",
       "an10.91/de/sabbamitta",
       "sn17.13-20/de/sabbamitta",
       "mn82/de/sabbamitta",
@@ -164,101 +156,6 @@
       "dn21/de/sabbamitta"
     ],
     "mlDocs": [
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/an/an3/an3.21_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/an/an3/an3.21_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/an/an3/an3.21_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "an3.21",
-        "lang": "de",
-        "segMap": {
-          "an3.21:2.5": {
-            "scid": "an3.21:2.5",
-            "pli": "Imesaṁ, āvuso, tiṇṇaṁ puggalānaṁ katamo te puggalo khamati abhikkantataro ca paṇītataro cā”ti? ",
-            "de": "Welcher von diesen drei Menschen, denkst du, ist der <span class=\"ebt-matched\">erlesenste</span>?“ ",
-            "en": "Of these three people, who do you believe to be the finest?” ",
-            "matched": true
-          },
-          "an3.21:3.5": {
-            "scid": "an3.21:3.5",
-            "pli": "Imesaṁ, āvuso, tiṇṇaṁ puggalānaṁ yvāyaṁ puggalo saddhāvimutto, ayaṁ me puggalo khamati imesaṁ tiṇṇaṁ puggalānaṁ abhikkantataro ca paṇītataro ca. ",
-            "de": "Von diesen drei Menschen glaube ich, dass der Mensch, der durch Vertrauen befreit ist, der <span class=\"ebt-matched\">erlesenste</span> ist. ",
-            "en": "Of these three people, I believe the person freed by faith to be finest. ",
-            "matched": true
-          },
-          "an3.21:4.6": {
-            "scid": "an3.21:4.6",
-            "pli": "Imesaṁ, āvuso, tiṇṇaṁ puggalānaṁ katamo te puggalo khamati abhikkantataro ca paṇītataro cā”ti? ",
-            "de": "Welcher von diesen drei Menschen, denkst du, ist der <span class=\"ebt-matched\">erlesenste</span>?“ ",
-            "en": "Of these three people, who do you believe to be the finest?” ",
-            "matched": true
-          },
-          "an3.21:5.5": {
-            "scid": "an3.21:5.5",
-            "pli": "Imesaṁ, āvuso, tiṇṇaṁ puggalānaṁ yvāyaṁ puggalo kāyasakkhī, ayaṁ me puggalo khamati imesaṁ tiṇṇaṁ puggalānaṁ abhikkantataro ca paṇītataro ca. ",
-            "de": "Von diesen drei Menschen glaube ich, dass der unmittelbare Zeuge der <span class=\"ebt-matched\">erlesenste</span> ist. ",
-            "en": "Of these three people, I believe the direct witness to be finest. ",
-            "matched": true
-          },
-          "an3.21:6.6": {
-            "scid": "an3.21:6.6",
-            "pli": "Imesaṁ, āvuso, tiṇṇaṁ puggalānaṁ katamo te puggalo khamati abhikkantataro ca paṇītataro cā”ti? ",
-            "de": "Welcher von diesen drei Menschen, denkst du, ist der <span class=\"ebt-matched\">erlesenste</span>?“ ",
-            "en": "Of these three people, who do you believe to be the finest?” ",
-            "matched": true
-          },
-          "an3.21:7.5": {
-            "scid": "an3.21:7.5",
-            "pli": "Imesaṁ, āvuso, tiṇṇaṁ puggalānaṁ yvāyaṁ puggalo diṭṭhippatto, ayaṁ me puggalo khamati imesaṁ tiṇṇaṁ puggalānaṁ abhikkantataro ca paṇītataro ca. ",
-            "de": "Von diesen drei Menschen glaube ich, dass der Mensch, der zur Ansicht gelangt ist, der <span class=\"ebt-matched\">erlesenste</span> ist. ",
-            "en": "Of these three people, I believe the person attained to view to be finest. ",
-            "matched": true
-          },
-          "an3.21:9.2": {
-            "scid": "an3.21:9.2",
-            "pli": "‘ayaṁ imesaṁ tiṇṇaṁ puggalānaṁ abhikkantataro ca paṇītataro cā’ti. ",
-            "de": "einer dieser drei Menschen sei der <span class=\"ebt-matched\">erlesenste</span>. ",
-            "en": "one of these three people is finest. ",
-            "matched": true
-          },
-          "an3.21:10.2": {
-            "scid": "an3.21:10.2",
-            "pli": "‘ayaṁ imesaṁ tiṇṇaṁ puggalānaṁ abhikkantataro ca paṇītataro cā’ti. ",
-            "de": "einer dieser drei Menschen sei der <span class=\"ebt-matched\">erlesenste</span>. ",
-            "en": "one of these three people is finest. ",
-            "matched": true
-          },
-          "an3.21:11.2": {
-            "scid": "an3.21:11.2",
-            "pli": "‘ayaṁ imesaṁ tiṇṇaṁ puggalānaṁ abhikkantataro ca paṇītataro cā’ti. ",
-            "de": "einer dieser drei Menschen sei der <span class=\"ebt-matched\">erlesenste</span>. ",
-            "en": "one of these three people is finest. ",
-            "matched": true
-          },
-          "an3.21:12.2": {
-            "scid": "an3.21:12.2",
-            "pli": "‘ayaṁ imesaṁ tiṇṇaṁ puggalānaṁ abhikkantataro ca paṇītataro cā’”ti. ",
-            "de": "einer dieser drei Menschen sei der <span class=\"ebt-matched\">erlesenste</span>.“ ",
-            "en": "one of these three people is finest.” ",
-            "matched": true
-          }
-        },
-        "score": 10.156,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Nummerierte Lehrreden 3.21\n3. Das Kapitel über Menschen\nMit Saviṭṭha",
-        "segsMatched": 10,
-        "langSegs": {
-          "pli": 64,
-          "de": 63,
-          "en": 63
-        }
-      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn1/sn1.74_root-pli-ms.json",
@@ -455,59 +352,6 @@
       },
       {
         "bilaraPaths": [
-          "root/pli/ms/sutta/an/an4/an4.100_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/an/an4/an4.100_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/an/an4/an4.100_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "an4.100",
-        "lang": "de",
-        "segMap": {
-          "an4.100:2.8": {
-            "scid": "an4.100:2.8",
-            "pli": "Imesaṁ kho, potaliya, catunnaṁ puggalānaṁ katamo te puggalo khamati abhikkantataro ca paṇītataro cā”ti? ",
-            "de": "Welcher von den vieren, denkst du, ist der <span class=\"ebt-matched\">erlesenste</span>?“ ",
-            "en": "Of these four people, who do you believe to be the finest?” ",
-            "matched": true
-          },
-          "an4.100:3.9": {
-            "scid": "an4.100:3.9",
-            "pli": "ayaṁ me puggalo khamati imesaṁ catunnaṁ puggalānaṁ abhikkantataro ca paṇītataro ca. ",
-            "de": "Das ist der Mensch, den ich für den <span class=\"ebt-matched\">erlesenste</span>n halte. ",
-            "en": "That is the person I believe to be the finest. ",
-            "matched": true
-          },
-          "an4.100:4.4": {
-            "scid": "an4.100:4.4",
-            "pli": "ayaṁ imesaṁ catunnaṁ puggalānaṁ abhikkantataro ca paṇītataro ca. ",
-            "de": "Das ist der Mensch, den ich für den <span class=\"ebt-matched\">erlesenste</span>n halte. ",
-            "en": "That is the person I consider to be the finest. ",
-            "matched": true
-          },
-          "an4.100:5.4": {
-            "scid": "an4.100:5.4",
-            "pli": "ayaṁ me puggalo khamati imesaṁ catunnaṁ puggalānaṁ abhikkantataro ca paṇītataro ca. ",
-            "de": "Das ist der Mensch, den ich für den <span class=\"ebt-matched\">erlesenste</span>n halte. ",
-            "en": "That is the person I believe to be the finest. ",
-            "matched": true
-          }
-        },
-        "score": 4.083,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Nummerierte Lehrreden 4.100\n10. Das Kapitel über Titanen\nMit dem Wanderer Potaliya",
-        "segsMatched": 4,
-        "langSegs": {
-          "pli": 48,
-          "de": 46,
-          "en": 46
-        }
-      },
-      {
-        "bilaraPaths": [
           "root/pli/ms/sutta/dn/dn13_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/dn/dn13_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/dn/dn13_translation-en-sujato.json"
@@ -660,6 +504,52 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn80_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn80_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn80_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn80",
+        "lang": "de",
+        "segMap": {
+          "mn80:3.4": {
+            "scid": "mn80:3.4",
+            "pli": "‘ahaṁ yā imasmiṁ janapade janapadakalyāṇī, taṁ icchāmi taṁ kāmemī’ti. ",
+            "de": "‚Ganz gleich, wer die <span class=\"ebt-matched\">erlesenste</span> Dame im Land ist, sie ist es, die ich will, die ich begehre!‘ ",
+            "en": "‘Whoever the finest lady in the land is, it is her that I want, her I desire!’ ",
+            "matched": true
+          },
+          "mn80:3.6": {
+            "scid": "mn80:3.6",
+            "pli": "‘ambho purisa, yaṁ tvaṁ janapadakalyāṇiṁ icchasi kāmesi, jānāsi taṁ janapadakalyāṇiṁ—khattiyī vā brāhmaṇī vā vessī vā suddī vā’ti? ",
+            "de": "‚Guter Mann, diese <span class=\"ebt-matched\">erlesenste</span> Dame im Land, die du begehrst – weißt du, ob sie eine Adlige, eine Brahmanin, eine Landarbeiterin oder eine Hilfsarbeiterin ist?‘ ",
+            "en": "‘Mister, that finest lady in the land who you desire—do you know whether she’s an aristocrat, a brahmin, a peasant, or a menial?’ ",
+            "matched": true
+          },
+          "mn80:3.9": {
+            "scid": "mn80:3.9",
+            "pli": "‘ambho purisa, yaṁ tvaṁ janapadakalyāṇiṁ icchasi kāmesi, jānāsi taṁ janapadakalyāṇiṁ evaṁnāmā evaṅgottāti vāti …pe… dīghā vā rassā vā majjhimā vā kāḷī vā sāmā vā maṅguracchavī vāti … amukasmiṁ gāme vā nigame vā nagare vā’ti? ",
+            "de": "‚Guter Mann, diese <span class=\"ebt-matched\">erlesenste</span> Dame im Land, die du begehrst – kennst du ihren Namen oder ihren Stamm? Weißt du, ob sie groß, klein oder mittelgroß ist? Ob ihre Haut schwarz, braun oder lohfarben ist? Aus welchem Dorf, welchem Marktflecken oder welcher Stadt sie stammt?‘ ",
+            "en": "‘Mister, that finest lady in the land who you desire—do you know her name or clan? Whether she’s tall or short or medium? Whether her skin is black, brown, or tawny? What village, town, or city she comes from?’ ",
+            "matched": true
+          }
+        },
+        "score": 3.03,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 80\nMit Vekhanasa",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 101,
+          "de": 94,
+          "en": 99
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/mn/mn5_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/mn/mn5_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/mn/mn5_translation-en-sujato.json"
@@ -702,6 +592,52 @@
           "pli": 203,
           "de": 143,
           "en": 202
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn79_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn79_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn79_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn79",
+        "lang": "de",
+        "segMap": {
+          "mn79:10.4": {
+            "scid": "mn79:10.4",
+            "pli": "‘ahaṁ yā imasmiṁ janapade janapadakalyāṇī taṁ icchāmi, taṁ kāmemī’ti. ",
+            "de": "‚Ganz gleich, wer die <span class=\"ebt-matched\">erlesenste</span> Dame im Land ist, sie ist es, die ich will, die ich begehre!‘ ",
+            "en": "‘Whoever the finest lady in the land is, it is her that I want, her I desire!’ ",
+            "matched": true
+          },
+          "mn79:10.6": {
+            "scid": "mn79:10.6",
+            "pli": "‘ambho purisa, yaṁ tvaṁ janapadakalyāṇiṁ icchasi kāmesi, jānāsi taṁ janapadakalyāṇiṁ—khattiyī vā brāhmaṇī vā vessī vā suddī vā’ti? ",
+            "de": "‚Guter Mann, diese <span class=\"ebt-matched\">erlesenste</span> Dame im Land, die du begehrst – weißt du, ob sie eine Adlige, eine Brahmanin, eine Landarbeiterin oder eine Hilfsarbeiterin ist?‘ ",
+            "en": "‘Mister, that finest lady in the land who you desire—do you know whether she’s an aristocrat, a brahmin, a peasant, or a menial?’ ",
+            "matched": true
+          },
+          "mn79:10.9": {
+            "scid": "mn79:10.9",
+            "pli": "‘ambho purisa, yaṁ tvaṁ janapadakalyāṇiṁ icchasi kāmesi, jānāsi taṁ janapadakalyāṇiṁ—evaṁnāmā evaṅgottāti vāti …pe… dīghā vā rassā vā majjhimā vā kāḷī vā sāmā vā maṅguracchavī vāti … amukasmiṁ gāme vā nigame vā nagare vā’ti? ",
+            "de": "‚Guter Mann, diese <span class=\"ebt-matched\">erlesenste</span> Dame im Land, die du begehrst – kennst du ihren Namen oder ihren Stamm? Weißt du, ob sie groß, klein oder mittelgroß ist? Ob ihre Haut schwarz, braun oder lohfarben ist? Aus welchem Dorf, welchem Marktflecken oder welcher Stadt sie stammt?‘ ",
+            "en": "‘Mister, that finest lady in the land who you desire—do you know her name or clan? Whether she’s tall or short or medium? Whether her skin is black, brown, or tawny? What village, town, or city she comes from?’ ",
+            "matched": true
+          }
+        },
+        "score": 3.015,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 79\nDie kürzere Lehrrede mit Sakuludāyī",
+        "segsMatched": 3,
+        "langSegs": {
+          "pli": 200,
+          "de": 196,
+          "en": 199
         }
       },
       {
@@ -772,7 +708,7 @@
           "dn9:35.4": {
             "scid": "dn9:35.4",
             "pli": "‘ambho purisa, yaṁ tvaṁ janapadakalyāṇiṁ icchasi kāmesi, jānāsi taṁ janapadakalyāṇiṁ khattiyī vā brāhmaṇī vā vessī vā suddī vā’ti? ",
-            "de": "‚Guter Mann, diese <span class=\"ebt-matched\">erlesenste</span> Dame im Land, die du begehrst – weißt du, ob sie eine Adlige, eine Brahmanin, eine Bäuerin oder eine Hilfsarbeiterin ist?‘ ",
+            "de": "‚Guter Mann, diese <span class=\"ebt-matched\">erlesenste</span> Dame im Land, die du begehrst – weißt du, ob sie eine Adlige, eine Brahmanin, eine Landarbeiterin oder eine Hilfsarbeiterin ist?‘ ",
             "en": "‘Mister, that finest lady in the land who you desire—do you know whether she’s an aristocrat, a brahmin, a peasant, or a menial?’ ",
             "matched": true
           },
@@ -834,7 +770,7 @@
         "hyphen": "­",
         "maxWord": 30,
         "minWord": 5,
-        "title": "Lange Lehrreden 14\nDie große Lehrrede über Spuren, die man hinterlässt",
+        "title": "Lange Lehrreden 14\nDie große Lehrrede über hinterlassene Spuren",
         "segsMatched": 3,
         "langSegs": {
           "pli": 851,
@@ -1039,45 +975,6 @@
       },
       {
         "bilaraPaths": [
-          "root/pli/ms/sutta/an/an4/an4.95_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/an/an4/an4.95_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/an/an4/an4.95_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "an4.95",
-        "lang": "de",
-        "segMap": {
-          "an4.95:3.3": {
-            "scid": "an4.95:3.3",
-            "pli": "Tatra, bhikkhave, yvāyaṁ puggalo attahitāya ceva paṭipanno parahitāya ca, ayaṁ imesaṁ catunnaṁ puggalānaṁ aggo ca seṭṭho ca pāmokkho ca uttamo ca pavaro ca. ",
-            "de": "Doch der Mensch, der sowohl zum eigenen als auch zum Nutzen anderer übt, ist der vorderste, der beste, der oberste, der höchste und <span class=\"ebt-matched\">erlesenste</span> unter den Vieren. ",
-            "en": "But the person who practices to benefit both themselves and others is the foremost, best, chief, highest, and finest of the four. ",
-            "matched": true
-          },
-          "an4.95:4.2": {
-            "scid": "an4.95:4.2",
-            "pli": "evamevaṁ kho, bhikkhave, yvāyaṁ puggalo attahitāya ceva paṭipanno parahitāya ca, ayaṁ imesaṁ catunnaṁ puggalānaṁ aggo ca seṭṭho ca pāmokkho ca uttamo ca pavaro ca. ",
-            "de": "Ebenso ist der Mensch, der sowohl zum eigenen Nutzen als auch zum Nutzen anderer übt, der vorderste, der beste, der oberste, der höchste und <span class=\"ebt-matched\">erlesenste</span> unter den Vieren. ",
-            "en": "In the same way, the person who practices to benefit both themselves and others is the foremost, best, chief, highest, and finest of the four. ",
-            "matched": true
-          }
-        },
-        "score": 2.111,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Nummerierte Lehrreden 4.95\n10. Das Kapitel über Titanen\nDie Fackel",
-        "segsMatched": 2,
-        "langSegs": {
-          "pli": 18,
-          "de": 17,
-          "en": 17
-        }
-      },
-      {
-        "bilaraPaths": [
           "root/pli/ms/sutta/sn/sn34/sn34.55_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/sn/sn34/sn34.55_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/sn/sn34/sn34.55_translation-en-sujato.json"
@@ -1230,45 +1127,6 @@
           "pli": 110,
           "de": 102,
           "en": 108
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/an/an3/an3.60_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/an/an3/an3.60_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/an/an3/an3.60_translation-en-sujato.json"
-        ],
-        "author_uid": "sabbamitta",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "an3.60",
-        "lang": "de",
-        "segMap": {
-          "an3.60:13.6": {
-            "scid": "an3.60:13.6",
-            "pli": "Imesaṁ te, brāhmaṇa, tiṇṇaṁ pāṭihāriyānaṁ katamaṁ pāṭihāriyaṁ khamati abhikkantatarañca paṇītatarañcā”ti? ",
-            "de": "Welche dieser drei Demonstrationen betrachtest du als die <span class=\"ebt-matched\">erlesenste</span>?“ ",
-            "en": "Of these three kinds of demonstration, which do you consider to be the finest?” ",
-            "matched": true
-          },
-          "an3.60:16.3": {
-            "scid": "an3.60:16.3",
-            "pli": "Idameva, bho gotama, pāṭihāriyaṁ khamati imesaṁ tiṇṇaṁ pāṭihāriyānaṁ abhikkantatarañca paṇītatarañca. ",
-            "de": "– diese Demonstration gefällt mir am besten, Herr Gotama. Sie ist die <span class=\"ebt-matched\">erlesenste</span> der drei Demonstrationen. ",
-            "en": "I prefer this demonstration, Mister Gotama. It’s the finest of the three kinds of demonstration. ",
-            "matched": true
-          }
-        },
-        "score": 2.017,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Nummerierte Lehrreden 3.60\n6. Das Kapitel mit Brahmanen\nMit Saṅgārava",
-        "segsMatched": 2,
-        "langSegs": {
-          "pli": 119,
-          "de": 117,
-          "en": 117
         }
       },
       {

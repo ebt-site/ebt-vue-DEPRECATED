@@ -41,7 +41,7 @@
     "pattern": "das stehlen auf",
     "method": "phrase",
     "resultPattern": "\\bdas stehlen auf",
-    "segsMatched": 25,
+    "segsMatched": 26,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn54_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn54_translation-de-sabbamitta.json",
@@ -58,6 +58,9 @@
       "root/pli/ms/sutta/sn/sn42/sn42.8_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn42/sn42.8_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn42/sn42.8_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn79_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn79_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn79_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn51_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn51_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn51_translation-en-sujato.json",
@@ -116,6 +119,7 @@
       "an3.70/de/sabbamitta",
       "sn55.7/de/sabbamitta",
       "sn42.8/de/sabbamitta",
+      "mn79/de/sabbamitta",
       "mn51/de/sabbamitta",
       "mn42/de/sabbamitta",
       "mn41/de/sabbamitta",
@@ -762,6 +766,38 @@
           "pli": 190,
           "de": 184,
           "en": 189
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn79_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn79_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn79_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn79",
+        "lang": "de",
+        "segMap": {
+          "mn79:22.5": {
+            "scid": "mn79:22.5",
+            "pli": "yasmiṁ samaye adinnādānaṁ pahāya adinnādānā paṭivirato hoti, ekantasukhī vā tasmiṁ samaye attā hoti sukhadukkhī vā”ti? ",
+            "de": "Zu einer Zeit, zu der jemand <span class=\"ebt-matched\">das Stehlen auf</span>gibt und nicht mehr stiehlt … ",
+            "en": "On an occasion when someone refrains from stealing … ",
+            "matched": true
+          }
+        },
+        "score": 1.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 79\nDie kürzere Lehrrede mit Sakuludāyī",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 200,
+          "de": 196,
+          "en": 199
         }
       },
       {

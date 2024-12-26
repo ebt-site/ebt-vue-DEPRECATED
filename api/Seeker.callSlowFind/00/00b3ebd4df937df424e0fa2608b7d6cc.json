@@ -41,7 +41,7 @@
     "pattern": "ärger, hass und unmut",
     "method": "phrase",
     "resultPattern": "\\bärger, hass und unmut",
-    "segsMatched": 24,
+    "segsMatched": 25,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn65_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn65_translation-de-sabbamitta.json",
@@ -70,6 +70,9 @@
       "root/pli/ms/sutta/an/an3/an3.25_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.25_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.25_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn79_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn79_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn79_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.14_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.14_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an8/an8.14_translation-en-sujato.json",
@@ -90,6 +93,7 @@
       "an4.197/de/sabbamitta",
       "an3.27/de/sabbamitta",
       "an3.25/de/sabbamitta",
+      "mn79/de/sabbamitta",
       "an8.14/de/sabbamitta",
       "an8.10/de/sabbamitta",
       "an3.67/de/sabbamitta"
@@ -561,6 +565,38 @@
           "pli": 90,
           "de": 81,
           "en": 89
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn79_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn79_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn79_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn79",
+        "lang": "de",
+        "segMap": {
+          "mn79:6.3": {
+            "scid": "mn79:6.3",
+            "pli": "So mayā pubbantaṁ ārabbha pañhaṁ puṭṭho samāno aññenaññaṁ paṭicari, bahiddhā kathaṁ apanāmesi, kopañca dosañca appaccayañca pātvākāsi. ",
+            "de": "Als ich ihm eine Frage über die Vergangenheit stellte, wich er dem Problem aus, lenkte das Gespräch auf Nebensächlichkeiten und zeigte <span class=\"ebt-matched\">Ärger, Hass und Unmut</span>. ",
+            "en": "When I asked them a question about the past, they dodged the issue, distracted the discussion with irrelevant points, and displayed annoyance, hate, and bitterness. ",
+            "matched": true
+          }
+        },
+        "score": 1.005,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 79\nDie kürzere Lehrrede mit Sakuludāyī",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 200,
+          "de": 196,
+          "en": 199
         }
       }
     ],

@@ -41,7 +41,7 @@
     "pattern": "höllenlärm",
     "method": "phrase",
     "resultPattern": "\\bhöllenlärm",
-    "segsMatched": 33,
+    "segsMatched": 35,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn67_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn67_translation-de-sabbamitta.json",
@@ -55,6 +55,9 @@
       "root/pli/ms/sutta/an/an10/an10.116_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.116_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an10/an10.116_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn79_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn79_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn79_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.86_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.86_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an8/an8.86_translation-en-sujato.json",
@@ -97,6 +100,7 @@
       "ud3.3/de/sabbamitta",
       "dn25/de/sabbamitta",
       "an10.116/de/sabbamitta",
+      "mn79/de/sabbamitta",
       "an8.86/de/sabbamitta",
       "an7.63/de/sabbamitta",
       "an6.42/de/sabbamitta",
@@ -516,6 +520,45 @@
           "pli": 69,
           "de": 68,
           "en": 68
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn79_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn79_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn79_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn79",
+        "lang": "de",
+        "segMap": {
+          "mn79:3.1": {
+            "scid": "mn79:3.1",
+            "pli": "Tena kho pana samayena sakuludāyī paribbājako mahatiyā paribbājakaparisāya saddhiṁ nisinno hoti unnādiniyā uccāsaddamahāsaddāya anekavihitaṁ tiracchānakathaṁ kathentiyā, seyyathidaṁ—",
+            "de": "Zu dieser Zeit saß Sakuludāyī mit einer großen Versammlung von Wanderern beisammen, und sie machten einen Tumult, einen <span class=\"ebt-matched\">Höllenlärm</span>. Sie führten unwürdige Gespräche aller Art ",
+            "en": "Now at that time, Sakuludāyī was sitting together with a large assembly of wanderers making an uproar, a dreadful racket. They engaged in all kinds of low talk, such as ",
+            "matched": true
+          },
+          "mn79:26.1": {
+            "scid": "mn79:26.1",
+            "pli": "Evaṁ vutte, sakuludāyissa paribbājakassa parisā unnādinī uccāsaddamahāsaddā ahosi: ",
+            "de": "Daraufhin machte Sakuludāyīs Versammlung einen Tumult, einen <span class=\"ebt-matched\">Höllenlärm</span>: ",
+            "en": "When he said this, Sakuludāyī’s assembly made an uproar, a dreadful racket, ",
+            "matched": true
+          }
+        },
+        "score": 2.01,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 79\nDie kürzere Lehrrede mit Sakuludāyī",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 200,
+          "de": 196,
+          "en": 199
         }
       },
       {

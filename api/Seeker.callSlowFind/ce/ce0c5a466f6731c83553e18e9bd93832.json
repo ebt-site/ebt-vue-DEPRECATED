@@ -41,11 +41,14 @@
     "pattern": "unwürdige gespräche",
     "method": "phrase",
     "resultPattern": "\\bunwürdige gespräche",
-    "segsMatched": 14,
+    "segsMatched": 16,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn25_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn25_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn25_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn79_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn79_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn79_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn56/sn56.10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn56/sn56.10_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn56/sn56.10_translation-en-sujato.json",
@@ -82,6 +85,7 @@
     ],
     "suttaRefs": [
       "dn25/de/sabbamitta",
+      "mn79/de/sabbamitta",
       "sn56.10/de/sabbamitta",
       "mn78/de/sabbamitta",
       "mn77/de/sabbamitta",
@@ -139,6 +143,45 @@
           "pli": 383,
           "de": 351,
           "en": 382
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn79_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn79_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn79_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn79",
+        "lang": "de",
+        "segMap": {
+          "mn79:3.1": {
+            "scid": "mn79:3.1",
+            "pli": "Tena kho pana samayena sakuludāyī paribbājako mahatiyā paribbājakaparisāya saddhiṁ nisinno hoti unnādiniyā uccāsaddamahāsaddāya anekavihitaṁ tiracchānakathaṁ kathentiyā, seyyathidaṁ—",
+            "de": "Zu dieser Zeit saß Sakuludāyī mit einer großen Versammlung von Wanderern beisammen, und sie machten einen Tumult, einen Höllenlärm. Sie führten <span class=\"ebt-matched\">unwürdige Gespräche</span> aller Art ",
+            "en": "Now at that time, Sakuludāyī was sitting together with a large assembly of wanderers making an uproar, a dreadful racket. They engaged in all kinds of low talk, such as ",
+            "matched": true
+          },
+          "mn79:5.3": {
+            "scid": "mn79:5.3",
+            "pli": "Yadāhaṁ, bhante, imaṁ parisaṁ anupasaṅkanto homi athāyaṁ parisā anekavihitaṁ tiracchānakathaṁ kathentī nisinnā hoti; ",
+            "de": "Wenn ich nicht zu der Versammlung komme, sitzen sie beisammen und führen <span class=\"ebt-matched\">unwürdige Gespräche</span> aller Art. ",
+            "en": "When I don’t come to the assembly, they sit and engage in all kinds of low talk. ",
+            "matched": true
+          }
+        },
+        "score": 2.01,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 79\nDie kürzere Lehrrede mit Sakuludāyī",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 200,
+          "de": 196,
+          "en": 199
         }
       },
       {

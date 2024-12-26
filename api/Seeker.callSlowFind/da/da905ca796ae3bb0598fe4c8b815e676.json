@@ -41,7 +41,7 @@
     "pattern": "inbrünstige.* bußübung",
     "method": "phrase",
     "resultPattern": "\\binbrünstige.* bußübung",
-    "segsMatched": 83,
+    "segsMatched": 85,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn8_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn8_translation-de-sabbamitta.json",
@@ -64,6 +64,9 @@
       "root/pli/ms/sutta/sn/sn1/sn1.38_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn1/sn1.38_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.38_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn79_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn79_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn79_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn76_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn76_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn76_translation-en-sujato.json",
@@ -133,6 +136,7 @@
       "mn12/de/sabbamitta",
       "an8.12/de/sabbamitta",
       "sn1.38/de/sabbamitta",
+      "mn79/de/sabbamitta",
       "mn76/de/sabbamitta",
       "mn57/de/sabbamitta",
       "mn16/de/sabbamitta",
@@ -858,6 +862,45 @@
           "pli": 114,
           "de": 113,
           "en": 113
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn79_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn79_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn79_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn79",
+        "lang": "de",
+        "segMap": {
+          "mn79:21.2": {
+            "scid": "mn79:21.2",
+            "pli": "“Idha, bhante, ekacco pāṇātipātaṁ pahāya pāṇātipātā paṭivirato hoti, adinnādānaṁ pahāya adinnādānā paṭivirato hoti, kāmesumicchācāraṁ pahāya kāmesumicchācārā paṭivirato hoti, musāvādaṁ pahāya musāvādā paṭivirato hoti, aññataraṁ vā pana tapoguṇaṁ samādāya vattati. ",
+            "de": "„Herr, da hat jemand das Töten lebender Geschöpfe, das Stehlen, das Begehen sexueller Verfehlungen und das Lügen aufgegeben und tut diese Dinge nicht mehr. Und er fährt fort, indem er eine Art <span class=\"ebt-matched\">inbrünstiger Bußübung</span> aufnimmt. ",
+            "en": "“Sir, it’s when someone gives up killing living creatures, stealing, sexual misconduct, and lying. And they proceed having undertaken some kind of mortification. ",
+            "matched": true
+          },
+          "mn79:22.12": {
+            "scid": "mn79:22.12",
+            "pli": "yasmiṁ samaye aññataraṁ tapoguṇaṁ samādāya vattati, ekantasukhī vā tasmiṁ samaye attā hoti sukhadukkhī vā”ti? ",
+            "de": "Zu einer Zeit, zu der jemand eine Art <span class=\"ebt-matched\">inbrünstiger Bußübung</span> aufnimmt und befolgt, ist zu dieser Zeit sein Selbst ausschließlich glücklich, oder erlebt es sowohl Glück als auch Schmerz?“ ",
+            "en": "On an occasion when someone undertakes and follows some kind of mortification, is their self perfectly happy at that time, or does it have both pleasure and pain?” ",
+            "matched": true
+          }
+        },
+        "score": 2.01,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 79\nDie kürzere Lehrrede mit Sakuludāyī",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 200,
+          "de": 196,
+          "en": 199
         }
       },
       {
