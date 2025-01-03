@@ -41,8 +41,11 @@
     "pattern": "gerechter und prinzipientreuer könig",
     "method": "phrase",
     "resultPattern": "\\bgerechter und prinzipientreuer könig",
-    "segsMatched": 19,
+    "segsMatched": 23,
     "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn83_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn83_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn83_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.133_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.133_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.133_translation-en-sujato.json",
@@ -84,6 +87,7 @@
       "translation/en/sujato/sutta/an/an7/an7.62_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "mn83/de/sabbamitta",
       "an5.133/de/sabbamitta",
       "dn30/de/sabbamitta",
       "dn26/de/sabbamitta",
@@ -99,6 +103,59 @@
       "an7.62/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn83_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn83_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn83_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn83",
+        "lang": "de",
+        "segMap": {
+          "mn83:3.1": {
+            "scid": "mn83:3.1",
+            "pli": "“Bhūtapubbaṁ, ānanda, imissāyeva mithilāyaṁ rājā ahosi maghadevo nāma dhammiko dhammarājā dhamme ṭhito mahārājā; ",
+            "de": "„Es war einmal, Ānanda, eben hier in Mithilā ein <span class=\"ebt-matched\">gerechter und prinzipientreuer König</span> mit Namen Maghadeva, ein großer König, der zu seiner Pflicht stand. ",
+            "en": "“Once upon a time, Ānanda, right here in Mithilā there was a just and principled king named Maghadeva, a great king who stood by his duty. ",
+            "matched": true
+          },
+          "mn83:13.3": {
+            "scid": "mn83:13.3",
+            "pli": "yesaṁ nimi rājā dhammiko dhammarājā dhamme ṭhito mahārājā; ",
+            "de": "dass sie Nimi zum König haben. Er ist ein <span class=\"ebt-matched\">gerechter und prinzipientreuer König</span>, ein großer König, der zu seiner Pflicht steht. ",
+            "en": "to have Nimi as their king. He is a just and principled king, a great king who stands by his duty. ",
+            "matched": true
+          },
+          "mn83:13.15": {
+            "scid": "mn83:13.15",
+            "pli": "yesaṁ nimi rājā dhammiko dhammarājā dhamme ṭhito mahārājā; ",
+            "de": "dass sie Nimi zum König haben. Er ist ein <span class=\"ebt-matched\">gerechter und prinzipientreuer König</span>, ein großer König, der zu seiner Pflicht steht. ",
+            "en": "",
+            "matched": true
+          },
+          "mn83:15.8": {
+            "scid": "mn83:15.8",
+            "pli": "yesaṁ nimi rājā dhammiko dhammarājā dhamme ṭhito mahārājā; ",
+            "de": "dass sie Nimi zum König haben. Er ist ein <span class=\"ebt-matched\">gerechter und prinzipientreuer König</span>, ein großer König, der zu seiner Pflicht steht. ",
+            "en": "",
+            "matched": true
+          }
+        },
+        "score": 4.022,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 83\nÜber den König Maghadeva",
+        "segsMatched": 4,
+        "langSegs": {
+          "pli": 181,
+          "de": 180,
+          "en": 180
+        }
+      },
       {
         "bilaraPaths": [
           "root/pli/ms/sutta/an/an5/an5.133_root-pli-ms.json",

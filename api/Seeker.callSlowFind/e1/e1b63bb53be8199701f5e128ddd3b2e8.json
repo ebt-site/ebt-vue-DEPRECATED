@@ -41,7 +41,7 @@
     "pattern": "das ist eine andere art",
     "method": "phrase",
     "resultPattern": "\\bdas ist eine andere art",
-    "segsMatched": 23,
+    "segsMatched": 24,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an9/an9.34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an9/an9.34_translation-de-sabbamitta.json",
@@ -69,7 +69,10 @@
       "translation/en/sujato/sutta/sn/sn45/sn45.2_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn3/sn3.18_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn3/sn3.18_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn3/sn3.18_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn3/sn3.18_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn84_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn84_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn84_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an9.34/de/sabbamitta",
@@ -80,7 +83,8 @@
       "sn54.12/de/sabbamitta",
       "sn45.3/de/sabbamitta",
       "sn45.2/de/sabbamitta",
-      "sn3.18/de/sabbamitta"
+      "sn3.18/de/sabbamitta",
+      "mn84/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -259,7 +263,7 @@
         "segsMatched": 3,
         "langSegs": {
           "pli": 474,
-          "de": 380,
+          "de": 383,
           "en": 375
         }
       },
@@ -467,6 +471,38 @@
           "pli": 52,
           "de": 45,
           "en": 52
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn84_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn84_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn84_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn84",
+        "lang": "de",
+        "segMap": {
+          "mn84:9.18": {
+            "scid": "mn84:9.18",
+            "pli": "“Imināpi kho etaṁ, mahārāja, pariyāyena veditabbaṁ yathā ghosoyeveso lokasmiṁ: ",
+            "de": "„<span class=\"ebt-matched\">Das ist eine andere Art</span>, zu verstehen, inwiefern dies bloß ein Gerede in der Welt ist: ",
+            "en": "“This is another way to understand that this is just hearsay in the world: ",
+            "matched": true
+          }
+        },
+        "score": 1.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 84\nIn Madhurā",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 171,
+          "de": 139,
+          "en": 170
         }
       }
     ],

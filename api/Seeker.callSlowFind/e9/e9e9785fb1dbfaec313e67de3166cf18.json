@@ -41,7 +41,7 @@
     "pattern": "es ist einfach dieser edle achtfache pfad",
     "method": "phrase",
     "resultPattern": "\\bes ist einfach dieser edle achtfache pfad",
-    "segsMatched": 42,
+    "segsMatched": 44,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn56/sn56.11_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn56/sn56.11_translation-de-sabbamitta.json",
@@ -106,6 +106,9 @@
       "root/pli/ms/sutta/sn/sn39/sn39.1-15_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn39/sn39.1-15_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn39/sn39.1-15_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn38/sn38.4_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn38/sn38.4_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn38/sn38.4_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn38/sn38.3_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn38/sn38.3_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn38/sn38.3_translation-en-sujato.json",
@@ -133,6 +136,9 @@
       "root/pli/ms/sutta/mn/mn9_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn9_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn9_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn83_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn83_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn83_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn44_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn44_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn44_translation-en-sujato.json",
@@ -186,6 +192,7 @@
       "sn45.27/de/sabbamitta",
       "sn42.12/de/sabbamitta",
       "sn39.1-15/de/sabbamitta",
+      "sn38.4/de/sabbamitta",
       "sn38.3/de/sabbamitta",
       "sn38.2/de/sabbamitta",
       "sn38.1/de/sabbamitta",
@@ -195,6 +202,7 @@
       "sn22.103/de/sabbamitta",
       "sn12.65/de/sabbamitta",
       "mn9/de/sabbamitta",
+      "mn83/de/sabbamitta",
       "mn44/de/sabbamitta",
       "mn141/de/sabbamitta",
       "mn139/de/sabbamitta",
@@ -315,6 +323,38 @@
           "pli": 13,
           "de": 12,
           "en": 12
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn38/sn38.4_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn38/sn38.4_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn38/sn38.4_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "sn38.4",
+        "lang": "de",
+        "segMap": {
+          "sn38.4:2.1": {
+            "scid": "sn38.4:2.1",
+            "pli": "“Ayameva kho, āvuso, ariyo aṭṭhaṅgiko maggo, etassa dukkhassa pariññāya, seyyathidaṁ—",
+            "de": "„<span class=\"ebt-matched\">Es ist einfach dieser edle achtfache Pfad</span>: nämlich ",
+            "en": "",
+            "matched": true
+          }
+        },
+        "score": 1.071,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verbundene Lehrreden 38.4\n1. Das Kapitel mit Jambukhādaka\nWas ist der Zweck?",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 14,
+          "de": 13,
+          "en": 13
         }
       },
       {
@@ -1307,6 +1347,38 @@
           "pli": 156,
           "de": 148,
           "en": 155
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn83_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn83_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn83_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn83",
+        "lang": "de",
+        "segMap": {
+          "mn83:21.10": {
+            "scid": "mn83:21.10",
+            "pli": "Ayameva ariyo aṭṭhaṅgiko maggo, seyyathidaṁ—",
+            "de": "<span class=\"ebt-matched\">Es ist einfach dieser edle achtfache Pfad</span>: nämlich ",
+            "en": "It is simply this noble eightfold path, that is: ",
+            "matched": true
+          }
+        },
+        "score": 1.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 83\nÜber den König Maghadeva",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 181,
+          "de": 180,
+          "en": 180
         }
       },
       {

@@ -41,11 +41,14 @@
     "pattern": "hausbesitzer.* aus stadt und land",
     "method": "phrase",
     "resultPattern": "\\bhausbesitzer.* aus stadt und land",
-    "segsMatched": 23,
+    "segsMatched": 33,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn30_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn30_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn30_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn83_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn83_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn83_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn122_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn122_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn122_translation-en-sujato.json",
@@ -61,18 +64,27 @@
       "root/pli/ms/sutta/an/an5/an5.30_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.30_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.30_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.70_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.70_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.70_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn18_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn18_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/dn/dn18_translation-en-sujato.json"
+      "translation/en/sujato/sutta/dn/dn18_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.133_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an5/an5.133_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an5/an5.133_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "dn30/de/sabbamitta",
+      "mn83/de/sabbamitta",
       "mn122/de/sabbamitta",
       "dn5/de/sabbamitta",
       "an8.86/de/sabbamitta",
       "an6.42/de/sabbamitta",
       "an5.30/de/sabbamitta",
-      "dn18/de/sabbamitta"
+      "an4.70/de/sabbamitta",
+      "dn18/de/sabbamitta",
+      "an5.133/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -154,6 +166,80 @@
           "pli": 721,
           "de": 716,
           "en": 720
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn83_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn83_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn83_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn83",
+        "lang": "de",
+        "segMap": {
+          "mn83:3.2": {
+            "scid": "mn83:3.2",
+            "pli": "dhammaṁ carati brāhmaṇagahapatikesu negamesu ceva jānapadesu ca; ",
+            "de": "Brahmanen und <span class=\"ebt-matched\">Hausbesitzer sowie die Menschen aus Stadt und Land</span> behandelte er gerecht. ",
+            "en": "He justly treated brahmins and householders, and people of town and country. ",
+            "matched": true
+          },
+          "mn83:12.2": {
+            "scid": "mn83:12.2",
+            "pli": "dhammaṁ carati brāhmaṇagahapatikesu negamesu ceva jānapadesu ca; ",
+            "de": "Brahmanen und <span class=\"ebt-matched\">Hausbesitzer sowie die Menschen aus Stadt und Land</span> behandelte er gerecht. ",
+            "en": "He justly treated brahmins and householders, and people of town and country. ",
+            "matched": true
+          },
+          "mn83:13.4": {
+            "scid": "mn83:13.4",
+            "pli": "dhammaṁ carati brāhmaṇagahapatikesu negamesu ceva jānapadesu ca; ",
+            "de": "Brahmanen und <span class=\"ebt-matched\">Hausbesitzer sowie die Menschen aus Stadt und Land</span> behandelt er gerecht. ",
+            "en": "He justly treats brahmins and householders, and people of town and country. ",
+            "matched": true
+          },
+          "mn83:13.16": {
+            "scid": "mn83:13.16",
+            "pli": "dhammaṁ carati brāhmaṇagahapatikesu negamesu ceva jānapadesu ca; ",
+            "de": "Brahmanen und <span class=\"ebt-matched\">Hausbesitzer sowie die Menschen aus Stadt und Land</span> behandelt er gerecht. ",
+            "en": "",
+            "matched": true
+          },
+          "mn83:15.9": {
+            "scid": "mn83:15.9",
+            "pli": "dhammaṁ carati brāhmaṇagahapatikesu negamesu ceva jānapadesu ca; ",
+            "de": "Brahmanen und <span class=\"ebt-matched\">Hausbesitzer sowie die Menschen aus Stadt und Land</span> behandelte er gerecht. ",
+            "en": "",
+            "matched": true
+          },
+          "mn83:15.14": {
+            "scid": "mn83:15.14",
+            "pli": "Tathāhaṁ dhammaṁ carissāmi brāhmaṇagahapatikesu negamesu ceva jānapadesu ca; ",
+            "de": "So werde ich Brahmanen und <span class=\"ebt-matched\">Hausbesitzer sowie die Menschen aus Stadt und Land</span> gerecht behandeln. ",
+            "en": "That way I shall justly treat brahmins and householders, and people of town and country. ",
+            "matched": true
+          },
+          "mn83:16.4": {
+            "scid": "mn83:16.4",
+            "pli": "Tatra sudaṁ, ānanda, nimi rājā dhammaṁ carati brāhmaṇagahapatikesu negamesu ceva jānapadesu ca, uposathañca upavasati cātuddasiṁ pañcadasiṁ aṭṭhamiñca pakkhassāti. ",
+            "de": "Dort behandelte der König Brahmanen und <span class=\"ebt-matched\">Hausbesitzer sowie die Menschen aus Stadt und Land</span> gerecht, und er hielt am vierzehnten, fünfzehnten und achten Tag der Monatshälfte den Besinnungstag ein. ",
+            "en": "And there King Nimi justly treated his people, and observed the sabbath. ",
+            "matched": true
+          }
+        },
+        "score": 7.039,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 83\nÜber den König Maghadeva",
+        "segsMatched": 7,
+        "langSegs": {
+          "pli": 181,
+          "de": 180,
+          "en": 180
         }
       },
       {
@@ -303,6 +389,45 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.70_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.70_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.70_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an4.70",
+        "lang": "de",
+        "segMap": {
+          "an4.70:1.3": {
+            "scid": "an4.70:1.3",
+            "pli": "Brāhmaṇagahapatikesu adhammikesu negamajānapadāpi tasmiṁ samaye adhammikā honti. ",
+            "de": "Wenn Brahmanen und <span class=\"ebt-matched\">Hausbesitzer prinzipienlos sind, werden auch die Menschen aus Stadt und Land</span> prinzipienlos. ",
+            "en": "When brahmins and householders are unprincipled, the people of town and country become unprincipled. ",
+            "matched": true
+          },
+          "an4.70:2.3": {
+            "scid": "an4.70:2.3",
+            "pli": "Brāhmaṇagahapatikesu dhammikesu negamajānapadāpi tasmiṁ samaye dhammikā honti. ",
+            "de": "Wenn Brahmanen und <span class=\"ebt-matched\">Hausbesitzer prinzipientreu sind, werden auch die Menschen aus Stadt und Land</span> prinzipientreu. ",
+            "en": "people of town and country become principled. ",
+            "matched": true
+          }
+        },
+        "score": 2.036,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 4.70\n7. Das Kapitel über passende Taten\nPrinzipienlos",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 56,
+          "de": 54,
+          "en": 54
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/an/an6/an6.42_root-pli-ms.json",
           "translation/de/sabbamitta/sutta/an/an6/an6.42_translation-de-sabbamitta.json",
           "translation/en/sujato/sutta/an/an6/an6.42_translation-en-sujato.json"
@@ -377,6 +502,38 @@
           "pli": 65,
           "de": 64,
           "en": 64
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an5/an5.133_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an5/an5.133_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an5/an5.133_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "an5.133",
+        "lang": "de",
+        "segMap": {
+          "an5.133:3.1": {
+            "scid": "an5.133:3.1",
+            "pli": "Puna caparaṁ, bhikkhu, rājā cakkavattī dhammiko dhammarājā dhammaññeva nissāya dhammaṁ sakkaronto dhammaṁ garuṁ karonto dhammaṁ apacāyamāno dhammaddhajo dhammaketu dhammādhipateyyo dhammikaṁ rakkhāvaraṇaguttiṁ saṁvidahati khattiyesu anuyantesu …pe… balakāyasmiṁ brāhmaṇagahapatikesu negamajānapadesu samaṇabrāhmaṇesu migapakkhīsu. ",
+            "de": "Er stellt seinen Adligen gerechten Schutz und Sicherheit bereit, ebenso seinen Lehnsleuten, Truppen, Brahmanen und <span class=\"ebt-matched\">Hausbesitzern, Menschen aus Stadt und Land</span>, Asketen und Brahmanen, Tieren und Vögeln. ",
+            "en": "He provides just protection and security for his aristocrats, vassals, troops, brahmins and householders, people of town and country, ascetics and brahmins, beasts and birds. ",
+            "matched": true
+          }
+        },
+        "score": 1.038,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Nummerierte Lehrreden 5.133\n14. Das Kapitel über Könige\nEin prinzipientreuer König",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 26,
+          "de": 25,
+          "en": 25
         }
       },
       {

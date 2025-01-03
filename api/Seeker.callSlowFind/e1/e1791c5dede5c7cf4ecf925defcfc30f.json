@@ -41,8 +41,11 @@
     "pattern": "sicher jemand anders",
     "method": "phrase",
     "resultPattern": "\\bsicher jemand anders",
-    "segsMatched": 4,
+    "segsMatched": 5,
     "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn83_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn83_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn83_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn81_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn81_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn81_translation-en-sujato.json",
@@ -57,6 +60,7 @@
       "translation/en/sujato/sutta/an/an3/an3.15_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "mn83/de/sabbamitta",
       "mn81/de/sabbamitta",
       "dn17/de/sabbamitta",
       "an9.20/de/sabbamitta",
@@ -125,6 +129,38 @@
           "pli": 56,
           "de": 42,
           "en": 54
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn83_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn83_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn83_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn83",
+        "lang": "de",
+        "segMap": {
+          "mn83:21.2": {
+            "scid": "mn83:21.2",
+            "pli": "‘añño nūna tena samayena rājā maghadevo ahosi, yena taṁ kalyāṇaṁ vattaṁ nihitan’ti. ",
+            "de": "‚Der König Maghadeva, von dem dieser gute Brauch begründet wurde, wird damals <span class=\"ebt-matched\">sicher jemand anders</span> gewesen sein?‘ ",
+            "en": "‘Surely King Maghadeva, by whom that good practice was founded, must have been someone else at that time?’ ",
+            "matched": true
+          }
+        },
+        "score": 1.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 83\nÜber den König Maghadeva",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 181,
+          "de": 180,
+          "en": 180
         }
       },
       {

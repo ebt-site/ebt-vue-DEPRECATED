@@ -41,7 +41,7 @@
     "pattern": "erlesenste",
     "method": "phrase",
     "resultPattern": "\\berlesenste",
-    "segsMatched": 70,
+    "segsMatched": 71,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn1/sn1.74_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn1/sn1.74_translation-de-sabbamitta.json",
@@ -109,6 +109,9 @@
       "root/pli/ms/sutta/sn/sn17/sn17.13-20_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn17/sn17.13-20_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn17/sn17.13-20_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn84_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn84_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn84_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn82_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn82_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn82_translation-en-sujato.json",
@@ -149,6 +152,7 @@
       "an5.181/de/sabbamitta",
       "an10.91/de/sabbamitta",
       "sn17.13-20/de/sabbamitta",
+      "mn84/de/sabbamitta",
       "mn82/de/sabbamitta",
       "mn81/de/sabbamitta",
       "thig13.3/de/sabbamitta",
@@ -728,7 +732,7 @@
         "segsMatched": 3,
         "langSegs": {
           "pli": 474,
-          "de": 380,
+          "de": 383,
           "en": 375
         }
       },
@@ -1224,6 +1228,38 @@
           "pli": 94,
           "de": 93,
           "en": 93
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn84_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn84_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn84_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn84",
+        "lang": "de",
+        "segMap": {
+          "mn84:3.1": {
+            "scid": "mn84:3.1",
+            "pli": "Atha kho rājā mādhuro avantiputto bhadrāni bhadrāni yānāni yojāpetvā bhadraṁ yānaṁ abhiruhitvā bhadrehi bhadrehi yānehi madhurāya niyyāsi mahaccarājānubhāvena āyasmantaṁ mahākaccānaṁ dassanāya. ",
+            "de": "Darauf ließ König Avantiputta die <span class=\"ebt-matched\">erlesenste</span>n Kutschen anspannen. Er bestieg eine erlesene Kutsche und machte sich zusammen mit anderen erlesenen Kutschen in vollem königlichem Prunk von Madhurā auf, um Mahākaccāna zu sehen. ",
+            "en": "And then King Avantiputta had the finest carriages harnessed. He mounted a fine carriage and, along with other fine carriages, set out in full royal pomp from Madhurā to see Mahākaccāna. ",
+            "matched": true
+          }
+        },
+        "score": 1.006,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 84\nIn Madhurā",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 171,
+          "de": 139,
+          "en": 170
         }
       },
       {

@@ -41,7 +41,7 @@
     "pattern": "den besinnungstag",
     "method": "phrase",
     "resultPattern": "\\bden besinnungstag",
-    "segsMatched": 99,
+    "segsMatched": 107,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an3/an3.70_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.70_translation-de-sabbamitta.json",
@@ -52,6 +52,9 @@
       "root/pli/ms/sutta/an/an8/an8.41_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.41_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an8/an8.41_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn83_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn83_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn83_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.43_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.43_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an8/an8.43_translation-en-sujato.json",
@@ -139,6 +142,7 @@
       "an3.70/de/sabbamitta",
       "an8.42/de/sabbamitta",
       "an8.41/de/sabbamitta",
+      "mn83/de/sabbamitta",
       "an8.43/de/sabbamitta",
       "an8.45/de/sabbamitta",
       "an10.46/de/sabbamitta",
@@ -616,6 +620,87 @@
           "pli": 70,
           "de": 69,
           "en": 69
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn83_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn83_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn83_translation-en-sujato.json"
+        ],
+        "author_uid": "sabbamitta",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn83",
+        "lang": "de",
+        "segMap": {
+          "mn83:3.3": {
+            "scid": "mn83:3.3",
+            "pli": "uposathañca upavasati cātuddasiṁ pañcadasiṁ aṭṭhamiñca pakkhassa. ",
+            "de": "Und er hielt am vierzehnten, fünfzehnten und achten Tag der Monatshälfte <span class=\"ebt-matched\">den Besinnungstag</span> ein. ",
+            "en": "And he observed the sabbath on the fourteenth, fifteenth, and eighth of the fortnight. ",
+            "matched": true
+          },
+          "mn83:12.3": {
+            "scid": "mn83:12.3",
+            "pli": "uposathañca upavasati cātuddasiṁ pañcadasiṁ aṭṭhamiñca pakkhassa. ",
+            "de": "Und er hielt am vierzehnten, fünfzehnten und achten Tag der Monatshälfte <span class=\"ebt-matched\">den Besinnungstag</span> ein. ",
+            "en": "And he observed the sabbath on the fourteenth, fifteenth, and eighth of the fortnight. ",
+            "matched": true
+          },
+          "mn83:13.5": {
+            "scid": "mn83:13.5",
+            "pli": "uposathañca upavasati cātuddasiṁ pañcadasiṁ aṭṭhamiñca pakkhassā’ti. ",
+            "de": "Und er hält am vierzehnten, fünfzehnten und achten Tag der Monatshälfte <span class=\"ebt-matched\">den Besinnungstag</span> ein.‘ ",
+            "en": "And he observes the sabbath on the fourteenth, fifteenth, and eighth of the fortnight.’ ",
+            "matched": true
+          },
+          "mn83:13.9": {
+            "scid": "mn83:13.9",
+            "pli": "Tena kho pana, ānanda, samayena nimi rājā tadahuposathe pannarase sīsaṁnhāto uposathiko uparipāsādavaragato nisinno hoti. ",
+            "de": "Nun war es gerade der fünfzehnte Tag, der Besinnungstag, und König Nimi hatte seinen Kopf gebadet und saß oben im königlichen Pfahlhaus, um <span class=\"ebt-matched\">den Besinnungstag</span> einzuhalten. ",
+            "en": "Now at that time it was the fifteenth day sabbath, and King Nimi had bathed his head and was sitting upstairs in the royal longhouse to observe the sabbath. ",
+            "matched": true
+          },
+          "mn83:13.17": {
+            "scid": "mn83:13.17",
+            "pli": "uposathañca upavasati cātuddasiṁ pañcadasiṁ aṭṭhamiñca pakkhassā”ti. ",
+            "de": "Und er hält am vierzehnten, fünfzehnten und achten Tag der Monatshälfte <span class=\"ebt-matched\">den Besinnungstag</span> ein.“ ",
+            "en": "",
+            "matched": true
+          },
+          "mn83:15.10": {
+            "scid": "mn83:15.10",
+            "pli": "uposathañca upavasati cātuddasiṁ pañcadasiṁ aṭṭhamiñca pakkhassā”ti. ",
+            "de": "Und er hält am vierzehnten, fünfzehnten und achten Tag der Monatshälfte <span class=\"ebt-matched\">den Besinnungstag</span> ein.“ ",
+            "en": "",
+            "matched": true
+          },
+          "mn83:15.15": {
+            "scid": "mn83:15.15",
+            "pli": "uposathañca upavasāmi cātuddasiṁ pañcadasiṁ aṭṭhamiñca pakkhassā’ti. ",
+            "de": "Und ich werde am vierzehnten, fünfzehnten und achten Tag der Monatshälfte <span class=\"ebt-matched\">den Besinnungstag</span> einhalten.‘ ",
+            "en": "And I shall observe the sabbath on the fourteenth, fifteenth, and eighth of the fortnight.’ ",
+            "matched": true
+          },
+          "mn83:16.4": {
+            "scid": "mn83:16.4",
+            "pli": "Tatra sudaṁ, ānanda, nimi rājā dhammaṁ carati brāhmaṇagahapatikesu negamesu ceva jānapadesu ca, uposathañca upavasati cātuddasiṁ pañcadasiṁ aṭṭhamiñca pakkhassāti. ",
+            "de": "Dort behandelte der König Brahmanen und Hausbesitzer sowie die Menschen aus Stadt und Land gerecht, und er hielt am vierzehnten, fünfzehnten und achten Tag der Monatshälfte <span class=\"ebt-matched\">den Besinnungstag</span> ein. ",
+            "en": "And there King Nimi justly treated his people, and observed the sabbath. ",
+            "matched": true
+          }
+        },
+        "score": 8.044,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Mittlere Lehrreden 83\nÜber den König Maghadeva",
+        "segsMatched": 8,
+        "langSegs": {
+          "pli": 181,
+          "de": 180,
+          "en": 180
         }
       },
       {
