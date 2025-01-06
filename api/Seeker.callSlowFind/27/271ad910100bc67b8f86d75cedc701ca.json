@@ -41,19 +41,19 @@
     "pattern": "puppet",
     "method": "phrase",
     "resultPattern": "\\bpuppet",
-    "segsMatched": 12,
+    "segsMatched": 11,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn5/sn5.9_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn5/sn5.9_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/thig/thig14.1_root-pli-ms.json",
-      "translation/en/soma/sutta/kn/thig/thig14.1_translation-en-soma.json",
-      "translation/en/sujato/sutta/kn/thig/thig14.1_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag17.3_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thag/thag17.3_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn48/sn48.41_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn48/sn48.41_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn82_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn82_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thig/thig14.1_root-pli-ms.json",
+      "translation/en/soma/sutta/kn/thig/thig14.1_translation-en-soma.json",
+      "translation/en/sujato/sutta/kn/thig/thig14.1_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag20.1_root-pli-ms.json",
       "translation/en/sujato/sutta/kn/thag/thag20.1_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag16.4_root-pli-ms.json",
@@ -64,10 +64,10 @@
     ],
     "suttaRefs": [
       "sn5.9/en/sujato",
-      "thig14.1/en/sujato",
       "thag17.3/en/sujato",
       "sn48.41/en/sujato",
       "mn82/en/sujato",
+      "thig14.1/en/sujato",
       "thag20.1/en/sujato",
       "thag16.4/en/sujato",
       "dhp146-156/en/sujato"
@@ -112,42 +112,6 @@
         "langSegs": {
           "pli": 30,
           "en": 30
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/kn/thig/thig14.1_root-pli-ms.json",
-          "translation/en/soma/sutta/kn/thig/thig14.1_translation-en-soma.json",
-          "translation/en/sujato/sutta/kn/thig/thig14.1_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "thig14.1",
-        "lang": "en",
-        "segMap": {
-          "thig14.1:25.2": {
-            "scid": "thig14.1:25.2",
-            "pli": "Sombhā dārukapillakāni vā; ",
-            "en": "dolls and wooden <span class=\"ebt-matched\">puppet</span>s, ",
-            "matched": true
-          },
-          "thig14.1:29.4": {
-            "scid": "thig14.1:29.4",
-            "pli": "Janamajjheriva rupparūpakaṁ. ",
-            "en": "like a <span class=\"ebt-matched\">puppet</span> show among the people. ",
-            "matched": true
-          }
-        },
-        "score": 2.014,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Verses of the Senior Nuns 14.1\nThe Book of the Thirties\nSubhā of Jīvaka’s Mango Grove",
-        "segsMatched": 2,
-        "langSegs": {
-          "pli": 141,
-          "en": 140
         }
       },
       {
@@ -271,6 +235,36 @@
         "langSegs": {
           "pli": 105,
           "en": 104
+        }
+      },
+      {
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thig/thig14.1_root-pli-ms.json",
+          "translation/en/soma/sutta/kn/thig/thig14.1_translation-en-soma.json",
+          "translation/en/sujato/sutta/kn/thig/thig14.1_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "thig14.1",
+        "lang": "en",
+        "segMap": {
+          "thig14.1:25.2": {
+            "scid": "thig14.1:25.2",
+            "pli": "Sombhā dārukapillakāni vā; ",
+            "en": "dolls and wooden <span class=\"ebt-matched\">puppet</span>s, ",
+            "matched": true
+          }
+        },
+        "score": 1.007,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Verses of the Senior Nuns 14.1\nThe Book of the Thirties\nSubhā of Jīvaka’s Mango Grove",
+        "segsMatched": 1,
+        "langSegs": {
+          "pli": 141,
+          "en": 140
         }
       },
       {

@@ -41,7 +41,7 @@
     "pattern": "manifestation",
     "method": "phrase",
     "resultPattern": "\\bmanifestation",
-    "segsMatched": 65,
+    "segsMatched": 66,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn28_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn28_translation-en-sujato.json",
@@ -65,6 +65,8 @@
       "translation/en/sujato/sutta/sn/sn35/sn35.116_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn26/sn26.9_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn26/sn26.9_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn92_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn92_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn18_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn18_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn138_root-pli-ms.json",
@@ -97,8 +99,6 @@
       "translation/en/sujato/sutta/sn/sn12/sn12.2_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn9_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn9_translation-en-sujato.json",
-      "root/pli/ms/sutta/mn/mn92_root-pli-ms.json",
-      "translation/en/sujato/sutta/mn/mn92_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn141_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn141_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/iti/vagga7/iti68_root-pli-ms.json",
@@ -120,6 +120,7 @@
       "sn22.30/en/sujato",
       "sn35.116/en/sujato",
       "sn26.9/en/sujato",
+      "mn92/en/sujato",
       "mn18/en/sujato",
       "mn138/en/sujato",
       "mn133/en/sujato",
@@ -136,7 +137,6 @@
       "sn26.3/en/sujato",
       "sn12.2/en/sujato",
       "mn9/en/sujato",
-      "mn92/en/sujato",
       "mn141/en/sujato",
       "iti68/en/sujato",
       "dn27/en/sujato",
@@ -789,6 +789,41 @@
       },
       {
         "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn92_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn92_translation-en-sujato.json"
+        ],
+        "author_uid": "sujato",
+        "type": "translation",
+        "category": "sutta",
+        "sutta_uid": "mn92",
+        "lang": "en",
+        "segMap": {
+          "mn92:19.18": {
+            "scid": "mn92:19.18",
+            "pli": "Brahmabhūto atitulo, ",
+            "en": "A <span class=\"ebt-matched\">manifestation</span> of divinity, unequaled, ",
+            "matched": true
+          },
+          "mn92:20.5": {
+            "scid": "mn92:20.5",
+            "pli": "Brahmabhūtaṁ atitulaṁ, ",
+            "en": "A <span class=\"ebt-matched\">manifestation</span> of divinity, unequaled, ",
+            "matched": true
+          }
+        },
+        "score": 2.01,
+        "hyphen": "­",
+        "maxWord": 30,
+        "minWord": 5,
+        "title": "Middle Discourses 92\nWith Sela",
+        "segsMatched": 2,
+        "langSegs": {
+          "pli": 205,
+          "en": 204
+        }
+      },
+      {
+        "bilaraPaths": [
           "root/pli/ms/sutta/kn/snp/vagga3/snp3.7_root-pli-ms.json",
           "translation/en/sujato/sutta/kn/snp/vagga3/snp3.7_translation-en-sujato.json"
         ],
@@ -1151,35 +1186,6 @@
         "langSegs": {
           "pli": 122,
           "en": 121
-        }
-      },
-      {
-        "bilaraPaths": [
-          "root/pli/ms/sutta/mn/mn92_root-pli-ms.json",
-          "translation/en/sujato/sutta/mn/mn92_translation-en-sujato.json"
-        ],
-        "author_uid": "sujato",
-        "type": "translation",
-        "category": "sutta",
-        "sutta_uid": "mn92",
-        "lang": "en",
-        "segMap": {
-          "mn92:19.18": {
-            "scid": "mn92:19.18",
-            "pli": "Brahmabhūto atitulo, ",
-            "en": "A <span class=\"ebt-matched\">manifestation</span> of divinity, unequaled, ",
-            "matched": true
-          }
-        },
-        "score": 1.005,
-        "hyphen": "­",
-        "maxWord": 30,
-        "minWord": 5,
-        "title": "Middle Discourses 92\nWith Sela",
-        "segsMatched": 1,
-        "langSegs": {
-          "pli": 205,
-          "en": 204
         }
       },
       {
