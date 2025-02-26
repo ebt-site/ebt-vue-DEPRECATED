@@ -41,7 +41,7 @@
     "pattern": "schwieg der buddha",
     "method": "phrase",
     "resultPattern": "\\bschwieg der buddha",
-    "segsMatched": 10,
+    "segsMatched": 11,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn44/sn44.10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn44/sn44.10_translation-de-sabbamitta.json",
@@ -58,6 +58,9 @@
       "root/pli/ms/sutta/sn/sn7/sn7.3_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn7/sn7.3_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn7/sn7.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn85_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn85_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.95_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.95_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an10/an10.95_translation-en-sujato.json"
@@ -68,6 +71,7 @@
       "ud3.3/de/sabbamitta",
       "an8.20/de/sabbamitta",
       "sn7.3/de/sabbamitta",
+      "mn85/de/sabbamitta",
       "an10.95/de/sabbamitta"
     ],
     "mlDocs": [
@@ -301,6 +305,40 @@
         "segsMatched": 1,
         "sutta_uid": "an10.95",
         "title": "Nummerierte Lehrreden 10.95\n10. Das Kapitel mit Upāli\nMit Uttiya",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn85:7.8": {
+            "scid": "mn85:7.8",
+            "pli": "Evaṁ vutte, bhagavā tuṇhī ahosi. ",
+            "de": "Doch darauf <span class=\"ebt-matched\">schwieg der Buddha</span>. ",
+            "en": "But when he said this, the Buddha kept silent. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn85_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn85_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 553,
+          "de": 522,
+          "en": 552
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.002,
+        "segsMatched": 1,
+        "sutta_uid": "mn85",
+        "title": "Mittlere Lehrreden 85\nMit dem Prinzen Bodhi",
         "type": "translation"
       }
     ],

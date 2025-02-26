@@ -41,7 +41,7 @@
     "pattern": "gegen den strom",
     "method": "phrase",
     "resultPattern": "\\bgegen den strom",
-    "segsMatched": 9,
+    "segsMatched": 10,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an4/an4.5_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.5_translation-de-sabbamitta.json",
@@ -52,6 +52,9 @@
       "root/pli/ms/sutta/sn/sn6/sn6.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn6/sn6.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn6/sn6.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn85_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn85_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn26_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn26_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn26_translation-en-sujato.json",
@@ -63,6 +66,7 @@
       "an4.5/de/sabbamitta",
       "iti109/de/sabbamitta",
       "sn6.1/de/sabbamitta",
+      "mn85/de/sabbamitta",
       "mn26/de/sabbamitta",
       "dn14/de/sabbamitta"
     ],
@@ -229,6 +233,40 @@
         "segsMatched": 1,
         "sutta_uid": "mn26",
         "title": "Mittlere Lehrreden 26\nDie edle Suche",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn85:43.12": {
+            "scid": "mn85:43.12",
+            "pli": "Paṭisotagāmiṁ nipuṇaṁ, ",
+            "de": "Sie geht <span class=\"ebt-matched\">gegen den Strom</span>, ist subtil, ",
+            "en": "It goes against the stream, subtle, ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn85_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn85_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 553,
+          "de": 522,
+          "en": 552
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.002,
+        "segsMatched": 1,
+        "sutta_uid": "mn85",
+        "title": "Mittlere Lehrreden 85\nMit dem Prinzen Bodhi",
         "type": "translation"
       },
       {

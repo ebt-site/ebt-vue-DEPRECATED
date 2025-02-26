@@ -41,7 +41,7 @@
     "pattern": "tor zur unsterblichkeit",
     "method": "phrase",
     "resultPattern": "\\btor zur unsterblichkeit",
-    "segsMatched": 12,
+    "segsMatched": 13,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn12/sn12.33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.33_translation-de-sabbamitta.json",
@@ -61,6 +61,9 @@
       "root/pli/ms/sutta/sn/sn12/sn12.27_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.27_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn12/sn12.27_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn85_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn85_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn52_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn52_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn52_translation-en-sujato.json",
@@ -84,6 +87,7 @@
       "sn12.49/de/sabbamitta",
       "sn12.28/de/sabbamitta",
       "sn12.27/de/sabbamitta",
+      "mn85/de/sabbamitta",
       "mn52/de/sabbamitta",
       "mn34/de/sabbamitta",
       "mn26/de/sabbamitta",
@@ -470,6 +474,40 @@
         "segsMatched": 1,
         "sutta_uid": "mn26",
         "title": "Mittlere Lehrreden 26\nDie edle Suche",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn85:44.12": {
+            "scid": "mn85:44.12",
+            "pli": "Apāpuretaṁ amatassa dvāraṁ, ",
+            "de": "Stoße das <span class=\"ebt-matched\">Tor zur Unsterblichkeit</span> auf! ",
+            "en": "Fling open the door to freedom from death! ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn85_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn85_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 553,
+          "de": 522,
+          "en": 552
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.002,
+        "segsMatched": 1,
+        "sutta_uid": "mn85",
+        "title": "Mittlere Lehrreden 85\nMit dem Prinzen Bodhi",
         "type": "translation"
       }
     ],

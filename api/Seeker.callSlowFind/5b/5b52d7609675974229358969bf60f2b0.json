@@ -41,11 +41,14 @@
     "pattern": "gedeihen unter wasser",
     "method": "phrase",
     "resultPattern": "\\bgedeihen unter wasser",
-    "segsMatched": 9,
+    "segsMatched": 10,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn6/sn6.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn6/sn6.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn6/sn6.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn85_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn85_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn77_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn77_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn77_translation-en-sujato.json",
@@ -73,6 +76,7 @@
     ],
     "suttaRefs": [
       "sn6.1/de/sabbamitta",
+      "mn85/de/sabbamitta",
       "mn77/de/sabbamitta",
       "mn39/de/sabbamitta",
       "mn26/de/sabbamitta",
@@ -353,6 +357,40 @@
         "segsMatched": 1,
         "sutta_uid": "dn2",
         "title": "Lange Lehrreden 2\nDie Früchte des Asketenlebens",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn85:45.3": {
+            "scid": "mn85:45.3",
+            "pli": "Seyyathāpi nāma uppaliniyaṁ vā paduminiyaṁ vā puṇḍarīkiniyaṁ vā appekaccāni uppalāni vā padumāni vā puṇḍarīkāni vā udake jātāni udake saṁvaḍḍhāni udakānuggatāni antonimuggaposīni, appekaccāni uppalāni vā padumāni vā puṇḍarīkāni vā udake jātāni udake saṁvaḍḍhāni udakānuggatāni samodakaṁ ṭhitāni, appekaccāni uppalāni vā padumāni vā puṇḍarīkāni vā udake jātāni udake saṁvaḍḍhāni udakā accuggamma ṭhitāni anupalittāni udakena; ",
+            "de": "Wie ein Teich mit blauen Seerosen oder rosa oder weißen Lotusblumen. Manche von ihnen sprießen und wachsen im Wasser, ohne sich darüber zu erheben, und <span class=\"ebt-matched\">gedeihen unter Wasser</span>. Manche sprießen und wachsen im Wasser und erreichen die Wasseroberfläche. Und manche sprießen und wachsen im Wasser, doch sie erheben sich über das Wasser und stehen da, ohne dass Wasser an ihnen haftet. ",
+            "en": "It’s like a pool with blue water lilies, or pink or white lotuses. Some of them sprout and grow in the water without rising above it, thriving underwater. Some of them sprout and grow in the water reaching the water’s surface. And some of them sprout and grow in the water but rise up above the water and stand with no water clinging to them. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn85_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn85_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 553,
+          "de": 522,
+          "en": 552
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.002,
+        "segsMatched": 1,
+        "sutta_uid": "mn85",
+        "title": "Mittlere Lehrreden 85\nMit dem Prinzen Bodhi",
         "type": "translation"
       },
       {

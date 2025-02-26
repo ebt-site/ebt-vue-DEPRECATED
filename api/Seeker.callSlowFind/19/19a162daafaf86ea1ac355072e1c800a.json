@@ -41,8 +41,11 @@
     "pattern": "lass.* es gut sein mit den sieben jahren",
     "method": "phrase",
     "resultPattern": "\\blass.* es gut sein mit den sieben jahren",
-    "segsMatched": 3,
+    "segsMatched": 4,
     "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn85_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn85_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn10_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn10_translation-en-sujato.json",
@@ -54,6 +57,7 @@
       "translation/en/sujato/sutta/dn/dn22_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "mn85/de/sabbamitta",
       "mn10/de/sabbamitta",
       "dn25/de/sabbamitta",
       "dn22/de/sabbamitta"
@@ -159,6 +163,40 @@
         "segsMatched": 1,
         "sutta_uid": "dn22",
         "title": "Lange Lehrreden 22\nDie längere Lehrrede über Achtsamkeitsmeditation",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn85:59.3": {
+            "scid": "mn85:59.3",
+            "pli": "Tiṭṭhantu, rājakumāra, satta vassāni. ",
+            "de": "<span class=\"ebt-matched\">Lass es gut sein mit den sieben Jahren</span>; ",
+            "en": "Let alone seven years, ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn85_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn85_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 553,
+          "de": 522,
+          "en": 552
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.002,
+        "segsMatched": 1,
+        "sutta_uid": "mn85",
+        "title": "Mittlere Lehrreden 85\nMit dem Prinzen Bodhi",
         "type": "translation"
       }
     ],

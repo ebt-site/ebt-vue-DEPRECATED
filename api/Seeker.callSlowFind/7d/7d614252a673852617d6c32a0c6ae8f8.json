@@ -41,8 +41,11 @@
     "pattern": "durch glück gewonnen",
     "method": "phrase",
     "resultPattern": "\\bdurch glück gewonnen",
-    "segsMatched": 3,
+    "segsMatched": 5,
     "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn85_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn85_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn14_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn14_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn14_translation-en-sujato.json",
@@ -51,6 +54,7 @@
       "translation/en/sujato/sutta/kn/thag/thag3.1_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "mn85/de/sabbamitta",
       "mn14/de/sabbamitta",
       "thag3.1/de/sabbamitta"
     ],
@@ -94,6 +98,47 @@
         "segsMatched": 2,
         "sutta_uid": "mn14",
         "title": "Mittlere Lehrreden 14\nDie kürzere Lehrrede über die Masse des Leidens",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn85:9.5": {
+            "scid": "mn85:9.5",
+            "pli": "‘na kho sukhena sukhaṁ adhigantabbaṁ, dukkhena kho sukhaṁ adhigantabban’”ti. ",
+            "de": "‚Glück wird nicht <span class=\"ebt-matched\">durch Glück gewonnen</span>; Glück wird durch Schmerz gewonnen.‘“ ",
+            "en": "‘Pleasure is not gained through pleasure; pleasure is gained through pain.’” ",
+            "matched": true
+          },
+          "mn85:10.2": {
+            "scid": "mn85:10.2",
+            "pli": "‘na kho sukhena sukhaṁ adhigantabbaṁ, dukkhena kho sukhaṁ adhigantabban’ti. ",
+            "de": "‚Glück wird nicht <span class=\"ebt-matched\">durch Glück gewonnen</span>; Glück wird durch Schmerz gewonnen.‘ ",
+            "en": "‘Pleasure is not gained through pleasure; pleasure is gained through pain.’ ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn85_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn85_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 553,
+          "de": 522,
+          "en": 552
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 2.004,
+        "segsMatched": 2,
+        "sutta_uid": "mn85",
+        "title": "Mittlere Lehrreden 85\nMit dem Prinzen Bodhi",
         "type": "translation"
       },
       {

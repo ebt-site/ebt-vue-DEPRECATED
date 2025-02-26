@@ -41,7 +41,7 @@
     "pattern": "wenig sand in den augen",
     "method": "phrase",
     "resultPattern": "\\bwenig sand in den augen",
-    "segsMatched": 16,
+    "segsMatched": 20,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn14_translation-de-sabbamitta.json",
@@ -49,6 +49,9 @@
       "root/pli/ms/sutta/mn/mn26_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn26_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn26_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn85_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn85_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn6/sn6.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn6/sn6.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn6/sn6.1_translation-en-sujato.json",
@@ -62,6 +65,7 @@
     "suttaRefs": [
       "dn14/de/sabbamitta",
       "mn26/de/sabbamitta",
+      "mn85/de/sabbamitta",
       "sn6.1/de/sabbamitta",
       "sn4.5/de/sabbamitta",
       "mn143/de/sabbamitta"
@@ -196,6 +200,61 @@
         "segsMatched": 5,
         "sutta_uid": "mn26",
         "title": "Mittlere Lehrreden 26\nDie edle Suche",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn85:44.6": {
+            "scid": "mn85:44.6",
+            "pli": "Santi sattā apparajakkhajātikā assavanatāya dhammassa parihāyanti; ",
+            "de": "Es gibt Wesen, die <span class=\"ebt-matched\">wenig Sand in den Augen</span> haben. Sie werden verkümmern, weil sie die Lehre nicht gehört haben. ",
+            "en": "There are beings with little dust in their eyes. They’re in decline because they haven’t heard the teaching. ",
+            "matched": true
+          },
+          "mn85:45.2": {
+            "scid": "mn85:45.2",
+            "pli": "Addasaṁ kho ahaṁ, rājakumāra, buddhacakkhunā lokaṁ volokento satte apparajakkhe mahārajakkhe tikkhindriye mudindriye svākāre dvākāre suviññāpaye duviññāpaye appekacce paralokavajjabhayadassāvine viharante, appekacce na paralokavajjabhayadassāvine viharante. ",
+            "de": "Ich sah manche Lebewesen mit <span class=\"ebt-matched\">wenig Sand in den Augen</span> und manche mit viel Sand in den Augen, manche mit geschärften Fähigkeiten und manche mit schwachen Fähigkeiten, mit guten Eigenschaften und mit schlechten Eigenschaften, die leicht zu unterrichten waren und die schwer zu unterrichten waren. Und manche konnten die Gefahr in dem Fehler, der die jenseitige Welt betrifft, sehen, während andere das nicht konnten. ",
+            "en": "And I saw sentient beings with little dust in their eyes, and some with much dust in their eyes; with keen faculties and with weak faculties, with good qualities and with bad qualities, easy to teach and hard to teach. And some of them lived seeing the danger in the fault to do with the next world, while others did not. ",
+            "matched": true
+          },
+          "mn85:46.5": {
+            "scid": "mn85:46.5",
+            "pli": "‘ayaṁ kho āḷāro kālāmo paṇḍito viyatto medhāvī dīgharattaṁ apparajakkhajātiko. ",
+            "de": "‚Dieser Āḷāra Kālāma ist klug, fähig und verständig und hatte lange <span class=\"ebt-matched\">wenig Sand in den Augen</span>. ",
+            "en": "‘That Āḷāra Kālāma is astute, competent, clever, and has long had little dust in his eyes. ",
+            "matched": true
+          },
+          "mn85:47.5": {
+            "scid": "mn85:47.5",
+            "pli": "‘ayaṁ kho udako rāmaputto paṇḍito viyatto medhāvī dīgharattaṁ apparajakkhajātiko. ",
+            "de": "‚Dieser Uddaka der Sohn Rāmas ist klug, fähig und verständig und hatte lange <span class=\"ebt-matched\">wenig Sand in den Augen</span>. ",
+            "en": "‘That Uddaka son of Rāma is astute, competent, clever, and has long had little dust in his eyes. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn85_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn85_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 553,
+          "de": 522,
+          "en": 552
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 4.007,
+        "segsMatched": 4,
+        "sutta_uid": "mn85",
+        "title": "Mittlere Lehrreden 85\nMit dem Prinzen Bodhi",
         "type": "translation"
       },
       {

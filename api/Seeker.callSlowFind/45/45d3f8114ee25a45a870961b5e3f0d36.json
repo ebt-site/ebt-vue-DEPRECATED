@@ -41,13 +41,17 @@
     "pattern": "redet mich nicht",
     "method": "phrase",
     "resultPattern": "\\bredet mich nicht",
-    "segsMatched": 1,
+    "segsMatched": 2,
     "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn85_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn85_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn26_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn26_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn26_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "mn85/de/sabbamitta",
       "mn26/de/sabbamitta"
     ],
     "mlDocs": [
@@ -83,6 +87,40 @@
         "segsMatched": 1,
         "sutta_uid": "mn26",
         "title": "Mittlere Lehrreden 26\nDie edle Suche",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn85:51.2": {
+            "scid": "mn85:51.2",
+            "pli": "‘mā, bhikkhave, tathāgataṁ nāmena ca āvusovādena ca samudācaratha; ",
+            "de": "‚Mönche, <span class=\"ebt-matched\">redet mich nicht</span> mit Namen und als „Geehrter“ an. ",
+            "en": "‘Mendicants, don’t address me by name and as “reverend”. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn85_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn85_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 553,
+          "de": 522,
+          "en": 552
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.002,
+        "segsMatched": 1,
+        "sutta_uid": "mn85",
+        "title": "Mittlere Lehrreden 85\nMit dem Prinzen Bodhi",
         "type": "translation"
       }
     ],

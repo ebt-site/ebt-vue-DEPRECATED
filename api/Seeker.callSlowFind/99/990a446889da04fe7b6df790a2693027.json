@@ -41,11 +41,14 @@
     "pattern": "mörderisch",
     "method": "phrase",
     "resultPattern": "\\bmörderisch",
-    "segsMatched": 10,
+    "segsMatched": 12,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn4/sn4.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn4/sn4.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn4/sn4.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn85_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn85_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn26_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn26_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn26_translation-en-sujato.json",
@@ -70,6 +73,7 @@
     ],
     "suttaRefs": [
       "sn4.1/de/sabbamitta",
+      "mn85/de/sabbamitta",
       "mn26/de/sabbamitta",
       "mn36/de/sabbamitta",
       "mn14/de/sabbamitta",
@@ -159,6 +163,47 @@
         "segsMatched": 2,
         "sutta_uid": "mn26",
         "title": "Mittlere Lehrreden 26\nDie edle Suche",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn85:30.5": {
+            "scid": "mn85:30.5",
+            "pli": "Na kho panāhaṁ imāya kaṭukāya dukkarakārikāya adhigacchāmi uttari manussadhammā alamariyañāṇadassanavisesaṁ; ",
+            "de": "Aber durch dieses heftige <span class=\"ebt-matched\">mörderisch</span>e Treiben habe ich keinen erhabenen Zustand übermenschlichen Erkennens und Sehens erlangt, der der Edlen würdig wäre. ",
+            "en": "But I have not achieved any superhuman distinction in knowledge and vision worthy of the noble ones by this severe, gruelling work. ",
+            "matched": true
+          },
+          "mn85:51.7": {
+            "scid": "mn85:51.7",
+            "pli": "‘tāyapi kho tvaṁ, āvuso gotama, iriyāya tāya paṭipadāya tāya dukkarakārikāya nājjhagamā uttari manussadhammā alamariyañāṇadassanavisesaṁ; kiṁ pana tvaṁ etarahi bāhulliko padhānavibbhanto āvatto bāhullāya adhigamissasi uttari manussadhammā alamariyañāṇadassanavisesan’ti? ",
+            "de": "‚Geehrter Gotama, selbst durch dieses Verhalten, diese Übung, dieses <span class=\"ebt-matched\">mörderisch</span>e Treiben hast du keinen erhabenen Zustand übermenschlichen Erkennens und Sehens erlangt, der der Edlen würdig ist. Wie könntest du jetzt einen solchen Zustand erlangt haben, da du genießerisch geworden bist, da du vom Streben abgewichen und zum Schwelgen zurückgekehrt bist?‘ ",
+            "en": "‘Reverend Gotama, even by that conduct, that practice, that grueling work you did not achieve any superhuman distinction in knowledge and vision worthy of the noble ones. How could you have achieved such a state now that you’ve become indulgent, strayed from the struggle and fallen into indulgence?’ ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn85_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn85_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 553,
+          "de": 522,
+          "en": 552
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 2.004,
+        "segsMatched": 2,
+        "sutta_uid": "mn85",
+        "title": "Mittlere Lehrreden 85\nMit dem Prinzen Bodhi",
         "type": "translation"
       },
       {
@@ -337,7 +382,7 @@
           "mn36:30.5": {
             "scid": "mn36:30.5",
             "pli": "Na kho panāhaṁ imāya kaṭukāya dukkarakārikāya adhigacchāmi uttari manussadhammā alamariyañāṇadassanavisesaṁ. ",
-            "de": "Aber durch dieses <span class=\"ebt-matched\">mörderisch</span>e Treiben habe ich keinen erhabenen Zustand übermenschlichen Erkennens und Sehens erlangt, der der Edlen würdig wäre. ",
+            "de": "Aber durch dieses heftige <span class=\"ebt-matched\">mörderisch</span>e Treiben habe ich keinen erhabenen Zustand übermenschlichen Erkennens und Sehens erlangt, der der Edlen würdig wäre. ",
             "en": "But I have not achieved any superhuman distinction in knowledge and vision worthy of the noble ones by this severe, grueling work. ",
             "matched": true
           }

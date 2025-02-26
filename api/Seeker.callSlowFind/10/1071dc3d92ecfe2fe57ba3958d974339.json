@@ -41,7 +41,7 @@
     "pattern": "dachsparren",
     "method": "phrase",
     "resultPattern": "\\bdachsparren",
-    "segsMatched": 16,
+    "segsMatched": 17,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn48/sn48.52_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn48/sn48.52_translation-de-sabbamitta.json",
@@ -64,6 +64,9 @@
       "root/pli/ms/sutta/sn/sn20/sn20.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn20/sn20.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn20/sn20.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn85_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn85_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn36_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn36_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn36_translation-en-sujato.json",
@@ -92,6 +95,7 @@
       "sn45.141-145/de/sabbamitta",
       "sn22.102/de/sabbamitta",
       "sn20.1/de/sabbamitta",
+      "mn85/de/sabbamitta",
       "mn36/de/sabbamitta",
       "mn12/de/sabbamitta",
       "thag2.32/de/sabbamitta",
@@ -562,6 +566,40 @@
         "segsMatched": 1,
         "sutta_uid": "mn36",
         "title": "Mittlere Lehrreden 36\nDie längere Lehrrede mit Saccaka",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn85:28.8": {
+            "scid": "mn85:28.8",
+            "pli": "Seyyathāpi nāma jarasālāya gopānasiyo oluggaviluggā bhavanti; evamevassu me phāsuḷiyo oluggaviluggā bhavanti tāyevappāhāratāya. ",
+            "de": "und meine Rippen waren so eingefallen wie die zusammengefallenen <span class=\"ebt-matched\">Dachsparren</span> einer alten Scheune. ",
+            "en": "and my ribs were as gaunt as the broken-down rafters on an old barn. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn85_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn85_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 553,
+          "de": 522,
+          "en": 552
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.002,
+        "segsMatched": 1,
+        "sutta_uid": "mn85",
+        "title": "Mittlere Lehrreden 85\nMit dem Prinzen Bodhi",
         "type": "translation"
       }
     ],

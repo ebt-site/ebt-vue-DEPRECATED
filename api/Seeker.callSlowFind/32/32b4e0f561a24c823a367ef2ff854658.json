@@ -41,7 +41,7 @@
     "pattern": "eine große hilfe",
     "method": "phrase",
     "resultPattern": "\\beine große hilfe",
-    "segsMatched": 38,
+    "segsMatched": 39,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an3/an3.24_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.24_translation-de-sabbamitta.json",
@@ -70,6 +70,9 @@
       "root/pli/ms/sutta/mn/mn8_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn8_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn8_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn85_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn85_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn26_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn26_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn26_translation-en-sujato.json",
@@ -123,6 +126,7 @@
       "mn22/de/sabbamitta",
       "iti104/de/sabbamitta",
       "mn8/de/sabbamitta",
+      "mn85/de/sabbamitta",
       "mn26/de/sabbamitta",
       "iti17/de/sabbamitta",
       "iti16/de/sabbamitta",
@@ -1024,6 +1028,40 @@
         "segsMatched": 1,
         "sutta_uid": "dn21",
         "title": "Lange Lehrreden 21\nSakkas Fragen",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn85:48.5": {
+            "scid": "mn85:48.5",
+            "pli": "‘bahukārā kho me pañcavaggiyā bhikkhū ye maṁ padhānapahitattaṁ upaṭṭhahiṁsu. ",
+            "de": "‚Die Gruppe der fünf Mönche war mir <span class=\"ebt-matched\">eine große Hilfe</span>. Sie sorgte zur Zeit meines entschlossenen Strebens für mich. ",
+            "en": "‘The group of five mendicants were very helpful to me. They looked after me during my time of resolute striving. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn85_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn85_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 553,
+          "de": 522,
+          "en": 552
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.002,
+        "segsMatched": 1,
+        "sutta_uid": "mn85",
+        "title": "Mittlere Lehrreden 85\nMit dem Prinzen Bodhi",
         "type": "translation"
       }
     ],

@@ -41,7 +41,7 @@
     "pattern": "aber zum erwachen entschlossen",
     "method": "phrase",
     "resultPattern": "\\baber zum erwachen entschlossen",
-    "segsMatched": 25,
+    "segsMatched": 26,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an5/an5.196_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.196_translation-de-sabbamitta.json",
@@ -82,6 +82,9 @@
       "root/pli/ms/sutta/sn/sn12/sn12.10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.10_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn12/sn12.10_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn85_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn85_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn4_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn4_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn4_translation-en-sujato.json",
@@ -127,6 +130,7 @@
       "sn12.65/de/sabbamitta",
       "sn12.4/de/sabbamitta",
       "sn12.10/de/sabbamitta",
+      "mn85/de/sabbamitta",
       "mn4/de/sabbamitta",
       "mn36/de/sabbamitta",
       "mn26/de/sabbamitta",
@@ -558,7 +562,7 @@
         "score": 1.017,
         "segsMatched": 1,
         "sutta_uid": "sn51.11",
-        "title": "Verbundene Lehrreden 51.11\n2. Das Kapitel über das Erzitternlassen des Pfahlhauses\nVorher",
+        "title": "Verbundene Lehrreden 51.11\n2. Das Kapitel über das Erzitternlassen des Pfahl-Langhauses\nVorher",
         "type": "translation"
       },
       {
@@ -933,6 +937,40 @@
         "segsMatched": 1,
         "sutta_uid": "mn36",
         "title": "Mittlere Lehrreden 36\nDie längere Lehrrede mit Saccaka",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn85:10.1": {
+            "scid": "mn85:10.1",
+            "pli": "“Mayhampi kho, rājakumāra, pubbeva sambodhā anabhisambuddhassa bodhisattasseva sato etadahosi: ",
+            "de": "„Prinz, vor meinem Erwachen – als ich noch nicht erwacht war, <span class=\"ebt-matched\">aber zum Erwachen entschlossen</span> – dachte ich auch: ",
+            "en": "“Prince, before my awakening—when I was still unawakened but intent on awakening—I too thought: ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn85_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn85_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 553,
+          "de": 522,
+          "en": 552
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.002,
+        "segsMatched": 1,
+        "sutta_uid": "mn85",
+        "title": "Mittlere Lehrreden 85\nMit dem Prinzen Bodhi",
         "type": "translation"
       }
     ],

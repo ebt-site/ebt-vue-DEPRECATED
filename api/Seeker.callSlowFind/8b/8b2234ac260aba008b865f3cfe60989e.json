@@ -41,7 +41,7 @@
     "pattern": "blau seerosen",
     "method": "keywords",
     "resultPattern": "\\bblau|\\bseerosen",
-    "segsMatched": 9,
+    "segsMatched": 10,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an3/an3.39_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.39_translation-de-sabbamitta.json",
@@ -69,7 +69,10 @@
       "translation/en/sujato/sutta/mn/mn39_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn77_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn77_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/mn/mn77_translation-en-sujato.json"
+      "translation/en/sujato/sutta/mn/mn77_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn85_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn85_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an3.39/de/sabbamitta",
@@ -80,7 +83,8 @@
       "mn119/de/sabbamitta",
       "mn26/de/sabbamitta",
       "mn39/de/sabbamitta",
-      "mn77/de/sabbamitta"
+      "mn77/de/sabbamitta",
+      "mn85/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -353,6 +357,40 @@
         "segsMatched": 1,
         "sutta_uid": "dn17",
         "title": "Lange Lehrreden 17\nDer König Mahāsudassana",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn85:45.3": {
+            "scid": "mn85:45.3",
+            "pli": "Seyyathāpi nāma uppaliniyaṁ vā paduminiyaṁ vā puṇḍarīkiniyaṁ vā appekaccāni uppalāni vā padumāni vā puṇḍarīkāni vā udake jātāni udake saṁvaḍḍhāni udakānuggatāni antonimuggaposīni, appekaccāni uppalāni vā padumāni vā puṇḍarīkāni vā udake jātāni udake saṁvaḍḍhāni udakānuggatāni samodakaṁ ṭhitāni, appekaccāni uppalāni vā padumāni vā puṇḍarīkāni vā udake jātāni udake saṁvaḍḍhāni udakā accuggamma ṭhitāni anupalittāni udakena; ",
+            "de": "Wie ein Teich mit <span class=\"ebt-matched\">blau</span>en <span class=\"ebt-matched\">Seerosen</span> oder rosa oder weißen Lotusblumen. Manche von ihnen sprießen und wachsen im Wasser, ohne sich darüber zu erheben, und gedeihen unter Wasser. Manche sprießen und wachsen im Wasser und erreichen die Wasseroberfläche. Und manche sprießen und wachsen im Wasser, doch sie erheben sich über das Wasser und stehen da, ohne dass Wasser an ihnen haftet. ",
+            "en": "It’s like a pool with blue water lilies, or pink or white lotuses. Some of them sprout and grow in the water without rising above it, thriving underwater. Some of them sprout and grow in the water reaching the water’s surface. And some of them sprout and grow in the water but rise up above the water and stand with no water clinging to them. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn85_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn85_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 553,
+          "de": 522,
+          "en": 552
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.002,
+        "segsMatched": 1,
+        "sutta_uid": "mn85",
+        "title": "Mittlere Lehrreden 85\nMit dem Prinzen Bodhi",
         "type": "translation"
       },
       {

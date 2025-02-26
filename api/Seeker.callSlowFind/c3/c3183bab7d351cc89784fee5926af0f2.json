@@ -41,8 +41,11 @@
     "pattern": "gepresster zunge",
     "method": "phrase",
     "resultPattern": "\\bgepresster zunge",
-    "segsMatched": 7,
+    "segsMatched": 10,
     "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn85_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn85_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn36_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn36_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn36_translation-en-sujato.json",
@@ -54,6 +57,7 @@
       "translation/en/sujato/sutta/kn/snp/vagga3/snp3.11_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "mn85/de/sabbamitta",
       "mn36/de/sabbamitta",
       "mn20/de/sabbamitta",
       "snp3.11/de/sabbamitta"
@@ -153,6 +157,54 @@
         "segsMatched": 3,
         "sutta_uid": "mn36",
         "title": "Mittlere Lehrreden 36\nDie längere Lehrrede mit Saccaka",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn85:20.2": {
+            "scid": "mn85:20.2",
+            "pli": "‘yannūnāhaṁ dantebhidantamādhāya, jivhāya tāluṁ āhacca, cetasā cittaṁ abhiniggaṇheyyaṁ abhinippīḷeyyaṁ abhisantāpeyyan’ti. ",
+            "de": "‚Warum quetsche und drücke ich nicht mit zusammengebissenen Zähnen und gegen den Gaumen <span class=\"ebt-matched\">gepresster Zunge</span> den Geist mit dem Geist und quäle ihn nieder?‘ ",
+            "en": "‘Why don’t I, with teeth clenched and tongue pressed against the roof of my mouth, squeeze, squash, and scorch mind with mind?’ ",
+            "matched": true
+          },
+          "mn85:20.3": {
+            "scid": "mn85:20.3",
+            "pli": "So kho ahaṁ, rājakumāra, dantebhidantamādhāya, jivhāya tāluṁ āhacca, cetasā cittaṁ abhiniggaṇhāmi abhinippīḷemi abhisantāpemi. ",
+            "de": "Und ich quetschte und drückte mit zusammengebissenen Zähnen und gegen den Gaumen <span class=\"ebt-matched\">gepresster Zunge</span> den Geist mit dem Geist und quälte ihn nieder, ",
+            "en": "So that’s what I did, ",
+            "matched": true
+          },
+          "mn85:20.6": {
+            "scid": "mn85:20.6",
+            "pli": "evameva kho me, rājakumāra, dantebhidantamādhāya, jivhāya tāluṁ āhacca, cetasā cittaṁ abhiniggaṇhato abhinippīḷayato abhisantāpayato kacchehi sedā muccanti. ",
+            "de": "Ebenso quetschte und drückte ich mit zusammengebissenen Zähnen und gegen den Gaumen <span class=\"ebt-matched\">gepresster Zunge</span> den Geist mit dem Geist und quälte ihn nieder, bis mir der Schweiß aus den Achselhöhlen rann. ",
+            "en": "In the same way, with teeth clenched and tongue pressed against the roof of my mouth, I squeezed, squashed, and crushed mind with mind until sweat ran from my armpits. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn85_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn85_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 553,
+          "de": 522,
+          "en": 552
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 3.005,
+        "segsMatched": 3,
+        "sutta_uid": "mn85",
+        "title": "Mittlere Lehrreden 85\nMit dem Prinzen Bodhi",
         "type": "translation"
       },
       {

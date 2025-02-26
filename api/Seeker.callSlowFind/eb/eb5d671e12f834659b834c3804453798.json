@@ -41,7 +41,7 @@
     "pattern": "zu meinem langanhaltenden nutzen",
     "method": "phrase",
     "resultPattern": "\\bzu meinem langanhaltenden nutzen",
-    "segsMatched": 15,
+    "segsMatched": 17,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn5_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn5_translation-de-sabbamitta.json",
@@ -49,6 +49,9 @@
       "root/pli/ms/sutta/kn/ud/vagga1/ud1.10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga1/ud1.10_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/ud/vagga1/ud1.10_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn85_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn85_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an7/an7.47_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an7/an7.47_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an7/an7.47_translation-en-sujato.json",
@@ -71,6 +74,7 @@
     "suttaRefs": [
       "dn5/de/sabbamitta",
       "ud1.10/de/sabbamitta",
+      "mn85/de/sabbamitta",
       "an7.47/de/sabbamitta",
       "sn22.1/de/sabbamitta",
       "sn16.11/de/sabbamitta",
@@ -228,6 +232,47 @@
         "segsMatched": 2,
         "sutta_uid": "an7.47",
         "title": "Nummerierte Lehrreden 7.47\n5. Das Kapitel über ein großes Opfer\nFeuer (2)",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn85:7.7": {
+            "scid": "mn85:7.7",
+            "pli": "yaṁ mama assa dīgharattaṁ hitāya sukhāyā”ti. ",
+            "de": "Das wird <span class=\"ebt-matched\">zu meinem langanhaltenden Nutzen</span> und Glück sein.“ ",
+            "en": "It will be for my lasting welfare and happiness.” ",
+            "matched": true
+          },
+          "mn85:7.12": {
+            "scid": "mn85:7.12",
+            "pli": "yaṁ mama assa dīgharattaṁ hitāya sukhāyā”ti. ",
+            "de": "Das wird <span class=\"ebt-matched\">zu meinem langanhaltenden Nutzen</span> und Glück sein.“ ",
+            "en": "It will be for my lasting welfare and happiness.” ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn85_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn85_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 553,
+          "de": 522,
+          "en": 552
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 2.004,
+        "segsMatched": 2,
+        "sutta_uid": "mn85",
+        "title": "Mittlere Lehrreden 85\nMit dem Prinzen Bodhi",
         "type": "translation"
       },
       {

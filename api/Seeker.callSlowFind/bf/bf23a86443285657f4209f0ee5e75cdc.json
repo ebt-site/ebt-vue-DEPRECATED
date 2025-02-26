@@ -41,8 +41,11 @@
     "pattern": "wiedergeburt in der dimension",
     "method": "phrase",
     "resultPattern": "\\bwiedergeburt in der dimension",
-    "segsMatched": 4,
+    "segsMatched": 6,
     "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn85_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn85_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn36_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn36_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn36_translation-en-sujato.json",
@@ -51,6 +54,7 @@
       "translation/en/sujato/sutta/mn/mn26_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "mn85/de/sabbamitta",
       "mn36/de/sabbamitta",
       "mn26/de/sabbamitta"
     ],
@@ -135,6 +139,47 @@
         "segsMatched": 2,
         "sutta_uid": "mn26",
         "title": "Mittlere Lehrreden 26\nDie edle Suche",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn85:12.25": {
+            "scid": "mn85:12.25",
+            "pli": "‘nāyaṁ dhammo nibbidāya na virāgāya na nirodhāya na upasamāya na abhiññāya na sambodhāya na nibbānāya saṁvattati, yāvadeva ākiñcaññāyatanūpapattiyā’ti. ",
+            "de": "‚Diese Lehre führt nicht zu Ernüchterung, Schwinden der Leidenschaft, Aufhören, Frieden, Einsicht, Erwachen und Erlöschen. Sie führt nur bis zur <span class=\"ebt-matched\">Wiedergeburt in der Dimension</span> des Nichts.‘ ",
+            "en": "‘This teaching doesn’t lead to disillusionment, dispassion, cessation, peace, insight, awakening, and extinguishment. It only leads as far as rebirth in the dimension of nothingness.’ ",
+            "matched": true
+          },
+          "mn85:13.25": {
+            "scid": "mn85:13.25",
+            "pli": "‘nāyaṁ dhammo nibbidāya na virāgāya na nirodhāya na upasamāya na abhiññāya na sambodhāya na nibbānāya saṁvattati, yāvadeva nevasaññānāsaññāyatanūpapattiyā’ti. ",
+            "de": "‚Diese Lehre führt nicht zu Ernüchterung, Schwinden der Leidenschaft, Aufhören, Frieden, Einsicht, Erwachen und Erlöschen. Sie führt nur bis zur <span class=\"ebt-matched\">Wiedergeburt in der Dimension</span>, die weder Wahrnehmung noch keine Wahrnehmung hat.‘ ",
+            "en": "‘This teaching doesn’t lead to disillusionment, dispassion, cessation, peace, insight, awakening, and extinguishment. It only leads as far as rebirth in the dimension of neither perception nor non-perception.’ ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn85_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn85_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 553,
+          "de": 522,
+          "en": 552
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 2.004,
+        "segsMatched": 2,
+        "sutta_uid": "mn85",
+        "title": "Mittlere Lehrreden 85\nMit dem Prinzen Bodhi",
         "type": "translation"
       }
     ],

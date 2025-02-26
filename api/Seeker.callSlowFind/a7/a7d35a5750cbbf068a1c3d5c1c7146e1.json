@@ -41,7 +41,7 @@
     "pattern": "ach!",
     "method": "phrase",
     "resultPattern": "\\bach!",
-    "segsMatched": 29,
+    "segsMatched": 30,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn5_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn5_translation-de-sabbamitta.json",
@@ -61,6 +61,9 @@
       "root/pli/ms/sutta/sn/sn15/sn15.20_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn15/sn15.20_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn15/sn15.20_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn85_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn85_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn82_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn82_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn82_translation-en-sujato.json",
@@ -99,6 +102,7 @@
       "sn6.1/de/sabbamitta",
       "sn6.15/de/sabbamitta",
       "sn15.20/de/sabbamitta",
+      "mn85/de/sabbamitta",
       "mn82/de/sabbamitta",
       "mn26/de/sabbamitta",
       "thag3.3/de/sabbamitta",
@@ -676,6 +680,40 @@
         "segsMatched": 1,
         "sutta_uid": "mn82",
         "title": "Mittlere Lehrreden 82\nMit Raṭṭhapāla",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn85:44.2": {
+            "scid": "mn85:44.2",
+            "pli": "‘nassati vata bho loko; vinassati vata bho loko. Yatra hi nāma tathāgatassa arahato sammāsambuddhassa appossukkatāya cittaṁ namati no dhammadesanāyā’ti. ",
+            "de": "‚<span class=\"ebt-matched\">Ach!</span> Die Welt ist verloren, die Welt geht unter! Denn der Geist des Klargewordenen, des Vollendeten, des vollkommen erwachten Buddha neigt dazu, untätig zu bleiben, nicht dazu, den Dhamma zu lehren.‘ ",
+            "en": "‘Alas! The world will be lost, the world will perish! For the mind of the Realized One, the perfected one, the fully awakened Buddha, inclines to remaining passive, not to teaching the Dhamma.’ ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn85_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn85_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 553,
+          "de": 522,
+          "en": 552
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.002,
+        "segsMatched": 1,
+        "sutta_uid": "mn85",
+        "title": "Mittlere Lehrreden 85\nMit dem Prinzen Bodhi",
         "type": "translation"
       },
       {

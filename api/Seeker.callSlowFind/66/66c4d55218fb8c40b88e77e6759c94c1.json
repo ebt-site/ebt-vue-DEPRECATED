@@ -41,7 +41,7 @@
     "pattern": "falsche wendung",
     "method": "phrase",
     "resultPattern": "\\bfalsche wendung",
-    "segsMatched": 5,
+    "segsMatched": 6,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn35/sn35.246_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn35/sn35.246_translation-de-sabbamitta.json",
@@ -49,6 +49,9 @@
       "root/pli/ms/sutta/an/an8/an8.14_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.14_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an8/an8.14_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn85_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn85_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn26_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn26_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn26_translation-en-sujato.json"
@@ -56,6 +59,7 @@
     "suttaRefs": [
       "sn35.246/de/sabbamitta",
       "an8.14/de/sabbamitta",
+      "mn85/de/sabbamitta",
       "mn26/de/sabbamitta"
     ],
     "mlDocs": [
@@ -173,6 +177,40 @@
         "segsMatched": 1,
         "sutta_uid": "mn26",
         "title": "Mittlere Lehrreden 26\nDie edle Suche",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn85:49.28": {
+            "scid": "mn85:49.28",
+            "pli": "Evaṁ vutte, rājakumāra, upako ājīvako ‘hupeyyapāvuso’ti vatvā sīsaṁ okampetvā ummaggaṁ gahetvā pakkāmi. ",
+            "de": "Daraufhin sagte Upaka: ‚Wenn du das sagst, Geehrter.‘ Er schüttelte den Kopf, nahm eine <span class=\"ebt-matched\">falsche Wendung</span> und ging. ",
+            "en": "When I had spoken, Upaka said: ‘If you say so, reverend.’ Shaking his head, he took a wrong turn and left. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn85_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn85_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 553,
+          "de": 522,
+          "en": 552
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.002,
+        "segsMatched": 1,
+        "sutta_uid": "mn85",
+        "title": "Mittlere Lehrreden 85\nMit dem Prinzen Bodhi",
         "type": "translation"
       }
     ],
