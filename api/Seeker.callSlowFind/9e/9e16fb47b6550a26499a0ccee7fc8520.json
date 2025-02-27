@@ -41,7 +41,7 @@
     "pattern": "fervent mortification",
     "method": "phrase",
     "resultPattern": "\\bfervent mortification",
-    "segsMatched": 41,
+    "segsMatched": 42,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn25_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn25_translation-en-sujato.json",
@@ -49,14 +49,14 @@
       "translation/en/sujato/sutta/dn/dn8_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.196_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an4/an4.196_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn1/sn1.38_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn1/sn1.38_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn12_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn12_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn101_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn101_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn2/sn2.30_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn2/sn2.30_translation-en-sujato.json",
-      "root/pli/ms/sutta/sn/sn1/sn1.38_root-pli-ms.json",
-      "translation/en/sujato/sutta/sn/sn1/sn1.38_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn49_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn49_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn14_root-pli-ms.json",
@@ -70,10 +70,10 @@
       "dn25/en/sujato",
       "dn8/en/sujato",
       "an4.196/en/sujato",
+      "sn1.38/en/sujato",
       "mn12/en/sujato",
       "mn101/en/sujato",
       "sn2.30/en/sujato",
-      "sn1.38/en/sujato",
       "mn49/en/sujato",
       "mn14/en/sujato",
       "an4.198/en/sujato",
@@ -344,6 +344,43 @@
       {
         "author": "Bhikkhu Sujato",
         "segMap": {
+          "sn1.38:9.2": {
+            "scid": "sn1.38:9.2",
+            "pli": "Tapassī brāhmaṇā caraṁ; ",
+            "en": "brahmins practice <span class=\"ebt-matched\">fervent mortification</span> for a full century. ",
+            "matched": true
+          },
+          "sn1.38:10.2": {
+            "scid": "sn1.38:10.2",
+            "pli": "Lūkhaṁ tapaṁ vassasataṁ carantā; ",
+            "en": "they practice rough and <span class=\"ebt-matched\">fervent mortification</span> for a hundred years. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sujato",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn1/sn1.38_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn1/sn1.38_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "en",
+        "langSegs": {
+          "pli": 47,
+          "en": 47
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 2.043,
+        "segsMatched": 2,
+        "sutta_uid": "sn1.38",
+        "title": "Linked Discourses 1.38\n4. The Host of a Hundred Felicities\nA Splinter",
+        "type": "translation"
+      },
+      {
+        "author": "Bhikkhu Sujato",
+        "segMap": {
           "mn101:2.6": {
             "scid": "mn101:2.6",
             "pli": "Iti purāṇānaṁ kammānaṁ tapasā byantībhāvā, navānaṁ kammānaṁ akaraṇā, āyatiṁ anavassavo; ",
@@ -444,37 +481,6 @@
         "segsMatched": 1,
         "sutta_uid": "an3.74",
         "title": "Numbered Discourses 3.74\n8. Ānanda\nJains",
-        "type": "translation"
-      },
-      {
-        "author": "Bhikkhu Sujato",
-        "segMap": {
-          "sn1.38:10.2": {
-            "scid": "sn1.38:10.2",
-            "pli": "Lūkhaṁ tapaṁ vassasataṁ carantā; ",
-            "en": "they practice rough and <span class=\"ebt-matched\">fervent mortification</span> for a hundred years. ",
-            "matched": true
-          }
-        },
-        "author_uid": "sujato",
-        "bilaraPaths": [
-          "root/pli/ms/sutta/sn/sn1/sn1.38_root-pli-ms.json",
-          "translation/en/sujato/sutta/sn/sn1/sn1.38_translation-en-sujato.json"
-        ],
-        "category": "sutta",
-        "footer": "<a href=\"https://suttacentral.net/licensing\">SuttaCentral</a>",
-        "hyphen": "­",
-        "lang": "en",
-        "langSegs": {
-          "pli": 47,
-          "en": 47
-        },
-        "maxWord": 30,
-        "minWord": 5,
-        "score": 1.021,
-        "segsMatched": 1,
-        "sutta_uid": "sn1.38",
-        "title": "Linked Discourses 1.38\n4. The Satullapa Group\nA Splinter",
         "type": "translation"
       },
       {
