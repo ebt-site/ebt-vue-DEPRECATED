@@ -39,60 +39,16 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "sprich, gutes horn",
-    "method": "phrase",
-    "resultPattern": "\\bsprich, gutes horn",
-    "segsMatched": 2,
+    "method": "keywords",
+    "resultPattern": "\\bsprich,|\\bgutes|\\bhorn",
+    "segsMatched": 0,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn23_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn23_translation-en-sujato.json"
     ],
-    "suttaRefs": [
-      "dn23/de/sabbamitta"
-    ],
-    "mlDocs": [
-      {
-        "author": "Sabbamitta",
-        "segMap": {
-          "dn23:19.11": {
-            "scid": "dn23:19.11",
-            "pli": "‘vadehi, bho saṅkha, vadehi, bho saṅkhā’ti. ",
-            "de": "‚<span class=\"ebt-matched\">Sprich, gutes Horn</span>! <span class=\"ebt-matched\">Sprich, gutes Horn</span>!‘ ",
-            "en": "‘Speak, good horn! Speak, good horn!’ ",
-            "matched": true
-          },
-          "dn23:19.14": {
-            "scid": "dn23:19.14",
-            "pli": "‘vadehi, bho saṅkha, vadehi, bho saṅkhā’ti. ",
-            "de": "‚<span class=\"ebt-matched\">Sprich, gutes Horn</span>! <span class=\"ebt-matched\">Sprich, gutes Horn</span>!‘ ",
-            "en": "‘Speak, good horn! Speak, good horn!’ ",
-            "matched": true
-          }
-        },
-        "author_uid": "sabbamitta",
-        "bilaraPaths": [
-          "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/dn/dn23_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/dn/dn23_translation-en-sujato.json"
-        ],
-        "category": "sutta",
-        "footer": "<a href=\"https://suttacentral.net/licensing\">SuttaCentral</a>",
-        "hyphen": "­",
-        "lang": "de",
-        "langSegs": {
-          "pli": 715,
-          "de": 636,
-          "en": 713
-        },
-        "maxWord": 30,
-        "minWord": 5,
-        "score": 2.003,
-        "segsMatched": 2,
-        "sutta_uid": "dn23",
-        "title": "Lange Lehrreden 23\nMit Pāyāsi",
-        "type": "translation"
-      }
-    ],
+    "suttaRefs": [],
+    "mlDocs": [],
     "refLang": "en",
     "refAuthor": "sujato",
     "docLang": "de",
