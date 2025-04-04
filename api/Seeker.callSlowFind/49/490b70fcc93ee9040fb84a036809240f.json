@@ -41,8 +41,11 @@
     "pattern": "bei der besten angekommen",
     "method": "phrase",
     "resultPattern": "\\bbei der besten angekommen",
-    "segsMatched": 3,
+    "segsMatched": 4,
     "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn86_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn86_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn86_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag21.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag21.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag21.1_translation-en-sujato.json",
@@ -54,6 +57,7 @@
       "translation/en/sujato/sutta/kn/thag/thag16.8_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "mn86/de/sabbamitta",
       "thag21.1/de/sabbamitta",
       "thag1.9/de/sabbamitta",
       "thag16.8/de/sabbamitta"
@@ -125,6 +129,40 @@
         "segsMatched": 1,
         "sutta_uid": "thag16.8",
         "title": "Strophen der altehrwürdigen Mönche 16.8\nDas Zwanzigerbuch\n1. Das erste Kapitel\nAṅgulimāla",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn86:18.62": {
+            "scid": "mn86:18.62",
+            "pli": "yaṁ seṭṭhaṁ tadupāgamaṁ. ",
+            "de": "bin ich <span class=\"ebt-matched\">bei der besten angekommen</span>. ",
+            "en": "I arrived at the best. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn86_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn86_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn86_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 208,
+          "de": 203,
+          "en": 207
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.005,
+        "segsMatched": 1,
+        "sutta_uid": "mn86",
+        "title": "Mittlere Lehrreden 86\nMit Aṅgulimāla",
         "type": "translation"
       },
       {

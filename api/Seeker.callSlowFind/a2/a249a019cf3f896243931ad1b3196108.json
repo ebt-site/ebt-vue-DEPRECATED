@@ -41,7 +41,7 @@
     "pattern": "kuhhirt",
     "method": "phrase",
     "resultPattern": "\\bkuhhirt",
-    "segsMatched": 59,
+    "segsMatched": 61,
     "bilaraPaths": [
       "root/pli/ms/sutta/kn/ud/vagga4/ud4.3_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga4/ud4.3_translation-de-sabbamitta.json",
@@ -67,6 +67,9 @@
       "root/pli/ms/sutta/sn/sn35/sn35.241_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn35/sn35.241_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.241_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn86_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn86_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn86_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn50_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn50_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn50_translation-en-sujato.json",
@@ -124,6 +127,7 @@
       "an11.22-29/de/sabbamitta",
       "an11.502-981/de/sabbamitta",
       "sn35.241/de/sabbamitta",
+      "mn86/de/sabbamitta",
       "mn50/de/sabbamitta",
       "mn19/de/sabbamitta",
       "mn12/de/sabbamitta",
@@ -690,6 +694,47 @@
         "segsMatched": 2,
         "sutta_uid": "mn19",
         "title": "Mittlere Lehrreden 19\nZwei Arten von Gedanken",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn86:3.3": {
+            "scid": "mn86:3.3",
+            "pli": "Addasāsuṁ kho gopālakā pasupālakā kassakā pathāvino bhagavantaṁ yena coro aṅgulimālo tenaddhānamaggapaṭipannaṁ. ",
+            "de": "Die <span class=\"ebt-matched\">Kuhhirt</span>en, Schafhirten, Bauern und Reisenden sahen ihn auf der Straße ",
+            "en": "The cowherds, shepherds, farmers, and travelers saw him on the road, ",
+            "matched": true
+          },
+          "mn86:3.13": {
+            "scid": "mn86:3.13",
+            "pli": "tatiyampi kho gopālakā pasupālakā kassakā pathāvino bhagavantaṁ etadavocuṁ: ",
+            "de": "und zum dritten Mal sagten die <span class=\"ebt-matched\">Kuhhirt</span>en, Schafhirten, Bauern und Reisenden zum Buddha: ",
+            "en": "and a third time, they urged the Buddha to turn back. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn86_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn86_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn86_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 208,
+          "de": 203,
+          "en": 207
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 2.01,
+        "segsMatched": 2,
+        "sutta_uid": "mn86",
+        "title": "Mittlere Lehrreden 86\nMit Aṅgulimāla",
         "type": "translation"
       },
       {

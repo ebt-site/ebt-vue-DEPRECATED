@@ -41,7 +41,7 @@
     "pattern": "haare.* sträub",
     "method": "phrase",
     "resultPattern": "\\bhaare.* sträub",
-    "segsMatched": 35,
+    "segsMatched": 36,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn5/sn5.9_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn5/sn5.9_translation-de-sabbamitta.json",
@@ -88,6 +88,9 @@
       "root/pli/ms/sutta/sn/sn10/sn10.8_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn10/sn10.8_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn10/sn10.8_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn86_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn86_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn86_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn37_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn37_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn37_translation-en-sujato.json",
@@ -138,6 +141,7 @@
       "sn4.2/de/sabbamitta",
       "sn4.11/de/sabbamitta",
       "sn10.8/de/sabbamitta",
+      "mn86/de/sabbamitta",
       "mn37/de/sabbamitta",
       "mn35/de/sabbamitta",
       "mn12/de/sabbamitta",
@@ -892,6 +896,40 @@
         "segsMatched": 1,
         "sutta_uid": "mn37",
         "title": "Mittlere Lehrreden 37\nDie kürzere Lehrrede über die Auflösung des Verlangens",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn86:12.4": {
+            "scid": "mn86:12.4",
+            "pli": "Atha kho rañño pasenadissa kosalassa ahudeva bhayaṁ, ahu chambhitattaṁ, ahu lomahaṁso. ",
+            "de": "Da wurde der König von Furcht und Entsetzen gepackt und seine <span class=\"ebt-matched\">Haare sträub</span>ten sich. ",
+            "en": "Then the king became frightened, scared, his hair standing on end. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn86_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn86_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn86_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 208,
+          "de": 203,
+          "en": 207
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.005,
+        "segsMatched": 1,
+        "sutta_uid": "mn86",
+        "title": "Mittlere Lehrreden 86\nMit Aṅgulimāla",
         "type": "translation"
       },
       {

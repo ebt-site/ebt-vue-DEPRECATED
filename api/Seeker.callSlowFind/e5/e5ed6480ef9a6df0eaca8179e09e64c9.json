@@ -41,7 +41,7 @@
     "pattern": "stock und schwert",
     "method": "phrase",
     "resultPattern": "\\bstock und schwert",
-    "segsMatched": 38,
+    "segsMatched": 39,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn18_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn18_translation-de-sabbamitta.json",
@@ -70,6 +70,9 @@
       "root/pli/ms/sutta/an/an3/an3.70_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.70_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.70_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn86_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn86_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn86_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn60_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn60_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn60_translation-en-sujato.json",
@@ -141,6 +144,7 @@
       "an8.42/de/sabbamitta",
       "an8.41/de/sabbamitta",
       "an3.70/de/sabbamitta",
+      "mn86/de/sabbamitta",
       "mn60/de/sabbamitta",
       "mn51/de/sabbamitta",
       "mn42/de/sabbamitta",
@@ -938,6 +942,40 @@
         "segsMatched": 1,
         "sutta_uid": "mn51",
         "title": "Mittlere Lehrreden 51\nMit Kandaraka",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn86:13.7": {
+            "scid": "mn86:13.7",
+            "pli": "Yañhi mayaṁ, bhante, nāsakkhimhā daṇḍenapi satthenapi dametuṁ so bhagavatā adaṇḍena asattheneva danto. ",
+            "de": "Denn ich war nicht in der Lage, ihn mit <span class=\"ebt-matched\">Stock und Schwert</span> zu zähmen, aber der Buddha zähmte ihn ohne <span class=\"ebt-matched\">Stock und Schwert</span>. ",
+            "en": "For I was not able to tame him with the rod and the sword, but the Buddha tamed him without rod or sword. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn86_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn86_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn86_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 208,
+          "de": 203,
+          "en": 207
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.005,
+        "segsMatched": 1,
+        "sutta_uid": "mn86",
+        "title": "Mittlere Lehrreden 86\nMit Aṅgulimāla",
         "type": "translation"
       },
       {

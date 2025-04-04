@@ -41,7 +41,7 @@
     "pattern": "gepackt",
     "method": "phrase",
     "resultPattern": "\\bgepackt",
-    "segsMatched": 15,
+    "segsMatched": 16,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn11/sn11.3_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn11/sn11.3_translation-de-sabbamitta.json",
@@ -58,6 +58,9 @@
       "root/pli/ms/sutta/sn/sn1/sn1.38_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn1/sn1.38_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.38_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn86_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn86_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn86_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn128_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn128_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn128_translation-en-sujato.json",
@@ -93,6 +96,7 @@
       "sn2.9/de/sabbamitta",
       "sn2.10/de/sabbamitta",
       "sn1.38/de/sabbamitta",
+      "mn86/de/sabbamitta",
       "mn128/de/sabbamitta",
       "ud5.5/de/sabbamitta",
       "thig14.1/de/sabbamitta",
@@ -484,6 +488,40 @@
         "segsMatched": 1,
         "sutta_uid": "thig14.1",
         "title": "Strophen der altehrwürdigen Nonnen 14.1\nDas Dreißigerbuch\nSubhā von Jīvakas Mangowäldchen",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn86:12.4": {
+            "scid": "mn86:12.4",
+            "pli": "Atha kho rañño pasenadissa kosalassa ahudeva bhayaṁ, ahu chambhitattaṁ, ahu lomahaṁso. ",
+            "de": "Da wurde der König von Furcht und Entsetzen <span class=\"ebt-matched\">gepackt</span> und seine Haare sträubten sich. ",
+            "en": "Then the king became frightened, scared, his hair standing on end. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn86_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn86_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn86_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 208,
+          "de": 203,
+          "en": 207
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.005,
+        "segsMatched": 1,
+        "sutta_uid": "mn86",
+        "title": "Mittlere Lehrreden 86\nMit Aṅgulimāla",
         "type": "translation"
       },
       {

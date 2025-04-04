@@ -41,7 +41,7 @@
     "pattern": "kanal zur wiedergeburt",
     "method": "phrase",
     "resultPattern": "\\bkanal zur wiedergeburt",
-    "segsMatched": 29,
+    "segsMatched": 30,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn23/sn23.3_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn23/sn23.3_translation-de-sabbamitta.json",
@@ -61,6 +61,9 @@
       "root/pli/ms/sutta/dn/dn1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn1_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn86_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn86_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn86_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thig/thig1.11_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thig/thig1.11_translation-de-sabbamitta.json",
       "translation/en/soma/sutta/kn/thig/thig1.11_translation-en-soma.json",
@@ -113,6 +116,7 @@
       "thag16.8/de/sabbamitta",
       "iti44/de/sabbamitta",
       "dn1/de/sabbamitta",
+      "mn86/de/sabbamitta",
       "thig1.11/de/sabbamitta",
       "thag2.8/de/sabbamitta",
       "thag20.1/de/sabbamitta",
@@ -320,7 +324,7 @@
           "thag16.8:16.4": {
             "scid": "thag16.8:16.4",
             "pli": "bhavanetti samūhatā. ",
-            "de": "ist der <span class=\"ebt-matched\">Kanal zur Wiedergeburt</span> ausgerottet. ",
+            "de": "der <span class=\"ebt-matched\">Kanal zur Wiedergeburt</span> ist ausgerottet. ",
             "en": "the conduit to rebirth is eradicated. ",
             "matched": true
           },
@@ -838,6 +842,40 @@
         "segsMatched": 1,
         "sutta_uid": "thag17.2",
         "title": "Strophen der altehrwürdigen Mönche 17.2\nDas Dreißigerbuch\n1. Das erste Kapitel\nSāriputta",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn86:18.46": {
+            "scid": "mn86:18.46",
+            "pli": "bhavanetti samūhatā. ",
+            "de": "der <span class=\"ebt-matched\">Kanal zur Wiedergeburt</span> ist ausgerottet. ",
+            "en": "the conduit to rebirth is eradicated. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn86_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn86_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn86_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 208,
+          "de": 203,
+          "en": 207
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.005,
+        "segsMatched": 1,
+        "sutta_uid": "mn86",
+        "title": "Mittlere Lehrreden 86\nMit Aṅgulimāla",
         "type": "translation"
       },
       {
