@@ -39,98 +39,34 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "see people entering and leaving a house",
-    "method": "phrase",
-    "resultPattern": "\\bsee people entering and leaving a house",
-    "segsMatched": 5,
+    "method": "keywords",
+    "resultPattern": "\\bsee|\\bpeople|\\bentering|\\band|\\bleaving|\\b(a|ā)|\\bhouse",
+    "segsMatched": 1,
     "bilaraPaths": [
-      "root/pli/ms/sutta/mn/mn77_root-pli-ms.json",
-      "translation/en/sujato/sutta/mn/mn77_translation-en-sujato.json",
-      "root/pli/ms/sutta/mn/mn39_root-pli-ms.json",
-      "translation/en/sujato/sutta/mn/mn39_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn23_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn10_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn10_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn130_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn130_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
-      "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn10_root-pli-ms.json",
-      "translation/en/sujato/sutta/dn/dn10_translation-en-sujato.json"
+      "root/pli/ms/sutta/mn/mn39_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn39_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn77_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn77_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn91_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn91_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "mn77/en/sujato",
-      "mn39/en/sujato",
-      "mn130/en/sujato",
-      "dn2/en/sujato",
       "dn10/en/sujato"
     ],
     "mlDocs": [
       {
         "author": "Bhikkhu Sujato",
         "segMap": {
-          "mn39:20.3": {
-            "scid": "mn39:20.3",
-            "pli": "seyyathāpi, bhikkhave, dve agārā sadvārā. Tattha cakkhumā puriso majjhe ṭhito passeyya manusse gehaṁ pavisantepi nikkhamantepi, anucaṅkamantepi anuvicarantepi. ",
-            "en": "Suppose there were two houses with doors. A person with clear eyes standing in between them would <span class=\"ebt-matched\">see people entering and leaving a house</span> and wandering to and fro. ",
-            "matched": true
-          }
-        },
-        "author_uid": "sujato",
-        "bilaraPaths": [
-          "root/pli/ms/sutta/mn/mn39_root-pli-ms.json",
-          "translation/en/sujato/sutta/mn/mn39_translation-en-sujato.json"
-        ],
-        "category": "sutta",
-        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
-        "hyphen": "­",
-        "lang": "en",
-        "langSegs": {
-          "pli": 191,
-          "en": 190
-        },
-        "maxWord": 30,
-        "minWord": 5,
-        "score": 1.005,
-        "segsMatched": 1,
-        "sutta_uid": "mn39",
-        "title": "Middle Discourses 39\nThe Longer Discourse at Assapura",
-        "type": "translation"
-      },
-      {
-        "author": "Bhikkhu Sujato",
-        "segMap": {
-          "mn130:2.1": {
-            "scid": "mn130:2.1",
-            "pli": "“Seyyathāpi, bhikkhave, dve agārā sadvārā, tattha cakkhumā puriso majjhe ṭhito passeyya manusse gehaṁ pavisantepi nikkhamantepi anucaṅkamantepi anuvicarantepi; ",
-            "en": "“Mendicants, suppose there were two houses with doors. A person with clear eyes standing in between them would <span class=\"ebt-matched\">see people entering and leaving a house</span> and wandering to and fro. ",
-            "matched": true
-          }
-        },
-        "author_uid": "sujato",
-        "bilaraPaths": [
-          "root/pli/ms/sutta/mn/mn130_root-pli-ms.json",
-          "translation/en/sujato/sutta/mn/mn130_translation-en-sujato.json"
-        ],
-        "category": "sutta",
-        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
-        "hyphen": "­",
-        "lang": "en",
-        "langSegs": {
-          "pli": 203,
-          "en": 201
-        },
-        "maxWord": 30,
-        "minWord": 5,
-        "score": 1.005,
-        "segsMatched": 1,
-        "sutta_uid": "mn130",
-        "title": "Middle Discourses 130\nMessengers of the Gods",
-        "type": "translation"
-      },
-      {
-        "author": "Bhikkhu Sujato",
-        "segMap": {
           "dn10:2.33.1": {
             "scid": "dn10:2.33.1",
-            "pli": "Seyyathāpi, māṇava, majjhesiṅghāṭake pāsādo, tattha cakkhumā puriso ṭhito passeyya manusse gehaṁ pavisantepi nikkhamantepi rathikāyapi vīthiṁ sañcarante majjhesiṅghāṭake nisinnepi. Tassa evamassa: ‘ete manussā gehaṁ pavisanti, ete nikkhamanti, ete rathikāya vīthiṁ sañcaranti, ete majjhesiṅghāṭake nisinnā’ti. ",
-            "en": "Suppose there was a stilt longhouse at the central square. A person with clear eyes standing there might <span class=\"ebt-matched\">see people entering and leaving a house</span>, walking along the streets and paths, and sitting at the central square. They’d think: ‘These are people entering and leaving a house, walking along the streets and paths, and sitting at the central square.’ ",
+            "pli": "Seyyath<span class=\"ebt-matched\">ā</span>pi, m<span class=\"ebt-matched\">ā</span>ṇ<span class=\"ebt-matched\">a</span>va, majjhesiṅgh<span class=\"ebt-matched\">ā</span>ṭ<span class=\"ebt-matched\">a</span>ke p<span class=\"ebt-matched\">ā</span>s<span class=\"ebt-matched\">ā</span>do, tattha cakkhum<span class=\"ebt-matched\">ā</span> puriso ṭhito passeyya manusse gehaṁ pavisantepi nikkhamantepi rathik<span class=\"ebt-matched\">ā</span>yapi vīthiṁ sañcarante majjhesiṅgh<span class=\"ebt-matched\">ā</span>ṭ<span class=\"ebt-matched\">a</span>ke nisinnepi. Tassa evamassa: ‘ete manuss<span class=\"ebt-matched\">ā</span> gehaṁ pavisanti, ete nikkhamanti, ete rathik<span class=\"ebt-matched\">ā</span>ya vīthiṁ sañcaranti, ete majjhesiṅgh<span class=\"ebt-matched\">ā</span>ṭ<span class=\"ebt-matched\">a</span>ke nisinn<span class=\"ebt-matched\">ā</span>’ti. ",
+            "en": "Suppose there was <span class=\"ebt-matched\">a</span> stilt longhouse <span class=\"ebt-matched\">a</span>t the central square. <span class=\"ebt-matched\">A</span> person with clear eyes standing there might <span class=\"ebt-matched\">see</span> humans <span class=\"ebt-matched\">entering</span> <span class=\"ebt-matched\">and</span> <span class=\"ebt-matched\">leaving</span> <span class=\"ebt-matched\">a</span> <span class=\"ebt-matched\">house</span>, walking <span class=\"ebt-matched\">a</span>long the streets <span class=\"ebt-matched\">and</span> paths, <span class=\"ebt-matched\">and</span> sitting <span class=\"ebt-matched\">a</span>t the central square. They’d think: ‘These <span class=\"ebt-matched\">a</span>re <span class=\"ebt-matched\">people</span> <span class=\"ebt-matched\">entering</span> <span class=\"ebt-matched\">and</span> <span class=\"ebt-matched\">leaving</span> <span class=\"ebt-matched\">a</span> <span class=\"ebt-matched\">house</span>, walking <span class=\"ebt-matched\">a</span>long the streets <span class=\"ebt-matched\">and</span> paths, <span class=\"ebt-matched\">and</span> sitting <span class=\"ebt-matched\">a</span>t the central square.’ ",
             "matched": true
           }
         },
@@ -153,68 +89,6 @@
         "segsMatched": 1,
         "sutta_uid": "dn10",
         "title": "Long Discourses 10\nWith Subha",
-        "type": "translation"
-      },
-      {
-        "author": "Bhikkhu Sujato",
-        "segMap": {
-          "mn77:35.2": {
-            "scid": "mn77:35.2",
-            "pli": "Seyyathāpi, udāyi, dve agārā sadvārā. Tatra cakkhumā puriso majjhe ṭhito passeyya manusse gehaṁ pavisantepi nikkhamantepi anucaṅkamantepi anuvicarantepi; ",
-            "en": "Suppose there were two houses with doors. A person with clear eyes standing in between them would <span class=\"ebt-matched\">see people entering and leaving a house</span> and wandering to and fro. ",
-            "matched": true
-          }
-        },
-        "author_uid": "sujato",
-        "bilaraPaths": [
-          "root/pli/ms/sutta/mn/mn77_root-pli-ms.json",
-          "translation/en/sujato/sutta/mn/mn77_translation-en-sujato.json"
-        ],
-        "category": "sutta",
-        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
-        "hyphen": "­",
-        "lang": "en",
-        "langSegs": {
-          "pli": 390,
-          "en": 373
-        },
-        "maxWord": 30,
-        "minWord": 5,
-        "score": 1.003,
-        "segsMatched": 1,
-        "sutta_uid": "mn77",
-        "title": "Middle Discourses 77\nThe Longer Discourse with Sakuludāyī",
-        "type": "translation"
-      },
-      {
-        "author": "Bhikkhu Sujato",
-        "segMap": {
-          "dn2:96.1": {
-            "scid": "dn2:96.1",
-            "pli": "Seyyathāpi, mahārāja, majjhe siṅghāṭake pāsādo. Tattha cakkhumā puriso ṭhito passeyya manusse gehaṁ pavisantepi nikkhamantepi rathikāyapi vīthiṁ sañcarante majjhe siṅghāṭake nisinnepi. Tassa evamassa: ‘ete manussā gehaṁ pavisanti, ete nikkhamanti, ete rathikāya vīthiṁ sañcaranti, ete majjhe siṅghāṭake nisinnā’ti. ",
-            "en": "Suppose there was a stilt longhouse at the central square. A person with clear eyes standing there might <span class=\"ebt-matched\">see people entering and leaving a house</span>, walking along the streets and paths, and sitting at the central square. They’d think: ‘These are people entering and leaving a house, walking along the streets and paths, and sitting at the central square.’ ",
-            "matched": true
-          }
-        },
-        "author_uid": "sujato",
-        "bilaraPaths": [
-          "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
-          "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json"
-        ],
-        "category": "sutta",
-        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
-        "hyphen": "­",
-        "lang": "en",
-        "langSegs": {
-          "pli": 650,
-          "en": 633
-        },
-        "maxWord": 30,
-        "minWord": 5,
-        "score": 1.002,
-        "segsMatched": 1,
-        "sutta_uid": "dn2",
-        "title": "Long Discourses 2\nThe Fruits of the Ascetic Life",
         "type": "translation"
       }
     ],

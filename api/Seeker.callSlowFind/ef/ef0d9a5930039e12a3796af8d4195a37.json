@@ -41,7 +41,7 @@
     "pattern": "for the future",
     "method": "phrase",
     "resultPattern": "\\bfor the future",
-    "segsMatched": 5,
+    "segsMatched": 6,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn1/sn1.10_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.10_translation-en-sujato.json",
@@ -50,13 +50,16 @@
       "root/pli/ms/sutta/mn/mn101_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn101_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag10.3_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/thag/thag10.3_translation-en-sujato.json"
+      "translation/en/sujato/sutta/kn/thag/thag10.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ja/ja466_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/ja/ja466_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "sn1.10/en/sujato",
       "mn14/en/sujato",
       "mn101/en/sujato",
-      "thag10.3/en/sujato"
+      "thag10.3/en/sujato",
+      "ja466/en/sujato"
     ],
     "mlDocs": [
       {
@@ -125,6 +128,37 @@
         "segsMatched": 1,
         "sutta_uid": "thag10.3",
         "title": "Verses of the Senior Monks 10.3\nThe Book of the Tens\nChapter One\nMahākappina",
+        "type": "translation"
+      },
+      {
+        "author": "Bhikkhu Sujato",
+        "segMap": {
+          "ja466:12.1": {
+            "scid": "ja466:12.1",
+            "pli": "Anāgataṁ paṭikayirātha kiccaṁ, ",
+            "en": "Prepare what must be done <span class=\"ebt-matched\">for the future</span>, thinking, ",
+            "matched": true
+          }
+        },
+        "author_uid": "sujato",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ja/ja466_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/ja/ja466_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "en",
+        "langSegs": {
+          "pli": 55,
+          "en": 54
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.018,
+        "segsMatched": 1,
+        "sutta_uid": "ja466",
+        "title": "Stories of Past Lives 466\nThe Book of the Twelves\nThe Chapter With Cūḷakuṇāla\nThe Sea Merchants: a past life story",
         "type": "translation"
       },
       {
