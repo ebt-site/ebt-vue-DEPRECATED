@@ -41,7 +41,7 @@
     "pattern": "ärger, hass und unmut",
     "method": "phrase",
     "resultPattern": "\\bärger, hass und unmut",
-    "segsMatched": 25,
+    "segsMatched": 26,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn65_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn65_translation-de-sabbamitta.json",
@@ -73,6 +73,9 @@
       "root/pli/ms/sutta/mn/mn79_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn79_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn79_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn135_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn135_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn135_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.14_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.14_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an8/an8.14_translation-en-sujato.json",
@@ -94,6 +97,7 @@
       "an3.27/de/sabbamitta",
       "an3.25/de/sabbamitta",
       "mn79/de/sabbamitta",
+      "mn135/de/sabbamitta",
       "an8.14/de/sabbamitta",
       "an8.10/de/sabbamitta",
       "an3.67/de/sabbamitta"
@@ -589,6 +593,40 @@
         "segsMatched": 1,
         "sutta_uid": "an8.14",
         "title": "Nummerierte Lehrreden 8.14\n2. Das große Kapitel\nEin wildes Fohlen",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn135:9.2": {
+            "scid": "mn135:9.2",
+            "pli": "Appampi vutto samāno abhisajjati kuppati byāpajjati patiṭṭhīyati kopañca dosañca appaccayañca pātukaroti. ",
+            "de": "Selbst wenn die Person nur leicht kritisiert wird, verliert sie die Beherrschung, wird ärgerlich, feindselig und starrköpfig und zeigt <span class=\"ebt-matched\">Ärger, Hass und Unmut</span>. ",
+            "en": "Even when lightly criticized they lose their temper, becoming annoyed, hostile, and hard-hearted, and displaying annoyance, hate, and bitterness. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn135_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn135_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn135_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 137,
+          "de": 108,
+          "en": 136
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.007,
+        "segsMatched": 1,
+        "sutta_uid": "mn135",
+        "title": "Mittlere Lehrreden 135\nDie kürzere Aufgliederung der Taten",
         "type": "translation"
       },
       {

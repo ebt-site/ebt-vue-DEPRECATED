@@ -41,7 +41,7 @@
     "pattern": "ein abgebrühter mörder",
     "method": "phrase",
     "resultPattern": "\\bein abgebrühter mörder",
-    "segsMatched": 12,
+    "segsMatched": 13,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn86_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn86_translation-de-sabbamitta.json",
@@ -52,6 +52,9 @@
       "root/pli/ms/sutta/mn/mn41_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn41_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn41_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn135_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn135_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn135_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.217_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.217_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an10/an10.217_translation-en-sujato.json",
@@ -72,6 +75,7 @@
       "mn86/de/sabbamitta",
       "mn42/de/sabbamitta",
       "mn41/de/sabbamitta",
+      "mn135/de/sabbamitta",
       "an10.217/de/sabbamitta",
       "an10.216/de/sabbamitta",
       "an10.212/de/sabbamitta",
@@ -377,6 +381,40 @@
         "segsMatched": 1,
         "sutta_uid": "mn42",
         "title": "Mittlere Lehrreden 42\nDie Leute von Verañjā",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn135:5.1": {
+            "scid": "mn135:5.1",
+            "pli": "“Idha, māṇava, ekacco itthī vā puriso vā pāṇātipātī hoti luddo lohitapāṇi hatapahate niviṭṭho adayāpanno pāṇabhūtesu. ",
+            "de": "„Da tötet eine Frau oder ein Mann lebende Geschöpfe. Die Person ist unbarmherzig, hat Blut an den Händen, <span class=\"ebt-matched\">ein abgebrühter Mörder</span>, mitleidlos gegenüber allen Lebewesen. ",
+            "en": "“Take some woman or man who kills living creatures. They’re violent, bloody-handed, a hardened killer, merciless to living beings. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn135_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn135_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn135_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 137,
+          "de": 108,
+          "en": 136
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.007,
+        "segsMatched": 1,
+        "sutta_uid": "mn135",
+        "title": "Mittlere Lehrreden 135\nDie kürzere Aufgliederung der Taten",
         "type": "translation"
       }
     ],

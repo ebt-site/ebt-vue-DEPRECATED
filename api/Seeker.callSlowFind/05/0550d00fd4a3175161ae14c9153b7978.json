@@ -41,7 +41,7 @@
     "pattern": "vervollkommnung de[sr]",
     "method": "phrase",
     "resultPattern": "\\bvervollkommnung de[sr]",
-    "segsMatched": 218,
+    "segsMatched": 219,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an8/an8.55_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.55_translation-de-sabbamitta.json",
@@ -124,6 +124,9 @@
       "root/pli/ms/sutta/sn/sn45/sn45.50-54_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn45/sn45.50-54_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn45/sn45.50-54_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn4_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn4_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn4_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/ud/vagga8/ud8.6_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga8/ud8.6_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/ud/vagga8/ud8.6_translation-en-sujato.json",
@@ -136,9 +139,6 @@
       "root/pli/ms/sutta/an/an5/an5.213_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.213_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.213_translation-en-sujato.json",
-      "root/pli/ms/sutta/mn/mn4_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/mn/mn4_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/mn/mn4_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag15.2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag15.2_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag15.2_translation-en-sujato.json",
@@ -198,11 +198,11 @@
       "sn45.62/de/sabbamitta",
       "sn45.55/de/sabbamitta",
       "sn45.50-54/de/sabbamitta",
+      "mn4/de/sabbamitta",
       "ud8.6/de/sabbamitta",
       "dn33/de/sabbamitta",
       "dn16/de/sabbamitta",
       "an5.213/de/sabbamitta",
-      "mn4/de/sabbamitta",
       "thag15.2/de/sabbamitta",
       "kp8/de/sabbamitta",
       "iti111/de/sabbamitta",
@@ -2422,6 +2422,46 @@
       {
         "author": "Sabbamitta",
         "segMap": {
+          "mn4:18.6": {
+            "scid": "mn4:18.6",
+            "pli": "Etamahaṁ, brāhmaṇa, samādhisampadaṁ attani sampassamāno bhiyyo pallomamāpādiṁ araññe vihārāya. ",
+            "de": "Als ich diese <span class=\"ebt-matched\">Vervollkommnung der</span> Versenkung in mir sah, fühlte ich mich sogar noch gelassener beim Gedanken, im Wald zu leben. ",
+            "matched": true
+          },
+          "mn4:19.6": {
+            "scid": "mn4:19.6",
+            "pli": "Etamahaṁ, brāhmaṇa, paññāsampadaṁ attani sampassamāno bhiyyo pallomamāpādiṁ araññe vihārāya. ",
+            "de": "Als ich diese <span class=\"ebt-matched\">Vervollkommnung der</span> Weisheit in mir sah, fühlte ich mich sogar noch gelassener beim Gedanken, im Wald zu leben. ",
+            "en": "Seeing this accomplishment of wisdom in myself I felt even more unruffled about staying in the forest. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn4_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn4_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn4_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 165,
+          "de": 159,
+          "en": 110
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 2.012,
+        "segsMatched": 2,
+        "sutta_uid": "mn4",
+        "title": "Mittlere Lehrreden 4\nAngst und Schrecken",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
           "dn33:1.9.30": {
             "scid": "dn33:1.9.30",
             "pli": "Sīlasampadā ca diṭṭhisampadā ca. ",
@@ -2839,40 +2879,6 @@
         "segsMatched": 1,
         "sutta_uid": "an6.43",
         "title": "Nummerierte Lehrreden 6.43\n5. Das Kapitel mit Dhammika\nDer Riese",
-        "type": "translation"
-      },
-      {
-        "author": "Sabbamitta",
-        "segMap": {
-          "mn4:19.6": {
-            "scid": "mn4:19.6",
-            "pli": "Etamahaṁ, brāhmaṇa, paññāsampadaṁ attani sampassamāno bhiyyo pallomamāpādiṁ araññe vihārāya. ",
-            "de": "Als ich diese <span class=\"ebt-matched\">Vervollkommnung der</span> Weisheit in mir sah, fühlte ich mich sogar noch gelassener beim Gedanken, im Wald zu leben. ",
-            "en": "Seeing this accomplishment of wisdom in myself I felt even more unruffled about staying in the forest. ",
-            "matched": true
-          }
-        },
-        "author_uid": "sabbamitta",
-        "bilaraPaths": [
-          "root/pli/ms/sutta/mn/mn4_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/mn/mn4_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/mn/mn4_translation-en-sujato.json"
-        ],
-        "category": "sutta",
-        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
-        "hyphen": "­",
-        "lang": "de",
-        "langSegs": {
-          "pli": 165,
-          "de": 111,
-          "en": 110
-        },
-        "maxWord": 30,
-        "minWord": 5,
-        "score": 1.006,
-        "segsMatched": 1,
-        "sutta_uid": "mn4",
-        "title": "Mittlere Lehrreden 4\nAngst und Schrecken",
         "type": "translation"
       }
     ],

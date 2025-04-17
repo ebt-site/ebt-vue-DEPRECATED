@@ -41,7 +41,7 @@
     "pattern": "genügsamkeit",
     "method": "phrase",
     "resultPattern": "\\bgenügsamkeit",
-    "segsMatched": 29,
+    "segsMatched": 30,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an5/an5.190_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.190_translation-de-sabbamitta.json",
@@ -61,6 +61,9 @@
       "root/pli/ms/sutta/an/an1/an1.82-97_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an1/an1.82-97_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an1/an1.82-97_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn4_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn4_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn4_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn24_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn24_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn24_translation-en-sujato.json",
@@ -114,6 +117,7 @@
       "an5.90/de/sabbamitta",
       "an1.98-139/de/sabbamitta",
       "an1.82-97/de/sabbamitta",
+      "mn4/de/sabbamitta",
       "mn24/de/sabbamitta",
       "ud4.1/de/sabbamitta",
       "an9.3/de/sabbamitta",
@@ -899,6 +903,39 @@
         "segsMatched": 1,
         "sutta_uid": "mn24",
         "title": "Mittlere Lehrreden 24\nFahrbereite Wagen",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn4:15.6": {
+            "scid": "mn4:15.6",
+            "pli": "Etamahaṁ, brāhmaṇa, appicchataṁ attani sampassamāno bhiyyo pallomamāpādiṁ araññe vihārāya. ",
+            "de": "Als ich diese <span class=\"ebt-matched\">Genügsamkeit</span> in mir sah, fühlte ich mich sogar noch gelassener beim Gedanken, im Wald zu leben. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn4_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn4_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn4_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 165,
+          "de": 159,
+          "en": 110
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.006,
+        "segsMatched": 1,
+        "sutta_uid": "mn4",
+        "title": "Mittlere Lehrreden 4\nAngst und Schrecken",
         "type": "translation"
       }
     ],

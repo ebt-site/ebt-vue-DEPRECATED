@@ -41,7 +41,7 @@
     "pattern": "feigheit",
     "method": "phrase",
     "resultPattern": "\\bfeigheit",
-    "segsMatched": 27,
+    "segsMatched": 28,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn31_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn31_translation-de-sabbamitta.json",
@@ -64,6 +64,9 @@
       "root/pli/ms/sutta/an/an2/an2.42-51_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an2/an2.42-51_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an2/an2.42-51_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn4_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn4_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn4_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag16.7_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag16.7_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag16.7_translation-en-sujato.json",
@@ -91,6 +94,7 @@
       "an4.18/de/sabbamitta",
       "an4.17/de/sabbamitta",
       "an2.42-51/de/sabbamitta",
+      "mn4/de/sabbamitta",
       "thag16.7/de/sabbamitta",
       "dn33/de/sabbamitta",
       "dn29/de/sabbamitta",
@@ -569,6 +573,40 @@
         "segsMatched": 1,
         "sutta_uid": "thag16.7",
         "title": "Strophen der altehrwürdigen Mönche 16.7\nDas Zwanzigerbuch\n1. Das erste Kapitel\nBhaddiya, der Sohn Kāḷīgodhās",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn4:14.2": {
+            "scid": "mn4:14.2",
+            "pli": "‘ye kho keci samaṇā vā brāhmaṇā vā chambhī bhīrukajātikā araññavanapatthāni pantāni senāsanāni paṭisevanti, chambhibhīrukajātikasandosahetu have te bhonto samaṇabrāhmaṇā akusalaṁ bhayabheravaṁ avhāyanti. ",
+            "de": "‚Es gibt Asketen und Brahmanen, die feige und zaghaft abgelegene Unterkünfte in der Wildnis und im Wald aufsuchen. Diese Asketen und Brahmanen beschwören wegen des Fehlers der <span class=\"ebt-matched\">Feigheit</span> untaugliche Angst und untauglichen Schrecken herauf. ",
+            "en": "‘There are ascetics and brahmins who are cowardly and craven … ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn4_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn4_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn4_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 165,
+          "de": 159,
+          "en": 110
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.006,
+        "segsMatched": 1,
+        "sutta_uid": "mn4",
+        "title": "Mittlere Lehrreden 4\nAngst und Schrecken",
         "type": "translation"
       },
       {
