@@ -41,7 +41,7 @@
     "pattern": "freude und glück",
     "method": "phrase",
     "resultPattern": "\\bfreude und glück",
-    "segsMatched": 32,
+    "segsMatched": 34,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn46_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn46_translation-de-sabbamitta.json",
@@ -61,6 +61,9 @@
       "root/pli/ms/sutta/mn/mn81_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn81_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn81_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn87_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn87_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn87_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn56/sn56.35_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn56/sn56.35_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn56/sn56.35_translation-en-sujato.json",
@@ -81,6 +84,7 @@
       "dn10/de/sabbamitta",
       "an4.62/de/sabbamitta",
       "mn81/de/sabbamitta",
+      "mn87/de/sabbamitta",
       "sn56.35/de/sabbamitta",
       "cp9/de/sabbamitta",
       "dn9/de/sabbamitta",
@@ -443,6 +447,47 @@
         "segsMatched": 3,
         "sutta_uid": "mn81",
         "title": "Mittlere Lehrreden 81\nMit Ghaṭīkāra",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn87:3.12": {
+            "scid": "mn87:3.12",
+            "pli": "Piyajātikā hi kho, bhante, ānandasomanassā piyappabhavikā”ti. ",
+            "de": "Entstehen uns doch von denen, die uns nahestehen, <span class=\"ebt-matched\">Freude und Glück</span>!“ ",
+            "en": "For our loved ones are a source of joy and happiness.” ",
+            "matched": true
+          },
+          "mn87:4.18": {
+            "scid": "mn87:4.18",
+            "pli": "Piyajātikā hi, gahapati, ānandasomanassā piyappabhavikā”ti. ",
+            "de": "Denn von denen, die uns nahestehen, entstehen uns  <span class=\"ebt-matched\">Freude und Glück</span>.“ ",
+            "en": "For our loved ones are a source of joy and happiness.” ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn87_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn87_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn87_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 150,
+          "de": 132,
+          "en": 149
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 2.013,
+        "segsMatched": 2,
+        "sutta_uid": "mn87",
+        "title": "Mittlere Lehrreden 87\nWas aus Liebem entsteht",
         "type": "translation"
       },
       {

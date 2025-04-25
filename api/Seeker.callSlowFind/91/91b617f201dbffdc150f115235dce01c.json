@@ -41,17 +41,21 @@
     "pattern": "zu gericht",
     "method": "phrase",
     "resultPattern": "\\bzu gericht",
-    "segsMatched": 3,
+    "segsMatched": 4,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn3/sn3.7_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn3/sn3.7_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn3/sn3.7_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn89_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn89_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn89_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn14_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "sn3.7/de/sabbamitta",
+      "mn89/de/sabbamitta",
       "dn14/de/sabbamitta"
     ],
     "mlDocs": [
@@ -94,6 +98,40 @@
         "segsMatched": 2,
         "sutta_uid": "sn3.7",
         "title": "Verbundene Lehrreden 3.7\n1. Das Kapitel über Fesseln\nZu Gericht sitzen",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn89:13.3": {
+            "scid": "mn89:13.3",
+            "pli": "Tassa mayhaṁ, bhante, aḍḍakaraṇe nisinnassa antarantarā kathaṁ opātenti. ",
+            "de": "Doch wenn ich <span class=\"ebt-matched\">zu Gericht</span> sitze, fallen sie mir ins Wort. ",
+            "en": "Yet when I’m sitting in court they interrupt me. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn89_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn89_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn89_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 159,
+          "de": 157,
+          "en": 158
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.006,
+        "segsMatched": 1,
+        "sutta_uid": "mn89",
+        "title": "Mittlere Lehrreden 89\nHeiligtümer für die Lehre",
         "type": "translation"
       },
       {

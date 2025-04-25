@@ -41,7 +41,7 @@
     "pattern": "solange sie leben",
     "method": "phrase",
     "resultPattern": "\\bsolange sie leben",
-    "segsMatched": 31,
+    "segsMatched": 32,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an8/an8.41_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.41_translation-de-sabbamitta.json",
@@ -63,7 +63,10 @@
       "translation/en/sujato/sutta/an/an8/an8.43_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.42_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.42_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an8/an8.42_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an8/an8.42_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn89_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn89_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn89_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an8.41/de/sabbamitta",
@@ -72,7 +75,8 @@
       "an9.18/de/sabbamitta",
       "an8.45/de/sabbamitta",
       "an8.43/de/sabbamitta",
-      "an8.42/de/sabbamitta"
+      "an8.42/de/sabbamitta",
+      "mn89/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -479,6 +483,40 @@
         "segsMatched": 2,
         "sutta_uid": "an8.42",
         "title": "Nummerierte Lehrreden 8.42\n5. Das Kapitel über den Besinnungstag\nDer Besinnungstag mit acht Faktoren, ausführlich",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn89:10.5": {
+            "scid": "mn89:10.5",
+            "pli": "Idha panāhaṁ, bhante, bhikkhū passāmi yāvajīvaṁ āpāṇakoṭikaṁ paripuṇṇaṁ parisuddhaṁ brahmacariyaṁ carante. ",
+            "de": "Aber hier sehe ich Mönche und Nonnen, die das vollkommene und reine geistliche Leben führen, <span class=\"ebt-matched\">solange sie leben</span>, bis zum letzten Atemzug. ",
+            "en": "But here I see the mendicants leading the spiritual life entirely full and pure as long as they live, to their last breath. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn89_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn89_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn89_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 159,
+          "de": 157,
+          "en": 158
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.006,
+        "segsMatched": 1,
+        "sutta_uid": "mn89",
+        "title": "Mittlere Lehrreden 89\nHeiligtümer für die Lehre",
         "type": "translation"
       }
     ],

@@ -41,7 +41,7 @@
     "pattern": "milch und wasser",
     "method": "phrase",
     "resultPattern": "\\bmilch und wasser",
-    "segsMatched": 15,
+    "segsMatched": 16,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn31_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn31_translation-de-sabbamitta.json",
@@ -58,6 +58,9 @@
       "root/pli/ms/sutta/sn/sn36/sn36.19_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn36/sn36.19_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn36/sn36.19_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn89_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn89_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn89_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn59_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn59_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn59_translation-en-sujato.json",
@@ -80,6 +83,7 @@
       "an3.95/de/sabbamitta",
       "sn36.20/de/sabbamitta",
       "sn36.19/de/sabbamitta",
+      "mn89/de/sabbamitta",
       "mn59/de/sabbamitta",
       "an5.78/de/sabbamitta",
       "an5.54/de/sabbamitta",
@@ -460,6 +464,40 @@
         "segsMatched": 1,
         "sutta_uid": "sn36.19",
         "title": "Verbundene Lehrreden 36.19\n2. Das Kapitel über die Klausur\nMit Pañcakaṅga",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn89:11.2": {
+            "scid": "mn89:11.2",
+            "pli": "Idha panāhaṁ, bhante, bhikkhū passāmi samagge sammodamāne avivadamāne khīrodakībhūte aññamaññaṁ piyacakkhūhi sampassante viharante. ",
+            "de": "Aber hier sehe ich Mönche und Nonnen, die in Eintracht leben, sich gegenseitig wertschätzen, ohne Streit, sich wie <span class=\"ebt-matched\">Milch und Wasser</span> mischen und einander mit freundlichen Augen betrachten. ",
+            "en": "But here I see the mendicants living in harmony, appreciating each other, without quarreling, blending like milk and water, and regarding each other with kindly eyes. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn89_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn89_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn89_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 159,
+          "de": 157,
+          "en": 158
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.006,
+        "segsMatched": 1,
+        "sutta_uid": "mn89",
+        "title": "Mittlere Lehrreden 89\nHeiligtümer für die Lehre",
         "type": "translation"
       }
     ],

@@ -41,11 +41,14 @@
     "pattern": "meditation unterstützen",
     "method": "phrase",
     "resultPattern": "\\bmeditation unterstützen",
-    "segsMatched": 14,
+    "segsMatched": 18,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn85_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn85_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn90_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn90_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn90_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.53_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.53_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.53_translation-en-sujato.json",
@@ -58,6 +61,7 @@
     ],
     "suttaRefs": [
       "mn85/de/sabbamitta",
+      "mn90/de/sabbamitta",
       "an5.53/de/sabbamitta",
       "dn34/de/sabbamitta",
       "dn33/de/sabbamitta"
@@ -151,6 +155,61 @@
         "segsMatched": 9,
         "sutta_uid": "mn85",
         "title": "Mittlere Lehrreden 85\nMit dem Prinzen Bodhi",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn90:10.6": {
+            "scid": "mn90:10.6",
+            "pli": "“Pañcimāni, mahārāja, padhāniyaṅgāni. ",
+            "de": "„Großer König, es gibt diese fünf Faktoren, die die <span class=\"ebt-matched\">Meditation unterstützen</span>. ",
+            "en": "“Great king, there are these five factors that support meditation. ",
+            "matched": true
+          },
+          "mn90:10.14": {
+            "scid": "mn90:10.14",
+            "pli": "imāni kho, mahārāja, pañca padhāniyaṅgāni. ",
+            "de": "Das sind die fünf Faktoren, die die <span class=\"ebt-matched\">Meditation unterstützen</span>. ",
+            "en": "These are the five factors that support meditation. ",
+            "matched": true
+          },
+          "mn90:10.17": {
+            "scid": "mn90:10.17",
+            "pli": "Te cassu imehi pañcahi padhāniyaṅgehi samannāgatā; ",
+            "de": "Wenn sie diese fünf Faktoren besäßen, die die <span class=\"ebt-matched\">Meditation unterstützen</span>, ",
+            "en": "If they had these five factors that support meditation, ",
+            "matched": true
+          },
+          "mn90:12.4": {
+            "scid": "mn90:12.4",
+            "pli": "Te cassu imehi pañcahi padhāniyaṅgehi samannāgatā te cassu sammappadhānā; ",
+            "de": "Wenn sie diese fünf Faktoren besäßen, die die <span class=\"ebt-matched\">Meditation unterstützen</span>, und wenn sie richtig üben würden, ",
+            "en": "If they had these five factors that support meditation, and if they practiced rightly, ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn90_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn90_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn90_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 172,
+          "de": 148,
+          "en": 170
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 4.023,
+        "segsMatched": 4,
+        "sutta_uid": "mn90",
+        "title": "Mittlere Lehrreden 90\nBei Kaṇṇakatthala",
         "type": "translation"
       },
       {

@@ -41,8 +41,11 @@
     "pattern": "heiligtümer",
     "method": "phrase",
     "resultPattern": "\\bheiligtümer",
-    "segsMatched": 8,
+    "segsMatched": 14,
     "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn89_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn89_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn89_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
@@ -60,6 +63,7 @@
       "translation/en/sujato/sutta/an/an7/an7.21_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "mn89/de/sabbamitta",
       "dn16/de/sabbamitta",
       "an7.22/de/sabbamitta",
       "sn11.15/de/sabbamitta",
@@ -67,6 +71,75 @@
       "an7.21/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn89:0.2": {
+            "scid": "mn89:0.2",
+            "pli": "Dhammacetiyasutta ",
+            "de": "<span class=\"ebt-matched\">Heiligtümer</span> für die Lehre ",
+            "en": "Shrines to the Teaching ",
+            "matched": true
+          },
+          "mn89:21.2": {
+            "scid": "mn89:21.2",
+            "pli": "“eso, bhikkhave, rājā pasenadi kosalo dhammacetiyāni bhāsitvā uṭṭhāyāsanā pakkanto. ",
+            "de": "„Mönche und Nonnen, bevor er sich erhob und ging, beschrieb König Pasenadi <span class=\"ebt-matched\">Heiligtümer</span> für die Lehre. ",
+            "en": "“Mendicants, before he got up and left, King Pasenadi spoke shrines to the teaching. ",
+            "matched": true
+          },
+          "mn89:21.3": {
+            "scid": "mn89:21.3",
+            "pli": "Uggaṇhatha, bhikkhave, dhammacetiyāni; ",
+            "de": "Lernt diese <span class=\"ebt-matched\">Heiligtümer</span> für die Lehre, Mönche und Nonnen! ",
+            "en": "Learn these shrines to the teaching! ",
+            "matched": true
+          },
+          "mn89:21.4": {
+            "scid": "mn89:21.4",
+            "pli": "pariyāpuṇātha, bhikkhave, dhammacetiyāni; ",
+            "de": "Prägt euch diese <span class=\"ebt-matched\">Heiligtümer</span> für die Lehre ein! ",
+            "en": "Memorize these shrines to the teaching! ",
+            "matched": true
+          },
+          "mn89:21.5": {
+            "scid": "mn89:21.5",
+            "pli": "dhāretha, bhikkhave, dhammacetiyāni. ",
+            "de": "Behaltet diese <span class=\"ebt-matched\">Heiligtümer</span> für die Lehre im Gedächtnis! ",
+            "en": "Remember these shrines to the teaching! ",
+            "matched": true
+          },
+          "mn89:21.6": {
+            "scid": "mn89:21.6",
+            "pli": "Atthasaṁhitāni, bhikkhave, dhammacetiyāni ādibrahmacariyakānī”ti. ",
+            "de": "Diese diese <span class=\"ebt-matched\">Heiligtümer</span> für die Lehre sind segensreich und beziehen sich auf die Grundlagen des geistlichen Lebens.“ ",
+            "en": "These shrines to the teaching are beneficial and relate to the fundamentals of the spiritual life.” ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn89_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn89_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn89_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 159,
+          "de": 157,
+          "en": 158
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 6.038,
+        "segsMatched": 6,
+        "sutta_uid": "mn89",
+        "title": "Mittlere Lehrreden 89\nHeiligtümer für die Lehre",
+        "type": "translation"
+      },
       {
         "author": "Sabbamitta",
         "segMap": {
