@@ -41,7 +41,7 @@
     "pattern": "rad-drehend.* herrscher",
     "method": "phrase",
     "resultPattern": "\\brad-drehend.* herrscher",
-    "segsMatched": 129,
+    "segsMatched": 130,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn26_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn26_translation-de-sabbamitta.json",
@@ -127,6 +127,9 @@
       "root/pli/ms/sutta/sn/sn22/sn22.102_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.102_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn22/sn22.102_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn91_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn91_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn91_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag21.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag21.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag21.1_translation-en-sujato.json",
@@ -187,6 +190,7 @@
       "sn46.41/de/sabbamitta",
       "sn45.141-145/de/sabbamitta",
       "sn22.102/de/sabbamitta",
+      "mn91/de/sabbamitta",
       "thag21.1/de/sabbamitta",
       "thag16.6/de/sabbamitta",
       "kp8/de/sabbamitta",
@@ -2058,6 +2062,40 @@
         "segsMatched": 1,
         "sutta_uid": "thag16.6",
         "title": "Strophen der altehrwürdigen Mönche 16.6\nDas Zwanzigerbuch\n1. Das erste Kapitel\nSela",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn91:5.4": {
+            "scid": "mn91:5.4",
+            "pli": "Sace agāraṁ ajjhāvasati, rājā hoti cakkavattī dhammiko dhammarājā cāturanto vijitāvī janapadatthāvariyappatto sattaratanasamannāgato. ",
+            "de": "Wenn er im Haus bleibt, wird er ein König, ein <span class=\"ebt-matched\">Rad-drehender Herrscher</span>, ein gerechter und prinzipientreuer König. Seine Oberherrschaft erstreckt sich nach allen vier Seiten, er erreicht Stabilität im Land und besitzt die sieben Juwelen. ",
+            "en": "If he stays at home he becomes a king, a wheel-turning monarch, a just and principled king. His dominion extends to all four sides, he achieves stability in the country, and he possesses the seven treasures. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn91_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn91_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn91_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 308,
+          "de": 290,
+          "en": 307
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.003,
+        "segsMatched": 1,
+        "sutta_uid": "mn91",
+        "title": "Mittlere Lehrreden 91\nMit Brahmāyu",
         "type": "translation"
       },
       {

@@ -41,7 +41,7 @@
     "pattern": "was einen anfang hat",
     "method": "phrase",
     "resultPattern": "\\bwas einen anfang hat",
-    "segsMatched": 17,
+    "segsMatched": 18,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn14_translation-de-sabbamitta.json",
@@ -58,6 +58,9 @@
       "root/pli/ms/sutta/sn/sn35/sn35.121_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn35/sn35.121_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.121_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn91_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn91_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn91_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn74_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn74_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn74_translation-en-sujato.json",
@@ -95,6 +98,7 @@
       "sn35.74/de/sabbamitta",
       "sn35.245/de/sabbamitta",
       "sn35.121/de/sabbamitta",
+      "mn91/de/sabbamitta",
       "mn74/de/sabbamitta",
       "mn56/de/sabbamitta",
       "mn147/de/sabbamitta",
@@ -561,6 +565,40 @@
         "segsMatched": 1,
         "sutta_uid": "mn56",
         "title": "Mittlere Lehrreden 56\nMit Upāli",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn91:36.8": {
+            "scid": "mn91:36.8",
+            "pli": "“yaṁ kiñci samudayadhammaṁ sabbaṁ taṁ nirodhadhamman”ti. ",
+            "de": "„Alles, <span class=\"ebt-matched\">was einen Anfang hat</span>, hat auch ein Ende.“ ",
+            "en": "“Everything that has a beginning has an end.” ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn91_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn91_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn91_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 308,
+          "de": 290,
+          "en": 307
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.003,
+        "segsMatched": 1,
+        "sutta_uid": "mn91",
+        "title": "Mittlere Lehrreden 91\nMit Brahmāyu",
         "type": "translation"
       },
       {

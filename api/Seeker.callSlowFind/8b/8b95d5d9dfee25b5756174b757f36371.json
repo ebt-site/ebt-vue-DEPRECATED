@@ -41,7 +41,7 @@
     "pattern": "kopf zu den füßen des buddha",
     "method": "phrase",
     "resultPattern": "\\bkopf zu den füßen des buddha",
-    "segsMatched": 17,
+    "segsMatched": 18,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn8/sn8.9_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn8/sn8.9_translation-de-sabbamitta.json",
@@ -70,6 +70,9 @@
       "root/pli/ms/sutta/sn/sn10/sn10.8_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn10/sn10.8_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn10/sn10.8_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn91_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn91_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn91_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn89_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn89_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn89_translation-en-sujato.json",
@@ -99,6 +102,7 @@
       "sn16.11/de/sabbamitta",
       "sn12.70/de/sabbamitta",
       "sn10.8/de/sabbamitta",
+      "mn91/de/sabbamitta",
       "mn89/de/sabbamitta",
       "mn73/de/sabbamitta",
       "mn140/de/sabbamitta",
@@ -322,7 +326,7 @@
         "score": 1.019,
         "segsMatched": 1,
         "sutta_uid": "sn1.35",
-        "title": "Verbundene Lehrreden 1.35\n4. Das Kapitel über die Satullapa-Gruppe\nGeringschätzung",
+        "title": "Verbundene Lehrreden 1.35\n4. Das Kapitel über die Schar der Hundert Schmeicheleien\nKrittelige Gottheiten",
         "type": "translation"
       },
       {
@@ -629,6 +633,40 @@
         "segsMatched": 1,
         "sutta_uid": "mn140",
         "title": "Mittlere Lehrreden 140\nDie Aufgliederung der Elemente",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn91:34.1": {
+            "scid": "mn91:34.1",
+            "pli": "Evaṁ vutte, brahmāyu brāhmaṇo uṭṭhāyāsanā ekaṁsaṁ uttarāsaṅgaṁ karitvā bhagavato pādesu sirasā nipatitvā bhagavato pādāni mukhena ca paricumbati, pāṇīhi ca parisambāhati, nāmañca sāveti: ",
+            "de": "Auf diese Worte erhob Brahmāyu sich von seinem Sitz und ordnete seine Robe über einer Schulter. Er beugte seinen <span class=\"ebt-matched\">Kopf zu den Füßen des Buddha</span>, streichelte die Füße und bedeckte sie mit Küssen und nannte seinen Namen: ",
+            "en": "When he said this, Brahmāyu got up from his seat and arranged his robe on one shoulder. He bowed with his head at the Buddha’s feet, caressing them and covering them with kisses, and pronounced his name: ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn91_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn91_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn91_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 308,
+          "de": 290,
+          "en": 307
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.003,
+        "segsMatched": 1,
+        "sutta_uid": "mn91",
+        "title": "Mittlere Lehrreden 91\nMit Brahmāyu",
         "type": "translation"
       }
     ],

@@ -41,11 +41,14 @@
     "pattern": "kennzeichen",
     "method": "phrase",
     "resultPattern": "\\bkennzeichen",
-    "segsMatched": 120,
+    "segsMatched": 134,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn30_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn30_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn30_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn91_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn91_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn91_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn3_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn3_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn3_translation-en-sujato.json",
@@ -119,6 +122,7 @@
     ],
     "suttaRefs": [
       "dn30/de/sabbamitta",
+      "mn91/de/sabbamitta",
       "dn3/de/sabbamitta",
       "mn33/de/sabbamitta",
       "an11.17/de/sabbamitta",
@@ -157,21 +161,21 @@
           "dn30:1.1.7": {
             "scid": "dn30:1.1.7",
             "pli": "“Dvattiṁsimāni, bhikkhave, mahāpurisassa mahāpurisalakkhaṇāni, yehi samannāgatassa mahāpurisassa dveva gatiyo bhavanti anaññā. ",
-            "de": "„Es gibt 32 <span class=\"ebt-matched\">Kennzeichen</span> eines großen Mannes. Für einen großen Mann, der diese besitzt, gibt es zwei mögliche Schicksale, kein anderes. ",
+            "de": "„Es gibt zweiunddreißig <span class=\"ebt-matched\">Kennzeichen</span> eines großen Mannes. Für einen großen Mann, der diese besitzt, gibt es zwei mögliche Schicksale, kein anderes. ",
             "en": "“There are thirty-two marks of a great man. A great man who possesses these has only two possible destinies, no other. ",
             "matched": true
           },
           "dn30:1.2.1": {
             "scid": "dn30:1.2.1",
             "pli": "Katamāni ca tāni, bhikkhave, dvattiṁsa mahāpurisassa mahāpurisalakkhaṇāni, yehi samannāgatassa mahāpurisassa dveva gatiyo bhavanti anaññā? ",
-            "de": "Und was sind die 32 <span class=\"ebt-matched\">Kennzeichen</span>? ",
+            "de": "Und was sind die zweiunddreißig <span class=\"ebt-matched\">Kennzeichen</span>? ",
             "en": "And what are the thirty-two marks? ",
             "matched": true
           },
           "dn30:1.3.1": {
             "scid": "dn30:1.3.1",
             "pli": "Imāni kho tāni, bhikkhave, dvattiṁsa mahāpurisassa mahāpurisalakkhaṇāni, yehi samannāgatassa mahāpurisassa dveva gatiyo bhavanti anaññā. ",
-            "de": "Das sind die 32 <span class=\"ebt-matched\">Kennzeichen</span> eines großen Mannes. Für einen großen Mann, der diese besitzt, gibt es zwei mögliche Schicksale, kein anderes. ",
+            "de": "Das sind die zweiunddreißig <span class=\"ebt-matched\">Kennzeichen</span> eines großen Mannes. Für einen großen Mann, der diese besitzt, gibt es zwei mögliche Schicksale, kein anderes. ",
             "en": "These are the thirty-two marks of a great man. A great man who possesses these has only two possible destinies, no other. ",
             "matched": true
           },
@@ -552,17 +556,142 @@
       {
         "author": "Sabbamitta",
         "segMap": {
+          "mn91:2.1": {
+            "scid": "mn91:2.1",
+            "pli": "Tena kho pana samayena brahmāyu brāhmaṇo mithilāyaṁ paṭivasati jiṇṇo vuḍḍho mahallako addhagato vayoanuppatto, vīsavassasatiko jātiyā, tiṇṇaṁ vedānaṁ pāragū sanighaṇḍukeṭubhānaṁ sākkharappabhedānaṁ itihāsapañcamānaṁ, padako, veyyākaraṇo, lokāyatamahāpurisalakkhaṇesu anavayo. ",
+            "de": "Nun befand sich zu dieser Zeit der Brahmane Brahmāyu in Mithilā. Er war alt, bejahrt und hochbetagt, in vorgerücktem Alter und im letzten Lebensabschnitt angekommen; er war hundertzwanzig Jahre alt. Er hatte die drei Veden gemeistert zusammen mit ihrem Wortschatz und der Durchführung des Rituals, der Lautlehre und der Einteilung der Wortarten sowie dem Testament als fünftem. Er kannte sie Wort für Wort, kannte die Grammatik und war mit der Kosmologie und den <span class=\"ebt-matched\">Kennzeichen</span> eines großen Mannes vertraut. ",
+            "en": "Now at that time the brahmin Brahmāyu was residing in Mithilā. He was old, elderly, and senior, advanced in years, having reached the final stage of life; he was a hundred and twenty years old. He had mastered the three Vedas, together with their vocabularies and ritual performance, their phonology and word classification, and the testaments as fifth. He knew them word-by-word, and their grammar. He was well versed in cosmology and the marks of a great man. ",
+            "matched": true
+          },
+          "mn91:4.1": {
+            "scid": "mn91:4.1",
+            "pli": "Tena kho pana samayena brahmāyussa brāhmaṇassa uttaro nāma māṇavo antevāsī hoti tiṇṇaṁ vedānaṁ pāragū sanighaṇḍukeṭubhānaṁ sākkharappabhedānaṁ itihāsapañcamānaṁ, padako, veyyākaraṇo, lokāyatamahāpurisalakkhaṇesu anavayo. ",
+            "de": "Nun hatte der Brahmane Brahmāyu zu dieser Zeit einen Vedenstudenten mit Namen Uttara. Auch er sagte die Hymnen auf und hatte sie im Gedächtnis … und war mit der Kosmologie und den <span class=\"ebt-matched\">Kennzeichen</span> eines großen Mannes vertraut. ",
+            "en": "Now at that time the brahmin Brahmāyu had a pupil named Uttara. He too had mastered the Vedic curriculum. ",
+            "matched": true
+          },
+          "mn91:5.3": {
+            "scid": "mn91:5.3",
+            "pli": "“Āgatāni kho, tāta uttara, amhākaṁ mantesu dvattiṁsamahāpurisalakkhaṇāni, yehi samannāgatassa mahāpurisassa dveyeva gatiyo bhavanti anaññā. ",
+            "de": "„Lieber Uttara, die zweiunddreißig <span class=\"ebt-matched\">Kennzeichen</span> eines großen Mannes wurden in unseren Hymnen überliefert. Für einen großen Mann, der diese besitzt, gibt es zwei mögliche Schicksale, kein anderes: ",
+            "en": "“Dear Uttara, the thirty-two marks of a great man have been handed down in our hymns. A great man who possesses these has only two possible destinies, no other. ",
+            "matched": true
+          },
+          "mn91:6.4": {
+            "scid": "mn91:6.4",
+            "pli": "Ekamantaṁ nisinno kho uttaro māṇavo bhagavato kāye dvattiṁsamahāpurisalakkhaṇāni samannesi. ",
+            "de": "und untersuchte den Körper des Buddha nach den zweiunddreißig <span class=\"ebt-matched\">Kennzeichen</span> eines großen Mannes. ",
+            "en": "and scrutinized his body for the thirty-two marks of a great man. ",
+            "matched": true
+          },
+          "mn91:6.9": {
+            "scid": "mn91:6.9",
+            "pli": "“passati kho me ayaṁ uttaro māṇavo dvattiṁsamahāpurisalakkhaṇāni, yebhuyyena thapetvā dve. ",
+            "de": "„Dieser Vedenstudent Uttara sieht alle <span class=\"ebt-matched\">Kennzeichen</span> mit Ausnahme von zweien, ",
+            "en": "“This student Uttara sees all the marks except for two, ",
+            "matched": true
+          },
+          "mn91:8.2": {
+            "scid": "mn91:8.2",
+            "pli": "“samannāgato kho samaṇo gotamo dvattiṁsamahāpurisalakkhaṇehi. ",
+            "de": "„Der Asket Gotama besitzt die zweiunddreißig <span class=\"ebt-matched\">Kennzeichen</span>. ",
+            "en": "“The ascetic Gotama possesses the thirty-two marks. ",
+            "matched": true
+          },
+          "mn91:8.11": {
+            "scid": "mn91:8.11",
+            "pli": "Samannāgato ca so bhavaṁ gotamo dvattiṁsamahāpurisalakkhaṇehi. ",
+            "de": "Der werte Gotama besitzt die zweiunddreißig <span class=\"ebt-matched\">Kennzeichen</span>. ",
+            "en": "The worthy Gotama possesses the thirty-two marks. ",
+            "matched": true
+          },
+          "mn91:9.2": {
+            "scid": "mn91:9.2",
+            "pli": "idampi tassa bhoto gotamassa mahāpurisassa mahāpurisalakkhaṇaṁ bhavati. ",
+            "de": "dieses <span class=\"ebt-matched\">Kennzeichen</span> eines großen Mannes besitzt der werte Gotama. ",
+            "en": "",
+            "matched": true
+          },
+          "mn91:9.34": {
+            "scid": "mn91:9.34",
+            "pli": "Imehi kho, bho, so bhavaṁ gotamo dvattiṁsamahāpurisalakkhaṇehi samannāgato. ",
+            "de": "Das sind die zweiunddreißig <span class=\"ebt-matched\">Kennzeichen</span> eines großen Mannes, die der werte Gotama besitzt. ",
+            "en": "These are the thirty-two marks of a great man possessed by the worthy Gotama. ",
+            "matched": true
+          },
+          "mn91:26.9": {
+            "scid": "mn91:26.9",
+            "pli": "‘brahmāyu, bho gotama, brāhmaṇo jiṇṇo vuḍḍho mahallako addhagato vayoanuppatto, vīsavassasatiko jātiyā, tiṇṇaṁ vedānaṁ pāragū sanighaṇḍukeṭubhānaṁ sākkharappabhedānaṁ itihāsapañcamānaṁ, padako, veyyākaraṇo, lokāyatamahāpurisalakkhaṇesu anavayo. ",
+            "de": "‚Werter Gotama, der Brahmane Brahmāyu ist alt, bejahrt und hochbetagt, in vorgerücktem Alter und im letzten Lebensabschnitt angekommen; er ist hundertzwanzig Jahre alt. Er hat die drei Veden gemeistert zusammen mit ihrem Wortschatz und der Durchführung des Rituals, der Lautlehre und der Einteilung der Wortarten sowie dem Testament als fünftem. Er kennt sie Wort für Wort, kennt die Grammatik und ist mit der Kosmologie und den <span class=\"ebt-matched\">Kennzeichen</span> eines großen Mannes vertraut. ",
+            "en": "‘Worthy Gotama, , the brahmin Brahmāyu is old, elderly, and senior, advanced in years, having reached the final stage of life; he is a hundred and twenty years old. He has mastered the three Vedas, together with their vocabularies and ritual performance, their phonology and word classification, and the testaments as fifth. He knows them word-by-word, and their grammar. He is well versed in cosmology and the marks of a great man. ",
+            "matched": true
+          },
+          "mn91:29.3": {
+            "scid": "mn91:29.3",
+            "pli": "Ekamantaṁ nisinno kho brahmāyu brāhmaṇo bhagavato kāye dvattiṁsamahāpurisalakkhaṇāni samannesi. ",
+            "de": "und untersuchte den Körper des Buddha nach den zweiunddreißig <span class=\"ebt-matched\">Kennzeichen</span> eines großen Mannes. ",
+            "en": "and scrutinized the Buddha’s body for the thirty-two marks of a great man. ",
+            "matched": true
+          },
+          "mn91:29.8": {
+            "scid": "mn91:29.8",
+            "pli": "“Ye me dvattiṁsāti sutā, ",
+            "de": "„Ich habe von den zweiunddreißig <span class=\"ebt-matched\">Kennzeichen</span> ",
+            "en": "“I have learned of the thirty-two ",
+            "matched": true
+          },
+          "mn91:30.2": {
+            "scid": "mn91:30.2",
+            "pli": "“passati kho me ayaṁ brahmāyu brāhmaṇo dvattiṁsamahāpurisalakkhaṇāni, yebhuyyena ṭhapetvā dve. ",
+            "de": "„Brahmāyu sieht alle <span class=\"ebt-matched\">Kennzeichen</span> mit Ausnahme von zweien, ",
+            "en": "“Brahmāyu sees all the marks except for two, ",
+            "matched": true
+          },
+          "mn91:31.1": {
+            "scid": "mn91:31.1",
+            "pli": "“Ye te dvattiṁsāti sutā, ",
+            "de": "„Die zweiunddreißig <span class=\"ebt-matched\">Kennzeichen</span> eines großen Mannes, ",
+            "en": "“The thirty-two marks of a great man ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn91_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn91_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn91_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 308,
+          "de": 290,
+          "en": 307
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 14.045,
+        "segsMatched": 14,
+        "sutta_uid": "mn91",
+        "title": "Mittlere Lehrreden 91\nMit Brahmāyu",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
           "dn3:1.3.1": {
             "scid": "dn3:1.3.1",
             "pli": "Tena kho pana samayena brāhmaṇassa pokkharasātissa ambaṭṭho nāma māṇavo antevāsī hoti ajjhāyako mantadharo tiṇṇaṁ vedānaṁ pāragū sanighaṇḍukeṭubhānaṁ sākkharappabhedānaṁ itihāsapañcamānaṁ padako veyyākaraṇo lokāyatamahāpurisalakkhaṇesu anavayo anuññātapaṭiññāto sake ācariyake tevijjake pāvacane: ",
-            "de": "Nun hatte Pokkharasāti zu dieser Zeit einen Vedenstudenten namens Ambaṭṭha als Zögling. Er sagte die Hymnen auf und hatte sie im Gedächtnis und hatte die drei Veden gemeistert zusammen mit ihrem Wortschatz und der Liturgie, der Lautlehre und der Worterklärung sowie dem Testament als fünftem. Er kannte den Wortlaut und die Grammatik und war mit der Kosmologie und mit den <span class=\"ebt-matched\">Kennzeichen</span> eines großen Mannes vertraut. Er war als Meister im textlichen Erbe der drei Veden seines eigenen Lehrmeisters legitimiert worden mit den Worten: ",
+            "de": "Nun hatte Pokkharasāti zu dieser Zeit einen Vedenstudenten namens Ambaṭṭha als Zögling. Er sagte die Hymnen auf und hatte sie im Gedächtnis und hatte die drei Veden gemeistert zusammen mit ihrem Wortschatz und der Durchführung des Rituals, der Lautlehre und der Einteilung der Wortarten sowie dem Testament als fünftem. Er kannte sie Wort für Wort, kante die Grammatik und war mit der Kosmologie und den <span class=\"ebt-matched\">Kennzeichen</span> eines großen Mannes vertraut. Er war als Meister im textlichen Erbe der drei Veden seines eigenen Lehrmeisters legitimiert worden mit den Worten: ",
             "en": "Now at that time Pokkharasāti had a student named Ambaṭṭha as his resident pupil. He was one who recited and remembered the hymns, and had mastered in the three Vedas, together with their vocabularies and ritual performance, their phonology and word classification, and the testaments as fifth. He knew them word-by-word, and their grammar. He was well versed in cosmology and the marks of a great man. He had been authorized as a master in his own tutor’s scriptural heritage of the three Vedas with the words: ",
             "matched": true
           },
           "dn3:1.5.2": {
             "scid": "dn3:1.5.2",
             "pli": "“Āgatāni kho, tāta ambaṭṭha, amhākaṁ mantesu dvattiṁsa mahāpurisalakkhaṇāni, yehi samannāgatassa mahāpurisassa dveyeva gatiyo bhavanti anaññā. ",
-            "de": "„Lieber Ambaṭṭha, die 32 <span class=\"ebt-matched\">Kennzeichen</span> eines großen Mannes wurden in unseren Hymnen überliefert. Für einen großen Mann, der diese besitzt, gibt es zwei mögliche Schicksale, kein anderes: ",
+            "de": "„Lieber Ambaṭṭha, die zweiunddreißig <span class=\"ebt-matched\">Kennzeichen</span> eines großen Mannes wurden in unseren Hymnen überliefert. Für einen großen Mann, der diese besitzt, gibt es zwei mögliche Schicksale, kein anderes: ",
             "en": "“Dear Ambaṭṭha, the thirty-two marks of a great man have been handed down in our hymns. A great man who possesses these has only two possible destinies, no other. ",
             "matched": true
           },
@@ -576,7 +705,7 @@
           "dn3:2.11.3": {
             "scid": "dn3:2.11.3",
             "pli": "Atha kho ambaṭṭho māṇavo bhagavantaṁ caṅkamantaṁ anucaṅkamamāno bhagavato kāye dvattiṁsamahāpurisalakkhaṇāni samannesi. ",
-            "de": "Und während er neben dem Buddha herging, untersuchte Ambaṭṭha dessen Körper nach den 32 <span class=\"ebt-matched\">Kennzeichen</span> eines großen Mannes. ",
+            "de": "Und während er neben dem Buddha herging, untersuchte Ambaṭṭha dessen Körper nach den zweiunddreißig <span class=\"ebt-matched\">Kennzeichen</span> eines großen Mannes. ",
             "en": "Then while walking beside the Buddha, Ambaṭṭha scrutinized his body for the thirty-two marks of a great man. ",
             "matched": true
           },
@@ -590,21 +719,21 @@
           "dn3:2.12.8": {
             "scid": "dn3:2.12.8",
             "pli": "“samannāgato kho samaṇo gotamo dvattiṁsamahāpurisalakkhaṇehi paripuṇṇehi, no aparipuṇṇehī”ti. ",
-            "de": "„Der Asket Gotama besitzt die 32 <span class=\"ebt-matched\">Kennzeichen</span> vollständig, es fehlt keins.“ ",
+            "de": "„Der Asket Gotama besitzt die zweiunddreißig <span class=\"ebt-matched\">Kennzeichen</span> vollständig, es fehlt keins.“ ",
             "en": "“The ascetic Gotama possesses the thirty-two marks completely, lacking none.” ",
             "matched": true
           },
           "dn3:2.14.7": {
             "scid": "dn3:2.14.7",
             "pli": "Samannāgato ca so bhavaṁ gotamo dvattiṁsamahāpurisalakkhaṇehi paripuṇṇehi no aparipuṇṇehī”ti. ",
-            "de": "Der werte Gotama besitzt die 32 <span class=\"ebt-matched\">Kennzeichen</span> vollständig, es fehlt keins.“ ",
+            "de": "Der werte Gotama besitzt die zweiunddreißig <span class=\"ebt-matched\">Kennzeichen</span> vollständig, es fehlt keins.“ ",
             "en": "The worthy Gotama possesses the thirty-two marks completely, lacking none.” ",
             "matched": true
           },
           "dn3:2.18.1": {
             "scid": "dn3:2.18.1",
             "pli": "Atha kho brāhmaṇo pokkharasāti bhagavato kāye dvattiṁsamahāpurisalakkhaṇāni samannesi. ",
-            "de": "Dann untersuchte Pokkharasāti den Körper des Buddha nach den 32 <span class=\"ebt-matched\">Kennzeichen</span> eines großen Mannes. ",
+            "de": "Dann untersuchte Pokkharasāti den Körper des Buddha nach den zweiunddreißig <span class=\"ebt-matched\">Kennzeichen</span> eines großen Mannes. ",
             "en": "Then Pokkharasāti scrutinized the Buddha’s body for the thirty-two marks of a great man. ",
             "matched": true
           },
@@ -618,7 +747,7 @@
           "dn3:2.19.2": {
             "scid": "dn3:2.19.2",
             "pli": "“samannāgato kho samaṇo gotamo dvattiṁsamahāpurisalakkhaṇehi paripuṇṇehi no aparipuṇṇehī”ti. ",
-            "de": "„Der Asket Gotama besitzt die 32 <span class=\"ebt-matched\">Kennzeichen</span> vollständig, es fehlt keins.“ ",
+            "de": "„Der Asket Gotama besitzt die zweiunddreißig <span class=\"ebt-matched\">Kennzeichen</span> vollständig, es fehlt keins.“ ",
             "en": "“The ascetic Gotama possesses the thirty-two marks completely, lacking none.” ",
             "matched": true
           }
@@ -942,28 +1071,28 @@
           "dn4:5.10": {
             "scid": "dn4:5.10",
             "pli": "Bhavañhi soṇadaṇḍo ajjhāyako mantadharo tiṇṇaṁ vedānaṁ pāragū sanighaṇḍukeṭubhānaṁ sākkharappabhedānaṁ itihāsapañcamānaṁ padako veyyākaraṇo, lokāyatamahāpurisalakkhaṇesu anavayo …pe… ",
-            "de": "Du sagst die Hymnen auf und hast sie im Gedächtnis und hast die drei Veden gemeistert zusammen mit ihrem Wortschatz und der Liturgie, der Lautlehre und der Worterklärung sowie dem Testament als fünftem. Du kennst den Wortlaut und die Grammatik und bist mit der Kosmologie und mit den <span class=\"ebt-matched\">Kennzeichen</span> eines großen Mannes vertraut. … ",
+            "de": "Du sagst die Hymnen auf und hast sie im Gedächtnis und hast die drei Veden gemeistert zusammen mit ihrem Wortschatz und der Durchführung des Rituals, der Lautlehre und der Einteilung der Wortarten sowie dem Testament als fünftem. Du kennst sie Wort für Wort, kennst die Grammatik und bist mit der Kosmologie und den <span class=\"ebt-matched\">Kennzeichen</span> eines großen Mannes vertraut. … ",
             "en": "You recite and remember the hymns, and have mastered the three Vedas, together with their vocabularies and ritual performance, their phonology and word classification, and the testaments as fifth. You know them word-by-word, and their grammar. You are well versed in cosmology and the marks of a great man. … ",
             "matched": true
           },
           "dn4:6.23": {
             "scid": "dn4:6.23",
             "pli": "Samaṇo khalu, bho, gotamo dvattiṁsamahāpurisalakkhaṇehi samannāgato …pe… ",
-            "de": "Er besitzt die 32 <span class=\"ebt-matched\">Kennzeichen</span> eines großen Mannes. … ",
+            "de": "Er besitzt die zweiunddreißig <span class=\"ebt-matched\">Kennzeichen</span> eines großen Mannes. … ",
             "en": "He has the thirty-two marks of a great man. … ",
             "matched": true
           },
           "dn4:13.6": {
             "scid": "dn4:13.6",
             "pli": "ajjhāyako hoti mantadharo tiṇṇaṁ vedānaṁ pāragū sanighaṇḍukeṭubhānaṁ sākkharappabhedānaṁ itihāsapañcamānaṁ padako veyyākaraṇo lokāyatamahāpurisalakkhaṇesu anavayo; ",
-            "de": "Er sagt die Hymnen auf und hat sie im Gedächtnis und hat die drei Veden gemeistert zusammen mit ihrem Wortschatz und der Liturgie, der Lautlehre und der Worterklärung sowie dem Testament als fünftem. Er kennt den Wortlaut und die Grammatik und ist mit der Kosmologie und mit den <span class=\"ebt-matched\">Kennzeichen</span> eines großen Mannes vertraut. ",
+            "de": "Er sagt die Hymnen auf und hat sie im Gedächtnis und hat die drei Veden gemeistert zusammen mit ihrem Wortschatz und der Durchführung des Rituals, der Lautlehre und der Einteilung der Wortarten sowie dem Testament als fünftem. Er kennt sie Wort für Wort, kennt die Grammatik und ist mit der Kosmologie und den <span class=\"ebt-matched\">Kennzeichen</span> eines großen Mannes vertraut. ",
             "en": "He recites and remembers the hymns, and has mastered the three Vedas, together with their vocabularies and ritual performance, their phonology and word classification, and the testaments as fifth. He knows them word-by-word, and their grammar. He is well versed in cosmology and the marks of a great man. ",
             "matched": true
           },
           "dn4:20.6": {
             "scid": "dn4:20.6",
             "pli": "Aṅgako kho māṇavako ajjhāyako mantadharo, tiṇṇaṁ vedānaṁ pāragū sanighaṇḍukeṭubhānaṁ sākkharappabhedānaṁ itihāsapañcamānaṁ padako veyyākaraṇo lokāyatamahāpurisalakkhaṇesu anavayo. ",
-            "de": "Aṅgaka sagt die Hymnen auf und hat sie im Gedächtnis und hat die drei Veden gemeistert zusammen mit ihrem Wortschatz und der Liturgie, der Lautlehre und der Worterklärung sowie dem Testament als fünftem. Er kennt den Wortlaut und die Grammatik und ist mit der Kosmologie und mit den <span class=\"ebt-matched\">Kennzeichen</span> eines großen Mannes vertraut. ",
+            "de": "Aṅgaka sagt die Hymnen auf und hat sie im Gedächtnis und hat die drei Veden gemeistert zusammen mit ihrem Wortschatz und der Durchführung des Rituals, der Lautlehre und der Einteilung der Wortarten sowie dem Testament als fünftem. Er kennt sie Wort für Wort, kennt die Grammatik und ist mit der Kosmologie und den <span class=\"ebt-matched\">Kennzeichen</span> eines großen Mannes vertraut. ",
             "en": "Aṅgaka recites and remembers the hymns, and has mastered the three Vedas, together with their vocabularies and ritual performance, their phonology and word classification, and the testaments as fifth. He knows them word-by-word, and their grammar. He is well versed in cosmology and the marks of a great man. ",
             "matched": true
           }
@@ -1004,7 +1133,7 @@
           "dn14:1.31.7": {
             "scid": "dn14:1.31.7",
             "pli": "Ayañhi, deva, kumāro dvattiṁsamahāpurisalakkhaṇehi samannāgato, yehi samannāgatassa mahāpurisassa dveva gatiyo bhavanti anaññā. ",
-            "de": "Denn der Prinz besitzt die 32 <span class=\"ebt-matched\">Kennzeichen</span> eines großen Mannes. Für einen großen Mann, der diese besitzt, gibt es zwei mögliche Schicksale, kein anderes. ",
+            "de": "Denn der Prinz besitzt die zweiunddreißig <span class=\"ebt-matched\">Kennzeichen</span> eines großen Mannes. Für einen großen Mann, der diese besitzt, gibt es zwei mögliche Schicksale, kein anderes. ",
             "en": "For the prince has the thirty-two marks of a great man. A great man who possesses these has only two possible destinies, no other. ",
             "matched": true
           },
@@ -1018,7 +1147,7 @@
           "dn14:1.33.1": {
             "scid": "dn14:1.33.1",
             "pli": "Imehi kho ayaṁ, deva, kumāro dvattiṁsamahāpurisalakkhaṇehi samannāgato, yehi samannāgatassa mahāpurisassa dveva gatiyo bhavanti anaññā. ",
-            "de": "Das sind die 32 <span class=\"ebt-matched\">Kennzeichen</span> eines großen Mannes, die der Prinz besitzt. Für einen großen Mann, der diese besitzt, gibt es zwei mögliche Schicksale, kein anderes. ",
+            "de": "Das sind die zweiunddreißig <span class=\"ebt-matched\">Kennzeichen</span> eines großen Mannes, die der Prinz besitzt. Für einen großen Mann, der diese besitzt, gibt es zwei mögliche Schicksale, kein anderes. ",
             "en": "These are the thirty-two marks of a great man that the prince has. A great man who possesses these has only two possible destinies, no other. ",
             "matched": true
           }
@@ -1100,21 +1229,21 @@
           "dn5:6.10": {
             "scid": "dn5:6.10",
             "pli": "Bhavañhi kūṭadanto ajjhāyako mantadharo tiṇṇaṁ vedānaṁ pāragū sanighaṇḍukeṭubhānaṁ sākkharappabhedānaṁ itihāsapañcamānaṁ padako veyyākaraṇo lokāyatamahāpurisalakkhaṇesu anavayo …pe… ",
-            "de": "Du sagst die Hymnen auf und hast sie im Gedächtnis und hast die drei Veden gemeistert zusammen mit ihrem Wortschatz und der Liturgie, der Lautlehre und der Worterklärung sowie dem Testament als fünftem. Du kennst den Wortlaut und die Grammatik und bist mit der Kosmologie und mit den <span class=\"ebt-matched\">Kennzeichen</span> eines großen Mannes vertraut. … ",
+            "de": "Du sagst die Hymnen auf und hast sie im Gedächtnis und hast die drei Veden gemeistert zusammen mit ihrem Wortschatz und der Durchführung des Rituals, der Lautlehre und der Einteilung der Wortarten sowie dem Testament als fünftem. Du kennst sie Wort für Wort, kennst die Grammatik und bist mit der Kosmologie und den <span class=\"ebt-matched\">Kennzeichen</span> eines großen Mannes vertraut. … ",
             "en": "You recite and remember the hymns, and have mastered the three Vedas, together with their vocabularies and ritual performance, their phonology and word classification, and the testaments as fifth. You know them word-by-word, and their grammar. You are well versed in cosmology and the marks of a great man. … ",
             "matched": true
           },
           "dn5:7.23": {
             "scid": "dn5:7.23",
             "pli": "Samaṇo khalu, bho, gotamo dvattiṁsamahāpurisalakkhaṇehi samannāgato …pe… ",
-            "de": "Er besitzt die 32 <span class=\"ebt-matched\">Kennzeichen</span> eines großen Mannes. … ",
+            "de": "Er besitzt die zweiunddreißig <span class=\"ebt-matched\">Kennzeichen</span> eines großen Mannes. … ",
             "en": "He has the thirty-two marks of a great man. … ",
             "matched": true
           },
           "dn5:14.3": {
             "scid": "dn5:14.3",
             "pli": "ajjhāyako mantadharo tiṇṇaṁ vedānaṁ pāragū sanighaṇḍukeṭubhānaṁ sākkharappabhedānaṁ itihāsapañcamānaṁ padako veyyākaraṇo lokāyatamahāpurisalakkhaṇesu anavayo; ",
-            "de": "Er sagt die Hymnen auf und hat sie im Gedächtnis und hat die drei Veden gemeistert zusammen mit ihrem Wortschatz und der Liturgie, der Lautlehre und der Worterklärung sowie dem Testament als fünftem. Er kennt den Wortlaut und die Grammatik und ist mit der Kosmologie und mit den <span class=\"ebt-matched\">Kennzeichen</span> eines großen Mannes vertraut. ",
+            "de": "Er sagt die Hymnen auf und hat sie im Gedächtnis und hat die drei Veden gemeistert zusammen mit ihrem Wortschatz und der Durchführung des Rituals, der Lautlehre und der Einteilung der Wortarten sowie dem Testament als fünftem. Er kennt sie Wort für Wort, kennt die Grammatik und ist mit der Kosmologie und den <span class=\"ebt-matched\">Kennzeichen</span> eines großen Mannes vertraut. ",
             "en": "He recited and remembered the hymns, and had mastered the three Vedas, together with their vocabularies and ritual performance, their phonology and word classification, and the testaments as fifth. He knew them word-by-word, and their grammar. He was well versed in cosmology and the marks of a great man. ",
             "matched": true
           }
@@ -1148,7 +1277,7 @@
           "dn1:1.21.2": {
             "scid": "dn1:1.21.2",
             "pli": "seyyathidaṁ—aṅgaṁ nimittaṁ uppātaṁ supinaṁ lakkhaṇaṁ mūsikacchinnaṁ aggihomaṁ dabbihomaṁ thusahomaṁ kaṇahomaṁ taṇḍulahomaṁ sappihomaṁ telahomaṁ mukhahomaṁ lohitahomaṁ aṅgavijjā vatthuvijjā khattavijjā sivavijjā bhūtavijjā bhūrivijjā ahivijjā visavijjā vicchikavijjā mūsikavijjā sakuṇavijjā vāyasavijjā pakkajjhānaṁ saraparittāṇaṁ migacakkaṁ ",
-            "de": "nämlich Deuten der Gliederform, Deuten von Vorzeichen, Aufspüren himmlischer Omen, Traumdeutung, Aufspüren körperlicher <span class=\"ebt-matched\">Kennzeichen</span>, Aufspüren von Löchern, die Mäuse in Stoff geknabbert haben, Feueropfer, Opfer mit der Schöpfkelle, Opfer von Spelzen, Reishäutchen, Reis, Ghee oder Öl, Opfer aus dem Mund, Blutopfer, Handlesen, Geomantik für Bauplätze, Felder und Friedhöfe, Teufelsaustreibungen, Erdmagie, Schlangenbeschwörung, Gift, die Wissenschaft vom Skorpion, von der Ratte, vom Vogel und von der Krähe, Vorhersage der Lebensdauer, Aufsagen von Schutzversen und Aufspüren von Vorzeichen von wilden Tieren. ",
+            "de": "nämlich Deuten der Gliederform, Deuten von Vorzeichen, Aufspüren himmlischer Omen, Traumdeutung, Aufspüren körperlicher <span class=\"ebt-matched\">Kennzeichen</span>, Aufspüren von Löchern, die Mäuse in Stoff geknabbert haben, Feueropfer, Opfer mit der Schöpfkelle, Opfer von Spelzen, Reishäutchen, Reis, Ghee oder Öl, Opfer aus dem Mund, Blutopfer, Handlesen, Geomantik für Bauplätze, Felder und Friedhöfe, Teufelsaustreibungen, Erdmagie, Schlangenbeschwörung, Gift, Skorpion-, Ratten-, Vogel- und Krähenkunde, Vorhersage der Lebensdauer, Aufsagen von Schutzversen und Aufspüren von Vorzeichen von wilden Tieren. ",
             "en": "This includes such fields as limb-reading, omenology, divining celestial portents, interpreting dreams, divining bodily marks, divining holes in cloth gnawed by mice, fire offerings, ladle offerings, offerings of husks, rice powder, rice, ghee, or oil; offerings from the mouth, blood sacrifices, palmistry; geomancy for building sites, fields, and cemeteries; exorcisms, earth magic, snake charming, poisons; the lore of the scorpion, the rat, the bird, and the crow; prophesying lifespan, chanting for protection, and divining omens from wild animals. ",
             "matched": true
           },
@@ -1189,7 +1318,7 @@
           "dn2:56.2": {
             "scid": "dn2:56.2",
             "pli": "Seyyathidaṁ—aṅgaṁ nimittaṁ uppātaṁ supinaṁ lakkhaṇaṁ mūsikacchinnaṁ aggihomaṁ dabbihomaṁ thusahomaṁ kaṇahomaṁ taṇḍulahomaṁ sappihomaṁ telahomaṁ mukhahomaṁ lohitahomaṁ aṅgavijjā vatthuvijjā khattavijjā sivavijjā bhūtavijjā bhūrivijjā ahivijjā visavijjā vicchikavijjā mūsikavijjā sakuṇavijjā vāyasavijjā pakkajjhānaṁ saraparittāṇaṁ migacakkaṁ ",
-            "de": "nämlich Deuten der Gliederform, Deuten von Vorzeichen, Aufspüren himmlischer Omen, Traumdeutung, Aufspüren körperlicher <span class=\"ebt-matched\">Kennzeichen</span>, Aufspüren von Löchern, die Mäuse in Stoff geknabbert haben, Feueropfer, Opfer mit der Schöpfkelle, Opfer von Spelzen, Reishäutchen, Reis, Ghee oder Öl, Opfer aus dem Mund, Blutopfer, Handlesen, Geomantik für Bauplätze, Felder und Friedhöfe, Teufelsaustreibungen, Erdmagie, Schlangenbeschwörung, Gift, die Wissenschaft vom Skorpion, von der Ratte, vom Vogel und von der Krähe, Vorhersage der Lebensdauer, Aufsagen von Schutzversen und Aufspüren von Vorzeichen von wilden Tieren. ",
+            "de": "nämlich Deuten der Gliederform, Deuten von Vorzeichen, Aufspüren himmlischer Omen, Traumdeutung, Aufspüren körperlicher <span class=\"ebt-matched\">Kennzeichen</span>, Aufspüren von Löchern, die Mäuse in Stoff geknabbert haben, Feueropfer, Opfer mit der Schöpfkelle, Opfer von Spelzen, Reishäutchen, Reis, Ghee oder Öl, Opfer aus dem Mund, Blutopfer, Handlesen, Geomantik für Bauplätze, Felder und Friedhöfe, Teufelsaustreibungen, Erdmagie, Schlangenbeschwörung, Gift, Skorpion-, Ratten-, Vogel- und Krähenkunde, Vorhersage der Lebensdauer, Aufsagen von Schutzversen und Aufspüren von Vorzeichen von wilden Tieren. ",
             "en": "This includes such fields as limb-reading, omenology, divining celestial portents, interpreting dreams, divining bodily marks, divining holes in cloth gnawed by mice, fire offerings, ladle offerings, offerings of husks, rice powder, rice, ghee, or oil; offerings from the mouth, blood sacrifices, palmistry; geomancy for building sites, fields, and cemeteries; exorcisms, earth magic, snake charming, poisons; the lore of the scorpion, the rat, the bird, and the crow; prophesying lifespan, chanting for protection, and divining omens from wild animals. ",
             "matched": true
           },
@@ -1366,7 +1495,7 @@
           "an3.59:1.4": {
             "scid": "an3.59:1.4",
             "pli": "“Idha kho, bho gotama, brāhmaṇo ubhato sujāto hoti mātito ca pitito ca saṁsuddhagahaṇiko yāva sattamā pitāmahayugā akkhitto anupakkuṭṭho jātivādena, ajjhāyako mantadharo, tiṇṇaṁ vedānaṁ pāragū sanighaṇḍukeṭubhānaṁ sākkharappabhedānaṁ itihāsapañcamānaṁ, padako, veyyākaraṇo, lokāyatamahāpurisalakkhaṇesu anavayoti. ",
-            "de": "„Werter Gotama, da ist ein Brahmane von guter Geburt auf mütterlicher und väterlicher Seite, von reiner Abkunft, mit unwiderlegbarem und einwandfreiem Stammbaum bis zur siebten väterlichen Generation zurück. Er sagt die Hymnen auf und hat sie im Gedächtnis und hat die drei Veden gemeistert zusammen mit ihrem Wortschatz und der Liturgie, der Lautlehre und der Worterklärung sowie dem Testament als fünftem. Er kennt den Wortlaut und die Grammatik und ist mit der Kosmologie und mit den <span class=\"ebt-matched\">Kennzeichen</span> eines großen Mannes vertraut. ",
+            "de": "„Werter Gotama, da ist ein Brahmane von guter Geburt auf mütterlicher und väterlicher Seite, von reiner Abkunft, mit unwiderlegbarem und einwandfreiem Stammbaum bis zur siebten väterlichen Generation zurück. Er sagt die Hymnen auf und hat sie im Gedächtnis und hat die drei Veden gemeistert zusammen mit ihrem Wortschatz und der Durchführung des Rituals, der Lautlehre und der Einteilung der Wortarten sowie dem Testament als fünftem. Er kennt sie Wort für Wort, kennt die Grammatik und ist mit der Kosmologie und den <span class=\"ebt-matched\">Kennzeichen</span> eines großen Mannes vertraut. ",
             "en": "“Worthy Gotama, it’s when a brahmin is well born on both his mother’s and father’s side, of pure descent, with irrefutable and impeccable genealogy back to the seventh paternal generation. He recites and remembers the hymns, and has mastered the three Vedas, together with their vocabularies and ritual performance, their phonology and word classification, and the testaments as fifth. He knows them word-by-word, and their grammar. He is well versed in cosmology and the marks of a great man. ",
             "matched": true
           }
@@ -1434,7 +1563,7 @@
           "an3.58:2.2": {
             "scid": "an3.58:2.2",
             "pli": "“Idha, bho gotama, brāhmaṇo ubhato sujāto hoti mātito ca pitito ca, saṁsuddhagahaṇiko yāva sattamā pitāmahayugā, akkhitto anupakkuṭṭho jātivādena, ajjhāyako, mantadharo, tiṇṇaṁ vedānaṁ pāragū sanighaṇḍukeṭubhānaṁ sākkharappabhedānaṁ itihāsapañcamānaṁ, padako, veyyākaraṇo, lokāyatamahāpurisalakkhaṇesu anavayoti. ",
-            "de": "„Werter Gotama, da ist ein Brahmane von guter Geburt auf mütterlicher und väterlicher Seite, von reiner Abkunft, mit unwiderlegbarem und einwandfreiem Stammbaum bis zur siebten väterlichen Generation zurück. Er sagt die Hymnen auf und hat sie im Gedächtnis und hat die drei Veden gemeistert zusammen mit ihrem Wortschatz und der Liturgie, der Lautlehre und der Worterklärung sowie dem Testament als fünftem. Er kennt den Wortlaut und die Grammatik und ist mit der Kosmologie und mit den <span class=\"ebt-matched\">Kennzeichen</span> eines großen Mannes vertraut. ",
+            "de": "„Werter Gotama, da ist ein Brahmane von guter Geburt auf mütterlicher und väterlicher Seite, von reiner Abkunft, mit unwiderlegbarem und einwandfreiem Stammbaum bis zur siebten väterlichen Generation zurück. Er sagt die Hymnen auf und hat sie im Gedächtnis und hat die drei Veden gemeistert zusammen mit ihrem Wortschatz und der Durchführung des Rituals, der Lautlehre und der Einteilung der Wortarten sowie dem Testament als fünftem. Er kennt sie Wort für Wort, kennt die Grammatik und ist mit der Kosmologie und den <span class=\"ebt-matched\">Kennzeichen</span> eines großen Mannes vertraut. ",
             "en": "“Worthy Gotama, it’s when a brahmin is well born on both his mother’s and father’s side, of pure descent, with irrefutable and impeccable genealogy back to the seventh paternal generation. He recites and remembers the hymns, and has mastered the three Vedas, together with their vocabularies and ritual performance, their phonology and word classification, and the testaments as fifth. He knows them word-by-word, and their grammar. He is well versed in cosmology and the marks of a great man. ",
             "matched": true
           }
@@ -1502,7 +1631,7 @@
           "an5.192:2.11": {
             "scid": "an5.192:2.11",
             "pli": "mātito ca pitito ca, saṁsuddhagahaṇiko, yāva sattamā pitāmahayugā akkhitto anupakkuṭṭho jātivādena, ajjhāyako mantadharo, tiṇṇaṁ vedānaṁ pāragū sanighaṇḍukeṭubhānaṁ sākkharappabhedānaṁ itihāsapañcamānaṁ, padako veyyākaraṇo lokāyatamahāpurisalakkhaṇesu anavayo”ti. ",
-            "de": "Denn ich bin von guter Geburt auf mütterlicher und väterlicher Seite, von reiner Abkunft, mit unwiderlegbarem und einwandfreiem Stammbaum bis zur siebten väterlichen Generation zurück. Ich sage die Hymnen auf und habe sie im Gedächtnis und habe die drei Veden gemeistert zusammen mit ihrem Wortschatz und der Liturgie, der Lautlehre und der Worterklärung sowie dem Testament als fünftem. Ich kenne den Wortlaut und die Grammatik und bin mit der Kosmologie und mit den <span class=\"ebt-matched\">Kennzeichen</span> eines großen Mannes vertraut.“ ",
+            "de": "Denn ich bin von guter Geburt auf mütterlicher und väterlicher Seite, von reiner Abkunft, mit unwiderlegbarem und einwandfreiem Stammbaum bis zur siebten väterlichen Generation zurück. Ich sage die Hymnen auf und habe sie im Gedächtnis und habe die drei Veden gemeistert zusammen mit ihrem Wortschatz und der Durchführung des Rituals, der Lautlehre und der Einteilung der Wortarten sowie dem Testament als fünftem. Ich kenne sie Wort für Wort, kenne die Grammatik und bin mit der Kosmologie und den <span class=\"ebt-matched\">Kennzeichen</span> eines großen Mannes vertraut.“ ",
             "en": "For I am well born on both my mother’s and father’s side, of pure descent, with irrefutable and impeccable genealogy back to the seventh paternal generation. I recite and remember the hymns, and have mastered the three Vedas, together with their vocabularies and ritual performance, their phonology and word classification, and the testaments as fifth. I know them word-by-word, and their grammar. I am well versed in cosmology and the marks of a great man.” ",
             "matched": true
           }
@@ -1605,7 +1734,7 @@
           "mn93:3.1": {
             "scid": "mn93:3.1",
             "pli": "Tena kho pana samayena assalāyano nāma māṇavo sāvatthiyaṁ paṭivasati daharo, vuttasiro, soḷasavassuddesiko jātiyā, tiṇṇaṁ vedānaṁ pāragū sanighaṇḍukeṭubhānaṁ sākkharappabhedānaṁ itihāsapañcamānaṁ, padako, veyyākaraṇo, lokāyatamahāpurisalakkhaṇesu anavayo. ",
-            "de": "Nun befand sich zu dieser Zeit der Vedenstudent Assalāyana in Sāvatthī. Er war jung, hatte die Tonsur geschoren und war sechzehn Jahre alt. Er hatte die drei Veden gemeistert zusammen mit ihrem Wortschatz und der Liturgie, der Lautlehre und der Worterklärung sowie dem Testament als fünftem. Er kannte den Wortlaut und die Grammatik und war mit der Kosmologie und mit den <span class=\"ebt-matched\">Kennzeichen</span> eines großen Mannes vertraut. ",
+            "de": "Nun befand sich zu dieser Zeit der Vedenstudent Assalāyana in Sāvatthī. Er war jung, hatte die Tonsur geschoren und war sechzehn Jahre alt. Er hatte die drei Veden gemeistert zusammen mit ihrem Wortschatz und der Durchführung des Rituals, der Lautlehre und der Einteilung der Wortarten sowie dem Testament als fünftem. Er kannte sie Wort für Wort, kante die Grammatik und war mit der Kosmologie und den <span class=\"ebt-matched\">Kennzeichen</span> eines großen Mannes vertraut. ",
             "en": "Now at that time the student Assalāyana was residing in Sāvatthī. He was young, tonsured, and sixteen years old. He had mastered the three Vedas, together with their vocabularies and ritual performance, their phonology and word classification, and the testaments as fifth. He knew them word-by-word, and their grammar. He was well versed in cosmology and the marks of a great man. ",
             "matched": true
           }
