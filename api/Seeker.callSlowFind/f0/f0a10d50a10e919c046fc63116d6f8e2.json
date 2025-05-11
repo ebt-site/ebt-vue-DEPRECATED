@@ -41,8 +41,11 @@
     "pattern": "spaltung des saṅgha herbei",
     "method": "phrase",
     "resultPattern": "\\bspaltung des saṅgha herbei",
-    "segsMatched": 9,
+    "segsMatched": 11,
     "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn115_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn115_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn115_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an6/an6.87_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.87_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an6/an6.87_translation-en-sujato.json",
@@ -66,6 +69,7 @@
       "translation/en/sujato/sutta/an/an4/an4.236_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "mn115/de/sabbamitta",
       "an6.87/de/sabbamitta",
       "an1.268-277/de/sabbamitta",
       "sn35.235/de/sabbamitta",
@@ -155,6 +159,47 @@
         "segsMatched": 2,
         "sutta_uid": "an1.268-277",
         "title": "Nummerierte Lehrreden 1.268–277\n21. Das erste Kapitel über das Unmögliche",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn115:13.7": {
+            "scid": "mn115:13.7",
+            "pli": "‘Aṭṭhānametaṁ anavakāso yaṁ diṭṭhisampanno puggalo saṅghaṁ bhindeyya, netaṁ ṭhānaṁ vijjatī’ti pajānāti; ",
+            "de": "Er versteht: ‚Es ist ganz unmöglich, es kann nicht sein, dass ein Mensch, der die Ansicht vervollkommnet hat, eine <span class=\"ebt-matched\">Spaltung des Saṅgha herbei</span>führt. ",
+            "en": "They understand: ‘It’s impossible for a person accomplished in view to cause a schism in the Saṅgha. ",
+            "matched": true
+          },
+          "mn115:13.8": {
+            "scid": "mn115:13.8",
+            "pli": "‘ṭhānañca kho etaṁ vijjati yaṁ puthujjano saṅghaṁ bhindeyya, ṭhānametaṁ vijjatī’ti pajānāti. ",
+            "de": "Aber es ist gut möglich, dass ein gewöhnlicher Mensch eine <span class=\"ebt-matched\">Spaltung des Saṅgha herbei</span>führt.‘ ",
+            "en": "But it’s possible for an ordinary person to cause a schism in the Saṅgha.’ ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn115_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn115_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn115_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 158,
+          "de": 157,
+          "en": 157
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 2.013,
+        "segsMatched": 2,
+        "sutta_uid": "mn115",
+        "title": "Mittlere Lehrreden 115\nViele Elemente",
         "type": "translation"
       },
       {

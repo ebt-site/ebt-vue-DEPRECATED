@@ -41,7 +41,7 @@
     "pattern": "rad-drehend.* herrscher",
     "method": "phrase",
     "resultPattern": "\\brad-drehend.* herrscher",
-    "segsMatched": 130,
+    "segsMatched": 134,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn26_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn26_translation-de-sabbamitta.json",
@@ -61,6 +61,9 @@
       "root/pli/ms/sutta/sn/sn41/sn41.10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn41/sn41.10_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn41/sn41.10_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn115_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn115_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn115_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn17_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn17_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn17_translation-en-sujato.json",
@@ -168,6 +171,7 @@
       "an4.130/de/sabbamitta",
       "sn46.42/de/sabbamitta",
       "sn41.10/de/sabbamitta",
+      "mn115/de/sabbamitta",
       "dn17/de/sabbamitta",
       "an3.14/de/sabbamitta",
       "an2.52-63/de/sabbamitta",
@@ -1053,6 +1057,61 @@
         "segsMatched": 4,
         "sutta_uid": "an2.52-63",
         "title": "Nummerierte Lehrreden 2.52–63\n6. Das Kapitel über Menschen",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn115:14.3": {
+            "scid": "mn115:14.3",
+            "pli": "‘Aṭṭhānametaṁ anavakāso yaṁ ekissā lokadhātuyā dve rājāno cakkavattino apubbaṁ acarimaṁ uppajjeyyuṁ, netaṁ ṭhānaṁ vijjatī’ti pajānāti; ",
+            "de": "Er versteht: ‚Es ist ganz unmöglich, es kann nicht sein, dass zwei <span class=\"ebt-matched\">Rad-drehende Herrscher</span> gleichzeitig im selben Sonnensystem erscheinen. ",
+            "en": "They understand: ‘It’s impossible for two wheel-turning monarchs to arise in the same solar system at the same time. ",
+            "matched": true
+          },
+          "mn115:14.4": {
+            "scid": "mn115:14.4",
+            "pli": "‘ṭhānañca kho etaṁ vijjati yaṁ ekissā lokadhātuyā eko rājā cakkavattī uppajjeyya, ṭhānametaṁ vijjatī’ti pajānāti. ",
+            "de": "Aber es ist gut möglich, dass ein einziger <span class=\"ebt-matched\">Rad-drehender Herrscher</span> in einem Sonnensystem erscheint.‘ ",
+            "en": "But it is possible for just one wheel-turning monarch to arise in one solar system.’ ",
+            "matched": true
+          },
+          "mn115:15.3": {
+            "scid": "mn115:15.3",
+            "pli": "‘Aṭṭhānametaṁ anavakāso yaṁ itthī rājā assa cakkavattī, netaṁ ṭhānaṁ vijjatī’ti pajānāti; ",
+            "de": "Er versteht: ‚Es ist ganz unmöglich, es kann nicht sein, dass eine Frau eine <span class=\"ebt-matched\">Rad-drehende Herrscher</span>in ist. ",
+            "en": "They understand: ‘It’s impossible for a woman to be a wheel-turning monarch. ",
+            "matched": true
+          },
+          "mn115:15.4": {
+            "scid": "mn115:15.4",
+            "pli": "‘ṭhānañca kho etaṁ vijjati yaṁ puriso rājā assa cakkavattī, ṭhānametaṁ vijjatī’ti pajānāti. ",
+            "de": "Aber es ist gut möglich, dass ein Mann ein <span class=\"ebt-matched\">Rad-drehender Herrscher</span> ist.‘ ",
+            "en": "But it is possible for a man to be a wheel-turning monarch.’ ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn115_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn115_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn115_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 158,
+          "de": 157,
+          "en": 157
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 4.025,
+        "segsMatched": 4,
+        "sutta_uid": "mn115",
+        "title": "Mittlere Lehrreden 115\nViele Elemente",
         "type": "translation"
       },
       {
