@@ -41,7 +41,7 @@
     "pattern": "erkannt werden",
     "method": "phrase",
     "resultPattern": "\\berkannt werden",
-    "segsMatched": 40,
+    "segsMatched": 42,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an6/an6.63_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.63_translation-de-sabbamitta.json",
@@ -58,12 +58,18 @@
       "root/pli/ms/sutta/sn/sn35/sn35.43-51_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn35/sn35.43-51_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.43-51_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn92_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn92_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn92_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn91_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn91_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn91_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag16.6_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag16.6_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/kn/thag/thag16.6_translation-en-sujato.json"
+      "translation/en/sujato/sutta/kn/thag/thag16.6_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga3/snp3.7_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/snp/vagga3/snp3.7_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/snp/vagga3/snp3.7_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an6.63/de/sabbamitta",
@@ -71,8 +77,10 @@
       "mn43/de/sabbamitta",
       "an6.61/de/sabbamitta",
       "sn35.43-51/de/sabbamitta",
+      "mn92/de/sabbamitta",
       "mn91/de/sabbamitta",
-      "thag16.6/de/sabbamitta"
+      "thag16.6/de/sabbamitta",
+      "snp3.7/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -508,6 +516,74 @@
         "segsMatched": 1,
         "sutta_uid": "thag16.6",
         "title": "Strophen der altehrwürdigen Mönche 16.6\nDas Zwanzigerbuch\n1. Das erste Kapitel\nSela",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn92:19.6": {
+            "scid": "mn92:19.6",
+            "pli": "Abhiññeyyaṁ abhiññātaṁ, ",
+            "de": "Ich habe erkannt, was <span class=\"ebt-matched\">erkannt werden</span> muss, ",
+            "en": "I have known what should be known, ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn92_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn92_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn92_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 205,
+          "de": 204,
+          "en": 204
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.005,
+        "segsMatched": 1,
+        "sutta_uid": "mn92",
+        "title": "Mittlere Lehrreden 92\nMit Sela",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "snp3.7:23.1": {
+            "scid": "snp3.7:23.1",
+            "pli": "Abhiññeyyaṁ abhiññātaṁ, ",
+            "de": "Ich habe erkannt, was <span class=\"ebt-matched\">erkannt werden</span> muss, ",
+            "en": "I have known what should be known, ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga3/snp3.7_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/snp/vagga3/snp3.7_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/snp/vagga3/snp3.7_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 206,
+          "de": 205,
+          "en": 204
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.005,
+        "segsMatched": 1,
+        "sutta_uid": "snp3.7",
+        "title": "Lehrreden-Sammelband 3.7\nMit Sela",
         "type": "translation"
       },
       {

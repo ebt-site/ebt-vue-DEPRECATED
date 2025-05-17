@@ -41,7 +41,7 @@
     "pattern": "riese",
     "method": "phrase",
     "resultPattern": "\\briese",
-    "segsMatched": 55,
+    "segsMatched": 57,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an6/an6.43_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.43_translation-de-sabbamitta.json",
@@ -70,6 +70,9 @@
       "root/pli/ms/sutta/sn/sn1/sn1.30_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn1/sn1.30_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.30_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn92_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn92_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn92_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn5_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn5_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn5_translation-en-sujato.json",
@@ -94,6 +97,9 @@
       "root/pli/ms/sutta/kn/snp/vagga5/snp5.19_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/snp/vagga5/snp5.19_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/snp/vagga5/snp5.19_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga3/snp3.7_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/snp/vagga3/snp3.7_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/snp/vagga3/snp3.7_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn20_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn20_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn20_translation-en-sujato.json"
@@ -108,6 +114,7 @@
       "sn21.3/de/sabbamitta",
       "sn1.37/de/sabbamitta",
       "sn1.30/de/sabbamitta",
+      "mn92/de/sabbamitta",
       "mn5/de/sabbamitta",
       "mn56/de/sabbamitta",
       "mn24/de/sabbamitta",
@@ -116,6 +123,7 @@
       "thag4.6/de/sabbamitta",
       "thag16.6/de/sabbamitta",
       "snp5.19/de/sabbamitta",
+      "snp3.7/de/sabbamitta",
       "dn20/de/sabbamitta"
     ],
     "mlDocs": [
@@ -920,6 +928,74 @@
         "segsMatched": 1,
         "sutta_uid": "mn5",
         "title": "Mittlere Lehrreden 5\nMakellos",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn92:28.17": {
+            "scid": "mn92:28.17",
+            "pli": "nāgā vandantu satthuno”ti. ",
+            "de": "Lass diese <span class=\"ebt-matched\">Riese</span>n sich vor dem Lehrer verbeugen.“ ",
+            "en": "let these giants bow to the Teacher.” ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn92_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn92_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn92_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 205,
+          "de": 204,
+          "en": 204
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.005,
+        "segsMatched": 1,
+        "sutta_uid": "mn92",
+        "title": "Mittlere Lehrreden 92\nMit Sela",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "snp3.7:42.4": {
+            "scid": "snp3.7:42.4",
+            "pli": "Nāgā vandantu satthuno”ti. ",
+            "de": "Lass diese <span class=\"ebt-matched\">Riese</span>n sich vor dem Lehrer verbeugen.“ ",
+            "en": "let these giants bow to the Teacher.” ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga3/snp3.7_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/snp/vagga3/snp3.7_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/snp/vagga3/snp3.7_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 206,
+          "de": 205,
+          "en": 204
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.005,
+        "segsMatched": 1,
+        "sutta_uid": "snp3.7",
+        "title": "Lehrreden-Sammelband 3.7\nMit Sela",
         "type": "translation"
       },
       {

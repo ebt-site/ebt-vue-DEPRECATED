@@ -41,7 +41,7 @@
     "pattern": "filz",
     "method": "phrase",
     "resultPattern": "\\bfilz",
-    "segsMatched": 38,
+    "segsMatched": 40,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn7/sn7.6_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn7/sn7.6_translation-de-sabbamitta.json",
@@ -70,12 +70,18 @@
       "root/pli/ms/sutta/sn/sn4/sn4.21_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn4/sn4.21_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn4/sn4.21_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn92_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn92_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn92_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn38_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn38_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn38_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag6.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag6.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag6.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga3/snp3.7_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/snp/vagga3/snp3.7_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/snp/vagga3/snp3.7_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/snp/vagga3/snp3.11_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/snp/vagga3/snp3.11_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/snp/vagga3/snp3.11_translation-en-sujato.json",
@@ -103,8 +109,10 @@
       "ud6.2/de/sabbamitta",
       "ud1.9/de/sabbamitta",
       "sn4.21/de/sabbamitta",
+      "mn92/de/sabbamitta",
       "mn38/de/sabbamitta",
       "thag6.1/de/sabbamitta",
+      "snp3.7/de/sabbamitta",
       "snp3.11/de/sabbamitta",
       "dhp129-145/de/sabbamitta",
       "cp22/de/sabbamitta",
@@ -741,6 +749,74 @@
         "segsMatched": 1,
         "sutta_uid": "dhp129-145",
         "title": "Kleinere Sammlung\nDhammasprüche 129–145\n10. Das Kapitel über den Stock\nChabbaggiyabhikkhuvatthu",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn92:2.1": {
+            "scid": "mn92:2.1",
+            "pli": "Assosi kho keṇiyo jaṭilo: ",
+            "de": "Der <span class=\"ebt-matched\">Filz</span>haarasket Keṇiya hörte: ",
+            "en": "The matted-hair ascetic Keṇiya heard: ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn92_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn92_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn92_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 205,
+          "de": 204,
+          "en": 204
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.005,
+        "segsMatched": 1,
+        "sutta_uid": "mn92",
+        "title": "Mittlere Lehrreden 92\nMit Sela",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "snp3.7:1.3": {
+            "scid": "snp3.7:1.3",
+            "pli": "Assosi kho keṇiyo jaṭilo: ",
+            "de": "Der <span class=\"ebt-matched\">Filz</span>haarasket Keṇiya hörte: ",
+            "en": "The matted-hair ascetic Keṇiya heard: ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga3/snp3.7_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/snp/vagga3/snp3.7_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/snp/vagga3/snp3.7_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 206,
+          "de": 205,
+          "en": 204
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.005,
+        "segsMatched": 1,
+        "sutta_uid": "snp3.7",
+        "title": "Lehrreden-Sammelband 3.7\nMit Sela",
         "type": "translation"
       },
       {

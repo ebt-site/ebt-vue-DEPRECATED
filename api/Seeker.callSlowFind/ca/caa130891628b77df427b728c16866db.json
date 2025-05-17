@@ -41,7 +41,7 @@
     "pattern": "manifestation",
     "method": "phrase",
     "resultPattern": "\\bmanifestation",
-    "segsMatched": 62,
+    "segsMatched": 66,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn35/sn35.22_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn35/sn35.22_translation-de-sabbamitta.json",
@@ -79,6 +79,9 @@
       "root/pli/ms/sutta/sn/sn26/sn26.3_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn26/sn26.3_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn26/sn26.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn92_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn92_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn92_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn18_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn18_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn18_translation-en-sujato.json",
@@ -88,6 +91,9 @@
       "root/pli/ms/sutta/kn/thag/thag16.6_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag16.6_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag16.6_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga3/snp3.7_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/snp/vagga3/snp3.7_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/snp/vagga3/snp3.7_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an10/an10.172_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an10/an10.172_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an10/an10.172_translation-en-sujato.json",
@@ -138,9 +144,11 @@
       "sn26.9/de/sabbamitta",
       "sn26.4/de/sabbamitta",
       "sn26.3/de/sabbamitta",
+      "mn92/de/sabbamitta",
       "mn18/de/sabbamitta",
       "mn133/de/sabbamitta",
       "thag16.6/de/sabbamitta",
+      "snp3.7/de/sabbamitta",
       "an10.172/de/sabbamitta",
       "an10.115/de/sabbamitta",
       "sn26.8/de/sabbamitta",
@@ -820,14 +828,14 @@
           "thag16.6:14.1": {
             "scid": "thag16.6:14.1",
             "pli": "Brahmabhūto atitulo, ",
-            "de": "Eine unvergleichliche <span class=\"ebt-matched\">Manifestation</span> der Göttlichkeit, ",
+            "de": "Eine <span class=\"ebt-matched\">Manifestation</span> der Göttlichkeit, unvergleichlich, ",
             "en": "A <span class=\"ebt-matched\">manifestation</span> of divinity, unequaled, ",
             "matched": true
           },
           "thag16.6:16.1": {
             "scid": "thag16.6:16.1",
             "pli": "Brahmabhūtaṁ atitulaṁ, ",
-            "de": "Eine unvergleichliche <span class=\"ebt-matched\">Manifestation</span> der Göttlichkeit, ",
+            "de": "Eine <span class=\"ebt-matched\">Manifestation</span> der Göttlichkeit, unvergleichlich, ",
             "en": "A <span class=\"ebt-matched\">manifestation</span> of divinity, unequaled, ",
             "matched": true
           }
@@ -935,6 +943,88 @@
         "segsMatched": 2,
         "sutta_uid": "mn18",
         "title": "Mittlere Lehrreden 18\nDer Honigkuchen",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn92:19.18": {
+            "scid": "mn92:19.18",
+            "pli": "Brahmabhūto atitulo, ",
+            "de": "Eine <span class=\"ebt-matched\">Manifestation</span> der Göttlichkeit, unvergleichlich, ",
+            "en": "A <span class=\"ebt-matched\">manifestation</span> of divinity, unequaled, ",
+            "matched": true
+          },
+          "mn92:20.5": {
+            "scid": "mn92:20.5",
+            "pli": "Brahmabhūtaṁ atitulaṁ, ",
+            "de": "Eine <span class=\"ebt-matched\">Manifestation</span> der Göttlichkeit, unvergleichlich, ",
+            "en": "A <span class=\"ebt-matched\">manifestation</span> of divinity, unequaled, ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn92_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn92_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn92_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 205,
+          "de": 204,
+          "en": 204
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 2.01,
+        "segsMatched": 2,
+        "sutta_uid": "mn92",
+        "title": "Mittlere Lehrreden 92\nMit Sela",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "snp3.7:26.1": {
+            "scid": "snp3.7:26.1",
+            "pli": "Brahmabhūto atitulo, ",
+            "de": "Eine <span class=\"ebt-matched\">Manifestation</span> der Göttlichkeit, unvergleichlich, ",
+            "en": "A <span class=\"ebt-matched\">manifestation</span> of divinity, unequaled, ",
+            "matched": true
+          },
+          "snp3.7:28.1": {
+            "scid": "snp3.7:28.1",
+            "pli": "Brahmabhūtaṁ atitulaṁ, ",
+            "de": "Eine <span class=\"ebt-matched\">Manifestation</span> der Göttlichkeit, unvergleichlich, ",
+            "en": "A <span class=\"ebt-matched\">manifestation</span> of divinity, unequaled, ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga3/snp3.7_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/snp/vagga3/snp3.7_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/snp/vagga3/snp3.7_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 206,
+          "de": 205,
+          "en": 204
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 2.01,
+        "segsMatched": 2,
+        "sutta_uid": "snp3.7",
+        "title": "Lehrreden-Sammelband 3.7\nMit Sela",
         "type": "translation"
       },
       {
