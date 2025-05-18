@@ -1,0 +1,94 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sabbamitta",
+      "docLang": "de",
+      "docAuthor": "sabbamitta",
+      "includeUnpublished": false,
+      "lang": "de",
+      "langAuthor": "sabbamitta",
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "gelichtet",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "de",
+      "searchAuthor": "sabbamitta",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sabbamitta",
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "gelichtet",
+    "method": "phrase",
+    "resultPattern": "\\bgelichtet",
+    "segsMatched": 1,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn54/sn54.9_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn54/sn54.9_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn54/sn54.9_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn54.9/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "sn54.9:4.2": {
+            "scid": "sn54.9:4.2",
+            "pli": "“kiṁ nu kho, ānanda, tanubhūto viya bhikkhusaṅgho”ti? ",
+            "de": "„Ānanda, warum erscheint der Saṅgha der Mönche und Nonnen so <span class=\"ebt-matched\">gelichtet</span>?“ ",
+            "en": "“Ānanda, why does the mendicant Saṅgha seem so diminished?” ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn54/sn54.9_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn54/sn54.9_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn54/sn54.9_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 35,
+          "de": 32,
+          "en": 34
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.029,
+        "segsMatched": 1,
+        "sutta_uid": "sn54.9",
+        "title": "Verbundene Lehrreden 54.9\n1. Das Kapitel über ein Ding\nIn Vesālī",
+        "type": "translation"
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "de",
+    "docAuthor": "sabbamitta"
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sujato",
+      "docLang": "en",
+      "docAuthor": "sujato",
+      "includeUnpublished": false,
+      "lang": "en",
+      "langAuthor": "sujato",
+      "languages": [
+        "pli",
+        "en",
+        "ref"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "he has made so much merit",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "en",
+      "searchAuthor": "sujato",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sujato",
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "he has made so much merit",
+    "method": "phrase",
+    "resultPattern": "\\bhe has made so much merit",
+    "segsMatched": 3,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn10/sn10.11_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn10/sn10.11_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn10/sn10.10_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn10/sn10.10_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thig/thig5.9_root-pli-ms.json",
+      "translation/en/soma/sutta/kn/thig/thig5.9_translation-en-soma.json",
+      "translation/en/sujato/sutta/kn/thig/thig5.9_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn10.11/en/sujato",
+      "sn10.10/en/sujato",
+      "thig5.9/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "author": "Bhikkhu Sujato",
+        "segMap": {
+          "sn10.10:2.1": {
+            "scid": "sn10.10:2.1",
+            "pli": "“Puññaṁ vata pasavi bahuṁ, ",
+            "en": "“O! <span class=\"ebt-matched\">He has made so much merit</span>! ",
+            "matched": true
+          }
+        },
+        "author_uid": "sujato",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn10/sn10.10_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn10/sn10.10_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "en",
+        "langSegs": {
+          "pli": 10,
+          "en": 10
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.1,
+        "segsMatched": 1,
+        "sutta_uid": "sn10.10",
+        "title": "Linked Discourses 10.10\n1. With Indaka\nWith the Nun Sukkā (2nd)",
+        "type": "translation"
+      },
+      {
+        "author": "Bhikkhu Sujato",
+        "segMap": {
+          "sn10.11:2.1": {
+            "scid": "sn10.11:2.1",
+            "pli": "“Puññaṁ vata pasavi bahuṁ, ",
+            "en": "“O! <span class=\"ebt-matched\">He has made so much merit</span>! ",
+            "matched": true
+          }
+        },
+        "author_uid": "sujato",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn10/sn10.11_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn10/sn10.11_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "en",
+        "langSegs": {
+          "pli": 11,
+          "en": 11
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.091,
+        "segsMatched": 1,
+        "sutta_uid": "sn10.11",
+        "title": "Linked Discourses 10.11\n1. With Indaka\nWith the Nun Cīrā",
+        "type": "translation"
+      },
+      {
+        "author": "Bhikkhu Sujato",
+        "segMap": {
+          "thig5.9:5.1": {
+            "scid": "thig5.9:5.1",
+            "pli": "Puññaṁ vata pasavi bahuṁ, ",
+            "en": "“O! <span class=\"ebt-matched\">He has made so much merit</span>! ",
+            "matched": true
+          }
+        },
+        "author_uid": "sujato",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thig/thig5.9_root-pli-ms.json",
+          "translation/en/soma/sutta/kn/thig/thig5.9_translation-en-soma.json",
+          "translation/en/sujato/sutta/kn/thig/thig5.9_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "en",
+        "langSegs": {
+          "pli": 24,
+          "en": 23
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.042,
+        "segsMatched": 1,
+        "sutta_uid": "thig5.9",
+        "title": "Verses of the Senior Nuns 5.9\nThe Book of the Fives\nBhaddā of the Curly Hair",
+        "type": "translation"
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "en",
+    "docAuthor": "sujato"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sujato",
+      "docLang": "en",
+      "docAuthor": "sujato",
+      "includeUnpublished": false,
+      "lang": "en",
+      "langAuthor": "sujato",
+      "languages": [
+        "pli",
+        "en",
+        "ref"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "like a drop of dew",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "en",
+      "searchAuthor": "sujato",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sujato",
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "like a drop of dew",
+    "method": "phrase",
+    "resultPattern": "\\blike a drop of dew",
+    "segsMatched": 1,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an7/an7.74_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an7/an7.74_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an7.74/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "author": "Bhikkhu Sujato",
+        "segMap": {
+          "an7.74:2.1": {
+            "scid": "an7.74:2.1",
+            "pli": "Seyyathāpi, brāhmaṇa, tiṇagge ussāvabindu sūriye uggacchante khippaṁyeva paṭivigacchati, na ciraṭṭhitikaṁ hoti; ",
+            "en": "It’s <span class=\"ebt-matched\">like a drop of dew</span> on a grass tip. When the sun comes up it quickly evaporates and doesn’t last long. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sujato",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an7/an7.74_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an7/an7.74_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "en",
+        "langSegs": {
+          "pli": 54,
+          "en": 52
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.019,
+        "segsMatched": 1,
+        "sutta_uid": "an7.74",
+        "title": "Numbered Discourses 7.74\n7. The Great Chapter\nAbout Araka",
+        "type": "translation"
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "en",
+    "docAuthor": "sujato"
+  }
+}

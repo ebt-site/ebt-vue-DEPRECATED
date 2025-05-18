@@ -1,0 +1,94 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sabbamitta",
+      "docLang": "de",
+      "docAuthor": "sabbamitta",
+      "includeUnpublished": false,
+      "lang": "de",
+      "langAuthor": "sabbamitta",
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "feuerholz sammel",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "de",
+      "searchAuthor": "sabbamitta",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sabbamitta",
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "feuerholz sammel",
+    "method": "phrase",
+    "resultPattern": "\\bfeuerholz sammel",
+    "segsMatched": 1,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn7/sn7.18_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn7/sn7.18_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn7/sn7.18_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn7.18/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "sn7.18:0.3": {
+            "scid": "sn7.18:0.3",
+            "pli": "Kaṭṭhahārasutta ",
+            "de": "<span class=\"ebt-matched\">Feuerholz sammel</span>n ",
+            "en": "Collecting Firewood ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn7/sn7.18_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn7/sn7.18_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn7/sn7.18_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 33,
+          "de": 33,
+          "en": 33
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.03,
+        "segsMatched": 1,
+        "sutta_uid": "sn7.18",
+        "title": "Verbundene Lehrreden 7.18\n2. Das Kapitel über Laienschüler\nFeuerholz sammeln",
+        "type": "translation"
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "de",
+    "docAuthor": "sabbamitta"
+  }
+}

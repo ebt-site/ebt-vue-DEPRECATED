@@ -1,0 +1,94 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sabbamitta",
+      "docLang": "de",
+      "docAuthor": "sabbamitta",
+      "includeUnpublished": false,
+      "lang": "de",
+      "langAuthor": "sabbamitta",
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "grundlage für die versenkung",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "de",
+      "searchAuthor": "sabbamitta",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sabbamitta",
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "grundlage für die versenkung",
+    "method": "phrase",
+    "resultPattern": "\\bgrundlage für die versenkung",
+    "segsMatched": 1,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn122_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn122_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn122_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "mn122/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn122:10.1": {
+            "scid": "mn122:10.1",
+            "pli": "Tenānanda, bhikkhunā tasmiṁyeva purimasmiṁ samādhinimitte ajjhattameva cittaṁ saṇṭhapetabbaṁ sannisādetabbaṁ ekodi kātabbaṁ samādahātabbaṁ. ",
+            "de": "Dann soll dieser Mönch seinen Geist innerlich stillen, sich setzen, eins werden und im Samādhi versinken lassen, indem er das gleiche Meditationsthema als <span class=\"ebt-matched\">Grundlage für die Versenkung</span> benutzt wie zuvor. ",
+            "en": "Then that mendicant should still, settle, unify, and immerse their mind in samādhi internally using the same meditation subject as a basis of immersion that they used before. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn122_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn122_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn122_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 172,
+          "de": 170,
+          "en": 171
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.006,
+        "segsMatched": 1,
+        "sutta_uid": "mn122",
+        "title": "Mittlere Lehrreden 122\nDie längere Lehrrede über die Leerheit",
+        "type": "translation"
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "de",
+    "docAuthor": "sabbamitta"
+  }
+}

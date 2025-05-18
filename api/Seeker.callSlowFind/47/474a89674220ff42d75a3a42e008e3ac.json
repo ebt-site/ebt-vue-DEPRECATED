@@ -1,0 +1,124 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sujato",
+      "docLang": "en",
+      "docAuthor": "sujato",
+      "includeUnpublished": false,
+      "lang": "en",
+      "langAuthor": "sujato",
+      "languages": [
+        "pli",
+        "en",
+        "ref"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "wisdom’s much better than wealth",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "en",
+      "searchAuthor": "sujato",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sujato",
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "wisdom’s much better than wealth",
+    "method": "phrase",
+    "resultPattern": "\\bwisdom’s much better than wealth",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn82_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn82_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag16.4_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/thag/thag16.4_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "mn82/en/sujato",
+      "thag16.4/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "author": "Bhikkhu Sujato",
+        "segMap": {
+          "thag16.4:16.1": {
+            "scid": "thag16.4:16.1",
+            "pli": "Tasmā hi paññāva dhanena seyyā, ",
+            "en": "Therefore <span class=\"ebt-matched\">wisdom’s much better than wealth</span>, ",
+            "matched": true
+          }
+        },
+        "author_uid": "sujato",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag16.4_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/thag/thag16.4_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "en",
+        "langSegs": {
+          "pli": 105,
+          "en": 104
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.01,
+        "segsMatched": 1,
+        "sutta_uid": "thag16.4",
+        "title": "Verses of the Senior Monks 16.4\nThe Book of the Twenties\nChapter One\nRaṭṭhapāla",
+        "type": "translation"
+      },
+      {
+        "author": "Bhikkhu Sujato",
+        "segMap": {
+          "mn82:42.35": {
+            "scid": "mn82:42.35",
+            "pli": "Tasmā hi paññāva dhanena seyyo, ",
+            "en": "Therefore <span class=\"ebt-matched\">wisdom’s much better than wealth</span>, ",
+            "matched": true
+          }
+        },
+        "author_uid": "sujato",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn82_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn82_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "en",
+        "langSegs": {
+          "pli": 434,
+          "en": 433
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.002,
+        "segsMatched": 1,
+        "sutta_uid": "mn82",
+        "title": "Middle Discourses 82\nWith Raṭṭhapāla",
+        "type": "translation"
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "en",
+    "docAuthor": "sujato"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sabbamitta",
+      "docLang": "de",
+      "docAuthor": "sabbamitta",
+      "includeUnpublished": false,
+      "lang": "de",
+      "langAuthor": "sabbamitta",
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "es ist zu schwer",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "de",
+      "searchAuthor": "sabbamitta",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sabbamitta",
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "es ist zu schwer",
+    "method": "phrase",
+    "resultPattern": "\\bes ist zu schwer",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn2/sn2.6_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn2/sn2.6_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn2/sn2.6_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an7/an7.72_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an7/an7.72_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an7/an7.72_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn2.6/de/sabbamitta",
+      "an7.72/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "sn2.6:1.3": {
+            "scid": "sn2.6:1.3",
+            "pli": "“dukkaraṁ, bhagavā, sudukkaraṁ, bhagavā”ti. ",
+            "de": "„<span class=\"ebt-matched\">Es ist zu schwer</span>, Gesegneter! Es ist einfach zu schwer!“ ",
+            "en": "“It’s too hard, Blessed One! It’s just too hard!” ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn2/sn2.6_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn2/sn2.6_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn2/sn2.6_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 30,
+          "de": 30,
+          "en": 30
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.033,
+        "segsMatched": 1,
+        "sutta_uid": "sn2.6",
+        "title": "Verbundene Lehrreden 2.6\n1. Das erste Kapitel\nMit Kāmada",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "an7.72:18.4": {
+            "scid": "an7.72:18.4",
+            "pli": "“sudukkaraṁ bhagavā, sudukkaraṁ bhagavā”ti. ",
+            "de": "„<span class=\"ebt-matched\">Es ist zu schwer</span>, Gesegneter! Es ist einfach zu schwer!“ ",
+            "en": "“It’s too hard, Blessed One! It’s just too hard!” ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an7/an7.72_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an7/an7.72_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an7/an7.72_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 72,
+          "de": 71,
+          "en": 71
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.014,
+        "segsMatched": 1,
+        "sutta_uid": "an7.72",
+        "title": "Nummerierte Lehrreden 7.72\n7. Das große Kapitel\nDas Gleichnis von der Feuersbrunst",
+        "type": "translation"
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "de",
+    "docAuthor": "sabbamitta"
+  }
+}

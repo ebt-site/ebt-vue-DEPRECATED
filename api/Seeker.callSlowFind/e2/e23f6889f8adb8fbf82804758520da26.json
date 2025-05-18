@@ -1,0 +1,136 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sujato",
+      "docLang": "en",
+      "docAuthor": "sujato",
+      "includeUnpublished": false,
+      "lang": "en",
+      "langAuthor": "sujato",
+      "languages": [
+        "pli",
+        "en",
+        "ref"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "guaranteed",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "en",
+      "searchAuthor": "sujato",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sujato",
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "guaranteed",
+    "method": "phrase",
+    "resultPattern": "\\bguaranteed",
+    "segsMatched": 4,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/kn/ud/vagga3/ud3.2_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/ud/vagga3/ud3.2_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn55/sn55.30_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn55/sn55.30_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "ud3.2/en/sujato",
+      "sn55.30/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "author": "Bhikkhu Sujato",
+        "segMap": {
+          "ud3.2:12.3": {
+            "scid": "ud3.2:12.3",
+            "pli": "bhagavā kirassa pāṭibhogo pañcannaṁ accharāsatānaṁ paṭilābhāya kakuṭapādānan”ti. ",
+            "en": "And it seems that the Buddha <span class=\"ebt-matched\">guaranteed</span> him five hundred dove-footed nymphs.” ",
+            "matched": true
+          },
+          "ud3.2:13.3": {
+            "scid": "ud3.2:13.3",
+            "pli": "bhagavā kirassa pāṭibhogo pañcannaṁ accharāsatānaṁ paṭilābhāya kakuṭapādānan”ti. ",
+            "en": "And it seems that the Buddha <span class=\"ebt-matched\">guaranteed</span> him five hundred dove-footed nymphs.” ",
+            "matched": true
+          },
+          "ud3.2:16.2": {
+            "scid": "ud3.2:16.2",
+            "pli": "“yaṁ me, bhante, bhagavā pāṭibhogo pañcannaṁ accharāsatānaṁ paṭilābhāya kakuṭapādānaṁ, muñcāmahaṁ, bhante, bhagavantaṁ etasmā paṭissavā”ti. ",
+            "en": "“Worthy sir, you <span class=\"ebt-matched\">guaranteed</span> me five hundred dove-footed nymphs. I release you from that promise.” ",
+            "matched": true
+          }
+        },
+        "author_uid": "sujato",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga3/ud3.2_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/ud/vagga3/ud3.2_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "en",
+        "langSegs": {
+          "pli": 62,
+          "en": 58
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 3.048,
+        "segsMatched": 3,
+        "sutta_uid": "ud3.2",
+        "title": "Heartfelt Sayings 3.2\nWith Nanda",
+        "type": "translation"
+      },
+      {
+        "author": "Bhikkhu Sujato",
+        "segMap": {
+          "sn55.30:3.1": {
+            "scid": "sn55.30:3.1",
+            "pli": "Imehi ca pana, nandaka, catūhi dhammehi samannāgato ariyasāvako āyunā saṁyutto hoti dibbenapi mānusenapi; ",
+            "en": "A noble disciple who has these four things is <span class=\"ebt-matched\">guaranteed</span> long life, both human and heavenly … ",
+            "matched": true
+          }
+        },
+        "author_uid": "sujato",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn55/sn55.30_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn55/sn55.30_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "en",
+        "langSegs": {
+          "pli": 33,
+          "en": 31
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.03,
+        "segsMatched": 1,
+        "sutta_uid": "sn55.30",
+        "title": "Linked Discourses 55.30\n3. About Sarakāni\nWith Nandaka the Licchavi",
+        "type": "translation"
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "en",
+    "docAuthor": "sujato"
+  }
+}

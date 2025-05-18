@@ -1,0 +1,132 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sabbamitta",
+      "docLang": "de",
+      "docAuthor": "sabbamitta",
+      "includeUnpublished": false,
+      "lang": "de",
+      "langAuthor": "sabbamitta",
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "nicht auf glauben",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "de",
+      "searchAuthor": "sabbamitta",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sabbamitta",
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "nicht auf glauben",
+    "method": "phrase",
+    "resultPattern": "\\bnicht auf glauben",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn48/sn48.44_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn48/sn48.44_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn48/sn48.44_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn41/sn41.8_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn41/sn41.8_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn41/sn41.8_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn48.44/de/sabbamitta",
+      "sn41.8/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "sn48.44:2.1": {
+            "scid": "sn48.44:2.1",
+            "pli": "“Na khvāhaṁ ettha, bhante, bhagavato saddhāya gacchāmi—",
+            "de": "„Herr, in diesem Fall stütze ich mich <span class=\"ebt-matched\">nicht auf Glauben</span> an die Behauptung des Buddha, ",
+            "en": "“Sir, in this case I don’t rely on faith in the Buddha’s claim that ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn48/sn48.44_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn48/sn48.44_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn48/sn48.44_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 22,
+          "de": 18,
+          "en": 21
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.045,
+        "segsMatched": 1,
+        "sutta_uid": "sn48.44",
+        "title": "Verbundene Lehrreden 48.44\n5. Das Kapitel über das Alter\nAm Osttor",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "sn41.8:2.1": {
+            "scid": "sn41.8:2.1",
+            "pli": "“Na khvāhaṁ ettha, bhante, bhagavato saddhāya gacchāmi. ",
+            "de": "„Herr, in diesem Fall stütze ich mich <span class=\"ebt-matched\">nicht auf Glauben</span> an die Behauptung des Buddha, ",
+            "en": "“Sir, in this case I don’t rely on faith in the Buddha’s claim that ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn41/sn41.8_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn41/sn41.8_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn41/sn41.8_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 44,
+          "de": 43,
+          "en": 43
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.023,
+        "segsMatched": 1,
+        "sutta_uid": "sn41.8",
+        "title": "Verbundene Lehrreden 41.8\n1. Das Kapitel mit Citta\nDer Jaina-Asket aus dem Stamm Ñātika",
+        "type": "translation"
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "de",
+    "docAuthor": "sabbamitta"
+  }
+}

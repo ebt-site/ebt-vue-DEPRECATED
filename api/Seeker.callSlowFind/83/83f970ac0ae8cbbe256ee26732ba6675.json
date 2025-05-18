@@ -1,0 +1,94 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sabbamitta",
+      "docLang": "de",
+      "docAuthor": "sabbamitta",
+      "includeUnpublished": false,
+      "lang": "de",
+      "langAuthor": "sabbamitta",
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "wie entwickelt ein mönch",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "de",
+      "searchAuthor": "sabbamitta",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sabbamitta",
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "wie entwickelt ein mönch",
+    "method": "phrase",
+    "resultPattern": "\\bwie entwickelt ein mönch",
+    "segsMatched": 1,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn51/sn51.20_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn51/sn51.20_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn51/sn51.20_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn51.20/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "sn51.20:10.1": {
+            "scid": "sn51.20:10.1",
+            "pli": "Kathañca, bhikkhave, bhikkhu vivaṭena cetasā apariyonaddhena sappabhāsaṁ cittaṁ bhāveti? ",
+            "de": "Und <span class=\"ebt-matched\">wie entwickelt ein Mönch</span> mit offenem und unverhülltem Herzen einen Geist voller Glanz? ",
+            "en": "And how, with an open and unenveloped heart, does a mendicant develop a mind that’s full of radiance? ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn51/sn51.20_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn51/sn51.20_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn51/sn51.20_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 99,
+          "de": 67,
+          "en": 97
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.01,
+        "segsMatched": 1,
+        "sutta_uid": "sn51.20",
+        "title": "Verbundene Lehrreden 51.20\n2. Das Kapitel über das Erzitternlassen des Pfahl-Langhauses\nAufgliederung",
+        "type": "translation"
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "de",
+    "docAuthor": "sabbamitta"
+  }
+}

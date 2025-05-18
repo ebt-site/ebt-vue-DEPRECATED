@@ -1,0 +1,164 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sujato",
+      "docLang": "en",
+      "docAuthor": "sujato",
+      "includeUnpublished": false,
+      "lang": "en",
+      "langAuthor": "sujato",
+      "languages": [
+        "pli",
+        "en",
+        "ref"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "voice of another",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "en",
+      "searchAuthor": "sujato",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sujato",
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "voice of another",
+    "method": "phrase",
+    "resultPattern": "\\bvoice of another",
+    "segsMatched": 4,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an2/an2.118-129_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an2/an2.118-129_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn43_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn43_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga3/snp3.11_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/snp/vagga3/snp3.11_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an2.118-129/en/sujato",
+      "mn43/en/sujato",
+      "snp3.11/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "author": "Bhikkhu Sujato",
+        "segMap": {
+          "an2.125:1.3": {
+            "scid": "an2.125:1.3",
+            "pli": "Parato ca ghoso ayoniso ca manasikāro. ",
+            "en": "The <span class=\"ebt-matched\">voice of another</span> and irrational application of mind. ",
+            "matched": true
+          },
+          "an2.126:1.3": {
+            "scid": "an2.126:1.3",
+            "pli": "Parato ca ghoso, yoniso ca manasikāro. ",
+            "en": "The <span class=\"ebt-matched\">voice of another</span> and rational application of mind. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sujato",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an2/an2.118-129_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an2/an2.118-129_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "en",
+        "langSegs": {
+          "pli": 63,
+          "en": 62
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 2.032,
+        "segsMatched": 2,
+        "sutta_uid": "an2.118-129",
+        "title": "Numbered Discourses 2.118–129\nThe Chapter on Hopes That Are Hard to Give Up",
+        "type": "translation"
+      },
+      {
+        "author": "Bhikkhu Sujato",
+        "segMap": {
+          "mn43:13.3": {
+            "scid": "mn43:13.3",
+            "pli": "parato ca ghoso, yoniso ca manasikāro. ",
+            "en": "the <span class=\"ebt-matched\">voice of another</span> and rational application of mind. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sujato",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn43_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn43_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "en",
+        "langSegs": {
+          "pli": 183,
+          "en": 182
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.005,
+        "segsMatched": 1,
+        "sutta_uid": "mn43",
+        "title": "Middle Discourses 43\nThe Great Elaboration",
+        "type": "translation"
+      },
+      {
+        "author": "Bhikkhu Sujato",
+        "segMap": {
+          "snp3.11:18.1": {
+            "scid": "snp3.11:18.1",
+            "pli": "“Buddhoti ghosaṁ yada parato suṇāsi, ",
+            "en": "“When you hear the <span class=\"ebt-matched\">voice of another</span> saying <j>‘Buddha’—",
+            "matched": true
+          }
+        },
+        "author_uid": "sujato",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga3/snp3.11_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/snp/vagga3/snp3.11_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "en",
+        "langSegs": {
+          "pli": 186,
+          "en": 185
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.005,
+        "segsMatched": 1,
+        "sutta_uid": "snp3.11",
+        "title": "Anthology of Discourses 3.11\nAbout Nālaka",
+        "type": "translation"
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "en",
+    "docAuthor": "sujato"
+  }
+}

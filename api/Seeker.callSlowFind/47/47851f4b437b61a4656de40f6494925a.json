@@ -1,0 +1,130 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sujato",
+      "docLang": "en",
+      "docAuthor": "sujato",
+      "includeUnpublished": false,
+      "lang": "en",
+      "langAuthor": "sujato",
+      "languages": [
+        "pli",
+        "en",
+        "ref"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "learn new things",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "en",
+      "searchAuthor": "sujato",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sujato",
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "learn new things",
+    "method": "phrase",
+    "resultPattern": "\\blearn new things",
+    "segsMatched": 3,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an5/an5.221_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an5/an5.221_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.202_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an5/an5.202_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an5.221/en/sujato",
+      "an5.202/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "author": "Bhikkhu Sujato",
+        "segMap": {
+          "an5.221:1.3": {
+            "scid": "an5.221:1.3",
+            "pli": "Assutaṁ na suṇāti, sutaṁ na pariyodāpeti, sutenekaccena avisārado hoti, gāḷhaṁ rogātaṅkaṁ phusati, na ca mittavā hoti. ",
+            "en": "You don’t <span class=\"ebt-matched\">learn new things</span>. You don’t clarify what you’ve learned. You lack confidence in some things you have learned. You contract a severe illness. You don’t have any friends. ",
+            "matched": true
+          },
+          "an5.221:2.3": {
+            "scid": "an5.221:2.3",
+            "pli": "Assutaṁ suṇāti, sutaṁ pariyodāpeti, sutenekaccena visārado hoti, na gāḷhaṁ rogātaṅkaṁ phusati, mittavā ca hoti. ",
+            "en": "You <span class=\"ebt-matched\">learn new things</span>. You clarify what you’ve learned. You have confidence in some things you have learned. You don’t contract severe illness. You have friends. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sujato",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an5/an5.221_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an5/an5.221_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "en",
+        "langSegs": {
+          "pli": 12,
+          "en": 11
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 2.167,
+        "segsMatched": 2,
+        "sutta_uid": "an5.221",
+        "title": "Numbered Discourses 5.221\n23. Long Wandering\nLong Wandering (1st)",
+        "type": "translation"
+      },
+      {
+        "author": "Bhikkhu Sujato",
+        "segMap": {
+          "an5.202:1.3": {
+            "scid": "an5.202:1.3",
+            "pli": "Assutaṁ suṇāti, sutaṁ pariyodāpeti, kaṅkhaṁ vitarati, diṭṭhiṁ ujuṁ karoti, cittamassa pasīdati. ",
+            "en": "You <span class=\"ebt-matched\">learn new things</span>, clarify what you’ve learned, get over uncertainty, correct your views, and inspire confidence in your mind. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sujato",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an5/an5.202_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an5/an5.202_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "en",
+        "langSegs": {
+          "pli": 8,
+          "en": 7
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.125,
+        "segsMatched": 1,
+        "sutta_uid": "an5.202",
+        "title": "Numbered Discourses 5.202\n21. With Kimbila\nListening to the Teaching",
+        "type": "translation"
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "en",
+    "docAuthor": "sujato"
+  }
+}

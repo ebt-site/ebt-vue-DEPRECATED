@@ -1,0 +1,154 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sujato",
+      "docLang": "en",
+      "docAuthor": "sujato",
+      "includeUnpublished": false,
+      "lang": "en",
+      "langAuthor": "sujato",
+      "languages": [
+        "pli",
+        "en",
+        "ref"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "little hut",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "en",
+      "searchAuthor": "sujato",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sujato",
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "little hut",
+    "method": "phrase",
+    "resultPattern": "\\blittle hut",
+    "segsMatched": 7,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn1/sn1.19_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn1/sn1.19_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag2.3_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/thag/thag2.3_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn1.19/en/sujato",
+      "thag2.3/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "author": "Bhikkhu Sujato",
+        "segMap": {
+          "sn1.19:0.3": {
+            "scid": "sn1.19:0.3",
+            "pli": "Kuṭikāsutta ",
+            "en": "<span class=\"ebt-matched\">Little Hut</span> ",
+            "matched": true
+          },
+          "sn1.19:1.1": {
+            "scid": "sn1.19:1.1",
+            "pli": "“Kacci te kuṭikā natthi, ",
+            "en": "“Don’t you have a <span class=\"ebt-matched\">little hut</span>? ",
+            "matched": true
+          },
+          "sn1.19:2.1": {
+            "scid": "sn1.19:2.1",
+            "pli": "“Taggha me kuṭikā natthi, ",
+            "en": "“Indeed I have no <span class=\"ebt-matched\">little hut</span>. ",
+            "matched": true
+          },
+          "sn1.19:3.1": {
+            "scid": "sn1.19:3.1",
+            "pli": "“Kintāhaṁ kuṭikaṁ brūmi, ",
+            "en": "“What do you think I call your <span class=\"ebt-matched\">little hut</span>? ",
+            "matched": true
+          },
+          "sn1.19:4.1": {
+            "scid": "sn1.19:4.1",
+            "pli": "“Mātaraṁ kuṭikaṁ brūsi, ",
+            "en": "“You call mother a <span class=\"ebt-matched\">little hut</span>; ",
+            "matched": true
+          },
+          "sn1.19:5.1": {
+            "scid": "sn1.19:5.1",
+            "pli": "“Sāhu te kuṭikā natthi, ",
+            "en": "“It’s good you have no <span class=\"ebt-matched\">little hut</span>! ",
+            "matched": true
+          }
+        },
+        "author_uid": "sujato",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn1/sn1.19_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn1/sn1.19_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "en",
+        "langSegs": {
+          "pli": 23,
+          "en": 23
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 6.261,
+        "segsMatched": 6,
+        "sutta_uid": "sn1.19",
+        "title": "Linked Discourses 1.19\n2. The Garden of Delight\nLittle Hut",
+        "type": "translation"
+      },
+      {
+        "author": "Bhikkhu Sujato",
+        "segMap": {
+          "thag2.3:1.1": {
+            "scid": "thag2.3:1.1",
+            "pli": "“Makkaṭo pañcadvārāyaṁ, ",
+            "en": "A monkey went up to the <span class=\"ebt-matched\">little hut</span> ",
+            "matched": true
+          }
+        },
+        "author_uid": "sujato",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag2.3_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/thag/thag2.3_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "en",
+        "langSegs": {
+          "pli": 13,
+          "en": 12
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.077,
+        "segsMatched": 1,
+        "sutta_uid": "thag2.3",
+        "title": "Verses of the Senior Monks 2.3\nThe Book of the Twos\nChapter One\nValliya (2nd)",
+        "type": "translation"
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "en",
+    "docAuthor": "sujato"
+  }
+}

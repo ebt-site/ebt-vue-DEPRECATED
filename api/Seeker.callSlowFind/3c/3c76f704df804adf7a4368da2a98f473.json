@@ -1,0 +1,136 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sujato",
+      "docLang": "en",
+      "docAuthor": "sujato",
+      "includeUnpublished": false,
+      "lang": "en",
+      "langAuthor": "sujato",
+      "languages": [
+        "pli",
+        "en",
+        "ref"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "kind of teacher",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "en",
+      "searchAuthor": "sujato",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sujato",
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "kind of teacher",
+    "method": "phrase",
+    "resultPattern": "\\bkind of teacher",
+    "segsMatched": 4,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn12_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn12_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an5/an5.32_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an5/an5.32_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "dn12/en/sujato",
+      "an5.32/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "author": "Bhikkhu Sujato",
+        "segMap": {
+          "dn12:16.15": {
+            "scid": "dn12:16.15",
+            "pli": "Ayaṁ kho, lohicca, paṭhamo satthā, yo loke codanāraho; ",
+            "en": "This is the first <span class=\"ebt-matched\">kind of teacher</span> who deserves to be reprimanded. ",
+            "matched": true
+          },
+          "dn12:17.10": {
+            "scid": "dn12:17.10",
+            "pli": "Ayaṁ kho, lohicca, dutiyo satthā, yo, loke codanāraho; ",
+            "en": "This is the second <span class=\"ebt-matched\">kind of teacher</span> who deserves to be reprimanded. ",
+            "matched": true
+          },
+          "dn12:18.12": {
+            "scid": "dn12:18.12",
+            "pli": "Ayaṁ kho, lohicca, tatiyo satthā, yo loke codanāraho; ",
+            "en": "This is the third <span class=\"ebt-matched\">kind of teacher</span> who deserves to be reprimanded. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sujato",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn12_root-pli-ms.json",
+          "translation/en/sujato/sutta/dn/dn12_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "en",
+        "langSegs": {
+          "pli": 189,
+          "en": 188
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 3.016,
+        "segsMatched": 3,
+        "sutta_uid": "dn12",
+        "title": "Long Discourses 12\nWith Lohicca",
+        "type": "translation"
+      },
+      {
+        "author": "Bhikkhu Sujato",
+        "segMap": {
+          "an5.32:2.4": {
+            "scid": "an5.32:2.4",
+            "pli": "‘kathaṁrūpe kho, bhante, satthari pasanno kāyassa bhedā paraṁ maraṇā sugatiṁyeva upapajjati, no duggatiṁ? ",
+            "en": "Sir, what <span class=\"ebt-matched\">kind of teacher</span> should you have confidence in so as to be reborn in a good place, not a bad place, when the body breaks up, after death? ",
+            "matched": true
+          }
+        },
+        "author_uid": "sujato",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an5/an5.32_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an5/an5.32_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "en",
+        "langSegs": {
+          "pli": 46,
+          "en": 45
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.022,
+        "segsMatched": 1,
+        "sutta_uid": "an5.32",
+        "title": "Numbered Discourses 5.32\n4. With Sumanā\nWith Cundī",
+        "type": "translation"
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "en",
+    "docAuthor": "sujato"
+  }
+}

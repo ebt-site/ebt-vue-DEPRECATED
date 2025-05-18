@@ -1,0 +1,148 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sujato",
+      "docLang": "en",
+      "docAuthor": "sujato",
+      "includeUnpublished": false,
+      "lang": "en",
+      "langAuthor": "sujato",
+      "languages": [
+        "pli",
+        "en",
+        "ref"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "one taste",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "en",
+      "searchAuthor": "sujato",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sujato",
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "one taste",
+    "method": "phrase",
+    "resultPattern": "\\bone taste",
+    "segsMatched": 6,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/kn/ud/vagga5/ud5.5_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/ud/vagga5/ud5.5_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an8/an8.19_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an8/an8.19_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "ud5.5/en/sujato",
+      "an8.19/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "author": "Bhikkhu Sujato",
+        "segMap": {
+          "an8.19:7.1": {
+            "scid": "an8.19:7.1",
+            "pli": "Puna caparaṁ, bhante, mahāsamuddo ekaraso loṇaraso. ",
+            "en": "Furthermore, the ocean has just <span class=\"ebt-matched\">one taste</span>, the taste of salt. ",
+            "matched": true
+          },
+          "an8.19:16.1": {
+            "scid": "an8.19:16.1",
+            "pli": "Seyyathāpi, pahārāda, mahāsamuddo ekaraso loṇaraso; ",
+            "en": "The ocean has just <span class=\"ebt-matched\">one taste</span>, the taste of salt. ",
+            "matched": true
+          },
+          "an8.19:16.2": {
+            "scid": "an8.19:16.2",
+            "pli": "evamevaṁ kho, pahārāda, ayaṁ dhammavinayo ekaraso, vimuttiraso. ",
+            "en": "In the same way, this teaching and training has <span class=\"ebt-matched\">one taste</span>, the taste of freedom. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sujato",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.19_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an8/an8.19_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "en",
+        "langSegs": {
+          "pli": 75,
+          "en": 74
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 3.04,
+        "segsMatched": 3,
+        "sutta_uid": "an8.19",
+        "title": "Numbered Discourses 8.19\n2. The Great Chapter\nWith Pahārāda",
+        "type": "translation"
+      },
+      {
+        "author": "Bhikkhu Sujato",
+        "segMap": {
+          "ud5.5:15.1": {
+            "scid": "ud5.5:15.1",
+            "pli": "Puna caparaṁ, bhikkhave, mahāsamuddo ekaraso loṇaraso. ",
+            "en": "Furthermore, the ocean has just <span class=\"ebt-matched\">one taste</span>, the taste of salt. ",
+            "matched": true
+          },
+          "ud5.5:24.1": {
+            "scid": "ud5.5:24.1",
+            "pli": "Seyyathāpi, bhikkhave, mahāsamuddo ekaraso loṇaraso; ",
+            "en": "The ocean has just <span class=\"ebt-matched\">one taste</span>, the taste of salt. ",
+            "matched": true
+          },
+          "ud5.5:24.2": {
+            "scid": "ud5.5:24.2",
+            "pli": "evamevaṁ kho, bhikkhave, ayaṁ dhammavinayo ekaraso vimuttiraso. ",
+            "en": "In the same way, this teaching and training has <span class=\"ebt-matched\">one taste</span>, the taste of freedom. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sujato",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ud/vagga5/ud5.5_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/ud/vagga5/ud5.5_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "en",
+        "langSegs": {
+          "pli": 109,
+          "en": 89
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 3.028,
+        "segsMatched": 3,
+        "sutta_uid": "ud5.5",
+        "title": "Heartfelt Sayings 5.5\nSabbath",
+        "type": "translation"
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "en",
+    "docAuthor": "sujato"
+  }
+}

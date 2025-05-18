@@ -1,0 +1,130 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sujato",
+      "docLang": "en",
+      "docAuthor": "sujato",
+      "includeUnpublished": false,
+      "lang": "en",
+      "langAuthor": "sujato",
+      "languages": [
+        "pli",
+        "en",
+        "ref"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "eats meat",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "en",
+      "searchAuthor": "sujato",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sujato",
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "eats meat",
+    "method": "phrase",
+    "resultPattern": "\\beats meat",
+    "segsMatched": 3,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an8/an8.12_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an8/an8.12_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn55_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn55_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an8.12/en/sujato",
+      "mn55/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "author": "Bhikkhu Sujato",
+        "segMap": {
+          "an8.12:31.4": {
+            "scid": "an8.12:31.4",
+            "pli": "Taṁ samaṇo gotamo jānaṁ uddissakataṁ maṁsaṁ paribhuñjati paṭiccakamman”ti. ",
+            "en": "The ascetic Gotama knowingly <span class=\"ebt-matched\">eats meat</span> prepared specially for him: this is a deed he caused.” ",
+            "matched": true
+          },
+          "an8.12:32.5": {
+            "scid": "an8.12:32.5",
+            "pli": "Taṁ samaṇo gotamo jānaṁ uddissakataṁ maṁsaṁ paribhuñjati paṭiccakamman’ti. ",
+            "en": "The ascetic Gotama knowingly <span class=\"ebt-matched\">eats meat</span> prepared specially for him: this is a deed he caused.’” ",
+            "matched": true
+          }
+        },
+        "author_uid": "sujato",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.12_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an8/an8.12_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "en",
+        "langSegs": {
+          "pli": 152,
+          "en": 151
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 2.013,
+        "segsMatched": 2,
+        "sutta_uid": "an8.12",
+        "title": "Numbered Discourses 8.12\n2. The Great Chapter\nWith Sīha",
+        "type": "translation"
+      },
+      {
+        "author": "Bhikkhu Sujato",
+        "segMap": {
+          "mn55:3.2": {
+            "scid": "mn55:3.2",
+            "pli": "‘samaṇaṁ gotamaṁ uddissa pāṇaṁ ārabhanti, taṁ samaṇo gotamo jānaṁ uddissakataṁ maṁsaṁ paribhuñjati paṭiccakamman’ti. ",
+            "en": "‘They slaughter living creatures specially for the ascetic Gotama. The ascetic Gotama knowingly <span class=\"ebt-matched\">eats meat</span> prepared on his behalf: this is a deed he caused.’ ",
+            "matched": true
+          }
+        },
+        "author_uid": "sujato",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn55_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn55_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "en",
+        "langSegs": {
+          "pli": 80,
+          "en": 79
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.012,
+        "segsMatched": 1,
+        "sutta_uid": "mn55",
+        "title": "Middle Discourses 55\nWith Jīvaka",
+        "type": "translation"
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "en",
+    "docAuthor": "sujato"
+  }
+}

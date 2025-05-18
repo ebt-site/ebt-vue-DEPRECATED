@@ -1,0 +1,96 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sujato",
+      "docLang": "en",
+      "docAuthor": "sujato",
+      "includeUnpublished": false,
+      "lang": "en",
+      "langAuthor": "sujato",
+      "languages": [
+        "pli",
+        "en",
+        "ref"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "the happiness of immersion",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "en",
+      "searchAuthor": "sujato",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sujato",
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "the happiness of immersion",
+    "method": "phrase",
+    "resultPattern": "\\bthe happiness of immersion",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an2/an2.64-76_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an2/an2.64-76_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an2.64-76/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "author": "Bhikkhu Sujato",
+        "segMap": {
+          "an2.73:1.3": {
+            "scid": "an2.73:1.3",
+            "pli": "Samādhisukhañca asamādhisukhañca. ",
+            "en": "<span class=\"ebt-matched\">The happiness of immersion</span> and the happiness without immersion. ",
+            "matched": true
+          },
+          "an2.73:1.5": {
+            "scid": "an2.73:1.5",
+            "pli": "Etadaggaṁ, bhikkhave, imesaṁ dvinnaṁ sukhānaṁ yadidaṁ samādhisukhan”ti. ",
+            "en": "The better of these two kinds of happiness is <span class=\"ebt-matched\">the happiness of immersion</span>.” ",
+            "matched": true
+          }
+        },
+        "author_uid": "sujato",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an2/an2.64-76_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an2/an2.64-76_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "en",
+        "langSegs": {
+          "pli": 81,
+          "en": 80
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 2.025,
+        "segsMatched": 2,
+        "sutta_uid": "an2.64-76",
+        "title": "Numbered Discourses 2.64–76\nThe Chapter on Happiness",
+        "type": "translation"
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "en",
+    "docAuthor": "sujato"
+  }
+}

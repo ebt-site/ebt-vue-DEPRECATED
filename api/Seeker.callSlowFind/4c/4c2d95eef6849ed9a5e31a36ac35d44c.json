@@ -1,0 +1,94 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sabbamitta",
+      "docLang": "de",
+      "docAuthor": "sabbamitta",
+      "includeUnpublished": false,
+      "lang": "de",
+      "langAuthor": "sabbamitta",
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "wenn das vertrauen verschwindet",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "de",
+      "searchAuthor": "sabbamitta",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sabbamitta",
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "wenn das vertrauen verschwindet",
+    "method": "phrase",
+    "resultPattern": "\\bwenn das vertrauen verschwindet",
+    "segsMatched": 1,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an5/an5.6_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an5/an5.6_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an5/an5.6_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an5.6/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "an5.6:1.2": {
+            "scid": "an5.6:1.2",
+            "pli": "Yato ca kho, bhikkhave, saddhā antarahitā hoti, assaddhiyaṁ pariyuṭṭhāya tiṭṭhati; ",
+            "de": "Aber <span class=\"ebt-matched\">wenn das Vertrauen verschwindet</span> und der Mangel daran überhandnimmt, ",
+            "en": "But when faith vanishes and faithlessness takes over, ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an5/an5.6_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an5/an5.6_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an5/an5.6_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 19,
+          "de": 18,
+          "en": 18
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.053,
+        "segsMatched": 1,
+        "sutta_uid": "an5.6",
+        "title": "Nummerierte Lehrreden 5.6\n1. Das Kapitel über Kräfte eines in Schulung Befindlichen\nWerden",
+        "type": "translation"
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "de",
+    "docAuthor": "sabbamitta"
+  }
+}
