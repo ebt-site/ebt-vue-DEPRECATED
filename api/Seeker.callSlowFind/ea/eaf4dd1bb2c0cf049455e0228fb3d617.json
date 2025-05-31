@@ -41,7 +41,7 @@
     "pattern": "krabbe",
     "method": "phrase",
     "resultPattern": "\\bkrabbe",
-    "segsMatched": 9,
+    "segsMatched": 10,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn4/sn4.24_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn4/sn4.24_translation-de-sabbamitta.json",
@@ -51,12 +51,16 @@
       "translation/en/sujato/sutta/mn/mn35_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn4/sn4.6_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn4/sn4.6_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn4/sn4.6_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn4/sn4.6_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ja/ja38_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/ja/ja38_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/ja/ja38_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "sn4.24/de/sabbamitta",
       "mn35/de/sabbamitta",
-      "sn4.6/de/sabbamitta"
+      "sn4.6/de/sabbamitta",
+      "ja38/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -167,6 +171,40 @@
         "segsMatched": 4,
         "sutta_uid": "mn35",
         "title": "Mittlere Lehrreden 35\nDie kürzere Lehrrede mit Saccaka",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "ja38:1.4": {
+            "scid": "ja38:1.4",
+            "pli": "bako kakkaṭakāmivā”ti. ",
+            "de": "was der Kranich von der <span class=\"ebt-matched\">Krabbe</span> bekam. ",
+            "en": "in getting what the crane did from the crab. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ja/ja38_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/ja/ja38_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/ja/ja38_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 9,
+          "de": 8,
+          "en": 8
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.111,
+        "segsMatched": 1,
+        "sutta_uid": "ja38",
+        "title": "Geschichten aus früheren Leben 38\nDas Einerbuch\nDas Kapitel über Vogelnester\nDer Kranich: Geschichte aus einem früheren Leben",
         "type": "translation"
       },
       {

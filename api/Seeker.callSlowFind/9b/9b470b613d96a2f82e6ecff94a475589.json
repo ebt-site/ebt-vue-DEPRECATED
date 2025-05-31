@@ -41,7 +41,7 @@
     "pattern": "erbärmlich",
     "method": "phrase",
     "resultPattern": "\\berbärmlich",
-    "segsMatched": 13,
+    "segsMatched": 14,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn24_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn24_translation-de-sabbamitta.json",
@@ -65,6 +65,9 @@
       "translation/de/sabbamitta/sutta/kn/thig/thig5.8_translation-de-sabbamitta.json",
       "translation/en/soma/sutta/kn/thig/thig5.8_translation-en-soma.json",
       "translation/en/sujato/sutta/kn/thig/thig5.8_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ja/ja45_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/ja/ja45_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/ja/ja45_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an3/an3.36_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.36_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.36_translation-en-sujato.json"
@@ -77,6 +80,7 @@
       "sn48.41/de/sabbamitta",
       "sn2.30/de/sabbamitta",
       "thig5.8/de/sabbamitta",
+      "ja45/de/sabbamitta",
       "an3.36/de/sabbamitta"
     ],
     "mlDocs": [
@@ -249,6 +253,40 @@
         "segsMatched": 2,
         "sutta_uid": "dhp334-359",
         "title": "Kleinere Sammlung\nDhammasprüche 334–359\n24. Das Kapitel über Verlangen\nKapilamacchavatthu",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "ja45:1.3": {
+            "scid": "ja45:1.3",
+            "pli": "Passa rohiṇikaṁ jammiṁ, ",
+            "de": "Sieh diese <span class=\"ebt-matched\">erbärmlich</span>e Rohinī, ",
+            "en": "See that wretched Rohinī, ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ja/ja45_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/ja/ja45_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/ja/ja45_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 9,
+          "de": 8,
+          "en": 8
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.111,
+        "segsMatched": 1,
+        "sutta_uid": "ja45",
+        "title": "Geschichten aus früheren Leben 45\nDas Einerbuch\nDas Kapitel über guten Rat\nÜber Rohinī: Geschichte aus einem früheren Leben",
         "type": "translation"
       },
       {

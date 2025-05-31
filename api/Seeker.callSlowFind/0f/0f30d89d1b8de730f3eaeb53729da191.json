@@ -41,7 +41,7 @@
     "pattern": "kennzeichen",
     "method": "phrase",
     "resultPattern": "\\bkennzeichen",
-    "segsMatched": 146,
+    "segsMatched": 147,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn30_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn30_translation-de-sabbamitta.json",
@@ -107,6 +107,9 @@
       "root/pli/ms/sutta/kn/snp/vagga3/snp3.11_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/snp/vagga3/snp3.11_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/snp/vagga3/snp3.11_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/ja/ja30_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/ja/ja30_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/ja/ja30_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/cp/cp11_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/cp/cp11_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/cp/cp11_translation-en-sujato.json",
@@ -148,6 +151,7 @@
       "thag16.6/de/sabbamitta",
       "thag1.106/de/sabbamitta",
       "snp3.11/de/sabbamitta",
+      "ja30/de/sabbamitta",
       "cp11/de/sabbamitta",
       "an5.192/de/sabbamitta",
       "an3.59/de/sabbamitta",
@@ -1531,6 +1535,40 @@
         "segsMatched": 1,
         "sutta_uid": "thag1.106",
         "title": "Strophen der altehrwürdigen Mönche 1.106\nDas Einerbuch\n11. Das elfte Kapitel\nSuhemanta",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "ja30:1.4": {
+            "scid": "ja30:1.4",
+            "pli": "etaṁ dīghāyulakkhaṇan”ti. ",
+            "de": "sie ist das <span class=\"ebt-matched\">Kennzeichen</span> für langes Leben. ",
+            "en": "this is a mark of long life. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/ja/ja30_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/ja/ja30_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/ja/ja30_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 15,
+          "de": 8,
+          "en": 8
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.067,
+        "segsMatched": 1,
+        "sutta_uid": "ja30",
+        "title": "Geschichten aus früheren Leben 29\nDas Einerbuch\nDas Kapitel über die Vierhornantilope\nDas Schwein mit Namen Munika: Geschichte aus einem früheren Leben",
         "type": "translation"
       },
       {
