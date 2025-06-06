@@ -41,7 +41,7 @@
     "pattern": "auflösen der bindungen",
     "method": "phrase",
     "resultPattern": "\\bauflösen der bindungen",
-    "segsMatched": 14,
+    "segsMatched": 16,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an6/an6.56_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.56_translation-de-sabbamitta.json",
@@ -58,9 +58,15 @@
       "root/pli/ms/sutta/kn/iti/vagga3/iti27_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/iti/vagga3/iti27_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/iti/vagga3/iti27_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/iti/vagga11/iti112_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/iti/vagga11/iti112_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/iti/vagga11/iti112_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.1_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an8/an8.1_translation-en-sujato.json"
+      "translation/en/sujato/sutta/an/an8/an8.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.23_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.23_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.23_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an6.56/de/sabbamitta",
@@ -68,7 +74,9 @@
       "sn5.8/de/sabbamitta",
       "mn66/de/sabbamitta",
       "iti27/de/sabbamitta",
-      "an8.1/de/sabbamitta"
+      "iti112/de/sabbamitta",
+      "an8.1/de/sabbamitta",
+      "an4.23/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -295,6 +303,74 @@
         "segsMatched": 1,
         "sutta_uid": "iti27",
         "title": "So wurde es gesagt 27\nDas Einerbuch\n3. Das dritte Kapitel\nDie Meditation über die Liebe",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "an4.23:8.4": {
+            "scid": "an4.23:8.4",
+            "pli": "vimutto upadhisaṅkhaye. ",
+            "de": "und ist durch das <span class=\"ebt-matched\">Auflösen der Bindungen</span> befreit. ",
+            "en": "freed with the end of attachments. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.23_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.23_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.23_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 49,
+          "de": 48,
+          "en": 48
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.02,
+        "segsMatched": 1,
+        "sutta_uid": "an4.23",
+        "title": "Nummerierte Lehrreden 4.23\n3. Das Kapitel in Uruvelā\nDie Welt",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "iti112:9.4": {
+            "scid": "iti112:9.4",
+            "pli": "vimutto upadhisaṅkhaye. ",
+            "de": "und ist durch das <span class=\"ebt-matched\">Auflösen der Bindungen</span> befreit. ",
+            "en": "freed with the ending of attachments. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/iti/vagga11/iti112_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/iti/vagga11/iti112_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/iti/vagga11/iti112_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 70,
+          "de": 54,
+          "en": 54
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.014,
+        "segsMatched": 1,
+        "sutta_uid": "iti112",
+        "title": "So wurde es gesagt 112\nDas Viererbuch\n1. Das Kapitel über das Opfer der Lehre des Brahmanen\nDie Welt",
         "type": "translation"
       },
       {
