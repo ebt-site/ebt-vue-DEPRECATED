@@ -41,7 +41,7 @@
     "pattern": "wie ein vogel",
     "method": "phrase",
     "resultPattern": "\\bwie ein vogel",
-    "segsMatched": 30,
+    "segsMatched": 31,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
@@ -64,6 +64,9 @@
       "root/pli/ms/sutta/sn/sn12/sn12.70_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.70_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn12/sn12.70_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn94_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn94_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn94_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn77_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn77_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn77_translation-en-sujato.json",
@@ -137,6 +140,7 @@
       "sn51.11/de/sabbamitta",
       "sn16.9/de/sabbamitta",
       "sn12.70/de/sabbamitta",
+      "mn94/de/sabbamitta",
       "mn77/de/sabbamitta",
       "mn73/de/sabbamitta",
       "mn6/de/sabbamitta",
@@ -955,6 +959,40 @@
         "segsMatched": 1,
         "sutta_uid": "mn51",
         "title": "Mittlere Lehrreden 51\nMit Kandaraka",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn94:17.2": {
+            "scid": "mn94:17.2",
+            "pli": "Seyyathāpi nāma pakkhī sakuṇo yena yeneva ḍeti sapattabhārova ḍeti; ",
+            "de": "<span class=\"ebt-matched\">Wie ein Vogel</span>: Wohin er auch fliegt, die Flügel sind seine einzige Last. ",
+            "en": "They’re like a bird: wherever it flies, wings are its only burden. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn94_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn94_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn94_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 203,
+          "de": 201,
+          "en": 202
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.005,
+        "segsMatched": 1,
+        "sutta_uid": "mn94",
+        "title": "Mittlere Lehrreden 94\nMit Ghoṭamukha",
         "type": "translation"
       },
       {

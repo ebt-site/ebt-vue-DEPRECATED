@@ -41,8 +41,11 @@
     "pattern": "nur einen bissen",
     "method": "phrase",
     "resultPattern": "\\bnur einen bissen",
-    "segsMatched": 8,
+    "segsMatched": 9,
     "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn94_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn94_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn94_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn51_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn51_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn51_translation-en-sujato.json",
@@ -69,6 +72,7 @@
       "translation/en/sujato/sutta/an/an3/an3.156-162_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "mn94/de/sabbamitta",
       "mn51/de/sabbamitta",
       "mn45/de/sabbamitta",
       "mn36/de/sabbamitta",
@@ -213,6 +217,40 @@
         "segsMatched": 1,
         "sutta_uid": "mn51",
         "title": "Mittlere Lehrreden 51\nMit Kandaraka",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn94:10.4": {
+            "scid": "mn94:10.4",
+            "pli": "So ekāgāriko vā hoti ekālopiko, dvāgāriko vā hoti dvālopiko …pe… sattāgāriko vā hoti sattālopiko; ",
+            "de": "Er geht um Almosen nur zu einem Haus und nimmt <span class=\"ebt-matched\">nur einen Bissen</span>, oder zu zwei Häusern und zwei Bissen, bis zu sieben Häusern und sieben Bissen. ",
+            "en": "They go to just one house for alms, taking just one mouthful, or two houses and two mouthfuls, up to seven houses and seven mouthfuls. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn94_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn94_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn94_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 203,
+          "de": 201,
+          "en": 202
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.005,
+        "segsMatched": 1,
+        "sutta_uid": "mn94",
+        "title": "Mittlere Lehrreden 94\nMit Ghoṭamukha",
         "type": "translation"
       },
       {

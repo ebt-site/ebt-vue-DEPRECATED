@@ -41,8 +41,11 @@
     "pattern": "eine fleckenlose seligkeit",
     "method": "phrase",
     "resultPattern": "\\beine fleckenlose seligkeit",
-    "segsMatched": 7,
+    "segsMatched": 8,
     "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn94_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn94_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn94_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn51_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn51_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn51_translation-en-sujato.json",
@@ -66,6 +69,7 @@
       "translation/en/sujato/sutta/an/an10/an10.99_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "mn94/de/sabbamitta",
       "mn51/de/sabbamitta",
       "mn38/de/sabbamitta",
       "mn27/de/sabbamitta",
@@ -209,6 +213,40 @@
         "segsMatched": 1,
         "sutta_uid": "mn51",
         "title": "Mittlere Lehrreden 51\nMit Kandaraka",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn94:18.9": {
+            "scid": "mn94:18.9",
+            "pli": "So iminā ariyena indriyasaṁvarena samannāgato ajjhattaṁ abyāsekasukhaṁ paṭisaṁvedeti. ",
+            "de": "Wenn er diese edle Zügelung der Sinne besitzt, erfährt er im Innern <span class=\"ebt-matched\">eine fleckenlose Seligkeit</span>. ",
+            "en": "When they have this noble sense restraint, they experience an unsullied bliss inside themselves. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn94_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn94_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn94_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 203,
+          "de": 201,
+          "en": 202
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.005,
+        "segsMatched": 1,
+        "sutta_uid": "mn94",
+        "title": "Mittlere Lehrreden 94\nMit Ghoṭamukha",
         "type": "translation"
       },
       {

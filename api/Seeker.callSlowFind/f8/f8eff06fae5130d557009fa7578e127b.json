@@ -41,8 +41,11 @@
     "pattern": "kräuter, hirse",
     "method": "phrase",
     "resultPattern": "\\bkräuter, hirse",
-    "segsMatched": 9,
+    "segsMatched": 10,
     "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn94_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn94_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn94_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn51_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn51_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn51_translation-en-sujato.json",
@@ -72,6 +75,7 @@
       "translation/en/sujato/sutta/an/an3/an3.156-162_translation-en-sujato.json"
     ],
     "suttaRefs": [
+      "mn94/de/sabbamitta",
       "mn51/de/sabbamitta",
       "mn45/de/sabbamitta",
       "mn25/de/sabbamitta",
@@ -285,6 +289,40 @@
         "segsMatched": 1,
         "sutta_uid": "mn51",
         "title": "Mittlere Lehrreden 51\nMit Kandaraka",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn94:10.7": {
+            "scid": "mn94:10.7",
+            "pli": "So sākabhakkho vā hoti, sāmākabhakkho vā hoti, nīvārabhakkho vā hoti, daddulabhakkho vā hoti, haṭabhakkho vā hoti, kaṇabhakkho vā hoti, ācāmabhakkho vā hoti, piññākabhakkho vā hoti, tiṇabhakkho vā hoti, gomayabhakkho vā hoti, vanamūlaphalāhāro yāpeti pavattaphalabhojī. ",
+            "de": "Er isst <span class=\"ebt-matched\">Kräuter, Hirse</span>, wilden Reis, mageren Reis, Wasserlattich, Reiskleie, Schaum von gekochtem Reis, Sesammehl, Gras oder Kuhmist. Er überlebt mit Wurzeln und Waldbeeren oder isst herabgefallene Früchte. ",
+            "en": "They eat herbs, millet, wild rice, poor rice, water lettuce, rice bran, scum from boiling rice, sesame flour, grass, or cow dung. They survive on forest roots and fruits, or eating fallen fruit. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn94_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn94_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn94_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 203,
+          "de": 201,
+          "en": 202
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.005,
+        "segsMatched": 1,
+        "sutta_uid": "mn94",
+        "title": "Mittlere Lehrreden 94\nMit Ghoṭamukha",
         "type": "translation"
       },
       {

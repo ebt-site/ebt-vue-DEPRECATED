@@ -41,7 +41,7 @@
     "pattern": "drei menschen",
     "method": "phrase",
     "resultPattern": "\\bdrei menschen",
-    "segsMatched": 60,
+    "segsMatched": 61,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an3/an3.21_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.21_translation-de-sabbamitta.json",
@@ -94,6 +94,9 @@
       "root/pli/ms/sutta/an/an3/an3.115_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.115_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.115_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn94_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn94_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn94_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn51_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn51_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn51_translation-en-sujato.json",
@@ -122,6 +125,7 @@
       "an3.132/de/sabbamitta",
       "an3.116/de/sabbamitta",
       "an3.115/de/sabbamitta",
+      "mn94/de/sabbamitta",
       "mn51/de/sabbamitta",
       "cp9/de/sabbamitta",
       "dn33/de/sabbamitta"
@@ -991,7 +995,7 @@
           "mn51:6.1": {
             "scid": "mn51:6.1",
             "pli": "“Kasmā pana te, pessa, ime tayo puggalā cittaṁ nārādhentī”ti? ",
-            "de": "„Aber warum gefallen diese <span class=\"ebt-matched\">drei Menschen</span> deinem Geist nicht?“ ",
+            "de": "„Aber warum sagen diese <span class=\"ebt-matched\">drei Menschen</span> deinem Geist nicht zu?“ ",
             "en": "“But why don’t you like the sound of those three people?” ",
             "matched": true
           }
@@ -1017,6 +1021,40 @@
         "segsMatched": 1,
         "sutta_uid": "mn51",
         "title": "Mittlere Lehrreden 51\nMit Kandaraka",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn94:6.1": {
+            "scid": "mn94:6.1",
+            "pli": "“Kasmā pana te, brāhmaṇa, ime tayo puggalā cittaṁ nārādhentī”ti? ",
+            "de": "„Aber warum sagen diese <span class=\"ebt-matched\">drei Menschen</span> deinem Geist nicht zu?“ ",
+            "en": "“But why don’t you like the sound of those three people?” ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn94_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn94_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn94_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 203,
+          "de": 201,
+          "en": 202
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.005,
+        "segsMatched": 1,
+        "sutta_uid": "mn94",
+        "title": "Mittlere Lehrreden 94\nMit Ghoṭamukha",
         "type": "translation"
       },
       {

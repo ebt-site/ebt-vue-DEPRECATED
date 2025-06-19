@@ -41,7 +41,7 @@
     "pattern": "nicht anders",
     "method": "phrase",
     "resultPattern": "\\bnicht anders",
-    "segsMatched": 31,
+    "segsMatched": 33,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn34_translation-de-sabbamitta.json",
@@ -55,6 +55,9 @@
       "root/pli/ms/sutta/an/an3/an3.60_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.60_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an3/an3.60_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn95_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn95_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn95_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn56/sn56.27_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn56/sn56.27_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn56/sn56.27_translation-en-sujato.json",
@@ -88,6 +91,7 @@
       "sn56.20/de/sabbamitta",
       "dn28/de/sabbamitta",
       "an3.60/de/sabbamitta",
+      "mn95/de/sabbamitta",
       "sn56.27/de/sabbamitta",
       "sn12.51/de/sabbamitta",
       "sn12.20/de/sabbamitta",
@@ -359,6 +363,47 @@
         "segsMatched": 4,
         "sutta_uid": "dn28",
         "title": "Lange Lehrreden 28\nZuversicht wecken",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn95:14.8": {
+            "scid": "mn95:14.8",
+            "pli": "no cepi susaddahitaṁ hoti, tañca hoti bhūtaṁ tacchaṁ anaññathā. ",
+            "de": "Und obwohl man zu etwas kein volles Vertrauen hat, kann es wahr und richtig sein und <span class=\"ebt-matched\">nicht anders</span>. ",
+            "en": "And even if you don’t have full faith in something, it may be true and real, not otherwise. ",
+            "matched": true
+          },
+          "mn95:14.13": {
+            "scid": "mn95:14.13",
+            "pli": "no cepi sunijjhāyitaṁ hoti, tañca hoti bhūtaṁ tacchaṁ anaññathā. ",
+            "de": "Und obwohl etwas nicht wohl überlegt ist, kann es wahr und richtig sein und <span class=\"ebt-matched\">nicht anders</span>. ",
+            "en": "And even if something is not well deliberated, it may be true and real, not otherwise. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn95_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn95_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn95_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 305,
+          "de": 297,
+          "en": 304
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 2.007,
+        "segsMatched": 2,
+        "sutta_uid": "mn95",
+        "title": "Mittlere Lehrreden 95\nMit Caṅkī",
         "type": "translation"
       },
       {

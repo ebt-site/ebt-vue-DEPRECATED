@@ -41,11 +41,14 @@
     "pattern": "schwer zu sehen",
     "method": "phrase",
     "resultPattern": "\\bschwer zu sehen",
-    "segsMatched": 21,
+    "segsMatched": 24,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn1_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn95_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn95_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn95_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn6/sn6.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn6/sn6.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn6/sn6.1_translation-en-sujato.json",
@@ -97,6 +100,7 @@
     ],
     "suttaRefs": [
       "dn1/de/sabbamitta",
+      "mn95/de/sabbamitta",
       "sn6.1/de/sabbamitta",
       "sn43.14-43/de/sabbamitta",
       "sn11.13/de/sabbamitta",
@@ -181,6 +185,54 @@
         "segsMatched": 6,
         "sutta_uid": "dn1",
         "title": "Lange Lehrreden 1\nDas göttliche Netz",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn95:17.12": {
+            "scid": "mn95:17.12",
+            "pli": "Yaṁ kho pana ayamāyasmā dhammaṁ deseti, gambhīro so dhammo duddaso duranubodho santo paṇīto atakkāvacaro nipuṇo paṇḍitavedanīyo; ",
+            "de": "Und der Grundsatz, den er lehrt, ist tiefgründig, <span class=\"ebt-matched\">schwer zu sehen</span>, schwer zu verstehen, friedvoll und erlesen, geht über den Rahmen der Logik hinaus, ist subtil, für den Klugen nachvollziehbar. ",
+            "en": "And the principle that they teach is deep, hard to see, hard to understand, peaceful, sublime, beyond the scope of logic, subtle, comprehensible to the astute. ",
+            "matched": true
+          },
+          "mn95:18.10": {
+            "scid": "mn95:18.10",
+            "pli": "Yaṁ kho pana ayamāyasmā dhammaṁ deseti, gambhīro so dhammo duddaso duranubodho santo paṇīto atakkāvacaro nipuṇo paṇḍitavedanīyo; ",
+            "de": "Und der Grundsatz, den er lehrt, ist tiefgründig, <span class=\"ebt-matched\">schwer zu sehen</span>, schwer zu verstehen, friedvoll und erlesen, geht über den Rahmen der Logik hinaus, ist subtil, für den Klugen nachvollziehbar. ",
+            "en": "And the principle that they teach is deep, hard to see, hard to understand, peaceful, sublime, beyond the scope of logic, subtle, comprehensible to the astute. ",
+            "matched": true
+          },
+          "mn95:19.10": {
+            "scid": "mn95:19.10",
+            "pli": "Yaṁ kho pana ayamāyasmā dhammaṁ deseti, gambhīro so dhammo duddaso duranubodho santo paṇīto atakkāvacaro nipuṇo paṇḍitavedanīyo; ",
+            "de": "Und der Grundsatz, den er lehrt, ist tiefgründig, <span class=\"ebt-matched\">schwer zu sehen</span>, schwer zu verstehen, friedvoll und erlesen, geht über den Rahmen der Logik hinaus, ist subtil, für den Klugen nachvollziehbar. ",
+            "en": "And the principle that they teach is deep, hard to see, hard to understand, peaceful, sublime, beyond the scope of logic, subtle, comprehensible to the astute. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn95_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn95_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn95_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 305,
+          "de": 297,
+          "en": 304
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 3.01,
+        "segsMatched": 3,
+        "sutta_uid": "mn95",
+        "title": "Mittlere Lehrreden 95\nMit Caṅkī",
         "type": "translation"
       },
       {

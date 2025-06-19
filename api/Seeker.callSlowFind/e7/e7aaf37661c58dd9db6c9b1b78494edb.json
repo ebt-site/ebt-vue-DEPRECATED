@@ -41,7 +41,7 @@
     "pattern": "gewürdigt, verehrt und wertgeschätzt",
     "method": "phrase",
     "resultPattern": "\\bgewürdigt, verehrt und wertgeschätzt",
-    "segsMatched": 25,
+    "segsMatched": 26,
     "bilaraPaths": [
       "root/pli/ms/sutta/kn/ud/vagga6/ud6.10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga6/ud6.10_translation-de-sabbamitta.json",
@@ -67,6 +67,9 @@
       "root/pli/ms/sutta/sn/sn35/sn35.132_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn35/sn35.132_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.132_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn95_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn95_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn95_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/ud/vagga1/ud1.10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga1/ud1.10_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/ud/vagga1/ud1.10_translation-en-sujato.json"
@@ -80,6 +83,7 @@
       "dn4/de/sabbamitta",
       "ud3.8/de/sabbamitta",
       "sn35.132/de/sabbamitta",
+      "mn95/de/sabbamitta",
       "ud1.10/de/sabbamitta"
     ],
     "mlDocs": [
@@ -499,6 +503,40 @@
         "segsMatched": 1,
         "sutta_uid": "sn35.132",
         "title": "Verbundene Lehrreden 35.132\n13. Das Kapitel mit Hausbesitzern\nMit Lohicca",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn95:8.13": {
+            "scid": "mn95:8.13",
+            "pli": "bhavañhi caṅkī rañño pasenadissa kosalassa sakkato garukato mānito pūjito apacito …pe… ",
+            "de": "Du bist geehrt, geachtet, <span class=\"ebt-matched\">gewürdigt, verehrt und wertgeschätzt</span> vom König Pasenadi von Kosala ",
+            "en": "You’re honored, respected, revered, venerated, and esteemed by King Pasenadi of Kosala ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn95_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn95_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn95_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 305,
+          "de": 297,
+          "en": 304
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.003,
+        "segsMatched": 1,
+        "sutta_uid": "mn95",
+        "title": "Mittlere Lehrreden 95\nMit Caṅkī",
         "type": "translation"
       }
     ],
