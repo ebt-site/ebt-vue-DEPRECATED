@@ -41,7 +41,7 @@
     "pattern": ".*blissful meditations",
     "method": "phrase",
     "resultPattern": "\\b.*blissful meditations",
-    "segsMatched": 52,
+    "segsMatched": 54,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn8_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn8_translation-en-sujato.json",
@@ -55,6 +55,8 @@
       "translation/en/sujato/sutta/sn/sn47/sn47.8_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.106_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an5/an5.106_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn8/sn8.9_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn8/sn8.9_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn21/sn21.4_root-pli-ms.json",
       "translation/en/sujato/sutta/sn/sn21/sn21.4_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn17/sn17.30_root-pli-ms.json",
@@ -65,6 +67,8 @@
       "translation/en/sujato/sutta/mn/mn119_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn108_root-pli-ms.json",
       "translation/en/sujato/sutta/mn/mn108_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag21.1_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/thag/thag21.1_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn28_root-pli-ms.json",
       "translation/en/sujato/sutta/dn/dn28_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an8/an8.71_root-pli-ms.json",
@@ -127,11 +131,13 @@
       "an5.179/en/sujato",
       "sn47.8/en/sujato",
       "an5.106/en/sujato",
+      "sn8.9/en/sujato",
       "sn21.4/en/sujato",
       "sn17.30/en/sujato",
       "mn6/en/sujato",
       "mn119/en/sujato",
       "mn108/en/sujato",
+      "thag21.1/en/sujato",
       "dn28/en/sujato",
       "an8.71/en/sujato",
       "an8.58/en/sujato",
@@ -1023,6 +1029,37 @@
       {
         "author": "Bhikkhu Sujato",
         "segMap": {
+          "sn8.9:3.4": {
+            "scid": "sn8.9:3.4",
+            "pli": "vivekānaṁ abhiṇhaso. ",
+            "en": "<span class=\"ebt-matched\">the blissful meditations</span> of seclusion. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sujato",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn8/sn8.9_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn8/sn8.9_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "en",
+        "langSegs": {
+          "pli": 26,
+          "en": 26
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.038,
+        "segsMatched": 1,
+        "sutta_uid": "sn8.9",
+        "title": "Linked Discourses 8.9\n1. With Vaṅgīsa\nWith Koṇḍañña",
+        "type": "translation"
+      },
+      {
+        "author": "Bhikkhu Sujato",
+        "segMap": {
           "an8.71:3.4": {
             "scid": "an8.71:3.4",
             "pli": "visārado ca parisāya dhammaṁ deseti, no ca catunnaṁ jhānānaṁ ābhicetasikānaṁ diṭṭhadhammasukhavihārānaṁ nikāmalābhī hoti akicchalābhī akasiralābhī …pe… ",
@@ -1421,6 +1458,37 @@
         "segsMatched": 1,
         "sutta_uid": "dn28",
         "title": "Long Discourses 28\nInspiring Confidence",
+        "type": "translation"
+      },
+      {
+        "author": "Bhikkhu Sujato",
+        "segMap": {
+          "thag21.1:38.4": {
+            "scid": "thag21.1:38.4",
+            "pli": "vivekānaṁ abhiṇhaso. ",
+            "en": "<span class=\"ebt-matched\">the blissful meditations</span> of seclusion. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sujato",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag21.1_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/thag/thag21.1_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "en",
+        "langSegs": {
+          "pli": 309,
+          "en": 294
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.003,
+        "segsMatched": 1,
+        "sutta_uid": "thag21.1",
+        "title": "Verses of the Senior Monks 21.1\nThe Great Book\nChapter One\nVaṅgīsa",
         "type": "translation"
       }
     ],
