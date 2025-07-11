@@ -41,7 +41,7 @@
     "pattern": "liebevolle.* herz",
     "method": "phrase",
     "resultPattern": "\\bliebevolle.* herz",
-    "segsMatched": 43,
+    "segsMatched": 45,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn21_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn21_translation-de-sabbamitta.json",
@@ -55,6 +55,9 @@
       "root/pli/ms/sutta/an/an1/an1.51-60_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an1/an1.51-60_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an1/an1.51-60_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn96_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn96_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn96_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn93_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn93_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn93_translation-en-sujato.json",
@@ -100,6 +103,7 @@
       "an5.167/de/sabbamitta",
       "dn8/de/sabbamitta",
       "an1.51-60/de/sabbamitta",
+      "mn96/de/sabbamitta",
       "mn93/de/sabbamitta",
       "iti22/de/sabbamitta",
       "an7.62/de/sabbamitta",
@@ -531,6 +535,47 @@
       {
         "author": "Sabbamitta",
         "segMap": {
+          "mn96:14.2": {
+            "scid": "mn96:14.2",
+            "pli": "brāhmaṇova nu kho pahoti asmiṁ padese averaṁ abyābajjhaṁ mettacittaṁ bhāvetuṁ, no khattiyo no vesso no suddo”ti? ",
+            "de": "Ist nur ein Brahmane in der Lage, für diese Gegend ein <span class=\"ebt-matched\">liebevolles Herz</span> zu entwickeln, frei von Feindschaft und bösem Willen, und kein Adliger, Landarbeiter oder Hilfsarbeiter?“ ",
+            "en": "Is only a brahmin capable of developing a heart of love free of enmity and ill will for this region, and not an aristocrat, peasant, or menial?” ",
+            "matched": true
+          },
+          "mn96:14.8": {
+            "scid": "mn96:14.8",
+            "pli": "sabbepi hi, bho gotama, cattāro vaṇṇā pahonti asmiṁ padese averaṁ abyābajjhaṁ mettacittaṁ bhāvetun”ti. ",
+            "de": "Denn alle vier Klassen sind in der Lage, für diese Gegend ein <span class=\"ebt-matched\">liebevolles Herz</span> zu entwickeln, frei von Feindschaft und bösem Willen.“ ",
+            "en": "For all four classes are capable of developing a heart of love free of enmity and ill will for this region.” ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn96_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn96_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn96_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 143,
+          "de": 141,
+          "en": 142
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 2.014,
+        "segsMatched": 2,
+        "sutta_uid": "mn96",
+        "title": "Mittlere Lehrreden 96\nMit Esukārī",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
           "mn93:9.5": {
             "scid": "mn93:9.5",
             "pli": "brāhmaṇova nu kho pahoti asmiṁ padese averaṁ abyābajjhaṁ mettacittaṁ bhāvetuṁ, no khattiyo, no vesso, no suddo”ti? ",
@@ -541,7 +586,7 @@
           "mn93:9.11": {
             "scid": "mn93:9.11",
             "pli": "sabbepi hi, bho gotama, cattāro vaṇṇā pahonti asmiṁ padese averaṁ abyābajjhaṁ mettacittaṁ bhāvetun”ti. ",
-            "de": "Denn die vier Klassen sind in der Lage, für diese Gegend ein <span class=\"ebt-matched\">liebevolles Herz</span> zu entwickeln, frei von Feindschaft und bösem Willen.“ ",
+            "de": "Denn alle vier Klassen sind in der Lage, für diese Gegend ein <span class=\"ebt-matched\">liebevolles Herz</span> zu entwickeln, frei von Feindschaft und bösem Willen.“ ",
             "en": "For all four classes are capable of developing a heart of love, free of enmity and ill will for this region.” ",
             "matched": true
           }
