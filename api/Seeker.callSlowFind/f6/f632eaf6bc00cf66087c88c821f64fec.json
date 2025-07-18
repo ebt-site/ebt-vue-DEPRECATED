@@ -41,7 +41,7 @@
     "pattern": "zum töten",
     "method": "phrase",
     "resultPattern": "\\bzum töten",
-    "segsMatched": 12,
+    "segsMatched": 14,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn76_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn76_translation-de-sabbamitta.json",
@@ -50,6 +50,12 @@
       "translation/de/sabbamitta/sutta/kn/dhp/dhp129-145_translation-de-sabbamitta.json",
       "translation/en/suddhaso/sutta/kn/dhp/dhp129-145_translation-en-suddhaso.json",
       "translation/en/sujato/sutta/kn/dhp/dhp129-145_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn98_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn98_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn98_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga3/snp3.9_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/snp/vagga3/snp3.9_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/snp/vagga3/snp3.9_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/snp/vagga3/snp3.11_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/snp/vagga3/snp3.11_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/snp/vagga3/snp3.11_translation-en-sujato.json",
@@ -78,6 +84,8 @@
     "suttaRefs": [
       "mn76/de/sabbamitta",
       "dhp129-145/de/sabbamitta",
+      "mn98/de/sabbamitta",
+      "snp3.9/de/sabbamitta",
       "snp3.11/de/sabbamitta",
       "iti27/de/sabbamitta",
       "dhp383-423/de/sabbamitta",
@@ -407,6 +415,74 @@
         "segsMatched": 1,
         "sutta_uid": "dn25",
         "title": "Lange Lehrreden 25\nDas Löwengebrüll im Kloster der Dame Udumbarikā",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn98:11.41": {
+            "scid": "mn98:11.41",
+            "pli": "Yo na hanti na ghāteti, ",
+            "de": "er tötet nicht und stiftet andere nicht <span class=\"ebt-matched\">zum Töten</span> an: ",
+            "en": "not killing or making others kill: ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn98_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn98_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn98_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 294,
+          "de": 293,
+          "en": 293
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.003,
+        "segsMatched": 1,
+        "sutta_uid": "mn98",
+        "title": "Mittlere Lehrreden 98\nMit Vāseṭṭha",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "snp3.9:41.3": {
+            "scid": "snp3.9:41.3",
+            "pli": "Yo na hanti na ghāteti, ",
+            "de": "er tötet nicht und stiftet andere nicht <span class=\"ebt-matched\">zum Töten</span> an: ",
+            "en": "not killing or making others kill: ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga3/snp3.9_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/snp/vagga3/snp3.9_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/snp/vagga3/snp3.9_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 292,
+          "de": 291,
+          "en": 291
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.003,
+        "segsMatched": 1,
+        "sutta_uid": "snp3.9",
+        "title": "Lehrreden-Sammelband 3.9\nMit Vāseṭṭha",
         "type": "translation"
       },
       {

@@ -41,7 +41,7 @@
     "pattern": "verlangen aufgegeben",
     "method": "phrase",
     "resultPattern": "\\bverlangen aufgegeben",
-    "segsMatched": 18,
+    "segsMatched": 20,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn46/sn46.26_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn46/sn46.26_translation-de-sabbamitta.json",
@@ -58,12 +58,18 @@
       "root/pli/ms/sutta/sn/sn1/sn1.28_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn1/sn1.28_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn1/sn1.28_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn98_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn98_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn98_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn73_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn73_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn73_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn22_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn22_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn22_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga3/snp3.9_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/snp/vagga3/snp3.9_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/snp/vagga3/snp3.9_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/snp/vagga3/snp3.11_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/snp/vagga3/snp3.11_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/snp/vagga3/snp3.11_translation-en-sujato.json",
@@ -83,8 +89,10 @@
       "dhp383-423/de/sabbamitta",
       "sn35.103/de/sabbamitta",
       "sn1.28/de/sabbamitta",
+      "mn98/de/sabbamitta",
       "mn73/de/sabbamitta",
       "mn22/de/sabbamitta",
+      "snp3.9/de/sabbamitta",
       "snp3.11/de/sabbamitta",
       "iti58/de/sabbamitta",
       "an5.72/de/sabbamitta",
@@ -512,6 +520,74 @@
         "segsMatched": 1,
         "sutta_uid": "mn22",
         "title": "Mittlere Lehrreden 22\nDas Gleichnis von der Kobra",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn98:11.85": {
+            "scid": "mn98:11.85",
+            "pli": "Yodhataṇhaṁ pahantvāna, ",
+            "de": "Er hat das <span class=\"ebt-matched\">Verlangen aufgegeben</span> ",
+            "en": "They’ve given up craving, ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn98_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn98_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn98_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 294,
+          "de": 293,
+          "en": 293
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.003,
+        "segsMatched": 1,
+        "sutta_uid": "mn98",
+        "title": "Mittlere Lehrreden 98\nMit Vāseṭṭha",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "snp3.9:52.1": {
+            "scid": "snp3.9:52.1",
+            "pli": "Yodha taṇhaṁ pahantvāna, ",
+            "de": "Er hat das <span class=\"ebt-matched\">Verlangen aufgegeben</span> ",
+            "en": "They’ve given up craving, ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga3/snp3.9_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/snp/vagga3/snp3.9_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/snp/vagga3/snp3.9_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 292,
+          "de": 291,
+          "en": 291
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.003,
+        "segsMatched": 1,
+        "sutta_uid": "snp3.9",
+        "title": "Lehrreden-Sammelband 3.9\nMit Vāseṭṭha",
         "type": "translation"
       }
     ],
