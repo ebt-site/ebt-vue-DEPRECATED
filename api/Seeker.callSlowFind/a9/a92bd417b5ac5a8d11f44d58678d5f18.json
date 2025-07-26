@@ -41,10 +41,12 @@
     "pattern": "can endure",
     "method": "phrase",
     "resultPattern": "\\bcan endure",
-    "segsMatched": 32,
+    "segsMatched": 35,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an5/an5.139_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an5/an5.139_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn56_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn56_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an6/an6.7_root-pli-ms.json",
       "translation/en/sujato/sutta/an/an6/an6.7_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an6/an6.6_root-pli-ms.json",
@@ -62,6 +64,7 @@
     ],
     "suttaRefs": [
       "an5.139/en/sujato",
+      "mn56/en/sujato",
       "an6.7/en/sujato",
       "an6.6/en/sujato",
       "an6.5/en/sujato",
@@ -226,6 +229,49 @@
         "segsMatched": 22,
         "sutta_uid": "an5.139",
         "title": "Numbered Discourses 5.139\n14. Kings\nCannot Endure",
+        "type": "translation"
+      },
+      {
+        "author": "Bhikkhu Sujato",
+        "segMap": {
+          "mn56:27.19": {
+            "scid": "mn56:27.19",
+            "pli": "‘ayaṁ kho te, bhante, makkaṭacchāpako raṅgakkhamo hi kho, no ākoṭanakkhamo, no vimajjanakkhamo’ti. ",
+            "en": "‘Sir, this monkey <span class=\"ebt-matched\">can endure</span> a dying, but not a pounding or a pressing.’ ",
+            "matched": true
+          },
+          "mn56:27.24": {
+            "scid": "mn56:27.24",
+            "pli": "‘idaṁ kho te, bhante, navaṁ dussayugaṁ raṅgakkhamañceva ākoṭanakkhamañca vimajjanakkhamañcā’ti. ",
+            "en": "‘Sir, this pair of garments <span class=\"ebt-matched\">can endure</span> a dying, a pounding, and a pressing.’ ",
+            "matched": true
+          },
+          "mn56:27.25": {
+            "scid": "mn56:27.25",
+            "pli": "Evameva kho, bhante, tassa bhagavato vādo arahato sammāsambuddhassa raṅgakkhamo ceva paṇḍitānaṁ no bālānaṁ, anuyogakkhamo ca vimajjanakkhamo cā”ti. ",
+            "en": "In the same way, the doctrine of the Buddha looks fine initially—for the astute, not for fools—and it <span class=\"ebt-matched\">can endure</span> being scrutinized and pressed.” ",
+            "matched": true
+          }
+        },
+        "author_uid": "sujato",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn56_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn56_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "en",
+        "langSegs": {
+          "pli": 382,
+          "en": 381
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 3.008,
+        "segsMatched": 3,
+        "sutta_uid": "mn56",
+        "title": "Middle Discourses 56\nWith Upāli",
         "type": "translation"
       },
       {
