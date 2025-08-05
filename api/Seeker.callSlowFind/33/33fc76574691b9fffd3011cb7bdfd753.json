@@ -41,7 +41,7 @@
     "pattern": "von geburt an blind",
     "method": "phrase",
     "resultPattern": "\\bvon geburt an blind",
-    "segsMatched": 8,
+    "segsMatched": 9,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn75_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn75_translation-de-sabbamitta.json",
@@ -49,6 +49,9 @@
       "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn23_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn23_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn99_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn99_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn99_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/ud/vagga6/ud6.4_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga6/ud6.4_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/ud/vagga6/ud6.4_translation-en-sujato.json"
@@ -56,6 +59,7 @@
     "suttaRefs": [
       "mn75/de/sabbamitta",
       "dn23/de/sabbamitta",
+      "mn99/de/sabbamitta",
       "ud6.4/de/sabbamitta"
     ],
     "mlDocs": [
@@ -127,7 +131,7 @@
           "dn23:11.16": {
             "scid": "dn23:11.16",
             "pli": "“Seyyathāpi, rājañña, jaccandho puriso na passeyya kaṇha—sukkāni rūpāni, na passeyya nīlakāni rūpāni, na passeyya pītakāni rūpāni, na passeyya lohitakāni rūpāni, na passeyya mañjiṭṭhakāni rūpāni, na passeyya samavisamaṁ, na passeyya tārakāni rūpāni, na passeyya candimasūriye. ",
-            "de": "„Wie wenn da ein Mensch <span class=\"ebt-matched\">von Geburt an blind</span> wäre, Stammesfürst. Er könnte keine dunklen oder hellen, blauen, gelben, roten oder purpurfarbenen Bilder sehen. Er könnte keinen ebenen oder unebenen Boden erkennen noch Sterne, Mond oder Sonne sehen. ",
+            "de": "„Wie wenn da ein Mensch <span class=\"ebt-matched\">von Geburt an blind</span> wäre, Stammesfürst. Er könnte keine dunklen oder hellen, blauen, gelben, roten oder purpurfarbenen Bilder sehen. Er könnte keinen ebenen oder unebenen Boden sehen noch Sterne, Mond oder Sonne. ",
             "en": "“Chieftain, suppose there was a person blind from birth. They couldn’t see sights that are dark or bright, or blue, yellow, red, or magenta. They couldn’t see even and uneven ground, or the stars, or the moon and sun. ",
             "matched": true
           },
@@ -194,6 +198,40 @@
         "segsMatched": 1,
         "sutta_uid": "ud6.4",
         "title": "Innige Sprüche 6.4\nAnhänger verschiedener anderer Konfessionen (1)",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn99:12.1": {
+            "scid": "mn99:12.1",
+            "pli": "“Seyyathāpi, māṇava, jaccandho puriso na passeyya kaṇhasukkāni rūpāni, na passeyya nīlakāni rūpāni, na passeyya pītakāni rūpāni, na passeyya lohitakāni rūpāni, na passeyya mañjiṭṭhakāni rūpāni, na passeyya samavisamaṁ, na passeyya tārakarūpāni, na passeyya candimasūriye. ",
+            "de": "„Wie wenn da ein Mensch <span class=\"ebt-matched\">von Geburt an blind</span> wäre, Vedenstudent. Er könnte keine dunklen oder hellen, blauen, gelben, roten oder purpurfarbenen Bilder sehen. Er könnte keinen ebenen oder unebenen Boden sehen noch Sterne, Mond oder Sonne. ",
+            "en": "“Suppose there was a person blind from birth. They couldn’t see sights that are dark or bright, or blue, yellow, red, or magenta. They couldn’t see even and uneven ground, or the stars, or the moon and sun. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn99_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn99_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn99_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 270,
+          "de": 264,
+          "en": 269
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.004,
+        "segsMatched": 1,
+        "sutta_uid": "mn99",
+        "title": "Mittlere Lehrreden 99\nMit Subha",
         "type": "translation"
       }
     ],
