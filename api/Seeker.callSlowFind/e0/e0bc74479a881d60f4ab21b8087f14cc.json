@@ -41,7 +41,7 @@
     "pattern": "entsprechend ihrer taten wiedergeboren",
     "method": "phrase",
     "resultPattern": "\\bentsprechend\\sihrer\\staten\\swiedergeboren",
-    "segsMatched": 55,
+    "segsMatched": 56,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn79_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn79_translation-de-sabbamitta.json",
@@ -121,6 +121,9 @@
       "root/pli/ms/sutta/mn/mn119_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn119_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn119_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn100_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn100_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn100_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/iti/vagga10/iti99_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/iti/vagga10/iti99_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/iti/vagga10/iti99_translation-en-sujato.json",
@@ -218,6 +221,7 @@
       "mn19/de/sabbamitta",
       "mn12/de/sabbamitta",
       "mn119/de/sabbamitta",
+      "mn100/de/sabbamitta",
       "iti99/de/sabbamitta",
       "dn34/de/sabbamitta",
       "dn28/de/sabbamitta",
@@ -1886,6 +1890,40 @@
       {
         "author": "Sabbamitta",
         "segMap": {
+          "mn100:36-38.2": {
+            "scid": "mn100:36-38.2",
+            "pli": "So dibbena cakkhunā visuddhena atikkantamānusakena satte passāmi cavamāne upapajjamāne hīne paṇīte suvaṇṇe dubbaṇṇe sugate duggate yathākammūpage satte pajānāmi …pe… ",
+            "de": "Mit geläuterter und übermenschlicher Hellsichtigkeit sah ich Lebewesen, wie sie hinscheiden und wieder geboren werden – gering oder hochstehend, schön oder hässlich, an einem guten oder einem schlechten Ort. Ich verstand, wie Lebewesen <span class=\"ebt-matched\">entsprechend ihrer Taten wiedergeboren</span> werden. ",
+            "en": "With clairvoyance that is purified and superhuman, I saw sentient beings passing away and being reborn—inferior and superior, beautiful and ugly, in a good place or a bad place. I understood how sentient beings pass on according to their deeds … ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn100_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn100_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn100_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 306,
+          "de": 286,
+          "en": 303
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.003,
+        "segsMatched": 1,
+        "sutta_uid": "mn100",
+        "title": "Mittlere Lehrreden 100\nMit Saṅgārava",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
           "mn85:38.2": {
             "scid": "mn85:38.2",
             "pli": "So dibbena cakkhunā visuddhena atikkantamānusakena satte passāmi cavamāne upapajjamāne hīne paṇīte suvaṇṇe dubbaṇṇe sugate duggate yathākammūpage satte pajānāmi …pe… ",
@@ -1906,7 +1944,7 @@
         "lang": "de",
         "langSegs": {
           "pli": 553,
-          "de": 522,
+          "de": 524,
           "en": 552
         },
         "maxWord": 30,

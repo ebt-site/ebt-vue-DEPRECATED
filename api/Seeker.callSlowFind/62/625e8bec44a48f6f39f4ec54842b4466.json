@@ -41,7 +41,7 @@
     "pattern": "alles leiden",
     "method": "phrase",
     "resultPattern": "\\balles\\sleiden",
-    "segsMatched": 34,
+    "segsMatched": 36,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn42/sn42.11_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn42/sn42.11_translation-de-sabbamitta.json",
@@ -55,6 +55,9 @@
       "root/pli/ms/sutta/sn/sn35/sn35.83_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn35/sn35.83_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.83_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga2/snp2.2_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/snp/vagga2/snp2.2_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/snp/vagga2/snp2.2_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/iti/vagga11/iti103_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/iti/vagga11/iti103_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/iti/vagga11/iti103_translation-en-sujato.json",
@@ -121,6 +124,7 @@
       "mn14/de/sabbamitta",
       "sn56.22/de/sabbamitta",
       "sn35.83/de/sabbamitta",
+      "snp2.2/de/sabbamitta",
       "iti103/de/sabbamitta",
       "dhp334-359/de/sabbamitta",
       "dn14/de/sabbamitta",
@@ -373,6 +377,47 @@
         "segsMatched": 2,
         "sutta_uid": "iti103",
         "title": "So wurde es gesagt 103\nDas Viererbuch\n1. Das Kapitel über das Opfer der Lehre des Brahmanen\nAsketen und Brahmanen",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "snp2.2:12.3": {
+            "scid": "snp2.2:12.3",
+            "pli": "Saṅgātigo sabbadukkhappahīno, ",
+            "de": "Der Bedächtige ist seinen Schlingen entschlüpft und hat <span class=\"ebt-matched\">alles Leiden</span> aufgegeben; ",
+            "en": "The wise have slipped their chains <j>and given up all suffering; ",
+            "matched": true
+          },
+          "snp2.2:14.2": {
+            "scid": "snp2.2:14.2",
+            "pli": "Nirāmagandhaṁ sabbadukkhappanūdanaṁ; ",
+            "de": "der frei von Fäulnis war, <span class=\"ebt-matched\">alles Leiden</span> abgeschüttelt; ",
+            "en": "that are free of putrefaction, <j>getting rid of all suffering; ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga2/snp2.2_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/snp/vagga2/snp2.2_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/snp/vagga2/snp2.2_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 63,
+          "de": 62,
+          "en": 62
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 2.032,
+        "segsMatched": 2,
+        "sutta_uid": "snp2.2",
+        "title": "Lehrreden-Sammelband 2.2\nFäulnis",
         "type": "translation"
       },
       {

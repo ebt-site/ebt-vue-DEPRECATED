@@ -41,7 +41,7 @@
     "pattern": "aber zum erwachen entschlossen",
     "method": "phrase",
     "resultPattern": "\\baber\\szum\\serwachen\\sentschlossen",
-    "segsMatched": 26,
+    "segsMatched": 27,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an5/an5.196_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.196_translation-de-sabbamitta.json",
@@ -103,6 +103,9 @@
       "root/pli/ms/sutta/mn/mn128_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn128_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn128_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn100_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn100_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn100_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an9/an9.41_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an9/an9.41_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an9/an9.41_translation-en-sujato.json",
@@ -137,6 +140,7 @@
       "mn19/de/sabbamitta",
       "mn14/de/sabbamitta",
       "mn128/de/sabbamitta",
+      "mn100/de/sabbamitta",
       "an9.41/de/sabbamitta",
       "an8.64/de/sabbamitta",
       "an5.68/de/sabbamitta",
@@ -942,6 +946,40 @@
       {
         "author": "Sabbamitta",
         "segMap": {
+          "mn100:9.1": {
+            "scid": "mn100:9.1",
+            "pli": "Idha me, bhāradvāja, pubbeva sambodhā anabhisambuddhassa bodhisattasseva sato etadahosi: ",
+            "de": "Vor meinem Erwachen, als ich noch nicht erwacht war, <span class=\"ebt-matched\">aber zum Erwachen entschlossen</span>, dachte ich: ",
+            "en": "Before my awakening—when I was still unawakened but intent on awakening—I thought: ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn100_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn100_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn100_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 306,
+          "de": 286,
+          "en": 303
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.003,
+        "segsMatched": 1,
+        "sutta_uid": "mn100",
+        "title": "Mittlere Lehrreden 100\nMit Saṅgārava",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
           "mn85:10.1": {
             "scid": "mn85:10.1",
             "pli": "“Mayhampi kho, rājakumāra, pubbeva sambodhā anabhisambuddhassa bodhisattasseva sato etadahosi: ",
@@ -962,7 +1000,7 @@
         "lang": "de",
         "langSegs": {
           "pli": 553,
-          "de": 522,
+          "de": 524,
           "en": 552
         },
         "maxWord": 30,

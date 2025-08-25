@@ -41,7 +41,7 @@
     "pattern": "wiedergeburt in der dimension",
     "method": "phrase",
     "resultPattern": "\\bwiedergeburt\\sin\\sder\\sdimension",
-    "segsMatched": 6,
+    "segsMatched": 8,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn85_translation-de-sabbamitta.json",
@@ -51,14 +51,59 @@
       "translation/en/sujato/sutta/mn/mn36_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn26_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn26_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/mn/mn26_translation-en-sujato.json"
+      "translation/en/sujato/sutta/mn/mn26_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn100_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn100_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn100_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "mn85/de/sabbamitta",
       "mn36/de/sabbamitta",
-      "mn26/de/sabbamitta"
+      "mn26/de/sabbamitta",
+      "mn100/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn100:10.25": {
+            "scid": "mn100:10.25",
+            "pli": "‘nāyaṁ dhammo nibbidāya na virāgāya na nirodhāya na upasamāya na abhiññāya na sambodhāya na nibbānāya saṁvattati, yāvadeva ākiñcaññāyatanūpapattiyā’ti. ",
+            "de": "‚Diese Lehre führt nicht zu Ernüchterung, Schwinden der Leidenschaft, Aufhören, Frieden, Einsicht, Erwachen und Erlöschen. Sie führt nur bis zur <span class=\"ebt-matched\">Wiedergeburt in der Dimension</span> des Nichts.‘ ",
+            "en": "‘This teaching doesn’t lead to disillusionment, dispassion, cessation, peace, insight, awakening, and extinguishment. It only leads as far as rebirth in the dimension of nothingness.’ ",
+            "matched": true
+          },
+          "mn100:12.14": {
+            "scid": "mn100:12.14",
+            "pli": "‘nāyaṁ dhammo nibbidāya na virāgāya na nirodhāya na upasamāya na abhiññāya na sambodhāya na nibbānāya saṁvattati, yāvadeva nevasaññānāsaññāyatanūpapattiyā’ti. ",
+            "de": "‚Diese Lehre führt nicht zu Ernüchterung, Schwinden der Leidenschaft, Aufhören, Frieden, Einsicht, Erwachen und Erlöschen. Sie führt nur bis zur <span class=\"ebt-matched\">Wiedergeburt in der Dimension</span>, die weder Wahrnehmung noch keine Wahrnehmung hat.‘ ",
+            "en": "‘This teaching doesn’t lead to disillusionment, dispassion, cessation, peace, insight, awakening, and extinguishment. It only leads as far as rebirth in dimension of neither perception nor non-perception.’ ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn100_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn100_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn100_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 306,
+          "de": 286,
+          "en": 303
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 2.007,
+        "segsMatched": 2,
+        "sutta_uid": "mn100",
+        "title": "Mittlere Lehrreden 100\nMit Saṅgārava",
+        "type": "translation"
+      },
       {
         "author": "Sabbamitta",
         "segMap": {
@@ -171,7 +216,7 @@
         "lang": "de",
         "langSegs": {
           "pli": 553,
-          "de": 522,
+          "de": 524,
           "en": 552
         },
         "maxWord": 30,

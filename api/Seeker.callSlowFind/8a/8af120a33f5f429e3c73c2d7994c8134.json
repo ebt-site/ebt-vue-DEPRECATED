@@ -41,20 +41,65 @@
     "pattern": "drei gleichnisse",
     "method": "phrase",
     "resultPattern": "\\bdrei\\sgleichnisse",
-    "segsMatched": 4,
+    "segsMatched": 6,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn85_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn85_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn36_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn36_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/mn/mn36_translation-en-sujato.json"
+      "translation/en/sujato/sutta/mn/mn36_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn100_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn100_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn100_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "mn85/de/sabbamitta",
-      "mn36/de/sabbamitta"
+      "mn36/de/sabbamitta",
+      "mn100/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn100:14.1": {
+            "scid": "mn100:14.1",
+            "pli": "Apissu maṁ, bhāradvāja, tisso upamā paṭibhaṁsu anacchariyā pubbe assutapubbā. ",
+            "de": "Und dann fielen mir diese <span class=\"ebt-matched\">drei Gleichnisse</span> ein, die mir weder aus übernatürlicher Quelle eingegeben wurden, noch hatte ich sie zuvor gehört: ",
+            "en": "And then these three similes, which were neither supernaturally inspired, nor learned before in the past, occurred to me. ",
+            "matched": true
+          },
+          "mn100:16.12": {
+            "scid": "mn100:16.12",
+            "pli": "Imā kho maṁ, bhāradvāja, tisso upamā paṭibhaṁsu anacchariyā pubbe assutapubbā. ",
+            "de": "Das sind die <span class=\"ebt-matched\">drei Gleichnisse</span>, die mir einfielen, die mir weder aus übernatürlicher Quelle eingegeben wurden, noch hatte ich sie zuvor gehört. ",
+            "en": "These are the three similes, which were neither supernaturally inspired, nor learned before in the past, that occurred to me. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn100_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn100_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn100_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 306,
+          "de": 286,
+          "en": 303
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 2.007,
+        "segsMatched": 2,
+        "sutta_uid": "mn100",
+        "title": "Mittlere Lehrreden 100\nMit Saṅgārava",
+        "type": "translation"
+      },
       {
         "author": "Sabbamitta",
         "segMap": {
@@ -126,7 +171,7 @@
         "lang": "de",
         "langSegs": {
           "pli": 553,
-          "de": 522,
+          "de": 524,
           "en": 552
         },
         "maxWord": 30,

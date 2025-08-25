@@ -41,7 +41,7 @@
     "pattern": "gepresster zunge",
     "method": "phrase",
     "resultPattern": "\\bgepresster\\szunge",
-    "segsMatched": 10,
+    "segsMatched": 13,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn85_translation-de-sabbamitta.json",
@@ -52,6 +52,9 @@
       "root/pli/ms/sutta/mn/mn20_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn20_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn20_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn100_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn100_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn100_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/snp/vagga3/snp3.11_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/snp/vagga3/snp3.11_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/snp/vagga3/snp3.11_translation-en-sujato.json"
@@ -60,6 +63,7 @@
       "mn85/de/sabbamitta",
       "mn36/de/sabbamitta",
       "mn20/de/sabbamitta",
+      "mn100/de/sabbamitta",
       "snp3.11/de/sabbamitta"
     ],
     "mlDocs": [
@@ -109,6 +113,54 @@
         "segsMatched": 3,
         "sutta_uid": "mn20",
         "title": "Mittlere Lehrreden 20\nWie man das Denken anhält",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn100:17.2": {
+            "scid": "mn100:17.2",
+            "pli": "‘yannūnāhaṁ dantebhidantamādhāya, jivhāya tāluṁ āhacca, cetasā cittaṁ abhiniggaṇheyyaṁ abhinippīḷeyyaṁ abhisantāpeyyan’ti. ",
+            "de": "‚Warum quetsche und drücke ich nicht mit zusammengebissenen Zähnen und gegen den Gaumen <span class=\"ebt-matched\">gepresster Zunge</span> den Geist mit dem Geist und quäle ihn nieder?‘ ",
+            "en": "‘Why don’t I, with teeth clenched and tongue pressed against the roof of my mouth, squeeze, squash, and scorch mind with mind?’ ",
+            "matched": true
+          },
+          "mn100:17.3": {
+            "scid": "mn100:17.3",
+            "pli": "So kho ahaṁ, bhāradvāja, dantebhidantamādhāya, jivhāya tāluṁ āhacca, cetasā cittaṁ abhiniggaṇhāmi abhinippīḷemi abhisantāpemi. ",
+            "de": "Und ich quetschte und drückte mit zusammengebissenen Zähnen und gegen den Gaumen <span class=\"ebt-matched\">gepresster Zunge</span> den Geist mit dem Geist und quälte ihn nieder, ",
+            "en": "So that’s what I did, ",
+            "matched": true
+          },
+          "mn100:17.6": {
+            "scid": "mn100:17.6",
+            "pli": "evameva kho me, bhāradvāja, dantebhidantamādhāya, jivhāya tāluṁ āhacca, cetasā cittaṁ abhiniggaṇhato abhinippīḷayato abhisantāpayato kacchehi sedā muccanti. ",
+            "de": "Ebenso quetschte und drückte ich mit zusammengebissenen Zähnen und gegen den Gaumen <span class=\"ebt-matched\">gepresster Zunge</span> den Geist mit dem Geist und quälte ihn nieder, bis mir der Schweiß aus den Achselhöhlen rann. ",
+            "en": "In the same way, with teeth clenched and tongue pressed against the roof of my mouth, I squeezed, squashed, and crushed mind with mind until sweat ran from my armpits. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn100_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn100_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn100_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 306,
+          "de": 286,
+          "en": 303
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 3.01,
+        "segsMatched": 3,
+        "sutta_uid": "mn100",
+        "title": "Mittlere Lehrreden 100\nMit Saṅgārava",
         "type": "translation"
       },
       {
@@ -196,7 +248,7 @@
         "lang": "de",
         "langSegs": {
           "pli": 553,
-          "de": 522,
+          "de": 524,
           "en": 552
         },
         "maxWord": 30,

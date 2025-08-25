@@ -41,7 +41,7 @@
     "pattern": "kennzeichen",
     "method": "phrase",
     "resultPattern": "\\bkennzeichen",
-    "segsMatched": 150,
+    "segsMatched": 151,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn30_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn30_translation-de-sabbamitta.json",
@@ -97,6 +97,9 @@
       "root/pli/ms/sutta/mn/mn93_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn93_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn93_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn100_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn100_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn100_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thig/thig14.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thig/thig14.1_translation-de-sabbamitta.json",
       "translation/en/soma/sutta/kn/thig/thig14.1_translation-en-soma.json",
@@ -151,6 +154,7 @@
       "dn1/de/sabbamitta",
       "sn22.59/de/sabbamitta",
       "mn93/de/sabbamitta",
+      "mn100/de/sabbamitta",
       "thig14.1/de/sabbamitta",
       "thag16.6/de/sabbamitta",
       "thag1.106/de/sabbamitta",
@@ -1996,6 +2000,40 @@
         "segsMatched": 1,
         "sutta_uid": "mn93",
         "title": "Mittlere Lehrreden 93\nMit Assalāyana",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn100:3.1": {
+            "scid": "mn100:3.1",
+            "pli": "Tena kho pana samayena saṅgāravo nāma māṇavo cañcalikappe paṭivasati tiṇṇaṁ vedānaṁ pāragū sanighaṇḍukeṭubhānaṁ sākkharappabhedānaṁ itihāsapañcamānaṁ, padako, veyyākaraṇo, lokāyatamahāpurisalakkhaṇesu anavayo. ",
+            "de": "Nun befand sich zu dieser Zeit der Vedenstudent Saṅgārava in Caṇḍalakappa. Er war jung, hatte die Tonsur geschoren und war sechzehn Jahre alt. Er hatte die drei Veden gemeistert zusammen mit ihrem Wortschatz und der Durchführung des Rituals, der Lautlehre und der Einteilung der Wortarten sowie dem Testament als fünftem. Er kannte sie Wort für Wort, kannte die Grammatik und war mit der Kosmologie und den <span class=\"ebt-matched\">Kennzeichen</span> eines großen Mannes vertraut. ",
+            "en": "Now at that time the student Saṅgārava was residing in Caṇḍalakappa. He was young, newly tonsured; he was sixteen years old. He had mastered the three Vedas, together with their vocabularies and ritual performance, their phonology and word classification, and the testaments as fifth. He knew them word-by-word, and their grammar. He was well versed in cosmology and the marks of a great man. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn100_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn100_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn100_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 306,
+          "de": 286,
+          "en": 303
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.003,
+        "segsMatched": 1,
+        "sutta_uid": "mn100",
+        "title": "Mittlere Lehrreden 100\nMit Saṅgārava",
         "type": "translation"
       }
     ],

@@ -41,7 +41,7 @@
     "pattern": "drei veden",
     "method": "phrase",
     "resultPattern": "\\bdrei\\sveden",
-    "segsMatched": 44,
+    "segsMatched": 47,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn13_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn13_translation-de-sabbamitta.json",
@@ -52,6 +52,9 @@
       "root/pli/ms/sutta/mn/mn95_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn95_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn95_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn100_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn100_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn100_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn11/sn11.18_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn11/sn11.18_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn11/sn11.18_translation-en-sujato.json",
@@ -99,6 +102,7 @@
       "dn13/de/sabbamitta",
       "dn4/de/sabbamitta",
       "mn95/de/sabbamitta",
+      "mn100/de/sabbamitta",
       "sn11.18/de/sabbamitta",
       "mn91/de/sabbamitta",
       "dn5/de/sabbamitta",
@@ -369,6 +373,54 @@
         "segsMatched": 3,
         "sutta_uid": "mn95",
         "title": "Mittlere Lehrreden 95\nMit Caṅkī",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn100:3.1": {
+            "scid": "mn100:3.1",
+            "pli": "Tena kho pana samayena saṅgāravo nāma māṇavo cañcalikappe paṭivasati tiṇṇaṁ vedānaṁ pāragū sanighaṇḍukeṭubhānaṁ sākkharappabhedānaṁ itihāsapañcamānaṁ, padako, veyyākaraṇo, lokāyatamahāpurisalakkhaṇesu anavayo. ",
+            "de": "Nun befand sich zu dieser Zeit der Vedenstudent Saṅgārava in Caṇḍalakappa. Er war jung, hatte die Tonsur geschoren und war sechzehn Jahre alt. Er hatte die <span class=\"ebt-matched\">drei Veden</span> gemeistert zusammen mit ihrem Wortschatz und der Durchführung des Rituals, der Lautlehre und der Einteilung der Wortarten sowie dem Testament als fünftem. Er kannte sie Wort für Wort, kannte die Grammatik und war mit der Kosmologie und den Kennzeichen eines großen Mannes vertraut. ",
+            "en": "Now at that time the student Saṅgārava was residing in Caṇḍalakappa. He was young, newly tonsured; he was sixteen years old. He had mastered the three Vedas, together with their vocabularies and ritual performance, their phonology and word classification, and the testaments as fifth. He knew them word-by-word, and their grammar. He was well versed in cosmology and the marks of a great man. ",
+            "matched": true
+          },
+          "mn100:3.4": {
+            "scid": "mn100:3.4",
+            "pli": "“avabhūtāva ayaṁ dhanañjānī brāhmaṇī, parabhūtāva ayaṁ dhanañjānī brāhmaṇī, vijjamānānaṁ tevijjānaṁ brāhmaṇānaṁ, atha ca pana tassa muṇḍakassa samaṇakassa vaṇṇaṁ bhāsissatī”ti. ",
+            "de": "„Die Brahmanin Dhanañjānī ist eine Schande! Obwohl es Brahmanen gibt, die in den <span class=\"ebt-matched\">drei Veden</span> bewandert sind, preist sie diesen Glatzkopf, diesen falschen Asketen.“ ",
+            "en": "“The brahmin lady Dhanañjānī is a disgrace! Though brahmins proficient in the three Vedas are found, she praises that shaveling, that fake ascetic.” ",
+            "matched": true
+          },
+          "mn100:7.4": {
+            "scid": "mn100:7.4",
+            "pli": "seyyathāpi brāhmaṇā tevijjā. ",
+            "de": "wie etwa die Brahmanen, die in den <span class=\"ebt-matched\">drei Veden</span> bewandert sind. ",
+            "en": "For example, the brahmins who are proficient in the three Vedas. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn100_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn100_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn100_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 306,
+          "de": 286,
+          "en": 303
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 3.01,
+        "segsMatched": 3,
+        "sutta_uid": "mn100",
+        "title": "Mittlere Lehrreden 100\nMit Saṅgārava",
         "type": "translation"
       },
       {

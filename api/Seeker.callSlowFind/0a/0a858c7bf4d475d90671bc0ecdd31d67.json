@@ -41,7 +41,7 @@
     "pattern": "dunkelheit.* und licht",
     "method": "phrase",
     "resultPattern": "\\bdunkelheit.*\\sund\\slicht",
-    "segsMatched": 30,
+    "segsMatched": 33,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn10/sn10.8_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn10/sn10.8_translation-de-sabbamitta.json",
@@ -58,6 +58,9 @@
       "root/pli/ms/sutta/mn/mn19_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn19_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn19_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn100_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn100_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn100_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/iti/vagga10/iti99_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/iti/vagga10/iti99_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/iti/vagga10/iti99_translation-en-sujato.json",
@@ -83,6 +86,7 @@
       "mn4/de/sabbamitta",
       "mn36/de/sabbamitta",
       "mn19/de/sabbamitta",
+      "mn100/de/sabbamitta",
       "iti99/de/sabbamitta",
       "an8.11/de/sabbamitta",
       "an3.59/de/sabbamitta",
@@ -430,6 +434,54 @@
       {
         "author": "Sabbamitta",
         "segMap": {
+          "mn100:35.2": {
+            "scid": "mn100:35.2",
+            "pli": "avijjā vihatā, vijjā uppannā; tamo vihato, āloko uppanno; yathā taṁ appamattassa ātāpino pahitattassa viharato. ",
+            "de": "Unwissenheit wurde zerstört und Wissen ging auf; <span class=\"ebt-matched\">Dunkelheit wurde zerstört und Licht</span> ging auf, wie es bei jemandem geschieht, der beflissen, eifrig und entschlossen meditiert. ",
+            "en": "Ignorance was banished and knowledge arose; darkness was banished and light arose, as happens for a meditator who is diligent, keen, and resolute. ",
+            "matched": true
+          },
+          "mn100:36-38.4": {
+            "scid": "mn100:36-38.4",
+            "pli": "vijjā adhigatā, avijjā vihatā, vijjā uppannā; tamo vihato, āloko uppanno; yathā taṁ appamattassa ātāpino pahitattassa viharato. ",
+            "de": "Unwissenheit wurde zerstört und Wissen ging auf; <span class=\"ebt-matched\">Dunkelheit wurde zerstört und Licht</span> ging auf, wie es bei jemandem geschieht, der beflissen, eifrig und entschlossen meditiert. ",
+            "en": "Ignorance was banished and knowledge arose; darkness was banished and light arose, as happens for a meditator who is diligent, keen, and resolute. ",
+            "matched": true
+          },
+          "mn100:41.2": {
+            "scid": "mn100:41.2",
+            "pli": "vijjā adhigatā, avijjā vihatā, vijjā uppannā; tamo vihato, āloko uppanno; yathā taṁ appamattassa ātāpino pahitattassa viharato”ti. ",
+            "de": "Unwissenheit wurde zerstört und Wissen ging auf; <span class=\"ebt-matched\">Dunkelheit wurde zerstört und Licht</span> ging auf, wie es bei jemandem geschieht, der beflissen, eifrig und entschlossen meditiert.“ ",
+            "en": "Ignorance was banished and knowledge arose; darkness was banished and light arose, as happens for a meditator who is diligent, keen, and resolute.” ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn100_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn100_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn100_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 306,
+          "de": 286,
+          "en": 303
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 3.01,
+        "segsMatched": 3,
+        "sutta_uid": "mn100",
+        "title": "Mittlere Lehrreden 100\nMit Saṅgārava",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
           "mn36:39.2": {
             "scid": "mn36:39.2",
             "pli": "avijjā vihatā, vijjā uppannā; tamo vihato, āloko uppanno; yathā taṁ appamattassa ātāpino pahitattassa viharato. ",
@@ -512,7 +564,7 @@
         "lang": "de",
         "langSegs": {
           "pli": 553,
-          "de": 522,
+          "de": 524,
           "en": 552
         },
         "maxWord": 30,

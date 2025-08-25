@@ -41,7 +41,7 @@
     "pattern": "grausam",
     "method": "phrase",
     "resultPattern": "\\bgrausam",
-    "segsMatched": 117,
+    "segsMatched": 120,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
@@ -88,6 +88,9 @@
       "root/pli/ms/sutta/an/an6/an6.74_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.74_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an6/an6.74_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an6/an6.13_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an6/an6.13_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an6/an6.13_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an6/an6.113_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.113_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an6/an6.113_translation-en-sujato.json",
@@ -151,6 +154,9 @@
       "root/pli/ms/sutta/kn/thag/thag16.8_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag16.8_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag16.8_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga2/snp2.2_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/snp/vagga2/snp2.2_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/snp/vagga2/snp2.2_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/iti/vagga9/iti87_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/iti/vagga9/iti87_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/iti/vagga9/iti87_translation-en-sujato.json",
@@ -225,6 +231,7 @@
       "ud4.1/de/sabbamitta",
       "an9.3/de/sabbamitta",
       "an6.74/de/sabbamitta",
+      "an6.13/de/sabbamitta",
       "an6.113/de/sabbamitta",
       "an6.111/de/sabbamitta",
       "an6.110/de/sabbamitta",
@@ -246,6 +253,7 @@
       "mn122/de/sabbamitta",
       "mn115/de/sabbamitta",
       "thag16.8/de/sabbamitta",
+      "snp2.2/de/sabbamitta",
       "iti87/de/sabbamitta",
       "dhp383-423/de/sabbamitta",
       "dn32/de/sabbamitta",
@@ -1247,6 +1255,47 @@
       {
         "author": "Sabbamitta",
         "segMap": {
+          "an6.13:2.3": {
+            "scid": "an6.13:2.3",
+            "pli": "atha ca pana me vihesā cittaṁ pariyādāya tiṭṭhatī’ti. ",
+            "de": "Und doch hält der Gedanke an <span class=\"ebt-matched\">Grausam</span>keit meinen Geist immer noch gefangen.‘ ",
+            "en": "Yet somehow the thought of harming still occupies my mind.’ ",
+            "matched": true
+          },
+          "an6.13:2.7": {
+            "scid": "an6.13:2.7",
+            "pli": "Nissaraṇañhetaṁ, āvuso, vihesāya yadidaṁ karuṇācetovimuttī’ti. ",
+            "de": "Denn durch die Erlösung des Herzens durch Mitgefühl entrinnt man Gedanken an <span class=\"ebt-matched\">Grausam</span>keit.‘ ",
+            "en": "For it is the heart’s release by compassion that is the escape from thoughts of harming.’ ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an6/an6.13_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an6/an6.13_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an6/an6.13_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 49,
+          "de": 40,
+          "en": 48
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 2.041,
+        "segsMatched": 2,
+        "sutta_uid": "an6.13",
+        "title": "Nummerierte Lehrreden 6.13\n2. Das Kapitel über warmherzige Eigenschaften\nElemente des Entrinnens",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
           "an9.3:7.3": {
             "scid": "an9.3:7.3",
             "pli": "kāmavitakko, byāpādavitakko, vihiṁsāvitakko. ",
@@ -2098,6 +2147,40 @@
       {
         "author": "Sabbamitta",
         "segMap": {
+          "snp2.2:9.2": {
+            "scid": "snp2.2:9.2",
+            "pli": "Paresamādāya vihesamuyyutā; ",
+            "de": "die von andern nehmen, auf <span class=\"ebt-matched\">Grausam</span>keit aus, ",
+            "en": "taking from others, intent on hurting, ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga2/snp2.2_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/snp/vagga2/snp2.2_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/snp/vagga2/snp2.2_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 63,
+          "de": 62,
+          "en": 62
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.016,
+        "segsMatched": 1,
+        "sutta_uid": "snp2.2",
+        "title": "Lehrreden-Sammelband 2.2\nFäulnis",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
           "an3.40:2.7": {
             "scid": "an3.40:2.7",
             "pli": "Ahañceva kho pana evaṁ pabbajito samāno kāmavitakkaṁ vā vitakkeyyaṁ, byāpādavitakkaṁ vā vitakkeyyaṁ, vihiṁsāvitakkaṁ vā vitakkeyyaṁ, mahā kho panāyaṁ lokasannivāso. ",
@@ -2331,74 +2414,6 @@
         "segsMatched": 1,
         "sutta_uid": "mn62",
         "title": "Mittlere Lehrreden 62\nDie längere Unterweisung Rāhulas",
-        "type": "translation"
-      },
-      {
-        "author": "Sabbamitta",
-        "segMap": {
-          "mn7:20.10": {
-            "scid": "mn7:20.10",
-            "pli": "Veriṁ katakibbisaṁ naraṁ, ",
-            "de": "Sie können einen <span class=\"ebt-matched\">grausam</span>en Frevler ",
-            "en": "They can’t cleanse a cruel person, a sinner ",
-            "matched": true
-          }
-        },
-        "author_uid": "sabbamitta",
-        "bilaraPaths": [
-          "root/pli/ms/sutta/mn/mn7_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/mn/mn7_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/mn/mn7_translation-en-sujato.json"
-        ],
-        "category": "sutta",
-        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
-        "hyphen": "­",
-        "lang": "de",
-        "langSegs": {
-          "pli": 147,
-          "de": 146,
-          "en": 146
-        },
-        "maxWord": 30,
-        "minWord": 5,
-        "score": 1.007,
-        "segsMatched": 1,
-        "sutta_uid": "mn7",
-        "title": "Mittlere Lehrreden 7\nDas Gleichnis vom Tuch",
-        "type": "translation"
-      },
-      {
-        "author": "Sabbamitta",
-        "segMap": {
-          "mn115:7.4": {
-            "scid": "mn115:7.4",
-            "pli": "kāmadhātu, nekkhammadhātu, byāpādadhātu, abyāpādadhātu, vihiṁsādhātu, avihiṁsādhātu. ",
-            "de": "die Elemente der Sinnlichkeit, der Entsagung, des bösen Willens, des Wohlwollens, der <span class=\"ebt-matched\">Grausam</span>keit und der Mildherzigkeit. ",
-            "en": "the elements of sensuality and renunciation, malice and good will, and cruelty and harmlessness. ",
-            "matched": true
-          }
-        },
-        "author_uid": "sabbamitta",
-        "bilaraPaths": [
-          "root/pli/ms/sutta/mn/mn115_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/mn/mn115_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/mn/mn115_translation-en-sujato.json"
-        ],
-        "category": "sutta",
-        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
-        "hyphen": "­",
-        "lang": "de",
-        "langSegs": {
-          "pli": 158,
-          "de": 157,
-          "en": 157
-        },
-        "maxWord": 30,
-        "minWord": 5,
-        "score": 1.006,
-        "segsMatched": 1,
-        "sutta_uid": "mn115",
-        "title": "Mittlere Lehrreden 115\nViele Elemente",
         "type": "translation"
       }
     ],

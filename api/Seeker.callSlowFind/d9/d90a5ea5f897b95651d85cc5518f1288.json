@@ -41,7 +41,7 @@
     "pattern": "wieder und wieder",
     "method": "phrase",
     "resultPattern": "\\bwieder\\sund\\swieder",
-    "segsMatched": 73,
+    "segsMatched": 74,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn7/sn7.12_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn7/sn7.12_translation-de-sabbamitta.json",
@@ -130,6 +130,9 @@
       "root/pli/ms/sutta/kn/thag/thag1.101_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag1.101_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag1.101_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga2/snp2.2_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/snp/vagga2/snp2.2_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/snp/vagga2/snp2.2_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/iti/vagga9/iti83_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/iti/vagga9/iti83_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/iti/vagga9/iti83_translation-en-sujato.json",
@@ -185,6 +188,7 @@
       "thag20.1/de/sabbamitta",
       "thag1.17/de/sabbamitta",
       "thag1.101/de/sabbamitta",
+      "snp2.2/de/sabbamitta",
       "iti83/de/sabbamitta",
       "dhp320-333/de/sabbamitta",
       "dhp146-156/de/sabbamitta",
@@ -1544,6 +1548,40 @@
         "segsMatched": 1,
         "sutta_uid": "dhp146-156",
         "title": "Kleinere Sammlung\nDhammasprüche 146–156\n11. Das Kapitel über das Alter\nVisākhāyasahāyikānaṁvatthu",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "snp2.2:13.1": {
+            "scid": "snp2.2:13.1",
+            "pli": "Iccetamatthaṁ bhagavā punappunaṁ, ",
+            "de": "Der Buddha erklärte ihm diese Sache <span class=\"ebt-matched\">wieder und wieder</span>, ",
+            "en": "The Buddha explained this matter to him <j>again and again, ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/snp/vagga2/snp2.2_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/snp/vagga2/snp2.2_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/snp/vagga2/snp2.2_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 63,
+          "de": 62,
+          "en": 62
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.016,
+        "segsMatched": 1,
+        "sutta_uid": "snp2.2",
+        "title": "Lehrreden-Sammelband 2.2\nFäulnis",
         "type": "translation"
       },
       {

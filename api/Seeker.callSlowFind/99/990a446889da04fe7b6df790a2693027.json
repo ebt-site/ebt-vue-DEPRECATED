@@ -41,7 +41,7 @@
     "pattern": "mörderisch",
     "method": "phrase",
     "resultPattern": "\\bmörderisch",
-    "segsMatched": 14,
+    "segsMatched": 15,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn4/sn4.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn4/sn4.1_translation-de-sabbamitta.json",
@@ -64,6 +64,9 @@
       "root/pli/ms/sutta/mn/mn12_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn12_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn12_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn100_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn100_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn100_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/snp/vagga3/snp3.9_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/snp/vagga3/snp3.9_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/snp/vagga3/snp3.9_translation-en-sujato.json",
@@ -85,6 +88,7 @@
       "mn36/de/sabbamitta",
       "mn14/de/sabbamitta",
       "mn12/de/sabbamitta",
+      "mn100/de/sabbamitta",
       "snp3.9/de/sabbamitta",
       "dhp383-423/de/sabbamitta",
       "cp20/de/sabbamitta",
@@ -203,7 +207,7 @@
         "lang": "de",
         "langSegs": {
           "pli": 553,
-          "de": 522,
+          "de": 524,
           "en": 552
         },
         "maxWord": 30,
@@ -450,6 +454,40 @@
         "segsMatched": 1,
         "sutta_uid": "mn98",
         "title": "Mittlere Lehrreden 98\nMit Vāseṭṭha",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn100:27.5": {
+            "scid": "mn100:27.5",
+            "pli": "Na kho panāhaṁ imāya kaṭukāya dukkarakārikāya adhigacchāmi uttari manussadhammā alamariyañāṇadassanavisesaṁ. ",
+            "de": "Aber durch dieses heftige <span class=\"ebt-matched\">mörderisch</span>e Treiben habe ich keinen erhabenen Zustand übermenschlichen Erkennens und Sehens erlangt, der der Edlen würdig wäre. ",
+            "en": "But I have not achieved any superhuman distinction in knowledge and vision worthy of the noble ones by this severe, grueling work. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn100_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn100_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn100_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 306,
+          "de": 286,
+          "en": 303
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.003,
+        "segsMatched": 1,
+        "sutta_uid": "mn100",
+        "title": "Mittlere Lehrreden 100\nMit Saṅgārava",
         "type": "translation"
       },
       {
