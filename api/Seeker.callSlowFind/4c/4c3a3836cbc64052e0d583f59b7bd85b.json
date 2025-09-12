@@ -41,7 +41,7 @@
     "pattern": "üppige[rn] schlafstelle",
     "method": "phrase",
     "resultPattern": "\\büppige[rn]\\sschlafstelle",
-    "segsMatched": 26,
+    "segsMatched": 27,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an3/an3.63_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an3/an3.63_translation-de-sabbamitta.json",
@@ -79,6 +79,9 @@
       "root/pli/ms/sutta/mn/mn27_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn27_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn27_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn101_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn101_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn101_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/kp/kp2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/kp/kp2_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/kp/kp2_translation-en-sujato.json",
@@ -108,6 +111,7 @@
       "mn51/de/sabbamitta",
       "mn38/de/sabbamitta",
       "mn27/de/sabbamitta",
+      "mn101/de/sabbamitta",
       "kp2/de/sabbamitta",
       "dn2/de/sabbamitta",
       "dn1/de/sabbamitta",
@@ -652,6 +656,40 @@
         "segsMatched": 1,
         "sutta_uid": "mn94",
         "title": "Mittlere Lehrreden 94\nMit Ghoṭamukha",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn101:32.12": {
+            "scid": "mn101:32.12",
+            "pli": "Uccāsayanamahāsayanā paṭivirato hoti. ",
+            "de": "Er unterlässt die Benutzung hoher und <span class=\"ebt-matched\">üppiger Schlafstelle</span>n. ",
+            "en": "They refrain from high and luxurious beds. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn101_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn101_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn101_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 362,
+          "de": 359,
+          "en": 361
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.003,
+        "segsMatched": 1,
+        "sutta_uid": "mn101",
+        "title": "Mittlere Lehrreden 101\nBei Devadaha",
         "type": "translation"
       },
       {

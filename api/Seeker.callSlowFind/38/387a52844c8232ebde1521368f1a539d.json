@@ -41,7 +41,7 @@
     "pattern": "licht wahr",
     "method": "phrase",
     "resultPattern": "\\blicht\\swahr",
-    "segsMatched": 32,
+    "segsMatched": 33,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn128_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn128_translation-de-sabbamitta.json",
@@ -64,6 +64,9 @@
       "root/pli/ms/sutta/mn/mn27_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn27_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn27_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn101_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn101_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn101_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json",
@@ -94,6 +97,7 @@
       "mn39/de/sabbamitta",
       "mn38/de/sabbamitta",
       "mn27/de/sabbamitta",
+      "mn101/de/sabbamitta",
       "dn2/de/sabbamitta",
       "dn25/de/sabbamitta",
       "dn10/de/sabbamitta",
@@ -635,6 +639,40 @@
         "segsMatched": 1,
         "sutta_uid": "dn25",
         "title": "Lange Lehrreden 25\nDas Löwengebrüll im Kloster der Dame Udumbarikā",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn101:37.3": {
+            "scid": "mn101:37.3",
+            "pli": "Thinamiddhaṁ pahāya vigatathinamiddho viharati ālokasaññī sato sampajāno, thinamiddhā cittaṁ parisodheti. ",
+            "de": "Er gibt Dumpfheit und Benommenheit auf, meditiert mit einem Herzen, das frei von Dumpfheit und Benommenheit ist, er nimmt <span class=\"ebt-matched\">Licht wahr</span>, ist achtsam und der Situation bewusst und läutert den Geist von Dumpfheit und Benommenheit. ",
+            "en": "Giving up dullness and drowsiness, they meditate with a mind rid of dullness and drowsiness, perceiving light, mindful and aware, cleansing the mind of dullness and drowsiness. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn101_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn101_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn101_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 362,
+          "de": 359,
+          "en": 361
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.003,
+        "segsMatched": 1,
+        "sutta_uid": "mn101",
+        "title": "Mittlere Lehrreden 101\nBei Devadaha",
         "type": "translation"
       },
       {

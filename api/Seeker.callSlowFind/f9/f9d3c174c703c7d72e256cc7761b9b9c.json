@@ -41,7 +41,7 @@
     "pattern": "sagt die wahrheit",
     "method": "phrase",
     "resultPattern": "\\bsagt\\sdie\\swahrheit",
-    "segsMatched": 8,
+    "segsMatched": 9,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn94_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn94_translation-de-sabbamitta.json",
@@ -55,6 +55,9 @@
       "root/pli/ms/sutta/mn/mn27_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn27_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn27_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn101_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn101_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn101_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json",
@@ -73,6 +76,7 @@
       "mn51/de/sabbamitta",
       "mn38/de/sabbamitta",
       "mn27/de/sabbamitta",
+      "mn101/de/sabbamitta",
       "dn2/de/sabbamitta",
       "dn1/de/sabbamitta",
       "an4.198/de/sabbamitta",
@@ -247,6 +251,40 @@
         "segsMatched": 1,
         "sutta_uid": "mn94",
         "title": "Mittlere Lehrreden 94\nMit Ghoṭamukha",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn101:32.4": {
+            "scid": "mn101:32.4",
+            "pli": "Musāvādaṁ pahāya musāvādā paṭivirato hoti saccavādī saccasandho theto paccayiko avisaṁvādako lokassa. ",
+            "de": "Er gibt das Lügen auf und lügt nicht mehr. Er <span class=\"ebt-matched\">sagt die Wahrheit</span> und hält sich an die Wahrheit. Er ist ehrlich und vertrauenswürdig und legt die Welt nicht mit seinen Worten herein. ",
+            "en": "They give up lying. They speak the truth and stick to the truth. They’re honest and dependable, and don’t trick the world with their words. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn101_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn101_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn101_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 362,
+          "de": 359,
+          "en": 361
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.003,
+        "segsMatched": 1,
+        "sutta_uid": "mn101",
+        "title": "Mittlere Lehrreden 101\nBei Devadaha",
         "type": "translation"
       },
       {

@@ -41,7 +41,7 @@
     "pattern": "ausgeh.* und zurückkomm",
     "method": "phrase",
     "resultPattern": "\\bausgeh.*\\sund\\szurückkomm",
-    "segsMatched": 34,
+    "segsMatched": 35,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an8/an8.10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an8/an8.10_translation-de-sabbamitta.json",
@@ -88,6 +88,9 @@
       "root/pli/ms/sutta/mn/mn10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn10_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn10_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn101_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn101_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn101_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn2_translation-en-sujato.json",
@@ -126,6 +129,7 @@
       "mn27/de/sabbamitta",
       "mn119/de/sabbamitta",
       "mn10/de/sabbamitta",
+      "mn101/de/sabbamitta",
       "dn2/de/sabbamitta",
       "dn22/de/sabbamitta",
       "dn16/de/sabbamitta",
@@ -829,6 +833,40 @@
         "segsMatched": 1,
         "sutta_uid": "mn56",
         "title": "Mittlere Lehrreden 56\nMit Upāli",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn101:35.1": {
+            "scid": "mn101:35.1",
+            "pli": "So abhikkante paṭikkante sampajānakārī hoti, ālokite vilokite sampajānakārī hoti, samiñjite pasārite sampajānakārī hoti, saṅghāṭipattacīvaradhāraṇe sampajānakārī hoti, asite pīte khāyite sāyite sampajānakārī hoti, uccārapassāvakamme sampajānakārī hoti, gate ṭhite nisinne sutte jāgarite bhāsite tuṇhībhāve sampajānakārī hoti. ",
+            "de": "Er handelt mit Situationsbewusstsein beim <span class=\"ebt-matched\">Ausgehen und Zurückkomm</span>en, beim Hin- und Wegschauen, beim Beugen und Strecken der Glieder, beim Tragen von äußerer Robe, Schale und Roben, beim Essen, Trinken, Kauen, Schmecken, beim Ausscheiden von Urin und Kot, beim Gehen, Stehen, Sitzen, Schlafen und Wachen, Reden und Schweigen. ",
+            "en": "They act with situational awareness when going out and coming back; when looking ahead and aside; when bending and extending the limbs; when bearing the outer robe, bowl and robes; when eating, drinking, chewing, and tasting; when urinating and defecating; when walking, standing, sitting, sleeping, waking, speaking, and keeping silent. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn101_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn101_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn101_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 362,
+          "de": 359,
+          "en": 361
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.003,
+        "segsMatched": 1,
+        "sutta_uid": "mn101",
+        "title": "Mittlere Lehrreden 101\nBei Devadaha",
         "type": "translation"
       },
       {

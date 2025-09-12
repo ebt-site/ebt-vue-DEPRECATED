@@ -41,7 +41,7 @@
     "pattern": "wie ein vogel",
     "method": "phrase",
     "resultPattern": "\\bwie\\sein\\svogel",
-    "segsMatched": 31,
+    "segsMatched": 32,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn2_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn2_translation-de-sabbamitta.json",
@@ -88,6 +88,9 @@
       "root/pli/ms/sutta/mn/mn12_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn12_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn12_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn101_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn101_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn101_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag17.3_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag17.3_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag17.3_translation-en-sujato.json",
@@ -148,6 +151,7 @@
       "mn38/de/sabbamitta",
       "mn27/de/sabbamitta",
       "mn12/de/sabbamitta",
+      "mn101/de/sabbamitta",
       "thag17.3/de/sabbamitta",
       "snp5.19/de/sabbamitta",
       "dhp167-178/de/sabbamitta",
@@ -1095,6 +1099,40 @@
         "segsMatched": 1,
         "sutta_uid": "mn77",
         "title": "Mittlere Lehrreden 77\nDie längere Lehrrede mit Sakuludāyī",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn101:33.2": {
+            "scid": "mn101:33.2",
+            "pli": "Seyyathāpi nāma pakkhī sakuṇo yena yeneva ḍeti sapattabhārova ḍeti; ",
+            "de": "<span class=\"ebt-matched\">Wie ein Vogel</span>: Wohin er auch fliegt, die Flügel sind seine einzige Last. ",
+            "en": "They’re like a bird: wherever it flies, wings are its only burden. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn101_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn101_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn101_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 362,
+          "de": 359,
+          "en": 361
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.003,
+        "segsMatched": 1,
+        "sutta_uid": "mn101",
+        "title": "Mittlere Lehrreden 101\nBei Devadaha",
         "type": "translation"
       },
       {

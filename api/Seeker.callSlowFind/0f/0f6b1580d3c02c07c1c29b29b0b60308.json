@@ -41,7 +41,7 @@
     "pattern": "ist es wirklich wahr",
     "method": "phrase",
     "resultPattern": "\\bist\\ses\\swirklich\\swahr",
-    "segsMatched": 40,
+    "segsMatched": 41,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn26_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn26_translation-de-sabbamitta.json",
@@ -94,6 +94,9 @@
       "root/pli/ms/sutta/mn/mn21_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn21_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn21_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn101_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn101_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn101_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/ud/vagga3/ud3.6_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/ud/vagga3/ud3.6_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/ud/vagga3/ud3.6_translation-en-sujato.json",
@@ -149,6 +152,7 @@
       "mn70/de/sabbamitta",
       "mn48/de/sabbamitta",
       "mn21/de/sabbamitta",
+      "mn101/de/sabbamitta",
       "ud3.6/de/sabbamitta",
       "ud3.2/de/sabbamitta",
       "ud2.10/de/sabbamitta",
@@ -224,28 +228,28 @@
           "dn24:2.14.5": {
             "scid": "dn24:2.14.5",
             "pli": "‘saccaṁ kira tumhe āyasmanto issarakuttaṁ brahmakuttaṁ ācariyakaṁ aggaññaṁ paññapethā’ti? ",
-            "de": "‚<span class=\"ebt-matched\">Ist es wirklich wahr</span>, ist das die Ansicht der Ehrwürdigen?‘ ",
+            "de": "‚<span class=\"ebt-matched\">Ist es wirklich wahr</span>, ist es das, was die Ehrwürdigen beschreiben?‘ ",
             "en": "‘Is it really true that this is the venerables’ view?’ ",
             "matched": true
           },
           "dn24:2.18.3": {
             "scid": "dn24:2.18.3",
             "pli": "‘saccaṁ kira tumhe āyasmanto khiḍḍāpadosikaṁ ācariyakaṁ aggaññaṁ paññapethā’ti? ",
-            "de": "‚<span class=\"ebt-matched\">Ist es wirklich wahr</span>, ist das die Ansicht der Ehrwürdigen?‘ ",
+            "de": "‚<span class=\"ebt-matched\">Ist es wirklich wahr</span>, ist es das, was die Ehrwürdigen beschreiben?‘ ",
             "en": "‘Is it really true that this is the venerables’ view?’ ",
             "matched": true
           },
           "dn24:2.19.3": {
             "scid": "dn24:2.19.3",
             "pli": "‘saccaṁ kira tumhe āyasmanto manopadosikaṁ ācariyakaṁ aggaññaṁ paññapethā’ti? ",
-            "de": "‚<span class=\"ebt-matched\">Ist es wirklich wahr</span>, ist das die Ansicht der Ehrwürdigen?‘ ",
+            "de": "‚<span class=\"ebt-matched\">Ist es wirklich wahr</span>, ist es das, was die Ehrwürdigen beschreiben?‘ ",
             "en": "‘Is it really true that this is the venerables’ view?’ ",
             "matched": true
           },
           "dn24:2.20.3": {
             "scid": "dn24:2.20.3",
             "pli": "‘saccaṁ kira tumhe āyasmanto adhiccasamuppannaṁ ācariyakaṁ aggaññaṁ paññapethā’ti? ",
-            "de": "‚<span class=\"ebt-matched\">Ist es wirklich wahr</span>, ist das die Ansicht der Ehrwürdigen?‘ ",
+            "de": "‚<span class=\"ebt-matched\">Ist es wirklich wahr</span>, ist es das, was die Ehrwürdigen beschreiben?‘ ",
             "en": "‘Is it really true that this is the venerables’ view?’ ",
             "matched": true
           }
@@ -1156,6 +1160,40 @@
         "segsMatched": 1,
         "sutta_uid": "mn95",
         "title": "Mittlere Lehrreden 95\nMit Caṅkī",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn101:3.2": {
+            "scid": "mn101:3.2",
+            "pli": "‘saccaṁ kira tumhe, āvuso nigaṇṭhā, evaṁvādino evaṁdiṭṭhino—",
+            "de": "‚<span class=\"ebt-matched\">Ist es wirklich wahr</span>, ist es die Lehre und Ansicht der Ehrwürdigen, ",
+            "en": "‘Is it really true that this is the venerables’ view?’ ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn101_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn101_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn101_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 362,
+          "de": 359,
+          "en": 361
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.003,
+        "segsMatched": 1,
+        "sutta_uid": "mn101",
+        "title": "Mittlere Lehrreden 101\nBei Devadaha",
         "type": "translation"
       },
       {
