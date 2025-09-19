@@ -41,14 +41,14 @@
     "pattern": "das allein ist die wahrheit",
     "method": "phrase",
     "resultPattern": "\\bdas\\sallein\\sist\\sdie\\swahrheit",
-    "segsMatched": 70,
+    "segsMatched": 73,
     "bilaraPaths": [
-      "root/pli/ms/sutta/mn/mn72_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/mn/mn72_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/mn/mn72_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn29_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn29_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn29_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn72_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn72_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn72_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn95_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn95_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn95_translation-en-sujato.json",
@@ -99,8 +99,8 @@
       "translation/en/sujato/sutta/dn/dn21_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "mn72/de/sabbamitta",
       "dn29/de/sabbamitta",
+      "mn72/de/sabbamitta",
       "mn95/de/sabbamitta",
       "mn136/de/sabbamitta",
       "an10.96/de/sabbamitta",
@@ -119,6 +119,117 @@
       "dn21/de/sabbamitta"
     ],
     "mlDocs": [
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "dn29:30.2": {
+            "scid": "dn29:30.2",
+            "pli": "‘kiṁ nu kho, āvuso, hoti tathāgato paraṁ maraṇā, idameva saccaṁ moghamaññan’ti? ",
+            "de": "‚Ist das eure Ansicht: „Ein Klargewordener besteht nach dem Tod fort. <span class=\"ebt-matched\">Das allein ist die Wahrheit</span>, alles andere ist unnütz“?‘ ",
+            "en": "‘Is this your view: “A Realized One exists after death. This is the only truth, anything else is futile”?’ ",
+            "matched": true
+          },
+          "dn29:30.7": {
+            "scid": "dn29:30.7",
+            "pli": "‘kiṁ panāvuso, na hoti tathāgato paraṁ maraṇā, idameva saccaṁ moghamaññan’ti? ",
+            "de": "‚Dann ist das eure Ansicht: „Ein Klargewordener besteht nach dem Tod nicht fort. <span class=\"ebt-matched\">Das allein ist die Wahrheit</span>, alles andere ist unnütz“?‘ ",
+            "en": "‘Then is this your view: “A Realized One doesn’t exist after death. This is the only truth, anything else is futile”?’ ",
+            "matched": true
+          },
+          "dn29:30.12": {
+            "scid": "dn29:30.12",
+            "pli": "‘kiṁ panāvuso, hoti ca na ca hoti tathāgato paraṁ maraṇā, idameva saccaṁ moghamaññan’ti? ",
+            "de": "‚Dann ist das eure Ansicht: „Ein Klargewordener besteht nach dem Tod fort und besteht auch nicht fort. <span class=\"ebt-matched\">Das allein ist die Wahrheit</span>, alles andere ist unnütz“?‘ ",
+            "en": "‘Then is this your view: “A Realized One both exists and doesn’t exist after death. This is the only truth, anything else is futile”?’ ",
+            "matched": true
+          },
+          "dn29:30.17": {
+            "scid": "dn29:30.17",
+            "pli": "‘kiṁ panāvuso, neva hoti na na hoti tathāgato paraṁ maraṇā, idameva saccaṁ moghamaññan’ti? ",
+            "de": "‚Dann ist das eure Ansicht: „Ein Klargewordener besteht nach dem Tod weder fort, noch besteht er nicht fort. <span class=\"ebt-matched\">Das allein ist die Wahrheit</span>, alles andere ist unnütz“?‘ ",
+            "en": "‘Then is this your view: “A Realized One neither exists nor doesn’t exist after death. This is the only truth, anything else is futile”?’ ",
+            "matched": true
+          },
+          "dn29:34.8": {
+            "scid": "dn29:34.8",
+            "pli": "‘sassato attā ca loko ca, idameva saccaṁ moghamaññan’ti. ",
+            "de": "‚Das Selbst und das Weltall sind ewig. <span class=\"ebt-matched\">Das allein ist die Wahrheit</span>, alles andere ist unnütz.‘ ",
+            "en": "‘The self and the cosmos are eternal. This is the only truth, anything else is futile.’ ",
+            "matched": true
+          },
+          "dn29:34.24": {
+            "scid": "dn29:34.24",
+            "pli": "asayaṅkāraṁ aparaṅkāraṁ adhiccasamuppannaṁ sukhadukkhaṁ, idameva saccaṁ moghamaññan’ti. ",
+            "de": "oder sie sind durch Zufall entstanden und wurden weder von einem selbst  noch von jemand anderem geschaffen. <span class=\"ebt-matched\">Das allein ist die Wahrheit</span>, alles andere ist unnütz.‘ ",
+            "en": "or they have arisen anomalously, not made by oneself or another. This is the only truth, anything else is futile.’ ",
+            "matched": true
+          },
+          "dn29:35.7": {
+            "scid": "dn29:35.7",
+            "pli": "‘idameva saccaṁ moghamaññan’ti. ",
+            "de": "<span class=\"ebt-matched\">Das allein ist die Wahrheit</span>, alles andere ist unnütz‘, ",
+            "en": "This is the only truth, anything else is futile,’ ",
+            "matched": true
+          },
+          "dn29:36.21": {
+            "scid": "dn29:36.21",
+            "pli": "‘idameva saccaṁ moghamaññan’ti. ",
+            "de": "<span class=\"ebt-matched\">Das allein ist die Wahrheit</span>, alles andere ist unnütz‘, ",
+            "en": "",
+            "matched": true
+          },
+          "dn29:37.4": {
+            "scid": "dn29:37.4",
+            "pli": "‘rūpī attā hoti arogo paraṁ maraṇā, idameva saccaṁ moghamaññan’ti. ",
+            "de": "‚Das Selbst ist nach dem Tod geformt und gesund. <span class=\"ebt-matched\">Das allein ist die Wahrheit</span>, alles andere ist unnütz.‘ ",
+            "en": "‘The self is healthy after death, and formed … ",
+            "matched": true
+          },
+          "dn29:37.12": {
+            "scid": "dn29:37.12",
+            "pli": "attā ucchijjati vinassati na hoti paraṁ maraṇā, idameva saccaṁ moghamaññan’ti. ",
+            "de": "oder das Selbst wird vernichtet und zerstört, wenn der Körper auseinanderbricht, und besteht nach dem Tod nicht fort. <span class=\"ebt-matched\">Das allein ist die Wahrheit</span>, alles andere ist unnütz.‘ ",
+            "en": "or the self is annihilated and destroyed when the body breaks up, and doesn’t exist after death. This is the only truth, anything else is futile.’ ",
+            "matched": true
+          },
+          "dn29:38.7": {
+            "scid": "dn29:38.7",
+            "pli": "‘idameva saccaṁ moghamaññan’ti. ",
+            "de": "<span class=\"ebt-matched\">Das allein ist die Wahrheit</span>, alles andere ist unnütz‘, ",
+            "en": "This is the only truth, anything else is futile,’ ",
+            "matched": true
+          },
+          "dn29:39.13": {
+            "scid": "dn29:39.13",
+            "pli": "‘idameva saccaṁ moghamaññan’ti. ",
+            "de": "<span class=\"ebt-matched\">Das allein ist die Wahrheit</span>, alles andere ist unnütz‘, ",
+            "en": "",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn29_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn29_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn29_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 465,
+          "de": 445,
+          "en": 464
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 12.026,
+        "segsMatched": 12,
+        "sutta_uid": "dn29",
+        "title": "Lange Lehrreden 29\nEine beeindruckende Lehrrede",
+        "type": "translation"
+      },
       {
         "author": "Sabbamitta",
         "segMap": {
@@ -214,96 +325,6 @@
         "segsMatched": 10,
         "sutta_uid": "mn72",
         "title": "Mittlere Lehrreden 72\nMit Vacchagotta über das Feuer",
-        "type": "translation"
-      },
-      {
-        "author": "Sabbamitta",
-        "segMap": {
-          "dn29:30.2": {
-            "scid": "dn29:30.2",
-            "pli": "‘kiṁ nu kho, āvuso, hoti tathāgato paraṁ maraṇā, idameva saccaṁ moghamaññan’ti? ",
-            "de": "‚Ist das eure Ansicht: „Ein Klargewordener besteht nach dem Tod fort. <span class=\"ebt-matched\">Das allein ist die Wahrheit</span>, alles andere ist unnütz“?‘ ",
-            "en": "‘Is this your view: “A Realized One exists after death. This is the only truth, anything else is futile”?’ ",
-            "matched": true
-          },
-          "dn29:30.7": {
-            "scid": "dn29:30.7",
-            "pli": "‘kiṁ panāvuso, na hoti tathāgato paraṁ maraṇā, idameva saccaṁ moghamaññan’ti? ",
-            "de": "‚Dann ist das eure Ansicht: „Ein Klargewordener besteht nach dem Tod nicht fort. <span class=\"ebt-matched\">Das allein ist die Wahrheit</span>, alles andere ist unnütz“?‘ ",
-            "en": "‘Then is this your view: “A Realized One doesn’t exist after death. This is the only truth, anything else is futile”?’ ",
-            "matched": true
-          },
-          "dn29:30.12": {
-            "scid": "dn29:30.12",
-            "pli": "‘kiṁ panāvuso, hoti ca na ca hoti tathāgato paraṁ maraṇā, idameva saccaṁ moghamaññan’ti? ",
-            "de": "‚Dann ist das eure Ansicht: „Ein Klargewordener besteht nach dem Tod fort und besteht auch nicht fort. <span class=\"ebt-matched\">Das allein ist die Wahrheit</span>, alles andere ist unnütz“?‘ ",
-            "en": "‘Then is this your view: “A Realized One both exists and doesn’t exist after death. This is the only truth, anything else is futile”?’ ",
-            "matched": true
-          },
-          "dn29:30.17": {
-            "scid": "dn29:30.17",
-            "pli": "‘kiṁ panāvuso, neva hoti na na hoti tathāgato paraṁ maraṇā, idameva saccaṁ moghamaññan’ti? ",
-            "de": "‚Dann ist das eure Ansicht: „Ein Klargewordener besteht nach dem Tod weder fort, noch besteht er nicht fort. <span class=\"ebt-matched\">Das allein ist die Wahrheit</span>, alles andere ist unnütz“?‘ ",
-            "en": "‘Then is this your view: “A Realized One neither exists nor doesn’t exist after death. This is the only truth, anything else is futile”?’ ",
-            "matched": true
-          },
-          "dn29:34.8": {
-            "scid": "dn29:34.8",
-            "pli": "‘sassato attā ca loko ca, idameva saccaṁ moghamaññan’ti. ",
-            "de": "‚Das Selbst und das Weltall sind ewig. <span class=\"ebt-matched\">Das allein ist die Wahrheit</span>, alles andere ist unnütz.‘ ",
-            "en": "‘The self and the cosmos are eternal. This is the only truth, anything else is futile.’ ",
-            "matched": true
-          },
-          "dn29:34.24": {
-            "scid": "dn29:34.24",
-            "pli": "asayaṅkāraṁ aparaṅkāraṁ adhiccasamuppannaṁ sukhadukkhaṁ, idameva saccaṁ moghamaññan’ti. ",
-            "de": "oder sie sind durch Zufall entstanden und wurden weder von einem selbst  noch von jemand anderem geschaffen. <span class=\"ebt-matched\">Das allein ist die Wahrheit</span>, alles andere ist unnütz.‘ ",
-            "en": "or they have arisen anomalously, not made by oneself or another. This is the only truth, anything else is futile.’ ",
-            "matched": true
-          },
-          "dn29:35.7": {
-            "scid": "dn29:35.7",
-            "pli": "‘idameva saccaṁ moghamaññan’ti. ",
-            "de": "<span class=\"ebt-matched\">Das allein ist die Wahrheit</span>, alles andere ist unnütz‘, ",
-            "en": "This is the only truth, anything else is futile,’ ",
-            "matched": true
-          },
-          "dn29:37.12": {
-            "scid": "dn29:37.12",
-            "pli": "attā ucchijjati vinassati na hoti paraṁ maraṇā, idameva saccaṁ moghamaññan’ti. ",
-            "de": "oder das Selbst wird vernichtet und zerstört, wenn der Körper auseinanderbricht, und besteht nach dem Tod nicht fort. <span class=\"ebt-matched\">Das allein ist die Wahrheit</span>, alles andere ist unnütz.‘ ",
-            "en": "or the self is annihilated and destroyed when the body breaks up, and doesn’t exist after death. This is the only truth, anything else is futile.’ ",
-            "matched": true
-          },
-          "dn29:38.7": {
-            "scid": "dn29:38.7",
-            "pli": "‘idameva saccaṁ moghamaññan’ti. ",
-            "de": "<span class=\"ebt-matched\">Das allein ist die Wahrheit</span>, alles andere ist unnütz‘, ",
-            "en": "This is the only truth, anything else is futile,’ ",
-            "matched": true
-          }
-        },
-        "author_uid": "sabbamitta",
-        "bilaraPaths": [
-          "root/pli/ms/sutta/dn/dn29_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/dn/dn29_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/dn/dn29_translation-en-sujato.json"
-        ],
-        "category": "sutta",
-        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
-        "hyphen": "­",
-        "lang": "de",
-        "langSegs": {
-          "pli": 465,
-          "de": 404,
-          "en": 464
-        },
-        "maxWord": 30,
-        "minWord": 5,
-        "score": 9.019,
-        "segsMatched": 9,
-        "sutta_uid": "dn29",
-        "title": "Lange Lehrreden 29\nEine beeindruckende Lehrrede",
         "type": "translation"
       },
       {

@@ -41,7 +41,7 @@
     "pattern": "ohne wahrnehmung",
     "method": "phrase",
     "resultPattern": "\\bohne\\swahrnehmung",
-    "segsMatched": 47,
+    "segsMatched": 49,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn1_translation-de-sabbamitta.json",
@@ -58,12 +58,12 @@
       "root/pli/ms/sutta/dn/dn9_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn9_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn9_translation-en-sujato.json",
-      "root/pli/ms/sutta/mn/mn76_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/mn/mn76_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/mn/mn76_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn29_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn29_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn29_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn76_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn76_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn76_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn44/sn44.11_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn44/sn44.11_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn44/sn44.11_translation-en-sujato.json",
@@ -125,8 +125,8 @@
       "sn45.139/de/sabbamitta",
       "sn22.47/de/sabbamitta",
       "dn9/de/sabbamitta",
-      "mn76/de/sabbamitta",
       "dn29/de/sabbamitta",
+      "mn76/de/sabbamitta",
       "sn44.11/de/sabbamitta",
       "sn24.8/de/sabbamitta",
       "sn22.24/de/sabbamitta",
@@ -405,6 +405,61 @@
       {
         "author": "Sabbamitta",
         "segMap": {
+          "dn29:37.10": {
+            "scid": "dn29:37.10",
+            "pli": "asaññī attā hoti … ",
+            "de": "oder es ist <span class=\"ebt-matched\">ohne Wahrnehmung</span>; ",
+            "en": "or non-percipient … ",
+            "matched": true
+          },
+          "dn29:37.11": {
+            "scid": "dn29:37.11",
+            "pli": "nevasaññīnāsaññī attā hoti … ",
+            "de": "oder es besitzt weder Wahrnehmung noch ist es <span class=\"ebt-matched\">ohne Wahrnehmung</span>; ",
+            "en": "or neither percipient nor non-percipient … ",
+            "matched": true
+          },
+          "dn29:39.6": {
+            "scid": "dn29:39.6",
+            "pli": "asaññī attā hoti … ",
+            "de": "dass es <span class=\"ebt-matched\">ohne Wahrnehmung</span> ist … ",
+            "en": "",
+            "matched": true
+          },
+          "dn29:39.7": {
+            "scid": "dn29:39.7",
+            "pli": "nevasaññīnāsaññī attā hoti … ",
+            "de": "dass es weder Wahrnehmung besitzt noch <span class=\"ebt-matched\">ohne Wahrnehmung</span> ist … ",
+            "en": "",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn29_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn29_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn29_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 465,
+          "de": 445,
+          "en": 464
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 4.009,
+        "segsMatched": 4,
+        "sutta_uid": "dn29",
+        "title": "Lange Lehrreden 29\nEine beeindruckende Lehrrede",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
           "dn9:6.9": {
             "scid": "dn9:6.9",
             "pli": "Yasmiṁ samaye nirujjhanti, asaññī tasmiṁ samaye hotī’ti. ",
@@ -496,47 +551,6 @@
         "segsMatched": 2,
         "sutta_uid": "mn76",
         "title": "Mittlere Lehrreden 76\nMit Sandaka",
-        "type": "translation"
-      },
-      {
-        "author": "Sabbamitta",
-        "segMap": {
-          "dn29:37.10": {
-            "scid": "dn29:37.10",
-            "pli": "asaññī attā hoti … ",
-            "de": "oder ist <span class=\"ebt-matched\">ohne Wahrnehmung</span>; ",
-            "en": "or non-percipient … ",
-            "matched": true
-          },
-          "dn29:37.11": {
-            "scid": "dn29:37.11",
-            "pli": "nevasaññīnāsaññī attā hoti … ",
-            "de": "oder es besitzt weder Wahrnehmung noch ist es <span class=\"ebt-matched\">ohne Wahrnehmung</span>; ",
-            "en": "or neither percipient nor non-percipient … ",
-            "matched": true
-          }
-        },
-        "author_uid": "sabbamitta",
-        "bilaraPaths": [
-          "root/pli/ms/sutta/dn/dn29_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/dn/dn29_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/dn/dn29_translation-en-sujato.json"
-        ],
-        "category": "sutta",
-        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
-        "hyphen": "­",
-        "lang": "de",
-        "langSegs": {
-          "pli": 465,
-          "de": 404,
-          "en": 464
-        },
-        "maxWord": 30,
-        "minWord": 5,
-        "score": 2.004,
-        "segsMatched": 2,
-        "sutta_uid": "dn29",
-        "title": "Lange Lehrreden 29\nEine beeindruckende Lehrrede",
         "type": "translation"
       },
       {
