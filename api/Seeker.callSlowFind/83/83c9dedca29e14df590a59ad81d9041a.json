@@ -39,61 +39,12 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "let’s abandon our bundles",
-    "method": "phrase",
-    "resultPattern": "\\blet’s\\sabandon\\sour\\sbundles",
-    "segsMatched": 3,
-    "bilaraPaths": [
-      "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
-      "translation/en/sujato/sutta/dn/dn23_translation-en-sujato.json"
-    ],
-    "suttaRefs": [
-      "dn23/en/sujato"
-    ],
-    "mlDocs": [
-      {
-        "author": "Bhikkhu Sujato",
-        "segMap": {
-          "dn23:29.12": {
-            "scid": "dn23:29.12",
-            "pli": "Tena hi, samma, tvañca sāṇabhāraṁ chaḍḍehi, ahañca sāṇabhāraṁ chaḍḍessāmi, ubho sāṇasuttabhāraṁ ādāya gamissāmā’ti. ",
-            "en": "Well then, my friend, <span class=\"ebt-matched\">let’s abandon our bundles</span> of hemp, and both take a bundle of hemp thread and go on.’ ",
-            "matched": true
-          },
-          "dn23:29.18": {
-            "scid": "dn23:29.18",
-            "pli": "Tena hi, samma, tvañca sāṇabhāraṁ chaḍḍehi, ahañca sāṇasuttabhāraṁ chaḍḍessāmi, ubho sāṇibhāraṁ ādāya gamissāmā’ti. ",
-            "en": "Well then, my friend, <span class=\"ebt-matched\">let’s abandon our bundles</span>, and both take a bundle of hemp cloth and go on.’ ",
-            "matched": true
-          },
-          "dn23:29.35": {
-            "scid": "dn23:29.35",
-            "pli": "Tena hi, samma, tvañca sāṇabhāraṁ chaḍḍehi, ahañca sajjhabhāraṁ chaḍḍessāmi, ubho suvaṇṇabhāraṁ ādāya gamissāmā’ti. ",
-            "en": "Well then, my friend, <span class=\"ebt-matched\">let’s abandon our bundles</span>, and both take a bundle of gold and go on.’ ",
-            "matched": true
-          }
-        },
-        "author_uid": "sujato",
-        "bilaraPaths": [
-          "root/pli/ms/sutta/dn/dn23_root-pli-ms.json",
-          "translation/en/sujato/sutta/dn/dn23_translation-en-sujato.json"
-        ],
-        "category": "sutta",
-        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
-        "hyphen": "­",
-        "lang": "en",
-        "langSegs": {
-          "pli": 715,
-          "en": 713
-        },
-        "maxWord": 30,
-        "minWord": 5,
-        "score": 3.004,
-        "segsMatched": 3,
-        "sutta_uid": "dn23",
-        "title": "Long Discourses 23\nWith Pāyāsi",
-        "type": "translation"
-      }
-    ],
+    "method": "keywords",
+    "resultPattern": "\\blet’s|\\babandon|\\bour|\\bbundles",
+    "segsMatched": 0,
+    "bilaraPaths": [],
+    "suttaRefs": [],
+    "mlDocs": [],
     "refLang": "en",
     "refAuthor": "sujato",
     "docLang": "en",

@@ -39,77 +39,46 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "a condition for old age and death",
-    "method": "keywords",
-    "resultPattern": "\\b(a|ā)|\\bcondition|\\bfor|\\bold|\\bage|\\band|\\bdeath",
+    "method": "phrase",
+    "resultPattern": "\\ba\\scondition\\sfor\\sold\\sage\\sand\\sdeath",
     "segsMatched": 1,
     "bilaraPaths": [
-      "root/pli/ms/sutta/dn/dn15_root-pli-ms.json",
-      "translation/en/sujato/sutta/dn/dn15_translation-en-sujato.json",
-      "root/pli/ms/sutta/mn/mn38_root-pli-ms.json",
-      "translation/en/sujato/sutta/mn/mn38_translation-en-sujato.json",
-      "root/pli/ms/sutta/sn/sn12/sn12.20_root-pli-ms.json",
-      "translation/en/sujato/sutta/sn/sn12/sn12.20_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
-      "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
-      "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/thig/thig16.1_root-pli-ms.json",
-      "translation/en/soma/sutta/kn/thig/thig16.1_translation-en-soma.json",
-      "translation/en/sujato/sutta/kn/thig/thig16.1_translation-en-sujato.json",
-      "root/pli/ms/sutta/mn/mn115_root-pli-ms.json",
-      "translation/en/sujato/sutta/mn/mn115_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an7/an7.66_root-pli-ms.json",
-      "translation/en/sujato/sutta/an/an7/an7.66_translation-en-sujato.json",
-      "root/pli/ms/sutta/dn/dn25_root-pli-ms.json",
-      "translation/en/sujato/sutta/dn/dn25_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/thag/thag20.1_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/thag/thag20.1_translation-en-sujato.json",
-      "root/pli/ms/sutta/kn/ud/vagga1/ud1.2_root-pli-ms.json",
-      "translation/en/sujato/sutta/kn/ud/vagga1/ud1.2_translation-en-sujato.json",
-      "root/pli/ms/sutta/mn/mn26_root-pli-ms.json",
-      "translation/en/sujato/sutta/mn/mn26_translation-en-sujato.json",
-      "root/pli/ms/sutta/mn/mn85_root-pli-ms.json",
-      "translation/en/sujato/sutta/mn/mn85_translation-en-sujato.json",
-      "root/pli/ms/sutta/sn/sn12/sn12.35_root-pli-ms.json",
-      "translation/en/sujato/sutta/sn/sn12/sn12.35_translation-en-sujato.json",
-      "root/pli/ms/sutta/sn/sn12/sn12.36_root-pli-ms.json",
-      "translation/en/sujato/sutta/sn/sn12/sn12.36_translation-en-sujato.json",
-      "root/pli/ms/sutta/sn/sn22/sn22.80_root-pli-ms.json",
-      "translation/en/sujato/sutta/sn/sn22/sn22.80_translation-en-sujato.json"
+      "root/pli/ms/sutta/dn/dn1_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn1_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "dn15/en/sujato"
+      "dn1/en/sujato"
     ],
     "mlDocs": [
       {
         "author": "Bhikkhu Sujato",
         "segMap": {
-          "dn15:2.1": {
-            "scid": "dn15:2.1",
-            "pli": "‘<span class=\"ebt-matched\">A</span>tthi idappaccayā jarāmaraṇan’ti iti puṭṭhena satā, <span class=\"ebt-matched\">ā</span>nanda, <span class=\"ebt-matched\">a</span>tthītissa vacanīyaṁ. ",
-            "en": "When <span class=\"ebt-matched\">a</span>sked, ‘Is there <span class=\"ebt-matched\">a</span> specific <span class=\"ebt-matched\">condition</span> <span class=\"ebt-matched\">for</span> <span class=\"ebt-matched\">old</span> <span class=\"ebt-matched\">a</span>ge <span class=\"ebt-matched\">a</span>nd <span class=\"ebt-matched\">death</span>?’ you should <span class=\"ebt-matched\">a</span>nswer, ‘There is.’ ",
+          "dn1:3.71.12": {
+            "scid": "dn1:3.71.12",
+            "pli": "yepi te samaṇabrāhmaṇā pubbantakappikā ca aparantakappikā ca pubbantāparantakappikā ca pubbantāparantānudiṭṭhino pubbantāparantaṁ ārabbha anekavihitāni adhimuttipadāni abhivadanti dvāsaṭṭhiyā vatthūhi, sabbe te chahi phassāyatanehi phussa phussa paṭisaṁvedenti tesaṁ vedanāpaccayā taṇhā, taṇhāpaccayā upādānaṁ, upādānapaccayā bhavo, bhavapaccayā jāti, jātipaccayā jarāmaraṇaṁ sokaparidevadukkhadomanassupāyāsā sambhavanti. ",
+            "en": "Now, when those ascetics and brahmins theorize about the first beginning and the final end on these sixty-two grounds, all of them experience this by repeated contact through the six fields of contact. Their feeling is a condition for craving. Craving is a condition for grasping. Grasping is a condition for continued existence. Continued existence is a condition for rebirth. Rebirth is <span class=\"ebt-matched\">a condition for old age and death</span>, sorrow, lamentation, pain, sadness, and distress to come to be. ",
             "matched": true
           }
         },
         "author_uid": "sujato",
         "bilaraPaths": [
-          "root/pli/ms/sutta/dn/dn15_root-pli-ms.json",
-          "translation/en/sujato/sutta/dn/dn15_translation-en-sujato.json"
+          "root/pli/ms/sutta/dn/dn1_root-pli-ms.json",
+          "translation/en/sujato/sutta/dn/dn1_translation-en-sujato.json"
         ],
         "category": "sutta",
         "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
         "hyphen": "­",
         "lang": "en",
         "langSegs": {
-          "pli": 277,
-          "en": 276
+          "pli": 662,
+          "en": 661
         },
         "maxWord": 30,
         "minWord": 5,
-        "score": 1.004,
+        "score": 1.002,
         "segsMatched": 1,
-        "sutta_uid": "dn15",
-        "title": "Long Discourses 15\nThe Great Discourse on Causation",
+        "sutta_uid": "dn1",
+        "title": "Long Discourses 1\nThe Divine Net",
         "type": "translation"
       }
     ],
