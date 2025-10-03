@@ -41,7 +41,7 @@
     "pattern": "bedingte.* erscheinungen",
     "method": "phrase",
     "resultPattern": "\\bbedingte.*\\serscheinungen",
-    "segsMatched": 8,
+    "segsMatched": 9,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn22/sn22.79_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn22/sn22.79_translation-de-sabbamitta.json",
@@ -55,6 +55,9 @@
       "root/pli/ms/sutta/sn/sn14/sn14.11_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn14/sn14.11_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn14/sn14.11_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn102_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn102_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn102_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn17_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn17_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn17_translation-en-sujato.json",
@@ -67,6 +70,7 @@
       "sn8.4/de/sabbamitta",
       "sn22.96/de/sabbamitta",
       "sn14.11/de/sabbamitta",
+      "mn102/de/sabbamitta",
       "dn17/de/sabbamitta",
       "dn14/de/sabbamitta"
     ],
@@ -219,6 +223,40 @@
         "segsMatched": 1,
         "sutta_uid": "sn22.96",
         "title": "Verbundene Lehrreden 22.96\n10. Das Kapitel über Blumen\nEin Klumpen Kuhmist",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn102:10.4": {
+            "scid": "mn102:10.4",
+            "pli": "Na hetaṁ, bhikkhave, āyatanaṁ saṅkhārasamāpattipattabbamakkhāyati; ",
+            "de": "Denn diese Dimension, so heißt es, kann mithilfe <span class=\"ebt-matched\">bedingter Erscheinungen</span> nicht erreicht werden, ",
+            "en": "For that dimension is said to be not attainable by means of conditioned phenomena, ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn102_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn102_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn102_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 161,
+          "de": 156,
+          "en": 160
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.006,
+        "segsMatched": 1,
+        "sutta_uid": "mn102",
+        "title": "Mittlere Lehrreden 102\nDie Fünf und Drei",
         "type": "translation"
       },
       {

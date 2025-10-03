@@ -41,7 +41,7 @@
     "pattern": "krankheit.* eiterherd.* pfeil",
     "method": "phrase",
     "resultPattern": "\\bkrankheit.*\\seiterherd.*\\spfeil",
-    "segsMatched": 30,
+    "segsMatched": 32,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an9/an9.36_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an9/an9.36_translation-de-sabbamitta.json",
@@ -58,6 +58,9 @@
       "root/pli/ms/sutta/sn/sn23/sn23.1_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn23/sn23.1_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn23/sn23.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn102_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn102_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn102_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.126_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.126_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.126_translation-en-sujato.json",
@@ -92,6 +95,7 @@
       "sn22.122/de/sabbamitta",
       "mn75/de/sabbamitta",
       "sn23.1/de/sabbamitta",
+      "mn102/de/sabbamitta",
       "an4.126/de/sabbamitta",
       "an4.124/de/sabbamitta",
       "sn35.91/de/sabbamitta",
@@ -451,6 +455,47 @@
         "segsMatched": 2,
         "sutta_uid": "sn23.1",
         "title": "Verbundene Lehrreden 23.1\n1. Das erste Kapitel über Māra\nÜber Māra",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn102:6.3": {
+            "scid": "mn102:6.3",
+            "pli": "Saññā rogo saññā gaṇḍo saññā sallaṁ, etaṁ santaṁ etaṁ paṇītaṁ yadidaṁ: ‘asaññan’ti. ",
+            "de": "Weil sie glauben, Wahrnehmung sei eine <span class=\"ebt-matched\">Krankheit, ein Eiterherd, ein Pfeil</span>, und der Zustand ohne Wahrnehmung sei friedvoll und erlesen. ",
+            "en": "Because they believe that perception is a disease, a boil, a dart, and that the state of non-perception is peaceful and sublime. ",
+            "matched": true
+          },
+          "mn102:9.3": {
+            "scid": "mn102:9.3",
+            "pli": "Saññā rogo saññā gaṇḍo saññā sallaṁ, asaññā sammoho, etaṁ santaṁ etaṁ paṇītaṁ yadidaṁ: ",
+            "de": "Weil sie glauben, Wahrnehmung sei eine <span class=\"ebt-matched\">Krankheit, ein Eiterherd, ein Pfeil</span>, der Zustand ohne Wahrnehmung sei eine Starre ",
+            "en": "Because they believe that perception is a disease, a boil, a dart; that non-perception is a stupor; and that the state of neither perception nor non-perception is peaceful and sublime. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn102_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn102_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn102_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 161,
+          "de": 156,
+          "en": 160
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 2.012,
+        "segsMatched": 2,
+        "sutta_uid": "mn102",
+        "title": "Mittlere Lehrreden 102\nDie Fünf und Drei",
         "type": "translation"
       },
       {
