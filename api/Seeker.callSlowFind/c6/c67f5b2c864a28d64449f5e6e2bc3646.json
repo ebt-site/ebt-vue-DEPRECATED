@@ -39,53 +39,16 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "dunklen, die für das helle bestimmt",
-    "method": "phrase",
-    "resultPattern": "\\bdunklen,\\sdie\\sfür\\sdas\\shelle\\sbestimmt",
-    "segsMatched": 1,
+    "method": "keywords",
+    "resultPattern": "\\bdunklen,|\\bdie|\\bfür|\\bdas|\\bhelle|\\bbestimmt",
+    "segsMatched": 0,
     "bilaraPaths": [
-      "root/pli/ms/sutta/sn/sn3/sn3.21_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/sn/sn3/sn3.21_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn3/sn3.21_translation-en-sujato.json"
+      "root/pli/ms/sutta/an/an4/an4.85_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.85_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.85_translation-en-sujato.json"
     ],
-    "suttaRefs": [
-      "sn3.21/de/sabbamitta"
-    ],
-    "mlDocs": [
-      {
-        "author": "Sabbamitta",
-        "segMap": {
-          "sn3.21:1.6": {
-            "scid": "sn3.21:1.6",
-            "pli": "tamojotiparāyano, ",
-            "de": "die <span class=\"ebt-matched\">Dunklen, die für das Helle bestimmt</span> sind, ",
-            "en": "the dark bound for light, ",
-            "matched": true
-          }
-        },
-        "author_uid": "sabbamitta",
-        "bilaraPaths": [
-          "root/pli/ms/sutta/sn/sn3/sn3.21_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/sn/sn3/sn3.21_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/sn/sn3/sn3.21_translation-en-sujato.json"
-        ],
-        "category": "sutta",
-        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
-        "hyphen": "­",
-        "lang": "de",
-        "langSegs": {
-          "pli": 101,
-          "de": 101,
-          "en": 101
-        },
-        "maxWord": 30,
-        "minWord": 5,
-        "score": 1.01,
-        "segsMatched": 1,
-        "sutta_uid": "sn3.21",
-        "title": "Verbundene Lehrreden 3.21\n3. Das Kapitel über Kosala\nMenschen",
-        "type": "translation"
-      }
-    ],
+    "suttaRefs": [],
+    "mlDocs": [],
     "refLang": "en",
     "refAuthor": "sujato",
     "docLang": "de",

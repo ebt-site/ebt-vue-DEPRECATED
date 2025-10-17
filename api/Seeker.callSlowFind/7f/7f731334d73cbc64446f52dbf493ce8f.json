@@ -39,105 +39,46 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "urteil über menschen",
-    "method": "phrase",
-    "resultPattern": "\\burteil\\süber\\smenschen",
-    "segsMatched": 4,
+    "method": "keywords",
+    "resultPattern": "\\burteil|\\büber|\\bmenschen",
+    "segsMatched": 0,
     "bilaraPaths": [
+      "root/pli/ms/sutta/an/an10/an10.75_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.75_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.75_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an6/an6.44_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an6/an6.44_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an6/an6.44_translation-en-sujato.json",
-      "root/pli/ms/sutta/an/an10/an10.75_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/an/an10/an10.75_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/an/an10/an10.75_translation-en-sujato.json"
+      "root/pli/ms/sutta/dn/dn21_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn21_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn21_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn18_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn18_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn18_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an4/an4.65_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.65_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.65_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an8/an8.54_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an8/an8.54_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an8/an8.54_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an8/an8.55_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an8/an8.55_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an8/an8.55_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an8/an8.76_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an8/an8.76_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an8/an8.76_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/dhp/dhp256-272_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/dhp/dhp256-272_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp256-272_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/snp/vagga1/snp1.10_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/snp/vagga1/snp1.10_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/snp/vagga1/snp1.10_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn10/sn10.12_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn10/sn10.12_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn10/sn10.12_translation-en-sujato.json"
     ],
-    "suttaRefs": [
-      "an6.44/de/sabbamitta",
-      "an10.75/de/sabbamitta"
-    ],
-    "mlDocs": [
-      {
-        "author": "Sabbamitta",
-        "segMap": {
-          "an6.44:9.7": {
-            "scid": "an6.44:9.7",
-            "pli": "mā puggalesu pamāṇaṁ gaṇhittha. ",
-            "de": "Fälle kein <span class=\"ebt-matched\">Urteil über Menschen</span>. ",
-            "en": "Don’t pass judgment on individuals. ",
-            "matched": true
-          },
-          "an6.44:16.7": {
-            "scid": "an6.44:16.7",
-            "pli": "mā puggalesu pamāṇaṁ gaṇhittha. ",
-            "de": "Fälle kein <span class=\"ebt-matched\">Urteil über Menschen</span>. ",
-            "en": "Don’t pass judgment on individuals. ",
-            "matched": true
-          }
-        },
-        "author_uid": "sabbamitta",
-        "bilaraPaths": [
-          "root/pli/ms/sutta/an/an6/an6.44_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/an/an6/an6.44_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/an/an6/an6.44_translation-en-sujato.json"
-        ],
-        "category": "sutta",
-        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
-        "hyphen": "­",
-        "lang": "de",
-        "langSegs": {
-          "pli": 77,
-          "de": 66,
-          "en": 76
-        },
-        "maxWord": 30,
-        "minWord": 5,
-        "score": 2.026,
-        "segsMatched": 2,
-        "sutta_uid": "an6.44",
-        "title": "Nummerierte Lehrreden 6.44\n5. Das Kapitel mit Dhammika\nMit Migasālā",
-        "type": "translation"
-      },
-      {
-        "author": "Sabbamitta",
-        "segMap": {
-          "an10.75:12.9": {
-            "scid": "an10.75:12.9",
-            "pli": "mā puggalesu pamāṇaṁ gaṇhittha. ",
-            "de": "Fälle kein <span class=\"ebt-matched\">Urteil über Menschen</span>. ",
-            "en": "Don’t pass judgment on individuals. ",
-            "matched": true
-          },
-          "an10.75:25.8": {
-            "scid": "an10.75:25.8",
-            "pli": "mā puggalesu pamāṇaṁ gaṇhittha. ",
-            "de": "Fälle kein <span class=\"ebt-matched\">Urteil über Menschen</span>. ",
-            "en": "Don’t pass judgment on individuals. ",
-            "matched": true
-          }
-        },
-        "author_uid": "sabbamitta",
-        "bilaraPaths": [
-          "root/pli/ms/sutta/an/an10/an10.75_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/an/an10/an10.75_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/an/an10/an10.75_translation-en-sujato.json"
-        ],
-        "category": "sutta",
-        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
-        "hyphen": "­",
-        "lang": "de",
-        "langSegs": {
-          "pli": 117,
-          "de": 106,
-          "en": 116
-        },
-        "maxWord": 30,
-        "minWord": 5,
-        "score": 2.017,
-        "segsMatched": 2,
-        "sutta_uid": "an10.75",
-        "title": "Nummerierte Lehrreden 10.75\n8. Das Kapitel über das Wünschen\nMit Migasālā",
-        "type": "translation"
-      }
-    ],
+    "suttaRefs": [],
+    "mlDocs": [],
     "refLang": "en",
     "refAuthor": "sujato",
     "docLang": "de",

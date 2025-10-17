@@ -41,25 +41,25 @@
     "pattern": "maus",
     "method": "phrase",
     "resultPattern": "\\bmaus",
-    "segsMatched": 9,
+    "segsMatched": 11,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn20/sn20.10_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn20/sn20.10_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn20/sn20.10_translation-en-sujato.json",
-      "root/pli/ms/sutta/mn/mn50_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/mn/mn50_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/mn/mn50_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an4/an4.107_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an4/an4.107_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an4/an4.107_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn50_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn50_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn50_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/thag/thag3.4_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/thag/thag3.4_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/thag/thag3.4_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "sn20.10/de/sabbamitta",
-      "mn50/de/sabbamitta",
       "an4.107/de/sabbamitta",
+      "mn50/de/sabbamitta",
       "thag3.4/de/sabbamitta"
     ],
     "mlDocs": [
@@ -124,14 +124,28 @@
           "an4.107:2.6": {
             "scid": "an4.107:2.6",
             "pli": "Seyyathāpi sā, bhikkhave, mūsikā gādhaṁ kattā, no vasitā; ",
-            "de": "Dieser Mensch ist wie eine <span class=\"ebt-matched\">Maus</span>, die ein Loch macht, doch nicht darin wohnt. ",
+            "de": "Diese Person ist wie eine <span class=\"ebt-matched\">Maus</span>, die ein Loch macht, doch nicht darin wohnt. ",
             "en": "That individual is like a mouse that makes a hole but doesn’t live in it, I say. ",
+            "matched": true
+          },
+          "an4.107:3.6": {
+            "scid": "an4.107:3.6",
+            "pli": "Seyyathāpi sā, bhikkhave, mūsikā vasitā hoti, no gādhaṁ kattā; ",
+            "de": "Diese Person ist wie eine <span class=\"ebt-matched\">Maus</span>, die in einem Loch wohnt, es aber nicht gemacht hat. ",
+            "en": "",
+            "matched": true
+          },
+          "an4.107:4.6": {
+            "scid": "an4.107:4.6",
+            "pli": "Seyyathāpi sā, bhikkhave, mūsikā neva gādhaṁ kattā hoti, no vasitā; ",
+            "de": "Diese Person ist wie eine <span class=\"ebt-matched\">Maus</span>, die weder ein Loch macht noch darin wohnt. ",
+            "en": "",
             "matched": true
           },
           "an4.107:5.6": {
             "scid": "an4.107:5.6",
             "pli": "Seyyathāpi sā, bhikkhave, mūsikā gādhaṁ kattā ca hoti vasitā ca; ",
-            "de": "Dieser Mensch ist wie eine <span class=\"ebt-matched\">Maus</span>, die ein Loch macht und auch darin wohnt. ",
+            "de": "Diese Person ist wie eine <span class=\"ebt-matched\">Maus</span>, die ein Loch macht und auch darin wohnt. ",
             "en": "",
             "matched": true
           }
@@ -153,8 +167,8 @@
         },
         "maxWord": 30,
         "minWord": 5,
-        "score": 2.043,
-        "segsMatched": 2,
+        "score": 4.087,
+        "segsMatched": 4,
         "sutta_uid": "an4.107",
         "title": "Nummerierte Lehrreden 4.107\n11. Das Kapitel über Wolken\nMäuse",
         "type": "translation"
