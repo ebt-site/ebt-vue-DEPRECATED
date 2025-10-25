@@ -41,18 +41,22 @@
     "pattern": "übertretung",
     "method": "phrase",
     "resultPattern": "\\bübertretung",
-    "segsMatched": 6,
+    "segsMatched": 7,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an5/an5.142_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.142_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.142_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn11/sn11.24_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn11/sn11.24_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn11/sn11.24_translation-en-sujato.json"
+      "translation/en/sujato/sutta/sn/sn11/sn11.24_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn103_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn103_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn103_translation-en-sujato.json"
     ],
     "suttaRefs": [
       "an5.142/de/sabbamitta",
-      "sn11.24/de/sabbamitta"
+      "sn11.24/de/sabbamitta",
+      "mn103/de/sabbamitta"
     ],
     "mlDocs": [
       {
@@ -149,6 +153,40 @@
         "segsMatched": 1,
         "sutta_uid": "sn11.24",
         "title": "Nummerierte Lehrreden 11.25\n3. Das dritte Kapitel\nÜbertretung",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn103:9.1": {
+            "scid": "mn103:9.1",
+            "pli": "Tesañca vo, bhikkhave, samaggānaṁ sammodamānānaṁ avivadamānānaṁ sikkhataṁ siyā aññatarassa bhikkhuno āpatti siyā vītikkamo, ",
+            "de": "Während ihr euch in Eintracht schult, mit gegenseitiger Wertschätzung, ohne Streit, kann es sein, dass einer der Mönche einen Verstoß oder eine <span class=\"ebt-matched\">Übertretung</span> begeht. ",
+            "en": "As you train in harmony, appreciating each other, without dispute, one of the mendicants might commit an offense or transgression. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn103_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn103_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn103_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 128,
+          "de": 124,
+          "en": 127
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.008,
+        "segsMatched": 1,
+        "sutta_uid": "mn103",
+        "title": "Mittlere Lehrreden 103\nDenkt ihr so über mich?",
         "type": "translation"
       }
     ],
