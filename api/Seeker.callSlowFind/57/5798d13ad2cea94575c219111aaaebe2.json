@@ -1,0 +1,139 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sabbamitta",
+      "docLang": "de",
+      "docAuthor": "sabbamitta",
+      "includeUnpublished": false,
+      "lang": "de",
+      "langAuthor": "sabbamitta",
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "arten der fortpflanzung",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "de",
+      "searchAuthor": "sabbamitta",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sabbamitta",
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "arten der fortpflanzung",
+    "method": "phrase",
+    "resultPattern": "\\barten\\sder\\sfortpflanzung",
+    "segsMatched": 3,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn12_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn12_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn12_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "mn12/de/sabbamitta",
+      "dn33/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn12:32.1": {
+            "scid": "mn12:32.1",
+            "pli": "Catasso kho imā, sāriputta, yoniyo. ",
+            "de": "Sāriputta, es gibt vier <span class=\"ebt-matched\">Arten der Fortpflanzung</span>. ",
+            "en": "Sāriputta, there are these four kinds of reproduction. ",
+            "matched": true
+          },
+          "mn12:33.13": {
+            "scid": "mn12:33.13",
+            "pli": "Imā kho, sāriputta, catasso yoniyo. ",
+            "de": "Das sind die vier <span class=\"ebt-matched\">Arten der Fortpflanzung</span>. ",
+            "en": "These are the four kinds of reproduction. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn12_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn12_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn12_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 372,
+          "de": 320,
+          "en": 371
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 2.005,
+        "segsMatched": 2,
+        "sutta_uid": "mn12",
+        "title": "Mittlere Lehrreden 12\nDie längere Lehrrede über das Löwengebrüll",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "dn33:1.11.173": {
+            "scid": "dn33:1.11.173",
+            "pli": "Catasso yoniyo—",
+            "de": "Vier <span class=\"ebt-matched\">Arten der Fortpflanzung</span>: ",
+            "en": "<em>Four kinds of reproduction:</em> ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn33_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn33_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn33_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 1167,
+          "de": 1166,
+          "en": 1166
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.001,
+        "segsMatched": 1,
+        "sutta_uid": "dn33",
+        "title": "Lange Lehrreden 33\nIm Chor aufsagen",
+        "type": "translation"
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "de",
+    "docAuthor": "sabbamitta"
+  }
+}

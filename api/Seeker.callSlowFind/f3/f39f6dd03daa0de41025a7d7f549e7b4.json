@@ -1,0 +1,132 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sabbamitta",
+      "docLang": "de",
+      "docAuthor": "sabbamitta",
+      "includeUnpublished": false,
+      "lang": "de",
+      "langAuthor": "sabbamitta",
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "achtsamkeit und meine weisheit",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "de",
+      "searchAuthor": "sabbamitta",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sabbamitta",
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "achtsamkeit und meine weisheit",
+    "method": "phrase",
+    "resultPattern": "\\bachtsamkeit\\sund\\smeine\\sweisheit",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn4/sn4.22_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn4/sn4.22_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn4/sn4.22_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag1.46_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag1.46_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag1.46_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn4.22/de/sabbamitta",
+      "thag1.46/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "thag1.46:1.3": {
+            "scid": "thag1.46:1.3",
+            "pli": "Sati paññā ca me vuḍḍhā, ",
+            "de": "Meine <span class=\"ebt-matched\">Achtsamkeit und meine Weisheit</span> sind gewachsen, ",
+            "en": "My mindfulness and wisdom have grown, ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag1.46_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/thag/thag1.46_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/thag/thag1.46_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 11,
+          "de": 10,
+          "en": 10
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.091,
+        "segsMatched": 1,
+        "sutta_uid": "thag1.46",
+        "title": "Strophen der altehrwürdigen Mönche 1.46\nDas Einerbuch\n5. Das fünfte Kapitel\nSamiddhi",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "sn4.22:4.3": {
+            "scid": "sn4.22:4.3",
+            "pli": "Sati paññā ca me buddhā, ",
+            "de": "Meine <span class=\"ebt-matched\">Achtsamkeit und meine Weisheit</span> sind reif, ",
+            "en": "My mindfulness and wisdom are mature, ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn4/sn4.22_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn4/sn4.22_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn4/sn4.22_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 39,
+          "de": 29,
+          "en": 39
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.026,
+        "segsMatched": 1,
+        "sutta_uid": "sn4.22",
+        "title": "Verbundene Lehrreden 4.22\n3. Das Kapitel über Māra\nMit Samiddhi",
+        "type": "translation"
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "de",
+    "docAuthor": "sabbamitta"
+  }
+}

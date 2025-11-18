@@ -1,0 +1,124 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sujato",
+      "docLang": "en",
+      "docAuthor": "sujato",
+      "includeUnpublished": false,
+      "lang": "en",
+      "langAuthor": "sujato",
+      "languages": [
+        "pli",
+        "en",
+        "ref"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "full of pleasure",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "en",
+      "searchAuthor": "sujato",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sujato",
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "full of pleasure",
+    "method": "phrase",
+    "resultPattern": "\\bfull\\sof\\spleasure",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn16/sn16.11_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn16/sn16.11_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
+      "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn16.11/en/sujato",
+      "dn34/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "author": "Bhikkhu Sujato",
+        "segMap": {
+          "sn16.11:12.2": {
+            "scid": "sn16.11:12.2",
+            "pli": "“sātasahagatā ca me kāyagatāsati na vijahissatī”ti. ",
+            "en": "“I will never neglect mindfulness of the body that is <span class=\"ebt-matched\">full of pleasure</span>.” ",
+            "matched": true
+          }
+        },
+        "author_uid": "sujato",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn16/sn16.11_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn16/sn16.11_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "en",
+        "langSegs": {
+          "pli": 79,
+          "en": 78
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.013,
+        "segsMatched": 1,
+        "sutta_uid": "sn16.11",
+        "title": "Linked Discourses 16.11\n1. Kassapa\nRobes",
+        "type": "translation"
+      },
+      {
+        "author": "Bhikkhu Sujato",
+        "segMap": {
+          "dn34:1.2.6": {
+            "scid": "dn34:1.2.6",
+            "pli": "Kāyagatāsati sātasahagatā. ",
+            "en": "Mindfulness of the body that is <span class=\"ebt-matched\">full of pleasure</span>. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sujato",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn34_root-pli-ms.json",
+          "translation/en/sujato/sutta/dn/dn34_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "en",
+        "langSegs": {
+          "pli": 894,
+          "en": 891
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.001,
+        "segsMatched": 1,
+        "sutta_uid": "dn34",
+        "title": "Long Discourses 34\nUp to Ten",
+        "type": "translation"
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "en",
+    "docAuthor": "sujato"
+  }
+}

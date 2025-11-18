@@ -1,0 +1,94 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "kaz",
+      "docLang": "jpn",
+      "docAuthor": "kaz",
+      "includeUnpublished": false,
+      "lang": "jpn",
+      "langAuthor": "kaz",
+      "languages": [
+        "pli",
+        "en",
+        "jpn"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "心で作られた体",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "jpn",
+      "searchAuthor": "kaz",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "kaz",
+    "lang": "jpn",
+    "searchLang": "jpn",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "心で作られた体",
+    "method": "phrase",
+    "resultPattern": "心で作られた体",
+    "segsMatched": 1,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an1/an1.198-208_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an1/an1.198-208_translation-en-sujato.json",
+      "translation/jpn/kaz/sutta/an/an1/an1.198-208_translation-jpn-kaz.json"
+    ],
+    "suttaRefs": [
+      "an1.198-208/jpn/kaz"
+    ],
+    "mlDocs": [
+      {
+        "author": "竹原 一江",
+        "segMap": {
+          "an1.198:1.1": {
+            "scid": "an1.198:1.1",
+            "pli": "“Etadaggaṁ, bhikkhave, mama sāvakānaṁ bhikkhūnaṁ manomayaṁ kāyaṁ abhinimminantānaṁ yadidaṁ cūḷapanthako. ",
+            "en": "“The foremost of my monk disciples in creating a mind-made body is Cūḷapanthaka. ",
+            "jpn": "「私の弟子僧で<span class=\"ebt-matched\">心で作られた体</span>を一番上手に生み出せる者はチューラパンタカです。 ",
+            "matched": true
+          }
+        },
+        "author_uid": "kaz",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an1/an1.198-208_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an1/an1.198-208_translation-en-sujato.json",
+          "translation/jpn/kaz/sutta/an/an1/an1.198-208_translation-jpn-kaz.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "jpn",
+        "langSegs": {
+          "pli": 14,
+          "en": 13,
+          "jpn": 13
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.071,
+        "segsMatched": 1,
+        "sutta_uid": "an1.198-208",
+        "title": "増支部経典 一集\n第十五　一番（第二）（是第一品）",
+        "type": "translation"
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "jpn",
+    "docAuthor": "kaz"
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sujato",
+      "docLang": "en",
+      "docAuthor": "sujato",
+      "includeUnpublished": false,
+      "lang": "en",
+      "langAuthor": "sujato",
+      "languages": [
+        "pli",
+        "en",
+        "ref"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "gave him her milk",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "en",
+      "searchAuthor": "sujato",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sujato",
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "gave him her milk",
+    "method": "phrase",
+    "resultPattern": "\\bgave\\shim\\sher\\smilk",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn142_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn142_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an8/an8.51_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an8/an8.51_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "mn142/en/sujato",
+      "an8.51/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "author": "Bhikkhu Sujato",
+        "segMap": {
+          "an8.51:9.8": {
+            "scid": "an8.51:9.8",
+            "pli": "bahukārā, bhante, mahāpajāpatī gotamī bhagavato mātucchā āpādikā posikā khīrassa dāyikā; ",
+            "en": "Sir, Mahāpajāpati has been very helpful to the Buddha. She is his aunt who raised him, nurtured him, and <span class=\"ebt-matched\">gave him her milk</span>. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sujato",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an8/an8.51_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an8/an8.51_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "en",
+        "langSegs": {
+          "pli": 92,
+          "en": 91
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.011,
+        "segsMatched": 1,
+        "sutta_uid": "an8.51",
+        "title": "Numbered Discourses 8.51\n6. Gotamī\nWith Gotamī",
+        "type": "translation"
+      },
+      {
+        "author": "Bhikkhu Sujato",
+        "segMap": {
+          "mn142:3.3": {
+            "scid": "mn142:3.3",
+            "pli": "Bahūpakārā, bhante, mahāpajāpati gotamī bhagavato mātucchā āpādikā posikā khīrassa dāyikā; ",
+            "en": "Sir, Mahāpajāpati was very helpful to the Buddha. As his aunt, she raised him, nurtured him, and <span class=\"ebt-matched\">gave him her milk</span>. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sujato",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn142_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn142_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "en",
+        "langSegs": {
+          "pli": 141,
+          "en": 139
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.007,
+        "segsMatched": 1,
+        "sutta_uid": "mn142",
+        "title": "Middle Discourses 142\nThe Analysis of Religious Donations",
+        "type": "translation"
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "en",
+    "docAuthor": "sujato"
+  }
+}

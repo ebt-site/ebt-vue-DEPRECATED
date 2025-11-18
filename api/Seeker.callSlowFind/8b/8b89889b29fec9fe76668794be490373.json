@@ -1,0 +1,139 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sabbamitta",
+      "docLang": "de",
+      "docAuthor": "sabbamitta",
+      "includeUnpublished": false,
+      "lang": "de",
+      "langAuthor": "sabbamitta",
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "eine große herausforderung",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "de",
+      "searchAuthor": "sabbamitta",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sabbamitta",
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "eine große herausforderung",
+    "method": "phrase",
+    "resultPattern": "\\beine\\sgroße\\sherausforderung",
+    "segsMatched": 3,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn4_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn4_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn4_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.99_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.99_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.99_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "mn4/de/sabbamitta",
+      "an10.99/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn4:2.8": {
+            "scid": "mn4:2.8",
+            "pli": "“Durabhisambhavāni hi kho, bho gotama, araññavanapatthāni pantāni senāsanāni, dukkaraṁ pavivekaṁ, durabhiramaṁ ekatte, ",
+            "de": "„Aber werter Gotama, abgelegene Unterkünfte in der Wildnis und im Wald sind <span class=\"ebt-matched\">eine große Herausforderung</span>. Es ist schwer, abgeschieden zu leben, und es ist schwer, in der Einsamkeit Freude zu finden. ",
+            "en": "“But worthy Gotama, remote lodgings in the wilderness and the forest are challenging. It’s hard to maintain seclusion and hard to find joy in solitude. ",
+            "matched": true
+          },
+          "mn4:3.2": {
+            "scid": "mn4:3.2",
+            "pli": "‘durabhisambhavāni hi kho araññavanapatthāni pantāni senāsanāni, dukkaraṁ pavivekaṁ, durabhiramaṁ ekatte, ",
+            "de": "‚Abgelegene Unterkünfte in der Wildnis und im Wald sind <span class=\"ebt-matched\">eine große Herausforderung</span>. Es ist schwer, abgeschieden zu leben, und es ist schwer, in der Einsamkeit Freude zu finden. ",
+            "en": "‘Remote lodgings in the wilderness and the forest are challenging. It’s hard to maintain seclusion and hard to find joy in solitude. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn4_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn4_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn4_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 165,
+          "de": 159,
+          "en": 110
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 2.012,
+        "segsMatched": 2,
+        "sutta_uid": "mn4",
+        "title": "Mittlere Lehrreden 4\nAngst und Schrecken",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "an10.99:2.1": {
+            "scid": "an10.99:2.1",
+            "pli": "“Durabhisambhavāni hi kho, upāli, araññavanapatthāni pantāni senāsanāni. ",
+            "de": "„Upāli, abgelegene Unterkünfte in der Wildnis und im Wald sind <span class=\"ebt-matched\">eine große Herausforderung</span>. ",
+            "en": "“Upāli, remote lodgings in the wilderness and the forest are challenging. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an10/an10.99_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an10/an10.99_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an10/an10.99_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 148,
+          "de": 146,
+          "en": 147
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.007,
+        "segsMatched": 1,
+        "sutta_uid": "an10.99",
+        "title": "Nummerierte Lehrreden 10.99\n10. Das Kapitel mit Upāli\nMit Upāli",
+        "type": "translation"
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "de",
+    "docAuthor": "sabbamitta"
+  }
+}

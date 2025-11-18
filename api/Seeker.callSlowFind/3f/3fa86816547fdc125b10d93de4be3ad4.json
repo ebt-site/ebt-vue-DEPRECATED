@@ -1,0 +1,146 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sabbamitta",
+      "docLang": "de",
+      "docAuthor": "sabbamitta",
+      "includeUnpublished": false,
+      "lang": "de",
+      "langAuthor": "sabbamitta",
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "elefant in der wildnis",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "de",
+      "searchAuthor": "sabbamitta",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sabbamitta",
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "elefant in der wildnis",
+    "method": "phrase",
+    "resultPattern": "\\belefant\\sin\\sder\\swildnis",
+    "segsMatched": 4,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn128_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn128_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn128_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/dhp/dhp320-333_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/dhp/dhp320-333_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/dhp/dhp320-333_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "mn128/de/sabbamitta",
+      "dhp320-333/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "dhp329:4": {
+            "scid": "dhp329:4",
+            "pli": "Eko care mātaṅgaraññeva nāgo. ",
+            "de": "wandere allein wie ein <span class=\"ebt-matched\">Elefant in der Wildnis</span>. ",
+            "en": "wander alone like a tusker in the wilds. ",
+            "matched": true
+          },
+          "dhp330:4": {
+            "scid": "dhp330:4",
+            "pli": "Appossukko mātaṅgaraññeva nāgo. ",
+            "de": "sei unbeschwert wie ein <span class=\"ebt-matched\">Elefant in der Wildnis</span>. ",
+            "en": "at ease like a tusker in the wilds. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/dhp/dhp320-333_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/kn/dhp/dhp320-333_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/kn/dhp/dhp320-333_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 68,
+          "de": 59,
+          "en": 59
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 2.029,
+        "segsMatched": 2,
+        "sutta_uid": "dhp320-333",
+        "title": "Kleinere Sammlung\nDhammasprüche 320–333\n23. Das Kapitel über Elefanten\nAttadantavatthu",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn128:6.37": {
+            "scid": "mn128:6.37",
+            "pli": "Eko care mātaṅgaraññeva nāgo. ",
+            "de": "wandere allein wie ein <span class=\"ebt-matched\">Elefant in der Wildnis</span>. ",
+            "en": "wander alone like a tusker in the wilds. ",
+            "matched": true
+          },
+          "mn128:6.41": {
+            "scid": "mn128:6.41",
+            "pli": "Appossukko mātaṅgaraññeva nāgo”ti. ",
+            "de": "sei unbeschwert wie ein <span class=\"ebt-matched\">Elefant in der Wildnis</span>.“ ",
+            "en": "at ease like a tusker in the wilds.” ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn128_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn128_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn128_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 279,
+          "de": 251,
+          "en": 278
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 2.007,
+        "segsMatched": 2,
+        "sutta_uid": "mn128",
+        "title": "Mittlere Lehrreden 128\nVerunreinigungen",
+        "type": "translation"
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "de",
+    "docAuthor": "sabbamitta"
+  }
+}

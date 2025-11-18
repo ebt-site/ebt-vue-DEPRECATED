@@ -1,0 +1,90 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sujato",
+      "docLang": "en",
+      "docAuthor": "sujato",
+      "includeUnpublished": false,
+      "lang": "en",
+      "langAuthor": "sujato",
+      "languages": [
+        "pli",
+        "en",
+        "ref"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "language",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "en",
+      "searchAuthor": "sujato",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sujato",
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "language",
+    "method": "phrase",
+    "resultPattern": "\\blanguage",
+    "segsMatched": 1,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn74_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn74_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "mn74/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "author": "Bhikkhu Sujato",
+        "segMap": {
+          "mn74:13.1": {
+            "scid": "mn74:13.1",
+            "pli": "Evaṁ vimuttacitto kho, aggivessana, bhikkhu na kenaci saṁvadati, na kenaci vivadati, yañca loke vuttaṁ tena voharati, aparāmasan”ti. ",
+            "en": "A mendicant whose mind is freed like this doesn’t side with anyone or dispute with anyone. They use the <span class=\"ebt-matched\">language</span> of the world to communicate without getting stuck on it.” ",
+            "matched": true
+          }
+        },
+        "author_uid": "sujato",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn74_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn74_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "en",
+        "langSegs": {
+          "pli": 104,
+          "en": 103
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.01,
+        "segsMatched": 1,
+        "sutta_uid": "mn74",
+        "title": "Middle Discourses 74\nWith Dīghanakha",
+        "type": "translation"
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "en",
+    "docAuthor": "sujato"
+  }
+}

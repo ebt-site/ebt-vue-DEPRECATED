@@ -1,0 +1,94 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sabbamitta",
+      "docLang": "de",
+      "docAuthor": "sabbamitta",
+      "includeUnpublished": false,
+      "lang": "de",
+      "langAuthor": "sabbamitta",
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "die welt streitet mit mir",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "de",
+      "searchAuthor": "sabbamitta",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sabbamitta",
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "die welt streitet mit mir",
+    "method": "phrase",
+    "resultPattern": "\\bdie\\swelt\\sstreitet\\smit\\smir",
+    "segsMatched": 1,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn22/sn22.94_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn22/sn22.94_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.94_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn22.94/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "sn22.94:1.2": {
+            "scid": "sn22.94:1.2",
+            "pli": "“Nāhaṁ, bhikkhave, lokena vivadāmi, lokova mayā vivadati. ",
+            "de": "„Mönche und Nonnen, ich streite nicht mit der Welt; <span class=\"ebt-matched\">die Welt streitet mit mir</span>. ",
+            "en": "“Mendicants, I do not dispute with the world; it is the world that disputes with me. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.94_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn22/sn22.94_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.94_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 35,
+          "de": 34,
+          "en": 34
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.029,
+        "segsMatched": 1,
+        "sutta_uid": "sn22.94",
+        "title": "Verbundene Lehrreden 22.94\n10. Das Kapitel über Blumen\nBlumen",
+        "type": "translation"
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "de",
+    "docAuthor": "sabbamitta"
+  }
+}

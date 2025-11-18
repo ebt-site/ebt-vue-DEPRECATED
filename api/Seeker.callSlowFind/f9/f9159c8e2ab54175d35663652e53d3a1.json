@@ -1,0 +1,130 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sujato",
+      "docLang": "en",
+      "docAuthor": "sujato",
+      "includeUnpublished": false,
+      "lang": "en",
+      "langAuthor": "sujato",
+      "languages": [
+        "pli",
+        "en",
+        "ref"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "such form in the past",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "en",
+      "searchAuthor": "sujato",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sujato",
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "such form in the past",
+    "method": "phrase",
+    "resultPattern": "\\bsuch\\sform\\sin\\sthe\\spast",
+    "segsMatched": 3,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn131_root-pli-ms.json",
+      "translation/en/sujato/sutta/mn/mn131_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.79_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.79_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "mn131/en/sujato",
+      "sn22.79/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "author": "Bhikkhu Sujato",
+        "segMap": {
+          "mn131:4.2": {
+            "scid": "mn131:4.2",
+            "pli": "‘Evaṁrūpo ahosiṁ atītamaddhānan’ti tattha nandiṁ samanvāneti, ‘evaṁvedano ahosiṁ atītamaddhānan’ti tattha nandiṁ samanvāneti, ‘evaṁsañño ahosiṁ atītamaddhānan’ti tattha nandiṁ samanvāneti, ‘evaṁsaṅkhāro ahosiṁ atītamaddhānan’ti tattha nandiṁ samanvāneti, ‘evaṁviññāṇo ahosiṁ atītamaddhānan’ti tattha nandiṁ samanvāneti—",
+            "en": "You muster delight there, thinking: ‘I had <span class=\"ebt-matched\">such form in the past</span>.’ … ‘I had such feeling … perception … choice … consciousness in the past.’ ",
+            "matched": true
+          },
+          "mn131:5.2": {
+            "scid": "mn131:5.2",
+            "pli": "‘Evaṁrūpo ahosiṁ atītamaddhānan’ti tattha nandiṁ na samanvāneti, ‘evaṁvedano ahosiṁ atītamaddhānan’ti tattha nandiṁ na samanvāneti, ‘evaṁsañño ahosiṁ atītamaddhānan’ti tattha nandiṁ na samanvāneti, ‘evaṁsaṅkhāro ahosiṁ atītamaddhānan’ti tattha nandiṁ na samanvāneti, ‘evaṁviññāṇo ahosiṁ atītamaddhānan’ti tattha nandiṁ na samanvāneti—",
+            "en": "You don’t muster delight there, thinking: ‘I had <span class=\"ebt-matched\">such form in the past</span>.’ … ‘I had such feeling … perception … choice … consciousness in the past.’ ",
+            "matched": true
+          }
+        },
+        "author_uid": "sujato",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn131_root-pli-ms.json",
+          "translation/en/sujato/sutta/mn/mn131_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "en",
+        "langSegs": {
+          "pli": 77,
+          "en": 76
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 2.026,
+        "segsMatched": 2,
+        "sutta_uid": "mn131",
+        "title": "Middle Discourses 131\nOne Fine Night",
+        "type": "translation"
+      },
+      {
+        "author": "Bhikkhu Sujato",
+        "segMap": {
+          "sn22.79:1.4": {
+            "scid": "sn22.79:1.4",
+            "pli": "‘Evaṁrūpo ahosiṁ atītamaddhānan’ti—",
+            "en": "‘I had <span class=\"ebt-matched\">such form in the past</span>.’ ",
+            "matched": true
+          }
+        },
+        "author_uid": "sujato",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn22/sn22.79_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn22/sn22.79_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "en",
+        "langSegs": {
+          "pli": 153,
+          "en": 152
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.007,
+        "segsMatched": 1,
+        "sutta_uid": "sn22.79",
+        "title": "Linked Discourses 22.79\n8. Bitable\nBitable",
+        "type": "translation"
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "en",
+    "docAuthor": "sujato"
+  }
+}

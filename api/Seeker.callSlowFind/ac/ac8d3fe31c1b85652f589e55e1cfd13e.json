@@ -1,0 +1,132 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sabbamitta",
+      "docLang": "de",
+      "docAuthor": "sabbamitta",
+      "includeUnpublished": false,
+      "lang": "de",
+      "langAuthor": "sabbamitta",
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "wo entsteht dieses verlangen",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "de",
+      "searchAuthor": "sabbamitta",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sabbamitta",
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "wo entsteht dieses verlangen",
+    "method": "phrase",
+    "resultPattern": "\\bwo\\sentsteht\\sdieses\\sverlangen",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn12/sn12.66_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn12/sn12.66_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.66_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn22_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn22_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn22_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn12.66/de/sabbamitta",
+      "dn22/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "sn12.66:5.2": {
+            "scid": "sn12.66:5.2",
+            "pli": "‘taṇhā panāyaṁ kattha uppajjamānā uppajjati, kattha nivisamānā nivisatī’ti? ",
+            "de": "‚Aber <span class=\"ebt-matched\">wo entsteht dieses Verlangen</span> und setzt sich fest?‘ ",
+            "en": "‘But where does that craving arise and where does it settle?’ ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn12/sn12.66_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/sn/sn12/sn12.66_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/sn/sn12/sn12.66_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 117,
+          "de": 116,
+          "en": 116
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.009,
+        "segsMatched": 1,
+        "sutta_uid": "sn12.66",
+        "title": "Verbundene Lehrreden 12.66\n7. Das große Kapitel\nSelbstuntersuchung",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "dn22:19.4": {
+            "scid": "dn22:19.4",
+            "pli": "Sā kho panesā, bhikkhave, taṇhā kattha uppajjamānā uppajjati, kattha nivisamānā nivisati? ",
+            "de": "Aber <span class=\"ebt-matched\">wo entsteht dieses Verlangen</span> und setzt sich fest? ",
+            "en": "But where does that craving arise and where does it settle? ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn22_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn22_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn22_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 454,
+          "de": 361,
+          "en": 453
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.002,
+        "segsMatched": 1,
+        "sutta_uid": "dn22",
+        "title": "Lange Lehrreden 22\nDie längere Lehrrede über Achtsamkeitsmeditation",
+        "type": "translation"
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "de",
+    "docAuthor": "sabbamitta"
+  }
+}

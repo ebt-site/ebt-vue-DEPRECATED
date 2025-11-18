@@ -1,0 +1,160 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sujato",
+      "docLang": "en",
+      "docAuthor": "sujato",
+      "includeUnpublished": false,
+      "lang": "en",
+      "langAuthor": "sujato",
+      "languages": [
+        "pli",
+        "en",
+        "ref"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "that was my ordination",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "en",
+      "searchAuthor": "sujato",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sujato",
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "that was my ordination",
+    "method": "phrase",
+    "resultPattern": "\\bthat\\swas\\smy\\sordination",
+    "segsMatched": 3,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/kn/thig/thig5.9_root-pli-ms.json",
+      "translation/en/soma/sutta/kn/thig/thig5.9_translation-en-soma.json",
+      "translation/en/sujato/sutta/kn/thig/thig5.9_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag7.3_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/thag/thag7.3_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag12.2_root-pli-ms.json",
+      "translation/en/sujato/sutta/kn/thag/thag12.2_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "thig5.9/en/sujato",
+      "thag7.3/en/sujato",
+      "thag12.2/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "author": "Bhikkhu Sujato",
+        "segMap": {
+          "thig5.9:3.4": {
+            "scid": "thig5.9:3.4",
+            "pli": "sā me āsūpasampadā. ",
+            "en": "<span class=\"ebt-matched\">that was my ordination</span>. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sujato",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thig/thig5.9_root-pli-ms.json",
+          "translation/en/soma/sutta/kn/thig/thig5.9_translation-en-soma.json",
+          "translation/en/sujato/sutta/kn/thig/thig5.9_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "en",
+        "langSegs": {
+          "pli": 24,
+          "en": 23
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.042,
+        "segsMatched": 1,
+        "sutta_uid": "thig5.9",
+        "title": "Verses of the Senior Nuns 5.9\nThe Book of the Fives\nBhaddā of the Curly Hair",
+        "type": "translation"
+      },
+      {
+        "author": "Bhikkhu Sujato",
+        "segMap": {
+          "thag7.3:6.4": {
+            "scid": "thag7.3:6.4",
+            "pli": "sā me āsūpasampadā. ",
+            "en": "<span class=\"ebt-matched\">That was my ordination</span>. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sujato",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag7.3_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/thag/thag7.3_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "en",
+        "langSegs": {
+          "pli": 33,
+          "en": 32
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.03,
+        "segsMatched": 1,
+        "sutta_uid": "thag7.3",
+        "title": "Verses of the Senior Monks 7.3\nThe Book of the Sevens\nChapter One\nBhadda",
+        "type": "translation"
+      },
+      {
+        "author": "Bhikkhu Sujato",
+        "segMap": {
+          "thag12.2:6.4": {
+            "scid": "thag12.2:6.4",
+            "pli": "sā me āsūpasampadā. ",
+            "en": "<span class=\"ebt-matched\">That was my ordination</span>. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sujato",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/kn/thag/thag12.2_root-pli-ms.json",
+          "translation/en/sujato/sutta/kn/thag/thag12.2_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "en",
+        "langSegs": {
+          "pli": 61,
+          "en": 54
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.016,
+        "segsMatched": 1,
+        "sutta_uid": "thag12.2",
+        "title": "Verses of the Senior Monks 12.2\nThe Book of the Twelves\nChapter One\nSunīta",
+        "type": "translation"
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "en",
+    "docAuthor": "sujato"
+  }
+}

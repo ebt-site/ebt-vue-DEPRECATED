@@ -1,0 +1,96 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sujato",
+      "docLang": "en",
+      "docAuthor": "sujato",
+      "includeUnpublished": false,
+      "lang": "en",
+      "langAuthor": "sujato",
+      "languages": [
+        "pli",
+        "en",
+        "ref"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "i kill",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "en",
+      "searchAuthor": "sujato",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sujato",
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "i kill",
+    "method": "phrase",
+    "resultPattern": "\\bi\\skill",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an4/an4.111_root-pli-ms.json",
+      "translation/en/sujato/sutta/an/an4/an4.111_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an4.111/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "author": "Bhikkhu Sujato",
+        "segMap": {
+          "an4.111:1.7": {
+            "scid": "an4.111:1.7",
+            "pli": "hanāmi naṁ, bhante. ",
+            "en": "“In that case, sir, <span class=\"ebt-matched\">I kill</span> it. ",
+            "matched": true
+          },
+          "an4.111:4.2": {
+            "scid": "an4.111:4.2",
+            "pli": "“Sace me, kesi, purisadammo saṇhena vinayaṁ na upeti, pharusena vinayaṁ na upeti, saṇhapharusena vinayaṁ na upeti, hanāmi naṁ, kesī”ti. ",
+            "en": "“In that case, Kesi, <span class=\"ebt-matched\">I kill</span> them.” ",
+            "matched": true
+          }
+        },
+        "author_uid": "sujato",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.111_root-pli-ms.json",
+          "translation/en/sujato/sutta/an/an4/an4.111_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "en",
+        "langSegs": {
+          "pli": 35,
+          "en": 34
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 2.057,
+        "segsMatched": 2,
+        "sutta_uid": "an4.111",
+        "title": "Numbered Discourses 4.111\n12. With Kesi\nWith Kesi",
+        "type": "translation"
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "en",
+    "docAuthor": "sujato"
+  }
+}

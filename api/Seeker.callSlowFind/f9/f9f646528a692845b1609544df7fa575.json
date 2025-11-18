@@ -1,0 +1,90 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sujato",
+      "docLang": "en",
+      "docAuthor": "sujato",
+      "includeUnpublished": false,
+      "lang": "en",
+      "langAuthor": "sujato",
+      "languages": [
+        "pli",
+        "en",
+        "ref"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "the eye is burning",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "en",
+      "searchAuthor": "sujato",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sujato",
+    "lang": "en",
+    "searchLang": "en",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "the eye is burning",
+    "method": "phrase",
+    "resultPattern": "\\bthe\\seye\\sis\\sburning",
+    "segsMatched": 1,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/sn/sn35/sn35.28_root-pli-ms.json",
+      "translation/en/sujato/sutta/sn/sn35/sn35.28_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "sn35.28/en/sujato"
+    ],
+    "mlDocs": [
+      {
+        "author": "Bhikkhu Sujato",
+        "segMap": {
+          "sn35.28:1.5": {
+            "scid": "sn35.28:1.5",
+            "pli": "Cakkhu, bhikkhave, ādittaṁ, rūpā ādittā, cakkhuviññāṇaṁ ādittaṁ, cakkhusamphasso āditto. Yampidaṁ cakkhusamphassapaccayā uppajjati vedayitaṁ sukhaṁ vā dukkhaṁ vā adukkhamasukhaṁ vā tampi ādittaṁ. ",
+            "en": "<span class=\"ebt-matched\">The eye is burning</span>. Sights are burning. Eye consciousness is burning. Eye contact is burning. The painful, pleasant, or neutral feeling that arises dependent on eye contact is also burning. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sujato",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/sn/sn35/sn35.28_root-pli-ms.json",
+          "translation/en/sujato/sutta/sn/sn35/sn35.28_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "en",
+        "langSegs": {
+          "pli": 24,
+          "en": 23
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.042,
+        "segsMatched": 1,
+        "sutta_uid": "sn35.28",
+        "title": "Linked Discourses 35.28\n3. All\nBurning",
+        "type": "translation"
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "en",
+    "docAuthor": "sujato"
+  }
+}

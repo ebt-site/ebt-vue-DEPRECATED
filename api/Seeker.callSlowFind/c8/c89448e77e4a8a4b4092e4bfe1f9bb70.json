@@ -1,0 +1,101 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sabbamitta",
+      "docLang": "de",
+      "docAuthor": "sabbamitta",
+      "includeUnpublished": false,
+      "lang": "de",
+      "langAuthor": "sabbamitta",
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "als ‚kelch‘, als ‚schale‘, als ‚krug‘",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "de",
+      "searchAuthor": "sabbamitta",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sabbamitta",
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "als ‚kelch‘, als ‚schale‘, als ‚krug‘",
+    "method": "phrase",
+    "resultPattern": "\\bals\\s‚kelch‘,\\sals\\s‚schale‘,\\sals\\s‚krug‘",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/mn/mn139_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn139_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn139_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "mn139/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn139:12.4": {
+            "scid": "mn139:12.4",
+            "pli": "Idha, bhikkhave, tadevekaccesu janapadesu ‘pātī’ti sañjānanti, ‘pattan’ti sañjānanti, ‘vittan’ti sañjānanti, ‘sarāvan’ti sañjānanti ‘dhāropan’ti sañjānanti, ‘poṇan’ti sañjānanti, ‘pisīlavan’ti sañjānanti. ",
+            "de": "Da bezeichnet man in verschiedenen Bevölkerungsgruppen das gleiche Ding <span class=\"ebt-matched\">als ‚Kelch‘, als ‚Schale‘, als ‚Krug‘</span>, als ‚Kelle‘, als ‚Gefäß‘, als ‚Schüssel‘ oder als ‚Teller‘. ",
+            "en": "It’s when among different populations they label the same thing as a ‘cup’, a ‘bowl’, a ‘jar’, a ‘scoop’, a ‘vessel’, a ‘dish’, or a ‘plate’. ",
+            "matched": true
+          },
+          "mn139:12.9": {
+            "scid": "mn139:12.9",
+            "pli": "Idha, bhikkhave, tadevekaccesu janapadesu ‘pātī’ti sañjānanti, ‘pattan’ti sañjānanti, ‘vittan’ti sañjānanti, ‘sarāvan’ti sañjānanti, ‘dhāropan’ti sañjānanti, ‘poṇan’ti sañjānanti, ‘pisīlavan’ti sañjānanti. ",
+            "de": "Da bezeichnet man in verschiedenen Bevölkerungsgruppen das gleiche Ding <span class=\"ebt-matched\">als ‚Kelch‘, als ‚Schale‘, als ‚Krug‘</span>, als ‚Kelle‘, als ‚Gefäß‘, als ‚Schüssel‘ oder als ‚Teller‘. ",
+            "en": "It’s when among different populations they label the same thing as a ‘cup’, a ‘bowl’, a ‘jar’, a ‘scoop’, a ‘vessel’, a ‘dish’, or a ‘plate’. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn139_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn139_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn139_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 201,
+          "de": 200,
+          "en": 200
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 2.01,
+        "segsMatched": 2,
+        "sutta_uid": "mn139",
+        "title": "Mittlere Lehrreden 139\nDie Aufgliederung der Freiheit von Unfrieden",
+        "type": "translation"
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "de",
+    "docAuthor": "sabbamitta"
+  }
+}

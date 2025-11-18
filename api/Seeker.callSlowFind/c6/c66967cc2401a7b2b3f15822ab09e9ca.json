@@ -1,0 +1,94 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sabbamitta",
+      "docLang": "de",
+      "docAuthor": "sabbamitta",
+      "includeUnpublished": false,
+      "lang": "de",
+      "langAuthor": "sabbamitta",
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "mit zuversichtlichem herzen zuflucht",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "de",
+      "searchAuthor": "sabbamitta",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sabbamitta",
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "mit zuversichtlichem herzen zuflucht",
+    "method": "phrase",
+    "resultPattern": "\\bmit\\szuversichtlichem\\sherzen\\szuflucht",
+    "segsMatched": 1,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn5_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn5_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn5_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "dn5/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "dn5:25.4": {
+            "scid": "dn5:25.4",
+            "pli": "“Yo kho, brāhmaṇa, pasannacitto buddhaṁ saraṇaṁ gacchati, dhammaṁ saraṇaṁ gacchati, saṅghaṁ saraṇaṁ gacchati; ",
+            "de": "„Wenn jemand <span class=\"ebt-matched\">mit zuversichtlichem Herzen Zuflucht</span> zum Buddha, zur Lehre und zum Saṅgha nimmt.“ ",
+            "en": "“When someone with confident heart goes for refuge to the Buddha, the teaching, and the Saṅgha.” ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn5_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn5_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn5_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 374,
+          "de": 331,
+          "en": 373
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.003,
+        "segsMatched": 1,
+        "sutta_uid": "dn5",
+        "title": "Lange Lehrreden 5\nMit Kūṭadanta",
+        "type": "translation"
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "de",
+    "docAuthor": "sabbamitta"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sabbamitta",
+      "docLang": "de",
+      "docAuthor": "sabbamitta",
+      "includeUnpublished": false,
+      "lang": "de",
+      "langAuthor": "sabbamitta",
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "verlangen wird.* aufgegeben",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "de",
+      "searchAuthor": "sabbamitta",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sabbamitta",
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "verlangen wird.* aufgegeben",
+    "method": "phrase",
+    "resultPattern": "\\bverlangen\\swird.*\\saufgegeben",
+    "segsMatched": 1,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an4/an4.257_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an4/an4.257_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an4/an4.257_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an4.257/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "an4.257:3.8": {
+            "scid": "an4.257:3.8",
+            "pli": "Yato kho, mālukyaputta, bhikkhuno taṇhā pahīnā hoti ucchinnamūlā tālāvatthukatā anabhāvaṅkatā āyatiṁ anuppādadhammā, ayaṁ vuccati, mālukyaputta, ‘bhikkhu acchecchi taṇhaṁ, vivattayi saṁyojanaṁ, sammā mānābhisamayā antamakāsi dukkhassā’”ti. ",
+            "de": "Dieses <span class=\"ebt-matched\">Verlangen wird von einem Mönch aufgegeben</span>, an der Wurzel abgeschnitten, sodass es wie der Stumpf einer Palme ist, dass es ausgelöscht ist und sich in Zukunft nicht mehr erheben kann. Dann nennt man ihn einen Mönch, der das Verlangen abgeschnitten, die Fesseln gelöst, die Einbildung richtig erfasst und dadurch dem Leiden ein Ende gemacht hat.“ ",
+            "en": "That craving is given up by a mendicant, cut off at the root, made like a palm stump, obliterated, and unable to arise in the future. Then they’re called a mendicant who has cut off craving, cast off the fetters, and by rightly comprehending conceit has made an end of suffering.” ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an4/an4.257_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an4/an4.257_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an4/an4.257_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 21,
+          "de": 20,
+          "en": 20
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.048,
+        "segsMatched": 1,
+        "sutta_uid": "an4.257",
+        "title": "Nummerierte Lehrreden 4.257\n26. Das Kapitel über Einsicht\nMit Māluṅkyaputta",
+        "type": "translation"
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "de",
+    "docAuthor": "sabbamitta"
+  }
+}

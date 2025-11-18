@@ -1,0 +1,101 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sabbamitta",
+      "docLang": "de",
+      "docAuthor": "sabbamitta",
+      "includeUnpublished": false,
+      "lang": "de",
+      "langAuthor": "sabbamitta",
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "steckt nicht in der mitte",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "de",
+      "searchAuthor": "sabbamitta",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sabbamitta",
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "steckt nicht in der mitte",
+    "method": "phrase",
+    "resultPattern": "\\bsteckt\\snicht\\sin\\sder\\smitte",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/an/an6/an6.61_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an6/an6.61_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an6/an6.61_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "an6.61/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "an6.61:2.2": {
+            "scid": "an6.61:2.2",
+            "pli": "majjhe mantā na lippati; ",
+            "de": "und <span class=\"ebt-matched\">steckt nicht in der Mitte</span> fest: ",
+            "en": "and is not stuck in the middle: ",
+            "matched": true
+          },
+          "an6.61:11.2": {
+            "scid": "an6.61:11.2",
+            "pli": "majjhe mantā na lippati; ",
+            "de": "und <span class=\"ebt-matched\">steckt nicht in der Mitte</span> fest. ",
+            "en": "and is not stuck in the middle. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/an/an6/an6.61_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/an/an6/an6.61_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/an/an6/an6.61_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 56,
+          "de": 51,
+          "en": 55
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 2.036,
+        "segsMatched": 2,
+        "sutta_uid": "an6.61",
+        "title": "Nummerierte Lehrreden 6.61\n6. Das große Kapitel\nIn der Mitte",
+        "type": "translation"
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "de",
+    "docAuthor": "sabbamitta"
+  }
+}

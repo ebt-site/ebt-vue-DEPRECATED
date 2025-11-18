@@ -1,0 +1,101 @@
+{
+  "isPromise": true,
+  "volume": "Seeker.callSlowFind",
+  "args": [
+    {
+      "author": "sabbamitta",
+      "docLang": "de",
+      "docAuthor": "sabbamitta",
+      "includeUnpublished": false,
+      "lang": "de",
+      "langAuthor": "sabbamitta",
+      "languages": [
+        "pli",
+        "en",
+        "de"
+      ],
+      "matchHighlight": "<span class=\"ebt-matched\">$&</span>",
+      "maxDoc": 50,
+      "maxResults": 1000,
+      "minLang": 2,
+      "pattern": "gesichert",
+      "refAuthor": "sujato",
+      "refLang": "en",
+      "searchLang": "de",
+      "searchAuthor": "sabbamitta",
+      "showMatchesOnly": true,
+      "trilingual": false,
+      "types": [
+        "root",
+        "translation"
+      ]
+    }
+  ],
+  "value": {
+    "author": "sabbamitta",
+    "lang": "de",
+    "searchLang": "de",
+    "minLang": 2,
+    "maxDoc": 50,
+    "maxResults": 1000,
+    "pattern": "gesichert",
+    "method": "phrase",
+    "resultPattern": "\\bgesichert",
+    "segsMatched": 2,
+    "bilaraPaths": [
+      "root/pli/ms/sutta/dn/dn5_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn5_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn5_translation-en-sujato.json"
+    ],
+    "suttaRefs": [
+      "dn5/de/sabbamitta"
+    ],
+    "mlDocs": [
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "dn5:11.13": {
+            "scid": "dn5:11.13",
+            "pli": "Khemaṭṭhitā janapadā akaṇṭakā anuppīḷā. Manussā mudā modamānā ure putte naccentā apārutagharā maññe viharissantī’ti. ",
+            "de": "Wenn das Land als Refugium <span class=\"ebt-matched\">gesichert</span> ist, frei von Plünderung und Unterdrückung, tanzen die glücklichen Menschen, mit Freude im Herzen, während sie die Kinder an der Brust halten, und leben, als stünden ihre Häuser weit offen.‘ ",
+            "en": "When the country is secured as a sanctuary, free of being harried and oppressed, the happy people, with joy in their hearts, dancing with children at their breast, will dwell as if their houses were wide open.’ ",
+            "matched": true
+          },
+          "dn5:11.21": {
+            "scid": "dn5:11.21",
+            "pli": "Khemaṭṭhitā janapadā akaṇṭakā anuppīḷā manussā mudā modamānā ure putte naccentā apārutagharā maññe viharanti. ",
+            "de": "Da das Land als Refugium <span class=\"ebt-matched\">gesichert</span> ist, frei von Plünderung und Unterdrückung, tanzen die glücklichen Menschen, mit Freude im Herzen, während sie die Kinder an der Brust halten, und leben, als stünden ihre Häuser weit offen. ",
+            "en": "Since the country is secured as a sanctuary, free of being harried and oppressed, the happy people, with joy in their hearts, dancing with children at their breast, dwell as if their houses were wide open. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn5_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn5_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn5_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 374,
+          "de": 331,
+          "en": 373
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 2.005,
+        "segsMatched": 2,
+        "sutta_uid": "dn5",
+        "title": "Lange Lehrreden 5\nMit Kūṭadanta",
+        "type": "translation"
+      }
+    ],
+    "refLang": "en",
+    "refAuthor": "sujato",
+    "docLang": "de",
+    "docAuthor": "sabbamitta"
+  }
+}
