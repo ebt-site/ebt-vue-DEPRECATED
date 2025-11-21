@@ -39,53 +39,12 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "erkenntnis der sechs sinnesfelder",
-    "method": "phrase",
-    "resultPattern": "\\berkenntnis\\sder\\ssechs\\ssinnesfelder",
-    "segsMatched": 1,
-    "bilaraPaths": [
-      "root/pli/ms/sutta/sn/sn12/sn12.33_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/sn/sn12/sn12.33_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn12/sn12.33_translation-en-sujato.json"
-    ],
-    "suttaRefs": [
-      "sn12.33/de/sabbamitta"
-    ],
-    "mlDocs": [
-      {
-        "author": "Sabbamitta",
-        "segMap": {
-          "sn12.33:2.9": {
-            "scid": "sn12.33:2.9",
-            "pli": "saḷāyatane ñāṇaṁ … ",
-            "de": "<span class=\"ebt-matched\">Erkenntnis der sechs Sinnesfelder</span> … ",
-            "en": "Knowledge of the six sense fields … ",
-            "matched": true
-          }
-        },
-        "author_uid": "sabbamitta",
-        "bilaraPaths": [
-          "root/pli/ms/sutta/sn/sn12/sn12.33_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/sn/sn12/sn12.33_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/sn/sn12/sn12.33_translation-en-sujato.json"
-        ],
-        "category": "sutta",
-        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
-        "hyphen": "­",
-        "lang": "de",
-        "langSegs": {
-          "pli": 66,
-          "de": 65,
-          "en": 65
-        },
-        "maxWord": 30,
-        "minWord": 5,
-        "score": 1.015,
-        "segsMatched": 1,
-        "sutta_uid": "sn12.33",
-        "title": "Verbundene Lehrreden 12.33\n4. Das Kapitel mit Kaḷāra dem Adligen\nGrundlagen für Erkenntnis",
-        "type": "translation"
-      }
-    ],
+    "method": "keywords",
+    "resultPattern": "\\berkenntnis|\\bder|\\bsechs|\\bsinnesfelder",
+    "segsMatched": 0,
+    "bilaraPaths": [],
+    "suttaRefs": [],
+    "mlDocs": [],
     "refLang": "en",
     "refAuthor": "sujato",
     "docLang": "de",
