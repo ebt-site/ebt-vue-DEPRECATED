@@ -39,351 +39,126 @@
     "maxDoc": 50,
     "maxResults": 1000,
     "pattern": "eine bedingung für alter und tod",
-    "method": "phrase",
-    "resultPattern": "\\beine\\sbedingung\\sfür\\salter\\sund\\stod",
-    "segsMatched": 13,
+    "method": "keywords",
+    "resultPattern": "\\beine|\\bbedingung|\\bfür|\\balter|\\bund|\\btod",
+    "segsMatched": 2,
     "bilaraPaths": [
-      "root/pli/ms/sutta/sn/sn12/sn12.34_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/sn/sn12/sn12.34_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn12/sn12.34_translation-en-sujato.json",
-      "root/pli/ms/sutta/sn/sn12/sn12.68_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/sn/sn12/sn12.68_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn12/sn12.68_translation-en-sujato.json",
-      "root/pli/ms/sutta/sn/sn12/sn12.65_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/sn/sn12/sn12.65_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn12/sn12.65_translation-en-sujato.json",
       "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn14_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json",
-      "root/pli/ms/sutta/sn/sn12/sn12.70_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/sn/sn12/sn12.70_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn12/sn12.70_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn38_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn38_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn38_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn15_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn15_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn15_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn12/sn12.65_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn12/sn12.65_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.65_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn12/sn12.67_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.67_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn12/sn12.67_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn12/sn12.68_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn12/sn12.68_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.68_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an3/an3.61_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an3/an3.61_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an3/an3.61_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn12/sn12.35_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn12/sn12.35_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.35_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an10/an10.92_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an10/an10.92_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an10/an10.92_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn115_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn115_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn115_translation-en-sujato.json",
       "root/pli/ms/sutta/sn/sn12/sn12.36_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn12/sn12.36_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn12/sn12.36_translation-en-sujato.json",
-      "root/pli/ms/sutta/sn/sn12/sn12.35_root-pli-ms.json",
-      "translation/de/sabbamitta/sutta/sn/sn12/sn12.35_translation-de-sabbamitta.json",
-      "translation/en/sujato/sutta/sn/sn12/sn12.35_translation-en-sujato.json"
+      "root/pli/ms/sutta/sn/sn12/sn12.52_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn12/sn12.52_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.52_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn12/sn12.53_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn12/sn12.53_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.53_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn12/sn12.60_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn12/sn12.60_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.60_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn12/sn12.70_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn12/sn12.70_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.70_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn22/sn22.80_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn22/sn22.80_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn22/sn22.80_translation-en-sujato.json",
+      "root/pli/ms/sutta/an/an7/an7.66_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/an/an7/an7.66_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/an/an7/an7.66_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn25_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn25_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn25_translation-en-sujato.json",
+      "root/pli/ms/sutta/kn/thag/thag20.1_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/kn/thag/thag20.1_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/kn/thag/thag20.1_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn75_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn75_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn75_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn12/sn12.12_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn12/sn12.12_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.12_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn12/sn12.27_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn12/sn12.27_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.27_translation-en-sujato.json",
+      "root/pli/ms/sutta/sn/sn12/sn12.39_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/sn/sn12/sn12.39_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/sn/sn12/sn12.39_translation-en-sujato.json"
     ],
     "suttaRefs": [
-      "sn12.34/de/sabbamitta",
-      "sn12.68/de/sabbamitta",
-      "sn12.65/de/sabbamitta",
-      "dn14/de/sabbamitta",
-      "sn12.70/de/sabbamitta",
-      "sn12.67/de/sabbamitta",
-      "sn12.36/de/sabbamitta",
-      "sn12.35/de/sabbamitta"
+      "dn15/de/sabbamitta"
     ],
     "mlDocs": [
       {
         "author": "Sabbamitta",
         "segMap": {
-          "sn12.34:2.2": {
-            "scid": "sn12.34:2.2",
-            "pli": "Jātipaccayā jarāmaraṇanti ñāṇaṁ; ",
-            "de": "Das Erkennen, dass Wiedergeburt <span class=\"ebt-matched\">eine Bedingung für Alter und Tod</span> ist, ",
-            "en": "The knowledge that rebirth is a requirement for old age and death, ",
+          "dn15:2.1": {
+            "scid": "dn15:2.1",
+            "pli": "‘Atthi idappaccayā jarāmaraṇan’ti iti puṭṭhena satā, ānanda, atthītissa vacanīyaṁ. ",
+            "de": "Wenn du gefragt wirst: ‚Gibt es <span class=\"ebt-matched\">eine</span> spezifische <span class=\"ebt-matched\">Bedingung</span> <span class=\"ebt-matched\">für</span> <span class=\"ebt-matched\">Alter</span> <span class=\"ebt-matched\">und</span> <span class=\"ebt-matched\">Tod</span>?‘, sollst du antworten: ‚Die gibt es‘. ",
+            "en": "When asked, ‘Is there a specific condition for old age and death?’ you should answer, ‘There is.’ ",
             "matched": true
           },
-          "sn12.34:2.4": {
-            "scid": "sn12.34:2.4",
-            "pli": "atītampi addhānaṁ jātipaccayā jarāmaraṇanti ñāṇaṁ, asati jātiyā natthi jarāmaraṇanti ñāṇaṁ; ",
-            "de": "Ebenso in Bezug auf die Vergangenheit: das Erkennen, dass Wiedergeburt <span class=\"ebt-matched\">eine Bedingung für Alter und Tod</span> ist, und das Erkennen, dass es ohne Wiedergeburt Alter und Tod nicht gibt. ",
-            "en": "Also regarding the past: the knowledge that rebirth is a requirement for old age and death, and the knowledge that when rebirth doesn’t exist, there is no old age and death. ",
-            "matched": true
-          },
-          "sn12.34:2.5": {
-            "scid": "sn12.34:2.5",
-            "pli": "anāgatampi addhānaṁ jātipaccayā jarāmaraṇanti ñāṇaṁ, asati jātiyā natthi jarāmaraṇanti ñāṇaṁ; ",
-            "de": "Ebenso in Bezug auf die Zukunft: das Erkennen, dass Wiedergeburt <span class=\"ebt-matched\">eine Bedingung für Alter und Tod</span> ist, und das Erkennen, dass es ohne Wiedergeburt Alter und Tod nicht gibt. ",
-            "en": "Also regarding the future: the knowledge that rebirth is a requirement for old age and death, and the knowledge that when rebirth doesn’t exist, there is no old age and death. ",
+          "dn15:4.1": {
+            "scid": "dn15:4.1",
+            "pli": "‘Jātipaccayā jarāmaraṇan’ti iti kho panetaṁ vuttaṁ, tadānanda, imināpetaṁ pariyāyena veditabbaṁ, yathā jātipaccayā jarāmaraṇaṁ. ",
+            "de": "‚Wiedergeburt ist die <span class=\"ebt-matched\">Bedingung</span> <span class=\"ebt-matched\">für</span> <span class=\"ebt-matched\">Alter</span> <span class=\"ebt-matched\">und</span> <span class=\"ebt-matched\">Tod</span>‘ – das habe ich gesagt. <span class=\"ebt-matched\">Eine</span> Art, zu verstehen, wie das gemeint ist, ist diese: ",
+            "en": "‘Rebirth is a requirement for old age and death’—that’s what I said. And this is a way to <span class=\"ebt-matched\">und</span>erstand how this is so. ",
             "matched": true
           }
         },
         "author_uid": "sabbamitta",
         "bilaraPaths": [
-          "root/pli/ms/sutta/sn/sn12/sn12.34_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/sn/sn12/sn12.34_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/sn/sn12/sn12.34_translation-en-sujato.json"
+          "root/pli/ms/sutta/dn/dn15_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn15_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn15_translation-en-sujato.json"
         ],
         "category": "sutta",
         "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
         "hyphen": "­",
         "lang": "de",
         "langSegs": {
-          "pli": 29,
-          "de": 28,
-          "en": 28
+          "pli": 277,
+          "de": 254,
+          "en": 276
         },
         "maxWord": 30,
         "minWord": 5,
-        "score": 3.103,
-        "segsMatched": 3,
-        "sutta_uid": "sn12.34",
-        "title": "Verbundene Lehrreden 12.34\n4. Das Kapitel mit Kaḷāra dem Adligen\nGrundlagen für das Erkennen (2)",
-        "type": "translation"
-      },
-      {
-        "author": "Sabbamitta",
-        "segMap": {
-          "sn12.68:1.4": {
-            "scid": "sn12.68:1.4",
-            "pli": "‘jātipaccayā jarāmaraṇan’”ti? ",
-            "de": "dass Wiedergeburt <span class=\"ebt-matched\">eine Bedingung für Alter und Tod</span> ist?“ ",
-            "en": "rebirth is a requirement for old age and death?” ",
-            "matched": true
-          },
-          "sn12.68:1.6": {
-            "scid": "sn12.68:1.6",
-            "pli": "‘jātipaccayā jarāmaraṇan’”ti. ",
-            "de": "dass Wiedergeburt <span class=\"ebt-matched\">eine Bedingung für Alter und Tod</span> ist.“ ",
-            "en": "rebirth is a requirement for old age and death.” ",
-            "matched": true
-          }
-        },
-        "author_uid": "sabbamitta",
-        "bilaraPaths": [
-          "root/pli/ms/sutta/sn/sn12/sn12.68_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/sn/sn12/sn12.68_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/sn/sn12/sn12.68_translation-en-sujato.json"
-        ],
-        "category": "sutta",
-        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
-        "hyphen": "­",
-        "lang": "de",
-        "langSegs": {
-          "pli": 84,
-          "de": 66,
-          "en": 83
-        },
-        "maxWord": 30,
-        "minWord": 5,
-        "score": 2.024,
+        "score": 2.007,
         "segsMatched": 2,
-        "sutta_uid": "sn12.68",
-        "title": "Verbundene Lehrreden 12.68\n7. Das große Kapitel\nIn Kosambī",
-        "type": "translation"
-      },
-      {
-        "author": "Sabbamitta",
-        "segMap": {
-          "sn12.65:1.7": {
-            "scid": "sn12.65:1.7",
-            "pli": "‘kimhi nu kho sati jarāmaraṇaṁ hoti, kiṁpaccayā jarāmaraṇan’ti? ",
-            "de": "‚Wenn was besteht, gibt es Alter und Tod? Was ist <span class=\"ebt-matched\">eine Bedingung für Alter und Tod</span>?‘ ",
-            "en": "‘When what exists is there old age and death? What is a requirement for old age and death?’ ",
-            "matched": true
-          },
-          "sn12.65:1.9": {
-            "scid": "sn12.65:1.9",
-            "pli": "‘jātiyā kho sati jarāmaraṇaṁ hoti, jātipaccayā jarāmaraṇan’ti. ",
-            "de": "‚Wenn Wiedergeburt besteht, gibt es Alter und Tod. Wiedergeburt ist <span class=\"ebt-matched\">eine Bedingung für Alter und Tod</span>.‘ ",
-            "en": "‘When rebirth exists there’s old age and death. Rebirth is a requirement for old age and death.’ ",
-            "matched": true
-          }
-        },
-        "author_uid": "sabbamitta",
-        "bilaraPaths": [
-          "root/pli/ms/sutta/sn/sn12/sn12.65_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/sn/sn12/sn12.65_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/sn/sn12/sn12.65_translation-en-sujato.json"
-        ],
-        "category": "sutta",
-        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
-        "hyphen": "­",
-        "lang": "de",
-        "langSegs": {
-          "pli": 105,
-          "de": 102,
-          "en": 104
-        },
-        "maxWord": 30,
-        "minWord": 5,
-        "score": 2.019,
-        "segsMatched": 2,
-        "sutta_uid": "sn12.65",
-        "title": "Verbundene Lehrreden 12.65\n7. Das große Kapitel\nDie Stadt",
-        "type": "translation"
-      },
-      {
-        "author": "Sabbamitta",
-        "segMap": {
-          "dn14:2.18.5": {
-            "scid": "dn14:2.18.5",
-            "pli": "‘kimhi nu kho sati jarāmaraṇaṁ hoti, kiṁpaccayā jarāmaraṇan’ti? ",
-            "de": "‚Wenn was besteht, gibt es Alter und Tod? Was ist <span class=\"ebt-matched\">eine Bedingung für Alter und Tod</span>?‘ ",
-            "en": "‘When what exists is there old age and death? What is a requirement for old age and death?’ ",
-            "matched": true
-          },
-          "dn14:2.18.7": {
-            "scid": "dn14:2.18.7",
-            "pli": "‘jātiyā kho sati jarāmaraṇaṁ hoti, jātipaccayā jarāmaraṇan’ti. ",
-            "de": "‚Wenn Wiedergeburt besteht, gibt es Alter und Tod. Wiedergeburt ist <span class=\"ebt-matched\">eine Bedingung für Alter und Tod</span>.‘ ",
-            "en": "‘When rebirth exists there’s old age and death. Rebirth is a requirement for old age and death.’ ",
-            "matched": true
-          }
-        },
-        "author_uid": "sabbamitta",
-        "bilaraPaths": [
-          "root/pli/ms/sutta/dn/dn14_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/dn/dn14_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/dn/dn14_translation-en-sujato.json"
-        ],
-        "category": "sutta",
-        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
-        "hyphen": "­",
-        "lang": "de",
-        "langSegs": {
-          "pli": 851,
-          "de": 691,
-          "en": 850
-        },
-        "maxWord": 30,
-        "minWord": 5,
-        "score": 2.002,
-        "segsMatched": 2,
-        "sutta_uid": "dn14",
-        "title": "Lange Lehrreden 14\nDie große Lehrrede über hinterlassene Spuren",
-        "type": "translation"
-      },
-      {
-        "author": "Sabbamitta",
-        "segMap": {
-          "sn12.36:2.5": {
-            "scid": "sn12.36:2.5",
-            "pli": "‘jātipaccayā jarāmaraṇan’ti. ",
-            "de": "‚Wiedergeburt ist <span class=\"ebt-matched\">eine Bedingung für Alter und Tod</span>.‘ ",
-            "en": "‘Rebirth is a requirement for old age and death.’ ",
-            "matched": true
-          }
-        },
-        "author_uid": "sabbamitta",
-        "bilaraPaths": [
-          "root/pli/ms/sutta/sn/sn12/sn12.36_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/sn/sn12/sn12.36_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/sn/sn12/sn12.36_translation-en-sujato.json"
-        ],
-        "category": "sutta",
-        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
-        "hyphen": "­",
-        "lang": "de",
-        "langSegs": {
-          "pli": 42,
-          "de": 41,
-          "en": 41
-        },
-        "maxWord": 30,
-        "minWord": 5,
-        "score": 1.024,
-        "segsMatched": 1,
-        "sutta_uid": "sn12.36",
-        "title": "Verbundene Lehrreden 12.36\n4. Das Kapitel mit Kaḷāra dem Adligen\nUnwissenheit ist eine Bedingung (2)",
-        "type": "translation"
-      },
-      {
-        "author": "Sabbamitta",
-        "segMap": {
-          "sn12.35:1.11": {
-            "scid": "sn12.35:1.11",
-            "pli": "‘jātipaccayā jarāmaraṇan’”ti. ",
-            "de": "‚Wiedergeburt ist <span class=\"ebt-matched\">eine Bedingung für Alter und Tod</span>.‘“ ",
-            "en": "‘Rebirth is a requirement for old age and death.’” ",
-            "matched": true
-          }
-        },
-        "author_uid": "sabbamitta",
-        "bilaraPaths": [
-          "root/pli/ms/sutta/sn/sn12/sn12.35_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/sn/sn12/sn12.35_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/sn/sn12/sn12.35_translation-en-sujato.json"
-        ],
-        "category": "sutta",
-        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
-        "hyphen": "­",
-        "lang": "de",
-        "langSegs": {
-          "pli": 58,
-          "de": 57,
-          "en": 57
-        },
-        "maxWord": 30,
-        "minWord": 5,
-        "score": 1.017,
-        "segsMatched": 1,
-        "sutta_uid": "sn12.35",
-        "title": "Verbundene Lehrreden 12.35\n4. Das Kapitel mit Kaḷāra dem Adligen\nUnwissenheit ist eine Bedingung",
-        "type": "translation"
-      },
-      {
-        "author": "Sabbamitta",
-        "segMap": {
-          "sn12.67:1.6": {
-            "scid": "sn12.67:1.6",
-            "pli": "Api ca jātipaccayā jarāmaraṇan”ti. ",
-            "de": "Vielmehr ist Wiedergeburt <span class=\"ebt-matched\">eine Bedingung für Alter und Tod</span>.“ ",
-            "en": "Rather, rebirth is a requirement for old age and death.” ",
-            "matched": true
-          }
-        },
-        "author_uid": "sabbamitta",
-        "bilaraPaths": [
-          "root/pli/ms/sutta/sn/sn12/sn12.67_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/sn/sn12/sn12.67_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/sn/sn12/sn12.67_translation-en-sujato.json"
-        ],
-        "category": "sutta",
-        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
-        "hyphen": "­",
-        "lang": "de",
-        "langSegs": {
-          "pli": 67,
-          "de": 65,
-          "en": 66
-        },
-        "maxWord": 30,
-        "minWord": 5,
-        "score": 1.015,
-        "segsMatched": 1,
-        "sutta_uid": "sn12.67",
-        "title": "Verbundene Lehrreden 12.67\n7. Das große Kapitel\nSchilfbündel",
-        "type": "translation"
-      },
-      {
-        "author": "Sabbamitta",
-        "segMap": {
-          "sn12.70:18.1": {
-            "scid": "sn12.70:18.1",
-            "pli": "‘Jātipaccayā jarāmaraṇan’ti, susima, passasī”ti? ",
-            "de": "Susīma, siehst du, dass Wiedergeburt <span class=\"ebt-matched\">eine Bedingung für Alter und Tod</span> ist?“ ",
-            "en": "Susīma, do you see that rebirth is a requirement for old age and death?” ",
-            "matched": true
-          }
-        },
-        "author_uid": "sabbamitta",
-        "bilaraPaths": [
-          "root/pli/ms/sutta/sn/sn12/sn12.70_root-pli-ms.json",
-          "translation/de/sabbamitta/sutta/sn/sn12/sn12.70_translation-de-sabbamitta.json",
-          "translation/en/sujato/sutta/sn/sn12/sn12.70_translation-en-sujato.json"
-        ],
-        "category": "sutta",
-        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
-        "hyphen": "­",
-        "lang": "de",
-        "langSegs": {
-          "pli": 180,
-          "de": 166,
-          "en": 176
-        },
-        "maxWord": 30,
-        "minWord": 5,
-        "score": 1.006,
-        "segsMatched": 1,
-        "sutta_uid": "sn12.70",
-        "title": "Verbundene Lehrreden 12.70\n7. Das große Kapitel\nDer Wanderer Susīma",
+        "sutta_uid": "dn15",
+        "title": "Lange Lehrreden 15\nDie große Lehrrede über das Kausalprinzip",
         "type": "translation"
       }
     ],
