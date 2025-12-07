@@ -41,7 +41,7 @@
     "pattern": "giftschlange",
     "method": "phrase",
     "resultPattern": "\\bgiftschlange",
-    "segsMatched": 36,
+    "segsMatched": 38,
     "bilaraPaths": [
       "root/pli/ms/sutta/sn/sn35/sn35.238_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn35/sn35.238_translation-de-sabbamitta.json",
@@ -52,6 +52,9 @@
       "root/pli/ms/sutta/sn/sn35/sn35.69_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn35/sn35.69_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.69_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn105_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn105_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn105_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/cp/cp31_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/cp/cp31_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/cp/cp31_translation-en-sujato.json",
@@ -100,6 +103,7 @@
       "sn35.238/de/sabbamitta",
       "an4.110/de/sabbamitta",
       "sn35.69/de/sabbamitta",
+      "mn105/de/sabbamitta",
       "cp31/de/sabbamitta",
       "sn35.248/de/sabbamitta",
       "sn35.247/de/sabbamitta",
@@ -383,6 +387,47 @@
         "segsMatched": 2,
         "sutta_uid": "cp31",
         "title": "Korb des Verhaltens 31\nDas Kapitel mit Yudhañjaya\nDie Vollkommenheit der Wahrheit (5)\nDunkellichts Verhalten",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn105:30.1": {
+            "scid": "mn105:30.1",
+            "pli": "Seyyathāpi, sunakkhatta, āsīviso ghoraviso. ",
+            "de": "Wie wenn da eine tödliche <span class=\"ebt-matched\">Giftschlange</span> wäre, ",
+            "en": "Suppose there was a lethal viper. ",
+            "matched": true
+          },
+          "mn105:30.4": {
+            "scid": "mn105:30.4",
+            "pli": "api nu so puriso amussa āsīvisassa ghoravisassa hatthaṁ vā aṅguṭṭhaṁ vā dajjā yaṁ jaññā: ",
+            "de": "Würde dieser Mensch dieser <span class=\"ebt-matched\">Giftschlange</span> seine Hand oder seinen Finger hinhalten, wenn er wüsste, ",
+            "en": "Would that person give that lethal viper their hand or finger if they knew that ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn105_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn105_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn105_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 188,
+          "de": 181,
+          "en": 187
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 2.011,
+        "segsMatched": 2,
+        "sutta_uid": "mn105",
+        "title": "Mittlere Lehrreden 105\nMit Sunakkhatta",
         "type": "translation"
       },
       {

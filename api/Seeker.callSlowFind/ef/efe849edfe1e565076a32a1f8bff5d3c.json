@@ -41,7 +41,7 @@
     "pattern": "der eigentümer",
     "method": "phrase",
     "resultPattern": "\\bder\\seigentümer",
-    "segsMatched": 7,
+    "segsMatched": 8,
     "bilaraPaths": [
       "root/pli/ms/sutta/an/an5/an5.57_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.57_translation-de-sabbamitta.json",
@@ -49,6 +49,9 @@
       "root/pli/ms/sutta/dn/dn5_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn5_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn5_translation-en-sujato.json",
+      "root/pli/ms/sutta/dn/dn15_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/dn/dn15_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/dn/dn15_translation-en-sujato.json",
       "root/pli/ms/sutta/an/an5/an5.161_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/an/an5/an5.161_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/an/an5/an5.161_translation-en-sujato.json",
@@ -59,6 +62,7 @@
     "suttaRefs": [
       "an5.57/de/sabbamitta",
       "dn5/de/sabbamitta",
+      "dn15/de/sabbamitta",
       "an5.161/de/sabbamitta",
       "an10.48/de/sabbamitta"
     ],
@@ -184,6 +188,40 @@
         "segsMatched": 1,
         "sutta_uid": "an5.161",
         "title": "Nummerierte Lehrreden 5.161\n17. Das Kapitel über Groll\nSich von Groll losmachen (1)",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "dn15:12.2": {
+            "scid": "dn15:12.2",
+            "pli": "Pariggaho ca hi, ānanda, nābhavissa sabbena sabbaṁ sabbathā sabbaṁ kassaci kimhici, sabbaso pariggahe asati pariggahanirodhā api nu kho macchariyaṁ paññāyethā”ti? ",
+            "de": "Angenommen, es gäbe ganz und gar überhaupt keine Eigentümerschaft, nirgends und für niemanden. Wenn es überhaupt keine Eigentümerschaft gäbe, mit dem Aufhören <span class=\"ebt-matched\">der Eigentümer</span>schaft, wäre da noch Geiz zu finden?“ ",
+            "en": "Suppose there were totally and utterly no ownership for anyone anywhere. When there’s no ownership at all, with the cessation of ownership, would stinginess still be found?” ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/dn/dn15_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/dn/dn15_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/dn/dn15_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 277,
+          "de": 254,
+          "en": 276
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.004,
+        "segsMatched": 1,
+        "sutta_uid": "dn15",
+        "title": "Lange Lehrreden 15\nDie große Lehrrede über das Kausalprinzip",
         "type": "translation"
       },
       {

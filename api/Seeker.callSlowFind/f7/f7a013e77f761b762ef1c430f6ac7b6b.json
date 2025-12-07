@@ -41,7 +41,7 @@
     "pattern": "aus meiner unmittelbaren einsicht heraus gelehrt",
     "method": "phrase",
     "resultPattern": "\\baus\\smeiner\\sunmittelbaren\\seinsicht\\sheraus\\sgelehrt",
-    "segsMatched": 7,
+    "segsMatched": 8,
     "bilaraPaths": [
       "root/pli/ms/sutta/dn/dn29_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn29_translation-de-sabbamitta.json",
@@ -49,6 +49,9 @@
       "root/pli/ms/sutta/dn/dn16_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/dn/dn16_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/dn/dn16_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn104_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn104_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn104_translation-en-sujato.json",
       "root/pli/ms/sutta/mn/mn103_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn103_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/mn/mn103_translation-en-sujato.json"
@@ -56,6 +59,7 @@
     "suttaRefs": [
       "dn29/de/sabbamitta",
       "dn16/de/sabbamitta",
+      "mn104/de/sabbamitta",
       "mn103/de/sabbamitta"
     ],
     "mlDocs": [
@@ -187,6 +191,40 @@
         "segsMatched": 1,
         "sutta_uid": "mn103",
         "title": "Mittlere Lehrreden 103\nDenkt ihr so über mich?",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn104:5.2": {
+            "scid": "mn104:5.2",
+            "pli": "ye vo mayā dhammā abhiññā desitā, seyyathidaṁ—",
+            "de": "Siehst du auch nur zwei Mönche oder Nonnen, die bezüglich der Dinge, die ich <span class=\"ebt-matched\">aus meiner unmittelbaren Einsicht heraus gelehrt</span> habe, eine Meinungsverschiedenheit haben? ",
+            "en": "Do you see even two mendicants whose opinion differs regarding the things I have taught from my direct knowledge, that is, ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn104_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn104_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn104_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 166,
+          "de": 161,
+          "en": 165
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.006,
+        "segsMatched": 1,
+        "sutta_uid": "mn104",
+        "title": "Mittlere Lehrreden 104\nBeim Dorf Sāma",
         "type": "translation"
       }
     ],

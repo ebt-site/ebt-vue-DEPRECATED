@@ -41,7 +41,7 @@
     "pattern": "inneren sinnesfelder",
     "method": "phrase",
     "resultPattern": "\\binneren\\ssinnesfelder",
-    "segsMatched": 16,
+    "segsMatched": 17,
     "bilaraPaths": [
       "root/pli/ms/sutta/mn/mn146_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/mn/mn146_translation-de-sabbamitta.json",
@@ -67,6 +67,9 @@
       "root/pli/ms/sutta/sn/sn35/sn35.15_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/sn/sn35/sn35.15_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/sn/sn35/sn35.15_translation-en-sujato.json",
+      "root/pli/ms/sutta/mn/mn105_root-pli-ms.json",
+      "translation/de/sabbamitta/sutta/mn/mn105_translation-de-sabbamitta.json",
+      "translation/en/sujato/sutta/mn/mn105_translation-en-sujato.json",
       "root/pli/ms/sutta/kn/iti/vagga11/iti109_root-pli-ms.json",
       "translation/de/sabbamitta/sutta/kn/iti/vagga11/iti109_translation-de-sabbamitta.json",
       "translation/en/sujato/sutta/kn/iti/vagga11/iti109_translation-en-sujato.json",
@@ -86,6 +89,7 @@
       "sn35.241/de/sabbamitta",
       "sn35.238/de/sabbamitta",
       "sn35.15/de/sabbamitta",
+      "mn105/de/sabbamitta",
       "iti109/de/sabbamitta",
       "an6.61/de/sabbamitta",
       "an10.27/de/sabbamitta"
@@ -498,6 +502,40 @@
         "segsMatched": 1,
         "sutta_uid": "an10.27",
         "title": "Nummerierte Lehrreden 10.27\n3. Das große Kapitel\nDie großen Fragen (1)",
+        "type": "translation"
+      },
+      {
+        "author": "Sabbamitta",
+        "segMap": {
+          "mn105:27.3": {
+            "scid": "mn105:27.3",
+            "pli": "vaṇoti kho, sunakkhatta, channetaṁ ajjhattikānaṁ āyatanānaṁ adhivacanaṁ; ",
+            "de": "‚Wunde‘ ist ein Ausdruck für die sechs <span class=\"ebt-matched\">inneren Sinnesfelder</span>. ",
+            "en": "‘Wound’ is a term for the six interior sense fields. ",
+            "matched": true
+          }
+        },
+        "author_uid": "sabbamitta",
+        "bilaraPaths": [
+          "root/pli/ms/sutta/mn/mn105_root-pli-ms.json",
+          "translation/de/sabbamitta/sutta/mn/mn105_translation-de-sabbamitta.json",
+          "translation/en/sujato/sutta/mn/mn105_translation-en-sujato.json"
+        ],
+        "category": "sutta",
+        "footer": "<a href=\"https://suttacentral.net/licensing\" target=\"_blank\">SuttaCentral</a>",
+        "hyphen": "­",
+        "lang": "de",
+        "langSegs": {
+          "pli": 188,
+          "de": 181,
+          "en": 187
+        },
+        "maxWord": 30,
+        "minWord": 5,
+        "score": 1.005,
+        "segsMatched": 1,
+        "sutta_uid": "mn105",
+        "title": "Mittlere Lehrreden 105\nMit Sunakkhatta",
         "type": "translation"
       }
     ],
